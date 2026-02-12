@@ -406,7 +406,10 @@ def create_curl_command():
 --data-raw '{json.dumps(payload)}'
 """
     
-    with open("/Users/aniketmahato/Desktop/screener scaper/tradingview_curl_example.sh", "w") as f:
+    import os
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    example_path = os.path.join(BASE_DIR, "tradingview_curl_example.sh")
+    with open(example_path, "w") as f:
         f.write(curl_cmd)
     
     print("Curl command example saved to tradingview_curl_example.sh")

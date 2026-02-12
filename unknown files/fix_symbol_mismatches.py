@@ -168,8 +168,10 @@ def apply_manual_corrections(file_path, manual_fixes):
 
 def main():
     # File paths
-    tradingview_file = '/Users/aniketmahato/Desktop/screener scaper/tradingview_stocks_detailed.csv'
-    screener_file = '/Users/aniketmahato/Desktop/screener scaper/screener_stocks_by_industry_with_names.txt'
+    # Paths relative to script
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    tradingview_file = os.path.join(BASE_DIR, 'tradingview_stocks_detailed.csv')
+    screener_file = os.path.join(BASE_DIR, 'screener_stocks_by_industry_with_names.txt')
     
     print("Loading TradingView mappings...")
     name_to_symbol, symbol_to_name = load_tradingview_mappings(tradingview_file)

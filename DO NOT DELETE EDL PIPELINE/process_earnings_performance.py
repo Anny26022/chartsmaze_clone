@@ -5,9 +5,10 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # --- Configuration ---
-FILINGS_DIR = "/Users/aniketmahato/Desktop/Chartsmaze/DO NOT DELETE EDL PIPELINE/company_filings"
-OHLCV_DIR = "/Users/aniketmahato/Desktop/Chartsmaze/DO NOT DELETE EDL PIPELINE/ohlcv_data"
-MASTER_JSON = "/Users/aniketmahato/Desktop/Chartsmaze/do not delete edl pipeline/all_stocks_fundamental_analysis.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FILINGS_DIR = os.path.join(BASE_DIR, "company_filings")
+OHLCV_DIR = os.path.join(BASE_DIR, "ohlcv_data")
+MASTER_JSON = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 
 def get_earnings_info(filing_path):
     """Extract latest results date and time"""

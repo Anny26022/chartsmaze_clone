@@ -236,8 +236,10 @@ def create_correction_file(results, suggestions):
 
 def main():
     # File paths
-    tradingview_file = '/Users/aniketmahato/Desktop/screener scaper/tradingview_stocks_detailed.csv'
-    screener_file = '/Users/aniketmahato/Desktop/screener scaper/screener_stocks_by_industry_with_names.txt'
+    import os
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    tradingview_file = os.path.join(BASE_DIR, 'tradingview_stocks_detailed.csv')
+    screener_file = os.path.join(BASE_DIR, 'screener_stocks_by_industry_with_names.txt')
     
     print("Loading TradingView data...")
     tradingview_data = load_tradingview_data(tradingview_file)

@@ -6,8 +6,9 @@ import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- Configuration ---
-INPUT_FILE = "/Users/aniketmahato/Desktop/Chartsmaze/DO NOT DELETE EDL PIPELINE/master_isin_map.json"
-OUTPUT_DIR = "/Users/aniketmahato/Desktop/Chartsmaze/DO NOT DELETE EDL PIPELINE/company_filings"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_FILE = os.path.join(BASE_DIR, "master_isin_map.json")
+OUTPUT_DIR = os.path.join(BASE_DIR, "company_filings")
 MAX_THREADS = 20  # Fast with 20 threads
 
 USER_AGENTS = [

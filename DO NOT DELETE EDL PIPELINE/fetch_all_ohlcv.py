@@ -7,8 +7,9 @@ import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 # --- Configuration ---
-INPUT_FILE = "/Users/aniketmahato/Desktop/Chartsmaze/DO NOT DELETE EDL PIPELINE/dhan_data_response.json"
-OUTPUT_DIR = "/Users/aniketmahato/Desktop/Chartsmaze/DO NOT DELETE EDL PIPELINE/ohlcv_data"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_FILE = os.path.join(BASE_DIR, "dhan_data_response.json")
+OUTPUT_DIR = os.path.join(BASE_DIR, "ohlcv_data")
 MAX_THREADS = 15  # Adjust based on your internet speed (15-20 is safe)
 
 USER_AGENTS = [

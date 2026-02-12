@@ -5,10 +5,11 @@ import glob
 from concurrent.futures import ThreadPoolExecutor
 
 # --- Configuration ---
-JSON_INPUT = "/Users/aniketmahato/Desktop/Chartsmaze/do not delete edl pipeline/all_stocks_fundamental_analysis.json"
-PRICE_BANDS_FILE = "/Users/aniketmahato/Desktop/Chartsmaze/DO NOT DELETE EDL PIPELINE/complete_price_bands.json"
-OHLCV_DIR = "/Users/aniketmahato/Desktop/Chartsmaze/DO NOT DELETE EDL PIPELINE/ohlcv_data"
-JSON_OUTPUT = "/Users/aniketmahato/Desktop/Chartsmaze/do not delete edl pipeline/all_stocks_fundamental_analysis.json"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+JSON_INPUT = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
+PRICE_BANDS_FILE = os.path.join(BASE_DIR, "complete_price_bands.json")
+OHLCV_DIR = os.path.join(BASE_DIR, "ohlcv_data")
+JSON_OUTPUT = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 
 def calculate_ema(series, periods):
     return series.ewm(span=periods, adjust=False).mean()
