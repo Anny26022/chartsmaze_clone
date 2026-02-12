@@ -1,0 +1,48 @@
+name: Daily Data Refresh
+
+on:
+  schedule:
+    - cron: '30 12 * * 1-5' # Runs at 6:00 PM IST (12:30 UTC) Mon-Fri
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Cache OHLCV Data
+        uses: actions/cache@v4
+        with:
+          path: "DO NOT DELETE EDL PIPELINE/ohlcv_data"
+          key: ohlcv-cache-${{ runner.os }}-${{ hashFiles('**/master_isin_map.json') }}
+          restore-keys: |
+            ohlcv-cache-${{ runner.os }}-
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas beautifulsoup4
+
+      - name: Run Pipeline
+        run: |
+          cd "DO NOT DELETE EDL PIPELINE"
+          python run_full_pipeline.py
+
+      - name: Commit and Push Results
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add "DO NOT DELETE EDL PIPELINE/all_stocks_fundamental_analysis.json.gz"
+          git commit -m "Automated Daily Data Refresh [skip ci]" || echo "No changes to commit"
+          git push

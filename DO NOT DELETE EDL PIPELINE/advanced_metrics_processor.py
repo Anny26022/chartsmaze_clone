@@ -90,6 +90,7 @@ def process_symbol_csv(csv_path):
             "20 Days MA ADR(%)": round(adr_20, 2),
             "30 Days MA ADR(%)": round(adr_30, 2),
             "% from ATH": round(pct_from_ath, 2),
+            "ATH_Value": round(ath, 2),
             "Gap Up %": round(gap_up_pct, 2),
             "Day Range(%)": round(day_range_pct, 2),
             "6 Month Returns(%)": round(returns_6m, 2),
@@ -139,7 +140,19 @@ def main():
         
         # 2. Update Advanced Metrics
         if sym in advanced_metrics_map:
-            stock.update(advanced_metrics_map[sym])
+            metrics = advanced_metrics_map[sym]
+            
+            # --- HYBRID FIX: Eliminate 1-day lag ---
+            # Use Live LTP from master_data if available
+            live_ltp = pd.to_numeric(stock.get("Ltp"), errors='coerce')
+            if pd.notnull(live_ltp) and live_ltp > 0:
+                ath = metrics.get("ATH_Value", 0)
+                if ath > 0:
+                    metrics["% from ATH"] = round(((ath - live_ltp) / ath) * 100, 2)
+            
+            # Merge and clean up helper
+            stock.update(metrics)
+            if "ATH_Value" in stock: del stock["ATH_Value"]
         else:
             # Initialize with 0 for consistency if missing
             placeholders = [
