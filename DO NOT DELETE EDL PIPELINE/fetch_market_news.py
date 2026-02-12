@@ -2,11 +2,10 @@ import json
 import requests
 import os
 import time
-import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pipeline_utils import BASE_DIR, get_headers
 
 # --- Configuration ---
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_FILE = os.path.join(BASE_DIR, "master_isin_map.json")
 OUTPUT_DIR = os.path.join(BASE_DIR, "market_news")
 MAX_THREADS = 15  # 15 threads to be safe with this API
@@ -15,12 +14,6 @@ NEWS_LIMIT = 50   # User requested 50 news items per stock
 # Ensure output directory exists
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
-
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-]
 
 def fetch_market_news(item):
     """
@@ -50,10 +43,7 @@ def fetch_market_news(item):
         "entity_id": ""
     }
     
-    headers = {
-        "Content-Type": "application/json",
-        "User-Agent": random.choice(USER_AGENTS)
-    }
+    headers = get_headers()
     
     try:
         response = requests.post(url, json=payload, headers=headers, timeout=10)

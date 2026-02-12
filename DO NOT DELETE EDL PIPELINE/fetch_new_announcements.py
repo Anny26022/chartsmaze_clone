@@ -2,20 +2,13 @@ import json
 import requests
 import os
 import time
-import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pipeline_utils import BASE_DIR, get_headers
 
 # --- Configuration ---
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_FILE = os.path.join(BASE_DIR, "master_isin_map.json")
 OUTPUT_FILE = os.path.join(BASE_DIR, "all_company_announcements.json")
 MAX_THREADS = 40  # Faster for small payloads
-
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-]
 
 def fetch_announcements(item):
     """Fetch announcements for a single ISIN"""
@@ -24,10 +17,7 @@ def fetch_announcements(item):
     name = item.get("Name")
     
     api_url = "https://ow-static-scanx.dhan.co/staticscanx/announcements"
-    headers = {
-        "Content-Type": "application/json",
-        "User-Agent": random.choice(USER_AGENTS)
-    }
+    headers = get_headers()
 
     payload = {"data": {"isin": isin}}
 

@@ -1,6 +1,7 @@
 import requests
 import json
 import os
+from pipeline_utils import get_headers
 
 def fetch_all_dhan_data():
     url = "https://ow-scanx-analytics.dhan.co/customscan/fetchdt"
@@ -38,13 +39,7 @@ def fetch_all_dhan_data():
         }
     }
 
-    headers = {
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Accept": "application/json, text/plain, */*",
-        "Origin": "https://scanx.dhan.co",
-        "Referer": "https://scanx.dhan.co/"
-    }
+    headers = get_headers(include_origin=True)
 
     print(f"Fetching data from {url}...")
     try:

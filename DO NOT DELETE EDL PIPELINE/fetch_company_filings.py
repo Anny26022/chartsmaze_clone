@@ -2,23 +2,14 @@ import json
 import requests
 import os
 import time
-import random
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pipeline_utils import BASE_DIR, get_headers
 
 # --- Configuration ---
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_FILE = os.path.join(BASE_DIR, "master_isin_map.json")
 OUTPUT_DIR = os.path.join(BASE_DIR, "company_filings")
 MAX_THREADS = 20  # Fast with 20 threads
 FORCE_UPDATE = True # Set to True to refresh all filings
-
-USER_AGENTS = [
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Firefox/121.0",
-    "Mozilla/5.0 (Macintosh; Intel Mac OS X 14.2; rv:121.0) Gecko/20100101 Firefox/121.0"
-]
 
 def fetch_filings(item):
     symbol = item.get("Symbol")
@@ -37,10 +28,7 @@ def fetch_filings(item):
     url1 = "https://ow-static-scanx.dhan.co/staticscanx/company_filings"
     data1 = []
     
-    headers = {
-        "Content-Type": "application/json",
-        "User-Agent": random.choice(USER_AGENTS)
-    }
+    headers = get_headers()
 
     try:
         payload1 = {

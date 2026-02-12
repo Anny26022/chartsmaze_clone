@@ -1,16 +1,14 @@
 import requests
 import json
 import time
+from pipeline_utils import get_headers
 
 def fetch_fundamental_data():
     master_map_file = "master_isin_map.json"
     api_url = "https://open-web-scanx.dhan.co/scanx/fundamental"
     output_file = "fundamental_data.json"
     
-    headers = {
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    }
+    headers = get_headers()
 
     # 1. Load ISINs from Master Map
     try:

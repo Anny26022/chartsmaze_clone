@@ -2,14 +2,12 @@ import requests
 import json
 from datetime import datetime, timedelta
 import math
+from pipeline_utils import get_headers
 
 def fetch_bulk_block_deals():
     # Dhan API endpoint for bulk/block deals
     url = "https://ow-static-scanx.dhan.co/staticscanx/deal"
-    headers = {
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-    }
+    headers = get_headers()
 
     # API Limitation: "start date and end date difference is more than 240 hours" (10 days)
     # We want the last 30 days. We will fetch in 3 separate 10-day chunks.

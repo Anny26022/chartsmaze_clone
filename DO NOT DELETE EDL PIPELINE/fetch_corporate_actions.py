@@ -2,6 +2,7 @@ import requests
 import json
 from datetime import datetime, timedelta
 import os
+from pipeline_utils import get_headers
 
 def fetch_corporate_actions_scenarios():
     url = "https://ow-scanx-analytics.dhan.co/customscan/fetchdt"
@@ -13,12 +14,7 @@ def fetch_corporate_actions_scenarios():
     two_years_ago = (ist_now - timedelta(days=365 * 2)).strftime("%Y-%m-%d")
     two_months_forward = (ist_now + timedelta(days=60)).strftime("%Y-%m-%d")
 
-    headers = {
-        "Content-Type": "application/json",
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "Origin": "https://scanx.dhan.co",
-        "Referer": "https://scanx.dhan.co/"
-    }
+    headers = get_headers(include_origin=True)
 
     # Common parameters
     common_fields = ["CorpAct.ActType", "Sym", "DispSym", "CorpAct.ExDate", "CorpAct.RecDate", "CorpAct.Note"]
