@@ -1,0 +1,1484 @@
+[
+    {
+        "Symbol": "BANKNIFTY",
+        "Name": "Nifty Bank",
+        "Lot_Feb2026": 30,
+        "Lot_Mar2026": 30,
+        "Lot_Apr2026": 30
+    },
+    {
+        "Symbol": "FINNIFTY",
+        "Name": "Finnifty",
+        "Lot_Feb2026": 60,
+        "Lot_Mar2026": 60,
+        "Lot_Apr2026": 60
+    },
+    {
+        "Symbol": "MIDCPNIFTY",
+        "Name": "Nifty Midcap Select",
+        "Lot_Feb2026": 120,
+        "Lot_Mar2026": 120,
+        "Lot_Apr2026": 120
+    },
+    {
+        "Symbol": "NIFTY",
+        "Name": "Nifty 50",
+        "Lot_Feb2026": 65,
+        "Lot_Mar2026": 65,
+        "Lot_Apr2026": 65
+    },
+    {
+        "Symbol": "NIFTYNXT50",
+        "Name": "Nifty Next 50",
+        "Lot_Feb2026": 25,
+        "Lot_Mar2026": 25,
+        "Lot_Apr2026": 25
+    },
+    {
+        "Symbol": "360ONE",
+        "Name": "360 One WAM",
+        "Lot_Feb2026": 500,
+        "Lot_Mar2026": 500,
+        "Lot_Apr2026": 500
+    },
+    {
+        "Symbol": "ABB",
+        "Name": "ABB",
+        "Lot_Feb2026": 125,
+        "Lot_Mar2026": 125,
+        "Lot_Apr2026": 125
+    },
+    {
+        "Symbol": "ABCAPITAL",
+        "Name": "Aditya Birla Capital",
+        "Lot_Feb2026": 3100,
+        "Lot_Mar2026": 3100,
+        "Lot_Apr2026": 3100
+    },
+    {
+        "Symbol": "ADANIENSOL",
+        "Name": "Adani Energy Solutions",
+        "Lot_Feb2026": 675,
+        "Lot_Mar2026": 675,
+        "Lot_Apr2026": 675
+    },
+    {
+        "Symbol": "ADANIENT",
+        "Name": "Adani Enterprises",
+        "Lot_Feb2026": 309,
+        "Lot_Mar2026": 309,
+        "Lot_Apr2026": 309
+    },
+    {
+        "Symbol": "ADANIGREEN",
+        "Name": "Adani Green Energy",
+        "Lot_Feb2026": 600,
+        "Lot_Mar2026": 600,
+        "Lot_Apr2026": 600
+    },
+    {
+        "Symbol": "ADANIPORTS",
+        "Name": "Adani Ports & SEZ",
+        "Lot_Feb2026": 475,
+        "Lot_Mar2026": 475,
+        "Lot_Apr2026": 475
+    },
+    {
+        "Symbol": "ALKEM",
+        "Name": "Alkem Laboratories",
+        "Lot_Feb2026": 125,
+        "Lot_Mar2026": 125,
+        "Lot_Apr2026": 125
+    },
+    {
+        "Symbol": "AMBER",
+        "Name": "Amber Enterprises",
+        "Lot_Feb2026": 100,
+        "Lot_Mar2026": 100,
+        "Lot_Apr2026": 100
+    },
+    {
+        "Symbol": "AMBUJACEM",
+        "Name": "Ambuja Cements",
+        "Lot_Feb2026": 1050,
+        "Lot_Mar2026": 1050,
+        "Lot_Apr2026": 1050
+    },
+    {
+        "Symbol": "ANGELONE",
+        "Name": "Angel One",
+        "Lot_Feb2026": 250,
+        "Lot_Mar2026": 250,
+        "Lot_Apr2026": 250
+    },
+    {
+        "Symbol": "APLAPOLLO",
+        "Name": "APL Apollo Tubes",
+        "Lot_Feb2026": 350,
+        "Lot_Mar2026": 350,
+        "Lot_Apr2026": 350
+    },
+    {
+        "Symbol": "APOLLOHOSP",
+        "Name": "Apollo Hospitals",
+        "Lot_Feb2026": 125,
+        "Lot_Mar2026": 125,
+        "Lot_Apr2026": 125
+    },
+    {
+        "Symbol": "ASHOKLEY",
+        "Name": "Ashok Leyland",
+        "Lot_Feb2026": 5000,
+        "Lot_Mar2026": 5000,
+        "Lot_Apr2026": 5000
+    },
+    {
+        "Symbol": "ASIANPAINT",
+        "Name": "Asian Paints",
+        "Lot_Feb2026": 250,
+        "Lot_Mar2026": 250,
+        "Lot_Apr2026": 250
+    },
+    {
+        "Symbol": "ASTRAL",
+        "Name": "Astral",
+        "Lot_Feb2026": 425,
+        "Lot_Mar2026": 425,
+        "Lot_Apr2026": 425
+    },
+    {
+        "Symbol": "AUBANK",
+        "Name": "AU Small Finance Bank",
+        "Lot_Feb2026": 1000,
+        "Lot_Mar2026": 1000,
+        "Lot_Apr2026": 1000
+    },
+    {
+        "Symbol": "AUROPHARMA",
+        "Name": "Aurobindo Pharma",
+        "Lot_Feb2026": 550,
+        "Lot_Mar2026": 550,
+        "Lot_Apr2026": 550
+    },
+    {
+        "Symbol": "AXISBANK",
+        "Name": "Axis Bank",
+        "Lot_Feb2026": 625,
+        "Lot_Mar2026": 625,
+        "Lot_Apr2026": 625
+    },
+    {
+        "Symbol": "BAJAJ-AUTO",
+        "Name": "Bajaj Auto",
+        "Lot_AUTO": 75
+    },
+    {
+        "Symbol": "BAJAJFINSV",
+        "Name": "Bajaj Finserv",
+        "Lot_Feb2026": 250,
+        "Lot_Mar2026": 250,
+        "Lot_Apr2026": 250
+    },
+    {
+        "Symbol": "BAJAJHLDNG",
+        "Name": "Bajaj Holdings & Investments",
+        "Lot_Feb2026": 50,
+        "Lot_Mar2026": 50,
+        "Lot_Apr2026": 50
+    },
+    {
+        "Symbol": "BAJFINANCE",
+        "Name": "Bajaj Finance",
+        "Lot_Feb2026": 750,
+        "Lot_Mar2026": 750,
+        "Lot_Apr2026": 750
+    },
+    {
+        "Symbol": "BANDHANBNK",
+        "Name": "Bandhan Bank",
+        "Lot_Feb2026": 3600,
+        "Lot_Mar2026": 3600,
+        "Lot_Apr2026": 3600
+    },
+    {
+        "Symbol": "BANKBARODA",
+        "Name": "Bank of Baroda",
+        "Lot_Feb2026": 2925,
+        "Lot_Mar2026": 2925,
+        "Lot_Apr2026": 2925
+    },
+    {
+        "Symbol": "BANKINDIA",
+        "Name": "Bank of India",
+        "Lot_Feb2026": 5200,
+        "Lot_Mar2026": 5200,
+        "Lot_Apr2026": 5200
+    },
+    {
+        "Symbol": "BDL",
+        "Name": "Bharat Dynamics",
+        "Lot_Feb2026": 350,
+        "Lot_Mar2026": 350,
+        "Lot_Apr2026": 350
+    },
+    {
+        "Symbol": "BEL",
+        "Name": "Bharat Electronics",
+        "Lot_Feb2026": 1425,
+        "Lot_Mar2026": 1425,
+        "Lot_Apr2026": 1425
+    },
+    {
+        "Symbol": "BHARATFORG",
+        "Name": "Bharat Forge",
+        "Lot_Feb2026": 500,
+        "Lot_Mar2026": 500,
+        "Lot_Apr2026": 500
+    },
+    {
+        "Symbol": "BHARTIARTL",
+        "Name": "Bharti Airtel",
+        "Lot_Feb2026": 475,
+        "Lot_Mar2026": 475,
+        "Lot_Apr2026": 475
+    },
+    {
+        "Symbol": "BHEL",
+        "Name": "Bharat Heavy Electricals",
+        "Lot_Feb2026": 2625,
+        "Lot_Mar2026": 2625,
+        "Lot_Apr2026": 2625
+    },
+    {
+        "Symbol": "BIOCON",
+        "Name": "Biocon",
+        "Lot_Feb2026": 2500,
+        "Lot_Mar2026": 2500,
+        "Lot_Apr2026": 2500
+    },
+    {
+        "Symbol": "BLUESTARCO",
+        "Name": "Blue Star",
+        "Lot_Feb2026": 325,
+        "Lot_Mar2026": 325,
+        "Lot_Apr2026": 325
+    },
+    {
+        "Symbol": "BOSCHLTD",
+        "Name": "Bosch",
+        "Lot_Feb2026": 25,
+        "Lot_Mar2026": 25,
+        "Lot_Apr2026": 25
+    },
+    {
+        "Symbol": "BPCL",
+        "Name": "Bharat Petroleum",
+        "Lot_Feb2026": 1975,
+        "Lot_Mar2026": 1975,
+        "Lot_Apr2026": 1975
+    },
+    {
+        "Symbol": "BRITANNIA",
+        "Name": "Britannia Industries",
+        "Lot_Feb2026": 125,
+        "Lot_Mar2026": 125,
+        "Lot_Apr2026": 125
+    },
+    {
+        "Symbol": "BSE",
+        "Name": "BSE",
+        "Lot_Feb2026": 375,
+        "Lot_Mar2026": 375,
+        "Lot_Apr2026": 375
+    },
+    {
+        "Symbol": "CAMS",
+        "Name": "CAMS",
+        "Lot_Feb2026": 750,
+        "Lot_Mar2026": 750,
+        "Lot_Apr2026": 750
+    },
+    {
+        "Symbol": "CANBK",
+        "Name": "Canara Bank",
+        "Lot_Feb2026": 6750,
+        "Lot_Mar2026": 6750,
+        "Lot_Apr2026": 6750
+    },
+    {
+        "Symbol": "CDSL",
+        "Name": "CDSL",
+        "Lot_Feb2026": 475,
+        "Lot_Mar2026": 475,
+        "Lot_Apr2026": 475
+    },
+    {
+        "Symbol": "CGPOWER",
+        "Name": "CG Power & Industrial Solutions",
+        "Lot_Feb2026": 850,
+        "Lot_Mar2026": 850,
+        "Lot_Apr2026": 850
+    },
+    {
+        "Symbol": "CHOLAFIN",
+        "Name": "Cholamandalam Investment",
+        "Lot_Feb2026": 625,
+        "Lot_Mar2026": 625,
+        "Lot_Apr2026": 625
+    },
+    {
+        "Symbol": "CIPLA",
+        "Name": "Cipla",
+        "Lot_Feb2026": 375,
+        "Lot_Mar2026": 375,
+        "Lot_Apr2026": 375
+    },
+    {
+        "Symbol": "COALINDIA",
+        "Name": "Coal India",
+        "Lot_Feb2026": 1350,
+        "Lot_Mar2026": 1350,
+        "Lot_Apr2026": 1350
+    },
+    {
+        "Symbol": "COFORGE",
+        "Name": "Coforge",
+        "Lot_Feb2026": 375,
+        "Lot_Mar2026": 375,
+        "Lot_Apr2026": 375
+    },
+    {
+        "Symbol": "COLPAL",
+        "Name": "Colgate Palmolive",
+        "Lot_Feb2026": 225,
+        "Lot_Mar2026": 225,
+        "Lot_Apr2026": 225
+    },
+    {
+        "Symbol": "CONCOR",
+        "Name": "Container Corporation of India",
+        "Lot_Feb2026": 1250,
+        "Lot_Mar2026": 1250,
+        "Lot_Apr2026": 1250
+    },
+    {
+        "Symbol": "CROMPTON",
+        "Name": "Crompton Greaves",
+        "Lot_Feb2026": 1800,
+        "Lot_Mar2026": 1800,
+        "Lot_Apr2026": 1800
+    },
+    {
+        "Symbol": "CUMMINSIND",
+        "Name": "Cummins",
+        "Lot_Feb2026": 200,
+        "Lot_Mar2026": 200,
+        "Lot_Apr2026": 200
+    },
+    {
+        "Symbol": "DABUR",
+        "Name": "Dabur India",
+        "Lot_Feb2026": 1250,
+        "Lot_Mar2026": 1250,
+        "Lot_Apr2026": 1250
+    },
+    {
+        "Symbol": "DALBHARAT",
+        "Name": "Dalmia Bharat",
+        "Lot_Feb2026": 325,
+        "Lot_Mar2026": 325,
+        "Lot_Apr2026": 325
+    },
+    {
+        "Symbol": "DELHIVERY",
+        "Name": "Delhivery",
+        "Lot_Feb2026": 2075,
+        "Lot_Mar2026": 2075,
+        "Lot_Apr2026": 2075
+    },
+    {
+        "Symbol": "DIVISLAB",
+        "Name": "Divis Laboratories",
+        "Lot_Feb2026": 100,
+        "Lot_Mar2026": 100,
+        "Lot_Apr2026": 100
+    },
+    {
+        "Symbol": "DIXON",
+        "Name": "Dixon Technologies",
+        "Lot_Feb2026": 50,
+        "Lot_Mar2026": 50,
+        "Lot_Apr2026": 50
+    },
+    {
+        "Symbol": "DLF",
+        "Name": "DLF",
+        "Lot_Feb2026": 825,
+        "Lot_Mar2026": 825,
+        "Lot_Apr2026": 825
+    },
+    {
+        "Symbol": "DMART",
+        "Name": "Avenue Supermarts DMart",
+        "Lot_Feb2026": 150,
+        "Lot_Mar2026": 150,
+        "Lot_Apr2026": 150
+    },
+    {
+        "Symbol": "DRREDDY",
+        "Name": "Dr Reddys Laboratories",
+        "Lot_Feb2026": 625,
+        "Lot_Mar2026": 625,
+        "Lot_Apr2026": 625
+    },
+    {
+        "Symbol": "EICHERMOT",
+        "Name": "Eicher Motors",
+        "Lot_Feb2026": 100,
+        "Lot_Mar2026": 100,
+        "Lot_Apr2026": 100
+    },
+    {
+        "Symbol": "ETERNAL",
+        "Name": "Eternal",
+        "Lot_Feb2026": 2425,
+        "Lot_Mar2026": 2425,
+        "Lot_Apr2026": 2425
+    },
+    {
+        "Symbol": "EXIDEIND",
+        "Name": "Exide Industries",
+        "Lot_Feb2026": 1800,
+        "Lot_Mar2026": 1800,
+        "Lot_Apr2026": 1800
+    },
+    {
+        "Symbol": "FEDERALBNK",
+        "Name": "Federal Bank",
+        "Lot_Feb2026": 5000,
+        "Lot_Mar2026": 5000,
+        "Lot_Apr2026": 5000
+    },
+    {
+        "Symbol": "FORTIS",
+        "Name": "Fortis Healthcare",
+        "Lot_Feb2026": 775,
+        "Lot_Mar2026": 775,
+        "Lot_Apr2026": 775
+    },
+    {
+        "Symbol": "GAIL",
+        "Name": "GAIL",
+        "Lot_Feb2026": 3150,
+        "Lot_Mar2026": 3150,
+        "Lot_Apr2026": 3150
+    },
+    {
+        "Symbol": "GLENMARK",
+        "Name": "Glenmark Pharmaceuticals",
+        "Lot_Feb2026": 375,
+        "Lot_Mar2026": 375,
+        "Lot_Apr2026": 375
+    },
+    {
+        "Symbol": "GMRAIRPORT",
+        "Name": "GMR Airports",
+        "Lot_Feb2026": 6975,
+        "Lot_Mar2026": 6975,
+        "Lot_Apr2026": 6975
+    },
+    {
+        "Symbol": "GODREJCP",
+        "Name": "Godrej Consumer Products",
+        "Lot_Feb2026": 500,
+        "Lot_Mar2026": 500,
+        "Lot_Apr2026": 500
+    },
+    {
+        "Symbol": "GODREJPROP",
+        "Name": "Godrej Properties",
+        "Lot_Feb2026": 275,
+        "Lot_Mar2026": 275,
+        "Lot_Apr2026": 275
+    },
+    {
+        "Symbol": "GRASIM",
+        "Name": "Grasim Industries",
+        "Lot_Feb2026": 250,
+        "Lot_Mar2026": 250,
+        "Lot_Apr2026": 250
+    },
+    {
+        "Symbol": "HAL",
+        "Name": "Hindustan Aeronautics",
+        "Lot_Feb2026": 150,
+        "Lot_Mar2026": 150,
+        "Lot_Apr2026": 150
+    },
+    {
+        "Symbol": "HAVELLS",
+        "Name": "Havells",
+        "Lot_Feb2026": 500,
+        "Lot_Mar2026": 500,
+        "Lot_Apr2026": 500
+    },
+    {
+        "Symbol": "HCLTECH",
+        "Name": "HCL Technologies",
+        "Lot_Feb2026": 350,
+        "Lot_Mar2026": 350,
+        "Lot_Apr2026": 350
+    },
+    {
+        "Symbol": "HDFCAMC",
+        "Name": "HDFC AMC",
+        "Lot_Feb2026": 300,
+        "Lot_Mar2026": 300,
+        "Lot_Apr2026": 300
+    },
+    {
+        "Symbol": "HDFCBANK",
+        "Name": "HDFC Bank",
+        "Lot_Feb2026": 550,
+        "Lot_Mar2026": 550,
+        "Lot_Apr2026": 550
+    },
+    {
+        "Symbol": "HDFCLIFE",
+        "Name": "HDFC Life Insurance",
+        "Lot_Feb2026": 1100,
+        "Lot_Mar2026": 1100,
+        "Lot_Apr2026": 1100
+    },
+    {
+        "Symbol": "HEROMOTOCO",
+        "Name": "Hero Motocorp",
+        "Lot_Feb2026": 150,
+        "Lot_Mar2026": 150,
+        "Lot_Apr2026": 150
+    },
+    {
+        "Symbol": "HINDALCO",
+        "Name": "Hindalco Industries",
+        "Lot_Feb2026": 700,
+        "Lot_Mar2026": 700,
+        "Lot_Apr2026": 700
+    },
+    {
+        "Symbol": "HINDPETRO",
+        "Name": "Hindustan Petroleum",
+        "Lot_Feb2026": 2025,
+        "Lot_Mar2026": 2025,
+        "Lot_Apr2026": 2025
+    },
+    {
+        "Symbol": "HINDUNILVR",
+        "Name": "Hindustan Unilever",
+        "Lot_Feb2026": 300,
+        "Lot_Mar2026": 300,
+        "Lot_Apr2026": 300
+    },
+    {
+        "Symbol": "HINDZINC",
+        "Name": "Hindustan Zinc",
+        "Lot_Feb2026": 1225,
+        "Lot_Mar2026": 1225,
+        "Lot_Apr2026": 1225
+    },
+    {
+        "Symbol": "HUDCO",
+        "Name": "HUDCO",
+        "Lot_Feb2026": 2775,
+        "Lot_Mar2026": 2775,
+        "Lot_Apr2026": 2775
+    },
+    {
+        "Symbol": "ICICIBANK",
+        "Name": "ICICI Bank",
+        "Lot_Feb2026": 700,
+        "Lot_Mar2026": 700,
+        "Lot_Apr2026": 700
+    },
+    {
+        "Symbol": "ICICIGI",
+        "Name": "ICICI Lombard General Insurance",
+        "Lot_Feb2026": 325,
+        "Lot_Mar2026": 325,
+        "Lot_Apr2026": 325
+    },
+    {
+        "Symbol": "ICICIPRULI",
+        "Name": "ICICI Prudential Life Insurance",
+        "Lot_Feb2026": 925,
+        "Lot_Mar2026": 925,
+        "Lot_Apr2026": 925
+    },
+    {
+        "Symbol": "IDEA",
+        "Name": "Vodafone Idea",
+        "Lot_Feb2026": 71475,
+        "Lot_Mar2026": 71475,
+        "Lot_Apr2026": 71475
+    },
+    {
+        "Symbol": "IDFCFIRSTB",
+        "Name": "IDFC First Bank",
+        "Lot_Feb2026": 9275,
+        "Lot_Mar2026": 9275,
+        "Lot_Apr2026": 9275
+    },
+    {
+        "Symbol": "IEX",
+        "Name": "Indian Energy Exchange",
+        "Lot_Feb2026": 3750,
+        "Lot_Mar2026": 3750,
+        "Lot_Apr2026": 3750
+    },
+    {
+        "Symbol": "INDHOTEL",
+        "Name": "Indian Hotels Company",
+        "Lot_Feb2026": 1000,
+        "Lot_Mar2026": 1000,
+        "Lot_Apr2026": 1000
+    },
+    {
+        "Symbol": "INDIANB",
+        "Name": "Indian Bank",
+        "Lot_Feb2026": 1000,
+        "Lot_Mar2026": 1000,
+        "Lot_Apr2026": 1000
+    },
+    {
+        "Symbol": "INDIGO",
+        "Name": "Interglobe Aviation",
+        "Lot_Feb2026": 150,
+        "Lot_Mar2026": 150,
+        "Lot_Apr2026": 150
+    },
+    {
+        "Symbol": "INDUSINDBK",
+        "Name": "Indusind Bank",
+        "Lot_Feb2026": 700,
+        "Lot_Mar2026": 700,
+        "Lot_Apr2026": 700
+    },
+    {
+        "Symbol": "INDUSTOWER",
+        "Name": "Indus Towers",
+        "Lot_Feb2026": 1700,
+        "Lot_Mar2026": 1700,
+        "Lot_Apr2026": 1700
+    },
+    {
+        "Symbol": "INFY",
+        "Name": "Infosys",
+        "Lot_Feb2026": 400,
+        "Lot_Mar2026": 400,
+        "Lot_Apr2026": 400
+    },
+    {
+        "Symbol": "INOXWIND",
+        "Name": "Inox Wind",
+        "Lot_Feb2026": 3575,
+        "Lot_Mar2026": 3575,
+        "Lot_Apr2026": 3575
+    },
+    {
+        "Symbol": "IOC",
+        "Name": "Indian Oil Corporation",
+        "Lot_Feb2026": 4875,
+        "Lot_Mar2026": 4875,
+        "Lot_Apr2026": 4875
+    },
+    {
+        "Symbol": "IRCTC",
+        "Name": "IRCTC",
+        "Lot_Feb2026": 875,
+        "Lot_Month_2": 0,
+        "Lot_Month_3": 0
+    },
+    {
+        "Symbol": "IREDA",
+        "Name": "IREDA",
+        "Lot_Feb2026": 3450,
+        "Lot_Mar2026": 3450,
+        "Lot_Apr2026": 3450
+    },
+    {
+        "Symbol": "IRFC",
+        "Name": "IRFC",
+        "Lot_Feb2026": 4250,
+        "Lot_Mar2026": 4250,
+        "Lot_Apr2026": 4250
+    },
+    {
+        "Symbol": "ITC",
+        "Name": "ITC",
+        "Lot_Feb2026": 1600,
+        "Lot_Mar2026": 1600,
+        "Lot_Apr2026": 1600
+    },
+    {
+        "Symbol": "JINDALSTEL",
+        "Name": "Jindal Steel",
+        "Lot_Feb2026": 625,
+        "Lot_Mar2026": 625,
+        "Lot_Apr2026": 625
+    },
+    {
+        "Symbol": "JIOFIN",
+        "Name": "Jio Financial Services",
+        "Lot_Feb2026": 2350,
+        "Lot_Mar2026": 2350,
+        "Lot_Apr2026": 2350
+    },
+    {
+        "Symbol": "JSWENERGY",
+        "Name": "JSW Energy",
+        "Lot_Feb2026": 1000,
+        "Lot_Mar2026": 1000,
+        "Lot_Apr2026": 1000
+    },
+    {
+        "Symbol": "JSWSTEEL",
+        "Name": "JSW Steel",
+        "Lot_Feb2026": 675,
+        "Lot_Mar2026": 675,
+        "Lot_Apr2026": 675
+    },
+    {
+        "Symbol": "JUBLFOOD",
+        "Name": "Jubilant FoodWorks",
+        "Lot_Feb2026": 1250,
+        "Lot_Mar2026": 1250,
+        "Lot_Apr2026": 1250
+    },
+    {
+        "Symbol": "KALYANKJIL",
+        "Name": "Kalyan Jewellers",
+        "Lot_Feb2026": 1175,
+        "Lot_Mar2026": 1175,
+        "Lot_Apr2026": 1175
+    },
+    {
+        "Symbol": "KAYNES",
+        "Name": "Kaynes Technology India",
+        "Lot_Feb2026": 100,
+        "Lot_Mar2026": 100,
+        "Lot_Apr2026": 100
+    },
+    {
+        "Symbol": "KEI",
+        "Name": "KEI Industries",
+        "Lot_Feb2026": 175,
+        "Lot_Mar2026": 175,
+        "Lot_Apr2026": 175
+    },
+    {
+        "Symbol": "KFINTECH",
+        "Name": "KFin Technologies",
+        "Lot_Feb2026": 500,
+        "Lot_Mar2026": 500,
+        "Lot_Apr2026": 500
+    },
+    {
+        "Symbol": "KOTAKBANK",
+        "Name": "Kotak Bank",
+        "Lot_Feb2026": 2000,
+        "Lot_Mar2026": 2000,
+        "Lot_Apr2026": 2000
+    },
+    {
+        "Symbol": "KPITTECH",
+        "Name": "KPIT Technologies",
+        "Lot_Feb2026": 425,
+        "Lot_Mar2026": 425,
+        "Lot_Apr2026": 425
+    },
+    {
+        "Symbol": "LAURUSLABS",
+        "Name": "Laurus Labs",
+        "Lot_Feb2026": 850,
+        "Lot_Mar2026": 850,
+        "Lot_Apr2026": 850
+    },
+    {
+        "Symbol": "LICHSGFIN",
+        "Name": "LIC Housing Finance",
+        "Lot_Feb2026": 1000,
+        "Lot_Mar2026": 1000,
+        "Lot_Apr2026": 1000
+    },
+    {
+        "Symbol": "LICI",
+        "Name": "LIC of India",
+        "Lot_Feb2026": 700,
+        "Lot_Mar2026": 700,
+        "Lot_Apr2026": 700
+    },
+    {
+        "Symbol": "LODHA",
+        "Name": "Lodha Developers",
+        "Lot_Feb2026": 450,
+        "Lot_Mar2026": 450,
+        "Lot_Apr2026": 450
+    },
+    {
+        "Symbol": "LT",
+        "Name": "Larsen & Toubro",
+        "Lot_Feb2026": 175,
+        "Lot_Mar2026": 175,
+        "Lot_Apr2026": 175
+    },
+    {
+        "Symbol": "LTF",
+        "Name": "L&T Finance",
+        "Lot_Feb2026": 2250,
+        "Lot_Mar2026": 2250,
+        "Lot_Apr2026": 2250
+    },
+    {
+        "Symbol": "LTIM",
+        "Name": "LTI Mindtree",
+        "Lot_Feb2026": 150,
+        "Lot_Mar2026": 150,
+        "Lot_Apr2026": 150
+    },
+    {
+        "Symbol": "LUPIN",
+        "Name": "Lupin",
+        "Lot_Feb2026": 425,
+        "Lot_Mar2026": 425,
+        "Lot_Apr2026": 425
+    },
+    {
+        "Symbol": "M&M",
+        "Name": "Mahindra & Mahindra",
+        "Lot_Feb2026": 200,
+        "Lot_Mar2026": 200,
+        "Lot_Apr2026": 200
+    },
+    {
+        "Symbol": "MANAPPURAM",
+        "Name": "Manappuram Finance",
+        "Lot_Feb2026": 3000,
+        "Lot_Mar2026": 3000,
+        "Lot_Apr2026": 3000
+    },
+    {
+        "Symbol": "MANKIND",
+        "Name": "Mankind Pharma",
+        "Lot_Feb2026": 225,
+        "Lot_Mar2026": 225,
+        "Lot_Apr2026": 225
+    },
+    {
+        "Symbol": "MARICO",
+        "Name": "Marico",
+        "Lot_Feb2026": 1200,
+        "Lot_Mar2026": 1200,
+        "Lot_Apr2026": 1200
+    },
+    {
+        "Symbol": "MARUTI",
+        "Name": "Maruti Suzuki",
+        "Lot_Feb2026": 50,
+        "Lot_Mar2026": 50,
+        "Lot_Apr2026": 50
+    },
+    {
+        "Symbol": "MAXHEALTH",
+        "Name": "Max Healthcare Institute",
+        "Lot_Feb2026": 525,
+        "Lot_Mar2026": 525,
+        "Lot_Apr2026": 525
+    },
+    {
+        "Symbol": "MAZDOCK",
+        "Name": "Mazagon Dock Shipbuilders",
+        "Lot_Feb2026": 200,
+        "Lot_Mar2026": 200,
+        "Lot_Apr2026": 200
+    },
+    {
+        "Symbol": "MCX",
+        "Name": "MCX",
+        "Lot_Feb2026": 625,
+        "Lot_Mar2026": 625,
+        "Lot_Apr2026": 625
+    },
+    {
+        "Symbol": "MFSL",
+        "Name": "Max Financial Services",
+        "Lot_Feb2026": 400,
+        "Lot_Mar2026": 400,
+        "Lot_Apr2026": 400
+    },
+    {
+        "Symbol": "MOTHERSON",
+        "Name": "Samvardhana Motherson International",
+        "Lot_Feb2026": 6150,
+        "Lot_Mar2026": 6150,
+        "Lot_Apr2026": 6150
+    },
+    {
+        "Symbol": "MPHASIS",
+        "Name": "Mphasis",
+        "Lot_Feb2026": 275,
+        "Lot_Mar2026": 275,
+        "Lot_Apr2026": 275
+    },
+    {
+        "Symbol": "MUTHOOTFIN",
+        "Name": "Muthoot Finance",
+        "Lot_Feb2026": 275,
+        "Lot_Mar2026": 275,
+        "Lot_Apr2026": 275
+    },
+    {
+        "Symbol": "NATIONALUM",
+        "Name": "NALCO",
+        "Lot_Feb2026": 3750,
+        "Lot_Mar2026": 3750,
+        "Lot_Apr2026": 3750
+    },
+    {
+        "Symbol": "NAUKRI",
+        "Name": "Info Edge",
+        "Lot_Feb2026": 375,
+        "Lot_Mar2026": 375,
+        "Lot_Apr2026": 375
+    },
+    {
+        "Symbol": "NBCC",
+        "Name": "NBCC",
+        "Lot_Feb2026": 6500,
+        "Lot_Mar2026": 6500,
+        "Lot_Apr2026": 6500
+    },
+    {
+        "Symbol": "NESTLEIND",
+        "Name": "Nestle",
+        "Lot_Feb2026": 500,
+        "Lot_Mar2026": 500,
+        "Lot_Apr2026": 500
+    },
+    {
+        "Symbol": "NHPC",
+        "Name": "NHPC",
+        "Lot_Feb2026": 6400,
+        "Lot_Mar2026": 6400,
+        "Lot_Apr2026": 6400
+    },
+    {
+        "Symbol": "NMDC",
+        "Name": "NMDC",
+        "Lot_Feb2026": 6750,
+        "Lot_Mar2026": 6750,
+        "Lot_Apr2026": 6750
+    },
+    {
+        "Symbol": "NTPC",
+        "Name": "NTPC",
+        "Lot_Feb2026": 1500,
+        "Lot_Mar2026": 1500,
+        "Lot_Apr2026": 1500
+    },
+    {
+        "Symbol": "NUVAMA",
+        "Name": "Nuvama Wealth Management",
+        "Lot_Feb2026": 500,
+        "Lot_Mar2026": 500,
+        "Lot_Apr2026": 500
+    },
+    {
+        "Symbol": "NYKAA",
+        "Name": "Nykaa",
+        "Lot_Feb2026": 3125,
+        "Lot_Mar2026": 3125,
+        "Lot_Apr2026": 3125
+    },
+    {
+        "Symbol": "OBEROIRLTY",
+        "Name": "Oberoi Realty",
+        "Lot_Feb2026": 350,
+        "Lot_Mar2026": 350,
+        "Lot_Apr2026": 350
+    },
+    {
+        "Symbol": "OFSS",
+        "Name": "Oracle Financial Services Software",
+        "Lot_Feb2026": 75,
+        "Lot_Mar2026": 75,
+        "Lot_Apr2026": 75
+    },
+    {
+        "Symbol": "OIL",
+        "Name": "Oil India",
+        "Lot_Feb2026": 1400,
+        "Lot_Mar2026": 1400,
+        "Lot_Apr2026": 1400
+    },
+    {
+        "Symbol": "ONGC",
+        "Name": "Oil & Natural Gas Corporation",
+        "Lot_Feb2026": 2250,
+        "Lot_Mar2026": 2250,
+        "Lot_Apr2026": 2250
+    },
+    {
+        "Symbol": "PAGEIND",
+        "Name": "Page Industries",
+        "Lot_Feb2026": 15,
+        "Lot_Mar2026": 15,
+        "Lot_Apr2026": 15
+    },
+    {
+        "Symbol": "PATANJALI",
+        "Name": "Patanjali Foods",
+        "Lot_Feb2026": 900,
+        "Lot_Mar2026": 900,
+        "Lot_Apr2026": 900
+    },
+    {
+        "Symbol": "PAYTM",
+        "Name": "One 97 Communications",
+        "Lot_Feb2026": 725,
+        "Lot_Mar2026": 725,
+        "Lot_Apr2026": 725
+    },
+    {
+        "Symbol": "PERSISTENT",
+        "Name": "Persistent Systems",
+        "Lot_Feb2026": 100,
+        "Lot_Mar2026": 100,
+        "Lot_Apr2026": 100
+    },
+    {
+        "Symbol": "PETRONET",
+        "Name": "Petronet LNG",
+        "Lot_Feb2026": 1900,
+        "Lot_Mar2026": 1900,
+        "Lot_Apr2026": 1900
+    },
+    {
+        "Symbol": "PFC",
+        "Name": "Power Finance Corporation",
+        "Lot_Feb2026": 1300,
+        "Lot_Mar2026": 1300,
+        "Lot_Apr2026": 1300
+    },
+    {
+        "Symbol": "PGEL",
+        "Name": "PG Electroplast",
+        "Lot_Feb2026": 950,
+        "Lot_Mar2026": 950,
+        "Lot_Apr2026": 950
+    },
+    {
+        "Symbol": "PHOENIXLTD",
+        "Name": "Phoenix Mills",
+        "Lot_Feb2026": 350,
+        "Lot_Mar2026": 350,
+        "Lot_Apr2026": 350
+    },
+    {
+        "Symbol": "PIDILITIND",
+        "Name": "Pidilite Industries",
+        "Lot_Feb2026": 500,
+        "Lot_Mar2026": 500,
+        "Lot_Apr2026": 500
+    },
+    {
+        "Symbol": "PIIND",
+        "Name": "PI Industries",
+        "Lot_Feb2026": 175,
+        "Lot_Mar2026": 175,
+        "Lot_Apr2026": 175
+    },
+    {
+        "Symbol": "PNB",
+        "Name": "Punjab National Bank",
+        "Lot_Feb2026": 8000,
+        "Lot_Mar2026": 8000,
+        "Lot_Apr2026": 8000
+    },
+    {
+        "Symbol": "PNBHOUSING",
+        "Name": "PNB Housing Finance",
+        "Lot_Feb2026": 650,
+        "Lot_Mar2026": 650,
+        "Lot_Apr2026": 650
+    },
+    {
+        "Symbol": "POLICYBZR",
+        "Name": "PB FinTech",
+        "Lot_Feb2026": 350,
+        "Lot_Mar2026": 350,
+        "Lot_Apr2026": 350
+    },
+    {
+        "Symbol": "POLYCAB",
+        "Name": "Polycab",
+        "Lot_Feb2026": 125,
+        "Lot_Mar2026": 125,
+        "Lot_Apr2026": 125
+    },
+    {
+        "Symbol": "POWERGRID",
+        "Name": "Power Grid Corporation of India",
+        "Lot_Feb2026": 1900,
+        "Lot_Mar2026": 1900,
+        "Lot_Apr2026": 1900
+    },
+    {
+        "Symbol": "POWERINDIA",
+        "Name": "Hitachi Energy",
+        "Lot_Feb2026": 50,
+        "Lot_Mar2026": 50,
+        "Lot_Apr2026": 50
+    },
+    {
+        "Symbol": "PPLPHARMA",
+        "Name": "Piramal Pharma",
+        "Lot_Feb2026": 2625,
+        "Lot_Mar2026": 2625,
+        "Lot_Apr2026": 2625
+    },
+    {
+        "Symbol": "PREMIERENE",
+        "Name": "Premier Energies",
+        "Lot_Feb2026": 575,
+        "Lot_Mar2026": 575,
+        "Lot_Apr2026": 575
+    },
+    {
+        "Symbol": "PRESTIGE",
+        "Name": "Prestige Estates Projects",
+        "Lot_Feb2026": 450,
+        "Lot_Mar2026": 450,
+        "Lot_Apr2026": 450
+    },
+    {
+        "Symbol": "RBLBANK",
+        "Name": "RBL Bank",
+        "Lot_Feb2026": 3175,
+        "Lot_Mar2026": 3175,
+        "Lot_Apr2026": 3175
+    },
+    {
+        "Symbol": "RECLTD",
+        "Name": "REC",
+        "Lot_Feb2026": 1400,
+        "Lot_Mar2026": 1400,
+        "Lot_Apr2026": 1400
+    },
+    {
+        "Symbol": "RELIANCE",
+        "Name": "Reliance Industries",
+        "Lot_Feb2026": 500,
+        "Lot_Mar2026": 500,
+        "Lot_Apr2026": 500
+    },
+    {
+        "Symbol": "RVNL",
+        "Name": "Rail Vikas Nigam",
+        "Lot_Feb2026": 1525,
+        "Lot_Mar2026": 1525,
+        "Lot_Apr2026": 1525
+    },
+    {
+        "Symbol": "SAIL",
+        "Name": "Steel Authority of India",
+        "Lot_Feb2026": 4700,
+        "Lot_Mar2026": 4700,
+        "Lot_Apr2026": 4700
+    },
+    {
+        "Symbol": "SAMMAANCAP",
+        "Name": "Sammaan Capital",
+        "Lot_Feb2026": 4300,
+        "Lot_Mar2026": 4300,
+        "Lot_Apr2026": 4300
+    },
+    {
+        "Symbol": "SBICARD",
+        "Name": "SBI Cards",
+        "Lot_Feb2026": 800,
+        "Lot_Mar2026": 800,
+        "Lot_Apr2026": 800
+    },
+    {
+        "Symbol": "SBILIFE",
+        "Name": "SBI Life Insurance",
+        "Lot_Feb2026": 375,
+        "Lot_Mar2026": 375,
+        "Lot_Apr2026": 375
+    },
+    {
+        "Symbol": "SBIN",
+        "Name": "State Bank of India",
+        "Lot_Feb2026": 750,
+        "Lot_Mar2026": 750,
+        "Lot_Apr2026": 750
+    },
+    {
+        "Symbol": "SHREECEM",
+        "Name": "Shree Cement",
+        "Lot_Feb2026": 25,
+        "Lot_Mar2026": 25,
+        "Lot_Apr2026": 25
+    },
+    {
+        "Symbol": "SHRIRAMFIN",
+        "Name": "Shriram Finance",
+        "Lot_Feb2026": 825,
+        "Lot_Mar2026": 825,
+        "Lot_Apr2026": 825
+    },
+    {
+        "Symbol": "SIEMENS",
+        "Name": "Siemens",
+        "Lot_Feb2026": 175,
+        "Lot_Mar2026": 175,
+        "Lot_Apr2026": 175
+    },
+    {
+        "Symbol": "SOLARINDS",
+        "Name": "Solar Industries",
+        "Lot_Feb2026": 50,
+        "Lot_Mar2026": 50,
+        "Lot_Apr2026": 50
+    },
+    {
+        "Symbol": "SONACOMS",
+        "Name": "Sona BLW Precision Forgings",
+        "Lot_Feb2026": 1225,
+        "Lot_Mar2026": 1225,
+        "Lot_Apr2026": 1225
+    },
+    {
+        "Symbol": "SRF",
+        "Name": "SRF",
+        "Lot_Feb2026": 200,
+        "Lot_Mar2026": 200,
+        "Lot_Apr2026": 200
+    },
+    {
+        "Symbol": "SUNPHARMA",
+        "Name": "Sun Pharmaceutical",
+        "Lot_Feb2026": 350,
+        "Lot_Mar2026": 350,
+        "Lot_Apr2026": 350
+    },
+    {
+        "Symbol": "SUPREMEIND",
+        "Name": "Supreme Industries",
+        "Lot_Feb2026": 175,
+        "Lot_Mar2026": 175,
+        "Lot_Apr2026": 175
+    },
+    {
+        "Symbol": "SUZLON",
+        "Name": "Suzlon Energy",
+        "Lot_Feb2026": 9025,
+        "Lot_Mar2026": 9025,
+        "Lot_Apr2026": 9025
+    },
+    {
+        "Symbol": "SWIGGY",
+        "Name": "Swiggy",
+        "Lot_Feb2026": 1300,
+        "Lot_Mar2026": 1300,
+        "Lot_Apr2026": 1300
+    },
+    {
+        "Symbol": "SYNGENE",
+        "Name": "Syngene International",
+        "Lot_Feb2026": 1000,
+        "Lot_Mar2026": 1000,
+        "Lot_Month_3": 0
+    },
+    {
+        "Symbol": "TATACONSUM",
+        "Name": "Tata Consumer Products",
+        "Lot_Feb2026": 550,
+        "Lot_Mar2026": 550,
+        "Lot_Apr2026": 550
+    },
+    {
+        "Symbol": "TATAELXSI",
+        "Name": "Tata Elxsi",
+        "Lot_Feb2026": 100,
+        "Lot_Mar2026": 100,
+        "Lot_Apr2026": 100
+    },
+    {
+        "Symbol": "TATAPOWER",
+        "Name": "Tata Power",
+        "Lot_Feb2026": 1450,
+        "Lot_Mar2026": 1450,
+        "Lot_Apr2026": 1450
+    },
+    {
+        "Symbol": "TATASTEEL",
+        "Name": "Tata Steel",
+        "Lot_Feb2026": 5500,
+        "Lot_Mar2026": 5500,
+        "Lot_Apr2026": 5500
+    },
+    {
+        "Symbol": "TATATECH",
+        "Name": "Tata Technologies",
+        "Lot_Feb2026": 800,
+        "Lot_Mar2026": 800,
+        "Lot_Apr2026": 800
+    },
+    {
+        "Symbol": "TCS",
+        "Name": "Tata Consultancy Services",
+        "Lot_Feb2026": 175,
+        "Lot_Mar2026": 175,
+        "Lot_Apr2026": 175
+    },
+    {
+        "Symbol": "TECHM",
+        "Name": "Tech Mahindra",
+        "Lot_Feb2026": 600,
+        "Lot_Mar2026": 600,
+        "Lot_Apr2026": 600
+    },
+    {
+        "Symbol": "TIINDIA",
+        "Name": "Tube Investment",
+        "Lot_Feb2026": 200,
+        "Lot_Mar2026": 200,
+        "Lot_Apr2026": 200
+    },
+    {
+        "Symbol": "TITAN",
+        "Name": "Titan",
+        "Lot_Feb2026": 175,
+        "Lot_Mar2026": 175,
+        "Lot_Apr2026": 175
+    },
+    {
+        "Symbol": "TMPV",
+        "Name": "Tata Motors Passenger Vehicles",
+        "Lot_Feb2026": 800,
+        "Lot_Mar2026": 800,
+        "Lot_Apr2026": 800
+    },
+    {
+        "Symbol": "TORNTPHARM",
+        "Name": "Torrent Pharmaceuticals",
+        "Lot_Feb2026": 250,
+        "Lot_Mar2026": 250,
+        "Lot_Apr2026": 250
+    },
+    {
+        "Symbol": "TORNTPOWER",
+        "Name": "Torrent Power",
+        "Lot_Feb2026": 425,
+        "Lot_Mar2026": 425,
+        "Lot_Apr2026": 425
+    },
+    {
+        "Symbol": "TRENT",
+        "Name": "Trent",
+        "Lot_Feb2026": 100,
+        "Lot_Mar2026": 100,
+        "Lot_Apr2026": 100
+    },
+    {
+        "Symbol": "TVSMOTOR",
+        "Name": "TVS Motors",
+        "Lot_Feb2026": 175,
+        "Lot_Mar2026": 175,
+        "Lot_Apr2026": 175
+    },
+    {
+        "Symbol": "ULTRACEMCO",
+        "Name": "UltraTech Cement",
+        "Lot_Feb2026": 50,
+        "Lot_Mar2026": 50,
+        "Lot_Apr2026": 50
+    },
+    {
+        "Symbol": "UNIONBANK",
+        "Name": "Union Bank of India",
+        "Lot_Feb2026": 4425,
+        "Lot_Mar2026": 4425,
+        "Lot_Apr2026": 4425
+    },
+    {
+        "Symbol": "UNITDSPR",
+        "Name": "United Spirits",
+        "Lot_Feb2026": 400,
+        "Lot_Mar2026": 400,
+        "Lot_Apr2026": 400
+    },
+    {
+        "Symbol": "UNOMINDA",
+        "Name": "UNO Minda",
+        "Lot_Feb2026": 550,
+        "Lot_Mar2026": 550,
+        "Lot_Apr2026": 550
+    },
+    {
+        "Symbol": "UPL",
+        "Name": "UPL",
+        "Lot_Feb2026": 1355,
+        "Lot_Mar2026": 1355,
+        "Lot_Apr2026": 1355
+    },
+    {
+        "Symbol": "VBL",
+        "Name": "Varun Beverages",
+        "Lot_Feb2026": 1125,
+        "Lot_Mar2026": 1125,
+        "Lot_Apr2026": 1125
+    },
+    {
+        "Symbol": "VEDL",
+        "Name": "Vedanta",
+        "Lot_Feb2026": 1150,
+        "Lot_Mar2026": 1150,
+        "Lot_Apr2026": 1150
+    },
+    {
+        "Symbol": "VOLTAS",
+        "Name": "Voltas",
+        "Lot_Feb2026": 375,
+        "Lot_Mar2026": 375,
+        "Lot_Apr2026": 375
+    },
+    {
+        "Symbol": "WAAREEENER",
+        "Name": "Waaree Energies",
+        "Lot_Feb2026": 175,
+        "Lot_Mar2026": 175,
+        "Lot_Apr2026": 175
+    },
+    {
+        "Symbol": "WIPRO",
+        "Name": "Wipro",
+        "Lot_Feb2026": 3000,
+        "Lot_Mar2026": 3000,
+        "Lot_Apr2026": 3000
+    },
+    {
+        "Symbol": "YESBANK",
+        "Name": "Yes Bank",
+        "Lot_Feb2026": 31100,
+        "Lot_Mar2026": 31100,
+        "Lot_Apr2026": 31100
+    },
+    {
+        "Symbol": "ZYDUSLIFE",
+        "Name": "Zydus Life Science",
+        "Lot_Feb2026": 900,
+        "Lot_Mar2026": 900,
+        "Lot_Apr2026": 900
+    }
+]
