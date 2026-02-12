@@ -103,6 +103,12 @@ def main():
         data = json.load(f)
     df = pd.DataFrame(data)
     
+    # --- GLOBAL FILTER: Minimum 300 Cr Market Cap ---
+    initial_count = len(df)
+    df['Market Cap(Cr.)'] = pd.to_numeric(df['Market Cap(Cr.)'], errors='coerce').fillna(0)
+    df = df[df['Market Cap(Cr.)'] >= 300].copy()
+    print(f"Filtered out {initial_count - len(df)} stocks below 300 Cr. Processing {len(df)} quality stocks...")
+    
     # 1. Update RS Rating in Stock JSON
     df = calculate_rs_score(df)
     
