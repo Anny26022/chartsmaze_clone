@@ -44,6 +44,8 @@ import subprocess
 import sys
 import os
 import time
+import shutil
+import glob
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -57,7 +59,37 @@ FETCH_OHLCV = False
 # Set to True to also fetch FNO, ETF, Indices (standalone data)
 FETCH_OPTIONAL = False
 
+# Auto-delete intermediate files after pipeline succeeds
+# Only keeps: all_stocks_fundamental_analysis.json + ohlcv_data/
+CLEANUP_INTERMEDIATE = True
+
 # ═══════════════════════════════════════════════════
+
+# Intermediate files that are ONLY used between pipeline stages
+# These are ephemeral: fetched from APIs → consumed → deleted
+INTERMEDIATE_FILES = [
+    "master_isin_map.json",
+    "dhan_data_response.json",
+    "fundamental_data.json",
+    "advanced_indicator_data.json",
+    "all_company_announcements.json",
+    "upcoming_corporate_actions.json",
+    "history_corporate_actions.json",
+    "nse_asm_list.json",
+    "nse_gsm_list.json",
+    "bulk_block_deals.json",
+    "upper_circuit_stocks.json",
+    "lower_circuit_stocks.json",
+    "incremental_price_bands.json",
+    "complete_price_bands.json",
+    "nse_equity_list.csv",
+]
+
+INTERMEDIATE_DIRS = [
+    "company_filings",
+    "market_news",
+]
+
 
 def run_script(script_name, phase_label):
     """Run a Python script and return success/failure."""
@@ -98,6 +130,33 @@ def run_script(script_name, phase_label):
     except Exception as e:
         print(f"  ❌ {script_name} EXCEPTION: {e}")
         return False
+
+
+def cleanup_intermediate():
+    """Delete all intermediate files and directories, keeping only the final output."""
+    removed_files = 0
+    removed_dirs = 0
+    freed_bytes = 0
+    
+    for f in INTERMEDIATE_FILES:
+        fp = os.path.join(BASE_DIR, f)
+        if os.path.exists(fp):
+            freed_bytes += os.path.getsize(fp)
+            os.remove(fp)
+            removed_files += 1
+    
+    for d in INTERMEDIATE_DIRS:
+        dp = os.path.join(BASE_DIR, d)
+        if os.path.exists(dp):
+            # Count size before removing
+            for root, dirs, files in os.walk(dp):
+                for file in files:
+                    freed_bytes += os.path.getsize(os.path.join(root, file))
+            shutil.rmtree(dp)
+            removed_dirs += 1
+    
+    freed_mb = freed_bytes / (1024 * 1024)
+    print(f"  🗑️  Cleaned: {removed_files} files + {removed_dirs} dirs ({freed_mb:.1f} MB freed)")
 
 
 def main():
@@ -193,6 +252,12 @@ def main():
                        "fetch_fno_expiry.py", "fetch_all_indices.py", "fetch_etf_data.py"]:
             results[script] = run_script(script, "Phase 5")
     
+    # ─── CLEANUP: Remove intermediate files ───
+    if CLEANUP_INTERMEDIATE:
+        print("\n🧹 CLEANUP: Removing intermediate files...")
+        print("─" * 40)
+        cleanup_intermediate()
+    
     # ─── FINAL REPORT ───
     total_time = time.time() - overall_start
     success = sum(1 for v in results.values() if v)
@@ -215,6 +280,9 @@ def main():
     if os.path.exists(master):
         size_mb = os.path.getsize(master) / (1024 * 1024)
         print(f"\n  📄 Output: all_stocks_fundamental_analysis.json ({size_mb:.1f} MB)")
+    
+    if CLEANUP_INTERMEDIATE:
+        print(f"  🧹 Only final output remains. All intermediate data purged.")
     
     print("═" * 60)
 
