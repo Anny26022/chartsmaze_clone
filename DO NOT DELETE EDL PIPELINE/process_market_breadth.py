@@ -23,8 +23,9 @@ def calculate_rs_score(df):
                    (df['1 Month Returns(%)'] * w_1m)
     
     if not df.empty:
-        # Strict rank mapping: ensure max is 99
-        df['RS Rating'] = ((df['RS_Raw'].rank(pct=True, method='max') * 98) + 1).astype(int)
+        # Professional RS Percentile: 1-99
+        # We use a slight ceiling to ensure the top-tier stocks cluster at 99
+        df['RS Rating'] = (df['RS_Raw'].rank(pct=True, method='min') * 99).apply(np.ceil).astype(int)
         df['RS Rating'] = df['RS Rating'].clip(1, 99)
     else:
         df['RS Rating'] = 0
