@@ -1,6 +1,6 @@
 """
-ULTRA-FAST Index OHLCV Fetcher - Smart Incremental
-Parallelizes chunks and MERGES them with existing history.
+ULTRA-FAST Index OHLCV Fetcher - Hybrid Incremental
+Merges deep history with Today's live snapshot from ScanX API.
 """
 
 import json
@@ -49,11 +49,11 @@ def main():
     tasks = []
     global_start_ts = 215634600 # 1976
     global_end_ts = int(time.time())
+    today_str = datetime.now().strftime("%Y-%m-%d")
     
-    # Track existing data to merge later
     existing_data_cache = {}
+    print(f"Checking {len(indices)} indices for sync...")
 
-    print(f"Checking {len(indices)} indices for missing data...")
     for idx in indices:
         sym = idx["Symbol"]
         safe_sym = get_safe_sym(sym)
@@ -66,48 +66,62 @@ def main():
                     rows = list(csv.DictReader(f))
                     if rows:
                         existing_data_cache[safe_sym] = rows
-                        last_dt = datetime.strptime(rows[-1]["Date"], "%Y-%m-%d")
-                        if (datetime.now() - last_dt).days < 1:
-                            continue
+                        last_row_date = rows[-1]["Date"]
+                        # We still schedule a chunk for recent days to ensure gap-filling
+                        last_dt = datetime.strptime(last_row_date, "%Y-%m-%d")
                         target_start = int(last_dt.timestamp()) + 86400
             except: pass
 
-        current_end = global_end_ts
-        while current_end > target_start:
-            c_start = max(target_start, current_end - (CHUNK_DAYS * 86400))
-            tasks.append({
-                "EXCH": idx["Exchange"], "SYM": sym, "SEG": idx["Segment"],
-                "INST": idx["Instrument"], "SEC_ID": idx["IndexID"],
-                "EXPCODE": 0, "INTERVAL": "D", "START": c_start, "END": current_end,
-                "SAFE_SYM": safe_sym
-            })
-            current_end = c_start - 86400
+        # Only crawl if there's a gap before today
+        if target_start < global_end_ts - 86400:
+            current_end = global_end_ts
+            while current_end > target_start:
+                c_start = max(target_start, current_end - (CHUNK_DAYS * 86400))
+                tasks.append({
+                    "EXCH": idx["Exchange"], "SYM": sym, "SEG": idx["Segment"],
+                    "INST": idx["Instrument"], "SEC_ID": idx["IndexID"],
+                    "EXPCODE": 0, "INTERVAL": "D", "START": c_start, "END": current_end,
+                    "SAFE_SYM": safe_sym
+                })
+                current_end = c_start - 86400
 
-    if not tasks:
-        print("All indices are already up-to-date!")
-        return
-
-    print(f"Executing {len(tasks)} API chunks for missing history...")
+    # Execute history crawl if needed
     new_data = {get_safe_sym(i["Symbol"]): [] for i in indices}
-    
-    with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        future_to_payload = {executor.submit(fetch_chunk, t): t for t in tasks}
-        for future in as_completed(future_to_payload):
-            payload = future_to_payload[future]
-            rows = future.result()
-            if rows:
-                new_data[payload["SAFE_SYM"]].extend(rows)
+    if tasks:
+        print(f"Executing {len(tasks)} API chunks for history...")
+        with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+            future_to_payload = {executor.submit(fetch_chunk, t): t for t in tasks}
+            for future in as_completed(future_to_payload):
+                payload = future_to_payload[future]
+                rows = future.result()
+                if rows:
+                    new_data[payload["SAFE_SYM"]].extend(rows)
 
-    print("Merging new data with existing history...")
-    for safe_sym, new_rows in new_data.items():
-        # Get existing rows if any
+    print("Merging with Live Snapshots and saving CSVs...")
+    for idx in indices:
+        safe_sym = get_safe_sym(idx["Symbol"])
+        
+        # 1. Start with existing or historic data
         base_rows = existing_data_cache.get(safe_sym, [])
-        all_rows = base_rows + new_rows
+        fetched_rows = new_data.get(safe_sym, [])
+        all_rows = base_rows + fetched_rows
         
-        if not all_rows: continue
+        # 2. Add TODAY'S snapshot from all_indices_list.json
+        # Ltp is Close for the running day
+        today_row = {
+            'Date': today_str, 
+            'Open': idx.get('Open'), 
+            'High': idx.get('High'), 
+            'Low': idx.get('Low'), 
+            'Close': idx.get('Ltp'), 
+            'Volume': idx.get('Volume', 0)
+        }
         
-        # Deduplicate and Sort
-        final_rows = sorted({r["Date"]: r for r in all_rows}.values(), key=lambda x: x["Date"])
+        # Deduplicate and update
+        merged = {r['Date']: r for r in all_rows}
+        merged[today_str] = today_row
+        
+        final_rows = sorted(merged.values(), key=lambda x: x['Date'])
         
         output_path = os.path.join(OUTPUT_DIR, f"{safe_sym}.csv")
         with open(output_path, "w", newline='') as f:
@@ -115,7 +129,7 @@ def main():
             writer.writeheader()
             writer.writerows(final_rows)
 
-    print(f"Successfully updated {len(new_data)} index files.")
+    print(f"Successfully updated all index CSVs with Today's Live data.")
 
 if __name__ == "__main__":
     main()
