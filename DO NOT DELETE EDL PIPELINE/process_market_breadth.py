@@ -7,127 +7,120 @@ from pipeline_utils import BASE_DIR
 # --- Configuration ---
 INPUT_FILE = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 OUTPUT_FILE = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
+SECTOR_OUTPUT_FILE = os.path.join(BASE_DIR, "sector_analytics.json")
 
 def calculate_rs_score(df):
-    """Calculates Relative Strength Score (1-99) based on weighted performance."""
-    # Weights for performance (Standard semi-log weighted returns pattern)
-    # We use the returns already available in our master JSON
-    w_1y = 0.4
-    w_6m = 0.3
-    w_3m = 0.2
-    w_1m = 0.1
+    """Calculates Relative Strength Score (1-99) for each stock."""
+    # Standard Momentum Weights: 40% 1Y, 20% 6M, 20% 3M, 20% 1M
+    w_1y, w_6m, w_3m, w_1m = 0.4, 0.2, 0.2, 0.2
     
-    # Clean data: Replace NaNs with 0
-    df['1 Year Returns(%)'] = pd.to_numeric(df['1 Year Returns(%)'], errors='coerce').fillna(0)
-    df['6 Month Returns(%)'] = pd.to_numeric(df['6 Month Returns(%)'], errors='coerce').fillna(0)
-    df['3 Month Returns(%)'] = pd.to_numeric(df['3 Month Returns(%)'], errors='coerce').fillna(0)
-    df['1 Month Returns(%)'] = pd.to_numeric(df['1 Month Returns(%)'], errors='coerce').fillna(0)
+    for col in ['1 Year Returns(%)', '6 Month Returns(%)', '3 Month Returns(%)', '1 Month Returns(%)']:
+        df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
     
-    # Calculate Weighted RS Score
     df['RS_Raw'] = (df['1 Year Returns(%)'] * w_1y) + \
                    (df['6 Month Returns(%)'] * w_6m) + \
                    (df['3 Month Returns(%)'] * w_3m) + \
                    (df['1 Month Returns(%)'] * w_1m)
     
-    # Rank them from 1 to 99 (Percentile)
-    # 99 means top 1% of the market
     if not df.empty:
-        df['RS Rating'] = (df['RS_Raw'].rank(pct=True) * 98 + 1).astype(int)
+        # Strict rank mapping: ensure max is 99
+        df['RS Rating'] = ((df['RS_Raw'].rank(pct=True, method='max') * 98) + 1).astype(int)
+        df['RS Rating'] = df['RS Rating'].clip(1, 99)
     else:
         df['RS Rating'] = 0
-        
     return df
 
-def calculate_industry_metrics(df):
-    """Calculates Industry Breadth and Sector Contribution %."""
+def generate_analytics(df):
+    """Generates Sector and Industry level metrics matched to UI screenshot."""
     
-    # Add helper columns for Moving Average status if missing
-    # In our JSON, SMA Status is a string: "SMA 20: Above (5.6%) | ..."
-    # We'll extract the simple Above/Below logic
     def is_above(status_str, sma_key):
         if not isinstance(status_str, str): return False
-        parts = status_str.split(" | ")
-        for p in parts:
-            if sma_key in p and "Above" in p:
-                return True
-        return False
+        return sma_key in status_str and "Above" in status_str
 
+    # Pre-calculate flags
     df['Above_SMA_200'] = df['SMA Status'].apply(lambda x: is_above(x, "SMA 200"))
     df['Above_SMA_50'] = df['SMA Status'].apply(lambda x: is_above(x, "SMA 50"))
     df['Above_SMA_20'] = df['SMA Status'].apply(lambda x: is_above(x, "SMA 20"))
-    df['Above_EMA_21'] = df['EMA Status'].apply(lambda x: is_above(x, "EMA 20")) # EMA 20/21 is often interchangeable in signals
+    df['Above_EMA_21'] = df['EMA Status'].apply(lambda x: is_above(x, "EMA 20"))
     
-    # 1. INDUSTRY BREADTH (% of stocks in industry above specific averages)
+    # helper for contribution: Performance Power = Mcap * 1yr Return
+    df['Power'] = df['Market Cap(Cr.)'] * df['1 Year Returns(%)']
+
+    # --- 1. SECTOR LEVEL (Main Bars) ---
+    sector_groups = df.groupby('Sector')
+    sector_list = []
+    
+    for sector_name, group in sector_groups:
+        if sector_name == "N/A": continue
+        sector_list.append({
+            "Type": "Sector",
+            "Name": sector_name,
+            "StockCount": len(group),
+            "Breadth_SMA200": round(group['Above_SMA_200'].mean() * 100, 1),
+            "Breadth_SMA50": round(group['Above_SMA_50'].mean() * 100, 1),
+            "Breadth_SMA20": round(group['Above_SMA_20'].mean() * 100, 1),
+            "Breadth_EMA21": round(group['Above_EMA_21'].mean() * 100, 1),
+            "Total_Power": group['Power'].sum()
+        })
+    
+    sector_power_map = {item['Name']: item['Total_Power'] for item in sector_list}
+
+    # --- 2. INDUSTRY LEVEL (Sidebar) ---
     industry_groups = df.groupby('Basic Industry')
+    industry_list = []
     
-    breadth_200 = (industry_groups['Above_SMA_200'].mean() * 100).to_dict()
-    breadth_50 = (industry_groups['Above_SMA_50'].mean() * 100).to_dict()
-    breadth_20 = (industry_groups['Above_SMA_20'].mean() * 100).to_dict()
-    breadth_21_ema = (industry_groups['Above_EMA_21'].mean() * 100).to_dict()
+    for ind_name, group in industry_groups:
+        if ind_name == "N/A": continue
+        parent_sector = group['Sector'].iloc[0]
+        ind_power = group['Power'].sum()
+        sector_total_power = sector_power_map.get(parent_sector, 1)
+        
+        # Contribution Calculation
+        contribution = (ind_power / sector_total_power * 100) if sector_total_power != 0 else 0
+        
+        industry_list.append({
+            "Type": "Industry",
+            "Name": ind_name,
+            "ParentSector": parent_sector,
+            "StockCount": len(group),
+            "Breadth_SMA200": round(group['Above_SMA_200'].mean() * 100, 1),
+            "Breadth_SMA50": round(group['Above_SMA_50'].mean() * 100, 1),
+            "Breadth_SMA20": round(group['Above_SMA_20'].mean() * 100, 1),
+            "Breadth_EMA21": round(group['Above_EMA_21'].mean() * 100, 1),
+            "Contribution_%": round(contribution, 1)
+        })
 
-    # 2. SECTOR CONTRIBUTION
-    # Power = Market Cap * 1yr Return (Simple performance contribution proxy)
-    df['Mcap_Weighted_Power'] = df['Market Cap(Cr.)'] * df['1 Year Returns(%)']
-    
-    industry_power = industry_groups['Mcap_Weighted_Power'].sum()
-    sector_mapping = df.set_index('Basic Industry')['Sector'].to_dict()
-    
-    # Map industries to sectors to find total sector power
-    ind_to_sector_df = pd.DataFrame({
-        'Industry': industry_power.index,
-        'Industry_Power': industry_power.values,
-        'Sector': [sector_mapping.get(ind, "N/A") for ind in industry_power.index]
-    })
-    
-    sector_total_power = ind_to_sector_df.groupby('Sector')['Industry_Power'].sum().to_dict()
-    
-    # Calculate % contribution of industry to its sector
-    def get_contribution(row):
-        total_s_power = sector_total_power.get(row['Sector'], 0)
-        if total_s_power == 0: return 0.0
-        return (row['Industry_Power'] / total_s_power) * 100
-
-    ind_to_sector_df['Contribution_%'] = ind_to_sector_df.apply(get_contribution, axis=1)
-    contribution_map = ind_to_sector_df.set_index('Industry')['Contribution_%'].to_dict()
-
-    # Apply back to dataframe
-    df['Industry Breadth(SMA 200)'] = df['Basic Industry'].map(breadth_200).round(1)
-    df['Industry Breadth(SMA 50)'] = df['Basic Industry'].map(breadth_50).round(1)
-    df['Industry Breadth(SMA 20)'] = df['Basic Industry'].map(breadth_20).round(1)
-    df['Industry Breadth(EMA 21)'] = df['Basic Industry'].map(breadth_21_ema).round(1)
-    df['Industry Contribution to Sector(%)'] = df['Basic Industry'].map(contribution_map).round(1)
-
-    return df
+    return {"Sectors": sector_list, "Industries": industry_list}
 
 def main():
     if not os.path.exists(INPUT_FILE):
         print("Input file not found.")
         return
 
-    print("Loading data for Breadth and RS analysis...")
+    print("Loading data for Multi-Level Analysis...")
     with open(INPUT_FILE, "r") as f:
         data = json.load(f)
-    
     df = pd.DataFrame(data)
     
-    # Perform Calculations
-    print("Calculating RS Ratings (1-99)...")
+    # 1. Update RS Rating in Stock JSON
     df = calculate_rs_score(df)
     
-    print("Calculating Industry Breadth and Sector Contribution...")
-    df = calculate_industry_metrics(df)
+    # 2. Generate Sector/Industry Analytics
+    print("Generating refined Sector & Industry analytics...")
+    analytics_output = generate_analytics(df)
+    
+    with open(SECTOR_OUTPUT_FILE, "w") as f:
+        json.dump(analytics_output, f, indent=4)
 
-    # Clean up helper columns
-    cols_to_drop = ['RS_Raw', 'Above_SMA_200', 'Above_SMA_50', 'Above_SMA_20', 'Above_EMA_21', 'Mcap_Weighted_Power']
+    # 3. Save Cleaned Stock JSON
+    cols_to_drop = ['RS_Raw', 'Above_SMA_200', 'Above_SMA_50', 'Above_SMA_20', 'Above_EMA_21', 'Power']
     df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
-
-    # Convert back to JSON
-    result = df.to_dict(orient='records')
     
+    final_stock_data = df.to_dict(orient='records')
     with open(OUTPUT_FILE, "w") as f:
-        json.dump(result, f, indent=4)
+        json.dump(final_stock_data, f, indent=4)
     
-    print(f"Successfully updated master JSON with RS Ratings and Industry Breadth.")
+    print(f"Success! Sector metrics ({len(analytics_output['Sectors'])}) and Industry metrics ({len(analytics_output['Industries'])}) saved to {SECTOR_OUTPUT_FILE}")
 
 if __name__ == "__main__":
     main()

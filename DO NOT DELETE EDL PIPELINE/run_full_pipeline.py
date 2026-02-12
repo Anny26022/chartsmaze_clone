@@ -134,29 +134,35 @@ def run_script(script_name, phase_label):
 
 
 def compress_output():
-    """Compress the final JSON to .json.gz for ultra compression."""
-    json_path = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
-    gz_path = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json.gz")
+    """Compress final JSONs to .json.gz for ultra compression."""
+    files_to_compress = [
+        "all_stocks_fundamental_analysis.json",
+        "sector_analytics.json"
+    ]
     
-    if not os.path.exists(json_path):
-        print("  ⚠️  No JSON to compress.")
-        return None, None
+    total_raw = 0
+    total_gz = 0
     
-    raw_size = os.path.getsize(json_path)
-    
-    # Read, then compress with max compression
-    with open(json_path, "rb") as f_in:
-        data = f_in.read()
-    
-    with gzip.open(gz_path, "wb", compresslevel=9) as f_out:
-        f_out.write(data)
-    
-    gz_size = os.path.getsize(gz_path)
-    ratio = (1 - gz_size / raw_size) * 100 if raw_size > 0 else 0
-    
-    print(f"  📦 Compressed: {raw_size / (1024*1024):.1f} MB → {gz_size / (1024*1024):.1f} MB ({ratio:.0f}% reduction)")
-    
-    return raw_size, gz_size
+    for filename in files_to_compress:
+        json_path = os.path.join(BASE_DIR, filename)
+        gz_path = f"{json_path}.gz"
+        
+        if os.path.exists(json_path):
+            raw_size = os.path.getsize(json_path)
+            total_raw += raw_size
+            
+            with open(json_path, "rb") as f_in:
+                data = f_in.read()
+            with gzip.open(gz_path, "wb", compresslevel=9) as f_out:
+                f_out.write(data)
+                
+            total_gz += os.path.getsize(gz_path)
+        else:
+            print(f"  ⚠️  {filename} not found to compress.")
+            
+    ratio = (1 - total_gz / total_raw) * 100 if total_raw > 0 else 0
+    print(f"  📦 Compressed: {total_raw / (1024*1024):.1f} MB → {total_gz / (1024*1024):.1f} MB ({ratio:.0f}% reduction)")
+    return total_raw, total_gz
 
 
 def cleanup_intermediate():
