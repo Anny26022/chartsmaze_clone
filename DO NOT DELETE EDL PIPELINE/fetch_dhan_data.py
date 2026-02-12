@@ -27,7 +27,7 @@ def fetch_all_dhan_data():
                 "PricePerchng3mon", "YearlyEarningPerShare", "OCFGrowthOnYr", "Year1CAGREPSGrowth", "NetChangeInCash",
                 "FreeCashFlow", "PricePerchng2week", "DayBbUpper_Sub_BbLower", "DayATR14CurrentCandleMul_2",
                 "Min5HighCurrentCandle", "Min15HighCurrentCandle", "Min5EMA50CurrentCandle", "Min15EMA50CurrentCandle",
-                "Min15SMA100CurrentCandle", "Open", "BcClose", "Rmp", "PledgeBenefit", "idxlist", "Sid"
+                "Min15SMA100CurrentCandle", "Open", "BcClose", "Rmp", "PledgeBenefit", "idxlist", "Sid", "FnoFlag"
             ],
             "params": [
                 {"field": "OgInst", "op": "", "val": "ES"},
@@ -63,13 +63,15 @@ def fetch_all_dhan_data():
                 isin = item.get('Isin')
                 disp_sym = item.get('DispSym')
                 sid = item.get('Sid')
+                fno_flag = item.get('FnoFlag', 0)
                 
                 if sym and isin:
                     master_map.append({
                         "Symbol": sym,
                         "ISIN": isin,
                         "Name": disp_sym,
-                        "Sid": sid
+                        "Sid": sid,
+                        "FnoFlag": fno_flag
                     })
             
             # Sort for consistency

@@ -3,111 +3,89 @@ import requests
 import os
 import time
 import csv
+from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pipeline_utils import BASE_DIR, get_headers
 
 # --- Configuration ---
 INPUT_FILE = os.path.join(BASE_DIR, "dhan_data_response.json")
 OUTPUT_DIR = os.path.join(BASE_DIR, "ohlcv_data")
-MAX_THREADS = 15  # Adjust based on your internet speed (15-20 is safe)
+MAX_THREADS = 15
+
+def get_last_date(csv_path):
+    """Get the last date string (YYYY-MM-DD) from CSV."""
+    try:
+        with open(csv_path, "r") as f:
+            rows = list(csv.DictReader(f))
+            return rows[-1]["Date"] if rows else None
+    except:
+        return None
 
 def fetch_single_stock(sym, details, start_ts, end_ts):
-    """Function to fetch a single stock's data - to be run in a thread"""
     output_path = os.path.join(OUTPUT_DIR, f"{sym}.csv")
+    last_date = get_last_date(output_path)
     
-    # Skip if file already exists with data
-    if os.path.exists(output_path) and os.path.getsize(output_path) > 100:
-        return "skipped"
+    # If file exists and is from today/yesterday, skip
+    if last_date:
+        last_dt = datetime.strptime(last_date, "%Y-%m-%d")
+        if (datetime.now() - last_dt).days < 1:
+            return "uptodate"
+        # Update start_ts to day after last_date
+        start_ts = int(last_dt.timestamp()) + 86400
 
     api_url = "https://openweb-ticks.dhan.co/getDataH"
-    headers = get_headers()
-
     payload = {
-        "EXCH": details["Exch"],
-        "SYM": sym,
-        "SEG": details["Seg"],
-        "INST": details["Inst"],
-        "SEC_ID": details["Sid"],
-        "EXPCODE": 0,
-        "INTERVAL": "D",
-        "START": start_ts,
-        "END": end_ts
+        "EXCH": details["Exch"], "SYM": sym, "SEG": details["Seg"],
+        "INST": details["Inst"], "SEC_ID": details["Sid"],
+        "EXPCODE": 0, "INTERVAL": "D", "START": start_ts, "END": end_ts
     }
 
     try:
-        response = requests.post(api_url, json=payload, headers=headers, timeout=15)
+        response = requests.post(api_url, json=payload, headers=get_headers(), timeout=15)
         if response.status_code == 200:
-            resp_json = response.json()
-            if resp_json.get("success") and "data" in resp_json:
-                data = resp_json["data"]
-                times = data.get("Time", [])
-                if times:
-                    with open(output_path, "w", newline='') as csvfile:
-                        writer = csv.DictWriter(csvfile, fieldnames=['Date', 'Open', 'High', 'Low', 'Close', 'Volume'])
-                        writer.writeheader()
-                        # Extract data lists
-                        o, h, l, c, v = data.get("o", []), data.get("h", []), data.get("l", []), data.get("c", []), data.get("v", [])
-                        for i in range(len(times)):
-                            writer.writerow({
-                                'Date': times[i], 'Open': o[i], 'High': h[i], 
-                                'Low': l[i], 'Close': c[i], 'Volume': v[i]
-                            })
-                    return "success"
-                else:
-                    return "no_data"
-            return "api_error"
-        return f"http_{response.status_code}"
-    except Exception:
-        return "exception"
+            data = response.json().get("data", {})
+            times = data.get("Time", [])
+            if not times: return "uptodate"
+
+            # Parse new data
+            new_rows = []
+            o, h, l, c, v = data.get("o", []), data.get("h", []), data.get("l", []), data.get("c", []), data.get("v", [])
+            for i in range(len(times)):
+                dt_str = datetime.fromtimestamp(times[i]).strftime("%Y-%m-%d")
+                new_rows.append({'Date': dt_str, 'Open': o[i], 'High': h[i], 'Low': l[i], 'Close': c[i], 'Volume': v[i]})
+
+            # Append to existing
+            file_exists = os.path.exists(output_path)
+            with open(output_path, "a" if file_exists else "w", newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=['Date', 'Open', 'High', 'Low', 'Close', 'Volume'])
+                if not file_exists: writer.writeheader()
+                writer.writerows(new_rows)
+            
+            return "success"
+        return "error"
+    except:
+        return "error"
 
 def main():
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
+    if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
+    with open(INPUT_FILE, "r") as f: dhan_data = json.load(f)
 
-    print("Loading symbol mapping...")
-    with open(INPUT_FILE, "r") as f:
-        dhan_data = json.load(f)
+    stocks = {item["Sym"]: {"Sid": item["Sid"], "Exch": item.get("Exch", "NSE"), "Inst": "EQUITY", "Seg": "E"} 
+              for item in dhan_data if item.get("Sym") and item.get("Sid")}
 
-    stocks_to_fetch = {}
-    for item in dhan_data:
-        sym, sid = item.get("Sym"), item.get("Sid")
-        if sym and sid:
-            stocks_to_fetch[sym] = {
-                "Sid": sid, "Exch": item.get("Exch", "NSE"),
-                "Inst": item.get("Inst", "EQUITY"), "Seg": item.get("Seg", "E")
-            }
-
-    symbols = list(stocks_to_fetch.keys())
-    total = len(symbols)
+    total = len(stocks)
     start_ts, end_ts = 215634600, int(time.time())
-
-    print(f"Starting Multi-threaded Fetch (Threads: {MAX_THREADS}) for {total} stocks...")
     
-    success_count = 0
-    skipped_count = 0
-    error_count = 0
+    print(f"Syncing OHLCV for {total} stocks...")
+    counts = {"success": 0, "uptodate": 0, "error": 0}
     
-    start_time = time.time()
-
     with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        future_to_sym = {executor.submit(fetch_single_stock, sym, stocks_to_fetch[sym], start_ts, end_ts): sym for sym in symbols}
-        
-        count = 0
-        for future in as_completed(future_to_sym):
-            count += 1
-            result = future.result()
-            
-            if result == "success": success_count += 1
-            elif result == "skipped": skipped_count += 1
-            else: error_count += 1
+        futures = {executor.submit(fetch_single_stock, s, stocks[s], start_ts, end_ts): s for s in stocks}
+        for future in as_completed(futures):
+            res = future.result()
+            counts[res if res in counts else "error"] += 1
 
-            if count % 100 == 0 or count == total:
-                elapsed = time.time() - start_time
-                print(f"[{count}/{total}] | Success: {success_count} | Skipped: {skipped_count} | Errors: {error_count} | Elapsed: {elapsed:.1f}s")
-
-    print("\n--- Final Report ---")
-    print(f"Total Time: {time.time() - start_time:.1f}s")
-    print(f"Finished: {success_count} | Errors: {error_count} | Skipped: {skipped_count}")
+    print(f"Done! New: {counts['success']} | UpToDate: {counts['uptodate']} | Errors: {counts['error']}")
 
 if __name__ == "__main__":
     main()
