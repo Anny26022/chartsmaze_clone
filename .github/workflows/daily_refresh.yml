@@ -24,7 +24,9 @@ jobs:
       - name: Cache OHLCV Data
         uses: actions/cache@v4
         with:
-          path: "DO NOT DELETE EDL PIPELINE/ohlcv_data"
+          path: |
+            DO NOT DELETE EDL PIPELINE/ohlcv_data
+            DO NOT DELETE EDL PIPELINE/indices_ohlcv_data
           key: ohlcv-cache-${{ runner.os }}-${{ hashFiles('**/master_isin_map.json') }}
           restore-keys: |
             ohlcv-cache-${{ runner.os }}-
@@ -44,5 +46,6 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add "DO NOT DELETE EDL PIPELINE/all_stocks_fundamental_analysis.json.gz"
+          git add "DO NOT DELETE EDL PIPELINE/all_indices_list.json"
           git commit -m "Automated Daily Data Refresh [skip ci]" || echo "No changes to commit"
           git push

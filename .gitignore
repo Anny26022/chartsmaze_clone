@@ -10,6 +10,7 @@ market_news/
 
 # OHLCV Cache (Handled by GitHub Cache, do NOT commit to Git)
 DO NOT DELETE EDL PIPELINE/ohlcv_data/
+DO NOT DELETE EDL PIPELINE/indices_ohlcv_data/
 
 # Track the final Output
 !DO NOT DELETE EDL PIPELINE/all_stocks_fundamental_analysis.json.gz

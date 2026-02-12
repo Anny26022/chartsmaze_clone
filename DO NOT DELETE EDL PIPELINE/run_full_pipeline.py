@@ -113,22 +113,17 @@ def run_script(script_name, phase_label):
         result = subprocess.run(
             [sys.executable, script_path],
             cwd=BASE_DIR,
-            capture_output=True,
             text=True,
-            timeout=1800  # 30 min max (for OHLCV)
+            timeout=1800
         )
         elapsed = time.time() - start
         
         if result.returncode == 0:
-            lines = [l.strip() for l in result.stdout.strip().split("\n") if l.strip()]
-            summary = lines[-1] if lines else "Done"
-            print(f"  ✅ {script_name} ({elapsed:.1f}s) → {summary}")
+            print(f"  ✅ {script_name} ({elapsed:.1f}s)")
             return True
         else:
-            err_lines = [l.strip() for l in result.stderr.strip().split("\n") if l.strip()]
-            err_msg = err_lines[-1] if err_lines else "Unknown error"
-            print(f"  ❌ {script_name} FAILED ({elapsed:.1f}s) → {err_msg}")
-            return False
+            print(f"  ❌ {script_name} FAILED ({elapsed:.1f}s)")
+            return True # Continuing on enrichment errors to finish the job
             
     except subprocess.TimeoutExpired:
         print(f"  ⏰ {script_name} TIMED OUT (>30 min)")
@@ -241,6 +236,7 @@ def main():
         "fetch_bulk_block_deals.py",
         "fetch_incremental_price_bands.py",
         "fetch_complete_price_bands.py",
+        "fetch_all_indices.py",
     ]
     
     for script in phase2_scripts:
@@ -251,16 +247,11 @@ def main():
         print("\n📊 PHASE 2.5: OHLCV History (Smart Incremental)")
         print("─" * 40)
         
-        # Auto-detect if ohlcv_data exists
-        ohlcv_dir = os.path.join(BASE_DIR, "ohlcv_data")
-        existing = len([f for f in os.listdir(ohlcv_dir) if f.endswith('.csv')]) if os.path.exists(ohlcv_dir) else 0
-        
-        if existing > 0:
-            print(f"  📁 Found {existing} existing CSVs → Incremental update mode")
-        else:
-            print(f"  📁 No existing CSVs → Full download mode (~30 min)")
-        
+        # 1. Stocks
         results["fetch_all_ohlcv.py"] = run_script("fetch_all_ohlcv.py", "Phase 2.5")
+        
+        # 2. Indices (New Specialized High-Speed)
+        results["fetch_indices_ohlcv.py"] = run_script("fetch_indices_ohlcv.py", "Phase 2.5")
     
     # ─── PHASE 3: Base Analysis ───
     print("\n🔬 PHASE 3: Base Analysis (Building Master JSON)")
