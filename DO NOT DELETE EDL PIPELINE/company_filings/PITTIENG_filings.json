@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Audio Conference call for investors on 6th February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1b626c4-1a98-4b40-9bcb-4c854d4b1fa2.pdf",
+            "news_date": "2026-02-11 13:39:36"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7baaad85-4fd0-4619-93bd-3a34d49ee5f0.pdf",
+            "news_date": "2026-02-09 18:33:06"
+        },
+        {
             "sym": "PITTIENG",
             "disp": "Pitti Engineering",
             "bse_code": 513519,
@@ -24,6 +46,39 @@
             "sid": 14134,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of conference call on un-audited financial results for the quarter and nine-months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5588fe44-fc69-4972-a4fb-33b38fd0dcd0.pdf",
+            "news_date": "2026-02-06 18:36:54"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of Newspaper publication of unaudited financial results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12e9271c-2093-486f-a9a6-8e650e6f6489.pdf",
+            "news_date": "2026-02-06 18:26:30"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on financial results - Q3 & 9M FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc4bd921-56b0-4a1d-b991-8b3b5d193481.pdf",
+            "news_date": "2026-02-05 19:56:33"
         },
         {
             "sym": "PITTIENG",
@@ -50,6 +105,50 @@
             "seg": "E"
         },
         {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the financial results of the Company for the quarter and none months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fbecdcc-37ef-4951-9791-ca6a0d0a131d.pdf",
+            "news_date": "2026-02-05 19:44:39"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Board approves Scheme of Amalgamation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9b7f8ec-b0aa-42fc-99cb-ebd0011a69e0.pdf",
+            "news_date": "2026-02-05 19:33:09"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7a9a596-c80a-4ed9-be73-c4d5b088af43.pdf",
+            "news_date": "2026-02-05 19:27:39"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad532d1d-4555-42c7-8837-93bee625d0f4.pdf",
+            "news_date": "2026-02-05 19:09:30"
+        },
+        {
             "sym": "PITTIENG",
             "disp": "Pitti Engineering",
             "bse_code": 513519,
@@ -72,6 +171,171 @@
             "sid": 14134,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Financial results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0f306f5-4e6f-4e1f-a1a0-b2d0505c582a.pdf",
+            "news_date": "2026-02-05 19:03:04"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Audio Conference Call for Investors on 6th February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bae206a-8beb-4535-ab91-e0465a1f504a.pdf",
+            "news_date": "2026-01-28 19:20:29"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Un-Audited Financial Results (Standalone And Consolidated) For The Quarter And Nine-Months Ended 31St December 2025",
+            "news_body": "Pitti Engineering Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/02/2026 inter alia to consider and approve The Un-Audited Financial Results (Standalone And Consolidated) For The Quarter And Nine-Months Ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb92ad65-791d-457a-b163-b64bffda0ab9.pdf",
+            "news_date": "2026-01-23 13:03:59"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Report On Re-Lodgement Of Transfer Request Of Physical Shares",
+            "news_body": "Report on re-lodgement of transfer request of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf23fdbe-7a41-4eec-a696-a16146588497.pdf",
+            "news_date": "2026-01-22 13:48:10"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of Newspaper publication - Intimation of Change in Registrar and Share Transfer Agent",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b677048b-2ba1-47bc-a46a-c4ed1095ab2d.pdf",
+            "news_date": "2026-01-07 18:53:11"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b07809d-2ba0-4f95-9ce3-c51afc9d58cb.pdf",
+            "news_date": "2026-01-06 13:03:27"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Warrants",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in RTA",
+            "news_body": "Update on Change in Registrar and Share Transfer Agent",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13e30817-2595-4760-87b2-ff37b42a7a4f.pdf",
+            "news_date": "2025-12-30 18:33:25"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b19afc4d-8b54-4203-badc-7bd288442901.pdf",
+            "news_date": "2025-12-29 12:23:48"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Cancellation Of Schedule Of Analyst / Institutional Investor Meetings",
+            "news_body": "Cancellation of Schedule of Analyst / Institutional Investor Meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4db88590-6dc0-4e0d-a1d4-2eb4132743c7.pdf",
+            "news_date": "2025-12-09 13:49:50"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meetings under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5471987-515c-431d-86be-706c19619991.pdf",
+            "news_date": "2025-12-06 16:03:24"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8d49454-2f78-4c25-b096-0a354841763d.pdf",
+            "news_date": "2025-12-06 15:55:26"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Report On Re-Lodgement Of Transfer Request Of Physical Shares",
+            "news_body": "Report on re-lodgement of transfer request of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe0bd40d-68bc-48b2-91c4-3ddc1fcbaaf1.pdf",
+            "news_date": "2025-12-03 16:33:07"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of notice loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed81c4e0-ac9c-48a0-b883-1cbe503a87f0.pdf",
+            "news_date": "2025-11-27 17:30:58"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Audio Conference call for investors on 10th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7021aa82-85d5-4c35-982a-e777fe97d3ba.pdf",
+            "news_date": "2025-11-15 16:06:54"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Report On Re-Lodgement Of Transfer Request Of Physical Shares",
+            "news_body": "Report on re-lodgement of transfer request of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d052631b-03e8-41fb-aab2-3dba9f9a348d.pdf",
+            "news_date": "2025-11-14 17:53:40"
         },
         {
             "sym": "PITTIENG",
@@ -98,6 +362,28 @@
             "seg": "E"
         },
         {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of conference call on un-audited financial results for the quarter and half-year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86dbf0ce-d3b2-4bb1-a0ff-6c023ba742b5.pdf",
+            "news_date": "2025-11-10 18:53:11"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of Newspaper publication of unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a6d2d00-891e-4ad6-8af6-bac77e9a03bb.pdf",
+            "news_date": "2025-11-08 20:10:02"
+        },
+        {
             "sym": "PITTIENG",
             "disp": "Pitti Engineering",
             "bse_code": 513519,
@@ -120,6 +406,50 @@
             "sid": 14134,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation on the financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0624b54-89b8-45ff-b801-5bf658fcd9d3.pdf",
+            "news_date": "2025-11-07 19:27:46"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on financial results Q2 & H1 FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac60a368-6200-4ed8-aa89-3e88566ea32d.pdf",
+            "news_date": "2025-11-07 19:15:07"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Warrants",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in RTA",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirement) Regulations 2015 - Change in Registrar and Share Transfer Agent of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06bfacfe-f2d5-4092-9e6e-001bbb1a5908.pdf",
+            "news_date": "2025-11-07 18:53:27"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=702d25b3-73bc-4786-b471-35e38f1c3b97.pdf",
+            "news_date": "2025-11-07 18:40:31"
         },
         {
             "sym": "PITTIENG",
@@ -146,6 +476,369 @@
             "seg": "E"
         },
         {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f70d82a-39d7-455f-8a71-3745776a60f5.pdf",
+            "news_date": "2025-11-07 18:37:55"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Institutional Investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05411e3b-da4f-48b5-b04d-995725191152.pdf",
+            "news_date": "2025-11-04 16:57:21"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Rescheduling of Investor Audio Conference Call - The audio conference call for investors originally scheduled for Monday                           10th November 2025 at 3:00 P.M. IST has been rescheduled to 4:30 P.M. IST on the same day (viz Monday  10th November 2025).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a522a867-879f-4c0d-9ab3-a7e814c6303e.pdf",
+            "news_date": "2025-11-04 16:50:15"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Audio Conference Call for Investors on 10th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43a53dd8-c064-4a98-9784-9bc6f25e2e3e.pdf",
+            "news_date": "2025-10-31 13:39:25"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Un-Audited Financial Results (Standalone And Consolidated) For The Quarter And Half-Year Ended 30Th September 2025",
+            "news_body": "Pitti Engineering Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/11/2025 inter alia to consider and approve the un-audited financial results (standalone and consolidated) for the quarter and half-year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc314486-c0f0-48ef-9a5d-e3ad03012fc3.pdf",
+            "news_date": "2025-10-24 16:03:40"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Notice of loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1c7ca2e-0718-44a3-b78f-61376b6320d7.pdf",
+            "news_date": "2025-10-16 16:28:17"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Report On Re-Lodgement Of Transfer Requests Of Physical Shares",
+            "news_body": "Report on re-lodgement of transfer request of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a24f2371-e6bd-4554-a7d2-c2ca8a022410.pdf",
+            "news_date": "2025-10-07 19:12:06"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b27c0d93-a817-4c67-9b91-7745b075e623.pdf",
+            "news_date": "2025-10-07 19:01:54"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Cancellation Of Schedule Of Analyst / Institutional Investor Meetings",
+            "news_body": "Cancellation of Schedule of Analyst / Institutional Investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f8b8072-3df6-42e1-adc2-71edb288b9ed.pdf",
+            "news_date": "2025-10-06 17:05:09"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meetings under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f2d0843-72a0-4f50-baa1-2842ab6496c2.pdf",
+            "news_date": "2025-10-01 13:23:43"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11a94466-dd43-4638-a382-6636decf47ec.pdf",
+            "news_date": "2025-09-26 20:58:44"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers report and voting results of the 41st Annual General Meeting held on 26th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd7f57a0-d32a-4418-af0d-3938c3fadfd5.pdf",
+            "news_date": "2025-09-26 20:36:16"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 41st Annual General Meeting held on 26th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3c7332c-5c79-442e-b060-19cc8f5b1243.pdf",
+            "news_date": "2025-09-26 20:07:48"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Notice of loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f515a17-533f-4892-973c-2f8014e23efb.pdf",
+            "news_date": "2025-09-25 18:41:12"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for SBI Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=D5AA5239_D258_4BD4_96B7_8008E9383FDF_104652.pdf",
+            "news_date": "2025-09-19 10:46:59"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=187c818a-2a4c-439d-aa3a-89a001695e1a.pdf",
+            "news_date": "2025-09-18 16:29:01"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Notice regarding \"Saksham Niveshak\" - 100 days campaign to claim unpaid dividends",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59a011fb-950a-4db5-9d20-70e0bcf2e1bb.pdf",
+            "news_date": "2025-09-17 18:19:46"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Notice regarding Special window for re-lodgement of transfer request of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbdb2025-31b3-486c-a544-81b257479273.pdf",
+            "news_date": "2025-09-17 18:15:36"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Notice of loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7ccc31b-de6d-4aed-b498-d581810a075f.pdf",
+            "news_date": "2025-09-10 19:02:01"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=955f696b-287d-4bec-9716-0b23a45ec553.pdf",
+            "news_date": "2025-09-02 17:54:08"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Weblink Letter To Members - As Per Regulation 36(1)(B) Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Weblink letter to Members  - As per Regulation 36(1)(B) of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d52d2615-728c-451b-bab6-df595fba765b.pdf",
+            "news_date": "2025-09-02 17:50:34"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Re-Lodgement Of Transfer Requests Of Physical Shares",
+            "news_body": "Report on re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=361616d4-56df-4c51-864e-c24b74f44f2b.pdf",
+            "news_date": "2025-09-02 17:27:16"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80e1c263-bde5-480e-9995-c0272d0793e4.pdf",
+            "news_date": "2025-09-01 14:32:39"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 41St Annual General Meeting",
+            "news_body": "Notice of 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a58610c1-3e6d-417f-8453-ebf2af896a8d.pdf",
+            "news_date": "2025-09-01 14:27:57"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b3b799f-d3a6-4e13-99f2-05baa687d31e.pdf",
+            "news_date": "2025-09-01 14:09:04"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Payment Of Final Dividend For The Financial Year 2024-25",
+            "news_body": "Record date for payment of final dividend for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b1c3ca2-c515-4c8c-9c24-fa8c4545a5f8.pdf",
+            "news_date": "2025-08-29 19:04:05"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Information of 41st AGM Book closure and cut-off date for evoting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e0078eb-96ea-4d1e-ae92-5f190f3887da.pdf",
+            "news_date": "2025-08-26 17:11:30"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Corporate Action - Fixes Book Closure For Dividend And AGM",
+            "news_body": "Corporate Action - Fixes Book Closure for Dividend and AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b18be9b-6338-4e44-848f-53ce7167e8bf.pdf",
+            "news_date": "2025-08-25 18:38:28"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of 41St Annual General Meeting Book Closure And Cut-Off Date For E-Voting",
+            "news_body": "Intimation of 41st Annual General Meeting Book Closure and Cut-off date for e-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db87d541-fa47-44af-bd00-327a854246d2.pdf",
+            "news_date": "2025-08-25 18:25:54"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Receipt of order in favour of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=682bed1f-39a7-4e44-8c45-a33296a5467e.pdf",
+            "news_date": "2025-08-20 20:04:18"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Notice of loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9655cddd-65f0-4815-a6a1-ecc8b11aa2ac.pdf",
+            "news_date": "2025-08-13 16:58:41"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Audio Conference call for investors on 8th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=614eb635-75a9-4743-be56-04a2b206e9ee.pdf",
+            "news_date": "2025-08-13 16:55:58"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f46809b-835b-4872-91bf-52d099d04e10.pdf",
+            "news_date": "2025-08-09 19:34:51"
+        },
+        {
             "sym": "PITTIENG",
             "disp": "Pitti Engineering",
             "bse_code": 513519,
@@ -168,6 +861,28 @@
             "sid": 14134,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Revised Investor Presentation - Financial Results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6659aa50-bc15-4fa6-81d6-f08f52475fda.pdf",
+            "news_date": "2025-08-08 22:18:17"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release (Revised)",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release (Revised)",
+            "news_body": "Revised Press Release on Financial Results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f42ed0fe-79be-448b-848b-799948c8d9cf.pdf",
+            "news_date": "2025-08-08 22:11:21"
         },
         {
             "sym": "PITTIENG",
@@ -194,6 +909,28 @@
             "seg": "E"
         },
         {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of conference call on un-audited financial results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a89bd22-299f-4730-a084-a4e2b09de9e8.pdf",
+            "news_date": "2025-08-08 17:08:58"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on Financial Results Q1 FY 26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b104264-8c08-452c-991d-3bf85912e824.pdf",
+            "news_date": "2025-08-07 20:56:33"
+        },
+        {
             "sym": "PITTIENG",
             "disp": "Pitti Engineering",
             "bse_code": 513519,
@@ -216,6 +953,39 @@
             "sid": 14134,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the financial results of the Company for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b12d1df4-e886-498b-b750-fdd6fba7b015.pdf",
+            "news_date": "2025-08-07 20:47:52"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1181a9dd-46ed-4153-955f-5d323368f84e.pdf",
+            "news_date": "2025-08-07 18:50:48"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Capacity Expansion",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Capacity expansion",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99c5f3a4-ef82-423d-9d0a-4bbebd3ee3e9.pdf",
+            "news_date": "2025-08-07 18:46:22"
         },
         {
             "sym": "PITTIENG",
@@ -242,6 +1012,127 @@
             "seg": "E"
         },
         {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81d2973d-ebcc-4879-8051-d694a2d68c59.pdf",
+            "news_date": "2025-08-07 18:24:18"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Audio Conference Call for Investors on 8th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96b9e74c-9ee0-4d42-bc4a-f070bb89c831.pdf",
+            "news_date": "2025-07-29 17:39:20"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification",
+            "news_body": "Clarification on movement in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=590fede3-466d-44b5-a628-86a8d46e84c0.pdf",
+            "news_date": "2025-07-24 12:35:06"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Pitti Engineering Ltd",
+            "news_body": "The Exchange has sought clarification from Pitti Engineering Ltd on July 24 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-07-24 11:55:19"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification",
+            "news_body": "Clarification for spurt in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77802b10-4069-466f-b62b-8c0d92348163.pdf",
+            "news_date": "2025-07-24 10:14:19"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Un-Audited Financial Results (Standalone And Consolidated) For The Quarter Ended 30Th June 2025",
+            "news_body": "Pitti Engineering Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/08/2025 inter alia to consider and approve approving the un-audited financial results (Standalone And Consolidated) for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b42496ce-6a8d-4e67-aab6-0677efb4b627.pdf",
+            "news_date": "2025-07-18 16:15:39"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dff6111f-dc68-46df-bf7f-64283666dce2.pdf",
+            "news_date": "2025-07-02 13:22:38"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19b528a9-5aac-4f88-9d5b-b058246d918d.pdf",
+            "news_date": "2025-06-26 17:24:38"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication-Notice of loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1bd1f74-0a10-4343-a97e-01174240ca3c.pdf",
+            "news_date": "2025-06-24 12:41:04"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Notice of loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ea7f444-f6b2-4889-bbb9-bcde9bcb9eb7.pdf",
+            "news_date": "2025-06-10 17:20:17"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Audio Conference call for investors on 23rd April 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec59ac3f-77db-4b70-9fb6-ce20bfab7a4c.pdf",
+            "news_date": "2025-04-28 17:45:36"
+        },
+        {
             "sym": "PITTIENG",
             "disp": "Pitti Engineering",
             "bse_code": 513519,
@@ -264,6 +1155,94 @@
             "sid": 14134,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of conference call on audited financial results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6c83979-ea56-4906-b808-e8e518292c3c.pdf",
+            "news_date": "2025-04-23 19:14:55"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57445cee-f7d0-4acf-ac48-7d6312d9ddaf.pdf",
+            "news_date": "2025-04-23 15:55:51"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication-Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aeb4679f-a2ed-49b0-ba81-d70b4c39aa5f.pdf",
+            "news_date": "2025-04-23 13:20:16"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Pitti Engineering Ltd-</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L29253TG1983PLC004141</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>191.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>AA-</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>INDIA RATINGS AND RESEARCH PVT. LTD.</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Mary Monica Braganza <br/>  Designation: Company Secretary and Chief Compliance Officer <br/> EmailId: monica.m@pitti.in</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: M Pavan Kumar <br/> Designation: Chief Financial Officer <br/> EmailId: pavankumar.m@pitti.in</div> </div> <div> <br/> Date: 22/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76f2891c-9db5-4e28-980f-f9ffa2e49b44.pdf",
+            "news_date": "2025-04-22 18:06:52"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Updated Invitation - Investor Audio Conference on 23rd April 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=609a36c5-46fa-429c-97d5-2b88004986bd.pdf",
+            "news_date": "2025-04-22 12:28:25"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor",
+            "news_body": "Appointment of Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4fb18b88-86e6-4f08-a272-f16a9582bf56.pdf",
+            "news_date": "2025-04-21 21:21:49"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Completion of tenure of Independent Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abe1d123-4b83-4223-a21b-ec79e8556802.pdf",
+            "news_date": "2025-04-21 21:14:21"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Redesignation of existing Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2aeae71-f575-4d41-b966-dd639ce6e4e4.pdf",
+            "news_date": "2025-04-21 21:08:05"
         },
         {
             "sym": "PITTIENG",
@@ -290,6 +1269,39 @@
             "seg": "E"
         },
         {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation on the financial results of the Company for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=314d3970-c513-4def-b0cc-87aa4e8c7e19.pdf",
+            "news_date": "2025-04-21 19:35:53"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release regarding financial results - Q4FY25 & FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6e8e796-3a7b-402a-8dcb-d294ca6f757d.pdf",
+            "news_date": "2025-04-21 19:12:25"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12a966e0-8b84-4b9a-be4b-b2fe4dca0d91.pdf",
+            "news_date": "2025-04-21 18:55:31"
+        },
+        {
             "sym": "PITTIENG",
             "disp": "Pitti Engineering",
             "bse_code": 513519,
@@ -314,6 +1326,28 @@
             "seg": "E"
         },
         {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Year Ended 31St March 2025 - Readable",
+            "news_body": "Audited financial results for the quarter and year ended 31st March 2025 - Readable",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2ec578a-854f-4440-802a-a262c2d345c5.pdf",
+            "news_date": "2025-04-21 18:33:46"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Recommendation of final dividend for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9d87474-29c2-4288-8b56-526e7304e1f0.pdf",
+            "news_date": "2025-04-21 16:56:12"
+        },
+        {
             "sym": "PITTIENG",
             "disp": "Pitti Engineering",
             "bse_code": 513519,
@@ -336,6 +1370,72 @@
             "sid": 14134,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Year Ended 31St March 2025",
+            "news_body": "Audited financial results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3a6c006-999d-4059-8512-44ba5ecba918.pdf",
+            "news_date": "2025-04-21 16:49:21"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Audio Conference Call for Investors on 23rd April 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c829866-d0d0-4545-a5c5-f6630a7eb53c.pdf",
+            "news_date": "2025-04-17 17:13:12"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Audited Financial Results (Standalone And Consolidated) For The Quarter And Year Ended 31St March 2025 And Recommendation Of Final Dividend On Equity Shares Of The Company If Any",
+            "news_body": "Pitti Engineering Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 21/04/2025 inter alia to consider and approve the audited financial results (standalone and consolidated) for the quarter and year ended 31st March 2025 and recommendation of final dividend on equity shares of the Company if any",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07e12e04-fd12-4a2b-87e9-1e939c7c7c57.pdf",
+            "news_date": "2025-04-11 20:03:12"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Resignation of Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=efd45ee5-b28d-4c7f-bd6e-79a625abad92.pdf",
+            "news_date": "2025-04-07 16:57:19"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Particpants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6cada47-f55b-4c3b-acd4-48b9a62c45ea.pdf",
+            "news_date": "2025-04-02 14:00:42"
+        },
+        {
+            "co_code": 3497,
+            "bse_code": 513519,
+            "isin": "INE450D01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates On Capacity Addition",
+            "news_body": "Updates on Capacity Addition",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c709aa95-8aac-4f4c-98de-c177c2010ef1.pdf",
+            "news_date": "2025-03-31 21:10:47"
         },
         {
             "sym": "PITTIENG",
@@ -1537,6 +2637,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

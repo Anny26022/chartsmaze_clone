@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "NOTICE OF POSTAL BALLOT",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4008c10-4f26-40dc-abba-becc5bb55c72.pdf",
+            "news_date": "2026-02-11 15:44:09"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -24,6 +35,28 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48742d86-a898-4213-ac82-d818baa9fd73.pdf",
+            "news_date": "2026-02-09 15:01:07"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "NEWSPAPER CLIPPINGS OF UNAUDITED FINANCIAL RESULTS",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f5296bb-7312-498d-be39-6d1613f843e3.pdf",
+            "news_date": "2026-02-08 10:48:38"
         },
         {
             "sym": "KUANTUM",
@@ -50,6 +83,50 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf6fb06c-7b23-46b4-8a97-0dd346421e4d.pdf",
+            "news_date": "2026-02-07 21:21:40"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "CHANGES IN MANAGEMENT/DIRECTORS",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af98e5f3-1420-4cd0-ae2f-746b79c680c6.pdf",
+            "news_date": "2026-02-07 16:26:55"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "APPOINTMENTS AND RESIGNATION OF DIRECTORS/CHANGES IN MANAGEMENT",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c21e9293-307a-497a-a06f-1954585da98d.pdf",
+            "news_date": "2026-02-07 16:24:18"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "CHANGES IN MANAGEMENT",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21780797-1e1f-486f-9b18-82ec3613ba29.pdf",
+            "news_date": "2026-02-07 16:20:34"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -72,6 +149,94 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "UNAUDITED FINANCIAL RESULTS FOR QUARTER ENDED 31ST DECEMBER 2025",
+            "news_body": "UNAUDITED FINANCIAL RESULTS FOR QUARTER ENDED 31ST DECEMBER 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f78b632-968b-414f-996f-c4ca84af6d75.pdf",
+            "news_date": "2026-02-07 16:17:52"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for OUTCOME OF BOARD MEETING AND UNAUDITED QUARTERLY FINANCIAL RESULTS",
+            "news_body": "OUTCOME OF BOARD MEETING AND UNAUDITED QUARTERLY FINANCIAL RESULTS",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aac82612-1144-4624-9371-bf17d6d4f40d.pdf",
+            "news_date": "2026-02-07 15:59:36"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Special Window For Transfer And Dematerialization Of Physical Securities.",
+            "news_body": "Pursuant to SEBI Circular No. HO/38/13/11(2)2026-MIRSD-POD/I/3750/2026 dated January 30 2026 Special Window has been opened for a period of one year fron February 05 2026 to February 04 2026 for transfer and dematerialisation of physical securities which were sold/purchased prior to April 01 2019 and rejected/ returned/ not attended due to deficiency in the documents/ process or otherwise and also in case where it could not be lodged for transfer before April 01 2019 in the manner specified in said Circular.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a17945dd-3abe-41bd-beab-01e83a89fc81.pdf",
+            "news_date": "2026-02-03 16:47:47"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meet to be held on 9th Feb 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d03f7679-654b-4205-9be1-3967a635dca4.pdf",
+            "news_date": "2026-02-02 15:05:48"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Inter-Alia Consideration And Approval Of Unaudited Financial Results For Q.E. 31St December 2025",
+            "news_body": "Kuantum Papers Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/02/2026 inter alia to consider and approve Board Meeting for consideration and approval of Unaudited Financial Results for Quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=553b7ee5-e4bb-43cd-961c-184ab5b0ddaa.pdf",
+            "news_date": "2026-01-31 10:25:05"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Update",
+            "news_body": "General updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9e269f2-6cc2-438f-9111-2fc4e4c81094.pdf",
+            "news_date": "2026-01-09 15:10:16"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b704e44-fa40-4939-a5ab-d75eb82792e5.pdf",
+            "news_date": "2026-01-06 12:05:51"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65ef8114-8ab1-4116-8e9c-e8b9d66d67d7.pdf",
+            "news_date": "2025-12-22 10:09:14"
         },
         {
             "sym": "KUANTUM",
@@ -98,6 +263,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd6a7a9d-57ba-4404-9a37-f1425d04b410.pdf",
+            "news_date": "2025-11-25 10:24:00"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -120,6 +296,17 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4730dd0-187c-4b1a-9539-c7263a7bd64c.pdf",
+            "news_date": "2025-11-24 17:35:06"
         },
         {
             "sym": "KUANTUM",
@@ -146,6 +333,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Q2/H1 FY26 Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d47faa7e-b880-4394-8300-8001e34787a2.pdf",
+            "news_date": "2025-11-13 12:58:47"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -168,6 +366,17 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78d4885c-9572-4175-9541-92cb390a7dae.pdf",
+            "news_date": "2025-11-10 14:28:42"
         },
         {
             "sym": "KUANTUM",
@@ -194,6 +403,28 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation for Quarter/Half Year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd170846-af85-456c-b689-4315617c262d.pdf",
+            "news_date": "2025-11-08 15:53:20"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Clippings of Unaudited Financial Results for Quarter and Half Year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45ad500d-b8f9-48de-a8b1-718de2e98478.pdf",
+            "news_date": "2025-11-08 10:37:33"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -216,6 +447,116 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "UNAUDITED FINANCIAL RESULTS FOR QUARTER  AND HALF YEAR ENDED 30TH SEPTEMBER 2025",
+            "news_body": "UNAUDITED FINANCIAL RESULTS FOR QUARTER AND HALF YEAR ENDED 30TH SEPTEMBER 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d1f0c54-90ca-4870-8d93-a33d7e17b471.pdf",
+            "news_date": "2025-11-07 16:14:37"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for OUTCOME OF MEETING OF BOARD OF DIRECTORS AND UNAUDITED FINANCIAL RESULTS",
+            "news_body": "OUTCOME OF MEETING OF BOARD OF DIRECTORS AND UNAUDITED FINANCIAL RESULTS",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f03d6258-34de-45df-9ef0-6504dd4d3bd6.pdf",
+            "news_date": "2025-11-07 15:50:11"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "intimation regarding Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ac57b9f-b098-4146-9128-9274b2ebce80.pdf",
+            "news_date": "2025-11-06 11:29:46"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c455304-33db-4276-b0af-b26d11ad7235.pdf",
+            "news_date": "2025-10-30 18:10:53"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Prior Intimation Of Meeting Of Board Of Directors  For Consideration And Approval Of Unaudited Financial Results For Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Kuantum Papers Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/11/2025 inter alia to consider and approve Prior Intimation of Meeting of Board of Directors  for Consideration and approval of Unaudited Financial Results for Quarter and Half Year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=162edeb3-4c41-4d34-9fb1-53d068ed4665.pdf",
+            "news_date": "2025-10-28 11:05:21"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ec839fb-ae7c-4296-b67b-b1504fc81ea4.pdf",
+            "news_date": "2025-10-11 11:13:47"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "CERTIFICATE UNDER REG. 74(5) OF SEBI (DP) REGULATIONS 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfc16635-be9f-4ddf-a7e8-f5641056fe1d.pdf",
+            "news_date": "2025-10-07 13:25:10"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Update",
+            "news_body": "General Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad71b9dd-bb26-4752-941e-a22d63827906.pdf",
+            "news_date": "2025-10-04 13:26:19"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4686529-0d6e-4650-b9ac-9485882f13c9.pdf",
+            "news_date": "2025-10-03 10:50:43"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "INTIMATION OF CLOSURE OF TRADING WINDOW",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ddca885-3a92-46f5-abe9-4a5c94bd5f9f.pdf",
+            "news_date": "2025-09-24 12:18:36"
         },
         {
             "sym": "KUANTUM",
@@ -242,6 +583,83 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "INVESTOR PRESENTATION",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6717dd45-25e6-4a18-a550-efbbe2b51cbc.pdf",
+            "news_date": "2025-09-05 11:29:40"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of Form DPT-1",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acb33be0-e881-4dfe-9216-fe6a06f28ca0.pdf",
+            "news_date": "2025-08-30 10:57:05"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "APPOINTMENTS/RE-APPOINTMENTS  AND OTHER MATTERS APPROVED AT AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e120aa2-412c-4c62-99b9-ad4f16514f4b.pdf",
+            "news_date": "2025-08-29 16:05:50"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "VOTING RESULTS AND SCRUTINIZERS REPORT",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c845c49e-7de0-42a7-b8c7-75ecac639082.pdf",
+            "news_date": "2025-08-29 15:42:22"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "SCRUTINIZERS REPORT AND VOTING RESULTS OF 28TH AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e597e7-b4b7-49fc-8d5a-328b41cee877.pdf",
+            "news_date": "2025-08-29 15:40:00"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "PROCEEDINGS OF 28TH ANNUAL GENERAL MEETING",
+            "news_body": "PROCEEDINGS OF 28TH ANNUAL GENERAL MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a85d8f1-b4a1-4d23-94b3-42d383cf4cad.pdf",
+            "news_date": "2025-08-29 12:44:40"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "PROCEEDINGS OF 28TH ANNUAL GENERAL MEETING",
+            "news_body": "PROCEEDINGS OF 28TH ANNUAL GENERAL MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0051ca3b-576d-4e19-b002-008dbfcd6d75.pdf",
+            "news_date": "2025-08-29 12:42:34"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -264,6 +682,17 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Q1 FY2026 Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9423dbef-d2b9-4e06-9c5e-5c746d884eda.pdf",
+            "news_date": "2025-08-13 16:41:12"
         },
         {
             "sym": "KUANTUM",
@@ -290,6 +719,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccf98860-5538-4cc8-b5ca-e4200550f634.pdf",
+            "news_date": "2025-08-11 15:23:53"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -312,6 +752,28 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "EARNINGS PRESENTATION",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a25005f-0705-4f1c-81e4-6086775a9c04.pdf",
+            "news_date": "2025-08-11 09:59:53"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper clippings of the Unaudited Financial Results for Q.E. 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bbdea4b-b8dc-4e61-8c2d-e403c4f06914.pdf",
+            "news_date": "2025-08-09 10:51:11"
         },
         {
             "sym": "KUANTUM",
@@ -338,6 +800,149 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter Ended 30Th June 2025",
+            "news_body": "Unaudited Financial Results for the Quarter Ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0ad0eb7-07c8-4d92-9877-2098f5ec3f1c.pdf",
+            "news_date": "2025-08-08 13:31:22"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Meeting Of Board Of Directors And Unaudited Financial Results For The Quarter Ended 30Th June 2025",
+            "news_body": "Outcome of Meeting of Board of Directors and Unaudited Financial Results for the Quarter Ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4062847e-73f9-42d7-93db-5e19ad3f2e28.pdf",
+            "news_date": "2025-08-08 13:20:11"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor Meet/ Analyst(s) /Institutional Investor(s) Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78d17f23-cf9a-4da9-b313-7c0711eb1a41.pdf",
+            "news_date": "2025-08-04 14:23:25"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Notice of the Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79d59fdd-d02f-4bc1-8673-6f94522b583b.pdf",
+            "news_date": "2025-08-04 11:01:41"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "BUSINESS RESPONSIBILITY AND SUSTAINABILITY REPORT 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b044c22c-772b-4e73-9f08-cf773718b949.pdf",
+            "news_date": "2025-08-02 14:50:29"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Reg. 34 (1) Annual Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e432a28-22ed-4d7d-b152-22366b29f88c.pdf",
+            "news_date": "2025-08-02 14:35:24"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "NOTICE OF 28TH ANNUAL GENERAL MEETING",
+            "news_body": "NOTICE OF 28TH ANNUAL GENERAL MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=666eba4c-f40e-444f-bf82-3c30ce46f7ab.pdf",
+            "news_date": "2025-08-02 10:41:22"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results For Q.E. 30Th June 2025",
+            "news_body": "Kuantum Papers Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 08/08/2025 inter alia to consider and approve Consideration and approval of Unaudited Financial Results for q.e. 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb0614b6-8a84-44b3-a752-d9b970a50e02.pdf",
+            "news_date": "2025-07-31 12:35:50"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02dcdb58-4bf5-400f-8fe5-ae9dc86f8e5b.pdf",
+            "news_date": "2025-07-09 10:08:56"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e7646ec-9bf6-4f52-920c-8a42d7f39c50.pdf",
+            "news_date": "2025-07-04 16:26:32"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Successful Start-Up Of Paper Machine-4 Post-Rebuild",
+            "news_body": "Intimation regarding successful start-up of Paper Machine -4 post-rebuild",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9cbd7e5-b5c2-4bfb-b847-e9eba88cdd9c.pdf",
+            "news_date": "2025-07-01 10:27:16"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication  W.R.T. Tax Deduction At Source On Dividend",
+            "news_body": "Communication w.r.t Tax Deduction at Source on Dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b90df583-d192-45ba-8b97-00511012b44f.pdf",
+            "news_date": "2025-06-27 16:25:28"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5810813-1727-48e5-af3d-a090f442478e.pdf",
+            "news_date": "2025-06-23 13:15:36"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -360,6 +965,39 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82df7c6f-40a0-4ae0-a2b3-51c9abdbb5c0.pdf",
+            "news_date": "2025-06-12 11:27:24"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Clippings of Newspaper Notice for transfer of  Dividend/Share to IEPF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6c76d65-59b9-4ed2-83a4-afc5ae4b5ad8.pdf",
+            "news_date": "2025-06-03 11:05:50"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Temporary Shutdown Of Paper Machine-4 (PM-4) For Upgradation & Modernization\r\n",
+            "news_body": "Intimation regarding temporary shutdown of Paper Machine-4 (PM-4) for upgradation & modernization",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a1305ec-7180-4c18-ba23-13b004e11ea2.pdf",
+            "news_date": "2025-05-26 14:28:32"
         },
         {
             "sym": "KUANTUM",
@@ -386,6 +1024,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e606a93-39a7-47d5-8e88-1680a95b2afe.pdf",
+            "news_date": "2025-05-23 15:59:56"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -408,6 +1057,28 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54bbae31-cfdc-406c-9a78-db2318bb4fa9.pdf",
+            "news_date": "2025-05-21 16:09:31"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Clippings of Audited Financial Results for Quarter and Financial Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f2340e1-299b-4cea-85df-e3e3dd69d6e2.pdf",
+            "news_date": "2025-05-21 10:38:56"
         },
         {
             "sym": "KUANTUM",
@@ -434,6 +1105,116 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation for Quarter and Financial Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80ab52b3-7b3d-43d2-b1bc-42b1e2905243.pdf",
+            "news_date": "2025-05-21 10:31:03"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "INTEGRATED FILING- FINANCIAL",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8067622-6547-42b0-917b-9e94d1f6e85e.pdf",
+            "news_date": "2025-05-20 17:46:27"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Disclosure under Regulation 30A of LODR",
+            "news_body": "Outcome of Meeting of Board of Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=041b2870-e9ad-406e-bbea-f4a1c654c0dd.pdf",
+            "news_date": "2025-05-20 17:18:58"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Statutory Auditor/s",
+            "caption": "Announcement under Regulation 30 (LODR)-Appointment of Statutory Auditor/s",
+            "news_body": "Re-appointment of Statutory Auditors for Second Term",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc30016b-d837-4f96-86e6-acbeea636b6d.pdf",
+            "news_date": "2025-05-20 17:11:37"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Chairman",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=733aeefe-daff-47ce-bff0-07c302ebae4c.pdf",
+            "news_date": "2025-05-20 17:09:33"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointments/Re-appointments of Auditors and Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c472f409-6a9d-47e2-b895-6446b545732b.pdf",
+            "news_date": "2025-05-20 17:07:03"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date And Book Closure Dates",
+            "news_body": "Intimation of Record Dates and Book Closures Dates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3eafe7a-582b-4c46-940d-695af5129e5f.pdf",
+            "news_date": "2025-05-20 17:03:43"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend/AGM",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Recommendation of Dividend and AGM date intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b23fb4f1-8dcc-4b2a-b305-1a98e12eba02.pdf",
+            "news_date": "2025-05-20 17:01:23"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Recommendation of Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=389ba79f-612a-4b91-911a-540001add211.pdf",
+            "news_date": "2025-05-20 16:58:22"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Meeting Of Board Of Directors And Audited Financial Results",
+            "news_body": "Outcome of Meeting of Board of Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c114da3c-a6e0-4e01-ab7e-91dffb66bfc0.pdf",
+            "news_date": "2025-05-20 16:55:07"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -456,6 +1237,83 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For Quarter And Financial Year Ended 31St March 2025",
+            "news_body": "Audited Financial Results for Quarter and Financial Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f06255a-53a9-4f2d-84ee-4dada1ccfebb.pdf",
+            "news_date": "2025-05-20 16:48:24"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Earnings Conference Call/Investors Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2098df70-eec0-4c6b-a82f-a94d69c6b069.pdf",
+            "news_date": "2025-05-16 10:24:13"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Inter-Alia Consideration Of Audited Financial Results And Recommendation Of Dividend If Any.",
+            "news_body": "Kuantum Papers Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 20/05/2025 inter alia to consider and approve Inter-alia consideration of Audited Financial Results and recommendation of Dividend if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de5a1815-00b9-4b97-94dd-1e97ae2a9618.pdf",
+            "news_date": "2025-05-13 18:52:03"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63bdf747-6178-4a18-a361-e479f033ee77.pdf",
+            "news_date": "2025-04-28 17:11:38"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e104726-1b48-46e9-b16b-708fc02ae9d3.pdf",
+            "news_date": "2025-04-04 10:13:19"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "INTIMATION OF CLOSURE OF TRADING WINDOW",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30a4bf76-9b61-486d-9170-726bcdf3a709.pdf",
+            "news_date": "2025-03-19 13:33:20"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "INTIMATION OF CLOSURE OF TRADING WINDOW",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7cc1153-2fa4-4b6d-8b01-44a55ef35b57.pdf",
+            "news_date": "2025-03-19 12:14:04"
         },
         {
             "sym": "KUANTUM",
@@ -482,6 +1340,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "INVESTOR PRESENTATION",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e6ab94a-255f-4a6f-b09b-e1bb30e73841.pdf",
+            "news_date": "2025-03-07 12:11:27"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -504,6 +1373,28 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "TRANSCRIPT OF Q3-FY25 EARNINGS CONFERENCE CALL",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76f3823-3daf-4820-8019-c49f3f576a6a.pdf",
+            "news_date": "2025-02-18 11:22:28"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings call Q3- FY 2025 -Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be7bef86-6caa-499a-9c91-fbde27205056.pdf",
+            "news_date": "2025-02-14 16:16:29"
         },
         {
             "sym": "KUANTUM",
@@ -530,6 +1421,39 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation Q3/9M-FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c77461dc-d414-4b4e-b3b7-936d6bdbfb29.pdf",
+            "news_date": "2025-02-13 16:26:55"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=526fe55d-f430-403b-802f-69a54394c6a3.pdf",
+            "news_date": "2025-02-12 10:20:26"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial) for quarter ended 31.12.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed71fad4-8615-4eda-89a3-f47cabb134ad.pdf",
+            "news_date": "2025-02-11 17:56:38"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -552,6 +1476,83 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter/Nine Months Ended 31.12.2024.",
+            "news_body": "Unaudited Financial Results for the quarter/nine months ended 31.12.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29688f21-f9d4-4427-957c-4cb321c38254.pdf",
+            "news_date": "2025-02-11 16:10:07"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting And Unaudited Financial Results For The Quarter Ended 31.12.2024",
+            "news_body": "Outcome of Board Meeting and Unaudited Financial Results for the quarter ended 31.12.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b230efb-f7cf-4cc1-b8e7-e3e447efac1e.pdf",
+            "news_date": "2025-02-11 16:02:00"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor(s) Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bba6439f-c426-4230-9bb1-6311aca2ecaf.pdf",
+            "news_date": "2025-02-06 15:47:23"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider To Approve The Unaudited Financial Results Of The Company For The Quarter / Nine Months Ended 31St December 2024.",
+            "news_body": "KUANTUM PAPERS LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/02/2025 inter alia to consider and approve  the Unaudited Financial Results of the Company for the Quarter / Nine Months ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb1fde66-66ed-465b-841a-693817dc52f1.pdf",
+            "news_date": "2025-02-05 18:01:08"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Governance)",
+            "caption": "Integrated Filing (Governance)",
+            "news_body": "Integrated Filing (Governance)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4af4a58e-f221-4bfb-bf46-4f9e461cf287.pdf",
+            "news_date": "2025-01-13 15:23:51"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52178a87-0951-4010-b005-2099939077d8.pdf",
+            "news_date": "2025-01-08 17:52:29"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ad0dcfa-f58b-413b-8e37-5a0977e4841d.pdf",
+            "news_date": "2024-12-23 11:21:53"
         },
         {
             "sym": "KUANTUM",
@@ -578,6 +1579,28 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c51a05a-178a-4bad-a50a-73a11fab79a1.pdf",
+            "news_date": "2024-12-03 11:27:39"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication-Postal Ballot Notice and E-Voting information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b25e0895-0877-45a1-9ca1-38f8d77f20e4.pdf",
+            "news_date": "2024-11-19 10:17:53"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -600,6 +1623,28 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript-Q2H1-FY25 results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b376bc64-6478-4316-a97e-bf0f391fddfb.pdf",
+            "news_date": "2024-11-18 17:35:27"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cde6827-d696-4f95-8ef9-790c88e30ce3.pdf",
+            "news_date": "2024-11-18 11:40:31"
         },
         {
             "sym": "KUANTUM",
@@ -626,6 +1671,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c7d3cd7-bec4-4e72-86f4-0d2a913b78f7.pdf",
+            "news_date": "2024-11-14 21:12:52"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -648,6 +1704,17 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=842f4894-648e-4409-b812-464144d71cb1.pdf",
+            "news_date": "2024-11-14 20:46:05"
         },
         {
             "sym": "KUANTUM",
@@ -674,6 +1741,28 @@
             "seg": "E"
         },
         {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation Q2/H1-FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fc120f1-2895-4fe5-9209-a5185f19da00.pdf",
+            "news_date": "2024-11-13 17:57:48"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=064c9161-6aaf-455e-ac79-7add20793e1b.pdf",
+            "news_date": "2024-11-13 10:34:02"
+        },
+        {
             "sym": "KUANTUM",
             "disp": "Kuantum Papers",
             "bse_code": 532937,
@@ -696,6 +1785,17 @@
             "sid": 13870,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27640,
+            "bse_code": 532937,
+            "isin": "INE529I01021",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Half Year Ended 30Th September, 2024.",
+            "news_body": "Unaudited Financial Results for the quarter and half year ended 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83e46250-2823-4e14-83e6-8aea998e0a05.pdf",
+            "news_date": "2024-11-12 15:32:05"
         },
         {
             "sym": "KUANTUM",
@@ -2329,6 +3429,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

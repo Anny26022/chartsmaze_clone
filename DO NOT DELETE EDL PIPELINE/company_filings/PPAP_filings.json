@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of earning conference call for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcfc179f-8906-4853-9872-013c140bc58d.pdf",
+            "news_date": "2026-02-11 10:27:19"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "PPAP Automotive Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2026 inter alia to consider and approve inter alia unaudited financial results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3da27c6-111a-46f2-b836-fcdad164dab6.pdf",
+            "news_date": "2026-02-09 15:45:42"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=107bf865-0f1c-46df-a625-a7e60fd456cd.pdf",
+            "news_date": "2026-01-14 14:35:39"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Diversification / Disinvestment",
+            "caption": "Announcement under Regulation 30 (LODR)-Diversification / Disinvestment",
+            "news_body": "PPAP has entered into settlement agreement with Tokai Kogyo Co. Ltd (\"Tokai\") and PPAP Tokai India Rubber Private Limited (\"PTI\") Joint Venture Company for sale of its shares 50% stake in PTI to Tokai.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=307161d1-bcef-459d-88d9-845eb1fd4986.pdf",
+            "news_date": "2026-01-07 14:39:47"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb548de2-e32a-45ec-af4c-cfc03f0877be.pdf",
+            "news_date": "2025-12-26 10:40:34"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -24,6 +79,17 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of earning call for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9454dbc9-3e3b-4349-b5e8-b5f7d53972e8.pdf",
+            "news_date": "2025-11-17 16:54:40"
         },
         {
             "sym": "PPAP",
@@ -50,6 +116,28 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Presentation and audio recording of earning conference call for the quarter and half year ended September 30 2025\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed94ed9b-2886-4fcb-9832-715267c6fac7.pdf",
+            "news_date": "2025-11-14 17:45:46"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Advertisement published in newspaper- Unaudited financial results for the quarter end half year ended September 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=162dfed1-7df9-4b09-b471-1132cc925182.pdf",
+            "news_date": "2025-11-14 12:10:34"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -72,6 +160,215 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Analyst and Investor Presentation along with Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20bc4a62-cabd-4870-9d60-0bf009aaf315.pdf",
+            "news_date": "2025-11-13 21:14:43"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board has approved interim dividend in its meeting held on November 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b578c6e6-cde7-4f79-9328-117e85620a89.pdf",
+            "news_date": "2025-11-13 15:49:47"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57a8a9e2-3de2-45f5-a6ef-70e1aad1d88f.pdf",
+            "news_date": "2025-11-13 15:46:47"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of earning conference call for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37e51bd6-2172-4cea-a5e3-1dd4230182bc.pdf",
+            "news_date": "2025-11-11 14:13:41"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date For Interim Dividend",
+            "news_body": "Intimation of Record date for interim dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cc5a991-60cf-409d-97c8-e3cd90d934aa.pdf",
+            "news_date": "2025-11-10 19:01:32"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Board to consider interim dividend in the meeting scheduled on November 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d196ce72-db9a-4be7-9d6f-7cabf83951f1.pdf",
+            "news_date": "2025-11-10 18:59:17"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of earning conference call for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=360e8883-f996-48c9-9b15-ddf52e599875.pdf",
+            "news_date": "2025-11-10 18:24:35"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "PPAP Automotive Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2025 inter alia to consider and approve Intimation of board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f4fca0d-f1f6-43bf-ad2b-2c4369b0f920.pdf",
+            "news_date": "2025-11-10 18:20:33"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating received from CRISIL",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5b8b737-f913-47ae-866b-d85158cfc359.pdf",
+            "news_date": "2025-10-31 15:51:09"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61e90c2a-6e2a-4b21-9799-a6b4bff40dd0.pdf",
+            "news_date": "2025-10-15 17:57:46"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closing of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3337c109-0a56-4b1a-9bfb-0b48522961fb.pdf",
+            "news_date": "2025-09-29 17:28:39"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizer Report of the 30th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ece8e71-e799-4863-94a5-9ebd47ab3a73.pdf",
+            "news_date": "2025-09-25 18:06:46"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=803ab202-2013-463a-84be-446f04308b06.pdf",
+            "news_date": "2025-09-25 12:53:03"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Email Communication To Shareholders Regarding Amendment In Taxation Provisions Relating To Dividend",
+            "news_body": "Email communication to shareholders regarding amendment in taxation provisions relating to dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3430800-6504-49df-ad09-e0bf14fdc370.pdf",
+            "news_date": "2025-09-12 15:29:38"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67eba06b-9af3-489a-8da4-946a020fe1a0.pdf",
+            "news_date": "2025-09-02 16:41:29"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3d03e05-156a-4e79-94c2-ddf865a4e79d.pdf",
+            "news_date": "2025-09-02 16:37:16"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Annual Report For The Financial Year Ended March 31 2025",
+            "news_body": "Annual Report for the financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3abe5d86-f5ea-4617-829d-fa044a561316.pdf",
+            "news_date": "2025-09-01 19:49:17"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Final Dividend FY25",
+            "news_body": "Intimation of Record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fde7ef64-d03f-4089-a711-5d8ee08cdeab.pdf",
+            "news_date": "2025-08-26 09:12:38"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbede7cf-bda8-4333-a32d-61b23b4c4ab4.pdf",
+            "news_date": "2025-08-21 17:51:54"
         },
         {
             "sym": "PPAP",
@@ -98,6 +395,28 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of earning call for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72d4b390-6351-440a-b6ce-571d7ad8347c.pdf",
+            "news_date": "2025-08-18 16:55:40"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Final Dividend 2025",
+            "news_body": "Record date for final dividend 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ca205ac-aa00-4f9f-80f6-849ccf60967e.pdf",
+            "news_date": "2025-08-12 16:27:24"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -120,6 +439,28 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Presentation and audio recording of earning conference call for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b8bf0cf-2773-4c93-8a96-916c7f0cb052.pdf",
+            "news_date": "2025-08-11 16:59:27"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication-Financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34759d83-cbe1-4ffb-9a29-bf79fb9768a0.pdf",
+            "news_date": "2025-08-09 20:13:22"
         },
         {
             "sym": "PPAP",
@@ -146,6 +487,50 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddf8dc43-15e7-4884-a2ea-cefdca47620c.pdf",
+            "news_date": "2025-08-08 21:30:04"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Final Dividend 2025",
+            "news_body": "Record date for final dividend 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f425813a-cd78-4a5d-a764-7c42dda3aedb.pdf",
+            "news_date": "2025-08-08 16:13:29"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of Annual General Meeting",
+            "news_body": "Intimation of Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83c21a2e-3903-4168-bbb2-f0c796481bf7.pdf",
+            "news_date": "2025-08-08 16:08:46"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80e52a9e-ee65-46c3-92b7-a349987fb34e.pdf",
+            "news_date": "2025-08-08 15:56:40"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -168,6 +553,83 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Result For The Quarter Ended June 30 2025",
+            "news_body": "Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f8df488-3c89-483a-aaf0-9e6d0737b703.pdf",
+            "news_date": "2025-08-08 15:53:25"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of earnings conference call for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9efaffbd-607e-4584-bebe-5d1420609f79.pdf",
+            "news_date": "2025-08-06 16:55:21"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Financial Results (Standalone And Consolidated) Of The Company For The Quarter Ended 30Th June 2025.",
+            "news_body": "PPAP Automotive Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 08/08/2025 inter alia to consider and approve the unaudited financial results (standalone and consolidated) of the Company for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ef9e3aa-0fab-4571-aee0-392f960775be.pdf",
+            "news_date": "2025-08-04 15:21:49"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI(Depositories and Participants)Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01b903a3-89d8-481f-b254-b0d796c317db.pdf",
+            "news_date": "2025-07-15 20:14:11"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31e5bc5b-ec20-4bb6-bc91-028225c16225.pdf",
+            "news_date": "2025-06-23 15:51:04"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulations 30 and 46 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 read with Para A and Part A of schedule III of the said regulations please find enclosed herewith the details of scheduled Meeting(s) between the officials of the Company and various Analyst(s)/advisor(s)/investor(s).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51c436cd-2f09-49c6-a785-11b37b0d78b1.pdf",
+            "news_date": "2025-06-09 12:34:34"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulations 30 and 46 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 read with Para A and Part A of schedule III of the said regulations please find enclosed herewith the details of scheduled Meeting(s) between the officials of the Company and various Analyst(s)/advisor(s)/investor(s).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c0ae2cc-e7a7-4eaa-a78a-950e56080026.pdf",
+            "news_date": "2025-06-06 15:01:41"
         },
         {
             "sym": "PPAP",
@@ -194,6 +656,28 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of earning conference call for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259d1ce2-bde7-4655-99d2-fbeb01064682.pdf",
+            "news_date": "2025-05-23 15:42:56"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59f2731f-e8be-4996-bbb0-a0812f2b332f.pdf",
+            "news_date": "2025-05-22 17:03:03"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -216,6 +700,28 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Presentation and audio recording of earning conference call for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24927261-df0f-4c0b-81e5-8b416d4a1c5c.pdf",
+            "news_date": "2025-05-19 16:58:03"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Advertisment published in newspaper- Audited Financial Results for the quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed21cb4a-3044-4f66-8688-3fcc2647acd3.pdf",
+            "news_date": "2025-05-17 15:34:52"
         },
         {
             "sym": "PPAP",
@@ -242,6 +748,50 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Analysts and Investor presentation on financial results for quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=416f5387-3dca-4c7b-8b7f-6f67751d8cd2.pdf",
+            "news_date": "2025-05-17 15:27:55"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Securing lifetime order wins of INR 601 crore in FY25 closes Q425 with strong momentum with lifetime order wins of INR 188 crore.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8fb250b-1860-49d8-9e56-5230a5070e49.pdf",
+            "news_date": "2025-05-16 21:35:10"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Media Release on the financial results for the quarter and year ended March 312025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fa80032-5e56-4724-b7f9-ed12f94f9a1a.pdf",
+            "news_date": "2025-05-16 20:29:38"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " Appointment Of Secretarial Auditor Of The Company",
+            "news_body": "Appointment of M/s NKJ & Associates Practicing company Secretaries of the company as secretarial auditor of the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55e7b3cd-92f1-434a-91c5-546ef4fdd259.pdf",
+            "news_date": "2025-05-16 18:56:21"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -264,6 +814,149 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Year Ended March 31 2025",
+            "news_body": "Audited financial results for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c22b7b7b-6543-4799-b615-a89c4f73cf61.pdf",
+            "news_date": "2025-05-16 18:49:22"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Employee Stock option",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fceafff5-b169-4a3c-9652-0a2d83e522dd.pdf",
+            "news_date": "2025-05-16 18:31:19"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Board has declared final dividend of Rs. 1.5per share",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bad2af70-70d5-4d05-84af-561eeb93c704.pdf",
+            "news_date": "2025-05-16 18:22:13"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Outcome Of Board Meeting",
+            "news_body": "Outcome of board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01a8b011-771e-4848-90b1-5f89c76a3030.pdf",
+            "news_date": "2025-05-16 18:13:21"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of earnings conference call for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f9b31d-8063-4e6d-bdb9-b861d6b20647.pdf",
+            "news_date": "2025-05-14 12:45:11"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for  Board Meeting Intimation To Consider And Approve The Audited Financial Results (Standalone And Consolidated) Of The Company For The Year Ended March 31 2025 And To Consider The Recommendation Of Final Dividend If Any",
+            "news_body": "PPAP Automotive Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/05/2025 inter alia to consider and approve PPAP Automotive Limited has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/05/2025 inter alia to consider and approve to consider and approve the audited financial results (standalone and consolidated) of the Company for the year ended March 31 2025 and to consider the recommendation of final dividend if any",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=996a334f-ace1-414d-8220-5781f29c3f2f.pdf",
+            "news_date": "2025-05-12 17:04:32"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depository and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45e027f3-4154-47ea-9a2c-f5e5fe5bc546.pdf",
+            "news_date": "2025-04-11 14:14:57"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Incorporation Of Subsidiary Company",
+            "news_body": "Intimation of Incorporation of Subsidiary Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35001ebe-6163-4db4-bdcb-d701b5c75bc1.pdf",
+            "news_date": "2025-04-01 10:55:18"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f93af23-2827-4cc4-bee3-9e36437459ae.pdf",
+            "news_date": "2025-03-25 16:40:07"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Incorporation Of Subsidiary Company",
+            "news_body": "Intimation of Incorporation of Subsidiary Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b77ec0e-08a0-46e5-a72b-4592e4e3c882.pdf",
+            "news_date": "2025-03-25 15:52:44"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General- Updates",
+            "news_body": "PPAP Automotive Limited has informed the exchange regarding Financial Results in machine readable/legible copy of Financial Results for the period ended 31st Dec 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=351d8126-fc01-4570-8b3b-e445e5df0e3f.pdf",
+            "news_date": "2025-03-06 17:24:02"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "GST Demand Order",
+            "news_body": "GST Demand Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cac1efb7-7dd4-47b9-bc57-8202965cafa2.pdf",
+            "news_date": "2025-02-28 18:16:38"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Incorporation Of Subsidiary Company",
+            "news_body": "Intimation of incorporation of subsidiary company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=988c4498-0c32-4139-abd7-1e16eb5c3fb8.pdf",
+            "news_date": "2025-02-22 19:34:30"
         },
         {
             "sym": "PPAP",
@@ -290,6 +983,28 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of earning call for the quarter and nine months ended 31 December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6380bf83-8e57-4612-addc-4806111436f7.pdf",
+            "news_date": "2025-02-14 15:30:08"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Presentation and audio recording of earning conference call for the quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f24183d1-1ae6-4579-8b4d-a7d846d93871.pdf",
+            "news_date": "2025-02-11 19:30:48"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -312,6 +1027,17 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Revised Analyst and investor presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e6c9623-85e8-4e3a-aee8-22a38003ce1e.pdf",
+            "news_date": "2025-02-10 16:01:19"
         },
         {
             "sym": "PPAP",
@@ -338,6 +1064,50 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Analyst and Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdcc4f2b-25a3-46c8-8967-48248d486ac1.pdf",
+            "news_date": "2025-02-10 09:58:35"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of advertisment published in newspaper - Unaudited financial results for the quarter and nine months ended December 30 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bc98143-d086-49eb-b372-89508c174851.pdf",
+            "news_date": "2025-02-09 11:51:37"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Media Release on the financial results for the quarter ended 31 December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b56f1d41-7d52-4f08-ac87-1f7764a1832c.pdf",
+            "news_date": "2025-02-07 17:22:01"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial) for the quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13a49729-bca2-4e3d-8930-0e3301f0b36d.pdf",
+            "news_date": "2025-02-07 16:34:27"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -360,6 +1130,72 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Nine Months Ended December 31 2024",
+            "news_body": "Financial Results for the quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ede294a-da88-4db0-9e75-b0b61a07b5f2.pdf",
+            "news_date": "2025-02-07 16:26:44"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for  Board Meeting Outcome For Outcome Of Board Meeting",
+            "news_body": "Outcome of board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4506a50f-187b-4f9e-bf0f-5520fccb1d8c.pdf",
+            "news_date": "2025-02-07 15:53:49"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of earnings conference call for the quarter and nine months ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c989a50-08fd-46e1-a95e-e559f1cf314b.pdf",
+            "news_date": "2025-02-05 15:35:36"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2024",
+            "news_body": "PPAP Automotive Limitedhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/02/2025 inter alia to consider and approve Unaudited Financial Results For The quarter and nine months Ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24bf74a8-ddbc-482a-b20e-20f9e5416633.pdf",
+            "news_date": "2025-02-04 12:37:58"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2d1a200-4041-4eab-b251-9591860c309c.pdf",
+            "news_date": "2025-01-14 17:11:38"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "PPAP Automotive Limited secures multi year order worth Rs. 118 Crore",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f80029a4-1430-4957-bc85-cec8166d6838.pdf",
+            "news_date": "2024-12-16 10:03:36"
         },
         {
             "sym": "PPAP",
@@ -386,6 +1222,28 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of earning call for the quarter ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a01d925f-5257-439d-8067-715e39d6c838.pdf",
+            "news_date": "2024-11-20 18:26:59"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Email Communication To Shareholders Regarding Amendment In Taxation Provisions Relating To Dividend",
+            "news_body": "Email communication to shareholders regarding amendment in taxation provisions relating to dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=515fa103-d85e-48d6-bce0-3c8b1bfcf04a.pdf",
+            "news_date": "2024-11-18 18:15:57"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -408,6 +1266,17 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Presentation and audio recording of earning conference call for the quarter and half year ended  September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=967586eb-744d-4456-be8c-3ede757166c6.pdf",
+            "news_date": "2024-11-13 18:34:42"
         },
         {
             "sym": "PPAP",
@@ -434,6 +1303,61 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Analyst and Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6de6e51-f049-42a8-9521-8f0a077bb99e.pdf",
+            "news_date": "2024-11-12 17:51:19"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of advertisement published in newspaper-Unaudited financial results for the quarter and half year ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60f0f0c0-1121-4e4c-b311-daf311337c89.pdf",
+            "news_date": "2024-11-09 14:46:50"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of earnings conference call for the quarter and half year ended  September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2cb4a25e-cdf5-450e-b499-a7691912e6cd.pdf",
+            "news_date": "2024-11-08 16:46:05"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Media Release on financial results for the quarter ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0425e742-8234-4c62-8675-c17927079f70.pdf",
+            "news_date": "2024-11-08 16:28:34"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Corp Action",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Interim dividend of Re. 1 per share for financial year ended FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95d7569a-1f97-4f39-bcdf-bea8672291e9.pdf",
+            "news_date": "2024-11-08 15:50:57"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -458,6 +1382,171 @@
             "seg": "E"
         },
         {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30, 2024",
+            "news_body": "Financial Results for the quarter and half year ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69c9f4cb-2881-40f3-9751-d6d28c22e475.pdf",
+            "news_date": "2024-11-08 15:46:59"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aae79cc6-fd41-446b-afa3-7d8d76d8fb6c.pdf",
+            "news_date": "2024-11-08 15:42:53"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Corp. Action",
+            "descriptor": "Record Date",
+            "caption": "The Company Has Fixed Record Date Of November 20, 2024 For Payment Of Interim Dividend, If Declared",
+            "news_body": "Record date intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a8ce851-6bc4-4205-a728-cc025c940124.pdf",
+            "news_date": "2024-10-30 12:33:25"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Board to consider interim dividend for the financial year 2025 in the meeting scheduled on November 8, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=485b9da5-a1b6-4f09-9601-73a0fdc5a9f0.pdf",
+            "news_date": "2024-10-30 12:31:00"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Unaudited Financial Results For The Quarter And Half Year Ended September 30, 2024 And Interim Dividend, If Any.",
+            "news_body": "PPAP Automotive Limitedhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 08/11/2024 ,inter alia, to consider and approve unaudited financial results for the quarter and half year ended September 30, 2024 and interim dividend, if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a890fe96-b481-42e1-b0f3-146520eb9bcd.pdf",
+            "news_date": "2024-10-30 10:44:34"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of credit rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99be072b-90c0-4e24-8df9-ba1ffc01326c.pdf",
+            "news_date": "2024-10-16 17:35:20"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a730a296-ee9c-47ea-a66d-8f68f69c4921.pdf",
+            "news_date": "2024-10-15 18:49:12"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfcc1d40-5a95-4f11-afb8-1008360ffbcb.pdf",
+            "news_date": "2024-09-26 17:44:20"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "Scrutinizer Report of the 29th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=603673b9-3c70-4bad-ac9c-7dd36926a78e.pdf",
+            "news_date": "2024-09-14 11:17:35"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Voting Results along with Scrutinizer Report of the 29th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7919a4a1-16ca-4618-ae28-7db1f97f601e.pdf",
+            "news_date": "2024-09-14 11:10:11"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Proceedings Of 29Th Annual General Meeting",
+            "news_body": "Proceeding of 29th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=442d693e-928a-4aab-9918-10776801fe4f.pdf",
+            "news_date": "2024-09-13 14:29:30"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Intimation To Shareholders For Transfer Of Unpaid/Unclaimed  Dividend And Equity Shares To Investor Education And Protection Fund",
+            "news_body": "Intimation to shareholders for transfer of unpaid/unclaimed dividend and equity shares to Investor Education and Protection Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=809910d7-0d9f-43d9-b958-6bd7af256a08.pdf",
+            "news_date": "2024-08-31 19:03:35"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement-Compulsory transfer of equity shares and unpaid/unclaimed dividend to Investor Education and Protection Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26832197-49d9-4f5e-b1f8-adf21e22e31f.pdf",
+            "news_date": "2024-08-31 18:59:32"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual report for the financial year ended 2023-24",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e092ec22-2ab0-4af5-8c0e-7ef2e0b432e5.pdf",
+            "news_date": "2024-08-31 18:55:32"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement confirming dispatch of annual report for the financial year ended March 31, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ad22f04-4380-4083-afe3-c9c955f6a350.pdf",
+            "news_date": "2024-08-21 17:49:32"
+        },
+        {
             "sym": "PPAP",
             "disp": "PPAP Automotive",
             "bse_code": 532934,
@@ -480,6 +1569,17 @@
             "sid": 15209,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23818,
+            "bse_code": 532934,
+            "isin": "INE095I01015",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of earning call for the quarter ended June 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42b43951-2f0e-4818-9368-2d322de245c9.pdf",
+            "news_date": "2024-08-20 20:21:41"
         },
         {
             "sym": "PPAP",
@@ -1825,6 +2925,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

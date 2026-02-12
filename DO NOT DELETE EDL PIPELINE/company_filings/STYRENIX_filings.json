@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding investor / analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a2ad5a4-e4a3-4ff6-820e-cffa2922d2cd.pdf",
+            "news_date": "2026-02-11 17:28:21"
+        },
+        {
             "sym": "STYRENIX",
             "disp": "Styrenix Performance Materials",
             "bse_code": 506222,
@@ -24,6 +35,17 @@
             "sid": 19,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earning Call Transcript.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a742f48a-9872-49e7-ae9c-d32ab4fa1c46.pdf",
+            "news_date": "2026-02-09 17:00:04"
         },
         {
             "sym": "STYRENIX",
@@ -50,6 +72,39 @@
             "seg": "E"
         },
         {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call with Investor / Analyst held on February 02 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6084e417-9b8b-481a-96f3-8a048775e0f2.pdf",
+            "news_date": "2026-02-02 18:39:25"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order Passed By The Assessment Unit Income Tax Department.",
+            "news_body": "Order passed by the Assessment Unit Income Tax Department.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2d57229-3674-4c1d-a4fb-47650752a66e.pdf",
+            "news_date": "2026-02-02 16:09:53"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=412fff53-4525-47d3-b078-8ea215e60714.pdf",
+            "news_date": "2026-01-30 16:52:16"
+        },
+        {
             "sym": "STYRENIX",
             "disp": "Styrenix Performance Materials",
             "bse_code": 506222,
@@ -72,6 +127,72 @@
             "sid": 19,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the earning call schedule on February 02 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8efb56a9-e5ec-4ccd-9d8b-c43d22d51eb7.pdf",
+            "news_date": "2026-01-30 09:59:39"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order Passed By Deputy Commissioner Of Income-Tax.",
+            "news_body": "Order passed by Deputy Commissioner of Income-Tax.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23c98b10-f3a1-497c-b265-e9615fcc9d4b.pdf",
+            "news_date": "2026-01-29 14:19:10"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Mr. K. Ravishankar as Whole-time Director (KMP) of the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbf5057a-df39-4a7f-9d6a-73abfeddfebe.pdf",
+            "news_date": "2026-01-29 14:06:42"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Board of Directors have declared 2nd Interim Dividend of Rs. 23 per equity share for the FY 2025-26 and fixed February 05 2026 as record date.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ffe1b60-82e1-473d-b631-d6e3aadbcfc8.pdf",
+            "news_date": "2026-01-29 14:03:48"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Board Of Director Have Declared 2Nd Interim Dividend Of Rs. 23 Per Equity Share For The FY 2025-26 And Fixed February 05 2026 As Record Date.",
+            "news_body": "Board of Director have declared 2nd interim dividend of Rs. 23 per equity shares for the FY 2025-26 and fixed February 05 2026 as record date.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=210d0927-59d2-4295-a387-d05ec2d07eda.pdf",
+            "news_date": "2026-01-29 13:55:25"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board of Directors have declared 2nd interim dividend of Rs. 23 per equity share for the FY 2025-26 and fixed February 05 2026 as record date.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15665f2a-c2c1-432d-813d-40323bdac540.pdf",
+            "news_date": "2026-01-29 13:50:36"
         },
         {
             "sym": "STYRENIX",
@@ -98,6 +219,149 @@
             "seg": "E"
         },
         {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "The Board Of Directors At Its Meeting Held On January 29 2026 Approved Standalone And Consolidated Unaudited Financial Results For The Quarter And 9 Months Ended On December 31 2025 And Declared Interim Dividend Of Rs. 23 Per Equity Share.",
+            "news_body": "Standalone and consolidated unaudited financial results for the quarter and nine months ended on December 31 2025 and declaration of interim dividend of Rs. 23 per equity shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=089aef96-47d7-4851-ad0e-56876a751472.pdf",
+            "news_date": "2026-01-29 13:46:03"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Of Directors At Its Meeting Held On January 29 2026 Approved Standalone And Consolidated Unaudited Financial Results For The Quarter And 9 Months Ended On December 31 2025 And Declared Interim Dividend Of Rs. 23 Per Equity ",
+            "news_body": "Styrenix Performance Materials Limited has informed the Exchange that Board of Directors at its meeting held on January 29 2026 approved standalone and consolidated unaudited financial results for the quarter ended on December 31 2025 and declared Interim Dividend of Rs. 23 per equity share.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ba39f21-eb73-4021-9544-4719d4e11d90.pdf",
+            "news_date": "2026-01-29 13:38:52"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Q3FY26 Results Earnings Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e35206d-09f9-4d7a-8831-6ba5f6c1fe7b.pdf",
+            "news_date": "2026-01-28 18:07:43"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Standalone And Consolidated Financial Results For The Period Ended December 31 2025 And Interim Dividend If Any.",
+            "news_body": "Styrenix Performance Materials Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/01/2026 inter alia to consider and approve the unaudited standalone and consolidated financial results for the period ended December 31 2025 and interim dividend if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d44f8eb-7875-470c-9eea-a4eb81d52019.pdf",
+            "news_date": "2026-01-22 18:22:39"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Report On Re-Lodgement Of Transfer Requests Of Physical Shares.",
+            "news_body": "Report on Re-lodgement of Transfer Request of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ffa632d-83b0-454e-8ab3-f82a5130ab9c.pdf",
+            "news_date": "2026-01-15 13:08:08"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27375530-d2f1-4285-82d3-7b9ff7aa50e8.pdf",
+            "news_date": "2026-01-08 15:27:33"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order Passed By Assistant Commissioner Central Goods & Service Tax Division IV (Chakan) Pune-I Commissionerate.",
+            "news_body": "Order passed by Assistant Commissioner Central Goods & Service Tax Division IV (Chakan) Pune-I Commissionerate.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b39ee5e-487b-47c8-9c8e-5cc0c814f513.pdf",
+            "news_date": "2025-12-30 17:58:26"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window pursuant to SEBI (Prohibition of Insider Trading) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=831c60a0-9de5-458e-ba4b-7dc5734c177b.pdf",
+            "news_date": "2025-12-30 12:33:43"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order Passed By Commissioner Of Income-Tax (Appeals) NFAC (CIT(A)).",
+            "news_body": "Order passed by commissioner of Income-tax (appeals) NFAC (\"CIT(A)\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a2ccb0d-2211-44f0-b774-d5e1db3273fe.pdf",
+            "news_date": "2025-12-24 18:36:41"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication for special window for re-lodgement of transfer requests of physical shareholders.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1269f97e-7501-4351-93c6-661855f09a35.pdf",
+            "news_date": "2025-12-18 17:43:03"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order Passed By Superintendent Central GST Range-10 Division-II Commissionerate Gautam Budh Nagar Uttar Pradesh.",
+            "news_body": "Order passed by Superintendent Central GST Range-10 Division-II Commissionerate Gautam Budh Nagar Uttar Pradesh.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72198d27-571f-496f-9499-d0ed3f5b4f6e.pdf",
+            "news_date": "2025-12-02 18:47:00"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Report On Re-Lodgement Of Transfer Requests Of Physical Shares.",
+            "news_body": "Report on Re-lodgement of Transfer Request of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47e7636c-fd80-4031-83e8-e7f329c35bc4.pdf",
+            "news_date": "2025-11-20 17:57:27"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication for Special Window for Re-lodgement of transfer requests of physical shareholders.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85f6df07-7b64-45ec-b566-aa990230926b.pdf",
+            "news_date": "2025-11-19 16:37:04"
+        },
+        {
             "sym": "STYRENIX",
             "disp": "Styrenix Performance Materials",
             "bse_code": 506222,
@@ -120,6 +384,28 @@
             "sid": 19,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earning Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af6d1bd3-cd3e-4dd7-8dd4-b689c9555c3d.pdf",
+            "news_date": "2025-11-19 16:31:24"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of newspaper publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b0605f5-91cd-4e02-aaa8-df7462368c81.pdf",
+            "news_date": "2025-11-13 15:43:22"
         },
         {
             "sym": "STYRENIX",
@@ -146,6 +432,17 @@
             "seg": "E"
         },
         {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call with Investor / Analyst held on November 12 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d64441d-92ba-4a8d-9376-8313ee17726d.pdf",
+            "news_date": "2025-11-12 19:44:05"
+        },
+        {
             "sym": "STYRENIX",
             "disp": "Styrenix Performance Materials",
             "bse_code": 506222,
@@ -168,6 +465,17 @@
             "sid": 19,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the earning call schedule on November 12 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ca5eb0c-d3d4-41d6-ac60-c36f30be554f.pdf",
+            "news_date": "2025-11-12 15:49:42"
         },
         {
             "sym": "STYRENIX",
@@ -194,6 +502,160 @@
             "seg": "E"
         },
         {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Standalone And Consolidated Unaudited Financial Results For The Second Quarter And Half Year Ended September 30 2025.",
+            "news_body": "Standalone and Consolidated Unaudited Financial Results for the Second Quarter and Half Year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9c1c17e-8680-4815-b23b-2bebab1fedf2.pdf",
+            "news_date": "2025-11-12 15:37:26"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On November 12 2025",
+            "news_body": "Outcome of Board Meeting held on November 12 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23e661a9-7d9f-4cd4-8040-af5e30bdb8f3.pdf",
+            "news_date": "2025-11-12 15:24:45"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Q2FY26 Results Earnings Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cdc992c-6a86-4248-9e36-523df6f5c76d.pdf",
+            "news_date": "2025-11-07 15:10:46"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Standalone And Consolidated Financial Results For The Quarter And Half Year Ended September 30 2025.",
+            "news_body": "Styrenix Performance Materials Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2025 inter alia to consider and approve the unaudited standalone and consolidated financial results for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d9fe5cb-62c5-42f8-b16d-03dbb053f570.pdf",
+            "news_date": "2025-11-05 14:50:19"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Compliance under Regulation 30 (LODR) - Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d72e2e94-96cd-4867-8ab0-9ffeecd7d55d.pdf",
+            "news_date": "2025-10-10 19:20:26"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b351d329-55b1-4da9-be21-181ed275abf2.pdf",
+            "news_date": "2025-10-10 18:09:45"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window pursuant to SEBI (Prohibition of Insider Trading) Regulation 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c5c8d42-0e51-4fad-a6ee-b9197ce59739.pdf",
+            "news_date": "2025-09-30 16:40:40"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding one to one meeting with investor / analyst.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=042333f8-303d-41c8-9dbc-5dc92da6e7d3.pdf",
+            "news_date": "2025-09-24 18:48:54"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding one to one meeting with investor / analyst.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfe17c7f-657a-4e29-9954-3dbb1ee5a481.pdf",
+            "news_date": "2025-09-23 18:51:44"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding one to one meeting with investor / analyst.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7549d3f9-6a61-444b-8f0b-967432f7f812.pdf",
+            "news_date": "2025-09-11 16:07:04"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding one to one meeting with investor / analyst.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea637d1d-94fb-4f1d-8691-a9c3bda8d9bd.pdf",
+            "news_date": "2025-09-04 18:29:39"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding one to one meeting with investor / analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=683e95d6-664d-40a4-8955-c72613579b83.pdf",
+            "news_date": "2025-09-03 18:02:19"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting results along with Scrutinisers report of the 52nd Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4dc1e4d-e234-4070-8747-ece673fbde50.pdf",
+            "news_date": "2025-08-29 19:56:59"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceeding of 52nd Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e64446a-aaeb-45b1-acab-dc47945b828b.pdf",
+            "news_date": "2025-08-29 16:13:08"
+        },
+        {
             "sym": "STYRENIX",
             "disp": "Styrenix Performance Materials",
             "bse_code": 506222,
@@ -216,6 +678,39 @@
             "sid": 19,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=051da38f-a851-4f85-8f9a-6c0ad5dd4442.pdf",
+            "news_date": "2025-08-22 22:09:40"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding one to one meeting with investor / analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5950d43e-4c0c-40c6-9465-c82d40c346e3.pdf",
+            "news_date": "2025-08-20 22:10:18"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39e0fafc-4242-4379-9db0-09e393be881c.pdf",
+            "news_date": "2025-08-14 17:56:42"
         },
         {
             "sym": "STYRENIX",
@@ -242,6 +737,17 @@
             "seg": "E"
         },
         {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the earnings call scheduled on August 14 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=647f386b-46c1-4f0b-811b-b42d9babe2dd.pdf",
+            "news_date": "2025-08-13 19:43:35"
+        },
+        {
             "sym": "STYRENIX",
             "disp": "Styrenix Performance Materials",
             "bse_code": 506222,
@@ -264,6 +770,270 @@
             "sid": 19,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Standalone And Consolidated Unaudited Financial Results For The Quarter Ended 30 June 2025.",
+            "news_body": "Standalone and Consolidated Unaudited Financial Result for the quarter ended 30 June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1664424e-04b8-4fb4-990f-75a8f686a766.pdf",
+            "news_date": "2025-08-13 19:28:00"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action - Board Of Directors Of The Company Fixed Record Date For Interim Dividend",
+            "news_body": "Board of Directors of the Company fixed August 21 2025 as Record date for the Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52fbfd80-ed27-478a-959d-e408697fddf1.pdf",
+            "news_date": "2025-08-13 19:16:54"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board of Directors have declared interim dividend of Rs. 31 per equity share of Rs. 10 each and fixed August 21 2025 as a record date.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94f0c7cf-b768-491a-bf98-1631ddcaf18e.pdf",
+            "news_date": "2025-08-13 19:09:30"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On August 13 2025",
+            "news_body": "Outcome of Board Meeting held on August 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=112a0260-c0d3-4e03-9c7b-e60ce14e17fe.pdf",
+            "news_date": "2025-08-13 17:10:42"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Q1FY26 Results Earnings Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0dc4c40-1baa-47f1-b835-f404673bbce1.pdf",
+            "news_date": "2025-08-11 17:29:27"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of notice of 52nd Annual General Meeting and E-voting instruction",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0747423-7d74-4aed-a3d6-04fd89e9f21c.pdf",
+            "news_date": "2025-08-08 16:49:23"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Standalone And Consolidated Financial Results For The Period Ended Jun 30 2025 And Interim Dividend If Any.",
+            "news_body": "Styrenix Performance Materials Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2025 inter alia to consider and approve To consider and approve the unaudited standalone and consolidated financial results for the period ended Jun 30 2025 and interim dividend if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f06b315c-152f-416c-b737-896fc0752160.pdf",
+            "news_date": "2025-08-07 23:40:11"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Reporting for the FY 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b1389dc-9451-413d-858f-0e3e20d0d261.pdf",
+            "news_date": "2025-08-07 23:30:07"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report of the Company for the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bc2b61c-8aec-4f5e-83d3-096e8fed5180.pdf",
+            "news_date": "2025-08-07 23:23:33"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 52Nd Annual General Meeting Of The Company For The Financial Year 2024-25",
+            "news_body": "Notice of 52nd Annual General Meeting of the Company for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2bd5b71-43c1-470d-b875-76796f98e9d0.pdf",
+            "news_date": "2025-08-07 23:06:46"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper publication regarding 52nd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db814724-bcaf-43ac-8a16-1bf02de99ec5.pdf",
+            "news_date": "2025-08-05 17:03:35"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa2e0fa-5222-4d2b-bc27-8cfb8d4a1baa.pdf",
+            "news_date": "2025-07-10 17:58:02"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window pursuant to SEBI (Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac065c80-8fbf-4282-80d0-9655e1b96271.pdf",
+            "news_date": "2025-06-27 18:06:05"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations)",
+            "news_body": "Pursuant to merger of step-down subsidiaries the loan obligation of Styrenix Polymers (Thailand) Co. Ltd. a wholly owned step-down subsidiary of the Company (\"Dissolving entity\") has been transferred to Styrenix Performance Materials (Thailand) Limited a wholly owned step-down subsidiary of the Company (\"Surviving entity\")",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57d3646c-53b2-4e8b-a15d-2db76b8eaa14.pdf",
+            "news_date": "2025-06-26 19:21:38"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Merger Of Wholly Owned Step-Down Subsidiaries In Thailand.",
+            "news_body": "Update on merger of wholly owned step-down subsidiaries in Thailand.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f1cafb6-cbc8-4a1a-8ff4-bfe880e1bdc2.pdf",
+            "news_date": "2025-06-26 18:58:03"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meeting with investor / analyst as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f35aae5-051b-4e19-a9d9-3f1ba377a679.pdf",
+            "news_date": "2025-06-23 17:26:49"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meeting with investor / analyst as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc5a7671-9f5c-4488-8abd-90ac7b142e44.pdf",
+            "news_date": "2025-06-20 17:25:09"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meeting with investor / analyst as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92573523-caad-4b54-959c-a54b9740cf9e.pdf",
+            "news_date": "2025-06-18 16:06:36"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of Newspaper Publications",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a85ab8b7-70b2-42fc-a4b2-555d1a4df98e.pdf",
+            "news_date": "2025-06-13 17:16:39"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meeting with investor / analyst as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07f1248c-83f6-4e5a-adec-7c883d3aa90d.pdf",
+            "news_date": "2025-06-09 17:36:02"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meeting with investor / analyst as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96a1b0a3-59f5-4edf-b75e-a151812b4665.pdf",
+            "news_date": "2025-06-06 17:10:48"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meeting with investor / analyst as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7150f74e-d5b6-4d09-a287-f73cb6b05bba.pdf",
+            "news_date": "2025-06-04 17:23:13"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding meeting with Analyst on June 06 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a89ce976-0318-4a71-9def-f57309cba7c6.pdf",
+            "news_date": "2025-06-03 17:20:37"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Regulation 24(A) - Annual Secretarial Compliance",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df923037-1c9e-46c0-9e72-a790236a1a4b.pdf",
+            "news_date": "2025-05-30 14:25:06"
         },
         {
             "sym": "STYRENIX",
@@ -290,6 +1060,39 @@
             "seg": "E"
         },
         {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings call transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=933a7d68-cfa7-4ce5-b7de-338743c5c9e6.pdf",
+            "news_date": "2025-05-30 11:46:49"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meeting with investor / analyst as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1cec993-f2d5-494d-9522-a80c51351796.pdf",
+            "news_date": "2025-05-27 17:35:35"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=267336ca-833b-42fc-a732-60eb01eff7a0.pdf",
+            "news_date": "2025-05-26 17:07:28"
+        },
+        {
             "sym": "STYRENIX",
             "disp": "Styrenix Performance Materials",
             "bse_code": 506222,
@@ -312,6 +1115,17 @@
             "sid": 19,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call with Investor / Analyst held on May 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1b81c4e-c328-4eab-b9ea-27da235e4e68.pdf",
+            "news_date": "2025-05-25 18:56:53"
         },
         {
             "sym": "STYRENIX",
@@ -338,6 +1152,28 @@
             "seg": "E"
         },
         {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation relating to audited standalone and consolidated financial results for the quarter and year ended on March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d679dad4-34ce-4e6b-9769-547c95a5b91c.pdf",
+            "news_date": "2025-05-24 16:39:25"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor Cost Auditor And Internal Auditor",
+            "news_body": "Appointment of Secretarial Auditor Cost Auditor and Internal Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b10abd82-d0af-4d9d-a13f-526884206557.pdf",
+            "news_date": "2025-05-24 16:00:39"
+        },
+        {
             "sym": "STYRENIX",
             "disp": "Styrenix Performance Materials",
             "bse_code": 506222,
@@ -362,6 +1198,248 @@
             "seg": "E"
         },
         {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Standalone And Consolidated Financial Results For The Quarter And Year Ended On 31.03.2025",
+            "news_body": "Audited Standalone and consolidated Financial Results for the quarter and year ended on 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2641aeef-7f9e-46d4-b409-21b165700ecf.pdf",
+            "news_date": "2025-05-24 15:52:03"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting : Standalone And Consolidated Financial Results For The Quarter And Year Ended March 2025.",
+            "news_body": "Outcome of Board Meeting : Standalone and consolidated financial results for the quarter and year ended March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9069b04-dce5-4c2a-a15f-df0f0c3d97d5.pdf",
+            "news_date": "2025-05-24 15:17:36"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We would like to inform that the Company has organized an Earnings Call in respect of its Audited Financial Results for the fourth quarter and year ended on March 31 2025 with its\r\nstakeholders.\r\nThe details for the said earnings call are as under:\r\nEarnings Call Co-coordinator : Chorus call conferencing services\r\nDay Date: Sunday May 25 2025\r\nTimings: 17:00 hrs. onwards\r\nUniversal Dial In Numbers : +91 22 6280 1327  +91 22 7115 8228\r\nDiamond Pass Login: Registration Link (As attached)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89801459-d00c-4c6f-908d-1dbcd25b06c7.pdf",
+            "news_date": "2025-05-21 18:07:54"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Audited Standalone And Consolidated Financial Results For The Fourth Quarter And Financial Year Ended On March 31 2025.",
+            "news_body": "Styrenix Performance Materials Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/05/2025 inter alia to consider and approve the Audited Standalone and Consolidated Financial Results for the fourth quarter and for the Financial Year ended on March 31 2025.\r\n\r\nAs intimated to you vide letter dated March 28 2025 the trading window for dealing in shares of the Company by the designated persons is already closed since April 01 2025 until 48 hours of the declaration of financial results for the quarter and year ended on March 31 2025 (i.e. till EOD May 26 2025).\r\n\r\nThis intimation is also being uploaded on the Companys website at www.styrenix.com",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d30c438-bf47-4c87-8b95-9931e7ceeef2.pdf",
+            "news_date": "2025-05-17 12:57:58"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order Passed By The Assessment Unit Income Tax Department",
+            "news_body": "Order passed by the Assessment Unit Income Tax Department",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9dce883f-b943-4c19-aede-d4bbdc078b79.pdf",
+            "news_date": "2025-05-01 12:56:30"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Annual Disclosure to be made by an entity identified as a LC : Annexure B2",
+            "caption": "Format of the Annual Disclosure to be made by an entity identified as a LC - Annexure B2",
+            "news_body": "<b>Format of the Annual Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px>    <tr>       <td><b>Sr. No.</b></td>       <td><b>Particulars</b></td>       <td><b>Details</b></td>    </tr>    <tr>       <td>1</td>       <td>Name of Company</td>       <td>Styrenix Performance Materials Ltd</td>    </tr>    <tr>       <td>2</td>       <td>CIN NO.</td>       <td>L25200GJ1973PLC002436</td>    </tr>    <tr>       <td>3</td>       <td>Report filed for FY</td>       <td>2024-2025</td>    </tr>       <tr><td colspan=3>Details of the Current block (all figures in Rs crore):</td><tr> <tr>       <td>4</td>       <td>2 - year block period (Specify financial years)* </td>       <td>2023-2024 2024-2025</td>    </tr>    <tr>    <tr>       <td>5</td>       <td>Incremental borrowing done in FY (T)(a) </td>       <td>0.00</td>    </tr>    <tr>       <td>6</td>       <td>Mandatory borrowing to be done through debt securities in FY (T) (b) = (25% of a)</td>       <td>0.00</td>    </tr>    <tr>       <td>7</td>       <td>Actual borrowing done through debt securities in FY (T)(c)</td>       <td>0.00</td>    </tr>       <tr>       <td>8</td>       <td> Shortfall in the borrowing through debt securities if any for FY (T - 1) carried forward to FY (T) (d)</td>       <td>0</td>    </tr>  <tr> <td>8</td><td>Quantum of (d) which has been met from (c)(e)*</td>       <td>0</td>    </tr><tr> <td>9</td><td> Shortfall if any in the mandatory borrowing through debt securities for FY (T) { after adjusting for any shortfall in borrowing for FY(T - 1) which was carried forward to FY(T)}(f) = (b) - [(c) - (e)]{ If the calculated value is zero or negative write nil}*</td>       <td>0</td>    </tr> </table> <br/><br/><table><tr><td colspan=2><b>Details of penalty to be paid if any in respect to previous block (all figures in Rs crore):</b></td></tr> <tr><td>2 - year Block period (Specify financial years)</td><td>2023-2024 2024-2025</td></tr> <tr><td>Amount of fine to be paid for the block if applicable Fine = 0.2% of {(d) - (e)}#</td><td>0.00</td></tr> </table> <div>     <br/><br/><br/>    <table><tr><td>Name of the Company Secretary :-</td><td>Chintankumar Doshi</td></tr><tr><td>Designation :-</td><td>Company Secretary and Compliance Officer</td></tr>    <tr><td>Name of the Chief Financial Officer :- </td><td>Bhupesh P Porwal</td></tr>    <tr><td>Designation : -</td><td>Chief Financial Officer</td></tr></table><div> <br/> Date: 28/04/2025<br/><br/></div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f693ac2-54cd-4a2d-90ad-80872469f1d6.pdf",
+            "news_date": "2025-04-28 18:39:48"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Styrenix Performance Materials Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L25200GJ1973PLC002436</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>NA</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>Not Applicable</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Chintankumar Doshi <br/>  Designation: Company Secretary and Compliance Officer <br/> EmailId: chintan.doshi@styrenix.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Bhupesh P Porwal <br/> Designation: Chief Financial Officer <br/> EmailId: bhupesh.porwal@styrenix.com</div> </div> <div> <br/> Date: 28/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57023852-0a3c-45c9-bb8c-0b358f48fef3.pdf",
+            "news_date": "2025-04-28 18:24:53"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Compliance under Regulation 30 (LODR) - Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5baef3ea-8ce8-4256-9c12-c9db94680684.pdf",
+            "news_date": "2025-04-23 16:32:01"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updation Of E-Mail Id And Website Address Of Registrar And Share Transfer Agent Of The Company (RTA).",
+            "news_body": "Updation of E-mail Id and website address of Registrar and Share Transfer Agent of the Company (\"RTA\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0533c089-3790-43a0-8aa5-4932bdd714a7.pdf",
+            "news_date": "2025-04-18 17:52:06"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=837c7bac-30d7-425c-b733-5565992d5f63.pdf",
+            "news_date": "2025-04-04 17:58:18"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window pursuant to SEBI (Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75ab34f0-046c-42ad-8bdd-55249b8f0add.pdf",
+            "news_date": "2025-03-28 14:40:44"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Update on acquisition - The Company has subscribed and been allotted 51801 equity shares of Rs. 10 each at a premium of Rs. 1469 per share aggregating to Rs. 76613679 in Clean Max Jasper Pvt. Ltd. (CMJPL). Post allotment of shares on right basis shareholding percentage of the Company in CMJPL is 36.13% (same as initially acquired).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8776ab03-73de-4b08-ab5a-31615b15c61a.pdf",
+            "news_date": "2025-03-17 13:16:01"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "Information regarding merger of Styrenix Polymers (Thailand) Co. Ltd. a wholly-owned step-down subsidiary of the Company with Styrenix Performance Materials (Thailand) Limited a wholly-owned step-down subsidiary of the Company has been approved by the respective companies on Wednesday March 05 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f039952-9e85-4d96-8f90-944ec8cd70fa.pdf",
+            "news_date": "2025-03-05 15:14:03"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meetings with investors / analysts as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3eb67782-2dd5-4736-9f3a-5e88ed4da94b.pdf",
+            "news_date": "2025-03-04 19:37:20"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meetings with investors / analysts as per details as attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e12228f0-13c9-4ab7-ac4d-4cf842d30344.pdf",
+            "news_date": "2025-02-25 18:52:59"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meetings with investors / analysts as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6aa768c4-7d2d-4cd0-a99a-3f310fbf8417.pdf",
+            "news_date": "2025-02-20 17:39:07"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meetings with investors / analysts as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53ba2b8f-1f02-441e-b8ce-71cb04bb8f04.pdf",
+            "news_date": "2025-02-19 20:28:56"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "In continuation of our intimation dated February 05 2025 the Company has completed the acquisition of 36.13% shareholding i.e. 3613 equity shares of Clean Max Jasper Pvt. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c1c6e89-be36-414b-9517-a6be86bd6858.pdf",
+            "news_date": "2025-02-19 20:05:45"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we hereby inform you that the management of the Company would be having one-to-one meetings with investors / analysts as per details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84bb8cec-e3c5-4faf-9c09-9b755d04de9b.pdf",
+            "news_date": "2025-02-18 18:26:30"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order Passed By The Deputy Commissioner Of Commercial Taxes (Audit-6.7) Karnataka State GST.",
+            "news_body": "Order passed by the Deputy Commissioner of Commercial Taxes (Audit-6.7) Karnataka State GST",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=879c3f63-d488-4eb8-8f68-a9f693a41850.pdf",
+            "news_date": "2025-02-12 17:26:56"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Disclosure under Reg 30 (LODR) - Agreement to acquire 36.13% equity shares of Clean Max Jasper Pvt. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d5d7f4f-261a-46f7-b37b-b30e58a67fa3.pdf",
+            "news_date": "2025-02-05 19:07:10"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order Passed By The State Tax Officer (ST) Tamilnadu Thirumazhisai Assessment Circle.",
+            "news_body": "Order passed by the State Tax Officer (ST) Tamilnadu Thirumazhisai Assessment Circle",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a06f7b1-ee57-42d0-8241-e4b5575e979f.pdf",
+            "news_date": "2025-02-05 15:51:18"
+        },
+        {
             "sym": "STYRENIX",
             "disp": "Styrenix Performance Materials",
             "bse_code": 506222,
@@ -384,6 +1462,28 @@
             "sid": 19,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings call transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32cf2c1a-dfd0-49c9-b5e1-6d74bf77dd7b.pdf",
+            "news_date": "2025-02-03 12:48:50"
+        },
+        {
+            "co_code": 866,
+            "bse_code": 506222,
+            "isin": "INE189B01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "In continuation to our letter dated January 28 2025 informing about the earnings call organized by the Company on January 31 2025 please note that Investor Call Recording is being made available on the website of the Stock Exchanges as required.\r\n\r\nThe Recording is also uploaded on website of the Company and the same can be accessed using the following path / link:\r\n\r\nPath:\r\nwww.styrenix.com - Investors - Earnings Call - Call recordings & Transcripts\r\n\r\nLink:\r\nhttp://styrenix.com/investor-earningcalls-call-recordings-transcripts-25/",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d3f2c87-3e2a-4c41-b0f2-b46f5444b602.pdf",
+            "news_date": "2025-01-31 19:29:36"
         },
         {
             "sym": "STYRENIX",
@@ -1729,6 +2829,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

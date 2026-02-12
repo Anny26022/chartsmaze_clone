@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "Board Meeting",
+            "caption": "Outcome of Board Meeting - Fund raising by way of issuance of Non-Convertible Debentures",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Outcome of Board Meeting held on February 02 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=CB57F1CB-C099-4828-9436-340803F809BA-182637.pdf",
+            "news_date": "2026-02-02 18:26:40"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "General",
+            "descriptor": "Record Date",
+            "caption": "Fixes Record Date for Interim Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Company has fixed February 06 2026 as the Record Date for the purpose of Payment of Interim Dividend.<BR><BR>The dividend will be paid on or after 25th February 2026 (Wednesday).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7A02310B-51FA-4655-B04A-733BC3515010-182507.pdf",
+            "news_date": "2026-02-02 18:25:10"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Board declares Interim Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Board of Directors of the Company at its meeting held on February 02 2026 inter alia has declared an Interim Dividend of Rs. 16/- per share (160%) for the financial year 2025-26 on the paid-up capital of Rs. 111.10 cr. represented by 111103860 equity shares of Rs. 10/- each.<BR><BR>The dividend will be paid on or after February 25 2026 (Wednesday).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0E1BD551-0DCD-4281-8D50-87AE7873C16E-182429.pdf",
+            "news_date": "2026-02-02 18:24:32"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "General",
+            "descriptor": "Change in Directorate",
+            "caption": "Re-appointment of Whole-time Directors",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding \"Re-appointment of Whole-time Directors\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B8CDB3B4-0D06-457F-BA8E-C2B2DFA0F6E3-182406.pdf",
+            "news_date": "2026-02-02 18:24:25"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "General",
+            "caption": "Results Press Release for December 31 2025",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47BA6EF4-2927-4958-AD4A-001E9D6CA1C0-181321.pdf",
+            "news_date": "2026-02-02 18:13:26"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -24,6 +79,50 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results Limited Review Report for December 31 2025",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended December 31 2025<BR><BR>2. Consolidated Financial Results for the period ended December 31 2025<BR><BR>3. Standalone Limited Review for the period ended December 31 2025<BR><BR>4. Consolidated Limited Review for the period ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A017F76C-E5D9-475F-BD74-C40D075A9E9C-181139.pdf",
+            "news_date": "2026-02-02 18:11:45"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "General",
+            "descriptor": "Acquisition",
+            "caption": "Acquisition of Capitalgate Investment Advisors Private Limited by Sundaram Alternate Assets Limited",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding \"Acquisition of Capitalgate Investment Advisors Private Limited by Sundaram Alternate Assets Limited\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64F3E6E9-F53D-4DAE-A7EF-C589D06DDEC6-184113.pdf",
+            "news_date": "2025-11-03 18:41:18"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Change in Senior Management.",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding \"Change in Senior Management\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=EC6C75E3-C376-4C5E-A2BE-2F85F5F58BB6-183818.pdf",
+            "news_date": "2025-11-03 18:38:22"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Results Press Release for September 30 2025",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=AB5996FA-97F0-4823-9648-31DE490E5818-183626.pdf",
+            "news_date": "2025-11-03 18:36:30"
         },
         {
             "sym": "SUNDARMFIN",
@@ -50,6 +149,28 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results Limited Review Report for September 30 2025",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended September 30 2025<BR><BR>2. Consolidated Financial Results for the period ended September 30 2025<BR><BR>3. Standalone Limited Review for the period ended September 30 2025<BR><BR>4. Consolidated Limited Review for the period ended September 30 2025<BR><BR>5. Standalone Cash Flow Statement for the period ended September 30 2025<BR><BR>6. Consolidated Cash Flow Statement for the period ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20A3AE25-05D6-4E84-9139-92FAD18B16A3-183509.pdf",
+            "news_date": "2025-11-03 18:35:17"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "General",
+            "caption": "Results Press Release for June 30 2025",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=373640CE-032E-47ED-8464-B0D5F387D572-102746.pdf",
+            "news_date": "2025-08-05 10:28:08"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -72,6 +193,83 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results Limited Review Report for June 30 2025",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended June 30 2025<BR><BR>2. Consolidated Financial Results for the period ended June 30 2025<BR><BR>3. Standalone Limited Review for the period ended June 30 2025<BR><BR>4. Consolidated Limited Review for the period ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71742CDE-2FF2-4CA0-A490-614089D8DDD9-102326.pdf",
+            "news_date": "2025-08-05 10:25:49"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure / AGM",
+            "caption": "Fixes Book Closure for Final Dividend & AGM",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Register of Members & Share Transfer Books of the Company will remain closed from July 10 2025 to July 23 2025 (both days inclusive) for the purpose of Payment of Final Dividend & 72nd Annual General Meeting (AGM) of the Company to be held on July 23 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=D1D15434-BD79-4F9F-BDEB-EB64D4DED88F-165453.pdf",
+            "news_date": "2025-07-01 16:55:02"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Grant of Stock Options",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding \"Grant of Stock Options\".<BR>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=475F508C-4C1D-4ACA-827A-517AA94B6CDD-172134.pdf",
+            "news_date": "2025-05-26 17:21:42"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Appointment of Secretarial Auditor",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding \"Appointment of Secretarial Auditor\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=BA2E8E8F-F849-42EF-996E-F54248839319-172014.pdf",
+            "news_date": "2025-05-26 17:20:24"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "General",
+            "descriptor": "Change in Directorate",
+            "caption": "Re-appointment of Independent Director",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding \"Re-appointment of Mr. Ganesh Lakshminarayan as an Independent Director\".<BR>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B406866B-D378-4840-BBA7-EC23F2ABCED0-171803.pdf",
+            "news_date": "2025-05-26 17:18:32"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Board recommends Final Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Board of Directors of the Company at its meeting held on May 26 2025 inter alia has recommended a final dividend of Rs. 21/- per share (210%) for the financial year ended March 31 2025 on the paidup capital of Rs. 111.10 cr. This together with the interim dividend of Rs. 14/- per share (140%) paid on February 24 2025 will make a total dividend of Rs. 35/- per share (350%) for the financial year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4F19E4E9-5905-4195-AD64-FCB16612E5DA-171642.pdf",
+            "news_date": "2025-05-26 17:16:50"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "General",
+            "caption": "Results Press Release for March 31 2025",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=811D2CEB-DB4D-4C6E-A911-9CBB3129F8E3-165910.pdf",
+            "news_date": "2025-05-26 16:59:17"
         },
         {
             "sym": "SUNDARMFIN",
@@ -98,6 +296,17 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results Auditors Report for March 31 2025",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended March 31 2025<BR><BR>2. Consolidated Financial Results for the period ended March 31 2025<BR><BR>3. Standalone Auditors Report for the period ended March 31 2025<BR><BR>4. Consolidated Auditors Report for the period ended March 31 2025<BR><BR>5. Standalone Cash Flow Statement for the period ended March 31 2025<BR><BR>6. Consolidated Cash Flow Statement for the period ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=FCCF6985-B900-4C1D-B6A9-169179070CE9-165703.pdf",
+            "news_date": "2025-05-26 16:57:08"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -120,6 +329,28 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results Press Release for September 30, 2024",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6117F8D4-4C0E-438E-825D-40072F57F929-170849.pdf",
+            "news_date": "2024-11-04 17:08:52"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Appointment/Re-appointment of employees in the Senior Management Category",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Appointment/Re-appointment of employees in the Senior Management Category.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49CC4743-D90D-4AEE-8E63-C9742227B5C0-170822.pdf",
+            "news_date": "2024-11-04 17:08:35"
         },
         {
             "sym": "SUNDARMFIN",
@@ -146,6 +377,28 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report for September 30, 2024",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended September 30, 2024<BR><BR>2. Consolidated Financial Results for the period ended September 30, 2024<BR><BR>3. Standalone Limited Review for the period ended September 30, 2024<BR><BR>4. Consolidated Limited Review for the period ended September 30, 2024<BR><BR>5. Standalone Cash Flow Statement for the period ended September 30, 2024<BR><BR>6. Consolidated Cash Flow Statement for the period ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7CC0189F-4CF8-4C46-B536-9CC8F712D18C-170756.pdf",
+            "news_date": "2024-11-04 17:08:06"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Disclosure of Voting results of AGM (Regulation 44(3) of SEBI (LODR) Regulations, 2015)",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding the details of Voting results at the 71st Annual General Meeting (AGM) of the Company held on August 14, 2024, under Regulation 44(3) of SEBI (LODR) Regulations, 2015 along with Scrutinizer''s Report and Proceedings of the Meeting in this regard.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24C8842B-C5C8-4749-8E54-10A582F4EC38-123037.pdf",
+            "news_date": "2024-08-17 12:30:46"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -168,6 +421,17 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results Press Release for June 30, 2024",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended June 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8FFFA1F5-69FC-4C58-94B7-6AAF1A37579C-102840.pdf",
+            "news_date": "2024-08-13 10:29:05"
         },
         {
             "sym": "SUNDARMFIN",
@@ -194,6 +458,72 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report for June 30, 2024",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended June 30, 2024<BR><BR>2. Consolidated Financial Results for the period ended June 30, 2024<BR><BR>3. Standalone Limited Review for the period ended June 30, 2024<BR><BR>4. Consolidated Limited Review for the period ended June 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E256603F-39C5-45CE-8492-CB7167A6BC65-102700.pdf",
+            "news_date": "2024-08-13 10:27:37"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Axis Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98C03309_036D_4657_A9C0_7CB4EE5ECA90_111515.pdf",
+            "news_date": "2024-06-19 11:15:22"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Grant of Stock Options",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Grant of Stock Options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F872669E-0540-4668-9529-A8477A6919D5-142033.pdf",
+            "news_date": "2024-05-25 14:21:09"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board recommends Final Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Board of Directors of the Company at its meeting held on May 24, 2024, inter alia, has recommended a final dividend of Rs. 16/- per share (160%) for the financial year ended March 31, 2024, on the paid-up capital of Rs. 111.10 cr. This, together with the interim dividend of Rs. 14/- per share (140%) paid on March 01, 2024 will make a total dividend of Rs. 30/- per share (300%) for the financial year ended March 31, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71010501-8EF9-4A49-B6EB-EEA91CA7DCEC-123554.pdf",
+            "news_date": "2024-05-25 12:35:59"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Completion of Second Term of Office of Independent Directors",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Completion of Second Term of Office of Independent Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=EBC278A8-1218-4F0B-A0F7-F9B9674FD1B2-123115.pdf",
+            "news_date": "2024-05-25 12:31:20"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Results Press Release for March 31, 2024",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended March 31, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0CD6A1F8-2F81-4B72-8ADB-8808F3DCA635-115800.pdf",
+            "news_date": "2024-05-25 11:58:04"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -216,6 +546,72 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Auditors Report for March 31, 2024",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended March 31, 2024<BR><BR>2. Consolidated Financial Results for the period ended March 31, 2024<BR><BR>3. Standalone Auditors Report for the period ended March 31, 2024<BR><BR>4. Consolidated Auditors Report for the period ended March 31, 2024<BR><BR>5. Standalone Cash Flow Statement for the period ended March 31, 2024<BR><BR>6. Consolidated Cash Flow Statement for the period ended March 31, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4636471E-EAFD-425A-8751-87952C5AADEB-115639.pdf",
+            "news_date": "2024-05-25 11:57:01"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Record Date",
+            "caption": "Fixes Record Date for Interim Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Company has fixed February 16, 2024 as the Record Date for the purpose of Payment of Interim Dividend.<BR><BR>The dividend will be paid on March 01, 2024 (Friday).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02599FC0-8936-4599-8CDA-B359B948318B-194831.pdf",
+            "news_date": "2024-02-05 19:48:37"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Disclosure under Regulation 31A (8)(b) of the SEBI (LODR) Regulations, 2015",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Disclosure under Regulation 31A (8)(b) of the SEBI (Listing Obligations and Disclosures Requirement) Regulations, 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C470D30A-690B-458D-BACF-954234AC9CF9-193651.pdf",
+            "news_date": "2024-02-05 19:36:56"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Appointment of Independent Director",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Appointment of Mr. R Venkatraman as an Independent Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9F99EEA1-029B-4C19-8D12-FE50F25F3427-193637.pdf",
+            "news_date": "2024-02-05 19:36:42"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board declares Interim Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Board of Directors of the Company at its meeting held on February 05, 2024, inter alia, have declared an Interim Dividend of Rs. 14/- per share (140%) for the financial year 2023-24 on the paid-up capital of Rs. 111.10 cr. represented by 11,11,03,860 equity shares of Rs. 10/- each.<BR><BR>The dividend will be paid on March 01, 2024 (Friday).<BR>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5B39437F-86E4-497C-9F98-339845301C95-193622.pdf",
+            "news_date": "2024-02-05 19:36:26"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Disclosure under Reg. 30 read with Sch. III. Part A. Para A of SEBI (LODR) Regulations, 2015",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Disclosure under Reg. 30 read with Sch. III. Part A. Para A of SEBI (LODR) Regulations, 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7306D36E-ED31-44AA-B2AA-B3F8A689A7C8-193604.pdf",
+            "news_date": "2024-02-05 19:36:09"
         },
         {
             "sym": "SUNDARMFIN",
@@ -242,6 +638,17 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results Press Release for December 31, 2023",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended December 31, 2023.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3E9BBCA0-3A63-4919-8C22-8E81BA655245-192000.pdf",
+            "news_date": "2024-02-05 19:20:04"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -264,6 +671,39 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report for December 31, 2023",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended December 31, 2023<BR><BR>2. Consolidated Financial Results for the period ended December 31, 2023<BR><BR>3. Standalone Limited Review for the period ended December 31, 2023<BR><BR>4. Consolidated Limited Review for the period ended December 31, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6301C6F2-87FB-4968-B7C6-9E7DF97A162E-191731.pdf",
+            "news_date": "2024-02-05 19:18:06"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Sundaram Finance Ltd",
+            "news_body": "The Exchange has sought clarification from Sundaram Finance Ltd on January 8, 2024, with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2024-01-08 12:04:09"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3648E1D2-EB9B-4E93-B60F-3A6763BAA759-174610.pdf",
+            "news_date": "2023-12-29 17:46:46"
         },
         {
             "sym": "SUNDARMFIN",
@@ -290,6 +730,17 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results Press Release for September 30, 2023",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended September 30, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=416C1A29-4E7B-43E3-8C2F-4B62BF1D2610-175950.pdf",
+            "news_date": "2023-11-06 17:59:56"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -312,6 +763,61 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report for September 30, 2023",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended September 30, 2023<BR><BR>2. Consolidated Financial Results for the period ended September 30, 2023<BR><BR>3. Standalone Limited Review for the period ended September 30, 2023<BR><BR>4. Consolidated Limited Review for the period ended September 30, 2023<BR><BR>5. Standalone Cash Flow Statement for the period ended September 30, 2023<BR><BR>6. Consolidated Cash Flow Statement for the period ended September 30, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B5078B57-19FD-4675-9897-A52A71459A28-175751.pdf",
+            "news_date": "2023-11-06 17:58:30"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting on Nov 06, 2023",
+            "news_body": "Sundaram Finance Ltd (ONLINE)(301023) has informed BSE that a meeting of the Board of Directors will be held on November 06, 2023.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1A79C311-1BBD-4810-859D-634F6832F7BF-182101.pdf",
+            "news_date": "2023-10-30 18:21:04"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=279A574A-2DA2-45ED-ACE0-F404C1D8406F-190939.pdf",
+            "news_date": "2023-09-29 19:10:30"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Appointment of Chief Compliance Officer (CCO)",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Appointment of Chief Compliance Officer (CCO).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=CCD77594-4AE8-491D-973A-9C9434848B15-182945.pdf",
+            "news_date": "2023-08-11 18:29:48"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Appointment of Independent Director",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Appointment of Dr. Kshama Fernandes as an Independent Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8143B5B8-DADD-4B7E-994A-4A06010E125C-182909.pdf",
+            "news_date": "2023-08-11 18:29:12"
         },
         {
             "sym": "SUNDARMFIN",
@@ -338,6 +844,17 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results Press Release for June 30, 2023",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended June 30, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C9EA5299-FDA4-44EB-A66D-5B8C4ADE057F-181747.pdf",
+            "news_date": "2023-08-11 18:17:52"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -360,6 +877,94 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report for June 30, 2023",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended June 30, 2023<BR><BR>2. Consolidated Financial Results for the period ended June 30, 2023<BR><BR>3. Standalone Limited Review for the period ended June 30, 2023<BR><BR>4. Consolidated Limited Review for the period ended June 30, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15F46793-A2D3-463D-A84C-4DB877F9AD79-181722.pdf",
+            "news_date": "2023-08-11 18:17:39"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=332D4636-7308-4025-815C-ED68D7B2C69B-160636.pdf",
+            "news_date": "2023-06-30 16:06:39"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Grant of Stock Options",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Grant of Stock Options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=824F580C-8878-4DAF-8456-05E8D208E9EF-193605.pdf",
+            "news_date": "2023-05-26 19:36:07"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Disclosure under Reg. 30 of SEBI (LODR) Regulations, 2015",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Disclosure under Reg. 30 read with Sch. III to the SEBI (LODR) Regulations, 2015.<BR>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7BC5EB25-B323-4220-B898-09C2B0876B32-193523.pdf",
+            "news_date": "2023-05-26 19:35:34"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Statement of Related Party Transactions under Reg. 23(9) of SEBI (LODR) Regulations, 2015",
+            "news_body": "Sundaram Finance Ltd has submitted to BSE a copy of Statement of the Related Party Transactions in accordance with Reg.<BR>23(9) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the half-year ended March 31, 2023.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E49CA81B-521D-4CFF-BDD8-1013EAC41B2F-172850.pdf",
+            "news_date": "2023-05-26 17:28:55"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Investor Presentation for March 31, 2023",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Investor Presentation for the period ended March 31, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9C186A45-E444-4365-9F71-4CD74E104F41-171614.pdf",
+            "news_date": "2023-05-26 17:16:20"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board recommends Final Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Board of Directors of the Company at its meeting held on May 26, 2023, inter alia, has recommended a final dividend of Rs. 15/- per share (150%) for the financial year ended March 31, 2023, on the paid-up capital of Rs. 111.10 cr. This, together with the interim dividend of Rs. 12/- per share (120%) paid on March 03, 2023 will make a total dividend of Rs. 27/- per share (270%) for the financial year ended March 31, 2023.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0F4778D3-72A6-4FE1-A1E9-FD7B6B828414-171428.pdf",
+            "news_date": "2023-05-26 17:14:33"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Results Press Release for March 31, 2023",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended March 31, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B6A1E125-CBDC-450B-B117-9C9B84829BF8-171153.pdf",
+            "news_date": "2023-05-26 17:13:36"
         },
         {
             "sym": "SUNDARMFIN",
@@ -386,6 +991,61 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Auditors Report for March 31, 2023",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended March 31, 2023<BR><BR>2. Consolidated Financial Results for the period ended March 31, 2023<BR><BR>3. Standalone Auditors Report for the period ended March 31, 2023<BR><BR>4. Consolidated Auditors Report for the period ended March 31, 2023<BR><BR>5. Standalone Cash Flow Statement for the period ended March 31, 2023<BR><BR>6. Consolidated Cash Flow Statement for the period ended March 31, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3D4122C6-2571-4859-95AE-463C704E54CC-154700.pdf",
+            "news_date": "2023-05-26 15:47:08"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board to consider Final Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that a meeting of the Board of Directors of the Company has been convened on May 26, 2023, inter alia, to consider the following:<BR><BR>1. Approval of audited financial results for the year ended March 31, 2023;<BR><BR>2. Recommendation of Final Dividend for the year 2022-23;<BR><BR>3. Fixing the Book Closure date under Regulation 42 for the 70th Annual General Meeting / Final Dividend; and<BR><BR>4. Fund raising by way of issuance of non-convertible debentures on private placement basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=FCE54970-CBDC-45E7-BF8E-828DC8D03DC6-184712.pdf",
+            "news_date": "2023-05-22 18:47:16"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85A3EC95-BD7C-4B8D-9709-F134EF128801-184007.pdf",
+            "news_date": "2023-03-31 18:40:11"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Appointment of Independent Director",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Appointment of Mrs. Bhavani Balasubramanian as an Independent Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=888280E9-3DA2-406D-A181-6E32BF08EBE2-180359.pdf",
+            "news_date": "2023-02-06 18:04:04"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Results Press Release for December 31, 2022",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended December 31, 2022",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1D86199B-F58D-4FAA-ACFB-4213B483BCA3-175742.pdf",
+            "news_date": "2023-02-06 17:57:56"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -408,6 +1068,72 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report for December 31, 2022",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended December 31, 2022<BR><BR>2. Consolidated Financial Results for the period ended December 31, 2022<BR><BR>3. Standalone Limited Review for the period ended December 31, 2022<BR><BR>4. Consolidated Limited Review for the period ended December 31, 2022",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81ACFCC2-E473-4982-B49A-25D9282F5FBD-175649.pdf",
+            "news_date": "2023-02-06 17:56:54"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board to consider Interim Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that at the Board meeting to be held on February 06, 2023, the Board of Directors will be considering the declaration of Interim dividend for the Financial Year 2022-23 and fixing the Record Date for the same.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3B8316D5-4CAA-4968-A2ED-BCA259C31CE9-105148.pdf",
+            "news_date": "2023-02-02 10:51:56"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Results",
+            "news_body": "Sundaram Finance Ltd has informed BSE that a meeting of the Board of Directors of the Company has been convened on February 06, 2023, to consider and approve the unaudited standalone and consolidated financial results for the quarter and nine months ended December 31, 2022.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29CE742D-5209-43CF-9A65-96F4B291C9CF-105020.pdf",
+            "news_date": "2023-02-02 10:50:32"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Intimation regarding closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5D3213D4-3184-4860-9E53-41B6629D2D18-124131.pdf",
+            "news_date": "2022-12-31 12:41:35"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Statement of Related Party Transactions under Reg. 23(9) of SEBI (LODR) Regulations, 2015",
+            "news_body": "Sundaram Finance Ltd has submitted to BSE a copy of Statement of Related Party Transactions in accordance with Reg. 23(9) of SEBl (Listing Obligations and Disclosure Requirements) Regulations, 2015 for the quarter and half year ended September 30, 2022.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=564E3414-081F-4F6C-AF66-BB6493DF712C-150335.pdf",
+            "news_date": "2022-11-07 15:03:38"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Results Press Release for September 30, 2022",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended September 30, 2022",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7F35371D-0A7D-4349-8C88-384EACB4BB32-145830.pdf",
+            "news_date": "2022-11-07 14:58:35"
         },
         {
             "sym": "SUNDARMFIN",
@@ -434,6 +1160,50 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report for September 30, 2022",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended September 30, 2022<BR><BR>2. Consolidated Financial Results for the period ended September 30, 2022<BR><BR>3. Standalone Limited Review for the period ended September 30, 2022<BR><BR>4. Consolidated Limited Review for the period ended September 30, 2022<BR><BR>5. Standalone Cash Flow Statement for the period ended September 30, 2022<BR><BR>6. Consolidated Cash Flow Statement for the period ended September 30, 2022",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8E3172F8-F610-46FB-A09F-27AB8EB91DDA-144703.pdf",
+            "news_date": "2022-11-07 14:47:14"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=FF3E6AB6-AF82-4A95-BE50-5D9AA0AF7809-162746.pdf",
+            "news_date": "2022-09-30 16:27:54"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Sundaram Finance Ltd",
+            "news_body": "The Exchange has sought clarification from Sundaram Finance Ltd on September 26, 2022, with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2022-09-26 12:13:41"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Results Press Release for June 30, 2022",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended June 30, 2022",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=274D2A3A-D0F6-4AC8-8D1C-2C597A62F73F-145022.pdf",
+            "news_date": "2022-08-08 14:50:37"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -456,6 +1226,105 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report for June 30, 2022",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended June 30, 2022<BR><BR>2. Consolidated Financial Results for the period ended June 30, 2022<BR><BR>3. Standalone Limited Review for the period ended June 30, 2022<BR><BR>4. Consolidated Limited Review for the period ended June 30, 2022",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85E1E70C-7536-45F0-903D-245BEF7230FB-144822.pdf",
+            "news_date": "2022-08-08 14:48:48"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Results",
+            "news_body": "Sundaram Finance Ltd has informed BSE that a meeting of the Board of Directors of the Company has been convened on August 08, 2022 to consider and approve the unaudited standalone and consolidated financial results for the quarter ended June 30, 2022.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72540E3F-4DE8-4C37-B693-22D8E04BF548-112836.pdf",
+            "news_date": "2022-08-02 11:29:06"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Disclosure of Voting results of AGM (Regulation 44(3) of SEBI (LODR) Regulations, 2015)",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding the details of Voting results at the 69th Annual General Meeting (AGM) of the Company held on July 27, 2022, under Regulation 44(3) of SEBI (LODR) Regulations, 2015 along with Scrutinizer''s Report and Proceedings of the Meeting in this regard.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=EB0E96A1-8BC9-46DF-9808-D73CD5EF8019-115633.pdf",
+            "news_date": "2022-07-29 11:56:44"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Amalgamation / Merger / Demerger",
+            "caption": "Updates on Demerger",
+            "news_body": "Sundaram Finance Ltd has informed BSE that, today, the Board of Directors of our Company have granted an ''in-principle'' approval] for the proposed de-merger of the fund accounting business of Sundaram Fund Services Limited, wholly owned<BR>subsidiary, into Sundaram Asset Management Company Limited, another wholly owned subsidiary of our Company, pursuant to a proposed Scheme of Arrangement to be formulated in accordance with the provisions of Sections 230 to 232 of the Companies Act, 2013.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A9F22ACF-7214-4313-BBDC-EAB47A211759-100807.pdf",
+            "news_date": "2022-07-01 10:08:11"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Disclosure under Reg. 30",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Disclosure under Reg. 30 read with Sch.111. Part A. Para A of SEBl (Listing Obligations and Disclosure Requirements) Regulations, 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3F20C823-BC16-430D-ABE9-D7F171BA62B2-100528.pdf",
+            "news_date": "2022-07-01 10:05:32"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "ESOP Grant 13 - Exercise of Stock Options",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding ESOP Grant 13 - Exercise of Stock Options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C06D16F7-4D58-47BB-8F4D-E527F8BFAB33-103539.pdf",
+            "news_date": "2022-06-09 10:34:54"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "ESOP Grant 13 - Exercise of stock options",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding ESOP Grant 13 - Exercise of stock options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97611248-02BD-48AE-B290-CC0D15CFB72C-184611.pdf",
+            "news_date": "2022-06-06 18:46:16"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "ESOP Grant 13 - Exercise of Stock Options",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding ESOP Grant 13 - Exercise of Stock Options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9D72BEAB-800E-4F19-BF53-813B7793F47D-093639.pdf",
+            "news_date": "2022-06-03 09:36:43"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board recommnends Final Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Board of Directors of the Company at its meeting held on May 25, 2022, inter alia, has recommended a final dividend of Rs. 10/-per share (100\u00b0/o) for the financial year ended March 31, 2022, on the paid-up capital of Rs. 111.10 cr. This, together with the interim dividend of Rs.10/-per share (100%) paid on March 04, 2022 will make a total dividend of Rs. 20/-per share (200%) for the financial year ended March 31, 2022.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3A2F946A-450F-4FCD-95CF-8FE67AA546F1-171557.pdf",
+            "news_date": "2022-05-26 17:16:02"
         },
         {
             "sym": "SUNDARMFIN",
@@ -482,6 +1351,127 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Auditors Report, Results Press Release for March 31, 2022",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended March 31, 2022<BR><BR>2. Consolidated Financial Results for the period ended March 31, 2022<BR><BR>3. Standalone Auditors Report for the period ended March 31, 2022<BR><BR>4. Consolidated Auditors Report for the period ended March 31, 2022<BR><BR>5. Result Press Release for the period ended March 31, 2022<BR><BR>6. Standalone Cash Flow Statement for the period ended March 31, 2022<BR><BR>7. Consolidated Cash Flow Statement for the period ended March 31, 2022",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5603A375-DCA4-4180-900A-F18C910F9105-171033.pdf",
+            "news_date": "2022-05-26 17:10:39"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Grant of stock options/ Stock Appreciation Rights",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Grant of stock options/ Stock Appreciation Rights.<BR>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42DBEE96-7299-4FC4-9BA6-30D50C3FEA14-162509.pdf",
+            "news_date": "2022-05-26 16:25:13"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Outcome of Board Meeting held on May 25, 2022.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=FFBC201F-7940-4DE4-BA9F-95B17C6D27C2-162333.pdf",
+            "news_date": "2022-05-26 16:24:22"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Axis Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45534700_9FCE_43EF_A9E2_03C0565C7867_114808.pdf",
+            "news_date": "2022-05-24 11:48:12"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board to consider Final Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that a meeting of the Board of Directors of the Company has been convened on May 25, 2022, inter alia, to consider following:<BR><BR>1. Approval of audited financial resultsforthe year ended March 31, 2022;<BR><BR>2. Recommendation of Final dividend for the year 2021-22; and<BR><BR>3. Fixing the book closure date under Regulation 42 for the 69th Annual General Meeting / Final Dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1049B134-67F8-4B27-AFAF-8CBDA34BD6D8-102157.pdf",
+            "news_date": "2022-05-19 10:22:02"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Disclosure of Voting results of Postal Ballot (Regulation 44(3) of SEBI (LODR) Regulations, 2015)",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding the details of Voting results of Postal Ballot. under Regulation 44(3) of SEBI (LODR) Regulations, 2015 along with Scrutinizer's Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E1086AA9-03F5-4569-AA29-F99E10963108-185648.pdf",
+            "news_date": "2022-05-06 18:49:25"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Notice of Postal Ballot",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Notice of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62729331-6A78-4BC1-AB9F-E24CD91E2AF8-195757.pdf",
+            "news_date": "2022-04-04 19:58:00"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Closure of Trading Window.<BR>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5820ABE9-FFCB-447A-9065-D858A476031C-140832.pdf",
+            "news_date": "2022-03-31 14:08:35"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Apoointment of Director",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Appointment of Sri Srivats Ram as a Non-Executive Non-Independent Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86BA8ABF-F05A-49A5-A3E0-E58671A2A3B7-202036.pdf",
+            "news_date": "2022-03-28 20:20:39"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Record Date",
+            "caption": "Fixes Record Date for Interim Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Company has fixed February 18, 2022 as the Record Date for the purpose of Payment of Interim Dividend.<BR><BR>The dividend will be paid on March 04, 2022.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A77C33A8-B56C-4F50-A0BC-140123EA39B3-093415.pdf",
+            "news_date": "2022-02-08 09:34:18"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Resignation of Director",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Resignation of Sri S Ram, a non-independent, nonexecutive Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23A0FF2E-9EA0-4DD8-8578-32B022F305FB-184620.pdf",
+            "news_date": "2022-02-07 18:46:22"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -504,6 +1494,72 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report, Results Press Release for December 31, 2021",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended December 31, 2021<BR><BR>2. Consolidated Financial Results for the period ended December 31, 2021<BR><BR>3. Standalone Limited Review for the period ended December 31, 2021<BR><BR>4. Consolidated Limited Review for the period ended December 31, 2021<BR><BR>5. Result Press Release for the period ended December 31, 2021",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=BD5AFDFD-DDA1-4AD8-9097-12F55AA6E47D-162053.pdf",
+            "news_date": "2022-02-07 16:21:01"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board declares Interim Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that the Board of Directors of the Company at its meeting held on February 07, 2022, inter alia, have declared Interim Dividend of Rs. 10 per share (100%) for the financial year 2021-22 on the paid-up capital of Rs. 111.10 cr. represented by 11,11,03,860 equity shares of Rs. 10/- each. The dividend will be paid on March 04, 2022.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0C31B72D-A783-4096-968B-305C268E3A92-161342.pdf",
+            "news_date": "2022-02-07 16:13:55"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board to consider Interim Dividend",
+            "news_body": "Sundaram Finance Ltd has informed BSE that a meeting of the Board of Directors of the Company has been convened on February 07, 2022, inter alia, to consider the following:<BR><BR>1. Approval of standalone and consolidated unaudited financial results for the quarter and nine months ended December 31, 2021; and<BR><BR>2. Interim dividend for the Financial Year 2021-22 and fixing the Record Date for the same.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1351B6F3-A297-4BCE-BE2D-A566664D3F13-180612.pdf",
+            "news_date": "2022-01-29 18:07:48"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "Shareholding",
+            "caption": "Shareholding for the Period Ended December 31, 2021",
+            "news_body": "Sundaram Finance Ltd has submitted to BSE the Shareholding Pattern for the Period Ended December 31, 2021. For more details, kindly <a href=http://www.bseindia.com/corporates/shpSecurities.aspx?scripcd=590071&qtrid=112.00>Click here</a>",
+            "file_url": "",
+            "news_date": "2022-01-28 18:44:24"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324769A3-B1AD-4A51-9196-980CEA4A2D61-113807.pdf",
+            "news_date": "2021-12-31 11:39:24"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "ESOP Grant 12 -Exercise of stock options",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding ESOP Grant 12 -Exercise of stock options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9A35DA73-386F-4A85-B606-CDA0A2BF478F-180013.pdf",
+            "news_date": "2021-12-09 18:00:18"
         },
         {
             "sym": "SUNDARMFIN",
@@ -530,6 +1586,17 @@
             "seg": "E"
         },
         {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results Press Release for September 30, 2021",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Result Press Release for the period ended September 30, 2021",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0B42549F-EE54-4162-AB20-A997F9D86E08-153503.pdf",
+            "news_date": "2021-11-08 15:35:07"
+        },
+        {
             "sym": "SUNDARMFIN",
             "disp": "Sundaram Finance",
             "bse_code": 590071,
@@ -552,6 +1619,39 @@
             "sid": 3339,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone & Consolidated Financial Results, Limited Review Report for September 30, 2021",
+            "news_body": "Sundaram Finance Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended September 30, 2021<BR><BR>2. Consolidated Financial Results for the period ended September 30, 2021<BR><BR>3. Standalone Limited Review for the period ended September 30, 2021<BR><BR>4. Consolidated Limited Review for the period ended September 30, 2021<BR><BR>5. Standalone Cash Flow Statement for the period ended September 30, 2021<BR><BR>6. Consolidated Cash Flow Statement for the period ended September 30, 2021",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=102580B9-B719-46F4-A159-BED029BF8937-153306.pdf",
+            "news_date": "2021-11-08 15:33:19"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Results",
+            "news_body": "Sundaram Finance Ltd has informed BSE regarding Board Meeting Intimation for Results.",
+            "file_url": "",
+            "news_date": "2021-11-01 10:45:09"
+        },
+        {
+            "co_code": 540,
+            "bse_code": 590071,
+            "isin": "INE660A01013",
+            "ann_type": "Company Update",
+            "descriptor": "Shareholding",
+            "caption": "Shareholding for the Period Ended September 30, 2021",
+            "news_body": "Sundaram Finance Ltd has submitted to BSE the Shareholding Pattern for the Period Ended September 30, 2021. For more details, kindly <a href=http://www.bseindia.com/corporates/shpSecurities.aspx?scripcd=590071&qtrid=111.00>Click here</a>",
+            "file_url": "",
+            "news_date": "2021-10-23 21:37:52"
         },
         {
             "sym": "SUNDARMFIN",
@@ -577,6 +1677,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

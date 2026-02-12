@@ -1,0 +1,356 @@
+{
+    "Symbol": "HFCL",
+    "ISIN": "INE548A01028",
+    "News": [
+        {
+            "Title": "HFCL ESG Score Jumps 22 Points to 50 in 2025",
+            "Summary": "HFCL Limited's S&P Global ESG Score improved significantly to 50 in 2025, up 22 points from previous year and above industry average of 40, driven by corporate governance improvements.",
+            "Sentiment": "positive",
+            "PublishDate": 1770809853306,
+            "Source": "stocks"
+        },
+        {
+            "Title": "HFCL Q3 Net Profit Surges 32% to \u20b9976 Million YoY",
+            "Summary": "HFCL reported consolidated net profit of \u20b9976 million in Q3, marking a significant 32.42% increase from \u20b9737 million in the same quarter previous year.",
+            "Sentiment": "positive",
+            "PublishDate": 1770105510312,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "HFCL schedules Q3FY26 earnings call for Feb 3, 2026",
+            "Summary": "HFCL Limited announces earnings conference call on February 3, 2026 at 4:30 PM IST to discuss Q3FY26 unaudited financial results for quarter and nine months ended December 31, 2025.",
+            "Sentiment": "neutral",
+            "PublishDate": 1769616062580,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "HFCL Appoints New Independent Director, Reconstitutes Board Committees",
+            "Summary": "HFCL Limited appoints Anil Narendra Shah as Independent Director for 3-year term from January 21, 2026, while reconstituting seven board committees following completion of Bharat Pal Singh's directorship tenure.",
+            "Sentiment": "neutral",
+            "PublishDate": 1768915664185,
+            "Source": "stocks"
+        },
+        {
+            "Title": "HFCL Liquidates Polish Step-Down Subsidiary",
+            "Summary": "HFCL Limited announces voluntary liquidation of step-down subsidiary HFCL Poland Sp z.o.o. effective January 02, 2026, with no financial impact on business operations.",
+            "Sentiment": "neutral",
+            "PublishDate": 1768300716315,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "HFCL Shares Jump 9% After F&O Exit Despite Worst Year",
+            "Summary": "HFCL shares surged 9% on December 31 following exit from F&O segment, but stock remains down 40% for 2025, marking worst performance since 2008 when it fell 78%.",
+            "Sentiment": "neutral",
+            "PublishDate": 1767156615151,
+            "Source": "stocks"
+        },
+        {
+            "Title": "HFCL Block Trade: \u20b919.62 Cr for 30.38 Lakh Shares",
+            "Summary": "HFCL Limited witnessed a significant block trade on NSE worth \u20b919.62 crores involving approximately 30.38 lakh shares at \u20b964.60 per share, indicating substantial institutional activity.",
+            "Sentiment": "neutral",
+            "PublishDate": 1767069796810,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "HFCL Promoters Reduce Stake by 1.56% Through Share Sales",
+            "Summary": "MN Ventures and PACs sold 2.25 crore shares of HFCL between July-November 2025, reducing combined holding from 31.58% to 30.02%. The disposal occurred through open market sales and corporate actions.",
+            "Sentiment": "neutral",
+            "PublishDate": 1767014673706,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "HFCL Completes QIP Allotment to 14 Institutional Buyers",
+            "Summary": "HFCL Limited successfully allotted 8.79 crore equity shares at \u20b962.55 each to 14 qualified institutional buyers, raising \u20b9550 crores through QIP with 5% discount to floor price.",
+            "Sentiment": "positive",
+            "PublishDate": 1766550294519,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "HFCL Approves QIP Launch at \u20b965.84 Floor Price",
+            "Summary": "HFCL has approved the launch of its planned Qualified Institutional Placement (QIP) with a floor price set at \u20b965.84 per share, marking a significant capital raising initiative for the telecom equipment company.",
+            "Sentiment": "positive",
+            "PublishDate": 1766419109499,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "HFCL Secures USD 72.96 Million Export Orders for Optical Fiber Cables",
+            "Summary": "HFCL has secured export orders worth USD 72.96 million (\u20b9656.10 crore) for the supply of optical fiber cables through its overseas subsidiary. The substantial order value represents significant export revenue for the telecommunications equipment manufacturer.",
+            "Sentiment": "positive",
+            "PublishDate": 1765151640785,
+            "Source": "order&deals"
+        },
+        {
+            "Title": "HFCL Secures USD 72.96 Million Export Orders for Optical Fiber Cables",
+            "Summary": "HFCL has received export orders worth USD 72.96 million (\u20b9656.10 crore) to supply optical fiber cables through its foreign subsidiary. The substantial order value represents a significant business win for the company in international markets.",
+            "Sentiment": "positive",
+            "PublishDate": 1765013269420,
+            "Source": "order&deals"
+        },
+        {
+            "Title": "HFCL Invests in New Manufacturing Facility in Andhra Pradesh for Defense Sector",
+            "Summary": "HFCL is making significant investments in a new manufacturing facility located in Andhra Pradesh. The company has identified substantial growth opportunities in the defense industry and is positioning itself to capitalize on this potential through this manufacturing investment.",
+            "Sentiment": "positive",
+            "PublishDate": 1761286656364,
+            "Source": "stock"
+        },
+        {
+            "Title": "HFCL Reports Delayed Capital Expenditure Utilization in Q2FY26 Monitoring Report",
+            "Summary": "HFCL Limited submitted its monitoring agency report for the quarter ended September 30, 2025, showing progress on fund utilization from its Rs. 352 crore Qualified Institutions Placement. The company raised funds by allotting 5.10 crore equity shares at Rs. 69 per share to qualified institutional buyers. During Q2FY26, HFCL utilized Rs. 15.51 crore for capital expenditure, bringing total capital expenditure utilization to Rs. 32.31 crore out of the allocated Rs. 75 crore. The company has fully utilized funds for research and development (Rs. 85 crore), short-term borrowing repayment (Rs. 74.04 crore), working capital requirements (Rs. 75 crore), and general corporate purposes (Rs. 33.46 crore). Capital expenditure deployment has been slower than planned due to adverse market conditions for optical fiber cables caused by economic and geo-political changes. The Board approved extending the capital expenditure timeline from July 31, 2025, to March 31, 2026. Unutilized proceeds of Rs. 42.69 crore are held in fixed deposits with State Bank of India, with 95% assigned as margin against capital expenditure letters of credit. CARE Ratings Limited serves as the monitoring agency and reported no deviations from stated objectives.",
+            "Sentiment": "neutral",
+            "PublishDate": 1760700989366,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "HFCL Secures $32.02 Million Export Contract for Optical Fiber Cables",
+            "Summary": "HFCL has secured an export deal worth approximately $32.02 million for optical fiber cables. The delivery is scheduled to be completed by December 2026.",
+            "Sentiment": "positive",
+            "PublishDate": 1760689332678,
+            "Source": "order&deals"
+        },
+        {
+            "Title": "HFCL Limited Reports Mixed Q2 FY26 Results with Revenue Decline and Profit Recovery",
+            "Summary": "HFCL Limited's Board approved unaudited financial results for the second quarter and half year ended September 30, 2025. On a standalone basis, revenue from operations declined to Rs. 1,003.13 crore in Q2 FY26 from Rs. 1,011.57 crore in Q2 FY25. However, the company returned to profitability with a net profit of Rs. 61.44 crore compared to Rs. 74.88 crore in the previous year quarter, after reporting a loss of Rs. 42.34 crore in the preceding quarter. For the half year, standalone revenue decreased to Rs. 1,792.41 crore from Rs. 2,077.09 crore in the previous year, while net profit dropped significantly to Rs. 19.10 crore from Rs. 188.86 crore. On a consolidated basis, Q2 revenue was Rs. 1,043.34 crore versus Rs. 1,093.61 crore in the previous year, with net profit at Rs. 71.92 crore compared to Rs. 73.33 crore. The company operates in two main segments: Telecom Products and Turnkey Contracts and Services. Basic earnings per share for Q2 standalone was Rs. 0.42 compared to Rs. 0.52 in the previous year quarter.",
+            "Sentiment": "neutral",
+            "PublishDate": 1760688755547,
+            "Source": "earnings"
+        },
+        {
+            "Title": "HFCL Reports Mixed Q2 Results with Revenue Decline but Improved Margins",
+            "Summary": "HFCL reported quarterly consolidated net profit of 679 million rupees, down from 739 million rupees in the same period last year. Revenue decreased to 10.4 billion rupees from 10.93 billion rupees year-over-year. However, EBITDA improved to 1.9 billion rupees compared to 1.58 billion rupees previously, with EBITDA margin expanding significantly to 18.4% from 14.47% in the prior year period.",
+            "Sentiment": "neutral",
+            "PublishDate": 1760688307884,
+            "Source": "earnings"
+        },
+        {
+            "Title": "HFCL Provides Rs 20 Crore Corporate Guarantee for Subsidiary HTL's Term Loan",
+            "Summary": "HFCL Limited has issued a corporate guarantee of Rs 20 crore in favor of Bajaj Finance Limited to secure a term loan facility for its subsidiary HTL Limited. HFCL holds 74% of HTL's paid-up share capital, while the Government of India owns the remaining 26%. HTL manufactures optical fiber cables and passive connectivity solutions, along with key raw materials including Aramid Rods, Fiber Reinforced Plastic Rods and Impregnated Glass Fiber Reinforcement. The company also provides electrical wiring interconnect solutions for aerospace, defense, automotive and industrial sectors. The guarantee is provided on an arm's length basis and will be disclosed as contingent liabilities in HFCL's financial statements.",
+            "Sentiment": "neutral",
+            "PublishDate": 1760631170829,
+            "Source": "stock"
+        },
+        {
+            "Title": "HFCL Extends Timeline for Nivetti Systems Stake Sale to December 2025",
+            "Summary": "HFCL Limited has extended the completion date for selling its entire stake of 2,17,594 equity shares in Nivetti Systems Private Limited. The transaction deadline has been pushed from October 15, 2025 to December 15, 2025 through an addendum to the Share Purchase Agreement with buyer Trinity Tech Solutions. All other terms of the deal remain unchanged from the original agreement disclosed in September 2025.",
+            "Sentiment": "neutral",
+            "PublishDate": 1760549796031,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Rakuten Symphony Plans 5G Testing Partnership with BSNL and Indian Telecom Equipment Usage in Japan",
+            "Summary": "Rakuten Symphony announced plans to conduct 5G testing with BSNL. The company's CEO stated intentions to utilize Indian-made telecom equipment in Japan, with HFCL and Tejas Networks mentioned as relevant companies in this context.",
+            "Sentiment": "positive",
+            "PublishDate": 1760337650082,
+            "Source": "stock"
+        },
+        {
+            "Title": "HFCL Wins Contract to Supply IP/MPLS Routers for Vodafone Idea's 5G Network",
+            "Summary": "HFCL has secured a contract to supply IP/MPLS routers for Vodafone Idea's 5G network infrastructure. This deal positions HFCL as a technology supplier in the telecom sector's 5G expansion efforts.",
+            "Sentiment": "positive",
+            "PublishDate": 1759981449011,
+            "Source": "order&deals"
+        },
+        {
+            "Title": "HFCL Secures Export Orders Worth USD 34.19 Million",
+            "Summary": "HFCL has secured export orders valued at USD 34.19 million. The company announced this development as part of its business operations.",
+            "Sentiment": "positive",
+            "PublishDate": 1759932463972,
+            "Source": "stock"
+        },
+        {
+            "Title": "HFCL Secures 1,000 Acres in Andhra Pradesh for Defence Manufacturing",
+            "Summary": "HFCL has secured 1,000 acres of land in Andhra Pradesh to establish defence manufacturing facilities. The acquisition represents the company's expansion into defence sector manufacturing operations.",
+            "Sentiment": "positive",
+            "PublishDate": 1757895122235,
+            "Source": "stock"
+        },
+        {
+            "Title": "HFCL Receives Approval for 1,000 Acres Land Allotment in Andhra Pradesh for Defence Manufacturing",
+            "Summary": "HFCL Limited received approval from the Andhra Pradesh State Investment Promotion Board for allotment of 1,000 acres of land in Madakasira Mandal, Sri Sathya Sai District. The land will be allocated in two phases - 329 acres in Phase I and 671 acres in Phase II through Andhra Pradesh Industrial Infrastructure Corporation Limited. The company plans to establish defence manufacturing facilities for producing Artillery Ammunition Shells, TNT filling, and Multi-Mode Hand Grenades. The approval was communicated through G.O. no. Ms. No.154 dated September 06, 2025. HFCL stated this land allotment aligns with the company's strategic growth objectives and will enable expansion of its footprint in the Defence sector.",
+            "Sentiment": "positive",
+            "PublishDate": 1757597654690,
+            "Source": "stock"
+        },
+        {
+            "Title": "HFCL Receives 1000 Acres Land Allocation from Andhra Pradesh Government for Defense Manufacturing Facility",
+            "Summary": "HFCL has proposed building a defense manufacturing facility in Madakasira. The Andhra Pradesh State Government has allocated 1000 acres of land to HFCL for this project. In the first phase, the company has been granted 329 acres in Madakasira.",
+            "Sentiment": "positive",
+            "PublishDate": 1757324293347,
+            "Source": "stock"
+        },
+        {
+            "Title": "HFCL Secures USD 40.65 Million Export Orders for Optical Fiber Cables",
+            "Summary": "HFCL has secured export orders worth approximately USD 40.65 million (INR 358.38 crore) for supplying optical fiber cables through its overseas wholly-owned subsidiary. The orders involve supply of various types of optical fiber cables as per customer specifications to an international customer. The contracts are to be executed by April 2026. The orders were received in the normal course of business and do not involve any related party transactions or promoter group interests.",
+            "Sentiment": "positive",
+            "PublishDate": 1757259926461,
+            "Source": "order&deals"
+        },
+        {
+            "Title": "HFCL Divests 15.19% Stake in Nivetti for \u20b9525.1 Million",
+            "Summary": "HFCL has sold a 15.19% stake in Nivetti for \u20b9525.1 million rupees. This divestment represents a strategic move by HFCL to monetize its investment in the subsidiary.",
+            "Sentiment": "neutral",
+            "PublishDate": 1756734903321,
+            "Source": "stock"
+        },
+        {
+            "Title": "HTL Limited Secures INR 101.82 Crore Contract from Indian Army for Tactical Optical Fiber Cables",
+            "Summary": "HTL Limited, a material subsidiary of HFCL, has secured a contract worth approximately INR 101.82 crore from the Indian Army for supplying Tactical Optical Fiber Cable and related accessories. The contract involves providing indigenously manufactured optical fiber cables designed for extreme battlefield conditions, capable of withstanding heavy armored vehicles and equipped with military-grade connectors. The lightweight and portable solution enables rapid deployment of optical fiber communication links in challenging environments and can be carried by infantry personnel. The contract is to be executed by August 2026 and was awarded in the normal course of business.",
+            "Sentiment": "positive",
+            "PublishDate": 1756313341003,
+            "Source": "order&deals"
+        },
+        {
+            "Title": "Indian Government Encourages Private Telecom Companies to Adopt Domestic Network Equipment",
+            "Summary": "The Indian government is urging private telecom companies to use domestically manufactured equipment in their networks. This initiative appears to promote the use of home-made telecom infrastructure, with HFCL being mentioned in relation to this development.",
+            "Sentiment": "positive",
+            "PublishDate": 1754970239873,
+            "Source": "sectoral"
+        },
+        {
+            "Title": "HFCL Reports Q1 FY26 Results with Revenue Growth and Defense Expansion Plans",
+            "Summary": "HFCL Limited reported revenue of \u20b9871.02 crore for Q1 FY26, up from \u20b9800.72 crore in Q4 FY25 but down from \u20b91,158.24 crore in Q1 FY25. The company posted a net loss of \u20b929.30 crore compared to \u20b983.30 crore loss in the previous quarter. EBITDA improved to \u20b942.93 crore with a 4.93% margin. The company's order book stands at \u20b910,480 crore as of June 30, 2025. HFCL secured export orders worth \u20b9300 crore and achieved export revenues of \u20b9210 crore in optical fiber cables during the quarter. The Board approved expansion of IBR cable capacity from 1.73 million fiber kilometers to 19.01 million fiber kilometers per annum. In defense, the company secured contracts for thermal weapon sights for AK-203 rifles and was declared L1 bidder for a \u20b990 crore tactical cables tender. Management expects 25-30% revenue growth for FY26 and projects optical fiber cable business revenue to double to \u20b92,400 crore from \u20b91,200 crore in the previous year.",
+            "Sentiment": "positive",
+            "PublishDate": 1754061542377,
+            "Source": "earnings"
+        },
+        {
+            "Title": "HFCL Reports Strong Order Book Growth and Ambitious FY26 Expansion Plans",
+            "Summary": "HFCL's order book reached Rs 10,480 crores as of June 30, 2025, marking an increase from Rs 9,967 crores in the previous quarter and Rs 6,776 crores in Q1 FY25. The company expects to execute approximately Rs 3,000 crores from this order book during the current year. HFCL has outlined ambitious growth plans for FY26, including a planned capital expenditure of Rs 250 crores and expects its optical fiber cable business to more than triple from Rs 700 crores to Rs 2,400 crores, with over 50% revenue coming from exports. The defense segment is projected to generate revenue of over Rs 200 crores. The company provided margin guidance across segments: 15% for optical fiber cable, 6-8% for turnkey/EPC, and variable margins for telecom products. HFCL is also developing drone detection radar technology with soft kill capabilities, with lab trials nearly complete and field trials scheduled for August.",
+            "Sentiment": "positive",
+            "PublishDate": 1753673347312,
+            "Source": "earnings"
+        },
+        {
+            "Title": "HFCL Limited Reports Quarterly Monitoring of Rs. 352 Crore QIP Proceeds Utilization",
+            "Summary": "HFCL Limited submitted its monitoring agency report for the quarter ended June 30, 2025, detailing the utilization of Rs. 352 crore raised through Qualified Institutions Placement. The company issued 5,10,14,491 equity shares at Rs. 69 per share to qualified institutional buyers. During the quarter, HFCL spent Rs. 3.68 crore towards capital expenditure. The company has an unutilized balance of Rs. 58.20 crore as of June 30, 2025, held in fixed deposits with SBI Bank totaling Rs. 64.70 crore (including Rs. 6.77 crore interest) and Rs. 0.27 crore in the monitoring account. CARE Ratings Limited, the monitoring agency, reported no deviations from the stated objects of the issue. The original QIP proceeds were allocated across five categories: capital expenditure (Rs. 75 crore), research and development (Rs. 85 crore), repayment of short-term borrowings (Rs. 74.04 crore), working capital funding (Rs. 75 crore), and general corporate purposes (Rs. 33.46 crore). The company had originally estimated utilizing the entire capital expenditure amount by July 2025, but now expects to utilize the balance amount by the end of the financial year and plans to seek board approval for timeline extension.",
+            "Sentiment": "neutral",
+            "PublishDate": 1753447358045,
+            "Source": "stock"
+        },
+        {
+            "Title": "HFCL Swings to \u20b932 Crore Loss as Revenue Drops 25% in Q1",
+            "Summary": "Telecom equipment maker HFCL reported a consolidated net loss of \u20b932 crore for the quarter ended June 30, 2025, compared to a profit of \u20b9111 crore in the same quarter last year. Revenue from operations declined 25% year-on-year to \u20b9871 crore from \u20b91,158 crore. EBITDA fell 83% to \u20b929 crore from \u20b9174 crore, with margins contracting to 3.3% from 15%. The company's board approved a fund-raising plan of up to \u20b9700 crore through equity or convertible instruments for strategic investments, expansion in defence and telecom sectors, working capital, and debt repayment. HFCL also proposed relocating its registered office from Solan, Himachal Pradesh to Gurugram, Haryana. The stock traded over 4% lower and has fallen 33.53% in 2025.",
+            "Sentiment": "negative",
+            "PublishDate": 1753434714904,
+            "Source": "earnings"
+        },
+        {
+            "Title": "HFCL Board Approves Fundraising Up To \u20b9700 Crores Amid Q1 Loss",
+            "Summary": "HFCL's board has approved fundraising of up to \u20b9700 crores. The company reported quarterly results showing a consolidated net loss of \u20b9322 million compared to a profit of \u20b91.1 billion in the same period last year. Revenue declined to \u20b98.7 billion from \u20b911.6 billion year-over-year. EBITDA dropped significantly to \u20b9284 million from \u20b91.74 billion, with EBITDA margin falling to 3.26% from 15.03% in the previous year.",
+            "Sentiment": "negative",
+            "PublishDate": 1753429066968,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "HFCL Board to Discuss Fund Raising Plans",
+            "Summary": "HFCL's board of directors is scheduled to meet on July 25 to discuss the company's fund raising plans. The meeting will focus on potential fundraising strategies and options for the telecommunications equipment manufacturer.",
+            "Sentiment": "neutral",
+            "PublishDate": 1753191507644,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "HFCL Approves Expansion of IBR Cable Manufacturing Capacity",
+            "Summary": "HFCL has approved the expansion of its Indoor Broadband Radio (IBR) cable manufacturing capacity. The company plans to invest 1.26 billion rupees as capital outlay for this expansion project. No further details about the timeline or specific capacity increase were provided in the news snippet.",
+            "Sentiment": "positive",
+            "PublishDate": 1752451681000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL to Invest 1.26 Billion Rupees in IBR Cable Production",
+            "Summary": "HFCL plans to invest 1.26 billion rupees to increase its production capacity of Indoor Broadband Router (IBR) cables. This investment aims to expand the company's manufacturing capabilities in the telecommunications sector.",
+            "Sentiment": "positive",
+            "PublishDate": 1752235897000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL Ltd. Block Trade on NSE: 7.6 Million Shares Traded",
+            "Summary": "A block trade of approximately 7,628,927 shares of HFCL Ltd. was executed on the National Stock Exchange (NSE). The trade was carried out at a price of \u20b987.16 per share, resulting in a total transaction value of \u20b966.49 crores.",
+            "Sentiment": "neutral",
+            "PublishDate": 1749181594000,
+            "Source": "block_details"
+        },
+        {
+            "Title": "HFCL Provides Updates on Product Testing, Deliveries, and Capacity",
+            "Summary": "HFCL is awaiting ammunition supply from the government to test electronic fuses, expected at the beginning of next month. Night vision device supply is anticipated to start in Q2 FY26, with two new products also set for delivery from Q2. The company's expanded optical fiber capacity will be insufficient for their needs, requiring external purchases. The CEO estimates revenues of Rs 1,200-1,500 crores based on current and expected orders, but cautions this should not be considered official guidance.",
+            "Sentiment": "neutral",
+            "PublishDate": 1748230434000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL Reports Q4 Net Loss and Revenue Decline",
+            "Summary": "HFCL reported a consolidated net loss of 814 million rupees in Q4, compared to a loss of 1.1 billion rupees year-over-year and 736 million rupees quarter-over-quarter. The company's Q4 revenue was 8 billion rupees, down from 13.3 billion rupees in the same quarter last year.",
+            "Sentiment": "negative",
+            "PublishDate": 1747955878000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL Expects Strong Growth and Rebound in Current Financial Year",
+            "Summary": "HFCL executives express confidence in delivering a strong rebound in FY26. The company is developing a drone detection radar expected to be productionized in the current financial year. With a strong order book of \u20b99,967 crores and growing demand for its products, HFCL anticipates improved overall performance in the current financial year. The company expects 25-30% revenue growth, citing strong orderbook, demand pick-up, and full capacity utilization.",
+            "Sentiment": "positive",
+            "PublishDate": 1747930927000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL Ltd: Reports Q4 Loss of Rs 83 Crore Amid Declining Optical Fiber Demand",
+            "Summary": "HFCL Ltd posted a Q4 loss of Rs 83 crore, with revenue down 39% to Rs 800.72 crore. Annual PAT declined 49% to Rs 173.26 crore. The company has a strong order book of Rs 9,967 crore and expects improved performance in the current financial year.",
+            "Sentiment": "negative",
+            "PublishDate": 1747919757000,
+            "Source": "earnings"
+        },
+        {
+            "Title": "HFCL Reports Q4 Financial Results",
+            "Summary": "HFCL has reported its quarterly financial results. The company experienced an EBITDA loss of 370 million rupees in Q4, compared to a gain of 1.96 billion rupees in the same quarter last year. The consolidated net loss for Q4 was 814 million rupees, compared to 1.1 billion rupees year-over-year and 736 million rupees quarter-over-quarter. Q4 revenue stood at 8 billion rupees, down from 13.3 billion rupees in the same quarter of the previous year.",
+            "Sentiment": "negative",
+            "PublishDate": 1747917546000,
+            "Source": "result"
+        },
+        {
+            "Title": "HFCL Secures 173.72 Crore Order for 5G Equipment",
+            "Summary": "HFCL (Himachal Futuristic Communications Limited) has received a purchase order worth 173.72 crore Indian Rupees for the supply of 5G telecom networking equipment.",
+            "Sentiment": "positive",
+            "PublishDate": 1747700269000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL Secures INR 173.72 Crore Order for 5G Equipment",
+            "Summary": "HFCL (Himachal Futuristic Communications Limited) has received a purchase order worth INR 173.72 crores for the supply of 5G telecom networking equipment. This order signifies HFCL's involvement in the 5G technology sector and represents a significant business opportunity for the company.",
+            "Sentiment": "positive",
+            "PublishDate": 1747674340000,
+            "Source": "default"
+        },
+        {
+            "Title": "Government Announces Rules for 6 GHz Band; HFCL Positioned as Market Leader",
+            "Summary": "The government has announced rules for the 6 GHz band, exempting it from licensing requirements. These rules are set for 2025. Orders for 6G equipment are expected to increase. HFCL is mentioned as a market leader in 6G equipment.",
+            "Sentiment": "positive",
+            "PublishDate": 1747631295000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL Secures Orders Worth \u20b976.21 Crore for Optical Fiber Cables",
+            "Summary": "HFCL (Himachal Futuristic Communications Limited) has received two orders totaling \u20b976.21 crore for the supply of optical fiber cables. The news brief does not provide additional details about the orders, such as the clients or delivery timelines.",
+            "Sentiment": "positive",
+            "PublishDate": 1747621038000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL Secures 1.57 Billion Rupee Order for BharatNet Project",
+            "Summary": "HFCL has received a purchase order worth 1.57 billion rupees to supply various types of optical fiber cables for the BharatNet Phase III project in the West Bengal Telecom Circle. The order was placed by Tera Software, a consortium partner of ITI Ltd.",
+            "Sentiment": "positive",
+            "PublishDate": 1747095740000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL Secures 1.57 Billion Rupee Order for BharatNet Project",
+            "Summary": "HFCL has received a purchase order worth 1.57 billion rupees to supply various types of optical fiber cables for the BharatNet Phase III project in West Bengal. The order comes from Tera Software, a consortium partner of ITI Ltd.",
+            "Sentiment": "positive",
+            "PublishDate": 1747047422000,
+            "Source": "default"
+        },
+        {
+            "Title": "HFCL Limited Sees Large Block Trade on NSE",
+            "Summary": "A significant block trade of HFCL Limited shares occurred on the National Stock Exchange (NSE). Approximately 7,043,885 shares were traded at a price of Rs. 77.65 per share, totaling Rs. 54.70 crores in value.",
+            "Sentiment": "neutral",
+            "PublishDate": 1741859105000,
+            "Source": "block_deals"
+        }
+    ]
+}

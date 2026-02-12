@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement on Special Window for Transfer and Dematerialisation of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5b33075-c892-415b-adbb-1bb847fd98aa.pdf",
+            "news_date": "2026-02-12 16:09:07"
+        },
+        {
             "sym": "INDIACEM",
             "disp": "India Cements",
             "bse_code": 530005,
@@ -24,6 +35,17 @@
             "sid": 1515,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f995459-84c6-481d-8b79-d9466fca13ff.pdf",
+            "news_date": "2026-01-30 12:30:10"
         },
         {
             "sym": "INDIACEM",
@@ -50,6 +72,17 @@
             "seg": "E"
         },
         {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording - Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81c0b408-a55a-4e48-9b56-ef209dec7fce.pdf",
+            "news_date": "2026-01-24 22:39:20"
+        },
+        {
             "sym": "INDIACEM",
             "disp": "India Cements",
             "bse_code": 530005,
@@ -72,6 +105,28 @@
             "sid": 1515,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on performance of the Company for the quarter and nine months ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88bfb39b-b7bc-4446-b7c7-b098a28dd07e.pdf",
+            "news_date": "2026-01-23 14:39:11"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Unaudited Standalone And Consolidated Financial Results For The Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "Board Meeting Outcome for Unaudited Standalone and Consolidated Financial Results for the quarter and nine months ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3156304-da06-4b50-a6c9-c5e44de2afc1.pdf",
+            "news_date": "2026-01-23 14:30:47"
         },
         {
             "sym": "INDIACEM",
@@ -98,6 +153,138 @@
             "seg": "E"
         },
         {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "Unaudited Financial Results for the quarter and nine months ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09753d1b-fa98-4e69-90f1-2d0edbdf8726.pdf",
+            "news_date": "2026-01-23 14:24:36"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg.74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d13224e1-a157-48bf-b130-1689ef50d8cd.pdf",
+            "news_date": "2026-01-02 18:35:22"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddbb5068-4fef-45ad-b196-cc3053a48b77.pdf",
+            "news_date": "2026-01-02 18:33:49"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure W.R.T. Orders Passed By GST Authority",
+            "news_body": "Disclosure w.r.t. Orders passed by GST Authority",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04766ec6-ad41-451b-b7f6-af378b56da8d.pdf",
+            "news_date": "2025-12-31 18:40:42"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure W.R.T. Order Passed By GST Authority",
+            "news_body": "Disclosure w.r.t. order passed by GST Authority",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc802655-d7cb-476c-b760-a6bda39289de.pdf",
+            "news_date": "2025-12-30 18:40:51"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of The SEBI (LODR) Regulations 2015 - Clarification On Spurt In Volume",
+            "news_body": "Clarification on spurt in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a9cb998-11dd-441d-8720-94eee9598efb.pdf",
+            "news_date": "2025-12-18 14:32:39"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from India Cements Ltd",
+            "news_body": "The Exchange has sought clarification from India Cements Ltd on December 18 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-12-18 13:44:05"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Diversification / Disinvestment",
+            "caption": "Announcement under Regulation 30 (LODR)-Diversification / Disinvestment",
+            "news_body": "Sale of subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce7302b5-d26b-43f3-8b72-2e69e56e5c0b.pdf",
+            "news_date": "2025-12-02 17:38:53"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca8ef344-be57-4c8d-b834-9d4fef9b4f6d.pdf",
+            "news_date": "2025-12-01 17:47:19"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving The Standalone And Consolidated Unaudited Financial Results Of The Company For The Quarter And Nine Months Ending 31St December 2025",
+            "news_body": "India Cements Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/01/2026 inter alia to consider and approve the Standalone and Consolidated Unaudited Financial Results of the Company for the quarter and nine months ending 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2fb7ce4-d916-4c5a-ae55-6555e48638c6.pdf",
+            "news_date": "2025-12-01 17:44:16"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of The SEBI (LODR) Regulations 2015 - Clarification On Spurt In Volume",
+            "news_body": "Clarification on spurt in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cdf2595-d0e5-4fa0-b6a8-52f3abef33f6.pdf",
+            "news_date": "2025-10-31 13:05:47"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from India Cements Ltd",
+            "news_body": "The Exchange has sought clarification from India Cements Ltd on October 31 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-10-31 12:45:33"
+        },
+        {
             "sym": "INDIACEM",
             "disp": "India Cements",
             "bse_code": 530005,
@@ -120,6 +307,17 @@
             "sid": 1515,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac71448f-35f4-4180-9e6c-8a73acd8b8fa.pdf",
+            "news_date": "2025-10-27 16:39:19"
         },
         {
             "sym": "INDIACEM",
@@ -146,6 +344,17 @@
             "seg": "E"
         },
         {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording - Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6377694b-b9b6-44f6-962a-4ddaa877cf1b.pdf",
+            "news_date": "2025-10-18 19:35:45"
+        },
+        {
             "sym": "INDIACEM",
             "disp": "India Cements",
             "bse_code": 530005,
@@ -168,6 +377,28 @@
             "sid": 1515,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on performance of the Company for the quarter and half-year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5764eced-1c04-42a4-b8d1-ee9ecf669415.pdf",
+            "news_date": "2025-10-17 18:48:10"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI LODR - Capacity Expansion And Modernisation",
+            "news_body": "The Board of Directors at its meeting held on 17th October 2025 has approved the capital expenditure towards capacity expansion and modernisation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3f7c411-2280-4737-a701-614ca47c5a18.pdf",
+            "news_date": "2025-10-17 18:40:27"
         },
         {
             "sym": "INDIACEM",
@@ -194,6 +425,226 @@
             "seg": "E"
         },
         {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Financial Results For The Quarter And Half-Year Ended 30Th September 2025",
+            "news_body": "Unaudited Standalone and Consolidated Financial Results for the quarter and half-year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfd942ce-12bd-4e35-9f0d-a153c5d75ab4.pdf",
+            "news_date": "2025-10-17 18:22:36"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for   Unaudited Standalone And Consolidated Financial Results For The Quarter And Half-Year Ended 30Th September 2025",
+            "news_body": "Unaudited Standalone and Consolidated Financial Results for the quarter and half-year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7e1edec-2b35-4e44-86ef-9a4c3eb5d660.pdf",
+            "news_date": "2025-10-17 18:16:51"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 (LODR) - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b08d5ec5-9b38-48a5-b654-c73f4b76746a.pdf",
+            "news_date": "2025-10-10 19:21:47"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90c6fbf1-a851-46d1-8373-185ffe77b685.pdf",
+            "news_date": "2025-10-07 15:52:53"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62be7135-0952-4a03-a740-9e7fb6f35632.pdf",
+            "news_date": "2025-10-03 17:24:54"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of The Meeting Of The Unsecured Creditors Of The India Cements Limited Convened Pursuant To The Directions Of The Honble National Company Law Tribunal Chennai Bench",
+            "news_body": "Outcome of the meeting of the Unsecured Creditors of The India Cements Limited convened pursuant to the directions of the Honble National Company Law Tribunal Chennai Bench",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b82f89f2-3a89-4483-af9f-371d1ff8383c.pdf",
+            "news_date": "2025-09-27 19:24:17"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Court Convened Meeting",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Outcome of meeting of equity shareholders of The India Cements Limited convened pursuant to the directions of the Honble National Company Law Tribunal Chennai Bench",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e70af61-4704-4f84-9e14-41a5b285437e.pdf",
+            "news_date": "2025-09-27 19:16:57"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Court Convened Meeting",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Court Convened Meeting",
+            "news_body": "Proceedings of the meetings of the equity shareholders and unsecured creditors of The India Cements Limited convened pursuant to the directions of National Company Law Tribunal Chennai Bench",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68d5df7a-a07d-4194-8c88-1440999fa74e.pdf",
+            "news_date": "2025-09-27 18:58:41"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcd8a402-c2ab-448e-a959-6653fef26670.pdf",
+            "news_date": "2025-09-02 19:16:05"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Publication Of Unaudited Financial Results For The Quarter And Half-Year Ending 30.09.2025",
+            "news_body": "India Cements Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/10/2025 inter alia to consider and approve the standalone and consolidated unaudited financial results for the quarter and half-year ending 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=707453ca-b3b7-4a3b-ae4f-c61fb2ca8a46.pdf",
+            "news_date": "2025-09-02 19:13:18"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESG Rating",
+            "news_body": "ESG Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47a81f35-b065-4307-bf1e-ad4c6cb487a6.pdf",
+            "news_date": "2025-08-29 18:35:48"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 (LODR) - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e14d3ad9-6d4b-48eb-a770-28832c6df9cc.pdf",
+            "news_date": "2025-08-27 18:53:14"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Unsecured Creditors Meeting - Court Convened Meeting To Be Held On 27Th September 2025",
+            "news_body": "Unsecured Creditors Meeting Court Convened Meeting to be held on 27th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd230ae1-79be-4104-a9c9-d66682f3349f.pdf",
+            "news_date": "2025-08-26 17:42:56"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Court Convened Meeting",
+            "caption": "Shareholders Meeting - Court Convened Meeting To Be Held On 27Th September 2025",
+            "news_body": "Shareholders Meeting - Court Convened Meeting to be held on 27th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ccb28c4-fffd-4d03-84a1-3318b7705d0c.pdf",
+            "news_date": "2025-08-26 17:30:13"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Ultra Tech Cement Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2313E157_9ADC_4205_B0DE_1D66DE6F289C_171146.pdf",
+            "news_date": "2025-08-25 17:11:51"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General",
+            "descriptor": "Sale of shares",
+            "caption": "Notice of Offer for Sale of Shares by Promoters & Floor Price",
+            "news_body": "Notice of the proposed offer for sale of equity share of face value of Rs. 10 each (\"Equity Shares\") of  India Cements Ltd (the \"Company\") by its promoter UltraTech Cement Ltd (the \"Seller\") through the stock exchange mechanism (the \"Notice\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=731DC863-4DDD-4AA4-B30B-8EC547BC8072-170012.pdf",
+            "news_date": "2025-08-20 17:00:31"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESG Rating",
+            "news_body": "ESG Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b995b1a2-7bef-424d-9302-240e521f2470.pdf",
+            "news_date": "2025-08-14 20:30:04"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers Report for the Annual General Meeting held on 13.08.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51862c14-0688-4e4d-87e4-cfc9f835711f.pdf",
+            "news_date": "2025-08-14 19:59:00"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Chairman Speech At The 79Th Annual General Meeting Of The Company",
+            "news_body": "Chairman Speech at the 79th Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ac51040-c220-4a1a-a195-a8d4dfe47ef3.pdf",
+            "news_date": "2025-08-13 18:51:06"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 79th Annual General Meeting of the Company held on Wednesday 13th August 2025 held through Video Conferencing and Other Audio Visual Means",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef80740c-c229-483d-862d-61000c25a7a1.pdf",
+            "news_date": "2025-08-13 18:26:39"
+        },
+        {
             "sym": "INDIACEM",
             "disp": "India Cements",
             "bse_code": 530005,
@@ -216,6 +667,28 @@
             "sid": 1515,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6216b578-95b8-4605-af5b-6c4324d0d46b.pdf",
+            "news_date": "2025-07-24 18:53:56"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 (LODR) - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f198a5d-5b82-4bb5-97a0-425003c232eb.pdf",
+            "news_date": "2025-07-22 16:51:50"
         },
         {
             "sym": "INDIACEM",
@@ -242,6 +715,39 @@
             "seg": "E"
         },
         {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recordings - Earnings Calls",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66edd26a-a76e-4bc1-b2f4-7cc428880808.pdf",
+            "news_date": "2025-07-21 22:49:43"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Reporting (BRSR) for the year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d2c9038-07c2-4858-bbeb-396a0adde971.pdf",
+            "news_date": "2025-07-21 20:47:02"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d165d4d7-ed5d-4c66-8b4c-149340784bb8.pdf",
+            "news_date": "2025-07-21 20:42:50"
+        },
+        {
             "sym": "INDIACEM",
             "disp": "India Cements",
             "bse_code": 530005,
@@ -264,6 +770,17 @@
             "sid": 1515,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the performance of the Company for the quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d14c76bb-b6fd-41f8-970b-c0bd771dcac7.pdf",
+            "news_date": "2025-07-19 16:07:30"
         },
         {
             "sym": "INDIACEM",
@@ -290,6 +807,215 @@
             "seg": "E"
         },
         {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results (Standalone And Consolidated) For The Quarter Ended 30.06.2025",
+            "news_body": "Unaudited Financial Results (Standalone and Consolidated) for the quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=130f9e46-aba3-4c8e-8345-66e5a59d80b3.pdf",
+            "news_date": "2025-07-19 15:56:03"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication on Notice to Shareholders for Transfer of Equity Shares to Investor Education and Protection Fund (IEPF)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34aafefe-9111-4a04-851f-14461687b8e3.pdf",
+            "news_date": "2025-07-18 19:11:33"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 (LODR) - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30bca6f9-309b-4943-9626-9bfd751eb564.pdf",
+            "news_date": "2025-07-17 20:38:51"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": " Intimation Of Book Closure For The Purpose Of Ensuing Annual General Meeting",
+            "news_body": "The Register of Members & Share Transfer Books will remain closed from 7th August 2025 to 13th August 2025 for the purpose of ensuing Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f03300ac-7429-46ef-a2a5-b16ecdbf8110.pdf",
+            "news_date": "2025-07-17 20:32:36"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting (AGM) To Be Held On 13Th August 2025",
+            "news_body": "Annual General Meeting (AGM) to be held on 13th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=704a0cce-4287-46aa-bae2-0c5963637754.pdf",
+            "news_date": "2025-07-17 20:22:44"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15797465-f851-47b5-bc99-03b643bd60d1.pdf",
+            "news_date": "2025-07-08 18:38:44"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "Clarification on news in mainstream media",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13f91d34-9283-47f4-b456-979b2a48bade.pdf",
+            "news_date": "2025-07-05 18:41:24"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Diversification / Disinvestment",
+            "caption": "Announcement under Regulation 30 (LODR)-Diversification / Disinvestment",
+            "news_body": "Sale of investment held in associate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8457e5bf-ed2c-405f-bf05-2f3cba48ff5c.pdf",
+            "news_date": "2025-07-03 21:58:53"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca3c53aa-fc32-4117-bb89-d53fe63bb195.pdf",
+            "news_date": "2025-07-03 20:24:33"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Voting results of Postal Ballot Notice dated 26.04.2025 through Remote e-voting process and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdaad094-768b-4c20-ad79-b3062f7868a4.pdf",
+            "news_date": "2025-06-27 17:57:59"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Voting results of Postal Ballot Notice dated 26.04.2025 through Remote e-voting process and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67e293e1-e590-4670-9267-8ff834a75c26.pdf",
+            "news_date": "2025-06-27 17:55:58"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f7e9841-372e-495c-8009-75eb3be0d780.pdf",
+            "news_date": "2025-06-24 18:55:31"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Diversification / Disinvestment",
+            "caption": "Announcement under Regulation 30 (LODR)-Diversification / Disinvestment",
+            "news_body": "Sale of non-core equity investment in subsidiary company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5749c9d-3f0f-49ce-a4bb-2eca8bbfc118.pdf",
+            "news_date": "2025-06-21 15:11:06"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbfc0768-faa0-429f-8737-2f1f5fddc6d6.pdf",
+            "news_date": "2025-06-05 11:56:48"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Publication Of Unaudited Financial Results For The Quarter Ending 30.06.2025",
+            "news_body": "India Cements Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 19/07/2025 inter alia to consider and approve the standalone and consolidated unaudited financial results for the quarter ending 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7db05f7-45a3-4b76-8ccb-4d96297a627c.pdf",
+            "news_date": "2025-06-05 10:50:28"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Postal Ballot Notice dated 26.04.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fa9ec21-5f5d-4534-ae73-e6a7c9ccc3e4.pdf",
+            "news_date": "2025-05-27 17:44:10"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice dated 26.04.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8de557ab-a5a6-465f-9489-a3cf3b10bdc7.pdf",
+            "news_date": "2025-05-26 16:26:24"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Company Update",
+            "news_body": "Company Update: Commissioning of cement capacity - de-bottlenecking",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e872f17a-a1a5-4a15-bc85-57eacf93aee9.pdf",
+            "news_date": "2025-05-22 14:40:05"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74eb4fc3-3e1b-4ae0-84a8-cf4d2c748510.pdf",
+            "news_date": "2025-05-16 19:28:52"
+        },
+        {
             "sym": "INDIACEM",
             "disp": "India Cements",
             "bse_code": 530005,
@@ -312,6 +1038,28 @@
             "sid": 1515,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0246e25-9faf-44ee-9e48-fde60ab47a1d.pdf",
+            "news_date": "2025-05-02 18:40:31"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>India Cements Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L26942TN1946PLC000931</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>1071.15</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>AAA</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CARE RATINGS LIMITED</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>NSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. YES</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: S Sridharan <br/>  Designation: Company Secretary  <br/> EmailId: ssridharan@indiacements.co.in</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Krishnagopal Ladsaria <br/> Designation: Chief Financial Officer <br/> EmailId: krishna.ladsaria@adityabirla.com</div> </div> <div> <br/> Date: 30/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e90a4441-f6b4-40bb-8288-c3a7acae9b8b.pdf",
+            "news_date": "2025-04-30 19:40:18"
         },
         {
             "sym": "INDIACEM",
@@ -338,6 +1086,83 @@
             "seg": "E"
         },
         {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recordings - Earnings Calls",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=343e1e86-5e8c-46ce-b37a-0e3bff23a8fa.pdf",
+            "news_date": "2025-04-28 22:12:38"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Earning Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9fb995b-25bb-45b9-9cc7-3d19d3759a5e.pdf",
+            "news_date": "2025-04-28 15:47:39"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Retirement",
+            "caption": "Announcement under Regulation 30 (LODR)-Retirement",
+            "news_body": "Superannuation of Company Secretary and Compliance Officer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b0bccc-0bd8-49cc-a85f-eaa36c7b3563.pdf",
+            "news_date": "2025-04-26 16:03:06"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "Appointment of Company Secretary and Compliance Officer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bbb36c3-b452-454b-8b94-36ee44961d53.pdf",
+            "news_date": "2025-04-26 16:00:00"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor",
+            "news_body": "Appointment of Secretarial Auditor for a term of five consecutive years from FY2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cfef26c-0ba7-4b1f-81f9-d5b1c4e7514a.pdf",
+            "news_date": "2025-04-26 15:45:41"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Announcement under Regulation 30 (LODR) - Scheme of Amalgamation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b088b76-e001-4097-bbdc-3c40cd1249d1.pdf",
+            "news_date": "2025-04-26 15:36:34"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Audited Financial Results (Standalone And Consolidated) For The Quarter And Year Ended 31.03.2025",
+            "news_body": "Audited Financial Results (Standalone and Consolidated) for the quarter and year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34081373-7c94-42ef-ac67-027426e1e3d0.pdf",
+            "news_date": "2025-04-26 15:15:20"
+        },
+        {
             "sym": "INDIACEM",
             "disp": "India Cements",
             "bse_code": 530005,
@@ -362,6 +1187,226 @@
             "seg": "E"
         },
         {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results (Standalone And Consolidated) For The Quarter And Year Ended 31.03.2025",
+            "news_body": "Audited Financial Results (Standalone and Consolidated) for the quarter and year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=805564f7-54d9-4ebe-a55f-166cc1d37297.pdf",
+            "news_date": "2025-04-26 15:13:21"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Resignation of Mr.Sanjay Shantilal Patel (DIN:00283429) as an Independent Director of the Company with effect from the close of business on 26.04.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56ed13c0-8198-4ea7-a7bc-1365f8834588.pdf",
+            "news_date": "2025-04-22 17:52:23"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Earning Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3847e54b-ba30-4239-b60b-a6da24f2fe64.pdf",
+            "news_date": "2025-04-09 19:13:35"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e6c7909-896d-4322-8400-7c6603634e5e.pdf",
+            "news_date": "2025-04-04 18:18:17"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Voting Results of Postal Ballot through remote E-voting process and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c87d521b-5c4f-49ac-a766-3976e98861b8.pdf",
+            "news_date": "2025-03-19 19:09:03"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Voting Results of Postal Ballot through Remote E-voting process and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d098e759-248c-49fe-bfd7-7145c355c80a.pdf",
+            "news_date": "2025-03-19 19:05:28"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Diversification / Disinvestment",
+            "caption": "Announcement under Regulation 30 (LODR)-Diversification / Disinvestment",
+            "news_body": "Sale of non-core equity investment in subsidiaries and associate companies",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57bd9999-dfb3-4e20-91f0-6d7e4093dc3b.pdf",
+            "news_date": "2025-03-18 15:00:45"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1a2697a-5fea-4318-9d00-cafdff4246cf.pdf",
+            "news_date": "2025-03-03 19:20:42"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Publication Of Audited Financial Results For The Year Ended 31.03.2025",
+            "news_body": "INDIA CEMENTS LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 26/04/2025 inter alia to consider and approve the standalone and consolidated audited financial results for the year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f443325-5d06-4c60-9c65-c054ec4a0591.pdf",
+            "news_date": "2025-03-03 19:15:26"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure W.R.T. Order Passed By GST Authority",
+            "news_body": "Disclosure w.r.t. Order passed by GST Authority",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85c061b5-998d-46d8-a9a4-5e95dae6872b.pdf",
+            "news_date": "2025-03-01 16:06:32"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Postal Ballot Notice dated 21.01.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98d3bf54-0c8d-48be-b3a5-fbda1f323bf4.pdf",
+            "news_date": "2025-02-14 14:36:31"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice dated 21.01.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0f723c6-43e7-4719-a55c-2d877fb6391a.pdf",
+            "news_date": "2025-02-13 18:32:52"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for ELM Park Fund Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A5577599_4291_4D98_A4DA_F5A8DAD1653C_103244.pdf",
+            "news_date": "2025-02-07 10:32:48"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Elm Park Fund Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77F71791_2A4A_4A07_A094_64C51A3A8ED6_100905.pdf",
+            "news_date": "2025-02-06 10:09:09"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for UltraTech Cement Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98BDE70C_8AF5_418B_9C0C_363948CDABF9_182018.pdf",
+            "news_date": "2025-02-05 18:20:20"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Open Offer - Post Offer Advertisement",
+            "news_body": "Receipt of Post Offer Advertisement issued by Axis Capital Limited Manager to the  Open Offer on behalf of UltraTech Cement Limited in relation to acquisition of equity shares of the Company by way of Open Offer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=073cefc7-afe5-4d3c-926e-cef9d6a99242.pdf",
+            "news_date": "2025-02-05 16:49:59"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Post Offer Advertisement",
+            "news_body": "Axis Capital Ltd (\"Manager to the Offer\") has submitted to BSE a copy of Post Offer Advertisement under Regulation 18(12) of the SEBI (Substantial Acquisition of Shares and Takeovers) Regulations 2011 as amended (\"SEBI (SAST) Regulations\") for the attention of the public shareholders of India Cements Ltd (\"Target Company\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99C4FCBC-6152-4DC9-9698-B8BF1E4C4186-131912.pdf",
+            "news_date": "2025-02-05 13:19:30"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure W.R.T. Order Passed By GST Authority",
+            "news_body": "Disclosure w.r.t. Order passed by GST Authority",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83880af7-20ef-4656-9533-f37e2377f652.pdf",
+            "news_date": "2025-01-31 13:07:36"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17b2bd04-b93e-4a14-b1c9-d791979f5bb8.pdf",
+            "news_date": "2025-01-22 17:21:40"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d520f304-635a-4d57-830b-a954160c61d7.pdf",
+            "news_date": "2025-01-21 19:00:01"
+        },
+        {
             "sym": "INDIACEM",
             "disp": "India Cements",
             "bse_code": 530005,
@@ -384,6 +1429,61 @@
             "sid": 1515,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Nine Months Ended 31St December 2024",
+            "news_body": "Unaudited Financial Results for the quarter and nine months ended 31.12.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4797cea-ea2c-4897-b2c0-d527d4dc2857.pdf",
+            "news_date": "2025-01-21 18:10:47"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6ce59da-ec35-4697-ac76-9cc86a4241d6.pdf",
+            "news_date": "2025-01-18 16:27:11"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Considering And Approving The Standalone And Consolidated Unaudited Financial Results (Subject To A \"Limited Review\" By The Statutory Auditors",
+            "news_body": "INDIA CEMENTS LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 21/01/2025 inter alia to consider and approve Board Meeting Intimation for Considering And Approving The Standalone And Consolidated Unaudited Financial Results (Subject To A \"Limited Review\" By The Statutory Auditors Of Our Company) for the quarter and nine months ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daa2601c-5d3c-4e92-91df-969496276d8f.pdf",
+            "news_date": "2025-01-15 21:12:17"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " Disclosure W.R.T. Order Passed By GST Authority",
+            "news_body": "Disclosure w.r.t. Order passed by GST Authority",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=794c4e9e-b9ae-4a40-9410-fe5fa2bc24cc.pdf",
+            "news_date": "2025-01-08 16:57:46"
+        },
+        {
+            "co_code": 270,
+            "bse_code": 530005,
+            "isin": "INE383A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Recommendation Of The Committee Of Independent Directors",
+            "news_body": "Recommendation of the Committee of Independent Directors of the Company on the open offer made by UltraTech Cement Limited to the public shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6dc9d027-45a9-4c4f-bf7c-febe04bc44aa.pdf",
+            "news_date": "2025-01-06 18:08:01"
         },
         {
             "sym": "INDIACEM",
@@ -1129,6 +2229,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

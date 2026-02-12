@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2fb4a23-6697-4377-b9f1-12662ffdf6bd.pdf",
+            "news_date": "2026-02-09 16:34:36"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript for Investor Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=883bc0c7-ee05-48d7-9dd6-0153ba9fd498.pdf",
+            "news_date": "2026-02-05 11:19:32"
+        },
+        {
             "sym": "MASFIN",
             "disp": "MAS Financial Services",
             "bse_code": 540749,
@@ -24,6 +46,50 @@
             "sid": 199,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio / Video Recording of Earnings Call on Unaudited Financial Results (Standalone & Consolidated) for the quarter and nine months ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=830ca8a5-b70f-4235-8ee7-e564acff41c1.pdf",
+            "news_date": "2026-01-29 19:55:13"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d37a1ef2-c522-4982-9a63-747bd5009390.pdf",
+            "news_date": "2026-01-29 15:13:09"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement about dispatch of Notice of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7800bc5a-ca31-426f-8d8d-f604ac0d3b4c.pdf",
+            "news_date": "2026-01-29 15:02:34"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of unaudited financial results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4813dcb2-1642-40ec-bd09-deba39f08015.pdf",
+            "news_date": "2026-01-29 13:37:21"
         },
         {
             "sym": "MASFIN",
@@ -50,6 +116,72 @@
             "seg": "E"
         },
         {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1571a937-891c-4a20-8d8e-6fec1575e669.pdf",
+            "news_date": "2026-01-28 18:51:03"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action - Fixes Record Date For Interim Dividend",
+            "news_body": "Corporate Action - Fixes Record date for Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7becd9e4-175f-4a38-968b-d68f87b78dca.pdf",
+            "news_date": "2026-01-28 17:41:11"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f32616bd-ac26-471e-a0b1-3fb73433a91b.pdf",
+            "news_date": "2026-01-28 17:36:38"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated January 28 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c589ead6-b5a0-4206-a247-ce5914e88a9d.pdf",
+            "news_date": "2026-01-28 17:05:56"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Reappointment of Ms. Deepika Agrawal as Head of Internal Audit",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8f9fc55-f364-4222-b29a-83e1b5e85671.pdf",
+            "news_date": "2026-01-28 16:58:16"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Reappointment of Dr. Barnali Chaklader (10970760)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7f1958e-51a0-47cb-b3e0-0bc1ded19873.pdf",
+            "news_date": "2026-01-28 16:56:37"
+        },
+        {
             "sym": "MASFIN",
             "disp": "MAS Financial Services",
             "bse_code": 540749,
@@ -72,6 +204,182 @@
             "sid": 199,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results For December 31 2025",
+            "news_body": "Results-Financial Results for December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e88aa6e-a36b-4d4f-b46e-606b55b5cdcd.pdf",
+            "news_date": "2026-01-28 16:51:26"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board approves Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1da5aad9-fc77-4130-9a7c-5b88ff3ca83f.pdf",
+            "news_date": "2026-01-28 16:45:08"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated January 28 2026",
+            "news_body": "As per pdf attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0146d76d-e538-44f4-b365-f7f3cd8d0907.pdf",
+            "news_date": "2026-01-28 16:41:29"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13aee4b8-9308-46dd-8d5e-1b1838712896.pdf",
+            "news_date": "2026-01-27 21:51:34"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor meeting to discuss quarterly result for the quarter ended as on December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e944e22e-ee52-48ff-92ec-d2a1475249a8.pdf",
+            "news_date": "2026-01-22 12:51:41"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Board to consider Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da8fb6b9-9ff7-44b8-b100-581aa7e1cc7e.pdf",
+            "news_date": "2026-01-21 18:27:33"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Be Held On Wednesday January 28 2026",
+            "news_body": "MAS Financial Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/01/2026 inter alia to consider and approve We would like to inform you that pursuant to Regulation 29 and Regulation 50 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 meeting of the Board of Directors of the Company is scheduled to be held on Wednesday January 28 2026 inter alia to: \r\n\r\n  To consider and approve the Unaudited Standalone & Consolidated Financial Results of the Company for the quarter and nine months ended on December 31 2025 along with adoption of Limited Review Reports to be issued by the Statutory Auditors of the Company;\r\n  To consider re-appointment of Dr. Barnali Chaklader (DIN: 10970760) as a woman Independent Director of the Company for a second term of 5 consecutive years;\r\n  To consider and approve the investment in MAS Rural Housing & Mortgage Limited Subsidiary Company of the Company;\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b770263-10b7-4319-825a-14d689924a0b.pdf",
+            "news_date": "2026-01-21 18:25:34"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for India Business Excellence Fund III",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=CC026992_1A56_4BC3_AABA_63741ADCD84C_170814.pdf",
+            "news_date": "2026-01-09 17:08:23"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Non-Convertible Debentures",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=576cc168-05d5-408e-ba72-0868222993c6.pdf",
+            "news_date": "2025-12-30 10:13:55"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=109c6f7c-ea4d-4e77-ad34-eda0bcc455c7.pdf",
+            "news_date": "2025-12-29 16:35:58"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESG Rating",
+            "news_body": "ESG Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f738359-e77e-4ac6-97e2-1b56025ee3d9.pdf",
+            "news_date": "2025-12-29 16:33:01"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ca85d37-7af5-415b-9227-a6d162048e56.pdf",
+            "news_date": "2025-12-04 12:06:14"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Non-Convertible Debenture",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=695878cf-eafe-455f-89ad-cc237611e028.pdf",
+            "news_date": "2025-11-28 11:13:16"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f7158a6-f112-414b-b0d9-3bd577306f80.pdf",
+            "news_date": "2025-11-27 13:38:57"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript for Investor Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6469ebd-a806-4cdc-bb87-779b59eba20c.pdf",
+            "news_date": "2025-11-13 11:40:40"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of unaudited financial results of the company for the quarter and half year ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d52ed16-89ff-458b-8c85-db9548246041.pdf",
+            "news_date": "2025-11-07 12:18:34"
         },
         {
             "sym": "MASFIN",
@@ -98,6 +406,17 @@
             "seg": "E"
         },
         {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio / Video Recording of Earnings Call on Unaudited Financial Results (Standalone & Consolidated) for the quarter and half year ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02603ff7-deef-4996-bd9c-4c7ea85ea8e3.pdf",
+            "news_date": "2025-11-06 17:49:40"
+        },
+        {
             "sym": "MASFIN",
             "disp": "MAS Financial Services",
             "bse_code": 540749,
@@ -120,6 +439,39 @@
             "sid": 199,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3d3da28-8945-45b0-8a18-28182f06386e.pdf",
+            "news_date": "2025-11-05 15:50:52"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 05.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=618239bb-f639-46ab-8d7d-24abe8f1182e.pdf",
+            "news_date": "2025-11-05 15:23:56"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of CISO",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f6fb73e-993c-43d3-bb1a-7cd86f996240.pdf",
+            "news_date": "2025-11-05 15:20:55"
         },
         {
             "sym": "MASFIN",
@@ -146,6 +498,347 @@
             "seg": "E"
         },
         {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Financial Results For September 30 2025",
+            "news_body": "Results - Financial Results for September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=536eb744-d8f1-4250-8632-efff3f314034.pdf",
+            "news_date": "2025-11-05 15:10:04"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Of The Company Held Today I.E. Wednesday November 05 2025",
+            "news_body": "Approved the Unaudited Standalone & Consolidated Financial Results of the Company for the quarter\r\nand half year ended on September 30 2025 along with adoption of Limited Review Reports issued by the\r\nStatutory Auditors of the Company;",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=401fd64e-1b38-4165-98c5-f38d43f89fba.pdf",
+            "news_date": "2025-11-05 15:07:10"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor meeting to discuss quarterly result for the quarter and half year ended as on September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdd84d03-2b9c-4bc0-83f4-a7c99f586b30.pdf",
+            "news_date": "2025-10-31 15:34:42"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Be Held On Wednesday November 05 2025",
+            "news_body": "MAS Financial Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/11/2025 inter alia to consider and approve To consider and approve the Unaudited Standalone & Consolidated Financial Results of the Company for the quarter and half year ended September 30 2025 along with adoption of Limited Review Reports to be issued by the Statutory Auditors of the Company and Such other business\u2026\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69a613d7-cf45-4bb1-9243-1b841aa04494.pdf",
+            "news_date": "2025-10-29 18:31:15"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of re-affirmed credit rating on Companys pass through certificates.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a38a0b7-9927-427a-ba16-a724e234b358.pdf",
+            "news_date": "2025-10-18 19:00:52"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6dd29dad-5515-4f2d-8eec-cb372804160d.pdf",
+            "news_date": "2025-09-29 18:28:18"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation regarding Acquisition of Equity Shares in Subsidiary Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76b67ab8-c367-4c71-964f-4a98ecc74f4b.pdf",
+            "news_date": "2025-09-12 15:39:10"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54b6be75-77c6-45e1-9bb2-ad59215ad4cc.pdf",
+            "news_date": "2025-09-04 19:29:41"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcd8b489-c9dd-4230-b71a-ff78312ab3d5.pdf",
+            "news_date": "2025-09-03 17:35:37"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Public Notice for transfer of Equity Shares to IEPF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4497af5f-0c53-487c-aadb-e0821d99b8a8.pdf",
+            "news_date": "2025-09-02 17:06:45"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investment In Subsidiary Company",
+            "news_body": "Investment in Subsidiary Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f323be5-a264-4df9-835a-ea943f6c6bd1.pdf",
+            "news_date": "2025-08-29 17:58:16"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of NCDs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d73f0479-9742-420c-b199-925b9cc3b834.pdf",
+            "news_date": "2025-08-29 11:02:20"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Debentures",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5eb15796-1d94-426a-9fb8-8a6fe27bca6e.pdf",
+            "news_date": "2025-08-19 10:58:56"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f05f224-23d5-497a-a3d3-27b1b82e2081.pdf",
+            "news_date": "2025-08-14 11:43:17"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6daa04d-2417-4dbf-abd5-af1df719b526.pdf",
+            "news_date": "2025-08-09 16:17:17"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholders - 30Th Annual General Meeting",
+            "news_body": "Letter to Shareholders - 30th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3ef6f08-bcf9-494a-9b76-7f4b735fd383.pdf",
+            "news_date": "2025-08-08 16:23:07"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 30Th AGM To Be Held On September 3 2025",
+            "news_body": "Annual General Meeting - September 3 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea05e73b-c9f2-4d7a-acef-7d3c9d6a256d.pdf",
+            "news_date": "2025-08-08 16:18:19"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Reporting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f1ed98b-883d-4089-bdd7-c42fb7c8e91f.pdf",
+            "news_date": "2025-08-08 16:16:11"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e62d86f5-4be5-4724-98f4-ebf1b39f847f.pdf",
+            "news_date": "2025-08-08 16:07:05"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Estate of Mukesh Chimanlal Gandhi",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=CF960781_BE75_4F1C_86D2_6768CD695A03_124220.pdf",
+            "news_date": "2025-08-08 12:42:25"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 10(6) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 10(6) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 10(6) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for MCG Private Family Trust",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=EAE70D79_441F_4201_A78F_D0FF09664B5F_111509.pdf",
+            "news_date": "2025-08-08 11:15:20"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for MCG Private Family Trust",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18F3F66A_2207_48D1_9496_06C0016A35DE_111335.pdf",
+            "news_date": "2025-08-08 11:13:50"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29034915-f2f1-496c-a15a-84fbd647d830.pdf",
+            "news_date": "2025-07-31 11:58:06"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of NCD",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f730baa-5a73-4f88-86d4-6e21feb4c625.pdf",
+            "news_date": "2025-07-30 10:39:22"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript for Investor Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5604ded9-262d-49d2-8c32-a4460cfd56ec.pdf",
+            "news_date": "2025-07-29 18:37:13"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 10(6) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 10(6) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 10(6) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Mukesh Gandhi",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A7605208_D39E_4337_967C_F649D688F678_103839.pdf",
+            "news_date": "2025-07-28 10:38:47"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Mukesh Gandhi",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C1139BA0_72AB_471A_A089_73F11764DF15_103702.pdf",
+            "news_date": "2025-07-28 10:37:25"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9b2e3d2-8f00-466d-8615-aa34fa548196.pdf",
+            "news_date": "2025-07-25 15:34:11"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b00a1653-8f62-4ac7-a0ac-da7b91e8e3a2.pdf",
+            "news_date": "2025-07-24 18:56:54"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action - Fixes Record Date For AGM & Dividend",
+            "news_body": "Corporate Action - Fixes Record Date for AGM & Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0e47d32-6f91-4dda-85eb-f27bd75bb466.pdf",
+            "news_date": "2025-07-24 15:39:35"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action - Fixes Record Date For AGM & Dividend",
+            "news_body": "Corporate Action - Fixes Record Date for AGM & Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db106b41-0a89-4523-a958-7817fe665cb9.pdf",
+            "news_date": "2025-07-24 12:34:12"
+        },
+        {
             "sym": "MASFIN",
             "disp": "MAS Financial Services",
             "bse_code": 540749,
@@ -168,6 +861,61 @@
             "sid": 199,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76368282-9f2c-4452-a17c-929328eb9be1.pdf",
+            "news_date": "2025-07-23 16:43:38"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor",
+            "news_body": "Appointment of Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=000b5bbb-f98e-46e9-809f-461dc8722830.pdf",
+            "news_date": "2025-07-23 15:31:01"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 23.07.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f1cff84-c7ac-4cc6-a4fe-f9165129836a.pdf",
+            "news_date": "2025-07-23 15:24:08"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting To Be Held On September 3 2025",
+            "news_body": "Annual General Meeting to be held on September 3 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4be69408-6cde-498e-b400-354da6c25897.pdf",
+            "news_date": "2025-07-23 15:19:33"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Corporate Action  - Fixes Book Closure For The Purpose Of 30Th AGM & Payment Of Final Dividend",
+            "news_body": "Corporate Action - Fixes Book Closure for the purpose of 30th AGM & payment of final Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fce99f5-8b74-49e8-9c3e-52e8e6077079.pdf",
+            "news_date": "2025-07-23 15:14:59"
         },
         {
             "sym": "MASFIN",
@@ -194,6 +942,160 @@
             "seg": "E"
         },
         {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Financial Results For June 30 2025",
+            "news_body": "Results - Financial Results for June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0570c486-5527-4d38-8441-19f9e31db4cd.pdf",
+            "news_date": "2025-07-23 14:47:19"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43c46f2f-fdb0-45f2-85a8-a1acd768cd91.pdf",
+            "news_date": "2025-07-23 14:42:37"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Nippon Life India Trustee Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38916A9D_866D_40BE_8E5B_0201AB38D06E_154636.pdf",
+            "news_date": "2025-07-17 15:46:39"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Conference Call for financial results of the first quarter ended on June 30 2025.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=653feaa5-526e-4951-97fc-75b15bc88bce.pdf",
+            "news_date": "2025-07-17 12:46:10"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Meeting To Be Held On July 23 2025.",
+            "news_body": "MAS Financial Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/07/2025 inter alia to consider and approve quarterly results as on June 30 2025 AGM related matters etc",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fa7be1b-a6e3-48ee-96ac-97214331b9f6.pdf",
+            "news_date": "2025-07-16 21:39:48"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1cff0ab3-e922-4729-acde-261ead69db44.pdf",
+            "news_date": "2025-06-27 18:16:35"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6434892-f2c9-440d-947d-d7368a88b671.pdf",
+            "news_date": "2025-06-18 15:06:27"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report - March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11b003b8-652a-49ae-8b06-dbc476c6c4b2.pdf",
+            "news_date": "2025-05-29 15:11:58"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of NCD.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da7d9f9e-3437-4ed9-b8d9-c02ebf75b93c.pdf",
+            "news_date": "2025-05-16 11:02:46"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d2f3656-a54c-4747-aae0-0094b6621ffc.pdf",
+            "news_date": "2025-05-15 15:09:23"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4ac8490-0683-427d-ab02-45c1fc7b525d.pdf",
+            "news_date": "2025-05-15 15:06:40"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3f9de4d-9cf8-4dce-9b22-3f7497d2d4af.pdf",
+            "news_date": "2025-05-08 17:57:11"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e10303a9-11f0-4689-a91e-e6da10dbc6cc.pdf",
+            "news_date": "2025-05-02 18:16:07"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46655d53-3dab-47aa-a58e-c86f0243311f.pdf",
+            "news_date": "2025-05-02 16:26:17"
+        },
+        {
             "sym": "MASFIN",
             "disp": "MAS Financial Services",
             "bse_code": 540749,
@@ -218,6 +1120,72 @@
             "seg": "E"
         },
         {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfddf92f-806c-492b-9222-ef3085311fd1.pdf",
+            "news_date": "2025-04-30 17:48:39"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Related Party Transaction As On 31.03.2025",
+            "news_body": "Related Party Transaction as on 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82090026-3927-462d-a2ee-b1596331f1dd.pdf",
+            "news_date": "2025-04-30 17:43:39"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Raising of Funds",
+            "caption": "Announcement under Regulation 30 (LODR)-Raising of Funds",
+            "news_body": "Raising of funds",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db8ee903-355c-45dc-87fd-399e73400c21.pdf",
+            "news_date": "2025-04-30 16:42:21"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3160bac-daae-4c19-98f1-a16ba158aac6.pdf",
+            "news_date": "2025-04-30 16:33:42"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>MAS Financial Services Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L65910GJ1995PLC026064</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>7468.31</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>AA</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>ACUITE RATINGS & RESEARCH LIMITED</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. YES</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: RIDDHI BHAYANI <br/>  Designation: COMPANY SECRETARY  CCO <br/> EmailId: RIDDHI_BHAYANI@MAS.CO.IN</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: ANKIT JAIN <br/> Designation: CFO <br/> EmailId: ANKIT_JAIN@MAS.CO.IN</div> </div> <div> <br/> Date: 30/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d94069b5-4a90-495e-b70e-d8fdd5ce11e0.pdf",
+            "news_date": "2025-04-30 16:30:03"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board approved final dividend subject to approval from shareholders.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e08d211-ae35-47af-a8e6-323e506aa99e.pdf",
+            "news_date": "2025-04-30 15:59:09"
+        },
+        {
             "sym": "MASFIN",
             "disp": "MAS Financial Services",
             "bse_code": 540749,
@@ -240,6 +1208,138 @@
             "sid": 199,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Financial Results For March 31 2025",
+            "news_body": "Results - Financial Results for March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf76e8d9-2435-4e1e-8fa9-0a647ac0f532.pdf",
+            "news_date": "2025-04-30 15:52:32"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a95bd698-4b07-4696-8dcf-cce4333c4a50.pdf",
+            "news_date": "2025-04-30 15:41:43"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Conference Call for financial results of the fourth quarter & year ended on March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d7d555e-91c8-4bd1-a8b4-a705f8f4c007.pdf",
+            "news_date": "2025-04-24 09:40:03"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 50 (1) - Prior intimation about Board meeting under Regulation 50(1))",
+            "caption": "Compliances-Reg. 50 (1) - Prior intimation about Board meeting under Regulation 50(1)",
+            "news_body": "Board to consider raising of funds approve Financial Result as on March 31 2025 etc.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30e0b545-0a7d-41ea-b212-f01d2cb86ec8.pdf",
+            "news_date": "2025-04-23 12:36:34"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Board to consider Final Dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6c3e55c-df81-4dc3-be23-cf3ff35ee142.pdf",
+            "news_date": "2025-04-23 12:32:29"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Financial Results As On March 31 2025.",
+            "news_body": "MAS Financial Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/04/2025 inter alia to consider and approve Financial Results Fund raising Dividend...",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50276081-2e79-40bb-abe3-4e7cc7957d17.pdf",
+            "news_date": "2025-04-23 12:28:28"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Public Notice for transfer of Equity shares to IEPF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d9cba9d-a147-4ddb-aa44-16f41b395115.pdf",
+            "news_date": "2025-04-17 12:03:31"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report for Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86fc5793-679d-4586-9f9f-4ce3d4f095ec.pdf",
+            "news_date": "2025-04-07 18:55:16"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acaa52e8-c650-4f34-8aa6-956ea0cfd35b.pdf",
+            "news_date": "2025-04-07 18:53:48"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=005b46ec-973d-4ad6-b33d-99ea4313c9ee.pdf",
+            "news_date": "2025-03-29 11:16:50"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of NCD",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99d6d5ec-9df2-45a7-b59b-324cce79bce7.pdf",
+            "news_date": "2025-03-28 10:17:41"
+        },
+        {
+            "co_code": 38599,
+            "bse_code": 540749,
+            "isin": "INE348L01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investment In Equity Shares Of The Subsidiary Company",
+            "news_body": "Investment in Equity Shares of the Subsidiary Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=309d6ffb-49b0-40b4-9813-f7b9ceff55ff.pdf",
+            "news_date": "2025-03-24 14:02:11"
         },
         {
             "sym": "MASFIN",
@@ -1585,6 +2685,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

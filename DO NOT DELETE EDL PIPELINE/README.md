@@ -66,14 +66,27 @@ Extracted from the Dhan lot size page to provide the contract sizes for indices 
 | `fetch_company_filings.py` | Parallel fetcher for Exchange Filings (Announcements) for all symbols. |
 | `company_filings/` | Directory containing individual `{SYMBOL}_filings.json` files. |
 | `process_earnings_performance.py` | Extracts results dates and calculates post-earnings performance. |
-| `bulk_market_analyzer.py` | Script to bulk analyze ALL stocks (Fundamentals + Technicals). |
+| `bulk_market_analyzer.py` | Script to bulk analyze ALL stocks (Fundamentals + Technicals + Index Mapping). |
+| `fetch_new_announcements.py` | High-speed fetcher for 2026 corporate updates and results via new Static API. |
+| `all_company_announcements.json` | Consolidated list of latest news and results updates. |
 | `fetch_bulk_block_deals.py` | Script to fetch Bulk/Block deals (last 30 days). |
 | `bulk_block_deals.json` | Consolidated list of bulk and block deals. |
+| `add_corporate_events.py` | Aggregates and maps ASM/GSM, Circuit Revisions, Deals, Insider Trading, and Results Out events. |
 | `README.md` | This documentation file. |
 
 ## 📂 Data Content & Field Reference
 
-### 1. `dhan_data_response.json` & `fno_stocks_response.json`
+### 1. `all_stocks_fundamental_analysis.json`
+This is the master output file containing the complete 3D analysis (Fundamental + Technical + Events).
+
+*   **Fundamnetal Fields**: `Sales Actual`, `Profit Actual`, `Mcap`, `Industry`, `Sector`, `PEG`, `Forward PE`, `Listing Date`.
+*   **Technical Fields**: `6 Month Returns(%)`, `ADR %`, `RVOL`, `% from 52W High`, `% from 52W Low`, `% from 52W High 200 Days EMA Volume`.
+*   **Index Mapping**: Maps stocks to **38 specific indices** (Nifty 50, Next 50, Midcap, Smallcap, Sectorals like Auto, IT, Pharma, etc.).
+*   **Event Markers**: Strategic icons for high-impact tracking.
+*   **Latest Announcement**: The cleaned headline of the single most recent corporate filing.
+*   **Latest Announcement URL**: Direct PDF link to the official exchange filing (BSE/NSE).
+
+### 2. `dhan_data_response.json` & `fno_stocks_response.json`
 *   **Content**: Technical and fundamental data for 2,775 stocks (Full) or 207 stocks (F&O).
 *   **Key Fields**: 
     *   `Sym`, `DispSym`, `Isin`: Identifiers.
@@ -83,13 +96,13 @@ Extracted from the Dhan lot size page to provide the contract sizes for indices 
     *   `DayRSI14CurrentCandle`: Momentum indicator.
     *   `High1Yr`, `High3Yr`, `High5yr`: Historical benchmarks.
 
-### 2. `fno_lot_sizes_cleaned.json`
+### 3. `fno_lot_sizes_cleaned.json`
 *   **Content**: Derivative contract lot sizes for active instruments.
 *   **Key Fields**:
     *   `Symbol`, `Name`: Instrument identity.
     *   `Lot_Feb2026`, `Lot_Mar2026`, etc.: Specific lot sizes for upcoming monthly expiries.
 
-### 3. `all_indices_list.json`
+### 4. `all_indices_list.json`
 *   **Content**: Master list of 194 indices across NSE and BSE.
 *   **Key Fields**:
     *   `IndexName`, `Symbol`, `IndexID`: Unique mapping.
@@ -154,6 +167,16 @@ python3 "fetch_fno_expiry.py"
 python3 "fetch_corporate_actions.py"
 ```
 
+**To refresh Company Filings (Hybrid Mode - Recommended):**
+```bash
+python3 "fetch_company_filings.py"
+```
+
+**To refresh Advanced Indicators (Pivot, EMA, SMA):**
+```bash
+python3 "fetch_advanced_indicators.py"
+```
+
 **To refresh Surveillance Lists (ASM/GSM):**
 ```bash
 python3 "fetch_surveillance_lists.py"
@@ -189,10 +212,25 @@ curl -v -o nse_equity_list.csv "https://nsearchives.nseindia.com/content/equitie
 python3 single_stock_analyzer.py RELIANCE
 ```
 
-**To Calculate Metrics for ALL Stocks:**
+**To Calculate Metrics for ALL Stocks (Fundamentals + Technicals):**
 ```bash
 python3 bulk_market_analyzer.py
 ```
+
+**To Inject Events & Announcements (CRITICAL FINAL STEP):**
+```bash
+python3 add_corporate_events.py
+```
+
+## **Important: Execution Pipeline**
+To ensure data integrity, always run scripts in this order:
+1.  **Data Fetching**: 
+    - `fetch_dhan_data.py`
+    - `fetch_company_filings.py` (Hybrid)
+    - `fetch_market_news.py` (News Sentiment)
+    - `fetch_advanced_indicators.py`
+2.  **Base Analysis**: `bulk_market_analyzer.py`
+3.  **Event Injection**: `add_corporate_events.py` (Must be last!)
 
 ## **Advanced Technical Analysis (Lifetime History)**
 
@@ -249,10 +287,64 @@ The script `fetch_all_ohlcv.py` iterates through all stocks, retrieves their uni
     *   *Benchmark*: Uses the **Pre-Earnings Close** (the price strictly before the announcement) as the base to accurately measure the market reaction.
 *   **EMA Volume (200 Day)**: Long-term volume trend.
 
+**To refresh Event Markers (Insider Trading, Deals, Results, ASM):**
+```bash
+python3 "add_corporate_events.py"
+```
+
 **To refresh Bulk & Block Deals (Last 30 Days):**
 ```bash
 python3 "fetch_bulk_block_deals.py"
 ```
+
+---
+
+### **Supported Advanced Metrics & Event Markers:**
+
+#### **1. Advanced Metadata**
+*   **Index Mapping**: Precise mapping into 38 sub-indices (e.g., Nifty 50, Microcap 250, Sectorals, etc.).
+*   **Sector & Industry**: Standardized classification extracted from fundamental and technical feeds.
+
+#### **2. Performance Benchmarks**
+*   **ATH (All-Time High)** & `% from ATH`: Lifetime price benchmarks.
+*   **6 Month Returns (%)**: Price performance over the last ~126 trading days.
+*   **% from 52W Low**: Current price relative to the 52-week bottom.
+*   **% from 52W High 200 Days EMA Volume**: Volume-trend analysis comparing current 200D EMA Volume to the peak volume year.
+*   **ADR % (5, 14, 20, 30 Days)**: Moving average of daily volatility.
+*   **Rupee Turnover (20, 50, 100 Day Avg)**: Value flowing through the stock in Crores.
+*   **RVOL (Relative Volume)**: Trend-strength indicator comparing current vs. 20D average volume.
+
+
+### **4. Technical Indicators (New)**
+| **Field** | **Description** |
+| :--- | :--- |
+| **Technical Sentiment** | Quick summary of oscillators (e.g., "RSI: Neutral \| MACD: Bullish"). |
+| **SMA Status** | Status of price vs Simple Moving Averages (20/50/200). Example: "SMA 200: Above (12.5%)". |
+| **EMA Status** | Status of price vs Exponential Moving Averages (20/50/200). Example: "EMA 50: Below (-2.1%)". |
+| **Pivot Point** | The Daily Classic Pivot Point level. |
+
+### **5. Strategic Event Markers (`Event Markers` field)**
+| Icon | Name | Logic |
+| :--- | :--- | :--- |
+| **★: LTASM / STASM** | Surveillance | Stock is currently in NSE Long/Short Term ASM groups. |
+| **📊: Results Out** | Recent Results | Financial results released in the **last 7 days**. |
+| **🔑: Insider Trading** | Mgmt Trades | SEBI Regulation 7(2) / Form C filings in last 15 days (filtered for trades). |
+| **📦: Block Deal** | Deal Activity | Bulk or Block deal detected in last 7 trading days. |
+| **#: +/- Revision** | Circuit Revision | Daily increment or decrement in price band limit (e.g. 5% -> 10%). |
+| **⏰: Results Coming** | Quarterly Results | Financial results announced/upcoming in the next 14 days. |
+| **🎁: Bonus** | Bonus Issue | Upcoming Bonus allocation in next 30 days. |
+| **✂️: Split** | Stock Split | Sub-division of equity shares in next 30 days. |
+| **💸: Dividend** | Cash Dividend | Upcoming cash payout (Final/Interim/Special). |
+| **📈: Rights** | Rights Issue | Upcoming rights entitlement for existing shareholders. |
+
+**Latest Announcements**: Each stock also contains a `Recent Announcements` list with the top 5 updates (Headlines + PDFs).
+
+### **6. Live News Feed (`News Feed` field)**
+Contains the **Top 5** real-time news items for the stock, fetched from media sources.
+Each item includes:
+*   `Title`: The news headline.
+*   `Sentiment`: AI-tagged sentiment (`positive`, `negative`, `neutral`).
+*   `Date`: Unix timestamp of publication.
 
 ---
 **Note**: This folder is part of the EDL Pipeline. **DO NOT DELETE**.

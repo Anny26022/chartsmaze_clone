@@ -2,6 +2,50 @@
     "code": 0,
     "data": [
         {
+            "co_code": 25339,
+            "bse_code": 0,
+            "isin": "INE511Y01018",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "MMP Industries Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/MMP_07012026162834_MMPIL745GDec2025.pdf",
+            "news_date": "2026-01-07 00:00:00"
+        },
+        {
+            "co_code": 25339,
+            "bse_code": 0,
+            "isin": "INE511Y01018",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "MMP Industries Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/MMP_29122025155923_MMPTWC01012026.pdf",
+            "news_date": "2025-12-29 00:00:00"
+        },
+        {
+            "co_code": 25339,
+            "bse_code": 0,
+            "isin": "INE511Y01018",
+            "ann_type": "Press Release",
+            "descriptor": "Press Release",
+            "caption": "Press Release",
+            "news_body": "MMP Industries Limited has informed the Exchange regarding a press release dated November 08, 2025, titled \"MMP Industries Limited- Investor Presentation Sept 2025\".",
+            "file_url": "https://nsearchives.nseindia.com/corporate/MMP_08112025170953_MMPILInvestorPPTSept2025.pdf",
+            "news_date": "2025-11-08 00:00:00"
+        },
+        {
+            "co_code": 25339,
+            "bse_code": 0,
+            "isin": "INE511Y01018",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "MMP Industries Limited has informed the Exchange about Copy of Newspaper Publication",
+            "file_url": "https://nsearchives.nseindia.com/corporate/MMP_08112025122055_MMPNewspaperSept2025.pdf",
+            "news_date": "2025-11-08 00:00:00"
+        },
+        {
             "sym": "MMP",
             "disp": "Mmp Industries",
             "bse_code": 0,
@@ -48,7 +92,61 @@
             "sid": 16395,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 25339,
+            "bse_code": 0,
+            "isin": "INE511Y01018",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "MMP Industries Limited has submitted to the Exchange, the financial results for the period ended September 30, 2025.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/MMP_07112025133629_MMPBMoutcomeSept2025FR.pdf",
+            "news_date": "2025-11-07 00:00:00"
+        },
+        {
+            "co_code": 25339,
+            "bse_code": 0,
+            "isin": "INE511Y01018",
+            "ann_type": "Press Release",
+            "descriptor": "Press Release",
+            "caption": "Press Release",
+            "news_body": "MMP Industries Limited has informed the Exchange regarding a press release dated November 07, 2025, titled \"MMP Industries Limited Press Release for September 2025\".",
+            "file_url": "https://nsearchives.nseindia.com/corporate/MMP_07112025171739_MMPILPressReleaseSept2025.pdf",
+            "news_date": "2025-11-07 00:00:00"
+        },
+        {
+            "co_code": 25339,
+            "bse_code": 0,
+            "isin": "INE511Y01018",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "MMP Industries Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "-",
+            "news_date": "2025-10-11 00:00:00"
+        },
+        {
+            "co_code": 25339,
+            "bse_code": 0,
+            "isin": "INE511Y01018",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "MMP Industries Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/MMP_27092025135148_MMPTWC01102025.pdf",
+            "news_date": "2025-09-27 00:00:00"
+        },
+        {
+            "co_code": 25339,
+            "bse_code": 0,
+            "isin": "INE511Y01018",
+            "ann_type": "Disclosure under SEBI Takeover Regulations",
+            "descriptor": "Disclosure under SEBI Takeover Regulations",
+            "caption": "Disclosure under SEBI Takeover Regulations",
+            "news_body": "MMP Industries Limited\u00a0has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/team_bbodade_24092025183632_MMP.pdf",
+            "news_date": "2025-09-24 00:00:00"
         }
-    ],
-    "remarks": ""
+    ]
 }

@@ -1,0 +1,34 @@
+{
+    "Symbol": "CMNL",
+    "ISIN": "INE06PV01010",
+    "News": [
+        {
+            "Title": "Chaman Metallics Signs Coal Supply Agreement with Western Coalfields",
+            "Summary": "Chaman Metallics has entered into a fuel supply agreement with Western Coalfields. The agreement is for the supply of 2,000 metric tonnes of coal.",
+            "Sentiment": "positive",
+            "PublishDate": 1747838240000,
+            "Source": "default"
+        },
+        {
+            "Title": "Chaman Metallics Revises Expansion Project Cost to 3.96 Billion Rupees",
+            "Summary": "Chaman Metallics has announced a revision to the estimated cost of its expansion project. The company has updated the projected cost to 3.96 billion rupees, which represents an increase from the previous estimate. This adjustment in the project cost suggests a significant investment in the company's growth plans.",
+            "Sentiment": "neutral",
+            "PublishDate": 1742775317000,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Chaman Metallics Revises Expansion Project Cost",
+            "Summary": "Chaman Metallics has announced a revision to the estimated cost of their expansion project. The company now expects the project to cost 3.96 billion rupees, which represents an increase from the previous estimate.",
+            "Sentiment": "neutral",
+            "PublishDate": 1742567025000,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Chaman Metallics Receives Approval to Defer DCCO",
+            "Summary": "<p>Chaman Metallics has obtained <span class='positive'>approval</span> from the <b>State Bank of India (SBI)</b> to <span class='neutral'>postpone</span> its Scheduled Date of Commencement of Commercial Operations (DCCO) to <b>April 1, 2025</b>.</p>",
+            "Sentiment": "positive",
+            "PublishDate": 1728570991000,
+            "Source": "corporate_action"
+        }
+    ]
+}

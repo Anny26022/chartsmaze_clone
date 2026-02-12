@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Purvah Green Power Private Limited  a subsidiary of CESC Limited has today duly acknowledged the receipt and acceptance of the Letter of Award issued by Solar Energy Corporation of India Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94195529-556d-4092-990e-a15757802685.pdf",
+            "news_date": "2026-02-12 15:39:54"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8188778b-7745-4f8c-b7f5-56144ecb6208.pdf",
+            "news_date": "2026-02-07 14:48:34"
+        },
+        {
             "sym": "CESC",
             "disp": "CESC",
             "bse_code": 500084,
@@ -24,6 +46,28 @@
             "sid": 628,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8152735-a3bd-40cf-8b82-e1de3aece237.pdf",
+            "news_date": "2026-02-06 17:57:42"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting- Financial Results",
+            "news_body": "Outcome of Board Meeting- Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70c5c826-e01e-4197-8f8a-75ba418f33d4.pdf",
+            "news_date": "2026-02-06 13:31:10"
         },
         {
             "sym": "CESC",
@@ -50,6 +94,204 @@
             "seg": "E"
         },
         {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Result For The Quarter And Nine Months Ended 31.12.2025",
+            "news_body": "Financial Results is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbee9a24-89c0-4752-895f-4cc335b3a0a3.pdf",
+            "news_date": "2026-02-06 13:28:48"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conferences",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=232aa51a-fffb-442a-9a44-64f9c8fd0eb9.pdf",
+            "news_date": "2026-02-02 19:54:32"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9afc6de3-0d38-4812-990a-73d27bcd8bce.pdf",
+            "news_date": "2026-02-02 19:51:13"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a78e4e25-8f40-4867-923f-20ecc593e04d.pdf",
+            "news_date": "2026-02-02 19:47:35"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Taking On Record The Unaudited Financial Results (Standalone And Consolidated) Of The Company For The 3Rd Quarter / Nine Months Ended On December 31 2025 Pertaining To The Financial Year 2025-26.",
+            "news_body": "CESC Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/02/2026 inter alia to consider and approve take on record the Unaudited Financial Results (Standalone and Consolidated) of the Company for the 3rd quarter / nine months ended on December 31 2025 pertaining to the Financial Year 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c3a3901-d3da-42b8-add6-14850faa5a2b.pdf",
+            "news_date": "2026-01-30 16:44:27"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015",
+            "news_body": "Intimation is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa050969-47fc-4b88-bf28-81fac89db67f.pdf",
+            "news_date": "2026-01-21 18:22:25"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a5ec2cb-e9af-4e69-a702-4a4b4e763ecc.pdf",
+            "news_date": "2026-01-17 16:46:33"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015 (SEBI LODR Regulations)",
+            "news_body": "Intimation is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db18df42-ba73-4923-9035-8face82985e6.pdf",
+            "news_date": "2026-01-17 15:16:30"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Demise",
+            "caption": "Announcement under Regulation 30 (LODR)-Demise",
+            "news_body": "Demise of Mr. Sunil Mitra Independent Director of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=919b7e0d-fbe7-4285-a45e-2ac5e602f90a.pdf",
+            "news_date": "2026-01-12 20:39:01"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Senior Management personnel of the Company-Intimation under Regulation 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=654585ff-4d8d-4f00-8323-9f6683863676.pdf",
+            "news_date": "2026-01-02 18:00:43"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=923cf707-3330-4601-8c4a-381c57790a98.pdf",
+            "news_date": "2025-12-24 15:02:22"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=080599c2-7213-4401-a4cd-897bb76ee196.pdf",
+            "news_date": "2025-12-23 15:04:00"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5f76a7b-7c18-48f6-a780-faf801ea6003.pdf",
+            "news_date": "2025-12-19 18:08:10"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fcdf5a7-c8fa-4d22-8014-cd83517129c6.pdf",
+            "news_date": "2025-12-17 17:20:07"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015 (SEBI LODR Regulations)",
+            "news_body": "Intimation is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82ac09b3-75e1-4a7b-9950-6c48f7399953.pdf",
+            "news_date": "2025-12-16 19:24:31"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6023b10d-adb7-416f-95ad-94861a3b7571.pdf",
+            "news_date": "2025-12-16 15:54:42"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27599d17-e7e2-41af-bcf7-ba78248f9075.pdf",
+            "news_date": "2025-12-08 18:11:47"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c2719a5-7666-4aff-8914-2cf100c2ae47.pdf",
+            "news_date": "2025-12-08 13:23:21"
+        },
+        {
             "sym": "CESC",
             "disp": "CESC",
             "bse_code": 500084,
@@ -72,6 +314,171 @@
             "sid": 628,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investors Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd3400f6-19af-4328-993a-6379cc563563.pdf",
+            "news_date": "2025-11-29 11:51:46"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Conference Schedule",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5431084a-873d-4108-a592-b7d7c255c0b1.pdf",
+            "news_date": "2025-11-25 18:01:44"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Conference Schedule",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42db035a-183e-447f-aa29-9c3d28e52ad4.pdf",
+            "news_date": "2025-11-25 17:57:06"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015.",
+            "news_body": "Intimation is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=586358de-c120-4e3a-b905-d308fc2c6a16.pdf",
+            "news_date": "2025-11-13 18:31:51"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccff6924-6ff8-4969-8426-046798ae9dd6.pdf",
+            "news_date": "2025-11-11 15:56:30"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b27cf874-3c71-4cc6-ace5-13082048a429.pdf",
+            "news_date": "2025-11-11 15:55:50"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1a7274e-dba1-46fc-bd17-540cafc0fde4.pdf",
+            "news_date": "2025-11-11 15:52:41"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af065cec-30c1-4801-90d9-fa98ad89fa71.pdf",
+            "news_date": "2025-11-11 15:49:58"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8cb6e64-d7db-4c36-94fa-631a6e28d0a0.pdf",
+            "news_date": "2025-11-11 15:46:45"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44f983fb-7ff4-4052-913c-7f9393133e4d.pdf",
+            "news_date": "2025-11-10 17:55:23"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure under Reg 30 of SEBI (LODR) Regs 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80a75715-5e65-45d4-97dc-a9b51914a5b4.pdf",
+            "news_date": "2025-10-28 17:41:40"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42801ece-ef3b-4535-a88c-e47725d1d62c.pdf",
+            "news_date": "2025-10-18 15:13:04"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investors Update",
+            "news_body": "Investors Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac37ba94-468e-44f4-af7e-53d2ea918b56.pdf",
+            "news_date": "2025-10-17 21:01:35"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Interim Dividend",
+            "news_body": "Record date for Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c5d5622-35dd-439a-96c1-c9d6f0ba5f17.pdf",
+            "news_date": "2025-10-17 17:28:01"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e96fd3ca-e60a-4e40-9f10-a7b5597dbf55.pdf",
+            "news_date": "2025-10-17 17:16:41"
         },
         {
             "sym": "CESC",
@@ -98,6 +505,127 @@
             "seg": "E"
         },
         {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting",
+            "news_body": "Financial Results for the 2nd quarter/ half year ended September 30 2025 and declaration of interim dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d55c5845-cc57-4af8-b6b1-4ff8819694ed.pdf",
+            "news_date": "2025-10-17 17:13:49"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results/ Interim Dividend",
+            "news_body": "CESC Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/10/2025 inter alia to consider and approve Unaudited Financial Results / Interim Dividend. Intimation of Board Meeting under Regulation 29 of the Securities and Exchange Board of India (Listing Obligation and Disclosure Requirements) Regulations 2015 is attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae149b00-6232-4802-bec3-98db8c5f773a.pdf",
+            "news_date": "2025-10-09 17:31:17"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89b0eb62-ae3e-4b19-b8c5-32ded99e9231.pdf",
+            "news_date": "2025-10-07 12:48:20"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Allotment Of Debt Securities",
+            "news_body": "Allotment of Debt Securities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5eb3e483-f9a2-4f59-8a83-3361eb26a0f6.pdf",
+            "news_date": "2025-09-26 12:01:26"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f3d4420-0d48-497b-92bd-6ef78f949dce.pdf",
+            "news_date": "2025-09-25 16:26:57"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Issue Of Debt Securities",
+            "news_body": "Issue of Debt Securities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df79d3fa-1fc9-4a2f-a711-78cf66bb0667.pdf",
+            "news_date": "2025-09-24 10:34:49"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Issue Of Debt Securities",
+            "news_body": "Issue of Debt Securities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c49889f3-b560-41f5-9402-21d6f6551fb2.pdf",
+            "news_date": "2025-09-19 17:30:46"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015 (SEBI LODR Regulations)",
+            "news_body": "Intimation is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0f4ea04-b409-432e-8401-a09023067a3b.pdf",
+            "news_date": "2025-09-19 11:08:48"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Secretarial Auditor at the 47th AGM of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56f0ce04-3bcd-4771-a0f1-23fc415cdfc4.pdf",
+            "news_date": "2025-09-11 21:43:15"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fdc5ea2-9062-4249-9a18-185541482c6b.pdf",
+            "news_date": "2025-09-11 21:41:11"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Outcome of AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee3be01e-ba41-4311-8b9b-23d85959cfd3.pdf",
+            "news_date": "2025-09-11 21:35:27"
+        },
+        {
             "sym": "CESC",
             "disp": "CESC",
             "bse_code": 500084,
@@ -120,6 +648,182 @@
             "sid": 628,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=463659b6-bab5-4795-b818-db77ea160f5b.pdf",
+            "news_date": "2025-09-06 11:23:59"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "List Of Participants At Investors Meet",
+            "news_body": "The List of participants for the upcoming Investors Conference scheduled to be held on September 8 2025 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3d7e44e-dd22-42f5-b72d-8faa1e2983e1.pdf",
+            "news_date": "2025-09-04 20:19:17"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58a4e1bc-d680-4a52-b91d-bd76c00ef67c.pdf",
+            "news_date": "2025-09-04 17:12:50"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a886cc2-e5ca-477d-aa90-bb330136de77.pdf",
+            "news_date": "2025-08-27 16:27:11"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=135907e8-bbcd-4859-8271-d865c6507984.pdf",
+            "news_date": "2025-08-15 12:20:44"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44d2f699-f3b5-4579-98a9-59e4750411a0.pdf",
+            "news_date": "2025-08-15 11:54:40"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Reporting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fd00496-fcd0-4f01-9293-50dc962dd8f0.pdf",
+            "news_date": "2025-08-14 21:05:09"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation To Shareholders Under Reg. 36(1)(B) Of SEBI LODR Regulations 2015",
+            "news_body": "Intimation to shareholder is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8419d18-94d2-4ed8-bada-f50da5ee9db1.pdf",
+            "news_date": "2025-08-14 20:11:14"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 47Th AGM Of The Company",
+            "news_body": "Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3634ad2-a876-4e50-a4aa-73de0ce6d082.pdf",
+            "news_date": "2025-08-14 18:54:29"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f29d2b9-a892-4e37-bc3d-733687a99233.pdf",
+            "news_date": "2025-08-14 18:39:29"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of The Date Of Forty-Seventh Annual General Meeting",
+            "news_body": "Intimation is Attached herewith",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05fd09aa-7c52-41cf-b739-c13f6c02572e.pdf",
+            "news_date": "2025-08-11 19:13:31"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af291926-239e-46c2-ba6f-207407ddf87f.pdf",
+            "news_date": "2025-08-06 19:21:00"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9018cffa-db68-4db3-b17e-8c6557d944ab.pdf",
+            "news_date": "2025-08-06 19:17:41"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb13fb49-899e-4220-a238-3ce3616795db.pdf",
+            "news_date": "2025-08-05 16:46:47"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c98cf14e-ed53-463d-adb3-409c0807a97e.pdf",
+            "news_date": "2025-07-31 14:48:43"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investors Update",
+            "news_body": "Investors Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f7b9512-e398-43c2-ba3c-26bbf431833a.pdf",
+            "news_date": "2025-07-30 19:30:08"
         },
         {
             "sym": "CESC",
@@ -146,6 +850,50 @@
             "seg": "E"
         },
         {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting (Results)",
+            "news_body": "Result is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48ba7871-fc00-4ca4-b5ad-f062171ee32d.pdf",
+            "news_date": "2025-07-30 16:25:37"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarterly Results",
+            "news_body": "CESC Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/07/2025 inter alia to consider and approve the Unaudited Financial Results for the quarter ended on June 30 2025 pertaining to the FY 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f5d548a-da84-442f-9e68-f0c73dd4953c.pdf",
+            "news_date": "2025-07-23 13:50:26"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=481072af-272a-4372-82bf-e513345fd0be.pdf",
+            "news_date": "2025-07-03 19:37:10"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5d6dcf3-5fd4-459e-88cb-1d39e3c028c3.pdf",
+            "news_date": "2025-06-25 16:14:40"
+        },
+        {
             "sym": "CESC",
             "disp": "CESC",
             "bse_code": 500084,
@@ -168,6 +916,160 @@
             "sid": 628,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e25cc9aa-e78e-4f73-af36-dc3629a0cd04.pdf",
+            "news_date": "2025-06-13 18:41:47"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conferences\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=885fe913-f3fd-4f55-8262-b3aabb1c8c40.pdf",
+            "news_date": "2025-06-10 12:58:30"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conferences\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f275edc7-790e-4c33-86c1-f8f7039515d1.pdf",
+            "news_date": "2025-06-10 12:55:15"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "The disclosure is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cde6d526-745a-4139-836b-ffbab10f864d.pdf",
+            "news_date": "2025-06-04 20:10:36"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39685402-c632-469a-ac91-7b1726fb20f0.pdf",
+            "news_date": "2025-06-03 13:11:35"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Due to an inadvertent typographical error the date mentioned in the covering letter no: DOC:SEC:1402/2025-26/63 is stated as June 2 2025 instead of June 3 2025. Revised disclosure is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=849a623f-9d22-4ba9-862f-d8341900094c.pdf",
+            "news_date": "2025-06-03 10:15:42"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "The disclosure is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b488262-eb3d-44be-b986-a11782a5e4f9.pdf",
+            "news_date": "2025-06-03 09:34:18"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24e2f4ae-6cbf-4928-b6b0-6a675149d770.pdf",
+            "news_date": "2025-05-19 17:27:06"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conferences",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2b24d93-5f60-48b5-92fd-f2dd32aa7b42.pdf",
+            "news_date": "2025-05-16 17:06:46"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conferences",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64c97dcb-7a85-47fa-b001-034d6347d81d.pdf",
+            "news_date": "2025-05-16 16:51:41"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conferences",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f013fe3-a1b4-4f69-8bf1-6e6b9986e243.pdf",
+            "news_date": "2025-05-16 16:48:55"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=110196ef-0e11-4da5-bc2d-9fd246355dd4.pdf",
+            "news_date": "2025-05-16 15:13:01"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investors Update",
+            "news_body": "Investors Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d23298ec-3fc2-4293-a8c5-835182c6d69e.pdf",
+            "news_date": "2025-05-15 16:56:58"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Board Meeting Held On May 15 2025",
+            "news_body": "Appointment of Secretarial Auditor and Voluntary Liquidation of subsidiary.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bb47777-b5f0-4cbd-b25c-edbcc0d079df.pdf",
+            "news_date": "2025-05-15 13:45:31"
         },
         {
             "sym": "CESC",
@@ -194,6 +1096,193 @@
             "seg": "E"
         },
         {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results",
+            "news_body": "Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef5c84d7-29e5-405e-af02-b81ce811a300.pdf",
+            "news_date": "2025-05-15 13:37:13"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Audited Financial Results For The Quarter And Financial Year Ended On March 31 2025",
+            "news_body": "CESC Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 15/05/2025 inter alia to consider and approve the Audited Financial Results for the quarter and financial year ended on March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14e56291-711c-405d-b2d2-d1814c145aba.pdf",
+            "news_date": "2025-05-06 19:02:40"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc9516ae-7a6d-4cdb-9c0e-13898dd0ef58.pdf",
+            "news_date": "2025-05-05 18:27:15"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a40fb5e2-7dda-459a-aae2-4d1e31e27b35.pdf",
+            "news_date": "2025-04-30 18:11:25"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015\r\n\r\n",
+            "news_body": "Disclosure is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85209791-a952-4785-bdcb-097d530b29e3.pdf",
+            "news_date": "2025-04-30 17:42:56"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db227cfa-7a48-458d-9808-2c3b7a9f87a4.pdf",
+            "news_date": "2025-04-29 17:28:29"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015 (SEBI LODR Regulations)",
+            "news_body": "CESC Limited has entered into a PPA with Bhojraj Renewables Energy Private Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0100a66-cb26-45d2-aa69-d1834184a9a4.pdf",
+            "news_date": "2025-04-28 19:52:18"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Allotment Of Debt Securities",
+            "news_body": "Allotment of Debt Securities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=039aca1f-21d1-4ec1-8d34-1c110ec7ea71.pdf",
+            "news_date": "2025-04-11 15:14:32"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Issue Of Debt Securities",
+            "news_body": "Issue of Debt Securities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f073bac4-3c18-493a-9547-240f8de40898.pdf",
+            "news_date": "2025-04-07 14:56:13"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7f68049-93ff-4a30-b9bb-62c471a02520.pdf",
+            "news_date": "2025-04-03 19:16:11"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Issue Of Debt Securities",
+            "news_body": "Issue of Debt Securities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83d89862-3b7a-4758-b157-4fe7567c4308.pdf",
+            "news_date": "2025-04-02 18:57:09"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015 (SEBI LODR Regulations)",
+            "news_body": "The Intimation under Regulation 30 is attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=085c8ea3-a6a3-4f5b-855d-b6410b62dd8b.pdf",
+            "news_date": "2025-03-27 18:25:17"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ecb3937-a5c3-447b-baf4-165a743c8070.pdf",
+            "news_date": "2025-03-25 15:34:26"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance  Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c7b8b16-b556-4f7a-8c53-d6a20aaa572c.pdf",
+            "news_date": "2025-03-12 15:16:55"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015 (SEBI LODR Regulations)",
+            "news_body": "Intimation is attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88f4006e-4922-41fb-9670-19d69afa0e95.pdf",
+            "news_date": "2025-02-20 14:41:25"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate is attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3a68f98-66c5-4480-bdad-f42e35b15996.pdf",
+            "news_date": "2025-02-12 17:50:51"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Integrated Filing For The Quarter And Nine-Months Ended December 31 2024",
+            "news_body": "Integrated Filing",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c22f4b5-bab9-46f6-b685-47a88ba252e5.pdf",
+            "news_date": "2025-02-11 16:07:00"
+        },
+        {
             "sym": "CESC",
             "disp": "CESC",
             "bse_code": 500084,
@@ -216,6 +1305,17 @@
             "sid": 628,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 99,
+            "bse_code": 500084,
+            "isin": "INE486A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d285d14f-be47-44fe-bf05-57b6412c0bbd.pdf",
+            "news_date": "2025-02-07 20:11:05"
         },
         {
             "sym": "CESC",
@@ -985,6 +2085,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

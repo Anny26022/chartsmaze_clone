@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the Quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7303a169-f3a5-4141-9d3c-7945f6d2ed84.pdf",
+            "news_date": "2026-02-12 15:12:54"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Unaudited financial results for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49931afb-7429-4352-b351-fa0e087eb0d0.pdf",
+            "news_date": "2026-02-11 13:18:26"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders - Intimation On Tax Deduction On Third Interim Dividend",
+            "news_body": "Communication to Shareholders- Intimation on Tax Deduction on Third Interim Dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=765254b5-1c51-4305-9f58-f720156f6e12.pdf",
+            "news_date": "2026-02-10 18:30:36"
+        },
+        {
             "sym": "ROUTE",
             "disp": "Route Mobile",
             "bse_code": 543228,
@@ -24,6 +57,17 @@
             "sid": 128,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Investor(s)/ Analyst(s) Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2cda531-7958-4790-9e1b-e4e08a26942b.pdf",
+            "news_date": "2026-02-10 18:24:47"
         },
         {
             "sym": "ROUTE",
@@ -50,6 +94,83 @@
             "seg": "E"
         },
         {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8914965c-80e4-42af-931c-bec98384fc88.pdf",
+            "news_date": "2026-02-09 22:57:38"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release titled \" Route Mobile Limited  announces Q3 FY26 Results and Leadership Update.\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9755495-a989-4ccf-94ea-44b2648d2555.pdf",
+            "news_date": "2026-02-09 22:55:12"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30(5) Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30(5) of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78693650-b342-4785-ba79-7ed6473d412a.pdf",
+            "news_date": "2026-02-09 22:52:05"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Cancellation Of Esops",
+            "news_body": "Cancellation of ESOPs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c84b1ac2-5fd1-41f2-971b-b1152fdc0bb6.pdf",
+            "news_date": "2026-02-09 22:47:52"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Re-designation of Mr. Rajdipkumar Gupta as the Managing Director and appointment of Mr. Tushar Agnihotri as Chief Executive Officer of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86befc13-479e-4bf3-b465-131992dea0d9.pdf",
+            "news_date": "2026-02-09 22:45:46"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Tushar Agnihotri as the Chief Executive Officer and Key Managerial Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6489040a-50d8-43b7-bbae-3ad5015bbd99.pdf",
+            "news_date": "2026-02-09 22:42:14"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board of Directors in its meeting held on February 9 2026 has approved 3rd interim dividend for FY 2025-26 of Rs. 3/- per share.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0dd89bd-7558-47f7-bb3d-554c4e4a04b0.pdf",
+            "news_date": "2026-02-09 22:39:21"
+        },
+        {
             "sym": "ROUTE",
             "disp": "Route Mobile",
             "bse_code": 543228,
@@ -72,6 +193,237 @@
             "sid": 128,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025.",
+            "news_body": "Unaudited Financial Results for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ace8b34-4ee5-422c-b569-69a72e1d2710.pdf",
+            "news_date": "2026-02-09 22:34:25"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board meeting dated February 9 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a81415d6-5330-4419-a9ba-81c46d6c2193.pdf",
+            "news_date": "2026-02-09 22:26:49"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investors/Analysts Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de4103e4-0ac5-4cc7-9ad7-8401b3f1d30f.pdf",
+            "news_date": "2026-02-03 19:33:50"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "De-registration of step-down wholly owned subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a6af053-742a-4e84-bd01-7d57e1d1beb5.pdf",
+            "news_date": "2026-01-29 20:43:03"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Earnings Conference Call to be held on February 10 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f917adb1-2fc5-4663-8bdf-a86d84aa2d05.pdf",
+            "news_date": "2026-01-29 19:32:36"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For The Third Interim Dividend For FY 2025-26 If Declared By The Board In Its Meeting Scheduled On February 09 2026 Shall Be February 13 2026.",
+            "news_body": "Record Date for the Third interim Dividend for FY 2025 - 26 if Declared by the Board in its Meeting Scheduled on February 09 2026 shall be February 13 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40d66011-8fef-4026-bb52-e022e79f8d0a.pdf",
+            "news_date": "2026-01-29 19:27:13"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Board to consider Third Interim Dividend for FY 2025-26 at its Meeting Scheduled on February 9 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92f3a186-6683-4ccb-ad3b-bda866a628c2.pdf",
+            "news_date": "2026-01-29 19:22:13"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Prior Intimation Under Regulation 29 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Route Mobile Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 09/02/2026 inter alia to consider and approve The Unaudited Standalone and Consolidated Financial Results for the quarter ended December 31 2025. The Board shall also consider declaration of Third Interim Dividend if any for the financial year 2025-26. The Record Date for payment of Third Interim Dividend if declared will be Friday February 13 2025.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abd90d19-1bdc-4d91-a2be-766b48cfa036.pdf",
+            "news_date": "2026-01-29 19:14:21"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Re-Composition Of The Committees",
+            "news_body": "Re-composition of the Committees.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d80ac4b7-28e4-4b5e-85d5-fa62c6221b82.pdf",
+            "news_date": "2026-01-23 11:42:32"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Chairman Of The Board And Company",
+            "news_body": "Appointment of Mr. Seckin Arikan (Non Executive Non Independent Director) as the Chairman of the Board and Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=099a8f6a-f45c-4e0d-b6b2-fe0569b3e177.pdf",
+            "news_date": "2026-01-23 11:40:42"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chairman",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chairman",
+            "news_body": "Resignation of Mr. Mark Reid as the Chairman (Non Executive Non Independent Director) of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b5a38fb-1652-4f05-a829-2a6a1a570e03.pdf",
+            "news_date": "2026-01-23 11:38:09"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Resignation of Mr. Mark Reid as the Director (Non Executive Non Independent-Chairman) of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7eaec81f-e9a5-48a6-a73b-f931fde65439.pdf",
+            "news_date": "2026-01-23 11:34:37"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Mr. Seckin Arikan as an Additional (Non Executive Non Independent) Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85bfe43c-6eff-44f7-bf06-be88206b254e.pdf",
+            "news_date": "2026-01-23 11:30:55"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27b05904-2407-46ad-aa3f-4d482935f9a5.pdf",
+            "news_date": "2026-01-06 15:22:18"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading window for the quarter ending December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4e91a92-bedf-4970-916d-a80151722fdc.pdf",
+            "news_date": "2025-12-26 12:54:58"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of 5500 equity shares under Route Mobile Limited - Employee Stock Option Plan 2017.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4fcd3682-f44c-48ec-8bc2-07d952b813fd.pdf",
+            "news_date": "2025-12-24 22:35:46"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Cancellation Of ESOPS",
+            "news_body": "Cancellation of ESOPS under RML ESOP 2021.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f31bc88-39cf-4952-8c1c-542ea4ffa0b0.pdf",
+            "news_date": "2025-12-18 21:00:14"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of 5500 equity shares under Route Mobile Limited-Employee Stock Option Plan 2017 (\"RML ESOP 2017\")",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7de8b30-7967-4ca8-b92a-eccea50cde76.pdf",
+            "news_date": "2025-12-18 20:55:09"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled - Mark Reid Proximus Group CFO has decided to leave Proximus.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82262deb-ca28-4fda-b52a-53ede2a2edbd.pdf",
+            "news_date": "2025-12-17 12:42:34"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Cancellation Of ESOPS",
+            "news_body": "Cancellation of ESOPS",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34496f17-41c7-4e10-ba4a-f306ca4a0dc1.pdf",
+            "news_date": "2025-12-15 15:38:55"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 (LODR) - Updates",
+            "news_body": "Disclosure under Regulation 30 (LODR) - Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=328f6217-27df-446b-98d7-b91ca20ecc37.pdf",
+            "news_date": "2025-11-21 12:44:01"
         },
         {
             "sym": "ROUTE",
@@ -98,6 +450,50 @@
             "seg": "E"
         },
         {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earning Call Q2 & H1 FY26 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5fad737-e648-4882-9065-d22cace402fc.pdf",
+            "news_date": "2025-11-10 15:00:05"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the Quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91b782fb-4e5f-4fcc-b371-b7b3802a41cb.pdf",
+            "news_date": "2025-11-06 18:53:45"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for unaudited financial results for quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d6aad05-3044-426c-a66f-2cc17090c7ee.pdf",
+            "news_date": "2025-11-05 15:32:52"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders - Intimation On Tax Deduction On Second Interim Dividend",
+            "news_body": "Communication to Shareholders - Intimation on Tax Deduction on Second Interim Dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12db6dee-fe1c-48dd-9727-907045cd258a.pdf",
+            "news_date": "2025-11-04 22:34:24"
+        },
+        {
             "sym": "ROUTE",
             "disp": "Route Mobile",
             "bse_code": 543228,
@@ -120,6 +516,39 @@
             "sid": 128,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Investor(s)/ Analyst(s) Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9718c1d-fd3c-4528-8732-01d156401737.pdf",
+            "news_date": "2025-11-04 19:29:18"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release (Revised)",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release (Revised)",
+            "news_body": "Revised Press Release titled Route Mobile Limited announces Q2FY26 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1217df6c-960d-401f-b7b3-3e459a34f9b9.pdf",
+            "news_date": "2025-11-04 15:46:03"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled - Route Mobile Limited announces Q2FY26 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed6816f7-122b-4921-965d-2c82a8922d2a.pdf",
+            "news_date": "2025-11-04 01:41:07"
         },
         {
             "sym": "ROUTE",
@@ -146,6 +575,39 @@
             "seg": "E"
         },
         {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2be6f6d3-f2b7-4055-9b53-62ef960cd03c.pdf",
+            "news_date": "2025-11-04 01:03:51"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Cancellation Of Esops",
+            "news_body": "Cancellation of Esops.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86ad534f-905e-4033-bcbb-d014818d1fe0.pdf",
+            "news_date": "2025-11-04 00:53:06"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board of Directors in its meeting held on November 03 2025 has approved 2nd Interim Dividend for FY 2025-26 of Rs. 3 per share.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f60af20-df2f-424e-b761-076c4b853a17.pdf",
+            "news_date": "2025-11-04 00:44:23"
+        },
+        {
             "sym": "ROUTE",
             "disp": "Route Mobile",
             "bse_code": 543228,
@@ -168,6 +630,292 @@
             "sid": 128,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025.",
+            "news_body": "Unaudited Financial Results for the Quarter and Half Year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad46a817-8934-4301-8a6d-2cb7c07ee2bb.pdf",
+            "news_date": "2025-11-04 00:39:01"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting held on November 03 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c85c10c-a407-4a03-8fc0-da4b1ef06c53.pdf",
+            "news_date": "2025-11-04 00:27:52"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Revised Intimation for Schedule of Earnings Conference Call to be held on November 4 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3474083f-9b97-479b-a349-67dd2024decb.pdf",
+            "news_date": "2025-11-03 18:33:18"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Earnings Conference Call to be held on November 4 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ec962f1-2b08-437a-a583-c833d53b81c7.pdf",
+            "news_date": "2025-10-28 18:40:11"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For The Second Interim Dividend For FY 2025-26 If Declared By The Board In Its Meeting Scheduled On November 03 2025 Shall Be November 10 2025.",
+            "news_body": "Record Date for the Second Interim Dividend for FY 2025-26 if declared by the Board in its meeting scheduled on November 03 2025 shall be November 10 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f4ea7ae-ea39-4af2-9ebf-335bca641603.pdf",
+            "news_date": "2025-10-27 18:40:51"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Board to consider Second Interim Dividend for FY 2025-26 at its meeting scheduled on November 03 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40f05645-ed9f-40ca-9464-991f664b1312.pdf",
+            "news_date": "2025-10-27 18:36:50"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Prior Intimation Under Regulation 29 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Route Mobile Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 03/11/2025 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results for the quarter and half year ended September 30 2025. The Board shall also consider declaration of Second Interim Dividend if any for the financial year 2025-26. The Record Date for payment of Interim Dividend if declared will be Monday November 10 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04bed378-b134-4b58-a5cb-028a48b538de.pdf",
+            "news_date": "2025-10-27 18:32:59"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled \"Route Mobile and Kalaam Telecom partner to drive customer engagement services across the Middle East\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=163304d6-1b2d-4050-aef6-e8d13ffdb31a.pdf",
+            "news_date": "2025-10-16 10:32:04"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled \"Proximus Global unveils Konera its Network API Platform for seamless connectivity at Global Fintech Fest 2025\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e852ab3-3e7c-499f-b273-cc8f771235e3.pdf",
+            "news_date": "2025-10-07 09:00:54"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd013568-0959-444a-8c78-6d3c5fbeebe5.pdf",
+            "news_date": "2025-10-06 14:53:04"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for the quarter ending September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d64ab9bf-7893-44a2-92b9-13f29d4b2ee5.pdf",
+            "news_date": "2025-09-25 15:38:59"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investors/Analysts Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b2774cc-a0aa-4c91-a9f3-24e154210863.pdf",
+            "news_date": "2025-09-17 19:14:08"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results & Scrutinizers Report for 21st Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33087e99-455c-47bf-b22f-0f8b7905c22f.pdf",
+            "news_date": "2025-09-12 20:29:18"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 21st Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bafed967-18b0-4dcb-b2ca-58f482f6c8b5.pdf",
+            "news_date": "2025-09-12 19:11:23"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release issued by Proximus Global S.A./N.V. (promoter company of Route Mobile Limited) titled \" Claro CENAM Selects Proximus Global to support A2P across LATAM\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2f8ab59-89c4-486b-866e-9e616c341166.pdf",
+            "news_date": "2025-09-09 18:36:51"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for dispatch of notice of 21st Annual General Meeting along with Annual Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fccf6ec-a535-4e59-8383-7830e7a9a585.pdf",
+            "news_date": "2025-08-20 14:31:41"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholder - Annual Report And AGM Notice For FY 2024-25",
+            "news_body": "Letter to Shareholder - Annual Report and AGM Notice for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14e8822a-96de-444d-b7a4-aab7e65db0ee.pdf",
+            "news_date": "2025-08-19 19:59:46"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Final Dividend For FY 2024-25",
+            "news_body": "Record Date for Final Dividend for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4136adb2-c74e-4889-8efd-7b021426b4ae.pdf",
+            "news_date": "2025-08-19 18:55:47"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Sustainability Report FY 2024-25",
+            "news_body": "Sustainability Report FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd23f940-bbd9-438d-9208-bcaf2f258bb2.pdf",
+            "news_date": "2025-08-19 18:48:11"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Reporting FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d046a2bb-5026-461a-b157-fb9694ab77cb.pdf",
+            "news_date": "2025-08-19 18:45:32"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=944198dd-f695-489a-b70c-d10aa0b85f42.pdf",
+            "news_date": "2025-08-19 18:40:44"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 21St Annual General Meeting",
+            "news_body": "Notice of 21st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa856f0a-df9a-43e4-a748-fe3ff47e3c62.pdf",
+            "news_date": "2025-08-19 18:31:44"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement - Disclosure under Regulation 30 of SEBI ( Listing Obligations and Disclosure Requirements) Regulation 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f7c8434-455a-4330-b3ca-7a7b5cb2fe38.pdf",
+            "news_date": "2025-08-07 17:19:26"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholder - Intimation On Tax Deduction On Final Dividend",
+            "news_body": "Communication to shareholder - Intimation on Tax Deduction on Final Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63684d65-a5d8-4398-b3d1-d94377f46fe1.pdf",
+            "news_date": "2025-07-31 19:06:17"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fa0a930-7144-47c2-a13f-08e3fbfcecb5.pdf",
+            "news_date": "2025-07-31 15:51:21"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release issued by Proximus Global S.A/N.V.(Promoter company of Route Mobile Limited) titled \"Proximus Global Achieves Visionary status in Gartner Magic Quadrant for CPaas\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=872e0aef-3d4b-4fdb-8770-096fbca48722.pdf",
+            "news_date": "2025-07-25 16:02:56"
         },
         {
             "sym": "ROUTE",
@@ -194,6 +942,72 @@
             "seg": "E"
         },
         {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earning Call Q1 & FY26 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa31f9fa-a440-4e0a-8794-058ac06fce42.pdf",
+            "news_date": "2025-07-25 15:34:17"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Postal Ballot",
+            "caption": "Minutes Of The Resolution Passed By Way Of Postal Ballot By Remote E-Voting Process.",
+            "news_body": "Enclosed herewith copy of the minutes of the resolution passed by way of postal ballot by remote e-voting process.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ac02039-1a8b-49ea-9521-6d54fcea0476.pdf",
+            "news_date": "2025-07-23 19:06:35"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Executive Officer (CEO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Executive Officer (CEO)",
+            "news_body": "Additional disclosure in respect of resignation of Mr. Gautam Badalia as Chief Executive Officer of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1e55e25-f2dd-4d36-b959-afb0e675f30f.pdf",
+            "news_date": "2025-07-21 19:02:43"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Unaudited Financial results for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82c80a5f-cdc0-43b5-ad28-d8783cd64981.pdf",
+            "news_date": "2025-07-19 15:41:10"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Executive Officer (CEO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Executive Officer (CEO)",
+            "news_body": "Resignation email of Mr. Gautam Badalia as Chief Executive Officer Chief Investor Relations Officer and Key Managerial Personnel of the Company w.e.f July 17 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30d8cc43-65b5-41ea-8d33-1d935f79a2b1.pdf",
+            "news_date": "2025-07-18 21:07:02"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders- Intimation On Tax Deduction At Source On 1St Interim Dividend.",
+            "news_body": "Communication to Shareholders- Intimation on Tax Deduction at Source on 1st Interim Dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd9f6c9b-8aee-40ff-a02b-ebe7a1ab1d41.pdf",
+            "news_date": "2025-07-18 19:56:44"
+        },
+        {
             "sym": "ROUTE",
             "disp": "Route Mobile",
             "bse_code": 543228,
@@ -216,6 +1030,39 @@
             "sid": 128,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Investor(s)/ Analyst(s) Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44efce18-9a8f-46cd-9bec-5b67caa73148.pdf",
+            "news_date": "2025-07-18 19:43:48"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release Tilted \" Route Mobile re-designates Mr. Rajdipkumar Gupta as Chief Executive Officer following Mr. Gautam Badalias resignation and announces appointment of Mr. Sammy Mamdani as Chief Operating Officer.\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75aa392a-0551-46e4-aa69-7da5ae6c0729.pdf",
+            "news_date": "2025-07-18 01:39:10"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release Titled -\" Route Mobile Announces Q1 FY26 Results.\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=841cc0a1-a28d-40e8-b96e-57eff565d162.pdf",
+            "news_date": "2025-07-18 01:36:21"
         },
         {
             "sym": "ROUTE",
@@ -242,6 +1089,72 @@
             "seg": "E"
         },
         {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82663584-3fe9-4a8e-a4a9-88eaf096d150.pdf",
+            "news_date": "2025-07-18 01:27:26"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": " Re-designation of Mr. Rajdipkumar Gupta as Managing Director and Chief Executive Officer of the Company and changes in Senior Management of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3985bb9a-97c9-4582-b0fe-d2fe9e16451e.pdf",
+            "news_date": "2025-07-18 00:50:37"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of 21St Annual General Meeting Date",
+            "news_body": "Intimation of 21st Annual General Meeting Date.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb19dd16-e29c-4d3d-b1e6-c6fbdf68d892.pdf",
+            "news_date": "2025-07-18 00:40:35"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Executive Officer (CEO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Executive Officer (CEO)",
+            "news_body": "Resignation of Mr. Gautam Badalia as Chief Executive Officer of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc192871-8b37-4350-abb8-aa674d68bef3.pdf",
+            "news_date": "2025-07-18 00:36:24"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "Appointment of Mr. Tejas Shah as Company Secretary and Compliance Officer and KMP of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ed21190-27a9-4d87-bf3c-05775aaaac71.pdf",
+            "news_date": "2025-07-18 00:34:09"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board of Directors in its meeting held on July 17 2025 has approved 1st Interim Dividend for FY 2025-26 of Rs. 3 per share.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba0d44da-fa19-415d-9f7c-f2899af46108.pdf",
+            "news_date": "2025-07-18 00:32:04"
+        },
+        {
             "sym": "ROUTE",
             "disp": "Route Mobile",
             "bse_code": 543228,
@@ -266,6 +1179,160 @@
             "seg": "E"
         },
         {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results For Quarter Ended June 30 2025.",
+            "news_body": "Unaudited Financial Results for Quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b5cbda2-69dd-44bd-aaff-ed8b734c40ff.pdf",
+            "news_date": "2025-07-18 00:29:40"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting held on July 17 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2d9c9e9-f31d-468e-a68d-9a261ab2e321.pdf",
+            "news_date": "2025-07-18 00:01:11"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Earnings Conference Call to be held on July 18 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33b26e00-f989-4318-a1ed-457e1a0b92c1.pdf",
+            "news_date": "2025-07-14 12:12:07"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For The First Interim Dividend For FY 2025-26 If Declared Shall Be July 23 2025.",
+            "news_body": "Record Date for the first interim Dividend for FY 2025-26 if declared by the Board in its meeting scheduled on July 17 2025 shall be July 23 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=974d8bbd-42ad-473b-b702-979d8e7f9f2b.pdf",
+            "news_date": "2025-07-10 17:09:09"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Board to consider first Interim Dividend for FY 2025-26 at its meeting scheduled on July 17 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78373cae-85cc-44ae-a499-57cdd384c872.pdf",
+            "news_date": "2025-07-10 16:55:43"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Prior Intimation Under Regulation 29 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Route Mobile Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/07/2025 inter alia to consider and approve The meeting of the Board of Directors of Route Mobile Limited is scheduled to be held on Thursday July 17 2025 inter alia to consider and approve Unaudited Standalone and Consolidated Financial Results for the quarter ended June 30 2025. The Board shall also consider declaration of Interim Dividend if any for the financial year 2025-26. The Record Date for payment of Interim Dividend if declared will be Wednesday July 23 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e619450-b01f-4a45-96c3-bc62da8ae8e6.pdf",
+            "news_date": "2025-07-10 16:49:17"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c46bc878-a5a7-4daf-b57a-a49f4248d718.pdf",
+            "news_date": "2025-07-08 16:52:48"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Declaration of voting results of postal ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0ca7a25-162a-4825-a78c-520c584372f3.pdf",
+            "news_date": "2025-06-27 19:18:37"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Declaration of Voting Results of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20cca139-214a-4b88-bf9f-2cd8c32d861e.pdf",
+            "news_date": "2025-06-27 19:15:57"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for the quarter ending June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb1d7099-b2c4-4fe8-b9fa-0f99babe0fab.pdf",
+            "news_date": "2025-06-25 15:06:39"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Company Secretary / Compliance Officer",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Company Secretary / Compliance Officer",
+            "news_body": "Resignation of Mr. Rathindra Das Company Secretary & Compliance officer and Key Managerial Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ca1dcea-65c8-4176-be52-ce33e0bf926e.pdf",
+            "news_date": "2025-05-30 19:51:13"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper clippings for Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c90ea25-38fe-45aa-b494-989f740fc7fc.pdf",
+            "news_date": "2025-05-28 14:38:29"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=915a36da-7d29-40ec-bd87-aefb4f0891a8.pdf",
+            "news_date": "2025-05-27 16:45:05"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Pursuant to Regulation 24A(2) of SEBI Listing Regulations please find enclosed herewith the Annual Secretarial Compliance Report for the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03d19631-facd-4b9a-93d3-b5831e205925.pdf",
+            "news_date": "2025-05-22 20:06:46"
+        },
+        {
             "sym": "ROUTE",
             "disp": "Route Mobile",
             "bse_code": 543228,
@@ -288,6 +1355,39 @@
             "sid": 128,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call Q4 & FY25 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5f005d2-515f-47a2-a2f7-f52f89c198c4.pdf",
+            "news_date": "2025-05-14 16:15:13"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96ea3285-5974-4eb9-84df-23ca6dbe9630.pdf",
+            "news_date": "2025-05-09 19:04:06"
+        },
+        {
+            "co_code": 72028,
+            "bse_code": 543228,
+            "isin": "INE450U01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Clippings for Audited financial results for the quarter and financial year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec94f11b-d916-4201-9f3b-fb01f9afdd72.pdf",
+            "news_date": "2025-05-09 13:15:16"
         },
         {
             "sym": "ROUTE",
@@ -1993,6 +3093,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

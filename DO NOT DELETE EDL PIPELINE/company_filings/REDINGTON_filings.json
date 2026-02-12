@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings Conference Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=842e5cae-8b56-4bee-8b6d-590e077a8fe1.pdf",
+            "news_date": "2026-02-11 16:30:28"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "Intimation under Regulation 30 - Internal Restructuring",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0bdf9aa-8b9f-4fc7-bc85-e2d3130ad859.pdf",
+            "news_date": "2026-02-09 20:09:36"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication on the financial results - Q3&9M FY 26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed49d9fd-4fb5-4c75-94f3-053ac568c0d9.pdf",
+            "news_date": "2026-02-05 16:58:13"
+        },
+        {
             "sym": "REDINGTON",
             "disp": "Redington",
             "bse_code": 532805,
@@ -24,6 +57,28 @@
             "sid": 14255,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Q3 & 9M - FY 2026 - Earnings Conference Call Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5530b159-e718-4ac9-aad0-517d799cab9a.pdf",
+            "news_date": "2026-02-05 16:55:21"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e37773a1-3577-4680-9835-d65af1429691.pdf",
+            "news_date": "2026-02-04 18:00:50"
         },
         {
             "sym": "REDINGTON",
@@ -50,6 +105,17 @@
             "seg": "E"
         },
         {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings and Corporate Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1af5086b-16fa-493e-994e-c8f28feba8d9.pdf",
+            "news_date": "2026-02-04 17:59:26"
+        },
+        {
             "sym": "REDINGTON",
             "disp": "Redington",
             "bse_code": 532805,
@@ -72,6 +138,116 @@
             "sid": 14255,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Financial Results - Q3 & 9M FY 26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82f5a5e2-4e5a-4a8b-b53c-00c1232bfac5.pdf",
+            "news_date": "2026-02-04 17:33:04"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of the Earnings Conference call - Q3 & 9M FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6841e20-b182-47b6-af7c-85a17e56c988.pdf",
+            "news_date": "2026-01-30 16:09:09"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Financial Results For Q3 & 9M FY26",
+            "news_body": "Redington Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/02/2026 inter alia to consider and approve the unaudited standalone and consolidated financial results of the Company for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38c97805-3d29-4a7d-b6e7-6cc434d3892c.pdf",
+            "news_date": "2026-01-30 16:06:38"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b26678e6-3654-435a-bb01-f6a2da7d3254.pdf",
+            "news_date": "2026-01-19 17:36:00"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Action(s) initiated or orders passed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea074cf8-4378-4a0d-8d89-3111c3ebda3b.pdf",
+            "news_date": "2025-12-31 15:56:54"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac5f9562-a97a-4fef-9ceb-d406e4494107.pdf",
+            "news_date": "2025-12-29 16:18:52"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e6f0d22-12dd-4b14-b873-1aeabd513920.pdf",
+            "news_date": "2025-11-12 16:47:34"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70d211fb-99ff-480a-896d-384b3029b46d.pdf",
+            "news_date": "2025-11-12 16:45:14"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4ad920c-4801-4620-9c75-d90bdaaa1307.pdf",
+            "news_date": "2025-11-12 11:55:00"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbce05e7-cf1f-421e-ad9e-21f72aae917b.pdf",
+            "news_date": "2025-11-10 14:46:14"
         },
         {
             "sym": "REDINGTON",
@@ -98,6 +274,28 @@
             "seg": "E"
         },
         {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of earnings call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc5bfe9f-241b-4c28-9cac-6eddb4630b2b.pdf",
+            "news_date": "2025-11-06 17:26:05"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for financial results for Q2 & H1 FY 26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4e88822-f8d2-4d96-b7de-ca2020f8c300.pdf",
+            "news_date": "2025-11-05 18:48:41"
+        },
+        {
             "sym": "REDINGTON",
             "disp": "Redington",
             "bse_code": 532805,
@@ -120,6 +318,17 @@
             "sid": 14255,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings and Corporate Presentation - Q2 & H1 FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df9507f9-3d9e-4dad-adf7-43b7845c942a.pdf",
+            "news_date": "2025-11-05 18:05:23"
         },
         {
             "sym": "REDINGTON",
@@ -146,6 +355,17 @@
             "seg": "E"
         },
         {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d902f1a5-e274-463a-a1b9-d7c245c66641.pdf",
+            "news_date": "2025-11-05 17:54:25"
+        },
+        {
             "sym": "REDINGTON",
             "disp": "Redington",
             "bse_code": 532805,
@@ -168,6 +388,182 @@
             "sid": 14255,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financials Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Financial results for the quarter and half - year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e319aec4-8b08-4081-adf3-9f7cb63d2bff.pdf",
+            "news_date": "2025-11-05 17:45:43"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Meeting with Investors/ Analysts- Unifi Capital",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4e2ff23-1e3a-4f73-85fa-2ef2aadac0dd.pdf",
+            "news_date": "2025-11-03 15:50:27"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of the Earnings Conference call - Q2FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71968e60-0a68-40a8-9621-2a09707e7385.pdf",
+            "news_date": "2025-10-31 14:51:42"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Financial Results - Q2 FY 26",
+            "news_body": "Redington Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/11/2025 inter alia to consider and approve the standalone and consolidated unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbf20383-b3ca-442d-8d26-5dc1aa3b4c12.pdf",
+            "news_date": "2025-10-31 14:47:01"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "The Company received a favorable order from Joint Commissioner (ST) GST Appeals",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49665ece-def8-4053-8cbe-c0e914a4d6fd.pdf",
+            "news_date": "2025-10-26 09:51:49"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04f74a0d-9df5-489d-bedc-bfb4f4993bdd.pdf",
+            "news_date": "2025-10-24 16:42:32"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Response To Volume Movement Letter Received From BSE",
+            "news_body": "Response to Volume Movement Letter received from BSE",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6146808c-85a2-4163-9e29-136a1b96c320.pdf",
+            "news_date": "2025-10-13 14:07:48"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Redington Ltd",
+            "news_body": "The Exchange has sought clarification from Redington Ltd on October 13 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-10-13 12:26:04"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2cfca69b-de17-4ac7-bd19-23695c86429c.pdf",
+            "news_date": "2025-09-25 17:26:32"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Diversification / Disinvestment",
+            "caption": "Announcement under Regulation 30 (LODR)-Diversification / Disinvestment",
+            "news_body": "Disinvestment of distribution and supply agreement.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14709538-21cc-4115-aec1-315365fa50ec.pdf",
+            "news_date": "2025-09-20 09:05:31"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor meet on September 18 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=112fc155-cb77-4962-ae87-9e547bbcc845.pdf",
+            "news_date": "2025-09-16 20:20:08"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Redington and CrowdStrike Announce New Distribution Agreement to Accelerate Cybersecurity Transformation Across India",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3114236-10a2-4ba4-b7dc-6060db51617a.pdf",
+            "news_date": "2025-09-03 21:37:01"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74fc384d-f870-46d6-a05d-7da1a958a5ad.pdf",
+            "news_date": "2025-08-05 21:37:02"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of LODR",
+            "news_body": "Intimation under Regulation 30 of LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=468ce2cb-82da-44c1-aab2-82865ea6f717.pdf",
+            "news_date": "2025-08-04 21:06:39"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Financial results for Q1 FY 25-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2239a28c-e5be-44cc-8d45-a69071f31706.pdf",
+            "news_date": "2025-07-31 16:32:46"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "AGM - Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57d1ce5c-7121-4bfa-a802-f614cc18ed58.pdf",
+            "news_date": "2025-07-31 16:29:25"
         },
         {
             "sym": "REDINGTON",
@@ -194,6 +590,28 @@
             "seg": "E"
         },
         {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8be464a-e140-4a0c-a2fd-46d889e18eeb.pdf",
+            "news_date": "2025-07-30 21:07:21"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=307537f9-8cdb-47c9-bb92-d4ff01a82fc1.pdf",
+            "news_date": "2025-07-30 13:30:06"
+        },
+        {
             "sym": "REDINGTON",
             "disp": "Redington",
             "bse_code": 532805,
@@ -216,6 +634,17 @@
             "sid": 14255,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earning and Corporate Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cffe7e37-09e6-43b9-a7f2-af23d4b18f29.pdf",
+            "news_date": "2025-07-30 13:26:23"
         },
         {
             "sym": "REDINGTON",
@@ -242,6 +671,226 @@
             "seg": "E"
         },
         {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financials Results For The Quarter Ended June 30 2025",
+            "news_body": "Financials results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b45dc69-5448-432a-a9ed-d70155a4bfc9.pdf",
+            "news_date": "2025-07-30 13:12:37"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Annual General Meeting Proceedings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca9498f3-8c3c-4732-b3ef-052e232bb496.pdf",
+            "news_date": "2025-07-29 18:35:19"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of LODR - Action Initiated / Order Passed",
+            "news_body": "RBI compounding order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=361440c1-76e8-4f25-96a6-039cbb046a03.pdf",
+            "news_date": "2025-07-26 17:38:38"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of the Investor/ Analyst Conference call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36c8a399-4bd5-4dd8-8521-3433a7368a38.pdf",
+            "news_date": "2025-07-25 16:16:54"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarterly Financial Results",
+            "news_body": "Redington Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/07/2025 inter alia to consider and approve the unaudited standalone and consolidated financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20f43647-db5a-423a-b31e-fec43cd936df.pdf",
+            "news_date": "2025-07-25 16:08:28"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b75d7a21-fc86-483c-9f94-4a537c507a66.pdf",
+            "news_date": "2025-07-17 16:10:57"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "REDINGTON COLLABORATES WITH AWS TO IMPLEMENT DOWNSTREAM STRATEGIC DISTRIBUTION AGREEMENT",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5e3c369-172d-4ec8-b572-f48a16b22597.pdf",
+            "news_date": "2025-07-09 21:38:43"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication regarding Notice of Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d577f4a5-d1cc-44ee-89ba-19812ea0e095.pdf",
+            "news_date": "2025-07-08 15:48:38"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bc8f8ff-eca3-4723-8444-3891f9f902cd.pdf",
+            "news_date": "2025-07-07 17:13:57"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting On July 29 2025",
+            "news_body": "Annual General Meeting on July 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=959b463d-2901-4852-b0f0-60a016e7cc5c.pdf",
+            "news_date": "2025-07-07 17:08:15"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "We are enclosing herewith the Annual Report for FY 2024-25 and Notice convening the 32nd AGM of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27bf69e2-8de3-4d24-a902-7fca81e1fa3f.pdf",
+            "news_date": "2025-07-07 16:55:06"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting On July 29 2025",
+            "news_body": "Annual General Meeting on July 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df40c2a0-c43b-4699-be36-a429d9f05ed6.pdf",
+            "news_date": "2025-07-07 15:38:18"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "We are enclosing herewith the Annual Report for FY 2024-25 and Notice convening the 32nd AGM of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b79a4f9-aa67-4bf2-bdb1-d26f1821be00.pdf",
+            "news_date": "2025-07-07 15:24:01"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication regarding 32nd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01b73f66-5a2d-48f9-9b2e-1d865125be43.pdf",
+            "news_date": "2025-07-03 18:00:36"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa787339-f761-46ff-a6eb-59f76025f1e8.pdf",
+            "news_date": "2025-06-30 16:10:44"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12270b36-af35-4eeb-a2a0-9c087210d1d2.pdf",
+            "news_date": "2025-06-23 12:19:44"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3122327b-9c5a-4a3d-99f9-d34f0fddf685.pdf",
+            "news_date": "2025-06-06 16:05:45"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2362a407-68dd-44c2-b84c-f090ff6be5fd.pdf",
+            "news_date": "2025-05-28 12:00:29"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Q4 FY25 - Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a88e6f75-b0b7-4648-b791-10855f907028.pdf",
+            "news_date": "2025-05-26 18:38:43"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a09ed3f-5f91-4eac-97e0-6904c197ddaf.pdf",
+            "news_date": "2025-05-22 16:36:39"
+        },
+        {
             "sym": "REDINGTON",
             "disp": "Redington",
             "bse_code": 532805,
@@ -264,6 +913,28 @@
             "sid": 14255,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Q4 - FY 2025 - Earnings Conference Call Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af2ab5bb-8658-4058-8bc3-8182b67fdce4.pdf",
+            "news_date": "2025-05-20 17:37:54"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c282cf0-16f9-4126-8ae6-1be272bf4ab0.pdf",
+            "news_date": "2025-05-19 20:24:19"
         },
         {
             "sym": "REDINGTON",
@@ -290,6 +961,61 @@
             "seg": "E"
         },
         {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earrings and Corporate Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96c880d7-8272-47da-9508-7dda6fbd8498.pdf",
+            "news_date": "2025-05-19 20:23:14"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor",
+            "news_body": "Appointment of Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06fa37c2-0db9-4745-92d7-061b258129d3.pdf",
+            "news_date": "2025-05-19 20:21:31"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Final Dividend",
+            "news_body": "The Board fixes record date for dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=103d0798-6d1f-4c24-864b-95499b7c45be.pdf",
+            "news_date": "2025-05-19 20:19:37"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Approves Dividend AGM",
+            "news_body": "Board approves dividend AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6327a1d7-7cb6-44bf-9631-48d43bbc1412.pdf",
+            "news_date": "2025-05-19 20:15:14"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board considered and recommended final dividend of Rs. 6.80/- per equity share.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad5f74f2-73f2-4a9a-ad67-933fe7dbb6e5.pdf",
+            "news_date": "2025-05-19 20:12:42"
+        },
+        {
             "sym": "REDINGTON",
             "disp": "Redington",
             "bse_code": 532805,
@@ -312,6 +1038,160 @@
             "sid": 14255,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For Quarter And Year Ended March 31 2025",
+            "news_body": "Financial results for quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00a7b6e3-4474-4c1d-9377-fd1051d28b92.pdf",
+            "news_date": "2025-05-19 20:06:03"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We wish to inform that the Analyst/Investors conference call on the financial results for the quarter and year ended March 31 2025 is scheduled to be held on Tuesday May 20 2025 at 09:00 AM IST",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df41a4a3-2cfd-49b1-bde1-a14e295c033d.pdf",
+            "news_date": "2025-05-14 17:22:41"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation",
+            "news_body": "Redington Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 19/05/2025 inter alia to consider and approve (a) the standalone and consolidated audited financial results of the Company for the quarter and year ended on March 31 2025.\r\n(b) recommend dividend if any on the equity shares of the Company for the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cb48e5c-8168-4486-8d3d-7fdafeba0522.pdf",
+            "news_date": "2025-05-14 17:17:01"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for ICICI Prudential Life Insurance Company Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F4A4F054_DDBE_446D_8E63_CC51610B35C3_195406.pdf",
+            "news_date": "2025-05-12 19:54:16"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for FMR LLC & FIL Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9884405A_4CA9_46FB_8487_009F424DBCB7_150856.pdf",
+            "news_date": "2025-05-08 15:09:00"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74 (5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=604f518e-e183-4ede-834a-c753051f366a.pdf",
+            "news_date": "2025-04-22 18:43:41"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation for change in Senior leadership structure for Redington group.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24b3ecaf-eba1-46cf-aa71-77669f3275e1.pdf",
+            "news_date": "2025-04-15 13:15:54"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Postal Ballot - Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5c1efa9-1c8d-4022-9c68-61ac36d152ed.pdf",
+            "news_date": "2025-04-11 16:04:22"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de95b73f-614c-4e6c-95ec-9e32a0c6d94c.pdf",
+            "news_date": "2025-03-31 11:50:41"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Income Tax Assessment Order",
+            "news_body": "Income Tax Assessment Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9f922ac-a3df-4558-b14c-d495d2d1fd38.pdf",
+            "news_date": "2025-03-25 16:49:50"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of analyst/investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b801f00-49d9-4c36-9a8c-922cf8c173e7.pdf",
+            "news_date": "2025-03-12 16:57:04"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39286579-2a71-4012-a032-2ebdd4c72434.pdf",
+            "news_date": "2025-03-12 16:45:03"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80af5ccd-aea2-4c06-86fa-ee71bc850715.pdf",
+            "news_date": "2025-03-10 14:31:33"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst & Investor Meet 2025- Video Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7803dba6-75b1-4d11-9bf3-025e26286e1a.pdf",
+            "news_date": "2025-03-07 22:30:25"
         },
         {
             "sym": "REDINGTON",
@@ -338,6 +1218,17 @@
             "seg": "E"
         },
         {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst & Investor Meet 2025 Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c16f5a7-c21d-415e-92c1-a31381b8957f.pdf",
+            "news_date": "2025-03-07 05:22:11"
+        },
+        {
             "sym": "REDINGTON",
             "disp": "Redington",
             "bse_code": 532805,
@@ -362,6 +1253,138 @@
             "seg": "E"
         },
         {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Analyst/ Investor Meet 2025 - Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb11649b-0f1d-4f53-b544-29cd53bb2a76.pdf",
+            "news_date": "2025-03-06 15:49:30"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding the Analyst & Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b471c38-56b6-4232-be60-1141354a38f4.pdf",
+            "news_date": "2025-03-03 21:20:02"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Arena Redingtons Subsidiary Announces Divestment of Paynet in Turkey.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3eab0a8-fe05-450f-a2dc-8d1c7540d3c5.pdf",
+            "news_date": "2025-02-14 18:48:47"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "Receipt of order from Deputy Commissioner (ST) - Large Taxpayers Unit Chennai",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d6764fd-4d13-47fc-9526-11ffc25e792d.pdf",
+            "news_date": "2025-02-14 18:45:28"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "Completion of disinvestment of Paynet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aee4d623-063b-4f39-b765-cec78b20d577.pdf",
+            "news_date": "2025-02-14 08:49:22"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings Conference Call Transcript for Q3 FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31207edb-9ee1-4f3e-abe5-be49244a9be6.pdf",
+            "news_date": "2025-02-12 17:32:24"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Redington Unveils SAR 2 Billion Spending Plan for the Kingdom at LEAP 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f834bfe-ae16-4663-b31c-0de5a20c9242.pdf",
+            "news_date": "2025-02-10 08:52:34"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "Update - Paynet - Intimation under Regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32bca509-6958-49b6-8f6c-b15470dbb84f.pdf",
+            "news_date": "2025-02-07 09:00:22"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee105418-d343-41b7-8a5a-624f2765a825.pdf",
+            "news_date": "2025-02-06 17:05:26"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4528c99-18d8-4b72-ab6d-af1e81d71de9.pdf",
+            "news_date": "2025-02-06 16:59:54"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc8a58c5-a9e2-4d67-b65e-5bee4eff1450.pdf",
+            "news_date": "2025-02-05 17:31:39"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e83165e-0fb6-41f2-a5d9-715c9dfe3f72.pdf",
+            "news_date": "2025-02-05 17:21:02"
+        },
+        {
             "sym": "REDINGTON",
             "disp": "Redington",
             "bse_code": 532805,
@@ -384,6 +1407,83 @@
             "sid": 14255,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=576f14ab-2515-46f3-a898-aaa5850b4f50.pdf",
+            "news_date": "2025-02-05 17:14:45"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr V S Hariharan as Managing Director and Group Chief Executive Officer of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c4c38b9-60e1-4b48-963a-817924d6f21e.pdf",
+            "news_date": "2025-02-05 17:05:23"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Quarterly Results",
+            "news_body": "Quarterly Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b12e805e-32ef-4b5a-8284-17ec6c301021.pdf",
+            "news_date": "2025-02-05 16:55:30"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of the Earnings Conference call - Q3 FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c76f523-efb2-40f9-bea0-956257d9a43a.pdf",
+            "news_date": "2025-02-03 17:38:03"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation About The Board Meeting",
+            "news_body": "Redington Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/02/2025 inter alia to consider and approve We wish to inform you that a meeting of the Board of Directors of the Company is scheduled to be held on Wednesday February 5 2025 inter-alia to consider and approve the unaudited financial results (standalone and consolidated) of the Company for the quarter and nine months ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f4da5db-1b74-4b04-be1b-54592aaa774d.pdf",
+            "news_date": "2025-01-30 17:34:54"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification Regarding News Articles Published In The Media",
+            "news_body": "Clarification regarding news articles published in the media",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1dc2d8a9-f780-493a-a79f-58a92e176911.pdf",
+            "news_date": "2025-01-29 19:45:04"
+        },
+        {
+            "co_code": 12586,
+            "bse_code": 532805,
+            "isin": "INE891D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7967e9e-d9f4-4185-a313-b1587eab02d0.pdf",
+            "news_date": "2025-01-20 18:23:12"
         },
         {
             "sym": "REDINGTON",
@@ -1777,6 +2877,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

@@ -1,0 +1,27 @@
+{
+    "Symbol": "USHAFIN",
+    "ISIN": "INE0LS001014",
+    "News": [
+        {
+            "Title": "Usha Financial Services Sets Final Trading Day for 1:1 Bonus Issue Eligibility",
+            "Summary": "Usha Financial Services has announced Monday as the last trading day for investors to purchase shares and qualify for its 1:1 bonus issue. The record date is set for August 19, with the ex-bonus date also falling on the same day. Under the 1:1 bonus structure, shareholders will receive one additional share for every existing share held as of the record date at no extra cost. For example, an investor holding 100 shares will receive 100 additional bonus shares, doubling their shareholding. The bonus issue aims to reward existing shareholders and improve stock liquidity, though the market price typically adjusts downward proportionally to reflect the increased share count while maintaining overall investment value.",
+            "Sentiment": "neutral",
+            "PublishDate": 1755484206242,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Usha Financial Services: Disappointing Market Debut with 2% Discount",
+            "Summary": "Usha Financial Services shares listed at \u20b9164, a 2.4% discount to the IPO price of \u20b9168. The stock hit its lower circuit of \u20b9155.80 before trading at \u20b9161 around 10:20 am.",
+            "Sentiment": "negative",
+            "PublishDate": 1730349902000,
+            "Source": "normal_news"
+        },
+        {
+            "Title": "Usha Financial Services: SME Debut with Marginal Premium Expected",
+            "Summary": "Usha Financial Services to list on NSE SME platform today. Grey market premium suggests a 5% listing gain over the issue price of Rs 9. The NBFC aims to use IPO proceeds for capital augmentation and general corporate purposes. Company has Rs 306 crore AUM, Rs 106 crore net worth, and 33.03% CRAR.",
+            "Sentiment": "positive",
+            "PublishDate": 1730344411000,
+            "Source": "corporate_action"
+        }
+    ]
+}

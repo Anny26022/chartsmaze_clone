@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 65562,
+            "bse_code": 0,
+            "isin": "INE032Z01020",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "Bombay Super Hybrid Seeds Limited has informed the Exchange about Copy of Newspaper Publication",
+            "file_url": "https://nsearchives.nseindia.com/corporate/BSHSL_07022026131127_BSHSLNewspaperAdvUFR07022026.pdf",
+            "news_date": "2026-02-07 00:00:00"
+        },
+        {
             "sym": "BSHSL",
             "disp": "Bombay Super Hybrid Seeds",
             "bse_code": 0,
@@ -50,6 +61,50 @@
             "seg": "E"
         },
         {
+            "co_code": 65562,
+            "bse_code": 0,
+            "isin": "INE032Z01020",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Bombay Super Hybrid Seeds Limited has informed the Exchange regarding Outcome of Board Meeting held on February 06, 2026.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/BSHSL_06022026172025_BSHSLFinResultDec25frsigned.pdf",
+            "news_date": "2026-02-06 00:00:00"
+        },
+        {
+            "co_code": 65562,
+            "bse_code": 0,
+            "isin": "INE032Z01020",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Bombay Super Hybrid Seeds Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/BSHSL_30012026211920_BSHSLR74.pdf",
+            "news_date": "2026-01-30 00:00:00"
+        },
+        {
+            "co_code": 65562,
+            "bse_code": 0,
+            "isin": "INE032Z01020",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Bombay Super Hybrid Seeds Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/BSHSL_29122025185643_IntimationofTradingWindowClosure_signed.pdf",
+            "news_date": "2025-12-29 00:00:00"
+        },
+        {
+            "co_code": 65562,
+            "bse_code": 0,
+            "isin": "INE032Z01020",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "Bombay Super Hybrid Seeds Limited has informed the Exchange about Copy of Newspaper Publication",
+            "file_url": "https://nsearchives.nseindia.com/corporate/BSHSL_10112025213609_BSHSLNewspaperAdvUFR10112025.pdf",
+            "news_date": "2025-11-10 00:00:00"
+        },
+        {
             "sym": "BSHSL",
             "disp": "Bombay Super Hybrid Seeds",
             "bse_code": 0,
@@ -96,7 +151,39 @@
             "sid": 809,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 65562,
+            "bse_code": 0,
+            "isin": "INE032Z01020",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Bombay Super Hybrid Seeds Limited has submitted to the Exchange, the financial results for the period ended September 30, 2025.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/BSHSL_08112025145041_BMoutcome08112025signed.pdf",
+            "news_date": "2025-11-08 00:00:00"
+        },
+        {
+            "co_code": 65562,
+            "bse_code": 0,
+            "isin": "INE032Z01020",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Bombay Super Hybrid Seeds Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/BSHSL_19102025041328_BSHSL74certificate30092025.pdf",
+            "news_date": "2025-10-19 00:00:00"
+        },
+        {
+            "co_code": 65562,
+            "bse_code": 0,
+            "isin": "INE032Z01020",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Bombay Super Hybrid Seeds Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/BSHSL_26092025210332_IntimationofTradingWindowClosureSigned.pdf",
+            "news_date": "2025-09-26 00:00:00"
         }
-    ],
-    "remarks": ""
+    ]
 }

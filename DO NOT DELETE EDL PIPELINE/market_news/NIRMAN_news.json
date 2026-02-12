@@ -1,0 +1,90 @@
+{
+    "Symbol": "NIRMAN",
+    "ISIN": "INE0OK701014",
+    "News": [
+        {
+            "Title": "SEBI Bans Nirman Agri Genetics From Securities Market Over 93% IPO Fund Diversion",
+            "Summary": "SEBI has banned SME-listed Nirman Agri Genetics Ltd. from accessing the securities market following alleged diversion of IPO funds. The company raised Rs 20.30 crore through its IPO in March 2023 with First Overseas Capital Ltd. as lead manager. SEBI's investigation found the company mis-utilized approximately Rs 18.89 crore or 93% of IPO proceeds by transferring funds to entities that were either fictitious or controlled by promoter Pranav Kailas Bagal and his relatives. The regulator has also halted all proposed corporate actions including bonus issues, stock splits, and name change to Agriicare Life Corp Ltd. The investigation revealed that Nirman Agri diverted Rs 6.75 crore through multiple layers to promoter-linked entities and claimed to have paid Rs 12.14 crore to four vendors with suspect credentials without providing invoices. NSE site visits confirmed these entities were non-existent at given addresses with no agricultural activities found. The promoter group's shareholding has declined from 65.59% at listing to 44.33% as of September, with Bagal selling 8.6 lakh shares representing 10.71% of his holding during September.",
+            "Sentiment": "negative",
+            "PublishDate": 1760460669360,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "Nirman Agri Genetics Board to Consider 1:10 Stock Split and Bonus Shares on September 30",
+            "Summary": "Nirman Agri Genetics board will meet on September 30, 2025 to consider a 1:10 stock split and 1:10 bonus share proposal. The stock split aims to make shares more affordable and increase liquidity, while the bonus issue is intended to reward existing shareholders. The board will also discuss strategic expansion into hydroponics and aquaponics farming technologies to capitalize on demand for sustainable agricultural methods. The company's shares closed at Rs 172.45 on NSE, up 5% for the day. Nirman Agri Genetics is an agri-input company producing hybrid seeds, pesticides, and bio-organic products with a market capitalization of Rs 138.13 crore. The stock has declined 59% over the past year but gained 19% in the last month.",
+            "Sentiment": "positive",
+            "PublishDate": 1757955348595,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Nirman Agri Genetics Receives Trademark Certificate for Krushidham Project",
+            "Summary": "Nirman Agri Genetics has announced that the government has granted them a certificate of trademark. This trademark will enable the company to initiate their Krushidham project, which is likely a new agricultural initiative.",
+            "Sentiment": "positive",
+            "PublishDate": 1736382124000,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Nirman Agri Genetics Receives Trademark Certificate for Krushidham Project",
+            "Summary": "Nirman Agri Genetics has announced that the government has granted them a certificate of trademark. This trademark will enable the company to proceed with their Krushidham project, potentially expanding their agricultural initiatives.",
+            "Sentiment": "positive",
+            "PublishDate": 1736343852000,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Nirma: Massive Net Loss of Rs 2,623.01 Crore in Q2 FY2025",
+            "Summary": "<p><span class='negative'>Nirma</span> reported a <span class='negative'>net loss</span> of <span class='negative'>Rs 2,623.01 crore</span> in Q2 FY2025, compared to a <span class='positive'>net profit</span> of Rs 123.18 crore in Q2 FY2024. <span class='neutral'>Sales</span> marginally <span class='negative'>declined</span> by 0.05% to Rs 1,742.26 crore. <b>Operating Profit Margin</b> <span class='positive'>improved</span> to 16.34% from 13.72% year-on-year.</p>",
+            "Sentiment": "negative",
+            "PublishDate": 1728888060000,
+            "Source": "result"
+        },
+        {
+            "Title": "U.S. Durable Goods Orders Remain Unchanged in August",
+            "Summary": "<p>The final report for U.S. <span class='neutral'>durable goods orders</span> in August shows <span class='neutral'>no change (0.0%)</span> from the previous month, <b>matching</b> both the <span class='neutral'>initial estimate</span> and <span class='neutral'>market expectations</span>.</p>",
+            "Sentiment": "neutral",
+            "PublishDate": 1727983949000,
+            "Source": "result"
+        },
+        {
+            "Title": "U.S. ISM Non-Manufacturing Prices Rise in September",
+            "Summary": "<p>The U.S. Institute for Supply Management's (ISM) <span class='neutral'>Non-Manufacturing Prices Index</span> for September <span class='positive'>increased</span> to <b>59.4</b>, <span class='positive'>surpassing</span> both the previous month's reading of 57.3 and the estimated forecast of 56.3. This indicates a <span class='positive'>faster rate</span> of <span class='negative'>price increases</span> in the services sector.</p>",
+            "Sentiment": "neutral",
+            "PublishDate": 1727983923000,
+            "Source": "result"
+        },
+        {
+            "Title": "U.S. ISM Non-Manufacturing PMI Exceeds Expectations in September",
+            "Summary": "<p>The U.S. Institute for Supply Management's <span class='neutral'>Non-Manufacturing Purchasing Managers' Index (PMI)</span> for September 2023 came in at <span class='positive'><b>54.9</b></span>, significantly higher than the previous month's 51.5 and beating the estimated 51.7. This indicates <span class='positive'>stronger-than-expected growth</span> in the U.S. services sector.</p>",
+            "Sentiment": "positive",
+            "PublishDate": 1727983911000,
+            "Source": "result"
+        },
+        {
+            "Title": "U.S. Factory Orders Decline in August",
+            "Summary": "<p>U.S. factory orders for August <span class='negative'>decreased</span> by <span class='negative'>0.2%</span> month-over-month, <span class='negative'>falling short</span> of the estimated <span class='positive'>0.1% increase</span>. This represents a <b>significant drop</b> from the previous month's <span class='positive'>5.0% growth</span>.</p>",
+            "Sentiment": "negative",
+            "PublishDate": 1727983895000,
+            "Source": "result"
+        },
+        {
+            "Title": "U.S. Services PMI Slightly Declines in September",
+            "Summary": "<p>The U.S. Services <span class='neutral'>Purchasing Managers' Index (PMI)</span> for September came in at <span class='neutral'>55.2</span>, showing a <span class='negative'>slight decrease</span> from the previous month's <span class='neutral'>55.4</span>. The <b>actual figure</b> was <span class='negative'>marginally lower</span> than the <b>estimated</b> <span class='neutral'>55.4</span>.</p>",
+            "Sentiment": "neutral",
+            "PublishDate": 1727982919000,
+            "Source": "result"
+        },
+        {
+            "Title": "U.S. Continuing Jobless Claims Decrease Slightly",
+            "Summary": "<p>The latest U.S. <span class='neutral'>continuing jobless claims</span> data shows a <span class='positive'>decrease</span> to <b>1,826,000</b> from the previous 1,834,000. This figure is <span class='positive'>lower</span> than the estimated 1,830,000, indicating a <span class='positive'>slight improvement</span> in the <span class='neutral'>job market</span>.</p>",
+            "Sentiment": "positive",
+            "PublishDate": 1727978428000,
+            "Source": "result"
+        },
+        {
+            "Title": "U.S. Initial Jobless Claims Rise Slightly",
+            "Summary": "<p>The latest U.S. initial <span class='neutral'>jobless claims</span> data shows a <span class='negative'>slight increase</span> to <b>225,000</b>, up from the previous week's <b>218,000</b>. This figure is <span class='negative'>higher</span> than the <span class='neutral'>estimated</span> <b>221,000</b> claims.</p>",
+            "Sentiment": "neutral",
+            "PublishDate": 1727978422000,
+            "Source": "result"
+        }
+    ]
+}

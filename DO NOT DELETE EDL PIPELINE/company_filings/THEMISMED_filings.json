@@ -2,6 +2,105 @@
     "code": 0,
     "data": [
         {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Update on board meeting",
+            "news_body": "Themis Medicare Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2026 inter alia to consider and approve Update on board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff81d27a-2b36-447c-90db-b60087d7b3da.pdf",
+            "news_date": "2026-02-10 21:22:30"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Un-Audited Financial Results For The Quarter And Nine Months Ended 31St December 2025.",
+            "news_body": "Themis Medicare Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2026 inter alia to consider and approve un-audited financial results for the quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=521ee3ba-ffd9-47ec-96d3-52a5dcf6c283.pdf",
+            "news_date": "2026-02-06 20:51:49"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General-Updates: Report On Special Window For Re-Lodgment Of Transfer Requests Of Physical Shares.",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=977f3fef-7853-41e7-8cd2-17caaa469dc2.pdf",
+            "news_date": "2026-01-14 18:53:12"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2600c1bb-1f79-4660-a4c2-de3afa8e7d5d.pdf",
+            "news_date": "2026-01-07 16:21:58"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44063363-1403-48e5-aa5b-31ce1a05bfa1.pdf",
+            "news_date": "2025-12-30 16:41:00"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Report On Special Window For Re-Lodgment Of Transfer Requests Of Physical Shares.",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1793e85-4863-4b58-847c-8934ddd137cc.pdf",
+            "news_date": "2025-12-29 19:37:22"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b5dd2dc-d901-4933-809c-38ca9897704e.pdf",
+            "news_date": "2025-12-26 16:24:15"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c52c5959-6ba7-4127-89aa-1185470a5f99.pdf",
+            "news_date": "2025-12-11 19:48:56"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of un-audited financial results for the quarter and half year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fc17b9a-1b7f-4483-a483-ea71d46bafe6.pdf",
+            "news_date": "2025-11-14 14:34:27"
+        },
+        {
             "sym": "THEMISMED",
             "disp": "Themis Medicare",
             "bse_code": 530199,
@@ -24,6 +123,17 @@
             "sid": 14485,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a7910e5-76b1-4826-9775-60cc18c4884a.pdf",
+            "news_date": "2025-11-13 13:59:33"
         },
         {
             "sym": "THEMISMED",
@@ -50,6 +160,226 @@
             "seg": "E"
         },
         {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a809b138-89e4-47f6-af74-7f6c9dfc7e0f.pdf",
+            "news_date": "2025-11-13 13:16:17"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations)",
+            "news_body": "Pursuant to Regulation 30 of the Listing Regulations this is to inform you that the Board of Directors of the Company at its meeting held today i.e. on Thursday 13th November 2025 have approved the Un-Audited Standalone and Consolidated Financial Results for the quarter and half year ended 30th September 2025 together with the Limited Review Report issued by the Statutory Auditors M/s. Krishaan & Co. Chartered Accountants which are attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e53b755f-627b-405f-a647-80ea1e3d3495.pdf",
+            "news_date": "2025-11-13 13:09:07"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35bce41d-d6c8-4f74-92fd-322749e58e78.pdf",
+            "news_date": "2025-11-10 20:25:15"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c265a3f8-54b6-487f-8b51-40e785a5b2d0.pdf",
+            "news_date": "2025-11-10 20:19:22"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Approval Of Un-Audited Standalone And Consolidated Financial Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Themis Medicare Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2025 inter alia to consider and approve the un-audited standalone and consolidated financial results for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=655aa113-e905-4f2d-884c-d988190f6d50.pdf",
+            "news_date": "2025-11-04 18:51:46"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Report On Special Window For Re-Lodgement Of Transfer Requests Of Physical Shares.",
+            "news_body": "Please refer to the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10357f5f-5ffe-4046-979f-7c7a0270b4e2.pdf",
+            "news_date": "2025-10-17 11:44:23"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1761c2a2-f736-406e-9622-fe5c6e59a53d.pdf",
+            "news_date": "2025-10-16 19:41:41"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=514ac8cb-a517-4cca-bd86-974e78802c74.pdf",
+            "news_date": "2025-10-13 19:19:24"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding 100 Days Campaign - \"Saksham Niveshak\"",
+            "news_body": "Intimation regarding 100 days Campaign - \"Saksham Niveshak\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db6f30f7-c3cf-402a-a12d-a34eb9b4749d.pdf",
+            "news_date": "2025-10-09 18:42:57"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c607a4c5-52e4-4ae7-99d6-d99905922cb0.pdf",
+            "news_date": "2025-09-25 19:41:59"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (Updates)",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=802104fa-e377-4d8e-a233-b84f42da788b.pdf",
+            "news_date": "2025-09-12 20:04:10"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizer Report and  Voting results of the 55th AGM of the Company held on Friday 12th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92f97860-11d7-4b02-b40c-a178af5d8da6.pdf",
+            "news_date": "2025-09-12 19:19:40"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 55th AGM of the Company held on Friday 12th Friday 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14d18ce6-f205-4ff9-a5ec-a079223ee29d.pdf",
+            "news_date": "2025-09-12 18:11:41"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b613229-09d9-492e-b47d-fc448f995539.pdf",
+            "news_date": "2025-09-10 19:12:46"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c84d33f-a55e-4eba-8dbe-dced5ee34ed6.pdf",
+            "news_date": "2025-08-21 20:15:45"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acf143d1-6b7d-471b-877b-863e9ea0b241.pdf",
+            "news_date": "2025-08-19 12:35:40"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9496b90-c355-46a7-aef2-f8e4490aa6ee.pdf",
+            "news_date": "2025-08-18 19:16:50"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting To Be Held On Friday 12Th September 2025",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=852a0e9d-fb4d-4886-baa0-79cc3347be51.pdf",
+            "news_date": "2025-08-18 19:08:13"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Please refer the attachment for further information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a599cb39-274c-40ee-a541-2ffa1c6fbeeb.pdf",
+            "news_date": "2025-08-13 13:53:47"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40530c83-d2a9-4782-aa3a-e08b85dd76d1.pdf",
+            "news_date": "2025-08-02 21:20:42"
+        },
+        {
             "sym": "THEMISMED",
             "disp": "Themis Medicare",
             "bse_code": 530199,
@@ -72,6 +402,50 @@
             "sid": 14485,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46567f69-d8bf-4977-99f3-b7eec5435322.pdf",
+            "news_date": "2025-08-01 20:11:16"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer to the attachment regarding appointment of Senior Management Personnel.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=171fe94e-3289-4968-ba7a-75eb23adafee.pdf",
+            "news_date": "2025-08-01 19:40:25"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0c66eea-919e-48b7-afbc-2c3fef7147d6.pdf",
+            "news_date": "2025-08-01 19:25:05"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action- Fixes Record Date For The Declaration Of Final Dividend For The Financial Year 2024-25",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bd3e4a2-3b69-4b84-8287-dda46ef31097.pdf",
+            "news_date": "2025-08-01 19:11:04"
         },
         {
             "sym": "THEMISMED",
@@ -98,6 +472,138 @@
             "seg": "E"
         },
         {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter Ended 30Th June 2025",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f91656fc-941e-443a-86f0-1783c185e23c.pdf",
+            "news_date": "2025-08-01 18:51:02"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting For The Quarter Ended 30Th June 2025",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24fc881d-81ed-43e1-b1fc-663c403f38a9.pdf",
+            "news_date": "2025-08-01 18:29:07"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results For The Quarter Ended 30Th June 2025.",
+            "news_body": "Themis Medicare Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 01/08/2025 inter alia to consider and approve unaudited financial results for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5efb3252-e798-4962-ae96-e6f01dfd9b36.pdf",
+            "news_date": "2025-07-26 00:36:12"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 50 (1) - Prior intimation about Board meeting under Regulation 50(1))",
+            "caption": "Compliances-Reg. 50 (1) - Prior intimation about Board meeting under Regulation 50(1)",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0370b3f6-39e4-40cb-8329-83e28f884816.pdf",
+            "news_date": "2025-07-25 19:57:57"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=446abe4b-1030-4d5f-a99f-64ae080f56f9.pdf",
+            "news_date": "2025-07-08 15:45:46"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a309fb2a-ffde-4724-a5aa-b7f784d403af.pdf",
+            "news_date": "2025-06-26 19:42:24"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR)- Withdrawal Of Scheme Of Amalgamation.",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9574cdaa-f365-4bcf-be6c-5cb9819f2375.pdf",
+            "news_date": "2025-06-13 19:20:38"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 13Th June 2025",
+            "news_body": "Please  refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4aabcc47-a4f2-4606-abe1-e4e21fcdfcb9.pdf",
+            "news_date": "2025-06-13 19:16:14"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Please refer to the attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df0e9e72-d9d3-44c8-8328-b7b1ed3f1d4d.pdf",
+            "news_date": "2025-05-27 19:05:07"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44e38e7a-e4eb-4190-8751-142c3883bdb2.pdf",
+            "news_date": "2025-05-21 15:35:04"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcca5735-b7f6-439a-a3f2-f7d582fbe1cc.pdf",
+            "news_date": "2025-05-20 22:14:08"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b125b47-ec6d-4ec6-9e2c-855dc8cf709c.pdf",
+            "news_date": "2025-05-20 21:49:03"
+        },
+        {
             "sym": "THEMISMED",
             "disp": "Themis Medicare",
             "bse_code": 530199,
@@ -120,6 +626,17 @@
             "sid": 14485,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0302e3fd-0a07-4529-8328-d9efc2ff7761.pdf",
+            "news_date": "2025-05-20 21:44:25"
         },
         {
             "sym": "THEMISMED",
@@ -146,6 +663,127 @@
             "seg": "E"
         },
         {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results As On 31St March 2025.",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a052c46d-6d0c-4929-8887-1213651467ae.pdf",
+            "news_date": "2025-05-20 21:38:10"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c29a0a53-5d9f-48e8-b4e8-a8e1772b9b33.pdf",
+            "news_date": "2025-05-20 21:31:15"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Under Reg 30 Of SEBI (LODR)",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3daa5361-851a-4b68-b72e-35d491284739.pdf",
+            "news_date": "2025-05-20 21:18:11"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Audited Standalone And Consolidated Financial Results For The Quarter And Year Ended 31.03.2025",
+            "news_body": "Themis Medicare Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 20/05/2025 inter alia to consider and approve audited standalone and consolidated financial results for the quarter and year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6896994-bfec-44c9-9e71-0218e3f9963c.pdf",
+            "news_date": "2025-05-15 14:31:25"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=044bcb19-0b37-4cf4-be60-5a4241430daf.pdf",
+            "news_date": "2025-04-14 11:04:22"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer to the attachment for further information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f49eb320-bdeb-45b4-8806-9dbcbe305a0e.pdf",
+            "news_date": "2025-03-25 20:23:15"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=888bc60f-ee0c-40c0-9df3-e545f6edcf4a.pdf",
+            "news_date": "2025-03-24 18:11:47"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aba3541c-3810-4741-ab59-17cc0c83bac0.pdf",
+            "news_date": "2025-03-24 18:09:46"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cebb8165-00b6-4340-b559-ddb27de26d43.pdf",
+            "news_date": "2025-02-21 12:42:26"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Please refer to the Notice of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=043056b6-9b19-45cb-bdfd-66163aaddbbd.pdf",
+            "news_date": "2025-02-20 17:06:42"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to the attached Newspaper publication of financial results for the quarter and nine months ended 31.12.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbd59ad7-2af3-4bd6-8cb9-79a067f94c21.pdf",
+            "news_date": "2025-02-15 16:47:16"
+        },
+        {
             "sym": "THEMISMED",
             "disp": "Themis Medicare",
             "bse_code": 530199,
@@ -168,6 +806,28 @@
             "sid": 14485,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer to the attached Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4be0a109-2efe-4852-8da4-667457f5cd36.pdf",
+            "news_date": "2025-02-14 19:37:12"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=095b57a4-b7d0-4cd9-bf69-9c1abea1ea71.pdf",
+            "news_date": "2025-02-14 17:55:15"
         },
         {
             "sym": "THEMISMED",
@@ -194,6 +854,105 @@
             "seg": "E"
         },
         {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Result For The Quarter And Nine Months Ended 31.12.2024",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0816396-8e96-423d-b687-70881b3cb181.pdf",
+            "news_date": "2025-02-14 17:47:32"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 14Th February 2025.",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7022c510-baef-407a-8a22-b92e1c819709.pdf",
+            "news_date": "2025-02-14 17:24:41"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results And Limited Review Report For The Quarter And Nine Months Ended 31St December 2024.",
+            "news_body": "THEMIS MEDICARE LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/02/2025 inter alia to consider and approve unaudited financial results and Limited Review Report for the Quarter and Nine months ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=922fcc66-32bf-4983-99fa-8e21ccec83c2.pdf",
+            "news_date": "2025-02-07 22:45:06"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f2438f8-a1e2-4e7f-baec-0fba08baef62.pdf",
+            "news_date": "2025-01-08 16:57:38"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 - Updates: Change In Name Of Registrar And Share Transfer Agent (RTA) Of The Company.",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfe1e52e-98a6-4da6-9aee-7a026eb436cc.pdf",
+            "news_date": "2025-01-02 17:10:58"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75140147-b095-4180-a9e1-ca8bb2453c36.pdf",
+            "news_date": "2024-11-19 20:37:49"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please refer attached annexure for reference.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a42d3142-f527-4a90-aedf-292e219de969.pdf",
+            "news_date": "2024-11-18 20:56:07"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015, ('Listing Regulations') - Outcome Of Board Meeting",
+            "news_body": "Please refer attached annexure for further information",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06543a3a-743f-4764-8aa9-5caa5c2de5ce.pdf",
+            "news_date": "2024-11-18 20:37:22"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60c4a88f-03fa-462b-a362-424998ee7a77.pdf",
+            "news_date": "2024-10-28 13:38:09"
+        },
+        {
             "sym": "THEMISMED",
             "disp": "Themis Medicare",
             "bse_code": 530199,
@@ -216,6 +975,17 @@
             "sid": 14485,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faeee0bd-1405-4106-893d-f42445c66fa3.pdf",
+            "news_date": "2024-10-25 20:24:55"
         },
         {
             "sym": "THEMISMED",
@@ -242,6 +1012,116 @@
             "seg": "E"
         },
         {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results - Financial Results For The Quarter And Half Year Ended 30Th September, 2024",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97c74a7e-8ac4-45bc-9e33-320e4728e501.pdf",
+            "news_date": "2024-10-25 19:05:48"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Under Regulation 30 Of The SEBI (Listing Obligations AndDisclosure Requirements) Regulations, 2015 (Listing Regulations)",
+            "news_body": "Pursuant to Regulation 30 of the Listing Regulations, this is to inform you that the Board of Directors ofthe Company, at its meeting held today i.e. on Friday, 25th October, 2024, has inter-alia approvedthe Unaudited Standalone and Consolidated Financial Results for the quarter and half year ended30th September, 2024 together with Limited Review Report issued by M/s. Krishaan & Co., CharteredAccountants which are attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b1db9ea-88fd-4a61-adc6-acd2f17edd21.pdf",
+            "news_date": "2024-10-25 17:46:32"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Standalone And Consolidated Financial Results For The Quarter And Half Year Ended 30Th September, 2024",
+            "news_body": "THEMIS MEDICARE LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 25/10/2024 ,inter alia, to consider and approve un-audited standalone and consolidated financial results for the quarter and half year ended 30th September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=542b677c-c74a-4316-bf51-df42cf72202b.pdf",
+            "news_date": "2024-10-18 22:23:09"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Please refer to the Compliance Certificate under Reg 74 (5) of SEBI (DP) Regulations, 2018 for the quarter ended 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=571ff2c4-1e8c-493e-804c-545528d2871d.pdf",
+            "news_date": "2024-10-07 14:35:19"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Prescient Wealth Management Pvt Ltd & Others",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=111D36E3_2176_43B3_B8C9_8BDB4F478309_165812.pdf",
+            "news_date": "2024-09-27 16:58:16"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer to our intimation for the closure of Trading Window for the declaration of Un-audited financial results for the quarter and half year ended 30.09.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a1fcffc-a331-40c1-acc7-d5a2ed7500f9.pdf",
+            "news_date": "2024-09-26 19:55:08"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30(5) Of SEBI (LODR) Regulations, 2015",
+            "news_body": "Please refer to the attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bea0c466-0ef5-4cf4-9e72-551b1305412f.pdf",
+            "news_date": "2024-08-01 16:50:49"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "Please refer to the attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8996e310-35fa-4b1f-9568-7de0533dda28.pdf",
+            "news_date": "2024-08-01 16:46:28"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Retirement",
+            "caption": "Announcement under Regulation 30 (LODR)-Retirement",
+            "news_body": "Mr. Sangameshwar Iyer, Company Secretary & Compliance Officer has retired from the services of the Company with effect from 31st July, 2024 at the close of business hours.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a90b926d-5123-4b96-a915-9aa0a54cbb83.pdf",
+            "news_date": "2024-07-31 18:56:31"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of Un-audited Financial Results of Standalone and Consolidated for the quarter ended 30th June, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57ebc7a2-83c6-4686-b5d0-7a3c85018d5b.pdf",
+            "news_date": "2024-07-29 15:18:43"
+        },
+        {
             "sym": "THEMISMED",
             "disp": "Themis Medicare",
             "bse_code": 530199,
@@ -264,6 +1144,17 @@
             "sid": 14485,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "As per the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c5da1b4-5d16-417a-8ec1-791f0ca9d38a.pdf",
+            "news_date": "2024-07-26 20:19:52"
         },
         {
             "sym": "THEMISMED",
@@ -290,6 +1181,193 @@
             "seg": "E"
         },
         {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Result For 30Th June, 2024",
+            "news_body": "As per the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a22916b-b587-45c8-b2f6-d336940ffa15.pdf",
+            "news_date": "2024-07-26 19:25:33"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 26Th July, 2024 For The Quarter Ended 30Th June 2024",
+            "news_body": "As per the attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfbfe6f2-3721-488e-8044-22675ddc2b30.pdf",
+            "news_date": "2024-07-26 19:10:52"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "On completion of tenure of Mr. Hariharan Subramaniam ceases to be Independent Director  of the Company after conclusion of the 54th AGM held on 22nd July 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2652353f-5e90-462b-9c1b-9e6e24709865.pdf",
+            "news_date": "2024-07-22 22:11:41"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "Pursuant to the regulation of 44(3) of the SEBI(LODR) regulation, 2015 details of voting result and scrutinizer report of the 54th AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=159f543a-701e-4e29-a46c-bb3ab65ac2f5.pdf",
+            "news_date": "2024-07-22 22:04:02"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "Pursuant to the regulation of 44(3) of the SEBI(LODR) regulation, 2015 details of voting result and scrutinizer report of the 54th AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=213d53f3-41d1-46b9-bbb1-f6455c9e7584.pdf",
+            "news_date": "2024-07-22 22:03:06"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Pursuant to Regulation 30 of the SEBI(LODR) regulation, 2015 we enclose herewith gist of proceedings of 54th AGM on 22nd July, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8ed25e6-0db3-4ef2-b327-47890783f43f.pdf",
+            "news_date": "2024-07-22 21:58:06"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Approval Of Unaudited Financial Results For The Quarter Ended 30Th June, 2024.",
+            "news_body": "THEMIS MEDICARE LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 26/07/2024 ,inter alia, to consider and approve the unaudited financial results for the quarter ended 30th June, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b81cb05-7cb7-41b6-9e53-5a0466955315.pdf",
+            "news_date": "2024-07-16 19:34:32"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Please refer to the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37c576c8-1097-42e5-8f13-e2f3408d3220.pdf",
+            "news_date": "2024-07-09 15:13:48"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer to the intimation of closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=618f75d2-82ca-4069-ab8a-24ece3f62c85.pdf",
+            "news_date": "2024-06-28 12:59:52"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer to the intimation of closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c1653df-fac1-4f01-9161-ebfcf20aa64b.pdf",
+            "news_date": "2024-06-28 12:58:46"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer to attachment for the Newspaper Publication of 54th Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcc7984d-4b0c-4e46-92cd-3a99fd279027.pdf",
+            "news_date": "2024-06-26 13:36:11"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Please refer to the attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b23651f-6f1c-4c32-b473-744fb1ad7061.pdf",
+            "news_date": "2024-06-25 22:41:14"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "As per the file attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ac998ef-fe54-4dae-bb6f-eafe8b1476f0.pdf",
+            "news_date": "2024-06-25 22:38:07"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "54Th Annual General Meeting On 22Nd July, 2024",
+            "news_body": "Please find our Notice of 54th AGM and Annual Report for the Financial Year 2023-24",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e793e891-cc5d-40c8-a86a-41304d9cc7f0.pdf",
+            "news_date": "2024-06-25 22:18:30"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please find our intimation on the captioned subject.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=712ac765-4c70-4448-8cb5-aa27f5f82414.pdf",
+            "news_date": "2024-06-06 18:23:57"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Please refer to the attached Annual Secretarial Compliance Report for the F.Y. 2023-24",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e27f4ca3-f121-4928-a36a-d16bafd02eab.pdf",
+            "news_date": "2024-05-27 17:42:04"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Kindly refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7f114b8-62d5-4311-ad4a-c4f4ede96365.pdf",
+            "news_date": "2024-05-17 10:12:06"
+        },
+        {
             "sym": "THEMISMED",
             "disp": "Themis Medicare",
             "bse_code": 530199,
@@ -312,6 +1390,28 @@
             "sid": 14485,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "As per the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2987bd5f-2223-4fb3-a380-f11f33124a79.pdf",
+            "news_date": "2024-05-15 07:39:57"
+        },
+        {
+            "co_code": 4895,
+            "bse_code": 530199,
+            "isin": "INE083B01024",
+            "ann_type": "Corp. Action",
+            "descriptor": "Record Date",
+            "caption": "Record Date For The Payment Of Dividend For The FY 2023-24",
+            "news_body": "Please find our intimation on the captioned subject",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72b826ab-a305-4612-8105-bb6c6166a387.pdf",
+            "news_date": "2024-05-14 22:00:40"
         },
         {
             "sym": "THEMISMED",
@@ -1177,6 +2277,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

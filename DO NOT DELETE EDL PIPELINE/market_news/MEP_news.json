@@ -1,0 +1,48 @@
+{
+    "Symbol": "MEP",
+    "ISIN": "INE776I01010",
+    "News": [
+        {
+            "Title": "MEP Infrastructure Files Annual Secretarial Report",
+            "Summary": "MEP Infrastructure Developers submitted its Annual Secretarial Compliance Report for FY24, revealing multiple regulatory violations including delayed financial result submissions and voting result disclosures.",
+            "Sentiment": "negative",
+            "PublishDate": 1766585327767,
+            "Source": "stocks"
+        },
+        {
+            "Title": "NCLT Mumbai Commences Hearing on MEP Infrastructure Developers' Resolution Plan",
+            "Summary": "The National Company Law Tribunal Mumbai Bench has started hearing proceedings on the resolution plan for MEP Infrastructure Developers Limited on October 14, 2025. The company has been under Corporate Insolvency Resolution Process since March 28, 2024, with Ravindra Kumar Goyal serving as the Resolution Professional. A moratorium under the Insolvency and Bankruptcy Code has been in effect since the insolvency proceedings began.",
+            "Sentiment": "neutral",
+            "PublishDate": 1760533953103,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "MEP Infrastructure Developers Holds 18th Creditors Meeting Under Insolvency Process",
+            "Summary": "MEP Infrastructure Developers Limited held its 18th Meeting of Committee of Creditors on September 24, 2025, as part of the ongoing Corporate Insolvency Resolution Process initiated by NCLT order dated March 28, 2024. The company is under Corporate Insolvency Resolution Process pursuant to the Insolvency and Bankruptcy Code, 2016. Mr. Ravindra Kumar Goyal has been appointed as Resolution Professional of the company, and a moratorium under section 14 of the Insolvency and Bankruptcy Code has been in effect since March 28, 2024.",
+            "Sentiment": "negative",
+            "PublishDate": 1758807105204,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "MEP Infrastructure Developers Submits Audited Financial Results While Under Insolvency Process",
+            "Summary": "MEP Infrastructure Developers Limited submitted its audited consolidated financial results for the year ended March 31, 2024, to stock exchanges NSE and BSE. The results were approved by Resolution Professional Ravindra Kumar Goyal on September 11, 2025. The company is operating under Corporate Insolvency Resolution Process following an NCLT order dated March 28, 2024, with a moratorium in effect under the Insolvency and Bankruptcy Code, 2016.",
+            "Sentiment": "negative",
+            "PublishDate": 1757683218929,
+            "Source": "earnings"
+        },
+        {
+            "Title": "MEP Infrastructure Developers Appoints New Company Secretary During Insolvency Process",
+            "Summary": "MEP Infrastructure Developers Limited appointed Ms. Nitisha Saurabh Sohoni as Company Secretary and Compliance Officer effective August 8, 2025. The appointment was made by Resolution Professional Mr. Ravindra Kumar Goyal as the company undergoes Corporate Insolvency Resolution Process since March 28, 2024. Ms. Sohoni is an Associate Member of the Institute of Company Secretaries of India with membership number ACS 26078 and has over 10 years of experience in legal and secretarial matters. She previously resigned from the same position at MEP Infrastructure Private Limited, a material subsidiary of the company, on August 7, 2025. The company's board powers remain suspended and are vested with the Resolution Professional during the insolvency proceedings.",
+            "Sentiment": "neutral",
+            "PublishDate": 1754663755905,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "MEP Infrastructure Developers Holds 17th Committee of Creditors Meeting Under Insolvency Process",
+            "Summary": "MEP Infrastructure Developers Limited held its 17th Committee of Creditors meeting on July 25, 2025, as part of the ongoing Corporate Insolvency Resolution Process. The company has been under this process since March 28, 2024, following an NCLT order. Mr. Ravindra Kumar Goyal serves as the Resolution Professional for the company. A moratorium under section 14 of the Insolvency and Bankruptcy Code has been in effect since March 28, 2024. The company informed stock exchanges NSE and BSE about this meeting as required under regulatory disclosure requirements.",
+            "Sentiment": "neutral",
+            "PublishDate": 1753880874590,
+            "Source": "corporate_action"
+        }
+    ]
+}

@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting(s)/ Investor Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8e6bb83-0b5b-4ea5-ab6c-96cfb735fec0.pdf",
+            "news_date": "2026-02-12 18:03:16"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1188d512-dabd-4772-b7f4-e4224073172d.pdf",
+            "news_date": "2026-02-05 20:45:06"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=776c59b6-ed3b-40d7-8263-77c88f0d960b.pdf",
+            "news_date": "2026-01-29 11:58:15"
+        },
+        {
             "sym": "ICRA",
             "disp": "ICRA",
             "bse_code": 532835,
@@ -24,6 +57,39 @@
             "sid": 14523,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfc67d0c-29ab-4985-bbe6-34ff2bb37c3d.pdf",
+            "news_date": "2026-01-28 21:05:19"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Pursuant To Regulations 8(1) And 8(2) Of The SEBI (Prohibition Of Insider Trading) Regulations 2015",
+            "news_body": "Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ab25b22-456a-4684-9207-3982dfe25d7e.pdf",
+            "news_date": "2026-01-28 18:42:13"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on the unaudited financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=910c3ada-e25c-497f-8a2f-8ca233dea64b.pdf",
+            "news_date": "2026-01-28 18:09:23"
         },
         {
             "sym": "ICRA",
@@ -50,6 +116,138 @@
             "seg": "E"
         },
         {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Third Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Unaudited financial results for the third quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=395d0201-4c30-419f-b737-3f2d42382bd5.pdf",
+            "news_date": "2026-01-28 17:31:51"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of the Board meeting held on January 28 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39b27f23-faf3-4970-9c4b-13e7c5a73eff.pdf",
+            "news_date": "2026-01-28 17:26:02"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results",
+            "news_body": "ICRA Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/01/2026 inter alia to consider and approve the unaudited financial results (standalone and consolidated) of the Company for the third quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f17cde47-a845-4e6b-aef1-144009d21e0d.pdf",
+            "news_date": "2026-01-09 19:12:14"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25a9fe8e-6f50-499a-b2b7-bdcd5d5cbfc4.pdf",
+            "news_date": "2026-01-05 17:48:52"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8513783-0d9b-46c7-b8c3-8d30b6e2c8d5.pdf",
+            "news_date": "2026-01-01 11:24:09"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Statutory Auditor/s",
+            "caption": "Announcement under Regulation 30 (LODR)-Appointment of Statutory Auditor/s",
+            "news_body": "Update on appointment of statutory auditor of Fintellix India Private Limited a subsidiary of ICRA Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56e5400b-94e5-4520-9c86-b9945d0f4ff1.pdf",
+            "news_date": "2025-12-17 20:21:54"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in senior management personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9205a2bb-4ca9-4168-a3c0-627642b99124.pdf",
+            "news_date": "2025-12-17 17:42:45"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Statutory Auditors",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Statutory Auditors",
+            "news_body": "Resignation of statutory auditor of Fintellix India Private Limited a subsidiary of ICRA Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55db117b-c4b7-41b4-9ce3-07ea42fa37d5.pdf",
+            "news_date": "2025-12-12 18:00:18"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=feaec31f-4ba3-44c9-94e9-3d89fcd83d8f.pdf",
+            "news_date": "2025-12-12 17:22:39"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36d8993c-ce0d-4a17-b773-b28f9d75443e.pdf",
+            "news_date": "2025-12-05 20:46:34"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20722726-b78a-410a-a4dd-9a0d01bd3cef.pdf",
+            "news_date": "2025-11-21 20:35:08"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Q2 & H1 FY26 Results earnings call held on October 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac7dbd87-d3de-457d-8d8b-b4121485e069.pdf",
+            "news_date": "2025-11-04 19:49:40"
+        },
+        {
             "sym": "ICRA",
             "disp": "ICRA",
             "bse_code": 532835,
@@ -72,6 +270,28 @@
             "sid": 14523,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of earnings conference call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=108a8a33-17c9-467b-8f46-e194149e6dbf.pdf",
+            "news_date": "2025-10-29 21:17:54"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53a76aa3-973d-4d8c-ab31-4429e53bcd31.pdf",
+            "news_date": "2025-10-29 15:30:26"
         },
         {
             "sym": "ICRA",
@@ -98,6 +318,17 @@
             "seg": "E"
         },
         {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Revised Investor Presentation Q2 & H1 FY2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca292c49-063e-4088-9e2a-94464e27f369.pdf",
+            "news_date": "2025-10-28 23:38:29"
+        },
+        {
             "sym": "ICRA",
             "disp": "ICRA",
             "bse_code": 532835,
@@ -120,6 +351,28 @@
             "sid": 14523,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83ba3a3c-f423-49b9-9762-015b0e4f9e52.pdf",
+            "news_date": "2025-10-28 19:37:22"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78dc6dd9-69c4-4e49-8a68-2763bdfa94a8.pdf",
+            "news_date": "2025-10-28 19:28:25"
         },
         {
             "sym": "ICRA",
@@ -146,6 +399,182 @@
             "seg": "E"
         },
         {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Second Quarter And Half Year Ended September 30 2025",
+            "news_body": "Unaudited financial results for the second quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f13a5fba-8529-4baa-953a-b8c7cc894d87.pdf",
+            "news_date": "2025-10-28 19:16:03"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of the Board meeting held on October 28 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0620dc8-c250-4644-b5a9-bf80cbdc5800.pdf",
+            "news_date": "2025-10-28 19:10:15"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting(s",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=953b1ebf-e720-455a-8331-a40a37556de2.pdf",
+            "news_date": "2025-10-27 23:01:58"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings conference call to discuss \"Q2 & H1 FY26 Results\" on Wednesday October 29 2025 at 4:30PM IST",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b653e4ff-8bd4-4365-ad80-35639e7d46c8.pdf",
+            "news_date": "2025-10-20 18:12:09"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Update on acquisition of Fintellix India Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8b5ef5c-d7e7-40ed-90a3-2d473361a4fb.pdf",
+            "news_date": "2025-10-17 18:14:29"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Financial Results (Standalone And Consolidated) Of ICRA Limited For The Second Quarter And Half Year Ended September 30 2025",
+            "news_body": "ICRA Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/10/2025 inter alia to consider and approve the unaudited financial results (standalone and consolidated) of ICRA Limited for the second quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3fb6e77-93f2-4807-92fe-d9d6e11f53ef.pdf",
+            "news_date": "2025-10-08 20:58:24"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate of compliance under Regulation 74(5) of the SEBI (DP) Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c19efcc-7ae1-4e89-8f18-5c68b1e6e7ac.pdf",
+            "news_date": "2025-10-07 20:52:13"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Email Address Of Registrar And Transfer Agent",
+            "news_body": "Change in email address of Registrar and Transfer Agent",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e1a844f-e9e4-4d57-b343-21ccb436f116.pdf",
+            "news_date": "2025-09-30 17:27:20"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3795570c-95e3-405a-bca0-4efa69bb2070.pdf",
+            "news_date": "2025-09-30 17:11:00"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=459fb02a-47bd-4271-891e-115879ae1593.pdf",
+            "news_date": "2025-09-24 20:15:59"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b5bd614-155c-41e2-8096-0e76a51e8f4d.pdf",
+            "news_date": "2025-08-22 17:51:41"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice to the shareholders of ICRA Limited regarding the 100 day campaign - Saksham Niveshak",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42e1bdce-63db-4827-9fb6-7d54163ccab9.pdf",
+            "news_date": "2025-08-22 17:39:42"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of analyst/institutional investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72e12359-72cf-4eed-ae61-32a059dbd5e2.pdf",
+            "news_date": "2025-08-14 18:32:42"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b44edea-5d7a-47c1-aa50-2aa9ad6ec1eb.pdf",
+            "news_date": "2025-08-01 16:59:57"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinisers report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5671e81a-c5ef-459c-8d0a-d379730d8728.pdf",
+            "news_date": "2025-08-01 16:03:04"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 34th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b81e21a7-84dd-4683-8f85-2bc0ec735eaa.pdf",
+            "news_date": "2025-07-31 21:29:56"
+        },
+        {
             "sym": "ICRA",
             "disp": "ICRA",
             "bse_code": 532835,
@@ -168,6 +597,28 @@
             "sid": 14523,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation Q1 FY2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c38dd83-0819-4bb9-999d-da04adf591b7.pdf",
+            "news_date": "2025-07-31 20:12:06"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on the unaudited financial results for the first quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0daf7f40-a04c-4ec8-8f1d-95e67b609477.pdf",
+            "news_date": "2025-07-31 16:36:00"
         },
         {
             "sym": "ICRA",
@@ -194,6 +645,226 @@
             "seg": "E"
         },
         {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results",
+            "news_body": "Unaudited financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ad34c4c-c01e-4e00-bac2-16be12fb9a2b.pdf",
+            "news_date": "2025-07-31 13:51:41"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Unaudited financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8675494e-72b7-49be-945b-98f2a07c044e.pdf",
+            "news_date": "2025-07-31 13:38:46"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Financial Results",
+            "news_body": "ICRA Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/07/2025 inter alia to consider and approve the unaudited financial results (standalone & consolidated) of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f288ee-4225-4b40-ae17-8323b74c9d70.pdf",
+            "news_date": "2025-07-10 22:09:10"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e974a906-1f6a-41ef-b072-056e59f64503.pdf",
+            "news_date": "2025-07-08 21:00:30"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 29(2) Of The Securities And Exchange Board Of India (Substantial Acquisition Of Shares And Takeover) Regulations 2011",
+            "news_body": "Disclosure under Regulation 29(2) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeover) Regulations 2011",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a1e8220-318c-4b5c-a16e-72f30ccf8d61.pdf",
+            "news_date": "2025-07-07 19:50:08"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Pari Washington India Master Fund Ltd & Others",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=D402726B_274A_4708_9138_440BF5B5FD60_185521.pdf",
+            "news_date": "2025-07-07 18:55:25"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Nippon India Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84530153_684A_4E26_BC44_94CC2F618409_172536.pdf",
+            "news_date": "2025-07-07 17:25:43"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26ca6b0d-2c16-47d1-8337-94aa94bcc6da.pdf",
+            "news_date": "2025-07-06 13:13:01"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Letters To Shareholders Whose Email Id Are Not Registered",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7bb9b44-70d4-4ced-b06f-3f93bde45ac1.pdf",
+            "news_date": "2025-07-05 21:54:02"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f13a04f0-e3d8-4207-b6cf-3671b775b54d.pdf",
+            "news_date": "2025-07-05 16:24:44"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The Thirty-Fourth Annual General Meeting",
+            "news_body": "Notice of the Thirty-fourth Annual General Meeting scheduled to be held on July 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04d082c3-b461-4942-91b8-2e0161eb4344.pdf",
+            "news_date": "2025-07-05 16:06:55"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1e3b189-e0c7-43b5-84b9-dc0b938a8fa9.pdf",
+            "news_date": "2025-07-05 16:00:27"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Information regarding Annual General Meeting Book Closure and Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04a1b218-0d41-47ce-97f5-6a624166dc7d.pdf",
+            "news_date": "2025-06-28 11:45:07"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41884a84-7c02-403e-82ed-9786e4c3b06c.pdf",
+            "news_date": "2025-06-25 20:09:41"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33a6663d-808e-4a5b-a142-ae887997be0b.pdf",
+            "news_date": "2025-06-20 17:18:23"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c2ab10e-1c82-4877-8cb7-58e2c95067fa.pdf",
+            "news_date": "2025-06-13 16:57:55"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "ICRA acquires Fintellix",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a057572-3e8e-4acb-9dd8-a966f9f30764.pdf",
+            "news_date": "2025-06-12 18:34:18"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of The Board Meeting",
+            "news_body": "ICRA acquires Fintellix",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43ac7cdc-cc81-4474-a33c-b947c656797b.pdf",
+            "news_date": "2025-06-12 18:21:10"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of earnings call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67d38804-fdfd-463d-a15b-83290f19f27f.pdf",
+            "news_date": "2025-06-05 18:15:35"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5b2c6a3-582c-4f4b-9d59-e7cb246fff0a.pdf",
+            "news_date": "2025-06-02 18:49:43"
+        },
+        {
             "sym": "ICRA",
             "disp": "ICRA",
             "bse_code": 532835,
@@ -216,6 +887,83 @@
             "sid": 14523,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation Q4 & FY2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71ec9dbf-45be-4d60-bf0c-f83dabaec786.pdf",
+            "news_date": "2025-05-30 15:20:02"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94957d77-039b-498a-9ec1-6f939d76f4ed.pdf",
+            "news_date": "2025-05-30 12:38:51"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daee9f7a-1ad0-4797-809b-15bc250b60af.pdf",
+            "news_date": "2025-05-29 17:23:24"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=061122d6-8e43-486b-bd7d-92d13d154da7.pdf",
+            "news_date": "2025-05-29 16:50:52"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date",
+            "news_body": "Record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c5c8b5e-8df1-4166-b5ca-c00fe9cf0eb4.pdf",
+            "news_date": "2025-05-29 16:48:32"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Annual General Meeting",
+            "news_body": "Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3df6c9d9-33af-424d-a68b-be14f053fd32.pdf",
+            "news_date": "2025-05-29 16:26:41"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of secretarial auditor subject to approval of the members",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7536a44d-c842-43c9-96d3-ad5d6f970222.pdf",
+            "news_date": "2025-05-29 16:23:15"
         },
         {
             "sym": "ICRA",
@@ -242,6 +990,193 @@
             "seg": "E"
         },
         {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results March 31 2025",
+            "news_body": "Audited financial results March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0179e8ee-c3d0-4735-9cfb-2f66f7669219.pdf",
+            "news_date": "2025-05-29 16:08:49"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1ea4426-37e0-4069-9bb3-10a8cdf88faf.pdf",
+            "news_date": "2025-05-29 15:55:34"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Grant on stock options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=544a8422-573a-4b6d-a80b-c1c1ab4cc652.pdf",
+            "news_date": "2025-05-28 18:04:52"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in senior management personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a721996-6246-436f-9cf7-4be0a0d4feef.pdf",
+            "news_date": "2025-05-27 14:53:17"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15a5f166-9a3a-48fa-af82-af60795cc9af.pdf",
+            "news_date": "2025-05-23 21:28:17"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings conference call to discuss Q4 & FY25 Results of ICRA Limited (the Company) is scheduled on Monday June 2 2025 at 4:30 pm (IST)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e72c1b2-d091-47de-ba6f-61c9db62b1e7.pdf",
+            "news_date": "2025-05-23 17:50:02"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice for transfer of equity shares to the Investor Education and Protection Fund Authority",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e60ad6b-a487-43bb-8db2-eed003271338.pdf",
+            "news_date": "2025-05-16 16:24:00"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Financial Results And Recommend Dividend If Any",
+            "news_body": "ICRA Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/05/2025 inter alia to consider and approve the audited financial results (standalone and consolidated) and recommend dividend if any",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39526abc-7a5e-4fd0-8183-6b123fb7e84c.pdf",
+            "news_date": "2025-04-30 13:53:59"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update In Contact Details Of Registrar And Share Transfer Agent",
+            "news_body": "Update in contact details of Registrar and Share Transfer Agent",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f073751-c9ee-4adc-980a-7dcc5e0f04ad.pdf",
+            "news_date": "2025-04-25 16:34:18"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Arbitration Matter",
+            "news_body": "Update on arbitration matter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4574522a-bac7-4be3-84b4-8997046301e4.pdf",
+            "news_date": "2025-04-11 15:59:48"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under regulation 74(5) of the Securities and Exchange Board of India (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7748b595-0cac-48d2-b801-0e7ae71e93bf.pdf",
+            "news_date": "2025-04-04 19:15:18"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>ICRA Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L74999DL1991PLC042749</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>0</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>Not Applicable</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: S Shakeb Rahman <br/>  Designation: Company Secretary and Compliance Officer <br/> EmailId: investors@icraindia.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Venkatesh Viswanathan <br/> Designation: Group Chief Financial Officer <br/> EmailId: investors@icraindia.com</div> </div> <div> <br/> Date: 02/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26238c4b-2fb5-41f0-9869-4ad10c3a8072.pdf",
+            "news_date": "2025-04-02 18:48:37"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of analyst/institutional investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2eec6e97-2877-4267-95a0-cd11683ed003.pdf",
+            "news_date": "2025-03-07 14:26:57"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e43a1759-f990-4981-b36a-1c0c5872c703.pdf",
+            "news_date": "2025-03-05 15:38:24"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of analyst/institutional investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea664aa3-3a11-49cc-af3f-d8d98d1b3c31.pdf",
+            "news_date": "2025-02-28 18:43:37"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of analyst/institutional investor meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=681594a6-6039-4003-b7d2-c8058d3c3c4c.pdf",
+            "news_date": "2025-02-20 17:03:54"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of analyst/institutional investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cbfae2c-03ce-412a-98b6-7bab266081e3.pdf",
+            "news_date": "2025-02-14 15:40:51"
+        },
+        {
             "sym": "ICRA",
             "disp": "ICRA",
             "bse_code": 532835,
@@ -266,6 +1201,61 @@
             "seg": "E"
         },
         {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation Q3 FY2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ef9ddc1-6c56-49c1-b274-27d1ba4c3172.pdf",
+            "news_date": "2025-02-11 22:34:07"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bbbebbe-346d-44d5-9388-cb6e5928e8c2.pdf",
+            "news_date": "2025-02-11 11:55:47"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial) for the quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46757189-6e03-48c8-a909-fe0d986cfdb1.pdf",
+            "news_date": "2025-02-10 21:14:52"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Press Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971b87ba-96a6-4659-b41a-24728415a3f7.pdf",
+            "news_date": "2025-02-10 18:31:22"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of the Board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b725acaa-ccb2-4724-9d85-11e822d4ad17.pdf",
+            "news_date": "2025-02-10 18:12:32"
+        },
+        {
             "sym": "ICRA",
             "disp": "ICRA",
             "bse_code": 532835,
@@ -288,6 +1278,116 @@
             "sid": 14523,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Third Quarter And Nine Months Ended December 31 2024",
+            "news_body": "Unaudited financial results for the third quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9b84328-94ab-4394-b489-e1ca97d3715a.pdf",
+            "news_date": "2025-02-10 17:59:51"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d873ffa-e856-4b3b-93c1-6cd7246425bd.pdf",
+            "news_date": "2025-02-04 19:42:43"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "ICRA LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/02/2025 inter alia to consider and approve unaudited financial results (standalone & consolidated) of the Company for the third quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50eb95d0-e5ad-46e7-9820-0f0caf4c2993.pdf",
+            "news_date": "2025-01-22 20:42:42"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under regulation 74(5) of the SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad590c7c-09cb-4ff4-85ea-520f0b83b001.pdf",
+            "news_date": "2025-01-03 19:21:48"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Name Of Registrar And Share Transfer Agent From Link Intime India Private Limited To MUFG Intime India Private Limited",
+            "news_body": "Change in name of Registrar and Share Transfer Agent",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f6d9b3b-d323-480d-b7e0-ffe1263b83b8.pdf",
+            "news_date": "2025-01-02 18:56:08"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc15b639-b4f3-4c9b-95df-92bdd74e1ca2.pdf",
+            "news_date": "2024-12-04 09:13:10"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=692d016b-5c0e-4c8b-8a05-8371553d9db7.pdf",
+            "news_date": "2024-12-01 08:54:47"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=188b0eea-1463-43f7-9772-7e33f77e0fe4.pdf",
+            "news_date": "2024-11-22 14:52:51"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2ddf6ce-e2d4-411f-81c3-a29bd255f8fa.pdf",
+            "news_date": "2024-11-15 21:01:06"
+        },
+        {
+            "co_code": 13035,
+            "bse_code": 532835,
+            "isin": "INE725G01011",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=252fc253-a7b7-49be-abeb-ac4ea2555e9d.pdf",
+            "news_date": "2024-11-11 11:51:20"
         },
         {
             "sym": "ICRA",
@@ -1297,6 +2397,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

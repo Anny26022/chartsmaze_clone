@@ -2,6 +2,72 @@
     "code": 0,
     "data": [
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release dated February 12 2026 titled \"Shriram Properties Amicably Resolves Kolkata Land Issues\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=052640d2-404a-4b51-9864-fb93243b36c7.pdf",
+            "news_date": "2026-02-12 18:48:09"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Company will hold an Investors/Analyst call on Saturday February 14 2026 at 04:00 P.M. (IST) to discuss the operational and financial performance of the Company for the third quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3d97c68-b3b3-4ff9-a15c-f18f2e36de32.pdf",
+            "news_date": "2026-02-11 14:44:19"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "The Company has acquired 100% equity shares of Shrivision Upscale Spaces Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0635893e-80ec-4ea4-bb88-645ac9e523cb.pdf",
+            "news_date": "2026-02-09 18:31:03"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Standalone And Consolidated Financial Results For The Third Quarter And Nine Months Ended December 31 2025.",
+            "news_body": "Shriram Properties Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/02/2026 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results for the third quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcbb830d-54c9-47da-bbfb-2b49a79058f4.pdf",
+            "news_date": "2026-02-03 10:47:29"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (Depositories and Participants) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e8f232b-ab75-4b85-b1c6-0e192c290da7.pdf",
+            "news_date": "2026-01-08 17:52:25"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window for dealing in securities of the Company by the Designated Persons and their immediate relatives shall remain closed from Thursday January 1 2026 till 48 hours after the declaration of Unaudited Financial Results for the third quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bfd8ed8-a807-4c5b-bf58-cdc5529485ba.pdf",
+            "news_date": "2025-12-31 10:38:34"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -24,6 +90,39 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call on the Companys Financial & Operational Performance for Q2 held on November 12 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=061d7c22-f129-46e3-9b7e-a11bec9bb62a.pdf",
+            "news_date": "2025-11-18 18:07:32"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e39500a9-b37a-42a6-aafe-33232ffa62ef.pdf",
+            "news_date": "2025-11-14 14:45:52"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio of Analyst/Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56c543a6-60fc-4d64-8179-6cec7aa9abc8.pdf",
+            "news_date": "2025-11-12 20:17:04"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -50,6 +149,28 @@
             "seg": "E"
         },
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=baed4343-56d3-491d-8d14-0f31a56dd706.pdf",
+            "news_date": "2025-11-12 13:41:56"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release - Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49e374ad-7bf2-4d43-a4b4-b18e33ff14e1.pdf",
+            "news_date": "2025-11-12 13:37:54"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -72,6 +193,259 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results",
+            "news_body": "Financial Results enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d893ff6-9946-4519-b167-cd4f6b02ac3f.pdf",
+            "news_date": "2025-11-12 13:31:06"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results",
+            "news_body": "Financial Results enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab8342dd-d0d6-415d-8cd7-0162abef1e17.pdf",
+            "news_date": "2025-11-12 13:25:04"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investors/Analyst call on Wednesday November 12 2025 at 05:30 P.M. (IST) to discuss the operational and financial performance of the Company for the second quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8888bb9c-693f-457c-85b2-d69cf059fa32.pdf",
+            "news_date": "2025-11-06 16:27:54"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Shriram Properties Signs Another Landmark JDA in South Bengaluru.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0a2af62-7b5f-42df-9cf0-5f2416510781.pdf",
+            "news_date": "2025-11-03 10:57:26"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Standalone And Consolidated Financial Results For The Second Quarter And Half Year Ended September 30 2025",
+            "news_body": "Shriram Properties Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2025 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results for the second quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=535861bc-bfcd-4496-8e7b-7270904e3db7.pdf",
+            "news_date": "2025-10-31 17:13:45"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0330fa06-b8cb-4ede-ad7b-3262445b5805.pdf",
+            "news_date": "2025-10-30 11:59:45"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release titled Shriram Properties Expands Footprint in Pune",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=974c2b73-11b2-47ee-a4d1-0d49370c04c6.pdf",
+            "news_date": "2025-10-30 11:49:04"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled Shriram Properties Signs Landmark JDA in Yelahanka Bengaluru",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbe3bcf1-4b6a-40fe-b1f6-b09d16939388.pdf",
+            "news_date": "2025-10-27 14:33:52"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30502ddf-89ec-4891-8794-88ce8a046e8e.pdf",
+            "news_date": "2025-10-08 10:46:54"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4ff3422-b1f9-4a2e-b176-6be2f3af7e00.pdf",
+            "news_date": "2025-09-29 17:48:35"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4117730f-d474-4c56-8ce8-8a4be05d92d3.pdf",
+            "news_date": "2025-09-29 17:41:56"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37261d64-7aef-491c-a13d-13eff580281f.pdf",
+            "news_date": "2025-09-29 16:10:09"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceeding of the AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb069ad3-be03-446a-a4d7-0be2145c595f.pdf",
+            "news_date": "2025-09-26 15:09:41"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity Shares under Employees Stock Option Plan 2013 (ESOP 2013) is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b018804-be4b-4fb1-ac78-ccd1c8c326a2.pdf",
+            "news_date": "2025-09-18 20:00:03"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst/Institutional Investor Meeting to be held on September 23 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=516dd7ad-f957-40ed-aadd-515e05f6cd77.pdf",
+            "news_date": "2025-09-16 14:27:26"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed the press release titled Shriram Properties Reinforces Commitment to Water Conservation at IPA Neerathon 2025\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae9d9eed-a891-4067-b0c2-11e9b7006746.pdf",
+            "news_date": "2025-09-14 14:17:58"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed the press release titled \"Shriram Properties signs JDA for a prime land in North Bengaluru\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6bfa1b07-80ca-4de2-9d1a-550d13ed8e54.pdf",
+            "news_date": "2025-09-05 10:34:35"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Public notice confirming the dispatch of the Notice of 4th Annual General Meeting (AGM) post IPO and Annual Report for FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fff08086-b972-42ec-9a14-dfc955ff67b9.pdf",
+            "news_date": "2025-09-04 17:38:54"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Communication To Shareholders",
+            "news_body": "Intimation of Communication to Shareholders (Weblink of Annual Report)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=537e3553-2904-4bec-af9f-9b95617eb836.pdf",
+            "news_date": "2025-09-03 21:32:45"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6831383-3a09-4455-bbe6-39afaa8d11e6.pdf",
+            "news_date": "2025-09-03 21:08:33"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3bc57f2-18d0-49a5-b3fa-d16eb6de4bff.pdf",
+            "news_date": "2025-09-03 21:07:17"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 4Th Annual General Meeting Post IPO Of The Company To Be Held On September 26 2025",
+            "news_body": "AGM Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32de64cc-60d5-4bc4-8655-2325fba9abc6.pdf",
+            "news_date": "2025-09-03 21:03:22"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Pre-dispatch",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cc13ce0-008f-456f-99ee-bc245647d817.pdf",
+            "news_date": "2025-09-03 21:01:00"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -98,6 +472,28 @@
             "seg": "E"
         },
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Investors Call held on August 12 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=791fb04e-5489-4160-a6e9-597552bdab4e.pdf",
+            "news_date": "2025-08-19 17:18:16"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication - Financial Results Q1 FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e68c8cfc-5285-4e8c-b4eb-d6b019e2fe49.pdf",
+            "news_date": "2025-08-14 16:02:24"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -120,6 +516,28 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Pursuant to the provisions of Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we hereby inform you that the audio recording of the Investor Conference Call held today i.e. on Tuesday August 12 2025 to discuss the financial performance/Unaudited Financial Results of the Company for the quarter ended June 30 2025 has been uploaded on the Companys website.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c2ce543-ab41-43ab-9f63-c3057fe01f76.pdf",
+            "news_date": "2025-08-12 20:11:00"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Pursuant to the provisions of Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we enclose herewith the press release of the Company on the Unaudited Financial Results (Standalone & Consolidated) for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a462376-08fc-480c-a02b-cf5508ef79d7.pdf",
+            "news_date": "2025-08-12 15:28:50"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -146,6 +564,39 @@
             "seg": "E"
         },
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Pursuant to the provisions of Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed the Investor Presentation on the Unaudited Financial Results (Standalone & Consolidated) of the Company for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1670ff0-5648-4de8-9329-3567b94a0002.pdf",
+            "news_date": "2025-08-12 15:08:18"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Formulation And Adoption Of Shriram Properties - Employees Stock Option Plan 2025",
+            "news_body": "The Board of Directors have approved the formulation and adoption of Shriram Properties - Employees Stock Option Plan 2025 (ESOP 2025 or Plan) in terms of the SEBI (Share Based Employees Benefits and Sweat Equity) Regulations 2021 [SEBI (SBEB) Regulations] subject to the approval of the shareholders at the ensuing Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aafc386c-8d95-4ae9-a23d-29ac217ef996.pdf",
+            "news_date": "2025-08-12 15:06:24"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Akshay Murali as Vice President-Business Development",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=874f641d-3c74-465e-9edb-183b4b691d17.pdf",
+            "news_date": "2025-08-12 15:04:32"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -168,6 +619,17 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting",
+            "news_body": "Pursuant to the provisions of Regulation 30 & 33 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we herewith inform you that at the meeting of the Board of Directors held today i.e. August 12 2025 which commenced at 12:30 P.M. and concluded at 02:45 P.M. have inter-alia considered and approved as attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cebb4b3-7c0c-487e-9e31-f38a9fc75704.pdf",
+            "news_date": "2025-08-12 15:02:33"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -194,6 +656,171 @@
             "seg": "E"
         },
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting",
+            "news_body": "Pursuant to the provisions of Regulation 30 & 33 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we herewith inform you that at the meeting of the Board of Directors held today i.e. August 12 2025 which commenced at 12:30 P.M. and concluded at 02:45 P.M. have inter-alia considered and approved as attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=563265f9-95ad-4c82-a34d-3f7a9c946de8.pdf",
+            "news_date": "2025-08-12 15:01:33"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Pursuant to the provisions of Regulation 30 & 33 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we herewith inform you that at the meeting of the Board of Directors held today i.e. August 12 2025 which commenced at 12:30 P.M. and concluded at 02:45 P.M. have inter-alia considered and approved as attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43d662ce-1edb-416c-a449-0cc4a2b6ab50.pdf",
+            "news_date": "2025-08-12 14:54:25"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to the provisions of Regulation 30 read with Part A of Schedule III of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 we wish to inform you that the Company will hold an Investors/Analyst call on Tuesday August 12 2025 at 05:00 P.M. (IST) to discuss the operational and financial performance of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f64e560-991b-4fee-9de7-8865bcd25765.pdf",
+            "news_date": "2025-08-06 13:00:35"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Financial Results",
+            "news_body": "Shriram Properties Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/08/2025 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecad9e31-a6cd-464c-9b4d-8d18f9830cfc.pdf",
+            "news_date": "2025-07-30 18:13:44"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Pursuant to Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 please find enclosed herewith the confirmation Certificate received from Kfin Technologies Limited (Registered and Share Transfer Agent) for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7db1e3e9-23ff-426f-a247-636c7e4ccb70.pdf",
+            "news_date": "2025-07-14 14:23:02"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report for the Postal Ballot is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=767ff194-552f-4d4e-9817-999c25fbaa10.pdf",
+            "news_date": "2025-07-05 18:10:27"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed the press release titled \"Shriram Properties launches a new project under Codename: The One\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8659b2ba-6235-4b31-ac7a-7722412d38ca.pdf",
+            "news_date": "2025-07-04 12:16:58"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "This is to inform you that the Trading Window for dealing in securities of the Company by the Designated Persons shall remain closed from Tuesday July 1 2025 till 48 hours after the declaration of Unaudited Financial Results for the quarter ended June 30 2025 in terms of provisions of SEBI (Prohibition of Insider Trading) Regulations 2015 as amended and Companys Code of Conduct to regulate monitor and report trading by Designated Persons",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f088ea92-d662-4680-9b48-050d8cd24377.pdf",
+            "news_date": "2025-06-30 14:55:04"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to the relevant provisions of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we would like to inform you that the officials of the Company will be meeting Investors/Analysts (Participants) as per attached details",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ef64293-c2ad-4851-b3cd-e20146589852.pdf",
+            "news_date": "2025-06-11 18:06:36"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Dear sir\r\n\r\nPlease find attached news paper publication on dispatch of Postal Ballot Notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffb9f2c2-492b-4508-aaf9-4405883e4340.pdf",
+            "news_date": "2025-06-04 17:01:12"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Dear Sirs\r\n\r\nPlease find attached Postal Ballot Notice for obtaining shareholders approval for Related Party Transactions for FY2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8abe64a1-497f-4e59-aeec-7d10145005fc.pdf",
+            "news_date": "2025-06-03 16:03:38"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to the relevant provisions of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we would like to inform you that the officials of the Company will be meeting Investors/Analysts on June 6 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1298d78c-f83a-46f2-8fda-87b46c7dea2e.pdf",
+            "news_date": "2025-06-02 18:52:42"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find attached transcript of the Analyst call held on May 27 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5308757-b47b-4502-b9e4-543e8d08401e.pdf",
+            "news_date": "2025-06-02 18:46:29"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Please find enclosed the Annual Secretarial Compliance Report for the Financial Year ended March 31 2025 duly certified by the Practicing Company Secretary.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04097cb2-0053-46e0-9fe5-b4b171fad3ee.pdf",
+            "news_date": "2025-05-29 20:56:47"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed the newspaper publication of Audited Financial Results for the quarter and the year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aabb27d9-bdee-4815-9ead-764718c4ddfd.pdf",
+            "news_date": "2025-05-29 11:35:29"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -216,6 +843,17 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find attached the audio recording link for the analyst meet held on May 27 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9718ff6-db28-4b08-8a9a-adb18b43b70d.pdf",
+            "news_date": "2025-05-27 20:00:20"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -242,6 +880,39 @@
             "seg": "E"
         },
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find attached the Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c99bf3e6-3c67-4946-84fc-603bbf3f659d.pdf",
+            "news_date": "2025-05-27 13:38:41"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find attached herewith the press release on the Audited Financial Results of the Company for the quarter and the year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c00df55e-23a5-4e67-b4af-3247d2cd266e.pdf",
+            "news_date": "2025-05-27 13:34:15"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for For Considering The Financial Statements For The Quarter Ended And The Financial Year Ended March 31 2025",
+            "news_body": "Please find attached outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2348fecd-a7e9-431c-b3ce-cb24985bb8ac.pdf",
+            "news_date": "2025-05-27 13:30:46"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -264,6 +935,105 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And The Year Ended March 31 2025",
+            "news_body": "Financial Results for the quarter and the year ended is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259ccaaa-1a8d-42cf-bfe3-06c2fd01a806.pdf",
+            "news_date": "2025-05-27 13:30:24"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We wish to inform you that the Company will hold an Investors / Analyst call on Tuesday May 27 2025 at 5:00 PM IST to discuss the operational and financial performance of the Company for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cc06af5-1540-4386-a711-9df94d1abe23.pdf",
+            "news_date": "2025-05-22 15:23:00"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Financial Statements",
+            "news_body": "Shriram Properties Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 27/05/2025 inter alia to consider and approve the Audited Standalone and the Consolidated Financial Statements for the quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15bb258b-2d2d-46e5-8888-ad7cb92e4dca.pdf",
+            "news_date": "2025-05-20 17:59:33"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "SPL Acquires a Premium Land Parcel in Yelahanka North Bengaluru",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be6f8856-1d2c-410b-a397-06ccc4698c88.pdf",
+            "news_date": "2025-04-23 14:09:46"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)",
+            "news_body": "Issue of Corporate Guarantee",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b460d97e-d51f-4154-b70b-30c31c651a17.pdf",
+            "news_date": "2025-04-16 11:18:50"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "The Certificate is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85359765-9290-4f70-8118-730ed00b1d3b.pdf",
+            "news_date": "2025-04-10 18:17:01"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "This is to inform you that the Trading Window for dealing in securities of the Company by the Designated Persons shall remain closed from Tuesday April 1 2025 till 48 hours after the declaration of Audited Financial Results for the quarter and Financial Year ended March 31 2025 in terms of provisions of SEBI (Prohibition of Insider Trading) Regulations 2015 as amended and Companys Code of Conduct to regulate monitor and report trading by Designated Persons",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30bd3dc7-ed30-40f0-86c4-eeab8acd413a.pdf",
+            "news_date": "2025-03-31 11:59:47"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to the relevant provisions of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we would like to inform you that the officials of the Company will be attending the Investor Conference as per attached details",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f64ea762-2853-4c18-aea0-004b4dbf2267.pdf",
+            "news_date": "2025-03-20 17:22:33"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor Meet is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53d74bc4-e4ff-4c1e-a9a2-4d2544c10cbc.pdf",
+            "news_date": "2025-03-11 19:57:13"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -290,6 +1060,50 @@
             "seg": "E"
         },
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earning Call Transcript of the analyst meet held on February 12 2025 is enclosed.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a790237b-8c25-47af-b500-ff3b2a44519f.pdf",
+            "news_date": "2025-02-18 18:08:35"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publications on Financial Results for Q3FY25 are enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c83e62fb-217b-4d59-aab5-1c04b25bf097.pdf",
+            "news_date": "2025-02-14 17:03:54"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Financial Results for Q3FY25 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47a55f0d-2e70-400a-ba5e-d4fd2813cc38.pdf",
+            "news_date": "2025-02-13 17:09:39"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cd782a2-9dde-4597-8272-bb5acb1edb54.pdf",
+            "news_date": "2025-02-12 22:25:50"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -312,6 +1126,28 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "The Audio recording of the Analyst / Institutional Investor meeting held on February 12 2025 is available at https://www.shriramproperties.com/financials",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51a9b424-f0ee-47fa-bde0-d6049a1cf61b.pdf",
+            "news_date": "2025-02-12 21:58:17"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the Financial Results of Q3FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f450df93-7111-449a-a971-158a3055e3d4.pdf",
+            "news_date": "2025-02-12 17:00:27"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -338,6 +1174,28 @@
             "seg": "E"
         },
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for financial results Q3FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01c7b83a-fac8-47dc-9f60-9bac961389d3.pdf",
+            "news_date": "2025-02-12 16:57:20"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=673c2343-d3dd-4878-8c94-770ef0dfe586.pdf",
+            "news_date": "2025-02-12 16:54:30"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -360,6 +1218,127 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results",
+            "news_body": "Financial Results for the quarter and nine month ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2437b0f2-ee54-4576-8077-32153c1294d2.pdf",
+            "news_date": "2025-02-12 16:50:54"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Shriram Properties signs JDA for a prime land parcel in Chennai.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eecadd7a-4b7b-4523-8d90-a7c6c21c0c6e.pdf",
+            "news_date": "2025-02-10 16:42:14"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We wish to inform you that the Company will hold an Investors / Analyst call on Wednesday February 12 2025 at 5:30 PM IST to discuss the operational and financial performance of the Company for the quarter ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a875274-d7f8-4750-a0eb-85be54e9bc24.pdf",
+            "news_date": "2025-02-06 18:30:20"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Quarterly Financial Results\r\n\r\n",
+            "news_body": "Shriram Properties Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2025 inter alia to consider and approve Unaudited Standalone and the Consolidated Financial Statements for the quarter ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=beebee75-e97e-48bf-acdb-ee2962466847.pdf",
+            "news_date": "2025-02-05 15:28:23"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Confirmation Certificate received from RTA is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ad96b86-e377-4ff1-b843-db609fc7a341.pdf",
+            "news_date": "2025-01-15 15:27:59"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Diversification / Disinvestment",
+            "caption": "Divestment Of Investment / Subsidiary (Non-Material)",
+            "news_body": "Disclosure on the same is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d53f8fe9-81d7-4b0b-ad85-ae5a5c2012f1.pdf",
+            "news_date": "2024-12-30 17:39:45"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Shriram Properties Sells Mall Land in Chennai.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f58fdc3-5123-4fb8-80b0-77145193ef71.pdf",
+            "news_date": "2024-12-30 17:32:26"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "for considering the un-audited financial result for Q3FY25 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9920caa-d70b-46a3-9bc9-1b708eff9fd4.pdf",
+            "news_date": "2024-12-30 16:17:00"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Murali Malayappan",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91C87004_8FCC_4682_A619_9539EFC86F03_100235.pdf",
+            "news_date": "2024-12-17 10:02:39"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Shriram Group Executives Welfare Trust & Murali Malayappan",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=FC0F7F68_1F2C_4529_A00C_B44EB0FE55D0_100127.pdf",
+            "news_date": "2024-12-17 10:00:14"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Inter-Se Transfer/Acquisition Of Shares Of Shriram Properties Holdings Private Limited",
+            "news_body": "Please find attached disclosure under regulation 30 of SEBI(LODR) on the above captioned subject.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddabda8f-795d-4a28-803b-e8f2e74cf02b.pdf",
+            "news_date": "2024-12-16 20:22:54"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -386,6 +1365,28 @@
             "seg": "E"
         },
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings call transcript enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef441a8a-7907-4f3f-a3b6-8ee07d427f47.pdf",
+            "news_date": "2024-11-20 19:42:20"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find attached the newspaper publication of Consolidated Unaudited Financial results for the quarter and half ended September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=962393da-3466-47c3-be36-e87ecc64c5e2.pdf",
+            "news_date": "2024-11-18 17:43:58"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -408,6 +1409,28 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Further to our intimation of conference call with Investors/ Analyst, we enclose the audio recording of the conference call held on November 14, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9da7008-3d66-4176-b055-850deddbf672.pdf",
+            "news_date": "2024-11-14 18:51:28"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on financial result is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c8380ec-528d-4339-aacc-9ef1e0394337.pdf",
+            "news_date": "2024-11-14 16:48:24"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -434,6 +1457,28 @@
             "seg": "E"
         },
         {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67625087-1406-4d24-92d5-8e619ea46611.pdf",
+            "news_date": "2024-11-14 16:45:57"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Of Board Meeting",
+            "news_body": "Outcome attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f835b3db-e789-4cf8-9f0a-9840a192d6af.pdf",
+            "news_date": "2024-11-14 16:40:57"
+        },
+        {
             "sym": "SHRIRAMPPS",
             "disp": "Shriram Properties",
             "bse_code": 543419,
@@ -456,6 +1501,61 @@
             "sid": 7200,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended September 30, 2024",
+            "news_body": "Financial Results for the quarter ended September 30, 2024 is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d90cdb4-25c6-4ae3-abd5-e8dcf2d19de2.pdf",
+            "news_date": "2024-11-14 16:33:42"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, we hereby inform that the Company will be Meeting with various Investors and Analyst.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dee65430-52db-424e-8237-4fc6bb7bfa13.pdf",
+            "news_date": "2024-11-13 14:47:39"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We wish to inform you that the Company will hold an Investors / Analyst call on Thursday, November 14, 2024, at 5:00 PM IST, to discuss the operational and financial performance of the Company for the quarter and half year ended September 30, 2024. The call invite is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a56ea2ce-34d5-4c3f-b491-3de838ce0e69.pdf",
+            "news_date": "2024-11-06 18:31:07"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Financial Statements.",
+            "news_body": "Shriram Properties Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/11/2024 ,inter alia, to consider and approve the Unaudited Standalone and the Consolidated Financial Statements for the quarter and half year ended September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fbd3d38-6788-487a-b241-9e10d535d4aa.pdf",
+            "news_date": "2024-11-05 17:16:52"
+        },
+        {
+            "co_code": 66145,
+            "bse_code": 543419,
+            "isin": "INE217L01019",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 please find attached herewith the press release on 'Shriram Properties signs JDA for 6-acre land parcel in Pune'.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=272b42c6-dc96-4cda-b9cf-59f3ac412b7e.pdf",
+            "news_date": "2024-10-29 16:08:03"
         },
         {
             "sym": "SHRIRAMPPS",
@@ -1369,6 +2469,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

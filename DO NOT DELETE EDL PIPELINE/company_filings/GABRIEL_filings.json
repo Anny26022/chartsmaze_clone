@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 (LODR) - regarding Newspaper publication of Notice of NCLT convened meeting of Equity Shareholders of Gabriel India Limited to be held on Wednesday March 18 2026 at 11:00 A.M I.S.T through VC/OAVM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6f34abf-b16f-421c-bd75-1f9fa1c3a92f.pdf",
+            "news_date": "2026-02-11 15:31:48"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "NCLT Convened Meeting -  Letter To Equity Shareholders",
+            "news_body": "NCLT Convened Meeting - Letter to Equity Shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a3348c3-1020-4843-91ff-1422ece3d245.pdf",
+            "news_date": "2026-02-10 13:00:48"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Court Convened Meeting",
+            "caption": "Notice Of The Tribunal Convened Meeting Of The Equity Shareholders To Be Held On March 18 2026",
+            "news_body": "Notice of the Tribunal Convened Meeting of Equity Shareholders to be held on March 18 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c98ec6dc-b1cb-46f2-b830-87ffd30470a7.pdf",
+            "news_date": "2026-02-10 12:42:23"
+        },
+        {
             "sym": "GABRIEL",
             "disp": "Gabriel",
             "bse_code": 505714,
@@ -24,6 +57,50 @@
             "sid": 1085,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Intimation under Regulation 30 (LODR) regarding Written Transcript of Earnings call held on February 03 2025 at 05:00 P.M.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5bcf435-71ae-4d84-877c-de1377d84298.pdf",
+            "news_date": "2026-02-09 17:08:24"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 (LODR) regarding analyst / Investor meet to be held on February 11 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dad323e8-dfc9-443a-9ff3-f641526dd7b7.pdf",
+            "news_date": "2026-02-06 19:51:22"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 (LODR) - Regarding Analyst / investor meet to be held on February 03 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=214b5179-3888-4bf5-8f87-b66da701ba32.pdf",
+            "news_date": "2026-02-05 20:44:16"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under Regulation 30 (LODR) regarding Audio Transcript of Investor / Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9333033-09a4-4f16-868f-e303e9a070a5.pdf",
+            "news_date": "2026-02-03 22:57:30"
         },
         {
             "sym": "GABRIEL",
@@ -50,6 +127,17 @@
             "seg": "E"
         },
         {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q3 FY 25-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7492e28e-761c-45a7-8ef1-476912ec9f26.pdf",
+            "news_date": "2026-02-03 13:41:08"
+        },
+        {
             "sym": "GABRIEL",
             "disp": "Gabriel",
             "bse_code": 505714,
@@ -72,6 +160,160 @@
             "sid": 1085,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Standalone And Consolidated Financial Results",
+            "news_body": "Standalone and Consolidated Financial Results for the quarter and nine month ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a2309d3-cd3c-442c-a115-b0203fd9b790.pdf",
+            "news_date": "2026-02-03 13:32:21"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Announcement under Reg 30 of SEBI (LODR) 2015 regarding revision of Share Subscription Agreement  (\"SSA\") between Gabriel India Limited and Jinos Co. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f63a70e6-cc86-47c1-8c47-a11f91ba6412.pdf",
+            "news_date": "2026-02-03 13:24:02"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting held on February 03 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb2a7118-b859-4429-81fc-6f96eead6e41.pdf",
+            "news_date": "2026-02-03 13:20:58"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation under Regulation 30 (LODR) - regarding retirement of Mr. Prashant Shah from the position of Chief Purchase Officer (CPO) of the Company w.e.f. the close of Business Hours today i.e. January 31 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25e1aa73-b097-4ac3-a1bf-4457a10e684a.pdf",
+            "news_date": "2026-01-31 18:26:02"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 (LODR) - regarding Analyst/ Investor meet  to be held on February 03 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9f814b4-a677-4251-9b31-8698990b4d0f.pdf",
+            "news_date": "2026-01-27 15:13:45"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Unaudited Financial Results For Quarter Ended December 31 2025",
+            "news_body": "Gabriel India Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 03/02/2026 inter alia to consider and approve The Unaudited Financial Results For Quarter Ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68a86b34-17b9-4eeb-8f02-ce16d15acef8.pdf",
+            "news_date": "2026-01-27 14:59:20"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Joint Venture Agreement With SK Enmove Co. Ltd.",
+            "news_body": "Update on Joint Venture Agreement with SK Enmove Co. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fadfabc-8918-4570-b689-abe1061c13ed.pdf",
+            "news_date": "2025-12-31 16:24:40"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Joint Venture Agreement With Jinos Co. Ltd.",
+            "news_body": "Update on Joint Venture Agreement with Jinos Co. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=776380a9-1223-4123-9646-797fdb0a9ac6.pdf",
+            "news_date": "2025-12-31 16:21:16"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of Trading Window for the purpose of declaration of Financial Results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b691da96-d1a8-4187-ab6c-d6c4f716f066.pdf",
+            "news_date": "2025-12-26 18:26:53"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Regarding Clarification On Price Movement.",
+            "news_body": "Announcement under Regulation 30 (LODR) - Regarding Clarification on Price Movement.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae300d84-8fd1-4f42-8a65-9fade2da9822.pdf",
+            "news_date": "2025-12-22 10:48:15"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Gabriel India Ltd",
+            "news_body": "The Exchange has sought clarification from Gabriel India Ltd on December 19 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-12-19 12:50:41"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Joint Venture Agreement With SK Enmove Co. Ltd.",
+            "news_body": "Update on Joint Venture Agreement with SK Enmove Co. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe8a2811-e2f5-46b6-a08a-9f1b231c1eed.pdf",
+            "news_date": "2025-12-18 22:29:03"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation Under Regulation 30 (LODR) - Regarding intimation of Investor /Analyst Meet to be held on December 12 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5614c5d7-b15a-414d-a038-93eb88581a7a.pdf",
+            "news_date": "2025-12-12 12:31:38"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Joint Venture Agreement With SK Enmove Co. Ltd.",
+            "news_body": "Update on Joint Venture Agreement with SK Enmove Co. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd09e79f-efac-40c3-b924-07aeddd7ccef.pdf",
+            "news_date": "2025-11-30 20:35:58"
         },
         {
             "sym": "GABRIEL",
@@ -98,6 +340,50 @@
             "seg": "E"
         },
         {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Intimation under Regulation 30 (LODR) - regarding Written Transcript of Investor / Analyst Meet held on November 13 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b42c1fa7-4854-4820-b9af-6a74eeaeb0d1.pdf",
+            "news_date": "2025-11-19 20:45:40"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Receipt of Observation Letter with \"No Adverse Observation\" from BSE Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a05d8611-71d3-41b3-8fa6-24228ba7bc8a.pdf",
+            "news_date": "2025-11-18 23:07:50"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Receipt of Observation Letter with No Objection from National Stock Exchange Limited (NSE)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=589d490f-8931-4882-988c-48a4b0861acd.pdf",
+            "news_date": "2025-11-18 14:54:03"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under regulation 30 (LODR) - regarding Audio Transcript of Investor / Analyst Meet held on November 13 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ba0ab59-dfb8-4fec-b4bc-60d2909210eb.pdf",
+            "news_date": "2025-11-13 20:24:31"
+        },
+        {
             "sym": "GABRIEL",
             "disp": "Gabriel",
             "bse_code": 505714,
@@ -120,6 +406,39 @@
             "sid": 1085,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Intimation under Regulation 30 (LODR) - regarding investor presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c1b3ed4-448e-4609-9983-d45ccfde9471.pdf",
+            "news_date": "2025-11-12 23:45:56"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Intimation under regulation 30 (LODR) Regarding Agreements",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa84101b-478f-411f-8fa5-85ed02748b74.pdf",
+            "news_date": "2025-11-12 17:36:45"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Declaration of Interim Dividend for FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc99acb0-5cd2-4409-a869-0ffab53b6e62.pdf",
+            "news_date": "2025-11-12 17:32:30"
         },
         {
             "sym": "GABRIEL",
@@ -146,6 +465,303 @@
             "seg": "E"
         },
         {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Financial Results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2aa228da-658c-4cf7-b28c-2561fb3b266d.pdf",
+            "news_date": "2025-11-12 17:29:31"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On  November 12 2025",
+            "news_body": "Outcome of Board Meeting held on November 12 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e088e75f-9e2b-4482-86ea-342d5f6fb273.pdf",
+            "news_date": "2025-11-12 17:24:39"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 LODR regarding - analyst / investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc266a27-be0c-4e46-8bda-c1c6031eee7d.pdf",
+            "news_date": "2025-11-11 19:31:17"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 (LODR) - regarding newspaper intimation for opening of special window for re-lodgement of transfer request of Physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7275e4f1-2358-4da1-b65b-6f947b1c51f0.pdf",
+            "news_date": "2025-11-07 17:47:07"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 (LODR) - regarding intimation of Analyst / Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af9ab575-6e98-45b2-addf-1fd46344c3da.pdf",
+            "news_date": "2025-11-05 20:10:25"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Corporate Action - Board to Consider declaration of Interim Dividend for FY25-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5c48173-bcca-4e66-b6e4-6fc92bb7f158.pdf",
+            "news_date": "2025-10-31 22:38:11"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action -Board To Consider Interim Dividend 2025-26.",
+            "news_body": "Corporate Action - Board to consider Interim Dividend 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e5ba2d7-e445-4f17-b726-a4925ef9f21b.pdf",
+            "news_date": "2025-10-31 22:34:01"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Approving The Unaudited Financial Results For Quarter And Half Year Ended September 30 2025 And Declaration Of Interim Dividend 2025-26.",
+            "news_body": "Gabriel India Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2025 inter alia to consider and approve The Unaudited Financial Results For Quarter And Half Year Ended September 30 2025 And Declaration Of Interim Dividend 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4aaea29b-0b7e-4ee6-ad6a-1259fe646993.pdf",
+            "news_date": "2025-10-31 22:28:10"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Joint Venture Agreement With Jinos Co. Ltd.",
+            "news_body": "Update on Joint Venture Agreement with Jinos Co. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cca99066-a2b3-456e-a6a2-4f0654626e78.pdf",
+            "news_date": "2025-10-31 17:24:20"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Execution Of Joint Venture Agreement With SK Enmove Co. Ltd",
+            "news_body": "Update on execution of Joint Venture Agreement with SK Enmove Co. Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42fd9961-07e7-4e4f-b6a5-12398157df27.pdf",
+            "news_date": "2025-10-15 22:49:43"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Registrar And Share Transfer Agents Report On Status Of Re-Lodgement Of Transfer Requests Of Physical Shares",
+            "news_body": "Registrar and Share Transfer Agents Report on status of Re-lodgement of Transfer Request of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28ed6686-4583-4650-a137-fd200b84bee7.pdf",
+            "news_date": "2025-10-09 11:28:54"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Intimation Under Regulation 30 LODR Regarding Execution Of The Joint Venture Agreement (JVA) Between SK Enmove Co. Ltd And Gabriel India Limited",
+            "news_body": "Intimation under Regulation 30 LODR regarding Execution of the Joint Venture Agreement (JVA) between SK Enmove Co. Ltd and Gabriel India Limited by forming a JV Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc1a2d60-f35c-4ae1-b51a-e884b833b8e0.pdf",
+            "news_date": "2025-10-07 11:48:11"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 LODR Regarding Entering Into Joint Venture Agreement Between Gabriel India Limited And SK Enmove Co. Ltd.",
+            "news_body": "Announcement under Regulation 30 LODR regarding entering into Joint Venture Agreement between SK Enmove Co. Ltd and Gabriel India Limited by forming a JV Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e03e53a-8825-4536-8fcd-1f04bef9002c.pdf",
+            "news_date": "2025-10-07 11:45:08"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of Trading Window for the purpose of declaration of Financial Results of the Company for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c06cb67-2e7d-4f46-8117-68fa79303af4.pdf",
+            "news_date": "2025-09-26 10:46:47"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Please Find Enclosed the Consolidated Report of Scrutinizer along with Voting Results in relation to 63rd Annual General Meeting of Gabriel India Limited held on September 09 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3db93131-1096-4bc5-8bab-3bc60b164830.pdf",
+            "news_date": "2025-09-10 16:00:35"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Summary of proceedings of 63rd Annual General Meeting of Gabriel India Limited held on September 09 2025 at 02:30 PM and concluded at 03:56 PM IST through Video Conferencing / Other Audio Visual means (VC/OAVM)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04cfea84-9dcc-4283-b96b-d0a31fedfc80.pdf",
+            "news_date": "2025-09-09 16:46:43"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Registrar And Share Transfer Agents Report On Status Of Re-Lodgement Of Transfer Requests Of Physical Shares",
+            "news_body": "Registrar and Share Transfer Agents Report on Status of Re-Lodgement of Transfer Requests of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b17aa8df-a38e-4edc-8a99-7eb4052a6894.pdf",
+            "news_date": "2025-09-05 17:06:36"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Reg 30 (LODR) regarding Notice of Special Window for Re-Lodgement of Transfer request of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ab94ef4-6386-44d7-bf76-bb84fb9b8058.pdf",
+            "news_date": "2025-09-05 16:26:37"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 (LODR) regarding Analyst / Investor meet to be held on August 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fe63d54-0655-47ef-b167-a82bb11ae2d6.pdf",
+            "news_date": "2025-08-20 11:44:26"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Reg 30 (LODR) - regarding Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfc0909a-ca85-4402-af3e-f0440d631762.pdf",
+            "news_date": "2025-08-17 20:54:28"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Book Closure For The Purpose Of 63Rd Annual General Meeting",
+            "news_body": "Book Closure for the purpose of 63rd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0783c709-69fa-4502-bdd3-55c485039dc3.pdf",
+            "news_date": "2025-08-16 17:41:26"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Purpose Of Final Dividend 2024-25",
+            "news_body": "Record date for the purpose of Final Dividend 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc463ec8-43c0-4373-acad-6585bea379b7.pdf",
+            "news_date": "2025-08-16 17:36:32"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3f75505-5f6d-4109-93f6-0d637286ec2f.pdf",
+            "news_date": "2025-08-16 17:33:00"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report of Gabriel India Limited for financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d1392a1-7396-4f6f-854b-ba628b36a429.pdf",
+            "news_date": "2025-08-16 17:26:59"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 63Rd Annual General Meeting Of The Gabriel India Limited To Be Held On September 09 2025 At 02:30 P.M IST",
+            "news_body": "Notice of the 63rd Annual General Meeting of Gabriel India Limited to be held on September 09 2025 at 02:30 P.M IST",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cd6ba18-7402-44fd-b747-4e9259453cc0.pdf",
+            "news_date": "2025-08-16 16:49:11"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 (LODR) - Regarding Newspaper Publication of 63rd AGM notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f953e88-f6d5-4ce9-9023-c710a78c6a31.pdf",
+            "news_date": "2025-08-13 15:44:23"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 (LODR) - regarding Non deal Road Show to meet investors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df8fdaec-d927-4e16-bdb9-2f7430c8fc6a.pdf",
+            "news_date": "2025-08-06 13:28:26"
+        },
+        {
             "sym": "GABRIEL",
             "disp": "Gabriel",
             "bse_code": 505714,
@@ -168,6 +784,28 @@
             "sid": 1085,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Intimation under Regulation 30 (LODR)- regarding Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d70a85b3-5de2-4255-9cd7-456eaafaa2bc.pdf",
+            "news_date": "2025-08-04 15:37:27"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under Regulation 30 (LODR) - regarding Audio Transcript of Analyst / Investor meet held on July 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21ba2d99-99a3-4346-81b1-ce7fe8c860f4.pdf",
+            "news_date": "2025-07-30 15:55:20"
         },
         {
             "sym": "GABRIEL",
@@ -194,6 +832,17 @@
             "seg": "E"
         },
         {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Announcement under Regulation 30 (LODR) regarding Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=708f4098-9990-474b-9151-b5a1b08345a4.pdf",
+            "news_date": "2025-07-29 23:07:26"
+        },
+        {
             "sym": "GABRIEL",
             "disp": "Gabriel",
             "bse_code": 505714,
@@ -216,6 +865,72 @@
             "sid": 1085,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Financial Results For Quarter Ended June 30 2025",
+            "news_body": "Unaudited Standalone and Consolidated Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34824fb6-76d5-4d45-8886-d3ee932645c9.pdf",
+            "news_date": "2025-07-29 13:25:09"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Standalone And Consolidated Financial Results For Quarter Ended June 30 2025",
+            "news_body": "Unaudited Standalone And Consolidated Financial Results For Quarter Ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=514602f9-0e9f-4405-b154-88c8c9c3bc1b.pdf",
+            "news_date": "2025-07-29 13:20:13"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 (LODR) - regarding analyst/ investor meet to discuss operational and financial performance of the Company for the Q1 FY 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e8cfb9c-0f7b-4742-88ef-cabbd8d7b957.pdf",
+            "news_date": "2025-07-24 12:31:52"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Un-Audited Standalone And Consolidated Financial Results Of The Company For The Quarter Ended June 30 2025.",
+            "news_body": "Gabriel India Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/07/2025 inter alia to consider and approve To consider and approve the Un-audited standalone and consolidated financial results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc378eb8-5a8c-426a-842a-6e7f93f0b91e.pdf",
+            "news_date": "2025-07-22 16:11:11"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (LODR) Regulations 2015 Regarding Entering Into Joint Venture Agreement And Share Subscription Agreement Between Gabriel India Limited And Jinos Co. Ltd By Subscribing To Equity Shares Of Jinhap Automotive India Priv",
+            "news_body": "Intimation under Regulation 30 of SEBI (LODR) Regulations 2015 regarding entering into Joint Venture Agreement and Share Subscription Agreement between Gabriel India Limited and Jinos Co. Ltd by Subscribing to equity shares of Jinhap Automotive India Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3abaa3b-3908-4d54-8880-2fb8b5b3d513.pdf",
+            "news_date": "2025-07-09 15:06:53"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Written Transcript of Business Update Call held on July 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1654cd5-b17d-46ee-a299-f7e22a165a5c.pdf",
+            "news_date": "2025-07-04 22:27:43"
         },
         {
             "sym": "GABRIEL",
@@ -242,6 +957,17 @@
             "seg": "E"
         },
         {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under Regulation 30 SEBI (LODR) 2015 regarding Audio Recording of Business Update Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78cb243f-1178-4e7a-a4f9-e29ce8198c01.pdf",
+            "news_date": "2025-07-01 15:48:45"
+        },
+        {
             "sym": "GABRIEL",
             "disp": "Gabriel",
             "bse_code": 505714,
@@ -264,6 +990,127 @@
             "sid": 1085,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Business Update Presentation on the Composite Scheme of Arrangement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfddf5f7-991f-4c43-9790-dc8680b35dc9.pdf",
+            "news_date": "2025-06-30 22:35:32"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Business Update Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=700c2602-0ba3-4b10-8776-8215ed5af895.pdf",
+            "news_date": "2025-06-30 21:47:47"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Intimation under Regulation 30 SEBI (LODR) Regulations 2015 regarding Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88b4e2d5-1888-4154-8cd7-6eb6f4f2d52c.pdf",
+            "news_date": "2025-06-30 21:32:25"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amalgamation / Merger / Demerger",
+            "caption": "Corporate Action-Amalgamation/ Merger / Demerger",
+            "news_body": "Intimation under Regulation 30 SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 regarding Composite Scheme of Arrangement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=febcc641-7fb0-4608-943d-9d695c61e610.pdf",
+            "news_date": "2025-06-30 20:05:36"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 regarding Composite Scheme of Arrangement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d9c8816-fe84-40f5-b456-82e9386aae49.pdf",
+            "news_date": "2025-06-30 19:52:01"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of trading window for the purpose of declaration of financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ae07850-2c23-4541-a857-3f92ab6a9405.pdf",
+            "news_date": "2025-06-26 15:38:44"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Reg 30 (LODR) regarding intimation of investor meet to be held on June 24 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7093f44c-6fee-450b-8f04-9853be213c45.pdf",
+            "news_date": "2025-06-19 22:03:04"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Reg 30 (LODR) regarding notice for transfer of equity shares of the Company to IEPF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6935a48a-a8b7-4202-a7db-d66d2d352f1e.pdf",
+            "news_date": "2025-06-13 22:50:02"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Reg 30 (LODR) - regarding Analyst / Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74c97d7c-8ecf-4489-92b7-ad8f0e054331.pdf",
+            "news_date": "2025-06-02 21:20:46"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52c4319d-c8e6-4bc4-bc7b-a765b0686a2f.pdf",
+            "news_date": "2025-05-28 17:02:06"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under Regulation 30 (LODR) - regarding Written Transcript of Analyst/ Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee26013e-f1a0-4198-b99d-a4d5a5e637c4.pdf",
+            "news_date": "2025-05-27 22:05:31"
         },
         {
             "sym": "GABRIEL",
@@ -290,6 +1137,28 @@
             "seg": "E"
         },
         {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Announcement under regulation 30 (LODR) - regarding Audio Transcript of Earning call to discuss operational and financial performance of the Company for Q4 FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=687dd332-cbae-48f3-983e-1d91793bcbc9.pdf",
+            "news_date": "2025-05-21 19:29:25"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Contact Details Of Authorised Kmps To Determine Materiality Of Events/Information Under Regulation 30(5) SEBI (LODR) Regulations 2015",
+            "news_body": "Contact details of authorised Key Managerial Personnel to determine materiality of events/information under Regulation 30(5) SEBI (LODR) regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffc7e669-28a2-4a70-960a-51a804e057d8.pdf",
+            "news_date": "2025-05-21 11:36:45"
+        },
+        {
             "sym": "GABRIEL",
             "disp": "Gabriel",
             "bse_code": 505714,
@@ -314,6 +1183,61 @@
             "seg": "E"
         },
         {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Intimation under Regulation 30 (LODR) - Investor Presentation for Q4 and FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7284db0b-eb81-4629-828b-e6eb73862f30.pdf",
+            "news_date": "2025-05-20 23:07:30"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation under Regulation 30 (LODR) - Appointment of M/s. Mehta & Mehta as the Secretarial Auditors of the Company for a period of 5 (five) Consecutive Financial years commencing from FY 2025-26 to FY 2029-30 subject to approval of Shareholders in ensuing Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce4df4a4-139d-4467-bdfd-9fd37c0c1304.pdf",
+            "news_date": "2025-05-20 20:38:08"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation under Regulation 30 (LODR) - Appointment of Mr. Mohit Srivastava as the Chief Financial Officer and the Key Managerial Personnel of the Company w.e.f. May 26 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cab52ac-4204-4958-95cb-cccb114d820d.pdf",
+            "news_date": "2025-05-20 20:28:54"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "The Board of Directors at its meeting held on May 20 2025 recommended Final Dividend on Equity Shares at the rate of Re. 2.95 per share of face value of Re. 1 each for the Financial Year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f4640c7-e334-4475-b1bb-5182be142df3.pdf",
+            "news_date": "2025-05-20 20:13:10"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend/AGM",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Recommendation of Final Dividend for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f489674-ae11-42dc-9643-b0cac69d04d4.pdf",
+            "news_date": "2025-05-20 19:59:12"
+        },
+        {
             "sym": "GABRIEL",
             "disp": "Gabriel",
             "bse_code": 505714,
@@ -336,6 +1260,182 @@
             "sid": 1085,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Financial Results For Quarter And Year Ended March 31 2025",
+            "news_body": "Financial Results for the Quarter and Year Ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d8b8d04-c855-43ca-a6a5-960c3257a6ca.pdf",
+            "news_date": "2025-05-20 19:57:00"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90ade3cb-02f5-414c-a3e0-e344fa8c3ede.pdf",
+            "news_date": "2025-05-20 19:48:07"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Reg 30 (LODR) - Regarding Analyst / Investor Meet to discuss operational and financial performance of the Company for Q4 & FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1301db8b-4749-4bcb-945b-82c5ebc3ac7e.pdf",
+            "news_date": "2025-05-15 11:15:26"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for  Board Meeting Intimation For  1. Approval Of Audited Consolidated And Standalone Financial Results For The Financial Year Ended March 31 2025. 2. Recommend The Declaration Of Final Dividend For Financial Year 2024-25.",
+            "news_body": "Gabriel India Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 20/05/2025 inter alia to consider and approve 1. The Audited Consolidated and Standalone Financial Results for the Financial Year ended March 31 2025. 2. Declaration of Final Dividend for Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=882b3d11-2c7d-4a68-8864-6aca35826809.pdf",
+            "news_date": "2025-05-12 16:56:38"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Gabriel India Ltd-</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L34101PN1961PLC015735</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>AA</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CRISIL LTD.</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Nilesh Jain <br/>  Designation: Company Secretary and Compliance Officer <br/> EmailId: NILESH.JAIN@GABRIEL.CO.IN</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Rishi Luharuka <br/> Designation: Chief Financial Officer <br/> EmailId: rishi.luharuka@gabriel.co.in</div> </div> <div> <br/> Date: 28/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae2a5449-90d7-4ed8-b3a0-a35346528760.pdf",
+            "news_date": "2025-04-28 15:30:51"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Reg 30(6) LODR regarding Analyst / Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d73b878-54b3-46b9-8d64-bec6dad49fc8.pdf",
+            "news_date": "2025-04-21 16:54:51"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Reg 30 (LODR) Regarding Commencement Of Commercial Production",
+            "news_body": "Commencement of Commercial Production",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d231e30-09b0-42e8-a83a-6cff426925e1.pdf",
+            "news_date": "2025-04-03 20:40:58"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Company Update",
+            "news_body": "Update on Acquisition of assets",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17931cb4-02b0-4811-9aab-9c3d5503c8b3.pdf",
+            "news_date": "2025-04-01 22:43:17"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Company Updates",
+            "news_body": "Board comments on notices received from Stock Exchanges.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=311a449a-6168-4973-ad73-29bd53cfcdc7.pdf",
+            "news_date": "2025-03-27 16:01:50"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Appointment Of Chief Technical Officer (CTO)",
+            "news_body": "Update on Appointment of Chief Technical Officer (CTO)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcbf0d41-fde3-43d5-ba78-d09d720fc618.pdf",
+            "news_date": "2025-03-27 15:02:27"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding Closure of Trading Window for the purpose of declaration of Financial Results for the quarter and Financial Year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98d16607-b268-4bc0-b58d-80b405aaa8ff.pdf",
+            "news_date": "2025-03-26 15:55:49"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Financial Officer (CFO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Financial Officer (CFO)",
+            "news_body": "Resignation of the Chief Financial Officer of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d5b066b-05fd-429f-9b68-e06ef949bd76.pdf",
+            "news_date": "2025-03-17 21:38:57"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Regarding Clarification On Price Movement.",
+            "news_body": "Announcement under Regulation 30 (LODR) - Regarding Clarification on Price Movement.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e347aff-a80c-4fd8-a1de-02060dc8be43.pdf",
+            "news_date": "2025-03-06 12:58:47"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Gabriel India Ltd",
+            "news_body": "The Exchange has sought clarification from Gabriel India Ltd on March 6 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-03-06 11:49:11"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Announcement under Regulation 30 (LODR) - regarding appointment of Mr. Prashanth SN as Chief technical officer of the Company w.e.f. 1st April 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5586f033-7da3-4cb3-a367-c4414f680589.pdf",
+            "news_date": "2025-02-28 15:56:47"
+        },
+        {
+            "co_code": 184,
+            "bse_code": 505714,
+            "isin": "INE524A01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 (LODR) regarding intimation of Analyst / Investor meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a28ca02-fcfb-4b70-9cc2-2af47ef309ef.pdf",
+            "news_date": "2025-02-27 12:17:02"
         },
         {
             "sym": "GABRIEL",
@@ -1897,6 +2997,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

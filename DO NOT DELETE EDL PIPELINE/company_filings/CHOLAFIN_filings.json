@@ -2,6 +2,72 @@
     "code": 0,
     "data": [
         {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Company confirms allotment of 104000 units of secured listed redeemable NCDs on 10th Feb 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b08f81a-3d4f-449a-9f39-99df41793e5d.pdf",
+            "news_date": "2026-02-10 19:53:20"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation on upload of transcript of Earnings call in Companys website.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e441873e-071c-486a-9cfb-8367bdde8554.pdf",
+            "news_date": "2026-02-09 19:03:46"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Advertisement on despatch of notice of postal ballot & e-voting  to shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55a17999-a8b3-476f-aba0-bf002299b5c5.pdf",
+            "news_date": "2026-02-07 22:48:30"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Intimation on despatch of postal ballot notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9de569d9-dfac-4896-85dd-9514b5ca3237.pdf",
+            "news_date": "2026-02-06 22:22:01"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Reg.31A(8) Of SEBI (LODR) Regulations",
+            "news_body": "Intimation on submission of application for promoter re-classification under Reg.31A(8) of SEBI (LODR) Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8f1a027-4523-4c59-bf0e-51e91f6135c8.pdf",
+            "news_date": "2026-02-04 17:00:45"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation on allotment of 40600 shares on exercise of ESOPs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcd1864e-c12d-499e-9ec7-4458b69f8c50.pdf",
+            "news_date": "2026-02-02 22:21:49"
+        },
+        {
             "sym": "CHOLAFIN",
             "disp": "Cholamandalam Investment",
             "bse_code": 511243,
@@ -24,6 +90,17 @@
             "sid": 685,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation on upload of audio recording of the earnings call in the Companys website.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86f3b8c1-3fd4-4c3c-b8b5-f5d9f8b4b996.pdf",
+            "news_date": "2026-02-02 21:38:35"
         },
         {
             "sym": "CHOLAFIN",
@@ -50,6 +127,50 @@
             "seg": "E"
         },
         {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose the investor presentation for the quarter ended 31 December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db7e8435-7407-4677-91a7-fc8f5247e5e9.pdf",
+            "news_date": "2026-01-30 20:46:16"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Pursuant To Regulation 31A Of SEBI(Listing Regulations)",
+            "news_body": "Intimation pursuant to Regulation 31A of SEBI(Listing Regulations) LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97b30ab0-66a5-4de6-a608-5e917e1c0cae.pdf",
+            "news_date": "2026-01-30 18:23:36"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Payment of interim dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8caa95ea-04b5-41f1-9478-136da89b1a07.pdf",
+            "news_date": "2026-01-30 17:53:51"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Recommendation of re-appointment of Mr. Anand Kumar as Independent Director of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2f2beb5-1570-4fcf-9611-5f7dd9459e9c.pdf",
+            "news_date": "2026-01-30 17:42:24"
+        },
+        {
             "sym": "CHOLAFIN",
             "disp": "Cholamandalam Investment",
             "bse_code": 511243,
@@ -72,6 +193,149 @@
             "sid": 685,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f63092b1-9a6c-4aaa-b9bd-4787e138eed3.pdf",
+            "news_date": "2026-01-30 17:31:21"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Company confirms allotment of 100000 units of secured redeemable listed NCDs on 28th Jan 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fc27959-4c83-4b56-939e-129b4b8a76ee.pdf",
+            "news_date": "2026-01-28 19:25:08"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation on Earnings call for the quarter and nine months ended 31-Dec-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38540dca-7f04-4e20-a583-71067a7b7c02.pdf",
+            "news_date": "2026-01-23 16:51:12"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Update on board meeting",
+            "news_body": "Cholamandalam Investment And Finance Company Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/01/2026 inter alia to consider and approve Update on board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43d3543b-a133-4ab8-8013-9ab93dd61576.pdf",
+            "news_date": "2026-01-23 16:26:13"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Company confirms allotment of 40000 units if secured redeemable listed NCDs on 20th Jan 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bfdefe5-139f-4ef9-94ce-84101d5bbe9b.pdf",
+            "news_date": "2026-01-20 20:29:10"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Enclosed certificate under reg.74(5) of SEBI (DP) Regulations for December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eda92d1e-5356-430f-bbfa-b0b4c801caa7.pdf",
+            "news_date": "2026-01-14 21:05:07"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Reg.31A(8) Of SEBI Listing Regulations",
+            "news_body": "Intimation on receipt of no objection under Reg.31A(8) of SEBI Listing Regulations from Stock Exchanges.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a78372f-56ec-463f-b7ae-a84ff4d680ec.pdf",
+            "news_date": "2026-01-10 13:23:19"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Conversion of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Conversion of Securities",
+            "news_body": "Intimation on conversion of CCDs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a05dd7c-3626-4e22-b55f-3d43e71829a1.pdf",
+            "news_date": "2026-01-08 13:52:39"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation on Allotment of 64690  shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a95a3db-de4f-47d2-b066-7397b6a83549.pdf",
+            "news_date": "2026-01-07 21:12:28"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5506ba4-7424-40c6-ae54-c53df31760dc.pdf",
+            "news_date": "2026-01-02 22:41:08"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results For The Quarter And Nine Months Ended 31-Dec-2025",
+            "news_body": "Cholamandalam Investment And Finance Company Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/01/2026 inter alia to consider and approve the unaudited financial results for the quarter and nine months ended 31-Dec-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6efd005d-f99c-4f81-86f5-f4f64cf8c4e4.pdf",
+            "news_date": "2026-01-02 22:39:04"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation on upload of Transcript of Investor call in Companys Website",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d36f0f2c-b1e9-4226-b3bd-961cdaafea43.pdf",
+            "news_date": "2025-12-30 16:50:19"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Company confirms allotment of 100100 units of secured redeemable listed NCDs on 24th dec 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=990b2817-42df-4dbf-81d5-b10a77f70649.pdf",
+            "news_date": "2025-12-24 19:42:42"
         },
         {
             "sym": "CHOLAFIN",
@@ -98,6 +362,160 @@
             "seg": "E"
         },
         {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation on upload of Audio recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=698bb659-ad9c-447a-9224-66143c05dc27.pdf",
+            "news_date": "2025-12-23 16:38:05"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d145e5b-6d62-4ef0-bb8d-43f9e140c42e.pdf",
+            "news_date": "2025-12-23 10:19:46"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "Intimation under reg.30(11) of SEBI (LODR)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b58bb18-1be9-47d6-9715-5cab4121ca2e.pdf",
+            "news_date": "2025-12-23 10:02:44"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03330dc5-86d7-4b7f-b019-34a5805aa42e.pdf",
+            "news_date": "2025-12-23 09:54:24"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "Intimation under Reg 30(11) of SEBI LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73b20761-5cf7-4d24-a2db-5dcc595fc780.pdf",
+            "news_date": "2025-12-23 09:31:15"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 31(A)(8) Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Enclosed Intimation under Reg. 31(A)(8) of SEBI Listing Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec37ed19-b2e6-4f45-b58b-362496e6e599.pdf",
+            "news_date": "2025-12-18 19:38:36"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of 98980 equity shares on exercise of ESOPs.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7640dd7-1684-42e8-b742-d60716dd0e59.pdf",
+            "news_date": "2025-12-18 07:13:54"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation on publication of advertisement on proposed transfer of  equity shares to IEPF.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=504451fc-6a8a-4737-8b0b-6aa9469ef112.pdf",
+            "news_date": "2025-12-04 22:28:05"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Chola confirms allotment of 50000 units of secured redeemable listed NCDs on 2nd dec 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ddda717-9892-4f02-b2a6-704168fd9795.pdf",
+            "news_date": "2025-12-02 21:13:58"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of 88583 shares on exercise of ESOPs.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07d76331-9823-40e3-a0e4-16a7da3fe8cc.pdf",
+            "news_date": "2025-11-28 22:36:13"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Company confirms allotment of 50000 units of unsecured listed sub debt ncds on 25th Nov 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=109876b4-c0a3-4cfb-af30-210cf761ac29.pdf",
+            "news_date": "2025-11-25 20:26:32"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of 123440 equity shares on exercise of ESOPs.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0be09343-0209-4ede-ad0d-aa9b7bfbfcb2.pdf",
+            "news_date": "2025-11-20 21:48:54"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of earnings call for the quarter ended 30-Sep-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d3707fb-70a6-4f69-bfa2-1a76b3f22966.pdf",
+            "news_date": "2025-11-14 22:49:28"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation On Submission Of Application For Promoter Reclassification Under Regulation 31A(8)(C)",
+            "news_body": "Intimation on submission of application for promoter re-classification under Reg.31A(8)(c) of SEBI (LODR) Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aaa96f99-84e9-4cee-82b2-743e146946ab.pdf",
+            "news_date": "2025-11-10 23:37:10"
+        },
+        {
             "sym": "CHOLAFIN",
             "disp": "Cholamandalam Investment",
             "bse_code": 511243,
@@ -120,6 +538,28 @@
             "sid": 685,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Enclosed the intimation on upload of audio recording of Analyst Meeting in Companys website.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea136b22-379d-4202-a5d2-66defc5afa2b.pdf",
+            "news_date": "2025-11-07 21:49:53"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Pursuant To Regulation 31A Of SEBI (LODR)",
+            "news_body": "Intimation pursuant to Regulation 31A of SEBI(Listing Regulations)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=031ea185-4b8a-410c-8aff-1a398113fa66.pdf",
+            "news_date": "2025-11-06 19:29:16"
         },
         {
             "sym": "CHOLAFIN",
@@ -146,6 +586,50 @@
             "seg": "E"
         },
         {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the quarter ended 30-Sep-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f81118f-f80c-4efb-8ef0-e91718328b7e.pdf",
+            "news_date": "2025-11-06 18:42:13"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 32 (1) (3) - Statement of Deviation & Variation",
+            "caption": "Statement Of Utilization Of Issue Proceeds",
+            "news_body": "Statement of utilization of issue proceeds",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d4d7277-359a-4b31-9a82-bb850da14943.pdf",
+            "news_date": "2025-11-06 17:27:03"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Press Release",
+            "news_body": "Press release for the quarter and half-year ended 30-Sep-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=accf2ecb-500c-4906-ac09-ea7935059716.pdf",
+            "news_date": "2025-11-06 17:06:01"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Press Release",
+            "news_body": "Press release for the quarter and half-year ended 30-Sep-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c99af73-ed62-4780-9d63-6035802efd1b.pdf",
+            "news_date": "2025-11-06 16:42:34"
+        },
+        {
             "sym": "CHOLAFIN",
             "disp": "Cholamandalam Investment",
             "bse_code": 511243,
@@ -168,6 +652,182 @@
             "sid": 685,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Half Year Ended 30 September 2025",
+            "news_body": "Audited Financial Results for the quarter and half year ended 30 September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b179d695-7df7-4ebd-8219-419f10567409.pdf",
+            "news_date": "2025-11-06 13:46:49"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding the Earnings Call for the quarter ended 30 September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=243b5946-46f1-4cf1-941d-bba430e61ada.pdf",
+            "news_date": "2025-10-31 10:38:16"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Enclosed 74(5) for the quarter ended 30-Sep-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c27da71b-f6e8-4e0f-a757-19d601a51c11.pdf",
+            "news_date": "2025-10-17 19:51:46"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Company confirms allotment of 55000 units of secured ncd on 14th Oct 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f65ecce8-1335-4011-80ab-2d8dc7c56963.pdf",
+            "news_date": "2025-10-14 18:58:14"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Conversion of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Conversion of Securities",
+            "news_body": "Intimation on conversion of CCDs to Equity shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed3163ee-6f5f-4cb9-ab07-a7afcb9c465d.pdf",
+            "news_date": "2025-10-08 18:16:39"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=309a088a-7383-430c-92ec-5fc0c87444d6.pdf",
+            "news_date": "2025-10-06 19:25:21"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for  To Consider And Approve The Audited Financial Results For The Quarter And Half-Year Ended September 30 2025",
+            "news_body": "Cholamandalam Investment And Finance Company Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/11/2025 inter alia to consider and approve Approve the audited financial results for the quarter and half-year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6efc0c35-e3b2-4001-b467-62463d44e2aa.pdf",
+            "news_date": "2025-10-06 18:34:14"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Reg.31 (A) (8) Of SEBI (LODR) Regulations 2015",
+            "news_body": "Enclosed intimation pertaining to receipt of re-classification request from one of the members of the promoter group",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=307aa0d3-43fe-40fc-9287-f2b330a10a6b.pdf",
+            "news_date": "2025-09-25 18:49:02"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 31(A)(8) Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Enclosed intimation pertaining to receipt of re-classification request from one of the members of the Promoter Group.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=472be9af-7609-46a3-b512-00c289b3fe7c.pdf",
+            "news_date": "2025-09-17 18:59:57"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 31(A)(8) Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Enclosed intimation pertaining to receipt of re-classification request from one of the members of the Promoter Group.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aca29526-9a49-437a-9fc8-3fe18ec3c162.pdf",
+            "news_date": "2025-09-17 18:59:06"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation on allotment 99758 equity shares on exercise of ESOPs.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb8fd6d0-be60-409c-ba67-466e93a4a312.pdf",
+            "news_date": "2025-09-14 20:17:59"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation on Newspaper advertisement regarding the \"100 days campaign - Saksham Niveshak\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f68079d-abad-472e-ab10-9922ae9578bf.pdf",
+            "news_date": "2025-09-10 21:20:46"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of advertisement regarding publication of Notice of Special Window for Re-lodgement of share transfer requests for Physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ba15160-a2ed-4281-805b-f273b37fde81.pdf",
+            "news_date": "2025-09-04 23:16:13"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation on allotment of 90967 shares on exercise of ESOPs.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0223a5e0-be32-4927-8ee6-0b96eeb97017.pdf",
+            "news_date": "2025-08-21 19:27:27"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Earnings call for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32a8ea1a-8240-41a9-94b4-7f9f47f4bb9c.pdf",
+            "news_date": "2025-08-08 18:50:00"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Chola confirms allotment of 400 unsecured redeemable listed perpetual ncds on 7th Aug 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94f419e6-d6d5-41c6-9827-24c6bff4b804.pdf",
+            "news_date": "2025-08-07 19:36:52"
         },
         {
             "sym": "CHOLAFIN",
@@ -194,6 +854,28 @@
             "seg": "E"
         },
         {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings call for the quarter ended 30 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c8e18ef-7bcb-49cc-a14d-c9f3295c28d1.pdf",
+            "news_date": "2025-08-01 21:18:37"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Enclosed the voting results and scrutinizers report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99b1cfa9-caef-4a87-bd21-d88e9b70ee7d.pdf",
+            "news_date": "2025-08-01 20:06:21"
+        },
+        {
             "sym": "CHOLAFIN",
             "disp": "Cholamandalam Investment",
             "bse_code": 511243,
@@ -216,6 +898,39 @@
             "sid": 685,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the Quarter ended 30 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e952531-22f8-4ed4-bb20-f81b634edf66.pdf",
+            "news_date": "2025-07-31 21:33:12"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 47th Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc307099-b7e8-4ad5-b851-8994dae64c64.pdf",
+            "news_date": "2025-07-31 20:31:11"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "Issue of securities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ddae368-8b3f-433d-834c-0c4d091a775a.pdf",
+            "news_date": "2025-07-31 14:56:54"
         },
         {
             "sym": "CHOLAFIN",
@@ -242,6 +957,248 @@
             "seg": "E"
         },
         {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter Ended 30 June 2025",
+            "news_body": "Unaudited Financial results for the quarter ended 30 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b92a784-26f0-454e-b982-6a9b2bc699f7.pdf",
+            "news_date": "2025-07-31 14:50:30"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding the Earnings Call for the quarter ended 30 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ec23464-b02a-4790-a3c8-21c2060ecff5.pdf",
+            "news_date": "2025-07-22 20:41:13"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Update on board meeting",
+            "news_body": "Cholamandalam Investment And Finance Company Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/07/2025 inter alia to consider and approve To consider issuance of Non-Convertible Debentures",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f33ffc72-e3f2-44f6-bc41-e9807957c379.pdf",
+            "news_date": "2025-07-22 20:10:23"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation on allotment of 30840 equity shares on exercise of ESOPs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5eab18cf-4b63-4b5f-824c-e0a8316b0a66.pdf",
+            "news_date": "2025-07-22 19:39:26"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Enclosed Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended 30-Jun-2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c199b7f8-1142-4fd0-9e7f-bf57193e7f75.pdf",
+            "news_date": "2025-07-16 17:10:22"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed Copies of advertisement regarding notice of the 47th AGM of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4634da47-8201-4300-948f-902d7ef8bc3e.pdf",
+            "news_date": "2025-07-10 22:31:11"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation on Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fb815b1-3e1e-415c-990e-e2f4116dee75.pdf",
+            "news_date": "2025-07-10 19:00:04"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Please find enclosed the annual report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60bc83c4-6175-417a-99b3-a98241ca0404.pdf",
+            "news_date": "2025-07-09 22:19:06"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 47Th Annual General Meeting",
+            "news_body": "Notice of 47th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=547912f5-cf8c-4fa1-94ad-c208e5c27397.pdf",
+            "news_date": "2025-07-09 22:12:57"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the year ended 31 March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72687367-3a22-4292-b67a-6ab6728b0e3a.pdf",
+            "news_date": "2025-07-09 21:56:54"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Meeting Of The Board Of Directors On 31 July 2025",
+            "news_body": "Cholamandalam Investment And Finance Company Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/07/2025 inter alia to consider and approve Unaudited Standalone and Consolidated Financial Results for the quarter ended 30 June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67670caa-bc47-42fe-ab6c-9a5b545722b7.pdf",
+            "news_date": "2025-07-04 20:29:43"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed the advertisement regarding convening of 47th AGM through Video Conferencing / Other Audio Visual Means",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2290c4b1-fc42-4e71-8427-87f8ef1c65c9.pdf",
+            "news_date": "2025-06-28 16:14:38"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation on allotment 75885 equity shares on exercise of ESOPs.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcaa33f2-3d1f-4158-8ef5-854514592cab.pdf",
+            "news_date": "2025-06-21 19:10:08"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Company confirms allotment of 175000 units of secured rated listed redeemable NCDs on 6th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96389e63-c4f8-4676-94fa-864b1793b791.pdf",
+            "news_date": "2025-06-06 17:46:19"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed copies of newspaper publication on the proposed transfer of shares to IEPF.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c5d907d-8384-42fa-92ef-5b257ab43e87.pdf",
+            "news_date": "2025-05-31 22:01:08"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Submission of Annual Secretarial Compliance report for the year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91bce0ec-4217-4a20-a068-12a09efbc2ff.pdf",
+            "news_date": "2025-05-30 18:00:24"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Submission of Annual Secretarial Compliance report for the year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f1f2d50-e733-4c08-ad26-7c99b3160b91.pdf",
+            "news_date": "2025-05-30 17:59:26"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Allotment of 78767 shares pursuant to ESOP on 30th May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9d9b5fa-5168-462b-a962-296e15faaa68.pdf",
+            "news_date": "2025-05-30 17:26:22"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Company confirms allotment of 53000 units of secured redeemable listed ncds.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be1fda1b-9d76-4ec4-8155-8fc14b50313b.pdf",
+            "news_date": "2025-05-28 20:19:30"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b85e8233-de90-4da6-b0d9-8b6c6afc07ea.pdf",
+            "news_date": "2025-05-13 22:14:06"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Earnings call for the quarter and year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf03e0b9-a558-48e3-884c-87ca1c91bcc3.pdf",
+            "news_date": "2025-05-06 12:56:22"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Enclosed Voting Results and Scrutinizers report of the Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f69e897-60fc-4fee-9431-254a5cc7ad4f.pdf",
+            "news_date": "2025-04-29 20:31:18"
+        },
+        {
             "sym": "CHOLAFIN",
             "disp": "Cholamandalam Investment",
             "bse_code": 511243,
@@ -264,6 +1221,28 @@
             "sid": 685,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Call for the quarter ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce5d322f-f20d-48b3-af3b-fd6a283d5c73.pdf",
+            "news_date": "2025-04-28 18:53:25"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "ESOP Allotment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=183eb6a5-4690-4cbc-9ad1-013b193f1e13.pdf",
+            "news_date": "2025-04-25 15:34:28"
         },
         {
             "sym": "CHOLAFIN",
@@ -290,6 +1269,28 @@
             "seg": "E"
         },
         {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89fa3e8f-7f70-4a8d-9abe-3058209715a0.pdf",
+            "news_date": "2025-04-25 15:24:32"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend/AGM",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Final dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a8d080e-d60d-4374-ba3a-9a0b42618e9f.pdf",
+            "news_date": "2025-04-25 15:15:18"
+        },
+        {
             "sym": "CHOLAFIN",
             "disp": "Cholamandalam Investment",
             "bse_code": 511243,
@@ -312,6 +1313,105 @@
             "sid": 685,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Year Ended 31 March 2025",
+            "news_body": "Audited Financial Results for the quarter and year ended 31 March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be5fcca9-1f3b-413a-908c-193050c88123.pdf",
+            "news_date": "2025-04-25 15:07:53"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db06709f-de0b-4776-924b-e09bcc7407f2.pdf",
+            "news_date": "2025-04-25 15:02:45"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49477a92-a099-4e84-985c-0054e7e826d9.pdf",
+            "news_date": "2025-04-25 15:01:52"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding the Earnings Call for the quarter and year ended 31 March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5df80ad7-5762-4e82-89b4-5751ef65b0e0.pdf",
+            "news_date": "2025-04-22 21:01:29"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor call pursuant to SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ac1de2b-cafe-4eb0-b303-19fb56378018.pdf",
+            "news_date": "2025-04-21 19:45:58"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Update on board meeting",
+            "news_body": "Cholamandalam Investment And Finance Company Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 25/04/2025 inter alia to consider and approve Update on board meeting - Consideration of final dividend for FY ended 31 March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=250b1708-b31e-4858-b8e5-84c517464e38.pdf",
+            "news_date": "2025-04-21 16:45:34"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "We enclose herewith the certificate received from RTA under 74(5) of SEBI (DP) Regulations 2018 for the period from 1st January 2025 to 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1317197-6673-4e8e-a458-52abc4f9fed1.pdf",
+            "news_date": "2025-04-15 20:07:19"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Company confirms allotment of 50000 unsecured listed redeemable non convertible subordinated debentures",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a948325-057e-4fad-9f40-a7bb6b067206.pdf",
+            "news_date": "2025-04-09 19:38:53"
+        },
+        {
+            "co_code": 2163,
+            "bse_code": 511243,
+            "isin": "INE121A01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e40ffd9-6da4-424d-b99f-8bbd19b7e319.pdf",
+            "news_date": "2025-04-07 20:11:07"
         },
         {
             "sym": "CHOLAFIN",
@@ -1609,6 +2709,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

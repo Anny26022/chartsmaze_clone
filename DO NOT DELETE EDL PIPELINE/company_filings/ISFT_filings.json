@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release Dated 12.02.2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=367c8b0c-b4d1-49d7-add9-e2801601adc3.pdf",
+            "news_date": "2026-02-12 17:53:03"
+        },
+        {
             "sym": "ISFT",
             "disp": "Intrasoft Technologies",
             "bse_code": 533181,
@@ -24,6 +35,17 @@
             "sid": 18479,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a75e742a-92c9-4686-866e-e262beeb7094.pdf",
+            "news_date": "2026-02-12 17:50:31"
         },
         {
             "sym": "ISFT",
@@ -50,6 +72,171 @@
             "seg": "E"
         },
         {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Quarterly Result December 2025",
+            "news_body": "Quarterly Result December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a2877ca-67bc-4673-ae04-537588d5a6bc.pdf",
+            "news_date": "2026-02-12 17:46:28"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Quarterly Results December 2025",
+            "news_body": "Quarterly Results December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0318483b-5b28-4274-aed6-9e7d3b664e21.pdf",
+            "news_date": "2026-02-12 17:32:51"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure end date 14022026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c6df8a3-fbb3-45fa-ac37-5ab53796782d.pdf",
+            "news_date": "2026-02-04 15:17:52"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Quarter And Nine Months Results For December 2025",
+            "news_body": "Intrasoft Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2026 inter alia to consider and approve Un-Audited Standalone and Consolidated Financial Results for the quarter and nine months ended on December 31 2025 along with the Limited Review Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21f52bf8-f2e9-422c-bde9-792a46037944.pdf",
+            "news_date": "2026-02-04 15:12:11"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Company Secretary / Compliance Officer",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Company Secretary / Compliance Officer",
+            "news_body": "Resignation of Company Secretary and Compliance Officer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a68ea58-775f-4927-9820-763c396c66ae.pdf",
+            "news_date": "2026-01-21 16:46:12"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "Appointment of Company Secretary and Compliance Officer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f410523-ef3c-4112-9fc1-529ed73b349d.pdf",
+            "news_date": "2026-01-21 16:43:23"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Disclosure Under Regulation 30 Of SEBI LODR Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI LODR Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d1bb98f-a2aa-4ff3-963e-e737152f84df.pdf",
+            "news_date": "2026-01-21 16:37:07"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Company Secretary / Compliance Officer",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Company Secretary / Compliance Officer",
+            "news_body": "Resignation of Company Secretary and Compliance Officer of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f1ece01-b1a1-4f98-a5cc-ce142269340b.pdf",
+            "news_date": "2026-01-14 18:50:13"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the Quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87e3d004-bb77-4b68-a381-63c69b4e4305.pdf",
+            "news_date": "2026-01-05 16:58:53"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "IntraSoft Technologies Limited has informed the exchange about the Trading Window Closure with effect from January 01 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4762d59b-0f42-476d-9b60-7194a7d58f55.pdf",
+            "news_date": "2025-12-26 13:49:52"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement published in Business Standard (English) and Pudhari (Marathi) on December 23 2025 pertaining to Special Window for re-lodgment of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c18b58c9-9eec-4352-b86f-9ddf90e7180e.pdf",
+            "news_date": "2025-12-23 12:14:54"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "We refer to our Letter dated December 03 2025 pursuant to Regulation 30 read with Regulation 37(6) of the SEBI LODR Regulations 2015 please find enclosed the draft Scheme of Merger of Wholly Owned Subsidiary of the Company with the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9122d4cf-f548-4d45-8e8a-a42bffdd5962.pdf",
+            "news_date": "2025-12-04 18:36:54"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "The Board of Directors of the Company at its meeting held on December 03 2025 subject to the requisite approvals / consents approved the Scheme of Arrangement and Merger pursuant to the applicable provisions of the Companies Act 2013.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f9fc2bf-8da8-4eb4-a365-168e1a3eb8ee.pdf",
+            "news_date": "2025-12-03 16:51:03"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For I) Further Equity Investment In WOS Of The Company And Ii) Scheme Of Arrangement And Merger",
+            "news_body": "The Board of Directors of the Company at its Meeting held on December 03 2025 subject to requisite approvals/consents approved the Scheme of Arrangement and Merger of One Two Three Greetings (India) Private Limited (123G or Transferor Company) wholly owned subsidiary of the Company with the Company. The Appointed Date of the Scheme would be April 01 2025. The meeting commenced at 03:00 P.M. and concluded at 04:00 P.M.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=784915d1-eab6-46fd-b4d0-328d4cabb978.pdf",
+            "news_date": "2025-12-03 16:27:00"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 13.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8349bdf-3022-49e3-8037-1f6363a431d6.pdf",
+            "news_date": "2025-11-13 16:53:18"
+        },
+        {
             "sym": "ISFT",
             "disp": "Intrasoft Technologies",
             "bse_code": 533181,
@@ -72,6 +259,17 @@
             "sid": 18479,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0680445-0b90-4d2c-919c-f4bb158b582f.pdf",
+            "news_date": "2025-11-13 16:50:53"
         },
         {
             "sym": "ISFT",
@@ -98,6 +296,226 @@
             "seg": "E"
         },
         {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Quarterly Results September 2025",
+            "news_body": "Quarterly Results September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bdee508-04d6-46c6-a563-8f578272478c.pdf",
+            "news_date": "2025-11-13 16:32:38"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Quarterly Results September 2025",
+            "news_body": "Quarterly Results September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7abb9be6-487b-4741-94a1-b4666b9f2f7c.pdf",
+            "news_date": "2025-11-13 16:18:50"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure end date 15112025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1ca03f5-c094-4437-8859-a9b01d0ca5d6.pdf",
+            "news_date": "2025-11-05 17:57:51"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarterly And Half-Yearly Results For September 2025",
+            "news_body": "Intrasoft Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2025 inter alia to consider and approve Un-Audited Standalone and Consolidated Financial Results for the quarter and half-year ended on September 30 2025 along with the Limited Review Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb176e54-8d45-4c00-9ed9-5b2663a7f586.pdf",
+            "news_date": "2025-11-05 17:53:15"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement published in Business Standard (English) and Pudhari (Marathi) on November 11 2025 pertaining to the following: i) Special Window for re-lodgment of transfer requests of physical shares and ii) 100 Days Campaign \"Saksham Niveshak\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8b4bf85-24b0-4040-a3cf-02ab4cd4bb04.pdf",
+            "news_date": "2025-11-04 12:43:55"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the Quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d77b0860-8a30-4361-9b13-4a32eb24fe0a.pdf",
+            "news_date": "2025-10-07 12:43:47"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "IntraSoft Technologies Limited has informed the exchange about the Trading Window Closure with effect from October 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c542ffd-9dd9-4e44-b95d-d0b454f3c71b.pdf",
+            "news_date": "2025-09-25 11:53:04"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-Appointment of The Managing Director and Whole-Time Director w.e.f. April 01 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1ebec3d-bd0b-4b29-bd3d-fa53f58f841c.pdf",
+            "news_date": "2025-09-22 16:28:38"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Announcement Of AGM Voting Results 2025",
+            "news_body": "Announcement of AGM Voting Results 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed817217-0e0f-4822-975f-62ee193e2f14.pdf",
+            "news_date": "2025-09-22 16:02:01"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot - Scrutinizers Report",
+            "news_body": "Scrutinizers Report on AGM Voting 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=889c6e04-64a7-4b5a-af3c-4a7c1099fe3b.pdf",
+            "news_date": "2025-09-22 15:58:22"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Outcome of the Annual General Meeting 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28afa902-8985-4754-9b4b-ccd5ff040fd7.pdf",
+            "news_date": "2025-09-19 16:39:40"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement published in Business Standard (English) and Pudhari (Marathi) on August 30 2025 pertaining to the following:\r\ni. Special Window for re-lodgement of transfer requests of physical shares and\r\nii) 100 Days Campaign \"Saksham Niveshak\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33ebd9d8-6974-464d-93ec-13e7475878a0.pdf",
+            "news_date": "2025-08-30 12:54:52"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding 100 Days Campaign - \"Saksham Niveshak\"",
+            "news_body": "Pursuant to the Circular dated July 16 2025 issued by IEPFA and MCA the Company has started a 100 Days Campaign \"Saksham Niveshak\" to reach out to the Shareholders whose dividend remain unpaid / unclaimed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bfdae90-0030-4856-8b2e-4af04d8fb279.pdf",
+            "news_date": "2025-08-30 12:49:54"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Notice of AGM 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac801ed2-5304-4b39-a3e9-b58579e3d134.pdf",
+            "news_date": "2025-08-23 12:14:39"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the F.Y. 2024 - 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f656f0b2-c505-4de1-a10c-56f1da2e7989.pdf",
+            "news_date": "2025-08-22 18:46:23"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For AGM 2025",
+            "news_body": "Record Date for the Annual General Meeting 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d31a8c91-2d4a-4d61-8fb9-35e930845f24.pdf",
+            "news_date": "2025-08-22 18:29:54"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Book Closure For AGM 2025",
+            "news_body": "Book Closure for the Annual General Meeting 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=656bb136-21c6-4a3c-a727-64187bf97866.pdf",
+            "news_date": "2025-08-22 18:28:05"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of AGM",
+            "news_body": "AGM scheduled to be held on 19th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f43007f-afea-4ca1-aebd-5d009b45f47d.pdf",
+            "news_date": "2025-08-22 18:25:45"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Secretarial Auditors for the first term of 5 (five) years",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b01f94b7-2ebf-49c9-998e-3d4ce1273481.pdf",
+            "news_date": "2025-08-14 17:19:40"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 14.08.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3ee2745-8148-4708-92a2-2577106d909b.pdf",
+            "news_date": "2025-08-14 17:06:38"
+        },
+        {
             "sym": "ISFT",
             "disp": "Intrasoft Technologies",
             "bse_code": 533181,
@@ -120,6 +538,17 @@
             "sid": 18479,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e36fae61-9bb4-45af-857b-f7348f316e10.pdf",
+            "news_date": "2025-08-14 17:00:14"
         },
         {
             "sym": "ISFT",
@@ -146,6 +575,105 @@
             "seg": "E"
         },
         {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Quarterly Results For June 2025",
+            "news_body": "Quarterly Financial Results for June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52a93f0e-50ef-4fdb-8d95-67d5e2979cd0.pdf",
+            "news_date": "2025-08-14 16:54:12"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Quarterly Results June 2025",
+            "news_body": "Quarterly Results June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e852bb0-9d8e-451f-92f4-936389ff1ab2.pdf",
+            "news_date": "2025-08-14 16:46:17"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure end date 16082025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5cb123b-2abf-421a-9884-150bebb42e15.pdf",
+            "news_date": "2025-08-06 13:21:37"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Quarterly Results For June 2025",
+            "news_body": "Intrasoft Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/08/2025 inter alia to consider and approve Un-Audited Standalone and Consolidated Financial Results for the quarter ended on June 30 2025 along with the Limited Review Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf08e393-f576-42e2-b430-b29a9ef9f87f.pdf",
+            "news_date": "2025-08-06 13:16:45"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the Quarter ended 30 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb3e9225-804f-42c9-aebf-e73e7c0129c9.pdf",
+            "news_date": "2025-07-07 12:26:07"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the Quarter ended 30 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b28cf792-177a-4d36-a5b8-56d53ffa44f2.pdf",
+            "news_date": "2025-07-07 12:25:22"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "IntraSoft Technologies Limited has informed the exchange about the Trading Window Closure with effect from 1st July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e8932c8-e6d5-4b52-95a4-26cb17141dc0.pdf",
+            "news_date": "2025-06-26 15:46:03"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report 31032025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23ab040e-824f-4e91-98f8-bf46f89a0102.pdf",
+            "news_date": "2025-05-29 13:28:12"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 28052025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffd419d4-7bb0-4991-a4dc-fd9512bd5a2d.pdf",
+            "news_date": "2025-05-28 17:33:02"
+        },
+        {
             "sym": "ISFT",
             "disp": "Intrasoft Technologies",
             "bse_code": 533181,
@@ -168,6 +696,17 @@
             "sid": 18479,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation dated 28052025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d21b6223-191c-44ff-9e4f-5b7bfd158a05.pdf",
+            "news_date": "2025-05-28 17:20:18"
         },
         {
             "sym": "ISFT",
@@ -194,6 +733,72 @@
             "seg": "E"
         },
         {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The FY Ended 31 March 2025",
+            "news_body": "Financial Results for the FY ended 31 March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=814d1b2d-5623-4e46-b02b-3742c2a71da0.pdf",
+            "news_date": "2025-05-28 16:58:03"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Audited Financial Results For The Financial Year Ended 31 March 2025",
+            "news_body": "Audited Financial Results for the Financial Year ended 31 March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eeca7ba0-d54d-4304-9ebf-7f8f436dd0d7.pdf",
+            "news_date": "2025-05-28 16:48:25"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window closure end date 30052025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e42005e6-0118-4096-9a05-c21fd431377d.pdf",
+            "news_date": "2025-05-20 15:50:42"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for 1. To Consider Approve And Take On Record Audited Standalone Financial Results And Consolidated Financial Results For The Financial Year 31 March 2025\r\n2. To Consider Approve And Take On Record Auditors Report On Financial Sta",
+            "news_body": "Intrasoft Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2025 inter alia to consider and approve 1. Audited Standalone Financial Results and Consolidated Financial Results for the Financial Year 31 March 2025\r\n2. Auditors Report on Financial Statements",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39e731ac-b092-45fb-a721-ad084bd58a97.pdf",
+            "news_date": "2025-05-20 15:45:59"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the Quarter ended 31 March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d72b791e-a9f7-484c-bcc7-898cc4072010.pdf",
+            "news_date": "2025-04-04 16:24:58"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "IntraSoft Technologies Limited has informed the exchange about the Trading Window Closure with effect from 1st April 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c3cf35c-4a8b-41fe-af94-385b10ba0706.pdf",
+            "news_date": "2025-03-26 18:15:36"
+        },
+        {
             "sym": "ISFT",
             "disp": "Intrasoft Technologies",
             "bse_code": 533181,
@@ -216,6 +821,39 @@
             "sid": 18479,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1477d955-3d13-44e1-8761-1f7fbb3e0a0e.pdf",
+            "news_date": "2025-02-13 17:44:39"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 13.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4727da9e-817f-4f15-9bf8-415ed9529f63.pdf",
+            "news_date": "2025-02-13 17:38:39"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "We are submitting herewith the Integrated Filing (Financial) for the Quarter and Nine Months ended 31 December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=905f9c72-c2db-4166-96c6-179c50e58a9f.pdf",
+            "news_date": "2025-02-13 17:26:15"
         },
         {
             "sym": "ISFT",
@@ -242,6 +880,83 @@
             "seg": "E"
         },
         {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Quarterly Results December 2024",
+            "news_body": "Quarterly Results December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebf2f628-ff50-4a19-b748-6fb1b155613f.pdf",
+            "news_date": "2025-02-13 17:17:48"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 13 February 2025",
+            "news_body": "Outcome of the Board Meeting held on 13 February 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=644fd6b5-beb4-42cd-acce-0eb75956e60b.pdf",
+            "news_date": "2025-02-13 17:14:05"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window closure end date 15022025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=020241a7-e1b5-4c42-b2ed-c1261e9413a6.pdf",
+            "news_date": "2025-02-05 19:27:40"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarterly Results For December 2024",
+            "news_body": "INTRASOFT TECHNOLOGIES LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2025 inter alia to consider and approve Un-Audited Standalone and Consolidated Financial Results for the Quarter and Nine Months ended on December 31 2024 and Auditors Limited Review Report for the said Period.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef5ffdf0-e9be-4ca1-9fde-bb8743ec7162.pdf",
+            "news_date": "2025-02-05 19:05:23"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the Quarter ended 31 December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df6ac4f5-af2c-4638-8fe5-44ac247965cc.pdf",
+            "news_date": "2025-01-07 14:07:01"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "IntraSoft Technologies Limited has informed the exchange about the Trading Window Closure with effect from 1st January 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd4bb3e1-b29c-4e55-95a5-384620ee2702.pdf",
+            "news_date": "2024-12-27 13:16:11"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 13.11.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1149c1c4-4927-4814-bb93-2328f5ae9de3.pdf",
+            "news_date": "2024-11-13 17:53:00"
+        },
+        {
             "sym": "ISFT",
             "disp": "Intrasoft Technologies",
             "bse_code": 533181,
@@ -264,6 +979,28 @@
             "sid": 18479,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for September 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01511816-29d7-44e3-9316-0af02871bb26.pdf",
+            "news_date": "2024-11-13 17:50:36"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 13 November 2024",
+            "news_body": "Outcome Of The Board Meeting Held On 13 November 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b83651f-0623-4f3c-bff0-139b09666620.pdf",
+            "news_date": "2024-11-13 16:56:53"
         },
         {
             "sym": "ISFT",
@@ -290,6 +1027,182 @@
             "seg": "E"
         },
         {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Quarterly Results September 2024",
+            "news_body": "Quarterly Results September 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a068b411-3462-436a-882f-dc4564f64d25.pdf",
+            "news_date": "2024-11-13 16:53:43"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window closure end date 15112024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9dffc50a-8101-4350-9f4b-914d52d047fc.pdf",
+            "news_date": "2024-11-05 18:49:25"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Quarterly Results For September 2024",
+            "news_body": "INTRASOFT TECHNOLOGIES LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2024 ,inter alia, to consider and approve Un-Audited Standalone and Consolidated Financial Results for the Quarter and Half-Year ended on September 30, 2024 andAuditors' Limited Review Report for the said Period.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e863c79-36c2-47e4-9492-7404d4b98fa0.pdf",
+            "news_date": "2024-11-05 18:41:24"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for September 2024 Quarter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=761eca76-4ad2-4058-bf0e-606f711918de.pdf",
+            "news_date": "2024-10-14 12:44:57"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure with effect from 1st October 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4a4846b-fcfd-4172-a750-55e9252623a4.pdf",
+            "news_date": "2024-09-26 12:19:02"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Announcement Of AGM Voting Results 2024",
+            "news_body": "Announcement of AGM Voting Results 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90244e2b-5054-452f-8425-ff283075d6ad.pdf",
+            "news_date": "2024-09-25 18:50:31"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "Scrutinizer Report on AGM Voting 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04fc0d44-f733-4f0b-acc1-44e64bd3b029.pdf",
+            "news_date": "2024-09-25 18:45:45"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Outcome of The Annual General Meeting 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76c1f3d3-804c-4fcb-ba3d-aa5cec439a6b.pdf",
+            "news_date": "2024-09-24 15:49:39"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Clarification With Respect To The Query Raised Vide Your Email Dated September 20, 2024",
+            "news_body": "With reference to the earlier Corporate Announcement filed under Regulation 30 of SEBI (LODR) Regulations, 2015 on July 16, 2024, we are filing additional details required",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01753086-632a-4831-82ca-28b6c58f579e.pdf",
+            "news_date": "2024-09-20 19:15:13"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Notice of AGM 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=239745ee-5b2a-4d7d-b275-d79d16b11d52.pdf",
+            "news_date": "2024-08-30 13:18:44"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the F.Y. 2023 - 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd374ec5-1547-49ab-9934-8866354a0a79.pdf",
+            "news_date": "2024-08-29 15:37:15"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Corp. Action",
+            "descriptor": "Record Date",
+            "caption": "Record Date For AGM 2024",
+            "news_body": "Record Date for Annual General Meeting 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4655525f-8c1c-4659-944e-a0fa0b1de256.pdf",
+            "news_date": "2024-08-29 15:22:51"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Corp. Action",
+            "descriptor": "Book Closure",
+            "caption": "Book Closure For AGM 2024",
+            "news_body": "Book Closure for Annual General Meeting 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b932312-0f1d-4bb3-83d5-2937bf52f89d.pdf",
+            "news_date": "2024-08-29 15:20:44"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Intimation Of AGM",
+            "news_body": "AGM scheduled to be held on 24th September 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c6d7262-c07b-4c81-85e1-30166b79c185.pdf",
+            "news_date": "2024-08-29 14:04:48"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Retirement",
+            "caption": "Announcement under Regulation 30 (LODR)-Retirement",
+            "news_body": "Retirement from the Office of Independent Director on completion of Tenure of two consecutive terms as an Independent Director of the Company on the close of Business hours on 27.08.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c39e8348-6dde-4752-8e7c-3fb36a22f3b0.pdf",
+            "news_date": "2024-08-27 18:44:28"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 13082024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cd55e0d-af9b-42dd-9ba9-b9bfc17c3a5a.pdf",
+            "news_date": "2024-08-13 18:55:39"
+        },
+        {
             "sym": "ISFT",
             "disp": "Intrasoft Technologies",
             "bse_code": 533181,
@@ -314,6 +1227,39 @@
             "seg": "E"
         },
         {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for June 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e2322d6-f302-49a2-a604-da64904d9e5b.pdf",
+            "news_date": "2024-08-13 18:53:49"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Independent Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=849e75f6-722e-4815-be58-09f8fe51b712.pdf",
+            "news_date": "2024-08-13 17:18:15"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Reg. 32 (1), (3) - Statement of Deviation & Variation",
+            "caption": "Statement Of Deviation Or Variation Under Regulation 32",
+            "news_body": "Statement of Deviation or Variations under Regulation 32",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0ab31cf-a626-4548-a403-740ca29b2b80.pdf",
+            "news_date": "2024-08-13 17:13:11"
+        },
+        {
             "sym": "ISFT",
             "disp": "Intrasoft Technologies",
             "bse_code": 533181,
@@ -336,6 +1282,160 @@
             "sid": 18479,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Quarterly Results June 2024",
+            "news_body": "Quarterly Results June 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a52455b7-1b43-4c65-9d54-0b8f3d4bac50.pdf",
+            "news_date": "2024-08-13 16:55:08"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 13 August 2024",
+            "news_body": "Quarterly Results June 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b6c66e0-60fb-40ec-9aca-876ffbd5c099.pdf",
+            "news_date": "2024-08-13 16:51:45"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure End Date 15082024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ec58caa-d4f0-491e-8b9a-3504a5079345.pdf",
+            "news_date": "2024-08-05 20:07:55"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarterly Results For June 2024",
+            "news_body": "INTRASOFT TECHNOLOGIES LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2024 ,inter alia, to consider and approve Un-Audited Standalone and Consolidated Financial Results for the Quarter ended on June 30, 2024 andAuditors' Limited Review Report for the Quarter ended on June 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8237f6a-6f19-4b01-b50a-0c63bb39a0cd.pdf",
+            "news_date": "2024-08-05 18:20:04"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "Appointment of Company Secretary & Compliance Officer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d689145-1ae5-4f60-9b77-84044f91d7ba.pdf",
+            "news_date": "2024-07-16 13:49:02"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Disclosure Under Regulation 30 Of SEBI LODR Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI LODR Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf7e7f2f-4f62-45b5-a763-0ba07462d362.pdf",
+            "news_date": "2024-07-16 13:43:13"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Company Update",
+            "news_body": "Company Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca102346-f3a6-42dc-b2cf-a254676b4d91.pdf",
+            "news_date": "2024-07-09 19:57:31"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Compliance Certificate as per SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cae2ef49-5ffb-4385-ac79-0427a051b849.pdf",
+            "news_date": "2024-07-08 15:29:26"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Resignation of Company Secretary / Compliance Officer",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Company Secretary / Compliance Officer",
+            "news_body": "Resignation of Company Secretary & Compliance officer of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=406cb543-1f4d-42bb-a6a9-d621a274396f.pdf",
+            "news_date": "2024-07-01 19:25:34"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report 31032024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20ea8982-bcbf-4330-b8ec-e99cb7bdfec9.pdf",
+            "news_date": "2024-06-30 23:00:03"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Retirement",
+            "caption": "Announcement under Regulation 30 (LODR)-Retirement",
+            "news_body": "Retirement from the Office of Independent Director on completion of Tenure of two terms as an Independent Director of the Company on the close of the Business hours on 28.06.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a076788e-c5a8-4f3d-b088-875d43f4419c.pdf",
+            "news_date": "2024-06-28 13:45:08"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Cessation(Retirement) Office of Independent Director of Mrs Savita Agarwal on completion of Tenure of two terms in the Office as an Independent Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99754d88-85bd-4c35-a13b-894b42404c03.pdf",
+            "news_date": "2024-06-28 13:35:03"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Appointment Of Independent Directors On The Board",
+            "news_body": "Appointment of Two ( 2) No of Independent Directors on the Board of the Company with effect from 28.06.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7295db38-1fe1-4ba4-9cb4-bbcffd81e41d.pdf",
+            "news_date": "2024-06-28 13:03:09"
+        },
+        {
+            "co_code": 20710,
+            "bse_code": 533181,
+            "isin": "INE566K01011",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of INDEPENDENT DIRECTORS",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae60b750-5f43-434f-9a7c-ef490eabaea3.pdf",
+            "news_date": "2024-06-28 12:58:32"
         },
         {
             "sym": "ISFT",
@@ -1105,6 +2205,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

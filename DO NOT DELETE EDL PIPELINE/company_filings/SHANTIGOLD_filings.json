@@ -2,6 +2,50 @@
     "code": 0,
     "data": [
         {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication for financial results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebe65395-b2d5-4da6-877b-076ae59f68b2.pdf",
+            "news_date": "2026-02-12 15:19:41"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Link of Analyst/Investor Conference Call for Q3FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e7d9531-ec15-40bc-895e-cd39cf0a8158.pdf",
+            "news_date": "2026-02-11 17:40:23"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2cd75d94-dc6c-41d7-9017-e40df03414df.pdf",
+            "news_date": "2026-02-10 13:56:03"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for Unaudited Financial Results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b225f015-e624-4546-bbcf-15dc43a71531.pdf",
+            "news_date": "2026-02-10 13:14:27"
+        },
+        {
             "sym": "SHANTIGOLD",
             "disp": "Shanti Gold International",
             "bse_code": 544459,
@@ -24,6 +68,17 @@
             "sid": 758002,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q3FY2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d93ab514-be77-4ff9-8903-86b3131f1cad.pdf",
+            "news_date": "2026-02-10 13:08:15"
         },
         {
             "sym": "SHANTIGOLD",
@@ -50,6 +105,138 @@
             "seg": "E"
         },
         {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Unaudited Financial Results For The Quarter Ended December 31 2025 Alongwith Limited Review Report",
+            "news_body": "Results - Unaudited Financial Results for the quarter ended December 31 2025 alongwith Limited Review Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bd53d46-3fea-43e5-b9ea-4053ed32db1f.pdf",
+            "news_date": "2026-02-10 11:50:01"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results For The Quarter Ended December 31 2025",
+            "news_body": "Outcome of Board Meeting dated February 10 2026 - unaudited financial results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bafbeeea-6479-489b-a72f-8e6db9b5025e.pdf",
+            "news_date": "2026-02-10 11:39:34"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Call for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38352cd6-6fb7-424c-8437-712cc60929df.pdf",
+            "news_date": "2026-02-06 12:45:29"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For The Quarter Ended December 31 2025",
+            "news_body": "Shanti Gold International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/02/2026 inter alia to consider and approve the unaudited financial results of the Company for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a006dd4d-c933-4387-8cde-0f0ac647a5c1.pdf",
+            "news_date": "2026-02-05 11:53:36"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification - Credit Rating",
+            "news_body": "Clarification - Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca434452-b9ed-449a-aa4a-dc5d0dea7f22.pdf",
+            "news_date": "2026-02-05 11:43:32"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Press Release - Credit Rating received by the Company from CARE Ratings Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf2f75da-8be2-4f84-b25b-748ff53c8799.pdf",
+            "news_date": "2026-01-24 14:03:04"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of Credit Rating received by the Company from CARE Ratings Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddf1150b-6f34-40a6-912a-0b649d6088d8.pdf",
+            "news_date": "2026-01-23 10:41:54"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release - Shanti Gold International Ltd. announces Capacity Expansion to cater future increase in demand",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db3bbd59-507f-4e0b-b110-42db00ef133d.pdf",
+            "news_date": "2026-01-22 12:01:18"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Proposed Capacity Expansion",
+            "news_body": "This is to inform you that the Board of Directors of Shanti Gold International Limited (the Company) at its meeting held today i.e. Thursday January 22 2026 has approved the capacity expansion of Companys jewellery manufacturing facility aimed at augmenting production capabilities to cater to growing demand across key product segments.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6833b585-3590-494c-8882-5ec11a9a204d.pdf",
+            "news_date": "2026-01-22 11:50:26"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Business Update - Q3 FY26",
+            "news_body": "Business Update - Q3 FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5f5cfec-cdad-4e5e-90d7-ddf50b53e65e.pdf",
+            "news_date": "2026-01-22 11:35:18"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0061c414-31a4-415d-b437-909374915e7b.pdf",
+            "news_date": "2026-01-07 13:05:33"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for Q3FY25-26 financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa20c187-5e46-42a6-9bdd-cdc4db22d2fc.pdf",
+            "news_date": "2025-12-26 16:24:57"
+        },
+        {
             "sym": "SHANTIGOLD",
             "disp": "Shanti Gold International",
             "bse_code": 544459,
@@ -72,6 +259,61 @@
             "sid": 758002,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Shanti Gold International Limited has informed the Exchange about Transcript - Q2 & H1 FY26 Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f8ad7f3-77e2-4653-a00b-624c8fdb8217.pdf",
+            "news_date": "2025-11-12 18:49:31"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Link of Analyst/Investor Conference Call for Q2 & H1 FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53db5d19-bfde-42cf-af31-b563f64997f3.pdf",
+            "news_date": "2025-11-06 18:05:22"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Performance Highlights For The Month Of October 2025",
+            "news_body": "Performance highlights for the month of October 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51e3a9db-b64c-4cbc-9ba4-5ed4962bfe52.pdf",
+            "news_date": "2025-11-06 16:26:21"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication for Financial Results for quarter and half-year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c45efa0-4f01-4aee-8137-a4f9ccd2ec94.pdf",
+            "news_date": "2025-11-06 11:53:26"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for Unaudited Financial Results for the quarter and half-year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46332153-dd5c-4fae-9fed-6702a964adcd.pdf",
+            "news_date": "2025-11-05 12:34:27"
         },
         {
             "sym": "SHANTIGOLD",
@@ -98,6 +340,39 @@
             "seg": "E"
         },
         {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q2FY2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9bf6464-a78b-4046-a142-ae816ca96ad3.pdf",
+            "news_date": "2025-11-05 12:31:39"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7254f41d-321a-47d9-ab1b-bb59628b3c8f.pdf",
+            "news_date": "2025-11-04 19:46:44"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "Incorporation of Wholly-Owned Subsidiary in United Arab Emirates (UAE)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23925f26-ff77-4b25-bb4a-ef20962eca3c.pdf",
+            "news_date": "2025-11-04 19:43:20"
+        },
+        {
             "sym": "SHANTIGOLD",
             "disp": "Shanti Gold International",
             "bse_code": 544459,
@@ -122,6 +397,94 @@
             "seg": "E"
         },
         {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Unaudited Financial Results For The Quarter And Half-Year Ended September 30 2025",
+            "news_body": "Results - Unaudited Financial Results for the quarter and half-year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04e799fd-3f75-412f-a34a-1c576d544eb6.pdf",
+            "news_date": "2025-11-04 18:36:27"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On Tuesday November 04 2025",
+            "news_body": "Subject: Outcome of Board Meeting held on Tuesday November 04 2025 \r\nRef: Regulation 30 & 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations)\r\n\r\nWe hereby inform you that the Board of Directors of Shanti Gold International Limited (the Company) at its meeting held today i.e. Tuesday November 04 2025 has inter-alia considered and approved the Unaudited Financial Results of the Company for the quarter and half-year ended September 30 2025 and took on record the Limited Review Report issued in this regard by the Statutory Auditor namely J. Kala & Associates Chartered Accountants.\r\n\r\nWe enclose herewith a copy of the approved Unaudited Financial Results along with the Limited Review Report issued by the Statutory Auditors.\r\n\r\nThe Board Meeting commenced at 04:20 p.m. IST and concluded at 05:10 p.m. IST.\r\n\r\nThis intimation is also being uploaded on the Companys website at www.shantigold.in. \r\n\r\nWe request you to take the same on record.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25b32af5-a787-4013-a2d8-4014135b9171.pdf",
+            "news_date": "2025-11-04 18:27:17"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Call for the quarter and half-year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81c77515-6357-4f9c-9897-90ea8a4ead05.pdf",
+            "news_date": "2025-10-30 15:10:55"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For The Quarter And Half-Year Ended September 30 2025",
+            "news_body": "Shanti Gold International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/11/2025 inter alia to consider and approve unaudited financial results for the quarter and half-year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23cef0de-7cf4-4a10-bf6b-5bc58a18fa9b.pdf",
+            "news_date": "2025-10-29 18:01:18"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c511012-cbb1-434a-9330-fe3a4d055d24.pdf",
+            "news_date": "2025-10-08 16:53:18"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Business Update - Q2 FY26",
+            "news_body": "Business Update - Q2 FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13bdda5c-af64-4e31-a574-b62166eeb50e.pdf",
+            "news_date": "2025-10-08 14:55:50"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=961bda97-8570-493a-87bf-f84d50c75f37.pdf",
+            "news_date": "2025-09-29 17:35:48"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication for Financial Results of Q1 FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=009fde42-5e73-4eb3-8362-262fe79f90a7.pdf",
+            "news_date": "2025-08-22 11:59:22"
+        },
+        {
             "sym": "SHANTIGOLD",
             "disp": "Shanti Gold International",
             "bse_code": 544459,
@@ -144,7 +507,83 @@
             "sid": 758002,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Financial Results For Quarter Ended June 30 2025",
+            "news_body": "Results - Financial Results for quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80b7ba9e-7b57-4b0b-ae18-c78a1f483b16.pdf",
+            "news_date": "2025-08-20 18:45:55"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On Wednesday August 20 2025 - Financial Results",
+            "news_body": "Subject: Outcome of Board Meeting held on Wednesday August 20 2025 - Financial Results\r\nRef: Regulation 30 & 33 of the SEBI (Listing Obligations and Disclosure Requirements)\r\nRegulations 2015 (Listing Regulations)\r\n\r\nThis is to inform you that the Board of Directors of Shanti Gold International Limited (the Company) at its meeting held today i.e. Wednesday August 20 2025 has inter-alia considered and approved the Unaudited Financial Results for the quarter ended June 30 2025 and took on record the Limited Review Report issued in this regard by the Statutory Auditor namely J. Kala & Associates Chartered Accountants.\r\n\r\nWe enclose herewith a copy of the approved Unaudited Financial Results along with the Limited Review Report issued by the Statutory Auditors.\r\n\r\nThe Board Meeting commenced at 04:00 p.m. IST and concluded at 04:30 p.m. IST.\r\n\r\nThis intimation is also being uploaded on the Companys website at www.shantigold.in. \r\n\r\nWe request you to take the same on record.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1f608ff-69c2-419b-b62d-95a92b6ed6ac.pdf",
+            "news_date": "2025-08-20 18:35:08"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Shanti Gold International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 20/08/2025 inter alia to consider and approve unaudited Financial Results for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3a810d5-b382-4f98-bc79-fd28ad76462f.pdf",
+            "news_date": "2025-08-13 15:52:54"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Pursuant To Regulation 8(1) And 8(2) Of SEBI (Prohibition Of Insider Trading) Regulations 2015",
+            "news_body": "Intimation pursuant to Regulation 8(1) and 8(2) of SEBI (Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6143eb3-9e8a-4889-bffb-8dcce0d477a5.pdf",
+            "news_date": "2025-08-01 17:48:01"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Contact Details Of Key Managerial Personnel Of The Company Authorized Under Regulation 30(5) Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Contact details of Key Managerial Personnel of the Company authorized under Regulation 30(5) of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3e6e3dd-5d49-4239-8558-b055feb11aed.pdf",
+            "news_date": "2025-08-01 17:42:04"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d5f45fd-e008-4cb6-ac3c-76ca60124cc0.pdf",
+            "news_date": "2025-08-01 17:35:32"
+        },
+        {
+            "co_code": 94412,
+            "bse_code": 544459,
+            "isin": "INE06ZD01017",
+            "ann_type": "General",
+            "descriptor": "New Listing",
+            "caption": "Listing of Equity Shares of Shanti Gold International Ltd",
+            "news_body": "Trading Members of the Exchange are hereby informed that effective from August 01 2025 the equity shares of Shanti Gold International Ltd  (Scrip Code: 544459) are listed and admitted to dealings on the Exchange in the list of B Group Securities. For further details please refer to the notice no.20250731- dated July 31 2025.",
+            "file_url": "",
+            "news_date": "2025-08-01 08:10:05"
         }
-    ],
-    "remarks": ""
+    ]
 }

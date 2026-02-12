@@ -1,5 +1,71 @@
 {
-    "code": -1,
-    "data": [],
-    "remarks": "no record fetched"
+    "code": 0,
+    "data": [
+        {
+            "co_code": 68975,
+            "bse_code": 0,
+            "isin": "INE908V01012",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Libas Consumer Products Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LIBAS_20012026120518_74_5_.pdf",
+            "news_date": "2026-01-20 00:00:00"
+        },
+        {
+            "co_code": 68975,
+            "bse_code": 0,
+            "isin": "INE908V01012",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Libas Consumer Products Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LIBAS_26122025114643_TradingWindow31122025.pdf",
+            "news_date": "2025-12-26 00:00:00"
+        },
+        {
+            "co_code": 68975,
+            "bse_code": 0,
+            "isin": "INE908V01012",
+            "ann_type": "Product launch",
+            "descriptor": "Product launch",
+            "caption": "Product launch",
+            "news_body": "Libas Consumer Products Limited has informed the Exchange about addition of  Laghu nariyal or Shreephal  as new products in its portfolio.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LIBAS_08112025141928_Announcement_Launch_of_Coconut.pdf",
+            "news_date": "2025-11-08 00:00:00"
+        },
+        {
+            "co_code": 68975,
+            "bse_code": 0,
+            "isin": "INE908V01012",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Libas Consumer Products Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LIBAS_17102025121455_74_5_.pdf",
+            "news_date": "2025-10-17 00:00:00"
+        },
+        {
+            "co_code": 68975,
+            "bse_code": 0,
+            "isin": "INE908V01012",
+            "ann_type": "Shareholders meeting",
+            "descriptor": "Shareholders meeting",
+            "caption": "Shareholders meeting",
+            "news_body": "Libas Consumer Products Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on September 29, 2025. Further, the company has submitted the Exchange a copy of Srutinizers report along with voting results.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LIBAS_29092025191701_VotingResult.pdf",
+            "news_date": "2025-09-29 00:00:00"
+        },
+        {
+            "co_code": 68975,
+            "bse_code": 0,
+            "isin": "INE908V01012",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Libas Consumer Products Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LIBAS_24092025131728_TradingWindow30092025.pdf",
+            "news_date": "2025-09-24 00:00:00"
+        }
+    ]
 }

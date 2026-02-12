@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Proposed Incorporation Of Subsidiary",
+            "news_body": "Intimation under Reg 30 of SEBI (LODR) for the Proposed Incorporation of the subsidiary.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fc51bcf-a044-460e-9502-393daf83bae5.pdf",
+            "news_date": "2026-02-12 18:19:12"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Announcement",
+            "news_body": "Disclosure under Reg 30 for modified opinion on unaudited Financial Results for the Quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b756f05-3714-4f98-9167-7c9521644d12.pdf",
+            "news_date": "2026-02-12 17:51:29"
+        },
+        {
             "sym": "PLATIND",
             "disp": "Platinum Industries",
             "bse_code": 544134,
@@ -24,6 +46,193 @@
             "sid": 22930,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For Quarter And Nine Months Ended 31St December 2025.",
+            "news_body": "Unaudited Financial results for the Quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e9e8bc2-27a2-4593-b1cd-b75617720c1b.pdf",
+            "news_date": "2026-02-12 17:40:09"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 12 February 2026",
+            "news_body": "Outcome of Board Meeting for unaudited (Consolidated and Standalone) financial results for the Quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a7d894e-78f7-4bb3-ac03-d1b7b832cb43.pdf",
+            "news_date": "2026-02-12 17:16:39"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30(6) of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 as amended we would like to inform you that the Earnings Call post announcement of Unaudited Financial Results of the Company for the quarter and nine months ended 31st December 2025 is scheduled on Friday 13th February 2026 at 03:00 p.m. (IST).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=120f6e8c-3673-4dd5-8333-299584fdd133.pdf",
+            "news_date": "2026-02-05 17:20:08"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving The Unaudited Financial Results For The Quarter And Nine Months Ended On December 31 2025",
+            "news_body": "Platinum Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2026 inter alia to consider and approve the Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter and nine months ended on December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=687d4c2d-228b-4eb6-b207-5522ef71c754.pdf",
+            "news_date": "2026-02-04 16:23:49"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Reg 30 Of SEBI (LODR) Reg 2015.",
+            "news_body": "With reference to the previous intimation vide Outcome of Board Meeting dated 13th November 2025 and pursuant to Reg 30 of SEBI (LODR) 2015 enclosed herewith the intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a18a4139-e91c-400d-82ab-ff5dfbd97a88.pdf",
+            "news_date": "2026-02-03 18:07:04"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "CERTIFICATE UNDER REG. 74(5) OF SEBI (DP) REGULATION 2018 IS ENCLOSED.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83e15228-48c0-4679-9484-44e8cc8f4db9.pdf",
+            "news_date": "2026-01-13 15:03:17"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for trading window closure for approving Unaudited (Standalone and Consolidated) financial results for Quarter and nine months ending 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fae9334-bbee-4d54-965c-e1e3a9a4a43c.pdf",
+            "news_date": "2025-12-28 18:21:54"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Parul Krishna Rana",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A1A34DEA_E66C_4158_9582_20E1C8D3A39D_111952.pdf",
+            "news_date": "2025-11-28 11:19:56"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Parul Krishna Rana & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=104E697C_47FB_4AF7_BFDE_BD8AE93831F8_105303.pdf",
+            "news_date": "2025-11-28 10:53:08"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Krishna Rana",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3AE9D095_94C2_4559_B4BE_B9391C50A57E_131916.pdf",
+            "news_date": "2025-11-24 13:19:21"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Krishna Rana",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=CAABACC3_15DC_4F97_8819_1F0401F3E0BC_130852.pdf",
+            "news_date": "2025-11-24 13:08:56"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Krishna Rana",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C5242241_1B0C_4D3C_A1F7_04F9EAC67BFE_105328.pdf",
+            "news_date": "2025-11-21 10:53:33"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Krishna Rana",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67A922DD_2F50_4705_9713_E14D03C42027_105044.pdf",
+            "news_date": "2025-11-21 10:50:48"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Krishna Rana",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9E71D02D_3E29_4B2E_A3E2_2FEF2DEF004C_174704.pdf",
+            "news_date": "2025-11-19 17:47:12"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Krishna Rana",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=CF047602_5154_456A_94F3_310BBAC44A54_171412.pdf",
+            "news_date": "2025-11-19 17:14:16"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Krishna Dushyant Rana & Others",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81CCFC59_9023_4F2D_9DF0_490DD71F1E7D_105121.pdf",
+            "news_date": "2025-11-19 10:51:26"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Krishna Dushyant Rana & Others",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2E5CBBBC_D3F4_43F1_B2A8_158F7F257762_101536.pdf",
+            "news_date": "2025-11-19 10:15:42"
         },
         {
             "sym": "PLATIND",
@@ -50,6 +259,50 @@
             "seg": "E"
         },
         {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the Unaudited Financial results for quarter and half year ended 30 september 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec9da939-813b-47cb-b998-5c311228ff58.pdf",
+            "news_date": "2025-11-18 20:05:20"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for Unaudited Financial results for quarter and half year ended 30.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80395883-acca-4190-a2aa-16b2ce10a61b.pdf",
+            "news_date": "2025-11-15 17:54:45"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for quarter ended 30 september 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d98e1f27-eed5-4dad-8fe3-9b1c0ae5a2b1.pdf",
+            "news_date": "2025-11-14 15:52:41"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Announcement",
+            "news_body": "Disclosure under reg 30 for modified opinion in financial results for quarter and half ended 30 september 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe95ed64-7334-4554-b242-12af05ce6712.pdf",
+            "news_date": "2025-11-13 22:59:03"
+        },
+        {
             "sym": "PLATIND",
             "disp": "Platinum Industries",
             "bse_code": 544134,
@@ -72,6 +325,182 @@
             "sid": 22930,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For Quarter And Half Year Ended 30 September 2025.",
+            "news_body": "Financial Results for quarter and half year ended 30 september 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cace4d3-dbef-4039-a0f1-45a2f709a5c1.pdf",
+            "news_date": "2025-11-13 21:35:41"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting for Unaudited (Standalone and Consolidated) Financial Results for quarter and half year ended 30 september 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=280ffc5c-4bf2-4045-a480-89f60679a1fb.pdf",
+            "news_date": "2025-11-13 21:29:01"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving Unaudited Financial Results For Quarter And Half Year Ended On September 30 2025.",
+            "news_body": "Platinum Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2025 inter alia to consider and approve Unaudited (Standalone and Consolidated) Financial Results For Quarter and Half Year Ended On September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9e6323b-10b9-41ca-bbbc-e87273194377.pdf",
+            "news_date": "2025-11-07 18:31:50"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Reg 30 Of SEBI (LODR) Reg 2015",
+            "news_body": "Intimation under Reg 30 of SEBI (LODR) Reg 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2f445d6-e567-43a3-865d-47350dc820fc.pdf",
+            "news_date": "2025-10-28 18:32:02"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulation for the quarter ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cd0de8e-a584-4b97-8123-fd9da9bac7c8.pdf",
+            "news_date": "2025-10-13 10:47:37"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "We have enclosed herewith Voting Results and Scrutinizers Report for the AGM held on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c65e49a9-2ac7-4696-b523-9708c4c33bbe.pdf",
+            "news_date": "2025-10-01 21:16:29"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "We have enclosed herewith Proceedings of the Annual General Meeting held today 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6662ec3-e1bf-4370-b1f8-eb3179d256df.pdf",
+            "news_date": "2025-09-30 15:40:48"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de5be5ab-d4ed-43e0-aa09-02f590be62a5.pdf",
+            "news_date": "2025-09-25 18:07:05"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Reg 30 Of SEBI (LODR) Reg. 2015.",
+            "news_body": "Intimation under Reg 30 of SEBI (LODR) Reg. 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e69011e-bf26-484b-b6c8-fc5fc5462b38.pdf",
+            "news_date": "2025-09-23 15:17:13"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement published today on 09th September 2025 in respect of 05th AGM of the Company scheduled to be held on Tuesday September 30 2025 at 12 P.M. (IST) through VC/OAVM along with information relating to e-voting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=515604ac-3043-4e43-8fcd-b779f4ed150d.pdf",
+            "news_date": "2025-09-09 13:08:19"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Letter To The Shareholders Providing Web-Link Of Annual Report",
+            "news_body": "Intimation regarding Letter to the Shareholders providing Weblink of Annual Report whose email Ids are not registered.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55d7d4ec-3614-490d-8f1c-4dffc8412fa2.pdf",
+            "news_date": "2025-09-08 21:43:10"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Pursuant to Regulation 34(1) of the SEBI Listing Regulations please find enclosed herewith the Annual Report for FY 2024-25 along with the Notice of the 05th Annual General Meeting (AGM) of the Company for the AGM scheduled to be held on Tuesday September 30 2025 at 12:00 p.m. (IST) through Video Conferencing (\"VC\") / Other Audio Visual Means (\"OAVM\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6785800b-7f47-4dd9-8d74-d52bf25a89ab.pdf",
+            "news_date": "2025-09-08 17:12:09"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 05Th AGM Scheduled To Be Held On September 30 2025.",
+            "news_body": "We have enclosed herewith Notice of 05th AGM scheduled to be held on September 30 2025 through Video Conferencing (VC) and Other Audio Visual Means (OAVM).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a27a77db-8da8-446e-bdc8-c25bc4b80ff4.pdf",
+            "news_date": "2025-09-08 16:36:42"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Announcement under Reg 30 of SEBI (LODR) for the appointment of Chief Financial Officer.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c21b6780-fbd9-4313-b756-0689b019a271.pdf",
+            "news_date": "2025-09-06 17:24:45"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting for the meeting held on 06th September 2025 for the appointment of Chief Financial Officer.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a8c8921-85d7-4197-af90-0959fc93db73.pdf",
+            "news_date": "2025-09-06 17:20:39"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Reg 30 of SEBI (LODR) - regarding Newspaper Advertisement for 05th AGM - Pre Dispatch Notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7166863-c633-4f38-a1f5-e9ca44489c7d.pdf",
+            "news_date": "2025-09-03 18:28:00"
         },
         {
             "sym": "PLATIND",
@@ -98,6 +527,72 @@
             "seg": "E"
         },
         {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecb88d23-3152-4206-94a0-3866074c7f5c.pdf",
+            "news_date": "2025-08-19 15:53:03"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=464a81eb-bc18-4347-a95e-6b684a13a1db.pdf",
+            "news_date": "2025-08-19 15:43:57"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Reg 30(LODR) - Newspaper Advertisement for approving financial results for quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d46a1d2-ff97-47ab-ae65-72992bb68ad3.pdf",
+            "news_date": "2025-08-15 16:35:03"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Announcement under Regulation 30(LODR) - Monitoring Agency Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4fce483-fe5b-455f-b326-3951e1dc163a.pdf",
+            "news_date": "2025-08-14 19:49:21"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Reg 30 Of SEBI LODR For Re-Appointment Of Cost Auditor",
+            "news_body": "Announcement under Reg 30 of SEBI LODR for re-appointment of Cost Auditor.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89975602-3292-4a39-ac41-f213ad641be4.pdf",
+            "news_date": "2025-08-14 18:58:13"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbd5045b-f690-4a44-be57-512f35c64a20.pdf",
+            "news_date": "2025-08-14 18:46:35"
+        },
+        {
             "sym": "PLATIND",
             "disp": "Platinum Industries",
             "bse_code": 544134,
@@ -120,6 +615,171 @@
             "sid": 22930,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For Quarter Ended June 30 2025.",
+            "news_body": "Financial Results for Quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67d12f2d-4d83-41a4-b930-6dd35f55c828.pdf",
+            "news_date": "2025-08-14 17:47:05"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting For Approving Quarterly Results For Period Ended June 30 2025.",
+            "news_body": "In compliance with Regulation 30 and 33 of SEBI (LODR) Regulation 2015 the Board of Director at their meeting held today has considered and approved Unaudited Financial results standalone and Consolidated for Quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72acb1e9-89d4-4d21-94ca-98e224c54eec.pdf",
+            "news_date": "2025-08-14 17:40:01"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Approving Unaudited Financial Results For Quarter Ended On June 30 2025.",
+            "news_body": "Platinum Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/08/2025 inter alia to consider and approve Unaudited (Standalone and Consolidated) Financial Results For Quarter Ended On June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe217598-12be-4f98-8d42-d5a1316bca87.pdf",
+            "news_date": "2025-08-08 18:04:12"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) For Commencement Of Commercial Production.",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) for Commencement of Commercial Production.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4c74456-a04d-435f-afbb-630d1fa509b6.pdf",
+            "news_date": "2025-08-08 17:55:30"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation under Reg 30 of SEBI(LODR) - Change in Management due to resignation of Chief Financial Officer.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3246a1a2-6b25-4908-8434-592a35b49ba5.pdf",
+            "news_date": "2025-07-16 15:47:19"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Financial Officer (CFO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Financial Officer (CFO)",
+            "news_body": "Intimation under Reg 30 of SEBI (LODR) regarding resignation of Chief Financial Officer.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=002f3257-24f2-4a2b-af89-d24071719807.pdf",
+            "news_date": "2025-07-16 15:26:23"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulation 2018 for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5712548d-5648-4133-9ac6-9c79c99af3b6.pdf",
+            "news_date": "2025-07-11 12:30:19"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Reg. 30 Of SEBI (LODR) Regarding Fire Incident Occurred At M/S Platinum Polymers And Additives.",
+            "news_body": "Intimation under Regulation 30 of SEBI (LODR) regarding the fire incident occurred at the factory of our subsidiary entity (Partnership Firm) M/s Platinum Polymers and Additives Palghar.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f126562b-589c-4e3d-9abe-d60b50b48141.pdf",
+            "news_date": "2025-07-07 14:44:44"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73ce9128-d71d-48d0-adc7-c9c52bb3a0ba.pdf",
+            "news_date": "2025-06-26 14:37:32"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Compliance report for Financial Year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cf267ed-5e16-4c55-9682-fd4681c9cdd6.pdf",
+            "news_date": "2025-05-29 17:44:04"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cedfba71-f389-4e9d-82a9-5f7a7a54481a.pdf",
+            "news_date": "2025-05-15 15:13:30"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "MONITORING AGENCY REPORT FOR THE QUARTER ENDED MARCH 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c60e1f40-03e5-4233-8b43-24fb2316beeb.pdf",
+            "news_date": "2025-05-14 18:18:26"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Reg 30(5) Of SEBI LODR For Materiality Of Event.",
+            "news_body": "Announcement under Reg 30 of SEBI LODR for Materiality of Event.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e357a18-1750-4815-9d90-5566433a15a0.pdf",
+            "news_date": "2025-05-13 21:33:23"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Reg 30 Of SEBI LODR For Postponement Of Commercial Production.",
+            "news_body": "Announcement under Reg 30 of SEBI LODR for Postponement of Commercial production.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7150c6f2-538f-4c63-a5cf-7ad53e384bbd.pdf",
+            "news_date": "2025-05-13 21:22:32"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Announcement under Regulation 30 of SEBI LODR regarding Change in Statutory Auditor and Secretarial Auditor of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5749453c-dc3d-4bd6-981c-ea6bdc02511a.pdf",
+            "news_date": "2025-05-13 21:13:29"
         },
         {
             "sym": "PLATIND",
@@ -146,6 +806,61 @@
             "seg": "E"
         },
         {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For Quarter And Year Ended 31St March 2025.",
+            "news_body": "Financials results for Quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93e40ce4-21d1-4941-8c6d-6fd1ffd6358d.pdf",
+            "news_date": "2025-05-13 21:05:42"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 13Th May 2025.",
+            "news_body": "In compliance with Regulation 30 and 33 of SEBI (LODR) Regulation 2015 the Board of Director at their meeting held today has considered and approved Audited Financial results standalone and consolidated for the Quarter and year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa3d2267-b8a4-408d-9767-5dd3dd235ac6.pdf",
+            "news_date": "2025-05-13 20:53:49"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving Audited Financial Results For Quarter And Financial Year Ended On March 31 2025.",
+            "news_body": "Platinum Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/05/2025 inter alia to consider and approve Audited Financial Results for the quarter and financial year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d36ece1-196a-41ba-ad31-119184dd48c4.pdf",
+            "news_date": "2025-05-07 16:51:13"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Reg 2018 for the Quarter ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3a44f71-343f-42b7-86e5-ce0634acc6d1.pdf",
+            "news_date": "2025-04-11 12:05:44"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading window closure.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=816a85fe-5b40-4f66-a45e-dcb030679b9d.pdf",
+            "news_date": "2025-03-26 15:43:58"
+        },
+        {
             "sym": "PLATIND",
             "disp": "Platinum Industries",
             "bse_code": 544134,
@@ -168,6 +883,83 @@
             "sid": 22930,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=846d76d2-8592-4d0e-9a9a-3f438102749c.pdf",
+            "news_date": "2025-02-17 18:12:21"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e599f0cf-5db4-46cf-9de2-e92002177c6f.pdf",
+            "news_date": "2025-02-17 18:10:05"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for Financial results for quarter and nine months ended Dec 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbbb9879-330d-4bcf-8983-a02d69946365.pdf",
+            "news_date": "2025-02-15 13:34:36"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the Quarter ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bfa825f-788b-481c-ac00-2e07bd4bde03.pdf",
+            "news_date": "2025-02-14 15:46:04"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Submission of Integrated Filing (Financial) for the Quarter ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9deb2920-c32c-4fd6-a6a2-81925d9ac016.pdf",
+            "news_date": "2025-02-13 18:02:44"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 32 (1) (3) - Statement of Deviation & Variation",
+            "caption": " Statement Of Deviation Or Variation Of Issue Proceeds For Quarter Ended December 31 2024.",
+            "news_body": "Pursuant to Reg 32 of SEBI (LODR) Reg. 2015 regarding Statement of Deviation or Variation of Issue proceeds for quarter ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2311d5b2-b338-4594-8a2d-ce88de2274bc.pdf",
+            "news_date": "2025-02-13 17:51:39"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 13Th February 2025.",
+            "news_body": "In compliance with Regulation 30 and 33 of SEBI (LODR) Regulation 2015 the Board of Director at their meeting held today has considered and approved Unaudited Financial results standalone and consolidated for the Quarter and nine months ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b8b54ff-fd43-4358-a495-4401b7d2e2b7.pdf",
+            "news_date": "2025-02-13 16:28:38"
         },
         {
             "sym": "PLATIND",
@@ -194,6 +986,61 @@
             "seg": "E"
         },
         {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": " Financial Results - Outcome Of Board Meeting Held On 13.02.2025",
+            "news_body": "Unaudited Standalone and Consolidated Financial Results for quarter and nine months ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f3951c9-b8ed-425c-becc-4631d81ff956.pdf",
+            "news_date": "2025-02-13 16:21:39"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving Unaudited Financial Results For Third Quarter And Nine Months Ended On December 31 2024",
+            "news_body": "Platinum Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2025 inter alia to consider and approve Unaudited (Standalone and Consolidated)  financial results for third quarter and nine months ended on December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=073488ca-9ac5-4450-b9a3-8aedd54283fb.pdf",
+            "news_date": "2025-02-07 14:20:03"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation under Reg 30 of SEBI (LODR) Reg 2015 regarding Change in Management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8932f2ab-dc0c-4f58-8ec5-8731233c82cf.pdf",
+            "news_date": "2025-01-28 14:56:28"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Executive Officer (CEO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Executive Officer (CEO)",
+            "news_body": "Intimation under Reg 30 of SEBI (LODR) Reg regarding resignation of Chief Executive Officer.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30656fbf-91aa-4b7b-802a-5f4c9b76bdd4.pdf",
+            "news_date": "2025-01-28 14:45:03"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulation 2018 for the Quarter ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ffaa686-9333-44f7-9bea-b29e5ba82f1b.pdf",
+            "news_date": "2025-01-09 16:28:50"
+        },
+        {
             "sym": "PLATIND",
             "disp": "Platinum Industries",
             "bse_code": 544134,
@@ -216,6 +1063,72 @@
             "sid": 22930,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Pursuant to Reg 30 of SEBI (LODR) Reg. 2015, enclosed herewith Investor Presentation for Unaudited Financial Results for the Quarter and half year ended 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27141279-be2f-46f8-a5ea-3b8c0c987d13.pdf",
+            "news_date": "2024-11-15 20:33:41"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Pursuant to Reg 30 of SEBI (LODR) Reg. 2015, enclosed herewith Press Release for unaudited financial results for Quarter and half year ended 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fb9b869-2da5-4cfc-bbf7-d8da9ce519d3.pdf",
+            "news_date": "2024-11-15 20:30:51"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Advertisement regarding Unaudited Standalone and Consolidated Financial Results for Quarter and half year ended 30th September, 2024, published in English and Marathi Newspaper on 15th November, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d49ab49-a7a0-400b-a4b2-ddf1e59cfc99.pdf",
+            "news_date": "2024-11-15 14:29:12"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Reg. 32 (1), (3) - Statement of Deviation & Variation",
+            "caption": "Statement Of Deviation Or Variation Of Issue Proceeds For Quarter Ended September 30, 2024.",
+            "news_body": "Pursuant to Reg. 32 of SEBI (LODR) Reg., 2015 regarding Statement of Deviation and Variation for Utilization of issue proceeds for Quarter ended September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a61fea4a-9ee1-4fee-8fa4-0bffd0a96014.pdf",
+            "news_date": "2024-11-14 19:19:56"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for Quarter ended September 30, 2024 issued by CRISIL Ratings Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=426aa4be-7c45-41fe-a33f-940844626b8d.pdf",
+            "news_date": "2024-11-14 19:09:28"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Registered Office Address",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Registered Office Address",
+            "news_body": "Pursuant to Reg. 30 of SEBI (LODR) Reg. 2015, we hereby inform you that the registered office of the company will be shifted within local limits.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1398cec8-4354-41ef-a6fe-0db16d777845.pdf",
+            "news_date": "2024-11-13 18:42:09"
         },
         {
             "sym": "PLATIND",
@@ -242,6 +1155,39 @@
             "seg": "E"
         },
         {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results - Outcome Of Board Meeting Held On 13.11.2024",
+            "news_body": "Unaudited Standalone and Consolidated Financial Results for Quarter and half year ended 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa51b314-40f8-40ea-a81d-4b2d855478fc.pdf",
+            "news_date": "2024-11-13 18:27:31"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 13Th November, 2024.",
+            "news_body": "In compliance with Regulation 30 and 33 of SEBI (LODR) Regulation 2015, the Board of Director at their meeting held today has considered and approved Unaudited Financial results standalone and consolidated for Quarter and Half year ended 30 September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f87b3f19-c2ab-40e9-81d1-ed8064f478da.pdf",
+            "news_date": "2024-11-13 18:22:54"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Meeting Scheduled To Be Held On 13Th November, 2024.",
+            "news_body": "Platinum Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2024 ,inter alia, to consider and approve unaudited financial results (Standalone and Consolidated) for the second quarter and half year ended on 30th september, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebe11ce9-08d1-41b2-8572-b577e75326c0.pdf",
+            "news_date": "2024-11-06 17:39:50"
+        },
+        {
             "sym": "PLATIND",
             "disp": "Platinum Industries",
             "bse_code": 544134,
@@ -266,6 +1212,149 @@
             "seg": "E"
         },
         {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Announcement under Reg 30 of SEBI (LODR) Reg. 2015 regarding Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58ab7937-778b-405a-a9b0-fab376af9892.pdf",
+            "news_date": "2024-11-06 17:03:56"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Reg 30 of SEBI (LODR) REG, 2015 regarding Schedule of Analyst/Institutional Investor meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba55994e-3b6a-49ca-b135-6eb77201741f.pdf",
+            "news_date": "2024-11-03 16:28:56"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 24Th October, 2024.",
+            "news_body": "Platinum Industries Limited has informed the exchange regarding Outcome of the Board meeting held on 24th October, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1480e758-93d5-432a-909b-c8f02220c18e.pdf",
+            "news_date": "2024-10-24 11:43:47"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Meeting Scheduled To Be Held On 24Th October, 2024.",
+            "news_body": "Platinum Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/10/2024 ,inter alia, to consider and approve to discuss and authorize to explore Acquisition opportunities and consequently explore possibilities of raising of funds.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf4e87fe-fff1-422c-b8c6-7bcb4463c27b.pdf",
+            "news_date": "2024-10-17 16:01:36"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (Depositories and Participants) Regulation, 2018 for the Quarter ended on 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62457462-c8c9-4a08-a585-0cfa44acb938.pdf",
+            "news_date": "2024-10-15 14:22:06"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "Scrutinizers Report of 04th Annual General meeting of the Company held on 27th September, 2024 at 11.00 am.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87b7a006-7363-4edd-b742-7ab29635a4f4.pdf",
+            "news_date": "2024-09-28 16:53:28"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 04th Annual General Meeting of the Company held on 27th September, 2024 at 11.00 am.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d992a4e4-ea1b-478e-8d35-cf63b909a0fe.pdf",
+            "news_date": "2024-09-27 20:10:36"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for the Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eec3600e-45d3-48b6-bc27-2315504c6170.pdf",
+            "news_date": "2024-09-27 12:45:48"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement regarding Dispatch of Notice of 04th AGM to the Shareholders.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=865412cb-5fd1-48ca-ab63-78ebc7a42753.pdf",
+            "news_date": "2024-09-06 13:16:37"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Corp. Action",
+            "descriptor": "Book Closure",
+            "caption": "Intimation For Book Closure",
+            "news_body": "Pursuant to Reg. 42 of SEBI (LODR) Reg. 2015, enclosed herewith Intimation of Book Closure for the purpose of 04th Annual General meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18a5072f-0bc1-4052-a42e-ca27d1489df6.pdf",
+            "news_date": "2024-09-05 17:01:37"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Pursuant to Reg 34(1) of SEBI (Listing Obligation and Disclosure Requirements) Reg, 2015, we have enclosed herewith Annual Report for FY 2023-24.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=728022e0-6bbb-4f14-a6ae-ff2008203232.pdf",
+            "news_date": "2024-09-05 16:47:14"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Intimation Of Notice Of The 04Th Annual General Meeting Of The Company",
+            "news_body": "Intimation of Notice of 04th Annual General Meeting of the Company scheduled to be held on 27th September, 2024 at 11.00 am.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54184509-5df2-42a2-93cb-0564132c6805.pdf",
+            "news_date": "2024-09-05 16:21:21"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "The Copies of Newspaper Advertisement published on Tuesday, 03rd September, 2024 regarding information on 04th Annual General Meeting to be held on 27th September, 2024 at 11.00 am through Video Conferencing and other Audio Visual Means.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1789ef51-c9d3-4347-b84b-e5c683b37e3c.pdf",
+            "news_date": "2024-09-03 16:59:32"
+        },
+        {
             "sym": "PLATIND",
             "disp": "Platinum Industries",
             "bse_code": 544134,
@@ -288,6 +1377,17 @@
             "sid": 22930,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 91701,
+            "bse_code": 544134,
+            "isin": "INE0PT501018",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) Reg. 2015, Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4e76e7b-fc2d-4b90-ace8-a655c9a3db8b.pdf",
+            "news_date": "2024-08-16 21:30:45"
         },
         {
             "sym": "PLATIND",
@@ -409,6 +1509,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

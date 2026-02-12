@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Acquisition by Wholly Owned Subsidiary of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=934419ba-9a6f-48ba-91a2-b19778eecab7.pdf",
+            "news_date": "2026-02-12 18:21:21"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Meeting with Investor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49eb931c-a3e5-455f-851c-fbae6565d95b.pdf",
+            "news_date": "2026-02-12 16:12:54"
+        },
+        {
             "sym": "SAATVIKGL",
             "disp": "Saatvik Green Energy",
             "bse_code": 544526,
@@ -24,6 +46,39 @@
             "sid": 759057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96e61630-6cb7-4fcd-b518-35c31125a0aa.pdf",
+            "news_date": "2026-02-09 18:19:05"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Receipt of Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a529a02-e6f1-4766-afdb-53934bc9494d.pdf",
+            "news_date": "2026-02-06 18:03:49"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publications",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1009ecf8-c0a7-4c64-b895-51ce52c3646e.pdf",
+            "news_date": "2026-02-05 17:31:45"
         },
         {
             "sym": "SAATVIKGL",
@@ -50,6 +105,50 @@
             "seg": "E"
         },
         {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recordings of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d01964f-8db0-4c6a-8a99-d4ead5385c12.pdf",
+            "news_date": "2026-02-05 12:47:26"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Investment through Right Issue in its wholly owned subsidiary company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02f8d0b5-380c-4687-9cde-febc1b0aa6c1.pdf",
+            "news_date": "2026-02-04 20:47:08"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reporting Of Violation Of SEBI(Prohibition Of Insider Trading) Regulations  2015",
+            "news_body": "Reporting of violation of SEBI ( Prohibition of Insider Trading) Regulations  2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caff2cfc-da0c-4508-bcc5-825842e85d45.pdf",
+            "news_date": "2026-02-04 19:48:03"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Sustainability Report Of The Company For FY 24-25",
+            "news_body": "Sustainability Report of the Company for FY 24-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3358ddf3-1f41-4cba-81fb-544af6e2f706.pdf",
+            "news_date": "2026-02-04 18:53:38"
+        },
+        {
             "sym": "SAATVIKGL",
             "disp": "Saatvik Green Energy",
             "bse_code": 544526,
@@ -72,6 +171,28 @@
             "sid": 759057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ba50812-af97-4a4b-9fcc-d63110ba65e2.pdf",
+            "news_date": "2026-02-04 18:38:03"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cad5852-50b5-4f42-b810-60190842d111.pdf",
+            "news_date": "2026-02-04 18:29:34"
         },
         {
             "sym": "SAATVIKGL",
@@ -98,6 +219,259 @@
             "seg": "E"
         },
         {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Nine Months Ended December 312025",
+            "news_body": "Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c223027-3d56-4e9d-8112-4d59aae191b9.pdf",
+            "news_date": "2026-02-04 18:14:03"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On February 04 2026",
+            "news_body": "Outcome of Board Meeting held on February 04 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed643571-044d-470f-9344-ee8f86e92917.pdf",
+            "news_date": "2026-02-04 18:00:05"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Conference Call Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6f25501-c092-464a-81a0-13ee8d418baa.pdf",
+            "news_date": "2026-01-29 14:50:00"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Standalone And Consolidated Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Saatvik Green Energy Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/02/2026 inter alia to consider and approve unaudited standalone and consolidated financial results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbba6171-e59f-44c3-875e-1a72730adf2c.pdf",
+            "news_date": "2026-01-28 18:24:39"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Bagging of Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b57e6cb-18cd-40a7-a433-5bf2d792b6c2.pdf",
+            "news_date": "2026-01-22 14:44:50"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizer report date January 16 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3832b6a1-7b05-4d5f-b285-a1b3f1a13684.pdf",
+            "news_date": "2026-01-16 22:46:35"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Results of Postal ballot e-voting in prescribed format under Regulation 44(3) OF SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cda546c-f05a-4a41-9993-d62124347887.pdf",
+            "news_date": "2026-01-16 22:40:27"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Intimation under regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ee2d89e-21e4-4776-a6f4-cc381cbbdd9a.pdf",
+            "news_date": "2026-01-09 22:58:18"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification /Confirmation On News Item Appearing In Media/Publication",
+            "news_body": "Clarification /Confirmation on news item appearing in Media/Publication BSE letter ref.: L/SURV/ONL/RV/APJ//(2025-2026)/ 131",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eed945f1-f034-4a7c-b8cd-50eacc13dc9b.pdf",
+            "news_date": "2026-01-09 20:42:17"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Saatvik Green Energy Ltd",
+            "news_body": "The Exchange has sought clarification from Saatvik Green Energy Ltd on January 9 2026 with reference to news appeared in https://www.business-standard.com dated January 92026 quoting \"Saatvik Green Energy bags Rs 29-cr solar EPC order\".<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2026-01-09 17:10:21"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Receipt of Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49768927-554f-4686-87e3-dc5cfc5cb66f.pdf",
+            "news_date": "2026-01-08 18:17:50"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0de83582-8f46-45fc-8030-693b9aac7bd3.pdf",
+            "news_date": "2026-01-08 17:09:14"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51f1157b-1743-44a8-bc16-372573814234.pdf",
+            "news_date": "2025-12-26 11:14:08"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Awarding of Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bfe0e73-ad4e-4da0-805f-e6c38875ed63.pdf",
+            "news_date": "2025-12-24 22:16:42"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Saatvik Green Energy Limited Commissions 2 GW In-house EPE Film Manufacturing Facility.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8ae194f-0a19-4e93-b733-1a773f25e5ca.pdf",
+            "news_date": "2025-12-23 10:43:45"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Resignation of Company Secretary and Compliance Officer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cc3c46a-e4c5-421e-b68a-b9c12221c26d.pdf",
+            "news_date": "2025-12-22 18:55:06"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Receipt of Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd73fc6b-eb5a-40c2-9f68-7c576472ae76.pdf",
+            "news_date": "2025-12-22 18:33:08"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Awarding of Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22da5ef7-1edc-4372-a731-be60350b217a.pdf",
+            "news_date": "2025-12-22 15:09:18"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd20bf1d-e53a-48e2-a0ef-62c4edafb166.pdf",
+            "news_date": "2025-12-18 13:11:44"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice dated December 11 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bc8db12-645f-418b-8aa3-6fb5602b1091.pdf",
+            "news_date": "2025-12-17 17:48:48"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Updation Of Corporate Identification Number Of The Company",
+            "news_body": "Intimation for updation of Corporate Identification Number of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbbedcb2-dabb-4eba-b263-e197dd407ee6.pdf",
+            "news_date": "2025-12-15 11:07:48"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Intimation regarding appointment of Ms. Ritu Lal (DIN:06927001) as an Additional Director in the category of Non - Executive Independent Woman Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c292029-2c50-41e6-8072-db987edf751b.pdf",
+            "news_date": "2025-12-11 14:15:55"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Intimation under regulation 30 of SEBI LODR 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=049b8af5-65f0-463a-aa70-e989f4e9cc5f.pdf",
+            "news_date": "2025-11-17 15:08:27"
+        },
+        {
             "sym": "SAATVIKGL",
             "disp": "Saatvik Green Energy",
             "bse_code": 544526,
@@ -120,6 +494,28 @@
             "sid": 759057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2ee3ca6-6aa7-49a8-a80c-5c5ce156da7f.pdf",
+            "news_date": "2025-11-13 11:07:53"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f3a4e5b-2e5a-412b-91e0-b4ba441079e5.pdf",
+            "news_date": "2025-11-12 15:08:59"
         },
         {
             "sym": "SAATVIKGL",
@@ -146,6 +542,28 @@
             "seg": "E"
         },
         {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a5804a9-0c7b-44ea-8174-ffb5e241a191.pdf",
+            "news_date": "2025-11-10 15:42:08"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5157b03-d37d-4c26-b888-851239145a66.pdf",
+            "news_date": "2025-11-07 14:58:38"
+        },
+        {
             "sym": "SAATVIKGL",
             "disp": "Saatvik Green Energy",
             "bse_code": 544526,
@@ -168,6 +586,50 @@
             "sid": 759057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Unaudited Financial Results for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9b4e18b-8948-47c8-bb44-11727aaf058a.pdf",
+            "news_date": "2025-11-06 20:09:22"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cf1b62e-8ca4-4b41-a330-a98610d29a42.pdf",
+            "news_date": "2025-11-06 18:27:34"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Addition in Senior Managerial Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8690c714-1659-4608-ae76-15bc53fd98be.pdf",
+            "news_date": "2025-11-06 17:55:45"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For The Unaudited Financial Results For The Quarter Ended On September 302025",
+            "news_body": "Board Meeting Outcome for the Unaudited Financial Results for the quarter ended on September 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04e8fec4-3f6b-439c-a1f6-6e196c8e18a1.pdf",
+            "news_date": "2025-11-06 17:34:42"
         },
         {
             "sym": "SAATVIKGL",
@@ -194,6 +656,94 @@
             "seg": "E"
         },
         {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome For The Board Meeting Dated November 06 2025.",
+            "news_body": "Outcome for the Board Meeting dated November 06 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=785159d8-d7a1-463f-a641-514d97d2a1e8.pdf",
+            "news_date": "2025-11-06 17:24:13"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Intimation under regulation 30 of SEBI (LODR) regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5323d840-c486-4fa4-bcc6-14a7cb71ba73.pdf",
+            "news_date": "2025-11-05 22:10:32"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "In compliance with Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 we wish to inform you that a conference call has been organized on Monday November 10 2025 at 11:00 A.M. (IST) to discuss the Unaudited Financial Results for the quarter & half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e493589-b672-4dcd-ab22-6bc3aa27d3d3.pdf",
+            "news_date": "2025-11-04 16:45:54"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of The Unaudited Financial Results Of The Company For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Saatvik Green Energy Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/11/2025 inter alia to consider and approve the Unaudited Financial Results of the Company for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=591b42b6-f76e-443a-9def-7322df5f587d.pdf",
+            "news_date": "2025-10-30 18:06:08"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Resignation of Mrs. Sarita Rajesh Zele from the Board of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b84b02d-3f74-49e4-ab69-c8d6e13788de.pdf",
+            "news_date": "2025-10-29 17:33:14"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Intimation Under Reg 30 of SEBI (LODR) 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d024529-5e25-4630-a66e-cced698f6147.pdf",
+            "news_date": "2025-10-28 19:01:02"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Intimation under Regulation 30 of SEBI (LODR) 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c332270a-fb34-4281-9228-9c3a42c1177a.pdf",
+            "news_date": "2025-10-14 23:00:57"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Intimation under Regulation 30 of SEBI (LODR) 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=584d9224-a665-4439-bfae-4d0dbaa24b3d.pdf",
+            "news_date": "2025-10-14 22:55:37"
+        },
+        {
             "sym": "SAATVIKGL",
             "disp": "Saatvik Green Energy",
             "bse_code": 544526,
@@ -216,6 +766,17 @@
             "sid": 759057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=833e2278-a14f-45b0-b3cc-4865519aeb08.pdf",
+            "news_date": "2025-10-14 14:39:30"
         },
         {
             "sym": "SAATVIKGL",
@@ -242,6 +803,72 @@
             "seg": "E"
         },
         {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation for Audio Recording of Earnings Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f10aec9f-93f7-4965-a023-beb194b1fcf0.pdf",
+            "news_date": "2025-10-10 18:07:32"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in the Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3cb22b6-cf37-43cc-bd3b-a26b3f86d84e.pdf",
+            "news_date": "2025-10-10 16:59:14"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Extract of Unaudited Financial Results for quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd699768-6673-470e-aa5f-10e9df8e2f6f.pdf",
+            "news_date": "2025-10-09 17:44:51"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Extract of Unaudited Financial Results for quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab6fff12-2d5e-4a03-ad60-921e552c6910.pdf",
+            "news_date": "2025-10-09 17:43:23"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Volume Movement",
+            "news_body": "Clarification on Volume Movement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7493539-6895-44a1-a0e6-e0d6eb289af9.pdf",
+            "news_date": "2025-10-09 15:45:44"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Saatvik Green Energy Ltd",
+            "news_body": "The Exchange has sought clarification from Saatvik Green Energy Ltd on October 09 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-10-09 14:17:13"
+        },
+        {
             "sym": "SAATVIKGL",
             "disp": "Saatvik Green Energy",
             "bse_code": 544526,
@@ -266,6 +893,39 @@
             "seg": "E"
         },
         {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5df27f98-16da-4f39-819a-c0ceab090c1f.pdf",
+            "news_date": "2025-10-09 12:28:20"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on the Unaudited Financial Results (Standalone and Consolidated) for the quarter ended on June 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=facb3c15-9283-490a-a043-7752f314476e.pdf",
+            "news_date": "2025-10-08 20:13:33"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Launch Of New Product Under Regulation 30 Of SEBI (LODR) Regulations  2015",
+            "news_body": "Update on Launch of New Product under Regulation 30 of SEBI (LODR) Regulations  2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=883cc5ad-ead8-4aa0-8dfb-558a67b69e4e.pdf",
+            "news_date": "2025-10-08 18:06:54"
+        },
+        {
             "sym": "SAATVIKGL",
             "disp": "Saatvik Green Energy",
             "bse_code": 544526,
@@ -288,7 +948,138 @@
             "sid": 759057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d69d7c7f-e57b-4874-8442-0a46e6460593.pdf",
+            "news_date": "2025-10-08 17:54:42"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated October 08 2025",
+            "news_body": "Outcome of Board Meeting dated October 08 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d577043e-84fa-4606-8788-4295d236ba1b.pdf",
+            "news_date": "2025-10-08 17:48:57"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Intimation under Regulation 30 of SEBI (LODR) Regulations  2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d307e48-ed76-4c47-aaf3-3f79d42f53e8.pdf",
+            "news_date": "2025-10-07 20:40:32"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Intimation under Regulation 30 of SEBI (LODR) Regulations2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=874d68ac-566b-4eba-9009-3dbebc037807.pdf",
+            "news_date": "2025-10-07 20:32:08"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Schedule of Investors call under Regulation 30 of SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8344a495-1754-452c-9978-c33a251e7533.pdf",
+            "news_date": "2025-10-07 20:09:19"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations  2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4430a4bb-42ee-4e4b-9336-5ff586ae32fb.pdf",
+            "news_date": "2025-10-07 16:29:40"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Financial Results Of The\r\nCompany For The Quarter Ended June 30 2025",
+            "news_body": "Saatvik Green Energy Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 08/10/2025 inter alia to consider and approve the Unaudited Financial Results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aeefc5f3-4836-4005-9662-78c288d60a57.pdf",
+            "news_date": "2025-09-30 13:14:12"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for the quarter ending on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=885edd05-b622-4f31-b4d5-6737b5a45512.pdf",
+            "news_date": "2025-09-30 12:42:14"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b52f24be-cb18-4534-8b77-a1657ee046dd.pdf",
+            "news_date": "2025-09-29 18:21:09"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Code of Conduct under SEBI (PIT) Regulations 2015",
+            "caption": "Announcement under Regulation 30 (LODR)-Code of Conduct under SEBI (PIT) Regulations 2015",
+            "news_body": "Intimation under Regulation 8(2) of the SEBI (Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db903e03-8141-4d7c-af72-50c6b6d89513.pdf",
+            "news_date": "2025-09-29 18:15:52"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30(5) Of The SEBI (Listing Obligations And Disclosure Requirements Regulations) 2015",
+            "news_body": "Intimation under Regulation 30(5) of the SEBI (Listing Obligations and Disclosure Requirements Regulations) 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb790024-bca4-49b4-abdb-a7ca1b450eb4.pdf",
+            "news_date": "2025-09-29 17:18:20"
+        },
+        {
+            "co_code": 94178,
+            "bse_code": 544526,
+            "isin": "INE13B501022",
+            "ann_type": "General",
+            "descriptor": "New Listing",
+            "caption": "Listing of Equity Shares Saatvik Green Energy Ltd",
+            "news_body": "Trading Members of the Exchange are hereby informed that effective from September 26 2025 the equity shares of Saatvik Green Energy Ltd (Scrip Code: 544526) are listed and admitted to dealings on the Exchange in the list of B Group Securities. For further details please refer to the notice no. 20250925- dated September 25 2025.",
+            "file_url": "",
+            "news_date": "2025-09-26 08:00:12"
         }
-    ],
-    "remarks": ""
+    ]
 }

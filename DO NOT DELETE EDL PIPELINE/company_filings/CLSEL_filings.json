@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for OUTCOME OF BOARD MEETING",
+            "news_body": "OUTCOME OF BOARD MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fa4e0ec-30c1-4bdc-837e-e112cee2e378.pdf",
+            "news_date": "2026-02-12 17:13:50"
+        },
+        {
             "sym": "CLSEL",
             "disp": "Chaman Lal Setia Exports",
             "bse_code": 530307,
@@ -24,6 +35,83 @@
             "sid": 3482,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "FINANCIAL RESULTS",
+            "news_body": "FINANCIAL RESULTS FOR QUARTER ENDED 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a918b34-c016-44b4-b524-1f3e0c35e5bc.pdf",
+            "news_date": "2026-02-12 17:10:54"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF CONCALL",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb6f665a-02df-4560-9931-bbf6f7c53816.pdf",
+            "news_date": "2026-02-06 16:36:51"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for INTIMATION OF BOARD MEETING",
+            "news_body": "Chaman Lal Setia Exports Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2026 inter alia to consider and approve INTIMATION OF BOARD MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6763d3e-0db4-4d1c-9918-669e217b96c2.pdf",
+            "news_date": "2026-01-29 16:03:13"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg.74(5) of SEBI Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c3b6231-d63b-47cf-beee-5c022280ebec.pdf",
+            "news_date": "2026-01-07 14:41:32"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of  Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7001fd0a-6f27-4fa7-b86b-ad7787af8608.pdf",
+            "news_date": "2025-12-24 15:58:35"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF INVESTOR MEET",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c10eeb0e-7de9-4e0b-a2dd-d185427c2bd1.pdf",
+            "news_date": "2025-12-23 14:32:41"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF INVESTOR MEET",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=134883ac-5bc3-4c91-ae7d-b2fbbfa685b5.pdf",
+            "news_date": "2025-12-12 14:47:44"
         },
         {
             "sym": "CLSEL",
@@ -50,6 +138,39 @@
             "seg": "E"
         },
         {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Q2 FY26 Earning Call  Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24e62f7c-5c11-47bb-844b-20e640ac8a14.pdf",
+            "news_date": "2025-11-15 16:40:00"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "NEWSPAPER PUBLICATION OF UN-AUDITED FINANCIAL RESULTS FOR THE QUARTER ENDED 30-09-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d5383a0-9f16-4102-883b-a7477b20eff3.pdf",
+            "news_date": "2025-11-13 15:08:40"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Concall Audio Link",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a51b5968-420b-4052-bb53-9250763b85ed.pdf",
+            "news_date": "2025-11-12 16:59:57"
+        },
+        {
             "sym": "CLSEL",
             "disp": "Chaman Lal Setia Exports",
             "bse_code": 530307,
@@ -72,6 +193,28 @@
             "sid": 3482,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=462f627c-d427-4e84-ae81-75551f5c8174.pdf",
+            "news_date": "2025-11-12 10:48:26"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for UNAUDITED FINANCIAL RESULTS FOR THE QUARTER ENDED 30.09.2025",
+            "news_body": "UNAUDITED FINANCIAL RESULTS FOR THE QUARTER ENDED 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c8094a4-e9e3-498b-8100-35cd96d5081c.pdf",
+            "news_date": "2025-11-11 18:26:08"
         },
         {
             "sym": "CLSEL",
@@ -98,6 +241,314 @@
             "seg": "E"
         },
         {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "UNAUDITED FINANCIAL RESULTS FOR QUARTER ENDED 30.09.2025",
+            "news_body": "UNAUDITED FINANCIAL RESULTS FOR QUARTER ENDED 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0c3e0ef-172e-43ed-bc9f-56470d660d5a.pdf",
+            "news_date": "2025-11-11 18:23:05"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of concall-Schedule of Meet Registration Link\r\nhttps://us02web.zoom.us/meeting/register/fjK4esTVQ6GkxC6aQX2c3w",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e9fabd8-f2bc-4b8f-8e82-6bebfd6d3012.pdf",
+            "news_date": "2025-11-05 16:06:31"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF CONCALL",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a97ca551-333b-43d1-9ffc-e9a507d7b350.pdf",
+            "news_date": "2025-11-05 13:52:08"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "Chaman Lal Setia Exports Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/11/2025 inter alia to consider and approve Intimation  of Board meeting  for approval of unaudited financial results for quarter ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40545048-36f1-41e6-baf6-79c02649174f.pdf",
+            "news_date": "2025-11-03 15:51:29"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg. 74(5) of SEBI (DP) Regulation 2018 for the Q.E 30.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60f5874b-3244-4539-84c6-c43d96548c11.pdf",
+            "news_date": "2025-10-11 15:50:58"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of notice Published  in Newspaper with respect to Transfer of Equity Shares of Company on which dividend is unpaid/unclaimed for seven consecutive years of Investor Education and Protection Fund (IEPF).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c7e6477-0687-4da3-99d3-50f3ff429e63.pdf",
+            "news_date": "2025-10-10 15:25:32"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f006c8c0-2904-480a-852a-23999136401f.pdf",
+            "news_date": "2025-09-26 18:42:06"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Voting Results Along With Scrutinizers Report",
+            "news_body": "Voting Results along with scrutinizers report of 31st AGM of Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7246bae9-6c56-41ff-b138-dcf444df0450.pdf",
+            "news_date": "2025-09-24 14:40:57"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "VOTING RESULTS ALONGWITH SCRUTINIZERS REPORT.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a83f4b27-7b45-4ede-8104-518c45e4b1ae.pdf",
+            "news_date": "2025-09-24 14:35:15"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 31st Annual General Meeting of Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa4dd5a0-9e1e-408b-965e-c8718839d80f.pdf",
+            "news_date": "2025-09-22 18:11:53"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9328bcb7-a260-4f99-82db-fcf1774cbf5e.pdf",
+            "news_date": "2025-09-16 15:36:28"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF INVESTOR MEET",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=adfdb73d-06e0-4d99-b804-b7afc0d43ef0.pdf",
+            "news_date": "2025-09-16 15:09:12"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of one to one investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb25749c-3a69-470d-9519-d019a7e1f836.pdf",
+            "news_date": "2025-09-04 16:52:53"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Notice of Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcacef6a-8840-4572-854b-a1c221c571e6.pdf",
+            "news_date": "2025-09-02 16:04:33"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of special window for Re-lodgement of transfer request",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b39b666-6b72-4edd-b5ab-5f63c43c5688.pdf",
+            "news_date": "2025-08-30 19:15:37"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "INTIMATION OF NEWSPAPER PUBLICATIONS FOR INTIMATION OF ANNUAL GENERAL MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02b6819e-8454-4638-b1db-d849f3f81a71.pdf",
+            "news_date": "2025-08-30 19:09:51"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "BUSINESS RESPONSIBILITY AND SUSTAINABILITY REPORTING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fbf4cfb-9329-495d-9e76-44dc01b37439.pdf",
+            "news_date": "2025-08-29 21:09:01"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "ANNUAL REPORT FOR THE FY 2024-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d7e0581-8c51-4fae-aa8c-3c01c53bc71b.pdf",
+            "news_date": "2025-08-29 19:26:47"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "NOTICE OF ANNUAL GENERAL MEETING",
+            "news_body": "NOTICE OF ANNUAL GENERAL MEETING TO BE HELD ON 22.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4584d94-e55c-4c2b-bc33-7f432d27a297.pdf",
+            "news_date": "2025-08-29 18:52:31"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Annual General Meeting ",
+            "news_body": "Intimation of Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a23602eb-30cc-447c-9fa1-636f487b8d53.pdf",
+            "news_date": "2025-08-27 16:35:20"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date.",
+            "news_body": "Intimation of Record Date .",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7814a99a-9a5b-4a4f-867e-c9fd054a5584.pdf",
+            "news_date": "2025-08-27 16:29:17"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Intimation Of Book Closure",
+            "news_body": "Intimation of Book Closure.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4afa9fc2-6646-446d-89d7-8dbde4303867.pdf",
+            "news_date": "2025-08-27 16:27:14"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for OUTCOME OF THE BOARD MEETING",
+            "news_body": "OUTCOME OF THE BOARD MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e77d60b-3137-41d9-8a63-510454ca9252.pdf",
+            "news_date": "2025-08-26 18:32:21"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication under IEPF 100 days campaign titled \"SAKSHAM NIVESHAK\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50fc2009-864e-417a-8805-ef9ddc5912e1.pdf",
+            "news_date": "2025-08-21 17:53:54"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd5b9576-a572-467c-9b2f-68a6827e6e76.pdf",
+            "news_date": "2025-08-19 17:28:07"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "VOTING RESULTS ALONG WITH SCRUTINIZERS REPORT OF POSTAL BALLOT",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd6ecc9d-35ad-4e1c-92da-1ce3a2721fe7.pdf",
+            "news_date": "2025-08-14 18:05:03"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "VOTING RESULTS ALONG WITH SCRUTINIZERS REPORT OF POSTAL BALLOT",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db4ecd77-18f7-4edc-a1fc-28e743db77b7.pdf",
+            "news_date": "2025-08-14 18:01:09"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=640bf952-4636-480b-9f77-467f6dc7411e.pdf",
+            "news_date": "2025-08-13 16:48:38"
+        },
+        {
             "sym": "CLSEL",
             "disp": "Chaman Lal Setia Exports",
             "bse_code": 530307,
@@ -120,6 +571,50 @@
             "sid": 3482,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Q1 FY26 Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78851f6e-ed21-4d7d-80f0-fc4875514ce5.pdf",
+            "news_date": "2025-08-12 15:52:17"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "INTIMATION OF CREDIT RATING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb85bd01-4c6b-43af-ab13-a106686089b9.pdf",
+            "news_date": "2025-08-07 19:11:10"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fcd4e31-f85d-411d-944d-f9297c2b15ef.pdf",
+            "news_date": "2025-08-07 17:59:37"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Concall Audio link",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91f337bc-a7d9-4c20-b6f6-aa80cce4abde.pdf",
+            "news_date": "2025-08-06 18:15:47"
         },
         {
             "sym": "CLSEL",
@@ -146,6 +641,17 @@
             "seg": "E"
         },
         {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d09ecd22-40ad-477f-bcbd-e503818fde9a.pdf",
+            "news_date": "2025-08-05 20:02:12"
+        },
+        {
             "sym": "CLSEL",
             "disp": "Chaman Lal Setia Exports",
             "bse_code": 530307,
@@ -168,6 +674,171 @@
             "sid": 3482,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited  Results For The Quarter Ended 30.06.2025",
+            "news_body": "Unaudited Results for the Quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bab64b9-75b5-42cd-a96c-c395104a92b4.pdf",
+            "news_date": "2025-08-05 16:19:07"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3389628f-f09a-4190-b95d-6008465d4c11.pdf",
+            "news_date": "2025-08-05 16:12:53"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Concall.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9589d7a-9457-44eb-9a97-02b39f2bf135.pdf",
+            "news_date": "2025-07-29 15:13:16"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for INTIMATION OF BOARD MEETING",
+            "news_body": "Chaman Lal Setia Exports Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/08/2025 inter alia to consider and approve INTIMATION OF BOARD MEETING  FOR APPROVAL OF UN-AUDITED FINANCIAL RESULTS FOR THE QUARTER ENDED 30.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=803cb5a8-4a9e-4a64-9566-364a32e38186.pdf",
+            "news_date": "2025-07-24 17:20:19"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30(LODR)-Newspaper Advertisement regarding postal ballot notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11a060dc-62b7-4bb1-9dbf-b4e01b1792ce.pdf",
+            "news_date": "2025-07-14 16:39:33"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg.74(5) of SEBI (DP) Regulations2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f628a1fd-4684-491a-9f50-a8bc08bc52c1.pdf",
+            "news_date": "2025-07-14 16:33:05"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Intimation of Postal Ballot Notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f9e3c6a-af29-41f3-b048-8356ab077e2b.pdf",
+            "news_date": "2025-07-12 14:44:57"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Waiver Of Fines Paid",
+            "news_body": "Intimation of waiver of fines paid",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b8ee79c-690d-48ba-bea2-c903e9767a27.pdf",
+            "news_date": "2025-07-04 17:30:06"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation of change in management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46f823fd-0c18-48e4-8343-99d94d2404ae.pdf",
+            "news_date": "2025-07-03 18:02:36"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for OUTCOME OF BOARD MEETING",
+            "news_body": "OUTCOME OF BOARD MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6e55b8a-903c-4924-bb28-ae0db41c27fb.pdf",
+            "news_date": "2025-07-03 17:54:03"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Shifting Of Processing Facilities And Commencement Of Commercial Operations",
+            "news_body": "Intimation of shifting of processing facilities and commencement of commercial operations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bbd99fa-3ff3-4bab-98fe-cd2750dea121.pdf",
+            "news_date": "2025-07-03 12:18:53"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd6c4fed-af1b-4312-866e-887fc8ffe641.pdf",
+            "news_date": "2025-06-26 17:45:34"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of investor meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb8443eb-ff9c-46fd-b23e-724e0f93a52f.pdf",
+            "news_date": "2025-06-10 15:24:05"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eda56e01-d912-4c8a-952e-ed337c5a9a1f.pdf",
+            "news_date": "2025-06-10 15:22:46"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f883e758-2d53-4e19-8dcc-41851a56b006.pdf",
+            "news_date": "2025-06-10 15:21:28"
         },
         {
             "sym": "CLSEL",
@@ -194,6 +865,50 @@
             "seg": "E"
         },
         {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "TRANSCRIPT OF CONCALL HELD ON 29.05.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc8d13ce-aa7b-4930-ad96-6134cd98c39c.pdf",
+            "news_date": "2025-06-02 14:20:03"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Audited Financial Results of the Company for the quarter and financial year ended March 312025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24d1d3c3-736f-4168-bd1e-13ec572ab38c.pdf",
+            "news_date": "2025-05-31 13:56:30"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the Financial Year Ended 31.03.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14ae6c7f-589a-4471-bcf5-f1ece1adfa95.pdf",
+            "news_date": "2025-05-30 17:48:39"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Concall audio of Q4 FY25 results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=039fd602-b388-4866-8e5b-c3a8715e6747.pdf",
+            "news_date": "2025-05-29 18:56:11"
+        },
+        {
             "sym": "CLSEL",
             "disp": "Chaman Lal Setia Exports",
             "bse_code": 530307,
@@ -216,6 +931,39 @@
             "sid": 3482,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40207feb-e5bc-43c0-a321-dc2ba0d9b2c0.pdf",
+            "news_date": "2025-05-29 13:09:02"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Board Comments On Fine Levied By The Exchange",
+            "news_body": "Board comments of fine levied by the Exchange.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fed0b05e-8ab7-4d6b-8f8a-f6d75385c7fd.pdf",
+            "news_date": "2025-05-28 19:30:01"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of M/S.SUNIL DHAWAN AND ASSOCIATES as Secretarial Auditor.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c5db442-dc1e-48b5-84aa-905b41827aad.pdf",
+            "news_date": "2025-05-28 19:14:34"
         },
         {
             "sym": "CLSEL",
@@ -242,6 +990,127 @@
             "seg": "E"
         },
         {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Results For Quarter And Year Ended 31.03.2025.",
+            "news_body": "Audited Results for Quarter and Year Ended 31.03.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac907994-6dc7-4da2-8af8-3bbd04e72869.pdf",
+            "news_date": "2025-05-28 17:51:43"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for OUTCOME OF THE BOARD MEETING",
+            "news_body": "OUTCOME OF THE BOARD MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa83d755-aba7-4b70-a3a0-860416964966.pdf",
+            "news_date": "2025-05-28 17:43:53"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Post Earning Conference Call for the Quarter and Year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=658366d7-4e36-45a9-8eaf-b1344b117440.pdf",
+            "news_date": "2025-05-20 16:40:58"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for INTIMATION OF BOARD MEETING",
+            "news_body": "Chaman Lal Setia Exports Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2025 inter alia to consider and approve  INTIMATION OF BOARD MEETING  TO CONSIDER AND APPROVE THE AUDITED FINANCIAL RESULTS OF THE COMPANY  FOR THE QUARTER AND YEAR ENDED 31.03.2025 AND RECOMMENDATION OF DIVIDEND IF ANY.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29b26ad5-1636-43d7-a858-6eadc65f1eab.pdf",
+            "news_date": "2025-05-12 15:04:57"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Chaman Lal Setia Exports Ltd-</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L51909PB1994PLC015083</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>56.26</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>A</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CRISIL LTD.</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: KANIKA NEVTIA <br/>  Designation: COMPANY SECRETARY CUM COMPLIANCE OFFICER <br/> EmailId: clsetia@rediffmail.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Rajeev Setia <br/> Designation: JOINT MANAGING DIRECTOR AND CFO <br/> EmailId: CLSEL@MAHARANIRICE.IN</div> </div> <div> <br/> Date: 30/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=553176da-f114-4bcb-adbc-a38909e55060.pdf",
+            "news_date": "2025-04-30 17:21:49"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance-Certificate under Reg.74(5) of SEBI(DP)Regulations2018 for the quarter ended 31.03.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f588a0cf-d7e2-412f-9f98-c89789f875ca.pdf",
+            "news_date": "2025-04-05 15:47:11"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "INTIMATION OF CLOSURE OF TRADING WINDOW",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c8831b0-7136-454c-8df9-41abbd8f0273.pdf",
+            "news_date": "2025-03-25 14:10:33"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b739a41-cfee-47a4-b930-ae6987c415a0.pdf",
+            "news_date": "2025-03-20 13:59:01"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF INVESTOR MEET",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05ef40e8-bc39-43b0-b0fb-8967f8b89040.pdf",
+            "news_date": "2025-03-13 15:46:30"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF INVESTOR MEET",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0b5276c-e018-42b5-a5ba-141218782415.pdf",
+            "news_date": "2025-03-10 16:45:45"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF INVESTOR MEET",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4563933-ea45-473b-a5ae-3b2f7e944935.pdf",
+            "news_date": "2025-03-10 16:43:52"
+        },
+        {
             "sym": "CLSEL",
             "disp": "Chaman Lal Setia Exports",
             "bse_code": 530307,
@@ -264,6 +1133,28 @@
             "sid": 3482,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "TRANSCRIPT OF CONCALL HELD ON 11.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9e48ec0-6714-45c2-b82e-c2292a7e88a8.pdf",
+            "news_date": "2025-02-15 16:40:12"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Link For Audio Recording of Investors Conference Call for Chaman Lal Setia Exports Ltd. for the Quarter ended 31.12.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b25f7f62-3741-4374-93f4-c3424df5801f.pdf",
+            "news_date": "2025-02-11 16:33:26"
         },
         {
             "sym": "CLSEL",
@@ -290,6 +1181,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df5ee450-753b-42e4-b3ac-9d52d87f2fa5.pdf",
+            "news_date": "2025-02-11 11:45:58"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filling (Financial)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c4230dc-22d3-438c-a6f7-04c7d65de3ef.pdf",
+            "news_date": "2025-02-10 17:19:10"
+        },
+        {
             "sym": "CLSEL",
             "disp": "Chaman Lal Setia Exports",
             "bse_code": 530307,
@@ -312,6 +1225,138 @@
             "sid": 3482,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Results For The Quarter Ended 31.12.2024.",
+            "news_body": "Unaudited Results for the quarter ended 31.12.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94e22981-bfc0-4b09-9c1f-b1855aa13260.pdf",
+            "news_date": "2025-02-10 16:51:22"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77ed7089-2db6-4fe7-b01f-f746df19b352.pdf",
+            "news_date": "2025-02-10 16:45:58"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Post Earning Conference Call for the Quarter and Nine Months ended 31.12.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac49c6c8-a80e-4581-9f9c-d02610a8657b.pdf",
+            "news_date": "2025-02-05 16:52:14"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for UN-AUDITED FINANCIAL RESULTS FOR THE QUARTER AND NINE MONTHS ENDED 31.12.2024.",
+            "news_body": "CHAMAN LAL SETIA EXPORTS LTD.-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/02/2025 inter alia to consider and approve UN-AUDITED FINANCIAL RESULTS FOR THE QUARTER AND NINE MONTHS ENDED 31.12.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed5dbd38-5ac8-4673-b86b-73f776ee7b5d.pdf",
+            "news_date": "2025-01-29 18:16:30"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation regarding loss of share certificate.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34bf18d7-93d5-4c6b-a074-d80243e6c97d.pdf",
+            "news_date": "2025-01-10 17:26:38"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended 31.12.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8eb82628-76a2-4599-be6c-225be60d6e01.pdf",
+            "news_date": "2025-01-10 15:36:37"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Reply To Clarification Sought On Increase In The Volume Of Shares Traded On The Stock Exchanges",
+            "news_body": "Reply To Clarification Sought On increase in the volume of shares traded on the stock exchange",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a44209b0-f334-448d-a449-fa90a96570b0.pdf",
+            "news_date": "2024-12-17 13:26:14"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Chaman Lal Setia Exports Ltd",
+            "news_body": "The Exchange has sought clarification from Chaman Lal Setia Exports Ltd on December 17, 2024, with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2024-12-17 11:52:41"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=271ad08e-93c1-4070-bbcb-67e8e070a349.pdf",
+            "news_date": "2024-12-09 17:49:59"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=edc9c8e6-8979-44d9-9283-ba4393dc8058.pdf",
+            "news_date": "2024-11-20 16:15:00"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Cancellation of investor meet to be held on 14.11.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74c15483-35ea-489c-a850-62d572d7262c.pdf",
+            "news_date": "2024-11-14 17:03:22"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Announcement under Regulation-30 (LODR)-Analyst/Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d8fd95d-5c1f-4a43-b124-fd8fa2f90c8e.pdf",
+            "news_date": "2024-11-11 17:28:43"
         },
         {
             "sym": "CLSEL",
@@ -338,6 +1383,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Announcement under Regulation 30 (LODR)-Earning Call  Transcript.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f82a3075-6620-4855-9955-546de28ae6c1.pdf",
+            "news_date": "2024-11-08 16:55:08"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a64f0b7-5e9b-4ac2-b429-821e8ec78778.pdf",
+            "news_date": "2024-11-07 13:36:36"
+        },
+        {
             "sym": "CLSEL",
             "disp": "Chaman Lal Setia Exports",
             "bse_code": 530307,
@@ -362,6 +1429,17 @@
             "seg": "E"
         },
         {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Link For Audio Recording of Investor's Conference Call for Chaman Lal Setia Exports Ltd. for the Quarter ended30.09.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17d652e7-8027-485f-82cf-c1b82096e9e6.pdf",
+            "news_date": "2024-11-05 16:39:43"
+        },
+        {
             "sym": "CLSEL",
             "disp": "Chaman Lal Setia Exports",
             "bse_code": 530307,
@@ -384,6 +1462,28 @@
             "sid": 3482,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Announcement under Regulation 30 (LDR)-Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=128f6394-92a4-49e5-bca2-fd10d852e44b.pdf",
+            "news_date": "2024-11-05 14:00:28"
+        },
+        {
+            "co_code": 4923,
+            "bse_code": 530307,
+            "isin": "INE419D01026",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "INTIMATION OF RESIGNATION OF MR. AVALJOT SINGH AS AN INDEPENDENT DIRECTOR AND MRS. SHWETA SETIA AS AN EXECUTIVE DIRECTOR OF COMPANY",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1261adec-ef27-43c4-92f1-4c124eca9440.pdf",
+            "news_date": "2024-11-04 17:39:19"
         },
         {
             "sym": "CLSEL",
@@ -1465,6 +2565,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

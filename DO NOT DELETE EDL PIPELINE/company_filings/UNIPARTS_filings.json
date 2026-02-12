@@ -2,6 +2,72 @@
     "code": 0,
     "data": [
         {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Reg. 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "Disclosure under reg. 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e97e4cf-8e24-4033-9438-da93d991acaf.pdf",
+            "news_date": "2026-02-12 18:32:35"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10e98c53-975a-4d4c-8cec-245df04968d3.pdf",
+            "news_date": "2026-02-11 10:59:41"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings Call Recordings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffea2196-7ff7-4b4a-8be1-6f76585d82ea.pdf",
+            "news_date": "2026-02-10 17:19:30"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Disclosure under Regulation 30A of LODR",
+            "news_body": "Earnings Call Presentation for Quarter Ended Dec 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=469664f6-175c-4483-8c16-06dd77a1399e.pdf",
+            "news_date": "2026-02-10 12:27:12"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Declaration Of Second Interim Dividend For FY 2025-26 And Fixation Of Record Date",
+            "news_body": "Declaration of second interim dividend for FY 2025-26 and fixation of Record Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=582d5532-9a5e-4310-bc7d-09573192f2db.pdf",
+            "news_date": "2026-02-09 18:22:31"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Approval of Second Interim Dividend for FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ba87615-3d16-42f3-87f0-f4b2edd0854d.pdf",
+            "news_date": "2026-02-09 18:20:17"
+        },
+        {
             "sym": "UNIPARTS",
             "disp": "Uniparts",
             "bse_code": 543689,
@@ -24,6 +90,160 @@
             "sid": 13057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Approval Of Unaudited Financial Results",
+            "news_body": "Approval of Unaudited financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=187cd365-96b9-4b69-8f99-48fdbc282bb8.pdf",
+            "news_date": "2026-02-09 18:16:54"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Approval Of (I) Unaudited Financial Results; (Ii)Declaration Of 2Nd Interim Dividend For FY 2025-26 And Fixation Of Record Date",
+            "news_body": "Approval of (i) Unaudited Financial Results; (ii)Declaration of 2nd Interim dividend for FY 2025-26 and fixation of record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68498890-2742-4d80-9206-f4fddcee7171.pdf",
+            "news_date": "2026-02-09 18:11:55"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Call Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5222c4b4-a613-4732-95d7-d84f0bda6820.pdf",
+            "news_date": "2026-02-03 13:12:26"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of (I) Unaudited Financial Results; And (Ii) Declaration Of The Second Interim Dividend  And Fixation Of The Record Date For The Same.",
+            "news_body": "Uniparts India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 09/02/2026 inter alia to consider and approve (i) the standalone and consolidated unaudited financial results of the Company for the quarter and nine months ended December 31 2025; and\r\n(ii) the declaration of the second interim dividend for FY 2025-26 and fixation of the record date for the same.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa2d305d-7011-4b65-a30b-7d9b0de604d4.pdf",
+            "news_date": "2026-02-02 13:20:18"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Voting results of the Postal Ballot along with Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e53432e2-c2ea-48f8-b347-c24cc975cd49.pdf",
+            "news_date": "2026-01-27 17:57:56"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3680f1ef-ed32-4dcd-973d-69262551ced3.pdf",
+            "news_date": "2026-01-09 18:50:10"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db9c26b1-ee69-44b2-bd23-16bfc51d8dd3.pdf",
+            "news_date": "2025-12-30 13:09:11"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " Intimation Of Fire Accident",
+            "news_body": "Intimation of fire accident",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5762229-5117-4f55-a5d1-2306dc89dc2c.pdf",
+            "news_date": "2025-12-28 20:15:11"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication - Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3b7cacc-baf1-4796-89ad-05d742a04b86.pdf",
+            "news_date": "2025-12-28 12:09:27"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abab7d91-cd1e-4626-8b00-5a53f7fc7b67.pdf",
+            "news_date": "2025-12-27 14:52:25"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Meeting with Investor / Analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e16a9fd3-dc67-4b06-a768-67f49085fc28.pdf",
+            "news_date": "2025-12-12 18:54:23"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef1bb451-e643-4c10-bcb0-d2fdc3f174fa.pdf",
+            "news_date": "2025-12-08 11:49:08"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Key Managerial Personnel and Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb8d7501-2aaa-4e4c-9cd1-3a588e07b87d.pdf",
+            "news_date": "2025-12-05 18:47:02"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of equity shares under ESOS 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d80d999-5bf2-414c-ab1f-4ba5afd7d35c.pdf",
+            "news_date": "2025-11-26 19:34:14"
         },
         {
             "sym": "UNIPARTS",
@@ -50,6 +270,28 @@
             "seg": "E"
         },
         {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ba0d59a-a729-42f5-95a9-29824f809338.pdf",
+            "news_date": "2025-11-21 17:59:43"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor / Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a74d63a-4a04-47a1-bc3d-9a1ada01aa38.pdf",
+            "news_date": "2025-11-20 19:44:11"
+        },
+        {
             "sym": "UNIPARTS",
             "disp": "Uniparts",
             "bse_code": 543689,
@@ -72,6 +314,50 @@
             "sid": 13057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e3799df-f12b-42c3-8b72-077c42282a7e.pdf",
+            "news_date": "2025-11-17 22:40:21"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with Investor / Analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=998fe4e7-6bdc-4b57-95a6-24738cb74719.pdf",
+            "news_date": "2025-11-17 22:30:17"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with Investor(s) / Analyst(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2de19f9d-c8fa-40a9-9924-3c571482cc99.pdf",
+            "news_date": "2025-11-17 22:27:18"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46272b05-d612-4ed6-ac46-d63203bccadb.pdf",
+            "news_date": "2025-11-16 12:37:10"
         },
         {
             "sym": "UNIPARTS",
@@ -98,6 +384,17 @@
             "seg": "E"
         },
         {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Call presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95e2d383-f13f-4dff-9dfc-c4d2056fadff.pdf",
+            "news_date": "2025-11-14 19:17:20"
+        },
+        {
             "sym": "UNIPARTS",
             "disp": "Uniparts",
             "bse_code": 543689,
@@ -120,6 +417,380 @@
             "sid": 13057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Approval of Unaudited Financial Results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7007ae10-062f-4032-ae3a-5c9316f720b8.pdf",
+            "news_date": "2025-11-14 18:39:08"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Approval Of Unaudited Financial Results",
+            "news_body": "The Board has interalia approved unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a879bcfb-7edc-46ea-be03-a8e1519b903d.pdf",
+            "news_date": "2025-11-14 18:28:50"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=854d8bcc-e1f5-4340-af0a-810dd1628352.pdf",
+            "news_date": "2025-11-10 12:13:10"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Uniparts India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/11/2025 inter alia to consider and approve unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=410bdeb4-a425-4cb1-8eee-790ae7f85dfc.pdf",
+            "news_date": "2025-11-06 16:27:00"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume",
+            "news_body": "Clarification on increase in volumn",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e752c430-d97a-4bbf-b572-504cf8cb8b79.pdf",
+            "news_date": "2025-10-31 13:01:01"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Uniparts India Ltd",
+            "news_body": "The Exchange has sought clarification from Uniparts India Ltd on October 31 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-10-31 12:46:54"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f29157b-2036-4431-9357-d7e9e76d1b03.pdf",
+            "news_date": "2025-10-14 19:12:23"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board has approved Special Interim Dividend and Record Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c388e290-b9f4-4a7e-9a7f-c0946cb9046f.pdf",
+            "news_date": "2025-10-13 18:43:50"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Special Interim Dividend",
+            "news_body": "Record date for Special Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e03fa71-71fa-4f6e-87be-a8f13facd439.pdf",
+            "news_date": "2025-10-13 18:38:05"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting - Declaration Of Special Interim Dividend",
+            "news_body": "Outcome of Board Meeting - Declaration of Special Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8b85784-13db-4e4c-8e5f-69f3263bd576.pdf",
+            "news_date": "2025-10-13 18:15:59"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Declaration Of Special Interim Dividend",
+            "news_body": "Uniparts India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/10/2025 inter alia to consider and approve declaration of Special Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=770a44dd-c14e-420e-b25e-c3eae413fb51.pdf",
+            "news_date": "2025-10-08 18:37:59"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b57d57d7-0a1c-4bf4-a1c5-076aa98f2d4a.pdf",
+            "news_date": "2025-09-29 17:32:26"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with investor(s) / analyst(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecc13511-6efa-4a50-9a02-f095e1330ff8.pdf",
+            "news_date": "2025-09-26 18:54:56"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with investor / analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faa45238-2389-4594-9e63-3df0322edc15.pdf",
+            "news_date": "2025-09-24 18:19:05"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Soni Holdings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7B9AB86C_4FAD_4145_A949_9F945151AAF0_102515.pdf",
+            "news_date": "2025-09-24 10:25:32"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "31st AGM - Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90839016-c95e-4c16-8abc-d00d32aaae2d.pdf",
+            "news_date": "2025-09-23 23:31:50"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 29(2) Of Securities And Exchange\r\nBoard Of India (Substantial Acquisition Of Shares And Takeovers) Regulations 2011",
+            "news_body": "Disclosure under regulation 29(2) of Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations 2011",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7765f680-33b5-47ce-b4c5-980971489cdd.pdf",
+            "news_date": "2025-09-23 18:46:32"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Outcome of 31st Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8761d62c-870f-4f6a-9e14-06fdd6c69366.pdf",
+            "news_date": "2025-09-22 19:11:02"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume",
+            "news_body": "Clarification on increase in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55c47d20-b64b-41de-a586-ad31c95e8b54.pdf",
+            "news_date": "2025-09-19 16:03:29"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Uniparts India Ltd",
+            "news_body": "The Exchange has sought clarification from Uniparts India Ltd on September 19 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-09-19 13:08:25"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Update on credit rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52340f1c-764f-4ea5-8863-730731643197.pdf",
+            "news_date": "2025-09-16 19:04:52"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with Investor / analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c25f51b-2ac6-4d58-9b31-a7b4ca549a26.pdf",
+            "news_date": "2025-09-10 18:46:53"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with Investor(s) / analyst(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47bb2e40-c222-4a24-937f-49755356ee73.pdf",
+            "news_date": "2025-09-08 19:14:35"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with investor / analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85a696a5-6483-4178-ab83-54b0dba06f79.pdf",
+            "news_date": "2025-09-08 19:03:12"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of newspaper publications",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb6b620c-88f4-4d45-b140-335977e7d3cf.pdf",
+            "news_date": "2025-08-31 20:10:10"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a6a318f-0ce5-4e4f-8e53-066d772c8a0b.pdf",
+            "news_date": "2025-08-30 17:15:21"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d9e3172-9297-46ab-a342-3103046ff8c5.pdf",
+            "news_date": "2025-08-30 17:10:21"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 31St Annual General Meeting Alongwith The Annual Report For FY 2024-25",
+            "news_body": "Notice of 31st Annual General Meeting alongwith the Annual Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7ccf822-68a6-4387-8836-472d2a8fc7eb.pdf",
+            "news_date": "2025-08-30 16:47:23"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication- 31st Annual General Meeting of the Company to be held on Monday September 22 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf4aea4d-c013-4f65-8594-5405cd5389d9.pdf",
+            "news_date": "2025-08-30 10:48:22"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with investor / analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b145c5cd-4e1f-4cfb-9268-2ad783072b8b.pdf",
+            "news_date": "2025-08-25 16:30:02"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=380f3341-61a5-40a0-becb-b898d734e146.pdf",
+            "news_date": "2025-08-21 18:46:39"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with Investor / analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5343643b-8def-4c68-9863-919ebc49b7bf.pdf",
+            "news_date": "2025-08-19 19:31:53"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with Investor / analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e43ac28-8fd8-4f42-9da7-eac69a56af27.pdf",
+            "news_date": "2025-08-19 19:26:45"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor / Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4127394a-6296-485e-aa62-9ad682bc632c.pdf",
+            "news_date": "2025-08-18 17:25:40"
         },
         {
             "sym": "UNIPARTS",
@@ -146,6 +817,28 @@
             "seg": "E"
         },
         {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52d42796-458c-419a-a176-c5090e425ff0.pdf",
+            "news_date": "2025-08-14 14:19:33"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with Investor(s) / analyst(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d931079-fd28-444d-94db-5ab48cb55c9a.pdf",
+            "news_date": "2025-08-11 21:27:29"
+        },
+        {
             "sym": "UNIPARTS",
             "disp": "Uniparts",
             "bse_code": 543689,
@@ -168,6 +861,39 @@
             "sid": 13057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b95a126f-f6e4-4d18-a2df-155ada68d8ff.pdf",
+            "news_date": "2025-08-11 16:27:50"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9db7e7aa-0d00-408d-b01e-cf63d23d0e33.pdf",
+            "news_date": "2025-08-10 15:32:48"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Stock Options",
+            "news_body": "Grant of stock options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e33e01e-fd5b-4cdb-bd35-147d42ec23d1.pdf",
+            "news_date": "2025-08-08 18:46:28"
         },
         {
             "sym": "UNIPARTS",
@@ -194,6 +920,39 @@
             "seg": "E"
         },
         {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Call presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f23cc25-6663-4262-b380-17cda4025268.pdf",
+            "news_date": "2025-08-08 18:29:24"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Declaration Of Interim Dividend",
+            "news_body": "Record date with respect to declaration of Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e332736-5960-43f5-8c8d-5ee2fa9db0d9.pdf",
+            "news_date": "2025-08-08 18:22:53"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Declaration of Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b2270d3-c193-41c8-b2aa-63427f007404.pdf",
+            "news_date": "2025-08-08 18:20:33"
+        },
+        {
             "sym": "UNIPARTS",
             "disp": "Uniparts",
             "bse_code": 543689,
@@ -216,6 +975,149 @@
             "sid": 13057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Approval Of Unaudited Financial Results",
+            "news_body": "Approval of unaudited financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=491c86b2-c340-4344-a38d-e61052585ed1.pdf",
+            "news_date": "2025-08-08 17:52:55"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Approval Of Unaudited Financial Results And Declaration Of Interim Dividend",
+            "news_body": "Approval of unaudited financial results and declaration of interim dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5abc58e6-dd49-420c-b187-4890599c707d.pdf",
+            "news_date": "2025-08-08 17:37:44"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dc07a3c-e166-4077-bb0a-6f322c2607dd.pdf",
+            "news_date": "2025-07-31 15:49:08"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results And Declaration Of Interim Dividend",
+            "news_body": "Uniparts India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 08/08/2025 inter alia to consider and approve unaudited financial results and declare interim dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7633841-b17e-4362-95dc-fbf6373733de.pdf",
+            "news_date": "2025-07-31 15:31:22"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Stock Options",
+            "news_body": "Grant of Stock Options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53ce189d-4e23-407b-8c23-90ce1ecaaff0.pdf",
+            "news_date": "2025-07-17 18:04:08"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Stock Options To Employees",
+            "news_body": "Grant of stock options to employees",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=063fb995-ecb2-4e1c-a075-9b73ff710bf5.pdf",
+            "news_date": "2025-07-14 22:00:15"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Issuance Of Letter Of Comfort",
+            "news_body": "Issuance of Letter of Comfort",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b9d0fa8-aa78-4817-857d-a3bdbdaa81b9.pdf",
+            "news_date": "2025-07-14 18:58:37"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under regulation 74(5) of SEBI (Depositories and Participants) Regulation 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34aa6dac-2750-4970-a1ad-5090e661f8bf.pdf",
+            "news_date": "2025-07-14 16:20:09"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92812d20-43ed-49ee-8e99-5e9d4bea8500.pdf",
+            "news_date": "2025-07-01 18:40:48"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b91931cf-d7bb-4897-b665-dfc8982b9829.pdf",
+            "news_date": "2025-06-27 15:55:56"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with investor / analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d8d0430-6ca3-45b3-9a7d-fccf34dc18b9.pdf",
+            "news_date": "2025-06-18 17:32:03"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with Investors/analysts",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f6739af-3700-49c3-bee5-0bfa8e256d8f.pdf",
+            "news_date": "2025-06-17 19:15:32"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of meeting with Investor / Analyst",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d726bb4-c96d-4c3d-9097-28b1bff6f310.pdf",
+            "news_date": "2025-06-16 19:40:04"
         },
         {
             "sym": "UNIPARTS",
@@ -242,6 +1144,50 @@
             "seg": "E"
         },
         {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Tanscript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80fb7c90-abe9-43c4-b92d-76074fc96da0.pdf",
+            "news_date": "2025-06-03 19:47:32"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4de4862-f477-4bb9-aad3-9312c97b7fbe.pdf",
+            "news_date": "2025-05-30 14:48:48"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of Audited Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e228f7b2-3564-4224-aa8b-791a0d3b2049.pdf",
+            "news_date": "2025-05-29 11:14:42"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings Call Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f7b4dda-ced0-4062-ac75-d3ed15f75cdb.pdf",
+            "news_date": "2025-05-28 20:07:18"
+        },
+        {
             "sym": "UNIPARTS",
             "disp": "Uniparts",
             "bse_code": 543689,
@@ -264,6 +1210,17 @@
             "sid": 13057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Approval Of Audited Financial Results",
+            "news_body": "Approval of Audited Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d72da1da-eb7f-4443-95dd-700a549292e5.pdf",
+            "news_date": "2025-05-28 05:27:15"
         },
         {
             "sym": "UNIPARTS",
@@ -290,6 +1247,105 @@
             "seg": "E"
         },
         {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Call Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f079516-f37d-4ac9-adc1-977ad3e45853.pdf",
+            "news_date": "2025-05-27 20:51:43"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Approval of Audited Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a25096f8-e72a-4a3a-a4f1-7eaddf4af1ea.pdf",
+            "news_date": "2025-05-27 20:13:13"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52ec0ca5-aaf7-428d-a65c-d28d9aff13c9.pdf",
+            "news_date": "2025-05-21 18:37:21"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Standalone And Consolidated Audited Financial Results For The Quarter And Financial Year Ended On March 31 2025",
+            "news_body": "Uniparts India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 27/05/2025 inter alia to consider and approve Standalone and Consolidated Audited Financial Results for the quarter and financial year ended on March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c90c56ff-5cfb-4c38-aca6-eaa8ea15e47a.pdf",
+            "news_date": "2025-05-20 18:36:55"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b84c8c7-0bfb-43f3-bec2-bd39b0c58b0f.pdf",
+            "news_date": "2025-04-29 19:37:05"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b4fec06-1c18-4f82-97c6-411a58f7a520.pdf",
+            "news_date": "2025-04-15 12:01:03"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=561032bf-2212-4f7a-92fb-aa4f732e609f.pdf",
+            "news_date": "2025-03-31 21:49:21"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in management of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93b9fc10-5830-450c-a3bb-f52da538138d.pdf",
+            "news_date": "2025-03-31 21:33:10"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of CHRO",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85d0febc-874b-4825-9a0d-55fe6fd1970b.pdf",
+            "news_date": "2025-03-24 18:46:18"
+        },
+        {
             "sym": "UNIPARTS",
             "disp": "Uniparts",
             "bse_code": 543689,
@@ -314,6 +1370,39 @@
             "seg": "E"
         },
         {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4e5637a-ba29-49e9-869e-413058b74a90.pdf",
+            "news_date": "2025-02-13 11:30:59"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=661cd0db-5b36-4809-b66b-64376172298b.pdf",
+            "news_date": "2025-02-08 18:30:46"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a17c79c-3a04-4444-9379-ef90b84424d5.pdf",
+            "news_date": "2025-02-07 21:08:56"
+        },
+        {
             "sym": "UNIPARTS",
             "disp": "Uniparts",
             "bse_code": 543689,
@@ -336,6 +1425,17 @@
             "sid": 13057,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 45939,
+            "bse_code": 543689,
+            "isin": "INE244O01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Call Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=112f4518-a217-466d-90f9-841ca7d78033.pdf",
+            "news_date": "2025-02-06 21:11:09"
         },
         {
             "sym": "UNIPARTS",
@@ -1009,6 +2109,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

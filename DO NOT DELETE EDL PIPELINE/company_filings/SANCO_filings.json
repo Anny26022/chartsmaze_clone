@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 40566,
+            "bse_code": 0,
+            "isin": "INE782L01012",
+            "ann_type": "Clarification - Financial Results",
+            "descriptor": "Clarification - Financial Results",
+            "caption": "Clarification - Financial Results",
+            "news_body": "The Exchange has sought clarification from Sanco Industries Limited for the quarter ended 30-Sep-2025 with respect to Regulation 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015. On basis of above the Company is required to clarify the following:  The response of the Company is awaited.",
+            "file_url": "-",
+            "news_date": "2026-01-12 00:00:00"
+        },
+        {
+            "co_code": 40566,
+            "bse_code": 0,
+            "isin": "INE782L01012",
+            "ann_type": "Corporate Insolvency Resolution Process",
+            "descriptor": "Corporate Insolvency Resolution Process",
+            "caption": "Corporate Insolvency Resolution Process",
+            "news_body": "Sanco Industries Limited has informed the Exchange about Corporate Insolvency Resolution Process",
+            "file_url": "https://nsearchives.nseindia.com/corporate/SANCO_23122025134421_SANCO.pdf",
+            "news_date": "2025-12-23 00:00:00"
+        },
+        {
             "sym": "SANCO",
             "disp": "Sanco Industries",
             "bse_code": 0,
@@ -24,7 +46,17 @@
             "sid": 14630,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40566,
+            "bse_code": 0,
+            "isin": "INE782L01012",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "the financial results for the period ended September 30, 2025.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/SANCO_09112025144257_BS_Qtr_2_merged__1_.pdf",
+            "news_date": "2025-11-09 00:00:00"
         }
-    ],
-    "remarks": ""
+    ]
 }

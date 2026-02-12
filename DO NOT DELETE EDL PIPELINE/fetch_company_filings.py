@@ -10,6 +10,7 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 INPUT_FILE = os.path.join(BASE_DIR, "master_isin_map.json")
 OUTPUT_DIR = os.path.join(BASE_DIR, "company_filings")
 MAX_THREADS = 20  # Fast with 20 threads
+FORCE_UPDATE = True # Set to True to refresh all filings
 
 USER_AGENTS = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -20,35 +21,96 @@ USER_AGENTS = [
 ]
 
 def fetch_filings(item):
-    """Fetch filings for a single ISIN"""
     symbol = item.get("Symbol")
     isin = item.get("ISIN")
+    
+    if not symbol or not isin:
+        return None
+
     output_path = os.path.join(OUTPUT_DIR, f"{symbol}_filings.json")
     
-    if os.path.exists(output_path) and os.path.getsize(output_path) > 10:
+    # Check FORCE_UPDATE flag
+    if os.path.exists(output_path) and os.path.getsize(output_path) > 10 and not FORCE_UPDATE:
         return "skipped"
 
-    api_url = "https://ow-static-scanx.dhan.co/staticscanx/company_filings"
+    # --- 1. Fetch from Old Endpoint (/company_filings) ---
+    url1 = "https://ow-static-scanx.dhan.co/staticscanx/company_filings"
+    data1 = []
+    
     headers = {
         "Content-Type": "application/json",
         "User-Agent": random.choice(USER_AGENTS)
     }
 
-    # count: 100 as per user request
-    payload = {"data": {"isin": isin, "count": 100}}
-
     try:
-        response = requests.post(api_url, json=payload, headers=headers, timeout=15)
-        if response.status_code == 200:
-            data = response.json()
-            if data:
-                with open(output_path, "w") as f:
-                    json.dump(data, f, indent=4)
-                return "success"
-            return "no_data"
-        return f"http_{response.status_code}"
-    except Exception:
-        return "exception"
+        payload1 = {
+            "data": {
+                "isin": isin,
+                "pg_no": 1,
+                "count": 100
+            }
+        }
+        res1 = requests.post(url1, json=payload1, headers=headers, timeout=10)
+        if res1.status_code == 200:
+            data1 = res1.json().get("data", []) or []
+    except:
+        pass
+
+    # --- 2. Fetch from New Endpoint (/lodr) ---
+    url2 = "https://ow-static-scanx.dhan.co/staticscanx/lodr"
+    data2 = []
+    try:
+         payload2 = {
+            "data": {
+                "isin": isin,
+                "pg_no": 1,
+                "count": 100
+            }
+        }
+         res2 = requests.post(url2, json=payload2, headers=headers, timeout=10)
+         if res2.status_code == 200:
+             data2 = res2.json().get("data", []) or []
+    except:
+        pass
+
+    # --- 3. Merge & Deduplicate ---
+    combined = data1 + data2
+    unique_map = {}
+    
+    # We use (date + caption) or unique 'news_id' if available to deduplicate
+    for entry in combined:
+        nid = entry.get("news_id")
+        date_str = entry.get("news_date")
+        caption = entry.get("caption") or entry.get("descriptor") or "Unknown"
+        
+        # Create a unique key
+        key = nid if nid else f"{date_str}_{caption}"
+        
+        # If duplicate, keep one (prefer one with file_url if possible, usually both have it)
+        if key not in unique_map:
+            unique_map[key] = entry
+        else:
+            # If current has a URL but stored doesn't, swap (rare case)
+            if entry.get("file_url") and not unique_map[key].get("file_url"):
+                unique_map[key] = entry
+
+    final_list = list(unique_map.values())
+    
+    # Sort by date descending (latest first)
+    try:
+        final_list.sort(key=lambda x: x.get("news_date", "1900-01-01"), reverse=True)
+    except:
+        pass # Fallback if dates are weird
+
+    if not final_list:
+        return "empty"
+
+    wrapped_data = {"code": 0, "data": final_list}
+    
+    with open(output_path, "w") as f:
+        json.dump(wrapped_data, f, indent=4)
+        
+    return "success"
 
 def main():
     if not os.path.exists(OUTPUT_DIR):

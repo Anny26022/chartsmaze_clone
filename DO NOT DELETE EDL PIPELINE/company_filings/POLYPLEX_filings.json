@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation",
+            "news_body": "Polyplex Corporation Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2026 inter alia to consider and approve A meeting of the Board of Directors is scheduled to be held on Friday February 13 2026 inter alia to consider Unaudited Financial Results of the Company (Standalone and Consolidated) for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb561915-7a9b-4951-b7be-be29ead3385a.pdf",
+            "news_date": "2026-01-29 16:51:40"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1200dff5-6a9a-4ae8-8902-498638b127ac.pdf",
+            "news_date": "2026-01-15 15:52:53"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window closure from January 01 2026 till completion of 48 hours after the declaration of unaudited financial results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6f0617f-f570-490e-ad9a-1d84ee46b64d.pdf",
+            "news_date": "2025-12-22 13:34:30"
+        },
+        {
             "sym": "POLYPLEX",
             "disp": "Polyplex Corporation",
             "bse_code": 524051,
@@ -24,6 +57,28 @@
             "sid": 2687,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3aab1eef-1698-4f3b-a56e-17a5fe06c46a.pdf",
+            "news_date": "2025-11-18 19:18:33"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General-Clarification",
+            "news_body": "Clarification with respect to filing dated November 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bb76759-0e69-4e8c-8fd2-a4daa3c0d783.pdf",
+            "news_date": "2025-11-18 19:09:49"
         },
         {
             "sym": "POLYPLEX",
@@ -50,6 +105,50 @@
             "seg": "E"
         },
         {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the financial results for the quarter and period ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c63f1262-fa22-4d54-85ed-e93ebb607620.pdf",
+            "news_date": "2025-11-13 21:16:08"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Board has approved inclusion of Mr. Rakesh Aggarwal in Senior Management of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd60c6d4-a5ba-4b90-a669-6ecde6bda363.pdf",
+            "news_date": "2025-11-13 21:13:48"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action- Fixes Record Date For Interim Dividend",
+            "news_body": "Board has fixed November 21 2025 as record date for the purpose of Interim Dividend 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=224cf81b-d88b-4fe0-83ef-d8131400766e.pdf",
+            "news_date": "2025-11-13 21:07:16"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board has declared Interim Dividend for the FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=edf85691-9c3d-4221-9bf2-9a9a48b19cd7.pdf",
+            "news_date": "2025-11-13 21:05:03"
+        },
+        {
             "sym": "POLYPLEX",
             "disp": "Polyplex Corporation",
             "bse_code": 524051,
@@ -72,6 +171,94 @@
             "sid": 2687,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Results For Sep 30 2025",
+            "news_body": "Standalone and Consolidated Financial Results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc4608b-8fd3-48ac-91a9-5ba0e9cde60d.pdf",
+            "news_date": "2025-11-13 21:02:38"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Board will consider declaration of Interim Dividend for FY 2025-26 at it meeting scheduled to be held on November 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4796792-bdf5-419b-8911-eb76022e5fcb.pdf",
+            "news_date": "2025-11-07 19:06:43"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Financial Results",
+            "news_body": "Polyplex Corporation Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2025 inter alia to consider and approve the unaudited financial results (standalone & consolidated) for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8abdbb1-4e46-4d77-a36d-b6f8b7f9e6f1.pdf",
+            "news_date": "2025-10-27 12:28:14"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Ricky Kirpalani & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0138E878_BC22_4FCB_9E29_84D1C89C45D4_130750.pdf",
+            "news_date": "2025-10-07 13:07:54"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72fd4b5a-80bd-407c-86bd-049f16ddb3f3.pdf",
+            "news_date": "2025-10-06 18:30:23"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading window for dealing in the securities of the Company shall remain closed from October 1 2025 till 48 hours after the declaration/ publication of unaudited financial results for the quarter/ half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12424564-a1ae-4770-a1bf-50d8b4695078.pdf",
+            "news_date": "2025-09-22 16:29:40"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting results along with scrutinizers report for the AGM held on September 15 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cbf41b9-25f4-4e17-b8f9-843a9657ca5b.pdf",
+            "news_date": "2025-09-16 18:44:42"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Voting Results along with Scrutinizers report for the AGM held on September 15 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a78163b-1a24-4f64-b6b5-b47ee4ec8492.pdf",
+            "news_date": "2025-09-16 18:40:23"
         },
         {
             "sym": "POLYPLEX",
@@ -98,6 +285,72 @@
             "seg": "E"
         },
         {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation made at the AGM of the Company held on September 15 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c205a7a7-2207-4f86-aa59-cb20836cd805.pdf",
+            "news_date": "2025-09-15 19:32:40"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Proceedings Of AGM Held On September 15 2025",
+            "news_body": "Proceedings of AGM held on September 15 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69f70827-d0bd-4761-a847-aabc8ad7a831.pdf",
+            "news_date": "2025-09-15 19:29:23"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "BRSR for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4cf58ce8-c872-407f-bbbd-c7254b88f45f.pdf",
+            "news_date": "2025-08-22 18:39:52"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=253b590b-6bf7-4212-8b31-653590edc6dc.pdf",
+            "news_date": "2025-08-22 18:34:00"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Shareholders Meeting On September 15 2025",
+            "news_body": "Annual Report and Notice of the 40th AGM to be held on September 15 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6a1772d-e04f-43b1-88ff-d8c5b1433073.pdf",
+            "news_date": "2025-08-22 18:22:03"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investor Presentation",
+            "news_body": "Investor Presentation on the financial results for quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e687f07c-f217-455a-8e00-a9d869a9bfa9.pdf",
+            "news_date": "2025-08-13 19:52:02"
+        },
+        {
             "sym": "POLYPLEX",
             "disp": "Polyplex Corporation",
             "bse_code": 524051,
@@ -120,6 +373,116 @@
             "sid": 2687,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "unaudited financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f72258f-3447-485f-b638-5fda621ffcbd.pdf",
+            "news_date": "2025-08-12 22:14:38"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On August 12 2025",
+            "news_body": "Unaudited Financial Results for the quarter ended June 30 2025 (Standalone & Consolidated along with Limited Review Report)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3362526-fb28-4f73-9007-df280fa5b128.pdf",
+            "news_date": "2025-08-12 22:02:46"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Unaudited Financial Results For The Quarter Ended June 30  2025",
+            "news_body": "Polyplex Corporation Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/08/2025 inter alia to consider and approve consideration of unaudited financial results for the quarter ended June 30  2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=136e76c6-4fa0-461a-a217-65896c1bbac8.pdf",
+            "news_date": "2025-08-01 12:42:13"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Date Of Annual General Meeting",
+            "news_body": "The Board of Directors have fixed September 15 2025 as the date of next Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16267343-21f5-44f8-87bb-72fb706d4045.pdf",
+            "news_date": "2025-07-28 19:19:33"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30",
+            "news_body": "Appointment of Cost Auditors and Secretarial Auditors of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72d7cc5b-fd02-4c53-8c89-b1079f22dfb1.pdf",
+            "news_date": "2025-07-28 19:17:04"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action- Fixes Record Date For Final Dividend For The FY 2024-25",
+            "news_body": "Board of Directors have fixed September 15 2025 as the record date for the purpose of payment of final dividend for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=862101a4-3a7c-420e-9a31-891ae0dd4d2b.pdf",
+            "news_date": "2025-07-28 19:01:06"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85d50611-0acb-432b-9be4-bc50be2aebaf.pdf",
+            "news_date": "2025-07-11 11:47:56"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating from India Ratings and Research Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffa237d6-dcb7-4201-a433-8ea3551132ea.pdf",
+            "news_date": "2025-07-04 12:15:39"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30- Arbitration",
+            "news_body": "Initiation of arbitration proceedings against one of the subsidiaries of the Company by the minority shareholder of another step-down subsidiary.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ddaa07f-827e-4ff6-a87a-ebb1054aa367.pdf",
+            "news_date": "2025-06-24 14:21:09"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window w.e.f. July 1 2025 till completion of 48 hours after the declaration/ publication of unaudited financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d297a9af-3813-44ac-9f20-253196e46bea.pdf",
+            "news_date": "2025-06-23 12:39:00"
         },
         {
             "sym": "POLYPLEX",
@@ -146,6 +509,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the quarter and financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf12a798-4e4d-4d23-bd5d-3cf783e367d6.pdf",
+            "news_date": "2025-05-31 14:57:09"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report issued by RSM & Co. Company Secretaries for the period ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4212f27-7fb8-484a-9a38-005f82742983.pdf",
+            "news_date": "2025-05-30 15:03:23"
+        },
+        {
             "sym": "POLYPLEX",
             "disp": "Polyplex Corporation",
             "bse_code": 524051,
@@ -168,6 +553,160 @@
             "sid": 2687,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Results For Mar 31 2025",
+            "news_body": "Standalone and Consolidated Financial Results for the quarter and year ended March 31 2025 and recommendation of Final Dividend of Rs. 4.50/- for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87bd5f42-9c2c-4910-8644-5d2e5b4cfbe8.pdf",
+            "news_date": "2025-05-28 20:53:34"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On May 28 2025",
+            "news_body": "Board of Directors in their meeting held on May 28 2025 has approved Audited Standalone and Consolidated Financial Results for the quarter/ year ended March 31 2025 and recommended a Final Dividend for the Financial Year 2024-25 @ Rs. 4.50/- per share of the face value of Rs. 10/- each.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f8db5ac-98fb-4f19-b5fc-0a13baf0832d.pdf",
+            "news_date": "2025-05-28 20:42:02"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers report on Postal Ballot concluded on 24/05/2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36fd607a-7b42-4b8f-8147-81fef9e5eadc.pdf",
+            "news_date": "2025-05-26 15:31:22"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot concluded on May 24 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b04fb90-9ab4-4c55-aef5-6aac906623be.pdf",
+            "news_date": "2025-05-26 15:23:14"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Audited Financial Results Of The Company (Standalone And Consolidated) For The Quarter/ Year Ended March 31 2025; And To Consider Recommendation Of Final Dividend For The Financial Year 2024-25.",
+            "news_body": "Polyplex Corporation Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2025 inter alia to consider and approve Please note that a meeting of the Board of Directors is scheduled to be held on Wednesday May 28 2025 inter alia to consider Audited Financial Results of the Company (Standalone and Consolidated) for the quarter/ year ended March 31 2025; and to consider recommendation of final dividend for the Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3c6c2c9-e7aa-4705-bf07-996ff5a693d4.pdf",
+            "news_date": "2025-05-16 13:10:17"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c0b5ee0-2e5c-48cd-a385-b7bff230d29c.pdf",
+            "news_date": "2025-04-23 19:26:15"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=435d787c-1ecf-42cc-843a-0f69a9060203.pdf",
+            "news_date": "2025-04-11 13:07:35"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Ms. Pooja Haldea (DIN: 07123158) having completed her second term of five consecutive years as Independent Director ceases to be Director of the Company w.e.f. the close of business hours on March 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ca0a505-df01-4a75-8491-93682d4ec04f.pdf",
+            "news_date": "2025-03-29 16:32:13"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30- Appointment Of Internal Auditors",
+            "news_body": "Board of Directors has appointed Protiviti India Member Private Limited as Internal Auditors of the Company for a period of three years w.e.f. April 1 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a63eda5-5e75-4e90-a418-dd7c6a753382.pdf",
+            "news_date": "2025-03-27 16:15:28"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Board of Directors has appointed Dr. Shalini Sarin as an Independent Director of the Company for a period of five consecutive years w.e.f. March 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d337167-3929-42b4-a407-142ff499072f.pdf",
+            "news_date": "2025-03-27 16:11:54"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Appointment Of Independent Director And Internal Auditors",
+            "news_body": "Board of Directors of Polyplex Corporation Limited (Company) at their meeting held on March 27 2025 have considered and approved:\r\nA. Appointment of Dr. Shalini Sarin (DIN: 06604529) as an Additional Non-Executive Independent Director of the Company with effect from March 30 2025 for a period of five consecutive years.\r\n\r\nShe is not debarred from holding the office of a director pursuant to any order passed by the SEBI or any such authority.\r\n\r\nB. Appointment of Protiviti India Member Private Limited as Internal Auditors of the Company for a period of three years from April 1 2025 to March 31 2028",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6527ec0f-2ae7-4939-b6cf-2ff959010019.pdf",
+            "news_date": "2025-03-27 16:09:23"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30- Commencement Of Commercial Production In USA",
+            "news_body": "Polyplex USA LLC USA a wholly owned subsidiary of Polyplex (Thailand) Public Company Limited which in turn is a subsidiary of the Company after completion of successful trial runs  has commenced commercial production of the following projects:\r\n1. New brownfield BOPET Thin Film Line with a capacity of 50000 MTPA taking the total capacity in USA to 81000 MTPA\r\n2. Capacity debottlenecking of the existing PET resin plant from 58000 MTPA to 86000 MTPA",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51dda9b8-d1c4-4b21-ae43-54a0a499136a.pdf",
+            "news_date": "2025-03-26 17:35:10"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window shall remain closed from April 1 2025 till the completion of 48 hours after the declaration of the Audited Financial Results for the quarter/ year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e63f23a-d061-45a1-bb8f-79bbee805bae.pdf",
+            "news_date": "2025-03-26 13:13:48"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30- Commissioning Of New Projects In USA.",
+            "news_body": "We are pleased to inform you that Polyplex USA LLC (PU) a wholly owned subsidiary of Polyplex Thailand Public Company Thailand (PTL) which in turn is a subsidiary of the Company has commissioned and started trial runs of the following projects:\r\n1. New brownfield BOPET Thin Film Line with a capacity of 50000MTPA taking the total capacity to 81000MTPA\r\n2. Capacity debottlenecking of the existing PET resin plant from 58000MTPA to 86000MTPA.\r\n\r\nThe commercial production on these projects is expected to commence in next few days.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=200ee6c0-8279-46d2-bb44-8405c1272b92.pdf",
+            "news_date": "2025-03-21 16:18:55"
         },
         {
             "sym": "POLYPLEX",
@@ -194,6 +733,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Revised presentation on unaudited financial results for the quarter ended December 31 2024 after correcting some typographic errors.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0440a113-4d6b-4ae4-a5bd-5818ac95316d.pdf",
+            "news_date": "2025-02-21 17:58:14"
+        },
+        {
             "sym": "POLYPLEX",
             "disp": "Polyplex Corporation",
             "bse_code": 524051,
@@ -216,6 +766,50 @@
             "sid": 2687,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation on unaudited financial results for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bbb1d36-2a1b-4cdb-94b8-b5d850b47c0b.pdf",
+            "news_date": "2025-02-18 18:29:51"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated filing (Financial) for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=260620db-06dd-4e37-a263-269ecdd098ca.pdf",
+            "news_date": "2025-02-14 20:27:17"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Re-Appointment Of Secretarial Auditors For The FY 2024-25",
+            "news_body": "Re-appointment of Secretarial Auditors for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cec602ac-7b02-47f9-8083-8c87a27ba117.pdf",
+            "news_date": "2025-02-14 20:17:00"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results For The Quarter Ended December 31 2024",
+            "news_body": "Unaudited Financial Results for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc4ce742-0b73-430a-90dc-3e103539fbdc.pdf",
+            "news_date": "2025-02-14 19:47:56"
         },
         {
             "sym": "POLYPLEX",
@@ -242,6 +836,72 @@
             "seg": "E"
         },
         {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended December 31 2024",
+            "news_body": "Financial results for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f035381-9144-439b-bcc1-ba75b23e803c.pdf",
+            "news_date": "2025-02-14 19:44:15"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results For The Quarter Ended December 31 2024",
+            "news_body": "POLYPLEX CORPORATION LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/02/2025 inter alia to consider and approve unaudited financial results for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2034f01-2e3d-4b86-91b2-ce0e6154d654.pdf",
+            "news_date": "2025-02-06 13:21:32"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Capacity Addition",
+            "news_body": "Board of Directors of the Company in its meeting held on January 09 2025 has approved setting up a BOPET manufacturing film plant in India.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06ce09aa-31f9-43fd-8825-eb5a117eeba1.pdf",
+            "news_date": "2025-01-09 17:09:41"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c5c6491-0fd4-43f8-a3c7-eaa87e5a4e7f.pdf",
+            "news_date": "2025-01-07 17:02:16"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window for dealing in the companys securities shall remain closed from January 1 2025 till the completion of 48 hours after the declaration/ publication of unaudited financial results for the quarter ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=534806a6-216d-40bd-90e2-a512cd1c7433.pdf",
+            "news_date": "2024-12-27 13:18:53"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of Unaudited Financial Results for the quarter and half year ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4778bbf-bb52-4f8e-b703-033d91e3205d.pdf",
+            "news_date": "2024-11-13 17:38:31"
+        },
+        {
             "sym": "POLYPLEX",
             "disp": "Polyplex Corporation",
             "bse_code": 524051,
@@ -264,6 +924,50 @@
             "sid": 2687,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Unaudited Financial Results for the Quarter and Half year ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99380220-b8f2-4a77-87c4-94fcc662bb40.pdf",
+            "news_date": "2024-11-13 17:34:50"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Corp. Action",
+            "descriptor": "Record Date",
+            "caption": "Record Date 26Th November, 2024 For The Purpose Of Interim Dividend 2024-25",
+            "news_body": "Record Date 26th November, 2024 for the purpose of Interim Dividend 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f3c2320-7cb2-432c-8a91-17a5b233c670.pdf",
+            "news_date": "2024-11-12 17:11:28"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Corp. Action",
+            "descriptor": "Record Date",
+            "caption": "Record Date 26Th November, 2024 For The Purpose Of Interim Dividend 2024-25",
+            "news_body": "Record Date 26th November, 2024 for the purpose of Interim Dividend 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c44af877-93ef-4d7f-a20c-1a7690be94a9.pdf",
+            "news_date": "2024-11-12 17:10:51"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Record Date For The Purpose Of Interim Dividend 2024-25",
+            "news_body": "Record Date for the purpose of Interim Dividend 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=165d770c-d45d-4dd6-babb-7b953329062e.pdf",
+            "news_date": "2024-11-12 17:07:37"
         },
         {
             "sym": "POLYPLEX",
@@ -290,6 +994,72 @@
             "seg": "E"
         },
         {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Results For The Quarter And Half Year Ended September 30, 2024",
+            "news_body": "Results- Financial Results for the Quarter and Half Year ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc56489c-c5f9-42fe-ac2f-eb28cf6ae847.pdf",
+            "news_date": "2024-11-12 16:54:21"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Update on board meeting",
+            "news_body": "POLYPLEX CORPORATION LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2024 ,inter alia, to consider and approve Update on board meeting- Board will also consider declaration of Interim Dividend for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b390a06-012a-41fe-baab-0a73b920148b.pdf",
+            "news_date": "2024-11-07 12:58:43"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Approval Of Un-Audited Financial Results For The Quarter And Half Year Ended September 30, 2024",
+            "news_body": "POLYPLEX CORPORATION LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2024 ,inter alia, to consider and approve un-audited financial results for the quarter and half year ended September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef06f7c1-979b-4cd0-89a6-1ec913bbeb5b.pdf",
+            "news_date": "2024-11-04 15:34:52"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation of Loss of Share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f758fea-f78a-4448-9fbe-6507072c2984.pdf",
+            "news_date": "2024-10-16 17:13:57"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations, 2018 for the quarter ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83c7b972-8041-4ae0-9b66-c02f1de92b6a.pdf",
+            "news_date": "2024-10-15 18:58:15"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window w.e.f. October 1, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91391152-732e-441f-ae9a-cbc363511fc8.pdf",
+            "news_date": "2024-09-26 14:59:08"
+        },
+        {
             "sym": "POLYPLEX",
             "disp": "Polyplex Corporation",
             "bse_code": 524051,
@@ -312,6 +1082,149 @@
             "sid": 2687,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation as presented in 39th AGM of the Company held on September 23, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c92ea551-4608-4283-90df-bfc13841af3a.pdf",
+            "news_date": "2024-09-24 19:22:44"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "E-voting results of 39th AGM of the Company along with Scrutinizer''s Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d2a42b1-ad19-416d-a26a-65f01f057651.pdf",
+            "news_date": "2024-09-24 19:02:17"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 39th Annual General Meeting of the Company held on Monday, 23rd September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b5f33e2-a5dd-4b65-bd46-dfcf3f63b0a1.pdf",
+            "news_date": "2024-09-23 19:27:47"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 39th Annual General Meeting of the Company held on Monday 23rd September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72f4b20e-c55e-4f20-8a55-7e005eb868a3.pdf",
+            "news_date": "2024-09-23 19:17:24"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Strikes /Lockouts / Disturbances",
+            "caption": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
+            "news_body": "Status Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05cf8a24-3693-45dd-b854-ceb8d0f3679b.pdf",
+            "news_date": "2024-09-12 15:19:49"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=529e5047-5f78-454f-acf6-e143844fff1a.pdf",
+            "news_date": "2024-09-07 12:54:15"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication in respect of 39th AGM, Book Closure and Remote e-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=194a16a3-74d7-4433-aa4c-7fc3a47b9ca4.pdf",
+            "news_date": "2024-08-31 13:44:44"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc04c123-a052-4554-9fc8-6b2b45f948c5.pdf",
+            "news_date": "2024-08-30 17:42:13"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the Financial Year 2023-24",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=babe56ce-4a8e-4e8b-b3e7-5efc9dc24e0c.pdf",
+            "news_date": "2024-08-30 17:37:44"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "39Th AGM To Be Held September 23, 2024 At 4.00 PM",
+            "news_body": "Notice convening 39th AGM of the Company to be held on September 23, 2024 at 4.00 pm through video conferencing /Other Audio visual means",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d31f0dd7-bda2-47e4-8418-bd8fc22528ef.pdf",
+            "news_date": "2024-08-30 17:29:04"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Mr. Hemant Sahai as an Additional, Non-Executive, Independent Director of the Company w.e.f. August 27, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb4fe492-64cf-4ba5-af3a-b30293f60ab1.pdf",
+            "news_date": "2024-08-27 12:11:07"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fd7f0a5-a435-4a82-a51b-e068d98a39aa.pdf",
+            "news_date": "2024-08-17 14:04:34"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Mr. Pranay Kothari, Executive Director w.e.f. September 7, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=494fb041-03dc-4344-860e-0d0a86258f4d.pdf",
+            "news_date": "2024-08-17 14:02:52"
         },
         {
             "sym": "POLYPLEX",
@@ -338,6 +1251,39 @@
             "seg": "E"
         },
         {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on unaudited financial results for the quarter ended June 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=681d5155-bf40-4a26-9891-138b02e3d1d4.pdf",
+            "news_date": "2024-08-16 18:43:22"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Corp. Action",
+            "descriptor": "Book Closure",
+            "caption": "Corporate Action- Book Closure For Dividend Declaration And AGM",
+            "news_body": "Corporate Action- Book Closure for Dividend declaration and AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c758671-71e1-404a-81dc-2e5ac3fc5134.pdf",
+            "news_date": "2024-08-14 21:26:30"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results For The Quarter Ended June 30, 2024",
+            "news_body": "Financial Results for the quarter ended June 30, 2024 (Standalone & Consolidated, along with Limited Review Report)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3331446f-603a-40f4-aab9-cb99c464abdd.pdf",
+            "news_date": "2024-08-14 21:18:33"
+        },
+        {
             "sym": "POLYPLEX",
             "disp": "Polyplex Corporation",
             "bse_code": 524051,
@@ -360,6 +1306,160 @@
             "sid": 2687,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Results For Jun 30, 2024 (Standalone & Consolidated)",
+            "news_body": "Results- Financial Results for June 30, 2024 (Standalone and Consolidated)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=145d115e-8562-46c9-9484-88f2845e9762.pdf",
+            "news_date": "2024-08-14 21:13:37"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For He Quarter Ended June 30, 2024",
+            "news_body": "POLYPLEX CORPORATION LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/08/2024 ,inter alia, to consider and approve unaudited financial results for the quarter ended June 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a479454c-2e51-46c5-82e4-72c85dd84ead.pdf",
+            "news_date": "2024-08-01 13:47:48"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=767140f4-a8f8-48ce-a942-ec692e2cb394.pdf",
+            "news_date": "2024-07-18 19:36:40"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Strikes /Lockouts / Disturbances",
+            "caption": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
+            "news_body": "In continuation of our previous communication dated July 8, 2024, we wish to inform you that the production at Company''s manufacturing facility at Khatima in the District Udham Sigh Nagar, Uttarakhand have progressively resumed operations effective morning of July 15/16, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc394163-fde7-4776-b49f-2e393444c6fb.pdf",
+            "news_date": "2024-07-17 18:18:52"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate of Compliance under Regulation 74(5) of SEBI (DP) Regulations, 2018 for the quarter ended June 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f1d7702-22e9-4ecf-9073-f2cc5e5af521.pdf",
+            "news_date": "2024-07-11 19:31:14"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Mr. Suresh Inderchand Surana having completed his second term of five years as Independent Director has ceased to be Director of the Company w.e.f. the close of business hours on July 9, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86493d0f-679e-4ed1-afd7-410911c93f7f.pdf",
+            "news_date": "2024-07-10 12:33:45"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Mr. Sandip Das is appointed as an Additional, Non-Executive Independent Director w.e.f. July 10, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c933371-9c62-4f60-aa1b-422f6e72a950.pdf",
+            "news_date": "2024-07-09 19:03:35"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Strikes /Lockouts / Disturbances",
+            "caption": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
+            "news_body": "Production at Company''s manufacturing plant at Khatima in District Udham Singh Nagar, Uttarakhand has been suspended effective morning of July 8, 2024 due to heavy rain resulting in flood like situation.Loss/damage of property/machine etc is being estimated. there is no loss of life. Company has adequate insurance including loss of profit.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9be53e2-d1de-400e-bfad-f1cba89cb7b5.pdf",
+            "news_date": "2024-07-08 19:42:53"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36fa5652-3d59-4698-8a79-f6b7635fbef7.pdf",
+            "news_date": "2024-07-05 19:00:09"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers Report on Postal Ballot Concluded on June 28, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3beffd37-f31d-4ee9-8f12-c4fed0b48377.pdf",
+            "news_date": "2024-06-29 15:52:23"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot concluded on June 28, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c22630e-7f76-42fb-a823-6be0394f44e3.pdf",
+            "news_date": "2024-06-29 15:50:44"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading window w.e.f. July 1, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13e610a3-53f1-4c77-800f-1b040f1c1a79.pdf",
+            "news_date": "2024-06-28 15:40:26"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Secure Investments Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8511E99D_F9B9_43BC_A99F_1C8B22C50E5A_145105.pdf",
+            "news_date": "2024-06-03 14:51:08"
+        },
+        {
+            "co_code": 1056,
+            "bse_code": 524051,
+            "isin": "INE633B01018",
+            "ann_type": "Company Update",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the period ended March 31, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7db5754-99ef-412d-9154-c0883b3edfb9.pdf",
+            "news_date": "2024-05-29 18:58:52"
         },
         {
             "sym": "POLYPLEX",
@@ -1225,6 +2325,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

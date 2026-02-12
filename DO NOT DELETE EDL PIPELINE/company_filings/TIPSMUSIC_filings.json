@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=088330c5-00cf-4b48-8aa9-e1a8ce73aff8.pdf",
+            "news_date": "2026-02-03 16:36:52"
+        },
+        {
             "sym": "TIPSMUSIC",
             "disp": "Tips Music",
             "bse_code": 532375,
@@ -24,6 +35,50 @@
             "sid": 9117,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61f3506e-2278-43a8-be9e-f17d6c462839.pdf",
+            "news_date": "2026-01-23 22:05:01"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Advertisement Regarding Unaudited Financial Results Of The Company For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b7f0db7-732a-41cd-845e-12ea79ffdc8c.pdf",
+            "news_date": "2026-01-20 15:27:46"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f05139e-4cd2-42db-8051-a4fe94d83f74.pdf",
+            "news_date": "2026-01-19 21:43:10"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27408593-f72c-415c-8693-dafde42c7b91.pdf",
+            "news_date": "2026-01-19 21:21:20"
         },
         {
             "sym": "TIPSMUSIC",
@@ -50,6 +105,50 @@
             "seg": "E"
         },
         {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc2fe041-3ef4-4739-bd4e-fb936a5a7d75.pdf",
+            "news_date": "2026-01-19 13:46:30"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65d5a801-9e18-4bc2-90be-7489116b7c84.pdf",
+            "news_date": "2026-01-19 13:36:26"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Declaration of third interim dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0733db0e-c8f9-483d-84b9-889c0cfdafa5.pdf",
+            "news_date": "2026-01-19 13:24:47"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=182e3387-5c20-4161-aee4-f40d01616ec9.pdf",
+            "news_date": "2026-01-19 13:21:26"
+        },
+        {
             "sym": "TIPSMUSIC",
             "disp": "Tips Music",
             "bse_code": 532375,
@@ -72,6 +171,226 @@
             "sid": 9117,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Unaudited Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0453ad5-d5a7-4bf5-a09b-c794ca3a3885.pdf",
+            "news_date": "2026-01-19 13:17:44"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Conversion Of Statutory AuditorS Partnership Firm Into A Limited Liability Partnership (LLP)",
+            "news_body": "Intimation regarding conversion of Statutory Auditors Partnership Firm into a Limited Liability Partnership (LLP)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0eb3ffc7-337e-418b-a29d-7313c2aefae1.pdf",
+            "news_date": "2026-01-16 14:50:59"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "In compliance with SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we hereby inform you that an analyst(s)/ institutional investor(s) call is scheduled to be held on Monday January 19 2026 at 5:00 PM (IST) to discuss the Unaudited Financial Results of the Company for quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3aaae8e-b50d-46df-be89-286a7a0a5135.pdf",
+            "news_date": "2026-01-13 15:52:32"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Unaudited Financial Results Of The Company For The Quarter And Nine Months Ended December 31 2025 And Declaration Of The Third Interim Dividend If Any For The Financial Year 2025-2026",
+            "news_body": "Tips Music Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 19/01/2026 inter alia to consider and approve the Unaudited Financial Results of the Company for the quarter and nine months ended December 31 2025 and Declaration of the third Interim Dividend if any for the financial year 2025-2026 and fixation of the Record Date for payment of third Interim Dividend if declared.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58a39e20-ad5a-4d1d-b043-6a816a591db4.pdf",
+            "news_date": "2026-01-13 10:25:13"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under regulation 74(5) of SEBI (DP) Regulation 2018 for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8bdb960-826d-46e8-971e-6d83c926c4ab.pdf",
+            "news_date": "2026-01-08 12:11:42"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3df0811-c87a-48b8-b016-703c95e732a7.pdf",
+            "news_date": "2025-12-29 12:57:35"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4fcaa7e8-bd06-4de6-9204-df991acd40a6.pdf",
+            "news_date": "2025-12-19 13:01:48"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f30fc4df-c418-4e1f-87b0-9be4bd924b2a.pdf",
+            "news_date": "2025-12-10 16:31:34"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14c4da26-3b31-4222-b7a7-62fe0a353612.pdf",
+            "news_date": "2025-12-05 11:12:42"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8887d5da-0eb4-4c05-87eb-0665797f9ea8.pdf",
+            "news_date": "2025-12-03 15:31:06"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9eb0c11e-b65c-463c-adbe-5b550c34caa0.pdf",
+            "news_date": "2025-11-29 18:05:32"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c9019fe-016d-4682-82c8-03cf23b17daf.pdf",
+            "news_date": "2025-11-14 14:53:22"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=666a3098-44f3-41f5-980a-b646071c5d36.pdf",
+            "news_date": "2025-11-13 16:40:16"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea320ec0-7c04-4dfc-ba2b-e1d294fa3b88.pdf",
+            "news_date": "2025-11-12 14:15:50"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6efa2fd-9f78-4205-82ce-bbf6bc70158e.pdf",
+            "news_date": "2025-11-11 10:39:40"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=737299da-ecb9-4e43-b6a3-15c3e200d7fc.pdf",
+            "news_date": "2025-11-10 10:23:26"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed52106c-850f-4bf7-96fe-c6269d736f2f.pdf",
+            "news_date": "2025-11-06 10:43:43"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4d00cb1-ba9c-4ec7-8ea5-e27ee9dca12d.pdf",
+            "news_date": "2025-11-04 12:30:05"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4dcf56a-0808-4f15-bede-1ecda76b0248.pdf",
+            "news_date": "2025-10-23 16:34:28"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0345295f-db25-4298-9e54-cef1df131a57.pdf",
+            "news_date": "2025-10-23 16:18:41"
         },
         {
             "sym": "TIPSMUSIC",
@@ -98,6 +417,39 @@
             "seg": "E"
         },
         {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c4262c4-444a-4a96-ab6b-14e591355288.pdf",
+            "news_date": "2025-10-21 08:31:16"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Advertisement Regarding Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025.",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b283721-3b0c-4b1c-8677-2062964f80fe.pdf",
+            "news_date": "2025-10-16 13:05:06"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio of Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=349b54e9-c5ad-454a-80fe-138dcecbb075.pdf",
+            "news_date": "2025-10-15 20:34:18"
+        },
+        {
             "sym": "TIPSMUSIC",
             "disp": "Tips Music",
             "bse_code": 532375,
@@ -120,6 +472,50 @@
             "sid": 9117,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef147b50-d7b2-49c4-b15b-924a5ff7a418.pdf",
+            "news_date": "2025-10-15 13:56:19"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=626a6f3f-8c9c-4ad9-80bf-767c750a0190.pdf",
+            "news_date": "2025-10-15 13:46:10"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board approves Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=521dbe50-4b97-414c-b3b5-178544c104e0.pdf",
+            "news_date": "2025-10-15 13:06:22"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1bf665c-59ad-4a13-8771-cde444fe1b3d.pdf",
+            "news_date": "2025-10-15 13:03:11"
         },
         {
             "sym": "TIPSMUSIC",
@@ -146,6 +542,204 @@
             "seg": "E"
         },
         {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Unaudited Financial Results for quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=751532f2-6494-46b0-a469-7a921456aba1.pdf",
+            "news_date": "2025-10-15 12:56:45"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "In compliance with SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we hereby inform you that an analyst(s)/ institutional investor(s) call is scheduled to be held on Wednesday October 15 2025 at 5:00 PM (IST) to discuss the Unaudited Financial Results of the Company for quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=130103f1-f30d-4e95-aac9-cc7e29ecb9d1.pdf",
+            "news_date": "2025-10-09 17:14:24"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025 And Declaration Of Second Interim Dividend If Any For The Financial Year 2025-2026",
+            "news_body": "Tips Music Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 15/10/2025 inter alia to consider and approve Unaudited Financial Results for the quarter and half year ended September 30 2025 and Declaration of Second Interim Dividend if any for the financial year 2025-2026 and fixing the Record Date for the payment of the Second Interim Dividend if declared.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77fa657a-666d-42b8-ade6-74d452a88ac1.pdf",
+            "news_date": "2025-10-09 16:49:48"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulation 2018 for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98d9bda5-2b6f-4a39-9c89-783fdac3d955.pdf",
+            "news_date": "2025-10-07 11:33:05"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding 100 Days Campaign - Saksham Niveshak - Update KYC Details And Claim Unpaid/Unclaimed Dividends",
+            "news_body": "Intimation regarding 100 days Campaign",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee270dac-0682-4557-9191-2ee24edf9c99.pdf",
+            "news_date": "2025-10-07 11:24:08"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d38b335-2de6-45fa-a4ec-4a24bb0aee94.pdf",
+            "news_date": "2025-09-29 13:03:41"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9beb03e-e9ba-4559-8532-8e84a5ec840f.pdf",
+            "news_date": "2025-09-24 11:22:24"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=798eac02-53a7-420a-83d6-dffc4b55f4bc.pdf",
+            "news_date": "2025-09-21 18:17:26"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a60df40f-b4a6-444b-93f2-cf7449238fff.pdf",
+            "news_date": "2025-09-10 16:28:44"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Shyam Lakhani",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=254BA0D4_C0FB_4D17_A450_006CE8025473_103024.pdf",
+            "news_date": "2025-09-04 10:30:29"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Krsna Girish Taurani",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63E5F846_8340_460C_8F14_7BC6626F9E72_102903.pdf",
+            "news_date": "2025-09-04 10:29:08"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 29(1) And 29(2) Of SEBI (Substantial Acquisition Of Shares And Takeovers) Regulations 2011",
+            "news_body": "Disclosure under reg 29(1) and 29(2) of SEBI (SAST) Regulation 2011",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b38faaf-dcaa-4519-99fe-7496bcd4c178.pdf",
+            "news_date": "2025-09-02 17:21:52"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab04dfce-cb30-469d-8e87-c6e82f65c2bb.pdf",
+            "news_date": "2025-09-01 12:16:36"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1be3e10b-7501-433d-8945-130b141cd29d.pdf",
+            "news_date": "2025-08-27 19:31:31"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba08dc44-7800-4220-bd3f-40b674a34777.pdf",
+            "news_date": "2025-08-22 12:45:23"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Press Release",
+            "news_body": "Press Release titled \"Tips Music acquires studio Radhas Cultural Music Legacy of Gujarati and Kutchi Songs\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab74e7e8-8681-4825-91be-201f29cf9e71.pdf",
+            "news_date": "2025-08-18 08:19:13"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=636e6d6d-39f5-4bec-ac54-30b80972ac2a.pdf",
+            "news_date": "2025-08-13 17:23:01"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=056cc3ea-8144-4096-9800-698bc174c6ba.pdf",
+            "news_date": "2025-08-11 17:09:02"
+        },
+        {
             "sym": "TIPSMUSIC",
             "disp": "Tips Music",
             "bse_code": 532375,
@@ -168,6 +762,105 @@
             "sid": 9117,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75d2e718-0a97-40a3-8b7a-048447e9cb28.pdf",
+            "news_date": "2025-08-06 14:50:22"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=964d2980-1aa2-4cb0-a257-48ab83bc41e7.pdf",
+            "news_date": "2025-08-06 12:31:47"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14844a86-f5a2-4f6c-a957-c5fdf56b9a1f.pdf",
+            "news_date": "2025-08-01 16:42:06"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70022f8a-1319-4085-924a-fee4bd07be46.pdf",
+            "news_date": "2025-08-01 16:04:32"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Please find attached the Scrutinizers Report and Voting Results of the 29th Annual General Meeting held on July 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3e4140b-19b9-4684-ad05-d974f66c30e9.pdf",
+            "news_date": "2025-07-31 21:54:10"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f936b3e-1742-47dd-9f5b-3a0746e868fc.pdf",
+            "news_date": "2025-07-31 17:43:23"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Advertisement Regarding Unaudited Financial Results For The Quarter Ended June 30 2025.",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cae01c48-ca6b-432f-8af5-2063679fe7f3.pdf",
+            "news_date": "2025-07-31 17:25:15"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio of the Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=edcb3dfe-b8af-4bc0-aa2e-731a59863cd4.pdf",
+            "news_date": "2025-07-30 22:33:06"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceeding of 29th Annual General Meeting held on July 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0e3abff-c7d3-4749-b721-a5163d3c69d6.pdf",
+            "news_date": "2025-07-30 16:48:53"
         },
         {
             "sym": "TIPSMUSIC",
@@ -194,6 +887,50 @@
             "seg": "E"
         },
         {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=256c9c23-1d64-4945-b99e-df30dd03b5c9.pdf",
+            "news_date": "2025-07-30 14:42:53"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=803294ae-e075-4796-8057-07a7465dea98.pdf",
+            "news_date": "2025-07-30 14:34:45"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board declared the first interim dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=532137fc-2edf-4ad9-993d-83542559619c.pdf",
+            "news_date": "2025-07-30 14:25:03"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=102b5b36-7a91-4004-bc58-977d5e479c67.pdf",
+            "news_date": "2025-07-30 14:19:50"
+        },
+        {
             "sym": "TIPSMUSIC",
             "disp": "Tips Music",
             "bse_code": 532375,
@@ -216,6 +953,259 @@
             "sid": 9117,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For Quarter Ended June 30 2025",
+            "news_body": "Unaudited Financial Results for quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7a12068-6f02-417d-83fa-de3624be37ef.pdf",
+            "news_date": "2025-07-30 14:15:51"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "In compliance with SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we hereby inform you that an analyst(s)/ institutional investor(s) call is scheduled to be held on Wednesday July 30 2025 at 5:00 p.m. (IST) to discuss the Unaudited Financial Results of the Company for quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f53b27f2-4f4c-47aa-9468-1507b28d4a65.pdf",
+            "news_date": "2025-07-25 17:24:11"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Unaudited Financial Results Of The Company For The Quarter Ended June 30 2025 And Declaration Of Interim Dividend If Any",
+            "news_body": "Tips Music Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/07/2025 inter alia to consider and approve the Unaudited Financial Results of the Company for the quarter ended June 30 2025 and Declaration of interim dividend if any",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4373dca-a7d5-49e5-8971-7c5802669d00.pdf",
+            "news_date": "2025-07-24 21:56:07"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be72dd55-376e-4f4f-b2ff-9e05d8807366.pdf",
+            "news_date": "2025-07-14 17:34:59"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Advertisement In The Mumbai Lakshadeep (Marathi) Edition - Notice To Shareholders For 29Th Annual General Meeting",
+            "news_body": "Newspaper Advertisement in Mumbai Lakshadeep (Marathi) edition",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=debb38cf-e68f-4b5c-83d6-b6fadf5f60a0.pdf",
+            "news_date": "2025-07-10 13:20:18"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Advertisement - Notice To Shareholders For 29Th Annual General Meeting",
+            "news_body": "Newspaper Advertisement - Notice to Shareholders for 29th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9db0843-be8e-4a71-b934-f2bba5d94acb.pdf",
+            "news_date": "2025-07-08 22:50:55"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Please find attached the Business Responsibility and Sustainability Report For FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ace388eb-fc46-4af1-b334-f6a4077565f1.pdf",
+            "news_date": "2025-07-07 18:45:43"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "We wish to inform you that the 29th Annual General Meeting (AGM) of the Company will be held on Wednesday July 30 2025 at 11:00 a.m. (IST) through Video Conferencing (VC) / Other Audio-Visual Means (OAVM).\r\n\r\nPursuant to Regulation 34(1) of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 we are submitting herewith the Notice of the 29th AGM and the Annual Report for the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=313d00fa-f54b-4e6c-8c14-d5886eae86fe.pdf",
+            "news_date": "2025-07-07 13:56:53"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Advertisement - Notice To Shareholders For 29H Annual General Meeting",
+            "news_body": "Newspaper Advertisement - Notice to Shareholders for 29th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83879041-216e-4623-a499-f13e2b19013a.pdf",
+            "news_date": "2025-07-03 16:58:07"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of 29Th Annual General Meeting",
+            "news_body": "Intimation of 29th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7949295d-e09d-4e3d-b21f-b848cdeff728.pdf",
+            "news_date": "2025-07-03 16:43:27"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6160ba1-bf9d-4893-af04-d890444986d1.pdf",
+            "news_date": "2025-06-27 15:09:45"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10e2c140-1c33-4b58-9f67-9ec180f14b74.pdf",
+            "news_date": "2025-06-18 16:52:33"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcdf50e4-03c4-4d9d-b0f3-980a5aabbf19.pdf",
+            "news_date": "2025-06-17 17:29:06"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7cfabe3-cb4b-41f6-ac92-e2ec5821a4e2.pdf",
+            "news_date": "2025-06-13 17:06:58"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1829f0a-5f6e-41c9-892d-3c025be0021a.pdf",
+            "news_date": "2025-06-11 16:57:27"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=681b2a27-ec98-43f3-a791-46873d9a0813.pdf",
+            "news_date": "2025-06-05 17:34:18"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6015f802-6595-4806-8449-f18349a9253a.pdf",
+            "news_date": "2025-06-05 12:43:11"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8ea5728-8ff6-4de9-8831-4cbb729bf1b7.pdf",
+            "news_date": "2025-06-04 17:21:14"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf6226fa-cd81-4523-ad93-5385798da950.pdf",
+            "news_date": "2025-05-24 13:01:44"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb037f97-9039-45ad-bf09-a28bdfd17727.pdf",
+            "news_date": "2025-05-22 17:00:51"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b5999a0-3be3-4fbf-8649-1a2784eaa132.pdf",
+            "news_date": "2025-05-16 16:59:43"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a95f58ea-4d8c-4d98-b99b-fca015a28de1.pdf",
+            "news_date": "2025-05-16 14:18:50"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ebfb413-ba05-4bc5-b544-b0d62f007c82.pdf",
+            "news_date": "2025-05-06 11:59:35"
         },
         {
             "sym": "TIPSMUSIC",
@@ -242,6 +1232,61 @@
             "seg": "E"
         },
         {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b405bd49-a4c4-484f-acf5-04297de18365.pdf",
+            "news_date": "2025-05-02 11:22:47"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio of the Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e6642e3-c3e8-4a1b-a870-6d866d20cc2c.pdf",
+            "news_date": "2025-04-24 15:40:28"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c17858f-c557-4f3a-80e5-8bf69c3ae128.pdf",
+            "news_date": "2025-04-24 15:25:18"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Re-Appointment Of Directors  Of The Company",
+            "news_body": "Re-appointment of Directors of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfe6f74a-f00e-4788-9f1f-f34b0c4c4958.pdf",
+            "news_date": "2025-04-23 23:06:21"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor And Re-Appointment Of Internal Auditors Of The Company",
+            "news_body": "Appointment of Secretarial Auditor and Re-appointment of Internal Auditors of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1b665ed-4a95-45d0-b558-918068e3dd4e.pdf",
+            "news_date": "2025-04-23 22:52:45"
+        },
+        {
             "sym": "TIPSMUSIC",
             "disp": "Tips Music",
             "bse_code": 532375,
@@ -264,6 +1309,61 @@
             "sid": 9117,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65385ff8-8dbf-471f-8f0c-e4f24f100ab6.pdf",
+            "news_date": "2025-04-23 15:35:27"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=355ad993-35b5-4d69-a44c-249c80517906.pdf",
+            "news_date": "2025-04-23 15:32:10"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2042eb1-8ad6-441f-bfa0-3cf51b348cee.pdf",
+            "news_date": "2025-04-23 14:52:33"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Tips Music Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L92120MH1996PLC099359</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>NA</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>Not Applicable</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: BIJAL PATEL <br/>  Designation: COMPANY SECRETARY  <br/> EmailId: bijal@tips.in</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: SUSHANT DALMIA <br/> Designation: CHIEF FINANCIAL OFFICER <br/> EmailId: sushant.dalmia@tips.in</div> </div> <div> <br/> Date: 19/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b48664d3-2d8f-4df1-8452-88afb359830a.pdf",
+            "news_date": "2025-04-19 19:21:03"
+        },
+        {
+            "co_code": 8022,
+            "bse_code": 532375,
+            "isin": "INE716B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of call with analyst(s) / institutional investor(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=147d1f99-0553-4a31-b4c0-005a129d0a21.pdf",
+            "news_date": "2025-04-17 20:42:11"
         },
         {
             "sym": "TIPSMUSIC",
@@ -1561,6 +2661,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

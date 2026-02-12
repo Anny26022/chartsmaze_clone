@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "We hereby inform the Exchange regarding the Finance Committee Meeting held on February 12 2026 whereby the Committee approved the issue size shelf prospectus and tranche I prospectus.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=729aa144-3736-4cd4-9210-2781ab4809b7.pdf",
+            "news_date": "2026-02-13 01:44:09"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the Exchange regarding assignment and/or reaffirmation of Credit Ratings by ICRA Limited and Crisil Ratings Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08f850df-a734-4649-96cc-18b8072abdf0.pdf",
+            "news_date": "2026-02-12 16:15:36"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Please find attached intimation in relation to allotment of equity shares upon exercise of ESOP.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f92790a2-8101-4de9-92e7-d8665fd6e1ec.pdf",
+            "news_date": "2026-02-06 18:05:55"
+        },
+        {
             "sym": "IIFL",
             "disp": "IIFL Finance",
             "bse_code": 532636,
@@ -24,6 +57,83 @@
             "sid": 11809,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find attached intimation in relation to investor presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=993e65aa-c35c-4ae1-a027-f058fb3d7676.pdf",
+            "news_date": "2026-02-06 17:23:19"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "IIFL Finance Limited has informed the Exchanges about Outcome of Postal Ballot along with Scrutinizers Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b169678-f361-4eeb-b7d1-d9d2c71bfc21.pdf",
+            "news_date": "2026-02-05 21:54:54"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "The Company has informed the Exchanges about the outcome of voting results of Postal Ballot along with Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a4a3864-5cb9-4a25-8b97-7cf2d934f0d1.pdf",
+            "news_date": "2026-02-05 21:49:10"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding schedule of IIFL Lenders & Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4ff852a-52d7-45d2-85ec-d588b70d4432.pdf",
+            "news_date": "2026-01-30 21:17:23"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding changes in Senior Management Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c939c4c8-5717-4620-ad8c-0ff3f2d0e874.pdf",
+            "news_date": "2026-01-30 20:27:44"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the Exchange about Reaffirmation of Credit Rating of IIFL Home Finance Limited a material Subsidiary of the Company by CRISIL Ratings Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d6135fd-b2d9-4436-a6b5-c43f7ce37bd4.pdf",
+            "news_date": "2026-01-29 15:41:49"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the exchange regarding reaffirmation of Credit Rating by Crisil Ratings Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b004a2f0-3435-4d9d-b8dc-db74da4cd2bf.pdf",
+            "news_date": "2026-01-28 17:51:12"
         },
         {
             "sym": "IIFL",
@@ -50,6 +160,94 @@
             "seg": "E"
         },
         {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "IIFL Finance Limited hereby submits Transcript of Earnings call held on January 22 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b4e6025-7d06-4854-a738-cb8a9b4aa61b.pdf",
+            "news_date": "2026-01-28 12:49:10"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "IIFL Finance Limited informed the Exchanges regarding Newspaper Advertisement published on January 23 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd2fa282-4121-4c7d-8c2c-9f3bdadf0af5.pdf",
+            "news_date": "2026-01-23 16:44:40"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "IIFL Finance Limited hereby clarifies to stock exchanges regarding clarification sought by the exchange over news article published by CNBC TV 18 today i.e. January 18 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bedcd503-a0cb-4fff-8a8c-07698297772b.pdf",
+            "news_date": "2026-01-22 17:13:20"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from IIFL Finance Ltd",
+            "news_body": "The Exchange has sought clarification from IIFL Finance Ltd on January 22 2026 with reference to news appeared in https://www.cnbctv18.com dated January 22 2026 quoting \"IIFL Finance Q3 Results: Stock tanks 15% despite sharp surge in Gold loans; Heres why\" <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2026-01-22 15:33:03"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "change in management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c36c8d18-41f2-463b-b076-5cca49c74ac7.pdf",
+            "news_date": "2026-01-22 14:40:10"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47dde8db-3479-4435-8cee-6eb0ca3b214b.pdf",
+            "news_date": "2026-01-22 14:36:57"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Dividend",
+            "news_body": "Outcome of board meeting wrt dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b02772f-47f2-45c8-aedf-bd41d46b9825.pdf",
+            "news_date": "2026-01-22 14:35:28"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Outcome of Board Meeting dated January 22 2026 wrt dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c023ed23-5cfb-4e6d-8fc1-e852a0b4578c.pdf",
+            "news_date": "2026-01-22 14:33:45"
+        },
+        {
             "sym": "IIFL",
             "disp": "IIFL Finance",
             "bse_code": 532636,
@@ -72,6 +270,28 @@
             "sid": 11809,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "please find attached press release and presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fd9716a-27e7-4f5b-86e3-24fa9554cec3.pdf",
+            "news_date": "2026-01-22 14:28:41"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "please find attached press release and presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=860ff290-d0f1-4cc2-81ce-e765fb111eff.pdf",
+            "news_date": "2026-01-22 14:27:23"
         },
         {
             "sym": "IIFL",
@@ -98,6 +318,347 @@
             "seg": "E"
         },
         {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On January 22 2026",
+            "news_body": "Please find attached outcome of the Board Meeting held on January 22 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdb3f94b-103b-4c3c-9c96-75cb9bd61fca.pdf",
+            "news_date": "2026-01-22 14:20:14"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On January 22 2026",
+            "news_body": "Please find attached outcome of the Board Meeting held on January 22 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=434b569f-cbea-4084-9170-6af05e858838.pdf",
+            "news_date": "2026-01-22 14:16:09"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding earnings call schedule to be held on January 22 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c71623c1-8f4e-4872-969c-aaf1c1125c4d.pdf",
+            "news_date": "2026-01-19 20:50:51"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025 And Declaration Of Interim Dividend.",
+            "news_body": "IIFL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/01/2026 inter alia to consider and approve (a) Consolidated and Standalone Unaudited Financial Results (Financial Results) for the quarter and nine months ended December 31 2025; \r\n(b) Declaration of Interim Dividend for the financial year 2025-26 if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bd2de8e-3b28-4171-bfb4-5327eb86650b.pdf",
+            "news_date": "2026-01-16 21:25:20"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "IIFL Finance Limited hereby informs the Stock Exchange regarding the submission of Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a29a285-5c72-4bf5-9bb2-aae1a2770a54.pdf",
+            "news_date": "2026-01-14 17:36:25"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Newspaper Publication dated January 6 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6208c8ae-d624-4584-8970-b1f4dcd11653.pdf",
+            "news_date": "2026-01-06 13:39:44"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Notice of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c732b22-242e-4bca-829d-04a6aaa3acca.pdf",
+            "news_date": "2026-01-05 19:27:33"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "IIFL Finance Limited hereby informs that the Company has received an order from Goods and Services Tax Department Delhi and the details of the order is attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a953a52c-c3cd-44df-940c-feab62c081b1.pdf",
+            "news_date": "2026-01-02 19:55:12"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "IIFL Finance Limited has informed the exchanges regarding the approval of Non-Convertible Debentures approved by the Finance Committee at its meeting held on December 30 2025 on private placement basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6930e289-c7b7-4ce0-bd2f-bb7bcb18d176.pdf",
+            "news_date": "2025-12-30 13:21:31"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the exchange regarding assignment and/or affirmation of Credit Ratings by India Ratings and Research Pvt. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f667938e-63d9-4484-b4f8-7f6c16e86bc0.pdf",
+            "news_date": "2025-12-29 20:00:39"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Closure of Trading Window in accordance with the SEBI (Prohibition of Insider Trading) Regulations 2015 from January 1 2026 till 48 hours after the unaudited financial results for the quarter and nine months ended December 31 2025 are approved by the Board of Directors and filed with Stock Exchanges.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b40feae0-437e-48f5-802e-a2b21198db6b.pdf",
+            "news_date": "2025-12-26 19:39:02"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for  Intimation For Issuance Of Non-Convertible Debentures On Private Placement Basis",
+            "news_body": "IIFL Finance Limited has informed the Exchange regarding the the Finance Committee of Board of Directors of the Company at their meeting held today i.e. December 22 2025 approved the terms and conditions of issuance of debt instruments in the form of Non-Convertible Debentures on a private placement basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a7a834e-2a06-4092-bf1b-8d3eff7940ad.pdf",
+            "news_date": "2025-12-22 21:17:23"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the Exchange about Assignment and reaffirmation of Credit Rating by Infomerics Valuation and Rating Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87569203-7316-4692-b196-da7edc6a2907.pdf",
+            "news_date": "2025-12-22 18:48:07"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding press release dated December 19 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9d9248f-8776-4ec3-a5c6-0b57bf26a763.pdf",
+            "news_date": "2025-12-19 23:15:59"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for IIFL Finance Limited Has Informed The Exchanges Regarding Outcome Of Board Meeting Dated December 19 2025.",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Outcome of Board Meeting dated December 19 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b857e410-1a07-429b-bb6b-e23d2025ac4c.pdf",
+            "news_date": "2025-12-19 22:54:35"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Proposed Issuance Of Non-Convertible Debentures",
+            "news_body": "IIFL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/12/2025 inter alia to consider and approve raising funds by issuance of Non-Convertible Debentures on private placement basis",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbc2e5b0-6af8-4cc8-a9ec-6c9fef9eeb59.pdf",
+            "news_date": "2025-12-17 20:26:04"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the Exchange about Assignment of Credit Rating of IIFL Home Finance Limited a material subsidiary of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e05a620-8f71-4207-8382-760c2b644844.pdf",
+            "news_date": "2025-12-16 16:15:42"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "IIFL Finance Limited has informed the Exchange about allotment of Non-Convertible Debentures on private placement basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ddecce1-ae06-4155-8172-c3df9d045c7c.pdf",
+            "news_date": "2025-12-16 14:55:14"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "IIFL Finance Limited has informed the Exchange about press release dated December 16 2025 titled \"S&P Upgrades IIFL Finances Outlook to Positive on recovering market share in Gold Loans B+/B ratings affirmed.\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c183a72-7a32-4504-9dee-0ab02fe8311c.pdf",
+            "news_date": "2025-12-16 14:45:06"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Revision in Outlook from Stable to Positive and affirmation of Credit Ratings by S&P Global Ratings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cca1a1c-82c6-4d61-966e-3c40c7908223.pdf",
+            "news_date": "2025-12-15 18:25:25"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance has informed the exchange about assignment and reaffirmation of Credit Ratings by Infomerics Valuation and Rating Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b9673a4-d03e-456a-a087-b3b641022699.pdf",
+            "news_date": "2025-12-11 16:31:49"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Intimation For Issuance Of Non-Convertible Debentures On Private Placement Basis",
+            "news_body": "IIFL Finance Limited has informed the Exchange regarding the Finance Committee meeting held today i.e. December 11 2025 whereby the terms and conditions of issuance of debt instruments in the form of senior unsecured listed rated \r\nredeemable Non-Convertible Debentures on a private placement basis were approved",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bc18a25-87bf-437c-adb9-ca77607eec63.pdf",
+            "news_date": "2025-12-11 12:08:27"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 50 (1) - Prior intimation about Board meeting under Regulation 50(1))",
+            "caption": "Compliances-Reg. 50 (1) - Prior intimation about Board meeting under Regulation 50(1)",
+            "news_body": "To consider Fund Raising through issuance of Non-convertible Debentures on private placement basis",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e500ddf2-c09a-487e-aeb7-805442709fc0.pdf",
+            "news_date": "2025-12-08 19:12:44"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Issuance Of Non-Convertible Debentures On Private Placement Basis",
+            "news_body": "IIFL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/12/2025 inter alia to consider and approve Fund Raising through issuance of Non-Convertible Debentures on private placement basis",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4733d3a8-488d-4705-b246-f88fcbb26920.pdf",
+            "news_date": "2025-12-08 19:10:07"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "IIFL Finance Limited hereby intimates the Exchange that the Company is proceeding with allotment of 125816 equity shares under its ESOP Schemes.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3cc1e74-bbc1-47e1-b40b-822bfa3c8316.pdf",
+            "news_date": "2025-12-05 16:17:23"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publications regarding transfer of Equity Shares to the demat account of the Investor Education and Protection Fund Authority.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=baa00b6d-6769-42c1-9d12-0f31a19c99c9.pdf",
+            "news_date": "2025-12-02 16:30:15"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "We wish to inform you that pursuant to Regulations 30 and 51 of the Securities and Exchange Board of India (SEBI) (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations) (as amended from time to time) the Board of Directors of the Company at their meeting held today i.e. November 26 2025 approved the public issue of secured rated listed redeemable non-convertible debentures with the shelf limit of up to Rs. 2000 Crore including green shoe option if any in one or more tranches.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29325ad9-1f5b-47ab-a381-e19a8cb6d6bd.pdf",
+            "news_date": "2025-11-26 12:07:24"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the Exchange about assignment and/or reaffirmation of Credit Ratings by Brickwork Ratings India Pvt. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6fcf92c-d302-4cba-bad2-6798251379c1.pdf",
+            "news_date": "2025-11-21 19:56:19"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Public Issue Of Secured Rated Listed Redeemable Non-Convertible Debentures In One Or More Tranches",
+            "news_body": "IIFL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 26/11/2025 inter alia to consider and approve the public issue of secured rated listed redeemable non-convertible debentures in one or more tranches in compliance with the provisions of the SEBI (Issue and Listing of Non-Convertible Securities) Regulations 2021 as amended subject to regulatory and statutory approvals as may be applicable.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c4f23d2-2fa2-47cc-8e67-0a3bbc14e3f0.pdf",
+            "news_date": "2025-11-21 16:58:34"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Call Option Exercise Notice",
+            "news_body": "IIFL Finance Limited has informed the exchange about notice sent to eligible debenture holders regarding Call Option of privately placed Debentures.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4dfe8508-e184-430e-8085-b56961eafe6b.pdf",
+            "news_date": "2025-11-18 17:26:45"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the exchange regarding assignment and/or affirmation of credit ratings by India Ratings and Research Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c4f844b-209f-4c52-8a4d-373afa22c6e8.pdf",
+            "news_date": "2025-11-14 13:01:21"
+        },
+        {
             "sym": "IIFL",
             "disp": "IIFL Finance",
             "bse_code": 532636,
@@ -120,6 +681,50 @@
             "sid": 11809,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4e3bbe0-7de9-43a3-9726-6a29bfe39b87.pdf",
+            "news_date": "2025-11-07 21:22:58"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "IIFL Finance Limited has informed the Stock Exchanges regarding Newspaper Advertisements published on October 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be07a690-9f32-406a-816f-329dbe9e33ca.pdf",
+            "news_date": "2025-10-31 15:55:53"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Employee Stock Options",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Grant of 44000 Stock Options to the identified employee(s) under Employee Stock Option Scheme - 2008",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20cb6a83-d4cf-4c1a-901c-dd7ba9729f33.pdf",
+            "news_date": "2025-10-30 20:16:13"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "IIFL Finance Limited hereby informs the stock exchanges regarding the following: \r\n\r\n1. Re-designation of Mr. Pranav Dholakia from Chief Risk Officer to Head - Construction and Real Estate (CRE)\r\n\r\n2. Appointment of Mr. Rahul Sanklecha as the Chief Risk Officer (CRO) of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a5691c6-2da2-45ac-a186-d141b7e57c59.pdf",
+            "news_date": "2025-10-30 19:29:05"
         },
         {
             "sym": "IIFL",
@@ -146,6 +751,39 @@
             "seg": "E"
         },
         {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "IIFL Finance Limited hereby submits Investor Presentation for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=607dc8b5-83cf-4273-b03b-0d7a25d8c97b.pdf",
+            "news_date": "2025-10-30 19:22:38"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "IIFL Finance Limited hereby submits Press Release for the unaudited financial results for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1aab24e9-5519-4070-b820-c476e56f93fa.pdf",
+            "news_date": "2025-10-30 19:18:36"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Code of Conduct under SEBI (PIT) Regulations 2015",
+            "caption": "Announcement under Regulation 30 (LODR)-Code of Conduct under SEBI (PIT) Regulations 2015",
+            "news_body": "IIFL Finance Limited hereby submits to the stock exchanges amendment in the Code of Practices and Procedures for Fair Disclosure of Unpublished Price Sensitive Information under SEBI (Prohibition of Insider Trading) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c795cf9-77ea-4ed3-8c69-e6f593863dc5.pdf",
+            "news_date": "2025-10-30 18:00:12"
+        },
+        {
             "sym": "IIFL",
             "disp": "IIFL Finance",
             "bse_code": 532636,
@@ -168,6 +806,226 @@
             "sid": 11809,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30 2025.",
+            "news_body": "IIFL Finance Limited hereby submits to the stock exchanges Unaudited Financial Results for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61bc91db-a5e1-4243-aed7-c999e62d862a.pdf",
+            "news_date": "2025-10-30 17:33:15"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "IIFL Finance Limited hereby intimates to the Exchanges about the Outcome of Board Meeting held on October 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bd94507-f31c-480d-9686-fe65d158e8a4.pdf",
+            "news_date": "2025-10-30 17:21:33"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "IIFL Finance Limited has informed exchanges regarding Press release for appointment of Mr. Girish Kousgi as a Managing Director and Chief Executive Officer of IIFL Home Finance Limited a material subsidiary of the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9db1e6a-263f-4747-8e6d-de84d575ae5a.pdf",
+            "news_date": "2025-10-30 15:35:22"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "IIFL Finance Limited hereby submits Intimation of Earnings Call for the Quarter ended September 30 2025 to be held on October 31 2025 at 02.30pm.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8cdcd0b-aa20-49a2-9a3d-1fbe81eeb484.pdf",
+            "news_date": "2025-10-28 16:47:40"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Call Option Exercise Notice",
+            "news_body": "IIFL Finance Limited has informed the Exchange about Notice sent to Debenture holders regarding Call Option to be exercised by the Company on Non Convertible Debentures issued on Private placement basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1f75e0b-991c-4c32-a5a5-d71ea976654a.pdf",
+            "news_date": "2025-10-28 16:22:12"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting To Be Held On October 30 2025",
+            "news_body": "IIFL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/10/2025 inter alia to consider and approve Unaudited Consolidated and Standalone Financial Results for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccc8adef-73f1-4a6b-a199-3c62853635cc.pdf",
+            "news_date": "2025-10-24 18:55:14"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the exchange about the revision in outlook from Stable to Positive by Fitch Ratings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f796a11e-2665-4ff4-94fa-ef3ac7f60fd3.pdf",
+            "news_date": "2025-10-16 17:42:22"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "IIFL Finance Limited hereby submits certificate under Regulation 74(5) of the Securities and Exchange Board of India (Depositories and Participants) Regulations 2018 for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b2236e6-d18d-4c0d-84d9-f8908a080976.pdf",
+            "news_date": "2025-10-14 18:08:47"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "IIFL Finance Limited has informed the Exchange regarding allotment of ESOPs by way of Circular Resolution dated October 10 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29c6b1cc-2659-4b2b-b0d5-49f83271a1fa.pdf",
+            "news_date": "2025-10-10 16:15:49"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligation And Disclosure Requirements) Regulations 2015",
+            "news_body": "We wish to inform to the Exchanges regarding appointment of Mr. Girish Kousgi (DIN: 08524205) as Managing Director and Chief Executive Officer of IIFL Home Finance Limited a material subsidiary of the Company effective from October 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a7f41fc-f011-49dd-b6cc-e577b311be2a.pdf",
+            "news_date": "2025-10-08 16:36:35"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "IIFL Finance Limited has informed the exchange regarding allotment of Perpetual Debt Instruments on private placement basis",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d2810a8-7d6a-4f43-9f79-0ebb57f3f6d7.pdf",
+            "news_date": "2025-09-30 12:08:16"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding the Trading Window Closure pursuant to SEBI (Prohibition of Insider Trading) Regulations 2015 for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef5eb6a7-6c89-4115-8ddb-324223c404c9.pdf",
+            "news_date": "2025-09-25 19:17:16"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the Exchange regarding Reaffirmation and Revision of Outlook of Credit Rating by ICRA Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89da8229-543b-48aa-8125-bf4488adb6ee.pdf",
+            "news_date": "2025-09-25 17:27:02"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "IIFL Finance Limited has informed the Exchange regarding  the enhancement of Issue size of Perpetual Debt Instrument on Private Placement basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c239e95-c386-4979-a9f9-6e70c35be231.pdf",
+            "news_date": "2025-09-25 16:41:46"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "IIFL Finance Limited has informed the Exchange about reaffirmation and assignment of Credit Rating by Brickwork Ratings India Pvt. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b38ebd6-1119-46c2-9081-dafcfe47111b.pdf",
+            "news_date": "2025-09-16 18:18:18"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Intimation For Issuance Of Perpetual Debt Instruments On Private Placement Basis.",
+            "news_body": "The Finance Committee of Board of Directors of the Company at their meeting held today i.e. September 03 2025 approved the terms and conditions of the issuance of the debt instruments in the form of Listed Unsecured Non-Convertible Perpetual Debentures in one or multiple tranches on a private placement basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1e4c59e-92ec-44e2-85dc-4face21066ea.pdf",
+            "news_date": "2025-09-03 19:41:50"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Terms And Conditions Of The Proposed Issuance Of Non-Convertible Securities On Private Placement Basis",
+            "news_body": "IIFL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 03/09/2025 inter alia to consider and approve terms and conditions of the proposed issuance of Non-Convertible Securities on Private Placement basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a761600-b7b1-43b3-84dc-cadf5acba953.pdf",
+            "news_date": "2025-08-29 20:27:55"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "IIFL Finance Limited hereby intimate the exchange regarding Resignation of Mr. Monu Ratra Executive Director and Chief Executive Officer of IIFL Home Finance Limited Material Subsidiary effective October 06 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01de5d11-48c9-4da1-a47f-637c9900e854.pdf",
+            "news_date": "2025-08-14 19:14:41"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESG Rating Intimation",
+            "news_body": "IIFL Finance Limited has informed Stock Exchange that ESG Risk Assessments & Insights Limited has assigned an ESG Rating of \" ESG Score 70\" to the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1a815a3-6c85-4f08-b7aa-d9805672acf9.pdf",
+            "news_date": "2025-08-12 19:31:37"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "IIFL Finance Limited has allotted 60211 Equity Shares to employees through Employee Stock Option Schemes.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd9d2cad-51f8-49c3-9679-3b68fb972ed3.pdf",
+            "news_date": "2025-08-11 17:21:04"
         },
         {
             "sym": "IIFL",
@@ -194,6 +1052,28 @@
             "seg": "E"
         },
         {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "IIFL Finance Limited has informed the Exchange about the Transcript of Earnings Call held on July 31 2025 for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d52f2fc4-f13f-45ea-b49b-044b8d2d2292.pdf",
+            "news_date": "2025-08-07 13:29:58"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Newspaper Advertisements published on Thursday July 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a8e4260-f18a-4655-8d5e-8852535ee867.pdf",
+            "news_date": "2025-07-31 15:35:49"
+        },
+        {
             "sym": "IIFL",
             "disp": "IIFL Finance",
             "bse_code": 532636,
@@ -218,6 +1098,39 @@
             "seg": "E"
         },
         {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "IIFL Finance Limited has informed the Stock Exchanges regarding Investor Presentation on Unaudited Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d95e2a7e-e2c2-4b19-b0d8-8706f78520d0.pdf",
+            "news_date": "2025-07-30 18:44:58"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "IIFL Finance Limited has informed the Stock Exchanges regarding Press Release on Unaudited Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9f086cc-f077-44c2-aae2-20aa4ffb6445.pdf",
+            "news_date": "2025-07-30 18:31:14"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "IIFL Finance Limited has informed the Exchange regarding the Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2da9fa2a-f0b4-4480-bab4-32c864a8a09b.pdf",
+            "news_date": "2025-07-30 17:11:02"
+        },
+        {
             "sym": "IIFL",
             "disp": "IIFL Finance",
             "bse_code": 532636,
@@ -240,6 +1153,193 @@
             "sid": 11809,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For Quarter Ended June 30 2025",
+            "news_body": "IIFL Finance Limited has informed the Exchange regarding approval of the Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ef842a9-b4bf-4785-ae71-be38aeb067e7.pdf",
+            "news_date": "2025-07-30 16:53:35"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "IIFL Finance Limited has informed the Exchange regarding the Outcome of the Board Meeting held on July 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79125698-aa26-4710-8451-02f77681d050.pdf",
+            "news_date": "2025-07-30 16:43:51"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "IIFL Finance has informed the Exchanges regarding Earnings Conference Call scheduled to be held on Thursday July 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c71d6296-fcba-458e-a8f5-be1aecb85b04.pdf",
+            "news_date": "2025-07-24 18:18:23"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consolidated And Standalone Unaudited Financial Results (Financial Results) For The Quarter Ended June 30 2025.",
+            "news_body": "IIFL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/07/2025 inter alia to consider and approve Consolidated and Standalone Unaudited Financial Results (Financial Results) for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76f15edd-b314-43aa-b1fe-55b11b2a159f.pdf",
+            "news_date": "2025-07-23 18:15:19"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "IIFL Finance Limited informs the Exchanges regarding retirement of Mr. Arun Kumar Purwar as Non Executive Director w.e.f. July 18 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f762c78-6069-4a09-88a1-140e80d04448.pdf",
+            "news_date": "2025-07-21 20:03:41"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Voting Results and Scrutinizers Report of Annual General Meeting held on July 18 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=005de4e2-d7d8-4cb7-baaa-b429ce99d950.pdf",
+            "news_date": "2025-07-21 19:10:45"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Proceedings of 30th Annual General Meeting held on July 18 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98a44387-b20c-4922-8be5-7f6fee1b3f43.pdf",
+            "news_date": "2025-07-18 21:48:03"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 And 51 Of The SEBI (LODR) - ESG Rating",
+            "news_body": "We hereby inform you that CRISIL ESG Rating and Analytics Ltd has assigned an ESG rating of \"CRISIL ESG 60\" to the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=016b1c0b-60fc-4e64-8baf-0503205e59c5.pdf",
+            "news_date": "2025-07-16 19:49:51"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "IIFL Finance Limited hereby submits Certificate under Reg 74 (5) of SEBI (Depositories and Participants) Regulations 2018 for quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c286308-7cff-4d52-b334-7fec7d25f728.pdf",
+            "news_date": "2025-07-14 19:54:55"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of 5000 Non Convertible Securities through Private Placement Basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86773e9a-cf13-48a7-bf70-eac95465af8f.pdf",
+            "news_date": "2025-07-07 11:41:57"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding resignations of Senior Management Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9030d63d-2d3b-468b-a292-350c74217b3a.pdf",
+            "news_date": "2025-07-04 16:56:50"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding the Trading Window Closure pursuant to SEBI (Prohibition of Insider Trading) Regulations 2015 for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2944ee8-9d61-4048-978d-1514963d7ae5.pdf",
+            "news_date": "2025-06-25 18:00:55"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "IIFL Finance Limited has informed the Exchanges regarding Newspaper Advertisement published on June 25 2025 regarding Notice of 30th Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37de17b4-d151-4cb1-bacd-b3e20b1dcfd3.pdf",
+            "news_date": "2025-06-25 15:30:56"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 - Letter To Shareholders",
+            "news_body": "IIFL Finance Limited informs the exchange regarding Letter containing weblink and QR Code for accessing Notice along with Annual Report for the financial year 2024-25 under Regulation 36 (1).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b34d9f95-12d2-4043-812b-d724e4763946.pdf",
+            "news_date": "2025-06-24 22:45:19"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "IIFL Finance Limited informs the exchanges regarding Business Responsibility and Sustainability Reports for the Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6e3333f-9a61-4423-a5f9-51ec9892eebf.pdf",
+            "news_date": "2025-06-24 21:35:45"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "IIFL Finance Limited has informed exchanges regarding Annual Report for FY 2024-25 alongwith Notice of the AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3d9810e-8da2-4fa0-a8f3-410af89c049d.pdf",
+            "news_date": "2025-06-24 21:31:18"
+        },
+        {
+            "co_code": 23296,
+            "bse_code": 532636,
+            "isin": "INE530B01024",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting Of Company Will Be Held On July 18 2025 At 11.30 A.M.",
+            "news_body": "IIFL Finance Limited informs the Exchanges that Annual General Meeting of the company will be held on July 18 2025 at 11.30 a.m.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f123d52d-fa6c-49b5-a7a6-3db361243138.pdf",
+            "news_date": "2025-06-24 21:21:26"
         },
         {
             "sym": "IIFL",
@@ -1585,6 +2685,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

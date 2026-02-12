@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find intimation of Schedule of meeting with Investor(s). For details refer the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6ce9814-799b-4509-b7c8-f38c61d43894.pdf",
+            "news_date": "2026-02-11 15:35:53"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Karuna Investment Pvt Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=614F8EFF_7686_4E4C_A8A5_532891EE720D_100009.pdf",
+            "news_date": "2026-02-11 10:00:25"
+        },
+        {
             "sym": "GREENPLY",
             "disp": "Greenply Industries",
             "bse_code": 526797,
@@ -24,6 +46,39 @@
             "sid": 3987,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed Conference Call Transcript in respect of conference call for Investor ana Analysts held on February 05 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f667eed-360d-42d0-9176-8e194b191db7.pdf",
+            "news_date": "2026-02-07 15:30:13"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Public Notice to the Shareholders regarding opening of special window for Transfer and Dematerialisation of Physical Shares of Greenply Industries Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=115e8649-5fc9-412c-b29f-b09128c609a5.pdf",
+            "news_date": "2026-02-05 18:08:07"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find attached copy of Newspaper Publication in respect of Un-Audited financial results for the quarter and nine months ended 31.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3ed13bb-3bc6-4608-b49b-cd24898a98e7.pdf",
+            "news_date": "2026-02-05 17:55:57"
         },
         {
             "sym": "GREENPLY",
@@ -50,6 +105,50 @@
             "seg": "E"
         },
         {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find the link of Audio Recording of Q3 & 9M FY2026 Earning Conference Call (Group Conference Call) held on 05.02.2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce825bb6-d2d6-482c-a0ca-ff5211360e88.pdf",
+            "news_date": "2026-02-05 17:46:15"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Capacity Addition.",
+            "news_body": "Intimation regarding Capacity addition.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d431ea23-f60e-4f61-bdfd-502c1defd14b.pdf",
+            "news_date": "2026-02-04 15:30:32"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find attached Press Release.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=754468cc-5b2a-4f6a-973a-353bb1580e2c.pdf",
+            "news_date": "2026-02-04 14:44:15"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=041129aa-66b2-48c2-b2a2-32f102425265.pdf",
+            "news_date": "2026-02-04 14:39:45"
+        },
+        {
             "sym": "GREENPLY",
             "disp": "Greenply Industries",
             "bse_code": 526797,
@@ -72,6 +171,28 @@
             "sid": 3987,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed7e192e-d558-4524-8a8e-e7c902804778.pdf",
+            "news_date": "2026-02-04 14:36:25"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Un-Audited Financial Results For The Quarter And Nine Months Ended December 31 2025 And Outcome Of Board Meeting Held On 04.02.2026.",
+            "news_body": "Un-Audited Financial Results For The Quarter And Nine Months Ended December 31 2025 And Outcome Of Board Meeting Held On 04.02.2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2dcbdb4e-2e74-4451-b8ef-85c058c200c5.pdf",
+            "news_date": "2026-02-04 14:31:12"
         },
         {
             "sym": "GREENPLY",
@@ -98,6 +219,303 @@
             "seg": "E"
         },
         {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter And Nine Months Ended December 31 2025 And Outcome Of Board Meeting Held On 04.02.2026.",
+            "news_body": "Un-Audited Results for the Quarter and Nine Months ended December31 2025 and outcome of board meeting held on 04.02.2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb6a9dca-834f-48d2-ae54-a513dff3897f.pdf",
+            "news_date": "2026-02-04 14:26:47"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2025 please find enclosed herewith the schedule of Earnings Call (Group Conference Call)  to discuss the operational and financial performance for Q3 & 9M FY26 with Investors & Analysts of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f98a836-d5d1-4a1c-af33-5988773c0144.pdf",
+            "news_date": "2026-01-28 11:33:07"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Inter Alia To Consider Approve And Take On Record The Un-Audited Financial Results Of The Company For The Quarter And Nine Months Ended On 31St December 2025.",
+            "news_body": "Greenply Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/02/2026 inter alia to consider and approve and take on record the Un-audited financial results of the Company for the quarter and nine months ended on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=529da09f-fa53-45ef-9cbf-8b748a630ed5.pdf",
+            "news_date": "2026-01-23 12:40:41"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Reference to our earlier intimation dated 20-01-2026 please find attached Intimation regarding change of Senior Management Personnel of the Company. For more details refer the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=188231ca-f823-4a55-b00b-1cb0eb6fd66d.pdf",
+            "news_date": "2026-01-21 18:24:18"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation regarding change of Senior Management Personnel of the Company. For details please refer the attached letter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b66660c-d971-454f-945f-db295a297ff6.pdf",
+            "news_date": "2026-01-20 12:14:20"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Submission Of Sustainability Report For The FY 2024-25",
+            "news_body": "Please find enclosed herewith Sustainability Report of Greenply Industries Limited for the FY 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3751c14d-4def-47dd-8fb3-79ebea0c108f.pdf",
+            "news_date": "2026-01-19 12:01:30"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find attached intimation in respect of Order passed by Office of the State Tax Officer Ghatak-10 Ahmedabad Range-3 Division-1 M.S Building Laldarwaja Ahmedabad Gujarat-380001.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=155638a4-e66e-46e6-a156-cf857d8f1366.pdf",
+            "news_date": "2026-01-09 12:16:50"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018  for the quarter ended 31.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06e9044f-460d-4db7-8e17-e95765851b25.pdf",
+            "news_date": "2026-01-08 16:19:42"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Public Notice to the Shareholders regarding opening of Special Window for Re-lodgement of Transfer Request of Physical Shares of Greenply Industries Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b72fce3e-f15b-4d26-baa0-2192da17820f.pdf",
+            "news_date": "2026-01-06 15:31:57"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monthly Report For The Month Of December 2025 On Re-Lodgement Of Transfer Requests Of Physical Shares Pursuant To SEBI Circular No. SEBI/HO/MIRSD/MIRSD-Pod/P/CIR/2025/97 Dated July2 2025",
+            "news_body": "Please find enclosed Monthly Report on Re-lodgement of Transfer Request of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b26b89e4-f09b-4994-aa4a-f6b79f5037fe.pdf",
+            "news_date": "2026-01-05 16:30:53"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication regarding intimation of result of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55a6aa0a-a9c4-49fb-8f5e-5ad7f96aa2bf.pdf",
+            "news_date": "2025-12-31 12:39:25"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Postal Ballot",
+            "caption": "Submission Of The Minutes Of The Proceeding Relating To The Declaration Of Results Of The Postal Ballot Process Through Remote E-Voting",
+            "news_body": "Please find Minutes of the Proceeding relating to the declaration of results of the postal ballot process through remote e-voting in respect to special business stated in the Postal Ballot Notice dated November 4 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=540e2d1f-8ae4-40f9-8be8-d2adcb8e475d.pdf",
+            "news_date": "2025-12-30 18:17:51"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Outcome of Postal Ballot Process by way of Remote e-voting and Scrutinizers Report dated 30th December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55a275c8-ae0c-4667-9b3d-3c825b40c9a6.pdf",
+            "news_date": "2025-12-30 18:12:19"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot process by way o remote e-voting and Scrutinizers report dated 30th December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee594198-84b2-4b87-932a-85de53a83946.pdf",
+            "news_date": "2025-12-30 18:08:15"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Postal Ballot",
+            "caption": "Disclosure Of Postal Ballot Voting (Through Remote E-Voting) Results",
+            "news_body": "Please find attached herewith the result of Postal Ballot process by way of remote e-voting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea10e50d-3d7f-47e6-96e5-55971e1ea061.pdf",
+            "news_date": "2025-12-30 18:03:21"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 -Order In Respect Of Companys Wholly Owned Subsidiary I.E. Greenply Speciality Panels Private Limited Passed By The Assistant Commissioner Of State T",
+            "news_body": "Please find attached order.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b064de0-3a92-424e-8355-740f2698f611.pdf",
+            "news_date": "2025-12-27 12:52:15"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Shakuntala Safeinvest Pvt Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F37CB522_357A_4DDB_8F9A_300E1A5FBC5E_134302.pdf",
+            "news_date": "2025-12-26 13:43:24"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the quarter and nine months ending 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ed880aa-b57d-4480-8aad-67bab1bf8d99.pdf",
+            "news_date": "2025-12-26 12:51:58"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Update On Ongoing Tax Litigation Reported Earlier Under Integrated Filing (Governance) For The Quarter Ended 30.09.2025. \r\n",
+            "news_body": "Please find attached update on ongoing tax litigation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d5a8a9b-4ac5-4917-a921-7b92b374d040.pdf",
+            "news_date": "2025-12-17 13:27:00"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monthly Report For The Month Of November 2025 On Re-Lodgement Of Transfer Requests Of Physical Shares Pursuant To SEBI Circular No. SEBI/HO/MIRSD/MIRSD-Pod/P/CIR/2025/97 Dated July2 2025",
+            "news_body": "Please find enclosed Monthly Report on Re-lodgement of Transfer Request of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3f809aa-3547-402a-88bf-b184fadd330e.pdf",
+            "news_date": "2025-12-11 14:53:58"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Karuna Investment Pvt Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9F68B349_6000_4909_9165_CD41694888D4_112407.pdf",
+            "news_date": "2025-12-06 11:24:11"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Karuna Investment Pvt Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69A9D384_868B_42D1_BCE2_FBC100167321_103610.pdf",
+            "news_date": "2025-12-05 10:36:14"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith copies of Newspaper Publications regarding completion of dispatch of Notice of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ae77f04-1e5d-4dea-9091-b0cac61486f1.pdf",
+            "news_date": "2025-12-01 16:29:19"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Please find enclosed copy of Postal Ballot Notice dated November 4 2025 along with explanatory statement in respect of seeking approval of Shareholders for re-appointment of Mr. Rajesh Mittal (DIN: 00240900) as an Executive Director in the capacity of Chairman cum Managing Director of the Company for a further period of 5 (five) years with effect from January 1 2026 up to December 31 2030.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1a68c1e-34c9-46b6-9300-d8a2c2257dfa.pdf",
+            "news_date": "2025-11-29 15:54:40"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Karuna Investment Pvt Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1F0488E1_1BCC_413F_A193_0FFCADAD90C8_102930.pdf",
+            "news_date": "2025-11-13 10:29:36"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monthly Report For The Month Of October 2025 On Re-Lodgement Of Transfer Requests Of Physical Shares Pursuant To SEBI Circular No. SEBI/HO/MIRSD/MIRSD-Pod/P/CIR/2025/97 Dated July2 2025",
+            "news_body": "Please find enclosed Monthly Report on Re-lodgement of Transfer Request of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff8abe44-d3c6-43b9-b6bb-bd29eda54d12.pdf",
+            "news_date": "2025-11-11 15:46:37"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication-Public Notice to the Shareholders regarding opening of Special Window for Re-lodgement of Transfer Request of Physical Shares of Greenply Industries Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76204546-3eff-4b05-bde7-f0b3a8fc3a18.pdf",
+            "news_date": "2025-11-11 15:38:42"
+        },
+        {
             "sym": "GREENPLY",
             "disp": "Greenply Industries",
             "bse_code": 526797,
@@ -120,6 +538,39 @@
             "sid": 3987,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed Conference Call Transcript in respect of Conference Call for Investors and Analysts held on November 04 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a14176f-dc2d-47dc-bb40-4535a3bd4485.pdf",
+            "news_date": "2025-11-06 16:52:35"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find attached intimation of Schedule of Investors Conference. For details refer the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05fb0532-dfa3-4805-a974-20384b1afe98.pdf",
+            "news_date": "2025-11-05 12:16:10"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find attached intimation of Schedule of Investors Conference. For details refer the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a995465e-8102-4d9f-877d-464d39176c9e.pdf",
+            "news_date": "2025-11-05 12:10:48"
         },
         {
             "sym": "GREENPLY",
@@ -146,6 +597,50 @@
             "seg": "E"
         },
         {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find the link of Audio Recording of Q2 & H1 FY2026 Earning Conference Call (Group Conference Call) held on 04.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9575c2bf-3cd0-46c4-b0f6-2420f01ad030.pdf",
+            "news_date": "2025-11-04 20:48:56"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of equity shares of the Company under ESOP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51d485f7-51ee-467c-911c-272e09106dc6.pdf",
+            "news_date": "2025-11-04 14:25:13"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment  and remuneration including terms and conditions of Re-appointment of Mr. Rajesh Mittal (DIN:00240900) as Chairman-Cum-Managing Director of the Company for the further period of five years w.e.f. 01.01.2026 subject to the approval of the members of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5d62ab4-4257-4afd-b313-a955fb3bb4a1.pdf",
+            "news_date": "2025-11-04 14:19:14"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find attached Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63da4d1a-0031-41ec-9105-4fd7eedb38b5.pdf",
+            "news_date": "2025-11-04 14:11:27"
+        },
+        {
             "sym": "GREENPLY",
             "disp": "Greenply Industries",
             "bse_code": 526797,
@@ -168,6 +663,28 @@
             "sid": 3987,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find attached Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3968739-f3fa-4782-a778-12bc0774377b.pdf",
+            "news_date": "2025-11-04 14:06:39"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting held on 04.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2210d656-6801-4e5d-a345-1538a41ba0ed.pdf",
+            "news_date": "2025-11-04 14:00:23"
         },
         {
             "sym": "GREENPLY",
@@ -194,6 +711,270 @@
             "seg": "E"
         },
         {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Un-Audited Financial Results for the Quarter and Half Year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4e9dca5-7b47-4d69-903f-412a394724ff.pdf",
+            "news_date": "2025-11-04 13:53:13"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of ESG Rating Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended (SEBI Listing Regulations)",
+            "news_body": "Please be informed that SES ESG Research Pvt. Ltd. has assigned the Company an ESG Score of 67.9 (Grade B Medium Risk) based on the data pertaining to FY 2024-2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fadb544-51f7-49b9-ac05-99b442929a4d.pdf",
+            "news_date": "2025-10-31 11:12:41"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed herewith the schedule of Earnings Call (Group Conference Call) to discuss the operational and financial performance for Q2 & 1H FY26 with Investors & Analysts of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe27dcc0-5bdc-4827-b082-e18bc98936bf.pdf",
+            "news_date": "2025-10-28 18:08:00"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Inter Alia To Consider Approve And Take On Record The Un-Audited Financial Results Of The Company For The Quarter And Half Year Ended On 30Th September 2025.",
+            "news_body": "Greenply Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/11/2025 inter alia to consider and approve and take on record the Un-audited financial results of the Company for the quarter and half year ended on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c396152d-919a-4da5-a235-d883c50df921.pdf",
+            "news_date": "2025-10-27 11:51:30"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Update On Ongoing Tax Litigation Reported Earlier Under Integrated  Filing (Governance) For The Quarter Ended 30.06.2025. \r\n",
+            "news_body": "Please find attached update on ongoing tax litigation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a26457e-27f2-4483-9734-047aacf55006.pdf",
+            "news_date": "2025-10-16 15:59:56"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find attached Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended 30.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7aa6f693-ca2d-444f-ad3c-98f1c2b8fc84.pdf",
+            "news_date": "2025-10-09 17:52:04"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monthly Report For The Month Of September 2025 On Re-Lodgement Of Transfer Requests Of Physical Shares Pursuant To SEBI Circular No. SEBI/HO/MIRSD/MIRSD-Pod/P/CIR/2025/97 Dated July2 2025",
+            "news_body": "Please find enclosed Monthly Report on Re-lodgement of Transfer Request of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b337a9d1-8441-43c8-a4ee-e265286dc564.pdf",
+            "news_date": "2025-10-09 17:46:24"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the quarter and half year ending 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f1cd181-b4d7-493b-b2dc-16489297b017.pdf",
+            "news_date": "2025-09-24 17:29:58"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find the attached intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7887eb62-1771-47f6-a133-c05d9da692aa.pdf",
+            "news_date": "2025-09-19 11:46:26"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reply On Volume Movement Letter.",
+            "news_body": "Please find enclosed reply on Volume Movement Letter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=edc7bd93-1bd3-4196-ba58-1ac6c28b4e94.pdf",
+            "news_date": "2025-09-12 14:28:32"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monthly Report For The Month Of August 2025 On Re-Lodgement Of Transfer Requests Of Physical Shares Pursuant To SEBI Circular No. SEBI/HO/MIRSD/MIRSD-Pod/P/CIR/2025/97 Dated July2 2025",
+            "news_body": "Please find enclosed Monthly Report on Re-lodgement of Transfer Request of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=825b5ba3-6b24-465a-8694-acf45e7c21f4.pdf",
+            "news_date": "2025-09-12 13:26:43"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Greenply Industries Ltd",
+            "news_body": "The Exchange has sought clarification from Greenply Industries Ltd on September 12 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-09-12 13:22:22"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Public Notice to the shareholders regarding Opening of Special Window for Re-lodgement of Transfer Request of Physical Shares of Greenply Industries Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0915a720-4830-4bff-983e-db7a11ec3df9.pdf",
+            "news_date": "2025-09-12 13:12:31"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation of Resignation of Senior Management Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04077d9a-7a36-4072-bf16-9fa48c411f03.pdf",
+            "news_date": "2025-09-01 12:17:32"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monthly Report For The Month Of July 2025 On Re-Lodgement Of Transfer Requests Of Physical Shares Pursuant To SEBI Circular No. SEBI/HO/MIRSD/MIRSD-Pod/P/CIR/2025/97 Dated July2 2025",
+            "news_body": "Please find enclosed Monthly Report on Re-lodgement of Transfer Request of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb545036-9c7a-4ef7-b4ae-82cdac74625d.pdf",
+            "news_date": "2025-08-27 12:22:52"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 For Appointment Of Secretarial Auditors Of The Company.",
+            "news_body": "Please find attached intimation for appointment of Secretarial Auditors of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12df1b9d-1d8d-40fc-bbc7-866c8c6a6b2e.pdf",
+            "news_date": "2025-08-25 19:07:51"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Proceedings Of 35Th Annual General Meeting",
+            "news_body": "Please find attached Proceedings of 35th Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd164a11-709e-424c-92a8-abee2f136531.pdf",
+            "news_date": "2025-08-25 19:01:25"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Details Of Voting Results Of The 35Th Annual General Meeting Of The Company Held On Monday The August 25 2025 As Per Regulation 44 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "Please find attached Voting Results of the 35th AGM of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da14c669-b408-4cbf-803e-c721604a5a83.pdf",
+            "news_date": "2025-08-25 18:53:32"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Please find attached Scrutinizers Report of 35th AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c091a93-4f45-45ba-9801-8003333ecec3.pdf",
+            "news_date": "2025-08-25 18:50:15"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Please find attached Outcome of 35th AGM and Scrutinizers Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2695582b-1c13-4d0f-b515-7b60330bdd0c.pdf",
+            "news_date": "2025-08-25 18:46:48"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find attached intimation of Schedule of Investors Conference. For details refer the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c391284-6dfb-494d-9dd6-44f34a8f637d.pdf",
+            "news_date": "2025-08-13 15:30:14"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Temporary Shutdown Of Manufacturing Operations Of The CompanyS Wholly Owned Subsidiary M/S. Greenply Speciality Panels Private Limited",
+            "news_body": "Please find attached Intimation of temporary shutdown of manufacturing operations of the Companys Wholly Owned Subsidiary M/s. Greenply Speciality Panels Private Limited. For details please refer the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37910269-25a4-48c7-8bbf-d775940a2bb0.pdf",
+            "news_date": "2025-08-11 18:01:26"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding 100 Days Campaign - Saksham Niveshak",
+            "news_body": "Intimation regarding 100 Days Campaign - \"Saksham Niveshak\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec52b9cc-0861-4f1e-b46c-28fba688a899.pdf",
+            "news_date": "2025-08-08 12:38:08"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation of Resignation of Senior Management Personnel of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79aaee65-602d-43c1-8c55-7557a7bd9840.pdf",
+            "news_date": "2025-08-01 18:57:35"
+        },
+        {
             "sym": "GREENPLY",
             "disp": "Greenply Industries",
             "bse_code": 526797,
@@ -216,6 +997,72 @@
             "sid": 3987,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed Conference Call Transcript in respect of conference call for Investors and Analysts held on July 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12ac2ab1-729b-41c8-beb6-e8e8736f9b41.pdf",
+            "news_date": "2025-08-01 18:16:54"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholder Containing Weblink And Exact Path For Accessing Annual Report And Notice Of 35Th AGM",
+            "news_body": "Please find enclosed letter to Shareholders containing weblink for accessing  Annual Report and Notice of 35th AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99f51bb0-e2a0-4ca8-9475-0064c37dd97c.pdf",
+            "news_date": "2025-08-01 18:10:11"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed Newspaper clippings of Public Notice for conducting the 35th Annual General Meeting (AGM) through VC/OAVM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96c12deb-8344-4a6a-8fec-4cb8930fbd7b.pdf",
+            "news_date": "2025-08-01 17:56:53"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Please find attached Business Responsibility and Sustainability Report (BRSR) of the Company for the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=563201f1-e2a6-4ffc-bda4-8138cb873efa.pdf",
+            "news_date": "2025-07-31 17:29:57"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Please find enclosed a copy of Annual Report of the Company for the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f5e81fd-bfd3-455b-a0c9-1eb3c9b2e99d.pdf",
+            "news_date": "2025-07-31 15:51:21"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Submission Of Notice Of 35Th Annual General Meeting Of The Members Of The Company Scheduled To Be Held On Monday 25Th August 2025 At 10:30 A.M. Indian Standard Time (IST) Through Video Conferencing / Other Audio Visual Means (VC / OAVM).",
+            "news_body": "Please find enclosed Notice of 35th Annual General Meeting of the Members of the Company scheduled to be held on Monday 25th August 2025 at 10:30 A.M. (IST) through VC/OAVM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2cfbe4d-3e51-4326-9254-b57355b9caf7.pdf",
+            "news_date": "2025-07-31 15:39:35"
         },
         {
             "sym": "GREENPLY",
@@ -242,6 +1089,39 @@
             "seg": "E"
         },
         {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of Audio Recording of Q1 FY2026 Earning Conference Call (Group Conference Call) held on 30.07.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00163d21-ef25-4f16-b6c3-3cda89316f16.pdf",
+            "news_date": "2025-07-30 16:54:04"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Sanjiv Keshri as the Chief Financial Officer (CFO) and Key Managerial Personnel (KMP) of the Company w.e.f. 29th July 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a12a508a-56af-4db8-b2e0-a85235e1bdb7.pdf",
+            "news_date": "2025-07-29 15:29:28"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find the Press Release of the Company in respect of un-audited financial results for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2a25c0e-8530-45ed-bcbd-d91dda65f5ed.pdf",
+            "news_date": "2025-07-29 15:22:26"
+        },
+        {
             "sym": "GREENPLY",
             "disp": "Greenply Industries",
             "bse_code": 526797,
@@ -266,6 +1146,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find Investor Presentation on Un-audited financial results for the quarter ended 30.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d2d5b3f-3c89-4000-bd88-04c45dc22630.pdf",
+            "news_date": "2025-07-29 15:18:54"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 29.07.2025.",
+            "news_body": "Outcome of Board Meeting held on June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f7deadb-4f0c-4904-b9d5-affa1a0a796f.pdf",
+            "news_date": "2025-07-29 15:11:48"
+        },
+        {
             "sym": "GREENPLY",
             "disp": "Greenply Industries",
             "bse_code": 526797,
@@ -288,6 +1190,204 @@
             "sid": 3987,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Un-Audited Financial Results for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a320abcc-ccd1-40aa-92c4-c91b4bc51c9b.pdf",
+            "news_date": "2025-07-29 15:06:56"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find herewith Newspaper clippings of Public Notice for conducting the 35th Annual General Meeting (AGM) of the Company through Video Conferencing/Other Audio Visual Means (VC/OAVM)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9749948b-20c5-4caa-9fc5-9af4c4e972af.pdf",
+            "news_date": "2025-07-25 16:36:28"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find attached Newspaper Clipping of the Public Notice in respect of transfer of Equity Shares of the Company to Investor Education and Protection Fund (IEPF) Demat Account.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=334a0140-d995-4e0f-89ca-a47b86fa03ca.pdf",
+            "news_date": "2025-07-21 18:33:24"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed herewith the schedule of Earnings Call (Group Conference Call) to discuss the operational and financial performance for Q1 FY26 with Investors & Analysts of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f146d5b5-6fb4-4b8d-a67b-2b395b69496d.pdf",
+            "news_date": "2025-07-21 16:10:37"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015-An Order Passed By The Additional Commissioner (Appeals) CGST Central Excise & Customs 3Rd Floor GST Bhawan Kedar Road Machkhowa Guwahati-781001 Aris",
+            "news_body": "Please find attached Order.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c7dc313-2e6d-4e24-bca9-c7e6af095349.pdf",
+            "news_date": "2025-07-19 18:23:17"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Inter Alia To Consider Approve And Take On Record The Un-Audited Financial Results Of The Company For The Quarter Ended On 30Th June 2025",
+            "news_body": "Greenply Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/07/2025 inter alia to consider and approve and take on record the Un-audited financial results of the Company for the quarter ended on 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61d21f1f-b4c7-4730-8023-03217ad8f7d3.pdf",
+            "news_date": "2025-07-17 16:57:43"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment under ESOP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a072982d-ede8-47b8-9570-3763c832b1db.pdf",
+            "news_date": "2025-07-16 17:46:36"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date Pursuant To Regulation 42 Of The Securities & Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation of Record Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ac6c175-e907-433d-8bbb-fb777526d8a7.pdf",
+            "news_date": "2025-07-16 14:56:24"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Public Notice to the Shareholders regarding Opening of Special Window for Re-lodgement of Transfer Request of Physical Shares of Greenply Industries Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06a7ac08-62a3-49ea-92d0-0fe721050152.pdf",
+            "news_date": "2025-07-11 12:42:26"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find attached Certificate under regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended 30.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee92da1f-e302-4f54-8a76-5e17bac06bd0.pdf",
+            "news_date": "2025-07-07 17:27:53"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the quarter ending 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e5b76c4-e54b-4d90-9ba4-492d4f479ca4.pdf",
+            "news_date": "2025-06-26 10:56:32"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations2015-Order In Respect Of Companys Wholly Owned Subsidiary I.E. Greenply Sandila Private Limited Was Passed By The Assistant Commissioner Jurisdiction Hardo",
+            "news_body": "Please find attached order.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=746d5e8f-f513-48d3-b194-2fc7e7d7f0c6.pdf",
+            "news_date": "2025-06-20 11:45:13"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation of Resignation of Senior Management Personnel of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e401080-2de8-44ab-86e3-394d5e077505.pdf",
+            "news_date": "2025-06-17 16:51:37"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Board Meeting Held On 03.06.2025",
+            "news_body": "Please find the Outcome of the Board Meeting held on 03.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60f88a77-c2d2-4e27-8a44-5c3c5c980690.pdf",
+            "news_date": "2025-06-03 12:36:46"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please find attached of Intimation of appointment of Senior Management Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d83ce6b-677f-48a7-9070-d34202e4d0f0.pdf",
+            "news_date": "2025-06-03 12:30:58"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Please find attached Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc3cf625-9da3-4d53-87fe-42bbac73b0dc.pdf",
+            "news_date": "2025-06-03 12:21:40"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1827e96-c615-4c6a-99b9-6a4ee03c625e.pdf",
+            "news_date": "2025-05-27 17:05:50"
+        },
+        {
+            "co_code": 4701,
+            "bse_code": 526797,
+            "isin": "INE461C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations2015 - Order Passed By The Assistant Commissioner Ghatak- 10 Range- 3 Division-1 Office Of Assistant Commissioner Of State Tax 7Th Floor D-Block M S Buildi",
+            "news_body": "Please find attached order.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a632607-9d5b-4625-98b9-fffc0c28bd7f.pdf",
+            "news_date": "2025-05-26 18:27:03"
         },
         {
             "sym": "GREENPLY",
@@ -1969,6 +3069,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for declaration of financial results for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a59a52f8-fb88-4782-8208-a28a6b4250f3.pdf",
+            "news_date": "2026-02-04 17:59:00"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "The Scheme Of Demerger Of Corporate And MSME Loan Undertaking Division Of ITI Credit Limited (Wholly Owned Subsidiary) And Merger Of The Same With ITI Finance Limited (Associate Company).",
+            "news_body": "The scheme of Demerger of Corporate and MSME loan undertaking division of ITI Credit (Wholly owned subsidiary) and merger of the same with ITI Finance Limited (Associate Company)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73183d8e-1540-4e53-b1b4-66a5206485e8.pdf",
+            "news_date": "2026-02-03 20:00:11"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Re-appointment of M/s. MAKK & Co. Chartered Accountants as the Internal Auditor for the financial year 2026-27",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08b5a24c-2868-4efb-b72f-a78b223915b8.pdf",
+            "news_date": "2026-02-03 19:55:10"
+        },
+        {
             "sym": "THEINVEST",
             "disp": "Investment Trust of India",
             "bse_code": 530023,
@@ -24,6 +57,105 @@
             "sid": 21427,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results (Standalone And Consolidated)For The Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "To consider and approve un-audited financial results (standalone and consolidated) for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=913a470e-4e23-4fe2-9853-a8871036b972.pdf",
+            "news_date": "2026-02-03 19:47:44"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for  Outcome Of Board Meeting Held On February 03 2026",
+            "news_body": "To consider and approve un-audited standalone and consolidated financial results for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bddf06c-ba8c-4461-a877-0e6f5f9f490f.pdf",
+            "news_date": "2026-02-03 19:35:19"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for For Approval Of Un-Audited Financial Results For The Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "The Investment Trust Of India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 03/02/2026 inter alia to consider and approve Un-Audited Financial Results For The Quarter And Nine Months Ended 31st December 2025 and other matters",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a775ce3a-8fbf-4ad9-86a9-b686dda87ad7.pdf",
+            "news_date": "2026-01-27 19:41:37"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg 74(5) of SEBI (Depositories Participants) Regulations 2018 issued by RTA for the quarter ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=419ce8fc-4eed-4ae8-ab18-294f7737fdce.pdf",
+            "news_date": "2026-01-09 19:17:16"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Disclosure Dated November 05 2025 Regarding Redemption Of 0% Optionally Convertible Preference Shares (OCPS) Pursuant To Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "In compliance with the provisions of the Companies Act 2013 the Company has redeemed the entire outstanding 10050 0% Optionally Convertible  Preference shares (OCPS) on December 30 2025. Further the preference shareholders has not approached the Company to claim the redemption proceeds in respect of OCPS. In view thereof the Company has transferred the entire amount payable in respect of such OCPS to a separate designated bank account pending receipt of the necessary claim from the respective preference shareholders.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4427acda-445a-42ff-a284-54d10ba97229.pdf",
+            "news_date": "2025-12-31 11:40:14"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7efa796d-561c-477f-9199-f3206f26e52a.pdf",
+            "news_date": "2025-12-26 17:50:39"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Submission of Scrutinizer report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cdabb3b-3461-4e5e-87f5-fbf05a65a7c2.pdf",
+            "news_date": "2025-12-19 15:55:19"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Submission of Scrutinizer report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1959b543-ae0a-4e10-8bca-c68a0765c580.pdf",
+            "news_date": "2025-12-19 15:50:54"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Outcome Of The Board Meeting Held On November 05 2025",
+            "news_body": "Submission of financial results (standalone and consolidated) for the quarter and half year ended 30th September 2025 in machine readable format",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e9d0aba-09e9-4782-a18e-68f9d3585fd6.pdf",
+            "news_date": "2025-12-11 16:38:01"
         },
         {
             "sym": "THEINVEST",
@@ -50,6 +182,94 @@
             "seg": "E"
         },
         {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Clarification On Outcome Of The Board Meeting Held On November 05 2025",
+            "news_body": "Submission of financial results (standalone and consolidated) for the quarter and half year ended September 30 2025 in machine readable format.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=455abf00-2202-4c10-8974-74277f8c783f.pdf",
+            "news_date": "2025-12-11 16:34:15"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "The Investment Trust Of India Limited Has Informed Regarding Disclosure Of Material Event",
+            "news_body": "ITI Gold Loans Limited cease to be the subsidiary of The Investment Trust of India Limited and shall be classified as Associate company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15699826-10c4-4045-b47c-e329f6a616c8.pdf",
+            "news_date": "2025-11-29 19:39:52"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "The Investment Trust Of India Limited Has Informed Regarding Disclosure Of Material Issue",
+            "news_body": "Company File an Appeal under Section 53(1A) of the Maharashtra Stamp Act 1958 before the Honble Inspector General of Registration and Controller of Stamps Maharashtra State.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=832e813e-afa5-4761-9957-2c2f3aaeb7ec.pdf",
+            "news_date": "2025-11-24 19:22:37"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication pertaining to notice of postal ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef126234-66c6-40f9-b290-d9668ca23bcd.pdf",
+            "news_date": "2025-11-15 15:00:47"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Postal Ballot Notice",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6c593bc-cba6-4628-bea5-f15ba8bc3819.pdf",
+            "news_date": "2025-11-14 12:00:24"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c61cbad5-ab45-4a02-824e-92aa9042026b.pdf",
+            "news_date": "2025-11-14 11:54:37"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication for declaration of financial results for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f931700c-efb1-4bb2-9c7d-50e3a4d2a84d.pdf",
+            "news_date": "2025-11-06 16:23:28"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Outcome Of The Board Meeting Held On November 05 2025",
+            "news_body": "We wish to clarify that certain pages of the Standalone Financial Results were inadvertently missed to be attached in the said submission. The complete set of Standalone Financial results is now being submitted for your reference and records.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d02e2d7-6694-4b2c-8628-1486734a865f.pdf",
+            "news_date": "2025-11-06 16:05:14"
+        },
+        {
             "sym": "THEINVEST",
             "disp": "Investment Trust of India",
             "bse_code": 530023,
@@ -72,6 +292,39 @@
             "sid": 21427,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Clarification On Outcome Of The Board Meeting Held On November 05 2025",
+            "news_body": "We wish to clarify that certain pages of the Standalone financial results were inadvertently missed to be attached in the submission. The complete set of Standalone Financial results is now being submitted for your reference and records.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ad99342-d1ed-40ed-bd14-68bdfd56417e.pdf",
+            "news_date": "2025-11-06 15:48:43"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Approval For The Redemption Of Unlisted 0% Optionally Convertible Preference Shares (OCPS) That Shall Be Outstanding And Due For Redemption As On December 30 2025.",
+            "news_body": "We wish to inform that Board of Directors of the Company has approved the redemption of 10050 0% Optionally Convertible preference shares of face value of Rs. 325 each which are outstanding and due for redemption as on December 30 2025 in accordance with the terms of their issuance.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4ef2844-92b6-4ba3-8385-260403fe83e9.pdf",
+            "news_date": "2025-11-05 18:46:13"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Extension Of The FFSIL- Employees Stock Option Plan 2017 To Eligible Employees Of The Subsidiary Companies",
+            "news_body": "We wish to inform that based on the recommendation of Nomination and Remuneration Committee and in furtherance to the disclosure made by the Company on July 25 2025 regarding the revision of FFSIL-ESOP-2017 Scheme and its approval by the Board on the said date the Board has considered and approved to extend the benefits of FFSIL-ESOP-2017 Scheme to the employees and directors of the subsidiary companies.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04c1607e-a2c4-47ce-92b9-f58ab8c140ba.pdf",
+            "news_date": "2025-11-05 18:39:06"
         },
         {
             "sym": "THEINVEST",
@@ -98,6 +351,17 @@
             "seg": "E"
         },
         {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": " Un-Audited Financial Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "To consider and approve un-audited financial results (standalone and consolidated) for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a4a4d66-8b18-492f-988f-6e5c50d56f86.pdf",
+            "news_date": "2025-11-05 18:30:49"
+        },
+        {
             "sym": "THEINVEST",
             "disp": "Investment Trust of India",
             "bse_code": 530023,
@@ -120,6 +384,171 @@
             "sid": 21427,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": " Un-Audited Financial Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "To consider and approve un-audited financial results (standalone and consolidated) for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3d023b7-2903-4149-8033-0136b2b130c3.pdf",
+            "news_date": "2025-11-05 18:29:34"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On November 05 2025",
+            "news_body": "To consider and approve un-audited standalone and consolidated financial results for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2bfa25e-00f7-4842-bc1a-6b97f66a7aa6.pdf",
+            "news_date": "2025-11-05 18:15:08"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for  For Approval Of Un-Audited Financial Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "The Investment Trust Of India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/11/2025 inter alia to consider and approve  unaudited standalone and Consolidated financial results for the quarter and half year ended 30 September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13b89eeb-b254-43c6-a84b-eaa670128673.pdf",
+            "news_date": "2025-10-29 21:32:34"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg. 74(5) of SEBI (Depositories Participants) Regulations 2018 issued by RTA for the quarter ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e248542f-b594-466e-ab99-7f8fa8ef0f38.pdf",
+            "news_date": "2025-10-03 16:29:07"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for closure of trading window for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64d16029-e46d-4ac7-90b6-da91e0a40dbc.pdf",
+            "news_date": "2025-09-26 19:09:01"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "The Company hereby re-appoint Mrs. Papia Sengupta as the Independent Director for the second term of five consecutive year commencing from 19th December 2025 to 18th December 2030",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb3d99d5-a3f2-44a9-98c1-fe51054cb0ba.pdf",
+            "news_date": "2025-08-25 18:05:06"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "The Company hereby appoint M/s Himanshu Gajra & Company Practising Company Secretaries as the secretarial auditor for the term of five consecutive years commencing from FY 2025-26 to 2029-30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1780c36-25a2-48ce-832b-8cadb918f061.pdf",
+            "news_date": "2025-08-25 17:51:20"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "The Company hereby submit the Scrutinizer report of the 34th Annual General Meeting held on 25th August 2025 for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca60a9f7-6276-4852-8be7-45f19bb49a6e.pdf",
+            "news_date": "2025-08-25 17:32:24"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "We hereby submit the proceeding of the 34th Annual General Meeting of the Company for the financial year 2024-25 held on Monday August 25 2025 through Video Conferencing/ Other Audio Visual Means",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82270ac5-8b8d-40be-a60a-4ed38458c43b.pdf",
+            "news_date": "2025-08-25 17:24:03"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "The Investment Trust of India Limited has disclosed newspaper advertisement w.r.t. dispatch of annual report and notice for the AGM to be held on 25th August 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69c05c77-3f21-4c46-82f0-735cc2065645.pdf",
+            "news_date": "2025-08-01 11:41:59"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Submission of Annual Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d740857-cfed-4afd-9fed-bb4ec1091a81.pdf",
+            "news_date": "2025-07-31 15:27:44"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": " Notice Of The 34Th Annual General Meeting Of The Company",
+            "news_body": "Notice of 34th Annual General Meeting of the Company to be held on Monday 25th August 2025 at 11.00 a.m. IST through Video Conferencing or Other Audio Visual Means",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67384949-c497-4f10-ae27-2f979860b935.pdf",
+            "news_date": "2025-07-31 15:15:47"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for declaration of financial results for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=031b2d35-1570-48eb-90e4-65ad013ed009.pdf",
+            "news_date": "2025-07-26 12:09:47"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR)",
+            "news_body": "We hereby intimate the Exchange regarding approval of revision of Fortune Financial Services (India) Limited - Employee Stock Option Plan 2017 (FFSIL- ESOP 2017) and dilution of equity interest in ITI Gold Loans Limited one of the subsidiary company subject to shareholders approval",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=089e9e06-0291-4c70-9ca9-4650f82470db.pdf",
+            "news_date": "2025-07-25 20:23:28"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "We hereby intimate the Exchange regarding the re-appointment of Mrs. Papia Sengupta as an Independent Director of the Company not liable to retire by rotation for a second term of five consecutive years commencing from 18th December 2025 and ending on 17th December 2030 subject to shareholders approval. Further the Company has also appointed Ms. Darshna Mehta Group HR and Mr. Mannish Patil Group-IT as Senior Management Personnel effective from July 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e224507-4bce-4c77-8cce-1b5433f7e4e3.pdf",
+            "news_date": "2025-07-25 20:13:15"
         },
         {
             "sym": "THEINVEST",
@@ -146,6 +575,248 @@
             "seg": "E"
         },
         {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter Ended 30Th June 2025",
+            "news_body": "To consider and approve the un-audited financial results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f9585c1-03b9-464f-b8e0-d8a69fe2f0c3.pdf",
+            "news_date": "2025-07-25 19:52:25"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On July 25 2025",
+            "news_body": "To consider and approve un-audited standalone and consolidated financial results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53705688-57a5-4f4a-a59c-9a0c7e63ec41.pdf",
+            "news_date": "2025-07-25 19:41:52"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Un-Audited Financial Results For The Quarter Ended 30Th June 2025.",
+            "news_body": "The Investment Trust Of India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 25/07/2025 inter alia to consider and approve Unaudited standalone & Consolidated financial results for the quarter ended 30 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78339f38-da32-4f35-a246-f26c0854e7ab.pdf",
+            "news_date": "2025-07-18 22:10:22"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Revised Intimation of Trading window closure for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08c00230-d926-43ad-a14d-4c16f6a159e2.pdf",
+            "news_date": "2025-07-18 21:51:32"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg.74(5) of SEBI (Depositories  Participants) Regulations 2018 issued by RTA for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bceb327-9423-4c8c-a9fb-12c895cf7494.pdf",
+            "news_date": "2025-07-03 17:35:16"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of Trading Window for the quarter ended 30th June2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ab3f331-17f4-483d-8ec1-b475210002e8.pdf",
+            "news_date": "2025-06-26 18:11:34"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification In Relation To The Query Raised By National Stock Exchange Of India Limited Through Mail Dated June 20 2025",
+            "news_body": "refer the attached Clarification Letter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2009d97-741c-456b-91ab-881ba43ffbf7.pdf",
+            "news_date": "2025-06-23 17:24:30"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Sidharth Rath and Mr. Banavar Anantharamaiah Prabhakar as an Independent Directors w.e.f 9th May2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32a38e97-4d1b-49f6-85a1-0c4f1f33bcbc.pdf",
+            "news_date": "2025-06-20 18:59:55"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " Announcement Under Regulation 30 (LODR)",
+            "news_body": "Announcement under Regulation 30 (LODR)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c24a319-9cdf-4074-8947-813940fea375.pdf",
+            "news_date": "2025-06-20 18:45:28"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Postal Ballot Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfa34bf6-a533-4aab-ba12-90dead724f99.pdf",
+            "news_date": "2025-06-20 18:33:17"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Submission of Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7c86286-4c5a-41e3-a864-e026d22b0639.pdf",
+            "news_date": "2025-06-20 18:30:13"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Submission of Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a431542-3f9a-4138-b62e-19fed86d813c.pdf",
+            "news_date": "2025-06-20 18:28:18"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83537f60-d759-4725-9743-6508ac7d6c53.pdf",
+            "news_date": "2025-05-17 13:13:27"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Reg 30 Of SEBI (LODR) Regulation 2015- Postal Ballot\r\n",
+            "news_body": "Disclosure under Re 30 of SEBI (LODR) Regulation 2015- Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76922470-1ac2-4dc6-8120-7760cecc63ea.pdf",
+            "news_date": "2025-05-16 12:33:10"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54bb1ab4-5af3-4cc2-948e-c5db5f0770b2.pdf",
+            "news_date": "2025-05-16 12:23:10"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Compliance under Reg 24(A) of LODR Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e0044a1-aff1-4e80-8670-9bf797ba46eb.pdf",
+            "news_date": "2025-05-12 19:07:58"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication for declaration of financial results for the quarter and year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ec699a8-370d-4337-ae20-570c915b79b6.pdf",
+            "news_date": "2025-05-10 16:17:42"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Mr. B.A. Prabhakar and Mr. Sidharth Rath as the Independent Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a603eaee-9a61-451f-920e-c7fbb6a34dbb.pdf",
+            "news_date": "2025-05-09 21:52:58"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (LODR) Regulation 2015",
+            "news_body": "Disclosure under regulation 30 of SEBI (LODR) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f7f175-475a-40d0-aaf8-9edebf986a97.pdf",
+            "news_date": "2025-05-09 20:43:58"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (LODR) Regulation 2015",
+            "news_body": "Disclosure under regulation 30 of SEBI (LODR) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31b5f745-c3be-4f4f-8251-321d07f102ca.pdf",
+            "news_date": "2025-05-09 20:43:14"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Resignation of Mr. Alok Kumar Misra from the position of Independent Director with effect from 09th May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69040d84-501f-48cb-b600-b40e94d3fcef.pdf",
+            "news_date": "2025-05-09 20:30:26"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. B.A. Prabhakar and Mr. Sidharth Rath as the Independent Director. Resignation of Mr. Alok Kumar Misra from the position of Independent Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2c7faee-7939-46b3-a3f0-23c9bb8e5c39.pdf",
+            "news_date": "2025-05-09 20:26:02"
+        },
+        {
             "sym": "THEINVEST",
             "disp": "Investment Trust of India",
             "bse_code": 530023,
@@ -168,6 +839,204 @@
             "sid": 21427,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Year Ended 31St March 2025",
+            "news_body": "To consider and approve audited financial results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01158cdf-71ef-41fb-9399-457cbc11b794.pdf",
+            "news_date": "2025-05-09 20:19:59"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for  Outcome Of Board Meeting Held On May 09 2025",
+            "news_body": "To consider and approve the audited standalone and consolidated financial results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed72ebb6-2707-465d-ac3a-630564a22f2b.pdf",
+            "news_date": "2025-05-09 20:04:23"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For To Review And Approve Financial Results For The Quarter And Year Ended 31St March 2025.",
+            "news_body": "The Investment Trust Of India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 09/05/2025 inter alia to consider and approve The Investment Trust Of India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 09/05/2025 inter alia to consider and approve Audited standalone & Consolidated financial Statement for the quarter ended and Year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fd8e2e5-3ef4-44af-9fc5-bbb09dd6e3f1.pdf",
+            "news_date": "2025-05-03 10:29:42"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>The Investment Trust Of India Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L65910MH1991PLC062067</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>NA</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>Not Applicable</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Vidhita Narkar <br/>  Designation: Company Secretary  and Compliance Officer <br/> EmailId: vidhita.narkar@itiorg.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Subbiah Manickam  <br/> Designation: Chief Financial Officer <br/> EmailId: subbiah@itiorg.com</div> </div> <div> <br/> Date: 29/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13866d84-109e-44a0-9732-2f2820d72d53.pdf",
+            "news_date": "2025-04-29 17:40:58"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Price Movement",
+            "news_body": "Significant movement in price has been observed in the The Investment Trust of India Limited. The Exchange in order to ensure that investors have latest relevant information about the Company and to inform the market place so that the interest is safeguarded has written to the Company. In this regard the Company has submitted its response.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90437696-ca5e-4298-8e27-d9c961c03c2d.pdf",
+            "news_date": "2025-04-17 19:56:14"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from The Investment Trust Of India Ltd",
+            "news_body": "The Exchange has sought clarification from The Investment Trust Of India Ltd on April 17 2025 with reference to significant movement in price in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-04-17 16:45:30"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg. 74(5) of SEBI (Depositories Participants) Regulations 2018 issued by RTA for the quarter ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2dda1489-7bbc-4596-a6ca-631160ff4c33.pdf",
+            "news_date": "2025-04-10 14:44:06"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window for the Quarter and year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7345fa3c-3b79-43ae-8429-275b328a02f2.pdf",
+            "news_date": "2025-03-27 16:46:07"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizer Report along with Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b3c22a5-911a-498b-b4b2-c6268e9ded51.pdf",
+            "news_date": "2025-03-24 20:45:07"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) Regulation 2015",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) Regulation2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71336ba4-ec8b-4205-a8ba-163827f8da6b.pdf",
+            "news_date": "2025-03-24 20:39:54"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56d6514b-5720-4644-8ca3-428e08ef9d97.pdf",
+            "news_date": "2025-03-24 20:34:54"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed newspapers advertisement published in Financial Express (English Language)and Navshakti (Marathi)newspaper on February 18 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a455980-481c-4707-823f-0e8bc3e5e8f3.pdf",
+            "news_date": "2025-02-18 12:21:32"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed newspapers advertisement published in Financial Express (English Language)and Navshakti (Marathi)newspaper on February 18 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e364c3d6-6af9-452a-b890-9d75c5a265a4.pdf",
+            "news_date": "2025-02-18 12:20:11"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015-Postal Ballot Notice",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015- Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2fadf95-2e32-4ae3-801a-53e8e27f07be.pdf",
+            "news_date": "2025-02-17 16:21:37"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirement) Regulations 2015- Postal Ballot Notice\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a81a9cb3-1d97-48f5-8cba-bc71f3b757a3.pdf",
+            "news_date": "2025-02-17 16:15:49"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of un-audited financial results for the quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6193f61-de8a-4f3a-9e17-ec43a2b2dac4.pdf",
+            "news_date": "2025-02-14 11:16:49"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated filing (Financials) for the quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aace6666-833e-4471-9422-877c69b05d42.pdf",
+            "news_date": "2025-02-13 18:42:19"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligation And Disclosure Requirements) Regulation 2015",
+            "news_body": "Disclosure under regulation 30 of SEBI (LODR) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0eb8d31-d38e-4c99-afb7-7e214544f874.pdf",
+            "news_date": "2025-02-13 15:44:42"
         },
         {
             "sym": "THEINVEST",
@@ -194,6 +1063,83 @@
             "seg": "E"
         },
         {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter And Nine Months Ended December 31 2024",
+            "news_body": "To consider and approve un audited financial results for the quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3ca4a29-0890-4833-8141-f308b670bcf6.pdf",
+            "news_date": "2025-02-13 15:38:47"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On February 13 2025",
+            "news_body": "Outcome of the Board Meeting held on February 13 2025 to consider and approve the Un-audited Financial Results for the Quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5206d004-e33a-4552-ada2-85cdb51d34e4.pdf",
+            "news_date": "2025-02-13 15:28:43"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Review And Approval Of Unaudited Standalone & Consolidated Financial Results For The Quarter Ended And Nine Months Ended 31St December 2024.",
+            "news_body": "The Investment Trust Of India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2025 inter alia to consider and approve Unaudited standalone & Consolidated financial results for the quarter ended and nine months ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2197b00-40f6-4342-b14d-3a341a54031f.pdf",
+            "news_date": "2025-02-08 16:01:38"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "This revised report issued in place of the 27.09.2024 report correct and inadvertent inclusion of interested parties votes in favour for resolution no. 4 and 5 without affecting their validity",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0de71160-20d4-4150-ac69-61a7e8a5a7fd.pdf",
+            "news_date": "2025-02-03 20:52:42"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg. 74(5) of SEBI (DP) Regulation 2018 issued by RTA for the quarter ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bb1c23e-4d93-452d-ba39-efc123515112.pdf",
+            "news_date": "2025-01-14 12:07:50"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for closure of trading window for the quarter and nine months ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2c03a41-bf62-4eb6-9322-bdaac6954bf8.pdf",
+            "news_date": "2024-12-27 16:16:51"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of un-audited financial results for the quarter and half year ended 30th September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d95d5838-b2cf-4759-b248-7df6ac5e6c80.pdf",
+            "news_date": "2024-11-13 18:11:36"
+        },
+        {
             "sym": "THEINVEST",
             "disp": "Investment Trust of India",
             "bse_code": 530023,
@@ -216,6 +1162,160 @@
             "sid": 21427,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter And Half Year Ended September 30, 2024",
+            "news_body": "To consider and approve un-audited financial results for the quarter and half year ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b22a85b2-6d29-4afa-956c-cc15ee0037fb.pdf",
+            "news_date": "2024-11-12 17:42:07"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome",
+            "news_body": "Outcome of the Board Meeting held on November 12, 2024 to Consider and Approve the Un-audited Financial Results for the Quarter and Half year ended September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb7c7b68-581a-46e6-8811-8880f5659dc1.pdf",
+            "news_date": "2024-11-12 17:36:12"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Board Meeting Intimation For To Review And Approve Financial Results For The Quarter Ended 30Th September, 2024.",
+            "news_body": "The Investment Trust Of India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2024 ,inter alia, to consider and approve The Investment Trust Of India Ltd has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2024 ,inter alia, to consider and approve Unaudited standalone & Consolidated financial results for the quarter and Half yearly ended 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c88ad42c-4c7e-43d3-b650-287a1f2729cd.pdf",
+            "news_date": "2024-10-31 15:17:17"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Revised Intimation of Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=785d7120-eaa7-4a63-8f77-56e938c34d5d.pdf",
+            "news_date": "2024-10-19 15:37:29"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Compliance Certificate under issued by RTA for the quarter ended 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59f313d3-4834-44e2-b899-4c3d9da7de10.pdf",
+            "news_date": "2024-10-14 15:04:10"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window for the quarter and half ended 30th September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7539610-3fec-47be-9153-e8d9d8501a0b.pdf",
+            "news_date": "2024-09-27 20:43:56"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "The Company hereby submits the Scrutinizer report of the 33rd Annual General Meeting held on 27th September, 2024 for the financial year 2023-24",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb4e3a58-0911-47fd-9be6-8687dbf4b28f.pdf",
+            "news_date": "2024-09-27 20:31:01"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Company Update",
+            "descriptor": "Appointment of Statutory Auditor/s",
+            "caption": "Announcement under Regulation 30 (LODR)-Appointment of Statutory Auditor/s",
+            "news_body": "The Company has re-appointed M/s Ramesh M. Sheth & Associates, Chartered Accountant for the consecutive period of five years commencing from the conclusion of this AGM until the AGM scheduled to be held in the financial year 2029-2030",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d044e6c0-bace-4ee4-a5fc-e5a5be1b0868.pdf",
+            "news_date": "2024-09-27 19:26:38"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "We hereby submit the proceeding of the 33rd Annual General Meeting of the Company for the financial year 2023-24 held on Friday, September 27, 2024, through Video Conferencing/ Other Audio Visual Means.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc334308-45dd-4b6d-9a67-c269619fd11e.pdf",
+            "news_date": "2024-09-27 19:20:42"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "In pursuance to Regulation 39(3) of SEBI (LODR) Regulation, 2015, we would inform that,  Purva Sharegistry (India) Private Limited, Registrar and Share Transfer Agent of the Company has received request for issue of duplicate share certificate.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b034a996-8cba-4566-8973-f481be84338f.pdf",
+            "news_date": "2024-09-03 18:52:41"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "The Investment Trust of India Limited has disclosed Newspaper Advertisement w.r.t. dispatch of Annual Report and Notice for the AGM to be held on 27th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c05e0b9-a3a2-409a-a398-33de3bb82f83.pdf",
+            "news_date": "2024-09-03 11:40:23"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual report of the Company for the financial year 2023-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d04f18c4-82e6-4377-9dfb-e212f64ca584.pdf",
+            "news_date": "2024-09-02 12:51:47"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 33Rd Annual General Meeting Of The Company",
+            "news_body": "33rd Annual General Meeting of the Company to be held on 27th September, 2024 at 11:00 A.M. through VC/ OAVM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6ef034b-d646-4eb6-974c-b35a9262af3f.pdf",
+            "news_date": "2024-09-02 12:37:44"
+        },
+        {
+            "co_code": 4803,
+            "bse_code": 530023,
+            "isin": "INE924D01017",
+            "ann_type": "Company Update",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "We inform you that National Stock Exchange of India Limited, has returned the demerger application to the Company stating to re-file the application post obtaining the requisite in-principle approval from various departments of SEBI. The Company is in discussion with exchange for the stated matter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e0c2cf4-eafe-4343-b6ee-69337da4b94a.pdf",
+            "news_date": "2024-08-21 17:39:06"
         },
         {
             "sym": "THEINVEST",
@@ -889,6 +1989,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

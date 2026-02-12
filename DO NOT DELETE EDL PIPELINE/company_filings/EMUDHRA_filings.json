@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled \" eMudhra and LankaPay Partner to Enable National Digital Signatures and Accelerate Sri Lankas Paperless Transformation.\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=944815c1-722d-4bec-a596-3183daccb12d.pdf",
+            "news_date": "2026-02-12 17:42:33"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement titled Notice of Postal Ballot and Remote E-Voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0019a73-cb15-4dea-bfca-0905ae77333f.pdf",
+            "news_date": "2026-02-10 12:01:35"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7e3e2bf-f7c5-4e2a-a578-7bfb37f3bed1.pdf",
+            "news_date": "2026-02-09 21:09:19"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled \" eMudhra enables Foreign Portfolio Investors to securely obtain Digital Signature Certificates accelerating on-boarding and access to Indias capital markets\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e37cf4b-9d74-47be-a12a-2472c313f73a.pdf",
+            "news_date": "2026-02-09 17:22:46"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Investor Conference Call with Management held on February 06 2026 regarding certain disclosures made by 3i InfoTech Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a626003-dd49-439d-a0f4-5cb42edb5122.pdf",
+            "news_date": "2026-02-09 14:23:00"
+        },
+        {
             "sym": "EMUDHRA",
             "disp": "eMudhra",
             "bse_code": 543533,
@@ -24,6 +79,61 @@
             "sid": 9756,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Investor Conference Call with Management held on February 06 2026  regarding certain disclosures made by M/s. 3i Infotech Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc3d5443-279d-41de-942d-0065a7b686f1.pdf",
+            "news_date": "2026-02-06 17:23:08"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Earning Call held on February 03 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba74954b-7f5e-4e34-9a9d-dfad2824a2a3.pdf",
+            "news_date": "2026-02-06 12:08:19"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investors Conference Call at 4:00 p.m. (IST) on Friday February 06 2026 with respect to recent unexpected event as informed to the Stock Exchange(s) on February 04 2026 regarding certain disclosures made by M/s. 3i Infotech Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8487bbef-2442-49db-8e19-d23663d8f465.pdf",
+            "news_date": "2026-02-05 13:55:52"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reply To 3I Infotech Limiteds Allegations",
+            "news_body": "Clarification to the Stock Exchanges in response to certain disclosures made by 3i Infotech Limited on February 04 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d507034d-cc1e-40a5-8228-ce8565fe29b1.pdf",
+            "news_date": "2026-02-04 18:00:01"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Investor Meet to be held on February 20 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d61a717-6f46-4a1e-b1a0-7796b5720e59.pdf",
+            "news_date": "2026-02-04 10:32:52"
         },
         {
             "sym": "EMUDHRA",
@@ -50,6 +160,28 @@
             "seg": "E"
         },
         {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Call for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b18e67e8-7317-45c7-83e4-f033f12f13e5.pdf",
+            "news_date": "2026-02-03 18:03:25"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement of the unaudited financial results of the company for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1b101bb-3b42-4300-b6b1-f0d54f8dfe54.pdf",
+            "news_date": "2026-02-03 11:22:20"
+        },
+        {
             "sym": "EMUDHRA",
             "disp": "eMudhra",
             "bse_code": 543533,
@@ -72,6 +204,39 @@
             "sid": 9756,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earning presentation on the financial results of the company for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1392e562-1d09-4e1a-8ec5-5fdefff50d20.pdf",
+            "news_date": "2026-02-03 11:17:04"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on the unaudited financial results for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43419e27-3922-4f8f-89f8-e9bffe7fa8c6.pdf",
+            "news_date": "2026-02-02 19:16:32"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "Announcement under Regulation 30 of SEBI LODR 2015- Merger of AI Cyber Forge Inc based in USA with eMudhra Inc a wholly owned subsidiary of the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4117a834-ee22-49ac-861e-5e9f61d5fd47.pdf",
+            "news_date": "2026-02-02 19:12:24"
         },
         {
             "sym": "EMUDHRA",
@@ -98,6 +263,182 @@
             "seg": "E"
         },
         {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter Ended December 31 2025.",
+            "news_body": "Unaudited financial results for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f4291ac-b0d7-4b40-8a50-216150a448df.pdf",
+            "news_date": "2026-02-02 18:43:43"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Disclosure under Regulation 30 of SEBI LODR 2015- Change in management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d761e5b6-d9f4-494f-bdc0-16b5f2b2893c.pdf",
+            "news_date": "2026-02-02 18:13:12"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 2Nd February 2026",
+            "news_body": "Outcome of the Board meeting held on 2nd February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc3c15f5-7062-496e-a2e0-9cd3d6b4d2b3.pdf",
+            "news_date": "2026-02-02 18:10:27"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/ Analyst meet to be held on February 05 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27489416-60a5-4670-a41f-45c650df3e5d.pdf",
+            "news_date": "2026-01-29 17:55:10"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/ Analyst meet to be held on February 06 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e486dc61-0aba-425e-8844-85175de21e33.pdf",
+            "news_date": "2026-01-29 17:13:51"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/ Analyst meet to be held on February 03 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d7ec9ab-d9f4-48f4-904b-c86a41385eee.pdf",
+            "news_date": "2026-01-29 17:11:47"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/ Analyst meet to be held on February 03 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b060d367-7b9f-4f75-9fb3-4a41a4f6f63d.pdf",
+            "news_date": "2026-01-29 17:08:06"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Earnings Call under Regulation 30 (6) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63c3d629-2f9c-4de9-831e-9f1ca5a6d4fc.pdf",
+            "news_date": "2026-01-20 11:56:51"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Standalone And Consolidated Financial Results Of The Company For The Quarter And Nine Months Ended December 31 2025.",
+            "news_body": "Emudhra Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 02/02/2026 inter alia to consider and approve The Unaudited Standalone And Consolidated Financial Results Of The Company For The Quarter And Nine Months Ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d395ec64-fed4-4162-aa86-d4a502232c7f.pdf",
+            "news_date": "2026-01-12 12:38:31"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15878fa1-0ad1-4262-8f71-4514a574f2f2.pdf",
+            "news_date": "2026-01-05 12:36:14"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Change In Contact Details Of Registrar And Share Transfer Agent (\"RTA\") Of The Company",
+            "news_body": "Intimation of change in contact details of Registrar and Share Transfer Agent(\"RTA\") of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=928d8380-3f26-409f-998d-dd88d9b79b51.pdf",
+            "news_date": "2026-01-02 11:33:18"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb5fd9e8-d184-40e0-a9b1-e9050509acc7.pdf",
+            "news_date": "2025-12-30 16:36:25"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/ Analyst meet to be held on December 26 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7445e29d-ca1a-4c8d-9d9d-1ba2a57cb5ff.pdf",
+            "news_date": "2025-12-22 22:26:30"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/ Analyst meet to be held on December 18 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bf521bf-b4a7-4960-bdc9-d6cc449074dc.pdf",
+            "news_date": "2025-12-15 21:32:07"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on December 05 2025.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad90941a-f1a2-4ad7-85ed-705e2fb3d37d.pdf",
+            "news_date": "2025-12-02 17:45:23"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on November 26 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e09d33d-ed1a-4899-84a8-b0c241012141.pdf",
+            "news_date": "2025-11-21 14:48:04"
+        },
+        {
             "sym": "EMUDHRA",
             "disp": "eMudhra",
             "bse_code": 543533,
@@ -120,6 +461,28 @@
             "sid": 9756,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Earnings call held on November 05 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3796b405-6b6f-4bfa-b12a-720c8ab86688.pdf",
+            "news_date": "2025-11-11 11:00:26"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on November 21 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=760e0569-dc5b-4b9a-9a6c-fcee3031d9c5.pdf",
+            "news_date": "2025-11-10 16:01:18"
         },
         {
             "sym": "EMUDHRA",
@@ -146,6 +509,28 @@
             "seg": "E"
         },
         {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Call for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b2a02f4-b2f1-4381-abc5-2f07326fd0aa.pdf",
+            "news_date": "2025-11-05 19:33:09"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement of the unaudited financial results of the company for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80b56572-fa09-46ba-b649-a14718c01e13.pdf",
+            "news_date": "2025-11-05 11:26:15"
+        },
+        {
             "sym": "EMUDHRA",
             "disp": "eMudhra",
             "bse_code": 543533,
@@ -168,6 +553,28 @@
             "sid": 9756,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earning Presentation on the Financial results of the company for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db0ee539-35ee-434d-99cf-55c116b31da9.pdf",
+            "news_date": "2025-11-05 10:43:18"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on the unaudited financial results for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83a93f6d-6df6-4308-9b62-616ceca86785.pdf",
+            "news_date": "2025-11-04 19:50:12"
         },
         {
             "sym": "EMUDHRA",
@@ -194,6 +601,226 @@
             "seg": "E"
         },
         {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended September 30 2025",
+            "news_body": "Financial Results for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0962521-5a63-449c-8ad6-c669dae61ee7.pdf",
+            "news_date": "2025-11-04 19:41:22"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Unaudited Financial Results Of The Company For The Quarter Ended September 30 2025.",
+            "news_body": "Outcome of the Board Meeting held on November 04 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e67a588-b058-48c8-8df1-067c664c2b7b.pdf",
+            "news_date": "2025-11-04 19:21:26"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Earnings Call under Regulation 30 (6) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9c3a5dc-db90-4576-8674-4df89e8d95fb.pdf",
+            "news_date": "2025-10-21 11:03:00"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For To Consider And Approve The Unaudited Standalone And Consolidated Financial Results Of The Company For The Quarter Ended September 30 2025 Including Other Items.",
+            "news_body": "Emudhra Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/11/2025 inter alia to consider and approve Emudhra Ltd has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/11/2025 inter alia to consider and approve the unaudited Standalone And Consolidated Financial Results Of The Company For The Quarter Ended September 30 2025 Including Other Items.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fc3aff2-ec78-4cf6-a0c9-926310833ad2.pdf",
+            "news_date": "2025-10-14 15:34:52"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74 (5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb5487a9-7abd-478e-b99b-cdc7ccb00dc3.pdf",
+            "news_date": "2025-10-07 12:52:06"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure pursuant to SEBI (Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c341a99e-4b46-4071-ba34-6fed2dbf7213.pdf",
+            "news_date": "2025-09-30 17:00:03"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on September 24 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=473b6872-2327-4c90-bbc5-7b8c14c14031.pdf",
+            "news_date": "2025-09-19 22:13:45"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on September 19 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e65a4378-3e2a-4980-b15e-dda39fbc32cd.pdf",
+            "news_date": "2025-09-16 17:35:52"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on September 17 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=457fc1b8-2ae9-4a68-869d-4afd39712c50.pdf",
+            "news_date": "2025-09-14 10:04:52"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on September 17 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9c62299-4b0c-4000-8827-f547d358f551.pdf",
+            "news_date": "2025-09-12 18:07:02"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on September 17 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56b376d0-d890-4754-878e-66707030c69f.pdf",
+            "news_date": "2025-09-12 18:03:48"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on September 19 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7d7e4f1-c2e4-47b4-b3a2-782349667001.pdf",
+            "news_date": "2025-09-09 12:27:07"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on September 04 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26279791-c919-4620-a649-4bf5db4c483a.pdf",
+            "news_date": "2025-09-01 16:38:41"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on September 02 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da69856b-beb3-4b89-bec4-404cda4844f6.pdf",
+            "news_date": "2025-08-28 20:38:34"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on August 26 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0316d06-e90f-4bec-95bd-acccc11f5050.pdf",
+            "news_date": "2025-08-21 11:51:28"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on August 07 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5b67757-ff76-4356-b76c-e5a88816a8e6.pdf",
+            "news_date": "2025-08-02 13:11:39"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Update on acquisition of AI Cyberforge Inc USA.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caa5f75a-7433-441c-81d4-a6a8ca3ff086.pdf",
+            "news_date": "2025-07-30 17:02:48"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on November 20 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f0838b4-cb4a-4d5d-9df6-2633663b8f61.pdf",
+            "news_date": "2025-07-30 13:00:11"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on November 14 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7d63c30-fdb5-46b6-8b69-cc0f56747411.pdf",
+            "news_date": "2025-07-30 12:32:27"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on August 05 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87b9f71d-7d4e-47ad-aabc-13f8824a8d99.pdf",
+            "news_date": "2025-07-30 12:27:06"
+        },
+        {
             "sym": "EMUDHRA",
             "disp": "eMudhra",
             "bse_code": 543533,
@@ -216,6 +843,17 @@
             "sid": 9756,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Earnings call held on July 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4532c64d-d8b9-4d5f-a188-f661586628f5.pdf",
+            "news_date": "2025-07-30 12:21:36"
         },
         {
             "sym": "EMUDHRA",
@@ -242,6 +880,28 @@
             "seg": "E"
         },
         {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Call for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7086f01a-1de0-43fa-bbad-ba0c6eea8c17.pdf",
+            "news_date": "2025-07-25 18:15:15"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement of the unaudited financial results of the company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa902306-ae92-4596-9c1e-944707ccd6f3.pdf",
+            "news_date": "2025-07-25 13:01:38"
+        },
+        {
             "sym": "EMUDHRA",
             "disp": "eMudhra",
             "bse_code": 543533,
@@ -264,6 +924,50 @@
             "sid": 9756,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earning Presentation on the financial results of the company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c45ce9b8-886e-40d4-8066-214ec9d953d7.pdf",
+            "news_date": "2025-07-25 11:17:37"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on the Unaudited financial Results for the quarter ended June 30 2025 and about certain acquisitions related developments",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b4534b0-82f8-4e54-96c9-034ce8f618b4.pdf",
+            "news_date": "2025-07-24 19:46:12"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Acquisition of AI Cyber Forge Inc USA",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68525b6c-5fe1-4c37-9adc-690860bdb31b.pdf",
+            "news_date": "2025-07-24 19:32:12"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Update on Acquisition of Cryptas International GmbH Austria",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d84754a-368f-4a3d-93b0-ccb1620c8a38.pdf",
+            "news_date": "2025-07-24 19:28:44"
         },
         {
             "sym": "EMUDHRA",
@@ -290,6 +994,72 @@
             "seg": "E"
         },
         {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=389524a2-de67-4f26-a1a9-a16d967fc2a5.pdf",
+            "news_date": "2025-07-24 19:15:59"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results Of The Company For The Quarter Ended June 30 2025.",
+            "news_body": "Outcome of the Board Meeting held on July 24 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09079deb-5193-41d6-8cc6-9d8a6684c48f.pdf",
+            "news_date": "2025-07-24 19:06:10"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Earnings Call under Regulation 30 (6) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=557ea419-a4a4-4a9b-84e8-e92c062c9bb8.pdf",
+            "news_date": "2025-07-16 17:34:00"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation under Regulation 30 read with Schedule III of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8cea1f2-c898-4455-a035-e2c00813dcaa.pdf",
+            "news_date": "2025-07-14 16:35:02"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Standalone And Consolidated Financial Results Of The Company For The Quarter  Ended June 30 2025 Including Other Items.",
+            "news_body": "Emudhra Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/07/2025 inter alia to consider and approve the unaudited Standalone And Consolidated Financial Results Of The Company For The Quarter  Ended June 30 2025 Including Other Items.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c085cc2-b64a-4a25-9c9a-16f96ae25b79.pdf",
+            "news_date": "2025-07-08 16:40:53"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86a65867-d80e-4000-9f2e-2585f1fb19cc.pdf",
+            "news_date": "2025-07-08 16:31:56"
+        },
+        {
             "sym": "EMUDHRA",
             "disp": "eMudhra",
             "bse_code": 543533,
@@ -312,6 +1082,28 @@
             "sid": 9756,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the earnings call held on July 02 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2299eae-b70f-4d53-a82d-3f2a8c580814.pdf",
+            "news_date": "2025-07-07 16:51:25"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Revision in Credit Rating by ICRA Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97821b6c-29d3-4f0c-a004-b75bf091a7a7.pdf",
+            "news_date": "2025-07-07 16:46:28"
         },
         {
             "sym": "EMUDHRA",
@@ -338,6 +1130,248 @@
             "seg": "E"
         },
         {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Call held on July 02 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6910c456-5c9a-4fd9-8b81-0be13aae4046.pdf",
+            "news_date": "2025-07-02 20:57:24"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure pursuant to SEBI (Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=428a5099-a311-47b0-9ba4-c29c8bed397d.pdf",
+            "news_date": "2025-06-30 17:49:18"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on July 02 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18bab912-f545-49e9-a912-c1c7425fcf8f.pdf",
+            "news_date": "2025-06-27 21:16:14"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Acquisition of Cryptas International GmbH Austria",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce4c40af-675c-4de1-8598-bfd2e1e81f05.pdf",
+            "news_date": "2025-06-27 15:57:34"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizer Report of the 17th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df26f1a0-c4d8-4b24-834b-f1ba16c5e148.pdf",
+            "news_date": "2025-06-26 17:59:51"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceeding of the 17th Annual General Meeting of the Company held on June 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4236f174-9dd6-477c-be1c-af3bd0f98399.pdf",
+            "news_date": "2025-06-25 15:58:35"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on June 20 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02315315-3aa4-4417-9157-663351ffcdaa.pdf",
+            "news_date": "2025-06-17 17:31:00"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on June 20 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e597ebd2-ffdb-4481-b0c0-98324fcdf4c7.pdf",
+            "news_date": "2025-06-11 17:49:00"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on June 19 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f308bad-0b95-465d-8c25-bfee86ebb4aa.pdf",
+            "news_date": "2025-06-11 17:44:47"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on June 17 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f846552-be0e-418a-9ba4-b5fda994c470.pdf",
+            "news_date": "2025-06-11 17:40:44"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on June 12 2025 and June 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf47a986-243e-4ce5-86f8-51170540fc42.pdf",
+            "news_date": "2025-06-06 15:29:08"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Revision in Credit Rating by ICRA Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a181ae47-c7fc-4435-bd24-245a07046b56.pdf",
+            "news_date": "2025-06-02 13:23:37"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement titled \"Notice of 17th Annual general Meeting\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06fff74e-a11b-49e2-a6b6-a337cf78b7bb.pdf",
+            "news_date": "2025-05-29 12:20:00"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date For Payment Of Dividend For The Financial Year 2024-25",
+            "news_body": "Intimation of Record Date for the payment of dividend for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f278241-4810-471b-8305-ec84bb164ba7.pdf",
+            "news_date": "2025-05-28 17:53:58"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14f25f67-5c58-4a39-a1f4-21cd2835e6ca.pdf",
+            "news_date": "2025-05-28 17:46:48"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=efcd9a57-22af-4eec-9f49-46d48e90cc66.pdf",
+            "news_date": "2025-05-28 17:41:26"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": " Notice Of The 17Th Annual General Meeting (AGM)",
+            "news_body": "Notice of the 17th Annual General Meeting (AGM)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69526b97-9152-41a7-aeeb-9ee77d7384bb.pdf",
+            "news_date": "2025-05-28 17:29:05"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for FY ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62304dd5-5ace-4f0e-b0eb-33ce4029f147.pdf",
+            "news_date": "2025-05-27 22:00:57"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on May 26 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9c5c376-9755-435b-9004-3d887d6cf11c.pdf",
+            "news_date": "2025-05-22 10:28:44"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on May 23 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=623b6d41-4909-4a9f-a221-7ff7683b7135.pdf",
+            "news_date": "2025-05-20 17:37:14"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on May 21 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f513fb74-308c-46f8-bc95-6e74a8d4c67c.pdf",
+            "news_date": "2025-05-19 22:48:47"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter and financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb94950a-1524-4e45-b9a4-d38fdcf77b8e.pdf",
+            "news_date": "2025-05-12 12:31:51"
+        },
+        {
             "sym": "EMUDHRA",
             "disp": "eMudhra",
             "bse_code": 543533,
@@ -360,6 +1394,39 @@
             "sid": 9756,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Earnings Call held on May 07 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04200b27-1f33-45c3-9845-30d6a99a4c54.pdf",
+            "news_date": "2025-05-12 12:26:38"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on June 11 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9856243c-37b2-4df9-80a0-d6aba566bf77.pdf",
+            "news_date": "2025-05-09 16:42:40"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Institutional Investor Meeting on May 19 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e09f30f-84d5-4a09-9d4f-78a4b0203589.pdf",
+            "news_date": "2025-05-09 16:40:30"
         },
         {
             "sym": "EMUDHRA",
@@ -386,6 +1453,17 @@
             "seg": "E"
         },
         {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings Call for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=662d7633-38b9-46a6-9f32-b0f9af8c5658.pdf",
+            "news_date": "2025-05-07 19:43:13"
+        },
+        {
             "sym": "EMUDHRA",
             "disp": "eMudhra",
             "bse_code": 543533,
@@ -408,6 +1486,28 @@
             "sid": 9756,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earning presentaton on the financial results of the Company for the quarter and financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e84f187b-79b4-4f65-b8b4-b50faec448ba.pdf",
+            "news_date": "2025-05-07 12:23:23"
+        },
+        {
+            "co_code": 40572,
+            "bse_code": 543533,
+            "isin": "INE01QM01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement of the Audited Financial Results of the Company for the quarter and financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ec2ff0f-b8e5-4f2d-b369-4d38301faf52.pdf",
+            "news_date": "2025-05-07 12:16:30"
         },
         {
             "sym": "EMUDHRA",
@@ -1873,6 +2973,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

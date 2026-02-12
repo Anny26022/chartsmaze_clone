@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Inter-group transaction - Transfer of 100% equity stake of Welspun Pipes Company KSA from Welspun Mauritius Holdings Limited to Welspun Global Holdings Limited both wholly-owned subsidiaries of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a29ec096-481a-4d4e-886a-3d8a5d15b9a5.pdf",
+            "news_date": "2026-02-12 22:23:22"
+        },
+        {
             "sym": "WELCORP",
             "disp": "Welspun Corp",
             "bse_code": 532144,
@@ -24,6 +35,61 @@
             "sid": 11821,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call held on February 2 2026 is made available on the website of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=335c647c-747b-4347-b6b2-e034298feae5.pdf",
+            "news_date": "2026-02-04 18:45:58"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation Regarding Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2c968b1-b8f7-4b2c-97b0-f140a2b66fa8.pdf",
+            "news_date": "2026-02-02 19:08:30"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings Conference Call Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2051aa8c-5219-447c-9126-c240aceed61a.pdf",
+            "news_date": "2026-02-02 18:45:04"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publications are attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b29accad-5c07-459d-8ff2-3d9ff6902ff2.pdf",
+            "news_date": "2026-01-31 16:01:39"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 54 - Asset Cover details",
+            "caption": "Compliances-Reg. 54 - Asset Cover details ",
+            "news_body": "Security Cover Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92d1626f-1c93-48bf-9199-80300e4d55d2.pdf",
+            "news_date": "2026-01-30 16:15:50"
         },
         {
             "sym": "WELCORP",
@@ -50,6 +116,28 @@
             "seg": "E"
         },
         {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d27a06fc-e5bb-44e0-8097-160857e72490.pdf",
+            "news_date": "2026-01-30 15:05:41"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f036e18-eb4e-4485-a12e-a78e20891671.pdf",
+            "news_date": "2026-01-30 14:50:12"
+        },
+        {
             "sym": "WELCORP",
             "disp": "Welspun Corp",
             "bse_code": 532144,
@@ -72,6 +160,204 @@
             "sid": 11821,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Nine Months Ended 31 December 2025.",
+            "news_body": "Unaudited Financial Results for the quarter and nine months ended 31 December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de30da0b-a22f-49a4-b1a1-744c425de49a.pdf",
+            "news_date": "2026-01-30 14:01:38"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Meeting Of The Board Of Directors",
+            "news_body": "Outcome of the Meeting of the Board of Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d3ed825-bbac-4d4e-9183-c37c30aa5521.pdf",
+            "news_date": "2026-01-30 13:53:26"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Updates",
+            "news_body": "Welspun Corp ranks among top 5 steel companies globally and 2 in India in S&P Globals CSA rankings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43a46bc1-a6d6-4f3e-8dcb-7b047a5a5a9f.pdf",
+            "news_date": "2026-01-29 19:59:52"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Conference Call Invite to discuss the Q3&9M FY26 results of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddff3a1c-e31e-4067-9aa8-800af53bbec9.pdf",
+            "news_date": "2026-01-23 18:24:44"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Welspun Corp Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/01/2026 inter alia to consider and approve the standalone as well as the consolidated unaudited financial results of the Company for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab1a1992-d85d-4060-a65d-a99380feb53d.pdf",
+            "news_date": "2026-01-21 19:16:59"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Outcome of Board Meeting - acquisition of 2.57% equity stake in Welspun Mauritius Holdings Limited from Welspun Pipes Inc. USA.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3274b19-324d-45b4-9b6f-3e60a7a7e04b.pdf",
+            "news_date": "2026-01-17 21:44:35"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting - Acquisition Of 2.57% Equity Stake In Welspun Mauritius Holdings Limited From Welspun Pipes Inc. USA",
+            "news_body": "Outcome of Board Meeting - acquisition of 2.57% equity stake in Welspun Mauritius Holdings Limited from Welspun Pipes Inc. USA",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=204e5916-4599-4808-a823-ec22f10581ee.pdf",
+            "news_date": "2026-01-17 21:35:15"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4e2dbdc-25fc-47d9-903c-fc395469268a.pdf",
+            "news_date": "2026-01-08 18:33:20"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Receipt of Export Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10274ca4-1ac6-4d7b-834b-ff713b6d32b9.pdf",
+            "news_date": "2026-01-07 08:29:34"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7886c8b7-b037-43fb-bfe7-5d3d6f832c97.pdf",
+            "news_date": "2025-12-29 15:24:35"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Updates",
+            "news_body": "Update on the acquisition of shares of Welspun Specialty Solutions Limited subsidiary company from the Promoter Group.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48c9b9b7-37e9-4383-ad23-305edb409b7d.pdf",
+            "news_date": "2025-12-22 18:29:26"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Update on the incorporation of a Wholly Owned Subsidiary in Dubai International Financial Center United Arab Emirates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b080a768-539c-4a37-8fed-dc080a5369f0.pdf",
+            "news_date": "2025-12-11 18:10:47"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Update on incorporation of step down wholly owned subsidiary in Gift City Gujarat",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa0b7603-ccb8-47c9-8264-16608eb3e1ff.pdf",
+            "news_date": "2025-12-10 23:08:14"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Updates",
+            "news_body": "Order win announced by the Companys associate Company viz. East Pipes Integrated Company for Industry KSA.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f313e526-3ead-46ab-9cf7-684fda0a6d3e.pdf",
+            "news_date": "2025-12-08 15:55:30"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of equity Shares under ESOP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee5aa9f1-3827-4990-b744-622b04ce8f6b.pdf",
+            "news_date": "2025-12-05 17:28:16"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Update regarding CARE and CRISIL rating on Commercial paper of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3669bcb-2b0b-4d5e-9f49-61dd511b78a4.pdf",
+            "news_date": "2025-12-02 19:19:17"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30",
+            "news_body": "Disclosure under Regulation 30 read with para B(8) of Part A of Schedule III of SEBI Listing Regulations - Litigation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=872a6e20-ebd1-48e6-bdeb-b60980e4301f.pdf",
+            "news_date": "2025-11-25 23:17:23"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meet- Midcap Conference 2025 by Kotak Institutional Equities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63d35efc-0e84-42ac-85e2-bdb255cf0e53.pdf",
+            "news_date": "2025-11-14 18:36:56"
         },
         {
             "sym": "WELCORP",
@@ -98,6 +384,17 @@
             "seg": "E"
         },
         {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation-Welspun World",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70712a1d-ae43-4eff-a14e-645430f746c7.pdf",
+            "news_date": "2025-11-13 10:46:03"
+        },
+        {
             "sym": "WELCORP",
             "disp": "Welspun Corp",
             "bse_code": 532144,
@@ -120,6 +417,50 @@
             "sid": 11821,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=732cbe9e-ea4b-4757-90bf-11e84faa146f.pdf",
+            "news_date": "2025-11-13 10:40:29"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst /Institutional Investor Meetings.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56d8066e-d4fe-4cf8-b9de-67624aa51813.pdf",
+            "news_date": "2025-11-10 16:42:35"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Incorporation of a new Step-down wholly owned subsidiary.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb7c569a-9d79-4825-bb4d-ba6e7e538315.pdf",
+            "news_date": "2025-11-06 20:33:32"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Update",
+            "news_body": "Commencement of Commercial Production",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c220055-aee0-40cb-82a3-0e027cfb670c.pdf",
+            "news_date": "2025-11-06 17:50:11"
         },
         {
             "sym": "WELCORP",
@@ -146,6 +487,17 @@
             "seg": "E"
         },
         {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call held on October 31 2025 is made available on the website of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc0a78aa-901a-4503-adde-cc7e2ea79249.pdf",
+            "news_date": "2025-11-06 16:36:54"
+        },
+        {
             "sym": "WELCORP",
             "disp": "Welspun Corp",
             "bse_code": 532144,
@@ -168,6 +520,39 @@
             "sid": 11821,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "The audio recording of the conference call for Q2 FY26 is available on the website of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02ecc560-df16-4824-9e19-2c509fb13130.pdf",
+            "news_date": "2025-10-31 17:28:14"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for Financials Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3570e59d-651a-46c0-b0e0-1fa6c1ffe46f.pdf",
+            "news_date": "2025-10-31 16:18:56"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9804fa0-dba0-4bf3-81a4-b86960d2b8f5.pdf",
+            "news_date": "2025-10-30 17:33:49"
         },
         {
             "sym": "WELCORP",
@@ -194,6 +579,28 @@
             "seg": "E"
         },
         {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=426d8cf1-0571-4466-86f8-cc80868cacaf.pdf",
+            "news_date": "2025-10-30 16:31:45"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Incorporation of two wholly owned subsidiaries in United Arab Emirates and acquisition of equity stake in Welspun Specialty Solutions Limited a subsidiary company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6d9a46e-328f-4722-adae-20633378d096.pdf",
+            "news_date": "2025-10-30 15:47:34"
+        },
+        {
             "sym": "WELCORP",
             "disp": "Welspun Corp",
             "bse_code": 532144,
@@ -216,6 +623,182 @@
             "sid": 11821,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03fbdb41-2346-4d58-a432-f1cf19233c2e.pdf",
+            "news_date": "2025-10-30 15:43:10"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting.",
+            "news_body": "Outcome of the Board Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=309be199-523e-46ae-8510-863ff30163f0.pdf",
+            "news_date": "2025-10-30 15:38:18"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Receipt of two major line pipe Orders by the Companys USA Subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e2297f0-1fbf-436e-a0be-7f157650c0a4.pdf",
+            "news_date": "2025-10-30 09:05:23"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5a23725-f69c-49ca-a452-8fb400d792eb.pdf",
+            "news_date": "2025-10-29 18:36:53"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Revised Earnings Conference Call Invite",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e70ee3b-e6c3-4ef3-8d97-467ab661f02b.pdf",
+            "news_date": "2025-10-29 18:06:23"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Conference Call Invite to discuss the Q2&H1FY26 results of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab45602a-a421-4c48-9a4b-fc67fb9cd810.pdf",
+            "news_date": "2025-10-27 19:54:11"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Standalone As Well As Consolidated Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025.",
+            "news_body": "Welspun Corp Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/10/2025 inter alia to consider and approve the standalone as well as the consolidated unaudited financial results of the Company for the quarter and half year ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94433e5e-9d67-4861-bde7-e5bab7d5b041.pdf",
+            "news_date": "2025-10-24 18:50:31"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Senior Management Personnel of the Company-CHRO",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33b84a58-0dc7-45e7-9fe5-faf32b7d490d.pdf",
+            "news_date": "2025-10-13 15:34:16"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5d93a0c-2bdc-4e20-b303-660a3d048552.pdf",
+            "news_date": "2025-10-10 13:00:43"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Receipt of Export Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=030bed93-3d8a-4b05-9b72-63e897b47e42.pdf",
+            "news_date": "2025-09-26 14:52:04"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c15fc0b-b93b-4b98-b834-60fb0838eac3.pdf",
+            "news_date": "2025-09-25 15:45:36"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Company Update",
+            "news_body": "Newspaper Advertisement regarding Special Window for Re-lodgement of transfer requests of physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01cee560-47cb-4e43-be9d-a46b941ec721.pdf",
+            "news_date": "2025-09-24 16:50:50"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Publication",
+            "news_body": "Newspaper Publication about the 100 days Campaign \"Saksham Niveshak\" launched by Investor Education and Protection Fund.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb66a5b9-1b2f-478b-9e1b-f90925a5ccc9.pdf",
+            "news_date": "2025-09-02 16:19:46"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Sale Of Remaining 6.1% Equity Stake In Nauyaan Shipyard Private Limited",
+            "news_body": "Sale of remaining 6.1% equity stake in Nauyaan Shipyard Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bce7ef82-7d9c-4a3d-b139-9c67285007e0.pdf",
+            "news_date": "2025-08-22 20:55:21"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity Shares pursuant to exercise of Stock Options under the Companys Employee Stock Option Scheme.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f9eb1e5-2e6e-4456-a799-ae1b82583840.pdf",
+            "news_date": "2025-08-13 13:19:17"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "CARE Ratings upgrades its rating on the Companys Long Term Bank Facilities and Non-Convertible Debentures.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89bb0580-b7be-4b2d-940b-63c161d88005.pdf",
+            "news_date": "2025-08-08 20:05:18"
         },
         {
             "sym": "WELCORP",
@@ -242,6 +825,83 @@
             "seg": "E"
         },
         {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Q1 FY26 Earnings Call Transcript.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22f8ab0a-6b70-479a-93e1-d1654411c4f7.pdf",
+            "news_date": "2025-08-01 18:42:02"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95c87a18-d784-4a92-bee0-acdf4c898087.pdf",
+            "news_date": "2025-08-01 17:46:55"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers Report and Voting Results is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c63797a9-50e5-4d7e-b4c7-97f5276fb001.pdf",
+            "news_date": "2025-07-31 21:11:00"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 30th Annual General Meeting of the Company held on Thursday July 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee3e18df-2686-407b-ae29-93740de04633.pdf",
+            "news_date": "2025-07-31 18:27:25"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Q1 FY 2025-26 Conference Call Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41b93f08-5ea8-4031-be3b-6a35b81805b5.pdf",
+            "news_date": "2025-07-30 17:00:21"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for unaudited financial result of the company for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b788a893-622f-4d95-b340-fe8497d68faa.pdf",
+            "news_date": "2025-07-30 11:15:11"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5892050-007b-4118-b2bc-c3e6ebb654fb.pdf",
+            "news_date": "2025-07-29 16:43:13"
+        },
+        {
             "sym": "WELCORP",
             "disp": "Welspun Corp",
             "bse_code": 532144,
@@ -264,6 +924,17 @@
             "sid": 11821,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ec4fa4-5650-4342-8fb0-cca5585feaaf.pdf",
+            "news_date": "2025-07-29 15:23:40"
         },
         {
             "sym": "WELCORP",
@@ -290,6 +961,292 @@
             "seg": "E"
         },
         {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter Ended June 30 2025.",
+            "news_body": "Unaudited financial results for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa057ef8-fcd8-4fd2-9202-df7d42afb1cf.pdf",
+            "news_date": "2025-07-29 14:57:17"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting.",
+            "news_body": "Outcome of the Board Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe9ee733-4780-4188-8e07-077ca9da6a6c.pdf",
+            "news_date": "2025-07-29 14:51:40"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Upsizing Of The Existing Order",
+            "news_body": "Upsizing of the existing order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4fd5ce69-acd1-4130-9698-90e11b58a995.pdf",
+            "news_date": "2025-07-29 11:56:05"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Sale Of 9.9% Equity Stake In Nauyaan Shipyard Private Limited",
+            "news_body": "Update on sale of 9.9% equity stake in Nauyaan Shipyard Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aae80d75-a675-4fe5-b6a7-be63a255e571.pdf",
+            "news_date": "2025-07-23 20:53:52"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Conference Call Invite for Q1FY26 results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1e427c7-a4bd-4153-b38a-d35b0da9ca33.pdf",
+            "news_date": "2025-07-23 19:45:17"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of The Standalone As Well As The Consolidated Unaudited Financial Results Of The Company For The Quarter Ended 30Th June 2025.",
+            "news_body": "Welspun Corp Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/07/2025 inter alia to consider and approve the standalone as well as the consolidated unaudited financial results of the Company for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23ded549-ce48-47e1-af45-6483352e8fe2.pdf",
+            "news_date": "2025-07-23 19:18:05"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af362627-523a-4f09-ada1-03822ec3d844.pdf",
+            "news_date": "2025-07-11 19:01:38"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Opening Of Special Window For Re-Lodgment Of Transfer Requests Of Physical Shares",
+            "news_body": "Opening of Special Window for re-lodgment of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f40e092-6da8-4228-898e-de33ce85af5b.pdf",
+            "news_date": "2025-07-10 15:58:31"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb54db11-48e2-445f-9cb2-aeb0ba8dd0fc.pdf",
+            "news_date": "2025-07-10 12:04:47"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholder",
+            "news_body": " Letter to Shareholders pursuant to Regulation 36(1)(b)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1287f6e-c852-448b-82ce-d144030adcc6.pdf",
+            "news_date": "2025-07-09 18:55:22"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9661cf1d-9938-4dbc-9a87-d9a03accf3fc.pdf",
+            "news_date": "2025-07-09 14:08:40"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 30Th Annual General Meeting",
+            "news_body": "Notice of 30th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12821d78-aa6e-40ae-907b-5907576ab768.pdf",
+            "news_date": "2025-07-09 13:43:38"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report of the company for the year ended 31st march 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2aeeb0a-2262-4067-8c23-565c76fffb85.pdf",
+            "news_date": "2025-07-09 13:32:06"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b033b9ca-9258-4487-a57a-1f27b35e2810.pdf",
+            "news_date": "2025-07-09 11:22:07"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Date Of Payment Of Dividend",
+            "news_body": "Date of payment of dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64ab7ebf-11d1-4b91-a89f-bd18b1156e51.pdf",
+            "news_date": "2025-07-08 20:23:36"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Fixes Record Date For Final Dividend For FY 25",
+            "news_body": "Intimation regarding book closure and record date for the payment of dividend and annual general meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=603ad025-6cca-43d3-9f76-6230bc678ca4.pdf",
+            "news_date": "2025-07-08 20:21:28"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Intimation Of 30Th Annual General Meeting And Book Closure/Record Date",
+            "news_body": "Intimation of 30th Annual General Meeting and Book Closure/Record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0737a56-3fb4-4a2b-baa5-4fc9549f8a58.pdf",
+            "news_date": "2025-07-08 20:05:16"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the period from 01.04.2025 to 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fd2ca7a-42d0-45df-a683-e352ccc8ae12.pdf",
+            "news_date": "2025-07-07 20:13:58"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Revision in credit rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea2a033c-9128-40b9-bfac-2ae6b2588ac9.pdf",
+            "news_date": "2025-07-02 21:01:42"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f861929-e1d1-4e04-b235-8c234f965111.pdf",
+            "news_date": "2025-06-26 17:45:19"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Deduction Of Tax At Source On Dividend- Shareholders Communication",
+            "news_body": "Deduction of tax at source on dividend- Shareholders Communication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ccb2c62-1480-4781-a6ec-a13a36625f0f.pdf",
+            "news_date": "2025-06-10 19:12:47"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Receipt Of Export Order",
+            "news_body": "Award of a repeat export order for supply of 50 kms of LSAW Pipes and Bends",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=308809ba-3c7a-4bfd-9f4d-62c6f1f1c497.pdf",
+            "news_date": "2025-06-05 08:16:29"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings Call Transcript Q4 FY 25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b330da8-51c4-4d2d-b4f9-71fd36092445.pdf",
+            "news_date": "2025-06-02 16:17:10"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification With Reference To Movement In Volume",
+            "news_body": "Clarification with reference to movement in Volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cb133b6-efea-4c22-97d1-5af65b3a71d7.pdf",
+            "news_date": "2025-05-30 13:20:25"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Welspun Corp Ltd",
+            "news_body": "The Exchange has sought clarification from Welspun Corp Ltd on May 30 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-05-30 11:28:52"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication for Audited Financial Results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9acd8289-a952-41ac-96d9-95f8ce7e3a29.pdf",
+            "news_date": "2025-05-29 19:04:59"
+        },
+        {
             "sym": "WELCORP",
             "disp": "Welspun Corp",
             "bse_code": 532144,
@@ -312,6 +1269,39 @@
             "sid": 11821,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Conference Call Q4FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da98a38d-497c-40c6-8600-3d3bd5a4a294.pdf",
+            "news_date": "2025-05-29 19:01:11"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Certificate for the financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=097464ce-c50e-47c7-b9fc-efc9162d517e.pdf",
+            "news_date": "2025-05-28 21:06:19"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release and Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a74913fe-d7be-4930-9e8e-565e81efa02c.pdf",
+            "news_date": "2025-05-28 21:01:39"
         },
         {
             "sym": "WELCORP",
@@ -338,6 +1328,50 @@
             "seg": "E"
         },
         {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a3084d8-a802-4a89-99a3-cbd537aa585c.pdf",
+            "news_date": "2025-05-28 20:59:15"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Approval Of Project Updates",
+            "news_body": "Approval of Project updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11e77ccb-a866-4966-9e39-d00d4d90a848.pdf",
+            "news_date": "2025-05-28 20:51:40"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditors",
+            "news_body": "Appointment of Secretarial Auditors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b28d00a9-8c0f-4dbc-84a7-68658cb55b93.pdf",
+            "news_date": "2025-05-28 20:49:08"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board Approved the Dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24a3a08d-097e-461c-9bca-9ef07cb1ed1e.pdf",
+            "news_date": "2025-05-28 20:44:06"
+        },
+        {
             "sym": "WELCORP",
             "disp": "Welspun Corp",
             "bse_code": 532144,
@@ -360,6 +1394,72 @@
             "sid": 11821,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Year Ended 31St March 2025",
+            "news_body": "Audited Financial Results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5681482f-a30b-46b2-bf09-072d6c7cec3d.pdf",
+            "news_date": "2025-05-28 20:41:50"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of the Board Meeting - Audited Financial Results (Standalone & Consolidated) for the financial year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fd80c8b-32fc-4e4c-a988-91bda5017d23.pdf",
+            "news_date": "2025-05-28 20:35:25"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Analysts / Institutional Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=862886f0-5067-4ff3-bb1e-30116f58dece.pdf",
+            "news_date": "2025-05-23 18:15:00"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Analysts / Institutional Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2aa6c75c-2819-42fc-a3ab-6d9037bb8613.pdf",
+            "news_date": "2025-05-23 17:59:51"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Standalone As Well As The Consolidated Audited Financial Results Of The Company For The Quarter And Financial Year Ended 31St March 2025 And Recommendation Of Final Dividend If Any And Other M",
+            "news_body": "Welspun Corp Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2025 inter alia to consider and approve (i) Consider and approve the standalone as well as the consolidated audited financial results of the Company for the quarter and financial year ended 31st March 2025; \r\n(ii) Consider and recommend Final Dividend if any on Equity Shares of the Company for the financial year ended 31st March 2025; \r\n(iii) Consider raising of funds by issuance of Commercial Papers / Non-Convertible Debentures on private placement basis\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e033824-b6c5-41db-8474-a1fc61bb5d94.pdf",
+            "news_date": "2025-05-23 17:24:59"
+        },
+        {
+            "co_code": 7947,
+            "bse_code": 532144,
+            "isin": "INE191B01025",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of Newspaper publication for IEPF Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a235a4b2-0706-4844-aff5-d56ca60d7f7f.pdf",
+            "news_date": "2025-05-20 16:32:22"
         },
         {
             "sym": "WELCORP",
@@ -1249,6 +2349,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

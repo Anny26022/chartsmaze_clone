@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Enclosed Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6d15e83-9d11-4eb2-9fec-bc39ed6c4b02.pdf",
+            "news_date": "2026-02-11 17:15:31"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Enclosed disclosure of Material Order of AED 5309103 as received by Newgen Software Technologies L.L.C. is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a04f1ac3-6145-4ed7-9ed9-ad1de06787bf.pdf",
+            "news_date": "2026-02-04 15:33:21"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Of Material Event/ Information Pursuant To Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Enclosed disclosure of the Order passed by the appellate Court in Qatar.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fca335d0-3395-4721-8fe2-99ac8d3d0e8f.pdf",
+            "news_date": "2026-01-27 19:21:55"
+        },
+        {
             "sym": "NEWGEN",
             "disp": "Newgen Software Technologies",
             "bse_code": 540900,
@@ -24,6 +57,28 @@
             "sid": 1164,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Enclosed Transcript of Conference Call of Q3 FY 26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23c2add9-fef2-4e27-a259-333ff97f4a95.pdf",
+            "news_date": "2026-01-25 10:38:55"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed Newspaper Advertisement dated 21st Janurary 2026 in relation to unaudited standalone and consoildated financial results for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da518499-6522-4fde-8942-179570bbffb8.pdf",
+            "news_date": "2026-01-21 13:47:50"
         },
         {
             "sym": "NEWGEN",
@@ -50,6 +105,28 @@
             "seg": "E"
         },
         {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Enclosed Audio Recording of Conference Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57433f51-895b-4665-a416-4c30435f1511.pdf",
+            "news_date": "2026-01-20 20:59:25"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Enclosed Press Release on Financial Results for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b684047a-0eaf-4c2b-a95d-8598e4f73979.pdf",
+            "news_date": "2026-01-20 14:37:50"
+        },
+        {
             "sym": "NEWGEN",
             "disp": "Newgen Software Technologies",
             "bse_code": 540900,
@@ -72,6 +149,17 @@
             "sid": 1164,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Enclosed Investor Presentation on Financial Results  for the quarter and nine months ended December 31st 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cc9ebee-6fdd-407f-af42-cd46a7734008.pdf",
+            "news_date": "2026-01-20 14:33:53"
         },
         {
             "sym": "NEWGEN",
@@ -98,6 +186,204 @@
             "seg": "E"
         },
         {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": " Unaudited Standalone And Consolidated Financial Results For The Quarter Ended 31St December 2025",
+            "news_body": "Enclosed Financial Results for the Quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=436cce70-05a4-4bbd-ac50-53e14127a6b8.pdf",
+            "news_date": "2026-01-20 13:48:36"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 20Th January 2026",
+            "news_body": "Enclosed Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f8acbcb-f200-4a81-896e-1d72836cca7e.pdf",
+            "news_date": "2026-01-20 13:44:01"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Enclosed Conference Call Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ede834f3-5f56-4b4e-823d-cfee51b85a84.pdf",
+            "news_date": "2026-01-13 18:36:28"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Standalone And Consolidated Financial Results Of The Company For The 3Rd Quarter Ended 31St December 2025",
+            "news_body": "Newgen Software Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 20/01/2026 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results of the Company for the 3rd Quarter Ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96504be9-a9cb-449f-b912-c51be04e86f0.pdf",
+            "news_date": "2026-01-13 12:40:33"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Please find enclosed outcome of Postal Ballot alongwith Scrutinizer Report and voting Result.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9318ea1-6326-4f98-9597-d017b4f66e3a.pdf",
+            "news_date": "2026-01-10 22:07:39"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Enclosed Certificate under Regulation 74(5) SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=131af103-756d-433e-8d51-5e5fe301bc16.pdf",
+            "news_date": "2026-01-07 16:43:40"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Enclosed Disclosure on resignation of Senior Management Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37b7f752-0706-40ec-9830-fefe6287c258.pdf",
+            "news_date": "2025-12-31 18:32:42"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Enclosed Trading Window Closure Disclosure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef46d6ff-cb27-42b4-b08a-d6cedd8fc448.pdf",
+            "news_date": "2025-12-26 16:31:13"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of Material Order of Rs. 16.53 Cr. is atathced.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dadbd214-0bb2-4c96-a7d6-bef1481f98db.pdf",
+            "news_date": "2025-12-15 16:49:01"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of Material Order of Rs. 38.64 Crores is attached..",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79cf2a5f-e867-4f60-ada2-088513fe0ed2.pdf",
+            "news_date": "2025-12-15 14:26:35"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed Newspaper Advertisement Published in Financial Express and Jansatta dated 11th December 2025 as attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d17e663b-a2a2-4917-ac55-cb6d594c705c.pdf",
+            "news_date": "2025-12-11 12:23:11"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Enclosed Postal Ballot Notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55c70622-1a15-45e8-ba98-24cd2b81a9bd.pdf",
+            "news_date": "2025-12-10 15:26:19"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Of Material Event/ Information Pursuant To Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "This is with reference to earlier disclosure dated 30th September 2025 regarding the acceptance of a Letter of Award (LOA) received from overseas entity. We want to inform you that the overseas entity has withdrawn its tender issued for providing the business process management platform.\r\nDetailed disclosure has been attached here.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2c1ad1e-4e6b-4015-82ab-9ce2542264f0.pdf",
+            "news_date": "2025-12-05 19:15:09"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of Material Order of Rs. 139971944/- is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6365927-ccd4-450b-b059-786cebf12377.pdf",
+            "news_date": "2025-12-03 17:21:03"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of  Material Order of RM 6465400.80 attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=246840ad-6251-4b5c-b334-f626feb1bf35.pdf",
+            "news_date": "2025-11-27 20:46:53"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed Newspaper Advertisement Published in Financial Express and Jansatta dated 27th November 2025 as attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7c24a57-01d5-4ede-8540-7a07c74dca16.pdf",
+            "news_date": "2025-11-27 12:50:17"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Enclosed disclosure of appointment of Ms Shubhi Nigam as Non-Executive Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=365903a3-e5de-4d6a-8524-e139262ffde1.pdf",
+            "news_date": "2025-11-26 15:04:49"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of Material Order GBP 1468804 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e1e8fb4-abd4-429d-a7a1-789b1a7d6002.pdf",
+            "news_date": "2025-11-18 10:22:00"
+        },
+        {
             "sym": "NEWGEN",
             "disp": "Newgen Software Technologies",
             "bse_code": 540900,
@@ -120,6 +406,50 @@
             "sid": 1164,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Enclosed Transcript of Conference Call of Q2 FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ce52e6e-4fcd-460b-806b-06d2ca21a7e4.pdf",
+            "news_date": "2025-11-04 10:48:19"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed Newspaper Advertisement -100 Days Campaign \"Saksham Niveshak\" by Investor Education  and Protection Fund Authority (IEPFA)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=206b4756-3320-409a-8f41-eec1fbfdafc9.pdf",
+            "news_date": "2025-10-31 17:54:50"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Enclosed Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f919f5c3-599e-4527-bdfe-9cffa0c8efec.pdf",
+            "news_date": "2025-10-29 18:06:20"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed Newspaper Advertisment dated 29th October 2025 in relation to unaudited standalone and consolidated financial results for the second quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22c8a411-8296-4e4b-bec4-d52e534de1a9.pdf",
+            "news_date": "2025-10-29 12:52:30"
         },
         {
             "sym": "NEWGEN",
@@ -146,6 +476,28 @@
             "seg": "E"
         },
         {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Enclosed Audio Recording of Conference Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4027f3b-c0cf-40ac-9ccf-117409f0dc38.pdf",
+            "news_date": "2025-10-28 22:10:19"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Enclosed Press release for the quarter and Half Year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=581392c8-4ef7-490e-87a2-ab6b6a1dae89.pdf",
+            "news_date": "2025-10-28 14:36:55"
+        },
+        {
             "sym": "NEWGEN",
             "disp": "Newgen Software Technologies",
             "bse_code": 540900,
@@ -168,6 +520,28 @@
             "sid": 1164,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Enclosed Investor Presentation for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97f5cf13-5391-4147-8798-f0b58179ec09.pdf",
+            "news_date": "2025-10-28 14:33:32"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Enclosed disclosure of Allotment pursuant to ESOPs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62016c70-1da5-4f30-8fb5-c38f92fd1a93.pdf",
+            "news_date": "2025-10-28 14:13:50"
         },
         {
             "sym": "NEWGEN",
@@ -194,6 +568,292 @@
             "seg": "E"
         },
         {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": " Unaudited Standalone And Consolidated Financial Results For The Quarter Ended 30Th September 2025",
+            "news_body": "Enclosed Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79cc7e6b-9e2b-42fd-b382-501f62b8e708.pdf",
+            "news_date": "2025-10-28 14:10:35"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 28Th October 2025",
+            "news_body": "Enclosed Board Meeting Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b675787d-6060-4f0a-94be-5e32027c5dd6.pdf",
+            "news_date": "2025-10-28 14:03:04"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of Material Order of UDS 5290000.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2dcc65c6-29d7-4164-b142-d9e9455c0824.pdf",
+            "news_date": "2025-10-18 11:07:42"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Schedule Of Road Show",
+            "news_body": "Enclosed intimation of Schedule of Road Show",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85fe7363-7c97-45e8-ad43-ec97ec258307.pdf",
+            "news_date": "2025-10-17 20:04:08"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Enclosed Conference Call Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f69b3768-42b7-44e2-b36b-cb579d3193a9.pdf",
+            "news_date": "2025-10-17 20:00:13"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Standalone And Consolidated Financial Results Of The Company For The 2Nd Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Newgen Software Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/10/2025 inter alia to consider and approve Enclosed Board Meeting Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=265cafdd-1c2a-4f0e-afed-f46ed08e1957.pdf",
+            "news_date": "2025-10-17 19:32:10"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Enclosed Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94db6c8c-4049-4069-ba0c-4cc8081b95b0.pdf",
+            "news_date": "2025-10-08 15:55:42"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of material order USD 2593125 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=153def15-67fe-4ce7-b12f-23164662d10a.pdf",
+            "news_date": "2025-10-01 13:12:01"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of material order of UK Pound 2985484 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac4872a1-540c-4726-a443-f4eee92977b9.pdf",
+            "news_date": "2025-09-30 23:56:21"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of material order of USD 1637400 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf92d6e1-f6a3-410e-944c-4a7691ff0ed6.pdf",
+            "news_date": "2025-09-30 23:50:45"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of material order of USD 5636000 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2c26eee-ab00-4205-8f66-339b809afa08.pdf",
+            "news_date": "2025-09-30 23:39:43"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of material order of KWD 1736052 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aca71e4b-f8d6-41ca-86c8-82ac2cf97607.pdf",
+            "news_date": "2025-09-30 23:34:27"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Of Material Event/ Information Pursuant To Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "We hereby inform you that Company has received a judgement passed by the Invested and trade court in Qatar.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63e6630f-af35-4f45-a1ee-df76b30552ee.pdf",
+            "news_date": "2025-09-30 16:26:52"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume Of Security",
+            "news_body": "Enclosed clarification letter on increase in volume of security",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad4a3ed2-8ae7-4376-a531-b779dd15ba55.pdf",
+            "news_date": "2025-09-26 13:45:18"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Newgen Software Technologies Ltd",
+            "news_body": "The Exchange has sought clarification from Newgen Software Technologies Ltd on September 26 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-09-26 12:51:08"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of Material Order is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc6ae5df-801c-40a7-b3b6-416366e37787.pdf",
+            "news_date": "2025-09-24 21:56:11"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Enclosed Trading Window Disclosure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e48bb4c0-fc1a-4002-93e1-f1fc67ec666e.pdf",
+            "news_date": "2025-09-24 16:34:07"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of Material Order is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f23c305-16b5-4f73-bf5a-589548654f78.pdf",
+            "news_date": "2025-09-24 15:44:39"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Attached Investor meet intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66caf7ae-a699-4d01-ba95-6697e2ebb90e.pdf",
+            "news_date": "2025-09-10 17:36:05"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Attached disclosure of material order of Rs. 73.12 Cr.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0467c7bb-1c78-41d1-9d10-29d67df9889b.pdf",
+            "news_date": "2025-08-26 18:28:35"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Newgen Recognized as a stronger Performer in The Forrester Wave Digital Process Automation Software Q3 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67c85481-c7d7-4b04-a762-200dc17c796e.pdf",
+            "news_date": "2025-08-21 17:05:35"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume Of Security",
+            "news_body": "Enclosed clarification letter on increase in volume of Security",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8634b57d-380d-4f38-abca-d522c9e566cb.pdf",
+            "news_date": "2025-08-18 12:45:59"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Enclosed Investor Meet disclosure.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48793ab8-d222-4814-a33d-239a542cfa06.pdf",
+            "news_date": "2025-08-13 13:06:29"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Attached Investor meet intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fa13f33-0ed8-4a5c-9441-6236ddd27c04.pdf",
+            "news_date": "2025-08-04 17:03:31"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Enclosed Voting Result alongwith Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e60f4be0-bf51-4653-bb8e-7bbae26a4aaa.pdf",
+            "news_date": "2025-07-25 18:54:43"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 33rd Annual General Meeting of the Company held on 25th July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c0150bc-46d9-4427-a49b-f8c17a078809.pdf",
+            "news_date": "2025-07-25 14:34:18"
+        },
+        {
             "sym": "NEWGEN",
             "disp": "Newgen Software Technologies",
             "bse_code": 540900,
@@ -216,6 +876,28 @@
             "sid": 1164,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Enclosed transcript of conference call held on 17th July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f07ed49-6555-435c-9dce-d7a2c34e2810.pdf",
+            "news_date": "2025-07-22 17:18:59"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed Newspaper Advertisement in relation to Unaudited Standalone and Consolidated Financial Results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8c64b33-0e2b-4474-83fe-00f435ccff75.pdf",
+            "news_date": "2025-07-18 14:10:41"
         },
         {
             "sym": "NEWGEN",
@@ -242,6 +924,28 @@
             "seg": "E"
         },
         {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Attached Audio Recording of Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93c035eb-d01c-4248-9db7-a80cb30344ba.pdf",
+            "news_date": "2025-07-17 23:01:12"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Enclosed press release for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6878fc98-3552-4efd-9992-feba25b06ae2.pdf",
+            "news_date": "2025-07-17 13:59:42"
+        },
+        {
             "sym": "NEWGEN",
             "disp": "Newgen Software Technologies",
             "bse_code": 540900,
@@ -264,6 +968,28 @@
             "sid": 1164,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Enclosed Investor Presentation for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=885d0b8c-f4bb-48ee-aa14-ede86f0a686b.pdf",
+            "news_date": "2025-07-17 13:57:22"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Enclosed Allotment of Shares pursuant to ESOP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ec8292b-6699-4316-b4f4-1cf0404acd49.pdf",
+            "news_date": "2025-07-17 13:01:04"
         },
         {
             "sym": "NEWGEN",
@@ -290,6 +1016,248 @@
             "seg": "E"
         },
         {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Enclosed Unaudited and Consolidated Financial Results for the quarter ended June 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20702123-c8ba-48ba-a662-6c7e73dab3b7.pdf",
+            "news_date": "2025-07-17 12:52:05"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Enclosed Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06594e64-5d1c-4d1f-b17c-b7f85bec5ad7.pdf",
+            "news_date": "2025-07-17 12:42:18"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We hereby inform you that the Company will be conducting Conference Call on Thursday 17th July 2025 at 04:00 P.M. (IST).\r\n\r\nEnclosed Intimation of Conference Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1639bba3-19db-45e3-a067-6cd85be7ee8b.pdf",
+            "news_date": "2025-07-12 14:22:17"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Board Meeting Intimation For Consider And Approve The Unaudited Standalone And Consolidated Financial Results Of The Company For The 1St Quarter Ended 30Th June 2025",
+            "news_body": "Enclosed Board Meeting Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bae8c6a9-7e9e-4872-b505-c17d5567a46a.pdf",
+            "news_date": "2025-07-11 23:07:45"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for  Consider And Approve The Unaudited Standalone And Consolidated Financial Results Of The Company For The 1St Quarter Ended 30Th June 2025",
+            "news_body": "Newgen Software Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/07/2025 inter alia to consider and approve Newgen Software Technologies Limited has informed the Exchange about Board meeting to be held on 17-July-2025 to inter-alia consider and approve the Unaudited Financial results of the Company for the 1st Quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2342ec3-5e9e-48cc-94bf-18343eca0b1c.pdf",
+            "news_date": "2025-07-11 18:18:40"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bf0691e-88e0-4cdc-b632-1a5615b2267c.pdf",
+            "news_date": "2025-07-09 13:51:17"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report (BRSR) for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a6311ea-c60e-4382-b1bf-36e94d3ba90b.pdf",
+            "news_date": "2025-06-26 18:11:55"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Submission of Annual Report for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b739ad48-0a98-4645-885a-03054ec908a7.pdf",
+            "news_date": "2025-06-26 18:07:11"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 33Rd Annual General Meeting (AGM) Of The Company For Financial Year 2024-25",
+            "news_body": "Enclosed Notice of 33rd AGM of Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f0516e7-db5f-434e-adbd-eda5b1520298.pdf",
+            "news_date": "2025-06-26 18:01:12"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Enclosed Trading Window Disclosure.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7243f73d-00c5-4d80-827e-344eba382f2d.pdf",
+            "news_date": "2025-06-25 11:48:12"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification Sought On Increase In Volume Of Security",
+            "news_body": "The Exchange sought clarification from Newgen Software Technologies Limited on June 17 2025 with reference to movement in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c67aeb8c-e51c-4fac-b4f5-8b68e6fbbe37.pdf",
+            "news_date": "2025-06-17 11:51:24"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification Sought from Newgen Software Technologies Ltd",
+            "news_body": "The Exchange has sought clarification from Newgen Software Technologies Ltd on June 6 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-06-06 12:31:15"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume Of Security",
+            "news_body": "Enclosed clarification letter on increase in volume of security",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=151ade9c-4a93-4dc4-9fd7-0095540cd2c8.pdf",
+            "news_date": "2025-06-06 11:30:52"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Enclosed Credit Rating disclosure.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f025abe-61df-45ee-b220-dca81a119765.pdf",
+            "news_date": "2025-06-05 20:57:17"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Enclosed disclosure for received an award from a customer.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cbd4ae5-43c4-495e-b525-ec51e12cdee8.pdf",
+            "news_date": "2025-06-04 20:50:03"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed Newspaper Advertisement in relation to Notice to Shareholder for transfer of shares to IEPF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc530ec3-5768-4b97-be23-b3d313a254e5.pdf",
+            "news_date": "2025-05-31 15:32:45"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Enclosed Annual Secretarial Compliance Report for the financial year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1175b1cc-006d-4825-b957-3c798883e7be.pdf",
+            "news_date": "2025-05-27 14:08:25"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For The Purpose Of Declaration Of Dividend & Annual General Meeting (AGM).\r\n",
+            "news_body": "Enclosed intimation of Record Date for the purpose of declaration of Dividend & Annual General Meeting (AGM)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bb672a3-55a5-422f-8cc6-a654ccf6f700.pdf",
+            "news_date": "2025-05-27 13:56:33"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume Of Security In The Past",
+            "news_body": "Please find enclosed disclosure for clarification on increase in Volume of Security in the past.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea529c6d-66bf-47b1-bd24-5dc9fec922ff.pdf",
+            "news_date": "2025-05-21 11:38:57"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "This is reference to earlier announcement dated May 12 2025 and subsequent clarification sought by BSE dated May 19 2025. Please find enclosed the revised disclosure.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23a298c3-db31-4e2b-8921-9986e164d2ca.pdf",
+            "news_date": "2025-05-19 19:00:47"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Enclosed Press Release titled\" Newgen Granted Patent in India for System and Method for Data Compression\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea72f942-950d-498f-95ff-9a1c184b4b2e.pdf",
+            "news_date": "2025-05-16 16:18:52"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Disclosure of Material Order is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0afa1cd-58bc-4bba-bc8d-eb619a5abfec.pdf",
+            "news_date": "2025-05-12 14:31:02"
+        },
+        {
             "sym": "NEWGEN",
             "disp": "Newgen Software Technologies",
             "bse_code": 540900,
@@ -312,6 +1280,17 @@
             "sid": 1164,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "We hereby enclosed transcript of conference call held on 02nd May 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1395fb5-9597-443e-b369-eb7a2a26628d.pdf",
+            "news_date": "2025-05-08 14:42:25"
         },
         {
             "sym": "NEWGEN",
@@ -338,6 +1317,17 @@
             "seg": "E"
         },
         {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Standalone And Consolidated Financial Results For The Quarter And Year Ended 31St March 2025",
+            "news_body": "Enclosed Audited Standalone and Consolidated Financial Results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=273b24af-501b-4c11-81bf-d4ea2f08e6fd.pdf",
+            "news_date": "2025-05-02 23:06:31"
+        },
+        {
             "sym": "NEWGEN",
             "disp": "Newgen Software Technologies",
             "bse_code": 540900,
@@ -362,6 +1352,28 @@
             "seg": "E"
         },
         {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Conference Call held on 02nd May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=261cc89d-2233-47bf-aea3-f3786a3b735f.pdf",
+            "news_date": "2025-05-02 22:22:32"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Enclosed Press Release on the Financial Results for the 4th quarter and year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ca370cf-641f-4cd1-bdd5-e1642f71eb5a.pdf",
+            "news_date": "2025-05-02 13:58:31"
+        },
+        {
             "sym": "NEWGEN",
             "disp": "Newgen Software Technologies",
             "bse_code": 540900,
@@ -384,6 +1396,94 @@
             "sid": 1164,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Financial Results for the 4th quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbe90b17-50c7-469c-b909-6cde88b7c523.pdf",
+            "news_date": "2025-05-02 13:52:46"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reappointment Of Internal Auditors Of The Company",
+            "news_body": "Reappointment of Internal Auditors of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db091010-269a-437a-b905-b09273ab9632.pdf",
+            "news_date": "2025-05-02 13:14:53"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditors Of The Company",
+            "news_body": "Appointment of Secretarial Auditors of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5885fab6-7a04-4743-8297-0dbc3b7bc26f.pdf",
+            "news_date": "2025-05-02 13:11:42"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Code of Conduct under SEBI (PIT) Regulations 2015",
+            "caption": "Announcement under Regulation 30 (LODR)-Code of Conduct under SEBI (PIT) Regulations 2015",
+            "news_body": "Enclosed revised Code of practices and procedures for fair disclosures of UPSI",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bd85195-45eb-4470-b761-50ffe21d4c8d.pdf",
+            "news_date": "2025-05-02 13:07:22"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Recommended a final dividend of Rs. 5 per equity shares subject to approval of shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8acf6ce4-8e2d-4a29-8fe9-415389470342.pdf",
+            "news_date": "2025-05-02 12:55:38"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Enclosed Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f5482c3-581e-407a-9864-8738d695d984.pdf",
+            "news_date": "2025-05-02 12:24:22"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Grant Of Options Under Newgen ESOP Scheme -2022",
+            "news_body": "intimation for grant of options under Newgen ESOP Scheme-2022",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=299e0211-07cd-4dff-bed6-9bb1959bfd51.pdf",
+            "news_date": "2025-05-01 14:34:20"
+        },
+        {
+            "co_code": 13722,
+            "bse_code": 540900,
+            "isin": "INE619B01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Schedule Of Road Show",
+            "news_body": "Enclosed intimation of Schedule of Road Show",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0be0d2bd-2ade-4317-9ab5-6d32835993c3.pdf",
+            "news_date": "2025-04-25 22:47:06"
         },
         {
             "sym": "NEWGEN",
@@ -1969,6 +3069,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

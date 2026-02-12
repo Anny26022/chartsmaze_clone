@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d87a53f-e111-4279-8a63-57e82851ce7f.pdf",
+            "news_date": "2026-02-12 19:26:49"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement - Post Dispatch of Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=428155e2-9b59-471a-acb4-fbec96e7623c.pdf",
+            "news_date": "2026-02-10 18:28:50"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8171e26-761d-4f5f-a0d0-d8e92647aef5.pdf",
+            "news_date": "2026-02-09 20:49:49"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Information regarding Postal Ballot and e-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e84afd8-3d77-49aa-84a6-ad328beec634.pdf",
+            "news_date": "2026-02-07 15:22:44"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6dd53719-f595-4725-81a1-b03d8f102de1.pdf",
+            "news_date": "2026-02-07 15:17:54"
+        },
+        {
             "sym": "SHRIPISTON",
             "disp": "Shriram Pistons & Rings",
             "bse_code": 544344,
@@ -24,6 +79,94 @@
             "sid": 17186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Weblink for Audio Recording.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6209e9c-9451-418f-8736-7f2ba36633d6.pdf",
+            "news_date": "2026-02-03 18:28:21"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afb6c0ae-64f3-4333-a7c3-aced32410233.pdf",
+            "news_date": "2026-02-03 14:49:46"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Date of payment of Dividend",
+            "caption": "Announcement under Regulation 30 (LODR)-Date of payment of Dividend",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bd40117-c8e8-4ab8-8ff4-c87cbd868f1f.pdf",
+            "news_date": "2026-02-02 22:55:35"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change of Name",
+            "caption": "Announcement under Regulation 30 (LODR)-Change of Company Name",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb827d29-ee36-4ae2-941f-a829cf162ca5.pdf",
+            "news_date": "2026-02-02 22:53:23"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed508714-392e-4262-8cc5-bcb35f21acf7.pdf",
+            "news_date": "2026-02-02 22:51:36"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf12845c-1885-474d-9554-dbf29628a3a9.pdf",
+            "news_date": "2026-02-02 20:30:19"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fe70345-48b7-4158-a7fb-d3879ba57ca7.pdf",
+            "news_date": "2026-02-02 20:15:17"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "Issuance of 100000 secured rated listed and redeemable non-convertible debentures (NCDs)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aac22158-d266-445c-ab97-b75ac6726aed.pdf",
+            "news_date": "2026-02-02 19:18:01"
         },
         {
             "sym": "SHRIPISTON",
@@ -50,6 +193,204 @@
             "seg": "E"
         },
         {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited (Standalone & Consolidated) Financial Results Of The Company For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89cc8cdd-8f70-488a-b634-d9fb8c072376.pdf",
+            "news_date": "2026-02-02 18:35:30"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Interim Dividend of Rs. 5/- per share (face value of Rs. 10 per share) for FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2e76054-2a02-4aff-a7bb-a5f765be621a.pdf",
+            "news_date": "2026-02-02 18:24:22"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On February 2 2026",
+            "news_body": "Un-Audited (Standalone & Consolidated) Financial Results of the Company for the quarter and nine months ended December 31 2025 Interim Dividend Issuance of 100000 secured rated listed and redeemable non-convertible debentures (NCDs) Change of name of the  Company from Shriram Pistons & Rings Limited to SPR Auto Technologies Limited and other business matters",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea96a114-9c66-4f42-8409-a577bbcdedef.pdf",
+            "news_date": "2026-02-02 18:17:23"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analysts/Investors - Shriram Pistons & Rings Limited - Q3 & 9M FY26 Earnings Call Tuesday February 3 2026 at 4:00 p.m. (IST)\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b133be0-96de-4895-8aaf-a6e4159bcee4.pdf",
+            "news_date": "2026-01-27 23:24:40"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Interim Dividend for FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e349bfed-c5a7-4da6-863b-f5ec8932a930.pdf",
+            "news_date": "2026-01-24 16:38:41"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Interim Dividend for FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d0c02c5-ea80-4427-9083-ba1aeb11e898.pdf",
+            "news_date": "2026-01-24 16:37:36"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Un Audited (Standalone And Consolidated) Financial Results Of The Company For The Quarter And Nine Months Ended December 31 2025 Along With The Limited Review Report; Interim Dividend Issuance Of Ncds",
+            "news_body": "Shriram Pistons & Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 02/02/2026 inter alia to consider and approve a) the Un Audited (Standalone and Consolidated) Financial Results of the Company for the quarter and nine months ended December 31 2025 along with the Limited Review Report;\r\nb) interim dividend for the financial year 2025 26 if any and to fix the record date for the same; and\r\nc) the proposal for raising funds through the issuance of Secured Non Convertible Debentures (NCDs) on a private placement basis for an aggregate amount of up to INR 1000 Crore in one or more tranches/series\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df166ef3-d65c-4f41-82ef-63f947851364.pdf",
+            "news_date": "2026-01-24 16:29:53"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Certificate With Regard To Commercial Paper",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3b89d2d-ccae-447e-8f8d-62f027ee1291.pdf",
+            "news_date": "2026-01-14 11:58:13"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Report Received From Registrar And Share Transfer Agent On Re-Lodgement Of Transfer Requests Of Physical Shares\r\n",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=253da2d2-bab1-499b-9ffb-8aa62e151abd.pdf",
+            "news_date": "2026-01-12 13:03:13"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8708237-bf2a-4836-97a7-13d6ecf40c3d.pdf",
+            "news_date": "2026-01-08 22:01:15"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90f8ab82-bf61-4581-bbf2-3047563590e6.pdf",
+            "news_date": "2026-01-08 12:02:23"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Completion of first tranche closing as set out under the Asset Purchase Agreement dated December 19 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c3e359e-fc03-44b4-8657-e410910578fb.pdf",
+            "news_date": "2025-12-31 18:05:10"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1166584-13c4-4702-a987-14c8514561fe.pdf",
+            "news_date": "2025-12-25 13:34:01"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Intimation regarding issuance allotment and listing of Commercial Paper amount to Rs. 10000 Million",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fd9cc24-e8d0-4ece-92af-011eb21487b2.pdf",
+            "news_date": "2025-12-24 18:30:53"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=432741b0-810d-4786-b1e9-45004180145b.pdf",
+            "news_date": "2025-12-19 13:16:18"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70e326b2-3b87-4e9f-829a-2dc601ecc151.pdf",
+            "news_date": "2025-12-17 17:59:54"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Report Received From Registrar And Share Transfer Agent On Re-Lodgement Of Transfer Requests Of Physical Shares\r\n",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3046ce1a-cd18-426e-856c-3039dacd7b55.pdf",
+            "news_date": "2025-12-15 15:31:15"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4859e26-3ea2-4f06-bffd-943db9b4685c.pdf",
+            "news_date": "2025-12-13 18:47:20"
+        },
+        {
             "sym": "SHRIPISTON",
             "disp": "Shriram Pistons & Rings",
             "bse_code": 544344,
@@ -72,6 +413,94 @@
             "sid": 17186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Con-call on Update on Acquisition of Grupo Antolin Companies (India)\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d867e11-28f5-49c2-8603-efa579c1e3d7.pdf",
+            "news_date": "2025-12-10 22:02:39"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Volume Movement Email/Letter Received From BSE Limited",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=837e95d9-5349-4f2b-9c1b-3ec3acedd38a.pdf",
+            "news_date": "2025-12-08 14:33:14"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Shriram Pistons & Rings Ltd",
+            "news_body": "The Exchange has sought clarification from Shriram Pistons & Rings Ltd on December 8 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-12-08 12:00:26"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c019697-8c4a-45e7-a6e3-36679bcbb3f3.pdf",
+            "news_date": "2025-12-05 19:23:50"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=921e9d75-54de-41e6-beca-d61261fc7433.pdf",
+            "news_date": "2025-12-05 15:50:28"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5b12311-196a-421d-b2be-5254c25a8bf2.pdf",
+            "news_date": "2025-12-05 07:54:16"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcripts of the Earnings Conference Call - Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 (\"SEBI Listing Regulations\")",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccfe3816-0524-4311-9e56-bb66d0d10ac6.pdf",
+            "news_date": "2025-11-12 17:07:17"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Report Received From Registrar And Share Transfer Agent On Re-Lodgement Of Transfer Requests Of Physical Shares\r\n",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb645648-be8b-45f1-9150-d7b8fcae428d.pdf",
+            "news_date": "2025-11-11 15:33:15"
         },
         {
             "sym": "SHRIPISTON",
@@ -98,6 +527,39 @@
             "seg": "E"
         },
         {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Link for the Audio Recording of Earnings Call Q2H1 - FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71ae6dec-d866-49d8-a161-919139641dbe.pdf",
+            "news_date": "2025-11-07 18:20:52"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Resubmission of Newspaper Publication of Un-audited Financial Results for the Quarter and Half Year Ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abc2496f-7e48-4d02-98b0-a0ed903322ba.pdf",
+            "news_date": "2025-11-06 11:05:05"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of Un-audited Financial Results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a57c8b96-a378-4802-bd12-5ca0ed3218c6.pdf",
+            "news_date": "2025-11-05 17:37:31"
+        },
+        {
             "sym": "SHRIPISTON",
             "disp": "Shriram Pistons & Rings",
             "bse_code": 544344,
@@ -120,6 +582,193 @@
             "sid": 17186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Un-Audited (Standalone & Consolidated) Financial Results Of The Company For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Details as per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6180962-a43e-4f2a-8fdd-bd4603d9efdb.pdf",
+            "news_date": "2025-11-04 22:05:58"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Press Release enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6f0c19d-a143-447e-a4e4-2348b9851295.pdf",
+            "news_date": "2025-11-04 17:20:13"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Presentation enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad545778-e768-4221-a468-dcded1e49f00.pdf",
+            "news_date": "2025-11-04 17:18:59"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Un-Audited (Standalone & Consolidated) Financial Results Of The Company For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60591c8f-5e5d-4503-9bba-668b6918215c.pdf",
+            "news_date": "2025-11-04 17:12:17"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analysts/Investors meet under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Shriram Pistons & Rings Limited - Q2 & H1 FY26 Earnings Call Friday November 7 2025 at 4:00 p.m. (IST)\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f637aa1-c3c0-4234-9d8d-e25c8199ad98.pdf",
+            "news_date": "2025-11-03 14:21:11"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Un-Audited (Standalone And Consolidated) Financial Results Of The Company For The Quarter And Half Year Ended September 30 2025.",
+            "news_body": "Shriram Pistons & Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/11/2025 inter alia to consider and approve Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca790ade-adc0-4558-b70c-f0e437ed4d37.pdf",
+            "news_date": "2025-10-29 19:40:34"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83fc6565-9bc9-46b5-a583-0ac01c1ab511.pdf",
+            "news_date": "2025-10-09 11:41:36"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Report Received From Registrar And Share Transfer Agent On Re-Lodgement Of Transfer Requests Of Physical Shares\r\n",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecf3f85f-5b1b-4b1d-ac6e-1f5eb959b42e.pdf",
+            "news_date": "2025-10-08 14:18:50"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e134a1c-a11e-4452-a443-e8d0f757f93a.pdf",
+            "news_date": "2025-09-30 12:01:05"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Report Received From Registrar And Share Transfer Agent On Re-Lodgement Of Transfer Requests Of Physical Shares\r\n",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7317157f-5b43-47ce-81a9-b9d43f4570e9.pdf",
+            "news_date": "2025-09-25 17:58:01"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2e08484-8294-48fe-963b-2670b93d0243.pdf",
+            "news_date": "2025-09-25 16:43:16"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Status Update Regarding Further Acquisition Of Equity Stake By SPR Engenious Limited (SEL) (Wholly Owned Subsidiary Of SPRL) In Its Subsidiary I.E. SPR EMF Innovations Private Limited (SPR EMFI)",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54a46ca5-9fce-48d8-a835-dc118fdf8d79.pdf",
+            "news_date": "2025-09-11 21:26:55"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Publication Regarding Special Window For Re-Lodgement Of Transfer Requests Of Physical Shares And 100-Days Campaign - Saksham Niveshak",
+            "news_body": "Newspaper advertisement enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20e0e843-2752-4955-b7e7-8b25191166c2.pdf",
+            "news_date": "2025-08-22 11:51:58"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "With reference to the captioned matter and in furtherance to our earlier intimation letter \r\ndated August 7 2025 regarding intimation of the Schedule of Analyst or Institutional Investor Meeting(s) and in compliance with Regulation 30(6) read with Schedule III and other applicable provisions of the SEBI Listing Regulations we wish to inform you that the Key Managerial Personnel (KMPs) of the Company participated in Emkay Confluence 2025 Conference held today i.e. August 13 2025  at Trident BKC Mumbai with Several Funds/Investors. Further the Company also interacted on One-on-One basis Analysts/Investors as per Annexure-I enclosed herewith.\r\nPlease note that no fresh presentation was made as the Company has referred to publicly available documents as well as presentation for discussions at the aforesaid Investor conference. These interactions used a Q&A format. No Unpublished price sensitive Information (UPSI) was shared during the said interaction.\r\nThe aforesaid presentation(s) which was sent to the stock exchanges vide letter dated August 1 2025 and is also available on the website of the Company at \r\nhttps://shrirampistons.com/wp-content/uploads/2025/08/SEINTIMATIONINVESTORPRESENTATION.pdf  \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c55fa85-cedf-4b4e-8b17-13f66064fe73.pdf",
+            "news_date": "2025-08-13 18:40:53"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b23eb317-7dfb-417b-8ebb-e9ea85c507ab.pdf",
+            "news_date": "2025-08-07 18:34:44"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e87318c-7194-415d-80c0-87b5f52fa9a1.pdf",
+            "news_date": "2025-08-07 17:28:06"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd7c5904-b9cb-498b-9e4d-e565d1db6f55.pdf",
+            "news_date": "2025-08-04 19:35:01"
         },
         {
             "sym": "SHRIPISTON",
@@ -146,6 +795,72 @@
             "seg": "E"
         },
         {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Link for Audio Recording : Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4a0eaf5-693a-4872-8473-56eaf8486a9c.pdf",
+            "news_date": "2025-08-04 18:04:21"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3298675-7ac8-4fd6-83ff-310cce72a07b.pdf",
+            "news_date": "2025-08-04 14:53:45"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce63e491-3b9e-4675-b46b-7e7789dcf49c.pdf",
+            "news_date": "2025-08-02 11:19:58"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2781bfeb-532b-4832-80c7-045a12089ada.pdf",
+            "news_date": "2025-08-01 20:51:22"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Press Release on Un-Audited Financial Results for the quarter ended on June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cded169-564c-4d17-be7c-1c6ac3f5c288.pdf",
+            "news_date": "2025-08-01 18:54:32"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Presentation on Un-Audited Financial Results for the Quarter ended on June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07b7d1a4-04f2-4690-99ae-07882c5059b6.pdf",
+            "news_date": "2025-08-01 18:52:45"
+        },
+        {
             "sym": "SHRIPISTON",
             "disp": "Shriram Pistons & Rings",
             "bse_code": 544344,
@@ -168,6 +883,204 @@
             "sid": 17186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting Held On August 1 2025  : Unaudited Financial Results For Quarter Ended June 30 2025",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c9ef3ce-4acf-40a7-9393-f3d2432e80b8.pdf",
+            "news_date": "2025-08-01 17:46:10"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Amendment To The Code Of Practices & Procedures For Fair Disclosure Of   Unpublished Price Sensitive Information (UPSI)",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca2f641c-d5e7-4c60-8f5d-2644b5764533.pdf",
+            "news_date": "2025-08-01 16:17:22"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On August 1 2025",
+            "news_body": "This is to inform you that the Board of Directors of the Company at its meeting held today i.e. Friday August 1 2025 have inter alia approved the Un-audited (Standalone & Consolidated) Financial Results of the Company for the quarter ended June 30 2025. A copy of the said results along with the Statutory Auditors Limited Review Reports is enclosed herewith as Annexure I.\r\n\r\nThe Board Meeting commenced at 2:35 P.M. and concluded at 3:25 P.M.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e30ef71-8d4d-4e96-9518-04a4bbdd5074.pdf",
+            "news_date": "2025-08-01 15:33:33"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analysts/Investors meet under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c009816b-3654-457f-9071-313c50f46a05.pdf",
+            "news_date": "2025-07-29 15:09:30"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Un-Audited (Standalone And Consolidated) Financial Results Of The Company For The Quarter Ended June 30 2025",
+            "news_body": "Shriram Pistons & Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 01/08/2025 inter alia to consider and approve Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b0a3beb-8139-43cf-850e-871b2a67d216.pdf",
+            "news_date": "2025-07-18 11:15:20"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab0a5e73-eb03-4ad8-86bb-69ad4c4d6e79.pdf",
+            "news_date": "2025-07-15 13:58:05"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Read With Schedule III Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations) - Letter To Members/Shareholders",
+            "news_body": "Details as per enclosed attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38e4fe4d-3bb1-4392-842f-c7ec2361d408.pdf",
+            "news_date": "2025-07-09 12:47:41"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Regarding dispatch of Notice of 61st AGM and Annual Report for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73c59f2b-551f-43a1-b07b-780b3b3c7126.pdf",
+            "news_date": "2025-07-09 12:40:57"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c2a002c-7c2b-4bbf-b794-4c44c69c24cc.pdf",
+            "news_date": "2025-07-07 18:55:57"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 61St Annual General Meeting (AGM) Of Shriram Pistons & Rings Limited",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b23c81b-50d8-497f-a31f-eb8556522723.pdf",
+            "news_date": "2025-07-07 18:54:50"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "This has reference to letter dated May 7 2025 intimating that the 61st Annual General Meeting (AGM) of Shriram Pistons & Rings Limited (Company) will be held on Friday August 1 2025 through video conferencing/other audio-visual means.\r\n \r\nIn continuation to the aforesaid letter and pursuant to Regulation 34(1) SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations) please find enclosed the following:\r\n\r\n1) Annual Report for the Financial Year 2024-25; and\r\n2) Notice of the 61st Annual General Meeting (AGM) of the Company (including e-voting instructions). \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57cd0a7f-dec6-4e16-bcef-826f40c089e7.pdf",
+            "news_date": "2025-07-07 18:45:27"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders - Intimation Regarding Tax Deduction At Source (TDS)/Withholding Tax On Final Dividend For Financial Year 2024-25",
+            "news_body": "As per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13f63311-01db-46dc-a03e-893971590684.pdf",
+            "news_date": "2025-07-05 15:24:37"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order From Income Tax Department",
+            "news_body": "As per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf685e16-00cb-4252-8a88-4226a9eff36f.pdf",
+            "news_date": "2025-07-01 17:49:02"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c6d4b1a-eef6-4067-b664-47275ad6dbe0.pdf",
+            "news_date": "2025-06-29 13:15:39"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "As per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42d20cb1-9d58-4097-8aa2-adf78341b988.pdf",
+            "news_date": "2025-06-27 11:42:47"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation To The Holders Of Physical Securities To Furnish PAN KYC Details And Bank Account Details As Per SEBI Circular",
+            "news_body": "As per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8673853b-a195-4680-be76-6a66288d7299.pdf",
+            "news_date": "2025-06-23 18:37:41"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57858660-f392-4ab5-ac23-858d6d684b45.pdf",
+            "news_date": "2025-05-29 20:08:01"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update - Resignation Of Mr. Shinich Unno As Independent Director",
+            "news_body": "Additional parameters have been mentioned in the enclosed clarification",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a57d8b6-8ee5-488d-b914-43a6a10be5c7.pdf",
+            "news_date": "2025-05-15 18:31:00"
         },
         {
             "sym": "SHRIPISTON",
@@ -194,6 +1107,17 @@
             "seg": "E"
         },
         {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "With reference to the captioned matter and in furtherance to our earlier intimation letters \r\ndated May 1 2025 and May 8 2025 regarding the schedule investor presentation press release and Audio Recordings of the Earnings Conference Call of Shriram Pistons & Rings Limited (Company) and in compliance with Regulation 30(6) read with Schedule III and other applicable provisions of the SEBI Listing Regulations please find enclosed the transcripts of the Earnings Conference Call on the Audited Financial Results for the quarter and financial year ended March 31 2025 held on Thursday May 8 2025 at 4:00 p.m. (IST).\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c758590-2a89-4d6d-9afd-dc6aa5933345.pdf",
+            "news_date": "2025-05-13 16:27:34"
+        },
+        {
             "sym": "SHRIPISTON",
             "disp": "Shriram Pistons & Rings",
             "bse_code": 544344,
@@ -216,6 +1140,105 @@
             "sid": 17186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "With reference to the captioned matter and in furtherance to our earlier intimation letter(s) \r\ndated May 1 2025 and May 8 2025 regarding the schedule Investor presentation and Press Release of Earnings Conference Call of Shriram Pistons & Rings Limited (Company) and in compliance with Regulation 30(6) read with Schedule III and other applicable provisions of the SEBI Listing Regulations the audio recording of the Earnings Conference Call held on Thursday May 8 2025 is available on the website of the Company at the web link :\r\nhttps://shrirampistons.com/wp-content/uploads/2025/05/SPRL_Q4FY25_EarningsCallAudio.mp4 \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbbcfbc0-4114-4d45-83ab-d5269b463168.pdf",
+            "news_date": "2025-05-08 18:55:16"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Audited Results for quarter and financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fecd64e6-925e-4f96-a866-6043de22c0c2.pdf",
+            "news_date": "2025-05-08 16:42:27"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "With reference to the captioned matter and in furtherance to our earlier intimation letter \r\ndated May 1 2025 regarding the schedule of the Earnings Conference Call of Shriram Pistons & Rings Limited (Company) to be held on Thursday May 8 2025 and Intimation letter dated May 8 2025 regarding Investor presentation and in compliance with Regulation 30(6) of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations) please find enclosed herewith Press Release on Audited Financial Results (Standalone & Consolidated) of the Company for the quarter and financial year ended on March 31 2025.\r\n\r\nFurther the same shall be accessible on the Companys website of the Company at https://shrirampistons.com/investors-guide-2/.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9dbd2cc1-b3eb-4670-99c7-85a030ad1d6a.pdf",
+            "news_date": "2025-05-08 13:17:56"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "With reference to the captioned matter and in furtherance to our earlier intimation letter \r\ndated May 1 2025 regarding the schedule of the Earnings Conference Call of Shriram Pistons & Rings Limited (Company) to be held on Thursday May 8 2025 and in compliance with Regulation 30(6) of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations) please find enclosed herewith Investor Presentation on the Audited Financial Results (Standalone & Consolidated) of the Company for the quarter and financial year ended on March 31 2025.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf1f10b5-9e62-4360-ac6e-42cc03191973.pdf",
+            "news_date": "2025-05-08 13:17:04"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Directors Retiring By Rotation And Being Re-Appointed Subject To Shareholders Approval",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1108ee7-aeea-47dd-89f9-2f09efb3c942.pdf",
+            "news_date": "2025-05-07 20:29:53"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Book Closure",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c1bd8e6-343e-4cbf-bddb-9628d9d3b665.pdf",
+            "news_date": "2025-05-07 20:24:16"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Board Fixes Record Date For The Purpose Of Final Dividend",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d104ad7-c330-4b9f-b0bd-5679d403ccce.pdf",
+            "news_date": "2025-05-07 20:22:23"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Board Fixes Date Of 61St Annual General Meeting (AGM) And Record Date And Book Closure Dates",
+            "news_body": "Date of 61st AGM - August 1 2025\r\nRecord Date for Final Dividend - July 25 2025\r\nBook Closure - From July 26 2025 to August 1 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b548c5a4-f54a-4788-916e-d9edc0b4056d.pdf",
+            "news_date": "2025-05-07 20:19:53"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Independent Director On The Board Of Material Subsidiary ; And \r\nChange Of Name Of The Step-Down Subsidiary Company",
+            "news_body": "Refer as per the attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b56eca41-a9f6-48e7-85cd-a28f6b4ed5ea.pdf",
+            "news_date": "2025-05-07 20:14:16"
         },
         {
             "sym": "SHRIPISTON",
@@ -242,6 +1265,83 @@
             "seg": "E"
         },
         {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Year Ended March 31 2025",
+            "news_body": "As per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04b2e0ea-0233-4a5d-8ee9-a3ce9c8008aa.pdf",
+            "news_date": "2025-05-07 19:55:33"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Cost Auditor For FY 2025-26",
+            "news_body": "Details as per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8cfcabf-8a5c-42ed-a6f4-f2b818c101a0.pdf",
+            "news_date": "2025-05-07 19:48:45"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of M/S APAC & Associates LLP As Secretarial Auditors For 5 Years",
+            "news_body": "Details as per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a2cb0bf-178d-4f75-829f-aaea3f203703.pdf",
+            "news_date": "2025-05-07 19:47:31"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "As per attachment enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d8aa685-4110-4c7e-840e-5eee2f82e38c.pdf",
+            "news_date": "2025-05-07 19:45:30"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Mr. Akihiro Ozaki As Independent Director Subject Of Allotment Of DIN By MCA. Details As Per Enclosed Attachment.",
+            "news_body": "Details as per enclosed attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abca268a-0e0a-4c15-9b0f-376920d13549.pdf",
+            "news_date": "2025-05-07 19:41:39"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Mr. Shinichi Unno resigned as Independent Director w.e.f. close of business hours of 7.5.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d467ed6a-5eb7-4247-ac8b-b6ced5f12c9a.pdf",
+            "news_date": "2025-05-07 19:39:06"
+        },
+        {
+            "co_code": 5498,
+            "bse_code": 544344,
+            "isin": "INE526E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "As per attachment enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a07fac2-900c-4bb4-9cd3-f730a43ec0d8.pdf",
+            "news_date": "2025-05-07 18:56:38"
+        },
+        {
             "sym": "SHRIPISTON",
             "disp": "Shriram Pistons & Rings",
             "bse_code": 544344,
@@ -265,6 +1365,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

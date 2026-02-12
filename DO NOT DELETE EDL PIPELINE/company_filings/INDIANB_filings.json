@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Copy Of Minutes Of Extraordinary General Meeting Of The Bank Held On 09Th January 2026",
+            "news_body": "Copy of Minutes of Extraordinary General Meeting of the Bank held on 09th January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=203d9fdc-2823-4399-bfd5-4c939c4a36f1.pdf",
+            "news_date": "2026-02-05 18:51:24"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in Benchmark Rates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe5376e4-a957-44ac-a6bf-71e0023dcaa1.pdf",
+            "news_date": "2026-02-02 18:59:26"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Post Earnings Concall / Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23228b92-e73b-4701-8e8b-45efa5966c08.pdf",
+            "news_date": "2026-01-30 16:57:20"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 57 Of SEBI (LODR) Regulations 2015 - Confirmation Of Payment Of Interest On Debt Securities Tier 2 Bonds Series III (ISIN - INE428A08051) On Due Date",
+            "news_body": "Confirmation of payment of Interest on Debt Securities Tier 2 Bonds Series III (ISIN-INE428A08051) on due date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8082e2f-fcbe-4c54-bfad-39293ad77fa2.pdf",
+            "news_date": "2026-01-27 18:18:39"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Strikes /Lockouts / Disturbances",
+            "caption": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
+            "news_body": "Notice of Strike given by United Forum of Bank Unions (U.F.B.U.)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0a86f73-8960-4e74-a7a5-b6edd9e23491.pdf",
+            "news_date": "2026-01-23 19:53:53"
+        },
+        {
             "sym": "INDIANB",
             "disp": "Indian Bank",
             "bse_code": 532814,
@@ -24,6 +79,17 @@
             "sid": 14309,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Update on Post Earnings Concall/Meet with Investors/Analysts: Audio/Video Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb8b6795-00f8-4a44-8ba7-15551d783642.pdf",
+            "news_date": "2026-01-22 20:41:43"
         },
         {
             "sym": "INDIANB",
@@ -50,6 +116,28 @@
             "seg": "E"
         },
         {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation on Unaudited (Reviewed) Financial Results of the Bank for the Third Quarter and Nine Months period of FY 2025-26 ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06fc511a-9d0e-43df-a830-13b9dea59cba.pdf",
+            "news_date": "2026-01-22 14:49:21"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Unaudited (Reviewed) Financial Results of the Bank for the Third Quarter and Nine Months period of FY 2025-26 ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12769907-5d3d-40b4-94a2-929e75078532.pdf",
+            "news_date": "2026-01-22 14:12:08"
+        },
+        {
             "sym": "INDIANB",
             "disp": "Indian Bank",
             "bse_code": 532814,
@@ -72,6 +160,413 @@
             "sid": 14309,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Result Of The Bank For The Third Quarter And Nine Months Period Of FY 2025-26 Ended On December 31 2025",
+            "news_body": "Financial Result of the Bank for the Third Quarter and Nine Months period of FY 2025-26 ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b26747e-1f53-4fc5-aa28-465e03617758.pdf",
+            "news_date": "2026-01-22 13:34:29"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Post Earnings Call / Conference Call with Investors / Analysts: Unaudited (Reviewed) Financial Results (Standalone & Consolidated) of the Bank for the Third Quarter and Nine Months period of FY 2025-26 ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=575b282e-f57f-4381-bf1d-eff26481a4ca.pdf",
+            "news_date": "2026-01-14 19:11:42"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited (Reviewed) Standalone/ Consolidated Financial Results Of The Bank For The Third Quarter (Q3) And Nine Months Period Of FY 2025-26 Ended On 31St December 2025.",
+            "news_body": "Indian Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/01/2026 inter alia to consider and approve the Unaudited (Reviewed) Standalone/ Consolidated Financial Results of the Bank for the Third Quarter (Q3) and Nine Months period of FY 2025-26 ended on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=904ff226-346b-4a82-bc76-1245ed8849c3.pdf",
+            "news_date": "2026-01-14 17:25:12"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 57 Of SEBI (LODR) Regulations 2015- Confirmation Of Payment Of Principal And Interest On Debt Securities (ISIN-INE562A08081) On Call Option Exercise Date\r\n\r\n",
+            "news_body": "Confirmation of Payment of Principal and Interest on Debt Securities (ISIN-INE562A08081) on Call Option Exercise Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d97e03b5-1b24-4dfd-87e7-2e4acd9ff8f5.pdf",
+            "news_date": "2026-01-13 17:06:06"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Outcome of EGM-Proceedings of the meeting and Scrutinizers Report regarding results of remote e-voting and e-voting during the EGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a8e8bae-fcf8-4a98-8e74-5640c3404844.pdf",
+            "news_date": "2026-01-09 19:36:36"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Outcome of Extraordinary General Meeting of the Bank- Proceedings of the meeting and Scrutinizers Report regarding results of remote e-voting and e-voting during the EGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb8783bd-a3d0-4edf-971e-f75cbbae9e23.pdf",
+            "news_date": "2026-01-09 19:33:56"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Confirmation Certificate from RTA under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=519db796-f7b0-44e4-8425-ddd2a7b2a4da.pdf",
+            "news_date": "2026-01-06 19:28:07"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Provisional Business Figures for Q3 FY2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88738c1d-ac8b-47a9-b113-f162299a6647.pdf",
+            "news_date": "2026-01-01 16:41:08"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Senior Management of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=365105cb-cbce-4424-b6ef-e914c396fcd8.pdf",
+            "news_date": "2025-12-31 20:39:52"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Senior Management of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06d51a75-d860-49d5-884a-07f055fab160.pdf",
+            "news_date": "2025-12-31 20:05:14"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in Benchmark Rates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13c38b70-d949-4352-8993-6e675422f246.pdf",
+            "news_date": "2025-12-31 19:00:43"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Shri Bhupinder Singh Bhalla as Shareholder Director on the Board of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9b93c3a-5af3-47d8-b0cc-be8167c8b8ed.pdf",
+            "news_date": "2025-12-31 18:20:11"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update Regarding Election Of Shareholder Director Of The Bank- Cancellation Of Agenda Item No.1 Of The Extraordinary General Meeting (EGM) Pertaining To Election Of Shareholder Director From Amongst Shareholders Of The Bank Other Than The Central Governme",
+            "news_body": "Update regarding election of Shareholder Director of the Bank- Cancellation of Agenda Item No.1 of the EGM pertaining to election of shareholder director from amongst shareholders of the Bank other than the Central Government and attendant e-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd111988-88ea-42f9-b678-f97880d0f970.pdf",
+            "news_date": "2025-12-30 19:49:44"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 57 Of SEBI (LODR) Regulations 2015- Confirmation Of Payment Of Principal And Interest On Debt Securities           (ISIN-INE562A08073) On Call Option Exercise Date\r\n\r\n",
+            "news_body": "Confirmation of Payment of Principal and Interest on Debt Securities (ISIN-INE562A08073) on Call Option Exercise Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29395fbd-3499-41c5-a3b5-0eb73557d773.pdf",
+            "news_date": "2025-12-30 17:54:52"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates On Exercise Of Call Option On Banks Outstanding Tier 2 Bonds Series V (ISIN-INE562A08081) Aggregating To Rs.2000 Crore On First Call Option Due Date: Receipt Of Requisite Prior Approval Of RBI",
+            "news_body": "Updates on exercise of Call Option on Banks outstanding Tier 2 Bonds Series V (ISIN-INE562A08081) aggregating to Rs.2000 crore on first Call Option due date-Receipt of requisite prior approval of RBI",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7edc6851-0f1d-4e2e-9c8d-714decff8424.pdf",
+            "news_date": "2025-12-29 19:21:50"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e33aad21-b762-4512-85fb-f4e6c15e6fd1.pdf",
+            "news_date": "2025-12-23 19:09:59"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Record Date For Payment Of Yearly Interest On BankS Outstanding Tier 2 Bonds Series III (ISIN- INE428A08051)",
+            "news_body": "Record Date for payment of yearly interest on Banks outstanding Tier 2 Bonds Series III (ISIN-INE428A08051)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e6b7f5b-4a21-4cca-bffd-1d34ea63d7ae.pdf",
+            "news_date": "2025-12-22 19:26:36"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 57 Of SEBI (LODR) Regulations 2015- Confirmation Of Payment Of Principal And Interest On Debt Securities           (ISIN-INE428A08044) On Redemption Date",
+            "news_body": "Confirmation of payment of Principal and Interest on Debt Securities (ISIN-INE428A08044) on redemption date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a2d4f0e-d97f-4a69-a307-6cb1434ca8cb.pdf",
+            "news_date": "2025-12-19 17:11:54"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Notice Regarding Exercise Of Call Option On BankS Tier 2 Bonds Series V (ISIN-INE562A08081) Aggregating To Rs.2000 Crore On First Call Option Due Date And Intimation Of Record Date",
+            "news_body": "Notice regarding Exercise of Call Option on Banks Tier 2 Bonds Series V (ISIN-INE562A08081) aggregating to Rs.2000 crore on first Call Option due date and Intimation of Record Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52a2a543-d3ec-4523-8b7f-f6bbb2f28c58.pdf",
+            "news_date": "2025-12-18 17:59:28"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Copy Of Notice Of Extraordinary General Meeting (EGM) Of Shareholders Of The Bank Scheduled To Be Held On Friday The 09Th January 2026",
+            "news_body": "Copy of Notice of Extraordinary General Meeting (EGM) of Shareholders of the Bank scheduled to be held on Friday the 09th January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=849c0d92-fe6a-4d33-86b9-66e723686154.pdf",
+            "news_date": "2025-12-17 17:42:55"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 57 Of SEBI (LODR) Regulations 2015- Confirmation Of Payment Of Principal And Interest On Debt Securities (ISIN-INE562A08065) On Call Option Exercise Date",
+            "news_body": "Confirmation of payment of Principal and Interest on Debt Securities (ISIN-INE562A08065) on Call Option Exercise Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bb55bc4-bb4c-41f9-b4a9-b47e3659ab93.pdf",
+            "news_date": "2025-12-12 19:34:42"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 57 Of SEBI (LODR) Regulations 2015- Confirmation Of Payment Of Principal And Interest On Debt Securities (ISIN-INE562A08057) On Call Option Exercise Date",
+            "news_body": "Confirmation of payment of Principal and interest on Debt Securities (ISIN-INE562A08057) on Call Option Exercise Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7609d895-86af-4b8a-b700-64f9c3e27d70.pdf",
+            "news_date": "2025-12-08 19:03:07"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Extraordinary General Meeting Of Shareholders Of The Bank Scheduled To Be Held On 09Th January 2026 Through Video Conferencing (VC) / Other Audio-Visual Means (OAVM)",
+            "news_body": "Extraordinary General Meeting of Shareholders of the Bank scheduled to be held on 09th January 2026 through Video Conferencing (VC)/Other Audio-Visual Means (OAVM)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06e6f8f8-4fde-4757-96ab-de3fb40bb912.pdf",
+            "news_date": "2025-12-05 19:34:12"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in Repo Benchmark Rate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=945727e4-b946-4518-98bb-f38d5aa5aa47.pdf",
+            "news_date": "2025-12-05 18:58:40"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in Benchmark Rates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2455e01-0413-4069-aeae-251efc87d76e.pdf",
+            "news_date": "2025-12-01 20:17:10"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e74ecfa-91d7-4e2f-bd5f-c3e65e1c66da.pdf",
+            "news_date": "2025-11-28 19:37:38"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Ms. Mini T M as Executive Director on the Board of the Bank.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f3a2c5e-2721-4e43-aecd-af2d7a761a4c.pdf",
+            "news_date": "2025-11-24 21:33:56"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Statutory Auditor/s",
+            "caption": "Announcement under Regulation 30 (LODR)-Appointment of Statutory Auditor/s",
+            "news_body": "Appointment /Re-appointment /change in the team of Statutory Central Auditors (SCAs)of the Bank for FY 25-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd614ded-0938-4a1a-a4fe-d05735d0d6dc.pdf",
+            "news_date": "2025-11-15 20:13:16"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Investors / Analysts interaction / meet - Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd50ee7a-79b5-494b-9520-92b4017ecdf8.pdf",
+            "news_date": "2025-11-11 17:50:21"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Investors / Analysts interaction / meet - Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=426e1c90-6db3-454e-bf56-effe696a3940.pdf",
+            "news_date": "2025-11-10 19:57:42"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates On Exercise Of Call Option On Banks Outstanding AT 1 Bonds On First Call Option Due Date: Receipt Of Requisite Prior Approval Of RBI",
+            "news_body": "Updates on Exercise of Call Option on Banks Outstanding AT 1 Bonds Series II (ISIN-INE562A08057) of Rs.1048 crore Series III (ISIN-INE562A08065) of Rs.560 crore and Series IV (ISIN-INE562A08073) of Rs.392 crore on first Call Option due date: Receipt of requisite prior approval of RBI",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56abd7cf-8af7-4cb9-86cf-0e533de18afa.pdf",
+            "news_date": "2025-11-10 18:56:26"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Notice Regarding Redemption Of BankS Outstanding Tier 2 Bonds Series II (ISIN-INE428A08044) On Maturity And Intimation Of Record Date",
+            "news_body": "Notice regarding redemption of Banks outstanding Tier 2 Bonds Series II (ISIN- INE428A08044) on maturity and intimation of Record Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da9c9392-2a24-41cd-8005-6e5cad0a80de.pdf",
+            "news_date": "2025-11-01 18:59:32"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Record Date Updates",
+            "news_body": "Notice regarding Exercise of Call Option on Banks AT1 Bonds Series II (ISIN-INE562A08057) of Rs.1048 crore Series III (ISIN- INE562A08065) of Rs.560 crore and Series IV (ISIN-INE562A08073) of Rs.392 crore on first Call Option due date and intimation of Record Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74fd26a0-a26c-4f40-86ca-16a52b7dee71.pdf",
+            "news_date": "2025-11-01 18:41:22"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates Regarding Migration Of BankS E-Mail And Website Domain",
+            "news_body": "Updates regarding migration of Banks e-mail and Website domain",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33af3f37-7f3b-44ed-bf0e-474eb86babcc.pdf",
+            "news_date": "2025-10-31 18:57:06"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in Benchmark Rates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac7f8ee7-6b65-45fe-940f-d9e6d9b860dd.pdf",
+            "news_date": "2025-10-31 16:27:03"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Post Earnings Concall / Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab117e96-f227-44e9-8e97-1161add1b4a8.pdf",
+            "news_date": "2025-10-27 20:31:28"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 57 Of SEBI (LODR) Regulations 2015 - Confirmation Of Payment Of Interest On Debt Securities Long Term Infrastructure Bonds Series II (ISIN - INE562A08107) On Due Date",
+            "news_body": "Confirmation of payment of Interest on Debt Securities Long Term Infrastructure Bonds Series II (ISIN- INE562A08107) on due date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec342569-2314-41ff-b094-3e96812cc8b0.pdf",
+            "news_date": "2025-10-27 19:27:24"
         },
         {
             "sym": "INDIANB",
@@ -98,6 +593,28 @@
             "seg": "E"
         },
         {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Update on Post Earnings Concall / Meet with Investors / Analysts: Audio / Video Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00b0b317-8fb0-4fc1-a0a7-79d04f5eaec1.pdf",
+            "news_date": "2025-10-16 20:41:25"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on Unaudited (Reviewed) Financial Results of the Bank for the Second Quarter and Half Year of FY 2025-26 ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01df4b8b-de65-4e33-9f0e-bc3c81e7a2bd.pdf",
+            "news_date": "2025-10-16 14:41:04"
+        },
+        {
             "sym": "INDIANB",
             "disp": "Indian Bank",
             "bse_code": 532814,
@@ -120,6 +637,17 @@
             "sid": 14309,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation on Unaudited (Reviewed) Financial Result of the Bank for the Second Quarter and Half Year of FY 2025-26 ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25b63795-395b-4409-9b06-efb3522f50b7.pdf",
+            "news_date": "2025-10-16 13:57:19"
         },
         {
             "sym": "INDIANB",
@@ -146,6 +674,215 @@
             "seg": "E"
         },
         {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited (Reviewed) Standalone And Consolidated Financial Results Of The Bank For Quarter And Half Year Ended September 30 2025",
+            "news_body": "Unaudited (Reviewed) Standalone and Consolidated Financial Results of the Bank for Quarter and Half Year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e431a8b9-ac2d-4bd2-b606-bb05ce335f85.pdf",
+            "news_date": "2025-10-16 13:09:31"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Post Earnings Call / Conference Call with Investors / Analysts: Unaudited (Reviewed) Financial Results (Standalone & Consolidated) of the Bank for the Second Quarter and Half Year of FY 2025-26 ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1642ad16-c960-460f-b821-42c236320d16.pdf",
+            "news_date": "2025-10-13 18:10:37"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Statement Of Debt Securities For The Half Year Period Of FY 2025-26 Ended On September 30 2025",
+            "news_body": "Statement of Debt Securities for the Half Year period of FY 2025-26 ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0d2f4cd-25ac-4cd2-a572-ad0d6709795f.pdf",
+            "news_date": "2025-10-13 13:17:11"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Confirmation Certificate from RTA under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f1a9fcb-c3e6-45e8-9ef8-5151240d33fe.pdf",
+            "news_date": "2025-10-13 13:00:06"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Financial Result Of The Bank For The Second Quarter And HY Period Of FY 2025-26 Ended On September 30 2025",
+            "news_body": "Indian Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/10/2025 inter alia to consider and approve Financial Result of the Bank for the second Quarter and HY period of FY 2025-26 ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6af89da9-db59-41a5-bc7c-0a2b8ec95f68.pdf",
+            "news_date": "2025-10-10 20:52:11"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures Of The Bank",
+            "news_body": "Provisional Business Figures of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ffeaffa-42df-4c62-9d36-2578e93655db.pdf",
+            "news_date": "2025-10-01 20:11:46"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In The Team Of Statutory Central Auditors (Scas) Of The Bank",
+            "news_body": "Change in the team of Statutory Central Auditors (SCAs) of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=524ecc51-497f-42db-aaa2-03939931c233.pdf",
+            "news_date": "2025-10-01 19:10:32"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in Benchmark Rates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c35c954-e828-47bc-844f-b9284709ed74.pdf",
+            "news_date": "2025-09-30 19:04:01"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Investors / Analysts interaction / meet - Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=323f6f01-213e-4ff1-b1c0-16b1aa862159.pdf",
+            "news_date": "2025-09-24 19:31:29"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3472bc1b-458c-4ef2-a8fc-eb0b93652ece.pdf",
+            "news_date": "2025-09-23 20:21:29"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Investors / Analysts interaction / meet - Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=971e5c8d-20ff-47aa-8638-c56c1a63cc7f.pdf",
+            "news_date": "2025-09-19 20:39:55"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 57 Of SEBI (LODR) Regulations 2015 - Confirmation Of Payment Of Interest On Debt Securities Long Term Infrastructure Bonds Series I (ISIN - INE562A08099) On Due Date.",
+            "news_body": "Disclosure under Regulation 57 of SEBI (LODR) Regulations 2015 - Confirmation of payment of Interest on Debt Securities Long Term Infrastructure Bonds Series I (ISIN -INE562A08099) on due date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85bceb36-463a-42d8-b5d9-b5aca609101a.pdf",
+            "news_date": "2025-09-15 19:30:01"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in Benchmark Rates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfed66ed-f5a3-4236-a225-f4376930037c.pdf",
+            "news_date": "2025-09-02 20:39:47"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication regarding opening of Special Window for re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b0a0e1d-281a-4b46-86ed-19e6eba3df4f.pdf",
+            "news_date": "2025-08-20 19:11:06"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Upgradation of Issuer Credit Rating of our Bank by S&P Global Ratings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33e75049-bd41-4c98-82a3-69e021c7a609.pdf",
+            "news_date": "2025-08-14 21:43:03"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015- Investors/ Analysts interaction/ meet- Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb5983e8-9759-4932-bb77-85c733aba7a1.pdf",
+            "news_date": "2025-08-13 18:58:53"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Record Date For Payment Of Yearly Interest On BankS Outstanding Long Term Infrastructure Bonds (LTB)",
+            "news_body": "Record Date for payment of yearly interest on Banks outstanding Long Term Infrastructure Bonds Series I ( ISIN-INE562A08099) and Series II (ISIN-INE562A08107)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62922327-2879-421e-bd6b-43f9779be6ce.pdf",
+            "news_date": "2025-08-01 17:52:10"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Post Earnings Concall / Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a381860-4226-4e3f-aa27-c1431860666f.pdf",
+            "news_date": "2025-07-31 19:42:57"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in benchmark Rates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94fd9de3-185f-4a81-8142-2bc706344795.pdf",
+            "news_date": "2025-07-31 16:51:07"
+        },
+        {
             "sym": "INDIANB",
             "disp": "Indian Bank",
             "bse_code": 532814,
@@ -168,6 +905,17 @@
             "sid": 14309,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Update on Post Earnings Concall / Meet with Investors / Analysts: Audio / Video Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=452117ef-b4fc-4262-9b6b-5570acb46eb9.pdf",
+            "news_date": "2025-07-24 20:46:25"
         },
         {
             "sym": "INDIANB",
@@ -194,6 +942,28 @@
             "seg": "E"
         },
         {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation on Unaudited (Reviewed) Financial Results of the Bank for the First Quarter of FY 2025-26 ended on June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e931012-e78d-41c3-8277-fd11420a5955.pdf",
+            "news_date": "2025-07-24 14:19:40"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Unaudited (Reviewed) Financial Result of the Bank for the First Quarter of FY 2025-26 ended on June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83c5ad00-58f7-4985-8b9d-ba505360abcf.pdf",
+            "news_date": "2025-07-24 14:11:52"
+        },
+        {
             "sym": "INDIANB",
             "disp": "Indian Bank",
             "bse_code": 532814,
@@ -216,6 +986,281 @@
             "sid": 14309,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting- Approval Of Unaudited (Reviewed)\r\nStandalone And Consolidated Financial Results Of The Bank For The First Quarter Of FY 2025- 26 Ended On June 30. 2025",
+            "news_body": "Approval of Unaudited (Reviewed) Standalone and Consolidated Financial Result of the Bank for First Quarter of FY 2025-26 ended on June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22a288e1-8276-42f6-a6fd-8bb418da925c.pdf",
+            "news_date": "2025-07-24 13:26:29"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Post Earnings Call / Conference Call with Investors / Analysts: Unaudited (Reviewed) Financial Results (Standalone & Consolidated) of the Bank for the First Quarter of FY 2025-26 ended on June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2a62c13-c551-4ad0-ada1-a67d9befefda.pdf",
+            "news_date": "2025-07-18 20:31:25"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval For Financial Result Of The Bank For The First Quarter Of FY 2025-26 Ended On 30Th June 2025",
+            "news_body": "Indian Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/07/2025 inter alia to consider and approve Financial Result of the Bank for the First Quarter of FY 2025-26 ended on 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=920c1943-dee1-4541-b098-5e5943858697.pdf",
+            "news_date": "2025-07-15 20:07:56"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Copy Of Minutes Of Annual General Meeting Of The Bank Held On 17 June 2025",
+            "news_body": "Copy of Minutes of Annual General Meeting of the Bank held on 17 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f0c5ba9-2ec1-4847-b178-a908399b76ae.pdf",
+            "news_date": "2025-07-15 18:59:33"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Confirmation Certificate from RTA under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=504829bf-c916-4d5e-9555-a449286073b2.pdf",
+            "news_date": "2025-07-08 19:37:03"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures Of The Bank",
+            "news_body": "Provisional Business Figures of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb9ade9a-48c4-4d98-8fcf-c69652f61186.pdf",
+            "news_date": "2025-07-02 19:36:41"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Updates regarding revision in Benchmark Rates and complete waiver of minimum balance charges levied in SB Account",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97c0908d-6e4c-4933-aa39-0c2f08484cff.pdf",
+            "news_date": "2025-07-02 17:36:23"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Retirement",
+            "caption": "Announcement under Regulation 30 (LODR)-Retirement",
+            "news_body": "Retirement of Shri Mahesh Kumar Bajaj Executive Director of the Bank from Banks services on superannuation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5832af9-eeec-478e-8c43-d6cf5ef9a815.pdf",
+            "news_date": "2025-07-01 12:26:40"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Certificate Of Compliance With Cybersecurity And Cyber Resilience Framework (CSCRF) For SEBI Regulated Entities (Res)",
+            "news_body": "Certificate of Compliance with Cybersecurity and Cyber Resilience Framework (CSCRF) for SEBI Regulated Entities (REs)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb9badc2-78d6-43cf-a8a7-11b03d3af86b.pdf",
+            "news_date": "2025-06-30 20:48:12"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56e52b81-df99-4bd7-9551-801c7c1a75a3.pdf",
+            "news_date": "2025-06-24 18:52:28"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment/ Cessation Of Secretarial Auditor Of The Bank",
+            "news_body": "Appointment/ Cessation of Secretarial Auditor of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ef586bb-1020-4e2a-849c-cf5f0935d1a8.pdf",
+            "news_date": "2025-06-17 21:26:50"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of M/S Shanmugam Rajendran & Associates LLP Company Secretaries As Secretarial Auditor Of The Bank For The Financial Year 2025-26 To FY 2029-30",
+            "news_body": "Appointment of M/s Shanmugam Rajendran & Associates LLP Company Secretaries as Secretarial Auditor of the Bank for the Financial Year 2025-26 to FY 2029-30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8806cc27-dd29-4110-b487-64860e0c35cd.pdf",
+            "news_date": "2025-06-17 20:50:28"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Outcome of 19th Annual General Meeting of the Bank: Proceedings of the meeting and Scrutinizers Report regarding results of remote e-voting and e-voting during the AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ceacc1a9-e6dc-4f39-90f1-6bdeee83adfc.pdf",
+            "news_date": "2025-06-17 20:30:34"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Outcome of 19th Annual General Meeting of the Bank: Proceedings of the meeting and Scrutinizers Report regarding results of remote e-voting and e-voting during AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44dce304-75a4-4b7b-b5fc-f3c00d42982f.pdf",
+            "news_date": "2025-06-17 20:24:59"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in Repo Benchmark Rate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28d8ebab-58b0-4c50-9a43-64ef9cf948ca.pdf",
+            "news_date": "2025-06-06 20:13:35"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Senior Managment of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4454f68d-f409-4b14-97cc-d264cd91611a.pdf",
+            "news_date": "2025-05-31 18:48:22"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Revision in Benchmark Rates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9c3e1b0-7f6d-4742-8b79-8d4953b9db54.pdf",
+            "news_date": "2025-05-31 18:36:09"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the Financial Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc506cc5-eb3a-4574-878b-b363011eb220.pdf",
+            "news_date": "2025-05-29 15:22:27"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report of the Bank for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=272902fa-f89c-423e-9a2c-d7d3d3f7f899.pdf",
+            "news_date": "2025-05-25 15:46:38"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Copy of Annual Report of the Bank for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4632e06-7952-4477-bd2e-91fc69152648.pdf",
+            "news_date": "2025-05-25 15:33:26"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Copy Of Notice Of 19Th Annual General Meeting (AGM) Of The Bank Scheduled To Be Held On Tuesday The 17Th June 2025",
+            "news_body": "Copy of Notice of 19th Annual General Meeting (AGM) of the Bank scheduled to be held on Tuesday the 17th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40805ce4-5956-45b5-8fe5-76de73afc639.pdf",
+            "news_date": "2025-05-24 23:23:57"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015- Investors/ Analysts interaction/ meet- Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=970776ec-9ef9-4a0c-a8b6-f8b44dea3412.pdf",
+            "news_date": "2025-05-22 19:06:48"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (LODR) Regulations 2015: Imposition Of Monetary Penalty On The Bank By Reserve Bank Of India On BankS Currency Chest- Guwahati",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015: Imposition of monetary penalty on the Bank by Reserve Bank of India on Banks Currency Chest- Guwahati",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ce7c189-b75a-4d56-a4e8-a532798e4d80.pdf",
+            "news_date": "2025-05-14 18:19:24"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Senior Management of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e81029d9-7698-4ee5-98fb-ff24f8d5ccc1.pdf",
+            "news_date": "2025-05-12 20:46:53"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Post Earnings Concall / Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dba334f2-b9e5-4dcc-9ccc-0684c5b9c357.pdf",
+            "news_date": "2025-05-09 18:15:49"
         },
         {
             "sym": "INDIANB",
@@ -242,6 +1287,50 @@
             "seg": "E"
         },
         {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Update on Post Earnings Concall / Meet with Investors / Analysts: Audio / Video Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0ce98d0-02a4-4576-b2d5-1567ba4b99c1.pdf",
+            "news_date": "2025-05-03 23:46:53"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting Scheduled To Be Held On 17Th June 2025",
+            "news_body": "Annual General Meeting scheduled to be held on 17th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54d8c960-7988-47fe-91fc-d83655b4bdb6.pdf",
+            "news_date": "2025-05-03 16:18:45"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Payment Of Dividend And AGM",
+            "news_body": "Record Date for payment of Dividend and AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38b50bf6-3693-4f5e-ade1-da32d55caf37.pdf",
+            "news_date": "2025-05-03 16:15:03"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Annual General Meeting Record Date and Book Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6c5e161-6deb-4edc-b0ab-1d95fcc76231.pdf",
+            "news_date": "2025-05-03 16:11:28"
+        },
+        {
             "sym": "INDIANB",
             "disp": "Indian Bank",
             "bse_code": 532814,
@@ -264,6 +1353,17 @@
             "sid": 14309,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6061,
+            "bse_code": 532814,
+            "isin": "INE562A01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation on Audited Financial Results of the Bank for the fourth quarter and financial year ended on March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d7cefa6-7674-4a90-b6ef-6971a92c150c.pdf",
+            "news_date": "2025-05-03 16:04:05"
         },
         {
             "sym": "INDIANB",
@@ -1513,6 +2613,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

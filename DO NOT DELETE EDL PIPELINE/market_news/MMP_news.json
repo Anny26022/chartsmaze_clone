@@ -1,0 +1,27 @@
+{
+    "Symbol": "MMP",
+    "ISIN": "INE511Y01018",
+    "News": [
+        {
+            "Title": "MMP Industries Reports 30% Jump in Net Profit to 60M Rupees",
+            "Summary": "MMP Industries reported net profit of 60 million rupees compared to 46 million rupees in the same quarter last year, representing a 30% increase. The company's revenue grew to 1.9 billion rupees from 1.45 billion rupees year-over-year, marking a 31% rise in quarterly revenue.",
+            "Sentiment": "positive",
+            "PublishDate": 1762503336135,
+            "Source": "earnings"
+        },
+        {
+            "Title": "MMP Industries Reports Q1 Net Loss of 70M Rupees Despite Revenue Growth",
+            "Summary": "MMP Industries reported a net loss of 70 million rupees in Q1, compared to a profit of 99 million rupees in the same period last year. The company's revenue increased to 1.8 billion rupees from 1.55 billion rupees year-over-year, showing growth in the top line despite the bottom line turning negative.",
+            "Sentiment": "negative",
+            "PublishDate": 1754643781809,
+            "Source": "earnings"
+        },
+        {
+            "Title": "MMP Industries Reports Fire Damage of 150-200 Million Rupees",
+            "Summary": "MMP Industries has announced that a fire incident on April 11 has resulted in a loss of inventory and damage to plant and machinery. The company estimates the total loss to be between 150 to 200 million rupees.",
+            "Sentiment": "negative",
+            "PublishDate": 1744723143000,
+            "Source": "default"
+        }
+    ]
+}

@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c431ef5e-6b27-4606-87f7-63d9abe98528.pdf",
+            "news_date": "2026-02-11 13:33:25"
+        },
+        {
             "sym": "ESTER",
             "disp": "Ester Industries",
             "bse_code": 500136,
@@ -24,6 +35,39 @@
             "sid": 24265,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording Of Earnings Call For Investors And Analysts",
+            "news_body": "Link of Audio Recording of Earning Call for Investors and Analysts held on 9th February 2026 to discuss the financial performance of the Company for the quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91af9fc3-2224-423b-8802-a26e8c94a65f.pdf",
+            "news_date": "2026-02-09 19:48:19"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4de8f2ac-3adb-47e6-bec2-10fba3a797a9.pdf",
+            "news_date": "2026-02-09 16:44:32"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Advertisement with respect to Unaudited Financial results for the Quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a7ae3bb-ce7f-4923-8b9f-9b1be1c8e70a.pdf",
+            "news_date": "2026-02-07 18:41:36"
         },
         {
             "sym": "ESTER",
@@ -50,6 +94,50 @@
             "seg": "E"
         },
         {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Ester Industries Limited has informed the Exchange about Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec882456-b1da-4bcf-81b5-e65be5ba39e6.pdf",
+            "news_date": "2026-02-07 16:36:35"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on Unaudited Financial Results for the Quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a6bc90d-0cf4-4a14-8e37-2217768c252a.pdf",
+            "news_date": "2026-02-07 16:29:36"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Re-appointment of Mr. Arvind Singhania as Managing Director (designated as Executive Chairman & CEO) and Mr. Pradeep Kumar Rustagi as Whole-time Director (designated as Executive Director-Corporate Affairs) of the Company for another period of 3 years w.e.f.  1st April 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0239095f-f75e-4874-bfd9-05cd3976a51d.pdf",
+            "news_date": "2026-02-06 14:08:53"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 6Th February 2026",
+            "news_body": "Outcome of Board Meeting held on 6th February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3858a82-11ae-4859-8b93-a065610ba79c.pdf",
+            "news_date": "2026-02-06 12:24:07"
+        },
+        {
             "sym": "ESTER",
             "disp": "Ester Industries",
             "bse_code": 500136,
@@ -72,6 +160,116 @@
             "sid": 24265,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On 6Th February 2026",
+            "news_body": "Outcome of the Board Meeting held on 6th February 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6128bf66-1ebd-41c5-8fc0-2576d6bf807a.pdf",
+            "news_date": "2026-02-06 12:21:48"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor meet to discuss the financial position of the Company for the quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e27713e8-91c7-4efa-90a7-928b705613d7.pdf",
+            "news_date": "2026-02-02 11:37:10"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation To Consider And Approve The Unaudited Financial Results (Standalone And Consolidated) For The Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "Ester Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/02/2026 inter alia to consider and approve Board Meeting Intimation to consider and approve the Unaudited Financial Results (Standalone and Consolidated) for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=018044d8-c6d6-48f5-aa98-1026762cc903.pdf",
+            "news_date": "2026-02-02 11:22:11"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Stock Options Under Ester Industries Limited Employees Stock Option Plan 2024",
+            "news_body": "Pursuant to Regulation 30 read with Schedule III of SEBI LODR the Nomination and Remuneration Committee of the Board of Director of Ester Industries Limited through resolution passed by circulation on 08th January 2026 has approved grant of 19188 stock option to Mr. Kunal Tank Chief Marketing Officer - Specialty Polyesters/Polymers of the Company under ESOP 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53e3d5d4-ba64-414c-937f-a6a61c306385.pdf",
+            "news_date": "2026-01-08 14:29:42"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39be5502-f960-49f4-a7c9-e2a8a9c45811.pdf",
+            "news_date": "2026-01-06 11:02:44"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the quarter and nine months period ending on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a407c2f-036b-41db-8f1a-b8e67a561392.pdf",
+            "news_date": "2025-12-29 15:59:38"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release Titled: ELITe Ester Industries India Joint Venture with Loop Industries Awards Detailed Engineering Contract to Toyo for Infinite Loop India",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be6dd0c9-3656-44e2-a1c6-c993498ae05f.pdf",
+            "news_date": "2025-12-17 13:00:43"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Ester Industries Limited (Company) has scheduled a plant visit for group of Investors on Friday 19th December 2025 at the Hyderabad Plant of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4eea432c-42a9-47b6-96d2-d76ddf717f96.pdf",
+            "news_date": "2025-12-15 18:12:50"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68d6179c-4a54-4cae-bf06-bc1c68b397a5.pdf",
+            "news_date": "2025-12-11 15:32:29"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Re-lodgement of transfer requests of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ff44fb8-0f39-4752-8e13-f21fdb7ce6eb.pdf",
+            "news_date": "2025-12-09 18:00:17"
         },
         {
             "sym": "ESTER",
@@ -98,6 +296,39 @@
             "seg": "E"
         },
         {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earning Call Transcript of Investor Call held on 17th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=923e7551-a5a5-4f38-a000-35d27e6f8a5a.pdf",
+            "news_date": "2025-11-21 14:10:42"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for MOVI Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B77AAFE8_738D_42F2_BAB4_E38CCB6473F4_104600.pdf",
+            "news_date": "2025-11-21 10:46:06"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Arvind Singhania & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C7B50F7B_3744_4D96_B9AC_88999438A116_153122.pdf",
+            "news_date": "2025-11-20 15:31:30"
+        },
+        {
             "sym": "ESTER",
             "disp": "Ester Industries",
             "bse_code": 500136,
@@ -120,6 +351,28 @@
             "sid": 24265,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording Of Earnings Call For Investors And Analysts",
+            "news_body": "Link of Audio Recording of Earnings Call for Investors and Analysts held on 17th November 2025 to discuss the financial performance of the Company for the quarter and half year ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d47941b-9d82-480f-b015-dd6ec871246c.pdf",
+            "news_date": "2025-11-17 16:58:13"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Unaudited Financial Results for the Quarter and Half-Year Ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1cfaa3b0-780a-4067-9c95-bb914d8ce9fb.pdf",
+            "news_date": "2025-11-16 09:51:47"
         },
         {
             "sym": "ESTER",
@@ -146,6 +399,39 @@
             "seg": "E"
         },
         {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Ester Industries Limited has informed the Exchange about Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a85a2e6-4ec8-4af7-bc7f-537f5fa40d52.pdf",
+            "news_date": "2025-11-15 16:34:44"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Advertisement with respect to Unaudited Financial Results for the Quarter and Half Year ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a41d9058-840c-48ed-8436-503f3407f983.pdf",
+            "news_date": "2025-11-15 13:20:39"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4477f66d-1df0-4663-be27-0c95bbf1edeb.pdf",
+            "news_date": "2025-11-14 17:35:45"
+        },
+        {
             "sym": "ESTER",
             "disp": "Ester Industries",
             "bse_code": 500136,
@@ -168,6 +454,314 @@
             "sid": 24265,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On 14Th November 2025",
+            "news_body": "Outcome of the Board meeting held on 14th November 2025 to consider and approve the Un-audited financial results for the quarter and half year ended on 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a15ace19-49ab-43c9-9ca5-11cefb9ec0a2.pdf",
+            "news_date": "2025-11-14 17:25:39"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor meet to discuss the financial position of the Company for the quarter and half year ended on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe5d8bc9-868c-4acd-a65f-5ba5f6bf6220.pdf",
+            "news_date": "2025-11-11 16:32:35"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Un-Audited Financial Results For The Quarter And Half Year Ended On 30Th September 2025.",
+            "news_body": "Ester Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/11/2025 inter alia to consider and approve Un-Audited Financial Results for the Quarter and Half Year ended on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f258533-9722-435e-9b09-ee365bf9c64b.pdf",
+            "news_date": "2025-11-11 11:15:58"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release Titled - Ester Industries Ltd. Through its JV With Loop Industries To Supply Sustainable Material to Nike under a multi year off-Take Agreement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ae94ac0-facc-4c11-be25-b3f97fcd5b84.pdf",
+            "news_date": "2025-11-10 18:57:46"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1855351f-d85e-4e28-ae3f-6bb590e8d852.pdf",
+            "news_date": "2025-11-06 17:50:42"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Re-lodgement of transfer requests of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f19590b1-cff9-48bb-9c4a-550ab67e6389.pdf",
+            "news_date": "2025-10-10 14:19:30"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca0bed28-7cd8-4ea8-8d67-ad565f30589e.pdf",
+            "news_date": "2025-10-08 14:40:31"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume Of Shares Of The Company",
+            "news_body": "Clarification on Increase in Volume of Shares of the Company across Exchanges in the recent past.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0861b0cc-169c-4e04-8b02-6e68624c14a2.pdf",
+            "news_date": "2025-10-08 13:00:50"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Ester Industries Ltd",
+            "news_body": "The Exchange has sought clarification from Ester Industries Ltd on October 08 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-10-08 12:45:07"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "E-Voting Results and Scrutinizers Report for the 39th Annual General Meeting held on 26th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d33bd03-f6b5-4bd5-97d6-e36353cac537.pdf",
+            "news_date": "2025-09-26 18:36:02"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 39th Annual General Meeting of Ester Industries Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcef9745-c358-4a30-8e3c-efadcbd3f962.pdf",
+            "news_date": "2025-09-26 18:31:25"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the quarter and half-year ending on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06c1a173-e5dd-48ba-94ba-97ad842f1968.pdf",
+            "news_date": "2025-09-26 16:38:56"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled - Ester Loop Infinite Technologies Pvt. Ltd. (ELITe) Set to Supply Sustainable Materials to Global Markets Through Strategic Partnerships",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2314fa6-3a58-4c34-8f66-9b852c8ffad4.pdf",
+            "news_date": "2025-09-18 12:43:30"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Company will be participating in the upcoming Bharat Connect conference: Rising Stars Sept - 2025 organized by Arihant Capital on Monday 22nd September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eaf6e3d0-cac1-4aa1-a441-06d897ceb648.pdf",
+            "news_date": "2025-09-17 18:38:14"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30(LODR) - Proposed Incorporation Of Wholly Owned Subsidiary In United State Of America",
+            "news_body": "Proposed Incorporation of Wholly Owned Subsidiary of the Company in United State of America",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c0a5f4f-63bb-45fd-a31a-6bbecfe6e811.pdf",
+            "news_date": "2025-09-12 14:42:12"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018 for the month of August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d15fe01a-2166-46ae-94b5-f6041da5ead8.pdf",
+            "news_date": "2025-09-12 10:52:42"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 - Weblink Of Notice Of 39Th Annual General Meeting Along With Annual Report For The Financial Year 2024-25",
+            "news_body": "Weblink of Notice of 39th Annual General Meeting along with Annual Report for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb85f725-8dbe-4776-843c-01e159659c7c.pdf",
+            "news_date": "2025-09-05 13:17:15"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication on Notice of 39th Annual General Meeting and E-Voting Information",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b212030-6228-483a-89cf-439a4b9efb37.pdf",
+            "news_date": "2025-09-05 12:27:53"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4edc793-bc36-43f9-8f36-01543e2b559e.pdf",
+            "news_date": "2025-09-04 17:34:06"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "39th Annual Report of Ester Industries Limited for the Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1030adc1-f600-4527-844c-307fd656a1b4.pdf",
+            "news_date": "2025-09-04 17:31:09"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting On 26Th September 2025",
+            "news_body": "Notice of 39th Annual General Meeting of the Shareholders of Ester Industries Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6cf321b-4574-4350-a1d4-61105feb486a.pdf",
+            "news_date": "2025-09-04 17:26:49"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled Ester Industries Joint Venture ELITe acquires Strategic Land in Gujarat for Indias First Infinite Loop Manufacturing Facility.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58e28e48-4f4a-4c4d-81f4-365d376a8491.pdf",
+            "news_date": "2025-09-03 16:08:31"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Pursuant to Regulation 30 of the SEBI Listing Regulations we wish to inform that Mr. Alok Dhir (DIN: 00034335) has resigned as Non-Executive Independent Director of the Company with effect from close of business hours on 26th August 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86460e76-2750-4561-9846-cd52bc34584c.pdf",
+            "news_date": "2025-08-26 16:14:05"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=213cf3a4-88f4-4461-9d2d-4ee8fc3ab8c6.pdf",
+            "news_date": "2025-08-23 14:29:34"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper Publication of Notice to Members for 39th Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=643de4dd-08bc-4a87-b479-172b55e46948.pdf",
+            "news_date": "2025-08-22 13:08:53"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding 100 Days Campaign - Saksham Niveshak",
+            "news_body": "Intimation Regarding 100 Days Campaign - \"Saksham Niveshak\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71046f30-3760-4b61-bfe4-5aced2932af1.pdf",
+            "news_date": "2025-08-22 12:59:23"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the month of July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=420fe91f-037b-415e-b71d-4580339e660e.pdf",
+            "news_date": "2025-08-11 11:16:59"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended 30th June 205.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9761ffb7-bb43-40b3-afc4-65cfdcebca85.pdf",
+            "news_date": "2025-08-08 15:46:24"
         },
         {
             "sym": "ESTER",
@@ -194,6 +788,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call held on 1st August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c962afb-4a17-4cc5-a64c-b8e9700c55f6.pdf",
+            "news_date": "2025-08-05 15:17:20"
+        },
+        {
             "sym": "ESTER",
             "disp": "Ester Industries",
             "bse_code": 500136,
@@ -216,6 +821,39 @@
             "sid": 24265,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording Of Earnings Call For Investors And Analysts",
+            "news_body": "Link of Audio Recording of Earnings Call for Investors and Analysts held on 1st August 2025 to discuss the financial performance of the Company for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5aa5e621-87cf-4331-bfd4-8589a36d3079.pdf",
+            "news_date": "2025-08-01 18:06:17"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Unaudited Financial Results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1b5ed30-7dd5-4c0f-b890-b5ebe8d49ddb.pdf",
+            "news_date": "2025-08-01 12:30:24"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on the Un-audited Financial Results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7bd6a8dc-87bb-46bf-b14b-6077b5dc77c2.pdf",
+            "news_date": "2025-07-31 18:57:38"
         },
         {
             "sym": "ESTER",
@@ -242,6 +880,39 @@
             "seg": "E"
         },
         {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a063e99-375b-429e-aeb4-990e67895aeb.pdf",
+            "news_date": "2025-07-31 18:43:22"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Final Dividend For Financial Year 2024-25",
+            "news_body": "Record date for final dividend for Financial Year 2024-25 will be 19th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b58f180-7dc7-477b-9aeb-1d66153d82b1.pdf",
+            "news_date": "2025-07-30 20:27:23"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 30Th July 2025",
+            "news_body": "Outcome of Board Meeting held on 30th July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b29c571-93f8-4bef-a650-0bcebd3e5791.pdf",
+            "news_date": "2025-07-30 20:21:31"
+        },
+        {
             "sym": "ESTER",
             "disp": "Ester Industries",
             "bse_code": 500136,
@@ -264,6 +935,138 @@
             "sid": 24265,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On 30Th July 2025",
+            "news_body": "Outcome of the Board meeting held on 30th July 2025 to consider and approve the Unaudited financial results for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d8d33df-f779-444d-b395-2139737d46e5.pdf",
+            "news_date": "2025-07-30 20:13:40"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor meet to discuss the financial position of the Company for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3131667a-d926-4cf2-952f-a3482ecfe7cc.pdf",
+            "news_date": "2025-07-28 16:01:00"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Un-Audited Financial Results  For The Quarter Ended On 30Th June 2025.",
+            "news_body": "Ester Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/07/2025 inter alia to consider and approve Un-audited Financial Results for the quarter ended on 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cc405c4-665f-46a1-b6e4-1de2e7c12d87.pdf",
+            "news_date": "2025-07-25 11:07:21"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Ester Industries Limited has informed the Exchange about revision of Credit Rating.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ed79a45-196a-4592-ab7e-89526460bb0d.pdf",
+            "news_date": "2025-07-23 17:18:53"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "The Company has informed the Exchange regarding the Press Release dated 16th July 2025 having title: Ester Industries Unveil New Brand Identity to Mark 40 Years of Innovation and Sustainable Growth.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f22f782-2aa2-47c0-85de-bafa411ef891.pdf",
+            "news_date": "2025-07-16 19:10:24"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca5c142a-354a-47b5-b741-c37a197a2d9b.pdf",
+            "news_date": "2025-07-09 10:34:29"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report on remote e-voting of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5f3d49d-0aff-41c4-a3d5-88b31e2d9ba0.pdf",
+            "news_date": "2025-06-27 14:38:56"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Voting Results along with Scrutinizer Report of the Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ec18e27-1362-46c9-b60a-bc3c1e0bcee0.pdf",
+            "news_date": "2025-06-27 14:37:05"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading window for declaration of Un-Audited Financial Results for the quarter ending on 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b038160-ce9b-4597-a858-2bd5bfda25b5.pdf",
+            "news_date": "2025-06-25 12:22:37"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of plant visit for group of investors.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10902c9c-4cb0-47be-bf45-19265712ea3a.pdf",
+            "news_date": "2025-06-23 15:08:36"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulation 2018 for the month of May 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbcd2aef-c386-439b-ae65-276e06d34e53.pdf",
+            "news_date": "2025-06-10 11:58:51"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e786a6f-b19e-446d-a984-9452995ee1d0.pdf",
+            "news_date": "2025-05-30 20:30:15"
         },
         {
             "sym": "ESTER",
@@ -290,6 +1093,39 @@
             "seg": "E"
         },
         {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earning Call held on 23rd May 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9887ba1-1d33-42ac-9eec-ebd2d15348a6.pdf",
+            "news_date": "2025-05-29 15:03:08"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Advertisement regarding postal ballot notice of Ester Industries Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdb9dd25-598a-485b-bf10-91ab20b9a9d5.pdf",
+            "news_date": "2025-05-28 14:37:14"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Please find attached herewith a copy of Postal Ballot Notice dated 21st May 2025 along with Explanatory Statement thereto seeking consent of the Members of the Company on the items mentioned therein.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea3655e6-2203-4cce-ba0d-44b50552e79b.pdf",
+            "news_date": "2025-05-27 17:10:22"
+        },
+        {
             "sym": "ESTER",
             "disp": "Ester Industries",
             "bse_code": 500136,
@@ -312,6 +1148,39 @@
             "sid": 24265,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording Of Earnings Call For Investors And Analysts",
+            "news_body": "Please find attached the link of Audio Recording of Earnings Call for Investors and Analysts held on 23rd May 2025 to discuss the financial performance of the Company for the quarter and financial year ended on 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0327aa29-7598-4426-b3ed-dde95de353d5.pdf",
+            "news_date": "2025-05-23 18:04:12"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Audited Financial Results for the quarter and financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a68207a-c96a-4bdb-ac48-6933ee99bb5b.pdf",
+            "news_date": "2025-05-23 12:46:15"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on the financial results of the Company for the quarter and financial year ended on 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41c52343-8173-46a5-aed6-ecb50bef20f7.pdf",
+            "news_date": "2025-05-22 10:11:50"
         },
         {
             "sym": "ESTER",
@@ -338,6 +1207,193 @@
             "seg": "E"
         },
         {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the financial results of the Company for the quarter and financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46342cb3-700a-4b03-92f4-b4b1ac774361.pdf",
+            "news_date": "2025-05-22 10:06:29"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 21St May 2025",
+            "news_body": "Outcome of the Board Meeting held on 21st May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6956602-f6b5-471c-be4c-9da2efb73a6a.pdf",
+            "news_date": "2025-05-21 20:47:09"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor meet to discuss the financial position of the Company for the quarter and financial year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08feac84-c4f7-4bda-9fb6-221382cfbde2.pdf",
+            "news_date": "2025-05-20 15:56:04"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Audited Financial Results To Be Held On 21St May 2025",
+            "news_body": "Ester Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 21/05/2025 inter alia to consider and approve the Audited Financial Results for the quarter and financial year ended 31st March 2025 and recommendation of Final Dividend if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f63919e3-11ec-4b57-bed0-658a5ff840cc.pdf",
+            "news_date": "2025-05-16 16:12:04"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4807e63a-19c7-436e-851d-afee247e5bb8.pdf",
+            "news_date": "2025-05-14 17:28:30"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Details of Dematerialised Shares during the month of April 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57c79ec8-cf04-41a3-b60c-c27241f08fac.pdf",
+            "news_date": "2025-05-08 14:07:28"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Mr. Abhay Anant Gupte as an Additional Director in the capacity of Non-Executive Independent Director of the Company w.e.f. 6th May 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2099931-83db-49ae-be53-268da09079ac.pdf",
+            "news_date": "2025-05-06 15:23:11"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for MOVI Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1E725913_D719_4323_928A_1B88AF0962DC_155736.pdf",
+            "news_date": "2025-05-02 15:57:41"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Resignation of Mrs. Archana Singhania as Non-Executive Non-Independent Director of the Company w.e.f. 30th April 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e09d434-105b-47be-89b7-69d81fe0d462.pdf",
+            "news_date": "2025-04-30 13:52:26"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Ester Industries Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L24111UR1985PLC015063</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>300.31</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>A-</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CRISIL LTD.</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Poornima Gupta <br/>  Designation: Company Secretary and Compliance Officer <br/> EmailId: investor@ester.in</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Sourabh Agarwal <br/> Designation: Chief Financial Officer <br/> EmailId: investor@ester.in</div> </div> <div> <br/> Date: 30/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41313f8e-f6dd-45f8-993d-33b650440c38.pdf",
+            "news_date": "2025-04-30 13:33:08"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Equity shares pursuant to conversion of fully convertible warrants",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4838d7ad-a527-401b-995a-d08a2923eb10.pdf",
+            "news_date": "2025-04-30 12:40:20"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Details of Dematerialised shares during the month of March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=034ed62b-0a4f-4100-bc4b-40d2a721460a.pdf",
+            "news_date": "2025-04-09 11:36:07"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Completion of tenure of Independent Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5ce8e75-a4c6-4ee4-9c66-fa02cb28c1f4.pdf",
+            "news_date": "2025-03-31 15:46:15"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "In compliance with the SEBI (Prohibition of Insider Trading) Regulations 2015 the Trading Window for dealing in shares of the Company will be closed from 1st April 2025 till the end of 48 hours after declaration of the financial results for the quarter and year ending on 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=728c321f-df9f-4022-9c52-8bd96fb5d862.pdf",
+            "news_date": "2025-03-26 15:52:41"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Details of Dematerialised shares during the month of February 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e146e52c-2e29-4118-8b1c-b9eeeb1034d6.pdf",
+            "news_date": "2025-03-10 14:28:24"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Joint Venture With Loop Industries Inc.",
+            "news_body": "Ester Industries Limited has informed the Exchange about the update on Joint Venture with Loop Industries Inc.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60af3aa5-1a4a-4a34-8418-c4f2c972b79a.pdf",
+            "news_date": "2025-02-12 15:42:56"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Details of Dematerialised shares during the month of January 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fc94fb9-8c6d-4059-8200-d3c580c2a462.pdf",
+            "news_date": "2025-02-11 17:09:26"
+        },
+        {
             "sym": "ESTER",
             "disp": "Ester Industries",
             "bse_code": 500136,
@@ -362,6 +1418,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Earnings Call held on 7th February 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebf07eea-9a63-4cd9-85da-bbd84879bcd5.pdf",
+            "news_date": "2025-02-11 16:34:07"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Pursuant to Regulation 32(6) of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 read with Regulation 162A(4) of the SEBI (Issue of Capital and Disclosure Requirements) Regulations 2018 please find attached herewith the Report of Monitoring Agency for the quarter ended 31st December 2024 issued by CRISIL Ratings Limited for monitoring the utilisation of proceeds of the Preference Issue of fully convertible warrants.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=505a84e6-33b1-4cfa-b5f9-e5a906281e28.pdf",
+            "news_date": "2025-02-11 14:27:27"
+        },
+        {
             "sym": "ESTER",
             "disp": "Ester Industries",
             "bse_code": 500136,
@@ -384,6 +1462,28 @@
             "sid": 24265,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording Of Earnings Call For Investors And Analysts",
+            "news_body": "Pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find attached the link for Audio Recording of Earnings Call for Investors and Analysts held on 7th February 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e44eab8-f56d-4f9d-9edb-f8715c1e0c3f.pdf",
+            "news_date": "2025-02-07 17:45:43"
+        },
+        {
+            "co_code": 1058,
+            "bse_code": 500136,
+            "isin": "INE778B01029",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Regulation 47 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find attached herewith copies of the newspaper publication of extract of Unaudited Financial Results of the Company for the quarter and nine months ended on 31st December 2024 published on 7th February 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17a2da5d-1f06-43b6-8b12-eb4f647bfa5a.pdf",
+            "news_date": "2025-02-07 14:34:29"
         },
         {
             "sym": "ESTER",
@@ -1801,6 +2901,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

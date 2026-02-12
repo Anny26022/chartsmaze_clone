@@ -1,0 +1,27 @@
+{
+    "Symbol": "TIRUPATI",
+    "ISIN": "INE238Y01018",
+    "News": [
+        {
+            "Title": "Shree Tirupati Balajee Agro Trading Receives Manufacturing Facility Offer from Sohar Port, Oman",
+            "Summary": "Shree Tirupati Balajee Agro Trading Company Limited has received an offer from Sohar Port And Freezone in Oman to establish a manufacturing facility. The company aims to improve its exports to the US and Europe through this potential facility.",
+            "Sentiment": "positive",
+            "PublishDate": 1759991532311,
+            "Source": "stock"
+        },
+        {
+            "Title": "Shree Tirupati Balajee Agro Approves Changes for Captive Power Generation",
+            "Summary": "Shree Tirupati Balajee Agro has approved changes to its Memorandum and Articles of Association related to captive power generation. The company is making these modifications to enable its involvement in power generation activities.",
+            "Sentiment": "neutral",
+            "PublishDate": 1750938527000,
+            "Source": "default"
+        },
+        {
+            "Title": "Shree Tirupati Balajee Agro Trading Reports Q3 Financial Results",
+            "Summary": "Shree Tirupati Balajee Agro Trading Company has announced its Q3 consolidated financial results. The company's net profit increased to 81 million rupees, up from 48 million rupees in the same quarter last year. However, revenue decreased to 1.43 billion rupees from 1.57 billion rupees year-over-year.",
+            "Sentiment": "neutral",
+            "PublishDate": 1739540598000,
+            "Source": "earnings"
+        }
+    ]
+}

@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Earning Release for the quarter ended 31-12-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d04ac44c-7209-4641-97b8-fa5ae1289b2c.pdf",
+            "news_date": "2026-02-13 00:00:02"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results (Standalone & Consolidated) For The Quarter & Nine Months Ended 31St December 2025 Along With Limited Review Report Thereon",
+            "news_body": "Unaudited Financial Results (Standalone & Consolidated) for the quarter & nine months ended 31st December 2025 along with Limited Review Report thereon",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e5a6a4e-350f-453a-ba9c-a06d8d180628.pdf",
+            "news_date": "2026-02-12 19:53:11"
+        },
+        {
             "sym": "UFLEX",
             "disp": "UFLEX",
             "bse_code": 500148,
@@ -24,6 +46,83 @@
             "sid": 1053,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results (Standalone & Consolidated) For The Quarter & Nine Months Ended 31St December 2025 Along With Limited Review Report Thereon",
+            "news_body": "Unaudited Financial Results (Standalone & Consolidated) for the quarter & nine months ended 31st December 2025 along with Limited Review Report thereon",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3810ab15-6781-4c13-aa14-6a0c1c28a9df.pdf",
+            "news_date": "2026-02-12 19:50:05"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Conference Call under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5809229d-5d50-4274-902d-31476b7bb29e.pdf",
+            "news_date": "2026-02-11 18:12:22"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Cessation of Chief Financial Officer and Key Managerial Personnel of the Company on account of Superannuation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb7a2a02-f30a-408d-9ca2-5233eb753063.pdf",
+            "news_date": "2026-02-04 20:21:40"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results Of The Company For The Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "Uflex Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2026 inter alia to consider and approve the Unaudited Financial Results of the Company for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82d92b9b-40b6-4395-8a96-3966da6f20b4.pdf",
+            "news_date": "2026-02-03 12:32:17"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74 (5) of Securities and Exchange Board of India (Depositories and Participants) Regulations 2018 for the Quarter Ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38487d6a-41ff-4207-9ff0-2b166a211ad4.pdf",
+            "news_date": "2026-01-07 13:42:48"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Ecovadis Sustainability Rating For 2025",
+            "news_body": "Intimation of EcoVadis Sustainability Rating for 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d3e085d-8ba9-4232-8caa-777d45f87359.pdf",
+            "news_date": "2025-12-23 16:55:00"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2faa9fdc-95ca-49f4-87f2-f5a320a833c6.pdf",
+            "news_date": "2025-12-23 13:06:53"
         },
         {
             "sym": "UFLEX",
@@ -50,6 +149,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Updates on Schedule of Analyst/Institutional Investor meet under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b8a4cf2-665e-48a9-b33b-9a09a96daa12.pdf",
+            "news_date": "2025-12-08 21:26:28"
+        },
+        {
             "sym": "UFLEX",
             "disp": "UFLEX",
             "bse_code": 500148,
@@ -72,6 +182,61 @@
             "sid": 1053,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Updates on Schedule of Analyst/Institutional Investor meet under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84efd1fc-d264-4967-bbe5-88047e48edd5.pdf",
+            "news_date": "2025-12-08 21:25:11"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": " Intimation of Schedule of Analyst/Institutional Investor Meet under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce5daa8d-f6d4-4dfa-b43a-0d42b0f4856e.pdf",
+            "news_date": "2025-12-02 12:52:34"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation in respect of re-affirmation of Credit Ratings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b763357c-7676-4d84-b3f1-375491094648.pdf",
+            "news_date": "2025-11-28 13:18:22"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Read With Schedule III Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations)",
+            "news_body": "ESG Rating Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72dcba2b-c2a9-48e1-aab2-c1da875c14f7.pdf",
+            "news_date": "2025-11-21 13:03:49"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Transcript Of The Earnings Conference Call Conducted On November 14 2025",
+            "news_body": "Transcript of the earnings conference call conducted on November 14 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbe13639-e7d7-4207-a3bc-88a037d2a4d3.pdf",
+            "news_date": "2025-11-20 21:03:28"
         },
         {
             "sym": "UFLEX",
@@ -98,6 +263,39 @@
             "seg": "E"
         },
         {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Revised Earnings Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f2b0e22-5e9c-4e6a-80b9-c9ad3457c9d4.pdf",
+            "news_date": "2025-11-16 15:05:55"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Publication of Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b0faf70-4def-4a64-8bd0-5983a8d8f19c.pdf",
+            "news_date": "2025-11-15 16:17:23"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of earnings conference call conducted on November 14 2025\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41bf406d-883b-4a37-a833-33d6d6c138b8.pdf",
+            "news_date": "2025-11-14 18:20:27"
+        },
+        {
             "sym": "UFLEX",
             "disp": "UFLEX",
             "bse_code": 500148,
@@ -120,6 +318,39 @@
             "sid": 1053,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Updates on Earnings Conference Call under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89df3bdb-bb2b-4ca9-883d-04671f73a084.pdf",
+            "news_date": "2025-11-14 15:48:47"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Earnings Release For The Quarter Ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=338a54ec-96ff-4dc4-94ca-4f9c3e2adc9d.pdf",
+            "news_date": "2025-11-13 22:48:59"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Setting Up Of A New Packaging Films Manufacturing Line At Dharwad Karnataka",
+            "news_body": "Setting up of a new packaging films manufacturing line at Dharwad Karnataka",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddcd89dd-2bc3-45a6-ba7b-bef633a558c4.pdf",
+            "news_date": "2025-11-13 20:00:49"
         },
         {
             "sym": "UFLEX",
@@ -146,6 +377,94 @@
             "seg": "E"
         },
         {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results (Standalone & Consolidated) Of The Company For The Quarter And Half Year Ended 30Th September 2025 Along With Limited Review Report Thereon",
+            "news_body": "Unaudited Financial Results (Standalone & Consolidated) of the Company for the Quarter and Half Year ended 30th September 2025 along with Limited Review Report thereon",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71546a61-88a9-4c0f-ba89-3c32448da7b3.pdf",
+            "news_date": "2025-11-13 19:56:36"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f5332c1-833c-4e17-80f8-f7f4022ee285.pdf",
+            "news_date": "2025-11-13 19:53:26"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Conference Call under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5276e4d-b2ec-487a-ae24-963b2b5363f3.pdf",
+            "news_date": "2025-11-10 18:11:48"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results Of The Company For The Quarter And Six Months Ended 30Th September 2025",
+            "news_body": "Uflex Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2025 inter alia to consider and approve Unaudited Financial Results of the Company for the quarter and six months ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4869326-f514-4fbc-8330-df9c4c5f9581.pdf",
+            "news_date": "2025-11-04 18:20:56"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations  2015) - Resignation of Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68a1463a-0532-447b-955e-c63420ecb2da.pdf",
+            "news_date": "2025-10-18 14:40:23"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74 (5) of Securities and Exchange Board of India (Depositories and Participants) Regulations 2018 for the Quarter Ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ff5e123-6edc-4ffb-9702-36e80ea30972.pdf",
+            "news_date": "2025-10-08 17:55:59"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosures Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosures under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=432116f3-f74e-4f67-bd98-75ba65f62bb9.pdf",
+            "news_date": "2025-10-03 18:54:44"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa43788b-4891-4cc4-9613-9a2b4a7cdd64.pdf",
+            "news_date": "2025-09-25 16:43:09"
+        },
+        {
             "sym": "UFLEX",
             "disp": "UFLEX",
             "bse_code": 500148,
@@ -168,6 +487,94 @@
             "sid": 1053,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Updates on In-person Non-Deal Roadshow (NDR) of Investor Meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f834a0c-925b-4d3a-ac75-5026304c1f25.pdf",
+            "news_date": "2025-09-23 18:40:03"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meet under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eefc3065-b0c5-4a88-8698-45343a4f16e8.pdf",
+            "news_date": "2025-09-22 17:40:34"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of  participation in Arihant Bharat Connect Conference: Rising Stars - September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05236d11-2624-410a-ad99-0168118ced9d.pdf",
+            "news_date": "2025-09-18 17:53:16"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Disclosures under Regulation 30 (Part-A Para A) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Appointment of Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fc215d1-d9aa-4416-94ba-8a5b499b7e3f.pdf",
+            "news_date": "2025-09-01 17:15:08"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Mahesh Kumar Gupta Proprietor M/s. Mahesh Gupta & Co. Company Secretaries (FCS No.: 2870 C P No.: 1999) Peer Review No: 6470/2025) as the Secretarial Auditors of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f9beefa-dff8-4008-991d-641fbd827767.pdf",
+            "news_date": "2025-08-28 19:02:53"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "1. Re-appointment of  Mr. Sujit Kumar Varma (DIN: 09075212) as an Independent Director of the Company \r\n\r\n2. Re-appointment of  Mr. Ghyanendra Nath Bajpai (DIN: 00946138) as an Independent Director of the Company\r\n\r\n3. Re-appointment of  Mrs. Rashmi Verma (DIN: 01993918) as an Independent Director of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa32ce5d-4460-4125-b728-c3eeaca1497a.pdf",
+            "news_date": "2025-08-28 18:58:40"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Submission of Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea43079e-af1a-4e15-b236-9dbee6039d0b.pdf",
+            "news_date": "2025-08-28 18:28:17"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 36th Annual General Meeting (Meeting) held on 28th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c0fb078-bfe6-4a1f-a73e-1747e25adbfd.pdf",
+            "news_date": "2025-08-28 17:00:29"
         },
         {
             "sym": "UFLEX",
@@ -194,6 +601,39 @@
             "seg": "E"
         },
         {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the earnings conference call conducted on August 18 2025\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40fd2838-cbd5-4287-9f00-312a3c6162e1.pdf",
+            "news_date": "2025-08-22 20:34:03"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of participation in Centrum - Orion IV Virtual Investor Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcee6c23-2e0c-41b5-8372-ed9ad985b26d.pdf",
+            "news_date": "2025-08-18 18:57:41"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of earnings conference call conducted on August 18 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e949edf-5f36-4077-9bcb-590c86d4e31a.pdf",
+            "news_date": "2025-08-18 18:33:26"
+        },
+        {
             "sym": "UFLEX",
             "disp": "UFLEX",
             "bse_code": 500148,
@@ -216,6 +656,50 @@
             "sid": 1053,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Updates on Earnings Conference Call under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Earnings Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cf8c52a-9116-4ad7-9faf-8b091fdb5d59.pdf",
+            "news_date": "2025-08-18 15:14:31"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Publication of Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1bc0964-3786-438c-b79d-64ea1060578f.pdf",
+            "news_date": "2025-08-14 13:21:12"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Earnings Release for the Quarter Ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4886135e-87b2-4492-9a04-0221a779be82.pdf",
+            "news_date": "2025-08-13 21:06:32"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results (Standalone & Consolidated) For The Quarter Ended 30Th June 2025 Along With Limited Review Report Thereon",
+            "news_body": "Unaudited Financial Results (Standalone & Consolidated) for the quarter ended 30th June 2025 along with Limited Review Report thereon",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1dfe843-c622-4cde-a98e-5c86c621ea9e.pdf",
+            "news_date": "2025-08-13 21:00:19"
         },
         {
             "sym": "UFLEX",
@@ -242,6 +726,270 @@
             "seg": "E"
         },
         {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results (Standalone & Consolidated) For The Quarter Ended 30Th June 2025 Along With Limited Review Report Thereon",
+            "news_body": "Unaudited Financial Results (Standalone & Consolidated) for the quarter ended 30th June 2025 along with Limited Review Report thereon",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=358a9891-7ebd-4eda-8343-c2992c6014e9.pdf",
+            "news_date": "2025-08-13 20:54:07"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Conference Call under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c613322-ba6f-4d22-80f2-90c71ddae6a0.pdf",
+            "news_date": "2025-08-11 18:40:35"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results Of The Company For The Quarter Ended 30Th June 2025",
+            "news_body": "Uflex Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2025 inter alia to consider and approve the Unaudited Financial Results of the Company for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1fd357b-4564-4418-a493-c1843d112ab3.pdf",
+            "news_date": "2025-08-04 17:15:42"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Disclosure under Regulation 30 read with Schedule III Part A Para A of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations 2015)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2220b01-9aa0-469f-807f-3a971f87e290.pdf",
+            "news_date": "2025-08-02 09:30:54"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement(s) regarding Special Window for Re-lodgement of Physical Share Transfer Requests",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ad64c4a-10ef-46ab-9b51-a50b08f587ba.pdf",
+            "news_date": "2025-07-25 12:45:53"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Publication of Notice of the 36th Annual General Meeting to be held through Video Conferencing (\"VC\")/ other Audio-Visual Means (\"OAVM\")   and E-voting information",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c9a4b38-3a66-449d-9bda-144aa0ffee5b.pdf",
+            "news_date": "2025-07-17 10:57:55"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Revised Annual Report 2024-25 under Regulation 34 (1) of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcda8b35-9330-4b08-90a6-14d3a02a4cef.pdf",
+            "news_date": "2025-07-16 18:35:34"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility & Sustainability Report (BRSR) for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93579ca1-555e-455b-a1d2-66b6b1afa5a0.pdf",
+            "news_date": "2025-07-15 15:36:07"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Submission of Annual Report 2024-25 under Regulation 34 (1) of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7f40bce-102f-4f04-9ffe-db2e4fc48eab.pdf",
+            "news_date": "2025-07-15 15:17:57"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 36Th Annual General Meeting (AGM)",
+            "news_body": "Notice of the 36th Annual General Meeting (AGM)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=803cd14e-95eb-4815-b2f5-b49fc4af0fa7.pdf",
+            "news_date": "2025-07-15 14:58:46"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19712357-7723-4c62-9688-e33c73d89c11.pdf",
+            "news_date": "2025-07-10 13:03:24"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74 (5) of Securities and Exchange Board of India (Depositories and Participants) Regulations 2018 for the Quarter Ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd848722-1deb-4ce5-b3d8-1d4a603d7bff.pdf",
+            "news_date": "2025-07-09 14:15:24"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91e34288-3a12-42dc-a687-b5468aa7920a.pdf",
+            "news_date": "2025-06-24 15:59:52"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Updates on non-deal roadshow of Investor Meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65528fbd-6b93-4b5c-91da-637603d90278.pdf",
+            "news_date": "2025-06-17 20:50:38"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meet under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc3f3aac-052d-474d-8155-cec044f741df.pdf",
+            "news_date": "2025-06-13 17:36:46"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Transcript Of The Earnings Conference Call Conducted On 20Th May 2025",
+            "news_body": "Transcript of the earnings conference call conducted on 20th May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8db3bbb-f4ac-4303-9508-c4ad0f2dc00f.pdf",
+            "news_date": "2025-05-26 20:56:17"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of earnings conference call conducted on May 20 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76f83768-21ac-4b9c-a3bf-a858c2738943.pdf",
+            "news_date": "2025-05-20 18:21:05"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Updates on Earnings Conference Call under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=835b718d-0daf-403d-b63f-06339b730b45.pdf",
+            "news_date": "2025-05-20 15:20:53"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Earnings Release For The Quarter And Financial Year Ended 31St March 2025",
+            "news_body": "Earnings Release for the quarter and financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b139dc1-0133-4812-8c03-a6561fe27e35.pdf",
+            "news_date": "2025-05-19 21:08:19"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Submission of Annual Secretarial Compliance Report for the Year Ended 31st March 2025 under Regulation 24(A) of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c295b0e9-53a0-4a07-900b-4da32162f6ce.pdf",
+            "news_date": "2025-05-19 14:11:25"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Publication of Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f129ee6-3c8f-4f55-ae2b-f0087bb5bd5e.pdf",
+            "news_date": "2025-05-19 12:03:39"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "The Board has subject to the approval of the Shareholders of the Company approved the re-appointment of:\r\n\r\na) Mr. Sujit Kumar Varma (DIN: 09075212) as an Independent Director of the Company for the second term of five consecutive years commencing with effect from 14th February 2026 to 13th February 2031 (both days inclusive).\r\n \r\nb) Mr. Ghyanendra Nath Bajpai (DIN: 00946138) as an Independent Director of the Company for the second term of five consecutive years commencing with effect from 17th April 2026 to 16th April 2031 (both days inclusive).\r\n \r\nc) Mrs. Rashmi Verma (DIN: 01993918) as an Independent Woman Director of the Company for the second term of five consecutive years commencing with effect from 26th May 2026 to 25th May 2031 (both days inclusive\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=365a972e-a708-4154-9d58-f23a5fe306ec.pdf",
+            "news_date": "2025-05-17 22:09:55"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditors",
+            "news_body": "Appointment of Secretarial Auditors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=463f1da6-7072-47bd-89b6-0eb39ad8db18.pdf",
+            "news_date": "2025-05-17 22:06:53"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "The Board has Recommended a Dividend of Rs.3/- per equity share of Rs.10/- each (30%) for the financial year ended 31st March 2025 for the approval of shareholders at the ensuing Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3df2abf-efe0-4273-9909-33d391b28ff0.pdf",
+            "news_date": "2025-05-17 21:48:39"
+        },
+        {
             "sym": "UFLEX",
             "disp": "UFLEX",
             "bse_code": 500148,
@@ -264,6 +1012,127 @@
             "sid": 1053,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results (Standalone & Consolidated)\r\nAuditors Report On The Quarterly & Year To Date Financial Results\r\n",
+            "news_body": "Audited Financial Results (Standalone & Consolidated)\r\nAuditors Report on the Quarterly & Year to date Financial Results\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6953eed5-c085-446e-8e62-a76328427b39.pdf",
+            "news_date": "2025-05-17 21:40:15"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Audited Financial Results (Standalone & Consolidated)\r\nAuditors Report On The Quarterly & Year To Date Financial Results\r\n",
+            "news_body": "Audited Financial Results (Standalone & Consolidated)\r\nAuditors Report on the Quarterly & Year to date Financial Results\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfe0f64c-f80a-40ac-bd9e-15dae5c7ae3f.pdf",
+            "news_date": "2025-05-17 21:32:27"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Disclosure Under Regulation 30 Read With Schedule III Part A Para A Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations 2015)",
+            "news_body": "Disclosure under Regulation 30 read with Schedule III Part A Para A of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations 2015)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ff9f30e-690b-45d9-b39c-38fd091954f6.pdf",
+            "news_date": "2025-05-15 18:04:52"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Conference Call under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91b93429-1934-494f-aa4e-f3f3c8d161f6.pdf",
+            "news_date": "2025-05-15 17:22:16"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation in respect of re-affirmation of Credit Ratings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13e14910-056b-4e60-b766-8c3e38f9b433.pdf",
+            "news_date": "2025-05-08 17:45:56"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Standalone & Consolidated Audited Financial Statements Of The Company For The Quarter And Financial Year Ended 31St March 2025",
+            "news_body": "Uflex Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/05/2025 inter alia to consider and approve the Standalone & Consolidated Audited Financial Statements of the Company for the quarter and financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7800a71f-cc52-46af-81d5-a917c2e195da.pdf",
+            "news_date": "2025-05-08 12:04:06"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Disclosure under Regulation 30 read with Schedule III Part A Para A of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations 2015)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa66b999-b5fb-467c-9c21-8955e58a5cfb.pdf",
+            "news_date": "2025-04-24 18:38:27"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of Securities and Exchange Board of India (Depositories and Participants) Regulations 2018 for the Quarter Ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bd136b7-fd67-4de0-bb83-483f29321557.pdf",
+            "news_date": "2025-04-08 16:17:38"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54ca2851-3eda-4456-a3e4-56116466163f.pdf",
+            "news_date": "2025-04-02 18:43:01"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f809198-dbb6-4609-9a40-57bd35047a24.pdf",
+            "news_date": "2025-03-27 15:38:12"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meet under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f354ef1-6086-422a-85ac-32f784f74f18.pdf",
+            "news_date": "2025-03-25 18:35:21"
         },
         {
             "sym": "UFLEX",
@@ -290,6 +1159,61 @@
             "seg": "E"
         },
         {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Updates on Participation in Arihant Bharat Connect Conference: Rising Stars - March 2025\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=077abbf1-c5bc-4db0-9a58-44b6c155d651.pdf",
+            "news_date": "2025-03-24 18:19:26"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": " Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45f1a43b-ad8c-4000-bac7-c299597657db.pdf",
+            "news_date": "2025-03-21 16:12:28"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Participation in Arihant Bharat Connect Conference: Rising Stars - March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94eea04f-6872-4568-810b-94903d2dfe83.pdf",
+            "news_date": "2025-03-20 11:01:51"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Flex Middle East FZE Dubai a wholly owned subsidiary of the Company has incorporated a step down subsidiary with the name FLEX FILMS AZB AFEZCO. in Azerbaijan",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9764ea8-f6f5-42ac-ab04-6c7bbcf569cb.pdf",
+            "news_date": "2025-03-18 21:33:54"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Read With Schedule III Part A Para A Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations 2015)",
+            "news_body": "Disclosure under Regulation 30 read with Schedule III Part A Para A of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations 2015)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09fb097e-2cc0-486a-abe1-9225a71f2adc.pdf",
+            "news_date": "2025-03-18 13:25:04"
+        },
+        {
             "sym": "UFLEX",
             "disp": "UFLEX",
             "bse_code": 500148,
@@ -312,6 +1236,39 @@
             "sid": 1053,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Updates on non-deal roadshow of Investor Meetings \r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0cb8284-4fca-44dd-838a-84895a7724bf.pdf",
+            "news_date": "2025-03-03 22:50:45"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Disclosures under Regulation 30 (Part-A Para A) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Appointment of Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ffc5b72-0043-439e-8ac0-9114bace0155.pdf",
+            "news_date": "2025-03-03 17:44:57"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meet under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44e8c482-0707-44fa-9c7a-2ec6f0e159ca.pdf",
+            "news_date": "2025-02-27 21:27:19"
         },
         {
             "sym": "UFLEX",
@@ -338,6 +1295,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the earnings conference call conducted on 17th February 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f9e39c2-d5b2-4770-a766-7702c1cca0a8.pdf",
+            "news_date": "2025-02-21 19:17:21"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of earnings conference call conducted on February 17 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7933b98-6b0d-4a70-813f-1ec12253e6fa.pdf",
+            "news_date": "2025-02-17 18:41:26"
+        },
+        {
             "sym": "UFLEX",
             "disp": "UFLEX",
             "bse_code": 500148,
@@ -362,6 +1341,83 @@
             "seg": "E"
         },
         {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Updates on Earnings Conference Call under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8225aaa-7dab-440d-8109-12c1ff762875.pdf",
+            "news_date": "2025-02-17 14:46:49"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Publication of Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b31f2dd9-76de-46ee-8588-3e58f4c42774.pdf",
+            "news_date": "2025-02-17 12:07:38"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "EARNINGS RELEASE FOR THE QUARTER ENDED DECEMBER 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3354b326-6334-47be-a1b1-1f2feba9b7a4.pdf",
+            "news_date": "2025-02-14 22:18:10"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Quarterly Integrated Filing (Financial) for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81abd17c-a9a4-43ff-beca-eafa92d00075.pdf",
+            "news_date": "2025-02-14 21:34:06"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "We wish to inform you that the Board of Directors of the Company at its meeting held on 14th February 2025 inter-alia considered and approved the issuance of Corporate Guarantees in relation to the Subsidiaries of the Company to secure the finance facilities to be availed by them from lenders.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d30cc645-f7aa-4b51-a532-bb245a93d207.pdf",
+            "news_date": "2025-02-14 21:03:13"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "We wish to inform you that the Board of Directors of the Company at its meeting held on 14th February 2025 inter-alia considered and approved the following:\r\n\r\na.    Considered and approved setting up of a recycling unit of PET bottles and mixed plastics at Noida.\r\n\r\nb.   Considered and taken note of setting up of new manufacturing facility by wholly owned subsidiary of the Company viz. Uflex Woven Bags SA. De. C.V. Mexico.\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c590961d-ef47-4a11-91dc-375e7ea9074e.pdf",
+            "news_date": "2025-02-14 21:00:53"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results (Standalone & Consolidated) Of The Company For The Quarter And Nine Months Ended 31St December 2024 Along With Limited Review Report Thereon",
+            "news_body": "Unaudited Financial Results (Standalone & Consolidated) of the Company for the quarter and nine months ended 31st December 2024 along with Limited Review Report thereon",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c691a6a2-f1cb-461e-b228-88082c5bf591.pdf",
+            "news_date": "2025-02-14 20:42:09"
+        },
+        {
             "sym": "UFLEX",
             "disp": "UFLEX",
             "bse_code": 500148,
@@ -384,6 +1440,50 @@
             "sid": 1053,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results (Standalone & Consolidated) Of The Company For The Quarter And Nine Months Ended 31St December 2024 Along With Limited Review Report Thereon",
+            "news_body": "Unaudited Financial Results (Standalone & Consolidated) of the Company for the quarter and nine months ended 31st December 2024 along with Limited Review Report thereon",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00505f1e-d6f8-444a-a75b-df0cd8a590ec.pdf",
+            "news_date": "2025-02-14 20:29:55"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Conference Call under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dcb4ca7-4c04-4c54-857f-de7aba2cc694.pdf",
+            "news_date": "2025-02-12 18:01:48"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results Of The Company For The Quarter And Nine Months Ended 31St December 2024\r\n\r\n",
+            "news_body": "UFLEX LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/02/2025 inter alia to consider and approve Unaudited Financial Results of the Company for the quarter and nine months ended 31st December 2024\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae934a47-76b0-474d-9d5b-d37f5b746929.pdf",
+            "news_date": "2025-02-04 17:37:54"
+        },
+        {
+            "co_code": 1474,
+            "bse_code": 500148,
+            "isin": "INE516A01017",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Disclosures under Regulation 30 (Part-A Para A) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Appointment of Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70fe3537-8f93-497d-96f9-b44d04273353.pdf",
+            "news_date": "2025-02-04 12:47:20"
         },
         {
             "sym": "UFLEX",
@@ -1033,6 +2133,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

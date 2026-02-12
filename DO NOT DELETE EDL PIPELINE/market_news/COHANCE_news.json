@@ -1,0 +1,356 @@
+{
+    "Symbol": "COHANCE",
+    "ISIN": "INE03QK01018",
+    "News": [
+        {
+            "Title": "Cohance Lifesciences Gets USFDA Warning Letter",
+            "Summary": "Cohance Lifesciences receives USFDA warning letter for Nacharam facility with Official Action Indicated status. US revenue from affected facility represents less than 2% of total revenue.",
+            "Sentiment": "negative",
+            "PublishDate": 1770184602843,
+            "Source": "stocks"
+        },
+        {
+            "Title": "Cohance Lifesciences Appoints New Whole-time Director",
+            "Summary": "Cohance Lifesciences Limited successfully passes postal ballot resolution for appointment of Mr. Himanshu Agarwal as Whole-time Director with 96.86% shareholder approval through remote e-voting process.",
+            "Sentiment": "positive",
+            "PublishDate": 1769093731864,
+            "Source": "stocks"
+        },
+        {
+            "Title": "Cohance Lifesciences Q3FY26 Earnings Call on Feb 12",
+            "Summary": "Cohance Lifesciences has scheduled its Q3 & 9MFY26 results conference call for February 12, 2026 at 6:15 PM IST. The call will feature senior management discussing quarterly results followed by Q&A.",
+            "Sentiment": "neutral",
+            "PublishDate": 1769083976493,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "Cohance Lifesciences Reports Strong Export Growth",
+            "Summary": "Cohance Lifesciences achieves remarkable 124% monthly growth and 43% yearly growth in exports, demonstrating strong international market performance.",
+            "Sentiment": "positive",
+            "PublishDate": 1766118543965,
+            "Source": "stocks"
+        },
+        {
+            "Title": "Cohance Lifesciences Changes Website Address",
+            "Summary": "Cohance Lifesciences Limited has updated its website address from www.suvenpharm.com to www.cohance.com following its name change from Suven Pharmaceuticals Limited.",
+            "Sentiment": "neutral",
+            "PublishDate": 1765619637255,
+            "Source": "stocks"
+        },
+        {
+            "Title": "Cohance Lifesciences Appoints Three Senior Management Personnel",
+            "Summary": "Cohance Lifesciences appointed Gunjan Singh as Business Head API plus, Amrit Singh as Head-Specialty Chemicals, and Ravinatha Shetty as Platform Chief Operating Officer, all effective December 5, 2025. The appointments strengthen the company's leadership across API, specialty chemicals, and operations divisions with executives bringing over 20-35 years of industry experience from leading pharmaceutical companies.",
+            "Sentiment": "positive",
+            "PublishDate": 1764940192604,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "Cohance Lifesciences Receives IND AA/Stable Credit Rating on INR 6,850 Million Bank Facilities",
+            "Summary": "India Ratings and Research assigned an IND AA/Stable rating to Cohance Lifesciences Limited's bank loan facilities worth INR 6,850 million. The rating covers various facilities including term loans and working capital limits across multiple banks including State Bank of India, Axis Bank, ICICI Bank, and others.",
+            "Sentiment": "positive",
+            "PublishDate": 1764778945181,
+            "Source": "stock"
+        },
+        {
+            "Title": "Cohance Lifesciences Grants 80.15 Lakh Stock Options to Employees Under ESOP 2023",
+            "Summary": "Cohance Lifesciences Limited's Nomination and Remuneration Committee approved the grant of 80,15,626 stock options to eligible employees under the Employee Stock Option Plan 2023. The options will vest between 1-10 years from grant date and can be exercised within 3 years of vesting, with each option carrying the right to one equity share of Re. 1 face value.",
+            "Sentiment": "positive",
+            "PublishDate": 1764778432411,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Cohance Lifesciences Approves $10 Million Investment in US Subsidiary",
+            "Summary": "Cohance Lifesciences' board has approved a $10 million fund infusion into its US subsidiary NJ Bio Inc. The investment is intended to support the subsidiary's growth initiatives and capital expenditure requirements.",
+            "Sentiment": "positive",
+            "PublishDate": 1764720012405,
+            "Source": "stock"
+        },
+        {
+            "Title": "Cohance Lifesciences Revises FY26 Guidance to Flat Growth Amid Shipment Deferrals and Biotech Funding Challenges",
+            "Summary": "Cohance Lifesciences reported Q2 FY26 revenue of INR 5,556 million (down 8% year-on-year) and revised its FY26 guidance to flat growth versus FY25, citing deferred shipments at CDMO and FDF sites, biotech funding winter impact on NJ Bio, and Nacharam plant shutdown. The company expects H2 to be stronger than H1 driven by deferred shipment execution and new program activations, while maintaining its mid-term guidance of US$1 billion revenue with mid-30s margins.",
+            "Sentiment": "negative",
+            "PublishDate": 1763389191574,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Cohance Lifesciences Extends Decline to 27% Over 11 Sessions Following Weak Quarterly Results",
+            "Summary": "Cohance Lifesciences shares fell 10% in their 11th consecutive session of losses, bringing total decline to 27% over this period. Trading volumes surged to 19 lakh shares, significantly above the 20-day average of 2.5 lakh shares. The company's quarterly results showed net profit dropping 52% to \u20b966.4 crore while revenue declined 8% to \u20b9555 crore. EBITDA fell 41% to \u20b9121.2 crore with margins contracting to 21.8% from 34% previously. The company attributed revenue decline to deferred shipments at CDMO and FDF sites, de-stocking of key molecules, and delayed project starts at NJ Bio. Despite near-term challenges including pharma destocking and project delays, Cohance maintains its target of achieving $1 billion revenue by 2030 with mid-30s EBITDA margins. The company expects improved performance in the second half of FY26 driven by deferred shipments and new commercial project wins.",
+            "Sentiment": "negative",
+            "PublishDate": 1763014336193,
+            "Source": "stock"
+        },
+        {
+            "Title": "Cohance Lifesciences Reports Mixed H1FY26 Results with Revenue Growth of 1.2% and Improved Gross Margins",
+            "Summary": "Cohance Lifesciences Limited reported quarterly results with revenue declining 8% year-on-year to \u20b95,556 million, primarily due to deferred shipments at CDMO and FDF sites and key molecule destocking. However, half-year revenue grew 1.2% to \u20b911,049 million. Gross margins improved significantly to 73.8% for H1FY26 compared to 70% in the same period last year, driven by business mix and efficiency improvements. Adjusted EBITDA margins were 23.8% for the half-year period. The company secured US FDA approval for a Phase III drug from an innovator partner and executed a large Phase II order for a global innovator. Challenges included pharma destocking in key molecules, delayed biotech project shipments pushed by 2-3 quarters due to extended CMC timelines, and temporary Nacharam plant shutdown. The company maintains its target of achieving USD 1 billion revenue by 2030 with mid-30s EBITDA margins.",
+            "Sentiment": "neutral",
+            "PublishDate": 1762972398404,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Cohance Lifesciences Outlines Growth Strategy Through CRAMS and Specialty APIs",
+            "Summary": "Cohance Lifesciences has outlined its growth strategy focusing on CRAMS (Contract Research and Manufacturing Services), specialty APIs, and formulations. The company is expanding its manufacturing capacities in Vizag and Hyderabad while investing in research and development and backward integration. Cohance aims to expand margins through high-value complex molecules and expects sustained demand from global pharmaceutical clients.",
+            "Sentiment": "positive",
+            "PublishDate": 1762960805435,
+            "Source": "stock"
+        },
+        {
+            "Title": "Cohance Lifesciences Reports Decline in Q2 Financial Performance",
+            "Summary": "Cohance Lifesciences reported Q2 EBITDA of 1.2 billion rupees compared to 2.2 billion rupees in the same period last year. The company's EBITDA margin decreased to 21.76% from 34.11% year-over-year. Consolidated net profit fell to 741 million rupees from 1.4 billion rupees in the previous year's corresponding quarter. Revenue declined to 5.6 billion rupees from 6 billion rupees year-over-year.",
+            "Sentiment": "negative",
+            "PublishDate": 1762955095418,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Cohance Lifesciences Managing Director Dr. Prasada Raju Resigns, Company Restructures Leadership",
+            "Summary": "Dr. Prasada Raju has resigned from his position as Managing Director of Cohance Lifesciences, citing personal priorities and his learning journey. He will remain with the company for an extended transition period through the fiscal year. The board has approved a revised organizational structure with three business verticals led by experienced industry leaders: Yann D'Herve for Pharma CDMO, Gunjan Singh for API plus business, and Amrit Singh for Specialty Chemical Business. A new platform COO position will be created, and CFO Himanshu Agarwal will join the company's board as director. Executive Chairman Vivek Sharma emphasized that the company remains committed to its $1 billion revenue vision by 2030, with no change in fundamental strategy. The company recently completed four major customer orders, confirmed a Phase 3 order from a large Japanese customer, and is progressing with its Surya Pet facility capitalization and oligonucleotide unit commissioning.",
+            "Sentiment": "neutral",
+            "PublishDate": 1761997244407,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "Cohance Lifesciences Shares Drop Nearly 10% Following Managing Director's Resignation",
+            "Summary": "Cohance Lifesciences shares fell up to 10% on Wednesday, October 29, after Managing Director and Director V Prasada Raju resigned effective October 28. Raju cited personal priorities and continuing his learning journey as reasons for his departure, and will remain during the transition period. The company appointed CFO Himanshu Agarwal as Additional Director and Whole-time Director for a five-year term, subject to shareholder approval. Agarwal has served as CFO since January 2024. Shares recovered partially from early lows, trading 6.4% lower at \u20b9804.8. The stock has declined 28% from its 52-week high of \u20b91,121 and is down 25% year-to-date.",
+            "Sentiment": "negative",
+            "PublishDate": 1761711034150,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "Cohance Lifesciences Managing Director Dr. V Prasada Raju Resigns, CFO Himanshu Agarwal Appointed as Whole-time Director",
+            "Summary": "Cohance Lifesciences announced the resignation of Dr. V Prasada Raju as Managing Director and Director, effective from close of business hours on October 28, 2025. Dr. Raju cited personal priorities and continuing his learning journey as reasons for his resignation, while expressing commitment to ensuring a smooth transition. The Board approved the appointment of Himanshu Agarwal, who has been serving as Chief Financial Officer since January 2, 2024, as Additional Director and Whole-time Director for a five-year term starting October 29, 2025. Agarwal will retain his CFO role alongside his new directorship. The appointment requires shareholder approval through a postal ballot process. Agarwal brings over 30 years of finance experience across multiple countries and has worked with companies including ICI India, Huhtamaki, AkzoNobel India, and AstraZeneca Pharma. The company also revised its authorized Key Managerial Personnel list to include Executive Chairman Vivek Sharma, Whole-time Director and CFO Himanshu Agarwal, and Company Secretary Kundan Kumar Jha.",
+            "Sentiment": "neutral",
+            "PublishDate": 1761657647163,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "Cohance Lifesciences Schedules Investor Call to Discuss Director Changes",
+            "Summary": "Cohance Lifesciences Limited has scheduled a conference call for investors and analysts on October 28, 2025 at 6:30 pm IST to discuss changes in the company's Directors. The call was announced with short notice following Board approval of director changes at a meeting held on October 28, 2025. The company, formerly known as Suven Pharmaceuticals Limited, will provide dial-in numbers for multiple regions including India, Singapore, Hong Kong, USA, and UK. Participants can pre-register for the call to receive dial-in details and passcode via email.",
+            "Sentiment": "neutral",
+            "PublishDate": 1761656147640,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "Cohance Lifesciences Managing Director V Prasada Raju Steps Down",
+            "Summary": "V Prasada Raju has stepped down from his position as Managing Director of Cohance Lifesciences.",
+            "Sentiment": "neutral",
+            "PublishDate": 1761654494687,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "Cohance Lifesciences Receives OAI Classification from USFDA for Hyderabad Facility",
+            "Summary": "Cohance Lifesciences Limited received an Official Action Indicated (OAI) classification from the USFDA for its Finished Dosage Formulations Manufacturing Facility in Nacharam, Hyderabad. This follows a USFDA inspection that resulted in Form 483 with 6 observations. The company has initiated a comprehensive remediation program to align the facility with global standards. The facility continues normal operations. The US revenue from this formulation unit contributed less than 2% of the company's consolidated revenues with EBITDA contribution below 1%. The company expects no material impact on ongoing operations or supplies.",
+            "Sentiment": "negative",
+            "PublishDate": 1761482257475,
+            "Source": "stock"
+        },
+        {
+            "Title": "Jusmiral Holdings Sells 3.41 Crore Cohance Lifesciences Shares for Debt Repayment",
+            "Summary": "Jusmiral Holdings Limited, a promoter of Cohance Lifesciences Limited, sold 3,41,48,000 shares on September 18, 2025, through an on-market transaction. The sale reduced Jusmiral Holdings' stake in Cohance Lifesciences from 33.08% to 24.15%. The proceeds from the share sale will be used primarily for partial repayment of borrowings under a Notes Purchase Agreement dated May 29, 2024. The transaction was disclosed under SEBI Takeover Regulations and involved the release of certain encumbrances related to disposal restrictions on the shares. Cohance Lifesciences Limited was formerly known as Suven Pharmaceuticals Limited and is listed on BSE and NSE.",
+            "Sentiment": "neutral",
+            "PublishDate": 1758511530291,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Cohance Lifesciences Promoter Jusmiral Holdings Sells 3.41 Crore Shares",
+            "Summary": "Jusmiral Holdings Limited, a promoter of Cohance Lifesciences Limited, sold 3,41,48,000 shares on September 18, 2025, through the National Stock Exchange. The transaction reduced Jusmiral Holdings' stake from 33.08% to 24.15%. The sale proceeds will be used primarily for part payment of borrowings under a Notes Purchase Agreement that was disclosed on May 9, 2025. The shares were sold through on-market transactions, and the disclosure was made in compliance with SEBI's Prohibition of Insider Trading Regulations.",
+            "Sentiment": "neutral",
+            "PublishDate": 1758204505311,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Cohance Lifesciences Shares Worth \u20b93,073 Crore Trade in Block Deal as Stock Falls 6%",
+            "Summary": "Cohance Lifesciences saw 3.39 crore shares (8.9% equity) worth \u20b93,073 crore change hands through block deals, with the stock declining over 6% in opening trading. Jusmiral Holdings sold the 8.9% stake for $350 million. The offer had a floor price of \u20b9900 per share, representing a 6.9% discount to the previous close. A 210-day lock-up period has been set for further share sales. IIFL Capital served as the book-running lead manager. Jusmiral Holdings held 33.34% stake in the company at the end of June quarter. Cohance Lifesciences is a Hyderabad-based contract development and manufacturing organisation serving international pharma, biotech and fine chemicals companies. The company changed its name from Suven Pharmaceuticals in May 2025. Shares closed the previous session 2.5% lower at \u20b9965.5, with the stock gaining 7.6% in the past month but declining 9.7% over six months.",
+            "Sentiment": "negative",
+            "PublishDate": 1758167860923,
+            "Source": "order&deals"
+        },
+        {
+            "Title": "Jusmiral Holdings Plans to Sell 5.1% Stake in Cohance Lifesciences Through Block Deal",
+            "Summary": "Jusmiral Holdings plans to sell up to 5.1% of its stake in Cohance Lifesciences through block deals. The offer is valued at \u20b91,756 crore with a floor price of \u20b9900 per share, representing a 6.9% discount to the stock's last close. A 210-day lock-up period has been established for any additional share sales. Cohance Lifesciences is a Hyderabad-based Contract Development & Manufacturing Organisation serving international pharmaceutical, fine chemicals and biotech companies. The company changed its name from Suven Pharmaceuticals in May 2025. Cohance shares closed at \u20b9967.70, down 2.2%, and are trading 9.7% lower year-to-date, well below the 52-week high of \u20b91,359.",
+            "Sentiment": "neutral",
+            "PublishDate": 1758119325525,
+            "Source": "order&deals"
+        },
+        {
+            "Title": "Cohance Lifesciences' Andhra Pradesh API Facility Passes USFDA CGMP Inspection Without Observations",
+            "Summary": "Cohance Lifesciences announced that its Active Pharmaceutical Ingredient (API) manufacturing facility in Andhra Pradesh successfully cleared a USFDA Current Good Manufacturing Practice (CGMP) inspection with zero observations. This regulatory clearance indicates the facility met all FDA manufacturing standards without any compliance issues identified during the inspection.",
+            "Sentiment": "positive",
+            "PublishDate": 1757895116160,
+            "Source": "stock"
+        },
+        {
+            "Title": "Cohance Lifesciences Passes USFDA Inspection with Zero Observations",
+            "Summary": "Cohance Lifesciences Limited completed a USFDA inspection at its API manufacturing facility in Jaggaiahpet, Andhra Pradesh. The inspection was conducted from September 8, 2025 to September 11, 2025 and concluded with zero Form 483 observations. The audit focused on current Good Manufacturing Practices (cGMP) compliance at the company's API Unit-1 facility. The company stated its commitment to maintaining quality standards and regulatory compliance for manufacturing pharmaceutical products for global markets.",
+            "Sentiment": "positive",
+            "PublishDate": 1757594719353,
+            "Source": "stock"
+        },
+        {
+            "Title": "Cohance Lifesciences Managing Director Sells 6 Lakh Shares Worth Rs. 52.82 Crores",
+            "Summary": "Dr. V Prasada Raju, Managing Director of Cohance Lifesciences Limited, sold 6,00,000 shares of the company on August 26, 2025, valued at Rs. 52.82 crores through on-market transactions on NSE and BSE. Following the sale, his shareholding decreased from 7,13,259 shares (0.19%) to 1,13,259 shares (0.03%). The Managing Director stated the transaction was undertaken to repay loans availed for exercising stock options under the ESOP scheme, meet associated tax obligations, and discharge personal liabilities. He emphasized his continued commitment to the company's strategic vision of becoming a leading technology-led CDMO with global presence. The disclosure was made in compliance with SEBI Prohibition of Insider Trading Regulations, 2015.",
+            "Sentiment": "neutral",
+            "PublishDate": 1756294372824,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Cohance Lifesciences Reports 13% Revenue Growth in Q1 FY26, Announces Leadership Changes and Capacity Expansions",
+            "Summary": "Cohance Lifesciences Limited reported 13% year-over-year revenue growth in Q1 FY26, driven by specialty chemicals and API segments. Excluding inventory destocking in Pharma CDMO, revenue growth exceeded 25%. The Pharma CDMO segment posted 1% growth, but adjusted for inventory destocking in commercial products, delivered over 30% growth. Niche technology revenue share increased from mid-teens in FY25 to above 20% in Q1 FY26, targeting mid-20s by FY26 end. The company secured a lifecycle management supply mandate from a global innovator for a branded product API and received USFDA approval for a partner program. Cohance announced a $10 million investment to expand bioconjugation capacity at its Princeton facility and a INR 230 million investment for a CGMP oligonucleotide building block facility at Nacharam, expected to be operational by end of CY25. The company appointed Yann D'Herve as CEO of CDMO business, while Dr. Sudhir Singh stepped back from executive responsibilities. Cohance formed an External Advisory Board with five industry experts and maintains its guidance of reaching $1 billion revenue by 2030 with mid-30s EBITDA margins. The company generated INR 2.3 billion in free cash flow and ended the quarter with INR 4.4 billion cash balance.",
+            "Sentiment": "positive",
+            "PublishDate": 1755604502107,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Cohance Lifesciences Receives USFDA Form 483 with 6 Observations Following Manufacturing Facility Inspection",
+            "Summary": "Cohance Lifesciences Limited completed a USFDA Good Manufacturing Practices inspection at its Finished Dosage Formulations Manufacturing Facility in Nacharam, Hyderabad. The inspection was conducted from August 4 to August 12, 2025. The company received a Form 483 with 6 observations that are predominantly procedural in nature. Cohance is reviewing the observations and preparing a comprehensive response to submit to the agency within the required timeframe. The company stated its commitment to maintaining high standards of quality and regulatory compliance for manufacturing pharmaceutical products for global markets.",
+            "Sentiment": "neutral",
+            "PublishDate": 1755107462221,
+            "Source": "stock"
+        },
+        {
+            "Title": "Cohance Lifesciences Reports Mixed Q1 Results with Revenue Growth but Profit Decline",
+            "Summary": "Cohance Lifesciences reported Q1 consolidated net profit of 489 million rupees, down from 754 million rupees in the same period last year. Revenue increased to 5.5 billion rupees from 4.9 billion rupees year-over-year. EBITDA declined to 1.12 billion rupees from 1.24 billion rupees, while EBITDA margin compressed to 20.40% from 25.41% in the previous year.",
+            "Sentiment": "negative",
+            "PublishDate": 1755089263243,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Cohance Lifesciences Reports 13% Revenue Growth in Q1FY26 with Strong Niche Technology Expansion",
+            "Summary": "Cohance Lifesciences Limited reported revenue of \u20b95,493 million for Q1FY26, representing 13% year-on-year growth. Excluding inventory destocking impact in Pharma CDMO, revenue growth exceeded 25%. The company's gross margins expanded to 73% from 68.4% in Q1FY25, driven by niche technologies and recent acquisitions. Adjusted EBITDA was \u20b91,314 million with a 23.9% margin. Niche technology revenues crossed 20% of total sales, up from mid-teens in FY25. The company appointed Yann D'Herv\u00e9 as CEO of CDMO business and established an External Advisory Board. Key business segments showed growth: Pharma CDMO grew over 30% excluding destocking, Specialty Chemicals rose 28%, and API+ grew 19%. The company is investing in ADC and oligonucleotide capabilities, with a USD 10 million bioconjugation suite under construction and a \u20b9230 million oligonucleotide facility on track for end-CY25 readiness. The board approved quarterly results and revised Key Managerial Personnel for materiality determination.",
+            "Sentiment": "positive",
+            "PublishDate": 1755089086751,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Cohance Lifesciences Announces $10 Million US Investment and \u20b9230 Million India Facility Expansion",
+            "Summary": "Cohance Lifesciences announced two strategic investments totaling $10 million for a cGMP bioconjugation suite at its US subsidiary NJ Bio in Princeton, New Jersey, and \u20b9230 million for a cGMP oligonucleotide facility in Hyderabad, India. The US facility will enhance Antibody-Drug Conjugate capabilities, enabling supply for Phase 2b clinical studies with capacity to manufacture up to 2 kg of ADCs. The facility is expected to be operational by end of Q4FY26. NJ Bio is executing a major program for an existing customer with multiple ADC candidates and is in advanced discussions with three to four additional customers. The Hyderabad facility will provide up to 700 kg annual GMP capacity for oligonucleotide building blocks, with customer audits planned in coming quarters and GMP-grade validations expected to commence in CY26. Cohance reported FY25 revenue of \u20b926 billion with 33.6% adjusted EBITDA margins.",
+            "Sentiment": "positive",
+            "PublishDate": 1754997487643,
+            "Source": "stock"
+        },
+        {
+            "Title": "Cohance Lifesciences Provides $16.5 Million Corporate Guarantee for Subsidiary's Credit Facility",
+            "Summary": "Cohance Lifesciences Limited has provided a corporate guarantee of USD 16.5 million to Citibank N.A. to secure a credit facility of USD 15 million for its subsidiary NJ Bio Inc., based in New Jersey, USA. The guarantee is valid until June 30, 2028, and creates a contingent liability for Cohance capped at USD 16.5 million. The credit facility is intended to support NJ Bio Inc.'s bioconjugation operations for Antibody-Drug Conjugates (ADCs) and strengthen the group's global CDMO capabilities. Under the guarantee terms, Cohance will be required to pay amounts due to the lender if NJ Bio Inc. fails to repay. The transaction was conducted on arm's length basis with no promoter group interest.",
+            "Sentiment": "neutral",
+            "PublishDate": 1753801527550,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Cohance Lifesciences Appoints Yann D'Herve as CEO of CDMO Division",
+            "Summary": "Cohance Lifesciences has appointed Yann D'Herve as Chief Executive Officer of its CDMO (Contract Development and Manufacturing Organization) division. D'Herve will assume the role starting August 1, 2025.",
+            "Sentiment": "positive",
+            "PublishDate": 1753713758280,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "Cohance Lifesciences Schedules Q1FY26 Results Conference Call for August 13, 2025",
+            "Summary": "Cohance Lifesciences Limited (formerly Suven Pharmaceuticals Limited) has scheduled a conference call for investors and analysts on August 13, 2025, at 6:15 PM IST to discuss Q1FY26 unaudited financial results. The management team will include Executive Chairman Vivek Sharma, Managing Director Dr. V Prasada Raju, CEO Dr. Sudhir Kumar Singh, CFO Himanshu Agarwal, and Head of Investor Relations Cyndrella Carvalho. The call will begin with management discussion on the quarterly results followed by a Q&A session. Multiple dial-in numbers are provided for different regions including India, Singapore, Hong Kong, USA, and UK, with pre-registration available for participants.",
+            "Sentiment": "neutral",
+            "PublishDate": 1753198006017,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Cohance Lifesciences Receives RBI Compounding Order for Previous ZCL Transactions",
+            "Summary": "Cohance Lifesciences has received a compounding order from the Reserve Bank of India related to old deals involving ZCL. The compounding order typically relates to regulatory compliance matters that have been settled with the central bank.",
+            "Sentiment": "neutral",
+            "PublishDate": 1752919750347,
+            "Source": "stock"
+        },
+        {
+            "Title": "Cohance Lifesciences to Review Q1 Results on August 13",
+            "Summary": "Cohance Lifesciences has announced that it will review its first quarter (Q1) results on August 13. No further details about the financial performance or expectations were provided in the given news snippet.",
+            "Sentiment": "neutral",
+            "PublishDate": 1751031812000,
+            "Source": "default"
+        },
+        {
+            "Title": "Cohance Lifesciences Sells CR Bio Unit to Chromo Labs",
+            "Summary": "Cohance Lifesciences has sold its non-core CR Bio unit to Chromo Labs for Rs 16 crore. This move is aimed at allowing Cohance Lifesciences to focus on its CDMO (Contract Development and Manufacturing Organization) business.",
+            "Sentiment": "neutral",
+            "PublishDate": 1750402081000,
+            "Source": "default"
+        },
+        {
+            "Title": "Suven Pharma Receives Approval for Name Change",
+            "Summary": "Suven Pharma has announced that the government has approved its request to change its name to Cohance Lifesciences. This corporate action reflects a significant rebranding effort for the pharmaceutical company.",
+            "Sentiment": "neutral",
+            "PublishDate": 1746630490000,
+            "Source": "default"
+        },
+        {
+            "Title": "Suven Pharma Merger with Cohance Lifesciences Approved",
+            "Summary": "Suven Pharma has received final approval for foreign investment and clearance to implement its merger with Cohance Lifesciences. The merger will be effective from May 1, 2025, and the merged entity will operate under the name Cohance Lifesciences.",
+            "Sentiment": "positive",
+            "PublishDate": 1745566629000,
+            "Source": "default"
+        },
+        {
+            "Title": "Suven Pharma Receives Approval for Increased Foreign Investment Post-Merger",
+            "Summary": "Suven Pharma has obtained government approval for an increase in foreign investment following its merger with Cohance Lifesciences. This approval is likely to facilitate the completion of the merger process and potentially attract more foreign capital into the combined entity.",
+            "Sentiment": "positive",
+            "PublishDate": 1745375405000,
+            "Source": "default"
+        },
+        {
+            "Title": "Suven Pharmaceuticals: Targets $1 Billion Revenue by 2030 Through CDMO Expansion",
+            "Summary": "Suven Pharmaceuticals aims to reach $1 billion in revenue by 2030, driven by CDMO segment growth. The company is expanding API capacity, enhancing ADC capabilities, and building a GLP site in Hyderabad. Recent acquisitions of NJ Bio and Sapala Organics have strengthened its position. The company focuses on maintaining mid-thirties profit margins while exploring growth opportunities in speciality chemicals.",
+            "Sentiment": "positive",
+            "PublishDate": 1743219000000,
+            "Source": "normal_news"
+        },
+        {
+            "Title": "NCLT Approves Merger of Cohance Lifesciences with Suven Pharma",
+            "Summary": "The National Company Law Tribunal (NCLT) has approved the scheme of amalgamation between Cohance Lifesciences Limited and Suven Pharma. This corporate action represents a significant development for Suven Pharma, potentially leading to operational synergies and expanded capabilities in the pharmaceutical sector.",
+            "Sentiment": "positive",
+            "PublishDate": 1743131858000,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Suven Pharma to Consider Q4 Results on May 28",
+            "Summary": "Suven Pharma has announced that it will consider its fourth quarter financial results on May 28. This indicates that the company is preparing to release its earnings report for the last quarter of the fiscal year.",
+            "Sentiment": "neutral",
+            "PublishDate": 1742990494000,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Suven Pharma Reports Significant Profit and Revenue Growth in Q3",
+            "Summary": "Suven Pharma has announced its Q3 financial results, showing substantial year-over-year growth. The consolidated net profit increased to 829 million rupees, up from 467 million rupees in the same quarter last year. This also represents a quarter-over-quarter increase from 822 million rupees. Revenue for Q3 rose to 3.1 billion rupees, compared to 2.2 billion rupees in the previous year.",
+            "Sentiment": "positive",
+            "PublishDate": 1739405778000,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Suven Pharma Reports Strong Q3 EBITDA Growth",
+            "Summary": "Suven Pharma has announced its Q3 financial results, showing significant year-over-year improvement. The company's EBITDA increased to 1.2 billion rupees from 651 million rupees in the same quarter last year. Additionally, Suven Pharma's EBITDA margin expanded to 38.11% from 29.64% year-over-year, indicating improved operational efficiency.",
+            "Sentiment": "positive",
+            "PublishDate": 1739365791000,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Suven Pharma Reports Strong Q3 Financial Results",
+            "Summary": "Suven Pharma has announced its Q3 consolidated financial results. The company's net profit increased to 829 million rupees, up from 467 million rupees year-over-year and 822 million rupees quarter-over-quarter. Revenue for Q3 rose to 3.1 billion rupees, compared to 2.2 billion rupees in the same quarter last year.",
+            "Sentiment": "positive",
+            "PublishDate": 1739365741000,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Suven Pharma Announces Dissolution and Amalgamation of Casper Pharma",
+            "Summary": "Suven Pharmaceuticals Limited has reported that Casper Pharma, a subsidiary or related entity, has been dissolved and amalgamated with the company. This corporate restructuring move likely aims to streamline operations and potentially improve efficiency within the organization.",
+            "Sentiment": "neutral",
+            "PublishDate": 1735776576000,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Suven Pharma Announces Dissolution and Amalgamation of Casper Pharma",
+            "Summary": "Suven Pharma has reported that Casper Pharma, likely a subsidiary or related entity, has been dissolved and amalgamated with the company. This corporate restructuring move suggests a consolidation of operations or assets within Suven Pharma.",
+            "Sentiment": "neutral",
+            "PublishDate": 1735732663000,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Suven Pharma to Consider Q3 Results on February 12",
+            "Summary": "Suven Pharmaceuticals Limited has announced that it will consider and approve its financial results for the third quarter of the current fiscal year on February 12.",
+            "Sentiment": "neutral",
+            "PublishDate": 1735312396000,
+            "Source": "earnings"
+        }
+    ]
+}

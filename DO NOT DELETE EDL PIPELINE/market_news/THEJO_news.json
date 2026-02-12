@@ -1,0 +1,34 @@
+{
+    "Symbol": "THEJO",
+    "ISIN": "INE121N01019",
+    "News": [
+        {
+            "Title": "Thejo Engineering Reports Strong Q2 Growth with 14.6% Rise in Net Profit",
+            "Summary": "Thejo Engineering delivered robust quarterly performance with consolidated net profit increasing to 141 million rupees from 123 million rupees year-over-year. Revenue grew to 1.53 billion rupees compared to 1.33 billion rupees in the same period last year. EBITDA rose to 210.5 million rupees from 168.7 million rupees, while EBITDA margin improved to 13.75% from 12.64% year-over-year.",
+            "Sentiment": "positive",
+            "PublishDate": 1762793398067,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Thejo Engineering's Unit Secures AUD 921,000 in Purchase Orders from Iron Ore Mines",
+            "Summary": "A subsidiary of Thejo Engineering has received purchase orders from two major iron ore mines. The orders are valued at AUD 921,000.00 and are scheduled to be executed by May 2025.",
+            "Sentiment": "positive",
+            "PublishDate": 1739361937000,
+            "Source": "order&deals"
+        },
+        {
+            "Title": "Thejo Engineering Reports Decline in Q3 EBITDA and Margin",
+            "Summary": "Thejo Engineering has reported a decrease in its third quarter EBITDA, which fell to 242 million rupees from 290 million rupees in the same period last year. The company's EBITDA margin also declined, dropping to 17.83% from 19.38% year-over-year.",
+            "Sentiment": "negative",
+            "PublishDate": 1738942248000,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Thejo Engineering Reports Decline in Q3 Financial Performance",
+            "Summary": "Thejo Engineering has reported a decrease in both net profit and revenue for the third quarter compared to the same period last year. The consolidated net profit fell to 132 million rupees from 173 million rupees, while revenue decreased to 1.36 billion rupees from 1.5 billion rupees year-over-year.",
+            "Sentiment": "negative",
+            "PublishDate": 1738942244000,
+            "Source": "earnings"
+        }
+    ]
+}

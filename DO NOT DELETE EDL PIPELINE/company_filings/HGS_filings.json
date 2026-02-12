@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Extract of Consolidated Financial Results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b89d2d4e-c312-4cbf-bc59-e85b36a7007b.pdf",
+            "news_date": "2026-02-12 12:21:00"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Issue of Letter of Confirmation in lieu of duplicate Share Certificates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ed1a2a7-df61-40a3-8337-60be619dc644.pdf",
+            "news_date": "2026-02-11 14:58:20"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the un-audited financial results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46abdf2f-69c5-43a8-a307-53333adbcbab.pdf",
+            "news_date": "2026-02-10 19:04:41"
+        },
+        {
             "sym": "HGS",
             "disp": "Hinduja Global Solutions",
             "bse_code": 532859,
@@ -24,6 +57,149 @@
             "sid": 14712,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter Ended December 31 2025",
+            "news_body": "Un-audited Financial Results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da52a3c9-162d-4728-beb6-bc1b0b6b24bb.pdf",
+            "news_date": "2026-02-10 18:47:02"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Quarterly Results For The Quarter Ended On December 31 2025",
+            "news_body": "Board Meeting Outcome for Quarterly Results for the quarter ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abea7b32-c539-4adf-a711-fb18e43fdd4a.pdf",
+            "news_date": "2026-02-10 18:39:39"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Q3 FY 2025-26 Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=795cb09f-bcc9-423f-baf2-0424b0968fd3.pdf",
+            "news_date": "2026-02-04 17:56:21"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results (Standalone And Consolidated) Of The Company For The Quarter And Nine Months Ended December 31 2025.",
+            "news_body": "Hinduja Global Solutions Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/02/2026 inter alia to consider and approve Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1041c205-3704-42f7-8fc8-b1891a1411bd.pdf",
+            "news_date": "2026-01-30 18:08:31"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc8aeb15-8142-454f-9d05-d22669dcf4b1.pdf",
+            "news_date": "2026-01-12 09:34:24"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulation 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c4598a9-cf5f-4889-9e4b-58fcffc92bb5.pdf",
+            "news_date": "2026-01-08 17:47:47"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dda37f2-f010-4ea1-8fbb-041528ec98ca.pdf",
+            "news_date": "2025-12-29 16:45:20"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Voting Results and Scrutinizers Report on Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc1c891-6132-47ef-b69c-cde2f1a05d1f.pdf",
+            "news_date": "2025-12-29 16:21:06"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Letter Attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cf4ce5f-fe97-47ac-ab82-aa7e1b93e7c4.pdf",
+            "news_date": "2025-12-20 19:23:37"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published on transfer of equity shares to IEPF.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9045fd57-78ab-43b4-9ec5-b665833ede46.pdf",
+            "news_date": "2025-12-09 16:10:46"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication for re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbe19fa8-9929-4c74-91c2-9cd38ce4a845.pdf",
+            "news_date": "2025-11-26 15:35:28"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement for postal ballot notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48370be5-e56e-481c-b8be-a120cd1b1c2e.pdf",
+            "news_date": "2025-11-26 14:27:43"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice attached herewith",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5768ba63-64e0-41a9-99e1-26d59a870677.pdf",
+            "news_date": "2025-11-25 17:28:03"
         },
         {
             "sym": "HGS",
@@ -50,6 +226,28 @@
             "seg": "E"
         },
         {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call held on November 11 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79390c8d-2e3a-4015-958e-4c9c84e2928a.pdf",
+            "news_date": "2025-11-18 15:22:28"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Extract of Consolidated Financial Results for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4759a7e2-dd22-42c7-8f92-73936446a796.pdf",
+            "news_date": "2025-11-12 14:26:33"
+        },
+        {
             "sym": "HGS",
             "disp": "Hinduja Global Solutions",
             "bse_code": 532859,
@@ -72,6 +270,17 @@
             "sid": 14712,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings Conference Call held today November 11 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d99ac7f-d8ff-4f16-b3a7-ff403d55a446.pdf",
+            "news_date": "2025-11-11 18:29:25"
         },
         {
             "sym": "HGS",
@@ -98,6 +307,39 @@
             "seg": "E"
         },
         {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Q2 and H1 FY 2025-26 Earnings Call Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1970f3d3-00e0-44e3-85b7-95841c022794.pdf",
+            "news_date": "2025-11-11 15:04:08"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eef4e37b-ebfd-4a8d-a608-e619d600e724.pdf",
+            "news_date": "2025-11-10 19:08:16"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Reappointment of Mr. Vynsley Fernandes as Whole time Director (KMP) and CEO of media business for a period of 3 years w.e.f. November 14 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=944e91e4-a320-453d-a5cc-02a92c35aa45.pdf",
+            "news_date": "2025-11-10 19:06:42"
+        },
+        {
             "sym": "HGS",
             "disp": "Hinduja Global Solutions",
             "bse_code": 532859,
@@ -120,6 +362,171 @@
             "sid": 14712,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results",
+            "news_body": "Financial Results attached for the half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c073c7fb-2408-4fe3-af54-a7f7aa3b686e.pdf",
+            "news_date": "2025-11-10 18:37:57"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of the Board Meeting including the financial results for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2641134-4425-4f40-83d9-0c2b95d744a3.pdf",
+            "news_date": "2025-11-10 18:27:29"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Q2 and H1 FY 2026 Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b178db55-db10-4034-866f-25844d6b2a36.pdf",
+            "news_date": "2025-11-03 17:38:53"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 (The Listing Regulations)",
+            "news_body": "Disclosure under Regulation 30 attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b681d4fc-737f-4496-9270-b8b4eb4fbe58.pdf",
+            "news_date": "2025-10-31 17:57:34"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement regarding \"Saksham Niveshak\" Campaign.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=086e3f9e-711f-4a92-bf0e-1d5d3c1f249b.pdf",
+            "news_date": "2025-10-31 16:46:40"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Special Window for re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7139667d-a1f1-4eb4-bf7d-87b72980415a.pdf",
+            "news_date": "2025-10-31 16:40:29"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results (Standalone And Consolidated) Of The Company For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Hinduja Global Solutions Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/11/2025 inter alia to consider and approve Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=849a4d89-7e8b-45a7-b85b-2269eb0793c0.pdf",
+            "news_date": "2025-10-31 16:25:22"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "HGS launches Interaction Intelligence to drive next-gen CX and unlock strategic value.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d39143c5-cf83-4531-87a8-bf1467817acf.pdf",
+            "news_date": "2025-10-27 08:12:30"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "HGS opens a new Intelligent Experience Hub in Manila Philippines.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fb2d640-b78f-4f26-97c2-2271cecd2fbb.pdf",
+            "news_date": "2025-10-13 08:12:20"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a653d368-b0ba-42ed-8a04-d99d00970eea.pdf",
+            "news_date": "2025-10-09 16:31:37"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Intimation of resignation of Non-Executive Non-Independent Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0607abd1-04f1-4fe4-be19-621855cf3476.pdf",
+            "news_date": "2025-09-30 18:08:50"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8069bac-fb83-45be-92d9-fb50222baa67.pdf",
+            "news_date": "2025-09-30 14:49:15"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation of completion of tenure of an Independent Director of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3df2f4f4-6993-4d33-a235-63a297baeec6.pdf",
+            "news_date": "2025-09-27 19:18:21"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Report of Scrutinizer and Voting results of 30th Annual General Meeting of the Company held on September 25 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6cf4147-5144-49b4-bdd5-5ebefdf187d5.pdf",
+            "news_date": "2025-09-26 19:36:12"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 30th Annual General Meeting of the Company held on Thursday September 25 2025 at 4.00 pm IST",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9512c473-db79-43d9-8139-671c7498d181.pdf",
+            "news_date": "2025-09-25 19:40:45"
         },
         {
             "sym": "HGS",
@@ -146,6 +553,160 @@
             "seg": "E"
         },
         {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find attached herewith Presentation being made at the 30th Annual General Meeting of the Company commencing at 4 pm IST today.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a415b98a-1cef-4005-a33b-238ca0deaf9a.pdf",
+            "news_date": "2025-09-25 15:41:22"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published on transfer of equity shares of IEPF.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34a9f695-4c25-45a3-b6d3-92d97efad5ce.pdf",
+            "news_date": "2025-09-05 17:08:11"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations)",
+            "news_body": "We are enclosing herewith the intimation regarding letter dispatched to the shareholders whose email addresses are not registered with the Company/Registrar and Transfer Agent or the Depository Participants.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82678cf2-5aef-4e6d-a64d-fbe6c65cf835.pdf",
+            "news_date": "2025-09-04 17:26:01"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 -Authorization To Key Managerial Personnel Of The Company",
+            "news_body": "Updated contact details of Key Managerial Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b727e007-52ed-4e25-970e-3673c5793659.pdf",
+            "news_date": "2025-09-03 19:42:17"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Completion of tenure of Mr. Partha DeSarkar (DIN: 00761144) as Whole time Director of the Company. With this Mr. Partha DeSarkar ceases to be the Whole-time Director and Key Managerial Personnel/Director of the Company after the close of business hours on September 03 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9c1b7f3-a069-4c8d-b62d-5473b0ef8e66.pdf",
+            "news_date": "2025-09-03 19:36:07"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Completion of tenure of Mr. Partha DeSarkar (DIN: 00761144) as a Whole time Director . With this Mr. Partha DeSarkar ceases to be the Whole time Director and Key Managerial Personnel/ Director of the Company after the close of business hours on September 03 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82739931-a443-45cf-acf3-32bdb24f3d2b.pdf",
+            "news_date": "2025-09-03 19:32:01"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Special Window for re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1a15a97-b0cf-45c8-8bf6-f283881ef0b5.pdf",
+            "news_date": "2025-09-02 17:34:52"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Completion of dispatch of AGM Notice and Annual Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28a83148-e3e5-4f3b-bd88-6e5f8ef0f57e.pdf",
+            "news_date": "2025-09-02 17:30:16"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffa6fe3c-1c61-40a2-ba59-727727219c76.pdf",
+            "news_date": "2025-09-01 13:53:26"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 30Th Annual General Meeting",
+            "news_body": "Notice of 30th Annual General Meeting to be held on Thursday September 25 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=648cdd94-718d-472a-9c6a-c545aa740fa5.pdf",
+            "news_date": "2025-09-01 13:44:26"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Submission of Annual Report for Financial Year 2024-25 and Notice of 30th Annual General Meeting(AGM)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87bd7f6a-5e83-48bc-bbb7-9f63b6efa777.pdf",
+            "news_date": "2025-09-01 13:32:24"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Special Window for re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63fd933c-0fd1-49f4-90ce-e387755110a6.pdf",
+            "news_date": "2025-08-27 20:50:19"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper publications- Notice of 30th Annual General Meeting Book Closure dates and remote e-voting information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f36ae734-8e29-41cd-a9af-5b84ed7062b0.pdf",
+            "news_date": "2025-08-27 20:43:29"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement regarding \"Saksham Niveshak\" Campaign.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62b28899-9496-4d29-93ec-cf9347c9ee6a.pdf",
+            "news_date": "2025-08-23 16:39:28"
+        },
+        {
             "sym": "HGS",
             "disp": "Hinduja Global Solutions",
             "bse_code": 532859,
@@ -168,6 +729,28 @@
             "sid": 14712,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call held on August 08 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c607eb65-0fcb-419c-8346-8baca5e0d367.pdf",
+            "news_date": "2025-08-14 18:08:25"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication for a Special Window for re-lodgement of Transfer Requests of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5679181-8b9e-4220-be53-961540c06124.pdf",
+            "news_date": "2025-08-12 17:43:20"
         },
         {
             "sym": "HGS",
@@ -194,6 +777,28 @@
             "seg": "E"
         },
         {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of earnings conference call held on August 08 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c1bd47b-f08a-45c4-8f6f-5373432797d9.pdf",
+            "news_date": "2025-08-08 20:46:17"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Extract of Consolidated Financial Results for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec02495a-5d44-4c4e-a2c2-226564989812.pdf",
+            "news_date": "2025-08-08 17:27:14"
+        },
+        {
             "sym": "HGS",
             "disp": "Hinduja Global Solutions",
             "bse_code": 532859,
@@ -216,6 +821,72 @@
             "sid": 14712,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Call Presentation attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b1358c9-efbb-4bfa-a89d-0255450f960d.pdf",
+            "news_date": "2025-08-08 15:28:03"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Updates",
+            "news_body": "Appointment of Mr. Virendra Bhatt PCS as a Secretarial Auditor for a term of 5 years.(From FY 2025-26 to FY 2029-30)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ac78dc7-e262-45b8-b748-c70dbd6d6d2c.pdf",
+            "news_date": "2025-08-06 21:42:34"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "AGM And Book Closure Dates",
+            "news_body": "AGM to be held on Thursday September 25 2025. Book closure for the purpose of AGM from September 23 2025 to September 24 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a189614c-3798-4c66-9ba7-c715267baf5b.pdf",
+            "news_date": "2025-08-06 21:22:38"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=545d7f5d-7d26-47a7-9081-610e437e1f04.pdf",
+            "news_date": "2025-08-06 21:12:05"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Letter attached. 1. Retirement of director by rotation of Mr. Paul Abraham in the ensuing AGM. 2. Appointment of Mr. Amit Saharia as non-executive director effective 25 September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f7bed7f-da52-4a7f-875b-5e74f290ab3a.pdf",
+            "news_date": "2025-08-06 20:48:51"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Letter attached. 1. Retirement of director by rotation. 2. Appointment of director. 3.Retirement/Cessation of SMPs.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6bb3573c-2a88-4d0a-b7e5-2b52c2a2579f.pdf",
+            "news_date": "2025-08-06 20:45:00"
         },
         {
             "sym": "HGS",
@@ -242,6 +913,127 @@
             "seg": "E"
         },
         {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results.",
+            "news_body": "Financial results attached for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88879cee-2bb3-45b5-8f24-3612779f17cb.pdf",
+            "news_date": "2025-08-06 20:23:54"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board meeting including financial results for the quarter ended June 30 2025 attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc426882-3620-446b-b5c8-4fc859bf7296.pdf",
+            "news_date": "2025-08-06 20:04:51"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Q1 & FY2026 Earnings Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a3c77cd-e98f-4081-82a4-01fee5615603.pdf",
+            "news_date": "2025-07-31 16:43:58"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results (Standalone And Consolidated) Of The Company For The Quarter Ended June 30 2025.",
+            "news_body": "Hinduja Global Solutions Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/08/2025 inter alia to consider and approve Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c3db77d-f0b5-4c65-94c1-fda04b3caaf3.pdf",
+            "news_date": "2025-07-28 18:09:51"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published on transfer of equity shares to IEPF.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2121ffa1-7e4c-47af-9aa0-0d60a1e93369.pdf",
+            "news_date": "2025-07-25 15:42:49"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations &\r\nDisclosure Requirements) Regulations 2015",
+            "news_body": "Letter attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdcb14ce-37db-437b-a718-08fe9dc37811.pdf",
+            "news_date": "2025-07-23 18:40:32"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation To Members - Furnishing Of PAN KYC Details And Nomination",
+            "news_body": "In terms of Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed the intimation that is being sent to the shareholders holding shares in physical mode.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97289e2a-b048-41ae-bdc8-623353639a8c.pdf",
+            "news_date": "2025-07-22 17:44:09"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Volume Movement Letter",
+            "news_body": "Response letter attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=231adb8c-4af5-43cd-86e8-c9c1a397d4f4.pdf",
+            "news_date": "2025-07-18 13:20:02"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Hinduja Global Solutions Ltd",
+            "news_body": "The Exchange has sought clarification from Hinduja Global Solutions Ltd on July 18 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-07-18 12:08:35"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find attached Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34fc73e7-fec8-4dc2-b97d-820b5b24d935.pdf",
+            "news_date": "2025-07-14 18:20:42"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdbe01c3-144f-428d-9a2b-28821a1c9e9c.pdf",
+            "news_date": "2025-06-30 15:59:42"
+        },
+        {
             "sym": "HGS",
             "disp": "Hinduja Global Solutions",
             "bse_code": 532859,
@@ -264,6 +1056,28 @@
             "sid": 14712,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call held on May 29 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9aed4f33-0d0f-4cb8-b34d-4974364b6a0a.pdf",
+            "news_date": "2025-06-04 16:21:35"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Extract of Consolidated Financial Results for the quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb4683e3-c3e8-4c99-92e7-401d0b1334bf.pdf",
+            "news_date": "2025-05-30 14:56:27"
         },
         {
             "sym": "HGS",
@@ -290,6 +1104,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Conference Call held on May 29 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fced6e4-8f34-4b28-ae6c-eaa7dcbb8d66.pdf",
+            "news_date": "2025-05-29 18:28:13"
+        },
+        {
             "sym": "HGS",
             "disp": "Hinduja Global Solutions",
             "bse_code": 532859,
@@ -312,6 +1137,204 @@
             "sid": 14712,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Call Presentation attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=720590b0-9065-4790-8e1c-e00e12d631a3.pdf",
+            "news_date": "2025-05-29 16:05:04"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Authorization To KMP For Making Disclosure Under Regulation 30.",
+            "news_body": "Disclosure attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d8923a8-b140-4001-9fb3-8519d6e9bf61.pdf",
+            "news_date": "2025-05-28 23:08:06"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Disclosure relating to appointment of CEO appointment of CFO and Cessation of CFO attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83c066a3-93c4-43c5-8e0a-caf2fa68d0bf.pdf",
+            "news_date": "2025-05-28 22:45:16"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8767dfa8-dafa-4888-8261-f6795ea80f48.pdf",
+            "news_date": "2025-05-28 22:41:27"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Audited Standalone And Consolidated Financial Results Of The Company For Year Ended March 31 2025.",
+            "news_body": "Audited Standalone and Consolidated Financial Results of the Company for year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=035f1e6c-7595-4d26-9afe-6c47dcc13c06.pdf",
+            "news_date": "2025-05-28 21:13:33"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published on transfer of equity shares to IEPF.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d001e67e-5272-47cb-a086-306ae9fb3f25.pdf",
+            "news_date": "2025-05-28 14:21:23"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76ea9279-83d8-484f-8ddd-bd131fd29e4b.pdf",
+            "news_date": "2025-05-23 17:47:13"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Q4 & FY2025 Earnings Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94b2563e-0199-4a85-a214-a3a061e609f0.pdf",
+            "news_date": "2025-05-20 18:02:36"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Audited Financial Results(Standalone And Consolidated) Of The Company.",
+            "news_body": "Hinduja Global Solutions Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2025 inter alia to consider and approve the Audited Financial Results (Standalone and Consolidated) of the Company for the quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daf7e79a-dc8f-4bd0-ba5d-3193b0a5b865.pdf",
+            "news_date": "2025-05-16 17:19:35"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "HGS Launches AI-Powered Digital CX and Data Innovation Hub in Waterloo Canada.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22960f8b-8ea2-4c78-a185-828cf6f9c973.pdf",
+            "news_date": "2025-05-12 11:56:35"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Hinduja Global Solutions Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L92199MH1995PLC084610</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>131.79</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>A</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CRISIL LTD.</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Narendra Singh <br/>  Designation: Company Secretary <br/> EmailId: narendra.singh@teamhgs.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Srinivas Palakodeti <br/> Designation: Chief Financial Officer <br/> EmailId: pala@teamhgs.com</div> </div> <div> <br/> Date: 14/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd481054-de70-4491-a9af-1688689a453f.pdf",
+            "news_date": "2025-04-14 17:26:02"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find attached certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1b7078c-3ba8-4442-9060-9996a8a6a235.pdf",
+            "news_date": "2025-04-07 17:20:16"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5549334c-2d68-4ce5-9391-8a9a869c3141.pdf",
+            "news_date": "2025-04-03 10:16:47"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (LODR)2015.",
+            "news_body": "We have to inform you that Hinduja Global Solutions Limited have incorporated a wholly owned subsidiary named HGS Digital Private Limited. Other details are provided in the attached letter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2c9e0b8-85ca-44f2-81c2-159d7fb3c53f.pdf",
+            "news_date": "2025-04-02 17:40:02"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a84344e1-f6dc-4316-a7da-bc59fb80e0aa.pdf",
+            "news_date": "2025-03-31 16:11:59"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Voting Results and Scrutinizers Report on Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a264147-7dfd-478b-bdfb-dc1f01fb47ea.pdf",
+            "news_date": "2025-03-26 18:01:11"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "Letter attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc335b1e-0389-4d1c-8d9d-c94e040476c5.pdf",
+            "news_date": "2025-03-07 17:46:15"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating Letter attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=828eda7f-e330-48a5-8f93-791789be248b.pdf",
+            "news_date": "2025-03-04 17:35:50"
         },
         {
             "sym": "HGS",
@@ -338,6 +1361,50 @@
             "seg": "E"
         },
         {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Q3 and 9M FY2025 Transcript of Earnings Conference Call held on February 18 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f300df4-7755-40ce-87bb-14f2919ef005.pdf",
+            "news_date": "2025-02-25 13:21:40"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find attached clippings of the Postal Ballot Notice and e-voting information published in newspapers.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a64e1a61-a39e-4344-bcbb-295b41fa9861.pdf",
+            "news_date": "2025-02-22 18:55:14"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Copy of Postal Ballot Notice is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43579994-cb22-4181-abe3-878c514a5364.pdf",
+            "news_date": "2025-02-21 16:39:29"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings Conference Call held today February 18 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3af3bc01-a86f-4c2d-9582-ad525314275b.pdf",
+            "news_date": "2025-02-18 20:36:28"
+        },
+        {
             "sym": "HGS",
             "disp": "Hinduja Global Solutions",
             "bse_code": 532859,
@@ -360,6 +1427,39 @@
             "sid": 14712,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Q3 and 9M FY 2024-25 Earnings Call Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a3be67e-c4f9-4b97-b2eb-4ba759b8b2e2.pdf",
+            "news_date": "2025-02-18 16:43:40"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Extract of Consolidated financial results for the quarter and nine months ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd85cabd-edb4-444d-b1a3-d59e76f63750.pdf",
+            "news_date": "2025-02-15 16:54:21"
+        },
+        {
+            "co_code": 27500,
+            "bse_code": 532859,
+            "isin": "INE170I01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "In continuation to the letter dated December 10 2024 informing about proposed merger of five US wholly owned subsidiaries with HGS CX Technologies. This merger is complete. Detailed disclosure attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=403e9130-7c5d-4637-b6e6-ffe8be6db36e.pdf",
+            "news_date": "2025-02-15 13:14:22"
         },
         {
             "sym": "HGS",
@@ -2017,6 +3117,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

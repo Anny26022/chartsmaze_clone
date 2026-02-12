@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of the Corrigendum to the Notice of 01/2025-26 Extra-Ordinary General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=865d4d1c-0131-4b41-b501-a6eba02edec1.pdf",
+            "news_date": "2026-02-07 14:50:24"
+        },
+        {
             "sym": "RBA",
             "disp": "Restaurant Brand Asia (Burger King)",
             "bse_code": 543248,
@@ -24,6 +35,50 @@
             "sid": 1494,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Investors and Analyst Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f8c82ba-0c86-4efe-929a-6d3b700e8bde.pdf",
+            "news_date": "2026-02-06 18:07:58"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Corrigendum To The Notice Of 01/2025-26 Extra-Ordinary General Meeting Of Restaurant Brands Asia Limited",
+            "news_body": "Corrigendum to the Notice of 01/2025-26 Extra-Ordinary General Meeting of Restaurant Brands Asia Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba310cec-1e07-4955-a389-860397e72e4c.pdf",
+            "news_date": "2026-02-06 17:32:48"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Amendment to Articles of Association of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db96c90f-fbcc-48a7-9040-67c3b4c09149.pdf",
+            "news_date": "2026-02-05 18:49:59"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Draft Letter of Offer",
+            "news_body": "Motilal Oswal Investment Advisors Ltd (\"Manager to the Offer\") has submitted to BSE a copy of Draft Letter of Offer to the Public Shareholders of Restaurant Brands Asia Ltd (\"Target Company\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=132C141E-C713-402D-9E2E-6D7ED4A91739-195351.pdf",
+            "news_date": "2026-02-04 19:53:54"
         },
         {
             "sym": "RBA",
@@ -50,6 +105,39 @@
             "seg": "E"
         },
         {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Investor/Analyst Con-Call Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2011522-d776-4725-821f-a00c41b6a5b4.pdf",
+            "news_date": "2026-02-04 16:44:51"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Additional Information With Respect To The Notice Of 01/2025-26 Extra-Ordinary General Meeting Dated January 20 2026 For The Extra-Ordinary General Meeting Of The Company Scheduled To Be Held On Friday February 13 2026 (EGM Notice)",
+            "news_body": "Additional Information with respect to the notice of \"01/2025-26 extra-ordinary genera meeting \" dated January 20 2026 for the extra-ordinary general meeting of the Company scheduled to be held on Friday February 13 2026 (\" EGM Notice\")",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a6c49cc-df47-414c-ad3e-38ce5e4d0ec6.pdf",
+            "news_date": "2026-02-03 21:41:51"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency report w.r.t. Utilizations of  proceeds from Qualified Institutions Placement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce0439ac-f3bf-4f80-9c57-9f2049d2d0b3.pdf",
+            "news_date": "2026-02-03 18:39:55"
+        },
+        {
             "sym": "RBA",
             "disp": "Restaurant Brand Asia (Burger King)",
             "bse_code": 543248,
@@ -72,6 +160,358 @@
             "sid": 1494,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation on Unaudited Standalone and Consolidated Financial Results of the Company for quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbe2c3da-6ad9-4dfe-9606-473cb4f85e06.pdf",
+            "news_date": "2026-02-03 18:34:42"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on the Unaudited Financial results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c962d82e-e1c6-4789-804a-c25bca2bd064.pdf",
+            "news_date": "2026-02-03 18:19:07"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Amendment to Articles of Association of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31b0d7d5-6bba-4a12-8bd1-6615f19089a2.pdf",
+            "news_date": "2026-02-03 18:06:05"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On February 03 2026",
+            "news_body": "Outcome of the Board Meeting held on February 03 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e531fda-0977-40b7-a1b4-eb26b6209f9f.pdf",
+            "news_date": "2026-02-03 17:58:46"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of equity shares of the Company under the BK Employee Stock Option Scheme 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3af9275-2de4-46d1-b5d5-347d983b055f.pdf",
+            "news_date": "2026-02-03 11:04:05"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors and Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8842abf7-188e-4ca5-b62f-db153a34aec7.pdf",
+            "news_date": "2026-01-30 13:13:47"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Receipt Of Detailed Public Statement In Relation To Open Offer",
+            "news_body": "Receipt of Detailed Public Statement in relation to Open Offer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b214b7a-a6a3-4fd9-a6d7-0deba3cd9857.pdf",
+            "news_date": "2026-01-28 14:49:11"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Detailed Public Statement",
+            "news_body": "Motilal Oswal Investment Advisors Ltd (\"Manager to the Offer\") has submitted to BSE a copy of Detailed Public Statement in terms of Regulations 3(1) and 4 read with Regulations 13(4) 14(3) and 15(2) and other applicable provisions of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations 2011 as amended from time to time to the public shareholders of Restaurant Brands Asia Ltd (\"Target Company\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18646234-C320-44C5-A2A0-D384897FEA1E-124312.pdf",
+            "news_date": "2026-01-28 12:43:27"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for SBI Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0DEB218B_FABA_46E9_8648_0F0F32278C22_094232.pdf",
+            "news_date": "2026-01-28 09:43:09"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve Unaudited Standalone And Consolidated Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Restaurant Brands Asia Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 03/02/2026 inter alia to consider and approve To Consider and approve Unaudited Standalone And Consolidated Financial Results for the quarter and Nine Months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=618a10c4-e401-49cb-a94f-bb1e1b58a1f2.pdf",
+            "news_date": "2026-01-27 20:57:58"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of the Notice of 01/2025-26 Extra-Ordinary General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7899f77f-718a-4a9d-979d-59302eb4722a.pdf",
+            "news_date": "2026-01-23 14:21:27"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Notice Of 01/2025-26 Extra-Ordinary General Meeting",
+            "news_body": "Notice of 01/2025-26 Extra-Ordinary General Meeting scheduled on February 13 2026 at 11:00 a.m.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7636dbaa-e444-4738-a2c5-13bf9336c1cf.pdf",
+            "news_date": "2026-01-22 19:21:28"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Receipt Of Public Announcement In Relation To Open Offer.",
+            "news_body": "Receipt of Public Announcement in relation to Open Offer.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=285710fd-ecf8-4471-b934-345e937f7170.pdf",
+            "news_date": "2026-01-20 22:20:06"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General",
+            "descriptor": "Open Offer",
+            "caption": "Public Announcement - Open Offer",
+            "news_body": "Motilal Oswal Investment Advisors Ltd (\"Manager to the Offer\") has submitted to BSE a copy of Public Announcement under Regulation 3(1) and Regulation 4 read with Regulations 13(1) 14 and Regulation 15(1) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations 2011 and subsequent amendments thereto for the attention of the Public Shareholders of Restaurant Brands Asia Ltd (\"Target Company\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6E7EC542-5DB2-4C0A-ABE8-4F32BF37D36B-220657.pdf",
+            "news_date": "2026-01-20 22:07:02"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Preferential Issue",
+            "caption": "Announcement under Regulation 30 (LODR)-Preferential Issue",
+            "news_body": "Preferential issue of Equity shares and warrants.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa35ca69-d800-47f3-a4b2-f756a07a69de.pdf",
+            "news_date": "2026-01-20 22:00:07"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Amendment to Articles of Association of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5597d83e-d37c-4cd6-aa0c-a1f8a19ebecb.pdf",
+            "news_date": "2026-01-20 21:54:33"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Amendment to MoA of the Company pursuant to increase in Authorised Share Capital.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7425397b-d90c-496c-9fdf-1b1c2e1e17af.pdf",
+            "news_date": "2026-01-20 21:49:12"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on the acquisition of controlling stake in the Company by Inspira Global.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa51613e-3585-4e83-af73-59c6c105c140.pdf",
+            "news_date": "2026-01-20 21:43:42"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On January 20 2026",
+            "news_body": "Outcome of the Board Meeting held on January 20 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c6bac30-4109-4113-bea1-18348c517757.pdf",
+            "news_date": "2026-01-20 21:27:31"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Order Received By The Company Under Legal Metrology Act 2009",
+            "news_body": "Order received by the Company under Legal Metrology Act 2009.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afad55da-571d-44f2-aa49-03c81c595041.pdf",
+            "news_date": "2026-01-17 12:38:09"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of The Meeting Of The Board Of Directors Of Restaurant Brands Asia Limited To Consider Proposal For Fund Raising",
+            "news_body": "Restaurant Brands Asia Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 20/01/2026 inter alia to consider and approve proposal for Fund Raising.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=911dfc62-cfbe-41a1-ba54-c4b2dc049712.pdf",
+            "news_date": "2026-01-15 20:27:29"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of the SEBI (DP) Regulations 2018 for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68b1b09e-4521-4e87-a206-8300b8047ed1.pdf",
+            "news_date": "2026-01-07 15:50:20"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window by Restaurant Brands Asia Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07ad2767-db00-431c-8fbc-3df75ae6cb90.pdf",
+            "news_date": "2025-12-29 17:59:55"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of equity shares of the Company under the BK Employee Stock Option Scheme 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e143788-ba04-4e76-a841-88b52d671b56.pdf",
+            "news_date": "2025-12-24 15:10:05"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Read With Schedule III (Para A Of Part A) Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) Regulations 2015 - order received by the Company under Food Safety and Standards Act 2006.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1bb6249-bdcb-4250-bdcd-e5b193f6aea2.pdf",
+            "news_date": "2025-12-23 10:43:46"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Amit Mahendra Sanghvi",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=D26699D6_CA48_4609_9980_3EEAB80093F8_100917.pdf",
+            "news_date": "2025-12-18 10:09:26"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Read With Schedule III (Para A Of Part A) Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) Regulation  2015- Order received by Company under Food Safety and Standards Act 2006",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa963009-0cb3-4807-88d8-bd514b623768.pdf",
+            "news_date": "2025-12-04 20:10:16"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of equity shares of the Company under the BK Employee Stock Option Scheme 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=126dffb8-439d-4bb1-8ccb-b1ed99bc748a.pdf",
+            "news_date": "2025-12-03 18:17:37"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Amansa Investment Ltd & Others",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84CC4FE0_B803_47CE_B7A0_88F02E1F9247_113620.pdf",
+            "news_date": "2025-11-28 11:36:24"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa07bae2-9142-40d0-bc8c-c3c3f0f0dec1.pdf",
+            "news_date": "2025-11-13 17:29:17"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=876d00f7-684a-4a46-b6ee-06a28c8c5d7a.pdf",
+            "news_date": "2025-11-10 13:10:34"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ff6d921-5b06-4e3e-8441-fc2303d731fc.pdf",
+            "news_date": "2025-11-10 13:08:17"
         },
         {
             "sym": "RBA",
@@ -98,6 +538,17 @@
             "seg": "E"
         },
         {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Investor Analyst Con-call transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=210d2ff1-8990-4c12-9fca-986b76076c09.pdf",
+            "news_date": "2025-11-04 17:03:40"
+        },
+        {
             "sym": "RBA",
             "disp": "Restaurant Brand Asia (Burger King)",
             "bse_code": 543248,
@@ -120,6 +571,28 @@
             "sid": 1494,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Investor/Analyst Con-Call Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a2866a7-8eb9-424c-886b-7091a1bdd2f4.pdf",
+            "news_date": "2025-10-31 15:55:33"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency report w.r.t. Utilization of Proceeds from Qualified Institutions placement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=703a08dd-1f70-4ba9-883b-193da5ffa9a6.pdf",
+            "news_date": "2025-10-30 20:07:55"
         },
         {
             "sym": "RBA",
@@ -146,6 +619,215 @@
             "seg": "E"
         },
         {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Unaudited Standalone and Consolidated Financial Results of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a68f904a-b7f0-433e-89f1-ec3adf656c29.pdf",
+            "news_date": "2025-10-30 18:05:02"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on the Unaudited Financial Results for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a96722d-7ed2-4ad9-bbc8-13321a99583b.pdf",
+            "news_date": "2025-10-30 17:31:53"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Senior Management Personnel of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6d762e8-473d-4896-b854-cfbdd417ccd1.pdf",
+            "news_date": "2025-10-30 17:22:03"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Meeting Of Board Of Directors Held On October 30 2025",
+            "news_body": "Outcome of the meeting of Board of Directors held on October 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=932cadd4-81c4-4eda-bfa2-c041c7dfcb04.pdf",
+            "news_date": "2025-10-30 17:16:37"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of equity shares of the Company under the BK Employee Stock Option scheme 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd8cc5f5-2caa-4f8b-827a-d583c98895a4.pdf",
+            "news_date": "2025-10-30 10:47:17"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors and Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ef43dbc-1057-4239-b9f0-6fa57c1fa3e3.pdf",
+            "news_date": "2025-10-24 18:38:34"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Standalone And Consolidated Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Restaurant Brands Asia Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/10/2025 inter alia to consider and approve Unaudited Standalone and Consolidated financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8e8f18e-37ed-4a2c-8d70-e674f1b81bfd.pdf",
+            "news_date": "2025-10-23 21:58:22"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under regulation 74(5) of the SEBI (DP) Regulations 2018 for the quarter ended September 302025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c637b388-230c-482e-8612-465f27a39900.pdf",
+            "news_date": "2025-10-10 19:09:56"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Chief Financial Officer and Key Managerial personnel of the Company And Cessation of Office of the Interim CFO of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a193429-d3bb-460e-aef3-b5f65e70b9e4.pdf",
+            "news_date": "2025-10-07 15:14:23"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Senior Management Personnel of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd07f36f-bc4a-4027-aac6-894461795f16.pdf",
+            "news_date": "2025-09-30 18:53:41"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of  Equity Shares pursuant to ESOP.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0aadfad-de9a-4ef6-942c-8c9d90d2db29.pdf",
+            "news_date": "2025-09-29 18:14:46"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Restaurant Brands Asia Limited has informed the Exchange regarding the Trading Window Closure pursuant to SEBI                   (Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffac618b-e7a6-4ae9-9260-cb3b8e209a57.pdf",
+            "news_date": "2025-09-26 19:07:10"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity shares pursuant to ESOP.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e034d21-f6ac-4b8a-99f5-a08ab7bb5210.pdf",
+            "news_date": "2025-09-18 17:48:50"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference to be held on September 3 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=226217cf-98d1-4c41-8d08-287bfe6886ab.pdf",
+            "news_date": "2025-08-25 13:34:53"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0eb49757-684c-4660-be00-89d88fe89128.pdf",
+            "news_date": "2025-08-25 13:25:55"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Amendment in Capital Clause of Memorandum of Association of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=192a6396-93f2-4966-a659-7132999dc39d.pdf",
+            "news_date": "2025-08-22 19:19:42"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Result of the 12th Annual General meeting held on August 21 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c68fe4e6-bae8-4817-8616-9e1d7e20f454.pdf",
+            "news_date": "2025-08-22 18:59:18"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 12th Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9124514-1893-41b5-ba80-79d69ec02201.pdf",
+            "news_date": "2025-08-21 18:42:19"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50bf85e7-6f80-4302-807d-80ca42b625f3.pdf",
+            "news_date": "2025-08-13 17:17:33"
+        },
+        {
             "sym": "RBA",
             "disp": "Restaurant Brand Asia (Burger King)",
             "bse_code": 543248,
@@ -168,6 +850,17 @@
             "sid": 1494,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Investor/Analyst Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66fb2034-fa79-4e20-9798-9a3b942126d5.pdf",
+            "news_date": "2025-08-04 18:12:24"
         },
         {
             "sym": "RBA",
@@ -194,6 +887,39 @@
             "seg": "E"
         },
         {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Investor/Analyst Con-Call Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1da53b4-582a-4496-92b9-065d0635c85a.pdf",
+            "news_date": "2025-07-31 23:07:12"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0812789-f053-4c50-9e34-6a3ceb964af7.pdf",
+            "news_date": "2025-07-31 18:43:29"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on the unaudited financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91d5f9c3-4a7f-49c2-a808-d83d0f62e97e.pdf",
+            "news_date": "2025-07-31 16:34:58"
+        },
+        {
             "sym": "RBA",
             "disp": "Restaurant Brand Asia (Burger King)",
             "bse_code": 543248,
@@ -216,6 +942,17 @@
             "sid": 1494,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Unaudited standalone and consolidated financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c38f09cb-7cbd-445e-863b-174c6606e68b.pdf",
+            "news_date": "2025-07-31 16:28:54"
         },
         {
             "sym": "RBA",
@@ -242,6 +979,193 @@
             "seg": "E"
         },
         {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Meeting Of The Board Of Directors",
+            "news_body": "Consideration and Approval of unaudited financial results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86d288dd-13a1-434f-8da1-565527cbe4cd.pdf",
+            "news_date": "2025-07-31 16:20:13"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Meeting Of Board Of Directors",
+            "news_body": "Consideration and Approval of the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81a93378-fce7-405d-9706-654dededaa61.pdf",
+            "news_date": "2025-07-31 16:07:18"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of the notice of the 12th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a42f61da-fb80-440f-b4d3-bb28bc24f598.pdf",
+            "news_date": "2025-07-29 12:11:35"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for FY 2024-25 of Restaurant Brands Asia Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d02c6424-06b2-4a1a-a81e-2ab22f0d099d.pdf",
+            "news_date": "2025-07-28 20:11:25"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report 2024-25 of Restaurant Brands Asia Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b4b10a0-d5b7-484f-a0b4-d578df094e3b.pdf",
+            "news_date": "2025-07-28 19:52:08"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 12Th Annual General Meeting Of Restaurant Brands Asia Limited",
+            "news_body": "Notice of the 12th Annual General Meeting of Restaurant Brands Asia Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffdbb0d5-494e-4195-b3e2-ce0c82d389e0.pdf",
+            "news_date": "2025-07-28 19:25:21"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of equity shares pursuant to ESOP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4707b7d8-7689-4878-9a72-d236fa229801.pdf",
+            "news_date": "2025-07-26 15:48:49"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Revised Intimation of Investors and Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7e9df1d-74e5-46e8-99a2-cefdc67c5188.pdf",
+            "news_date": "2025-07-26 12:25:53"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors and Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dec781ba-53cf-4fcf-b4e0-e91c91ad9b26.pdf",
+            "news_date": "2025-07-25 17:21:44"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of newspaper publication of information regarding 12th Annual General Meeting through Video Conferencing/ Other Audio Visual Means",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f2a586a-8283-4297-8cb2-c61c1762944f.pdf",
+            "news_date": "2025-07-25 12:15:55"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Standalone And Consolidated Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Restaurant Brands Asia Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/07/2025 inter alia to consider and approve unaudited standalone and consolidated financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75843fb4-bf13-416c-9e3c-3b441a570613.pdf",
+            "news_date": "2025-07-24 20:26:04"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Twelfth (12Th) Annual General Meeting Of Restaurant Brands Asia Limited",
+            "news_body": "Twelfth (12th) Annual General Meeting of Restaurant Brands Asia Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9742ac3a-fd0f-44f8-8b2c-252be412b9e1.pdf",
+            "news_date": "2025-07-23 15:18:15"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e297450a-bb21-48bc-a59d-e38594997dee.pdf",
+            "news_date": "2025-07-10 12:38:29"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity Shares under the BK Employee Stock Option Scheme 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbc9907c-1c52-43f3-861c-91f3811dd0e5.pdf",
+            "news_date": "2025-07-01 22:41:49"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window by Restaurant Brands Asia Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb3192a2-28c9-4dde-8c8d-e3ade4e5e101.pdf",
+            "news_date": "2025-06-26 18:10:49"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Announcement",
+            "news_body": "Receipt of Awards at Burger King International Convention",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a5496d6-13c0-425a-bdb1-f3208ca5c7b2.pdf",
+            "news_date": "2025-06-20 11:51:44"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a60560e-9960-47e7-8b57-51676a0e9a5f.pdf",
+            "news_date": "2025-05-22 15:09:14"
+        },
+        {
             "sym": "RBA",
             "disp": "Restaurant Brand Asia (Burger King)",
             "bse_code": 543248,
@@ -264,6 +1188,17 @@
             "sid": 1494,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Investor/Analyst Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8cd9848-f6c3-4a2c-abab-86e3f8b9a1b5.pdf",
+            "news_date": "2025-05-21 16:57:06"
         },
         {
             "sym": "RBA",
@@ -290,6 +1225,39 @@
             "seg": "E"
         },
         {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Investor / Analyst Con-Call Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=918e373f-a1bb-4fe2-bb97-27c246843989.pdf",
+            "news_date": "2025-05-19 20:53:21"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Secretarial Auditors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87f3e187-0743-41b8-8459-2d014ef32d59.pdf",
+            "news_date": "2025-05-19 17:59:47"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on financial results for the quarter ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b4fde27-a112-4a42-ba5e-dc449c9a1723.pdf",
+            "news_date": "2025-05-19 17:45:06"
+        },
+        {
             "sym": "RBA",
             "disp": "Restaurant Brand Asia (Burger King)",
             "bse_code": 543248,
@@ -312,6 +1280,138 @@
             "sid": 1494,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Standalone & Consolidated Financial Results For The Quarter And Year Ended On March 31 2025",
+            "news_body": "Audited Standalone & Consolidated financial results for the quarter and year ended on March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37ff3f58-6d14-4698-a2e9-8c8eed150870.pdf",
+            "news_date": "2025-05-19 17:38:21"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b81f1a3-f9a1-4fea-b985-f9429d8ef212.pdf",
+            "news_date": "2025-05-19 17:27:01"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Meeting Of The Board Of Directors Of Restaurant Brands Asia Limited",
+            "news_body": "Outcome of Meeting of the Board of Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73d30e4d-cc39-4823-a92a-fc46c4b788d1.pdf",
+            "news_date": "2025-05-19 17:19:52"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors and Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca46f7b4-2c0c-4a31-b9e8-b94447ae6033.pdf",
+            "news_date": "2025-05-14 17:07:54"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Audited Standalone And Consolidated Financial Results Of The Company For The Quarter And Financial Year Ended On March 31 2025.",
+            "news_body": "Restaurant Brands Asia Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 19/05/2025 inter alia to consider and approve the audited standalone and consolidated financial results of the Company for the quarter and financial year ended on March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8311e4d-5c69-44c8-8007-9826b462b00a.pdf",
+            "news_date": "2025-05-12 21:45:26"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2efb54c4-3fa6-4af6-942e-b22925f71907.pdf",
+            "news_date": "2025-05-06 19:53:32"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Chief Financial Officer of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05babfc9-726f-4e31-a402-10935e17e5c7.pdf",
+            "news_date": "2025-05-06 18:49:09"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity Shares under the BK Employee Stock Option Scheme 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=548735d2-5d5b-438a-86f4-76ee34c252ba.pdf",
+            "news_date": "2025-04-19 12:14:32"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Registered Office Address",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Registered Office Address",
+            "news_body": "Change in Registered Office of Restaurant Brands Asia Limited within the local limits of city where registered office of the Company is presently situated",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=737f38e4-6fbe-48b7-8fd0-7318dd3d7351.pdf",
+            "news_date": "2025-04-15 19:14:53"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 for the quarter ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01989b14-2fd5-48b0-accc-a404f912e1c3.pdf",
+            "news_date": "2025-04-15 18:26:21"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "The Company has informed the Exchange about the re-affirmation of Credit Rating and enhancement of rated amount by ICRA Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cefc307a-6d9e-4823-a74c-eeb4c736169f.pdf",
+            "news_date": "2025-04-01 14:09:39"
+        },
+        {
+            "co_code": 72552,
+            "bse_code": 543248,
+            "isin": "INE07T201019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window by Restaurant Brands Asia Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b30a2c28-a23b-4905-816e-1626c16d7e2e.pdf",
+            "news_date": "2025-03-26 21:26:25"
         },
         {
             "sym": "RBA",
@@ -2017,6 +3117,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

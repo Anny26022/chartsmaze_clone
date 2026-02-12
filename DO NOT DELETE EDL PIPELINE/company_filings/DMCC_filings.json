@@ -2,6 +2,72 @@
     "code": 0,
     "data": [
         {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper Publication of Postal Ballot Notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d511fa3-a828-4698-8827-a04a58c865b7.pdf",
+            "news_date": "2026-02-12 14:30:37"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Copy of Postal Ballot Notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38a3fbf8-ba39-42a5-9770-6d38c692c156.pdf",
+            "news_date": "2026-02-11 15:59:36"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper publication - Extract of Unaudited (Standalone and Consolidated) Financial Results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b772cf1-b431-4c04-8d49-0c0745253ced.pdf",
+            "news_date": "2026-02-09 11:38:50"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on financial performance for Q3FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26850ed2-96bf-46cf-a71d-65f52aea54ad.pdf",
+            "news_date": "2026-02-07 15:21:19"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8478fbc8-be94-43c5-9755-74821e24df54.pdf",
+            "news_date": "2026-02-06 16:19:22"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=105222b3-67ed-4b27-ab1f-b1c5abfec940.pdf",
+            "news_date": "2026-02-06 16:09:45"
+        },
+        {
             "sym": "DMCC",
             "disp": "DMCC Speciality Chemicals",
             "bse_code": 506405,
@@ -24,6 +90,127 @@
             "sid": 6973,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On February 6 2026.",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38566166-92bd-4e98-8b74-35bbdc692228.pdf",
+            "news_date": "2026-02-06 15:44:35"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On February 6 2026",
+            "news_body": "Outcome of the Board Meeting held on February 6 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6fba230-d00f-4e1b-9cdf-31ee5854963c.pdf",
+            "news_date": "2026-02-06 15:16:56"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Approval And Taking On Record The Unaudited (Standalone & Consolidated) Financial Results Of The\r\nCompany For The Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "DMCC Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/02/2026 inter alia to consider and approve and take on record the Unaudited (Standalone & Consolidated) Financial Results of the\r\nCompany for the quarter and nine months ended 31st December 2025 along with the Limited Review Reports\r\nthereon issued by the Statutory Auditors of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=921330a2-9a4f-42f4-bbbb-8108a55f8bd5.pdf",
+            "news_date": "2026-01-29 11:52:41"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30(5) Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=049af224-63e6-4782-a3a3-870ff93b94da.pdf",
+            "news_date": "2026-01-10 14:18:44"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed3754b9-6422-49ff-ac9f-55c1c59f49dd.pdf",
+            "news_date": "2026-01-10 13:58:44"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89c3d954-440b-46b8-94df-de0be2ab76be.pdf",
+            "news_date": "2026-01-10 13:51:05"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On January 10 2026.",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=292ca503-71f9-4b78-9473-ec77842c6f4e.pdf",
+            "news_date": "2026-01-10 13:45:18"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0cdc522-ebea-4dec-92bf-4b4d2f9d144f.pdf",
+            "news_date": "2026-01-07 11:13:19"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5300ccd-4426-4422-9277-5d2113dfccf8.pdf",
+            "news_date": "2025-12-15 15:18:33"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Company Secretary / Compliance Officer",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Company Secretary / Compliance Officer",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b824820-42a9-471c-b8a8-0e6a5fd5ca7b.pdf",
+            "news_date": "2025-12-03 16:24:19"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a6c9612-881c-4b1a-bb7a-85df1a3bfab4.pdf",
+            "news_date": "2025-12-01 17:01:48"
         },
         {
             "sym": "DMCC",
@@ -50,6 +237,72 @@
             "seg": "E"
         },
         {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81386964-652f-4371-981d-1799c952a0f8.pdf",
+            "news_date": "2025-11-17 10:59:57"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cef1ed6-2561-4380-bd9f-d147051aafd4.pdf",
+            "news_date": "2025-11-12 16:56:38"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f89bda1-b000-4202-8847-56044af5532f.pdf",
+            "news_date": "2025-11-12 16:38:45"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release (Revised)",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release (Revised)",
+            "news_body": "As per attachment.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=545208a8-7880-4f6f-928a-3505d69ef36f.pdf",
+            "news_date": "2025-11-12 12:54:14"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on financial performance Q2 FY25-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b1805b2-1329-4d9d-9049-a9fcebfb8b57.pdf",
+            "news_date": "2025-11-11 19:01:13"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find attached copy of newspaper advertisement- Circular in the form of Advertisement inviting Deposit (Form DPT-1).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d84151d-23c4-47ae-959e-a767dc1182c6.pdf",
+            "news_date": "2025-11-11 17:30:56"
+        },
+        {
             "sym": "DMCC",
             "disp": "DMCC Speciality Chemicals",
             "bse_code": 506405,
@@ -72,6 +325,259 @@
             "sid": 6973,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45c994ed-c1e6-4b1b-94f1-fc28d2b2e115.pdf",
+            "news_date": "2025-11-11 14:55:06"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 11.11.2025",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f325694-82ba-415f-bd0f-c88907838d8b.pdf",
+            "news_date": "2025-11-11 14:43:33"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d7a183f-9b71-4368-9060-844251fe4f65.pdf",
+            "news_date": "2025-11-07 17:15:12"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Inter-Alia To Consider Approve And Take On Record The Unaudited (Standalone & Consolidated) Financial Results Of The Company For The Quarter And Half Year Ended September 30 2025.\r\n\r\n",
+            "news_body": "DMCC Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/11/2025 inter alia to consider and approve Unaudited (Standalone & Consolidated) Financial Results of the Company for the quarter and half year ended September 30 2025 along with the Limited Review Reports thereon issued by the Statutory Auditors of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98498e41-7398-42e3-8701-c04ac4b4a845.pdf",
+            "news_date": "2025-11-03 16:51:01"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27511388-a630-4eeb-a914-097de98dc77c.pdf",
+            "news_date": "2025-10-18 14:53:51"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for shareholders of the company with respect to transfer of equity shares and dividend to IEPF.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d533484-5480-4447-99fc-e81cf197f317.pdf",
+            "news_date": "2025-10-13 16:05:35"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Change In Email-Id Of Companys Registrar And Share Transfer Agent.",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a3d320a-79bc-407c-88a5-14267b6a3ac9.pdf",
+            "news_date": "2025-10-09 17:12:29"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate in the matter of Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df193c27-84dd-48fc-9fab-11f5a218267c.pdf",
+            "news_date": "2025-10-09 12:23:16"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c42ecc45-44cc-4538-a4ff-cf60c2990659.pdf",
+            "news_date": "2025-10-07 18:30:20"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading window for the quarter and half year ending 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72a35270-3241-47ed-8102-e7b9294d760b.pdf",
+            "news_date": "2025-09-26 11:17:09"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Disclosure pursuant to Regulation 44 of the SEBI (LODR) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66468234-db6a-44e0-8cd7-60230488da90.pdf",
+            "news_date": "2025-09-11 15:40:58"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Summary of proceedings at the 104th Annual General Meeting held on Wednesday September 10 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4da43e2-cce5-4005-b523-aa00a8ce8cd3.pdf",
+            "news_date": "2025-09-10 20:11:56"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3dd3d9fa-20fa-4401-b9cc-b1930f985e6b.pdf",
+            "news_date": "2025-08-21 11:30:48"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed copies of newspaper publication regarding electronic dispatch of Annual Report for FY 2024-25 and Notice of 104th AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f0ea3f7-9d96-4102-b909-2753db100f20.pdf",
+            "news_date": "2025-08-19 12:31:35"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97bafe26-0b74-425e-9d67-ff2b077285a6.pdf",
+            "news_date": "2025-08-18 19:48:43"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b360271-8fab-42fd-ae46-98712885e168.pdf",
+            "news_date": "2025-08-18 16:26:11"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 104Th Annual General Meeting (AGM) Of The Company.",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19580455-0c04-4d64-94d7-39ea8fcda90c.pdf",
+            "news_date": "2025-08-18 15:49:46"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44420529-f105-4858-8dcd-8843c7355f8f.pdf",
+            "news_date": "2025-08-11 20:22:04"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Regulation 30 and Regulation 47(1)(b) of SEBI LODR Regulations 2015 we submit herewith the extract of Unaudited (Standalone and Consolidated) Financial Results of the company published in the newspapers.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de311a69-ee18-4a7e-a1e9-9c8ec2f3fdb0.pdf",
+            "news_date": "2025-08-11 15:09:25"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on financial performance for Q1 FY25-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8b1178d-e833-4d92-8000-1f0766384821.pdf",
+            "news_date": "2025-08-08 20:21:48"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Regulation 30 and Regulation 47 of SEBI(LODR) Regulations we enclose herewith copies of newspaper advertisement intimating that AGM of the Company is scheduled to be held on Wednesday September 10 2025 at 11:30 a.m through VC/OAVM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f079abd-276d-46d5-9eba-1dac4b3a723d.pdf",
+            "news_date": "2025-08-08 11:38:44"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": " Record Date For Payment Of Dividend Will Be Friday August 22 2025.",
+            "news_body": "As attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14207ebe-1a57-4fbc-abe2-85c4f3d6dcbb.pdf",
+            "news_date": "2025-08-07 17:31:16"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Dr. (Mrs.) Janaki Ashwin Patwardhan as an Independent Director of the Company for a second term of five consecutive years w.e.f. 21 May 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07518f1c-1870-416d-adb6-172e6fe85ddb.pdf",
+            "news_date": "2025-08-07 16:36:39"
         },
         {
             "sym": "DMCC",
@@ -98,6 +604,127 @@
             "seg": "E"
         },
         {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "As Per Attachment",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0aaff322-faff-408e-944d-fda7de4ed382.pdf",
+            "news_date": "2025-08-07 16:29:33"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39e8f356-4d15-4415-b0f8-ab564ebe4fb5.pdf",
+            "news_date": "2025-08-07 16:14:05"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "DMCC Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/08/2025 inter alia to consider and approve and take on record the Unaudited (Standalone & Consolidated) Financial Results of the Company for the Quarter ended June 30 2025 along with the Limited Review Reports thereon issued by the Statutory Auditors of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fc17afe-556e-4802-bd88-36aa0d82de82.pdf",
+            "news_date": "2025-07-30 14:32:57"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reply To Clarification With Reference To Movement In Volume Sought By BSE Limited.",
+            "news_body": "As attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62179532-8ed6-4d9e-b09e-b6a0567145e9.pdf",
+            "news_date": "2025-07-16 13:07:26"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from DMCC Speciality Chemicals Ltd",
+            "news_body": "The Exchange has sought clarification from DMCC Speciality Chemicals Ltd on July 16 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-07-16 12:42:42"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc6bc05b-e097-44d2-bebe-60d11ce42e6d.pdf",
+            "news_date": "2025-07-07 12:10:35"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Advertisement for Shareholders of the Company with respect to transfer of equity shares to Investor Education and Protection Fund (IEPF).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f4f33cc-22e7-4554-a86d-8b87aa4111c2.pdf",
+            "news_date": "2025-07-03 14:45:59"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure for quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9dbd2ff0-8611-40ed-ba16-196621ea6de4.pdf",
+            "news_date": "2025-06-25 15:42:04"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a917613-4c8b-4a15-9563-7cf49ef8c50d.pdf",
+            "news_date": "2025-05-23 18:31:25"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a3a4043-347d-4c85-8b35-34ce2f3ee6b1.pdf",
+            "news_date": "2025-05-16 17:02:34"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General- Updates",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=046b27dc-032a-4e3d-accc-fc632106f45c.pdf",
+            "news_date": "2025-05-14 17:01:27"
+        },
+        {
             "sym": "DMCC",
             "disp": "DMCC Speciality Chemicals",
             "bse_code": 506405,
@@ -120,6 +747,28 @@
             "sid": 6973,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Conference Call  with investors and analysts held on 8th May 2025 on financial performance Q4FY25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c2874c3-48db-4ded-b1c3-3fd1f98c30dc.pdf",
+            "news_date": "2025-05-12 17:09:51"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecfb3299-4292-4e08-8d26-727088186648.pdf",
+            "news_date": "2025-05-08 17:33:50"
         },
         {
             "sym": "DMCC",
@@ -146,6 +795,182 @@
             "seg": "E"
         },
         {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q4FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdb7514d-52c7-4a66-9ec2-583d498cb53a.pdf",
+            "news_date": "2025-05-07 18:58:34"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper Publication- Extract of Audited ( Standalone and Consolidated) Financial Results for the quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f4c8812-c3cf-4a2f-b5f0-8e762991efa4.pdf",
+            "news_date": "2025-05-07 15:23:09"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c19edd93-3745-4e8d-a322-f1a875b46f72.pdf",
+            "news_date": "2025-05-05 20:10:49"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating Intimation under Regulation 30 of SEBI(LODR) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8036ca75-a952-4633-a539-68e35d5a6343.pdf",
+            "news_date": "2025-05-05 18:26:52"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "As attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cf240f0-f95f-47a9-8a0e-6cafff3b7ae2.pdf",
+            "news_date": "2025-05-05 16:02:59"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On May 05 2025",
+            "news_body": "As attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=840183aa-ae07-459e-88de-26098b292a8f.pdf",
+            "news_date": "2025-05-05 15:56:35"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30(6) of the SEBI (Listing Obligation and Disclosure Requirements) Regulation 2015 we wish to inform you that the Earnings Conference Call on the financial performance of Q4FY25 with investors and analysts will be held on Thursday May 08 2025 at 3.00 p.m. (IST).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35ba659d-b7ba-43c5-b35d-acba93582088.pdf",
+            "news_date": "2025-05-02 20:02:17"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>DMCC Speciality Chemicals Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L24110MH1919PLC000564</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>54.02</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>BBB+</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CRISIL LTD.</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Sonal Naik <br/>  Designation: Company Secretary and Compliance Officer <br/> EmailId: investor@dmcc.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Sunil Kumar Goyal <br/> Designation: Chief Finance Officer <br/> EmailId: sgoyal@dmcc.com</div> </div> <div> <br/> Date: 29/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9d310a7-44cc-413b-907c-64f43baf63c5.pdf",
+            "news_date": "2025-04-29 17:56:45"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Audited (Standalone & Consolidated) Financial Results Of The Company For The Quarter And Year Ended  And Recommendation Of Final Dividend If Any For The Year Ended March 31 2025.",
+            "news_body": "DMCC Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/05/2025 inter alia to consider and approve a)The Audited (Standalone & Consolidated) Financial Results of the Company for the Quarter and Year ended March 31 2025.\r\n\r\nb)Recommendation of Final Dividend if any for the year ended March 31 2025 for the approval of the shareholders at the ensuing 104th Annual General Meeting of the Company.\r\n \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4b1f512-6eb4-4109-8348-600e1fa88904.pdf",
+            "news_date": "2025-04-25 14:54:02"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate in the matter of Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40267386-e1ac-4cc1-a672-c9ad76e6959c.pdf",
+            "news_date": "2025-04-07 14:56:33"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33ddabf9-73c6-4356-8944-f25551c46600.pdf",
+            "news_date": "2025-03-26 16:18:03"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Submission Of Newspaper Publication",
+            "news_body": "Submission of Newspaper Publication- Extract of Unaudited Financial Results for the quarter ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19e37cf4-a1a1-494f-bf78-92354a8414cf.pdf",
+            "news_date": "2025-02-14 12:30:32"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reappointment Of Internal Auditor.",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24eac9e6-6e6e-4d80-97a6-657cacc22bde.pdf",
+            "news_date": "2025-02-13 11:27:44"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c0751be-c2a1-4312-932b-d9602615ba29.pdf",
+            "news_date": "2025-02-12 19:52:28"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3531ac3d-7ea0-42cf-ac97-ce4f2af72fb0.pdf",
+            "news_date": "2025-02-12 16:14:28"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 12.02.2025",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b92d0156-c652-4dbc-a640-520be4c15199.pdf",
+            "news_date": "2025-02-12 15:25:40"
+        },
+        {
             "sym": "DMCC",
             "disp": "DMCC Speciality Chemicals",
             "bse_code": 506405,
@@ -168,6 +993,138 @@
             "sid": 6973,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting Held On 12.02.2025",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a1976eb-2720-4c88-bb58-4c6d4cd01be2.pdf",
+            "news_date": "2025-02-12 15:16:44"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting Pursuant To Regulation 29 Of The SEBI (LODR) Regulations 2015.",
+            "news_body": "DMCC Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2025 inter alia to consider and approve Pursuant to the provisions of  Regulation 29 and other applicable provisions if any of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 we wish to inform you that a meeting of Board of Directors of the Company is scheduled to be held on Wednesday February 12 2025 inter-alia to consider approve and take on record the Unaudited (Standalone & Consolidated) Financial Results of the Company for the quarter and nine months ended 31st  December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93d79eb7-dbdc-4e73-816e-5ac3f68686d4.pdf",
+            "news_date": "2025-02-04 13:12:17"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ending December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57f15fee-d39b-48b5-86a6-d3391c90eac2.pdf",
+            "news_date": "2025-01-15 15:09:45"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change Of Name Of CompanyS Registrar And Transfer Agent (RTA) From Link Intime India Private Limited To MUFG Intime India Private Limited",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15098470-63f8-40f2-b2aa-0ed246ff6d03.pdf",
+            "news_date": "2025-01-02 10:24:25"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Issue of Duplicate Certificate / Letter of Confirmation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed3c4417-9324-4ea1-b53e-6800729e6314.pdf",
+            "news_date": "2024-12-09 16:56:28"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bfa34c0-a636-44ee-a8d5-cad5ea849025.pdf",
+            "news_date": "2024-11-28 18:45:51"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation for Loss of Share Certificates.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b967804e-7712-469a-8f77-7b5cde165ea7.pdf",
+            "news_date": "2024-11-25 12:08:55"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper publication for circular in the form of Advertisement inviting Deposit (Form DPT-1)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44e4e535-e76a-43c5-b06e-8888225405e7.pdf",
+            "news_date": "2024-11-20 13:46:23"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation for issue of Duplicate Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a4aaa61-9401-4546-a90f-a6f4fdab82e4.pdf",
+            "news_date": "2024-11-18 18:15:09"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation for Loss of Share Certificates.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8ee2249-084d-49b5-bb88-f592ea0881c9.pdf",
+            "news_date": "2024-11-11 11:05:33"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificates.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65efe3db-7595-4cdb-aa90-629aa4840c13.pdf",
+            "news_date": "2024-11-07 11:51:14"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdb237d5-3bbb-44e5-b27e-2019b4b9c05b.pdf",
+            "news_date": "2024-11-06 16:33:02"
         },
         {
             "sym": "DMCC",
@@ -194,6 +1151,50 @@
             "seg": "E"
         },
         {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of conference call held on October 30, 2024 on the financial performance of Q2FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa8bdfd2-317d-462a-a93c-7f5e96cc6884.pdf",
+            "news_date": "2024-11-04 18:42:32"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6362fbd7-7a92-4101-9d07-43034613eb9e.pdf",
+            "news_date": "2024-10-30 18:39:53"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5b3e1bc-2345-4e4e-b656-0cf3bcfa39e6.pdf",
+            "news_date": "2024-10-29 13:47:37"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=566989fd-695f-44fa-b742-66346bc13f7b.pdf",
+            "news_date": "2024-10-28 18:50:13"
+        },
+        {
             "sym": "DMCC",
             "disp": "DMCC Speciality Chemicals",
             "bse_code": 506405,
@@ -216,6 +1217,105 @@
             "sid": 6973,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting Held On 28.10.2024",
+            "news_body": "As per the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=824d484c-3bcd-4803-93ac-80951bd0e287.pdf",
+            "news_date": "2024-10-28 15:12:00"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 28.10.2024",
+            "news_body": "As per the attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56d441a1-28f3-4c65-b484-7e66cee3f931.pdf",
+            "news_date": "2024-10-28 15:07:38"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Conference Call on the financial performance of Q2 & H1 FY25 with investors and analysts.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c958f8f-6aef-4fd6-8b01-5afa637469f2.pdf",
+            "news_date": "2024-10-25 17:15:32"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificates.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8fa6802-8955-47a9-a576-5398f6da7077.pdf",
+            "news_date": "2024-10-24 17:22:58"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Meeting Of Board Of Directors Is Scheduled To Be Held On Monday, October 28, 2024.",
+            "news_body": "DMCC Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/10/2024 ,inter alia, to consider and approve and take on record the Unaudited (Standalone & Consolidated) Financial Results of the Company for the quarter and half year ended September 30, 2024 along with the Limited Review Reports thereon issued by the Statutory Auditors of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46dce3a1-52f0-4dbb-98cd-7584d5223f34.pdf",
+            "news_date": "2024-10-16 12:32:14"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "As per attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2796459-2898-4bc8-a136-aa5e4b215851.pdf",
+            "news_date": "2024-10-08 15:34:38"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation for Loss of Share Certificates.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82d7edec-ffb6-49b4-bab7-8227778d61a4.pdf",
+            "news_date": "2024-09-26 14:02:55"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32832408-7a48-4bc3-9d80-7a6ab1f3b9b8.pdf",
+            "news_date": "2024-09-24 12:23:43"
+        },
+        {
+            "co_code": 140,
+            "bse_code": 506405,
+            "isin": "INE505A01010",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Disclosure with respect to the completion of the second consecutive term of Shri Madhu Thakorlal Ankleshwaria as a Non-Executive Independent Director of the Company w.e.f. close of business hours of September 16, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbc4c714-5b0a-49b2-8028-d1213c0c8d76.pdf",
+            "news_date": "2024-09-16 13:42:04"
         },
         {
             "sym": "DMCC",
@@ -1369,6 +2469,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

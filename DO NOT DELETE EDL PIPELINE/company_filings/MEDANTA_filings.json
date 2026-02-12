@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 (LODR)- Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6a95ef0-3604-437d-a06f-822002306f5d.pdf",
+            "news_date": "2026-02-11 12:22:47"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice dated February 04 2026 for seeking approval of the Members of Global Health Limited as enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4669007e-50c8-45d2-a7fd-2e24aacdd8a7.pdf",
+            "news_date": "2026-02-10 13:08:14"
+        },
+        {
             "sym": "MEDANTA",
             "disp": "Global Health",
             "bse_code": 543654,
@@ -24,6 +46,17 @@
             "sid": 11956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Announcement Under Regulation 30 of Listing Regulations for Earning Conference Call Transcript.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=641cd536-0635-4c04-baa1-dcae9e1ba0e9.pdf",
+            "news_date": "2026-02-09 18:21:48"
         },
         {
             "sym": "MEDANTA",
@@ -50,6 +83,28 @@
             "seg": "E"
         },
         {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015- Audio Recording.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5562a40-10d1-4ca5-839a-6100ad2261da.pdf",
+            "news_date": "2026-02-05 16:55:55"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication under Regulation 30 and 47 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3885a06-92fd-4c86-aabb-15503f4240f6.pdf",
+            "news_date": "2026-02-05 12:14:15"
+        },
+        {
             "sym": "MEDANTA",
             "disp": "Global Health",
             "bse_code": 543654,
@@ -72,6 +127,39 @@
             "sid": 11956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the third quarter and nine months ended December 31 2025 results of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=671e9c31-e50a-4a7c-8e76-035eec62403f.pdf",
+            "news_date": "2026-02-04 18:22:21"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the third Quarter and nine months ended December 31 2025 results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7d94bd5-1ea8-4147-ac3e-9b418ed8086c.pdf",
+            "news_date": "2026-02-04 18:17:04"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Announcement regarding Change in Management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1eca3a4e-68b8-4513-aa6c-6783c5280205.pdf",
+            "news_date": "2026-02-04 16:11:23"
         },
         {
             "sym": "MEDANTA",
@@ -98,6 +186,303 @@
             "seg": "E"
         },
         {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For Third Quarter And Nine Months Ended December 31 2025.",
+            "news_body": "Financial Results for Third Quarter and Nine Months ended on December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db699c75-30e7-4bfa-aacc-8619682c718f.pdf",
+            "news_date": "2026-02-04 15:57:32"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Intimation Under Regulation 30 Of Listing Regulations.",
+            "news_body": "Outcome of Board Meeting held on February 04 2026 to consider unaudited financial results for third Quarter and Nine-months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b98c7b89-332c-499d-83e8-b171b1a0b788.pdf",
+            "news_date": "2026-02-04 15:48:38"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "It is informed that Nomination and Remuneration Committee in its meeting held today i.e. February 03 2026 has made a grant of 4000 options under GHL LTIP Plan 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea7dba4d-583f-4a6c-b569-d11a7abc998d.pdf",
+            "news_date": "2026-02-03 15:17:27"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Earning Conference Call under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f824edce-9b83-46da-a5ab-aee3269e3bf9.pdf",
+            "news_date": "2026-01-30 15:17:42"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Schedule Of Board Meeting For Third Quarter And Nine-Months Ended December 31 2025 Under Regulation 29 Of Listing Regulations.",
+            "news_body": "Global Health Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/02/2026 inter alia to consider and approve Unaudited Financial Results for Third quarter and Nine-Months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f20d2bc-4460-4544-82c0-b15224743d83.pdf",
+            "news_date": "2026-01-24 15:11:48"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e6d451b-7f58-44c0-a527-35a9d72c3c4d.pdf",
+            "news_date": "2026-01-09 17:48:33"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - ESG Rating Assigned By SES ESG Research Private Limited.",
+            "news_body": "Intimation Under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015 (Listing Regulations)-ESG Rating Assigned by SES ESG Research Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd1a2edf-41ab-43c9-a8b0-e57a5bec1457.pdf",
+            "news_date": "2026-01-07 17:33:33"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding Closure of Trading Window for third quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f44ea83-f46f-4752-9dc0-6bbef293e8ff.pdf",
+            "news_date": "2025-12-26 16:19:49"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of Credit Rating by CRISIL.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2de53e14-4918-4a86-a480-38ec7b3caf5c.pdf",
+            "news_date": "2025-12-16 17:38:08"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under SEBI Listing regulations regarding schedule of  analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b9dfe40-bad2-4c26-af6f-af7a824c1f49.pdf",
+            "news_date": "2025-12-16 16:56:15"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing regulations related to  Analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=400baa77-6bd0-4990-bb1f-fed93ee00207.pdf",
+            "news_date": "2025-12-15 12:42:57"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations related to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=885e7143-f6f2-4c6f-ba85-d6577ab41156.pdf",
+            "news_date": "2025-12-09 16:20:49"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations related to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f427fbe6-c8c8-42eb-b9b8-bf271817ddc3.pdf",
+            "news_date": "2025-12-05 17:10:12"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation30 of Listing Regulations related to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81f14ae7-e85e-4d25-8b2a-bba82cdff8ac.pdf",
+            "news_date": "2025-12-03 17:57:49"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release dated November 27 2025 in respect of Inauguration of 550 bed super speciality hospital in Noida.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3577ea87-0e01-4f61-8a57-87f28aa277bf.pdf",
+            "news_date": "2025-11-27 16:17:20"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c9fbe97-505e-4c56-90b7-b706542d7559.pdf",
+            "news_date": "2025-11-17 17:06:33"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9a3b497-acc9-436a-8ca8-6126680b80f0.pdf",
+            "news_date": "2025-11-17 17:05:07"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57b58b99-84a6-4412-ba89-75dfcf7b1c8f.pdf",
+            "news_date": "2025-11-17 17:03:25"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e644a3e-b5b7-4f1a-ac44-507005f796a4.pdf",
+            "news_date": "2025-11-17 17:01:10"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8514d36-6761-4cdd-bd75-08352ebc159c.pdf",
+            "news_date": "2025-11-17 16:59:10"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7953600f-a677-4c56-b454-2098d72e1031.pdf",
+            "news_date": "2025-11-17 16:57:15"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0ab6b35-c25a-4f32-956a-15250619c4f5.pdf",
+            "news_date": "2025-11-17 16:53:55"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Announcement under Regulation 30 of Listing Regulations for Earning conference call transcript for second quarter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14999192-6278-44d6-b6df-03d41c7ef1f6.pdf",
+            "news_date": "2025-11-13 18:13:03"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03cf59d3-aee9-43ae-97bf-a1157c960454.pdf",
+            "news_date": "2025-11-11 11:51:06"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14169648-c0fd-4d34-b4e1-296b26c5cc95.pdf",
+            "news_date": "2025-11-11 11:47:07"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55f55f28-506f-4648-96fe-b1bd7637ea73.pdf",
+            "news_date": "2025-11-11 11:43:21"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e68edb2c-1ba1-47a9-8d86-6ff95fd6ec7e.pdf",
+            "news_date": "2025-11-11 11:37:51"
+        },
+        {
             "sym": "MEDANTA",
             "disp": "Global Health",
             "bse_code": 543654,
@@ -120,6 +505,50 @@
             "sid": 11956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81fff0c8-c689-4344-9482-abb2283f188b.pdf",
+            "news_date": "2025-11-10 16:21:17"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication under Regulation 30 and 47 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0af900f-0275-4268-af8e-70a68950dd51.pdf",
+            "news_date": "2025-11-08 11:09:36"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation30 of Listing Regulations related to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b99f90f1-4c48-4243-aeea-c9af122c0e25.pdf",
+            "news_date": "2025-11-07 19:20:22"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations related to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=446bd57d-f2a1-4c70-981c-995ad26b0d36.pdf",
+            "news_date": "2025-11-07 19:12:31"
         },
         {
             "sym": "MEDANTA",
@@ -146,6 +575,39 @@
             "seg": "E"
         },
         {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Copy of Investor Presentation for the quarter and half year ended September 30 2025 results of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cba293c-0bbe-48aa-926e-bb35585c2505.pdf",
+            "news_date": "2025-11-07 17:58:12"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the Second quarter & half year ended September 30 2025 results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=000a96ce-2baa-490a-886f-f31f77811c1f.pdf",
+            "news_date": "2025-11-07 17:48:09"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of Listing Regulations.",
+            "news_body": "Announcement under Regulation 30 of Listing Regulations for capacity addition at proposed Hospital in Mumbai.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6498bb2-74ba-4903-9216-984eb9445bda.pdf",
+            "news_date": "2025-11-07 16:56:26"
+        },
+        {
             "sym": "MEDANTA",
             "disp": "Global Health",
             "bse_code": 543654,
@@ -168,6 +630,413 @@
             "sid": 11956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter & Half Year Ended September 30 2025",
+            "news_body": "Results for the Quarter & Half Year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e4a3349-978c-483e-8335-ca2ac575f5d3.pdf",
+            "news_date": "2025-11-07 16:46:40"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Intimation Under Regulation 30 Of SEBI Listing Regulation",
+            "news_body": "Outcome of Board Meeting held on November 07 2025 to consider unaudited financial Results for the Quarter & Half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8478dbfa-fe1d-4080-9c92-89c1f4fa88d6.pdf",
+            "news_date": "2025-11-07 16:25:13"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Announcement regarding change in Management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd977ff8-c088-4ee2-821d-69851e6f129f.pdf",
+            "news_date": "2025-11-06 12:34:06"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Earning Conference Call under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a88c983-e05d-4258-92f4-0839113adcad.pdf",
+            "news_date": "2025-11-01 17:40:16"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release in respect of Bhoomi Poojan of its Upcoming Hospital in Guwahati",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f00fb0f4-251c-4706-8c3f-5dffe1151e39.pdf",
+            "news_date": "2025-10-31 16:01:55"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Schedule Of Board Meeting For Second Quarter And Half Year Ended September 30 2025 Under Regulation 29 Of Listing Regulations",
+            "news_body": "Global Health Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/11/2025 inter alia to consider and approve Unaudited Financial Results for second quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d023c185-2a08-41db-af9c-a88cdecfb5d4.pdf",
+            "news_date": "2025-10-28 17:59:47"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " Announcement Under Regulation 30 Of Listing Regulations.",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to update on earlier communication related to Assam Land.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36fcfd16-95fb-4953-891a-9686107779da.pdf",
+            "news_date": "2025-10-25 11:15:47"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69c53f70-d856-418a-a40a-67fe567c1954.pdf",
+            "news_date": "2025-10-17 18:53:44"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Disclosure under Regulation 30A of LODR",
+            "news_body": "Intimation of Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7920b77-cd62-48a3-a451-32c1b8a35861.pdf",
+            "news_date": "2025-10-17 18:44:47"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73186411-e8f7-4b8c-95cb-ec3aca8df8eb.pdf",
+            "news_date": "2025-10-07 15:46:51"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations) - ESG Rating Assigned By CRISIL",
+            "news_body": "The relevant disclosure is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bf001c5-b40e-412f-802a-5b076a30878f.pdf",
+            "news_date": "2025-10-07 12:01:07"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Disclosures under Reg. 29(1) & 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) & 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Sunil Sachdeva",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3DCBF4B3_22B6_4386_8628_2F2C0B5EF169_113418.pdf",
+            "news_date": "2025-10-04 11:34:23"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20a3d739-4780-45a5-841e-a9c355ee855c.pdf",
+            "news_date": "2025-09-25 17:07:46"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding Closure of Trading Window for second quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39ab852d-fb8a-489e-9ffa-1f079a227176.pdf",
+            "news_date": "2025-09-25 12:27:54"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a4fefad-ccf0-4cac-90ff-ccd92f190887.pdf",
+            "news_date": "2025-09-24 17:22:11"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8e9df08-945a-46c9-8665-e7f557b6d99c.pdf",
+            "news_date": "2025-09-24 17:19:35"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Enclosed Scrutinizer Report and Voting Results of 21st Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=beb832f5-a4b9-4bab-89f6-9e64204798e0.pdf",
+            "news_date": "2025-09-19 19:19:33"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 21st Annual General Meeting of the Company held on September 19 2025 at 12:00 Noon.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f929865-351b-492f-bc6d-6b76ce01c4ca.pdf",
+            "news_date": "2025-09-19 15:25:05"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cd5c71a-8b36-48e7-a4ba-a7739f94d73b.pdf",
+            "news_date": "2025-09-17 11:29:20"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e5ab0d6-2780-46b6-b5eb-ec61acf8c753.pdf",
+            "news_date": "2025-09-17 11:23:41"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=516dae29-7b88-404e-89a9-595c4a12b37f.pdf",
+            "news_date": "2025-09-10 18:25:37"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation relating to analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d05722ed-3b92-45c6-8bbf-3cd6ba859d4d.pdf",
+            "news_date": "2025-09-09 15:31:52"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing regulation relating to analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4ac4600-dbf5-4ea3-8cc0-82bca0aaf6e0.pdf",
+            "news_date": "2025-09-09 15:26:15"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of Listing Regulations",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to update on earlier communication related to Assam Land.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8457e6d4-2d2b-445f-9e0f-a8145f3282df.pdf",
+            "news_date": "2025-09-04 15:41:37"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of Listing Regulations",
+            "news_body": "It is hereby informed that the Noida Hospital of the Company has commenced its operations effective from today.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7434b50b-e636-4a94-ab8a-cf0b8ea91dec.pdf",
+            "news_date": "2025-09-01 22:39:00"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b1510c9-b0ae-4bd5-a641-ad1ea2c64685.pdf",
+            "news_date": "2025-08-29 19:10:01"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ece830c1-da0a-40b1-912a-70a73e29f2bb.pdf",
+            "news_date": "2025-08-29 19:08:26"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b51f833b-a12f-4cc3-ab83-165fc3d37985.pdf",
+            "news_date": "2025-08-29 19:07:14"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a701deb1-d00d-4828-b901-f52a7d4bf891.pdf",
+            "news_date": "2025-08-29 19:06:01"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e83276b-3529-4261-9539-c5eca0a02760.pdf",
+            "news_date": "2025-08-29 18:29:01"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Post Dispatch Advertisement for Annual General Meeting for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21b0c001-d11c-4dfc-a220-91397a175101.pdf",
+            "news_date": "2025-08-26 12:30:04"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholders Providing The Weblink Of Annual Report For The FY 2024-25",
+            "news_body": "Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd83e5d6-2e08-4e62-988d-fb6260f48d07.pdf",
+            "news_date": "2025-08-26 12:24:05"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation relating to Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2d89324-09f4-40f3-93f4-08c7cb349025.pdf",
+            "news_date": "2025-08-25 19:24:09"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report along with Reasonable Assurance Report for the Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0467cf8-d609-4ec3-8852-312242b2a206.pdf",
+            "news_date": "2025-08-25 16:13:59"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 21St Annual General Meeting Scheduled To Be Held On Friday September 19 2025 Through Video Conferencing (VC)/ OAVM For The Financial Year 2024-25.",
+            "news_body": "Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44202697-2f6b-418f-8662-3f842d3710ec.pdf",
+            "news_date": "2025-08-25 16:04:11"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Please find enclosed herewith the Annual Report along with BRSR and AGM Notice for Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abbcefa8-6156-4dd1-9714-a21c86379f8b.pdf",
+            "news_date": "2025-08-25 16:00:37"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Pre-advertisement of AGM 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74f13227-0f5f-43aa-a864-9ae07d480a78.pdf",
+            "news_date": "2025-08-19 12:18:26"
         },
         {
             "sym": "MEDANTA",
@@ -194,6 +1063,72 @@
             "seg": "E"
         },
         {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Announcement under Regulation 30 of Listing Regulations for Earning conference call transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc62db92-8713-4004-9c6b-57830fb77537.pdf",
+            "news_date": "2025-08-15 22:47:19"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation for Schedule of Analysts/Institutional Investors Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88050c47-ac07-42ee-9ceb-19006064b378.pdf",
+            "news_date": "2025-08-12 15:35:23"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation for Schedule of Analysts/Institutional Investors Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b2bc48a-78c6-4d69-afba-d97ceee3d25d.pdf",
+            "news_date": "2025-08-11 14:36:23"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation for Schedule of Analysts/Institutional Investors Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1f703c9-f742-4c30-813d-13b9e55b4c66.pdf",
+            "news_date": "2025-08-11 14:32:55"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation for Schedule of Analysts/Institutional Investors Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c49d439-dbeb-454b-93e4-dc27a0752a1a.pdf",
+            "news_date": "2025-08-11 14:30:34"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation for Schedule of Analysts/Institutional Investors Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c943781-5785-42d8-9a6a-2b96c269d012.pdf",
+            "news_date": "2025-08-11 14:26:25"
+        },
+        {
             "sym": "MEDANTA",
             "disp": "Global Health",
             "bse_code": 543654,
@@ -216,6 +1151,39 @@
             "sid": 11956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31aff472-7c2c-4f15-983c-e48f1dae155d.pdf",
+            "news_date": "2025-08-08 17:47:57"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication under Regulation 30 and 47 of Listing Regulation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=751bfcf7-f0c8-4d5b-a08c-34a4c86fd76a.pdf",
+            "news_date": "2025-08-08 14:42:13"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the first quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aea82db0-7fbb-498e-b41d-4cd20998dfc5.pdf",
+            "news_date": "2025-08-07 18:43:31"
         },
         {
             "sym": "MEDANTA",
@@ -242,6 +1210,61 @@
             "seg": "E"
         },
         {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=522523ba-0b14-4235-beb5-5290db200bb5.pdf",
+            "news_date": "2025-08-07 18:41:08"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Date of payment of Dividend",
+            "caption": "Announcement under Regulation 30 (LODR)-Date of payment of Dividend",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation regarding dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de2aa591-03f4-46c2-9ca8-f71e6a92efc3.pdf",
+            "news_date": "2025-08-07 17:08:25"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Fixation Of Record Date For Declaration Of Dividend",
+            "news_body": "It is informed that Company has fixed August 22 2025 as record date for the declaration of dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef7869a6-0ddc-4c24-bcc5-06ca0ae88d8c.pdf",
+            "news_date": "2025-08-07 16:52:13"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation for appointment of Secretarial Auditor for a term of 5 years.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c286dc50-1e52-480e-8f92-976398ea3713.pdf",
+            "news_date": "2025-08-07 16:44:04"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Intimation under Regulation 30 of Listing Regulation regarding re-appointment of Directors.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccd37381-da74-4cfb-afae-b937a70025e2.pdf",
+            "news_date": "2025-08-07 16:40:18"
+        },
+        {
             "sym": "MEDANTA",
             "disp": "Global Health",
             "bse_code": 543654,
@@ -264,6 +1287,83 @@
             "sid": 11956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter Ended June 30 2025",
+            "news_body": "Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ec937a9-b8ae-4b4b-8a12-a9739c782cf2.pdf",
+            "news_date": "2025-08-07 16:32:43"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for  Board Meeting Outcome For Intimation Under Regulation 30 Of SEBI Listing Regulation",
+            "news_body": "Outcome of Board Meeting held on August 07 2025 to consider Unaudited Financials Result for Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c7d5487-23e9-4b00-93a9-a1c22361d658.pdf",
+            "news_date": "2025-08-07 16:09:53"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "It is informed that the Nomination and Remuneration Committee in its meeting held on August 06 2025 has made a grant of 10000 ESOPs under GHL LTIP PLAN 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8cbb637-0ffd-4c93-a3e9-a1bee626ed35.pdf",
+            "news_date": "2025-08-06 15:21:20"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Earning Conference Call under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9db2cab7-3793-45f6-96d6-2e8b346a314d.pdf",
+            "news_date": "2025-08-02 12:55:46"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Under Regulation 29 Of Listing Regulations",
+            "news_body": "Global Health Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/08/2025 inter alia to consider and approve Unaudited Financial Results for quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ed04be5-d800-45bd-9e81-18f359d1d1dc.pdf",
+            "news_date": "2025-07-29 11:18:18"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations for allotment of equity shares under Global Health Limited Long Term Share Based Incentive Plan 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8deb61f-392c-4de0-bee1-1f38a8e2f873.pdf",
+            "news_date": "2025-07-24 17:28:47"
+        },
+        {
+            "co_code": 34649,
+            "bse_code": 543654,
+            "isin": "INE474Q01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations)",
+            "news_body": "Intimation under Regulation 30 of Listing Regulations relating to  update on earlier communications regarding Assam Land.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd66638c-88b2-4066-a94b-a5e5b7ce56dc.pdf",
+            "news_date": "2025-07-24 17:23:36"
         },
         {
             "sym": "MEDANTA",
@@ -1297,6 +2397,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

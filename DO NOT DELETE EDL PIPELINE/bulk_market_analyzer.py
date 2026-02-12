@@ -1,5 +1,6 @@
 import json
 import csv
+import os
 
 def get_float(value_str):
     try:
@@ -21,9 +22,14 @@ def get_value_from_pipe_string(pipe_string, index):
     return 0.0
 
 def analyze_all_stocks():
-    input_file = "fundamental_data.json"
-    output_file = "all_stocks_fundamental_analysis.json"
-    
+    # Paths relative to script
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    # BASE_DIR is defined globally
+    input_file = os.path.join(BASE_DIR, "fundamental_data.json")
+    # output_file is defined globally as OUTPUT_FILE
+    ADVANCED_FILE = os.path.join(BASE_DIR, "advanced_indicator_data.json")
+    output_file = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
+
     print("Loading fundamental data...")
     try:
         with open(input_file, "r") as f:
@@ -34,37 +40,45 @@ def analyze_all_stocks():
 
     # Load Listing Dates from NSE CSV
     listing_date_map = {}
+    csv_path = os.path.join(BASE_DIR, "nse_equity_list.csv")
     try:
-        with open("nse_equity_list.csv", "r") as f:
+        with open(csv_path, "r") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                # Map Symbol -> Date of Listing
-                # CSV Headers: SYMBOL,NAME OF COMPANY, SERIES, DATE OF LISTING,...
                 sym = row.get("SYMBOL")
-                date_list = row.get(" DATE OF LISTING") # Note: CSV might have leading space
-                if not date_list:
-                     date_list = row.get("DATE OF LISTING") # Try without space
-                
+                date_list = row.get(" DATE OF LISTING") or row.get("DATE OF LISTING")
                 if sym and date_list:
                     listing_date_map[sym] = date_list
         print(f"Loaded listing dates for {len(listing_date_map)} symbols.")
     except FileNotFoundError:
-        print("Warning: nse_equity_list.csv not found. Listing dates will be N/A.")
+        print("Warning: nse_equity_list.csv not found.")
 
     # Load Technical Data from Dhan Response
     dhan_tech_map = {}
-    dhan_file = "dhan_data_response.json"
+    dhan_file = os.path.join(BASE_DIR, "dhan_data_response.json")
     try:
         with open(dhan_file, "r") as f:
             dhan_data = json.load(f)
-            # Create a lookup map: Symbol -> {Tech Data}
             for item in dhan_data:
                 sym = item.get("Sym")
                 if sym:
                     dhan_tech_map[sym] = item
         print(f"Loaded technical data for {len(dhan_tech_map)} symbols.")
     except FileNotFoundError:
-        print(f"Warning: {dhan_file} not found. Technicals will be 0.")
+        print(f"Warning: {dhan_file} not found.")
+
+    # Load Advanced Indicator Data
+    adv_tech_map = {}
+    try:
+        with open(ADVANCED_FILE, "r") as f:
+            adv_data = json.load(f)
+            for item in adv_data:
+                sym = item.get("Symbol")
+                if sym:
+                    adv_tech_map[sym] = item
+        print(f"Loaded advanced indicators for {len(adv_tech_map)} symbols.")
+    except FileNotFoundError:
+        print(f"Warning: {ADVANCED_FILE} not found. Running without advanced indicators.")
 
     analyzed_data = []
     total_stocks = len(data)
@@ -72,6 +86,8 @@ def analyze_all_stocks():
 
     for item in data:
         symbol = item.get("Symbol", "UNKNOWN")
+        tech = dhan_tech_map.get(symbol, {})
+        adv_tech = adv_tech_map.get(symbol, {})
         
         # --- Extract Data Sections ---
         cq = item.get("incomeStat_cq", {})
@@ -82,9 +98,16 @@ def analyze_all_stocks():
         shp = item.get("sHp", {})
         bs_c = item.get("bs_c", {})
 
-        # --- 1. Profit & Loss (Net Profit) ---
+        # --- Base Data ---
+        industry = cv.get("INDUSTRY_NAME", "N/A")
+        sector = cv.get("SECTOR", "N/A")
+        mcap_cr = get_float(cv.get("MARKET_CAP"))
+        ltp = get_float(tech.get("Ltp", 0))
+
+        # --- 1. Profit & Loss ---
         np_latest = get_value_from_pipe_string(cq.get("NET_PROFIT"), 0)
         np_prev = get_value_from_pipe_string(cq.get("NET_PROFIT"), 1)
+        np_2_back = get_value_from_pipe_string(cq.get("NET_PROFIT"), 2)
         np_3_back = get_value_from_pipe_string(cq.get("NET_PROFIT"), 3)
         np_last_year_q = get_value_from_pipe_string(cq.get("NET_PROFIT"), 4)
         
@@ -97,13 +120,13 @@ def analyze_all_stocks():
         eps_2_back = get_value_from_pipe_string(cq.get("EPS"), 2)
         eps_3_back = get_value_from_pipe_string(cq.get("EPS"), 3)
         eps_last_year_q = get_value_from_pipe_string(cq.get("EPS"), 4)
-        eps_last_year_annual = get_value_from_pipe_string(cy.get("EPS"), 0) # Index 0 per User preference
+        eps_last_year_annual = get_value_from_pipe_string(cy.get("EPS"), 0)
         eps_2_years_back_annual = get_value_from_pipe_string(cy.get("EPS"), 1)
 
         qoq_eps = calculate_change(eps_latest, eps_prev)
         yoy_eps = calculate_change(eps_latest, eps_last_year_q)
 
-        # --- 3. Sales (Net Sales) ---
+        # --- 3. Sales ---
         sales_latest = get_value_from_pipe_string(cq.get("SALES"), 0)
         sales_prev = get_value_from_pipe_string(cq.get("SALES"), 1)
         sales_2_back = get_value_from_pipe_string(cq.get("SALES"), 2)
@@ -130,7 +153,7 @@ def analyze_all_stocks():
         qoq_opm = calculate_change(opm_latest, opm_prev)
         yoy_opm = calculate_change(opm_latest, opm_last_year_q)
 
-        # --- 5. Ratios & Valuation ---
+        # --- 5. Ratios ---
         roe = get_float(roce_roe.get("ROE"))
         roce = get_float(roce_roe.get("ROCE"))
         pe = get_float(cv.get("STOCK_PE"))
@@ -140,7 +163,7 @@ def analyze_all_stocks():
         de_ratio = non_current_liab / total_equity if total_equity != 0 else 0.0
 
         peg = 0.0
-        if yoy_eps > 0 and pe > 0: # Ensure positive divisors
+        if yoy_eps > 0 and pe > 0:
             peg = pe / yoy_eps
 
         forward_pe = 0.0
@@ -160,55 +183,34 @@ def analyze_all_stocks():
         dii_change_qoq = dii_latest - dii_prev
         
         promoter_latest = get_value_from_pipe_string(shp.get("PROMOTER"), 0)
+        free_float_pct = 100.0 - promoter_latest if shp and promoter_latest \
+            is not None and promoter_latest >= 0 else 0.0
         
-        # Free Float Calculation (100 - Promoter Holding)
-        # Note: If no shareholding data, promoter_latest will be 0.
-        # We check if 'sHp' key exists to avoid false 100% float on missing data.
-        free_float_pct = 0.0
         float_shares_cr = 0.0
-        
-        if shp and promoter_latest >= 0:
-             free_float_pct = 100.0 - promoter_latest
-        
-        # Float Shares Calculation: (Mcap / Price) * Free Float %
-        # Mcap is in Cr (usually) in Dhan response, but here we don't have Mcap in 'fundamental_data.json'.
-        # Wait, 'CV' has 'MARKET_CAP'. Let's verify unit. 
-        # CV -> MARKET_CAP: "660.67". This is typically in Crores for Indian markets.
-        mcap_cr = get_float(cv.get("MARKET_CAP"))
-        
-        if mcap_cr > 0 and free_float_pct > 0:
-             # Total Float Value (Cr) = Mcap * (Free Float / 100)
-             # But user asked for Float SHARES (Cr).
-             # We need Price to get Shares. CV has 'PRICE_TO_BOOK_VALUE' & 'STOCK_PE' but not Price directly.
-             # However, Mcap = Price * Shares. So Shares = Mcap / Price.
-             # Float Shares = (Mcap / Price) * (Free Float / 100).
-             # Missing STOCK PRICE in fundamental_data.json 'CV'.
-             # We can try to infer Price from PE * EPS (Latest Annual).
-             # Price ~ PE * TTM_EPS.
-             ttm_eps = get_float(ttm_cy.get("EPS"))
-             
-             if pe > 0 and ttm_eps > 0:
-                 inferred_price = pe * ttm_eps
-                 if inferred_price > 0:
-                     total_shares_cr = mcap_cr / inferred_price
-                     float_shares_cr = total_shares_cr * (free_float_pct / 100.0)
-             
-             # Fallback: If we can't infer price, we return Float Market Cap?
-             # User asked for "Float Shares (Cr.)".
-             # Better approach: Just output Free Float % which is reliable.
-             # Calculated Float Shares might be noisy if Price inference is off.
-             # Let's try to calculate it anyway if we have the data.
+        if mcap_cr > 0 and ltp > 0:
+            total_shares_cr = mcap_cr / ltp
+            float_shares_cr = total_shares_cr * (free_float_pct / 100.0)
 
-
-        # --- 7. Meta ---
+        # --- 7. Assembly ---
         latest_quarter_str = cq.get("YEAR", "").split('|')[0] if cq.get("YEAR") else "N/A"
         listing_date = listing_date_map.get(symbol, "N/A")
+        
+        high_52w = get_float(tech.get("High1Yr", 0))
+        pct_from_52w_high = 0.0
+        if high_52w > 0 and ltp > 0:
+            pct_from_52w_high = ((ltp - high_52w) / high_52w) * 100
 
         stock_analysis = {
             "Symbol": symbol,
             "Name": item.get("Name", ""),
             "Listing Date": listing_date,
+            "Basic Industry": industry,
+            "Sector": sector,
+            "Market Cap(Cr.)": mcap_cr,
             "Latest Quarter": latest_quarter_str,
+            "Net Profit Latest Quarter": np_latest,
+            "Net Profit Previous Quarter": np_prev,
+            "Net Profit 2 Quarters Back": np_2_back,
             "Net Profit 3 Quarters Back": np_3_back,
             "Net Profit Last Year Quarter": np_last_year_q,
             "QoQ % Net Profit Latest": round(qoq_np, 2),
@@ -245,12 +247,14 @@ def analyze_all_stocks():
             "FII % change QoQ": round(fii_change_qoq, 2),
             "DII % change QoQ": round(dii_change_qoq, 2),
             "Free Float(%)": round(free_float_pct, 2),
+            "Float Shares(Cr.)": round(float_shares_cr, 2),
+            "PEG": round(peg, 2),
             "Forward P/E": round(forward_pe, 2),
-            "Historical P/E 5": 0.0
+            "Historical P/E 5": 0.0,
+            "% from 52W High": round(pct_from_52w_high, 2)
         }
 
-        # --- 8. Technicals ---
-        tech = dhan_tech_map.get(symbol, {})
+        # Technicals from dhan_tech_map
         ltp = get_float(tech.get("Ltp", 0))
         sma_200 = get_float(tech.get("DaySMA200CurrentCandle", 0))
         sma_50 = get_float(tech.get("DaySMA50CurrentCandle", 0))
@@ -263,24 +267,81 @@ def analyze_all_stocks():
         pct_from_sma_50 = 0.0
         if sma_50 > 0 and ltp > 0:
             pct_from_sma_50 = ((ltp - sma_50) / sma_50) * 100
-
-        # Day Range
-        day_high = get_float(tech.get("Min15HighCurrentCandle", 0)) # Using nearby timeframe high as proxy if daily OHLC missing
-        # Dhan data doesn't guarantee 'DayHigh', but has 'High1Wk'. Better use 'PPerchange'.
+            
+        # Index Mapping
+        # User requested indices: 13,51,38,17,18,19,20,37,1,442,443,22,5,3,444,7,14,25,27,28,447,35,41,46,44,16,43,42,45,39,466,34,32,15,33,31,30,29
+        requested_indices = {13,51,38,17,18,19,20,37,1,442,443,22,5,3,444,7,14,25,27,28,447,35,41,46,44,16,43,42,45,39,466,34,32,15,33,31,30,29}
+        indices_found = []
+        idx_list_raw = tech.get("idxlist", [])
+        if isinstance(idx_list_raw, list):
+            for idx_obj in idx_list_raw:
+                idx_id = idx_obj.get("Indexid")
+                idx_name = idx_obj.get("Name")
+                if idx_id in requested_indices and idx_name:
+                    indices_found.append(idx_name)
         
+        # --- Advanced Indicators (Signals, Pivots, Sentiment) ---
+        # Parse SMA Signals - Calculate % Away
+        sma_signals = []
+        smas = adv_tech.get("SMA", [])
+        # We want to know if price is above or below specific SMAs
+        target_smas = ["20", "50", "200"]
+        
+        for s in smas:
+            ind_name = s.get("Indicator", "").replace("-SMA", "")
+            val = get_float(s.get("Value"))
+            
+            if ind_name in target_smas and val > 0 and ltp > 0:
+                diff = ((ltp - val) / val) * 100
+                status = "Above" if diff > 0 else "Below"
+                sma_signals.append(f"SMA {ind_name}: {status} ({round(diff, 1)}%)")
+
+        # Parse EMA Signals - Calculate % Away
+        ema_signals = []
+        emas = adv_tech.get("EMA", [])
+        target_emas = ["20", "50", "200"]
+        
+        for e in emas:
+            ind_name = e.get("Indicator", "").replace("-EMA", "")
+            val = get_float(e.get("Value"))
+            
+            if ind_name in target_emas and val > 0 and ltp > 0:
+                diff = ((ltp - val) / val) * 100
+                status = "Above" if diff > 0 else "Below"
+                ema_signals.append(f"EMA {ind_name}: {status} ({round(diff, 1)}%)")
+            
+        # Parse Oscillators/Trend
+        tech_inds = adv_tech.get("TechnicalIndicators", [])
+        sentiment_summary = []
+        for t in tech_inds:
+            name = t.get("Indicator", "")
+            action = t.get("Action", "")
+            if "RSI" in name:
+                sentiment_summary.append(f"RSI: {action}")
+            elif "MACD" in name:
+                 sentiment_summary.append(f"MACD: {action}")
+
+        # Extract Pivots (Classic PP)
+        pivots = adv_tech.get("Pivots", [])
+        classic_pivot = "N/A"
+        if pivots and isinstance(pivots, list):
+             classic = pivots[0].get("Classic", {})
+             classic_pivot = classic.get("PP", "N/A")
+
         stock_analysis.update({
             "Stock Price(₹)": ltp,
+            "Index": ", ".join(indices_found) if indices_found else "N/A",
             "1 Day Returns(%)": get_float(tech.get("PPerchange", 0)),
             "1 Week Returns(%)": get_float(tech.get("PricePerchng1week", 0)),
             "1 Month Returns(%)": get_float(tech.get("PricePerchng1mon", 0)),
             "3 Month Returns(%)": get_float(tech.get("PricePerchng3mon", 0)),
             "1 Year Returns(%)": get_float(tech.get("PricePerchng1year", 0)),
-            "Day SMA 200": sma_200,
-            "% Away from SMA 200": round(pct_from_sma_200, 2),
-            "Day SMA 50": sma_50,
-            "% Away from SMA 50": round(pct_from_sma_50, 2),
             "RSI (14)": round(rsi_14, 2),
-            "Gap Up %": 0.0
+            "Gap Up %": 0.0,
+            "SMA Status": " | ".join(sma_signals),
+            "EMA Status": " | ".join(ema_signals),
+            "Technical Sentiment": " | ".join(sentiment_summary),
+            "Pivot Point": classic_pivot
         })
         
         analyzed_data.append(stock_analysis)

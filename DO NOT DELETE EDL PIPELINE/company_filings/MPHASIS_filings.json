@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst/Investor meet-Schedule",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f2eb5f4-7a07-4c6f-a27e-4b2edb0b7390.pdf",
+            "news_date": "2026-02-04 11:36:37"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Exercise of 104942 stock options and 5777 Restricted Stock Units",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3c7c96c-e3b8-483c-b29e-251c03a9a647.pdf",
+            "news_date": "2026-02-04 11:28:13"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Resignation of Mr. Elango R as Senior management personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c26cadc-12cd-4164-8bcd-aeeee5b83353.pdf",
+            "news_date": "2026-02-01 22:50:24"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication confirming dispatch of postal ballot notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d135eef2-03a0-420f-bd19-0a34e988b09c.pdf",
+            "news_date": "2026-01-31 12:54:49"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice for appointment of Independent Director of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=956d47cd-d28c-47cb-94ef-f46c51c63fb1.pdf",
+            "news_date": "2026-01-30 18:16:34"
+        },
+        {
             "sym": "MPHASIS",
             "disp": "Mphasis",
             "bse_code": 526299,
@@ -24,6 +79,28 @@
             "sid": 4503,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earning Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d228cbed-0f4a-4873-bb18-fb4954f041d4.pdf",
+            "news_date": "2026-01-27 18:17:05"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication of financial results for the quarter ended 31 December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08e59d70-8a61-4dcc-966c-5a7f0d29991b.pdf",
+            "news_date": "2026-01-24 15:37:42"
         },
         {
             "sym": "MPHASIS",
@@ -50,6 +127,17 @@
             "seg": "E"
         },
         {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": " Audio Recording of the Investor(s)/Analyst(s) call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f13d877-0cce-4fb6-b357-0818d06744c4.pdf",
+            "news_date": "2026-01-22 22:37:06"
+        },
+        {
             "sym": "MPHASIS",
             "disp": "Mphasis",
             "bse_code": 526299,
@@ -72,6 +160,17 @@
             "sid": 4503,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec4abd3a-20d1-4bff-9722-6ecf77a84e7a.pdf",
+            "news_date": "2026-01-22 17:08:57"
         },
         {
             "sym": "MPHASIS",
@@ -98,6 +197,281 @@
             "seg": "E"
         },
         {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Results For 31/12/2025",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e13a9b53-18c1-4ebd-a047-3b2f36bc7c99.pdf",
+            "news_date": "2026-01-22 16:04:36"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Outcome of Board Meeting - Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e6c9c5b-093e-4a12-bd47-b0a5e9ecfb97.pdf",
+            "news_date": "2026-01-22 15:56:59"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c21d1c8-4000-4ac0-a8d7-fa6eca712a8c.pdf",
+            "news_date": "2026-01-22 15:53:11"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for HDFC Mutual  Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E3EABBE0_3FAC_45BD_92EB_5BD32CE6CD5E_164624.pdf",
+            "news_date": "2026-01-20 16:46:30"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Grant of stock options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e87e83f9-e3f0-4af0-9c02-9a4051ebf2fc.pdf",
+            "news_date": "2026-01-19 19:14:31"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Mphasis Consulting Limited UK a wholly owned subsidiary of the Company has acquired 49% shareholding in Mrlad Limited UK from its joint venture partner Ardonagh Services Limited. Following this acquisition Mrald Limited would become a wholly owned subsidiary of Mphasis Consulting Limited and a step-down wholly owned subsidiary of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb1816f3-d59c-4938-9807-b51414388f7b.pdf",
+            "news_date": "2026-01-17 14:41:33"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Appointment of Mr. Girish Srikrishna Paranjpe as Chairperson of the Board",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4164c7c4-8ac7-4a64-978e-c8b66f4e1522.pdf",
+            "news_date": "2026-01-09 09:09:46"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor / Analysts Earnings Conference Call on Financial Results for the quarter ended 31 December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7365e98-2295-49f2-b47d-d6f3f4f7769f.pdf",
+            "news_date": "2025-12-24 18:53:03"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving The Financial Statements For The Quarter Ended 31 December 2025",
+            "news_body": "Mphasis Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/01/2026 inter alia to consider and approve  the audited standalone and consolidated financial results of the Company for the quarter ended 31 December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5138b63-235f-40fb-8564-f3cd582b2b83.pdf",
+            "news_date": "2025-12-19 17:38:26"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0cd9212-9033-4148-a8b7-7c9f47d9defb.pdf",
+            "news_date": "2025-12-18 15:56:10"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Institutional Investors meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f097b68-41f7-44fa-9592-80d2ad30f22d.pdf",
+            "news_date": "2025-12-11 16:07:30"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "allotment of 37834 equity shares against exercise of ESOPs and RSUs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff8e5881-5b07-4609-b097-65cf3883c8da.pdf",
+            "news_date": "2025-12-11 10:57:39"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Director of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f2df05d-7b1f-42b2-8006-2e5e069c479c.pdf",
+            "news_date": "2025-12-10 17:28:36"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Grant of 5000 stock options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86f18ca7-925a-4ad3-87fb-b9affadcab3d.pdf",
+            "news_date": "2025-12-04 21:50:36"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f935cbf2-f027-4dd1-a5db-184bf5bf8a76.pdf",
+            "news_date": "2025-12-03 16:53:06"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Exercise of 102556 Options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcdf21cd-bf47-4fbd-b7ab-bdd6f885fb27.pdf",
+            "news_date": "2025-11-27 22:27:28"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of S&P Global Corporate Sustainability Assessment Scorecard For 2025",
+            "news_body": "Intimation of S&P Global Corporate Sustainability Assessment Scorecard for 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e77814f-9bc8-4d28-9bbc-39cd027adc66.pdf",
+            "news_date": "2025-11-24 21:56:55"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for DB International Trust",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=BC26B3A5_56EC_4EC7_A296_156D10ECF21E_155302.pdf",
+            "news_date": "2025-11-20 15:53:08"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Kotak Mahindra Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=DA83BB40_6CC6_413A_A2D7_D67DBEC1D3AC_153459.pdf",
+            "news_date": "2025-11-20 15:35:07"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on November 18 2025 for BCP Topco IX Pte Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=FB12702F_3BF5_4C42_B6CE_723817B74204_121615.pdf",
+            "news_date": "2025-11-19 12:16:26"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for BCP Topco IX Pte Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=BB0E2BFF_6FB5_4C65_AE74_8C9969BF72E7_110338.pdf",
+            "news_date": "2025-11-19 11:03:41"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "Update on earlier intimation dated 18 November 2025 regarding news article.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1fa540f-9701-47d4-b1f5-c58a12a53e4e.pdf",
+            "news_date": "2025-11-18 09:13:55"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "Rumour verification",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1733e303-85b2-440f-91c1-3233442cb789.pdf",
+            "news_date": "2025-11-18 03:01:25"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Mphasis Ltd",
+            "news_body": "The Exchange has sought clarification from Mphasis Ltd on November 17 2025 with reference to news appeared in https://www.cnbctv18.com dated November 17 2025 quoting \"Blackstone to trim stake in Mphasis via large block deal soon: sources\" <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-11-17 16:53:53"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of 25000 Stock Options And 7500 Restricted Stock Units",
+            "news_body": "Grant of 25000 Stock Options and 7500 Restricted Stock Units",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78d49a44-7c4c-424d-8873-e1bdf37b3651.pdf",
+            "news_date": "2025-11-06 18:50:52"
+        },
+        {
             "sym": "MPHASIS",
             "disp": "Mphasis",
             "bse_code": 526299,
@@ -120,6 +494,39 @@
             "sid": 4503,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6cecfa7-00f5-49b2-87d7-900d5d7943c8.pdf",
+            "news_date": "2025-11-05 18:30:20"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba2cc678-4c2a-4d66-bc15-3492002694c9.pdf",
+            "news_date": "2025-11-01 18:20:47"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Exercise of 14403 Stock Options and 141359 Restricted Stock Units under Employee Stock Options Plan 2016 and Restricted Stock Units Plan 2021 respectively.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f556e12b-45c1-4579-aa9e-de9e3b603166.pdf",
+            "news_date": "2025-11-01 17:04:24"
         },
         {
             "sym": "MPHASIS",
@@ -146,6 +553,17 @@
             "seg": "E"
         },
         {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "We wish to inform you that the audio recording of the Investor(s)/Analyst(s) call held today i.e. Friday 31 October 2025 in connection with the financial results of the Company for the quarter and half year ended 30 September 2025 is available on the website of the Company at https://www.mphasis.com/content/dam/mphasis-com/global/en/investors/financial-results/2026/investor-call-recording-q2-fy2026.mp3",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb328b1e-4f5f-428e-a35f-ee54549ad6d8.pdf",
+            "news_date": "2025-10-31 18:08:56"
+        },
+        {
             "sym": "MPHASIS",
             "disp": "Mphasis",
             "bse_code": 526299,
@@ -168,6 +586,17 @@
             "sid": 4503,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f77591c9-40f5-4acd-984e-c7a9c1ec82d4.pdf",
+            "news_date": "2025-10-31 00:19:14"
         },
         {
             "sym": "MPHASIS",
@@ -194,6 +623,215 @@
             "seg": "E"
         },
         {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended 30 September 2025",
+            "news_body": "Financial Results for the quarter and half year ended 30 September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c775c05-1a0b-4eb4-9054-96b01402cc65.pdf",
+            "news_date": "2025-10-31 00:09:03"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Approval of financial results for half year ended 30 September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afdb0968-1369-4fa2-9886-d87043b1b88d.pdf",
+            "news_date": "2025-10-31 00:02:57"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Mphasis introduces Mphasis qCryptsec - Quantum Safe Cryptography and Mphasis QOptiDecision - Quantum enhanced optimization solutions for future-ready enterprise security and decision intelligence.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f19cd0b8-bfa8-45c1-af70-bdebac5a0ac3.pdf",
+            "news_date": "2025-10-29 08:09:05"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Intimation of Press Release titled - Mphasis Achieves ISO/IEC 42001:2023 Certification for Artificial Intelligence Management Systems (AIMS).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06699fde-b6ad-47b8-8b81-b272a0a90f4a.pdf",
+            "news_date": "2025-10-28 08:19:38"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled \"Mphasis Launches NeoIP a unified AI Platform for continuous Enterprise Transformation\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1041db67-c4a3-41e9-a74f-e040f9c82e3c.pdf",
+            "news_date": "2025-10-27 08:55:28"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation",
+            "news_body": "Intimation of receipt of rectification order under Income Tax Act",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ceb19b06-e3df-46ff-8bec-8df935f3553d.pdf",
+            "news_date": "2025-09-27 13:21:07"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst/Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00016b5b-bc5e-4f82-b319-a7ea9933b0ed.pdf",
+            "news_date": "2025-09-25 17:12:10"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving The Financial Statements For The Period Ended 30 September 2025",
+            "news_body": "Mphasis Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/10/2025 inter alia to consider and approve Financial Statements for the period ended 30 September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dbdf695-994c-40b6-8241-64b2095eca45.pdf",
+            "news_date": "2025-09-25 16:54:53"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a1099ad-716a-46bc-90ba-3e437a951ae5.pdf",
+            "news_date": "2025-09-22 16:50:45"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "U.S Proclamation Restriction On Entry Of Certain Nonimmigrant Workers - H1B Visa Fee Increase Has No Significant Impact On Mphasis Limited Financials Or Operations",
+            "news_body": "General Announcement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de507bf6-7459-4d54-a023-24fe63403690.pdf",
+            "news_date": "2025-09-22 00:58:53"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of MSCI Rating",
+            "news_body": "Intimation of MSCI Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=926e35a6-eabe-48c7-aed5-7d609ecce75c.pdf",
+            "news_date": "2025-09-19 18:46:07"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor/ Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e4fbae3-acab-42cb-8d1b-5c6e0d795e46.pdf",
+            "news_date": "2025-09-15 15:01:45"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Exercise of 7000 Stock Options and 386 Restricted Stock Units.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=759780c7-657c-4f19-b48d-ff0b25e72350.pdf",
+            "news_date": "2025-09-15 14:13:30"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Exercise of 550 Stock Options and 1160 Restricted Stock Units.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=116b65d8-f222-4417-8f86-7edaaa2cc2b5.pdf",
+            "news_date": "2025-09-03 13:00:49"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor/ Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f71854a1-d401-42ce-b227-fdad9607e7bd.pdf",
+            "news_date": "2025-08-26 14:26:29"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c105acae-0883-4f9a-81de-d968872e48b4.pdf",
+            "news_date": "2025-08-20 13:04:42"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor/ Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45a9318c-e482-4d39-91fb-1d02b6f6762a.pdf",
+            "news_date": "2025-08-08 12:12:18"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Exercise of 2000 Stock Options and 448 Restricted Stock Units.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c40b87c-4de6-4926-b2ac-071cd6e2b963.pdf",
+            "news_date": "2025-08-01 15:55:37"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Flagstar names Mphasis as its Technology modernization partner",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5caad84-82ad-4d27-8e4a-057468cd67c1.pdf",
+            "news_date": "2025-08-01 11:41:54"
+        },
+        {
             "sym": "MPHASIS",
             "disp": "Mphasis",
             "bse_code": 526299,
@@ -216,6 +854,28 @@
             "sid": 4503,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82894164-36c0-4cc2-a941-24a02c53037c.pdf",
+            "news_date": "2025-07-29 15:58:53"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=612ada44-2ee9-4dc1-830b-b66f976b765f.pdf",
+            "news_date": "2025-07-26 18:46:53"
         },
         {
             "sym": "MPHASIS",
@@ -242,6 +902,28 @@
             "seg": "E"
         },
         {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81029b69-e328-48c8-998f-ea0a547ed31a.pdf",
+            "news_date": "2025-07-25 21:22:06"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75f45a8b-69c2-46d7-a4c8-7ad74a4cd529.pdf",
+            "news_date": "2025-07-25 00:05:53"
+        },
+        {
             "sym": "MPHASIS",
             "disp": "Mphasis",
             "bse_code": 526299,
@@ -264,6 +946,347 @@
             "sid": 4503,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9dbe0977-eff7-47f2-8b51-8520bfddcf70.pdf",
+            "news_date": "2025-07-25 00:01:16"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome",
+            "news_body": "Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7ac1b46-ffd6-4ce0-a20e-8a6dbdb89467.pdf",
+            "news_date": "2025-07-24 23:46:09"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 34th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b139ac6-6252-4bb3-8a88-e65424023fb3.pdf",
+            "news_date": "2025-07-24 22:28:59"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Chairpersons Speech",
+            "news_body": "Mphasis Limited has informed the Exchange regarding the Chairpersons Speech delivered at the 34th Annual General Meeting held on 24 July 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=781f3de5-1e02-4888-81b7-7d320070a46b.pdf",
+            "news_date": "2025-07-24 12:37:06"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Grant of 10000 Stock Options dated 14 July 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36a23907-feec-4496-a79c-db759f935996.pdf",
+            "news_date": "2025-07-15 10:47:37"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Investment By Wholly Owned Subsidiary.",
+            "news_body": "Intimation of investment by wholly owned subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b70f8525-25b7-4559-8a6f-f50379adc323.pdf",
+            "news_date": "2025-07-10 17:05:49"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Receipt Of Rectification Order Under The Income Tax Act 1961",
+            "news_body": "Intimation for receipt of rectification order under the Income Tax Act 1961",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d30eaf94-ee92-47ba-b091-d14183f673a4.pdf",
+            "news_date": "2025-07-09 13:34:36"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fd760dc-38af-4cf2-bff7-f3a2890ab2a9.pdf",
+            "news_date": "2025-07-02 17:10:40"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To The Shareholders On Weblink Of Notice Of 34Th Annual General Meeting And Annual Report 2025",
+            "news_body": "The Company has dispatched letter to the shareholders on 1 July 2025 through postal services who have not registered their email address with the Company/RTA/DP providing web-link of Notice of the 34th AGM and Annual Report 2025.  A copy of letter sent is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3261089c-b1af-43ee-bb22-43562ea17d26.pdf",
+            "news_date": "2025-07-02 17:06:57"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting For 2024-25",
+            "news_body": "Annual General Meeting for 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05444a3a-ef04-4bd3-82b6-ce30b72139fb.pdf",
+            "news_date": "2025-07-01 19:58:36"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3108fd09-744d-4e66-9ecc-09263967a14f.pdf",
+            "news_date": "2025-07-01 18:55:13"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Notice of 34th Annual General Meeting and Annual Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80871921-ce44-475f-8107-20d8165406e8.pdf",
+            "news_date": "2025-07-01 18:52:34"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst/ Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e496d564-a623-4199-8341-0eaf84ce5dc1.pdf",
+            "news_date": "2025-07-01 17:42:03"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a38b719c-796e-4665-b7f2-7959f1bdf3f6.pdf",
+            "news_date": "2025-06-28 13:08:40"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving The Financial Statements For The Period Ended 30 June 2025",
+            "news_body": "Mphasis Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/07/2025 inter alia to consider and approve financial statements for the period ended 30 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e4ae230-ae8e-4cff-bc5f-0cafb934a367.pdf",
+            "news_date": "2025-06-26 17:52:29"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b963c07-0a83-4850-871b-5b09c4a68ec5.pdf",
+            "news_date": "2025-06-20 18:48:20"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Mphasis Recognized as a Contender in Application Modernization and Multicloud Managed Services Evaluation Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=278dd425-9d8c-4b67-8835-8a3f627592c2.pdf",
+            "news_date": "2025-06-18 11:12:04"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=061402e1-38aa-415a-ba3a-8da0e5b2fc46.pdf",
+            "news_date": "2025-06-16 16:57:45"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Exercise of 8374 Stock Options and 321 Restricted Stock Units",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3458270-2bbf-4746-9aa8-9cc1bb27cec0.pdf",
+            "news_date": "2025-06-13 17:46:08"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Analyst / Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=210cae82-5423-478f-a3e3-f4d7a336789a.pdf",
+            "news_date": "2025-06-06 16:40:04"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d5d3d1c-2a91-424c-9f50-a1cc41e8f5b4.pdf",
+            "news_date": "2025-06-05 17:45:46"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Copy Of Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21d1a913-f4c2-49e9-80ce-ed9fbedebbd9.pdf",
+            "news_date": "2025-06-05 17:24:23"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "Market Rumour Verification",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a2382cf-9a8c-425e-acbf-ad3aa32e82cc.pdf",
+            "news_date": "2025-06-03 06:24:18"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Mphasis Ltd",
+            "news_body": "The Exchange has sought clarification from Mphasis Ltd with reference to the media report appearing on https:// www.livemint.com dated June 01 2025 (Link: https://www.livemint.com/companies/mphasis-to-lose-fedex-business-accounting-for-8-of-total-revenue-11748761683762.html) titled \"Mphasis to lose FedEx business accounting for 8% of total revenue\".<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-06-02 19:04:47"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Ecovadis Sustainability Rating For 2025",
+            "news_body": "Intimation of EcoVadis Sustainability Rating for 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49d18a1f-1b5d-424b-9261-9209804b0e09.pdf",
+            "news_date": "2025-05-27 16:50:41"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Grant of 6000 Stock options dated 22 May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e400219-08d7-441c-875f-b1e5232dd18d.pdf",
+            "news_date": "2025-05-23 17:59:44"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Exercise of 16302 stock options and 832 Restricted stock option unit dated 22 May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=313fc158-b4c6-4175-8811-eb99d2508928.pdf",
+            "news_date": "2025-05-23 17:56:39"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eacd7ff4-b7bd-41db-bf01-ec2305b88537.pdf",
+            "news_date": "2025-05-22 17:19:55"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor / Analysts meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1109f89e-916a-467d-9a20-b0193068183b.pdf",
+            "news_date": "2025-05-16 16:03:05"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Exercise of 145180 Stock Options and 2327 Restricted Stock Units",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b218bfe1-7299-43f0-98c2-e7aa7fd15a04.pdf",
+            "news_date": "2025-05-01 11:02:14"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Dividend",
+            "news_body": "Record date for Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f198eb7b-7ebd-4a4d-bae3-f10217f64a72.pdf",
+            "news_date": "2025-04-30 18:14:27"
         },
         {
             "sym": "MPHASIS",
@@ -290,6 +1313,28 @@
             "seg": "E"
         },
         {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d2ad547-2871-4527-8bba-9cc79e905861.pdf",
+            "news_date": "2025-04-29 17:13:19"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement regarding the financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=104beab9-2a2e-4e47-aefc-0b124668c126.pdf",
+            "news_date": "2025-04-26 13:25:10"
+        },
+        {
             "sym": "MPHASIS",
             "disp": "Mphasis",
             "bse_code": 526299,
@@ -312,6 +1357,61 @@
             "sid": 4503,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation of Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a604b5ae-9915-4df2-9d1d-8d5116d38d6d.pdf",
+            "news_date": "2025-04-25 15:56:53"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Dividend AGM Matters And Secretarial Auditor Appointment",
+            "news_body": "Outcome Dividend AGM matters and Secretarial Auditor appointment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2eb8344c-8f3f-4baa-96c0-acb183e208c4.pdf",
+            "news_date": "2025-04-25 00:37:45"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Code of Conduct under SEBI (PIT) Regulations 2015",
+            "caption": "Announcement under Regulation 30 (LODR)-Code of Conduct under SEBI (PIT) Regulations 2015",
+            "news_body": "Intimation of amendment to Policies",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ccfcda6-37c5-4098-b110-ba750b7ad7f7.pdf",
+            "news_date": "2025-04-25 00:26:18"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "Change in Company Secretary and Compliance Officer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=767f978a-bab7-4316-b424-e4de10de875f.pdf",
+            "news_date": "2025-04-25 00:08:51"
+        },
+        {
+            "co_code": 3361,
+            "bse_code": 526299,
+            "isin": "INE356A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing Financial",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6bfdd29b-799c-4b79-ab16-fc684eb7e6a9.pdf",
+            "news_date": "2025-04-25 00:01:32"
         },
         {
             "sym": "MPHASIS",
@@ -1585,6 +2685,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

@@ -1,5 +1,38 @@
 {
-    "code": -1,
-    "data": [],
-    "remarks": "no record fetched"
+    "code": 0,
+    "data": [
+        {
+            "co_code": 5704,
+            "bse_code": 590134,
+            "isin": "INE414A01015",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Madras Fertilizers Ltd",
+            "news_body": "The Exchange has sought clarification from Madras Fertilizers Ltd on January 9 2026 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2026-01-09 12:56:09"
+        },
+        {
+            "co_code": 5704,
+            "bse_code": 590134,
+            "isin": "INE414A01015",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Madras Fertilizers Ltd",
+            "news_body": "The Exchange has sought clarification from Madras Fertilizers Ltd on April 13, 2023, with reference to Movement in Volume.<BR><BR>The reply is awaited.<BR><BR>",
+            "file_url": "",
+            "news_date": "2023-04-13 16:06:00"
+        },
+        {
+            "co_code": 5704,
+            "bse_code": 590134,
+            "isin": "INE414A01015",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Book Closure / AGM",
+            "caption": "Fixes Book Closure for AGM",
+            "news_body": "Madras Fertilizers Ltd has informed BSE that the Register of Members & Share Transfer Books of the Company will remain closed from December 23, 2020 to December 29, 2020 (both days inclusive) for the purpose of 54th Annual General Meeting (AGM) of the Company to be held on December 29, 2020.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=CD4ED200-BB00-48C9-82C3-CA59BB452D41-101139.pdf",
+            "news_date": "2020-12-19 10:11:44"
+        }
+    ]
 }

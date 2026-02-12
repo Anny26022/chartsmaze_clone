@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c4b76d5-60e7-46c4-8991-98a9d9562714.pdf",
+            "news_date": "2026-02-12 17:12:53"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Meeting Of The Board Of Directors Under Regulation 30 And 33 Of SEBI\r\n(Listing Obligation And Disclosure Requirements) Regulations 2015",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fdebeeb-d909-46ec-aafa-a760ef4f1dda.pdf",
+            "news_date": "2026-02-11 21:39:15"
+        },
+        {
             "sym": "UNIVPHOTO",
             "disp": "Universus Photo Imagings",
             "bse_code": 542933,
@@ -24,6 +46,138 @@
             "sid": 17659,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results",
+            "news_body": "Unaudited Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04ff06d8-db48-4888-b79a-a1c8c8eae5e2.pdf",
+            "news_date": "2026-02-11 21:36:40"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Financial Results (Standalone & Consolidated) For The Quarter And Nine Months Ended On 31St December 2025.",
+            "news_body": "Universus Photo Imagings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/02/2026 inter alia to consider and approve the unaudited Financial Results (Standalone & Consolidated) for the quarter and nine months ended on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc1c0a03-ffba-472d-b2c0-883f082636f6.pdf",
+            "news_date": "2026-02-06 20:57:27"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monthly Reporting Regarding Request Received For Re-Lodgment Of Transfer Request Of Physical Form",
+            "news_body": "Monthly Reporting regarding request received for re-lodgment of transfer request of Physical form",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=911d2e5d-042e-4684-ba18-8d55cb7698ba.pdf",
+            "news_date": "2026-01-13 10:56:23"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f517e72-4b3f-45ea-bb67-a68cdb39acc6.pdf",
+            "news_date": "2026-01-13 10:52:33"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be88c9c5-00ba-4d02-8f07-8c010aa077ca.pdf",
+            "news_date": "2025-12-29 18:14:12"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Update",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ffa88d5-6696-4301-8872-9c2a4f727c51.pdf",
+            "news_date": "2025-12-26 19:40:13"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monthly Reporting Regarding Request Received For Re-Lodgment Of Transfer Request Of Physical Form\r\n\r\n",
+            "news_body": "General Announcement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6f08de3-b654-401f-b72b-2b924a0a72b9.pdf",
+            "news_date": "2025-12-23 22:31:45"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 SEBI(LODR)-Update",
+            "news_body": "General Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f47988-50c3-4a3b-b721-b5c2e38694e2.pdf",
+            "news_date": "2025-12-06 13:07:40"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "General Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=110ff710-6c2d-4f99-b78e-89db1cf81a15.pdf",
+            "news_date": "2025-11-28 14:56:43"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General -Update",
+            "news_body": "Monthly reporting regarding request received for re-lodgment of transfer request of physical form",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a73a65a-8d95-4252-9cf0-9baf8181b7b9.pdf",
+            "news_date": "2025-11-13 19:53:16"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Unaudited Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d320b485-c7ea-4a22-aaff-001b340a02f0.pdf",
+            "news_date": "2025-11-13 19:43:07"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Meeting Of The Board Of Directors Under Regulation 30 And 33 Of SEBI (Listing Obligation And Disclosure Requirements) Regulations 2015",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6556e4b-0c71-47fe-b4ea-673b72bd963a.pdf",
+            "news_date": "2025-11-12 21:33:17"
         },
         {
             "sym": "UNIVPHOTO",
@@ -50,6 +204,204 @@
             "seg": "E"
         },
         {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Standalone And Consolidated Unaudited Financial Results For The Quarter And Half Year Ended On 30Th September 2025",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=613000b2-cb6e-4217-ac02-ed64dcf25ed7.pdf",
+            "news_date": "2025-11-12 21:29:01"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results.",
+            "news_body": "Universus Photo Imagings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2025 inter alia to consider and approve the Unaudited Financial Results (Standalone & Consolidated) for the quarter and half year ended on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3dcf5c59-2911-4a79-adde-0dbaff5e0e93.pdf",
+            "news_date": "2025-11-06 16:20:28"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI(LODR)Regulations2015-Update",
+            "news_body": "General Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ec76789-5f02-4ae7-b9d8-76566d22b40b.pdf",
+            "news_date": "2025-10-22 22:29:19"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Order Pronounced By Honble National Company Law Tribunal (NCLT)",
+            "news_body": "General update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=535c5c37-0e4c-4b3b-88a8-5ec240d94862.pdf",
+            "news_date": "2025-10-16 14:54:15"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a2249ae-5ac0-4326-af9b-5dd1ac111935.pdf",
+            "news_date": "2025-10-13 21:14:11"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monthly Reporting Regarding Request Received For Re-Lodgment Of Transfer Request Of Physical Forms",
+            "news_body": "Monthly reporting regarding request received for re-lodgment of transfer request of physical forms",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd3b92aa-fd4a-4fe7-8511-2d2fd08ad4e9.pdf",
+            "news_date": "2025-10-10 17:43:03"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17989c14-0dff-47ab-9ac7-67687adddf4d.pdf",
+            "news_date": "2025-10-10 17:37:50"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results along with consolidated Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f0903c3-6280-44a7-925d-2d9fa0365a4a.pdf",
+            "news_date": "2025-10-02 17:28:35"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceeding of the 14th Annual General Meeting held on Tuesday30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c32e702-4d3e-446b-9b81-948125f29745.pdf",
+            "news_date": "2025-09-30 18:57:42"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closures of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2cc2975e-7288-48d5-a7a1-8fcef23f0b05.pdf",
+            "news_date": "2025-09-26 14:12:15"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a929afd-8f3e-451a-a9d9-8114047997f1.pdf",
+            "news_date": "2025-09-09 10:24:47"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa0ec59a-bdc5-4d32-b23c-6b8889fbb2c5.pdf",
+            "news_date": "2025-09-08 15:51:16"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting- Notice Of 14Th Annual General Meeting Of The Company On 30.09.2025",
+            "news_body": "Notice of 14th Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a0c5133-c264-4ebe-9557-926acd487ab4.pdf",
+            "news_date": "2025-09-08 15:42:21"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "For Entitlement For E-Voting & Right To Attend AGM",
+            "news_body": "The Company has fixed Tuesday September 23 2025 as the \"cut-off date\" for the purpose of determining the members eligible to vote on the resolutions set out in the notice of AGM and attend the AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c260ed90-98de-4137-8b77-7b096d9322bd.pdf",
+            "news_date": "2025-08-30 17:37:27"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4c5bec4-185a-4f70-8898-88cf57724032.pdf",
+            "news_date": "2025-08-30 17:26:43"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30- Update",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed53f02d-31f6-407e-a0da-117c4865d427.pdf",
+            "news_date": "2025-08-27 19:42:39"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d83fd83-acb2-40af-8f1b-a0ff96868d0f.pdf",
+            "news_date": "2025-08-14 14:26:29"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d3cca66-1695-4ac9-a9b5-00e47280e7f1.pdf",
+            "news_date": "2025-08-13 20:27:00"
+        },
+        {
             "sym": "UNIVPHOTO",
             "disp": "Universus Photo Imagings",
             "bse_code": 542933,
@@ -72,6 +424,72 @@
             "sid": 17659,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Result - Unaudited Financial Result As On 30.06.2025",
+            "news_body": "Result - Unaudited Financial Result as on 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d48f6bfa-e9f0-4b52-999a-1ca1b4a29eb0.pdf",
+            "news_date": "2025-08-13 20:22:41"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Prior Intimation Of Board Meeting Dated 13.08.2025",
+            "news_body": "Universus Photo Imagings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2025 inter alia to consider and approve Consider and approve unaudited Financial Results (Standalone & Consolidated) for the first quarter ended on\r\n30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44b670e0-6269-4b9a-aac3-bed80bcfeae8.pdf",
+            "news_date": "2025-08-07 18:53:35"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d752ac5-4dd2-4125-bf17-272b14f59de5.pdf",
+            "news_date": "2025-07-09 20:31:19"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79e4be06-2779-4e20-ab2d-850af85d4d1b.pdf",
+            "news_date": "2025-06-27 18:15:37"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d60f574-98bf-43d3-9225-8d1ce464d9c8.pdf",
+            "news_date": "2025-05-29 17:23:48"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b25aed7c-447f-4eaf-a69c-15dfd07d22a7.pdf",
+            "news_date": "2025-05-29 17:21:23"
         },
         {
             "sym": "UNIVPHOTO",
@@ -98,6 +516,94 @@
             "seg": "E"
         },
         {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results As On 31St March 2025",
+            "news_body": "Results -Financial Results as on 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43fe0e75-1bfb-4de7-a65e-699aec8a969f.pdf",
+            "news_date": "2025-05-28 20:06:50"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Audited Financial Results (Standalone & Consolidated) For The 4Th Quarter And Financial Year Ended On 31St March 2025.",
+            "news_body": "Universus Photo Imagings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2025 inter alia to consider and approve the Audited Financial Results (Standalone & Consolidated) for the 4th Quarter and financial year ended on 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ccce19f-8104-4f7b-bd2c-da4b46bfa314.pdf",
+            "news_date": "2025-05-22 21:18:02"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30(7) Of LODR",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf4d5c35-a6ad-4ca4-afd0-45fdb8ddfed6.pdf",
+            "news_date": "2025-04-29 17:54:33"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg.74(5) of SEBI(DP) Regulations2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffe2d30f-8b40-49bd-9de4-4ba38040cc91.pdf",
+            "news_date": "2025-04-14 18:27:28"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8a0054d-3065-43e6-9634-44f71f739cc6.pdf",
+            "news_date": "2025-03-27 14:27:13"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b8a0bdc-a5ca-4d87-9dd9-af09f604d147.pdf",
+            "news_date": "2025-02-13 15:38:23"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65dda0dd-d2d0-4c86-ab94-75f4b2ca8590.pdf",
+            "news_date": "2025-02-12 19:09:59"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8e22a2d-5bac-4afb-8f6c-6db10ee8d998.pdf",
+            "news_date": "2025-02-12 16:09:57"
+        },
+        {
             "sym": "UNIVPHOTO",
             "disp": "Universus Photo Imagings",
             "bse_code": 542933,
@@ -120,6 +626,72 @@
             "sid": 17659,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results For Q3 Of FY 2024-25",
+            "news_body": "Financial Results for Q3 of FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d9eef4f-bec6-4d5d-9bb0-6202e64c0daf.pdf",
+            "news_date": "2025-02-12 16:07:20"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Financial Results (Standalone & Consolidated) For The Quarter And Nine Months Ended On 31St December 2024.",
+            "news_body": "Universus Photo Imagings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2025 inter alia to consider and approve the unaudited Financial Results (Standalone & Consolidated) for the quarter and nine months ended on 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4f46186-165b-4b3c-afb4-b3c6fc3d95b8.pdf",
+            "news_date": "2025-02-07 18:54:35"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg.74(5) of SEBI (DP) Regulations2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c52c2534-7120-4735-bee5-5706a9c30f8e.pdf",
+            "news_date": "2025-01-14 15:36:48"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e564e23b-1b59-42f9-9b58-bd53ca0f2719.pdf",
+            "news_date": "2024-12-27 18:23:30"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0748fe4a-7e1b-4040-870e-ab071d80c0c8.pdf",
+            "news_date": "2024-11-13 17:42:49"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=934c0459-3075-4f1c-87ec-d56997d34bd6.pdf",
+            "news_date": "2024-11-12 21:06:59"
         },
         {
             "sym": "UNIVPHOTO",
@@ -146,6 +718,160 @@
             "seg": "E"
         },
         {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results For The Quarter And Half Year Ended 30Th September,2024",
+            "news_body": "Financial Results for the quarter and  half year ended 30th September,2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=237d63e7-e9d6-4443-a477-990e2b5f86b4.pdf",
+            "news_date": "2024-11-12 21:04:09"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Scheduled To Be Held On Tuesday, 12Th November, 2024.",
+            "news_body": "Universus Photo Imagings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2024 ,inter alia, to consider and approve  to consider and approve the unaudited Financial Results (Standalone & Consolidated) for the second quarter and half year ended on 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=086fb915-2407-4994-9d8b-67cc160d1968.pdf",
+            "news_date": "2024-11-06 16:14:09"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Compliances-Certificate under Reg. 74(5)of SEBI (DP) Regulations,2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fc5aee4-5456-42f8-9e01-52d33257c03a.pdf",
+            "news_date": "2024-10-14 17:25:41"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "Submission of Voting Results along with Scrutinizer Report in respect of AGM of the Company held on 30th September,2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70e23b2d-5971-421c-8465-bd4de7387334.pdf",
+            "news_date": "2024-10-02 07:28:53"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Submission of Voting Results along with Scrutinizer Report in respect of AGM of the Company held on 30th September,2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfff26a3-02ee-44c2-aade-1514e0a9fd77.pdf",
+            "news_date": "2024-10-02 07:23:52"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of AGM held on September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4c7ac2c-7ccb-4792-9f44-b6ce7a73cda8.pdf",
+            "news_date": "2024-09-30 17:55:06"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daadacb6-418d-43ce-b4fd-923b87d9a45d.pdf",
+            "news_date": "2024-09-26 18:12:44"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17636fd6-bde3-459d-97f2-90bea10c86c7.pdf",
+            "news_date": "2024-09-09 12:17:52"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report - Financial Year ended 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f2ac842-3564-43cc-90c7-b710fe319cab.pdf",
+            "news_date": "2024-09-08 18:55:23"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholders Meeting - AGM 30-09-2024",
+            "news_body": "Shareholders Meeting - AGM 30-09-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c105aa2-100b-4de4-baf0-96273fcbcc27.pdf",
+            "news_date": "2024-09-08 18:50:31"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Corp. Action",
+            "descriptor": "Record Date",
+            "caption": "Record Date",
+            "news_body": "Record Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7eec6144-a549-4227-942d-ea30930fe516.pdf",
+            "news_date": "2024-09-02 21:37:07"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89d10089-f565-4771-905b-6e9d9bdde3b1.pdf",
+            "news_date": "2024-09-02 21:35:36"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de2567cc-1fd7-44c8-a14f-d1fc33c9552f.pdf",
+            "news_date": "2024-08-14 15:45:00"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c49867bf-18af-4682-8ece-89b3ad4758ab.pdf",
+            "news_date": "2024-08-13 17:56:33"
+        },
+        {
             "sym": "UNIVPHOTO",
             "disp": "Universus Photo Imagings",
             "bse_code": 542933,
@@ -168,6 +894,105 @@
             "sid": 17659,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results 30Th June 2024",
+            "news_body": "Financial Results 30th June 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca98523d-8a19-41b5-a869-f35c9c893cad.pdf",
+            "news_date": "2024-08-13 17:53:09"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Financial Results (Standalone & Consolidated) For The First Quarter Ended On 30ThJune, 2024",
+            "news_body": "Universus Photo Imagings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2024 ,inter alia, to consider and approve the Unaudited Financial Results (Standalone & Consolidated) for the first quarter ended on 30th June, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e27c8a7c-8414-42d8-a2b8-864ef418b33a.pdf",
+            "news_date": "2024-08-08 21:01:08"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Compliance Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a807b0f-06ef-4c7a-ac2e-0bf84eca6bea.pdf",
+            "news_date": "2024-07-10 18:12:37"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13afa8ee-e6c4-4380-a428-a81d31187d4f.pdf",
+            "news_date": "2024-06-26 17:34:46"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0f362d0-b037-4540-9d71-fcdaa002f46f.pdf",
+            "news_date": "2024-06-20 22:24:02"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f024ce76-0bdd-41bd-9ee6-473e5adfcc44.pdf",
+            "news_date": "2024-06-12 10:51:02"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication-Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2498cdd6-a558-4bd5-ba30-9a0160c7032b.pdf",
+            "news_date": "2024-05-29 23:06:49"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1ed21f7-fb5b-41f9-ac7f-59bfb72e0d71.pdf",
+            "news_date": "2024-05-29 22:59:54"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5a0d21a-05e2-4db1-9123-95dc9802c623.pdf",
+            "news_date": "2024-05-28 20:19:42"
         },
         {
             "sym": "UNIVPHOTO",
@@ -194,6 +1019,237 @@
             "seg": "E"
         },
         {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results For 31-03-2024",
+            "news_body": "Results-Financial Results for 31-03-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95292228-bd4d-4fab-b4df-54f63134d4d8.pdf",
+            "news_date": "2024-05-28 20:16:03"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Audited Financial Results (Standalone & Consolidated) For The 4Th Quarter And Financial Year Ended On 31St March, 2024.",
+            "news_body": "Universus Photo Imagings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2024 ,inter alia, to consider and approve Universus Photo Imagings Ltd has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2024,inter alia, to consider and approve the Audited Financial Results (Standalone & Consolidated) for the 4th Quarter and financial year ended on 31st March, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2759775c-2d98-49a3-a750-cac09771a267.pdf",
+            "news_date": "2024-05-21 17:39:49"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fb0e5cf-91d7-43d6-ac6b-ce6301d6da93.pdf",
+            "news_date": "2024-04-30 16:04:56"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Reg. 40 (10) - PCS Certificate for Transfer / Transmission / Transposition",
+            "caption": "Compliance-Certificate For Transfer/Transmission/Transposition Under Regulation 40(10) Of SEBI(LODR)Regulation,2015",
+            "news_body": "Certificate for Transfer/Transmission/Transposition under Regulation 40(10)of SEBI (LODR) Regulation,2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5a791e6-ee84-4ebe-8fec-e22502e2d019.pdf",
+            "news_date": "2024-04-29 13:04:48"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Reg. 7(3) \u2013 Compliance Certificate (RTA & Compliance Officer)",
+            "caption": "Compliances-Compliance Certificate  Under Regulation 7(3) Of SEBI(LODR) Regulation,2015 For The Year Ended 31.03.2024",
+            "news_body": "Compliance Certificate under Regulation 7(3) of SEBI(LODR) Regulation,2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bda1f37-bbbe-4118-807a-9754ef439b34.pdf",
+            "news_date": "2024-04-29 12:52:06"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Compliance Certificate Under Reg.74(5) of SEBI(DP) Regulation, 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d10ce0a-4d42-4270-8024-06d5932614c1.pdf",
+            "news_date": "2024-04-11 18:32:11"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2dca40b5-5327-4c94-b2c5-87eb1a75726a.pdf",
+            "news_date": "2024-03-27 22:39:34"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Postal Ballot - Scrutinizer''s Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b01850b-9447-44e8-af14-f75770531ae7.pdf",
+            "news_date": "2024-03-23 17:39:49"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc4b9c2d-e063-46df-af65-027cdee492db.pdf",
+            "news_date": "2024-03-23 17:37:14"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7828fbdc-b9c2-460a-80ce-2114e8fdf5f2.pdf",
+            "news_date": "2024-03-06 11:21:21"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d136ae9e-ae5c-43f9-9ec9-c350a659b8ac.pdf",
+            "news_date": "2024-03-03 16:16:05"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=166a5a5a-a343-4143-b196-e0a48d531300.pdf",
+            "news_date": "2024-03-01 15:08:17"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74306e87-39ed-4e54-9e86-83924a1a399f.pdf",
+            "news_date": "2024-02-23 23:30:34"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Disclosure Under SEBI (Prohibition Of Insider Trading) Regulations, 2015",
+            "news_body": "Submission of Disclosure in compliance with Regulation 7(2)(b) of the SEBI (Prohibition of Insider Trading)Regulations, 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a618594-e3d8-4107-9318-240b18737243.pdf",
+            "news_date": "2024-02-22 17:39:58"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (LODR) Regulations, 2015",
+            "news_body": "Change of Promoter Holding Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c61fbfe-89dc-4101-b18d-291b09f55c7c.pdf",
+            "news_date": "2024-02-22 17:10:29"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Concatenate Advest Advisory Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4A8A00E7_EFEB_486D_AAFE_13CF0849AC69_161118.pdf",
+            "news_date": "2024-02-22 16:11:24"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Concatenate Imaging Advest Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2D2FDDB8_6FA6_40AB_827F_604916930B21_160826.pdf",
+            "news_date": "2024-02-22 16:08:29"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c0594b2-6948-4ee0-b147-0e92102f7030.pdf",
+            "news_date": "2024-02-21 22:18:37"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Outcome Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations, 2015 - Notice Of Postal Ballot",
+            "news_body": "Outcome of Board Meeting- Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30a11ef9-d241-4978-8f23-db8b1ae8c484.pdf",
+            "news_date": "2024-02-21 22:16:33"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication-Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25867d6e-d6f6-4630-9a0d-03d45c49c0d0.pdf",
+            "news_date": "2024-02-14 12:55:23"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting - Unaudited Financial Results for Q3 and period ended 31st December, 2023.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7478102-d286-48bc-ad78-538ef5d42805.pdf",
+            "news_date": "2024-02-13 15:57:08"
+        },
+        {
             "sym": "UNIVPHOTO",
             "disp": "Universus Photo Imagings",
             "bse_code": 542933,
@@ -216,6 +1272,50 @@
             "sid": 17659,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results -Financial Results For December 31, 2023",
+            "news_body": "Results- Unaudited Financial Results for Q3  and period ended 31st December, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e9aa636-adba-43b9-b98e-16b9119b963e.pdf",
+            "news_date": "2024-02-13 15:53:11"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "Universus Photo Imagings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2024 ,inter alia, to consider and approve To consider and approve the Standalone and Consolidated Un-audited Financial Results of the Company for the quarter and nine months ended on 31st December, 2023.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83b23e26-8293-46a3-976d-d78f5683a32e.pdf",
+            "news_date": "2024-02-07 12:43:10"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Compliance Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49f54b9d-926f-4ec3-ab09-29ffccea43d0.pdf",
+            "news_date": "2024-01-09 16:51:32"
+        },
+        {
+            "co_code": 42512,
+            "bse_code": 542933,
+            "isin": "INE03V001013",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd691b58-1c49-4016-815d-b7ba41089633.pdf",
+            "news_date": "2023-12-30 13:09:08"
         },
         {
             "sym": "UNIVPHOTO",
@@ -625,6 +1725,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

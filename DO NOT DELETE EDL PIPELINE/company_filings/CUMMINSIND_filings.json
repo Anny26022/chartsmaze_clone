@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analysts and Investor meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eff86c0f-b11d-4a5a-94a5-8680fe901d1d.pdf",
+            "news_date": "2026-02-12 16:49:17"
+        },
+        {
             "sym": "CUMMINSIND",
             "disp": "Cummins",
             "bse_code": 500480,
@@ -24,6 +35,39 @@
             "sid": 1901,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Q3 FY 2025-26 Results Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd1502b2-99ca-4254-9c2f-c446b090114f.pdf",
+            "news_date": "2026-02-10 18:14:24"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed copies of newspaper publication regarding information and record date for interim dividend for the Financial Year 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d10b1af-056d-40cb-ae25-64ae762a893c.pdf",
+            "news_date": "2026-02-06 15:03:18"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed copies of newspaper publication regarding unaudited financial results for quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2ac88f8-e111-4caa-acbc-190d4145bedf.pdf",
+            "news_date": "2026-02-06 14:52:50"
         },
         {
             "sym": "CUMMINSIND",
@@ -50,6 +94,17 @@
             "seg": "E"
         },
         {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Outcome - Audio Recording for Analysts and Investors Earning calls held on February 5 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba32125a-1149-43ab-a676-2f769dfeaa1b.pdf",
+            "news_date": "2026-02-05 14:40:49"
+        },
+        {
             "sym": "CUMMINSIND",
             "disp": "Cummins",
             "bse_code": 500480,
@@ -72,6 +127,50 @@
             "sid": 1901,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a130a474-ba1c-497c-980e-4c1d8b8dfc59.pdf",
+            "news_date": "2026-02-04 22:03:19"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed press release dated February 4 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be1f15ef-3c48-41da-9826-2c0c5a874d3f.pdf",
+            "news_date": "2026-02-04 21:59:59"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Declaration of Interim Dividend for FY 2025-26 and Record Date - February 11 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9226d45d-4521-44cc-bec7-b630c9f60494.pdf",
+            "news_date": "2026-02-04 20:43:16"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board has fixed the record date as February 11 2026 for the purpose of Interim Dividend (Rs. 20/- Per equity Share) for financial year 2025-26 in their meeting held on February 4 2026 copy enclosed herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90cf9283-cf08-4271-9b60-f0631c0d4005.pdf",
+            "news_date": "2026-02-04 20:34:33"
         },
         {
             "sym": "CUMMINSIND",
@@ -98,6 +197,270 @@
             "seg": "E"
         },
         {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For December 31 2025",
+            "news_body": "Board of Directors have approved the financial results  (standalone and consolidated) quarter ended December 31 2025 in their meeting held on February 4 2026 copy enclosed herewith .",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0236abb0-394e-4940-a75a-8a15e2526f38.pdf",
+            "news_date": "2026-02-04 20:30:44"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held Today I.E. February 4 2026.",
+            "news_body": "Outcome of the Board meeting held on February 4 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe6b0da4-b285-4c60-8d59-e018a844edac.pdf",
+            "news_date": "2026-02-04 20:18:15"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of analyst/investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=505b5655-f6b4-4adf-9e2c-4332cbb8a017.pdf",
+            "news_date": "2026-02-03 19:22:26"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates Regarding Completion Of Acquisition.",
+            "news_body": "Please find enclosed intimation regarding updates on completion of acquisition.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0c30dab-f209-4604-8203-8719b5525f94.pdf",
+            "news_date": "2026-01-29 18:42:45"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation regarding schedule of investors and analysts conference call for quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2aeb0205-73e7-4187-bafd-2b5df3b60b0e.pdf",
+            "news_date": "2026-01-27 17:51:13"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Prior Intimation Of Board Meeting Scheduled On Feb 04 2026.",
+            "news_body": "Cummins India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/02/2026 inter alia to consider and approve Prior Intimation of Board Meeting scheduled on Feb 04 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c2b44a0-88a2-44a4-a960-dde17f1de46b.pdf",
+            "news_date": "2026-01-07 18:58:22"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Please find enclosed herewith Scrutinizer Report for Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7080bb16-2498-419a-9148-89f175006654.pdf",
+            "news_date": "2026-01-06 19:39:43"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Voting Result of the Postal Ballot along with Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=113c8bc6-9020-4dbd-b7c6-d9a70a0c35e4.pdf",
+            "news_date": "2026-01-06 19:37:57"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Reg 30 Of SEBI (LODR) Regulations 2015 - Update On Acquisition (Agreement).",
+            "news_body": "Disclosure under Reg 30 of SEBI (LODR) Regulations 2015 - Update on Acquisition (Agreement).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=442168b7-bfc9-47e2-97ef-79b9147341ea.pdf",
+            "news_date": "2026-01-05 20:08:37"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations 2018 for QE Dec 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d726a87-ee75-4a56-a580-712f376122a3.pdf",
+            "news_date": "2026-01-05 20:04:10"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Postal Ballot",
+            "caption": "Proceedings Of Postal Ballot.",
+            "news_body": "Proceedings of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a78d07ec-1048-49e8-ab43-dee44d690ded.pdf",
+            "news_date": "2026-01-05 19:59:55"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Acquisition - Disclosure Under Reg. 30 Of SEBI (LODR) Regulations 2015.",
+            "news_body": "Acquisition - Disclosure under Reg. 30 of SEBI (LODR) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a8c0dc7-0d8e-4bc6-acb6-25ad5906a155.pdf",
+            "news_date": "2025-12-29 21:48:58"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8437df6-3d1e-4cb4-81c0-9965f45a4d4c.pdf",
+            "news_date": "2025-12-29 18:58:59"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Reg 30 - Order",
+            "news_body": "Disclosure under Reg 30 - Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f838fe2-9858-4561-9a46-e14724913efe.pdf",
+            "news_date": "2025-12-22 20:37:08"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (LODR) Regulations 2015 - Order In Favour By ITAT.",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015 - order in favour by ITAT.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=062ed2ac-02f2-477b-9e48-9513260d1edb.pdf",
+            "news_date": "2025-12-19 19:51:10"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Approval for acquisition of Stake in Clean Max Yellowstone Private Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e24ad63-47b1-4628-9331-1fbc1b2a3e98.pdf",
+            "news_date": "2025-12-18 18:46:25"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Approval For Acquisition Of Stake In Clean Max Yellowstone Private Limited",
+            "news_body": "Approval for acquisition of stake in Clean Max Yellowstone Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a8280e3-814b-412c-b8a1-c7a001aa4d2d.pdf",
+            "news_date": "2025-12-18 18:40:28"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Advertisement for Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c3a05b6-eb85-46f4-be94-c425acff835c.pdf",
+            "news_date": "2025-12-06 14:44:14"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot for addition Material Related Party Transactions.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9367817a-e560-4787-9a82-5d2862af0878.pdf",
+            "news_date": "2025-12-05 14:38:49"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Notice to shareholders in respect of transfer of shares of the company to Investor Education and Protection Fund (IEPF).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9ae6b1b-ce33-45d1-a22a-7637c23f965e.pdf",
+            "news_date": "2025-12-02 18:25:02"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst /Investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb3ad9dd-83b3-40d4-8825-12c5c4843ca9.pdf",
+            "news_date": "2025-12-01 14:36:43"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Proposed Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ae1b986-3b68-4bcb-bc96-54e07c1ced99.pdf",
+            "news_date": "2025-11-21 23:40:51"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor / Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb0c119c-4f6d-4cd6-8b07-8e0820df4c7b.pdf",
+            "news_date": "2025-11-12 19:07:37"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication : Notice to Shareholders - Final Reminder - Special Window for Re-lodgment of Transfer Requests of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6fa2d0d-a50e-4c08-8995-625f7e0c600e.pdf",
+            "news_date": "2025-11-11 18:16:44"
+        },
+        {
             "sym": "CUMMINSIND",
             "disp": "Cummins",
             "bse_code": 500480,
@@ -120,6 +483,50 @@
             "sid": 1901,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Q2 and H1 FY 2025-26 Results Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cff3233e-af87-4950-a2ef-46ee79205bc7.pdf",
+            "news_date": "2025-11-10 17:18:11"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for Financial Results for quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd00d85b-5f07-4834-9a57-dac18c4d2db1.pdf",
+            "news_date": "2025-11-08 22:58:06"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of Results Conference Call - November 07 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3f2255c-fe45-4b45-b03e-060e4d0bf597.pdf",
+            "news_date": "2025-11-07 15:54:23"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated November 06 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=836c8aec-7588-4aa0-9917-c6d347acb472.pdf",
+            "news_date": "2025-11-06 21:30:26"
         },
         {
             "sym": "CUMMINSIND",
@@ -146,6 +553,259 @@
             "seg": "E"
         },
         {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Unaudited Standalone and Consolidated Financial Results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36591c26-398c-4957-be79-a8729da3b839.pdf",
+            "news_date": "2025-11-06 19:36:46"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting - November 06 2025",
+            "news_body": "Outcome of Board Meeting - November 06 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e0254d9-8b05-4f70-b1a3-8662d26bb75b.pdf",
+            "news_date": "2025-11-06 19:26:11"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/ Analyst call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9146ad6e-dc10-4254-8080-0d868ae7fe3d.pdf",
+            "news_date": "2025-11-05 19:41:40"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Results Conference Call for Q2 and H1 FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97a0603b-f628-4d17-bf26-7a615c71d7df.pdf",
+            "news_date": "2025-10-28 10:10:30"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 received from RTA of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25f56a9e-8c7a-4941-ab05-82d0831132e7.pdf",
+            "news_date": "2025-10-15 08:17:07"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Voting Results of Postal Ballot along with report of Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c42a5379-1a00-44f5-9323-c1a74b333814.pdf",
+            "news_date": "2025-10-08 20:07:06"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Voting Results of Postal Ballot along with report of Scrutinizer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=000a93aa-c2d6-4731-852e-95eeaf2ca333.pdf",
+            "news_date": "2025-10-08 20:03:21"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Proceedings of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b600a8d1-0e03-445a-a736-3b9c79bfbb2d.pdf",
+            "news_date": "2025-10-08 16:41:17"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release - Ceremonial Bell Ringing at NSE",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed2c32ce-ac8b-4ee4-b67e-7a31b9149181.pdf",
+            "news_date": "2025-10-03 15:03:04"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Contact Details Of RTA Of The Company",
+            "news_body": "Change in Contact Details of RTA of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5610546a-d8c1-4dd5-8366-918759b60a54.pdf",
+            "news_date": "2025-09-30 23:04:16"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation To Shareholders Holding Shares In Physical Mode -\r\nWithholding Of Dividend",
+            "news_body": "Intimation to shareholders holding shares in physical mode - withholding of Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f454e7c-d5f3-4ca3-afda-aa6f4d2caaf5.pdf",
+            "news_date": "2025-09-24 23:37:46"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=173e3127-3b8f-4105-b8f7-d9748c17def9.pdf",
+            "news_date": "2025-09-24 23:23:29"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Standalone And Consolidated Financial Results Of The Company For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Cummins India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/11/2025 inter alia to consider and approve Unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20c63ff3-4aff-491c-997d-dfbba2a0e95c.pdf",
+            "news_date": "2025-09-24 23:21:30"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication: Reminder- Special Window for Re-lodgment of Transfer Requests of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d735f76e-6888-4d73-8a46-d8ab7bbacc8f.pdf",
+            "news_date": "2025-09-17 23:22:28"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication -  Notice to Shareholders: 100 Days Campaign - Saksham Niveshak",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4b76b04-5ded-4637-a2ee-b3b27f300370.pdf",
+            "news_date": "2025-09-17 23:16:17"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d660642-fb08-4afa-bf53-459f26cc8c94.pdf",
+            "news_date": "2025-09-06 18:07:17"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7049d923-30a1-43d0-a727-173d052e3c90.pdf",
+            "news_date": "2025-09-05 16:39:23"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c51bb149-7fd2-4229-9d5a-e2d4cc50290d.pdf",
+            "news_date": "2025-09-04 19:21:52"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor / Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85778050-4125-4ca3-ab97-b1de9c381aab.pdf",
+            "news_date": "2025-09-03 23:45:31"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation To The Physical Shareholders For Updation Of KYC Details",
+            "news_body": "Intimation to the physical shareholders for updation of KYC details",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00132e22-d1b2-4564-ba64-eae984d7a45e.pdf",
+            "news_date": "2025-09-03 20:20:55"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for ICICI Prudential Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94265C47_F8EF_4D3C_8278_D7668E270218_120538.pdf",
+            "news_date": "2025-08-22 12:05:42"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Proposed Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef10bfd6-93bc-4ef1-a321-43d687c910f5.pdf",
+            "news_date": "2025-08-21 19:23:21"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of meetings scheduled with Investors / Analysts / Financial Institutions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6cd5bd0-e238-4a22-980c-5b6d99babe3e.pdf",
+            "news_date": "2025-08-13 19:38:23"
+        },
+        {
             "sym": "CUMMINSIND",
             "disp": "Cummins",
             "bse_code": 500480,
@@ -168,6 +828,61 @@
             "sid": 1901,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call held on August 08 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c61209e-6eb6-4745-9b28-59c0d058feee.pdf",
+            "news_date": "2025-08-11 19:03:39"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Financial Results for quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ae793bc-971d-402a-9da3-ec252ec90f69.pdf",
+            "news_date": "2025-08-09 19:58:17"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results of 64th AGM along with Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17d93c96-48b4-4eac-a6d6-553c5a92aeaf.pdf",
+            "news_date": "2025-08-08 20:42:41"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Voting Results of 64th AGM along with Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15c91547-0d87-4e72-9a61-7fbeed454ef1.pdf",
+            "news_date": "2025-08-08 20:39:42"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Proceedings Of 64Th AGM Of The Company",
+            "news_body": "Proceedings of 64th AGM of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed3f34eb-1742-4899-9287-375361fcf1ea.pdf",
+            "news_date": "2025-08-08 19:13:02"
         },
         {
             "sym": "CUMMINSIND",
@@ -194,6 +909,50 @@
             "seg": "E"
         },
         {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings call held on August 08 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75e794c4-a351-4a40-8261-53f87793651b.pdf",
+            "news_date": "2025-08-08 18:05:49"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Presentation Given By Managing Director Of The Company At The 64Th AGM",
+            "news_body": "Presentation given by Managing Director of the Company at the 64th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f05ef942-081d-4a3b-b7d6-83706c7fef02.pdf",
+            "news_date": "2025-08-08 17:37:50"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated August 07 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81244b24-6d02-4883-bef2-df5021ab0637.pdf",
+            "news_date": "2025-08-07 18:41:06"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ba0374a-7d18-4025-b588-4dbddc6b54d2.pdf",
+            "news_date": "2025-08-07 18:02:04"
+        },
+        {
             "sym": "CUMMINSIND",
             "disp": "Cummins",
             "bse_code": 500480,
@@ -216,6 +975,204 @@
             "sid": 1901,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Unaudited Financial Results fir the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52cfea78-ccd5-4aa2-aa45-d25578d1ba7f.pdf",
+            "news_date": "2025-08-07 17:57:34"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated August 07 2025",
+            "news_body": "Outcome of Board Meeting dated August 07 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8894c31-f1b8-48f2-b02c-34a4cb1ce497.pdf",
+            "news_date": "2025-08-07 17:42:19"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e115f7-d44a-4a1b-b03a-c4a41ab560a6.pdf",
+            "news_date": "2025-07-25 19:02:43"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Q1 FY 2025-26 Results Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=468abfa7-2088-469f-b976-ca1cd459643d.pdf",
+            "news_date": "2025-07-25 17:15:16"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Cessation of Mr. Prasad Kulkarni as Interim CFO of the Company with effect from July 21 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc5e91f1-bb85-4a07-95e1-d044efde3543.pdf",
+            "news_date": "2025-07-21 17:44:02"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Dispatch Of Letter Containing Web Link Of Annual Report Pursuant To Regulation 36(1)(B) Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation regarding dispatch of letter containing web link of Annual Report pursuant to Regulation 36(1)(b) of SEBI (Listing Obligations & Disclosures Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2af60524-8948-42a4-9202-051dcc218abd.pdf",
+            "news_date": "2025-07-19 09:37:48"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Opening of Special Window for re-lodgment of transfer requests",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8431f2c5-8cdc-42c9-8aff-4107217a67ae.pdf",
+            "news_date": "2025-07-18 18:03:33"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Notice of 64th AGM of the Company and E-Voting Information",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05b6830c-a1a2-4ad1-af54-2caf41ac783f.pdf",
+            "news_date": "2025-07-17 22:17:00"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report (BRSR) for FY 24-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c81a5ab1-eb1c-4935-9048-42a62678afc5.pdf",
+            "news_date": "2025-07-15 20:32:22"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for FY 24-25 along with Notice of 64th Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07fa1101-317e-4120-8479-f819f66a8c26.pdf",
+            "news_date": "2025-07-15 20:20:35"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 64Th Annual General Meeting Of The Company Along With Annual Report For FY 24-25",
+            "news_body": "Notice of 64th Annual General Meeting of the Company along with Annual Report for FY 24-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db40f3be-27b8-4875-b1dc-4c3ff361d73a.pdf",
+            "news_date": "2025-07-15 20:13:05"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "We are enclosing herewith a copy of certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=712ce6a6-acf1-49f7-9b63-079a88d379e7.pdf",
+            "news_date": "2025-07-11 08:10:31"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Information regarding 64th AGM to be held through video conferencing / other audio visual means",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c297b43-98b5-436c-be09-e68008157844.pdf",
+            "news_date": "2025-07-04 12:42:39"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication dated July 03 2025 regarding Deduction of Tax at Source on Final Dividend for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0ae3804-802f-4e54-98e4-89cf0d6e10e0.pdf",
+            "news_date": "2025-07-03 18:19:23"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading window for dealing in shares of the Company for Designated Persons of the Company and their Immediate Relatives",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78fe0a2b-b588-43e4-b30d-3caa1c495bc8.pdf",
+            "news_date": "2025-06-26 14:52:05"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Standalone And Consolidated Financial Results Of The Company For The Quarter Ended June 30 2025",
+            "news_body": "Cummins India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/08/2025 inter alia to consider and approve unaudited standalone and consolidated financial results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab2ee7d8-95e5-44e8-8d96-278a1c3c5a23.pdf",
+            "news_date": "2025-06-26 14:48:01"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated June 26 2025 titled - Cummins India Limited  Launches Battery Energy Storage Systems to Power Indias Clean Energy Transition.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8213bd4-ec59-408e-8f32-f694ba2d79e7.pdf",
+            "news_date": "2025-06-26 11:49:28"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Notice to shareholders in respect of transfer of shares of the Company to Investor Education and Protection Fund (IEPF)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a23684df-7bf5-46e2-830f-aac36a701533.pdf",
+            "news_date": "2025-06-06 17:58:07"
         },
         {
             "sym": "CUMMINSIND",
@@ -242,6 +1199,72 @@
             "seg": "E"
         },
         {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Q4 and FY 2024-25 Results Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e318165-1511-495b-bb72-7b5391a23016.pdf",
+            "news_date": "2025-06-02 19:41:06"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Audited Financial Results for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c621e63-8dfc-4b6c-87c8-8d39e2a67f50.pdf",
+            "news_date": "2025-05-30 14:32:36"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Response To Clarification Sought By BSE Vide Email Dated May 30 2025 Titled - Volume Movement Letter",
+            "news_body": "Response to clarification sought by BSE vide email dated May 30 2025 titled - volume movement letter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3313c1a1-e55a-409b-8639-c3f426b09b6e.pdf",
+            "news_date": "2025-05-30 13:15:28"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Cummins India Ltd",
+            "news_body": "The Exchange has sought clarification from Cummins India Ltd on May 30 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-05-30 11:28:22"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor / Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34864c8b-2e0b-42ce-9313-a2a74eab3f17.pdf",
+            "news_date": "2025-05-29 19:01:30"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c4ec663-79c4-481f-bff1-642e36a7adc6.pdf",
+            "news_date": "2025-05-29 18:46:54"
+        },
+        {
             "sym": "CUMMINSIND",
             "disp": "Cummins",
             "bse_code": 500480,
@@ -264,6 +1287,83 @@
             "sid": 1901,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Analyst / Investor call held on May 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa47c59a-1bb0-4cda-b1e6-caa5de054720.pdf",
+            "news_date": "2025-05-29 17:20:39"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated May 28 2025 - Audited Financial Results for the quarter and FY ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88b3eb31-2a65-4532-88b6-da721db37fe0.pdf",
+            "news_date": "2025-05-28 21:03:17"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditors Of The Company",
+            "news_body": "Appointment of Secretarial Auditors of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0707b530-57df-4533-85ba-a723105f6d61.pdf",
+            "news_date": "2025-05-28 20:48:25"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Date Of AGM Of The Company - August 08 2025",
+            "news_body": "Date of AGM of the Company - August 08 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a993a08d-2d82-47e9-8edf-a6f6903aad93.pdf",
+            "news_date": "2025-05-28 20:46:02"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Chief Financial Officer of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04bad854-8f6a-4f33-bd5c-b00874a13ff5.pdf",
+            "news_date": "2025-05-28 20:44:34"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Resignation of Ms. Bonnie Jean Fetch as Non-Executive Non-Independent Director and Non-Continuation of Ms. Rama Bijapurkar as Non-Executive Independent Director of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c55a1559-5c94-4aa8-8298-91e726367c2b.pdf",
+            "news_date": "2025-05-28 20:42:45"
+        },
+        {
+            "co_code": 337,
+            "bse_code": 500480,
+            "isin": "INE298A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Recommendation of Final Dividend for FY 2024-25 and fixing of record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8967f9dc-3c19-4aef-b504-8073cdf646b5.pdf",
+            "news_date": "2025-05-28 20:39:29"
         },
         {
             "sym": "CUMMINSIND",
@@ -1441,6 +2541,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

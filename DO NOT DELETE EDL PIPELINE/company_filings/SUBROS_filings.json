@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Proof of publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae680da2-b118-485a-ad0d-8060f0c2bc9f.pdf",
+            "news_date": "2026-02-11 16:23:39"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc4a412d-f97b-48f8-9994-9ea2c3e96965.pdf",
+            "news_date": "2026-02-10 17:50:41"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -24,6 +46,17 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earning Call Transcript Q3 (2025-26)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6a9a75b-36f9-43da-aefa-0924309c11d9.pdf",
+            "news_date": "2026-02-06 16:16:37"
         },
         {
             "sym": "SUBROS",
@@ -50,6 +83,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the investors call held on 2nd February 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c7f1f24-2564-4c67-a425-2235747de174.pdf",
+            "news_date": "2026-02-02 15:13:44"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication for the quarter and nine months ended 31st December2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bb2b49d-1827-459b-823f-a0119204c495.pdf",
+            "news_date": "2026-01-31 15:54:04"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -72,6 +127,39 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb16467e-d240-49bb-8f16-9529d5f51104.pdf",
+            "news_date": "2026-01-30 18:56:58"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30",
+            "news_body": "Announcement under Regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6dd58f1f-0c71-4b86-85dd-1df22f32b07d.pdf",
+            "news_date": "2026-01-30 18:52:02"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d456ba8-d574-452e-9c41-44b414ed1feb.pdf",
+            "news_date": "2026-01-30 18:49:12"
         },
         {
             "sym": "SUBROS",
@@ -98,6 +186,127 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Results For The Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "Unaudited results for the quarter and nine months ended on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c74fbb5-f298-49d4-bffd-55aede68a424.pdf",
+            "news_date": "2026-01-30 18:45:15"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting For The Approval Of Unaudited Financial Results For The Quarter And Nine Month Ended 31St December 2025",
+            "news_body": "Outcome of the Board Meeting for the approval of unaudited financial results for the quarter and nine month ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=804b3e39-71bd-4844-81b0-c17247256406.pdf",
+            "news_date": "2026-01-30 18:36:00"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Award of new business of local Electric Compressor for electric and hybrid vehicles",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=411efc51-c38d-430d-9055-10ac52dec070.pdf",
+            "news_date": "2026-01-29 12:49:48"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Analyst / Investor Conference Call scheduled to be held on 02nd February 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=815e1ddd-cc71-45e3-bccb-8787b9a245cf.pdf",
+            "news_date": "2026-01-27 16:40:28"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Financial Results Of The Company For The Quarter And Nine Months Ended On 31St December 2025.",
+            "news_body": "Subros Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/01/2026 inter alia to consider and approve consider and approve the unaudited financial results of the Company for the quarter and nine months ended on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31e2a465-3824-493c-8fec-2fee62da5794.pdf",
+            "news_date": "2026-01-09 15:12:14"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance certificate under Regulation 74(5) of SEBI (DP)Regulation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c85a77e-0e3e-48af-8533-98e1321eecff.pdf",
+            "news_date": "2026-01-09 15:01:36"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume",
+            "news_body": "Clarification letter on increase in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=854952f7-4fe8-4f40-bf0c-d82710d625b0.pdf",
+            "news_date": "2026-01-05 14:35:54"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Subros Ltd",
+            "news_body": "The Exchange has sought clarification from Subros Ltd on January 5 2026 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2026-01-05 12:54:13"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window for the quarter and nine months ending on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b068ac73-93a0-47d3-bb91-bd7abf75c5ef.pdf",
+            "news_date": "2025-12-26 16:02:18"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Meeting with Investors/Analysts",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7586f7b-c5d0-4b78-b482-494d02b20b73.pdf",
+            "news_date": "2025-12-11 17:46:57"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "New order received from Railways",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b857bc50-700b-47c1-a355-16e1583896d9.pdf",
+            "news_date": "2025-12-04 11:47:31"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -120,6 +329,28 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earning call Transcript of Q2(2025-26)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb9bcd1c-cfa6-4188-b416-c86e46f7b664.pdf",
+            "news_date": "2025-11-14 17:51:00"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy Proof of Publication for unaudited financial of quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d84e7a12-5217-4c01-a88b-94f26700e643.pdf",
+            "news_date": "2025-11-11 15:12:01"
         },
         {
             "sym": "SUBROS",
@@ -146,6 +377,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the investors call held on 10th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2aaea985-0ef0-48bc-b900-b4e3d0439041.pdf",
+            "news_date": "2025-11-10 18:50:24"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -168,6 +410,17 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation on the unaudited financial results for the quarter and half year ended on 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74303aa7-bcc5-46c0-adfd-9e7eb04ebb42.pdf",
+            "news_date": "2025-11-10 17:19:58"
         },
         {
             "sym": "SUBROS",
@@ -194,6 +447,226 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Unaudited Results for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0148135-dd6c-4cca-bff0-4a481a2b0600.pdf",
+            "news_date": "2025-11-10 16:58:58"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Outcome of the Board Meeting  for the approval of unaudited financial results for the quarter and half year ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ce8b923-fe57-4bea-841c-8c551c579d37.pdf",
+            "news_date": "2025-11-10 16:39:45"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Update on Analyst/ Investor meet scheduled dated 10th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5131640-989f-4328-99b5-6892fc0b639b.pdf",
+            "news_date": "2025-11-05 16:20:45"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For The Quarter And Half Year Ended Ended 30Th September 2025.",
+            "news_body": "Subros Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/11/2025 inter alia to consider and approve Board Meeting Intimation for the quarter and half year ended ended 30th September 2025. to consider and approve the unaudited financial results of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70aa99d7-b109-46c9-ae64-860029d586b7.pdf",
+            "news_date": "2025-11-03 15:41:45"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Analyst / Investor Conference Call scheduled to be held on 10th November 2025.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54cbc6fe-ba54-4665-b7d5-e76f3346c4c1.pdf",
+            "news_date": "2025-11-01 17:42:23"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Additional details under Regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=839c6cb0-b321-40da-bf93-39df54b46778.pdf",
+            "news_date": "2025-10-25 18:06:00"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "New Order from Indian Railways.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2de482a6-1ca0-4fe7-9e51-939863114546.pdf",
+            "news_date": "2025-10-17 11:56:43"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication for Saksham Niveshak.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aac6f748-f001-464a-aa31-ae8f79fff42f.pdf",
+            "news_date": "2025-10-09 18:10:45"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulation 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95b9d177-ae25-43be-9230-0288e63651d0.pdf",
+            "news_date": "2025-10-09 18:05:32"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for the Quarter ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4bc79a6-b0ea-4e9a-b69d-cc3942093e7b.pdf",
+            "news_date": "2025-09-27 15:34:59"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizer Report with E-voting results for the 40th AGM held on 17-09-2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c48b398f-6b50-4776-8a34-cde2f00ef0f7.pdf",
+            "news_date": "2025-09-19 16:28:48"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of40th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3508fc4a-3e9a-40c0-acd4-90cb0bca1c87.pdf",
+            "news_date": "2025-09-17 16:44:54"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Proof of Publication for 40th AGM Notice Published in Newspaper",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6abe16fd-4123-41df-8a53-84f4ab5569fc.pdf",
+            "news_date": "2025-08-28 13:16:00"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the Financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5569ecf9-0df5-489a-8e94-bc3e15f20dd4.pdf",
+            "news_date": "2025-08-28 13:06:24"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Annual Report F.Y 2024-25",
+            "news_body": "Annual Report for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=580f0163-3fa2-4aa5-bc3b-9365dd2f9b78.pdf",
+            "news_date": "2025-08-26 19:40:24"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "BRSR For the F.Y 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e38aad91-d59b-4b42-a47f-05ed5e8cc867.pdf",
+            "news_date": "2025-08-26 19:34:55"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter Under Section 36(1)",
+            "news_body": "Letter to shareholder under section 36(1)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fea9ca4-1531-4fda-b635-f130897846bb.pdf",
+            "news_date": "2025-08-26 19:29:28"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 40Th AGM And Annual Report For The F.Y 2024-25",
+            "news_body": "Notice of 40th Annual General Meeting and Annual Report for the F.Y 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61bffc8f-5749-4471-a9fa-5448f701652a.pdf",
+            "news_date": "2025-08-26 19:22:41"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Proof of Newspaper(s) Publication for 40th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc5e78f1-0d29-4937-ae39-bfc955bceab9.pdf",
+            "news_date": "2025-08-21 17:14:56"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for special window opened for re-lodgment of  transfer request of Physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=866d76e1-7120-4a57-b9ed-0008d71cad62.pdf",
+            "news_date": "2025-08-21 17:07:50"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -216,6 +689,17 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earning call transcript of Q1 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=706643ed-89e5-49ea-828b-6e5528393a9e.pdf",
+            "news_date": "2025-08-13 16:02:41"
         },
         {
             "sym": "SUBROS",
@@ -242,6 +726,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Conference call- audio recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3017784-7f89-4726-9ad3-6bf442d8c3d7.pdf",
+            "news_date": "2025-08-08 14:38:45"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for the unaudited financial results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb8c8929-cb90-415f-826e-760cf02d8680.pdf",
+            "news_date": "2025-08-08 11:47:38"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -264,6 +770,17 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter Ended 30Th June 2025",
+            "news_body": "Results for the quarter ended 30th June 2025 submitted on 7th August 2025 not displayed on the portal being uploaded again",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20da3693-a334-4f61-baed-34fdc9ef96fd.pdf",
+            "news_date": "2025-08-08 11:37:48"
         },
         {
             "sym": "SUBROS",
@@ -290,6 +807,116 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation on the unaudited financial statement for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7dfc676-5b29-4073-906e-86c7c641f5ab.pdf",
+            "news_date": "2025-08-07 18:04:43"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting For The Quarter Ended June 30 2025",
+            "news_body": " Unaudited financial result for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8c68359-2020-4fef-86ba-7cd6ebfd4e34.pdf",
+            "news_date": "2025-08-07 17:19:02"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Analyst / Investor Conference call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a36da350-7448-4ab7-9973-41a753880b8d.pdf",
+            "news_date": "2025-07-26 17:45:38"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For The Quarter Ended 30Th June 2025",
+            "news_body": "Subros Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/08/2025 inter alia to consider and approve Board Meeting Intimation to consider and approve unaudited financial statement of the company for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=263a6d60-4439-4867-8c70-10f4642a7ce4.pdf",
+            "news_date": "2025-07-26 17:30:53"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure (Update) Under Regulation 30 Of The SEBI(Listing Obligations And Disclosure Requirements)Regulations 2015",
+            "news_body": "Disclosure(update) under Regulation 30 of the SEBI(Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d9e8241-9d56-4748-9c46-df043221e8d6.pdf",
+            "news_date": "2025-07-26 16:42:01"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulation 2018 for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8b76de6-4af9-4f66-9fed-0e508334a13b.pdf",
+            "news_date": "2025-07-11 17:46:57"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window for the quarter ended 30-06-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8b87f4c-1db8-446f-8c11-33b709acff8d.pdf",
+            "news_date": "2025-06-26 12:09:19"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume",
+            "news_body": "Clarification on Increase in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1bb5349-85b8-46c4-b1b3-ec46f111094c.pdf",
+            "news_date": "2025-06-10 13:39:24"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Subros Ltd",
+            "news_body": "The Exchange has sought clarification from Subros Ltd on June 10 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-06-10 13:12:52"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02856a8e-b5e1-4652-979c-99e6dcfa0ac5.pdf",
+            "news_date": "2025-05-30 12:48:28"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -312,6 +939,28 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings call transcript of Q4 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0d4d86b-fa99-4074-943b-7686a42b8a4b.pdf",
+            "news_date": "2025-05-29 15:04:19"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action Fixes Record Date For Purpose Of Dividend",
+            "news_body": "Record date for the purpose of Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5654783-09f1-45ff-8008-9a421a10467e.pdf",
+            "news_date": "2025-05-23 18:10:31"
         },
         {
             "sym": "SUBROS",
@@ -338,6 +987,50 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Conference call- audio recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9f6d0df-f8f1-45ed-a664-880c6e9c0436.pdf",
+            "news_date": "2025-05-23 16:15:22"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for the Audited Financial Statement for the year ended 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7976de4a-7360-4241-8854-25e9af090539.pdf",
+            "news_date": "2025-05-23 15:25:58"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Annual Investor Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f0c45d9-9186-4b57-9f53-34d3e12fa245.pdf",
+            "news_date": "2025-05-23 12:31:10"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor For The Term Term Of 5 Years Commencing From FY 2025-26.",
+            "news_body": "Appointment of Secretarial Auditor for the term of 5 years commencing from FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a33cbbd-f22a-4cb1-977c-2248a81b051c.pdf",
+            "news_date": "2025-05-22 18:42:00"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -360,6 +1053,61 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "INVESTOR PRESENTATION",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d64b49e-a112-4b6e-bd70-aa862bcea3c7.pdf",
+            "news_date": "2025-05-22 18:15:34"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Annual General Meeting",
+            "news_body": "Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=641fabef-a0f5-4192-907e-66544657f3a1.pdf",
+            "news_date": "2025-05-22 17:13:08"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Dividend Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7903edd-2460-4582-b7f2-a8219b9be2c6.pdf",
+            "news_date": "2025-05-22 17:06:25"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Book Closure For AGM/Dividend",
+            "news_body": "Book closure for AGM/Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=488efac0-ee36-4896-8145-0656816e08c4.pdf",
+            "news_date": "2025-05-22 17:04:19"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Dividend Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c0ee644-b76e-4fbb-9021-2f04eaa2273f.pdf",
+            "news_date": "2025-05-22 17:00:18"
         },
         {
             "sym": "SUBROS",
@@ -386,6 +1134,182 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting",
+            "news_body": "Financial results for the year ended 31st March2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41cb3f70-79b2-4c73-b4b9-365f11b0a690.pdf",
+            "news_date": "2025-05-22 14:56:28"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for OUTCOME OF THE BOARD MEETING",
+            "news_body": "Outcome of the board meeting for the year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c41382d9-a9bb-4d51-8e02-da3bae8a93c3.pdf",
+            "news_date": "2025-05-22 14:46:49"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst/ Investor Meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2aa23b0-0130-4322-bef2-20831ffecd07.pdf",
+            "news_date": "2025-05-16 10:57:59"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation",
+            "news_body": "Subros Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/05/2025 inter alia to consider and approve Board Meeting Intimation for the quarter ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec6c2380-d7e1-49b8-b323-b2fbab0e37a6.pdf",
+            "news_date": "2025-05-15 12:45:25"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2938506e-61da-430b-b911-c155b9d9198e.pdf",
+            "news_date": "2025-05-01 16:53:44"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Subros Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L74899DL1985PLC020134</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>AA</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>ICRA LIMITED</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Mr Kamal Samtani <br/>  Designation: Company Secretary <br/> EmailId: kamal.samtani@subros.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Mr Hemant k Agarwal <br/> Designation: CFO  <br/> EmailId: hemant.agarwal@subros.com</div> </div> <div> <br/> Date: 30/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df15f5c5-ef2e-4268-88cd-8ed40bc0c1a2.pdf",
+            "news_date": "2025-04-30 17:22:15"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1469a316-b6bd-4b2e-a05a-e7d4b8ef04e4.pdf",
+            "news_date": "2025-04-10 13:08:35"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=835da356-f1ee-4586-a7d2-3780d101ab8a.pdf",
+            "news_date": "2025-04-09 17:05:38"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0996d14-31be-4021-9f74-61106b321c97.pdf",
+            "news_date": "2025-04-08 17:05:35"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15898b66-514d-4a60-b759-d28f451a9e1c.pdf",
+            "news_date": "2025-03-28 21:03:13"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35259765-b717-459b-b601-1cf21845380f.pdf",
+            "news_date": "2025-03-28 20:58:10"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": " Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a55db925-49ac-447f-a2b4-f498fe8405a7.pdf",
+            "news_date": "2025-03-27 15:22:20"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Submission of Voting Results under Regulation 44 of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 along with Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59f16d91-9d88-4682-82d8-f0d86b4b839d.pdf",
+            "news_date": "2025-03-12 20:17:19"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation regarding Credit Rating(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10418ae1-4cc0-44f8-9e47-1da22684ed40.pdf",
+            "news_date": "2025-02-18 14:36:18"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7a8c93d-31d1-4349-93e8-a9848a765caa.pdf",
+            "news_date": "2025-02-08 17:42:19"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15f4cb37-4b8c-4565-821b-577d27e4488a.pdf",
+            "news_date": "2025-02-07 18:24:37"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -408,6 +1332,17 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Investor Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5be185c6-0b87-4520-aa09-11b60b9acb38.pdf",
+            "news_date": "2025-02-05 18:21:52"
         },
         {
             "sym": "SUBROS",
@@ -434,6 +1369,50 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording",
+            "news_body": "Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31a1526d-6185-4010-aab6-9f087cd927f3.pdf",
+            "news_date": "2025-01-31 17:41:35"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copies of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b598b3f9-86a5-47fe-a69f-9f541af6763c.pdf",
+            "news_date": "2025-01-31 17:21:02"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Ms. Shradha Suri as Chairperson & Managing Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64cb5fd5-6302-447d-898c-f37b0e2fdc52.pdf",
+            "news_date": "2025-01-31 11:13:59"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial) for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0eab9c81-152d-41e9-bdc1-feb313e0acab.pdf",
+            "news_date": "2025-01-30 20:51:16"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -458,6 +1437,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the unaudited financial results for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8cd6119-1128-4912-8c34-e5b3e6d48a7c.pdf",
+            "news_date": "2025-01-30 16:28:48"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b80049b9-71f1-4117-abb7-f5a8ad7289dd.pdf",
+            "news_date": "2025-01-30 14:27:32"
+        },
+        {
             "sym": "SUBROS",
             "disp": "Subros",
             "bse_code": 517168,
@@ -480,6 +1481,105 @@
             "sid": 3324,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter Ended 31St December 2024",
+            "news_body": "Unaudited Financial Results for the Quarter ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bffed466-166b-45cf-818e-27b644cbd26d.pdf",
+            "news_date": "2025-01-30 14:18:27"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Change Of Address Of Registrar And Share Transfer Agent (RTA)",
+            "news_body": "Intimation regarding change of address of Registrar and Share Transfer Agent (RTA)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=905ac522-357f-4735-8ad2-58c6ab61b24a.pdf",
+            "news_date": "2025-01-24 17:03:15"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of conference call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1a0c181-aa3c-4c1f-ad7d-27c6e69c81a3.pdf",
+            "news_date": "2025-01-20 18:39:41"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering Unaudited Financial Results For The Quarter Ended December 31 2024",
+            "news_body": "SUBROS LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/01/2025 inter alia to consider and approve the unaudited financial results of the Company for the quarter and nine months ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be7860ca-7106-4e0c-addb-87a2e0ea0de9.pdf",
+            "news_date": "2025-01-15 19:28:19"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=141cc6b4-7db3-4b96-b954-95eb5638dbb6.pdf",
+            "news_date": "2025-01-14 14:16:06"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Company Updates",
+            "news_body": "Disclosure of material events",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84553bea-c36b-444f-a730-a1bf903c7086.pdf",
+            "news_date": "2025-01-09 13:17:35"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Kotak Mahindra Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95808EE3_F40A_459B_9C24_701475EA66CA_125530.pdf",
+            "news_date": "2024-12-31 12:55:37"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Kotak Mahindra Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7D6DB87F_BCA8_41B9_980E_906FC4423CE9_123623.pdf",
+            "news_date": "2024-12-30 12:36:25"
+        },
+        {
+            "co_code": 1121,
+            "bse_code": 517168,
+            "isin": "INE287B01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Company Updates",
+            "news_body": "The Company has formally surrendered the leasehold rights on the Sanand land to the Lessor i.e. Tata Motors Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12bdbc6c-ed96-46b8-af3d-a9dfbe5a83cf.pdf",
+            "news_date": "2024-12-27 18:05:15"
         },
         {
             "sym": "SUBROS",
@@ -1681,6 +2781,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

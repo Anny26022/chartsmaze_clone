@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication on notice to shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88675ed6-5f59-4a96-bf42-1c52e405a12f.pdf",
+            "news_date": "2026-02-10 13:00:35"
+        },
+        {
             "sym": "COROMANDEL",
             "disp": "Coromandel International",
             "bse_code": 506395,
@@ -24,6 +35,39 @@
             "sid": 739,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of conference call held on February 2 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=871f5482-8bfa-407b-8eea-111200de1102.pdf",
+            "news_date": "2026-02-09 14:34:20"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 31(A)(8) Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended (Listing Regulations)",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0878630c-4a64-4d9a-a37e-4a9e15ea1ad6.pdf",
+            "news_date": "2026-02-03 13:13:49"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1d6b48d-e33d-4293-b4e8-29a47c1cfc89.pdf",
+            "news_date": "2026-02-02 18:15:30"
         },
         {
             "sym": "COROMANDEL",
@@ -50,6 +94,61 @@
             "seg": "E"
         },
         {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68fe59b4-11ab-4040-b022-4e5d1fd41c15.pdf",
+            "news_date": "2026-02-02 13:00:53"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is in continuation to our intimation dated 27th January 2026 regarding Analyst/ Institutional Investor conference scheduled on 30th January 2026.\r\n\r\nWe would like to inform that the above-mentioned meeting is rescheduled due to certain business exigencies to Monday February 02 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25a47efa-83b0-49c4-ba04-5d1973d00f47.pdf",
+            "news_date": "2026-01-30 14:04:41"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release titled Coromandel International delivers resilient Q3 FY26 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=223b7e92-c0b7-42a8-818b-12cc54d7413a.pdf",
+            "news_date": "2026-01-29 17:04:43"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Pursuant To Regulation 31A Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19e4e2fa-45aa-4680-b365-bdd56cbe90ed.pdf",
+            "news_date": "2026-01-29 15:09:28"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "The Board has approved the payment of interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd2cfb6b-4f71-4668-a701-795676d6de46.pdf",
+            "news_date": "2026-01-29 14:57:21"
+        },
+        {
             "sym": "COROMANDEL",
             "disp": "Coromandel International",
             "bse_code": 506395,
@@ -72,6 +171,215 @@
             "sid": 739,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results Of The Company For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Unaudited financial results of the Company For the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18ccf56a-d79b-4d7b-862f-ee15852f1c91.pdf",
+            "news_date": "2026-01-29 14:51:34"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of Board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74031d8b-e629-48e0-bbbd-bbe094e4ae1d.pdf",
+            "news_date": "2026-01-29 14:47:13"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings call for Q3FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=462e5abc-07c8-4018-8a25-24ab74875aaf.pdf",
+            "news_date": "2026-01-27 16:15:20"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Disclosure under Regulation 30 of SEBI LODR Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f6e2c94-eb9b-4d21-a445-baf5df48cc8c.pdf",
+            "news_date": "2026-01-24 13:06:38"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Financial Results (Standalone & Consolidated) Of The Company For The Quarter And Nine Months Ended December 31 2025.",
+            "news_body": "Coromandel International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/01/2026 inter alia to consider and approve the unaudited Financial Results (Standalone & Consolidated) Of The Company For The Quarter And Nine Months Ended December 31 2025.We further wish to inform that the Board may also consider Interim Dividend for the financial year 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50bdf0bf-a279-461c-b67f-4a733ce83f97.pdf",
+            "news_date": "2026-01-22 18:06:20"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87f1e4fa-e668-4f08-9f3c-0ff9c8a702c9.pdf",
+            "news_date": "2026-01-12 19:18:49"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication on notice to shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13168b3a-86ac-43fc-bb69-c22982dbeffa.pdf",
+            "news_date": "2026-01-04 00:00:16"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Disclosure under Regulation 30 of SEBI Listing Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a8780ee-8572-4ba1-b3a7-d59274301323.pdf",
+            "news_date": "2025-12-31 20:23:33"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reply To Clarification Regarding Movement In Volume",
+            "news_body": "Reply to the clarification regarding movement in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0728bbaf-bd86-426e-81ee-f404e4686aec.pdf",
+            "news_date": "2025-12-31 14:13:43"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Coromandel International Ltd",
+            "news_body": "The Exchange has sought clarification from Coromandel International Ltd on December 31 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-12-31 13:21:31"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3267c39-49a2-4dab-9367-71a6c1db84d1.pdf",
+            "news_date": "2025-12-26 21:12:57"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Intimation regarding cessation of office of Director under Regulation 30 of the SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4ffb965-40b3-4930-9a44-d190d788d1ac.pdf",
+            "news_date": "2025-12-20 11:04:16"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Read With Regulation 31(A)(8) Of SEBI (LODR) 2015 Following Receipt Of Request For Re-Classification From The Promoter Group Category",
+            "news_body": "Intimation pertaining to the receipt of intimation of re-classification from Promoter group category",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a65c5803-c4b4-4882-a486-2b0f445dee3a.pdf",
+            "news_date": "2025-12-18 18:04:27"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of shares under ESOP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e8af7e0-455d-487a-a470-a08619955294.pdf",
+            "news_date": "2025-12-08 19:02:53"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI LODR Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9009ef0e-f7c7-4cc2-b709-ede3f9190984.pdf",
+            "news_date": "2025-12-05 20:46:33"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Coromandel International Limited has informed the exchange about voting results and scrutinizer report of postal ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=247da79c-507e-427c-ad1a-e53b633f68bc.pdf",
+            "news_date": "2025-12-05 20:34:10"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " Disclosure Under Regulations 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI LODR Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04329c0a-bf16-496a-bd57-9b8a1b7aef80.pdf",
+            "news_date": "2025-12-04 21:34:50"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da69f51f-f293-41ed-8ecb-dbec83f29d89.pdf",
+            "news_date": "2025-12-01 20:05:46"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On December 01 2025",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39729afe-35ba-45f0-8d6c-0997274f0daa.pdf",
+            "news_date": "2025-12-01 19:38:28"
         },
         {
             "sym": "COROMANDEL",
@@ -98,6 +406,83 @@
             "seg": "E"
         },
         {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd4830d5-5853-4338-a173-cdc498079175.pdf",
+            "news_date": "2025-11-30 20:36:45"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3067f486-2377-4565-98a0-9bdff28a0be4.pdf",
+            "news_date": "2025-11-26 19:52:24"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement - Transfer of Equity shares to IEPF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cf034ef-5cc2-44c0-9714-cbd5d8fd420d.pdf",
+            "news_date": "2025-11-22 16:14:22"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication on notice to Shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08987ec4-f64c-4480-b000-725541329096.pdf",
+            "news_date": "2025-11-22 16:04:36"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demise Of Chairman Emeritus",
+            "news_body": "Please refer the attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10f559cd-2050-4e4e-ac92-2be573183b4a.pdf",
+            "news_date": "2025-11-17 20:10:57"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 31(A)(8) Of SEBI (LODR) 2015",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d9122b3-e0d8-4ca9-add5-890a0840cd92.pdf",
+            "news_date": "2025-11-14 22:09:56"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Regarding Memorandum Of Understanding With The Andhra Pradesh Economic Development Board",
+            "news_body": "Disclosure regarding MOU with the Andhra Pradesh Economic Development Board",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ba9d55f-328f-4316-833f-a2a00f13a935.pdf",
+            "news_date": "2025-11-14 07:31:33"
+        },
+        {
             "sym": "COROMANDEL",
             "disp": "Coromandel International",
             "bse_code": 506395,
@@ -120,6 +505,61 @@
             "sid": 739,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of conference call held on October 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bfed9fa-8c21-4d02-8dff-7eb482f0eae1.pdf",
+            "news_date": "2025-11-07 20:03:36"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement - Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a567c06-ccc5-4d8e-9762-538f298a2c38.pdf",
+            "news_date": "2025-11-06 16:44:29"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=445bee1a-90ae-4fe0-ac7c-d0865c92be9c.pdf",
+            "news_date": "2025-11-05 17:29:46"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI LODR Regulations",
+            "news_body": "Please refer attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3215815-81b8-4f9a-a4d5-78580aa582a8.pdf",
+            "news_date": "2025-11-01 14:01:23"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a139586-d935-4407-8cfe-f5d012d3e60d.pdf",
+            "news_date": "2025-10-31 19:49:09"
         },
         {
             "sym": "COROMANDEL",
@@ -146,6 +586,39 @@
             "seg": "E"
         },
         {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a184054a-e80f-4d34-86e0-2adeb677cf49.pdf",
+            "news_date": "2025-10-31 13:36:25"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release titled Coromandel International delivers strong Q2  FY26 Results; strengthens market leadership across nutrients and crop protection businesses.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c81f2e3-614d-4b86-a627-4e880fb7dad4.pdf",
+            "news_date": "2025-10-30 17:17:33"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcements Under Regulation 30 Of SEBI LODR Regulations",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0969e22c-4c8a-4014-b763-e9fa183e8e24.pdf",
+            "news_date": "2025-10-30 14:07:14"
+        },
+        {
             "sym": "COROMANDEL",
             "disp": "Coromandel International",
             "bse_code": 506395,
@@ -168,6 +641,303 @@
             "sid": 739,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results H1 FY 25-25",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=385815f8-ffa4-4891-b693-d2033e06bc18.pdf",
+            "news_date": "2025-10-30 14:00:50"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4040c32-776d-4c64-8b2c-20e94d1d247d.pdf",
+            "news_date": "2025-10-30 13:57:21"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings call for Q2 & H1 FY 26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8710aebf-ee7b-461b-922a-0d787b8c144f.pdf",
+            "news_date": "2025-10-28 18:21:18"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Update on board meeting",
+            "news_body": "Coromandel International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/10/2025 inter alia to consider and approve Update on board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=126130ed-ff69-445f-8a4a-6dbd8d5819b6.pdf",
+            "news_date": "2025-10-26 22:03:31"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Financial Results (Standalone & Consolidated) Of The Company For The Quarter And Half Year Ended September 30 2025.",
+            "news_body": "Coromandel International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/10/2025 inter alia to consider and approve the Unaudited Financial Results (Standalone & Consolidated) of the Company for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13c1325c-5fea-4d3b-93d0-b2bf872f642a.pdf",
+            "news_date": "2025-10-25 22:37:52"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18ad5719-2c5c-4feb-8d1c-ca8330bce81d.pdf",
+            "news_date": "2025-10-08 16:35:50"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication on notice to shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b5c0d4c-d4fb-4be2-ad8a-2c1705b23e59.pdf",
+            "news_date": "2025-10-07 17:19:26"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 31(A)(8) Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49f8ae79-08b0-41e3-982d-2e9583bab416.pdf",
+            "news_date": "2025-09-26 23:10:49"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation on closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6342f5d9-b1e5-4294-a547-02e4dbceb8ff.pdf",
+            "news_date": "2025-09-23 19:22:43"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Pursuant To Regulation 31A Of SEBI (Listing Obligations And Disclosure\r\nRequirements) Regulations 2015",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=962664bb-c7c7-408e-9e60-38b702dcee3b.pdf",
+            "news_date": "2025-09-22 18:55:41"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6762498-d314-4539-b093-667853651e98.pdf",
+            "news_date": "2025-09-22 12:23:32"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c53af4a3-81d6-4682-8e48-f124ddfbe8dd.pdf",
+            "news_date": "2025-09-22 12:19:33"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper publication on notice to the Shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cfa49cd-9514-4996-b045-08fa799fee15.pdf",
+            "news_date": "2025-09-17 20:00:31"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Read With Regulation 31(A)(8) Of SEBI (LODR) 2015 Following Receipt Of Request For Re-Classification From The Promoter Group Category",
+            "news_body": "Intimation pertaining to the receipt of intimation of re-classification from promoter group category",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e812e774-a283-4099-85cd-323464251f35.pdf",
+            "news_date": "2025-09-17 13:29:10"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Acquisition",
+            "news_body": "Please refer attachment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb0d32f5-e2ad-4313-a313-dc98ef89f209.pdf",
+            "news_date": "2025-09-13 09:27:18"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement regarding Notice of Special Window for re-lodgement of transfer requests of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c53575f2-9b1f-400e-a27f-7d646744823e.pdf",
+            "news_date": "2025-08-30 13:42:05"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Read With Regulation 31(A)(8) Of SEBI (LODR) 2015 Following Receipt Of Request For De-Classification From Promoter",
+            "news_body": "Intimation pertaining to the receipt of intimation of de-classification from Promoter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c91de5e-ff8e-40ad-841f-7f085b88be21.pdf",
+            "news_date": "2025-08-30 13:32:01"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b3f7163-430e-4e15-bd73-908381607d58.pdf",
+            "news_date": "2025-08-23 14:04:46"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of shares under ESOP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc992d73-346c-4b86-afef-5e80610e7d19.pdf",
+            "news_date": "2025-08-20 20:06:32"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "A Copy of newspaper publication on 100 days campaign - \"Saksham Niveshak\" initiated by IEPFA.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d4b0f84-817c-4946-b686-235143f9b5d3.pdf",
+            "news_date": "2025-08-19 20:35:10"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement regarding Notice of Special Window for re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82f94d16-8858-4f7b-bb24-efd000128395.pdf",
+            "news_date": "2025-08-18 17:15:52"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI LODR Regulations 2015 - Letter Of Offer",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d32d58b3-8b79-4208-b4ad-7df1246ef8a2.pdf",
+            "news_date": "2025-08-12 20:02:58"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release titled Coromandel International completes acquisition of 53% controlling stake in NACL Industries Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=031dc18e-453b-42e5-8700-62f99365aaee.pdf",
+            "news_date": "2025-08-08 15:46:36"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Disclosure under Regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d877a42-beed-40f4-a4c0-7cba9d928ba0.pdf",
+            "news_date": "2025-08-08 13:14:25"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Disclosure under Regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8aca4e6e-7f3e-4a2a-a2f5-25e2f8b5c83c.pdf",
+            "news_date": "2025-08-08 12:59:18"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcements Under Regulation 30 Of SEBI LODR - ESG Rating Assigned By Crisil ESG Ratings & Analytics Limited.",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b626197-12a2-422a-aa3a-067ec37afb48.pdf",
+            "news_date": "2025-08-07 18:36:16"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f45ffcb6-dc77-452c-ae9d-b4220683e823.pdf",
+            "news_date": "2025-08-05 21:22:52"
         },
         {
             "sym": "COROMANDEL",
@@ -194,6 +964,39 @@
             "seg": "E"
         },
         {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of conference call held on July 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f98f36dd-48d8-44cb-bb5f-87a2c28c359f.pdf",
+            "news_date": "2025-08-01 17:39:34"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement regarding Notice of Special Window for re-lodgement of transfer requests of physical shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1145e44f-f958-4413-8d93-7cae7742a3f8.pdf",
+            "news_date": "2025-08-01 14:44:11"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting results and scrutinizers report for the 63rd AGM held on July 24 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9396e3f-a181-4175-b06f-da2f26f184b4.pdf",
+            "news_date": "2025-07-25 20:08:22"
+        },
+        {
             "sym": "COROMANDEL",
             "disp": "Coromandel International",
             "bse_code": 506395,
@@ -216,6 +1019,17 @@
             "sid": 739,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recordings of conference call held on July 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b24023e8-e9b1-4fa6-80fd-45c27cd19568.pdf",
+            "news_date": "2025-07-25 18:53:45"
         },
         {
             "sym": "COROMANDEL",
@@ -242,6 +1056,94 @@
             "seg": "E"
         },
         {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6849c0d0-2e8a-4c17-96fd-bd204603f960.pdf",
+            "news_date": "2025-07-24 19:17:05"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 63rd AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e6db52-f9e6-4e45-99ab-c8f3fbbb1f50.pdf",
+            "news_date": "2025-07-24 18:25:37"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release titled Coromandel International Limited posts Q1 results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=508a1a89-3704-4a74-a864-e53edef6c492.pdf",
+            "news_date": "2025-07-24 17:38:43"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30",
+            "news_body": "Announcement under Regulation 30 - Capacity addition",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c1499a1-1593-42fe-b97b-52082013f9c6.pdf",
+            "news_date": "2025-07-24 15:33:30"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Announcement under Regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=987017fb-0533-438f-95e2-4f8a5fef0479.pdf",
+            "news_date": "2025-07-24 15:30:26"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Disclosure under regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53dbadd7-9616-4cfe-9d8f-43310781945e.pdf",
+            "news_date": "2025-07-24 15:25:42"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Disclosure under regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b876a4a-daa5-443d-9d53-eaa24e3275b5.pdf",
+            "news_date": "2025-07-24 15:23:51"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Disclosure under regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f673f3d-f48e-43ed-a1fe-75939429dd5c.pdf",
+            "news_date": "2025-07-24 15:20:40"
+        },
+        {
             "sym": "COROMANDEL",
             "disp": "Coromandel International",
             "bse_code": 506395,
@@ -264,6 +1166,204 @@
             "sid": 739,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results",
+            "news_body": "please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d018ae7-3b0e-4af2-a29c-dd7f87317068.pdf",
+            "news_date": "2025-07-24 13:57:21"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of the Board Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba167313-1a94-431f-a6c2-9519e373d23a.pdf",
+            "news_date": "2025-07-24 13:52:00"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation on conference call to discuss financial results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2dca292d-ecb6-434c-b524-01e2ab12e927.pdf",
+            "news_date": "2025-07-21 21:01:49"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve The Unaudited Financial Results (Standalone & Consolidated) Of The Company For The Quarter  Ended June 30 2025.",
+            "news_body": "Coromandel International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/07/2025 inter alia to consider and approve the unaudited Financial Results (Standalone & Consolidated) Of The Company For The Quarter  Ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0554ff7-56a6-4bd5-9bac-d030bed28fca.pdf",
+            "news_date": "2025-07-21 10:21:51"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1d3a246-64eb-43be-b584-9505ced6f495.pdf",
+            "news_date": "2025-07-07 16:20:35"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication on 63rd AGM notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f3e7311-670a-4481-b9ae-b6d3e6b82404.pdf",
+            "news_date": "2025-07-03 17:17:45"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Reporting for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60386103-e226-4976-aa43-3b5fe5331abd.pdf",
+            "news_date": "2025-07-02 22:52:25"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "63Rd Annual General Meeting",
+            "news_body": "Integrated Annual Report for the FY 2024-25 along with 63rd AGM notice and BRSR is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c8ea6d0-89a7-4f5e-9d50-e6635628b19d.pdf",
+            "news_date": "2025-07-02 21:47:10"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Integrated Annual Report for the Financial Year 2024-25 along with 63rd AGM Notice and BRSR is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f73f363e-f614-4498-a96f-357a57041685.pdf",
+            "news_date": "2025-07-02 21:37:06"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5db5edc-4d56-4064-ac25-163fd1344439.pdf",
+            "news_date": "2025-07-02 16:16:43"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement - Notice to members about the 63rd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01205a0b-61c4-4a76-959f-206efeb5979f.pdf",
+            "news_date": "2025-06-28 15:01:09"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation on closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf5ea917-cbaf-4f92-baae-6cd85c3bd9e1.pdf",
+            "news_date": "2025-06-27 19:17:15"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulation 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3c4406f-b547-46f2-a637-a70e73ecc4dd.pdf",
+            "news_date": "2025-06-11 23:17:49"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d50ead2-1561-4f57-adc0-c344534fce41.pdf",
+            "news_date": "2025-06-10 15:25:10"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Coromandel International Limited has informed the exchange about voting results and scrutinizer report of postal ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bd813c8-4ea2-4738-b248-20940f242186.pdf",
+            "news_date": "2025-06-10 15:15:26"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance report for the year ended March  31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7823f2b7-ec0b-437f-b55e-00b228404384.pdf",
+            "news_date": "2025-05-30 17:41:14"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of shares under ESOP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48501802-26ab-41c5-b980-24d50a0140c2.pdf",
+            "news_date": "2025-05-20 12:31:01"
+        },
+        {
+            "co_code": 123,
+            "bse_code": 506395,
+            "isin": "INE169A01031",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations)",
+            "news_body": "Disclosure under regulation 30 of SEBI LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=770bec78-d32f-4d0a-870d-2ca579caf31f.pdf",
+            "news_date": "2025-05-09 21:11:13"
         },
         {
             "sym": "COROMANDEL",
@@ -1537,6 +2637,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

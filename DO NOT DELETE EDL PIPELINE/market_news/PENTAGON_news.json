@@ -1,0 +1,27 @@
+{
+    "Symbol": "PENTAGON",
+    "ISIN": "INE0ORS01017",
+    "News": [
+        {
+            "Title": "US Shifts Defense Focus to China, Reduces Allied Support",
+            "Summary": "Pentagon's 2026 National Defense Strategy prioritizes homeland defense and China deterrence while providing limited support to allies. Document marks departure from Biden-era policies with softer tone on China and Russia.",
+            "Sentiment": "neutral",
+            "PublishDate": 1769239545889,
+            "Source": "global"
+        },
+        {
+            "Title": "Pentagon Integrates Musk's Grok AI for Military Use",
+            "Summary": "US Defense Secretary Pete Hegseth announces Pentagon will integrate Elon Musk's Grok AI alongside Google's generative AI for military operations, emphasizing innovation without ideological constraints.",
+            "Sentiment": "neutral",
+            "PublishDate": 1768324290786,
+            "Source": "global"
+        },
+        {
+            "Title": "Pentagon Adopts Musk's Grok AI Despite Global Concerns",
+            "Summary": "Defense Secretary Pete Hegseth announces Grok AI integration into Pentagon networks this month, despite recent global outcry over deepfake image generation and content controversies.",
+            "Sentiment": "neutral",
+            "PublishDate": 1768273995216,
+            "Source": "global"
+        }
+    ]
+}

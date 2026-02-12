@@ -2,6 +2,105 @@
     "code": 0,
     "data": [
         {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Un-Audited Financial Results For Quarter And Nine Months Ended December 31 2025.",
+            "news_body": "CSL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2026 inter alia to consider and approve Un-audited financial results for the Quarter and Nine Months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=144fbfb4-e8f4-4fed-9ee9-741fd0e3935a.pdf",
+            "news_date": "2026-02-05 15:28:43"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02fc1019-645d-4af2-8874-25dc8451ce6b.pdf",
+            "news_date": "2026-01-09 12:02:32"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Quarterly Update For The Quarter Ended December 31 2025.",
+            "news_body": "Please find enclosed herewith Quarterly update for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e28406c-2389-44fd-9b65-f49c9fe2010b.pdf",
+            "news_date": "2026-01-01 14:45:03"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window for the Quarter and Nine Months ended December 31  2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=444feaf6-85b4-4a15-b8ce-185df9609918.pdf",
+            "news_date": "2025-12-26 11:52:15"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Prince Bhardwaj as Chief Business Officer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9730a7d0-8f3c-4213-8f1c-e763c5879664.pdf",
+            "news_date": "2025-12-09 12:51:47"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication regarding final notice to shareholders on special window for Re-Lodgement of transfer requests of physical shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbd511a5-39d4-40fc-8b7c-b969abcace37.pdf",
+            "news_date": "2025-11-26 11:56:01"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=214bee0e-84b0-4b91-90cc-ac3d25ddd182.pdf",
+            "news_date": "2025-11-17 13:38:34"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of conference call held on November 14 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12293ec7-6c25-4705-b950-fa6a1409a68c.pdf",
+            "news_date": "2025-11-17 13:31:39"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) 2015- Analyst/Investor Meet- Outcome- Audio Link",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71ca9230-c55f-42b6-8078-48357a62a8e1.pdf",
+            "news_date": "2025-11-14 14:35:58"
+        },
+        {
             "sym": "CSLFINANCE",
             "disp": "CSL Finance",
             "bse_code": 530067,
@@ -24,6 +123,17 @@
             "sid": 10350,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q2FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32601540-a62d-4ce7-8071-eabdbd215120.pdf",
+            "news_date": "2025-11-13 16:42:03"
         },
         {
             "sym": "CSLFINANCE",
@@ -50,6 +160,259 @@
             "seg": "E"
         },
         {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=942a0124-5458-4211-8d1b-27b6e6d290c4.pdf",
+            "news_date": "2025-11-13 16:36:06"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4d66e1f-fb91-46ab-b9d0-5fa174bf073a.pdf",
+            "news_date": "2025-11-13 16:28:42"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Q2 and H1FY26 Earnings Conference Call intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=526a84d4-1a0d-4ee2-95c5-0b21734497b8.pdf",
+            "news_date": "2025-11-10 12:22:52"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for  Considering And Approving  The Un-Audited Financial Results For The Quarter And Half Year Ended September 30 2025.",
+            "news_body": "CSL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2025 inter alia to consider and approve the un-audited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=429acd89-f6cf-427f-a35a-101c4149fd4c.pdf",
+            "news_date": "2025-11-04 14:40:12"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under regulation 74(5) for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d55d309-6d02-4fb7-9d44-9ab2533cb66f.pdf",
+            "news_date": "2025-10-16 14:04:17"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Quarterly Updated For The Quarter Ended September 30 2025",
+            "news_body": "Quarterly updates for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dac68ca7-b112-41fc-bcff-ddb59a66543d.pdf",
+            "news_date": "2025-10-01 13:31:54"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for closure of trading window for the Quarter and Half Year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4071395b-f428-436b-9c1c-6e24725aecad.pdf",
+            "news_date": "2025-09-26 11:53:56"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67d08e1c-5186-4254-ae4d-ab2aca58768d.pdf",
+            "news_date": "2025-09-26 11:38:20"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Re-appointment of directors and change in designation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56266384-1d19-4b23-9b47-e96808112a76.pdf",
+            "news_date": "2025-09-23 16:46:10"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Statutory Auditors and Secretarial Auditors of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3d51812-2e95-42d1-bb7a-44a3e6d7a06a.pdf",
+            "news_date": "2025-09-23 16:44:40"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Alteration in Capital clause of the MOA",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eddc6acb-2f77-4a37-9370-5643fcfa0c1a.pdf",
+            "news_date": "2025-09-23 16:41:42"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results & Scrutinizer Report for 33rd AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2c5417f-bc82-4765-92ef-22b9c636e1df.pdf",
+            "news_date": "2025-09-23 16:24:12"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of The 33rd Annual General meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bfdd636-0bfd-4cb6-878d-af57ee6ada2f.pdf",
+            "news_date": "2025-09-20 14:01:05"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Resubmission Of Financials For The Quarter Ended June 30 2025 As Per NSE Email Dated August 29 2025",
+            "news_body": "Revised Financials for quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91ba3346-9616-4a24-8199-9369efdb20ba.pdf",
+            "news_date": "2025-08-30 11:02:35"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84f71870-06d1-4b75-9311-07e7b225e007.pdf",
+            "news_date": "2025-08-29 11:31:42"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action- Fixes Record Date For The Purpose Of Dividend",
+            "news_body": "Intimation of fixation of record date for the purpose of distribution of dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=777d503e-a0bc-4d25-b559-3cb717a6c104.pdf",
+            "news_date": "2025-08-28 14:25:42"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb9a714d-8c2e-49e8-84ee-3bf011aaa2af.pdf",
+            "news_date": "2025-08-28 14:17:10"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 33Rd Annual General Meeting To Be Held On 20 September 2025 At 12:30 PM Through VC/OAVM",
+            "news_body": "Notice of the 33rd Annual General Meeting to be held on 20 September 2025 at 12:30 PM through VC/OAVM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08d30f01-496d-4411-84fb-a988ca9712f1.pdf",
+            "news_date": "2025-08-28 14:08:57"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b11be483-108f-4ff2-8ef0-3c3341db258e.pdf",
+            "news_date": "2025-08-23 12:50:31"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03dc4d63-e7c6-463c-b5bb-3d73ecf3cf02.pdf",
+            "news_date": "2025-08-13 15:01:58"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Appointment Of Secretarial Auditor",
+            "news_body": "Intimation of Appointment of M/s. Jasvinder Kaur & Co. Company Secretaries as Secretarial Auditor of the company for term of 5 consecutive years",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a449afc-8656-4008-be0b-6d650ae152e1.pdf",
+            "news_date": "2025-08-12 19:57:49"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Statutory Auditor/s",
+            "caption": "Announcement under Regulation 30 (LODR)-Appointment of Statutory Auditor/s",
+            "news_body": "Appointment of M/s S.R. Dinodia & Co. LLP as statutory auditors of the company for a term of 3 years",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fbe8999-18f7-4e05-89ae-f0e825298d12.pdf",
+            "news_date": "2025-08-12 17:50:13"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9ad326e-4f3a-441b-9a4b-4072d9f8fb72.pdf",
+            "news_date": "2025-08-12 17:25:57"
+        },
+        {
             "sym": "CSLFINANCE",
             "disp": "CSL Finance",
             "bse_code": 530067,
@@ -72,6 +435,17 @@
             "sid": 10350,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c734bf97-5230-4b69-9170-9e3e6902e2e8.pdf",
+            "news_date": "2025-08-12 17:18:18"
         },
         {
             "sym": "CSLFINANCE",
@@ -98,6 +472,171 @@
             "seg": "E"
         },
         {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For Quarter Ended June 30 2025",
+            "news_body": "Un-Audited financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe14d594-65e7-41ca-940f-2ef5f317b358.pdf",
+            "news_date": "2025-08-12 17:11:00"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 12 August 2025",
+            "news_body": "Outcome of Board Meeting held on 12 August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6595300-3250-4021-b5cc-87173943de2a.pdf",
+            "news_date": "2025-08-12 16:46:13"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of Assignment and Reaffirmation of Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=598d39e3-6c53-4919-bd3a-a744579b9edd.pdf",
+            "news_date": "2025-08-08 11:08:47"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving Un-Audited Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "CSL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/08/2025 inter alia to consider and approve Un-Audited Financial Results for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ff9c1b3-ebcd-4a9a-97e9-e5bd328bf844.pdf",
+            "news_date": "2025-08-05 14:09:47"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice for Compulsory transfer of unpaid/unclaimed dividend & equity shares of the company to Investor Education and Protection Fund. (IEPF).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3951bfa-a90c-406e-b851-c02a04dd4620.pdf",
+            "news_date": "2025-07-31 15:49:59"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Social Media Communication Regarding Special Window For Re-Lodgement Of Transfer Requests Of Physical Shares Of The Company.",
+            "news_body": "Social media communication regarding special window for re-lodgement of transfer requests of physical shares of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b54803d-c992-4db9-afe0-0d81b29eb885.pdf",
+            "news_date": "2025-07-15 15:06:31"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Newspaper Publication Regarding Notice_Special Window For Re-Lodgement Of Transfer Requests Of Physical Shares.",
+            "news_body": "Newspaper publication regarding Notice_Special window foe Re-lodgement of transfer request for physical shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87a66c01-8faf-4c7e-ad87-4be1f48e906c.pdf",
+            "news_date": "2025-07-11 11:56:46"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliances Certificate under regulation 74(5) for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f4eb6c4-1eba-4b3e-98fa-e4490ea43ae7.pdf",
+            "news_date": "2025-07-08 11:59:51"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Quarterly Updates For The Quarter Ended June 30Th 2025.",
+            "news_body": "Quarterly Updates for the quarter ended June 30th 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38ad0047-7a8c-459b-83be-f7298c06e69d.pdf",
+            "news_date": "2025-07-01 13:52:44"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Chief Compliance Officer pursuant in compliance with RBI Master Direction.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30d62728-9a12-49f7-8328-bfa3264071ab.pdf",
+            "news_date": "2025-06-26 14:53:59"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Non- Executive Independent Directors for the second term.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c480aac0-0257-4ab7-a6c8-788ee5836585.pdf",
+            "news_date": "2025-06-26 14:25:56"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for closure of Trading Window for the quarter end June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f38e0965-cbf4-43f5-9e60-02370136c9aa.pdf",
+            "news_date": "2025-06-26 11:04:27"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Mr. Atul Kumar Agrawal steps down from the position of CCO as he has been entrusted with some additional responsibilities in the company. Enclosed his Resignation letter w.r.t. to the same.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bf2b141-b0a5-4b3d-92d6-d48a8b7a46b0.pdf",
+            "news_date": "2025-06-24 16:44:27"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in position of Chief Compliance Officer of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6322b62a-fbbc-4153-8438-d1edbc360940.pdf",
+            "news_date": "2025-06-23 16:34:42"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Revised Submission Of Audited Financial Results",
+            "news_body": "Revised submission of Audited Financial Results for the year ending March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9179bbab-5afb-4c6b-818d-b8eeefc2e3ee.pdf",
+            "news_date": "2025-06-09 10:58:20"
+        },
+        {
             "sym": "CSLFINANCE",
             "disp": "CSL Finance",
             "bse_code": 530067,
@@ -120,6 +659,17 @@
             "sid": 10350,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earning Call Transcript for Q4FY25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c62d7a12-7f92-44c4-8924-f6814c44a648.pdf",
+            "news_date": "2025-05-29 10:48:19"
         },
         {
             "sym": "CSLFINANCE",
@@ -146,6 +696,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording Link of Conference Call held on May 26 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=859d56f9-0d20-496e-b5d6-6a5c90739f09.pdf",
+            "news_date": "2025-05-27 10:29:13"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication for the Audited Financial Results for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb040037-e30c-43b8-bc90-2f6249706218.pdf",
+            "news_date": "2025-05-24 11:51:38"
+        },
+        {
             "sym": "CSLFINANCE",
             "disp": "CSL Finance",
             "bse_code": 530067,
@@ -168,6 +740,17 @@
             "sid": 10350,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q4FY25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e644c5a-c58f-4b7b-baca-27a49383e9e6.pdf",
+            "news_date": "2025-05-23 17:44:55"
         },
         {
             "sym": "CSLFINANCE",
@@ -194,6 +777,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Year Ended March 31 2025",
+            "news_body": "Audited Financial Results for the quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fcbf40b-3d8e-4fed-b85f-9b8e0bcbb2a9.pdf",
+            "news_date": "2025-05-23 16:34:34"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Re-appointment of Internal Auditor for FY 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9175fd2f-fb57-4e05-8c39-4e450b7702e5.pdf",
+            "news_date": "2025-05-23 15:59:09"
+        },
+        {
             "sym": "CSLFINANCE",
             "disp": "CSL Finance",
             "bse_code": 530067,
@@ -216,6 +821,281 @@
             "sid": 10350,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Declaration Of Unmodified Opinion On The Audited Financial Results For The Year Ended March 31 2025.",
+            "news_body": "Declaration of unmodified opinion on the Audited Financial Results for the year ended march 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa98696f-aba6-4e74-a46b-4651104856e7.pdf",
+            "news_date": "2025-05-23 15:54:37"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Outcome of Board Meeting- Recommendation of Final Dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c93889f8-adb7-44a7-a2ce-8892ca87c682.pdf",
+            "news_date": "2025-05-23 15:40:27"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On May 23 2025.",
+            "news_body": "Outcome of Board Meeting held on May 23 2025 for the quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6eb1ae2a-3973-41dd-afbe-48d3d04d5a38.pdf",
+            "news_date": "2025-05-23 14:46:33"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83f8af50-0796-4562-a2cb-2ae514db4732.pdf",
+            "news_date": "2025-05-22 14:30:02"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Q4 & FY25 Earnings Conference Call Invitation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a069a71-2ce4-4575-9a01-2cbfb541812b.pdf",
+            "news_date": "2025-05-21 11:12:44"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Audited Financial Results For The Quarter And Year Ended March 31 2025.",
+            "news_body": "CSL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/05/2025 inter alia to consider and approve Audited Financial Results for the quarter and year ended March 31 2025. Further the recommendation of Dividend if any for the aforesaid year will also be considered at the aforesaid meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53032ed4-276e-43f6-8ae6-88ee0d3c9612.pdf",
+            "news_date": "2025-05-14 15:09:07"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Scrutinizer Report alongwith Voting Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a2cdb88-11f9-4e51-b1c0-f80969730429.pdf",
+            "news_date": "2025-04-22 13:27:23"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizer Report alongwith Voting Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4ec7b67-af9f-4d22-8fc9-3b4f09d57a43.pdf",
+            "news_date": "2025-04-22 13:25:42"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>CSL Finance Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L74899DL1992PLC051462</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>667.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>A-Stable</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>ACUITE RATINGS & RESEARCH LIMITED</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Preeti Gupta <br/>  Designation: Company Secretary and Compliance Officer <br/> EmailId: preeti.gupta@cslfinance.in</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Naresh Chandra Varshney  <br/> Designation: Chief Financial Officer <br/> EmailId: naresh.varshney@cslfinance.in</div> </div> <div> <br/> Date: 09/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6796748-9401-46f5-aad4-fd059bccba6f.pdf",
+            "news_date": "2025-04-09 11:54:44"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Revised intimation for the intimation filed for change in senior management dated 04.04.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd8a3ef9-6913-4003-9220-167ee5aae57b.pdf",
+            "news_date": "2025-04-08 11:51:46"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance certificate Under Regulation 74(5) of SEBI(DP)Regulations 2018 for the Quarter & Year Ended March31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f039cf66-1857-46ed-92f1-9bb6dfe04611.pdf",
+            "news_date": "2025-04-07 10:57:40"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation regarding change in senior management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f39c471-8b95-4348-9248-2ff813655b3a.pdf",
+            "news_date": "2025-04-04 15:59:15"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update For The Quarter Ended March 31 2025",
+            "news_body": "Update for the Quarter ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ad7bd0e-af70-4b93-ad96-34c9ef9ae04c.pdf",
+            "news_date": "2025-04-02 12:40:49"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window for the Quarter And Year Ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93539e8b-0bea-40b9-91dc-3bbb8b8937b4.pdf",
+            "news_date": "2025-03-27 11:04:52"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa1b7f40-55c4-4fdd-9317-f24a23386875.pdf",
+            "news_date": "2025-03-21 11:44:37"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot- Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=980d1495-fae0-4ce4-8fd3-4f9d8d99e8bf.pdf",
+            "news_date": "2025-03-20 12:59:06"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Rohit Gupta HUF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3D2BA657_F685_4087_AEFF_70AB3CE9C7FC_174956.pdf",
+            "news_date": "2025-03-19 17:50:00"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Additional Directors in the category of non- executive Independent Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=816b69fa-118d-4d4b-ae04-37af4c73ec61.pdf",
+            "news_date": "2025-03-18 13:51:40"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Additional Directors in the category of non- executive Independent Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5d5eb65-6d4b-4dc0-a56d-4994b7bc001c.pdf",
+            "news_date": "2025-03-18 13:49:30"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome For Board Meeting Held On 18Th March 2025 At 12:30 P.M.",
+            "news_body": "Outcome for Board Meeting held on 18th March 2025 at 12:30 p.m.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b027f68b-38a9-486f-87d4-f7f13617b42d.pdf",
+            "news_date": "2025-03-18 13:43:26"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Rohit Gupta HUF & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90F01A6F_7467_473E_8DF3_5EF483BB0AA6_173012.pdf",
+            "news_date": "2025-03-12 17:30:18"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in management due to resignation of Independent Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cdb7fde-c568-4310-a333-a6bde7c81da1.pdf",
+            "news_date": "2025-03-07 16:15:14"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Change in management due to resigntion of Independent Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78f3b201-1637-4d50-88fe-42e3547f5eae.pdf",
+            "news_date": "2025-03-07 16:14:04"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Rohit Gupta HUF & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A614D414_FC99_4D32_9B19_E91F5D1AA21E_150249.pdf",
+            "news_date": "2025-02-21 15:03:00"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Unaudited Financial Results for the quarter ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6658573b-0e5b-4df2-9b9f-48ba161e2a8a.pdf",
+            "news_date": "2025-02-12 11:30:36"
         },
         {
             "sym": "CSLFINANCE",
@@ -242,6 +1122,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q3FY25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28d72cc9-0843-4f3b-aad3-414d212885e5.pdf",
+            "news_date": "2025-02-11 16:57:07"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Un-audited Financials for quarter and nine month ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb513249-0217-423d-b4bf-5a9e93b9bab2.pdf",
+            "news_date": "2025-02-11 15:53:21"
+        },
+        {
             "sym": "CSLFINANCE",
             "disp": "CSL Finance",
             "bse_code": 530067,
@@ -264,6 +1166,193 @@
             "sid": 10350,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter And Nine Months Ended 31St December 2024.",
+            "news_body": "Un-audited financial results for the quarter and nine months ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be12e40c-59f6-415e-893a-abb40be66085.pdf",
+            "news_date": "2025-02-11 14:48:20"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Re-appointment of Secretarial Auditor for the FY 2024-2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab5e6792-b3d0-481f-8d51-9f67df71eccc.pdf",
+            "news_date": "2025-02-11 14:36:21"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results For The Quarter And Nine Months Ended December 31St 2024.",
+            "news_body": "Unaudited Financial Results for the quarter and nine month ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0a7a04d-18e1-4274-8e57-501b17306e57.pdf",
+            "news_date": "2025-02-11 14:09:42"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For The Quarter Ended December 31 2024.",
+            "news_body": "CSL Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/02/2025 inter alia to consider and approve Unaudited Financial Results for the Quarter Ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e01f26f4-2863-4e3b-b479-7446f491fb3c.pdf",
+            "news_date": "2025-02-03 15:57:56"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation regarding change in senior management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae5bfaed-f711-42cd-9cbd-b201665edd1e.pdf",
+            "news_date": "2025-01-13 16:24:50"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3e7bdbf-ea99-4c28-bc6b-52e0a52acac1.pdf",
+            "news_date": "2025-01-09 10:46:12"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Revised Intimation regarding change in senior management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=031b27af-eda0-4f82-85ad-27ed508b3263.pdf",
+            "news_date": "2025-01-07 18:07:53"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation regarding change in senior management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d73a71f-b49d-4ebb-bf81-a8c07808ce38.pdf",
+            "news_date": "2025-01-06 17:54:43"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation regarding change in senior management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d69a13ed-4937-4108-9d5e-8f8763c5b2b0.pdf",
+            "news_date": "2025-01-02 18:18:53"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Revised Intimation regarding change in senior management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49e705bf-7e1f-491a-b28a-a1ac753e1dc3.pdf",
+            "news_date": "2025-01-02 16:18:14"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation with regard to change in Senior Management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3df6305-4b25-43c4-818c-b540bc98f1fd.pdf",
+            "news_date": "2025-01-01 15:03:49"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update For The Quarter Ended 31St December 2024",
+            "news_body": "Update for the quarter ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4d1a86f-af07-49e1-84b8-0b652b9f5085.pdf",
+            "news_date": "2025-01-01 14:24:34"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation  of Closure of Trading Window for the quarter ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea198d3d-e887-460f-9cac-57c7f972df23.pdf",
+            "news_date": "2024-12-28 11:37:08"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulation, 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cdcaa9b-5927-48cb-87f8-fb80be339fb1.pdf",
+            "news_date": "2024-12-06 13:59:13"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for CSL Capital Pvt Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=DB1B57E0_3FE1_4989_B238_720198572EC5_155229.pdf",
+            "news_date": "2024-12-05 15:52:34"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for CSL Capital Pvt Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0643509D_EE91_420A_B080_A38C9F41EB9C_145816.pdf",
+            "news_date": "2024-12-05 14:58:19"
+        },
+        {
+            "co_code": 4830,
+            "bse_code": 530067,
+            "isin": "INE718F01018",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for CSL Capital Pvt Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9C7A9B96_A902_4EE7_AFB4_0F7873D708AD_154310.pdf",
+            "news_date": "2024-12-02 15:43:13"
         },
         {
             "sym": "CSLFINANCE",
@@ -1609,6 +2698,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

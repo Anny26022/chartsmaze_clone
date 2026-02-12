@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release- Wisely Ai Sets a New Impact Benchmark",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=367249fa-11a4-4000-a4ce-d09acb055499.pdf",
+            "news_date": "2026-02-06 13:21:21"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Earnings Call for Q3-FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca5a34f9-277d-4a8d-8842-28eda5d3ceb0.pdf",
+            "news_date": "2026-01-29 17:44:37"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording Link - Q3 Earnings Call held on 23/01/2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00ae43c1-7904-492e-a553-da4706bab291.pdf",
+            "news_date": "2026-01-23 22:54:10"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication FY 26 Q3 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a61148d6-b23f-449f-8a5d-ab154abf7f1a.pdf",
+            "news_date": "2026-01-23 21:19:35"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholders For The Quarter Ended December 31 2025",
+            "news_body": "Letter to shareholders for the quarter ended December 31 2025 is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea70a67e-baf5-4e6c-9dc1-d0ca3efb1872.pdf",
+            "news_date": "2026-01-22 19:50:08"
+        },
+        {
             "sym": "TANLA",
             "disp": "Tanla Platforms",
             "bse_code": 532790,
@@ -24,6 +79,39 @@
             "sid": 13976,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor update for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d5bac3c-92c7-4bfd-b628-cf1efcd1e95b.pdf",
+            "news_date": "2026-01-22 19:47:29"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the quarter ended December 31 2025 is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8070a0e-fb05-43ff-aa6e-6c9433ac862d.pdf",
+            "news_date": "2026-01-22 19:44:03"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Submission Of Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Submission of unaudited financial results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99e4a12d-0e67-440b-b3e7-9381f52d396b.pdf",
+            "news_date": "2026-01-22 19:31:18"
         },
         {
             "sym": "TANLA",
@@ -50,6 +138,138 @@
             "seg": "E"
         },
         {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "The Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025 Is Enclosed.",
+            "news_body": "Submission of unaudited financial results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4b6af99-145d-497b-bfd8-a3882714065b.pdf",
+            "news_date": "2026-01-22 19:25:02"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Conversion Of Statutory AuditorS Firm To An LLP",
+            "news_body": "Statutory Auditors of the Company M/s. MSKA & Associates converted to an LLP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de20cebe-99ed-438f-bf11-f3dd8f87bddc.pdf",
+            "news_date": "2026-01-14 23:01:22"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results (Standalone And Consolidated) For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Tanla Platforms Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/01/2026 inter alia to consider and approve Unaudited Financial Results (Standalone and Consolidated) for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f105cfc4-1117-475f-82e8-46a53368907e.pdf",
+            "news_date": "2026-01-13 18:17:16"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Submission of Certificate u/r.74(5) of SEBI (DP) Regulations 2018 for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a6f9010-5fbf-4940-a761-46345104a505.pdf",
+            "news_date": "2026-01-02 18:01:51"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a45e54ce-2ff6-4213-bef1-0f43cb1b6274.pdf",
+            "news_date": "2025-11-28 15:41:58"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Update On Scheme Of Arrangement For Merger Between Karix Mobile Private Limited (Karix/ Transferee Company) Wholly-Owned Subsidiary Of The Company ",
+            "news_body": "In continuation to our earlier intimation dated April 24 2025 we hereby inform that the Regional Director (RD) has issued confirmation order approving Scheme of Arrangement for Gamooga with Karix. The disclosure w.r.t the same is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a780a8e-b863-4333-ae17-6a52eac2bc07.pdf",
+            "news_date": "2025-11-27 20:00:35"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analysts/ Institutional Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c62a15d1-f6e5-49b9-a569-dda06c1ba37e.pdf",
+            "news_date": "2025-11-10 10:26:52"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings Call Transcript for Q2 FY 26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=474754c4-a468-4cc8-99db-c1817c8eb6a6.pdf",
+            "news_date": "2025-10-24 20:19:24"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of Earnings Call held on October 18 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5c21f1b-04ba-4e7b-9bfc-8a09fcc7bbf1.pdf",
+            "news_date": "2025-10-18 17:05:59"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of Q2 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9adae49-a14f-48ed-822b-2d5e5fa1b94c.pdf",
+            "news_date": "2025-10-18 17:00:11"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the quarter ended September 30 2025 is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=537f218a-450c-4ff6-bfcc-7e53159d08ec.pdf",
+            "news_date": "2025-10-17 21:19:33"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholders For The Quarter Ended September 30 2025",
+            "news_body": "Letter to Shareholders for the quarter ended September 30 2025 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71101930-8ae6-4fa6-a578-e6ed4a14e01a.pdf",
+            "news_date": "2025-10-17 21:18:03"
+        },
+        {
             "sym": "TANLA",
             "disp": "Tanla Platforms",
             "bse_code": 532790,
@@ -72,6 +292,39 @@
             "sid": 13976,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Updates for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6cf6df07-f814-40da-8e8e-f23dd20e968c.pdf",
+            "news_date": "2025-10-17 21:15:41"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Interim Dividend For FY 2025-26",
+            "news_body": "The Board fixed October 27 2025 as record date for the purpose of payment of interim dividend for FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a478c18d-3a7d-46bd-a344-e90dd557d335.pdf",
+            "news_date": "2025-10-17 18:53:35"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board declared interim dividend of Rs. 6/- per share (i.e. 600%) for FY 2025-26. The disclosure w.r.t same is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df0a41fb-25ee-4c8b-af26-8a304b4c25b2.pdf",
+            "news_date": "2025-10-17 18:37:31"
         },
         {
             "sym": "TANLA",
@@ -98,6 +351,182 @@
             "seg": "E"
         },
         {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "The unaudited financial results for the quarter and half year ended September 30 2025 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=060b2fda-39e5-4aac-abb7-f4c80e2b3b8f.pdf",
+            "news_date": "2025-10-17 18:30:13"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated October 17 2025",
+            "news_body": "The Board of Directors at its meeting held on October 17 2025 has consider and approved the items as mentioned in the enclosure.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f577b68-5e53-4fa9-82b3-9e9d7f134e07.pdf",
+            "news_date": "2025-10-17 18:24:06"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Board to consider declaration of Interim Dividend if any for the FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55369a15-8d67-408d-8211-663a7f35da3b.pdf",
+            "news_date": "2025-10-10 16:33:26"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Conference Call scheduled to be held on Saturday October 18 2025 at 11.30 A.M IST for discussing Un-Audited Financial Results of the Company for the quarter and half year ended September 30 2025.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a4032bc-15b0-4298-b487-debc60882062.pdf",
+            "news_date": "2025-10-10 16:30:00"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of The Unaudited (Standalone And Consolidated) Financial Results Of The Company For The Quarter And Half Year Ended September 30 2025 And Interim Dividend (If Any).",
+            "news_body": "Tanla Platforms Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/10/2025 inter alia to consider and approve Unaudited (Standalone And Consolidated) Financial Results of the Company for the quarter and half year ended September 30 2025 and Interim Dividend (If Any).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bb894a3-e373-4766-90db-714bb20f3efc.pdf",
+            "news_date": "2025-10-10 16:23:47"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Submission of Certificate under Reg.74(5) of SEBI (DP) Regulations 2018 for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7453a367-fb56-46ff-ab41-3df645463ba4.pdf",
+            "news_date": "2025-10-07 12:53:50"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release- Tanla Platforms Limited appoints Mr. MP Sunil Kumar as Chief Growth Officer- Asia & Middle East to power AI- Native Expansion",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=658aa91b-ef7a-4b68-a8d7-a1ff3c5b74cd.pdf",
+            "news_date": "2025-09-22 15:13:58"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Sunil Kumar as Chief Growth Officer- Asia & Middle East",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2719867-1e0a-44ff-a661-24b4a9ea823c.pdf",
+            "news_date": "2025-09-22 14:32:22"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The intimation of investor meeting scheduled to be held on September 24 2025 is enclosed.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3f9d035-98e4-4665-b42e-45fefd39ac68.pdf",
+            "news_date": "2025-09-19 15:25:11"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading window closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0d1e3eb-b0e1-4d9f-8a63-3ff3a7546967.pdf",
+            "news_date": "2025-08-29 16:32:32"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Closure of Buy Back",
+            "caption": "Announcement under Regulation 30 (LODR)-Closure of Buy Back",
+            "news_body": "Intimation of extinguishment of 2000000 equity shares bought back by the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91c3117d-38f6-4c07-a208-ba8b1fff66fb.pdf",
+            "news_date": "2025-08-20 16:56:54"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Buy back",
+            "caption": "Corporate Action-Updates on Buy back",
+            "news_body": "Intimation of extinguishment of 2000000 equity shares bought back by the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e3db0ef-038d-4af9-be93-3378cce7b76d.pdf",
+            "news_date": "2025-08-20 16:54:42"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Post-Buyback Public Announcement",
+            "news_body": "Kotak Mahindra Capital Company Ltd \"Manager to the Buyback\") has submitted to BSE a copy of Post-Buyback Public Announcement for the attention of Equity Shareholders / Beneficial Owners of Equity Shares of Tanla Platforms Ltd (the \"Company).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E9EBE545-620E-4A30-AC60-DC2DFA40D3F3-150159.pdf",
+            "news_date": "2025-08-13 15:02:03"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Post Buyback Public Announcement is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d943515-d8e4-4af9-96a0-123c79da5032.pdf",
+            "news_date": "2025-08-13 13:53:05"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release: \"Tanla Partners with Indosat to Protect Nearly a Hundred Million users from Spam and Scam Using its AI Native Platform Built on NVIDIA GPUs\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37650cf6-e3e6-4bc5-9ad9-04ad3879019f.pdf",
+            "news_date": "2025-08-07 10:05:23"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Submission Of Copies Of Newspaper Advertisement For Notice To Shareholders Regarding Transfer Of Equity Shares To The IEPF Authority.\r\n",
+            "news_body": "Submission of copies of Newspaper advertisement for Notice to shareholders regarding transfer of Equity Shares to the IEPF Authority",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71298fc2-baf8-43c4-9752-9d1189771d18.pdf",
+            "news_date": "2025-07-29 15:25:22"
+        },
+        {
             "sym": "TANLA",
             "disp": "Tanla Platforms",
             "bse_code": 532790,
@@ -120,6 +549,127 @@
             "sid": 13976,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript for Q1 FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fa90d17-3b9e-4255-9514-8c9e6e439383.pdf",
+            "news_date": "2025-07-28 22:03:16"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Updates on Buyback offer",
+            "news_body": "Kotak Mahindra Capital Company Ltd (\"Manager to the Buyback\") has submitted to BSE a copy of newspaper advertisement in relation to dispatch of Letter of Offer for the attention of Equity Shareholders / Beneficial Owners of Tanla Platforms Ltd (the \"Company).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98E30F08-EAFB-478E-B913-8BDF54EB4443-171830.pdf",
+            "news_date": "2025-07-28 17:18:32"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication w.r.t dispatch of Letter of Offer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4172787-9650-4cd0-9635-5fd48909504b.pdf",
+            "news_date": "2025-07-28 15:16:23"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On CFO Appointment",
+            "news_body": "As per attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=673fe44c-eedc-4118-9df1-7a57c2419a38.pdf",
+            "news_date": "2025-07-28 13:17:59"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of Earning Call held on July 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7ea9059-964d-4a58-a009-ede756deebc2.pdf",
+            "news_date": "2025-07-25 21:24:07"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Letter of Offer",
+            "news_body": "Kotak Mahindra Capital Company Ltd \"Manager to the Buyback\") has submitted to BSE a copy of Letter of Offer for the attention of Equity Shareholders / Beneficial Owners of Equity Shares of Tanla Platforms Ltd (the \"Company).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A246F0E6-2D0D-4ABC-8FE8-43071516AF77-182542.pdf",
+            "news_date": "2025-07-25 18:25:49"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Submission And Dispatch Of Letter Of Offer Dated July 25 2025 For Buyback Of Equity Shares By The Company",
+            "news_body": "Submission and dispatch of Letter of Offer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1d5c955-4d7d-40ca-897e-5d00674fb253.pdf",
+            "news_date": "2025-07-25 18:07:25"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Buy back",
+            "caption": "Corporate Action-Intimation of Buy back",
+            "news_body": "Submission and dispatch of Letter of Offer dated July 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de552791-2122-439a-8fcc-378f5a0538ac.pdf",
+            "news_date": "2025-07-25 18:00:54"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of FY Q1 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d90dfe57-e734-4272-9538-2b9a4c9e9b45.pdf",
+            "news_date": "2025-07-25 14:01:10"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholders-Q1 Results",
+            "news_body": "Letter to Shareholders-Q1 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfa71aad-b4d5-443e-802f-adc162b82d84.pdf",
+            "news_date": "2025-07-24 19:55:47"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Q1 Results Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be807744-3851-4c7d-9aa7-572e68aa1d3f.pdf",
+            "news_date": "2025-07-24 19:28:10"
         },
         {
             "sym": "TANLA",
@@ -146,6 +696,17 @@
             "seg": "E"
         },
         {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Q1 Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5b6705f-b12c-44cd-a153-6a5d25fbfe53.pdf",
+            "news_date": "2025-07-24 19:26:16"
+        },
+        {
             "sym": "TANLA",
             "disp": "Tanla Platforms",
             "bse_code": 532790,
@@ -168,6 +729,424 @@
             "sid": 13976,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Un-Audited Financial Results for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6390d4ec-d2ef-4e4a-921b-73fe3f81ff03.pdf",
+            "news_date": "2025-07-24 17:49:45"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Submission of 29th AGM Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a3f0b15-b113-41b5-b85d-e66f8ac296ee.pdf",
+            "news_date": "2025-07-24 16:43:14"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b344bb1-13be-4030-9b39-0eca1205f21e.pdf",
+            "news_date": "2025-07-23 18:06:00"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Message From Founder Chairman & CEO During 29Th Annual General Meeting.",
+            "news_body": "Message from Founder Chairman & CEO during 29th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db1a69ee-ddec-4832-84e2-02608903eb2a.pdf",
+            "news_date": "2025-07-23 18:03:16"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Summary of the proceedings of 29th AGM of the Company held on July 23 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec172b04-2c44-4d19-af04-5acf1e27de35.pdf",
+            "news_date": "2025-07-23 17:58:26"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "First Deployment Of AI Native Platform For Mobile Carriers And Enterprises",
+            "news_body": "First deployment of AI native platform for mobile carriers and enterprises",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7a9863d-61fb-4052-824c-0882f4888aac.pdf",
+            "news_date": "2025-07-23 16:41:31"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Public Announcement - Buyback Offer",
+            "news_body": "Kotak Mahindra Capital Company Ltd \"Manager to the Buyback\") has submitted to BSE a copy of Public Announcement for the attention of Equity Shareholders / Beneficial Owners of Equity Shares of Tanla Platforms Ltd (the \"Company) for the Buyback of Equity Shares on a Proportionate basis through the Tender Offer Route using the Stock Exchange Mechanism under the Securities and Exchnge Board of India (Buy-bank of Securities) Regulations 2018 as amended.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A2237FE9-645E-4796-B14C-1A0C7D213DD2-151557.pdf",
+            "news_date": "2025-07-21 15:16:07"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Public Announcement in relation to Buyback",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7eb1be46-4a7b-4a7d-9039-00d260669067.pdf",
+            "news_date": "2025-07-21 14:28:40"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Buyback",
+            "news_body": "The record date for the purpose of buyback is July 23 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9c76a14-4daf-4247-9297-c0a9119dadcb.pdf",
+            "news_date": "2025-07-17 21:10:40"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Special Resolution Passed By The Shareholders Of Tanla Platforms Limited - For Buyback Of Equity Shares",
+            "news_body": "Submission of Special Resolution passed by the shareholders of Tanla Platforms Limited (the Company) through postal ballot (by remote-evoting) for buyback of equity shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76244b3c-b9e0-4777-8fa2-66f7117a64ef.pdf",
+            "news_date": "2025-07-17 13:04:59"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Voting Results of the Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7895483-1904-4b50-ad16-72417cf512ac.pdf",
+            "news_date": "2025-07-17 12:16:44"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Voting Results and Scrutinizers Report of the Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e33b5e52-967b-4dc7-8e6c-74701fba9186.pdf",
+            "news_date": "2025-07-17 12:14:50"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Un-Audited Financial Results Of The Company For The Quarter Ended June 30 2025",
+            "news_body": "Tanla Platforms Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/07/2025 inter alia to consider and approve the Un-Audited Financial Results (standalone and consolidated) of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5b06b1e-657f-423a-9f6f-d94cae54a374.pdf",
+            "news_date": "2025-07-15 14:36:40"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Submission of certificate u/r 74(5) of SEBI (DP) Regulations 2018 for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7adbf2a-a6a8-481c-be87-63ef016e1b12.pdf",
+            "news_date": "2025-07-07 15:52:13"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement for information regarding 29th AGM of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2180a1c0-ecf6-4feb-bd62-3d806c010a7b.pdf",
+            "news_date": "2025-07-02 11:43:57"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "The Business Responsibility and Sustainability Report is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ee2684c-08f5-499c-b9ef-362c10727d52.pdf",
+            "news_date": "2025-07-01 23:54:25"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "The Integrated Annual Report for the financial year 2024-25 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef09ca68-2296-4eb0-a726-8f20280ecbcb.pdf",
+            "news_date": "2025-07-01 23:51:22"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 29Th AGM",
+            "news_body": "The Notice of the 29th AGM of the Company scheduled to be held on July 23 2025 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f684655-50f8-4ebb-aa06-d020976d1163.pdf",
+            "news_date": "2025-07-01 23:48:01"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Financial Officer (CFO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Financial Officer (CFO)",
+            "news_body": "Intimation of Appointment and Resignation of Chief Financial Officer",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c658202-1aba-4e49-aaee-31ffa2014dc6.pdf",
+            "news_date": "2025-06-28 17:12:25"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of Schedule Of 29Th Annual General Meeting",
+            "news_body": "The schedule of 29th Annual General Meeting is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f061bf4b-bd8e-4c71-9009-d8354983a295.pdf",
+            "news_date": "2025-06-28 16:17:51"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Senior Management Personnel (SMP) Of The Company",
+            "news_body": "The transition of Mr. Sriram Vinjamuri Chief Customer Officer of the Company to a new role as the Chief Customer Officer of Karix Mobile Private Limited wholly-owned subsidiary w.e.f July 1 2025. The disclosed is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7468c9f8-d0ea-470d-a247-8bb4e9eaad9c.pdf",
+            "news_date": "2025-06-28 16:14:19"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Appointment Of Senior Management Personnel - Cxos",
+            "news_body": "Appointment of Senior Management Personnel - CXOs is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ef018cf-6804-4a53-b40c-0b02f87ec4ac.pdf",
+            "news_date": "2025-06-28 16:09:09"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "The disclosure w.r.t CFO is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0092f4f1-ce78-4ba9-86bd-a95eff51a508.pdf",
+            "news_date": "2025-06-28 16:04:28"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Retirement",
+            "caption": "Announcement under Regulation 30 (LODR)-Retirement",
+            "news_body": "Mr. Rahul Khanna Independent Director of the Company will complete his first term of appointment and consequently cease to be a Director of the Company w.e.f July 16 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08b83032-4942-4c6e-9bdc-a36d21a31656.pdf",
+            "news_date": "2025-06-28 15:55:40"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On June 28 2025",
+            "news_body": "The outcome of Board Meeting held on June 28 2025 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c595e6d-8884-425d-a76f-7742a1cc9f34.pdf",
+            "news_date": "2025-06-28 15:40:22"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Incorporation Of A New Step-Down Subsidiary Company",
+            "news_body": "Incorporation of a New Step Down Subsidiary Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d253091-cc5f-449b-8a94-3dcf02484504.pdf",
+            "news_date": "2025-06-20 16:24:58"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication confirming the dispatch of Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5795b764-64ee-4971-9c0b-e035bce43c59.pdf",
+            "news_date": "2025-06-17 13:01:22"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "The postal ballot notice is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57f0b76d-c778-4314-8e23-596e6ddb9be0.pdf",
+            "news_date": "2025-06-16 21:27:09"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed the press release titled \"Tanla Appoints Audit and Governance Expert Sunil Bhumralkar Strengthening Board Oversight\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27dfc9ee-2770-477d-a858-6de1acefbbce.pdf",
+            "news_date": "2025-06-16 20:54:55"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "The Board has considered and approved appointment of Mr. Sunil Ramakant Bhumralkar (DIN: 00177658) as an Additional Director (Non Executive & Independent) Category.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bb89ded-9190-4ac9-8f3c-8fced508fb95.pdf",
+            "news_date": "2025-06-16 18:11:44"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Buy back",
+            "caption": "Corporate Action-Buy back",
+            "news_body": "The Board considered and approved the proposal for buyback.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18da4e7e-8c56-40ab-8824-5c5487c211c1.pdf",
+            "news_date": "2025-06-16 18:06:55"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On June 16 2025",
+            "news_body": "In furtherance of our intimation letter dated June 11 2025  the board of directors (Board) of Tanla Platforms Limited (the Company) at its meeting held today i.e. June 16 2025 (Board Meeting) considered and approved Appointment of Independent Director and Buyback of Equity Shares of the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a80e39ed-3985-462c-8de4-cb65a9006671.pdf",
+            "news_date": "2025-06-16 18:03:33"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for proposed buyback of equity shares of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f657b506-a804-4617-b8e2-556f793d9552.pdf",
+            "news_date": "2025-06-11 17:04:22"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering The Proposal For Buyback Of Equity Shares Of The Company",
+            "news_body": "Tanla Platforms Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/06/2025 inter alia to consider and approve the proposal for buyback of equity shares of the company and other matters necessary and incidental thereto.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2127401-3ec4-4876-ae00-9411e89ea0f6.pdf",
+            "news_date": "2025-06-11 17:00:35"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b82acf7-07cd-43b1-9861-7f2daf575cee.pdf",
+            "news_date": "2025-05-30 16:56:43"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for D Uday Kumar Reddy",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=DECD04B8_F76F_4CF9_AFDC_08AD92D6F564_161856.pdf",
+            "news_date": "2025-05-12 16:19:00"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for D Uday Kumar Reddy",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=D0C9CD1C_C2DD_4B5D_AA08_0E2D74523D1E_161752.pdf",
+            "news_date": "2025-05-12 16:17:59"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Submission of Annual Secretarial Compliance Report for the FY25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f482d9b-bee6-457e-9572-32eb17c9296b.pdf",
+            "news_date": "2025-05-09 19:02:11"
         },
         {
             "sym": "TANLA",
@@ -194,6 +1173,61 @@
             "seg": "E"
         },
         {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Submission of Q4FY25 Earnings Conference Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0a9cb80-4e1a-4281-be04-875635592282.pdf",
+            "news_date": "2025-05-01 12:15:44"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of Earning Call held on April 25 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e307c7e9-ceb8-4a4d-8701-37b5b0ff7092.pdf",
+            "news_date": "2025-04-25 20:22:22"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Audited Financial Results Q4 and FY25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18055ca4-eda5-420c-91c3-365d91c8dbf2.pdf",
+            "news_date": "2025-04-25 13:16:55"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Tanla Announces Fourth Quarter and FY25 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f78df07-386e-4283-9913-498c80771931.pdf",
+            "news_date": "2025-04-24 20:53:02"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholders For Quarter And Year Ended March 31 2025",
+            "news_body": "Letter to Shareholders for the quarter and year ended March 31 2025 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ba8fd4a-8399-434d-af46-92d94cd29dd8.pdf",
+            "news_date": "2025-04-24 20:46:04"
+        },
+        {
             "sym": "TANLA",
             "disp": "Tanla Platforms",
             "bse_code": 532790,
@@ -218,6 +1252,50 @@
             "seg": "E"
         },
         {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Update Q4 FY25 and Full year FY25 is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72273570-9b15-4522-bc98-d193e52752e5.pdf",
+            "news_date": "2025-04-24 20:44:13"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "The details of Scheme of Arrangement for Merger between Karix Mobile Private Limited Wholly owned subsidiary and Gamooga Softtech Private Limited step down subsidiary of the Company is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f1d48e3-d39a-45d5-bc38-77e6e4532aa0.pdf",
+            "news_date": "2025-04-24 19:35:44"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Declaration Of Second Interim Dividend FY 2024-25 & Record Date",
+            "news_body": "The Board has declared interim dividend for the FY 2024-25 & fixed Record Date.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=478d4646-c26c-4922-aeeb-b499b5fe0cba.pdf",
+            "news_date": "2025-04-24 19:31:39"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board declared interim dividend for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=298e61ec-b726-4f6f-874b-82c714e94bad.pdf",
+            "news_date": "2025-04-24 19:28:33"
+        },
+        {
             "sym": "TANLA",
             "disp": "Tanla Platforms",
             "bse_code": 532790,
@@ -240,6 +1318,28 @@
             "sid": 13976,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Year Ended March 31 2025",
+            "news_body": "The financial results for the quarter and year ended March 31 2025 is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0991de10-3d97-41a3-9212-c1a0cedcc942.pdf",
+            "news_date": "2025-04-24 19:24:41"
+        },
+        {
+            "co_code": 24392,
+            "bse_code": 532790,
+            "isin": "INE483C01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Dated April 24 2025",
+            "news_body": "Pursuant to Regulation 30 and 33 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we hereby inform you that the Board of Directors of the Company at its meeting held on Thursday April 24 2025 inter-alia considered and approved the items as enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7bd94cea-3b86-4b07-8587-c0eaf492b119.pdf",
+            "news_date": "2025-04-24 19:11:27"
         },
         {
             "sym": "TANLA",
@@ -1465,6 +2565,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

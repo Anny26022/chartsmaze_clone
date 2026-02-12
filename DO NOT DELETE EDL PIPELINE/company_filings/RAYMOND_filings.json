@@ -2,6 +2,50 @@
     "code": 0,
     "data": [
         {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Please find attached Scrutinizer Report along with the Voting Results of the Postal Ballot.\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0133632b-63c0-4f84-b40f-fb9742adbb5b.pdf",
+            "news_date": "2026-02-12 12:44:40"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Please find attached Outcome of Postal Ballot Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4cc7782-d1a0-4fac-af92-8de11c82b6c1.pdf",
+            "news_date": "2026-02-12 12:42:23"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)-Analyst / Investor Meet",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ce786d6-9d98-4083-8898-2ab6863fa73d.pdf",
+            "news_date": "2026-02-10 15:08:53"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)-Analyst / Investor Meet",
+            "news_body": "Please find attached intimation under Regulation 30 of the SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ad43335-36e0-404f-9c2a-6f75f3b2df4c.pdf",
+            "news_date": "2026-02-06 16:22:41"
+        },
+        {
             "sym": "RAYMOND",
             "disp": "Raymond",
             "bse_code": 500330,
@@ -24,6 +68,39 @@
             "sid": 2859,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed Transcript of earnings call held by the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=490e1944-c0ea-453d-ba96-30642335df03.pdf",
+            "news_date": "2026-02-02 18:48:43"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)-Analyst / Investor Meet",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfcde78-da1e-4b79-bb70-7598fe50b531.pdf",
+            "news_date": "2026-02-02 16:33:43"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed intimation under Regulation 30 of the SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5631dd1-02d7-41bf-81a5-ec072f10d740.pdf",
+            "news_date": "2026-01-28 16:20:46"
         },
         {
             "sym": "RAYMOND",
@@ -50,6 +127,17 @@
             "seg": "E"
         },
         {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "This is to inform you that the audio recording of the investor conference held on January 27 2026 at 4:00 p.m. with regard to the financial performance of the Company for the Third Quarter and Nine Months ended December 31 2025 has been uploaded on the Companys website (www.raymond.in) and the same can be accessed at below link:\r\n\r\nhttps://api.raymond.in/uploads/investor/1769522139635Raymond%20Limited%20Audio%20Recording%20Investor%20&%20Analyst%20Call%20Q3FY26.mp3\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e32f420-e59a-4582-9738-fb58f105000b.pdf",
+            "news_date": "2026-01-27 19:51:22"
+        },
+        {
             "sym": "RAYMOND",
             "disp": "Raymond",
             "bse_code": 500330,
@@ -72,6 +160,50 @@
             "sid": 2859,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find attached Investor Presentation under Regulation 30 of Listing Regulations.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b229a86-8a7a-470c-831e-4ea940fb18b4.pdf",
+            "news_date": "2026-01-27 13:02:52"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06131b85-cd69-45d9-b7e6-ae9890533348.pdf",
+            "news_date": "2026-01-27 12:40:33"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Please find attached Intimation under Regulation 30 of Listing Regulations.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49ef492d-1472-4193-918a-bb2eab8cbd2c.pdf",
+            "news_date": "2026-01-27 12:36:53"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7168662c-8e3a-4bd4-930e-828f7fdf16a0.pdf",
+            "news_date": "2026-01-27 12:33:26"
         },
         {
             "sym": "RAYMOND",
@@ -98,6 +230,226 @@
             "seg": "E"
         },
         {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Unaudited Financial Results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55bc599a-a009-47da-9638-196190250bd6.pdf",
+            "news_date": "2026-01-27 12:30:19"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30(6) read with Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we enclose herewith communication relating to Conference Call scheduled on Tuesday January 27 2026 at 04:00 p.m. (IST).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a06f815-4b76-4945-bbb5-6aa341a515b6.pdf",
+            "news_date": "2026-01-21 19:51:45"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results (Standalone And Consolidated) Of The Company For The Third Quarter And Nine Months Ended December 31 2025 \r\n",
+            "news_body": "Raymond Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 27/01/2026 inter alia to consider and approve Unaudited Financial Results (Standalone and Consolidated) of the Company for the Third Quarter and Nine Months ended December 31 2025 \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=342c4ed8-0cd3-461d-a696-8f8faef785dd.pdf",
+            "news_date": "2026-01-19 12:34:25"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 14 2026 for J.K. Investors (Bombay) Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18498C5E_7AD9_4FCB_8D0C_DDA04363CD05_201434.pdf",
+            "news_date": "2026-01-14 20:14:38"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Please find attached intimation regarding withdrawal of Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2728de3-db0f-4dd1-b4cc-eb9a96bd800b.pdf",
+            "news_date": "2026-01-12 18:23:20"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a213185a-8b34-42ef-a120-b5e5c9ff9fbb.pdf",
+            "news_date": "2026-01-10 13:59:46"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Please find attached Postal Ballot Notice dated December 29 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fdc8470-c41f-4ca2-96a5-b5e04c817f62.pdf",
+            "news_date": "2026-01-09 17:53:53"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find enclosed certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26b0efa5-d881-4ef8-b702-b4c34f699765.pdf",
+            "news_date": "2026-01-07 12:20:48"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Updates",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e1f8bd8-479a-4258-863a-c16e95fbd753.pdf",
+            "news_date": "2025-12-31 21:15:49"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Updates",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6261e145-cb21-4885-859f-6f7bcbb41221.pdf",
+            "news_date": "2025-12-30 21:51:18"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Please find attached intimation regarding Appointment of Independent Directors as as per Regulation 30 of the Listing Regulations.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d25f7e42-3a82-4e92-a7da-b6b1112b0703.pdf",
+            "news_date": "2025-12-29 14:45:06"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find enclosed intimation relating to closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75262980-45cf-4ff6-956c-154aba154135.pdf",
+            "news_date": "2025-12-23 16:21:06"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c85cc048-9b7b-45cd-8ef1-26c26cd4c7c3.pdf",
+            "news_date": "2025-12-03 16:57:31"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=343bcac1-9549-4c29-a3da-23a8b25f897d.pdf",
+            "news_date": "2025-12-02 20:47:17"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Statutory Auditor/s",
+            "caption": "Announcement under Regulation 30 (LODR)-Appointment of Statutory Auditor/s",
+            "news_body": "Please find attached intimation regarding appointment of Statutory Auditors of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bb15dcd-6607-4801-b57b-98f501712436.pdf",
+            "news_date": "2025-12-02 20:44:02"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66b7fa76-d6c1-42c1-af49-93494f851595.pdf",
+            "news_date": "2025-12-02 20:30:59"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on November 18 2025 for J.K. Investors (Bombay) Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4D1C73D8_3772_4B06_A542_032DED0406F6_175742.pdf",
+            "news_date": "2025-11-18 17:57:48"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Statutory Auditors",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Statutory Auditors",
+            "news_body": "Please find attached intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=184d6710-1004-4e0f-b29e-441be7fc1468.pdf",
+            "news_date": "2025-11-14 18:49:14"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)-Analyst / Investor Meet",
+            "news_body": "Please find attached intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bf8f9d9-e7e5-4d42-920c-5f013b48029d.pdf",
+            "news_date": "2025-11-13 11:13:48"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)-Analyst / Investor Meet",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e585a5cd-92ed-4e9d-84b3-0fbbb7b96925.pdf",
+            "news_date": "2025-11-10 12:27:00"
+        },
+        {
             "sym": "RAYMOND",
             "disp": "Raymond",
             "bse_code": 500330,
@@ -120,6 +472,39 @@
             "sid": 2859,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find attached intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=799c3e2b-bd42-4a25-b8aa-b310f9dec6fe.pdf",
+            "news_date": "2025-11-03 16:41:16"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find attached analyst call recording link as per Regulation 30 of Listing Regulations.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85614f63-1760-4b9e-b8c6-20ce3a14a59f.pdf",
+            "news_date": "2025-10-28 22:00:47"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f167e64a-1e52-48be-a4bd-d1643c1dc114.pdf",
+            "news_date": "2025-10-28 18:22:12"
         },
         {
             "sym": "RAYMOND",
@@ -146,6 +531,39 @@
             "seg": "E"
         },
         {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find attached investors presentation under Regulation 30 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe7ee2b7-128d-45a9-a578-b1d7d139f63b.pdf",
+            "news_date": "2025-10-27 19:39:53"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find attached press release under Regulation 30 of Listing Regulations.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe2051e0-73ea-4e3c-8cb1-364d1da98779.pdf",
+            "news_date": "2025-10-27 18:37:23"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On October 27 2025",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b147a0e-713c-459f-98be-424f798d0a23.pdf",
+            "news_date": "2025-10-27 18:35:03"
+        },
+        {
             "sym": "RAYMOND",
             "disp": "Raymond",
             "bse_code": 500330,
@@ -168,6 +586,127 @@
             "sid": 2859,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Please find attached unaudited financial results of the Company for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54581c75-ab48-42ad-adb9-8f753cd13a54.pdf",
+            "news_date": "2025-10-27 18:30:28"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30(6) read with Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we enclose herewith communication relating to Conference Call scheduled on Tuesday October 28 2025 at 05: 30 p.m. (IST)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e82322dd-7359-4b7a-a3be-6f1b1b5a1692.pdf",
+            "news_date": "2025-10-17 12:44:49"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results (Standalone And Consolidated) Of The Company For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Raymond Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 27/10/2025 inter alia to consider and approve Unaudited Financial Results (Standalone and Consolidated) of the Company for the Quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0ace1f8-dc07-4828-80fb-e2eaea4ff010.pdf",
+            "news_date": "2025-10-16 12:31:29"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find enclosed Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=159bb7c8-72dd-4dba-9703-d8bd1e81c24a.pdf",
+            "news_date": "2025-10-13 18:00:49"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Updates",
+            "news_body": "Please find attached intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2199af08-0931-451d-b178-108c1c974f43.pdf",
+            "news_date": "2025-10-10 18:37:11"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulation.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f73de95b-279e-4fcb-8613-e62f63587d1e.pdf",
+            "news_date": "2025-10-01 16:48:52"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f565405-f7db-4bd3-a6cf-3acda19ec48c.pdf",
+            "news_date": "2025-09-26 14:31:51"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find enclosed intimation relating to closure of Trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c92a1bbf-ec6a-4dc9-b2c1-c4e1242a7e18.pdf",
+            "news_date": "2025-09-24 12:23:00"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdbff43d-4f14-4cce-9518-b8d65cf716f1.pdf",
+            "news_date": "2025-09-11 12:24:38"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94eabda7-4254-439b-a923-31844827ea78.pdf",
+            "news_date": "2025-08-18 18:53:25"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Updates",
+            "news_body": "Please find enclosed intimation under regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6da238c-1c7e-4443-ad17-decbbf9cf9a5.pdf",
+            "news_date": "2025-08-18 18:36:04"
         },
         {
             "sym": "RAYMOND",
@@ -194,6 +733,17 @@
             "seg": "E"
         },
         {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed Earnings call transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4db0b230-87a1-4b31-b477-aff6e4e79c24.pdf",
+            "news_date": "2025-08-13 18:47:26"
+        },
+        {
             "sym": "RAYMOND",
             "disp": "Raymond",
             "bse_code": 500330,
@@ -216,6 +766,39 @@
             "sid": 2859,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "This is to inform you that the audio recording of the investor conference held on August 7 2025 at 5:30 p.m. with regard to the financial performance of the Company for the quarter ended June 30 2025 has been uploaded on the Companys website",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3709692-f79b-47e4-802b-3efea4453923.pdf",
+            "news_date": "2025-08-07 22:57:15"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57456560-4676-4cc6-8e52-cf5e09336469.pdf",
+            "news_date": "2025-08-07 16:44:14"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=282e1bed-1ecb-4083-a335-95f5098b2984.pdf",
+            "news_date": "2025-08-07 16:16:46"
         },
         {
             "sym": "RAYMOND",
@@ -242,6 +825,39 @@
             "seg": "E"
         },
         {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d157b7a-64b7-4ae4-b52c-351b318a5ce7.pdf",
+            "news_date": "2025-08-06 20:41:51"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0cafeb9b-b6b8-4326-9e49-42f3e508e1cd.pdf",
+            "news_date": "2025-08-06 20:24:42"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On August 06 2025",
+            "news_body": "Outcome of Board Meeting held on August 06 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fa6b29f-e6c6-4adf-a64e-80195419d16e.pdf",
+            "news_date": "2025-08-06 20:21:57"
+        },
+        {
             "sym": "RAYMOND",
             "disp": "Raymond",
             "bse_code": 500330,
@@ -264,6 +880,314 @@
             "sid": 2859,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Unaudited Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0da4445-4ed3-4ff2-a3be-aeeafcf8eec9.pdf",
+            "news_date": "2025-08-06 20:17:02"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor Of The Company",
+            "news_body": "Appointment of Secreterial Auditor of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02014c63-d8a9-49ea-a86c-1b7deedac3a1.pdf",
+            "news_date": "2025-08-04 19:24:41"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Please find attached Scrutinizers Report for the 100th Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=406a536b-8a81-4cfa-8b43-b6610076436c.pdf",
+            "news_date": "2025-08-04 19:00:16"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 100th Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2695e19f-8c0b-47ba-b1c6-d87ba5bfc063.pdf",
+            "news_date": "2025-08-04 13:06:55"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b9ad0ca-3eaf-49f6-82db-3e4e268f3f0c.pdf",
+            "news_date": "2025-07-30 17:21:40"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results (Standalone And Consolidated) Of The Company For The Quarter Ended June 30 2025",
+            "news_body": "Raymond Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/08/2025 inter alia to consider and approve Unaudited Financial Results (Standalone and Consolidated) of the Company for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=438cf889-c2e7-4fe2-a9a2-f109d2d2efe8.pdf",
+            "news_date": "2025-07-29 12:10:11"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find enclosed certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e776626-2e24-4e3d-b156-bd585db21f0b.pdf",
+            "news_date": "2025-07-15 15:28:00"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed intimation under Regulation 30 of Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ef601c9-500c-48d2-8d5f-2c53f0313228.pdf",
+            "news_date": "2025-07-14 19:07:07"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Shareholders",
+            "news_body": "Please find attached letter sent to shareholders.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02c023cb-6b28-478c-9a96-6b0ebd977115.pdf",
+            "news_date": "2025-07-13 14:14:15"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Please find attached Business Responsibility and Sustainability Report for FY 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08b6973a-2e2d-47e8-aba0-5905c74f4b3d.pdf",
+            "news_date": "2025-07-13 13:58:30"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Convening The 100Th Annual General Meeting.",
+            "news_body": "Please find attached AGM Notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a69d928-19b7-46e3-b328-12f9224f922e.pdf",
+            "news_date": "2025-07-13 13:54:41"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Please find attached Annual Report for the Financial Year 2024-25 and Notice convening the 100th Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53769f36-ec75-47bf-a848-2d73dee7af38.pdf",
+            "news_date": "2025-07-13 13:50:15"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26f69d0d-8610-4074-ab07-4d38b231450a.pdf",
+            "news_date": "2025-07-09 15:11:26"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action - Fixes Record Date For AGM",
+            "news_body": "Please find enclosed intimation under Regulation 42 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64c26250-7de8-45a3-8987-5f30b97d7441.pdf",
+            "news_date": "2025-07-08 16:18:32"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Updates",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da4e33c9-4838-47c2-a488-07a57556b114.pdf",
+            "news_date": "2025-07-04 22:57:18"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Rating For Subsidiary Of The Company",
+            "news_body": "Please find attached intimation of Credit Rating for subsidiary of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3822da38-11f8-4311-84c8-1f588882d79f.pdf",
+            "news_date": "2025-07-04 20:02:24"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Volume Movement Letter",
+            "news_body": "Clarification on volume movement letter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=facfa0ab-4186-4230-b9ca-e1c832af9780.pdf",
+            "news_date": "2025-07-01 13:49:03"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Raymond Ltd",
+            "news_body": "The Exchange has sought clarification from Raymond Ltd on July 01 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-07-01 12:06:40"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Please Find Enclosed Communication To Shareholders",
+            "news_body": "Please find enclosed communication to shareholders of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4c00a40-6c2d-445e-8609-4038c5e078e5.pdf",
+            "news_date": "2025-06-29 23:29:22"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on June 24 2025 for J.K. Investors (Bombay) Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04AF622C_67F6_474E_978B_030BF5133621_162255.pdf",
+            "news_date": "2025-06-24 16:23:02"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find attached intimation for closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62ac06f1-5036-4d8b-8606-b065aeddce9b.pdf",
+            "news_date": "2025-06-23 19:15:25"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Please find attached Scrutinizer Report dated June 20 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbf648a4-d0a4-4954-8502-f14cf2dc5076.pdf",
+            "news_date": "2025-06-20 18:35:03"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Please find attached Outcome of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01c20d4e-cd11-46cc-a791-9ed42f2401fa.pdf",
+            "news_date": "2025-06-20 18:31:47"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Analyst/ Investor Meet",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c9a5cac-7526-4fd9-9df3-40ae12a7ec79.pdf",
+            "news_date": "2025-05-29 20:48:29"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Please find enclosed Annual Secretarial Compliance report for the financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be2d30ba-2259-4322-988d-6ef9001102ae.pdf",
+            "news_date": "2025-05-29 16:21:41"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f33a6cd-4389-451b-b7ce-cff73a69d083.pdf",
+            "news_date": "2025-05-21 19:59:30"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Analyst/ Investor Meet - Transcript",
+            "news_body": "Please find enclosed transcript of analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e952dea7-daa4-4d32-b396-2ad51e9fc361.pdf",
+            "news_date": "2025-05-20 23:15:42"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Pursuant to Regulation 30 of SEBI Listing Regulations please find enclosed notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da570a04-34e1-4056-aa17-33a84f9771c8.pdf",
+            "news_date": "2025-05-20 17:23:31"
         },
         {
             "sym": "RAYMOND",
@@ -290,6 +1214,61 @@
             "seg": "E"
         },
         {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6471f5f1-cc2f-4801-aba5-2ea35badd580.pdf",
+            "news_date": "2025-05-19 19:24:24"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1c5f99e-06bd-4b32-882c-3540a754e469.pdf",
+            "news_date": "2025-05-15 19:51:47"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)-Analyst / Investor Meet",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aef64448-2628-42d3-8d24-ba98ee122cd3.pdf",
+            "news_date": "2025-05-15 17:23:35"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find  enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4749e4cf-fa29-4459-b2c1-00a7ea5ca68c.pdf",
+            "news_date": "2025-05-14 18:55:39"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=926a1c22-6f59-48ca-b1ab-4e0cca40829b.pdf",
+            "news_date": "2025-05-14 15:55:42"
+        },
+        {
             "sym": "RAYMOND",
             "disp": "Raymond",
             "bse_code": 500330,
@@ -312,6 +1291,39 @@
             "sid": 2859,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "This is to inform you that the audio recording of the Companys Investor and Analyst meet to discuss the strategy and prospects of Engineering Automotive and Aerospace businesses held on May 13 2025 at 5:30 p.m. has been uploaded on the Companys website",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f541d4ab-d354-4518-9251-6c60ac897c75.pdf",
+            "news_date": "2025-05-13 23:31:35"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI Listing Regulations",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8e17527-9b66-4247-8035-0ed853b1dab8.pdf",
+            "news_date": "2025-05-13 21:24:50"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find attached intimation under Regulation 30 of Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1997b96-29d9-4a01-a54f-fec72c2dfb3f.pdf",
+            "news_date": "2025-05-13 19:25:37"
         },
         {
             "sym": "RAYMOND",
@@ -338,6 +1350,39 @@
             "seg": "E"
         },
         {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find attached Investor Presentation under Regulation 30 of Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad7cfe12-5a24-4ec8-8777-b49ba4470fad.pdf",
+            "news_date": "2025-05-12 21:49:38"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find attached Press Release under Regulation 30 of Listing Regulations.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94ca24e8-91ad-4c2a-b699-b1262c60a010.pdf",
+            "news_date": "2025-05-12 21:17:40"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddb2d67c-bc5d-4e87-b1af-1f75a5ed086e.pdf",
+            "news_date": "2025-05-12 21:13:48"
+        },
+        {
             "sym": "RAYMOND",
             "disp": "Raymond",
             "bse_code": 500330,
@@ -360,6 +1405,61 @@
             "sid": 2859,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Year Ended March 31 2025",
+            "news_body": "Audited Financial Result for the quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d1e7c65-a7fc-43e5-8cd1-f8a23065b532.pdf",
+            "news_date": "2025-05-12 21:09:58"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6bac451-f6e2-46db-aa11-1989b8d0c8a5.pdf",
+            "news_date": "2025-05-08 20:27:46"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation under Regulation 30 of Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6643f377-21c5-4cbb-b35e-d9c0b4b33252.pdf",
+            "news_date": "2025-05-07 16:40:38"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Audited Financial Results (Standalone And Consolidated) Of The Company For The Quarter And Financial Year Ended March 31 2025",
+            "news_body": "Raymond Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/05/2025 inter alia to consider and approve Audited Financial Results (Standalone and Consolidated) of the Company for the quarter and Financial Year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f83c483-0d48-46f7-ba7f-ed3420405598.pdf",
+            "news_date": "2025-05-06 19:55:31"
+        },
+        {
+            "co_code": 474,
+            "bse_code": 500330,
+            "isin": "INE301A01014",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed intimation under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c80a4c6a-4da9-4b41-9aee-c6eeafd2ffe9.pdf",
+            "news_date": "2025-05-04 14:53:53"
         },
         {
             "sym": "RAYMOND",
@@ -2209,6 +3309,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

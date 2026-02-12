@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75624102-dce5-4a17-bf9d-009324196aa2.pdf",
+            "news_date": "2026-02-12 19:37:48"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49e19641-1a8f-4c9c-865f-73d3638a1173.pdf",
+            "news_date": "2026-02-12 15:17:27"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfef061e-ebb4-4e2f-9ef3-f8f1a1fa08b6.pdf",
+            "news_date": "2026-02-11 14:51:49"
+        },
+        {
             "sym": "RSYSTEMS",
             "disp": "R Systems International",
             "bse_code": 532735,
@@ -24,6 +57,39 @@
             "sid": 13414,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=950a19fe-ed77-4e00-95d8-02ef6532dced.pdf",
+            "news_date": "2026-02-11 09:38:07"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87c95ae5-521f-4a7e-a618-dcecf66475af.pdf",
+            "news_date": "2026-02-10 23:10:22"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome For The Board Meeting Held On February 10 2026",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31241b10-65f7-4fa6-989a-c5d40138b617.pdf",
+            "news_date": "2026-02-10 23:07:37"
         },
         {
             "sym": "RSYSTEMS",
@@ -50,6 +116,149 @@
             "seg": "E"
         },
         {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Financial Year Ended December 31 2025",
+            "news_body": "As  enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bb33ec0-a2be-400e-8a1e-e58ed278e718.pdf",
+            "news_date": "2026-02-10 23:05:26"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF INVESTOR / ANALYSTS CALL ON FINANCIAL RESULTS FOR THE QUARTER AND YEAR ENDED ON DECEMBER 31 2025 ON February  11 2026 (Wednesday) 10.00 AM IST",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3adfe88-effb-4684-949c-4c12b3258419.pdf",
+            "news_date": "2026-02-08 23:37:52"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for NTIMATION UNDER REGULATION SEBI (LISTING OBLIGATIONS AND DISCLOSURE REQUIREMENTS) REGULATIONS 2015 - BOARD MEETING INTIMATION",
+            "news_body": "R Systems International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/02/2026 inter alia to consider and approve Meeting of the Board of Directors of R Systems International Limited (Company) is scheduled to be held on Tuesday February 10 2026 to inter-alia transact the following business:\r\n \r\n  To consider and approve the audited standalone and consolidated financial results of the Company for the quarter and financial year ended December 31 2025\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f020d3d0-7ebf-486f-a86d-13d295c1c704.pdf",
+            "news_date": "2026-02-03 19:09:13"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>R Systems International Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L74899DL1993PLC053579</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>277.73</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>AA-</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CRISIL LTD.</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>NSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Bhasker Dubey <br/>  Designation: Company Secretary and  Compliance Officer  <br/> EmailId: bhasker.dubey@rsystems.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Nand Sardana <br/> Designation: Chief Financial Officer <br/> EmailId: nand.sardana@rsystems.com</div> </div> <div> <br/> Date: 27/01/2026<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2586678-618a-4f75-810a-c68111640c04.pdf",
+            "news_date": "2026-01-27 19:51:36"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of 60495 equity shares of face value of Re. 01/- each upon exercise of 60495 Restricted Stock Units under Companys management Incentive Plan 2023.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbad9dfd-3145-4c49-9695-0f8cd0d57b61.pdf",
+            "news_date": "2026-01-17 15:24:37"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48434216-3b55-479c-a910-9258f70f6e37.pdf",
+            "news_date": "2026-01-14 16:30:31"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df69a149-944c-48d6-bbb4-d7eaa8b75b41.pdf",
+            "news_date": "2026-01-14 12:04:25"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13c526e3-8f60-4b2a-812a-f957bb577d61.pdf",
+            "news_date": "2025-12-27 19:39:04"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of 4655 equity shares upon exercise of  4655 Restricted Stock Units under Companys Management Incentive Plan 2023.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b59d4ed2-efe9-4020-aad9-3e757532a8da.pdf",
+            "news_date": "2025-12-16 12:00:18"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=423043fd-6ea9-4e5d-aa09-c01336e6188a.pdf",
+            "news_date": "2025-12-12 15:33:40"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12a06760-4a43-40ce-bf1f-ca66c5cb09d9.pdf",
+            "news_date": "2025-12-05 23:36:45"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "In compliance with Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we wish to inform you that Analyst/ Investor meet of \r\nR Systems International Limited (the Company) is scheduled to be held as per details below:\r\n\r\nInteraction with:Group of Investors/ Analysts \r\nNature of the meeting:One on One/ Group \r\nPlace:Mumbai\r\nMode:Physical\r\nDate: December 01 2025 and December 02 2025\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=086a21ab-52e3-44d1-9632-d22980b8e9c6.pdf",
+            "news_date": "2025-11-26 14:26:04"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release titled R Systems Elevated to UiPath Diamond Partner Status and Recognized as a UiPath Agentic Automation Fast Track Partner",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=705b0907-c4e0-42c8-995a-b012b62a1408.pdf",
+            "news_date": "2025-11-21 14:30:35"
+        },
+        {
             "sym": "RSYSTEMS",
             "disp": "R Systems International",
             "bse_code": 532735,
@@ -72,6 +281,94 @@
             "sid": 13414,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of earnings call for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e66c2639-2aed-4842-870c-34f16b8fed0e.pdf",
+            "news_date": "2025-11-14 19:42:16"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of Grant of 36000 Restricted Stock Units",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b993bcd-8efc-4e81-82f4-0395e1918e25.pdf",
+            "news_date": "2025-11-14 16:24:10"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of 6539 equity shares pursuant to exercise of 6539 Restricted Stock Units",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4916103a-29df-4509-9599-42ca66b4f6ef.pdf",
+            "news_date": "2025-11-14 16:20:53"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=219d3203-dc69-4ff9-beb8-e6f453c38802.pdf",
+            "news_date": "2025-11-13 20:24:31"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35721a67-1de6-4118-b409-11dd2ef551a4.pdf",
+            "news_date": "2025-11-11 11:32:50"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for INTIMATION REGARDING APPROVAL ALLOTMENT OF NON-CONVERTIBLE DEBENTURES",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations) read with Para A of Part A of Schedule III of the SEBI Listing Regulations and other applicable provisions and in continuation to our earlier letter dated August 21 2025 the Management Committee of the Board of Directors at its meeting held today i.e. November 11 2025 commenced at 11:05 A.M. (IST) and concluded at 11:09 A.M. (IST) has approved the allotment of 27500 (Twenty Seven Thousand Five Hundred) listed rated unsecured senior redeemable non-convertible debentures having a face value of INR 100000 (Indian Rupees One Lakh only) each for an aggregate principal amount of up to INR 2750000000 (Indian Rupees Two Hundred and Seventy Five Crores) (Debentures) on a private placement basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a68a4c9f-7c10-4f07-8c7c-53cfe7a13f24.pdf",
+            "news_date": "2025-11-11 11:25:41"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89ac0225-2488-4956-9bd6-3e98ca4e78f6.pdf",
+            "news_date": "2025-11-11 09:51:55"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91703d5e-3226-4ff9-b176-a3843e15f2a5.pdf",
+            "news_date": "2025-11-08 11:12:33"
         },
         {
             "sym": "RSYSTEMS",
@@ -98,6 +395,17 @@
             "seg": "E"
         },
         {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Investors/Analysts call of R Systems International Limited (\"Company\") held on Friday November 07 2025 to discuss the financial results of the Company for the quarter and nine months ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e76a4ef-bca6-4f26-b04e-14b6dc7f0a5b.pdf",
+            "news_date": "2025-11-07 13:47:57"
+        },
+        {
             "sym": "RSYSTEMS",
             "disp": "R Systems International",
             "bse_code": 532735,
@@ -120,6 +428,39 @@
             "sid": 13414,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation  on the financial results for the quarter and nine months ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=561ec192-5098-40dc-a48f-7a27017b20f7.pdf",
+            "news_date": "2025-11-07 08:01:21"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the quarter and nine months ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7cfb48c-beec-40b6-97e5-0c0d1cb2afaf.pdf",
+            "news_date": "2025-11-06 20:29:55"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Results For The Quarter And Nine Month Ended September 30 2025",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f744d58-6c95-4a75-83e5-af6995ff006c.pdf",
+            "news_date": "2025-11-06 20:11:40"
         },
         {
             "sym": "RSYSTEMS",
@@ -146,6 +487,149 @@
             "seg": "E"
         },
         {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter And Nine Month Ended September 30 2025",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74fcf480-34f4-44ec-b1d2-6c3dde35b411.pdf",
+            "news_date": "2025-11-06 20:09:30"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating by ICRA Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05b0f129-e0d3-41cd-9fd6-e109c2eea6c9.pdf",
+            "news_date": "2025-10-30 16:16:55"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF INVESTOR / ANALYSTS CALL ON FINANCIAL RESULTS FOR THE QUARTER AND NINE MONTHS ENDED SEPTEMBER 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fb7f3ba-bc44-40f8-8844-d6a0d0bab0a1.pdf",
+            "news_date": "2025-10-30 15:56:43"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for INTIMATION UNDER SEBI (LISTING OBLIGATIONS AND DISCLOSURE REQUIREMENTS) REGULATIONS 2015 - INTIMATION OF BOARD MEETING ON NOVEMBER 06 2025\r\n",
+            "news_body": "R Systems International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/11/2025 inter alia to consider and approve We wish to inform you that a meeting of Board of Directors of \r\nR Systems International Limited (Company) is scheduled to be held on Thursday November 06 2025 to inter-alia transact the following businesses:\r\n \r\n  To consider and approve the audited standalone financial results and the unaudited consolidated financial results of the Company for the quarter and nine months ended September 30 2025. \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94153dcb-2815-4f53-b500-fbab65bd46f4.pdf",
+            "news_date": "2025-10-29 18:14:26"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08286cf0-40fd-428d-b4b4-776f1c539a8c.pdf",
+            "news_date": "2025-10-10 18:47:21"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c20a4864-d8bb-46d5-9bd5-da703e7b0ac0.pdf",
+            "news_date": "2025-10-07 13:14:10"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae56dfbf-bea0-4e05-8ce2-eacf5dd7a3b1.pdf",
+            "news_date": "2025-09-26 15:13:56"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Intimation of allotment of equity shares pursuant to  exercise of Restricted Stock Units",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8b2880b-0aa1-4832-b9dc-816c3efcaad3.pdf",
+            "news_date": "2025-09-23 12:06:32"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice to Shareholders - Special Window for re-lodgement of transfer requests of physical shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d89e4a80-53ac-4eff-8e4d-25aa5048b76b.pdf",
+            "news_date": "2025-09-08 12:02:38"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication on September 03 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c40d2e3c-ca36-4d77-be85-bf4bc1ad9a59.pdf",
+            "news_date": "2025-09-03 11:09:18"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "CLARIFICATION ON INCREASE IN VOLUME",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fa00097-cdae-4212-9bb1-1b190e9d6570.pdf",
+            "news_date": "2025-08-25 14:23:50"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from R Systems International Ltd",
+            "news_body": "The Exchange has sought clarification from R Systems International Ltd on August 25 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-08-25 11:46:23"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44ecbe41-c6e7-4505-aaa9-75fa0a9baef1.pdf",
+            "news_date": "2025-08-23 14:15:16"
+        },
+        {
             "sym": "RSYSTEMS",
             "disp": "R Systems International",
             "bse_code": 532735,
@@ -168,6 +652,94 @@
             "sid": 13414,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1aa474f3-5be1-4667-b737-295838bafd92.pdf",
+            "news_date": "2025-08-21 21:35:41"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On August 21 2025",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28741e94-0e9e-481e-ad64-d035e6836f87.pdf",
+            "news_date": "2025-08-21 20:39:32"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "Issuance of NCDs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25d452b3-0624-46e3-9f30-0e3810a0fa90.pdf",
+            "news_date": "2025-08-21 20:13:14"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Raising of Funds",
+            "caption": "Announcement under Regulation 30 (LODR)-Raising of Funds",
+            "news_body": "Issuance of NCDs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47af3ac0-7281-4004-a770-e3b0ee465641.pdf",
+            "news_date": "2025-08-21 19:52:52"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Disclosure under Regulation 30 read with clause 5 of para A of part A of Schedule III of SEBI Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b1335c7-7f64-4588-9fe8-01612628812f.pdf",
+            "news_date": "2025-08-21 19:49:47"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Acquisition of 100% of equity shares of Novigo Solutions Private Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cb4ede7-21a3-4649-a5c5-6ddc6f64f665.pdf",
+            "news_date": "2025-08-21 19:40:57"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ed4146b-c4f1-457c-929c-38c21db6a39d.pdf",
+            "news_date": "2025-08-20 22:52:33"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2fd71b7-faf9-4715-adbe-201e093ad77b.pdf",
+            "news_date": "2025-08-15 21:32:23"
         },
         {
             "sym": "RSYSTEMS",
@@ -194,6 +766,17 @@
             "seg": "E"
         },
         {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "We wish to inform you that the audio recording of the Investors/Analysts call of R Systems International Limited (\"Company\") held on Thursday August 14 2025 to discuss the financial results of the Company for the quarter and six months ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83e40d25-0cc5-4f5e-a315-17105f57461e.pdf",
+            "news_date": "2025-08-14 16:02:17"
+        },
+        {
             "sym": "RSYSTEMS",
             "disp": "R Systems International",
             "bse_code": 532735,
@@ -216,6 +799,39 @@
             "sid": 13414,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=061cd5dd-57cb-4c00-a715-292ab4e6b6c6.pdf",
+            "news_date": "2025-08-13 23:34:36"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "EARNINGS PRESS RELEASE ON THE FINANCIAL RESULTS FOR THE QUARTER AND SIX MONTHS ENDED JUNE 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7283aed-0341-4dac-86ae-ceb8f5387c33.pdf",
+            "news_date": "2025-08-13 19:34:05"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results For The Quarter And Six Months Ended June 30 2025",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fc580e2-8a21-4f7a-9d66-2418c176665f.pdf",
+            "news_date": "2025-08-13 19:27:21"
         },
         {
             "sym": "RSYSTEMS",
@@ -242,6 +858,435 @@
             "seg": "E"
         },
         {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Six Month Ended June 30 2025",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12258f3c-e65d-4ddf-906f-701977459126.pdf",
+            "news_date": "2025-08-13 19:24:26"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors/Analysts Call on Financial Results for the quarter and six months ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb16e5cf-9d0f-4226-92db-7a2714adbca4.pdf",
+            "news_date": "2025-08-11 13:08:46"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of A Meeting Of Board Of Directors Of R Systems International Limited On August 13 2025",
+            "news_body": "R Systems International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2025 inter alia to consider and approve We wish to inform you that a meeting of Board of Directors of \r\nR Systems International Limited (Company) is scheduled to be held on Wednesday August 13 2025 inter-alia to transact the following businesses:\r\n \r\n  To consider and approve the audited standalone financial results and the unaudited consolidated financial results of the Company for the quarter and six months ended \r\nJune 30 2025\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3ba653b-581a-41f3-a868-8ff9b483774d.pdf",
+            "news_date": "2025-08-06 20:08:54"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Court Convened Meeting",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d90dc7d4-a1c4-458f-a8f0-31dfe5cabf41.pdf",
+            "news_date": "2025-08-04 16:34:50"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Court Convened Meeting",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Court Convened Meeting",
+            "news_body": "Summary of proceedings of NCLT convened meeting of Unsecured Creditors of R Systems International Limited held on July 31 2025 at 12:00 Noon (IST)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c469c5e3-5c41-4314-b165-f09205e5a117.pdf",
+            "news_date": "2025-07-31 19:31:34"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Court Convened Meeting",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Court Convened Meeting",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6487fe6b-66af-44f7-8ce7-1dde36d0a94f.pdf",
+            "news_date": "2025-07-31 19:28:52"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7947b979-4308-4f10-829e-53c1d33f0d7a.pdf",
+            "news_date": "2025-07-25 12:10:46"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Press Release",
+            "news_body": "Press Release titled \"R Systems Announces Strategic Adoption of Cursor to Embed AI into Every State of Software Development.\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca2a3d65-de47-4bd7-8549-d42570feb372.pdf",
+            "news_date": "2025-07-22 13:21:05"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Intimation of allotment of equity shares pursuant to exercise of Restricted Stock Units",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89a8996d-1e8e-48e0-a426-8d3b3b590a0d.pdf",
+            "news_date": "2025-07-15 23:08:18"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba1f1420-a65c-4ffc-9ec6-7921ea6c34bb.pdf",
+            "news_date": "2025-07-10 20:33:03"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating by CRISIL",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf9193b1-23f9-4681-83b5-df95e2aeb5a7.pdf",
+            "news_date": "2025-07-10 16:10:17"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f79791b5-9721-4051-bab3-7f55621e46fd.pdf",
+            "news_date": "2025-07-09 16:43:15"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for OUTCOME OF BOARD MEETING HELD ON JULY 09 2025",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=788129d8-8085-4c60-887a-8dfb75b49d92.pdf",
+            "news_date": "2025-07-09 09:18:10"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Fund Raising",
+            "news_body": "R Systems International Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 09/07/2025 inter alia to consider and approve We wish to inform you that a meeting of Board of Directors of R Systems International Limited (Company) is scheduled to be held on Wednesday July 09 2025 inter alia to evaluate the raising of funds by way of issue of securities through further public offer rights issue American depository receipts global  depository  receipts/ foreign currency convertible bonds qualified institutions placement debt issue preferential issue or any other permissible mode and/ or combination thereof as may be considered in compliance with applicable laws and regulations for the time being in force or as amended from time to time and subject to all such regulatory/ statutory approvals as may be required.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daecc38c-a840-4bbd-8093-056a7812aed5.pdf",
+            "news_date": "2025-07-05 23:43:28"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b73b22b0-d2d5-4471-b143-6c3ca3f3dbf2.pdf",
+            "news_date": "2025-06-28 15:56:43"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88eb4b71-8eda-47ad-b29c-b119528456ad.pdf",
+            "news_date": "2025-06-27 21:44:50"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Court Convened Meeting",
+            "caption": "Notice Of Meeting Of The Unsecured Creditors Of The Company In Pursuance To The Order By The HonBle National Company Law Tribunal New Delhi Bench Is Scheduled To Be Held On Thursday July 31 2025 At 12:00 Noon Through Video Conferencing/ Other Audio-Visual",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85219a3f-6f7b-4ebd-bfe5-f1bfda8d698c.pdf",
+            "news_date": "2025-06-27 21:41:17"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Court Convened Meeting",
+            "caption": "Notice Of Meeting Of The Equity Shareholders Of The Company In Pursuance To The Order Of The HonBle National Company Law Tribunal New Delhi Bench Is Scheduled To Be Held On Thursday July 31 2025 At 10:00 A.M. Through Video Conferencing/ Other Audio-Visual",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f86e0da7-29a5-41e1-a0f5-878c5df2ecf3.pdf",
+            "news_date": "2025-06-27 21:35:54"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58079ad7-8862-4411-9d61-6ca2becd1c3a.pdf",
+            "news_date": "2025-06-27 10:29:50"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "DISCLOSURE UNDER REGULATION 30 OF SEBI (LISTING OBLIGATIONS AND DISCLOSUREREQUIREMENTS) REGULATIONS 2015",
+            "news_body": "Intimation of levy of penalty.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6fae8f7-4819-445d-a703-42644c6676f1.pdf",
+            "news_date": "2025-06-20 19:59:15"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "RUMOUR VERIFICATION LETTER- R SYSTEMS SHARES JUMP 6% ON REPORTS OF COFORGE CONSIDERING STAKE ACQUISITION",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46c0ad59-c739-44da-8daa-214108faec60.pdf",
+            "news_date": "2025-06-19 14:42:48"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from R Systems International Ltd",
+            "news_body": "The Exchange has sought clarification from R Systems International Ltd on June 19 2025 with reference to news appeared in www.businessupturn.com dated June 19 2025 quoting \"R Systems shares jump 6% on reports of Coforge considering stake acquisition\" <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-06-19 12:51:46"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50c4dcb5-d968-44ea-b2f1-0cc67ca302d9.pdf",
+            "news_date": "2025-06-13 19:41:47"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Fair Summary of  Proceedings of 31st Annual General Meeting of R Systems International Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a592f88c-b059-408e-8bca-041a358e4165.pdf",
+            "news_date": "2025-06-12 15:24:03"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "CLARIFICATION ON INCREASE IN VOLUME",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8113bc87-6f49-42fd-bf1d-7205d8bd3143.pdf",
+            "news_date": "2025-06-10 14:19:32"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from R Systems International Ltd",
+            "news_body": "The Exchange has sought clarification from R Systems International Ltd on June 10 2025 with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-06-10 13:15:19"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38d26e1b-7031-4554-aabb-73365e110550.pdf",
+            "news_date": "2025-06-07 13:12:39"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e7bb313-c7cc-40c9-9847-5de7d777d3c8.pdf",
+            "news_date": "2025-06-06 19:46:09"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for DISCLOSURE UNDER REGULATION 30 OF SEBI (LISTING OBLIGATIONS AND DISCLOSURE REQUIREMENTS) REGULATIONS 2015: OUTCOME OF THE BOARD MEETING HELD ON JUNE 05 2025",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9408a18d-d8d1-4b76-ba71-8ce251dccaac.pdf",
+            "news_date": "2025-06-05 18:41:39"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "DISCLOSURE UNDER THE SECURITIES AND EXCHANGE BOARD OF INDIA (LISTING OBLIGATIONS AND DISCLOSURE REQUIREMENTS) REGULATIONS 2015\r\n\r\n",
+            "news_body": "As Enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4d362bd-0acd-4bf0-854e-c0a697615d96.pdf",
+            "news_date": "2025-06-05 15:35:49"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce1bab48-9ada-4f7b-9edc-e26d6619ef50.pdf",
+            "news_date": "2025-06-03 15:51:54"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "\r\nUpdate On Composite Scheme Of Amalgamation Of Velotio Technologies Private Limited And Scaleworx Technologies Private Limited With R Systems International Limited And Their Respective Shareholders And Creditors\r\n",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be332a96-1dbd-4b82-9537-58ea7e999bab.pdf",
+            "news_date": "2025-05-23 20:22:53"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40126ae7-2913-4e89-8434-5f6e16ee4d5a.pdf",
+            "news_date": "2025-05-21 13:58:17"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "As enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ae5c764-eef1-4bc5-b008-6ba2e73ea027.pdf",
+            "news_date": "2025-05-20 23:35:36"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of 31St Annual General Meeting To Be Held June 12 2025",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20417ea5-46c6-4e06-a0a6-6745717559c5.pdf",
+            "news_date": "2025-05-20 21:10:47"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "SUMISSION OF ANNUAL REPORT FOR THE FINANCIAL YEAR ENDED ON DECEMBER 31 2024 ALONG WITH THE NOTICE FOR CONVENING 31ST ANNUAL GENERAL MEETING",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c334e6f4-b474-46e1-946d-7465191f998f.pdf",
+            "news_date": "2025-05-20 21:06:07"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6bb40b6-9f42-4dd1-8a5b-1f421e44a9e6.pdf",
+            "news_date": "2025-05-18 13:17:37"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of The Date Of 31St Annual General Meeting",
+            "news_body": "Board approved the convening of 31st Annual General Meeting on June 12 2025 at 10:00 A.M. (IST).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17e54fc1-0abc-4443-8b09-c774b52397f6.pdf",
+            "news_date": "2025-05-17 23:42:07"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Designation of one of the Senior Management Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e09f3e0b-6c34-41a7-9579-5eb3eb56e794.pdf",
+            "news_date": "2025-05-17 19:24:22"
+        },
+        {
             "sym": "RSYSTEMS",
             "disp": "R Systems International",
             "bse_code": 532735,
@@ -264,6 +1309,61 @@
             "sid": 13414,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript of Investors/ Analysts Call held on May 09 2025 on the financial results for the quarter ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08511a02-fdcf-49b7-9eee-f68f27c21ec0.pdf",
+            "news_date": "2025-05-15 22:36:04"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=643ebe59-3935-44dc-b996-d46145831df0.pdf",
+            "news_date": "2025-05-13 15:25:07"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisment on results for the quarter ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ca8f7cb-a8d7-43c9-ac0a-1d1be29d27e1.pdf",
+            "news_date": "2025-05-10 13:57:54"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisment for communication to Shareholders regarding deduction of Tax at source on Dividend and intimation of Record Date.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f71620c-05fe-482a-ac0b-f7294b352a8e.pdf",
+            "news_date": "2025-05-10 13:48:07"
+        },
+        {
+            "co_code": 20045,
+            "bse_code": 532735,
+            "isin": "INE411H01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders-Intimation Of Tax Deduction On Dividend",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcf664d2-2a11-43f1-a77d-fbd28db540c0.pdf",
+            "news_date": "2025-05-09 22:29:40"
         },
         {
             "sym": "RSYSTEMS",
@@ -1609,6 +2709,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publications w.r.t Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd0a5b52-717f-4b0d-8e1a-87b2f23cd555.pdf",
+            "news_date": "2026-02-05 15:19:49"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal ballot and E-voting instructions.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=299159ef-3758-48d1-9e92-a5df972f76eb.pdf",
+            "news_date": "2026-02-03 22:51:01"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for the Unaudited financial results for quarter and none months ended on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae5985d2-ef6b-4ba1-ae66-f4d09f5368c9.pdf",
+            "news_date": "2026-02-02 16:41:17"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -24,6 +57,17 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation for the quarter and nine months ended on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ba68b70-36b8-4dae-814a-22e06fd1237f.pdf",
+            "news_date": "2026-01-31 19:25:25"
         },
         {
             "sym": "SHILCTECH",
@@ -50,6 +94,83 @@
             "seg": "E"
         },
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": " Unaudited Financial Results Of The Company For The Quarter And Nine Months Ended 31St December 2025.",
+            "news_body": "Unaudited Financial Results for the quarter and nine months ended on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf162130-3236-4b5c-99fe-bd83e3c9424e.pdf",
+            "news_date": "2026-01-31 13:49:23"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Unaudited Financial Results For The Quarter And Nine Months Ended On 31St December 2025",
+            "news_body": "Outcome of the Board Meeting held on 31st January 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82b86ced-6e2b-407e-ba0b-aac4dc72a3ab.pdf",
+            "news_date": "2026-01-31 12:56:34"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results Of The Company For The Quarter Ended On 31St December 2025.",
+            "news_body": "Shilchar Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/01/2026 inter alia to consider and approve the Un-audited Financial Results of the Company for the quarter and half year ended on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c662e17b-a52b-4e96-97cc-4f74f9ae5912.pdf",
+            "news_date": "2026-01-23 21:32:27"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb115d3b-e5bc-4028-803d-970dc0da055b.pdf",
+            "news_date": "2026-01-09 15:50:40"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window from 01st January 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a104edfe-f02d-4a01-8a66-5a5c37f9977f.pdf",
+            "news_date": "2025-12-26 10:45:36"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation About Listing And Trading Approval From The National Stock Exchange Of India Limited (\"NSE\").",
+            "news_body": "Pursuant to Regulation 30 of SEBI(LODR) Regulations 2015 we are pleased to submit that the Company has received listing and trading approval  from NSE for listing of equity shares vide letter dated 20th November 2025. Accordingly w.e.f 24th November 2025 the equity shares of the Company will also be listed on the National stock Exchange of India Limited (\"NSE\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f20fcdb-ea51-4113-b2ce-7f80f0d92dad.pdf",
+            "news_date": "2025-11-20 20:14:10"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Meet with Institutional Investors/Fund Managers scheduled on 17th November 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6ce208e-7920-4f4e-885d-ed8323d6e0c8.pdf",
+            "news_date": "2025-11-12 12:14:23"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -72,6 +193,61 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Conference Call held on October 18 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f016abc5-db70-481a-9564-c32203179c43.pdf",
+            "news_date": "2025-10-24 13:48:09"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Alay Jtendra Shah",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87067CBD_4D90_4885_9344_F1AE57FA72E8_122852.pdf",
+            "news_date": "2025-10-24 12:28:56"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Alay Jitendra Shah",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7D592A58_BD7E_4CC0_A680_D5968FA29819_131927.pdf",
+            "news_date": "2025-10-23 13:19:36"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Unaudited Financial results for quarter and half year ended on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=942ef002-e47b-4161-9652-2faa23460483.pdf",
+            "news_date": "2025-10-20 19:11:50"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Link of Conference call held as on today i.e. 18.10.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74dd943c-a41e-4139-9709-fa8d73ad1b5a.pdf",
+            "news_date": "2025-10-18 19:29:20"
         },
         {
             "sym": "SHILCTECH",
@@ -98,6 +274,17 @@
             "seg": "E"
         },
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for 2nd Quarter and Half Year ended on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc14e3cc-ff62-456b-8b4c-cdba9fd1e25d.pdf",
+            "news_date": "2025-10-17 20:25:53"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -120,6 +307,105 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": " Unaudited Financial Results For The Second Quarter And Half Year Ended On 30.09.2025",
+            "news_body": "Unaudited Financial Results for the Second Quarter and Half year ended on 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4c69ebe-fa65-45ae-9e16-07a3041b55e5.pdf",
+            "news_date": "2025-10-17 17:20:42"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Unaudited Financial Results For The Second Quarter And Half Year Ended On 30.09.2025",
+            "news_body": "we would like to inform you that the Board of Directors of the Company at its meeting held on Friday 17th October 2025 of the Company considered and approved the Unaudited Financial Results for the Second Quarter and Half year ended on 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=386f9cbd-9901-4ff0-8ec1-c801ce0d1f3d.pdf",
+            "news_date": "2025-10-17 17:11:54"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Invitation of the conference call/Investor Meet scheduled on Saturday 18th October 2025 at 02:30 p.m. (IST) to discuss the Q2FY26 performance of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=189eb419-513a-43ce-8c35-d5d3d0980e18.pdf",
+            "news_date": "2025-10-14 16:00:52"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results Of The Company For The Quarter Ended On 30Th September 2025.",
+            "news_body": "Shilchar Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/10/2025 inter alia to consider and approve the Un-audited Financial Results of the Company for the quarter and half year ended on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=766897b7-06d6-45b0-8d7b-5d876c84573c.pdf",
+            "news_date": "2025-10-13 10:41:42"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e816c4d-5beb-4b34-bac2-f6cb9110d35b.pdf",
+            "news_date": "2025-10-10 14:00:53"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure Intimation for the quarter ending on 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96be2df7-1dd9-4ca4-a832-e66d5e20596d.pdf",
+            "news_date": "2025-09-26 16:07:05"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Capacity Expansion",
+            "news_body": "Intimation pursuant to Regulation 30 of SEBI (LODR) Regulations 2015 pertaining to Capacity Expansion of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=866a59f9-5253-4aa3-8399-7ac1a93ad5ea.pdf",
+            "news_date": "2025-09-17 14:08:28"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Submission of Voting Results & Scrutinizer Report of the 39th Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4272f5a-1d9e-4a20-9261-8bbd7f76f3ed.pdf",
+            "news_date": "2025-08-13 12:24:19"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of the extract of Unaudited Financial Results for the quarter ended on June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2089867-dc78-4c0f-a2c4-4cabc53c3c08.pdf",
+            "news_date": "2025-08-13 12:15:36"
         },
         {
             "sym": "SHILCTECH",
@@ -146,6 +432,28 @@
             "seg": "E"
         },
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation for the quarter ended on 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aefe5de5-a105-48b4-a52e-2381f49378ee.pdf",
+            "news_date": "2025-08-12 17:43:37"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Outcome of Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c701de09-4858-4b11-874a-56d9a6a7b53e.pdf",
+            "news_date": "2025-08-12 15:55:40"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -168,6 +476,292 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The 01St Quarter Ended On 30Th June 2025",
+            "news_body": "Unaudited Financial results for the 01st Quarter ended on 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72a3367b-0937-451f-8c08-917327316bd4.pdf",
+            "news_date": "2025-08-12 13:14:09"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome",
+            "news_body": "Approval of Unaudited Financial Results for the 01st Quarter ended on 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7441d51d-6aba-464f-b979-64a25bcea17d.pdf",
+            "news_date": "2025-08-12 13:06:12"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Financial Results Of The Company For The Quarter Ended On 30Th June 2025.",
+            "news_body": "Shilchar Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/08/2025 inter alia to consider and approve the Un-audited Financial Results of the Company for the quarter ended on 30th June 2025 along with the Limited Review Report to be issued by the Statutory Auditors thereon.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8dfa67ec-6287-4c49-9f16-de3b96b42719.pdf",
+            "news_date": "2025-08-06 12:40:17"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for 39th AGM scheduled on 12th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32c78918-861c-47f3-8438-7aaa0895470b.pdf",
+            "news_date": "2025-07-17 15:07:22"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Reporting for FY 2024-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7194c875-f95b-4de1-adaf-12c83e02a7e9.pdf",
+            "news_date": "2025-07-16 11:09:04"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for FY 2024-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3afda1c-dd02-45b4-9993-6ad5583864da.pdf",
+            "news_date": "2025-07-16 11:04:56"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of Annual General Meeting (AGM)",
+            "news_body": "Notice of 39th Annual General Meeting scheduled on 12th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74e747a3-e337-48a6-b43b-a090ddde400c.pdf",
+            "news_date": "2025-07-16 10:49:38"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action- Record Date For Dividend",
+            "news_body": "Intimation of Record Date for Dividend and AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e581fae6-81b1-4e35-9e3b-9abf367e6373.pdf",
+            "news_date": "2025-07-14 14:31:50"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=828c746c-3bc2-498f-9240-7daef4ce9af0.pdf",
+            "news_date": "2025-07-10 12:26:09"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating received from Credit Rating Agency is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07b992ba-5d12-40a5-87f7-d40f3ea21e4b.pdf",
+            "news_date": "2025-06-27 11:23:21"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32b50d9e-9f3e-4b2b-a60e-e0252825224f.pdf",
+            "news_date": "2025-06-26 14:28:26"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Outcome of Group Investor Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bff92ec-de57-4183-9d28-18c1b3efa9be.pdf",
+            "news_date": "2025-06-20 19:48:37"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Group of Investors visiting the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb7379e5-a452-43c5-a9b6-17d92f4d5eb0.pdf",
+            "news_date": "2025-06-17 14:15:07"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Clarification-Cessation of Ms. Reshma Suresh Patel as Independent Director of the Company w.e.f 27th March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a11da409-4733-4949-be78-d15d301707a4.pdf",
+            "news_date": "2025-06-14 14:52:42"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for IEPF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8a90bef-13f1-4e68-90ef-64f7004cb0e9.pdf",
+            "news_date": "2025-06-14 14:04:48"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Disclosure w.r.t Appointment of Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ea54865-942d-439a-9e7f-77f933ce16ec.pdf",
+            "news_date": "2025-06-13 17:48:17"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81d5145f-d944-4ba2-afca-46d0710b270d.pdf",
+            "news_date": "2025-06-13 17:46:09"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Submission of Postal Ballot Voting Results and Scrutinizers Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f346b9b7-ec3e-49c9-b06c-ca0ae10aa0ab.pdf",
+            "news_date": "2025-06-13 17:42:21"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Bonus Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f2bb09b-ba6d-4e55-99b9-54076ccbf5a4.pdf",
+            "news_date": "2025-06-09 10:17:43"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For The Purpose Of Bonus Issue",
+            "news_body": "Intimation of Record date for the purpose of Bonus Issue",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3040ea0a-5deb-4f88-bfa5-4a99eb0a272a.pdf",
+            "news_date": "2025-05-29 11:14:09"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report as of 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=847883c0-b5e2-4b8f-8e1b-e9c14564eb7a.pdf",
+            "news_date": "2025-05-28 16:17:01"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "The members of the Company approved the issue of Bonus Shares in the ratio of 2:1 (One new fully paid-up equity share for every 2 existing fully paid-up equity shares) to the shareholders of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=912adcf9-7f4a-4fc6-8262-5913ea55506c.pdf",
+            "news_date": "2025-05-22 22:13:14"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Submission of Voting Results and Scrutinizers Report on Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=144a3d13-ee46-49f3-b3b5-fb73301ff1b1.pdf",
+            "news_date": "2025-05-22 22:04:03"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Submission of Postal Ballot Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95af1f36-29b8-4261-92fe-d450180bd5ac.pdf",
+            "news_date": "2025-05-22 22:00:20"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Postal Ballot and  E-voting instructions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f930190e-c7e9-4975-9d7b-e56178e29fd8.pdf",
+            "news_date": "2025-05-15 15:49:20"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal ballot and E-voting Instruction.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b2523a0-30b0-4c69-a8c6-ca57466b803d.pdf",
+            "news_date": "2025-05-14 10:17:08"
         },
         {
             "sym": "SHILCTECH",
@@ -194,6 +788,72 @@
             "seg": "E"
         },
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Conference call held on April 22 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e7e7690-378b-43e0-a544-1892f35801ae.pdf",
+            "news_date": "2025-04-26 16:59:27"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Shilchar Technologies Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L29308GJ1986PLC008387</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>NIL</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>Not Applicable</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Vishnupriya Civichan <br/>  Designation: Company Secretary and Compliance Officer <br/> EmailId: cs@shilchar.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Prajesh Purohit <br/> Designation: Chief Financial Officer <br/> EmailId: ppurohit@shilchar.com</div> </div> <div> <br/> Date: 24/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=426bc48a-df34-4a43-bea1-dbc3690c1eda.pdf",
+            "news_date": "2025-04-24 11:33:23"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Postal Ballot Notice and E-voting instructions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a604585c-dad8-437d-a297-2b7744ff5d5b.pdf",
+            "news_date": "2025-04-23 13:03:28"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Link of Conference call held as on today i.e. 22.04.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=202f6f86-734f-4f6a-9050-46579ef25aac.pdf",
+            "news_date": "2025-04-22 20:48:04"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Audited Financial Results for the 4th quarter and Financial Year ended on 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=963da5f8-2eae-4106-a8a1-b3611a515531.pdf",
+            "news_date": "2025-04-22 13:50:51"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot and E-voting Instructions.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d85c9845-94b2-4ae5-8028-643a5e6d0623.pdf",
+            "news_date": "2025-04-22 10:23:01"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -216,6 +876,39 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the 4th quarter and financial year ended on 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09165ed0-f3d6-4484-9cf9-348c2b6e1307.pdf",
+            "news_date": "2025-04-21 18:14:31"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board recommended final dividend for the FY 2024-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63dbf196-22fb-4cca-a2fa-0cae8dc22efc.pdf",
+            "news_date": "2025-04-21 14:53:40"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Bonus",
+            "caption": "Corporate Action-Board recommends Bonus Issue",
+            "news_body": "The board recommended issuance of Bonus Equity shares in proportion of 2:1 i.e. one new fully paid-up equity share for every 2 existing fully paid-up equity shares of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f42c9c77-f589-4ecc-8ade-9a3af9f038f3.pdf",
+            "news_date": "2025-04-21 14:51:41"
         },
         {
             "sym": "SHILCTECH",
@@ -242,6 +935,28 @@
             "seg": "E"
         },
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results As On 31St March 2025",
+            "news_body": "Audited Financial Results as on 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e8900c2-3dca-4a91-99ee-e388df56fac3.pdf",
+            "news_date": "2025-04-21 14:41:37"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting _ Corrigendum",
+            "news_body": "Outcome of Board Meeting _ Corrigendum",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57e11691-8ee8-4a59-a930-8d6409e147a9.pdf",
+            "news_date": "2025-04-21 14:38:03"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -264,6 +979,171 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results As On 31St March 2025",
+            "news_body": "Audited Financial Results as on 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e31c720-c56f-4d44-92df-6ac7c01f3611.pdf",
+            "news_date": "2025-04-21 14:26:53"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Invitation of the conference call/Investor Meet scheduled on Tuesday 22nd April 2025 at 04.30 PM. (IST) to discuss the Q4FY25 performance of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7467844a-64bd-4aed-8cc8-2688f41fead0.pdf",
+            "news_date": "2025-04-16 16:30:16"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e80bd658-585f-434c-9e32-f99b4dedc10f.pdf",
+            "news_date": "2025-04-15 16:00:33"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Audited Financial Results For Quarter Ended On 31St March 2025 Recommendation Of Dividend If Any And To Consider A Proposal Of Issue Of Bonus Equity Shares",
+            "news_body": "Shilchar Technologies Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 21/04/2025 inter alia to consider and approve a) to consider and approve the Audited Financial Results of the Company for the quarter and financial year ended on 31st March 2025 along with the Auditors Report thereon; \r\n\r\nb) to consider and recommend the final dividend if any on the Equity Shares of the Company for the financial year ended on 31st March 2025;\r\n\r\nc) to fix the date time and mode of conducting the 39th Annual General Meeting of the Company andapprove the draft notice of the ensuing Annual General Meeting thereof;\r\n\r\nd) To consider a proposal for issue of Bonus Equity Shares to the Equity Shareholders of the Company and to recommend for further approval of Shareholders in that respect; and \r\n\r\ne)  to transact other businesses as per agenda of the meeting.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fad9964-2a07-4b1b-8b5f-ba19f5439a43.pdf",
+            "news_date": "2025-04-15 15:55:24"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Disclosure w.r.t Appointment of Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=274b3b2a-1edd-434d-8db1-7d43b46ddd7b.pdf",
+            "news_date": "2025-04-07 15:14:20"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Alteration of Clause V of Memorandum of Association of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d3ff98b-7337-4f87-943c-5da3907409b1.pdf",
+            "news_date": "2025-04-07 15:11:33"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74 (5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1bf26ac-6db2-4030-9115-3b59db17b624.pdf",
+            "news_date": "2025-04-04 15:29:53"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Cessation of Ms. Reshma Suresh Patel as an Independent Director of the Company with effect from 27th March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48fecbf4-9d3d-4958-8e0b-2fb7d5a9f6a5.pdf",
+            "news_date": "2025-04-01 12:07:00"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "Appointment of Ms. Vishnupriya Civichan as Company Secretary and Compliance Officer of the Company with effect from 01st April 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9cc5864-66b0-4a40-8bf4-77056173d821.pdf",
+            "news_date": "2025-04-01 12:03:46"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for quarter and year ending 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=349858ce-da95-49f7-a6a6-697e0ea3d604.pdf",
+            "news_date": "2025-03-26 14:43:35"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Remote E voting and Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d16864a9-fd13-452f-881b-119f83ec87df.pdf",
+            "news_date": "2025-03-15 16:43:32"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Company Secretary / Compliance Officer",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Company Secretary / Compliance Officer",
+            "news_body": "We wish to inform that Mrs. Mauli Mehta (ACS 39773) has conveyed to resign from the post of company secretary and compliance officer of the company w.e.f closure of business hours on saturday 01.03.2025 due to her personal reason.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8be5419-38cb-4479-9096-2a34c8e65b36.pdf",
+            "news_date": "2025-02-26 16:59:20"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Notice of Postal Ballot 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee217d0e-1e16-408a-9cde-b6f763aa9ef0.pdf",
+            "news_date": "2025-02-11 12:25:24"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Update For Postal Ballot Notice",
+            "news_body": "Please find the enclosed herewith copy of the Postal ballot notice dated 4th February 2025 to seek approval of shareholders.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad3e31cd-6985-40fa-ac84-da9f0682ec04.pdf",
+            "news_date": "2025-02-05 14:31:00"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of  unaudited financial result  for quarter ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f447f2d1-d758-4091-8846-f0d57cbf93d2.pdf",
+            "news_date": "2025-02-01 12:43:32"
         },
         {
             "sym": "SHILCTECH",
@@ -290,6 +1170,28 @@
             "seg": "E"
         },
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find the enclosed herewith the copy of Investor Presentation for the 3rd Quarter and nine month ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=992bb31d-8c2e-4d5d-af38-2603e333f50e.pdf",
+            "news_date": "2025-01-31 17:53:04"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial) for the quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34c52097-42fb-494d-86fd-2bbfe6f82be0.pdf",
+            "news_date": "2025-01-30 17:47:39"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -312,6 +1214,94 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results Of The Company For The Quarter And Nine Months Ended December 31 2024.",
+            "news_body": "Unaudited Financial Result for the Quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=573b8394-11cc-4864-b134-3abbea434366.pdf",
+            "news_date": "2025-01-30 17:43:24"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Meeting Outcome For Outcome Of The Board Meeting Held On January 30 2025",
+            "news_body": "We wish to inform you that pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 the Board of Directors at their meeting held today i.e January 30 2025 have inter alia Considered and approved businesses attached herewith",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ef026be-efaa-4e2f-8365-31eaa5ff6cb5.pdf",
+            "news_date": "2025-01-30 17:39:00"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Approval Of Unaudited Financial Result For Quarter And Nine Month Ended On 31St December 2024.",
+            "news_body": "SHILCHAR TECHNOLOGIES LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/01/2025 inter alia to consider and approve Unaudited Financial Results of the Company for the Quarter and nine month ended on 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=703d5e5c-1bca-4c45-87d0-fb888854b633.pdf",
+            "news_date": "2025-01-27 11:09:44"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "With reference to above subject we are enclosing confirmation certificate dated 3rd January 2025 received from RTA MCS Share Transfer  Agent Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a7d60e5-05e9-4826-b0f2-5f79f3287a4a.pdf",
+            "news_date": "2025-01-08 11:31:15"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "We wish to inform you that CareEdge a credit rating agency has assigned its rating for bank facilities of the Company. A copy of rating letter is enclosed herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e513b47-e592-4d61-9c3c-9dde3c7c7ff3.pdf",
+            "news_date": "2024-12-28 10:01:22"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Notice of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a356c60d-6344-4221-81f3-2a1cb1a30a72.pdf",
+            "news_date": "2024-12-27 09:48:54"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Please find the attached details of shareholder from whom application received on 28.11.2024 for issue of duplicate share certificate in lieu of lost/misplaced. Our R& T Agent, MCS Share transfer agent ltd, Vadodara is verifying the documents. This is for your kind information please.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12515aec-dc36-46dd-a595-12d7bc80db6b.pdf",
+            "news_date": "2024-11-28 15:39:55"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Meet with Institutional Investors/Fund Managers scheduled on 14th November, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0665417b-12c9-41b6-9516-6ce84376b431.pdf",
+            "news_date": "2024-11-08 13:23:45"
         },
         {
             "sym": "SHILCTECH",
@@ -338,6 +1328,17 @@
             "seg": "E"
         },
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find the enclosed transcript of the conference call with the investor/analyst held on 25th October 2024 on the Q2 HFY of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3b52609-fbcb-47f3-94b7-8f3097ee1578.pdf",
+            "news_date": "2024-10-28 11:17:59"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -360,6 +1361,17 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "New and Revised Audio/Video recording of Conference Call on Investor Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9725a9c1-31f7-4a18-8ae1-bf5d745cdd84.pdf",
+            "news_date": "2024-10-26 16:10:49"
         },
         {
             "sym": "SHILCTECH",
@@ -386,6 +1398,28 @@
             "seg": "E"
         },
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Revised Audio/Video recording of Conference Call on Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b86eac98-2a8b-4a7a-a318-d59848f56402.pdf",
+            "news_date": "2024-10-26 13:49:17"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Unaudited financial results for quarter ended on 30th September 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a1de637-d53c-478d-978e-6d72f323dfea.pdf",
+            "news_date": "2024-10-26 10:40:01"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -408,6 +1442,17 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio/Video recording of Conference Call Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acf45cdf-2b36-420f-bbc4-8684b361b542.pdf",
+            "news_date": "2024-10-26 09:06:52"
         },
         {
             "sym": "SHILCTECH",
@@ -434,6 +1479,17 @@
             "seg": "E"
         },
         {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Quarter and half year ended on 30th September 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1596b0a-1174-4679-9d85-fd49e8bc54fe.pdf",
+            "news_date": "2024-10-24 16:55:32"
+        },
+        {
             "sym": "SHILCTECH",
             "disp": "Shilchar Technologies",
             "bse_code": 531201,
@@ -456,6 +1512,50 @@
             "sid": 759847,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Second Quarter And Half Year Ended On 30.09.2024",
+            "news_body": "Unaudited Result for the Second Quarter and Half year ended on 30.09.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da0c6107-539e-463a-a8ca-81120f3509ef.pdf",
+            "news_date": "2024-10-24 16:45:11"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results For The Second Quarter And Half Year Ended On 30.09.2024",
+            "news_body": "we would like to inform you that the Board of Directors of the Company at its meeting held on Thursday, 24th October, 2024 of the Company considered and approved the  Unaudited Financial Results for the Second Quarter and Half year ended on 30.09.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d537378-887b-452d-8546-868a7bed862e.pdf",
+            "news_date": "2024-10-24 16:40:44"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed invitation of the conference call/Investor Meet scheduled on Friday, October 25th, 2024, at 04.00 PM. (IST) to discuss theQ2 & H1FY25 performance of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06ce0e6b-b29f-4c91-a49b-4625fe2493c5.pdf",
+            "news_date": "2024-10-21 12:12:02"
+        },
+        {
+            "co_code": 6082,
+            "bse_code": 531201,
+            "isin": "INE024F01011",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarter And Half Year Ended On 30Th September 2024.",
+            "news_body": "SHILCHAR TECHNOLOGIES LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/10/2024 ,inter alia, to consider and approve Notice is hereby given that the Meeting of the Board of Directors of the Company will be held on Thursday, 24th October, 2024 to consider and approve the Unaudited Financial Results of the Company for the Quarter and half year ended on 30th September 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3abfb2d0-60a3-4fef-97b3-6436f1c1d215.pdf",
+            "news_date": "2024-10-17 11:27:07"
         },
         {
             "sym": "SHILCTECH",
@@ -1009,6 +2109,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

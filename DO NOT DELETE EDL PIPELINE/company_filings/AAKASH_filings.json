@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 72253,
+            "bse_code": 0,
+            "isin": "INE087Z01024",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Aakash Exploration Services Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/AAKASH_06012026183440_Regulation74_31122025_Signed.pdf",
+            "news_date": "2026-01-06 00:00:00"
+        },
+        {
+            "co_code": 72253,
+            "bse_code": 0,
+            "isin": "INE087Z01024",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Aakash Exploration Services Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/AAKASH_27122025120400_Closure_of_Trading_Window_31122025_Signed.pdf",
+            "news_date": "2025-12-27 00:00:00"
+        },
+        {
+            "co_code": 72253,
+            "bse_code": 0,
+            "isin": "INE087Z01024",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "Aakash Exploration Services Limited has informed the Exchange about Copy of Newspaper Publication - Un-audited Financial Results of the Company for the Quarter and half year ended September 30, 2025",
+            "file_url": "https://nsearchives.nseindia.com/corporate/AAKASH_07112025160504_NewspaperAD_30092025_Signed.pdf",
+            "news_date": "2025-11-07 00:00:00"
+        },
+        {
             "sym": "AAKASH",
             "disp": "Aakash Exploration Services",
             "bse_code": 0,
@@ -48,7 +81,50 @@
             "sid": 235,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72253,
+            "bse_code": 0,
+            "isin": "INE087Z01024",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Aakash Exploration Services Limited has submitted to the Exchange, the financial results for the period ended September 30, 2025.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/AAKASH_06112025161149_AAKASH_Board_Meeting_Outcome_06112025.pdf",
+            "news_date": "2025-11-06 00:00:00"
+        },
+        {
+            "co_code": 72253,
+            "bse_code": 0,
+            "isin": "INE087Z01024",
+            "ann_type": "Integrated Filing- Financial",
+            "descriptor": "Integrated Filing- Financial",
+            "caption": "Integrated Filing- Financial",
+            "news_body": "Unaudited Financial Result for the quarter and half year ended 30 September 2025",
+            "file_url": "https://nsearchives.nseindia.com/corporate/AAKASH_06112025160850_AAKASH_Board_Meeting_Outcome_06112025.pdf",
+            "news_date": "2025-11-06 00:00:00"
+        },
+        {
+            "co_code": 72253,
+            "bse_code": 0,
+            "isin": "INE087Z01024",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Aakash Exploration Services Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/AAKASH_08102025125859_Reg_74_30092025_Signed.pdf",
+            "news_date": "2025-10-08 00:00:00"
+        },
+        {
+            "co_code": 72253,
+            "bse_code": 0,
+            "isin": "INE087Z01024",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Aakash Exploration Services Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/AAKASH_25092025163830_Closure_of_Trading_Window_30092025_Signed.pdf",
+            "news_date": "2025-09-25 00:00:00"
         }
-    ],
-    "remarks": ""
+    ]
 }

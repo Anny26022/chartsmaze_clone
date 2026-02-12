@@ -2,6 +2,50 @@
     "code": 0,
     "data": [
         {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Resignation",
+            "descriptor": "Resignation",
+            "caption": "Resignation",
+            "news_body": "Priti International Limited has informed the Exchange regarding Resignation of Mrs LEELA LOHIYA as Non- Executive Director of the company w.e.f. January 15, 2026.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/PRITI_16012026174124_BM_OUTCOME.pdf",
+            "news_date": "2026-01-16 00:00:00"
+        },
+        {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Priti International Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/PRITI_14012026162052_REG74_5__.pdf",
+            "news_date": "2026-01-14 00:00:00"
+        },
+        {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Priti International Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/PRITI_26122025165156_Intimation_Trading_Window_SIGNED.pdf",
+            "news_date": "2025-12-26 00:00:00"
+        },
+        {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "Priti International Limited has informed the Exchange about Copy of Newspaper Publication",
+            "file_url": "https://nsearchives.nseindia.com/corporate/PRITI_15112025154614_Reg_47.pdf",
+            "news_date": "2025-11-15 00:00:00"
+        },
+        {
             "sym": "PRITI",
             "disp": "Priti International",
             "bse_code": 0,
@@ -24,7 +68,72 @@
             "sid": 8304,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Priti International Limited has submitted to the Exchange, the financial results for the period ended September 30, 2025.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/PRITI_14112025163926_BM_OUTCOME.pdf",
+            "news_date": "2025-11-14 00:00:00"
+        },
+        {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Priti International Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "-",
+            "news_date": "2025-10-15 00:00:00"
+        },
+        {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Shareholders meeting",
+            "descriptor": "Shareholders meeting",
+            "caption": "Shareholders meeting",
+            "news_body": "Priti International Limited has informed the Exchange with copy of minutes of  Annual General Meeting held on September 26, 2025",
+            "file_url": "https://nsearchives.nseindia.com/corporate/PRITI_09102025212612_AGM_MINUTES_.pdf",
+            "news_date": "2025-10-09 00:00:00"
+        },
+        {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Shareholders meeting",
+            "descriptor": "Shareholders meeting",
+            "caption": "Shareholders meeting",
+            "news_body": "Priti International Limited has submitted the Exchange a copy Srutinizers report of  Annual General Meeting held on September 26, 2025. Further, the company has informed the Exchange regarding voting results.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/PRITI_27092025171207_REG_44_.pdf",
+            "news_date": "2025-09-27 00:00:00"
+        },
+        {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Priti International Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/PRITI_26092025191447_Intimation_Trading_Window_1.pdf",
+            "news_date": "2025-09-26 00:00:00"
+        },
+        {
+            "co_code": 72121,
+            "bse_code": 0,
+            "isin": "INE974Z01015",
+            "ann_type": "Shareholders meeting",
+            "descriptor": "Shareholders meeting",
+            "caption": "Shareholders meeting",
+            "news_body": "Priti International Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on September 26, 2025",
+            "file_url": "https://nsearchives.nseindia.com/corporate/PRITI_26092025192220_AGM_Proceedings_1.pdf",
+            "news_date": "2025-09-26 00:00:00"
         }
-    ],
-    "remarks": ""
+    ]
 }

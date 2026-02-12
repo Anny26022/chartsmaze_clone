@@ -2,6 +2,105 @@
     "code": 0,
     "data": [
         {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance intimation of upcoming Analyst or institutional investor interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78da3ee3-509a-4b1f-8cf1-ae3ffb2be1ba.pdf",
+            "news_date": "2026-02-12 16:19:59"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Investor Presentation- Analyst day",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf69b9f5-1bfb-448e-8e17-041c6447322c.pdf",
+            "news_date": "2026-02-05 20:23:56"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Investor Presentation- Analyst day",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43d427c3-345f-4c55-b480-56022ccdcff8.pdf",
+            "news_date": "2026-02-05 20:22:35"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance intimation of upcoming Analyst call or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89c6632b-eac4-4eb3-93da-024fd64c2fc9.pdf",
+            "news_date": "2026-02-03 17:11:43"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release titled- Shareholders Re-appoint Mr. Anuj Kumar as Managing Director for a further Five Year Term w.e.f August 1st2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d99a5430-3322-487c-8ec7-b3ce52892895.pdf",
+            "news_date": "2026-02-02 11:31:49"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot along with the Voting Results and Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28b3d813-1c0a-46e3-a757-7e3781fcea2c.pdf",
+            "news_date": "2026-01-29 14:56:09"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Postal Ballot",
+            "caption": "Postal Ballot Notice",
+            "news_body": "Extension of e-voting period",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48db8c89-0df7-4912-9f9c-55aea2049fb2.pdf",
+            "news_date": "2026-01-27 17:58:43"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Q3 FY 25-26 Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8297d698-6ef7-4df4-9df1-27bd615e7826.pdf",
+            "news_date": "2026-01-27 16:16:25"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of the Unaudited financial statements (Standalone and Consolidated) for the quarter ended December 312025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47759d00-95f6-4251-a35f-ec058f43170a.pdf",
+            "news_date": "2026-01-27 11:17:46"
+        },
+        {
             "sym": "CAMS",
             "disp": "CAMS",
             "bse_code": 543232,
@@ -24,6 +123,28 @@
             "sid": 342,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recordings of Investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c2dd884-7b08-4e43-b21e-ea1e4100e5b2.pdf",
+            "news_date": "2026-01-23 17:09:36"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Upcoming Analyst or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=582202e8-5e68-40fa-9a1b-b999e4a9e86a.pdf",
+            "news_date": "2026-01-22 18:06:28"
         },
         {
             "sym": "CAMS",
@@ -50,6 +171,17 @@
             "seg": "E"
         },
         {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation on Unaudited Standalone and Consolidated Financial Results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93e41f40-9b8d-464d-a745-937f5dee1568.pdf",
+            "news_date": "2026-01-22 17:41:00"
+        },
+        {
             "sym": "CAMS",
             "disp": "CAMS",
             "bse_code": 543232,
@@ -72,6 +204,50 @@
             "sid": 342,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation on Unaudited Standalone and Consolidated Financial Results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8d1f628-8827-45f4-84ec-244be462cf63.pdf",
+            "news_date": "2026-01-22 16:30:59"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Unaudited Standalone and Consolidated Financial Results for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac4fa901-fa60-4f17-a4af-9612c88f4108.pdf",
+            "news_date": "2026-01-22 15:57:57"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Approval of interim dividend by the Board",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6de3f3de-766b-4926-8406-b2f40a5f874c.pdf",
+            "news_date": "2026-01-22 13:05:29"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date",
+            "news_body": "Intimation of record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=081a795a-28ce-4ac0-af5f-208fb4de2b1c.pdf",
+            "news_date": "2026-01-22 13:03:30"
         },
         {
             "sym": "CAMS",
@@ -98,6 +274,369 @@
             "seg": "E"
         },
         {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "\r\nFinancial Results For The Quarter Ended 31St December 2025\r\n",
+            "news_body": "Financial results for the quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d23cd1d0-6e1c-4b33-b98e-38fd8424608f.pdf",
+            "news_date": "2026-01-22 12:52:50"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7dfcc67-c783-4fdc-b762-743c3fc65602.pdf",
+            "news_date": "2026-01-22 12:43:27"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst Day scheduled on 05th February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8c7d4e2-e926-453e-a340-5c325f8cce68.pdf",
+            "news_date": "2026-01-20 12:56:34"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Revised Public Notice on transfer of payment aggregator business",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1df5d78b-8e48-4e40-af59-cff48bb23819.pdf",
+            "news_date": "2026-01-16 15:59:18"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of equity shares pursuant to Employee Stock Option Scheme",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc8bb32e-b680-4d57-ad97-bc8d9df8ac6c.pdf",
+            "news_date": "2026-01-07 16:43:13"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14261e9e-ff1b-4d00-a8eb-e378f645a37a.pdf",
+            "news_date": "2026-01-07 11:55:13"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Intimation of Press Release \"CAMSKRA enhances market standing after completion of NSEDAL KRA migration\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a98b76e-ccfd-4227-8427-f9854fa4944c.pdf",
+            "news_date": "2026-01-06 12:10:11"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Intimation on completion of acquisition of the business of KYC Registration agency from NSE Data & Analytics limited by CAMS KRA a Wholly Owned subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59272263-c6aa-43e7-aa03-daa1caba3734.pdf",
+            "news_date": "2026-01-06 10:07:19"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication dated 30th December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5588c128-a6a0-4f8d-9284-99034132760c.pdf",
+            "news_date": "2025-12-30 16:44:07"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cc75d69-0217-4359-8d52-5da92e70c977.pdf",
+            "news_date": "2025-12-29 12:05:23"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Call Q3 FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f03bf524-a022-4f4d-ac3d-1720c41c0836.pdf",
+            "news_date": "2025-12-23 11:53:41"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Declaration Of Financial Results For The Quarter Ended December 31 2025 And Interim Dividend",
+            "news_body": "Computer Age Management Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/01/2026 inter alia to consider and approve Financial Results for the quarter ended December 31 2025 and Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=715159ff-9b81-4f8b-824c-de29f9377114.pdf",
+            "news_date": "2025-12-23 11:28:23"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation about Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=224c8b76-dfa9-4b7b-8f33-31caf66ef9f3.pdf",
+            "news_date": "2025-12-23 11:25:29"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Mr. Anuj Kumar Managing Director of the Company for a period of 5 years w.e.f 01.08.2026 to 31.07.2031",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f80f278-e43f-40e3-991c-2418ba2f3ec7.pdf",
+            "news_date": "2025-12-22 13:35:02"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50718f8b-2271-49cc-8e28-9cd41769e30d.pdf",
+            "news_date": "2025-12-22 13:29:47"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of upcoming Analyst or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c35086c-6bfd-4922-9b71-c7c2248ff59b.pdf",
+            "news_date": "2025-12-19 18:07:14"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)",
+            "news_body": "Execution of the Business Transfer Agreement dated December 17 2025 between the Company and its Wholly Owned Subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=864408d0-0e7c-4e07-9717-f5e098213ce9.pdf",
+            "news_date": "2025-12-17 18:04:31"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of upcoming Analyst or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=737d9ca5-0679-4da6-a188-d5eebf85bac1.pdf",
+            "news_date": "2025-12-15 18:50:06"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of upcoming Analyst or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01c24071-3471-4f8b-909e-e3da3d667995.pdf",
+            "news_date": "2025-12-15 18:17:27"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper publication dated December 9 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9849f703-dc53-4a87-b24f-cb1256b69487.pdf",
+            "news_date": "2025-12-09 18:42:36"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of upcoming Analyst or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e421bb0-867d-45d8-9843-8e8c603d413c.pdf",
+            "news_date": "2025-12-08 17:59:11"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Sub-division / Stock Split",
+            "caption": "Corporate Action-Intimation of Sub division / Stock Split",
+            "news_body": "05th December 2025 has been fixed as the Record date for Subdivision/ split of equity shares of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83994f5a-006f-4ef4-8b50-de6262419440.pdf",
+            "news_date": "2025-11-18 16:14:23"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date For Subdivision / Split Of Equity Shares Of The Company",
+            "news_body": "The Company has fixed 05th December 2025 as the record date for subdivision/ split of equity shares of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a94f330b-63be-4c6a-908c-714de3356869.pdf",
+            "news_date": "2025-11-18 16:09:30"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of the shareholders resolution passed by the shareholders by way of postal ballot on 15th November 2025 along with the voting results and scrutinizers report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=452f56f7-b06d-441e-8892-971c69b9b127.pdf",
+            "news_date": "2025-11-17 18:19:52"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Technology and AI innovations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98354569-f571-4345-87d3-0ac73c561c71.pdf",
+            "news_date": "2025-11-12 13:19:01"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of upcoming Analyst or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1279dc15-c118-46e0-82b7-0af1120755e9.pdf",
+            "news_date": "2025-11-11 17:40:34"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of upcoming Analyst or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4edc16a5-b34c-4ebd-a5f5-ca3dce68014a.pdf",
+            "news_date": "2025-11-06 16:38:46"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release titled CAMSRep Unveils Bima Central Administrator at IIA 2025: Enhancing Insurers and brokers ability to participate in eIA customer servicing experience dated November 032025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=460cb367-df2f-441a-8bdd-93de01bf6bff.pdf",
+            "news_date": "2025-11-03 17:50:29"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance intimation of Analyst call with Cusana Capital",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=633ea8a4-498c-4120-a977-29d9f8ea24de.pdf",
+            "news_date": "2025-10-31 17:27:41"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f778e677-89fa-417f-b363-048c2329bb73.pdf",
+            "news_date": "2025-10-31 17:08:05"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings call recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30ac7875-2d8d-4f34-befd-127990da06a1.pdf",
+            "news_date": "2025-10-29 17:53:06"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of the unaudited financial statements (Standalone and Consolidated) for the quarter and half-year ended September 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a8259ec-da33-4fe7-ba67-12f52f2ec316.pdf",
+            "news_date": "2025-10-29 14:37:55"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance intimation of Analyst call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcce3c6b-d4b8-4f70-b3c3-63e4a2dbc9a9.pdf",
+            "news_date": "2025-10-29 11:12:53"
+        },
+        {
             "sym": "CAMS",
             "disp": "CAMS",
             "bse_code": 543232,
@@ -120,6 +659,50 @@
             "sid": 342,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation for the unaudited financial statements for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01edf41c-0e66-4430-a433-ef5b85e0f252.pdf",
+            "news_date": "2025-10-28 21:17:27"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Intimation of Record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6180ef5a-21e7-4cf0-a3bf-0270af8a992f.pdf",
+            "news_date": "2025-10-28 21:14:43"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date For Dividend",
+            "news_body": "Intimation of Record date for Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa52d505-e907-4490-a80d-b5e75e27e976.pdf",
+            "news_date": "2025-10-28 21:13:43"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the Unaudited Financial Statements for the Quarter and Half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be8e6d42-bcfd-4ba9-ba87-32481785a946.pdf",
+            "news_date": "2025-10-28 21:10:20"
         },
         {
             "sym": "CAMS",
@@ -146,6 +729,325 @@
             "seg": "E"
         },
         {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Financial Results for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0da7aad7-39c6-49fb-8c2e-cd19051b8f33.pdf",
+            "news_date": "2025-10-28 21:01:50"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78f0245b-da96-450e-8178-e3496bc90f52.pdf",
+            "news_date": "2025-10-28 20:47:14"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication dated 16th October 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=770870a1-0f30-48de-94bf-1db7ef914c47.pdf",
+            "news_date": "2025-10-16 15:23:53"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot notice dated October 15 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b64f076-c5e8-4188-aff9-fabd058f0f9c.pdf",
+            "news_date": "2025-10-15 11:39:33"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Sub Division / Stock Split",
+            "news_body": "Sub - division of 1 equity share of face value of Rs. 10 each fully paid up into 5 equity shares of face value of Rs. 2 each fully paid up",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93e6022c-509b-4a35-8372-3afe72fc5c11.pdf",
+            "news_date": "2025-10-10 18:52:13"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "New Product Launch By Payments Business",
+            "news_body": "Launch of UPI Offline Plus by CAMSPay",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da5ba60b-4c26-4e71-84d7-551998138c58.pdf",
+            "news_date": "2025-10-09 14:49:26"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Call Intimation for Q2 FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f59bc1-96b4-4a42-b802-0605f9cf362a.pdf",
+            "news_date": "2025-10-08 18:21:53"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting",
+            "news_body": "Computer Age Management Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/10/2025 inter alia to consider and approve Unaudited Financial Results for the quarter and half year ended 30th September 2025 and Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92b1985e-6b4b-459d-8fbc-5de565e5cdaa.pdf",
+            "news_date": "2025-10-07 15:55:24"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on introducing ConsenPro by Think360.ai: The Platform Powering Consent & DPDP Compliance across BFSI & Beyond",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3ac6509-6b4a-4c6d-a798-18c44ae07544.pdf",
+            "news_date": "2025-10-07 15:07:03"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations 2018 for the quarter ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ca51bb4-6cd6-41ae-a7db-e1fb075756c4.pdf",
+            "news_date": "2025-10-07 14:59:09"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of allotment of 33742 equity shares under CAMS ESOP Scheme 2019",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04f1a32e-f9bf-42ed-b0fe-176fd80785b3.pdf",
+            "news_date": "2025-10-03 18:34:08"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting Scheduled On 10Th October 2025",
+            "news_body": "Computer Age Management Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/10/2025 inter alia to consider and approve Intimation of Board meeting scheduled on 10th October 2025  for  consideration of sub-division of equity shares of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f07a5af-d58e-4a82-819b-031795fa4d0a.pdf",
+            "news_date": "2025-10-01 14:50:35"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6571c9b3-7d19-4036-aff9-14c29b4293c2.pdf",
+            "news_date": "2025-09-26 17:34:05"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Intimation of further investment in CAMS Financial Information Services Private Limited (CAMSFIS) a wholly owned subsidiary amounting to Rs. 4 Crores",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b39d6ba4-04fe-49b8-9be6-50d9c48cbba3.pdf",
+            "news_date": "2025-09-25 14:50:55"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance intimation of Analyst call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cacfe6d-3622-40d1-9652-2aea0f451c3d.pdf",
+            "news_date": "2025-09-19 15:03:58"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for FMR LLC & FIL Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=DFB1B740_9894_4D68_8A99_534F274CD9E1_180039.pdf",
+            "news_date": "2025-09-15 18:00:42"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of the Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39d66f20-b970-40cb-810c-67a96d591e5e.pdf",
+            "news_date": "2025-09-10 17:48:14"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of upcoming Analyst or Institutional Investor Interaction",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d76fd5be-a123-4750-9847-970884ad5d09.pdf",
+            "news_date": "2025-09-08 14:07:22"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of upcoming Analyst or Institutional Investor Interactions with Arisaig Partners",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c7f4d4f-5871-4a67-abdf-c7b7a3f27e34.pdf",
+            "news_date": "2025-09-03 17:22:26"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation of resignation of Mr. Himanshu Naharas  as Executive Vice President and Officer on Special Duty w.e.f. 1st September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7928882-3f75-47ba-b55d-e751d3e3fe3a.pdf",
+            "news_date": "2025-09-01 19:14:23"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of upcoming Analyst or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f05c4b62-8901-42cc-9ad6-20a8aa5b9a8e.pdf",
+            "news_date": "2025-09-01 18:08:22"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance intimation of Analyst call or institutional investor interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64d6a3f2-0fb7-420b-92b6-38deba29cea7.pdf",
+            "news_date": "2025-08-28 14:06:14"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of allotment of 21618 equity shares pursuant to Employee Stock Option Scheme",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e9bfda9-6551-4d37-8f5e-c2ddb4f66611.pdf",
+            "news_date": "2025-08-25 18:26:03"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of Analyst meet with Franklin Templeton",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1db33c0-3907-4f67-a7ef-4417c8677504.pdf",
+            "news_date": "2025-08-22 18:04:08"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Business Update",
+            "news_body": "Intimation on receipt of No Objection Letter from RBI for transferring of online payment aggregator activities from the Company to CAMS Payment Services Private Limited wholly owned subsidiary of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b2ae20d-6de2-4dc2-93b6-a410899fc7c4.pdf",
+            "news_date": "2025-08-20 17:55:37"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance Intimation of upcoming Analyst or Institutional Investor Interactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b991f1e8-15d6-4ea8-b42d-cc4e769651fe.pdf",
+            "news_date": "2025-08-13 18:21:00"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance intimation of the Investor Meet\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0fa546b-7bf4-4c8f-86e3-6d05709e6ed5.pdf",
+            "news_date": "2025-08-11 14:58:44"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance intimation of the Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7402a31-242d-4a32-a75f-7abf6b450eaf.pdf",
+            "news_date": "2025-08-06 16:41:41"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "CAMS Unveils CAMSAi - Indias First Domain Trained AI Fabric for Capital Capital Markets & BFSI",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04147f7c-86b5-400a-a529-e06466b92b14.pdf",
+            "news_date": "2025-08-05 11:29:23"
+        },
+        {
             "sym": "CAMS",
             "disp": "CAMS",
             "bse_code": 543232,
@@ -168,6 +1070,50 @@
             "sid": 342,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa92a203-5174-4670-8dbd-ccbb40039170.pdf",
+            "news_date": "2025-08-04 18:19:06"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings Call Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f4307ae-69cb-44d9-9dee-5f4803ea6c75.pdf",
+            "news_date": "2025-07-31 19:13:33"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of the Unaudited Financial Statements (Standalone and Consolidated) for quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4951b97-82d3-46f6-83d4-8382ad817a91.pdf",
+            "news_date": "2025-07-31 17:09:17"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Advance intimation of Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e814bbd-8de6-46c4-b900-2156e096790a.pdf",
+            "news_date": "2025-07-31 17:00:04"
         },
         {
             "sym": "CAMS",
@@ -194,6 +1140,28 @@
             "seg": "E"
         },
         {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results (Standalone And Consolidated) For The Quarter Ended June 30 2025",
+            "news_body": "Unaudited Financial Results (Standalone and Consolidated) for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f90e03e-7c75-4481-9a90-21153cbb0a35.pdf",
+            "news_date": "2025-07-30 18:52:31"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Record date for the Interim Dividend of Rs. 11/- per equity share",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe4a1cbb-38d6-43ea-b2b3-52b20be2e776.pdf",
+            "news_date": "2025-07-30 18:35:57"
+        },
+        {
             "sym": "CAMS",
             "disp": "CAMS",
             "bse_code": 543232,
@@ -218,6 +1186,28 @@
             "seg": "E"
         },
         {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "The Company has submitted the Investor presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e173f312-00c4-4e7e-8f5e-a224d12c6a9d.pdf",
+            "news_date": "2025-07-30 18:10:58"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Unaudited Standalone and Consolidated Financial Statements for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5e288c9-7192-465e-bea7-aa2763f62e8c.pdf",
+            "news_date": "2025-07-30 18:00:24"
+        },
+        {
             "sym": "CAMS",
             "disp": "CAMS",
             "bse_code": 543232,
@@ -240,6 +1230,105 @@
             "sid": 342,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On July 30 2025",
+            "news_body": "Outcome of the Board meeting held on July 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96173096-a43a-47a0-ac51-62fe4db905be.pdf",
+            "news_date": "2025-07-30 17:44:35"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Acquisition of the business of KYC registration Agency (KRA) from NSE Data & Analytics Limited by CAMS KRA a wholly owned subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c18c6186-d866-4347-91a7-5fc694846d58.pdf",
+            "news_date": "2025-07-29 19:35:52"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Call Intimation for Q1 & FY25-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=262fbe9d-97c0-4a0b-a607-63da9141738e.pdf",
+            "news_date": "2025-07-10 17:59:37"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results along with the Scrutinizer Report of the 37th AGM held on 7th July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39330d06-9269-4406-9b2e-2cd2f06d32a1.pdf",
+            "news_date": "2025-07-09 12:50:00"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg 74(5) of SEBI DP Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c3ca836-8f02-4761-ad27-1fe888432b62.pdf",
+            "news_date": "2025-07-09 10:30:25"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "CAMS launches \"The CAMSPays New Payment Gateway\": A payment Gateway for tomorrows transactions Built for Todays changes",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b17d7d64-551a-4a0c-b183-6cc161039a20.pdf",
+            "news_date": "2025-07-08 16:05:36"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 37th AGM held on 07th July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ca7ab98-0bc4-4d52-a2b5-29fd20084873.pdf",
+            "news_date": "2025-07-07 19:46:39"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results And Interim Dividend",
+            "news_body": "Computer Age Management Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/07/2025 inter alia to consider and approve the Unaudited Financial results for the quarter ended 30th June 2025 along with the Limited Review report of the auditors thereon and the Interim Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0fa6d43-8ad4-459d-a302-2df65360649f.pdf",
+            "news_date": "2025-07-04 14:40:40"
+        },
+        {
+            "co_code": 47716,
+            "bse_code": 543232,
+            "isin": "INE596I01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of 34687 equity shares under CAMS ESOP Scheme 2019",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e21e4126-a7e3-4497-ae86-624e5c43e946.pdf",
+            "news_date": "2025-06-27 19:54:58"
         },
         {
             "sym": "CAMS",
@@ -1537,6 +2626,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about Participation in Conference and One-on-One Meeting with Analyst / Investor on 10.02.2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09d295cc-ac3e-4267-8787-7719a0dd199d.pdf",
+            "news_date": "2026-02-06 15:37:34"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Epigral Limited submits Press release titled \"Epigral Limited awarded EcoVadis Silver Medal\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a1f95d7-769b-47f6-9b76-c12b1c8e4d18.pdf",
+            "news_date": "2026-02-03 16:51:01"
+        },
+        {
             "sym": "EPIGRAL",
             "disp": "Epigral",
             "bse_code": 543332,
@@ -24,6 +46,28 @@
             "sid": 5382,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Epigral Limited submits Transcript of Conference Call held on Friday 30th January 2026 for Q3 FY26 - Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c1d0afb-68fa-4c29-8928-f5f40355858d.pdf",
+            "news_date": "2026-02-03 16:43:04"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Epigral Limited submit copy of Newspaper Publication pertaining to Un-Audited Financial Results - 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a05f6de7-5608-4fd8-a033-8167afd71107.pdf",
+            "news_date": "2026-01-31 12:10:03"
         },
         {
             "sym": "EPIGRAL",
@@ -50,6 +94,17 @@
             "seg": "E"
         },
         {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Epigral Limited submits Audio recording of Conference Call discussing Q3 FY26 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b242267-fc6f-40bb-8480-21dad2714177.pdf",
+            "news_date": "2026-01-31 10:36:41"
+        },
+        {
             "sym": "EPIGRAL",
             "disp": "Epigral",
             "bse_code": 543332,
@@ -72,6 +127,39 @@
             "sid": 5382,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Un-Audited Financial Results -Q3 FY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55c01c17-aca4-473b-a187-024eec3b6bd6.pdf",
+            "news_date": "2026-01-30 14:42:43"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Un-Audited Financial Results - Q3 FY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79507c1d-e691-4e86-ac59-7b363ab1dcb9.pdf",
+            "news_date": "2026-01-30 14:41:02"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On Friday 30Th January 2026 And Submission Of Un-Audited Financial Results (Standalone & Consolidated) For The Third Quarter And Nine Months Ended On 31St December 2025.",
+            "news_body": "Outcome of Board Meeting held on Friday 30th January 2026 and submission of Un-Audited Financial Results (Standalone & Consolidated) for the Third Quarter and Nine Months ended on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7167994a-bfd3-44eb-b5aa-4e78c7533c3d.pdf",
+            "news_date": "2026-01-30 14:32:52"
         },
         {
             "sym": "EPIGRAL",
@@ -98,6 +186,149 @@
             "seg": "E"
         },
         {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "UNAUDITED FINANCIAL RESULTS AS ON 31.12.2025.",
+            "news_body": "UNAUDITED FINANCIAL RESULTS AS ON 31.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72a2e104-f933-4878-b201-64528c00370f.pdf",
+            "news_date": "2026-01-30 14:31:29"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Company is having Conference call to discuss the Q3FY26 results on Friday 30th January 2026 at 05:00 p.m. (IST).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=343641b6-4568-4cf2-8b91-72b59e6f743d.pdf",
+            "news_date": "2026-01-23 13:05:37"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approval Of Un-Audited Financial Results (Standalone & Consolidated) Of The Company For The Third\r\nQuarter And Nine Months Ended On 31St December 2025.",
+            "news_body": "Epigral Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/01/2026 inter alia to consider and approve Un-audited Financial Results (Standalone & Consolidated) of the Company for the Third Quarter and Nine Months ended on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abd01994-5042-4a83-88a9-7364137659e5.pdf",
+            "news_date": "2026-01-20 12:50:59"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about One-on-One Meeting through V.C. with Investor / Analyst on 16th January 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89dc6d24-58b2-4f6a-92cc-842db89e1764.pdf",
+            "news_date": "2026-01-15 09:22:51"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about One-on-One Meeting through V.C. with Investor / Analyst on 13th January 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=377b55ec-4002-42b9-9d7f-35047e858ba2.pdf",
+            "news_date": "2026-01-12 15:10:44"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Epigral Limited submits Certificate under Reg. 74(5) of SEBI (DP) Regulations for the quarter ended 31.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b29265b-4e07-45a8-943d-27e17217e58f.pdf",
+            "news_date": "2026-01-07 18:19:52"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Intimation for receipt of Order from Income Tax Department.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9eacb50-5901-423e-9e60-9caacc6ac5ae.pdf",
+            "news_date": "2026-01-01 16:23:45"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Notice of closure of Trading Window w.e.f. 1st January 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a380b8b-e483-4dfe-b214-609503dab530.pdf",
+            "news_date": "2025-12-26 15:39:45"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about One-on-One Meeting through V.C. with Investor / Analyst on 23rd December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f032efa-ceb1-43ee-9a4e-e06e49684303.pdf",
+            "news_date": "2025-12-22 17:56:45"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about One-on-One Meeting through V.C. with Investor / Analyst on 1st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36a2fc5d-2fea-4fdf-bbae-4fd03c8571cf.pdf",
+            "news_date": "2025-11-28 14:36:34"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about One-on-One Meeting through V.C. with Investor / Analyst on 1st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=265f16f4-853f-499b-9544-941d7c151da1.pdf",
+            "news_date": "2025-11-26 18:07:17"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about One-on-One Meeting with Investor / Analyst on 25.11.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3701a89-70f4-4c4e-8986-80c1eb9b6566.pdf",
+            "news_date": "2025-11-21 11:12:13"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about Participation in Conference on 19th November 2025 and 20th November 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32967746-dbcc-409e-88ec-849c915843b0.pdf",
+            "news_date": "2025-11-17 10:27:23"
+        },
+        {
             "sym": "EPIGRAL",
             "disp": "Epigral",
             "bse_code": 543332,
@@ -120,6 +351,28 @@
             "sid": 5382,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Epigral Limited submits Transcript of Conference Call held on Monday 10th November 2025 for Q2 FY26 - Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d4bfe86-8eef-4312-b037-eeb54acaf6da.pdf",
+            "news_date": "2025-11-13 18:08:29"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Epigral Limited submits copy of Newspaper Publication pertaining to Un-Audited Financial Results - 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c525ee73-9a5e-4812-8b96-09c400fb9172.pdf",
+            "news_date": "2025-11-12 10:51:13"
         },
         {
             "sym": "EPIGRAL",
@@ -146,6 +399,17 @@
             "seg": "E"
         },
         {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Epigral Limited submits Audio Recording of Conference Call discussing Q2 FY2026 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a57b2e3-2f88-468f-8d25-e43fceac28af.pdf",
+            "news_date": "2025-11-10 21:22:46"
+        },
+        {
             "sym": "EPIGRAL",
             "disp": "Epigral",
             "bse_code": 543332,
@@ -168,6 +432,28 @@
             "sid": 5382,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "UNAUDITED FINANCIAL RESULTS AS ON 30.09.2025.",
+            "news_body": "UNAUDITED FINANCIAL RESULTS AS ON 30.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77b74d2b-0407-4d3c-9768-55270c9deaea.pdf",
+            "news_date": "2025-11-10 13:46:29"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Rakesh Agrawal as a Chief Financial Officer and Key Managerial Personnel of the Company w.e.f. 10.11.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0560d753-ba64-40f1-9c5b-49a51ccd313d.pdf",
+            "news_date": "2025-11-10 13:42:53"
         },
         {
             "sym": "EPIGRAL",
@@ -194,6 +480,182 @@
             "seg": "E"
         },
         {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Un-Audited Financial Results - Q2 FY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18344d32-d3f2-4fe7-85ab-d1b8acb112cd.pdf",
+            "news_date": "2025-11-10 13:37:29"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Un-Audited Financial Results Q2-FY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef319be0-ca46-4b91-9894-ffbba3e884c4.pdf",
+            "news_date": "2025-11-10 13:35:02"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On Monday 10Th November 2025 And Submission Of Un-Audited Financial Results (Standalone & Consolidated) For The Second Quarter And Half Year Ended On 30Th September 2025.",
+            "news_body": "1. Approved Un-Audited (Standalone & Consolidated) Financial Results of the Company for the\r\nSecond Quarter and Half Year ended on 30th September 2025; and took on record Limited Review\r\nReport thereon issued by M/s. S R B C & CO LLP Statutory Auditors of the Company.\r\n\r\n2. Appointment of Mr. Rakesh Agrawal as a Chief Financial Officer and Key Managerial Personnel of\r\nthe Company with effect from 10th November 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff4686f2-3633-42c9-9f68-eb59aa6b5661.pdf",
+            "news_date": "2025-11-10 13:22:21"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about Participation in Anand Rathi Annual Flagship Conference G-200 Summit on 12.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea185f22-d225-47f4-8852-48a0900f42a7.pdf",
+            "news_date": "2025-11-08 14:52:03"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about Conference Call on Monday 10th November 2025 to discuss Q2 FY26 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b233690-480e-400f-9eca-e2960f9075e3.pdf",
+            "news_date": "2025-11-05 18:08:36"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Un-Audited Financial Results (Standalone & Consolidated) Of The Company For The Second Quarter And Half Year Ended On 30Th September 2025.",
+            "news_body": "Epigral Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/11/2025 inter alia to consider and approve Un-audited Financial Results (Standalone & Consolidated) of the Company for the Second Quarter and Half Year ended on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e88ab5f-04e0-4b5c-8b43-f75ba59def02.pdf",
+            "news_date": "2025-11-04 11:24:21"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "CERTIFICATE U/R 74(5) OF SEBI (DP) REGULATIONS.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f49aa97f-8064-40f4-ae6d-97af527b05a6.pdf",
+            "news_date": "2025-10-13 13:49:23"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Notice of closure of Trading Window w.e.f. 01.10.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d2c438d-b3f3-4878-9fbd-df7cea145b81.pdf",
+            "news_date": "2025-09-27 11:21:23"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about One-on-One Meeting through V.C. with Investors / Analysts on 26.09.2025 27.09.2025 and 30.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a0434e0-770a-4849-ace3-f99ab190305a.pdf",
+            "news_date": "2025-09-25 17:21:31"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited hereby informs that the Company is having One-on-One Meeting through V.C.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0fee4b4-7031-45b6-b4f4-6ed54ef2a98d.pdf",
+            "news_date": "2025-09-12 17:27:56"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Financial Officer (CFO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Financial Officer (CFO)",
+            "news_body": "Epigral Limited submits disclosure under Reg. 30 of SEBI Listing Regulations - Resignation of Chief Financial Officer.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89d78847-e9e8-4e92-9600-e4b1a702faae.pdf",
+            "news_date": "2025-09-03 17:47:23"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited (the Company) hereby informs that the Company is having Plant Visit on 02.09.2025 and On-on-One Meeting on 03.09.2025 with Investor / Analyst.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44c50cfb-90e8-4b9b-b82f-0c1ca8dab697.pdf",
+            "news_date": "2025-08-28 17:47:27"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about One-on-One Meeting with Investors / Analysts on 21st August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13a3eab4-5777-4a90-915b-bb2ae46320ef.pdf",
+            "news_date": "2025-08-19 18:46:10"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited hereby informs that the Company is having One on One Meeting through V.C.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93e673bd-6cfa-4032-a81d-4ad33d4b75b4.pdf",
+            "news_date": "2025-08-19 10:10:01"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited submits Intimation of Participation in Conference \"Emkay Confluence - India Ascending: The Next Leap\" on 12th August 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de039976-c826-48c4-b04c-55e36929ea30.pdf",
+            "news_date": "2025-08-06 16:25:22"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited submits Intimation of One on One Meeting through V.C. on 8th August 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3debdb44-df45-4bdd-9697-4f1056b74de3.pdf",
+            "news_date": "2025-08-06 16:22:52"
+        },
+        {
             "sym": "EPIGRAL",
             "disp": "Epigral",
             "bse_code": 543332,
@@ -216,6 +678,28 @@
             "sid": 5382,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Epigral Limited submits Transcript of Conference Call held on Monday 4th August 2025 for Q1 FY 26 - Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4a83fdd-36c8-405d-9bd3-c13f3e9866af.pdf",
+            "news_date": "2025-08-06 16:20:44"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Epigral Limited submits Newspaper Publication - Un-Audited Financial Results for the First Quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=211c18e7-74f7-44c8-bcc6-2f18de265308.pdf",
+            "news_date": "2025-08-04 18:36:47"
         },
         {
             "sym": "EPIGRAL",
@@ -242,6 +726,39 @@
             "seg": "E"
         },
         {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Epigral Limited submits Audio Recording of Conference Call discussing Q1 FY2026 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b11b3c6-67e7-4039-a3d1-0a4ec1a54849.pdf",
+            "news_date": "2025-08-04 18:06:30"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited submits Intimation of One-on-One Meeting through V.C. on 6th August 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdc5871a-ab0d-4063-8f02-98c59bb54c9a.pdf",
+            "news_date": "2025-08-04 17:56:19"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Un-Audited Financial Results Q1 FY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94a4052a-5bfb-4daa-96a5-8a000264155f.pdf",
+            "news_date": "2025-08-02 13:29:38"
+        },
+        {
             "sym": "EPIGRAL",
             "disp": "Epigral",
             "bse_code": 543332,
@@ -264,6 +781,28 @@
             "sid": 5382,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Un-Audited Financial Results Q1 FY2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3547f78a-e090-4fd6-a756-eaf06f55df21.pdf",
+            "news_date": "2025-08-02 13:28:21"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On Saturday 2Nd August 2025 And Submission Of Un-Audited Financial Results (Standalone & Consolidated) For The First Quarter Ended On 30Th June 2025.",
+            "news_body": "1. Approved Un-Audited (Standalone & Consolidated) Financial Results of the Company for the First Quarter ended on 30th June 2025; and took on record Limited Review Report thereon issued by M/s. S R B C & CO LLP Statutory Auditors of the Company.\r\n\r\n2. Approved the proposal of raising funds up to a sum of Rs.400 Crores by way of issuance of non-convertible debentures bonds and/or other debt securities etc. through permissible mode(s) within the borrowing limits of the Company in one or more tranches / series over a period of time and subject to such regulatory and other approvals as may be required.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cfb13b1-1b6a-4b16-889d-73e416c1d191.pdf",
+            "news_date": "2025-08-02 13:07:13"
         },
         {
             "sym": "EPIGRAL",
@@ -290,6 +829,237 @@
             "seg": "E"
         },
         {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "UNAUDITED FINANCIAL RESULTS FOR THE QUARTER ENDED ON 30.06.2025.",
+            "news_body": "UNAUDITED FINANCIAL RESULTS FOR THE QUARTER ENDED ONN30.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21386e51-8ecd-4c6c-a2cf-741fbf4bcd44.pdf",
+            "news_date": "2025-08-02 13:04:44"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited intimates about Conference Call on Monday 4th August 2025 to discuss Q1 FY26 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=575770f3-a772-4d70-a319-d2d6125c1ecf.pdf",
+            "news_date": "2025-07-30 14:51:28"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Un-Audited Financial Results For The Quarter Ended 30Th June 2025 And Evaluate Proposal For Raising Of Funds.",
+            "news_body": "Epigral Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 02/08/2025 inter alia to consider and approve Un-audited Financial Results for the Quarter Ended 30th June 2025 and evaluate proposal for raising of funds.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de1be428-51fe-41a3-a4d3-d1e4a535c995.pdf",
+            "news_date": "2025-07-28 16:06:52"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of One on One VC to be held on 18.07.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec650c5f-97bf-4f6b-81da-63ded7dded18.pdf",
+            "news_date": "2025-07-15 22:38:51"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited submits intimation of One on One VC with Investor / Analyst on 16.07.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7268eb15-0508-4cb2-8902-0a064a101949.pdf",
+            "news_date": "2025-07-11 16:47:25"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Epigral Limited submits Certificate u/r. 74(5) of SEBI Depositories and Participants Regulations for the quarter ended 30.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fd22f0f-a690-4a98-84be-741eecc02a3f.pdf",
+            "news_date": "2025-07-11 16:44:30"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Epigral Limited submits Voting Results along with Scrutinizer Report for Annual General Meeting held on 28.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faf05f9d-9497-49e7-940d-5c90660b6ef3.pdf",
+            "news_date": "2025-06-30 16:22:45"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 18th AGM held on Saturday 28th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40b00709-7850-47a1-a6b8-2cb3debf6706.pdf",
+            "news_date": "2025-06-28 14:33:45"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Epigral Limited submits Notice of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09ec9098-abb7-4ca6-ac10-63b418db6aa3.pdf",
+            "news_date": "2025-06-27 18:50:44"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited informs the Exchange about participation in Systematix: Specialty & Agrochemicals Conference - 2025 to be held on 12th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47056e75-0c99-4d9b-b739-54f0b52e3af6.pdf",
+            "news_date": "2025-06-10 14:54:37"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Epigral Limited submits copy of Newspaper Publication in connection with 18th Annual General Meeting and Record date for E-voting & Dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c167220-0f53-4508-acae-905496882e1a.pdf",
+            "news_date": "2025-06-06 19:27:00"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Epigral Limited Submits Business Responsibility and Sustainability Report for F. Y. 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d017330f-5a97-4d2b-8159-3d3ad331ecf5.pdf",
+            "news_date": "2025-06-05 17:15:29"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for F.Y. 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb6d4a42-09d2-49ac-befc-1e63231cb29b.pdf",
+            "news_date": "2025-06-05 16:12:53"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "18Th Annual General Meeting To Be Held On 28.06.2025.",
+            "news_body": "18h Annual General Meeting to be held on 28.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f217fd3-7c28-4814-bba6-6417966c0f3c.pdf",
+            "news_date": "2025-06-05 16:08:58"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Execution of Share Subscription and Shareholders Agreement and Energy Supply Agreement for Power Purchase through Renewable resources.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e98ad941-2b3e-43f6-aef6-7735d9d77349.pdf",
+            "news_date": "2025-06-04 11:06:26"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Epigral Limited submits Newspaper Advertisement regarding Information of 18th Annual General Meeting to be held on Saturday 28th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7eab0788-2b32-4028-89b0-951a7a85aa9e.pdf",
+            "news_date": "2025-05-30 15:24:58"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": " Intimation Of Record Date For Final Dividend And E-Voting Of AGM.",
+            "news_body": "Epigral Limited intimates the Record Date for Final Dividend if declared and  E-Voting of AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abac3304-6269-4c63-ba85-9679ca7190c6.pdf",
+            "news_date": "2025-05-30 12:37:59"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Epigral Limited submits Annual Secretarial Compliance Report for the year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caa3a790-6ae6-4e9a-b51f-dd4ff7fda2a6.pdf",
+            "news_date": "2025-05-29 18:28:02"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Approval Of Promoter Reclassification",
+            "news_body": "Approval of Promoter Reclassification by the Stock Exchanges.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba5c2bad-4235-416e-ad3e-1c336af02091.pdf",
+            "news_date": "2025-05-22 13:57:39"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Management of the Company is participating in the 4th MACM Invest India Global Conference on 22.05.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bab9545c-52c9-4d77-8c28-996a744a8b83.pdf",
+            "news_date": "2025-05-20 18:34:11"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Postal Ballot Scrutinizers Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffb6e17c-74b5-4c73-a048-b274b7680b22.pdf",
+            "news_date": "2025-05-16 17:01:33"
+        },
+        {
             "sym": "EPIGRAL",
             "disp": "Epigral",
             "bse_code": 543332,
@@ -312,6 +1082,39 @@
             "sid": 5382,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Epigral Limited submits transcript of conference call held on 05.05.2025 discussing Q4 & FY 2025 - results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07951b18-8fb2-447b-aafd-7dbe455542a1.pdf",
+            "news_date": "2025-05-08 16:26:13"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Audited Financial Results - 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66f133d1-d61f-4195-95ad-df7cad2b341c.pdf",
+            "news_date": "2025-05-06 16:47:41"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Statement Of Deviation Or Variation In Utilization Of The Funds Raised Through The Qualified Institutions Placement (QIP) For The Quarter Ended 31.03.2025",
+            "news_body": "Epigral Limited submits statement of deviation or variation of utilization of the funds raised through the Qualified Institutions Placement (QIP) for the quarter ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df230381-1a17-48dc-8b68-868df1720adf.pdf",
+            "news_date": "2025-05-05 22:59:56"
         },
         {
             "sym": "EPIGRAL",
@@ -338,6 +1141,50 @@
             "seg": "E"
         },
         {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Conference Call discussing Q4 & FY25 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2988cd7a-16a4-455f-9207-171c59cf8c1e.pdf",
+            "news_date": "2025-05-05 22:38:16"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "MONITORING AGENCY REPORT FOR THE QUARTER ENDED ON 31.03.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b11b01b4-48fc-4767-b9e2-250043437fb9.pdf",
+            "news_date": "2025-05-05 22:32:49"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board of Directors at its Meeting held today i.e. 5th May 2025 recommended final dividend of Rs. 3.5 (35%) per equity share of Rs. 10/- each for the F.Y. 2024-25 to be declared at ensuing Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06724a98-11a0-457d-aaa6-09bef9a9f688.pdf",
+            "news_date": "2025-05-05 21:22:24"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for Audited Financial Results Q4 & FY2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=779f37ae-2d39-49f5-9e01-afaacaba6c1b.pdf",
+            "news_date": "2025-05-05 15:12:29"
+        },
+        {
             "sym": "EPIGRAL",
             "disp": "Epigral",
             "bse_code": 543332,
@@ -360,6 +1207,28 @@
             "sid": 5382,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Audited Financial Results - Q4 & FY 2025.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b82335e8-5d88-49b6-8d32-a0230396c3fe.pdf",
+            "news_date": "2025-05-05 15:10:28"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On Monday 5Th May 2025 And Submission Of Audited Financial Results (Standalone & Consolidated) For The Fourth Quarter And Year Ended On 31St March 2025.",
+            "news_body": "Outcome of Board Meeting held on Monday 5th May 2025 and submission of Audited Financial Results (Standalone & Consolidated) for the Fourth Quarter and year ended on 31st March 2025 & Declared Final dividend of Rs.3.50 (35%) per Equity Share of face value of Rs. 10/- each for the Financial Year 2024-25.\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=effbafa7-2e20-4d26-a26e-32343a906fdb.pdf",
+            "news_date": "2025-05-05 15:04:29"
         },
         {
             "sym": "EPIGRAL",
@@ -386,6 +1255,182 @@
             "seg": "E"
         },
         {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "FINANCIAL RESULTS - Q4 AND FY 2025.",
+            "news_body": "AUDITED FINANCIAL RESULTS - Q4 & FY 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c20b6893-14f8-4298-b23e-920d191d7e2d.pdf",
+            "news_date": "2025-05-05 15:01:36"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited has informed the Exchange about Conference Call on Monday 5th May 2025 to discuss Q4 FY25 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa3a1f3e-2ebb-49b1-af7c-0fe90a3d12e5.pdf",
+            "news_date": "2025-04-29 19:26:23"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration & Approval Of Audited Financial Results And Recommendation Of Final Dividend If Any.",
+            "news_body": "Epigral Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/05/2025 inter alia to consider and approve Audited Financial Results and recommendation of Final Dividend if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52219b64-9730-4593-8796-a2b6927baee9.pdf",
+            "news_date": "2025-04-23 12:13:14"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Epigral Limited submits Newspaper Publication of Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e40e5a0-8750-4657-bc26-857a32538635.pdf",
+            "news_date": "2025-04-16 18:22:01"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice dated 12.04.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4fe57770-2768-4338-aa62-37991fd2d909.pdf",
+            "news_date": "2025-04-15 12:26:26"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Epigral Limited submits Certificate under Reg. 74(5) of SEBI (DP) Regulations for the quarter ended 31.03.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c4d12fd-426a-47b6-abc3-b1cd743cafb7.pdf",
+            "news_date": "2025-04-05 12:56:30"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Epigral Limited submits Notice of Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0c1fee6-abf4-4b3f-8a18-3f9c354691b5.pdf",
+            "news_date": "2025-03-27 12:07:11"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Commissioning Of Chlorotoluenes Value Chain Facility",
+            "news_body": "Epigral Limited announce the Commissioning of Chlorotoluenes Value Chain Facility.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d489bc5-db57-4b2d-a9a2-ee6c50705f42.pdf",
+            "news_date": "2025-03-24 13:42:45"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The management of the Company is having a meeting with \"Dhamma Capital\" on 26.03.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afab9ed7-19db-43f3-a6e6-181f040e2713.pdf",
+            "news_date": "2025-03-22 12:27:24"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited (the Company) informs that the Company is having meeting One-on-One meeting on 12th March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f02be1cb-4b12-4d21-917b-e0a4c935465d.pdf",
+            "news_date": "2025-03-11 14:59:47"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited (the Company) hereby informs about the Investors / Analysts visit to the Companys plant at Dahej Gujarat on 11th March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28efadd5-e06e-497a-ad97-03a205f1b480.pdf",
+            "news_date": "2025-03-10 10:11:12"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Review of CRISIL Ratings on the Bank Facilities of Epigral Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff208983-421c-4506-b819-5d98c3f34d31.pdf",
+            "news_date": "2025-03-07 12:56:54"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Management of the Company is having a One on One VC with Kotak Institutional Securities on 05.03.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=900839e0-b69a-4bfb-88ef-97e8b30d44fe.pdf",
+            "news_date": "2025-03-01 13:26:54"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Intimation of change in Directors of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7de3ce59-7de1-4f79-8d8b-c2fb6c58bd5d.pdf",
+            "news_date": "2025-02-28 13:09:27"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited informs that the Company is participating in Nuvama India Conference 2025 scheduled on 12th February 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99ee3d52-2f54-4778-b015-4b39ddb8f90a.pdf",
+            "news_date": "2025-02-06 16:44:53"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Epigral Limited informs the Exchange about one-on-one VC with Investor / Analyst on 03.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65cc2f34-e30d-4bff-a1df-16f98b796c1c.pdf",
+            "news_date": "2025-01-31 15:50:44"
+        },
+        {
             "sym": "EPIGRAL",
             "disp": "Epigral",
             "bse_code": 543332,
@@ -408,6 +1453,61 @@
             "sid": 5382,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Epigral Limited submits Transcript of Conference Call held on 27.01.2025 discussing Q3 FY25 Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38463c92-f620-41d8-9ccc-4e7439fcd382.pdf",
+            "news_date": "2025-01-30 16:47:36"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Epigral Limited submits copy of Newspaper Publication in respect of Record Date for the purpose of payment of Interim Dividend for F. Y. 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=429db4da-f008-4e53-a070-fd65d2228732.pdf",
+            "news_date": "2025-01-28 15:39:11"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Epigral Limited submits copy of Newspaper Advertisement of Un-Audited Financial Results for the third quarter and nine months ended 31.12.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e3f8d14-b4d6-4342-b280-97b568ef323d.pdf",
+            "news_date": "2025-01-28 15:36:40"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financials) - 31.12.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=763400a7-789b-4697-9f51-f518c469d479.pdf",
+            "news_date": "2025-01-28 11:43:14"
+        },
+        {
+            "co_code": 30111,
+            "bse_code": 543332,
+            "isin": "INE071N01016",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Epigral Limited informs that the Board of Directors at its meeting held today i.e. 27.01.2025 inter-alia has declared Interim Dividend of Rs. 2.50 (25%) per equity share of face value of Rs. 10/- each for the F. Y. 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3688c8c-1a71-428a-ab8c-8c26e31f78c6.pdf",
+            "news_date": "2025-01-27 22:20:03"
         },
         {
             "sym": "EPIGRAL",
@@ -2065,6 +3165,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

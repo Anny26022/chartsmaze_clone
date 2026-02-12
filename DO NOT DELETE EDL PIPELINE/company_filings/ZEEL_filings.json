@@ -2,6 +2,72 @@
     "code": 0,
     "data": [
         {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 as amended",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=122c26a7-87c3-41ef-a590-6832f0b5f153.pdf",
+            "news_date": "2026-02-11 17:08:39"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70221135-e2f3-432b-8ec5-dbc396d164a7.pdf",
+            "news_date": "2026-02-03 14:39:45"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended - Appointment Of Senior Management Personnel And Press Release Thereto",
+            "news_body": "Disclosure under Regulation 30 of the SEBI LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9e22075-4597-4e76-bbb9-a2d048d5ba7f.pdf",
+            "news_date": "2026-02-02 11:18:25"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Investor Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b92b989-c94e-4975-9673-786dada3aef7.pdf",
+            "news_date": "2026-01-30 15:12:59"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General-Update",
+            "news_body": "General update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33a423d4-ba06-4385-ab23-69772ff2f7bd.pdf",
+            "news_date": "2026-01-23 17:13:21"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfc29359-db46-4226-aabc-fb4b69688d43.pdf",
+            "news_date": "2026-01-23 14:47:51"
+        },
+        {
             "sym": "ZEEL",
             "disp": "Zee Entertainment",
             "bse_code": 505537,
@@ -24,6 +90,17 @@
             "sid": 3812,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of conference call for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14815868-47a7-44be-af14-f7c13c9c81c5.pdf",
+            "news_date": "2026-01-22 19:01:41"
         },
         {
             "sym": "ZEEL",
@@ -50,6 +127,17 @@
             "seg": "E"
         },
         {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earning release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bcc8e3c-2190-41f8-ab4d-aca2c1d2bcbf.pdf",
+            "news_date": "2026-01-22 14:04:17"
+        },
+        {
             "sym": "ZEEL",
             "disp": "Zee Entertainment",
             "bse_code": 505537,
@@ -72,6 +160,171 @@
             "sid": 3812,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results",
+            "news_body": "Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab3e9002-9e5e-4f8d-a82d-e484aae6ca82.pdf",
+            "news_date": "2026-01-22 13:48:29"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abe211ba-8c58-4b4a-b91d-2d4e4b731212.pdf",
+            "news_date": "2026-01-22 13:36:49"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Notice Of Board Meeting",
+            "news_body": "Zee Entertainment Enterprises Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/01/2026 inter alia to consider and approve the unaudited financial results of the Company both on standalone and consolidated basis for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73d7fdaa-37d9-4136-94ef-f13e3e333453.pdf",
+            "news_date": "2026-01-14 17:25:09"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bed47b7c-8068-450a-81fc-6850cf8593bd.pdf",
+            "news_date": "2026-01-12 17:39:49"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Reg 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2780f9cf-21ab-45e9-9455-a30049ba2fee.pdf",
+            "news_date": "2025-12-31 17:56:20"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c425954b-0c05-4533-ad07-32fc1e95a657.pdf",
+            "news_date": "2025-12-24 16:48:59"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for HDFC Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95C66644_812B_4005_AED7_4D24D39D73FC_105246.pdf",
+            "news_date": "2025-12-19 10:52:51"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Reg. 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "Disclosure under Reg. 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef6a3c17-f62d-45fe-8f5f-9bfff9c24eac.pdf",
+            "news_date": "2025-12-03 12:31:13"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Zee Entertainment Enterprises Ltd",
+            "news_body": "The Exchange has sought clarification from Zee Entertainment Enterprises Ltd on December 02 2025 with reference to news appeared in https://economictimes.indiatimes.com dated December 02 2025 quoting \"Zee announces more layoffs as business takes a hit after failed Sony merger\" <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-12-02 16:50:29"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1ce7578-df21-44f9-b100-bb5bde1c6cb5.pdf",
+            "news_date": "2025-11-28 19:40:11"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b040d8be-09af-4222-b741-9042bf4947d9.pdf",
+            "news_date": "2025-11-28 19:38:28"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2464f125-c9da-41ae-b766-6ff6a8d70469.pdf",
+            "news_date": "2025-11-13 19:30:11"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor Meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3461fef8-1dfe-40c5-b418-bdffc626c1c0.pdf",
+            "news_date": "2025-11-11 16:10:59"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f87a3806-593c-4ca6-ae73-098b5de40975.pdf",
+            "news_date": "2025-10-29 17:48:11"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd8074a9-db2a-466e-b1d0-12f15d679075.pdf",
+            "news_date": "2025-10-28 18:42:44"
         },
         {
             "sym": "ZEEL",
@@ -98,6 +351,39 @@
             "seg": "E"
         },
         {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce7bd70c-d071-417f-b381-507a0da9d050.pdf",
+            "news_date": "2025-10-24 19:20:16"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Re-Lodgement Of Transfer Requests Of Physical Shares",
+            "news_body": "Re-lodgement of Transfer requests of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e551f71-5c9b-4f4b-b988-3d1d47caea30.pdf",
+            "news_date": "2025-10-17 16:22:01"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0a58383-e376-4c31-9965-e73f866f1c95.pdf",
+            "news_date": "2025-10-17 16:03:37"
+        },
+        {
             "sym": "ZEEL",
             "disp": "Zee Entertainment",
             "bse_code": 505537,
@@ -120,6 +406,17 @@
             "sid": 3812,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of conference call for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e24de15c-72a4-4191-a2bb-9b13fb98a763.pdf",
+            "news_date": "2025-10-16 19:17:09"
         },
         {
             "sym": "ZEEL",
@@ -146,6 +443,39 @@
             "seg": "E"
         },
         {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earning Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94042373-9a8c-474d-b8a4-9fa0756ee371.pdf",
+            "news_date": "2025-10-16 15:30:28"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Appointment Of Director",
+            "news_body": "Disclosure under Reg 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c738a12-c3f3-4f23-b4a6-e58c2ed87296.pdf",
+            "news_date": "2025-10-16 15:07:59"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Investment In Ideabaaz Tech Private Limited",
+            "news_body": "Disclosure under Reg 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbee6aee-5d03-484f-8ac6-8b4443aa07af.pdf",
+            "news_date": "2025-10-16 15:02:44"
+        },
+        {
             "sym": "ZEEL",
             "disp": "Zee Entertainment",
             "bse_code": 505537,
@@ -168,6 +498,325 @@
             "sid": 3812,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Financial Results Of The Company For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Financial Results - Sep 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=593f3cfa-1899-4639-9708-2902462f13b9.pdf",
+            "news_date": "2025-10-16 14:58:14"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On October 16 2025",
+            "news_body": "Outcome of the Board Meeting held on October 16 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30955f6c-3128-401e-b558-ba4b22b82cc9.pdf",
+            "news_date": "2025-10-16 14:53:51"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6520503-a9c4-4910-a34f-e9f7851abb25.pdf",
+            "news_date": "2025-10-15 21:41:29"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Conference Call for the 2nd quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24d68c62-7832-46e6-8197-aeeb224cb8fc.pdf",
+            "news_date": "2025-10-13 17:09:31"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Unaudited Financial Results Of The Company Both On Standalone And Consolidated Basis For The 2Nd Quarter And Half Year Ended September 30 2025",
+            "news_body": "Zee Entertainment Enterprises Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/10/2025 inter alia to consider and approve unaudited financial results of the Company both on standalone and consolidated basis for the 2nd quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=123457e4-a29a-4c13-acd4-b630ffb6d7b9.pdf",
+            "news_date": "2025-10-09 20:48:02"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Certificate Under Regulation 74(5) Of Securities And Exchange Board Of India (Depositories And Participants) Regulations 2018 For The Quarter Ended September 30 2025",
+            "news_body": "Certificate under Reg 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c157f840-d090-4492-a003-248916ac9f1c.pdf",
+            "news_date": "2025-10-09 19:27:35"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Members and Investors Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c23cb30-dcd6-476e-816d-10914caa0603.pdf",
+            "news_date": "2025-10-06 20:22:40"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95ef3431-a4cf-41fb-b589-0e08d7afba85.pdf",
+            "news_date": "2025-09-25 20:21:37"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43a00961-cf70-481d-be30-87bd3b69f142.pdf",
+            "news_date": "2025-09-15 21:09:09"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Outcome of AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24dc051f-08ef-44a3-8dde-4bdd11b43adc.pdf",
+            "news_date": "2025-09-15 21:02:16"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Resignation Of Senior Management Personnel",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d831a891-422a-4d1c-b1eb-7e0209311dd8.pdf",
+            "news_date": "2025-09-15 20:49:30"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa29f6c8-573b-4a55-8b53-c6f0bfa05f78.pdf",
+            "news_date": "2025-09-10 19:29:56"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended From Time To Time",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ebd5e67-8f11-4905-bc10-26f481101016.pdf",
+            "news_date": "2025-09-10 14:08:53"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Corrigendum To The Notice Of The 43Rd Annual General Meeting",
+            "news_body": "Corrigendum to the 43rd AGM Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55f113b5-e580-4db6-bc8d-cd9685b14745.pdf",
+            "news_date": "2025-09-08 23:13:04"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 -Environmental Social And Governance Report",
+            "news_body": "ESG Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf465e8d-2aa5-47bc-b143-0876df3c21ba.pdf",
+            "news_date": "2025-09-08 20:05:56"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91de86a8-92b3-495f-92b5-b023ca96fe5b.pdf",
+            "news_date": "2025-08-31 18:00:27"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2765ee4-57b8-44ee-9d24-fcbc6e68edf9.pdf",
+            "news_date": "2025-08-26 18:51:36"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1d9eac5-97c0-44ed-adfc-a66950063c54.pdf",
+            "news_date": "2025-08-21 15:59:00"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f649a00-923c-4fc8-9588-99104df015a8.pdf",
+            "news_date": "2025-08-20 17:40:37"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c5bae74-c3b0-4e02-81be-3c004740fab4.pdf",
+            "news_date": "2025-08-20 17:34:58"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "AGM Notice And Annual Report FY 25",
+            "news_body": "AGM Notice and Annual Report FY 25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=208c822f-de86-45cd-b01a-6a0df70c494b.pdf",
+            "news_date": "2025-08-20 17:25:38"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended From Time To Time",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f02db8f1-d5a6-4e76-b7e7-6a485182a298.pdf",
+            "news_date": "2025-08-20 16:48:50"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Reg 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8db282e8-d7b7-444f-a040-5cbb6820ea07.pdf",
+            "news_date": "2025-08-14 17:00:24"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investors Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba75e0b0-4e48-476a-8878-c6e193dbbc4b.pdf",
+            "news_date": "2025-08-13 19:15:22"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42154091-d79a-49db-bd8d-3fccce76033c.pdf",
+            "news_date": "2025-08-11 18:05:10"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date For Payment Of Equity Dividend For FY25",
+            "news_body": "Intimation of Record Date for payment of equity dividend for FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35686897-a2f1-4d0f-b199-c97de9cd3c6e.pdf",
+            "news_date": "2025-08-08 18:14:33"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Special Window for Re-lodgement of Transfer request of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90b0c765-89dd-4dc7-8d5f-e26abd8726ec.pdf",
+            "news_date": "2025-07-30 17:39:44"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the conference call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdc49f40-c7f6-435a-8f2d-1bb94f8ebff7.pdf",
+            "news_date": "2025-07-29 16:27:37"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fe0da32-02ca-4597-848b-0155901a7590.pdf",
+            "news_date": "2025-07-23 16:26:59"
         },
         {
             "sym": "ZEEL",
@@ -194,6 +843,28 @@
             "seg": "E"
         },
         {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of conference call for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eba000c3-665b-4382-bad3-59e12132a342.pdf",
+            "news_date": "2025-07-22 19:51:18"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting Of The Company Scheduled To Be Held On Monday September 15 2025",
+            "news_body": "Annual General Meeting of the Company scheduled to be held on Monday September 15 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f41252e-ecb3-485e-9ae3-cc0cc94c7383.pdf",
+            "news_date": "2025-07-22 15:37:19"
+        },
+        {
             "sym": "ZEEL",
             "disp": "Zee Entertainment",
             "bse_code": 505537,
@@ -216,6 +887,17 @@
             "sid": 3812,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earning Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb9c4328-a90b-4347-a409-8bfef1e08e8b.pdf",
+            "news_date": "2025-07-22 15:24:28"
         },
         {
             "sym": "ZEEL",
@@ -242,6 +924,138 @@
             "seg": "E"
         },
         {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44f4a987-cf3f-4a31-957c-2ea58ffcae8c.pdf",
+            "news_date": "2025-07-22 15:07:51"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40593dff-19b5-4394-a3a1-dc9e37213c3a.pdf",
+            "news_date": "2025-07-22 14:28:18"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=889c7bfb-a360-4556-828e-e3897f4cd29d.pdf",
+            "news_date": "2025-07-18 18:31:50"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving The Unaudited Financial Results Of The Company Both On Standalone And Consolidated Basis For The Quarter Ended On June 30 2025",
+            "news_body": "Zee Entertainment Enterprises Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/07/2025 inter alia to consider and approve unaudited financial results of the Company both on standalone and consolidated basis for the quarter ended on June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7538885c-e28c-40f2-a7b1-b5f2def587b5.pdf",
+            "news_date": "2025-07-17 18:38:34"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c33e652-9153-4339-99e1-eb4ae442d4a6.pdf",
+            "news_date": "2025-07-10 18:57:08"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd13383a-7d08-4c1c-ad5b-f0bf79d3dea1.pdf",
+            "news_date": "2025-07-10 18:49:59"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Outcome of EGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3dae0d67-ed92-4428-88fd-cd91990294f3.pdf",
+            "news_date": "2025-07-10 18:47:56"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a2a125b-cbcb-4f0d-b9b7-878c3841384f.pdf",
+            "news_date": "2025-07-08 20:11:02"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5f6417e-a595-4018-a252-bde0afe4b304.pdf",
+            "news_date": "2025-07-08 19:28:04"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d8f0358-ab3c-4b85-845c-857b47fb5b30.pdf",
+            "news_date": "2025-07-08 19:26:02"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f489f9b-97cf-42f9-b971-c0a984d59901.pdf",
+            "news_date": "2025-07-08 19:24:06"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Corrigendum To The Notice Of Extra Ordinary General Meeting Of The Company Scheduled To Be Held On July 10 2025",
+            "news_body": "Corrigendum to the Notice of Extra Ordinary General Meeting of the Company Scheduled to be held on July 10 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fa42ee9-3a53-49a9-a5bf-fe213e103921.pdf",
+            "news_date": "2025-07-03 17:39:53"
+        },
+        {
             "sym": "ZEEL",
             "disp": "Zee Entertainment",
             "bse_code": 505537,
@@ -264,6 +1078,61 @@
             "sid": 3812,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd39dde3-5fb4-4696-977b-264928c298da.pdf",
+            "news_date": "2025-07-03 17:25:50"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=adc80e44-133b-409b-876c-89ee14bb198c.pdf",
+            "news_date": "2025-06-30 20:03:35"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf8137bf-cfa7-49c9-bacc-2fdf4a9197f2.pdf",
+            "news_date": "2025-06-27 15:39:17"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Response Letter",
+            "news_body": "Response Letter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea9030a9-dbf5-4f67-b31c-d2b0128279ca.pdf",
+            "news_date": "2025-06-24 18:16:01"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Zee Entertainment Enterprises Ltd",
+            "news_body": "The Exchange has sought clarification from Zee Entertainment Enterprises Ltd on June 24 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-06-24 13:33:52"
         },
         {
             "sym": "ZEEL",
@@ -290,6 +1159,182 @@
             "seg": "E"
         },
         {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92213f6c-c07b-48f8-8158-85e4236e3300.pdf",
+            "news_date": "2025-06-22 17:11:31"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=737a62e3-1858-4ee0-8e69-bcda4c9814ee.pdf",
+            "news_date": "2025-06-19 15:45:33"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Notice Of Extra Ordinary General Meeting Of The Company",
+            "news_body": "Notice of Extra Ordinary General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=392353ee-4b9c-4482-9f5b-3e41993b91ab.pdf",
+            "news_date": "2025-06-18 18:14:57"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344da42c-626c-49f2-99c2-e55d50eed96e.pdf",
+            "news_date": "2025-06-17 15:31:04"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b150291-3856-4e93-9ca5-09502164438e.pdf",
+            "news_date": "2025-06-16 19:52:53"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On June 16 2025",
+            "news_body": "Outcome of Board Meeting held on June 16 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=172faf25-223b-4189-aaaf-9fc97b4bcb07.pdf",
+            "news_date": "2025-06-16 19:35:40"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Update on board meeting",
+            "news_body": "Zee Entertainment Enterprises Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/06/2025 inter alia to consider and approve a separate Board meeting will be held on the same day at 4.00 p.m. wherein the Board will deliberate on the recommendation(s) of the investment banker made at the Board meeting held earlier on the same day and adopt them in part or full.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81de1c6f-5253-4d52-8d99-a6e280152f3d.pdf",
+            "news_date": "2025-06-11 18:01:11"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for An Investment Banker Will Evaluate And May Recommend To The Board Potential Fund-Raising Options If Any.",
+            "news_body": "Zee Entertainment Enterprises Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/06/2025 inter alia to consider and approve the Companys business plans and the growth initiatives for the next three to five years. An investment banker may also recommend potential fund-raising options if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b06276f-b010-492e-abf5-fad59aa2ff05.pdf",
+            "news_date": "2025-06-11 17:56:38"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release (Revised)",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release (Revised)",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7488aff7-da52-4209-8db2-a26ba10c0c6f.pdf",
+            "news_date": "2025-06-09 17:05:46"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97f4d07d-16c2-46d0-85a7-107f899c973c.pdf",
+            "news_date": "2025-06-09 15:38:07"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd19acb9-25f3-42f7-b1ee-ddb6bb15936a.pdf",
+            "news_date": "2025-06-06 16:58:31"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95ee4604-51ef-431d-8908-33b8010f98c8.pdf",
+            "news_date": "2025-05-30 19:37:08"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the conference call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7afedd97-847b-420a-92a4-5800b1425f6f.pdf",
+            "news_date": "2025-05-16 11:53:40"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification - Disclosure Dated May 13 2025",
+            "news_body": "Clarification - Disclosure dated May 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3bbc52b-4924-44a0-b96b-ede17ad6b311.pdf",
+            "news_date": "2025-05-13 13:53:37"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended From Time To Time",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84e1689f-464c-4254-aa83-22d8f80994a0.pdf",
+            "news_date": "2025-05-13 12:48:32"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6db9b204-e7db-4b6f-b518-93dd2deb04ed.pdf",
+            "news_date": "2025-05-09 15:54:08"
+        },
+        {
             "sym": "ZEEL",
             "disp": "Zee Entertainment",
             "bse_code": 505537,
@@ -312,6 +1357,17 @@
             "sid": 3812,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of conference call for the fourth quarter and financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfd64d42-481b-4329-a70a-0d952ef20c69.pdf",
+            "news_date": "2025-05-08 21:43:48"
         },
         {
             "sym": "ZEEL",
@@ -338,6 +1394,39 @@
             "seg": "E"
         },
         {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c53f6dd-18c4-4ab1-ba15-1d4f38ccccd0.pdf",
+            "news_date": "2025-05-08 19:57:47"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended -\r\nAppointment Of Secretarial Auditor",
+            "news_body": "Appointment of Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d65777a2-c897-47d1-afa4-bb30ba484eba.pdf",
+            "news_date": "2025-05-08 17:31:15"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended - Appointment Of Senior Management Personnel.",
+            "news_body": "Disclosure under Reg 30 of SEBI LODR Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3415b30c-85af-4801-9329-2ac5a7d08e3f.pdf",
+            "news_date": "2025-05-08 17:26:36"
+        },
+        {
             "sym": "ZEEL",
             "disp": "Zee Entertainment",
             "bse_code": 505537,
@@ -360,6 +1449,17 @@
             "sid": 3812,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3126,
+            "bse_code": 505537,
+            "isin": "INE256A01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earning Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=369c69df-6cce-47ae-8df7-6c74dfd14b96.pdf",
+            "news_date": "2025-05-08 17:11:38"
         },
         {
             "sym": "ZEEL",
@@ -1465,6 +2565,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

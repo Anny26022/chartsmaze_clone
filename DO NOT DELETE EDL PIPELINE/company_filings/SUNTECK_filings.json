@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of Incorporation of wholly owned subsidiaries of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58e11096-8209-427c-bb20-aae58c2e18dc.pdf",
+            "news_date": "2026-02-11 18:51:17"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement - Dispatch of Postal Ballot notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d120909-e1e0-43a0-9814-42a8ef39ee8e.pdf",
+            "news_date": "2026-02-05 18:40:22"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Disclosure under Regulation 30 of SEBI Listing Regulations - Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ee6b540-0028-4c19-a1f1-6b08d2ef320e.pdf",
+            "news_date": "2026-02-04 16:19:21"
+        },
+        {
             "sym": "SUNTECK",
             "disp": "Sunteck Realty",
             "bse_code": 512179,
@@ -24,6 +57,17 @@
             "sid": 17641,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call on Q3 and 9M FY 2026 Results and Business Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bcb089c-b760-4a2e-8924-9c33766289da.pdf",
+            "news_date": "2026-02-02 19:22:43"
         },
         {
             "sym": "SUNTECK",
@@ -50,6 +94,17 @@
             "seg": "E"
         },
         {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Conference call on Q3 and 9M FY2026 Results and Business Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aeb2cfd1-60f1-4224-8083-119cd73c61bd.pdf",
+            "news_date": "2026-01-28 19:36:44"
+        },
+        {
             "sym": "SUNTECK",
             "disp": "Sunteck Realty",
             "bse_code": 512179,
@@ -72,6 +127,61 @@
             "sid": 17641,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on financials results for Q3 and 9M ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07276a88-961c-401f-8859-6e8d76c59a62.pdf",
+            "news_date": "2026-01-28 15:33:41"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 32 (1) (3) - Statement of Deviation & Variation",
+            "caption": "Statement Of Deviation Or Variation For The Quarter Ended 31St December 2025",
+            "news_body": "Statement of Deviation or variation for the quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9180daf1-df50-4534-94b1-e7a592b60ab7.pdf",
+            "news_date": "2026-01-27 21:21:44"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e21c1f5-ad41-4ab8-a894-7d9f19b16813.pdf",
+            "news_date": "2026-01-27 20:24:15"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Reappointment of Mr. Chaitanya Dalal and Mr. Mukesh Jain Independent Directors of the Company for second term of 5 consecutive years subject to approval of the Shareholders.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ddb1cb1-fe64-40f6-af3a-4281a41929c8.pdf",
+            "news_date": "2026-01-27 19:53:26"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for Financial results for the quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daaba8e3-6202-4075-b960-7646387d87ed.pdf",
+            "news_date": "2026-01-27 19:44:13"
         },
         {
             "sym": "SUNTECK",
@@ -98,6 +208,248 @@
             "seg": "E"
         },
         {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "Unaudited Financial Results for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a6e5ef3-9671-4bc1-8f7c-47bcb8d28810.pdf",
+            "news_date": "2026-01-27 19:41:21"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Approval Of Unaudited Financial Results (Consolidated And Standalone) Of The Company For The Quarter And Nine Months Ended 31St December 2025 And Other Business Matters.",
+            "news_body": "Outcome of Board Meeting - Approval of unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and nine months ended 31st December 2025 and other business matters.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e150175e-79ae-43a2-9c49-79a24e0c47d5.pdf",
+            "news_date": "2026-01-27 19:24:22"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Equity Shares pursuant to conversion of warrants exercised by NTAsian Discovery Master Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=213b2a43-9fda-40a1-8984-6f610278bff3.pdf",
+            "news_date": "2026-01-23 16:48:45"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Read With Schedule III Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Update on acquisition of 100% stake in Shreejikrupa Hotels and Properties Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e589381f-898f-4fc7-8703-de4b16887926.pdf",
+            "news_date": "2026-01-20 15:31:03"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Conference Call on Q3 & 9M FY 2026 results and business updates - further update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a702045-ee8c-48c4-ad28-cdc710f82e2a.pdf",
+            "news_date": "2026-01-20 15:11:53"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earning Conference Call on Q3 & 9M FY 2026 results and  business updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f658a5b5-ed9c-43d2-aac2-9bc9c10bca03.pdf",
+            "news_date": "2026-01-19 19:32:20"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Results And Closure Of Trading Window",
+            "news_body": "Sunteck Realty Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 27/01/2026 inter alia to consider and approve the Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1cd35fd0-8968-4d93-939c-5aebafe1a791.pdf",
+            "news_date": "2026-01-19 19:18:34"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018 for the quarter ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93a7be86-795e-4a48-9b2d-e35d1de05249.pdf",
+            "news_date": "2026-01-08 19:32:51"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Information Regarding Wholly Owned Subsidiary Of The Company.",
+            "news_body": "Change in information regarding wholly owned subsidiary of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e343e7d8-b596-4c31-8522-12b619a8647a.pdf",
+            "news_date": "2026-01-08 18:41:10"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2b1a76d-9647-48a8-a2d3-e4951bfbdc0e.pdf",
+            "news_date": "2025-12-31 22:33:16"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for the quarter and nine months ending 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c451e288-3807-4b25-82f6-1cf7c21b0db1.pdf",
+            "news_date": "2025-12-29 17:04:03"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of Incorporation of wholly owned subsidiary of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7db4234a-83a6-44bc-ab11-e5f76104fcb6.pdf",
+            "news_date": "2025-12-23 18:57:33"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Samagra Wealthmax Pvt Ltd Glint Infraprojects Pvt Ltd Bhuwalka Steel Industries Ltd & Others",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9E770322_CC55_45A8_B249_E1D65F599A5C_151928.pdf",
+            "news_date": "2025-12-06 15:19:31"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Sunteck Realty Limited has informed that the Company has today allotted 11764705 Convertible Warrants through preferential allotment to Promoter/Promoter Group and Non-Promoters of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de8e3b6b-bb01-4a21-965f-372ab3b16480.pdf",
+            "news_date": "2025-12-05 17:34:20"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of Incorporation of wholly owned subsidiary of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=466cfb42-848d-4765-a7db-cfe6f2703cda.pdf",
+            "news_date": "2025-11-24 18:05:50"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended.",
+            "news_body": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63bfac53-a359-4016-a1f8-698c5712e9e3.pdf",
+            "news_date": "2025-11-24 17:27:00"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Analyst / Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77018fe7-181c-4ae2-811f-a7fd5e8bc19f.pdf",
+            "news_date": "2025-11-07 16:34:27"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of incorporation of a wholly owned step down subsidiary of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02b2a209-1d9e-4b8a-8454-04e54741e161.pdf",
+            "news_date": "2025-11-06 17:31:19"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of Incorporation of wholly owned subsidiary of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0649a2ba-e887-4962-aefa-04347a4331db.pdf",
+            "news_date": "2025-11-04 19:33:41"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Acquisition of 100% stake in Shreejikrupa Hotels and Properties Private limited through wholly owned subsidiary of the Company viz. Apricum Buildwell Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84d1ae55-1d53-4c14-9304-11c9170fd2e8.pdf",
+            "news_date": "2025-10-30 21:12:50"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of Incorporation of a Step down wholly owned subsidiary of Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=557ca9d4-55c6-4345-8396-769641bd7b82.pdf",
+            "news_date": "2025-10-30 16:46:54"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Arrangement Between The Wholly-Owned Step Down Subsidiary Of Sunteck Realty Limited And The Joint Venture Partner With Respect To Entities Involved In Dubai Project",
+            "news_body": "Arrangement between the wholly owned step down subsidiary of Sunteck Realty Limited and the Joint Venture Partner with respect to entities involved in Dubai Project",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0703bd05-80fe-432d-a9a2-cc221b4660b4.pdf",
+            "news_date": "2025-10-29 23:48:21"
+        },
+        {
             "sym": "SUNTECK",
             "disp": "Sunteck Realty",
             "bse_code": 512179,
@@ -120,6 +472,17 @@
             "sid": 17641,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call on Q2 and H1 FY2026 Results and Business Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd749419-c435-4233-b648-54a8610fa029.pdf",
+            "news_date": "2025-10-28 19:16:11"
         },
         {
             "sym": "SUNTECK",
@@ -146,6 +509,17 @@
             "seg": "E"
         },
         {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Conference call on Q2 and H1 FY2026 Results and business updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b2040e0-23cb-401e-804a-1293d7ccdff6.pdf",
+            "news_date": "2025-10-20 18:50:43"
+        },
+        {
             "sym": "SUNTECK",
             "disp": "Sunteck Realty",
             "bse_code": 512179,
@@ -168,6 +542,39 @@
             "sid": 17641,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Q2 and H1 FY26 financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b2d5c2c-e1a8-472d-b662-2403609c101d.pdf",
+            "news_date": "2025-10-18 21:57:56"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Earnings Conference Call On Q2 & H1 FY 2026 Results And Business Updates",
+            "news_body": "Update on Earnings Conference Call on Q2 & H1 FY 2026 results and business updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caac6c77-57e1-4c51-b51f-b7dd7d0fdfae.pdf",
+            "news_date": "2025-10-16 22:12:59"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the Financial Results for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2089e012-5090-4187-ade2-9b8f74d031a9.pdf",
+            "news_date": "2025-10-16 19:59:48"
         },
         {
             "sym": "SUNTECK",
@@ -194,6 +601,380 @@
             "seg": "E"
         },
         {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting - Unaudited Financial Results (Consolidated And Standalone) Of The Company For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Outcome of Board Meeting - Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce246e7c-c7fb-43ab-bcbb-f61e54dc36fe.pdf",
+            "news_date": "2025-10-16 19:46:46"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting - Unaudited Financial Results (Consolidated And Standalone) Of The Company For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Outcome of Board Meeting - Unaudited Financial Results (Consolidated and Standalone) of the Company for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c809a177-65f0-4de2-938e-66422addca71.pdf",
+            "news_date": "2025-10-16 19:39:53"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earning Conference Call on Q2 & H1 FY 2026 results and business updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3efb2d0c-2cf4-4f73-801f-8c9b862611ca.pdf",
+            "news_date": "2025-10-10 17:52:18"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Sunteck Realty Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/10/2025 inter alia to consider and approve Unaudited Financial Results for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75cceb5e-995b-4cb0-80ee-77470569e71a.pdf",
+            "news_date": "2025-10-09 16:10:33"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg.74(5) of SEBI (DP) Regulations 2018 for the quarter ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=150e21b9-a854-4bc2-9ec5-881a82d2ce4a.pdf",
+            "news_date": "2025-10-08 20:48:27"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosures Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15cdadb2-f7b1-46d0-a4bd-67754fd2e940.pdf",
+            "news_date": "2025-10-04 15:54:42"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Voting Results and Consolidated Scrutinizers Report for the 42nd Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51feb4fb-dc60-48a3-83cf-d09244264777.pdf",
+            "news_date": "2025-10-01 21:22:20"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers Report for the 42nd Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61fb0b5e-5204-45bd-a4cd-6ee5fa75e505.pdf",
+            "news_date": "2025-10-01 21:17:33"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 42nd Annual General Meeting of Sunteck Realty Limited held on 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2deedd07-b02a-4894-a1f6-231130b5a053.pdf",
+            "news_date": "2025-09-30 18:21:19"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "Disclosure under Regulation 30 of SEBI Listing Regulations - Rumour Verification",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e43401ae-30f1-476b-a6ea-1955a93f6ef9.pdf",
+            "news_date": "2025-09-29 13:52:57"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Sunteck Realty Ltd",
+            "news_body": "The Exchange has sought clarification from Sunteck Realty Ltd on September 29 2025 with reference to news appeared in https://upstox.com/ dated September 29 2025 quoting \"Sunteck Realty shares zoom nearly 9%: Firm to launch \u00e2\u201a\u00b920000 crore worth of ultra-luxury homes in Mumbai Dubai\" <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-09-29 12:04:58"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c8bfe2d-28de-4f47-b8ba-b690fbeb6184.pdf",
+            "news_date": "2025-09-26 18:08:22"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication in relation to Corrigendum to the Notice of 42nd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7673556-60a4-47eb-86ad-948219bbe89d.pdf",
+            "news_date": "2025-09-24 19:55:28"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Corrigendum To The Notice Of The Annual General Meeting Of The Company To Be Held On Tuesday 30Th September 2025",
+            "news_body": "Corrigendum to the Notice of the Annual General Meeting of the Company to be held on Tuesday 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8e3afc8-2a79-4a2b-9109-5e00b84da352.pdf",
+            "news_date": "2025-09-23 20:00:27"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Investor Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=588c17bd-afd7-486d-89ca-5920d5131474.pdf",
+            "news_date": "2025-09-19 19:42:29"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6357df70-870c-4169-9636-a33af3c410ec.pdf",
+            "news_date": "2025-09-08 13:33:03"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reply To Your Email Dated 8Th September 2025",
+            "news_body": "Replay to your email dated 8th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b42d8430-ce10-41c4-bf1e-4e8dd767e4b9.pdf",
+            "news_date": "2025-09-08 13:03:35"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Sunteck Realty Ltd",
+            "news_body": "The Exchange has sought clarification from Sunteck Realty Ltd on September 08 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-09-08 12:27:38"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22df2737-3a53-468a-a0dd-d72ab5a75b39.pdf",
+            "news_date": "2025-09-07 00:48:15"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Reg. 34 (1) Annual Report of the Company for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bb01a6c-30fa-40ba-bb93-e1dadd031cde.pdf",
+            "news_date": "2025-09-07 00:44:15"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 42Nd Annual General Meeting Along With The Annual Report Of The Company For The Financial Year 2024-25",
+            "news_body": "Notice of the 42nd Annual General Meeting along with the Annual Report of the Company for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc25077-3a72-46c0-a986-ea671bebabbc.pdf",
+            "news_date": "2025-09-07 00:31:28"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Regulation 36(1)(B) Of SEBI LODR Regulations 2015 The Company Has Sent Letter Providing Web Link Of Annual Report 2024-25.",
+            "news_body": "Letter Providing Web link of Annual Report to the Shareholders of the Company under regulation 36(1)(b) of SEBI LODR Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2225ffec-0fb9-4ba2-9341-00cc6deb0822.pdf",
+            "news_date": "2025-09-07 00:12:03"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ce49a7d-1a2e-4c75-90e1-eb4f854317ff.pdf",
+            "news_date": "2025-09-06 13:02:31"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For The Purpose Of Dividend For FY 2024-25",
+            "news_body": "Record Date for the purpose of dividend for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d45bed89-5fa9-4ec8-ace7-7f92d5e2193c.pdf",
+            "news_date": "2025-09-05 23:34:48"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of Annual General Meeting Record Date And Cut-Off Date",
+            "news_body": "Intimation of Annual General Meeting Record Date and Cut-off Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e17b6f1-48f4-42d2-9261-ecade827c16b.pdf",
+            "news_date": "2025-09-05 23:31:30"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Ajeet Singh as an Additional and Whole Time Director of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91ed365a-4c3a-4b7c-9a0c-99f356c4395b.pdf",
+            "news_date": "2025-09-05 23:08:33"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Preferential Issue",
+            "caption": "Announcement under Regulation 30 (LODR)-Preferential Issue",
+            "news_body": "Issue of convertible warrants on preferential basis to promoter/ promoter group and non-promoters",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9dd1f537-295a-49a2-8d55-f3e9714be72c.pdf",
+            "news_date": "2025-09-05 23:00:47"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=def05786-fece-486c-b6ef-4d4918471c14.pdf",
+            "news_date": "2025-09-05 21:40:25"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Issue Of Securities Of The Company On Preferential Basis",
+            "news_body": "Sunteck Realty Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/09/2025 inter alia to consider and approve issue of securities of the Company on Preferential Basis towards raising of additional capital by the Company upto Rs. 500 crores",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d007ece-1eed-4c3d-bf67-8fad7ee83a83.pdf",
+            "news_date": "2025-09-02 21:48:38"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst / Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=caf248d7-e7b7-4e9f-b9df-0c16999f4ca8.pdf",
+            "news_date": "2025-08-28 17:50:21"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of incorporation of a wholly owned subsidiary of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef05ae56-0e2d-4ce4-8f29-8e5fbc41f3c6.pdf",
+            "news_date": "2025-08-21 18:57:23"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of Incorporation of a wholly-owned Subsidiary of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db8d1754-2605-4ad5-8110-f196ccfe5a72.pdf",
+            "news_date": "2025-08-13 19:24:45"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8aa79d32-7f93-4e4a-94d0-a79b33df8e97.pdf",
+            "news_date": "2025-08-08 17:31:51"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement with regard to Notice for transfer of equity shares of the Company to IEPF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2116c1a1-5e9c-4fc4-9661-198da283c5f9.pdf",
+            "news_date": "2025-07-26 17:26:35"
+        },
+        {
             "sym": "SUNTECK",
             "disp": "Sunteck Realty",
             "bse_code": 512179,
@@ -216,6 +997,28 @@
             "sid": 17641,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call on Q1 FY 2026 Results and Business Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=969fd609-61af-4ee5-81c1-3a1475e9f50d.pdf",
+            "news_date": "2025-07-24 17:14:21"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Pursuant To Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73c31678-4bc2-4752-952c-5640b64a17f4.pdf",
+            "news_date": "2025-07-23 16:41:56"
         },
         {
             "sym": "SUNTECK",
@@ -242,6 +1045,17 @@
             "seg": "E"
         },
         {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Conference call on Q1 FY 2026 Results and Business Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4e7ef27-6089-47c1-a63c-b691cf37825c.pdf",
+            "news_date": "2025-07-18 19:21:02"
+        },
+        {
             "sym": "SUNTECK",
             "disp": "Sunteck Realty",
             "bse_code": 512179,
@@ -264,6 +1078,28 @@
             "sid": 17641,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Q1 FY26 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7741e68f-6ae4-472e-99f7-e141f3bbe5d9.pdf",
+            "news_date": "2025-07-17 20:40:08"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a69d05d-e7e0-4c10-8000-8b08a2461d74.pdf",
+            "news_date": "2025-07-17 19:04:39"
         },
         {
             "sym": "SUNTECK",
@@ -290,6 +1126,149 @@
             "seg": "E"
         },
         {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial For The Quarter Ended 30Th June 2025",
+            "news_body": "Unaudited Financial Results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd7643c7-b527-48e8-b99b-f7670b312787.pdf",
+            "news_date": "2025-07-17 18:51:35"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for For The Quarter Ended 30Th June 2025",
+            "news_body": "Unaudited Financial Results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=faafdb67-4ea4-4c71-95b3-0f82c2df2061.pdf",
+            "news_date": "2025-07-17 18:37:05"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earning Conference Call on Q1 FY 2026 results and business updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f096ecc6-448b-4eb2-82e3-b2d382a70404.pdf",
+            "news_date": "2025-07-12 12:10:20"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting For Unaudited Results For The Quarter Ended 30Th June 2025 And Closure Of Trading Window.",
+            "news_body": "Sunteck Realty Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/07/2025 inter alia to consider and approve unaudited Financial Results for the quarter ended 30th June 2025 and other business matters",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3ace708-e5f4-49dc-802a-b0ae4afa4681.pdf",
+            "news_date": "2025-07-11 20:56:07"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the Securities and Exchange Board of India (Depository and Participants) Regulations 2018 for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a1f7f1d-aaea-4440-a8d9-4f9914452bc9.pdf",
+            "news_date": "2025-07-08 19:09:51"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d13a65a4-86a1-4c9c-a61c-2b6a8492ff9e.pdf",
+            "news_date": "2025-06-27 18:10:10"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7102a9bb-b4e1-4e5d-9390-4903bec6eb3e.pdf",
+            "news_date": "2025-06-06 17:12:45"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the Financial Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fab06293-ccea-4b38-9af6-e4e91485f803.pdf",
+            "news_date": "2025-05-30 16:58:53"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Pursuant To Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e782af6-b034-476a-8196-f2ebcfef2345.pdf",
+            "news_date": "2025-05-29 15:33:09"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Glint Infraprojects Pvt Ltd & Others",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A75749D1_4AB4_4159_B918_071B0A7038BD_111912.pdf",
+            "news_date": "2025-05-26 11:19:16"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=600bb1fa-a7dd-4cf5-843d-d0793e5e361d.pdf",
+            "news_date": "2025-05-22 17:11:13"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Incorporation of Wholly Owned Subsidiary viz. Apricum Buildwell Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ef8726e-a199-4d7f-a05c-28ed3e520cb4.pdf",
+            "news_date": "2025-05-19 19:11:30"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Samagra Wealthmax Pvt Ltd & Othes",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95428425_E9A8_45AB_B9A7_A95C49C1BE53_121211.pdf",
+            "news_date": "2025-05-12 12:12:15"
+        },
+        {
             "sym": "SUNTECK",
             "disp": "Sunteck Realty",
             "bse_code": 512179,
@@ -312,6 +1291,50 @@
             "sid": 17641,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call on Q4 and Full Year F.Y. 2025 Results and Business Updates.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34e15f4e-8e72-4fc1-9d20-343f112bc8e7.pdf",
+            "news_date": "2025-05-09 19:47:40"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Disclosure under Regulation 30 of SEBI Listing Regulations with respect to Scheme of Amalgamation of Starlight Systems Private Limited and Satguru Infocorp Services Private Limited with Sunteck Realty Limited and their respective Shareholders - further update.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a863bf48-8bc7-4879-a589-b158d99475b6.pdf",
+            "news_date": "2025-05-09 19:37:44"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Code of Conduct under SEBI (PIT) Regulations 2015",
+            "caption": "Announcement under Regulation 30 (LODR)-Code of Conduct under SEBI (PIT) Regulations 2015",
+            "news_body": "Report of violation related to Code of Conduct under the SEBI (Prohibition of Insider Trading) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11f251db-fe8d-4639-8bf8-f93daa8ff176.pdf",
+            "news_date": "2025-05-09 19:23:51"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Samagra Wealthmax Pvt Ltd & Others",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=D8632782_F758_4680_B2D6_92AE22E96A5B_104652.pdf",
+            "news_date": "2025-05-09 10:46:56"
         },
         {
             "sym": "SUNTECK",
@@ -338,6 +1361,17 @@
             "seg": "E"
         },
         {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Conference call on Q4 & Full Year FY 2025 results and business updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ac2439-3f2f-44c5-94c1-5499aff32e19.pdf",
+            "news_date": "2025-05-05 18:42:40"
+        },
+        {
             "sym": "SUNTECK",
             "disp": "Sunteck Realty",
             "bse_code": 512179,
@@ -362,6 +1396,50 @@
             "seg": "E"
         },
         {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Q4 and Full Year FY 2025 results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b970b1f9-e0c4-403e-ad79-e56d8287e23a.pdf",
+            "news_date": "2025-05-04 23:11:54"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15afe4a0-1343-4610-87e3-a47b26747813.pdf",
+            "news_date": "2025-05-02 18:34:38"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "The Board of Directors of the Company has approved Re-appointment of Statutory Auditor Appointment of Secretarial Auditor Re-appointment of Internal Auditor and Appointment of Cost Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd75c64b-d156-4f51-88af-492b6813c7df.pdf",
+            "news_date": "2025-05-02 18:26:11"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Declaration of Dividend for the financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b6d7003-ea7f-4ae5-9b32-4a7496dc0fec.pdf",
+            "news_date": "2025-05-02 18:12:49"
+        },
+        {
             "sym": "SUNTECK",
             "disp": "Sunteck Realty",
             "bse_code": 512179,
@@ -384,6 +1462,28 @@
             "sid": 17641,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Year Ended 31St March 2025",
+            "news_body": "Financial Results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e759e14-cfc7-464d-bb83-28e6f6244fcb.pdf",
+            "news_date": "2025-05-02 18:04:30"
+        },
+        {
+            "co_code": 6838,
+            "bse_code": 512179,
+            "isin": "INE805D01034",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 2Nd May 2025",
+            "news_body": "Outcome of Board Meeting held on 2nd May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dda9fecc-fe3a-4c0a-8a20-9e5afedaf951.pdf",
+            "news_date": "2025-05-02 17:58:03"
         },
         {
             "sym": "SUNTECK",
@@ -1945,6 +3045,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

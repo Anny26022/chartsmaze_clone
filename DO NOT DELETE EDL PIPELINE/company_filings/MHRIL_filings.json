@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54ff7cf0-74f0-4e4d-8af9-0ee56ff24c44.pdf",
+            "news_date": "2026-02-09 17:38:13"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06fbc4ea-6246-4e20-80c0-f40b18c17391.pdf",
+            "news_date": "2026-02-03 18:02:04"
+        },
+        {
             "sym": "MHRIL",
             "disp": "Mahindra Holidays",
             "bse_code": 533088,
@@ -24,6 +46,50 @@
             "sid": 17333,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79f7d398-027c-4486-953b-061880071021.pdf",
+            "news_date": "2026-02-03 12:41:10"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a357f67-e82c-4358-8802-ff0ce68723e4.pdf",
+            "news_date": "2026-01-30 16:40:47"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=315c5abc-b337-4d89-979d-ef6e9cb748ba.pdf",
+            "news_date": "2026-01-29 23:08:02"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Amendment To The Code Of Practices And Procedures For Fair Disclosure Of Unpublished Price Sensitive Information-Intimation Under Regulation 8(2) Of SEBI (Prohibition Of Insider Trading) Regulations 2015",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed03a14b-c335-4355-80b8-38f6024e8517.pdf",
+            "news_date": "2026-01-29 14:02:32"
         },
         {
             "sym": "MHRIL",
@@ -50,6 +116,28 @@
             "seg": "E"
         },
         {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4abc239d-2919-48a2-9ddb-32f0349941e5.pdf",
+            "news_date": "2026-01-29 13:58:10"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b257ffab-062c-45d6-a0ab-0689d0bd3434.pdf",
+            "news_date": "2026-01-29 13:55:38"
+        },
+        {
             "sym": "MHRIL",
             "disp": "Mahindra Holidays",
             "bse_code": 533088,
@@ -72,6 +160,226 @@
             "sid": 17333,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Meeting Of The Board Of Directors",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=efc8a338-2a3a-49db-83cd-7420dfa4fa42.pdf",
+            "news_date": "2026-01-29 13:53:34"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Meeting Of The Board Of Directors",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b9ba472-f36f-4b48-8a69-95c6fe21fcc6.pdf",
+            "news_date": "2026-01-29 13:49:00"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for HDFC Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6EFAAC33_4699_40EF_BA83_31A99BB39BCD_170105.pdf",
+            "news_date": "2026-01-27 17:01:10"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements)Regulations 2015 - ESG Rating",
+            "news_body": "Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=978b428f-2e79-4d26-81b9-5f2bdc339afe.pdf",
+            "news_date": "2026-01-19 17:39:20"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8401adc2-bb01-401e-8907-08383de4c0a6.pdf",
+            "news_date": "2026-01-13 16:35:03"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories & Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c961a96-dd66-4002-812a-a25794e0e075.pdf",
+            "news_date": "2026-01-13 15:30:27"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95fc0f23-2037-4147-9474-11a26192ce8e.pdf",
+            "news_date": "2025-12-31 16:15:54"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting Of Mahindra Holidays & Resorts India Limited For Considering The Financial Results For Q3 FY 2026 And Closure Of Trading Window In Connection With The Same.",
+            "news_body": "Mahindra Holidays & Resorts India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/01/2026 inter alia to consider and approve Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0ac9e2e-a69c-4ee7-b32c-a8aff2d899a6.pdf",
+            "news_date": "2025-12-31 16:11:08"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c874d644-c88a-4ea2-b46b-c7d240bf7982.pdf",
+            "news_date": "2025-12-27 14:22:38"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations) - Update On Material Tax Litigation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b35cd599-1065-4c77-ac58-3e2aaf1f4fe0.pdf",
+            "news_date": "2025-12-24 18:38:49"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68a95f2d-3e61-4042-8a2c-7937afdd0408.pdf",
+            "news_date": "2025-12-24 12:51:02"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95273110-6b0d-46f9-8c17-ed071b4ae104.pdf",
+            "news_date": "2025-12-24 12:47:10"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da4a782d-3776-4c07-8104-f2408aa2eaa2.pdf",
+            "news_date": "2025-12-15 22:37:32"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2de492fc-6c1a-483f-86cc-bed7f727bb58.pdf",
+            "news_date": "2025-12-04 22:18:01"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4cc8fef-a0ce-47a4-81bb-f56d3a8671b0.pdf",
+            "news_date": "2025-12-03 18:35:17"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Transcript Of Analyst/Institutional Investor Conference Call Held On Monday 24Th November 2025",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3ed2417-8ede-47a0-b40e-398cda6ac7cc.pdf",
+            "news_date": "2025-11-28 16:08:11"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=890c3921-fd08-46a9-9f3a-3f03e29499f5.pdf",
+            "news_date": "2025-11-24 19:42:33"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Updated joining link for analyst conference call scheduled on Monday 24th November 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eecf31b0-4086-4be9-90ce-23703191bef9.pdf",
+            "news_date": "2025-11-21 13:27:26"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8528dda5-9774-45df-a055-75f0e034ac91.pdf",
+            "news_date": "2025-11-20 21:32:43"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bfacdaa-3345-4b26-9865-8603bc6b2af6.pdf",
+            "news_date": "2025-11-20 21:28:45"
         },
         {
             "sym": "MHRIL",
@@ -98,6 +406,72 @@
             "seg": "E"
         },
         {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8af44181-c04d-480e-b7c6-b50316cd5256.pdf",
+            "news_date": "2025-11-20 09:23:14"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Leisure Hospitality As A New Line Of Business.",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81190554-68c9-4f6d-999b-cd5a96b3cdd9.pdf",
+            "news_date": "2025-11-20 00:39:40"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find attached the press release titled Mahindra Holidays sets bold vision for leisure hospitality.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0be8c1e3-33ba-48ad-981f-cba087a27586.pdf",
+            "news_date": "2025-11-20 00:36:13"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Diversification / Disinvestment",
+            "caption": "Announcement under Regulation 30 (LODR)-Diversification / Disinvestment",
+            "news_body": "The Board of Directors have approved entering into Leisure Hospitality Business which shall be carried out through a wholly owned subsidiary of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57587295-5d62-4953-b6e8-d0aafd92b6a6.pdf",
+            "news_date": "2025-11-20 00:31:10"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b62b78a9-e6da-41c1-afbe-4b55c0ae201b.pdf",
+            "news_date": "2025-11-17 18:15:05"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53e6f516-a2be-4627-9bd5-bc0f7a525db0.pdf",
+            "news_date": "2025-11-07 20:32:12"
+        },
+        {
             "sym": "MHRIL",
             "disp": "Mahindra Holidays",
             "bse_code": 533088,
@@ -120,6 +494,72 @@
             "sid": 17333,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fe10d98-e5a4-4b41-97a5-42e7d24eb5e1.pdf",
+            "news_date": "2025-11-06 15:33:50"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50a92407-6475-4ac1-a3cb-aaac5b6b139d.pdf",
+            "news_date": "2025-11-04 18:46:08"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9305666e-3a41-4798-9deb-836ac203406c.pdf",
+            "news_date": "2025-11-04 18:34:14"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20bd6bb2-35e1-499a-8de8-b983cb092475.pdf",
+            "news_date": "2025-11-01 16:31:04"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae8c6c4a-2166-41d1-88af-0fa035dd0b7b.pdf",
+            "news_date": "2025-10-31 21:42:00"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Contact Details Of Key Managerial Personnel Under Regulation 30(5) Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab278ba9-00e6-4839-a0bd-c7f08b3611b0.pdf",
+            "news_date": "2025-10-31 20:32:50"
         },
         {
             "sym": "MHRIL",
@@ -146,6 +586,28 @@
             "seg": "E"
         },
         {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Unaudited Financial Results - Q2-FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95494443-5e42-4d9c-94cc-5702db64d7f4.pdf",
+            "news_date": "2025-10-31 18:04:52"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release - Unaudited Financial Results Q2-FY 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32fb7498-504f-4e28-907b-3eae4280ab50.pdf",
+            "news_date": "2025-10-31 17:58:02"
+        },
+        {
             "sym": "MHRIL",
             "disp": "Mahindra Holidays",
             "bse_code": 533088,
@@ -168,6 +630,204 @@
             "sid": 17333,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Meeting Of The Board Of Directors For Considering Q2 FY-2026 Financial Results",
+            "news_body": "Outcome of the meeting of the Board of Directors for considering Q2 FY-2026 financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83177dd3-f56a-4e4e-8595-9bf8272d4e99.pdf",
+            "news_date": "2025-10-31 17:51:38"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Meeting Of The Board Of Directors",
+            "news_body": "Outcome of the meeting of the Board of Directors for considering Q2 FY-2026 financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75c9f08d-b227-40d0-9ca9-9de5c36baa09.pdf",
+            "news_date": "2025-10-31 17:33:10"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0054bb42-1bcb-4462-98bc-3afcab9ba9ce.pdf",
+            "news_date": "2025-10-13 19:28:18"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d087473-d4b9-4087-9ba4-f69cf5cf38bf.pdf",
+            "news_date": "2025-10-13 18:07:52"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fdb5c5f-8aad-4547-a828-eb507212cdf5.pdf",
+            "news_date": "2025-10-10 10:04:25"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories & Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=673f33c8-7892-4bbe-a6d0-cf9700a849d6.pdf",
+            "news_date": "2025-10-09 19:04:52"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c194a036-2e24-4ab5-b33c-11b156ddcb5f.pdf",
+            "news_date": "2025-10-07 17:06:26"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8bdb373-d9ce-4767-93db-96717531dc74.pdf",
+            "news_date": "2025-10-07 14:44:12"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48cf5e5f-0dc2-49bd-a502-76f29d495344.pdf",
+            "news_date": "2025-09-30 19:05:11"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Intimation Of Board Meeting",
+            "news_body": "Mahindra Holidays & Resorts India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/10/2025 inter alia to consider and approve Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62130ba0-857c-4af3-a290-5ab190cff0a4.pdf",
+            "news_date": "2025-09-30 19:03:47"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)- Updates",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cea0a74c-c493-480e-888e-c1fa1aa0b99b.pdf",
+            "news_date": "2025-09-20 07:53:03"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1dd52165-dbd1-406e-94a4-c0bf2efac9a7.pdf",
+            "news_date": "2025-09-10 18:53:40"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5088827c-484d-4be7-8499-52fc3e9960aa.pdf",
+            "news_date": "2025-08-28 11:05:55"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e0b9bf5-675f-4427-9c25-a80150c22f82.pdf",
+            "news_date": "2025-08-21 18:59:12"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Saksham Niveshak - 100 Days Campaign From 28Th July 2025 To 6Th November 2025 - Request The Shareholder To Update KYC Details And Claim The Unclaimed Dividend",
+            "news_body": "Please find the attached document on the captioned subject",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2817bce0-a647-4b12-8e44-f7cced31d273.pdf",
+            "news_date": "2025-08-21 18:43:31"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17e26c4c-1df8-44ee-8432-489f5a1d68ae.pdf",
+            "news_date": "2025-08-12 15:40:24"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Special Window For Re-Lodgement Of Transfer Requests Of Physical Shares",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a790ebd-c799-4fcb-9961-12b7deba9c57.pdf",
+            "news_date": "2025-08-12 14:21:32"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e2f376e-2a4c-4603-93ae-629a25a3ebbf.pdf",
+            "news_date": "2025-08-06 09:35:53"
         },
         {
             "sym": "MHRIL",
@@ -194,6 +854,94 @@
             "seg": "E"
         },
         {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a555b7f-14d1-4e24-82f6-f885ed34603f.pdf",
+            "news_date": "2025-07-31 16:45:13"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 - Details Of Material Litigation",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fd2d4b4-8e56-40ae-b7fe-d8daa5db6d02.pdf",
+            "news_date": "2025-07-26 13:18:13"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6897dba8-32a0-4287-a7ed-cd5191af5c93.pdf",
+            "news_date": "2025-07-24 19:16:28"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d5cdd1b-86f9-4948-9b28-aa6cb0f28ccf.pdf",
+            "news_date": "2025-07-24 16:34:47"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer the attached file with respect to appointment of M/s. Siroya and BA Associates as the Secretarial Auditors of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a273640-0f22-4b87-9594-38f747311d28.pdf",
+            "news_date": "2025-07-23 23:25:00"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2837d62b-0003-42d6-9ac2-588fb6ea0250.pdf",
+            "news_date": "2025-07-23 23:21:20"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2099c14-6878-46c9-82c9-b519e3966f37.pdf",
+            "news_date": "2025-07-23 23:11:05"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=062297ce-ecc7-46c1-bc09-4b3fb10f4b17.pdf",
+            "news_date": "2025-07-23 21:21:14"
+        },
+        {
             "sym": "MHRIL",
             "disp": "Mahindra Holidays",
             "bse_code": 533088,
@@ -216,6 +964,39 @@
             "sid": 17333,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3e7aa8a-6ca8-4617-b6cb-41ead6dbad70.pdf",
+            "news_date": "2025-07-23 14:56:47"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=641f92cf-bd3f-44a6-b73d-cf87b4d063fe.pdf",
+            "news_date": "2025-07-23 14:45:48"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9e90b3f-b389-4dee-b4ba-1c743ea79202.pdf",
+            "news_date": "2025-07-23 14:35:53"
         },
         {
             "sym": "MHRIL",
@@ -242,6 +1023,270 @@
             "seg": "E"
         },
         {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Intimation Under Regulation 33 Read With Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations) - Outcome Of Board Meeting",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc322eb8-91c7-43b7-9681-735594fb8093.pdf",
+            "news_date": "2025-07-23 14:32:59"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Intimation Under Regulation 33 Read With Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations) - Outcome Of Board Meeting",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72ffd4ba-7bfb-4973-9b91-3ede1d88a66c.pdf",
+            "news_date": "2025-07-23 14:21:54"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69e313ac-a195-45de-8550-74145b4b0f36.pdf",
+            "news_date": "2025-07-11 10:54:51"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ecaa02b-5707-4512-81a3-4a3c6c176281.pdf",
+            "news_date": "2025-07-07 15:51:37"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2cfd9f4e-9790-4136-b191-08b8e0dc9b9a.pdf",
+            "news_date": "2025-07-03 16:53:22"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Intimation Under Regulation 47 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations)",
+            "news_body": "Please refer the attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=741da42e-597b-4a8a-b12a-d5bdf8ac1be4.pdf",
+            "news_date": "2025-07-01 15:08:56"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To Members - Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please refer the attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f35bbcd-c5cd-4856-bd87-af5546a2aa04.pdf",
+            "news_date": "2025-06-30 20:19:22"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Please refer attach file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1912d5fe-94ee-443a-8f84-e2cc13fa87a0.pdf",
+            "news_date": "2025-06-30 19:48:44"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eafc1d40-b22d-4e2d-ab1a-3842a31e9906.pdf",
+            "news_date": "2025-06-30 19:33:59"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 29Th Annual General Meeting And Integrated Annual Report Of The Company For The Financial Year 2024-25",
+            "news_body": "Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58b2392d-375f-407b-a950-8a3b4d2bb998.pdf",
+            "news_date": "2025-06-30 19:19:05"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c5bce48-6160-4358-a34a-6254890ba899.pdf",
+            "news_date": "2025-06-30 18:27:45"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "Mahindra Holidays & Resorts India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/07/2025 inter alia to consider and approve Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cdc95ab-f5a0-4ae4-8a22-82fa1b177b57.pdf",
+            "news_date": "2025-06-30 18:25:00"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef3aafb2-f415-42b8-9a64-c5bfb8f7bd85.pdf",
+            "news_date": "2025-06-29 12:20:27"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=351aa08c-46b3-49c6-8c42-157a1aa4ed07.pdf",
+            "news_date": "2025-06-25 15:02:10"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09984e32-93a3-4745-9fe2-f3df3e88c62f.pdf",
+            "news_date": "2025-06-13 14:52:13"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=037ca4fd-79e4-482f-a230-1251875a5e58.pdf",
+            "news_date": "2025-06-13 14:49:54"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14f81db7-d44c-4370-99f9-06986a6cf5fb.pdf",
+            "news_date": "2025-06-03 14:30:20"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d93a8c64-c485-4fda-aa02-4182b765a61c.pdf",
+            "news_date": "2025-06-02 15:38:25"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc13b8b2-eca4-45e8-a6da-b29e4385f193.pdf",
+            "news_date": "2025-06-01 11:00:05"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6c03efc-a22e-47eb-b8fe-dd4d58a7976f.pdf",
+            "news_date": "2025-05-28 16:07:46"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68c62a03-77fe-4960-8793-9955d70a1321.pdf",
+            "news_date": "2025-05-28 15:47:29"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for HDFC Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A1A7026A_435E_42B2_AD92_903FFC143D70_084724.pdf",
+            "news_date": "2025-05-28 08:47:29"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please refer attached file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1889de01-5e3f-4e7f-9698-7137c564e29e.pdf",
+            "news_date": "2025-05-19 11:37:02"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98a1b9f6-9d73-42da-843b-462581c25e6e.pdf",
+            "news_date": "2025-05-12 12:21:15"
+        },
+        {
             "sym": "MHRIL",
             "disp": "Mahindra Holidays",
             "bse_code": 533088,
@@ -264,6 +1309,61 @@
             "sid": 17333,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8a201b6-be81-47e6-ad11-744a3198a4a8.pdf",
+            "news_date": "2025-05-05 14:50:40"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17fba1b0-dd0a-433e-94a7-5822a41b4ff2.pdf",
+            "news_date": "2025-04-30 12:40:49"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0583b30-d2ee-4521-83b0-458cecc0e75f.pdf",
+            "news_date": "2025-04-25 19:35:47"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b9496cf-0d34-4b4b-abf5-5a9ddf04867f.pdf",
+            "news_date": "2025-04-25 17:38:01"
+        },
+        {
+            "co_code": 18268,
+            "bse_code": 533088,
+            "isin": "INE998I01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Please refer attached file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=414a553b-a8e7-4019-aaa5-86937e2fb695.pdf",
+            "news_date": "2025-04-25 17:26:27"
         },
         {
             "sym": "MHRIL",
@@ -1705,6 +2805,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

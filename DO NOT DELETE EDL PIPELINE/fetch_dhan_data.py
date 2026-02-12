@@ -5,6 +5,11 @@ import os
 def fetch_all_dhan_data():
     url = "https://ow-scanx-analytics.dhan.co/customscan/fetchdt"
     
+    # Paths relative to script
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    output_file = os.path.join(BASE_DIR, "dhan_data_response.json")
+    master_map_file = os.path.join(BASE_DIR, "master_isin_map.json")
+
     # Payload as specified by the user
     # Trying a large count to get "all available" in one call as requested
     payload = {
@@ -21,7 +26,7 @@ def fetch_all_dhan_data():
                 "PricePerchng3mon", "YearlyEarningPerShare", "OCFGrowthOnYr", "Year1CAGREPSGrowth", "NetChangeInCash",
                 "FreeCashFlow", "PricePerchng2week", "DayBbUpper_Sub_BbLower", "DayATR14CurrentCandleMul_2",
                 "Min5HighCurrentCandle", "Min15HighCurrentCandle", "Min5EMA50CurrentCandle", "Min15EMA50CurrentCandle",
-                "Min15SMA100CurrentCandle", "Open", "BcClose", "Rmp", "PledgeBenefit"
+                "Min15SMA100CurrentCandle", "Open", "BcClose", "Rmp", "PledgeBenefit", "idxlist", "Sid"
             ],
             "params": [
                 {"field": "OgInst", "op": "", "val": "ES"},
@@ -51,7 +56,6 @@ def fetch_all_dhan_data():
         if 'data' in data and isinstance(data['data'], list):
             cleaned_data = data['data']
             # Save the cleaned list to a JSON file
-            output_file = "dhan_data_response.json"
             with open(output_file, "w") as f:
                 json.dump(cleaned_data, f, indent=4)
             print(f"Successfully fetched {len(cleaned_data)} items. Saved to {output_file}")
@@ -63,20 +67,22 @@ def fetch_all_dhan_data():
                 sym = item.get('Sym')
                 isin = item.get('Isin')
                 disp_sym = item.get('DispSym')
+                sid = item.get('sid')
                 
                 if sym and isin:
                     master_map.append({
                         "Symbol": sym,
                         "ISIN": isin,
-                        "Name": disp_sym
+                        "Name": disp_sym,
+                        "Sid": sid
                     })
             
             # Sort for consistency
             master_map.sort(key=lambda x: x['Symbol'])
             
-            with open("master_isin_map.json", "w") as f_map:
+            with open(master_map_file, "w") as f_map:
                 json.dump(master_map, f_map, indent=4)
-            print(f"Successfully saved {len(master_map)} symbols to master_isin_map.json")
+            print(f"Successfully saved {len(master_map)} symbols (with Sid) to {master_map_file}")
         else:
             print("Response structure might be different than expected.")
             

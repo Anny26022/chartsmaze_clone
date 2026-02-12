@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 73199,
+            "bse_code": 0,
+            "isin": "INE548Z01017",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "Lagnam Spintex Limited has informed the Exchange about Copy of Newspaper Publication",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LAGNAM_10022026135124_NewspaperPublicationFinancialResults080226.pdf",
+            "news_date": "2026-02-10 00:00:00"
+        },
+        {
             "sym": "LAGNAM",
             "disp": "Lagnam Spintex",
             "bse_code": 0,
@@ -24,6 +35,39 @@
             "sid": 5865,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 73199,
+            "bse_code": 0,
+            "isin": "INE548Z01017",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Lagnam Spintex Limited has submitted to the Exchange, the financial results for the period ended December 31, 2025.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LAGNAM_07022026141914_OutcomeOfBoardMeeting07022026.pdf",
+            "news_date": "2026-02-07 00:00:00"
+        },
+        {
+            "co_code": 73199,
+            "bse_code": 0,
+            "isin": "INE548Z01017",
+            "ann_type": "General Updates",
+            "descriptor": "General Updates",
+            "caption": "General Updates",
+            "news_body": "Lagnam Spintex Limited has informed the Exchange about General Updates",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LAGNAM_07022026143959_OutcomeUpdate070226.pdf",
+            "news_date": "2026-02-07 00:00:00"
+        },
+        {
+            "co_code": 73199,
+            "bse_code": 0,
+            "isin": "INE548Z01017",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "Lagnam Spintex Limited has informed the Exchange about Copy of Newspaper Publication",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LAGNAM_11112025185849_NewspaperPublication300925Results.pdf",
+            "news_date": "2025-11-11 00:00:00"
         },
         {
             "sym": "LAGNAM",
@@ -72,7 +116,17 @@
             "sid": 5865,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 73199,
+            "bse_code": 0,
+            "isin": "INE548Z01017",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Lagnam Spintex Limited has submitted to the Exchange, the financial results for the period ended September 30, 2025.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LAGNAM_10112025142257_OUTCOMEANDFRSEP25_101125.pdf",
+            "news_date": "2025-11-10 00:00:00"
         }
-    ],
-    "remarks": ""
+    ]
 }

@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd31f695-c58a-43a2-b862-eacf09f31f0a.pdf",
+            "news_date": "2026-02-12 12:30:30"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of allotment of 21870 equity shares pursuant to exercise of Employee Stock Options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74d7616d-dbe1-4720-8a9b-a740b6ae2516.pdf",
+            "news_date": "2026-02-12 12:13:49"
+        },
+        {
             "sym": "FIVESTAR",
             "disp": "Five Star Business Finance",
             "bse_code": 543663,
@@ -24,6 +46,17 @@
             "sid": 12032,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Earnings Conference Call for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ea9036b-4bd7-4da1-9bb4-f9037991c4db.pdf",
+            "news_date": "2026-02-03 12:43:49"
         },
         {
             "sym": "FIVESTAR",
@@ -50,6 +83,39 @@
             "seg": "E"
         },
         {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recordings of the Earnings Conference Call for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc5c2c06-804c-4baa-8e96-3983cbc4c6d3.pdf",
+            "news_date": "2026-01-29 15:55:23"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "News Paper Publication - Unaudited financial results for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2386fa9-9e7b-454d-9cc9-f0f430229da5.pdf",
+            "news_date": "2026-01-29 15:44:06"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Investor Press Release on the Financial and Operational Performance of the Company for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f947dd9-88ed-4a93-b227-96495afb29e7.pdf",
+            "news_date": "2026-01-28 18:19:26"
+        },
+        {
             "sym": "FIVESTAR",
             "disp": "Five Star Business Finance",
             "bse_code": 543663,
@@ -72,6 +138,39 @@
             "sid": 12032,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the unaudited financial results for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=314eec30-5d85-4475-8076-3315dd3289df.pdf",
+            "news_date": "2026-01-28 18:14:00"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment/ Re- Appointment of Independent Director- Intimation under Regulation 30 read with Para A of Part A of Schedule III and Regulation 51 of SEBI (LODR ) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=927ce2b0-afc8-4eb1-b15d-37f0d47344eb.pdf",
+            "news_date": "2026-01-28 18:09:40"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 32 (1) (3) - Statement of Deviation & Variation",
+            "caption": "Statement Of Nil Deviation Or Variation As Per Regulation 32 Of SEBI (LODR) Regulations 2015 For The Quarter Ended December 31 2025",
+            "news_body": "Statement of Nil Deviation or variation as per Regulation 32 of SEBI (LODR) Regulations 2015 for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e427b5c4-bce0-42e1-abd3-8c0df2ec4e1f.pdf",
+            "news_date": "2026-01-28 18:04:44"
         },
         {
             "sym": "FIVESTAR",
@@ -98,6 +197,226 @@
             "seg": "E"
         },
         {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Statements/Results For The Quarter And Nine Months Ended December 312025",
+            "news_body": "Unaudited financial statements/results for the quarter and nine months ended December 312025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d629004-087f-4483-bcea-a7b4841e06b7.pdf",
+            "news_date": "2026-01-28 17:32:26"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On Wednesday January 28 2026 And Submission Of Unaudited Financial Statements/Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Outcome of the Board meeting held on Wednesday January 28 2026 and submission of unaudited financial statements/results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2cc106a-8c75-475a-892f-0807ec27b1a7.pdf",
+            "news_date": "2026-01-28 17:25:17"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": " Intimation on Q3 FY 26 earnings conference call scheduled on 29/01/2026 at 10.00 AM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31be0ac0-3f00-4005-b98f-869e77d7f191.pdf",
+            "news_date": "2026-01-23 18:39:17"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation About Board Meeting Pursuant To Regulation 29 And 50 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Five-Star Business Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/01/2026 inter alia to consider and approve Unaudited Financial results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e8b79d9-82b6-4bf6-84d5-4bd815b89254.pdf",
+            "news_date": "2026-01-21 15:39:19"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of Allotment of 10750 equity shares pursuant to exercise of Employee Stock Options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a00f718-a7b4-4c2a-b3cc-981b48855c94.pdf",
+            "news_date": "2026-01-05 12:19:09"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=feaf4258-dc55-4ce3-9b69-6a353b8ab33c.pdf",
+            "news_date": "2026-01-02 15:10:33"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Wasatch Advisors LP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65A2AA1D_93C5_4523_82C9_BA31ABA7713F_140902.pdf",
+            "news_date": "2025-12-29 14:09:13"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96edc347-bbfc-4506-b9da-e1ec723e1057.pdf",
+            "news_date": "2025-12-27 12:25:44"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of allotment of 59118 equity shares pursuant to exercise of Employee Stock Options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea215224-5d68-4d93-bb6b-8fe78f4dec24.pdf",
+            "news_date": "2025-12-10 10:39:38"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor/Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbf59d9a-9b18-4365-b671-8529d0c64925.pdf",
+            "news_date": "2025-12-09 17:02:36"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a43103d3-c9a3-4694-80b0-a4e518a55f88.pdf",
+            "news_date": "2025-12-08 16:25:35"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=874928be-70ac-4c9d-b368-c47390abee84.pdf",
+            "news_date": "2025-12-08 13:42:34"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8a5372f-3cac-41be-853b-ae8092dc3c5b.pdf",
+            "news_date": "2025-12-08 13:37:01"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bba93651-f0b7-4cfd-bddf-cb2ca6e54e48.pdf",
+            "news_date": "2025-12-08 13:33:47"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bef0acc-c420-441f-b00a-58b0db5d2a34.pdf",
+            "news_date": "2025-12-08 13:31:00"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df1f072f-0f27-4462-a9de-34763c71a508.pdf",
+            "news_date": "2025-12-08 13:27:25"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=277ea7f6-7ce5-48a5-9c38-147247a11a68.pdf",
+            "news_date": "2025-12-08 13:23:06"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7234b87f-97c5-4a5f-bd71-fb1a63b397ea.pdf",
+            "news_date": "2025-11-22 18:01:50"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79d5e4df-6dca-48a1-8810-f0fdc0ddfff3.pdf",
+            "news_date": "2025-11-22 17:51:13"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e7376b7-a35c-4c0e-9743-fd9d15d1b5ad.pdf",
+            "news_date": "2025-11-18 11:31:25"
+        },
+        {
             "sym": "FIVESTAR",
             "disp": "Five Star Business Finance",
             "bse_code": 543663,
@@ -120,6 +439,50 @@
             "sid": 12032,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Q2 FY 26 Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=981147ac-50f5-4495-9b5b-046a73f06f9b.pdf",
+            "news_date": "2025-11-04 19:19:39"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "News Paper Publication- Unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b11824c4-5887-4a88-9753-f113d895ceeb.pdf",
+            "news_date": "2025-10-30 15:31:00"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Investor Presentation on the unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01034f3c-0f0c-43c6-8cca-39b35627788d.pdf",
+            "news_date": "2025-10-29 18:29:06"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 32 (1) (3) - Statement of Deviation & Variation",
+            "caption": "Statement Of Nil Deviation For The Quarter Ended September 302025.",
+            "news_body": "Statement of Nil deviation for the quarter ended September 302025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93a70c25-14f8-4e36-a308-00403ec42423.pdf",
+            "news_date": "2025-10-29 13:40:09"
         },
         {
             "sym": "FIVESTAR",
@@ -146,6 +509,28 @@
             "seg": "E"
         },
         {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9d3a4a1-3819-44d5-906f-d387aa2697c3.pdf",
+            "news_date": "2025-10-29 13:23:30"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Investor Press Release on the financial and operational performance of the Company for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ca10650-ed13-44cf-92fc-19d6db785dd9.pdf",
+            "news_date": "2025-10-29 13:08:45"
+        },
+        {
             "sym": "FIVESTAR",
             "disp": "Five Star Business Finance",
             "bse_code": 543663,
@@ -168,6 +553,446 @@
             "sid": 12032,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On Wednesday October 29 2025 And Submission Of Unaudited Financial Statements/Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "In terms of provisions of regulation 30 read with regulation 51 of SEBI(LODR) Regulations 2015 the Board of Directors of the Company at its meeting held on 29th October 2025 has approved the unaudited financial results for the quarter and half year ended  September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1107b6ce-0416-4a23-b4a7-73e603390db4.pdf",
+            "news_date": "2025-10-29 12:51:03"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On Wednesday October 29 2025 And Submission Of Unaudited Financial Statements/Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "In terms of the provisions of Regulation 30 read with Regulation 51 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 as amended (SEBI LODR Regulations) the Board of Directors of the Company at its meeting held today i.e Wednesday October 29 2025 has inter-alia considered and approved the Un-audited financial results of the Company for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78d1ea3f-eaf4-4310-b1d3-df7e55245c7c.pdf",
+            "news_date": "2025-10-29 12:38:11"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation on schedule of Q2 FY 2026 earnings call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85bca609-46d6-40ae-a141-59f1d2bbe15b.pdf",
+            "news_date": "2025-10-24 18:07:13"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation About Board Meeting Pursuant To Regulation 29 And 50 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Five-Star Business Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/10/2025 inter alia to consider and approve Unaudited financial results for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=113f7ca7-d9dc-4612-a95d-566b57659227.pdf",
+            "news_date": "2025-10-16 18:31:50"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of allotment of 5610 equity shares pursuant to exercise of Employee Stock Options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9692a3b-1f00-41dd-ac21-a001979d9955.pdf",
+            "news_date": "2025-10-08 11:44:09"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b2cb90a-e230-4a7b-934d-f8ab35b81923.pdf",
+            "news_date": "2025-10-07 13:36:34"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=071f3c71-9435-4ad3-83d2-f695cf2443e1.pdf",
+            "news_date": "2025-09-25 17:59:27"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb3b9a19-4bc0-4ae6-b26d-657ba80fc008.pdf",
+            "news_date": "2025-09-22 17:17:37"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80734e3c-93a8-47ac-a5d2-4501330643f2.pdf",
+            "news_date": "2025-09-19 14:57:55"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/ Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65e31a5e-1709-426e-8e4c-bcb01f062c99.pdf",
+            "news_date": "2025-09-19 14:54:36"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fc93490-f393-4e64-84e4-5e5b94d509db.pdf",
+            "news_date": "2025-09-19 14:50:54"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/ Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf6e7236-faaa-4a3b-a7b4-d3a0066bcc76.pdf",
+            "news_date": "2025-09-19 14:47:17"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "Issuance of Non convertible debentures on private placement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0042a37f-a18c-4e43-98d4-ecf3de2dd32c.pdf",
+            "news_date": "2025-09-10 19:18:29"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Secretarial Auditors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22f1ace0-4590-438d-8e17-e9aced324a06.pdf",
+            "news_date": "2025-09-10 19:06:05"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Submission of voting results along with the Scrutinizers Report of the 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02891830-54ac-43c6-8c70-da9aac5ff4d4.pdf",
+            "news_date": "2025-09-10 18:26:04"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for HDFC Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32FFA3D4_9F84_4F18_BB56_B48072BD2784_151432.pdf",
+            "news_date": "2025-09-09 15:14:36"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Summary of proceedings of the 41st  Annual General Meeting (AGM) of Five-Star Business Finance Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ae37671-712a-44b8-b65e-2e969e2b1146.pdf",
+            "news_date": "2025-09-09 12:46:57"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of allotment of 19990 Equity shares pursuant to exercise of Employee Stock Options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38feeb04-555f-4b2f-bf25-a2fa7a76d57e.pdf",
+            "news_date": "2025-09-04 16:21:26"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investor/Analyst Meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99274ce3-b655-49a8-b20f-9340a43a7282.pdf",
+            "news_date": "2025-08-28 14:52:57"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Approval Received From NSE And BSE Regarding Reclassification Of Promoter And Promoter Group As Public Shareholders",
+            "news_body": "Disclosure under Regulation 31A of SEBI LODR Regulations - Approval received from NSE and BSE regarding reclassification of Promoter and Promoter Group as Public shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d43c569-e50c-470b-8b54-746ce58ed888.pdf",
+            "news_date": "2025-08-22 10:26:13"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Notice of 41st Annual General Meeting and remote e-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2f8cee0-c4bd-41a3-92cc-7ffea829e03e.pdf",
+            "news_date": "2025-08-19 16:59:43"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 29 And 50 Of SEBI (LODR)- Prior Intimation For Annual General Meeting (AGM)",
+            "news_body": "Intimation under Regulation 29 and 50 of SEBI(LODR) - Prior intimation of Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b101a9b8-038f-4dab-9a02-cdfc5c38956b.pdf",
+            "news_date": "2025-08-18 13:46:37"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Reporting for FY 2024-2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9df8aca-18dc-418d-83fb-0b47c0265f81.pdf",
+            "news_date": "2025-08-18 12:53:14"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 41St Annual General Meeting (AGM) Of Five-Star Business Finance Limited Which Is Scheduled To Be Held On Tuesday September 09 2025 At 10.00 AM (IST) Through Video\r\nConferencing (VC)/ Other Audio Visual Means (OAVM)",
+            "news_body": "Notice of 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=196ef1db-2717-4353-a387-0cd6d4624843.pdf",
+            "news_date": "2025-08-18 11:29:27"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Regulation 53 (1) Annual Report.",
+            "news_body": "Annual Report for the financial year 2024-25 and Notice of the 41st Annual General Meeting of Five-Star Business Finance Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c3b9be2-1044-45e2-8f03-a79f629ff441.pdf",
+            "news_date": "2025-08-18 11:19:03"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the financial year 2024-25 and Notice of the 41st Annual General Meeting of Five-Star Business Finance Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0518264-d51d-44cd-85a5-dc9ff1fd27f5.pdf",
+            "news_date": "2025-08-18 11:05:17"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a28acb6-9be4-4536-a795-4eb4f60bf92b.pdf",
+            "news_date": "2025-08-16 13:50:03"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2cd4dc47-efce-4106-8217-73dface91483.pdf",
+            "news_date": "2025-08-16 13:47:25"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30(5) Of SEBI LODR Regulations",
+            "news_body": "Intimation under Regulation 30(5) of SEBI LODR Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4895c3af-d302-44f4-a06b-3a20116691b1.pdf",
+            "news_date": "2025-08-14 18:32:08"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Resignation of Mr. Rangarajan Krishnan as Joint Managing Director & CEO w.e.f August 14 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=063a4947-6054-463c-9a02-6b5c8c7dc1e6.pdf",
+            "news_date": "2025-08-14 18:24:45"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Notice of 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4e2a695-1139-424c-9e35-a8d3a0447d9b.pdf",
+            "news_date": "2025-08-14 17:41:25"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investor/Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=003435f8-f3e1-4734-98c2-c2ab70709666.pdf",
+            "news_date": "2025-08-07 17:53:44"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investor/Analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34b142ea-2f4e-4b9f-b3c4-7f6553b73f9e.pdf",
+            "news_date": "2025-08-07 17:50:46"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investor/Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d34de460-6a61-499e-bb32-57f08622c620.pdf",
+            "news_date": "2025-08-07 17:41:50"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of allotment of 6385 shares pursuant to exercise of Employee Stock Options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3846ded5-14fb-484b-bd6c-79a3674ac6f6.pdf",
+            "news_date": "2025-08-06 15:48:34"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Q1 FY 26 Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e61fb4a-85c2-4707-9852-b0d9ef6d9ace.pdf",
+            "news_date": "2025-08-04 20:42:46"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f726bc4-e263-4a55-8dfb-433d24f4e43e.pdf",
+            "news_date": "2025-07-31 18:19:27"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37597333-00e4-4aee-9566-0ce21c401531.pdf",
+            "news_date": "2025-07-31 18:17:22"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c865fdec-44e5-432f-a2f2-a88f37e0b4f5.pdf",
+            "news_date": "2025-07-31 18:14:46"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investor/Analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9df1cca6-5b73-4b7f-874d-95f945060daa.pdf",
+            "news_date": "2025-07-30 13:02:49"
         },
         {
             "sym": "FIVESTAR",
@@ -194,6 +1019,72 @@
             "seg": "E"
         },
         {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of the Earnings Conference Call for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9c84dd1-26b6-432c-8139-55daa0aea580.pdf",
+            "news_date": "2025-07-29 17:06:51"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation on Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71ce58f8-45ad-4e58-8152-bae408dd6766.pdf",
+            "news_date": "2025-07-29 16:40:30"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Unaudited financial results for the quarter ended June 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=016acc5c-fda3-445e-a114-9a433619fe3d.pdf",
+            "news_date": "2025-07-29 16:03:09"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 32 (1) (3) - Statement of Deviation & Variation",
+            "caption": "Pursuant To Regulation 32 Of SEBI (LODR)Regulations It Is Hereby Confirmed That During The Quarter Ended June 30 2025 There Are No Deviation Or Variation In The Proceeds Of Issuance Of Convertible Share Warrants.",
+            "news_body": "Pursuant to Regulation 32 of SEBI (LODR) Regulations it is hereby confirmed that during the quarter ended June 30 2025 there are no deviations or variation in the proceeds of issuance of convertible share warrants",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c88facd4-e0c3-4459-ad83-ecc24faf9a86.pdf",
+            "news_date": "2025-07-28 20:04:59"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On 41St Annual General Meeting",
+            "news_body": "Update on 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d4b1d94-a81b-4f92-903b-5c57392ae9d6.pdf",
+            "news_date": "2025-07-28 19:51:52"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Investor Press release on the financial and Operational Performance of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2d5707c-99d2-425e-852e-55113cc7ffdb.pdf",
+            "news_date": "2025-07-28 19:22:13"
+        },
+        {
             "sym": "FIVESTAR",
             "disp": "Five Star Business Finance",
             "bse_code": 543663,
@@ -216,6 +1107,17 @@
             "sid": 12032,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the unaudited financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b80a392a-cc9e-4839-b126-f29ed6c144cd.pdf",
+            "news_date": "2025-07-28 19:19:24"
         },
         {
             "sym": "FIVESTAR",
@@ -242,6 +1144,28 @@
             "seg": "E"
         },
         {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On Monday July 28 2025 And Submission Of Unaudited Financial Statements/Results For The Quarter Ended June 30 2025",
+            "news_body": "The Board has approved the unaudited financial results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1cb5aae-0639-4b24-b68d-be15164fa003.pdf",
+            "news_date": "2025-07-28 19:03:29"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Resignation of Joint Managing Director & CEO",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56a8ab3e-7476-46ba-8753-973880ee1694.pdf",
+            "news_date": "2025-07-28 18:56:20"
+        },
+        {
             "sym": "FIVESTAR",
             "disp": "Five Star Business Finance",
             "bse_code": 543663,
@@ -264,6 +1188,182 @@
             "sid": 12032,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On Monday July 28 2025 And Submission Of Unaudited\r\nFinancial Statements/Results For The Quarter Ended June 30 2025",
+            "news_body": "The Board has approved the un-audited financial results of the Company for the quarter ended June 30\r\n2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a1d4250-af93-44c3-b714-6ef1a5510140.pdf",
+            "news_date": "2025-07-28 18:47:40"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On Monday July 28 2025 And Submission Of Unaudited<BR> Financial Statements/Results For The Quarter Ended June 30 2025",
+            "news_body": "The Board has approved the un-audited financial results of the Company for the quarter ended June 30<BR> 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a1d4250-af93-44c3-b714-6ef1a5510140.pdf",
+            "news_date": "2025-07-28 18:47:40"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 we wish to inform that the Company will hold an Earnings Conference Call on Tuesday July 29 2025 at 10:00 AM (IST) to discuss with the investors the financial and operational performance of the Company for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bd77d57-bddd-4f19-ab4b-1a0140939ed4.pdf",
+            "news_date": "2025-07-22 15:29:10"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation About Board Meeting Pursuant To Regulation 29 And 50 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "Five-Star Business Finance Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/07/2025 inter alia to consider and approve unaudited financial results for the quarter ended June 302025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b55ccba6-464f-42d9-a483-9025afb50d1a.pdf",
+            "news_date": "2025-07-19 17:02:05"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Wasatch Advisors LP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3B9CEA6A_5B6A_4C1C_B51B_5F270E06D7F2_103649.pdf",
+            "news_date": "2025-07-09 10:36:55"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of allotment of 2610 equity shares pursuant to exercise of Employee Stock Options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd242019-daac-4270-bdd9-9023ef015236.pdf",
+            "news_date": "2025-07-07 14:51:19"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d601910-0084-4d84-ac28-f9f0d76e54a8.pdf",
+            "news_date": "2025-07-03 14:46:43"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=742e1be2-1457-4b08-95de-5eb17814bf2c.pdf",
+            "news_date": "2025-06-26 15:10:51"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0c35648-3a18-4d15-a70b-84c3355bf4bc.pdf",
+            "news_date": "2025-06-20 12:30:04"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22ea4675-8cb1-4c09-8521-cbb3714c6804.pdf",
+            "news_date": "2025-06-20 12:27:16"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02a04165-3067-472e-8f40-694c36dc8413.pdf",
+            "news_date": "2025-06-20 12:24:57"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb8f25bf-6b03-41d6-93f8-a58f55c25697.pdf",
+            "news_date": "2025-06-20 12:21:56"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c91cf929-6832-4481-b574-661132408fe7.pdf",
+            "news_date": "2025-06-10 11:49:16"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of Reaffirmation of Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86cdc4f6-920a-4f12-82bb-85dc1eb6788b.pdf",
+            "news_date": "2025-06-05 13:14:43"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of Allotment of 4790 Equity Shares pursuant to Employee Stock Option",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6e3b03d-9cd1-41fc-9289-a718949d1dc7.pdf",
+            "news_date": "2025-06-05 11:38:32"
+        },
+        {
+            "co_code": 6468,
+            "bse_code": 543663,
+            "isin": "INE128S01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investor/Analyst meetings under the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b4cdc54-4050-4f00-b269-492bb9c4553a.pdf",
+            "news_date": "2025-05-22 11:56:58"
         },
         {
             "sym": "FIVESTAR",
@@ -1369,6 +2469,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

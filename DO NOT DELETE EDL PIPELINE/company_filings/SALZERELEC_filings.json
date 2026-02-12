@@ -26,6 +26,50 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Filing of link of Audio recording on Earning Call held on 12.02.2026 on Results of Q3FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dfe084e-cf67-4ea9-959d-1127f42a616f.pdf",
+            "news_date": "2026-02-12 17:56:52"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Filing paper clippings of News papers in which the un-audited financial results for Q3FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3acaefa2-0d13-4a82-9701-984f16b4c676.pdf",
+            "news_date": "2026-02-12 13:16:33"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Re-Appointment Of Managing Director",
+            "news_body": "Re-appointment of Managing Director for a period of 3 years",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26187ba4-9e9b-4106-b535-5a193eab7f3d.pdf",
+            "news_date": "2026-02-11 21:31:06"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of CFO",
+            "news_body": "Intimation of appointment of CFO",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f92d0c0e-d770-43c2-9b0c-435b3cbde941.pdf",
+            "news_date": "2026-02-11 21:11:52"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -48,6 +92,39 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Filing Investor Presentation on the results of Q3FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6be67ce1-733d-4115-8935-dd5051084a9b.pdf",
+            "news_date": "2026-02-11 20:58:37"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Intimation of Media Release on the results of Q3FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb585971-d9dc-4a3c-aa75-048695651d4a.pdf",
+            "news_date": "2026-02-11 20:51:16"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting 11022026",
+            "news_body": "Filing of Outcome of Board meeting held on 11.02.2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14c5fe88-6814-488d-aa20-4fd52a59b8b6.pdf",
+            "news_date": "2026-02-11 16:38:18"
         },
         {
             "sym": "SALZERELEC",
@@ -74,6 +151,83 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Result - 31.12.2026",
+            "news_body": "Un-audited financial result for the quarter / 9 months ended 31.12.2026 with limited review report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ef8e6bc-d630-4f3d-a7c6-ba15890ae561.pdf",
+            "news_date": "2026-02-11 16:25:25"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earning Call post scheduled on 12.02.2026 at 11.00 a.m.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=192347da-298e-4950-8a17-9f4e769a057b.pdf",
+            "news_date": "2026-01-30 15:07:22"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "Salzer Electronics Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/02/2026 inter alia to consider and approve To consider and approve the Financials of Standalone and Consolidated along with limited review report and other related matters thereof.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e167c7ac-5156-4cf3-aa64-15957c4d4ed5.pdf",
+            "news_date": "2026-01-28 16:28:44"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Filing of Compliance certificate under Reg.74(5) of SEBI (dp) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b3451b0b-fc48-49d7-a19f-a4412f78080d.pdf",
+            "news_date": "2026-01-06 13:39:26"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading window will remain closed from 01.01.2026 till expiry of 48 hrs after declaration of Un-audited FR for the quarter 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cfd653ed-94d1-4b73-ab61-64541f627964.pdf",
+            "news_date": "2025-12-27 11:45:08"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Avendus Spark Annual Investor Conference",
+            "news_body": "This is to inform that the management of the company participated in Avendus Spark Annual Investor Conference at Grand Hyuatt Kalina Mumbai on 17.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b415244-36d6-483d-b89c-89f35d2b2cea.pdf",
+            "news_date": "2025-11-17 19:53:19"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The management of the company participating in Avendus Spark Annual Investor Conference at Grand Hyatt Kalina Mumbai on 17.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b91ee008-e18b-485e-9df2-da9d48a2be26.pdf",
+            "news_date": "2025-11-11 11:19:17"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -96,6 +250,39 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Filing of Audio recording of Earning Call post held on 03.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5667ad21-c390-449e-9cef-94dbbbf87240.pdf",
+            "news_date": "2025-11-03 17:31:25"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Filing of paper clippings of publication of un-audited financial result for Q2FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8fb6450-07ef-4679-9c21-1989bf83d809.pdf",
+            "news_date": "2025-11-03 13:14:46"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Intimation of media release on the results of Q2FY26 of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09e9cceb-bd66-4f0d-ab92-10d6b69fa2fd.pdf",
+            "news_date": "2025-11-02 06:15:23"
         },
         {
             "sym": "SALZERELEC",
@@ -122,6 +309,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Filing of investor presentation on Q2FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07067004-2fb7-4d8b-9a58-e769631b04ba.pdf",
+            "news_date": "2025-11-01 19:24:57"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -144,6 +342,193 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Result For 30.09.2025",
+            "news_body": "Standalone and Consolidated Financial Result for the quarter / half year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33b40bd7-5bf8-4660-a360-8fbcc9a6fb4c.pdf",
+            "news_date": "2025-11-01 13:49:14"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 01.11.2025",
+            "news_body": "Filing of outcome of board meeting held on 01.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0841aebc-bd89-402e-b524-73cc06e16b44.pdf",
+            "news_date": "2025-11-01 13:32:25"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earning conference call on the results of Q2FY26 on 03.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88722c65-0eec-43bf-8579-3ef053982954.pdf",
+            "news_date": "2025-10-29 17:34:26"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "Salzer Electronics Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 01/11/2025 inter alia to consider and approve Meeting of Board of directors scheduled to be held on 01.11.2025 to consider and approve standalone and Consolidated Financial result for the quarter ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07a91f06-d5ea-432c-abc1-d653e44bc960.pdf",
+            "news_date": "2025-10-22 16:09:35"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Filing certificate under Reg.74(5) of SEBI (DP) Reg 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cc0a681-be57-4c1c-aa44-9c9a066eadf9.pdf",
+            "news_date": "2025-10-15 15:48:53"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "The company received a patent for its product Compact High-Voltage Safety Device and the relevant Press Release is attached herewith",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe44c236-08bb-4265-b29b-7ab82f13a887.pdf",
+            "news_date": "2025-10-07 16:48:50"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43523dd6-e106-424d-a4cd-82863f0ebe69.pdf",
+            "news_date": "2025-09-29 11:08:24"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Filing of outcome of investor meet on 24.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8189075-f444-4c26-88d2-febf59ef006e.pdf",
+            "news_date": "2025-09-25 11:28:21"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Plant visit by an investor - Agrawal Family Office on 24.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88be1354-e9a2-4111-9ae9-3f632d81a1e5.pdf",
+            "news_date": "2025-09-17 15:15:31"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Filing Proceedings of Annual General Meeting held on 12.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=593fc5c7-cc37-4413-9b55-19a848a161c3.pdf",
+            "news_date": "2025-09-12 21:46:20"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Filing of Scrutinizers Report on the resolutions placed before 40th AGM on 12.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b76ab66-6957-4f4f-9a51-9e824a6c80a3.pdf",
+            "news_date": "2025-09-12 20:56:05"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Filing of Voting Result issued by the scrutinizer on our resolutions placed at the AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f226557-fcee-47f8-986c-a4f25cbcb601.pdf",
+            "news_date": "2025-09-12 17:40:15"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We wish to inform you that on Thursday 11th September 2025 Indus Equity Advisors - an Investor is visiting plant of the Company situated at Samichettipalayam Coimbatore - 641 047 Tamil Nadu. INDIA.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ba2aa29-8986-4d3c-b349-b11651a372cb.pdf",
+            "news_date": "2025-09-05 16:59:31"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We wish to inform you that on Thursday 11th September 2025 Indus Equity Eversource - an Investor is visiting plant of the Company situated at Samichettipalayam Coimbatore - 641 047 Tamil Nadu. INDIA.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51327f69-08de-41fd-83a1-70f01b6dbbf7.pdf",
+            "news_date": "2025-09-05 15:07:37"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Filing of paper clipping on the advertisement of Notice to the shareholders on AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2a474f7-40d7-4eb1-b14f-f0d01eb23c3b.pdf",
+            "news_date": "2025-08-22 17:57:16"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Notice To The Shareholders - AGM",
+            "news_body": "Notice to the shareholders calling AGM on 12.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ad3c1c6-0066-48d7-bafb-816c3e871d6e.pdf",
+            "news_date": "2025-08-21 11:41:16"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Filing of Annual Report for the year 2024-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39ce6ae9-2993-4c4a-bb59-ec204204e58c.pdf",
+            "news_date": "2025-08-21 11:16:43"
         },
         {
             "sym": "SALZERELEC",
@@ -170,6 +555,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Filing of Transcript of Earning call post held on 11.08.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7875bb59-d050-41bd-b255-c2dab058c7e6.pdf",
+            "news_date": "2025-08-14 21:48:05"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -192,6 +588,28 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Filing of Audio Recording of the Earning call post on the Results of Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78fe465c-fdae-468f-99de-e0b2e7cb5722.pdf",
+            "news_date": "2025-08-11 18:36:21"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Paper clippings of Result of Q1FY26 published on both English and Tamil newspaper.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74b4721e-dbbd-4ebd-9e8c-d332ddfd5780.pdf",
+            "news_date": "2025-08-09 11:58:53"
         },
         {
             "sym": "SALZERELEC",
@@ -218,6 +636,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the Results of Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21b7bd5b-7f30-40d1-92bc-6ed6885ed9bc.pdf",
+            "news_date": "2025-08-08 17:46:33"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Media Release on the Results of Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ebc8162-955c-4b6d-9d36-78e9b0325a55.pdf",
+            "news_date": "2025-08-08 17:33:12"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -240,6 +680,94 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Result For The Quarter Ended 31.06.2025",
+            "news_body": "Quick Result for Q1FY26 along with Limited Review Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acb024b0-0b7f-421e-81bc-f98b8c1472d7.pdf",
+            "news_date": "2025-08-08 13:52:35"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earning Call post on the Results of Q1FY26 on 11.08.2025 at 2.3- p.m",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71c23da7-1d67-400e-bd9e-cc5250282f9f.pdf",
+            "news_date": "2025-08-04 17:30:16"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "Salzer Electronics Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 08/08/2025 inter alia to consider and approve Meeting of the Board of Directors of the Company will be held on Friday August 08 2025 to consider and approve Standalone and Consolidated Un-audited Financial Results of the Company for the First  Quarter ending June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a1043de-9046-4314-8aa3-6a0713043187.pdf",
+            "news_date": "2025-07-28 10:39:30"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Filing Credit rating given by CRISIL on our bank loan facilities.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ed7315d-3eeb-424d-9a3b-e03d65d749ec.pdf",
+            "news_date": "2025-07-26 10:20:00"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Forwarding herewith Certificate received from our RTA under Reg.74(5) of SEBI (DP) Reg 2018 for the quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80876d82-3c49-4b95-90f2-8f7259894223.pdf",
+            "news_date": "2025-07-08 12:54:16"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window from 01.07.2025 till expiry of 48 hours after declaration of results for the first quarter  ending 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bda937f9-d65d-4e4c-aead-c1d583c29105.pdf",
+            "news_date": "2025-06-25 11:59:24"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Incorporation Of A Special Purpose Vehicle  By Name Effilume Private Limited On May 31 2025.",
+            "news_body": "Intimation of incorporation of a special purpose vehicle (company) by name Effilume Private Limited on 31.05.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69e08274-0d39-4ba9-9b44-dc5d1417788a.pdf",
+            "news_date": "2025-06-02 16:20:54"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Disclosure of Annual Secretarial Compliance Report for the year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd37f7e8-0ac9-427c-8feb-2e952d7f47e7.pdf",
+            "news_date": "2025-05-29 14:32:35"
         },
         {
             "sym": "SALZERELEC",
@@ -266,6 +794,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Filing of Transcript of Earning call post held on 26.05.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f3cda8e-8905-4768-b55f-637e9262338a.pdf",
+            "news_date": "2025-05-28 16:40:51"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -288,6 +827,17 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Disclosure of Audio recording of the Earnings Call hosted by the company for the Financial Results of the Fourth quarter / Year ended March 31 2025 scheduled on 26.05.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e606b366-0e6e-4279-a734-1030cd43e983.pdf",
+            "news_date": "2025-05-26 17:11:12"
         },
         {
             "sym": "SALZERELEC",
@@ -314,6 +864,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Revised Quick Result Of Q4FY25",
+            "news_body": "Disclosing our Revised Audited financial Result for Q4FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34fd5d37-9032-4ef0-8030-00917b84a3ab.pdf",
+            "news_date": "2025-05-26 11:04:29"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -336,6 +897,83 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Intimation of Investor Presentation on the results of Q4FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6aefc328-ecfa-4c0f-b660-e998e32ba327.pdf",
+            "news_date": "2025-05-25 15:58:01"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Intimation of Media Release on the Result of Q4FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8817e84a-09ec-4c45-ae2c-f609507006db.pdf",
+            "news_date": "2025-05-25 15:26:45"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Internal Auditor Cost Auditor & Secretarial Auditor",
+            "news_body": "Disclosure of appointment of Internal Auditor Cost Auditor & Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd4f5ed3-72d1-46ec-8e79-47f18a1f931b.pdf",
+            "news_date": "2025-05-24 18:05:30"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Writing Off Investment In Subsidiary And Stepdown Subsidiary",
+            "news_body": "Intimation of Writing off investment in subsidiary company - Salzer Kostad EV Chargers Pvt Ltd and stepdown subsidiary company - Salzer Emarch Electrobomility Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dec747f2-9a39-4614-a630-83a3b801dcb0.pdf",
+            "news_date": "2025-05-24 17:52:59"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting Scheduled On 12.09.2025",
+            "news_body": "intimation of date of Annual General Meeting scheduled on 12.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74fce08b-9a77-420a-a729-5087ef312bec.pdf",
+            "news_date": "2025-05-24 17:06:24"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Fixes Record Date For Dividend",
+            "news_body": "Disclosure of Record Date for the purpose of Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f45a4f9-d3e8-4a63-a694-2e32763f458e.pdf",
+            "news_date": "2025-05-24 16:59:50"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Intimation of recommendation of dividend @25% (Rs.2.50) per equity shares of Rs.10 each subject to approval of the shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=699fb81c-96a9-43ab-b6b8-20e850e8634a.pdf",
+            "news_date": "2025-05-24 16:55:53"
         },
         {
             "sym": "SALZERELEC",
@@ -362,6 +1000,204 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Year Ended 31.03.2025",
+            "news_body": "Declaration of Audited financial result for Q4FY25& FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa5bd0c1-7c1a-4243-a825-937a90cecabd.pdf",
+            "news_date": "2025-05-24 16:17:26"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Filing of Outcome of Board Meeting along with Audited Financial Result and its annexures",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1118cf7d-4883-412c-be88-be6362ac1d04.pdf",
+            "news_date": "2025-05-24 16:10:50"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Further to our corporate announcement dt. 22.05.2025 concerning the receipt of a work order from the Bruhat Bengaluru Mahanagara Palike (BBMP) for the execution of Energy Efficiency Projects and with reference to the captioned mail from the BSE dated 23.05.2025 we are hereby submitting the material disclosures in compliance with the SEBI Circular captioned above.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4c25e63-39f5-4a14-996b-49904bc37854.pdf",
+            "news_date": "2025-05-23 17:35:04"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Intimation of Business Update  22.05.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b085aa8-7455-48b9-9a3b-847c326afbb9.pdf",
+            "news_date": "2025-05-22 12:23:13"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earning Call post on the Results of Q4FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5a8f968-1fab-464a-9615-c7deca59259e.pdf",
+            "news_date": "2025-05-13 17:44:05"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "Salzer Electronics Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/05/2025 inter alia to consider and approve 1. Audited Financial Results for the year ended 31.03.2025 &\r\n2. Proposal of recommendation of dividend for the year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=647cb72a-8477-4660-b679-bb357d697f29.pdf",
+            "news_date": "2025-05-07 16:31:20"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Filing of Scrutinizers report on the postal ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=194c510b-066a-4a35-8ccc-b3a792439324.pdf",
+            "news_date": "2025-05-07 13:28:40"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Filing of Voting result along with scrutinizer report on the Postal Ballot conducted by the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcc79bf6-46bd-4357-b46d-1e43ff46a27a.pdf",
+            "news_date": "2025-05-07 13:20:31"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Non Applicability Of Disclosure To Be Made By An Entity Identified As A Large Corporate",
+            "news_body": "We are not a \"Large Corporate\" within the framework given under Para 2.2 of SEBI circular No.144 dt.26.11.2018 and hence requisite disclosure does not arise.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8dfeaa3d-7aa0-46b6-9893-02733080048f.pdf",
+            "news_date": "2025-04-16 12:54:11"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Filing of compliance certificate under Reg. 74(5) of SEBI (DP)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3185fe79-e5cb-4c7a-b165-ee7e20dcf58c.pdf",
+            "news_date": "2025-04-07 16:02:09"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 7(3) \u2013 Compliance Certificate (RTA & Compliance Officer)",
+            "caption": "Compliance Certificate For The Period Ended 31.03.2025",
+            "news_body": "Filing of Compliance certificate under Reg.7(3) of SEBI(LODR)for the period ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=196772e5-d901-459b-9149-7842c3f8d8ae.pdf",
+            "news_date": "2025-04-07 12:51:50"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Filing of paper clipping of advertisement of Notice of Postal Ballot in the newspapers",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15b37656-9d4c-4b1c-af65-ea7bae95b096.pdf",
+            "news_date": "2025-04-04 13:10:17"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Hereby submitting the Postal Ballot Notice along with the Explanatory statement being sent to the members of the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b92fd8ee-adf2-4d21-8969-edb8000c0a5c.pdf",
+            "news_date": "2025-04-03 13:11:04"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of Trading window from 01.04.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=354bffa3-d53d-41bd-817a-f2f99c06f38b.pdf",
+            "news_date": "2025-03-24 12:37:39"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Intimation of Press Release titled \"Salzer Electronics Secures Major Order for Smart Meters Under RDSS\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63fd8e59-2e85-46a0-893c-0147e40b2fd8.pdf",
+            "news_date": "2025-03-17 10:17:03"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation for Plant visit outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a05fed8-0309-4b39-b600-d63c6b22b0d8.pdf",
+            "news_date": "2025-02-28 17:27:06"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "filing the outcome of investor visit to the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d77f1e1f-23ed-45ba-bc1f-d822720d7f68.pdf",
+            "news_date": "2025-02-27 17:44:09"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under 74(5) of SEBI (lodr) 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=003b476e-5c86-4e04-9214-0431fc56ef73.pdf",
+            "news_date": "2025-02-25 13:19:38"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -384,6 +1220,72 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Filing of Transcript of Earning call held on 17.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee7ca2f2-4e07-46b5-bdb1-b8411380437a.pdf",
+            "news_date": "2025-02-21 12:27:56"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pre-intimation of investor visit to the plant on 28.02.2025 at 11.00 a.m.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8aa4064-b0a2-4f18-8ab9-e3e4bf1debce.pdf",
+            "news_date": "2025-02-18 15:00:40"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pre intimation of investor visit to the plant on 27.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97729c41-8b8b-42aa-b8a2-be7e05233bff.pdf",
+            "news_date": "2025-02-18 14:55:33"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation of Audio recording uploaded in companys website",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=252ad883-9ef7-436a-ada6-adb87c8d6dbc.pdf",
+            "news_date": "2025-02-17 18:12:41"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Filing of paper clipping of Unaudited financial result of Q3FY25 published both in English and Tamil daily.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8293db14-3daa-4595-aa1f-5837bce46c4d.pdf",
+            "news_date": "2025-02-13 13:41:47"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Filing Revised Media Release / Press Release on Results of Q3 M9 FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3be8b2b6-88bb-4839-87c6-f9d702bff471.pdf",
+            "news_date": "2025-02-12 12:09:36"
         },
         {
             "sym": "SALZERELEC",
@@ -410,6 +1312,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Filing of Investor Presentation on Results of Q3M9FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a3b12fa-a62d-4d02-9d4c-2db50ce76960.pdf",
+            "news_date": "2025-02-12 12:06:08"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Intimation of Media Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44351c58-2ebd-4200-a76b-99d4821f9dac.pdf",
+            "news_date": "2025-02-11 22:15:16"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -432,6 +1356,28 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Filing of Presentation on Results of Q3M9FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=452ebda1-c20f-42b2-952d-3fe18b86d3aa.pdf",
+            "news_date": "2025-02-11 22:02:16"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Filing of un-audited financial result for the quarter ended 31.12.2024 along with limited review report through integrated filing",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=029a296d-5708-43c9-b295-54389d0fed37.pdf",
+            "news_date": "2025-02-11 19:06:40"
         },
         {
             "sym": "SALZERELEC",
@@ -458,6 +1404,116 @@
             "seg": "E"
         },
         {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Quick Result For The Quarter Ended 31.12.2024",
+            "news_body": "Attaching herewith the Un-audited financial result for the quarter ended 31.12.2024 along with Limited Review Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd784fab-4fd4-4cd3-8f85-bfbb88f7ad8f.pdf",
+            "news_date": "2025-02-11 18:44:57"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earning Call will be held on 17.02.2025 on Results of Q3FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fad6bbf4-2e24-4cff-b67c-3c7744f1dacd.pdf",
+            "news_date": "2025-02-07 10:29:00"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Un-Audited Financial Result For Q3FY25",
+            "news_body": "SALZER ELECTRONICS LTD.-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/02/2025 inter alia to consider and approve the Un-audited financial result for the Quarter ended 31.12.2024\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b65114f9-cec7-4dd5-96ed-f9889b3b289a.pdf",
+            "news_date": "2025-01-29 12:00:19"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation of Loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4a5cf3e-433e-4073-94fa-f2712396782f.pdf",
+            "news_date": "2025-01-25 13:11:17"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation of Loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffbbf59e-88d1-4465-872c-1bc3d01d078c.pdf",
+            "news_date": "2025-01-07 16:41:50"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation received from the shareholder on loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80a14e65-fc46-4637-a982-b16392df49b2.pdf",
+            "news_date": "2025-01-01 12:45:16"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation Loss of share certificate received from our shareholder",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9f66404-37be-4ef3-96cb-2efebb73d2c5.pdf",
+            "news_date": "2024-12-04 17:37:54"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Filing revised intimation of Analyst / investor meet on 02.12.2024 by the Management of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0903633d-08e3-4bbf-89fd-2298afaa6080.pdf",
+            "news_date": "2024-11-27 18:05:37"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We wish to inform that the management of the company will have a virtual group meeting with investors / analysts on 02.12.2024 at 11.00 a.m.,",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ccdbcb7-63ea-4e5e-8f40-2c61fe63b922.pdf",
+            "news_date": "2024-11-27 16:02:13"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation of Loss of Share certifiate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=945c7ea8-2b93-48bc-b3f4-f3ba00425d9d.pdf",
+            "news_date": "2024-11-27 15:36:16"
+        },
+        {
             "sym": "SALZERELEC",
             "disp": "Salzer Electronics",
             "bse_code": 517059,
@@ -480,6 +1536,50 @@
             "sid": 11399,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Filing of Transcript on Earnings Calls held on 18.11.2024 on Q1FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5c1df2c-5c0f-4e94-a2d2-bc7b43777197.pdf",
+            "news_date": "2024-11-21 14:11:25"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Intimation Of Cancellation Of Analyst / Investor Meet",
+            "news_body": "Intimation of cancellation of Analyst / Investor meet scheduled on 21.11.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32d6e8b7-73b8-4fe2-b585-65308479d3f0.pdf",
+            "news_date": "2024-11-19 16:44:40"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Filing of disclosure under Reg.30 of SEBI (lodr) Reg 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbec8d6d-31d1-46c7-81c6-008f5af9a0c5.pdf",
+            "news_date": "2024-11-19 00:39:23"
+        },
+        {
+            "co_code": 1889,
+            "bse_code": 517059,
+            "isin": "INE457F01013",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Reg 30(6) of SEBI (LODR) - Prior intimation of PLANT visit of an investor - M/s.Equirus,  ON 21.11.2024 AT 5.00 P.M.,",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f83907b9-3015-4377-9e81-668585186337.pdf",
+            "news_date": "2024-11-18 16:56:42"
         },
         {
             "sym": "SALZERELEC",
@@ -1873,6 +2973,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

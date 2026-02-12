@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "extract of financial results for the quarter/nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12fef6ea-fd36-400e-a9de-2ed9e9bdeab5.pdf",
+            "news_date": "2026-02-12 12:02:08"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "shares dematerialized by the company during the month of January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0aa26e71-8699-434d-a7c5-7a2deae3aa8d.pdf",
+            "news_date": "2026-02-11 18:00:42"
+        },
+        {
             "sym": "SURYAROSNI",
             "disp": "Surya Roshni",
             "bse_code": 500336,
@@ -24,6 +46,17 @@
             "sid": 3375,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "audio recording of earning call (group meet) for the quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e29d2c83-9355-475f-a81c-ab7bdffd87c0.pdf",
+            "news_date": "2026-02-11 17:53:50"
         },
         {
             "sym": "SURYAROSNI",
@@ -50,6 +83,39 @@
             "seg": "E"
         },
         {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb9a20ee-fbdd-483d-831b-48a2e259bd7f.pdf",
+            "news_date": "2026-02-11 14:51:21"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Surya Roshni Limited announces Q3FY26 results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=375e4fe8-d3f1-467c-84e2-7e4c09002822.pdf",
+            "news_date": "2026-02-11 14:45:51"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results For The Quarter / Nine Months Ended 31St December 2025",
+            "news_body": "unaudited financial results for the quarter / nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d473d95-a2b8-46ab-b6bd-be15c3b14427.pdf",
+            "news_date": "2026-02-11 14:43:35"
+        },
+        {
             "sym": "SURYAROSNI",
             "disp": "Surya Roshni",
             "bse_code": 500336,
@@ -72,6 +138,138 @@
             "sid": 3375,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting Dated 11Th February2026",
+            "news_body": "unaudited financial results for the quarter / nine months ended on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=860812fa-0236-4f70-b7af-00f5b713564c.pdf",
+            "news_date": "2026-02-11 14:39:17"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "to discuss the financial and operational performance for quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1feb8c08-9e3f-4741-b59b-7199edf0e860.pdf",
+            "news_date": "2026-02-05 16:41:01"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Approve The Unaudited Quarterly Results For The Period Ended 31St December 2025",
+            "news_body": "Surya Roshni Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/02/2026 inter alia to consider and approve unaudited quarterly results for the period ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb2f172f-0339-4167-9dd8-fbd8d393d50f.pdf",
+            "news_date": "2026-02-03 13:52:18"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "shares dematerialized during the month of December 2025 alongwith certificate of confirmation for the quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ea7d8a3-ac22-4a9a-8b47-87ebb4912b1d.pdf",
+            "news_date": "2026-01-08 10:44:37"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading window shall remain closed beginning from 1st January 2026 onwards and will open 48 hours after the announcement of unaudited financial results for the quarter / nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=586210ac-7655-472e-bc00-192100561422.pdf",
+            "news_date": "2025-12-20 16:21:35"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "demat report for the month of November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10e46ece-8458-4465-90dd-a6a8d5072e55.pdf",
+            "news_date": "2025-12-11 16:53:06"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "received order amounted to Rs. 168.71 crore (with GST)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=634ae7df-e680-4866-b3df-dc4deb9fdd75.pdf",
+            "news_date": "2025-12-10 14:36:00"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Nortice - ease of doing investment special window for lodgment of transfer request",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2acb075-5805-498e-b88f-48e633b03e9c.pdf",
+            "news_date": "2025-12-02 12:43:18"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Boards Comment",
+            "news_body": "Boards Comment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd6d803b-4de7-426a-93c1-3d31577cee56.pdf",
+            "news_date": "2025-12-02 11:31:33"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updated/Changed Investor Grievances Email ID Of The Company",
+            "news_body": "updated investor grievances email ID : investorgrievances@surya.in",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fad1a84-55fc-41df-a74f-0b1053bd115f.pdf",
+            "news_date": "2025-11-29 15:36:36"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Imposed Fine Of Rs. 80000 Each By BSE And NSE",
+            "news_body": "NSE and BSE imposed fine of Rs.80000 each for delay appointment of Independent Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9da2262-dfbe-4891-96c7-673498672811.pdf",
+            "news_date": "2025-11-29 15:05:58"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Received Order amounted to Rs.105.18 crores (with GST)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42b2a8aa-9d8b-4109-8df9-a7ac5fb673b6.pdf",
+            "news_date": "2025-11-24 18:17:03"
         },
         {
             "sym": "SURYAROSNI",
@@ -98,6 +296,39 @@
             "seg": "E"
         },
         {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call (Group Meet) for the quarter ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0f6a3d5-8ebe-45fb-94bb-bec5cda520aa.pdf",
+            "news_date": "2025-11-18 14:05:05"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "notice of declaration of interim dividend and record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f31ca7c-aed7-4b5e-83d4-e78992a4a30f.pdf",
+            "news_date": "2025-11-12 14:05:54"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "extract of unaudited financial results for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84fc114b-693e-4282-bfac-b5f7ae2085d2.pdf",
+            "news_date": "2025-11-12 14:03:41"
+        },
+        {
             "sym": "SURYAROSNI",
             "disp": "Surya Roshni",
             "bse_code": 500336,
@@ -120,6 +351,50 @@
             "sid": 3375,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call (Group Meet) for the Quarter ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=430fdeda-11c6-46ad-aebb-8fc3abd0520b.pdf",
+            "news_date": "2025-11-11 17:47:47"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "interim dividend of Rs.2.50 per equity share and record date 17th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4aad48fa-f4db-43ad-9084-e0f57494b621.pdf",
+            "news_date": "2025-11-11 15:08:28"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Fixed Record Date For Distribution Of Interim Dividend",
+            "news_body": "record date 17th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98a5c1fd-80d8-49a7-af02-240275cc1d48.pdf",
+            "news_date": "2025-11-11 15:06:53"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Board Approved Unaudited Financial Results For The Quarter/Half Year Ended 30Th September 2025 Along With Interim Dividend",
+            "news_body": "Board approved unaudited financial results for the quarter/half year ended 30th September 2025 along with interim dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b93fb9cb-5661-4b83-9f19-baef8a33c5a5.pdf",
+            "news_date": "2025-11-11 15:05:17"
         },
         {
             "sym": "SURYAROSNI",
@@ -146,6 +421,28 @@
             "seg": "E"
         },
         {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=789ba75a-0217-4e1e-83e9-da1ab8268267.pdf",
+            "news_date": "2025-11-11 15:00:47"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Surya Roshni Limited announces Q2 FY26 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=534b6562-a148-4ff2-ab8b-9f13c81b0090.pdf",
+            "news_date": "2025-11-11 14:58:16"
+        },
+        {
             "sym": "SURYAROSNI",
             "disp": "Surya Roshni",
             "bse_code": 500336,
@@ -168,6 +465,149 @@
             "sid": 3375,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter/Half Year Ended 30Th September 2025",
+            "news_body": "Unaudited financial results for the quarter / half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65465c20-acc4-47ac-88ee-a761e976368a.pdf",
+            "news_date": "2025-11-11 14:43:06"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "the details of shares dematerialised by the Company Registrar Mas Services Limited during the month of October 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74b51ae1-08e6-4bb0-85a9-1594d9b21b94.pdf",
+            "news_date": "2025-11-05 16:27:57"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earning Call (Group Meet) for the quarter ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1156fe01-4fa5-40c8-893b-6776d006e169.pdf",
+            "news_date": "2025-11-03 17:07:01"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve Unaudited Financial Results Declaration Of Interim Dividend",
+            "news_body": "Surya Roshni Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/11/2025 inter alia to consider and approve to consider and approve the unaudited standalone and consolidated financial results of the company for the quarter and half year ended 30th September 2025 and to consider declaration of interim dividend to the equity shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3867baf0-e4c2-4535-aac6-ba9dd9809f3a.pdf",
+            "news_date": "2025-11-03 12:55:45"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Ease o doing business - re-lodgment of transfer request of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e11f1c7-37ac-40bb-a011-645b06479c0e.pdf",
+            "news_date": "2025-10-14 14:29:30"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "the details of shares dematerialised by the Company Registrar Mas Services Limited during the month of September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7262de66-7b7b-4e29-bcb2-82fa9cfa806b.pdf",
+            "news_date": "2025-10-07 15:45:44"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window shall remain closed beginning from 1st October 2025 onwards and will open 48 hours after the announcement of unaudited financial results for the quarter / half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff4995f6-6b63-43be-9eb4-ed6fc57c32a9.pdf",
+            "news_date": "2025-09-24 13:45:00"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "consolidated scrutinizers report on 52nd AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ba0d433-f21b-4ef3-a644-8ee2413644ac.pdf",
+            "news_date": "2025-09-20 14:37:45"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Summary of the proceedings of the 52nd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=36e633e0-8104-489e-a7e5-c85f558197db.pdf",
+            "news_date": "2025-09-18 17:17:39"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Shares dematerialized  during the month of August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa37f434-a5d7-4a3d-8a2a-c3563e62d630.pdf",
+            "news_date": "2025-09-10 15:18:03"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Surya Roshni Ltd Press Release about recent launches",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=407c03c4-2ad3-401d-9324-3b01942d021b.pdf",
+            "news_date": "2025-08-30 15:13:32"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Imposed Fine By BSE And NSE",
+            "news_body": "received notice from BSE and NSE imposing fine due to delayed compliance related to appointment of Independent Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09ea088a-ea94-48ee-8c31-657ccdd59316.pdf",
+            "news_date": "2025-08-30 15:00:25"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "related to notice of 52nd AGM and remote e-voting information post dispatch of AGM Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca8d3bfc-aeae-4dff-acc0-ac5575bf36b2.pdf",
+            "news_date": "2025-08-22 13:44:11"
         },
         {
             "sym": "SURYAROSNI",
@@ -194,6 +634,72 @@
             "seg": "E"
         },
         {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of earning call (Group Meet) for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a0ae043-9548-4245-94da-0e01ccd32d0d.pdf",
+            "news_date": "2025-08-21 15:09:11"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c416eb9c-2275-470b-a35a-608f3ee51356.pdf",
+            "news_date": "2025-08-19 18:15:42"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual report for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf7f1136-576b-413b-ac72-40e19f0fad59.pdf",
+            "news_date": "2025-08-19 18:09:23"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "AGM To Be Held On 18Th September 2025",
+            "news_body": "Notice of AGM to be held on 18th September 2025 at 12:00 noon",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac54a11d-f67b-4586-950d-de56d059e032.pdf",
+            "news_date": "2025-08-19 17:35:33"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "regarding extract of consolidated and standalone unaudited financial results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fc11960-c4be-4ffc-8bef-2d445dffda84.pdf",
+            "news_date": "2025-08-14 13:13:34"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "related to prior notice of 52nd AGM  record date and related matters",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6965a02d-7bfd-46e6-9221-7c0964cfc9de.pdf",
+            "news_date": "2025-08-14 12:34:58"
+        },
+        {
             "sym": "SURYAROSNI",
             "disp": "Surya Roshni",
             "bse_code": 500336,
@@ -216,6 +722,72 @@
             "sid": 3375,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "audio recording of earning call (group meet) for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c48a9159-edd8-4a8f-a400-3a4ef4e66a05.pdf",
+            "news_date": "2025-08-13 19:19:07"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor",
+            "news_body": "Appointment of M/s Anjali Yadav & Associates practicing Company Secretary as Secretarial Auditor of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=112deb59-9436-4590-bbf7-ec37e04ee257.pdf",
+            "news_date": "2025-08-13 16:43:00"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Vasu Mitra Pandey as Key Managerial Personnel - Chief Executive Officer - Lighting Division w.e.f. 13th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff5dcd22-8d6e-49bd-8ba9-819cb929add8.pdf",
+            "news_date": "2025-08-13 16:29:42"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Kumar Gaurav Jain as Key Managerial Personnel - Chief Executive Officer - Steel Division w.e.f. 13th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bcbd81c-4ff4-48f7-a2e4-7f08b2e52a6a.pdf",
+            "news_date": "2025-08-13 16:26:46"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Executive Officer (CEO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Executive Officer (CEO)",
+            "news_body": "resignation of Mr. Jitendra J Agarwal CEO-Lighting & Consumer Durables w.e.f. 13th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67e1c312-717b-4243-89a0-902dd26006c6.pdf",
+            "news_date": "2025-08-13 16:23:21"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Fixed Record Date 5Th September 2025 For Distribution Of Final Dividend",
+            "news_body": "fixed record date 5th September 2025 for final dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb723c5a-02eb-48db-9630-9230c52e8617.pdf",
+            "news_date": "2025-08-13 16:09:36"
         },
         {
             "sym": "SURYAROSNI",
@@ -242,6 +814,193 @@
             "seg": "E"
         },
         {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=673cfc04-bebd-472a-bbf6-f2347fa5f7b3.pdf",
+            "news_date": "2025-08-13 16:03:45"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "announces Q1 FY26 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=303bb432-0e81-43d4-b1e1-6b3cc785435e.pdf",
+            "news_date": "2025-08-13 15:59:59"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9496383d-2d5f-4730-8c5b-161d177163ed.pdf",
+            "news_date": "2025-08-13 15:44:05"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "details of shares dematerialised by the company registrar during the month of July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c643e624-0980-4de9-a146-8247bab9f118.pdf",
+            "news_date": "2025-08-08 18:07:10"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earning conference call (Group Meet) to discuss the financial and operational performance for the 1st quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c0df20d-c941-457c-89a4-70ee5102b098.pdf",
+            "news_date": "2025-08-08 14:11:22"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarterly Financial Results",
+            "news_body": "Surya Roshni Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2025 inter alia to consider and approve the quarterly financial results for the quarter ended 30th June 2025 to fix the record date for distribution of final dividend and to fix the date time and mode/venue for the Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2c5da05-30dc-4722-b397-877770c55fac.pdf",
+            "news_date": "2025-08-04 13:33:25"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "related to Notice to the equity shareholders whose shares are due for transfer on which dividend is unpaid / unclaimed for seven consecutive years to investor education and protection fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8e6ede9-a400-4539-9641-7018a6062846.pdf",
+            "news_date": "2025-08-02 13:44:15"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "related to Notice-Ease of Doing Investment-special window for re-lodgement of transfer requests of physical shares having objection/deficiencies prior to 1st April 2019",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3dcf9b2c-3a7d-4bb4-bc6f-edf453fc0f6c.pdf",
+            "news_date": "2025-07-30 14:59:48"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Reaffirmed short-term rating of ICRA A1+ of Rs. 100 cores for bank facilities (non-fund based BG/LC)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=420d47ab-21a3-4868-ad67-0be37a04c401.pdf",
+            "news_date": "2025-07-26 10:43:37"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Received order amounted to Rs.174.78 crores (with GST)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bba03e29-cadb-4372-b349-0c9b3005412f.pdf",
+            "news_date": "2025-07-23 13:36:36"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Mr. Ravi Kant Gupta (DIN-03111902) is appointed as Non-Executive Independent Director of the Company w.e.f. 17th July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=600645b8-8d4e-42d1-b1a5-4dcc2d823bae.pdf",
+            "news_date": "2025-07-17 17:46:28"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate pursuant to Regulation 74(5) of SEBI (DP) Regulations 2018 for the month ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0459723-37f9-4069-a82d-7146484a1b90.pdf",
+            "news_date": "2025-07-07 13:46:51"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating on Long Term Bank Facilities Upgraded to CARE AA; Stable from CARE AA-; Positive\r\nand Reaffirmed on short term bank facilities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c5172d5-01a6-40b4-be75-4e2cc5b4023d.pdf",
+            "news_date": "2025-06-30 15:27:37"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "order received amounted to Rs.75.40 crores (with GST) from Gujarat Gas Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf7b1d15-df31-4360-b1b2-a32db6188aad.pdf",
+            "news_date": "2025-06-25 09:14:44"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "from 1st July 2025 onwards and trading window will open 48 hours after the announcement by the Company of its unaudited quarterly results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1abbfe04-2026-4b32-a90e-9a2a78002b86.pdf",
+            "news_date": "2025-06-23 11:13:31"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "for the month of May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1176eb20-0927-4b00-8746-ab210e1ddfe1.pdf",
+            "news_date": "2025-06-09 16:22:35"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c24060e9-aaaf-442c-9427-7530e62864d9.pdf",
+            "news_date": "2025-05-28 16:56:25"
+        },
+        {
             "sym": "SURYAROSNI",
             "disp": "Surya Roshni",
             "bse_code": 500336,
@@ -264,6 +1023,28 @@
             "sid": 3375,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "for the quarter ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ae00eb7-b6aa-44af-99ff-26523fed21ca.pdf",
+            "news_date": "2025-05-21 11:30:34"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "regarding extract of Audited consolidated and standalone financial results for the quarter and year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=045d084b-0eae-42ea-8807-1e00f1f40973.pdf",
+            "news_date": "2025-05-15 13:03:01"
         },
         {
             "sym": "SURYAROSNI",
@@ -290,6 +1071,39 @@
             "seg": "E"
         },
         {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of earning call (Group meet) for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=082af0e9-8014-4474-9c1c-14876f2c0263.pdf",
+            "news_date": "2025-05-14 18:58:00"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Surya Roshni Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L31501HR1973PLC007543</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>AA-</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CARE RATINGS LIMITED</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: BHARAT BHUSHAN SINGAL <br/>  Designation: Company Secretary <br/> EmailId: cs@surya.in</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: BHARAT BHUSHAN SINGAL <br/> Designation: Chief Financial Officer <br/> EmailId: cs@surya.in</div> </div> <div> <br/> Date: 14/05/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe01cdad-17c4-414a-92b3-cc4b416c70b4.pdf",
+            "news_date": "2025-05-14 15:25:28"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Approved final dividend of Rs.3.00 per equity share subject to approval from shareholder in the ensuing AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d4e477a-744c-48e5-aa0e-2088260e153b.pdf",
+            "news_date": "2025-05-14 14:57:36"
+        },
+        {
             "sym": "SURYAROSNI",
             "disp": "Surya Roshni",
             "bse_code": 500336,
@@ -312,6 +1126,182 @@
             "sid": 3375,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation May 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bcc285b-1a2a-4c77-816c-ba3ba01080b3.pdf",
+            "news_date": "2025-05-14 14:52:25"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release on Q4 & FY25 results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd12fd87-63cc-45cc-87f7-7d4a3758d18d.pdf",
+            "news_date": "2025-05-14 14:48:36"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Approved audited financial results and recommend final dividend for the financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aeb67d6b-7b8c-4210-9edb-a43fb5c6e158.pdf",
+            "news_date": "2025-05-14 14:40:54"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of earnings call (Group Meet) for the quarter and financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=efe41895-7955-4583-93fc-2affa7c9a0c7.pdf",
+            "news_date": "2025-05-09 11:50:23"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Standalone And Consolidated Audited Financial Results",
+            "news_body": "Surya Roshni Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/05/2025 inter alia to consider and approve Standalone and consolidated audited financial results for the 4th quarter and financial year ended 31st March 2025 and final dividend for the financial year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7656e6ef-1991-4425-b3fe-8a823734daf8.pdf",
+            "news_date": "2025-05-08 15:47:04"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "shares dematerialized by the registrar during the month of April 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8305ec23-2208-4c46-a1bd-9d3ce6a0d9d5.pdf",
+            "news_date": "2025-05-07 16:10:09"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "certificate for the month ended March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60fd38dd-f72f-4fef-824a-e44c0eba6424.pdf",
+            "news_date": "2025-04-04 15:40:28"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Order amounting to Rs. 116.15 Crores received from GAIL India Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af839843-83ba-47f2-9821-b5f5d4aa736d.pdf",
+            "news_date": "2025-04-03 17:57:35"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Updates",
+            "news_body": "Achieved ever highest sales volume in March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43d10876-5ebe-4cdd-8368-5bd336b702ac.pdf",
+            "news_date": "2025-04-01 14:16:55"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report on postal ballot dated 6th February 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d23425ed-eadf-479e-9788-d7bdca35a6f4.pdf",
+            "news_date": "2025-03-21 19:38:13"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window w.e.f. 1st April 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88f3d628-4c3e-4ef1-98b7-ea1e5f7a0f46.pdf",
+            "news_date": "2025-03-21 15:56:36"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirement) Regulations 2015 As Amended",
+            "news_body": "The Company has received demand order from Commissioner of Customs Mumbai",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6105e7bd-9ed4-4048-9af8-d94287f0bc2e.pdf",
+            "news_date": "2025-03-15 17:20:00"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Shares dematerialized during the month of February 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96676862-babb-4e58-b8d7-a759a613fea3.pdf",
+            "news_date": "2025-03-07 12:57:54"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Care Rating : reaffirmed rating of AA- positive for long term bank facilities and A1+ for short term bank facilities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e9b508a-3e02-4104-8972-dfcb3f9c7753.pdf",
+            "news_date": "2025-02-21 12:58:25"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "newspaper publication related to Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77c212f6-ddb6-44d8-bc37-33a59a8f4e4c.pdf",
+            "news_date": "2025-02-20 14:53:36"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot through Electronic  E-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0adb2488-267b-4bc6-a7a1-9d590a762452.pdf",
+            "news_date": "2025-02-19 14:25:42"
         },
         {
             "sym": "SURYAROSNI",
@@ -338,6 +1328,61 @@
             "seg": "E"
         },
         {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earning Call (Group Meet) for the quarter ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ea6755f-ee2b-46ec-b7ee-5a9cc36ef293.pdf",
+            "news_date": "2025-02-12 14:31:13"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "for the month of January 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb0b8bf1-b79b-4dd7-a374-01c0cb83ba0a.pdf",
+            "news_date": "2025-02-11 17:21:55"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement regarding abstract of unaudited financial results for the quarter ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b9c5bdf-324d-4df1-b52c-f4fbee83a557.pdf",
+            "news_date": "2025-02-07 13:30:44"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earning call (Group Meet) for the quarter ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08d635d5-2b24-43d8-bd85-e5061bad3dfb.pdf",
+            "news_date": "2025-02-06 18:01:09"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial) for the quarter ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e844871-1778-488e-b98b-6e3b855d373e.pdf",
+            "news_date": "2025-02-06 15:46:25"
+        },
+        {
             "sym": "SURYAROSNI",
             "disp": "Surya Roshni",
             "bse_code": 500336,
@@ -360,6 +1405,61 @@
             "sid": 3375,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13e90bff-cbaf-4298-b9fd-37c01c5d28cb.pdf",
+            "news_date": "2025-02-06 15:34:19"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Q3 & 9 months FY 25 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6488785-f1d9-47e0-ac34-05d54d1df430.pdf",
+            "news_date": "2025-02-06 15:30:20"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mrs. Puja Surya as Additional Whole time Director w.e.f. 06.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74394d34-11ad-41d8-b000-08f17d1c0f95.pdf",
+            "news_date": "2025-02-06 15:27:17"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investment Of Rs. 25.00 Crores",
+            "news_body": "Investment of Rs. 25.00 crores in Wire Business",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fea7d0da-f269-42ca-9d14-c705af59e8ca.pdf",
+            "news_date": "2025-02-06 15:23:44"
+        },
+        {
+            "co_code": 445,
+            "bse_code": 500336,
+            "isin": "INE335A01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results For The Quarter Ended 31St December 2024",
+            "news_body": "Unaudited financial results for the quarter ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05375ec6-bb90-4ba7-b11d-c673abe677b9.pdf",
+            "news_date": "2025-02-06 15:16:51"
         },
         {
             "sym": "SURYAROSNI",
@@ -1681,6 +2781,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

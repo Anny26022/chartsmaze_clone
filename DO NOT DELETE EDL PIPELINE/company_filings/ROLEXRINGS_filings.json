@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for 31st December 2025 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48ced474-7a22-4381-ba9d-4fbed72904db.pdf",
+            "news_date": "2026-02-12 18:10:57"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a65778f5-5b43-47e1-8984-a541fe24470f.pdf",
+            "news_date": "2026-02-11 12:13:25"
+        },
+        {
             "sym": "ROLEXRINGS",
             "disp": "Rolex Rings",
             "bse_code": 543325,
@@ -24,6 +46,17 @@
             "sid": 5279,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for 31st December 2025 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17a575c5-9c72-4059-bdee-98542e71b1f5.pdf",
+            "news_date": "2026-02-10 12:33:17"
         },
         {
             "sym": "ROLEXRINGS",
@@ -50,6 +83,160 @@
             "seg": "E"
         },
         {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results As On 31St December 2025",
+            "news_body": "Unaudited Financial Results as on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=289f545b-1a73-453a-b42b-9941c351c04f.pdf",
+            "news_date": "2026-02-09 16:57:57"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db9ef8f3-4637-45d0-aa38-6c628876e211.pdf",
+            "news_date": "2026-02-09 16:49:29"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Analyst Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=adbcea23-1fdd-45a2-9cc8-16ca5f0c9251.pdf",
+            "news_date": "2026-02-05 11:47:51"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider Approve And Take On Record Unaudited Financial Results For Quarter And Nine Months Ended 31St December 2025",
+            "news_body": "Rolex Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 09/02/2026 inter alia to consider and approve Unaudited Financial Results for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcc9dd57-6f55-4410-ba1e-bf1d421ffd64.pdf",
+            "news_date": "2026-01-31 16:09:30"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Intimation for Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e5ab82b-47fd-44f5-bb5c-b078156e5416.pdf",
+            "news_date": "2026-01-29 17:35:17"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Receipt Of NO Objection Letter From BSE And NSE Limited For Reclassification Of Category Application",
+            "news_body": "Intimation for Receipt of No Objection Letter from BSE and NSE with regards to Reclassification of category Application",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64391492-20a4-49e8-9ceb-206ee75262e6.pdf",
+            "news_date": "2026-01-21 17:59:52"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Further Update On Right Of Recompense Matter",
+            "news_body": "Updated letter received from Union Bank of India (Lead Banker to Consortium)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc23ff08-ae04-4c57-9133-b32bb1e78123.pdf",
+            "news_date": "2026-01-09 18:04:15"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ebbc47e-a340-4c80-b6e2-17a062a0ae78.pdf",
+            "news_date": "2026-01-05 12:36:45"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Disclosure Due To Typographical Error In Date Of Covering Letter.",
+            "news_body": "SAST Disclosure for Creation of Pledge by Promoter of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e5d7cd4-0941-4d6f-8188-44a4ebe7980d.pdf",
+            "news_date": "2026-01-03 17:49:24"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 31 Of SEBI (SAST) Regulations 2011",
+            "news_body": "Disclosure under Regulation 31 of SEBI (SAST) Regulations 2011",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=981585de-f258-4fc5-b659-12b6dea94ec2.pdf",
+            "news_date": "2026-01-03 17:43:47"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 02 2026 for Manesh Dayashankar Madeka",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6B610379_479C_405E_A927_32CCF74AF803_160358.pdf",
+            "news_date": "2026-01-02 16:04:04"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the Quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afb81439-69a7-487e-ad5e-4d71fb722ba4.pdf",
+            "news_date": "2025-12-31 16:01:22"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification For Spurt In Volume",
+            "news_body": "Clarification for Spurt in Volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbe1eaa6-d765-49bf-8066-5bb37164e72d.pdf",
+            "news_date": "2025-12-09 19:32:25"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Rolex Rings Ltd",
+            "news_body": "The Exchange has sought clarification from Rolex Rings Ltd on December 9 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-12-09 12:06:14"
+        },
+        {
             "sym": "ROLEXRINGS",
             "disp": "Rolex Rings",
             "bse_code": 543325,
@@ -72,6 +259,28 @@
             "sid": 5279,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75cf4490-e938-4881-ad67-741605aff5aa.pdf",
+            "news_date": "2025-11-17 16:34:03"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Application For Reclassification Of Promoters Under Regulation 31A Of The SEBI LODR Regulations",
+            "news_body": "Intimation of Application for Reclassification of Promoters under Regulation 31A of the SEBI LODR Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=721d335c-92e6-4cf9-b946-af145157da40.pdf",
+            "news_date": "2025-11-14 15:57:58"
         },
         {
             "sym": "ROLEXRINGS",
@@ -98,6 +307,28 @@
             "seg": "E"
         },
         {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b82c9ff-0e11-4865-8f57-a41ec0283baa.pdf",
+            "news_date": "2025-11-13 10:13:18"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Unaudited Results for 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b415ea1-dca8-4689-97e1-d083e58f8b11.pdf",
+            "news_date": "2025-11-12 16:50:46"
+        },
+        {
             "sym": "ROLEXRINGS",
             "disp": "Rolex Rings",
             "bse_code": 543325,
@@ -120,6 +351,369 @@
             "sid": 5279,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Results For 30 September 2025",
+            "news_body": "Unaudited Results for 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b93319d-1615-4c1e-8d29-4c95a88d4dca.pdf",
+            "news_date": "2025-11-11 13:28:25"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Revision of outcome",
+            "caption": "Board Meeting Outcome for Revised Outcome With Regards To Update On Reclassification Of Promoter Requests Approved By Board Of Directors",
+            "news_body": "Revised outcome with regards to update on Reclassification of Promoter requests approved by Board of Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af82ba83-228d-4636-b1b9-6887250ed174.pdf",
+            "news_date": "2025-11-11 12:47:06"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b39bdd0a-c8e2-4127-aa24-e6c4164e3b56.pdf",
+            "news_date": "2025-11-10 16:17:52"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Revision in Date of Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22f01558-fc44-4cfa-8ae5-0fa17b7378c9.pdf",
+            "news_date": "2025-11-07 13:18:08"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=466fd42b-a2bf-4b47-ba9d-250f4da64e74.pdf",
+            "news_date": "2025-11-05 16:47:27"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "Rolex Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/11/2025 inter alia to consider and approve Unaudited Results for the quarter and half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7df2481c-7fec-4d8f-b415-d2190cd4141b.pdf",
+            "news_date": "2025-11-03 11:26:30"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Kotak Mahindra Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3911D349_6FE8_4D0D_B7B0_88185B8DC198_123153.pdf",
+            "news_date": "2025-10-20 12:32:21"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a28c622e-bf9d-4763-a03e-ababcb6e7cf0.pdf",
+            "news_date": "2025-10-13 17:44:24"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement With Regards To New ISIN Activation Letter From Depositories For Sub-Division Of Equity Share Of The Company",
+            "news_body": "Activation of New ISIN for Sub-Division of Equity share of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fe33912-bdd2-4819-890b-aa0dbf55efef.pdf",
+            "news_date": "2025-10-13 16:47:11"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Revised Voting Results for the AGM held on Monday 29th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0400765f-caab-4cfe-8db9-8719d5d5ff7d.pdf",
+            "news_date": "2025-10-04 12:54:37"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers Report for the AGM held on 29 September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0aaf59ec-04db-4a8f-8fab-3c934f3461c4.pdf",
+            "news_date": "2025-10-01 18:48:30"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for the Quarter and Half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17fa810a-cb64-4865-92cf-921655062592.pdf",
+            "news_date": "2025-09-30 16:32:21"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Outcome of Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52c06a28-db59-4d70-b10a-a2772a19bad4.pdf",
+            "news_date": "2025-09-29 18:14:03"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Revision In Record Date",
+            "news_body": "Intimation of Revision in Record Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a91a787-11db-487a-b440-af0f5499850d.pdf",
+            "news_date": "2025-09-22 13:02:23"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Receipt Of Requests For Reclassification From Promoter / Promoter Group To Public Category.",
+            "news_body": "Intimation of receipt of requests for Reclassification of category from Promoter/Promoter Group to Public",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72e68fc4-a019-4034-a189-ad0f6eee15c9.pdf",
+            "news_date": "2025-09-18 17:14:21"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation For Revised Record Date For Stock Split",
+            "news_body": "Intimation of Revised Record Date for Stock Split",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=251d1b40-e940-4b77-a8a3-34689723e721.pdf",
+            "news_date": "2025-09-10 17:36:29"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Fixation Of Record Date For Stock Split",
+            "news_body": "Intimation for Fixation of Record Date for Stock Split",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=921fffce-7096-48a5-aad1-f641cabf3623.pdf",
+            "news_date": "2025-09-10 12:22:09"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2055e50-dbe3-4ed6-a5da-8f22cf7cf551.pdf",
+            "news_date": "2025-09-10 11:00:48"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for information about AGM 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72664eec-46b4-431c-80a5-76bee4c46159.pdf",
+            "news_date": "2025-09-05 17:29:43"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f42dc8e7-5bee-49e7-b921-9caea1012c44.pdf",
+            "news_date": "2025-09-05 16:57:30"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "BRSR Report for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e2b1af3-c7da-4484-996b-9bf94df22d9b.pdf",
+            "news_date": "2025-09-05 16:53:13"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation About 23Rd Annual General Meeting And E Voting Details",
+            "news_body": "Notice of AGM and Annual Report for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9bc97be-6419-4f41-be87-bcd3dadb9408.pdf",
+            "news_date": "2025-09-05 16:51:50"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Amendment to Memorandum of Association pursuant to Sub Division of Shares subject to approval by members in General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f5279fb-4c16-4d62-92c8-739264aa0061.pdf",
+            "news_date": "2025-09-04 12:56:54"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Sub-division / Stock Split",
+            "caption": "Corporate Action-Outcome of Sub division / Stock Split",
+            "news_body": "Outcome of Board Meeting for Sub Division",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f30c589-767a-4e98-b95a-8917c0c1df9b.pdf",
+            "news_date": "2025-09-04 12:55:31"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Approval Of Board For Sub-Division Of Face Value Of Equity Shares Of The Company Subject To Approval By Members In General Meeting",
+            "news_body": "Approval of Board for Sub-division of Face value of Equity shares of the Company subject to approval by members in General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd559e13-6018-43fc-b03a-ecf0d7da1036.pdf",
+            "news_date": "2025-09-04 12:43:38"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd50e03d-94c7-42ab-a9a4-ab56d32f84b3.pdf",
+            "news_date": "2025-09-01 17:05:52"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Sub-division / Stock Split",
+            "caption": "Corporate Action-Intimation of Sub division / Stock Split",
+            "news_body": "To consider proposal for sub-division of face value of equity shares of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c86a57e-7935-429d-aed2-af3448650388.pdf",
+            "news_date": "2025-09-01 16:55:05"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Sub-Division Of Face Value Of Equity Shares Of The Company",
+            "news_body": "Rolex Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/09/2025 inter alia to consider and approve Sub-division of face value of equity shares of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2f461f2-8e0a-4ddc-a20c-1640b2a31726.pdf",
+            "news_date": "2025-09-01 16:53:15"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting Cancelled",
+            "caption": "Cancellation of Board Meeting",
+            "news_body": "The Board Meeting to be held on 03/09/2025 Stands Cancelled.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50dd5c45-4fe9-444d-be48-812a68dbc0e9.pdf",
+            "news_date": "2025-08-30 18:52:21"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd05d765-54f5-4f37-bb43-9e197e2b27ac.pdf",
+            "news_date": "2025-08-29 17:26:16"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Bonus",
+            "caption": "Corporate Action-Board to consider Bonus Issue",
+            "news_body": "To Consider Proposal to issue Bonus Shares to Equity shareholders of the company subject to approval of members in General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27c9e9c0-6acc-49e0-a515-0d6497a7be15.pdf",
+            "news_date": "2025-08-29 16:50:53"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Sub-division / Stock Split",
+            "caption": "Corporate Action-Intimation of Sub division / Stock Split",
+            "news_body": "Intimation of Board Meeting to consider Proposal for Sub-Division of Face Value of Equity shares of the Company subject to approval by members in General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4a4fa15-fb4b-4183-9818-6849d6808da4.pdf",
+            "news_date": "2025-08-29 16:48:58"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Sub-Division Of Face Value Of Equity Shares Of The Company And Issue Of Bonus Shares To Equity Shareholders Of The Company By Capitalisation Of Reserves Subject To Approval Of Members In General Meeting",
+            "news_body": "Rolex Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 03/09/2025 inter alia to consider and approve (i) Proposal for Sub-Division of Face value of Equity shares of the company subject to approval by members in General Meeting;\r\n(ii) Proposal to issue Bonus shares to Equity shareholders of the Company subject to approval by members in General Meeting by Capitalisation of reserves",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ecea74c-0cdb-46d2-bd07-6560ece60a17.pdf",
+            "news_date": "2025-08-29 16:46:18"
         },
         {
             "sym": "ROLEXRINGS",
@@ -146,6 +740,28 @@
             "seg": "E"
         },
         {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93566f80-b51b-48ee-acf3-59cf5f90417d.pdf",
+            "news_date": "2025-08-18 16:52:21"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a016fcc-75a3-460e-8e7c-dee399e74ca3.pdf",
+            "news_date": "2025-08-14 11:17:45"
+        },
+        {
             "sym": "ROLEXRINGS",
             "disp": "Rolex Rings",
             "bse_code": 543325,
@@ -168,6 +784,17 @@
             "sid": 5279,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For June 2025 Quarter",
+            "news_body": "Results for June 2025 Quarter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e3af337-417d-4aa0-b04c-2decba266139.pdf",
+            "news_date": "2025-08-13 15:54:28"
         },
         {
             "sym": "ROLEXRINGS",
@@ -194,6 +821,83 @@
             "seg": "E"
         },
         {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6af203a9-688f-47a5-bbba-4ec926754ac4.pdf",
+            "news_date": "2025-08-12 10:08:35"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board meeting to approve Consider and adopt Unaudited Financial Results for June 2025 Quarter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e8c5ff8-8bde-4df6-8b6f-0ac4befca0c0.pdf",
+            "news_date": "2025-08-11 17:04:09"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e16e5b54-e228-44c7-825c-7f9104f2e09a.pdf",
+            "news_date": "2025-08-07 17:17:43"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Quarterly Results For June 2025 Quarter",
+            "news_body": "Rolex Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/08/2025 inter alia to consider and approve Unaudited Quarterly Results for June 2025 Quarter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa4e68e4-d681-4919-9817-cef2d12c5c05.pdf",
+            "news_date": "2025-08-02 17:37:05"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation about CareEdge Credit Ratings.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=abab7186-dbc2-4d46-a58a-de93f1fb9e4c.pdf",
+            "news_date": "2025-08-02 11:45:23"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018 for the Quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dad41f25-5e48-41da-8acc-090d76ccd589.pdf",
+            "news_date": "2025-07-10 11:10:09"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for Closure of Trading Window for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10666283-c5be-4237-9f68-134a2b2d0d5b.pdf",
+            "news_date": "2025-06-30 10:59:50"
+        },
+        {
             "sym": "ROLEXRINGS",
             "disp": "Rolex Rings",
             "bse_code": 543325,
@@ -216,6 +920,28 @@
             "sid": 5279,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d1bdd19-bb38-4ba0-9c2d-16c14b81f2f4.pdf",
+            "news_date": "2025-06-06 17:34:00"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Audited Results for Quarter and Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba0e826f-c62f-4218-93c6-d31d4b8d0d50.pdf",
+            "news_date": "2025-06-03 11:52:10"
         },
         {
             "sym": "ROLEXRINGS",
@@ -242,6 +968,116 @@
             "seg": "E"
         },
         {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba52fef1-ac55-47e7-a87d-f411f7937ac7.pdf",
+            "news_date": "2025-06-01 23:10:00"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting For Approval Of Audited Results For March 31 2025",
+            "news_body": "Outcome of Board Meeting for Approval of Audited Results for March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b726e89b-b509-400d-9745-16ec04405baf.pdf",
+            "news_date": "2025-05-30 18:12:27"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30052808-b0cd-436d-9206-db771421759e.pdf",
+            "news_date": "2025-05-28 16:38:43"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Analyst Meet to discuss Audited Standalone results for the Quarter and Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9ffeec1-9afb-4a75-bac0-01de503d537a.pdf",
+            "news_date": "2025-05-28 16:30:53"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation for Affirmation in Credit Ratings by IndiaRatings & Research",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be9a3592-3ebb-4060-b83e-a3074fc8300b.pdf",
+            "news_date": "2025-05-28 12:27:48"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving The Audited Results For The Quarter And Year Ended 31St March 2025",
+            "news_body": "Rolex Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/05/2025 inter alia to consider and approve the Audited Results for the Quarter and Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f362838-bbe2-4365-905a-56291198d6d4.pdf",
+            "news_date": "2025-05-26 17:41:24"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3005e08b-c456-4ac6-ba73-3688514118ab.pdf",
+            "news_date": "2025-04-05 11:16:44"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for Closure of Trading Window for 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=955d39d2-9696-4521-ba7b-a48ea8d19f4f.pdf",
+            "news_date": "2025-03-31 12:49:40"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update For In Person Meeting With Various AMCs",
+            "news_body": "Update of the In-Person Meeting by the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8118420a-4e27-4502-8a8e-58ec219f0642.pdf",
+            "news_date": "2025-03-21 18:33:07"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates On Plant Visit",
+            "news_body": "Updates on Plant Visit",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ac937f7-8d0e-4bc1-850a-b05907cac6c4.pdf",
+            "news_date": "2025-03-17 11:37:52"
+        },
+        {
             "sym": "ROLEXRINGS",
             "disp": "Rolex Rings",
             "bse_code": 543325,
@@ -264,6 +1100,17 @@
             "sid": 5279,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c05cd522-be86-4732-961e-13c6c2d146d2.pdf",
+            "news_date": "2025-02-19 18:07:08"
         },
         {
             "sym": "ROLEXRINGS",
@@ -290,6 +1137,149 @@
             "seg": "E"
         },
         {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a1aa0bb-87ba-42bf-98fc-d301e0ad1344.pdf",
+            "news_date": "2025-02-16 22:15:34"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Unaudited Results for Quarter and Nine months ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ab26f8b-a880-4ad5-89c4-7c91cc0f0f87.pdf",
+            "news_date": "2025-02-15 15:54:57"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing for Quarter and Nine Months ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61058e5f-bd11-454e-b268-1b4f95f04354.pdf",
+            "news_date": "2025-02-14 16:34:57"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held For Approval Of Unaudited Financials For December 31 2024",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d635000-de08-4abd-a1f9-3d7e80ca7aa0.pdf",
+            "news_date": "2025-02-14 14:05:19"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Call post Q3FY25 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e2468c2-dea5-419c-b1f4-5fe2539cd63c.pdf",
+            "news_date": "2025-02-11 16:21:40"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Cancellation Of Investor Call Which Was Scheduled On 10Th February 2025",
+            "news_body": "Intimation for Cancellation of Investor Call which was scheduled on 10th February 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b98780d-d8a1-4bc2-b5d0-a77126070e0e.pdf",
+            "news_date": "2025-02-05 17:48:29"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting Rescheduled",
+            "caption": "Update on board meeting",
+            "news_body": "The Board Meeting to be held on 07/02/2025 has been revised to 14/02/2025 The Board Meeting to be held on 07/02/2025 has been revised to 14/02/2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac1fbbd2-2d78-4417-b49d-fcd2a3f004b8.pdf",
+            "news_date": "2025-02-05 16:05:51"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Communication Received From Union Bank Of India On Behalf Of Other Consortium Banks.",
+            "news_body": "Intimation of Communication received from Union Bank of India on behalf of other consortium banks.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c8fd0eb-b0b6-4ecc-82ee-6c3d48bea688.pdf",
+            "news_date": "2025-02-05 08:39:23"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation for Analyst Meet for Results of December 2024 quarter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb6bab1e-ec4b-43a3-a7ad-c9f2cc3c7c32.pdf",
+            "news_date": "2025-02-04 17:24:02"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Results For Quarter And Nine Months Ended 31St December 2024",
+            "news_body": "Rolex Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/02/2025 inter alia to consider and approve Unaudited Results for Quarter and Nine months ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3610ce60-511c-47b0-bc6c-46b626611269.pdf",
+            "news_date": "2025-01-28 18:24:49"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5)  of SEBI (DP) Regulations 2018 for December 2024 Quarter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d820bffc-e44c-46bc-8aac-57fe70a6eecd.pdf",
+            "news_date": "2025-01-08 16:08:58"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Change In Name Of Registrar And Share Transfer Agent",
+            "news_body": "Intimation for Change in Name of Registrar and Share Transfer Agent",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb111af4-4a3d-4643-9754-847fcc8f8f2a.pdf",
+            "news_date": "2025-01-02 10:36:21"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49091ec0-175c-4cbf-ad8a-ac29128c4e0b.pdf",
+            "news_date": "2024-12-31 12:49:35"
+        },
+        {
             "sym": "ROLEXRINGS",
             "disp": "Rolex Rings",
             "bse_code": 543325,
@@ -314,6 +1304,17 @@
             "seg": "E"
         },
         {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript for Investor Call held on 11th November, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09bf9e7a-a900-4e61-ae75-ec53e59472b8.pdf",
+            "news_date": "2024-11-15 11:35:45"
+        },
+        {
             "sym": "ROLEXRINGS",
             "disp": "Rolex Rings",
             "bse_code": 543325,
@@ -336,6 +1337,105 @@
             "sid": 5279,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e7c1e1f-3998-4883-a183-18fc13da8d98.pdf",
+            "news_date": "2024-11-11 09:48:41"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Results September 2024 Quarter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f80ee1f0-9569-444b-a67d-718d2c0b77d6.pdf",
+            "news_date": "2024-11-09 16:48:40"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting For Unaudited Results For The Quarter And Half Year Ended 30Th September, 2024",
+            "news_body": "Outcome of Board Meeting for unaudited Results for the Quarter and Half year ended 30th September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c313d5d-2266-4f36-86cd-1f69c9c8eab6.pdf",
+            "news_date": "2024-11-07 13:20:03"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Analyst Call for Unaudited Results for September 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8eb5db60-06a6-4fd1-a85b-a6bdee08a9b9.pdf",
+            "news_date": "2024-11-06 17:53:30"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited Results For Quarter Ended 30Th September, 2024",
+            "news_body": "Rolex Rings Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/11/2024 ,inter alia, to consider and approve Unaudited Results for Quarter ended 30th September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fd80d68-3326-431e-8967-7cbbb318c14d.pdf",
+            "news_date": "2024-10-25 15:35:37"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate under 74(5) of SEBI (DP) Regulations, 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=983583e7-d638-4c2a-b34c-f2adcf43a0b8.pdf",
+            "news_date": "2024-10-19 12:19:01"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations, 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01439186-77e6-40d9-9064-f1b2370af9d8.pdf",
+            "news_date": "2024-10-05 18:23:57"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window for September 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cca909f5-71bb-413f-837a-504226395caa.pdf",
+            "news_date": "2024-10-01 10:07:32"
+        },
+        {
+            "co_code": 30245,
+            "bse_code": 543325,
+            "isin": "INE645S01024",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Intimation Of Plant Visit By Mirae Asset AMC",
+            "news_body": "Intimation of Plant Visit on 26th September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33d942be-d6af-4b2b-b24b-49a75291e2b2.pdf",
+            "news_date": "2024-09-21 11:20:15"
         },
         {
             "sym": "ROLEXRINGS",
@@ -1201,6 +2301,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

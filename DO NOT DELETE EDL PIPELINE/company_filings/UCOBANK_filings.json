@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Strikes /Lockouts / Disturbances",
+            "caption": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
+            "news_body": "Notice of Strike by AIBEA BEFI and AIBOA",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bde810fe-640c-4b6d-b9f4-7acd7445525a.pdf",
+            "news_date": "2026-02-11 11:22:50"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=808ec647-10c1-4ed1-832d-b672b77252e0.pdf",
+            "news_date": "2026-02-10 17:51:53"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Convening Of Extraordinary General Meeting (EGM) And Notice Of Specified/Cut-Off Date For Election Of Shareholder Director",
+            "news_body": "Convening of EGM and Notice of Cut-off date for election",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02a97050-3e67-4d53-9c3d-c7752bd035d7.pdf",
+            "news_date": "2026-02-07 15:37:56"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Senior Management Of The Bank",
+            "news_body": "Change in Senior Management of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db8ce5eb-b15f-4060-bf1b-7bd8b07cd452.pdf",
+            "news_date": "2026-01-31 18:07:01"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Senior Management Of The Bank",
+            "news_body": "Change in Senior Management of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9661676-63a9-42e6-8402-cc3e029df9c9.pdf",
+            "news_date": "2026-01-31 18:02:54"
+        },
+        {
             "sym": "UCOBANK",
             "disp": "UCO Bank",
             "bse_code": 532505,
@@ -24,6 +79,28 @@
             "sid": 11223,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call held on 20.01.2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=543029a8-302b-4805-a73b-7eafc799c398.pdf",
+            "news_date": "2026-01-28 14:56:41"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Strikes /Lockouts / Disturbances",
+            "caption": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
+            "news_body": "Notice of Strike by UFBU on 27.01.2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de3e24eb-c4bf-46be-acad-19ee902e4616.pdf",
+            "news_date": "2026-01-25 15:49:05"
         },
         {
             "sym": "UCOBANK",
@@ -50,6 +127,17 @@
             "seg": "E"
         },
         {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio/Video Recording of Post Earnings Call held on 20.01.2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1c3318f-9284-4a90-a7f3-75a50e66658f.pdf",
+            "news_date": "2026-01-20 22:13:08"
+        },
+        {
             "sym": "UCOBANK",
             "disp": "UCO Bank",
             "bse_code": 532505,
@@ -72,6 +160,39 @@
             "sid": 11223,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation on Financial Results for the quarter and nine months ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8627dfed-ca26-4d22-8147-c1f183e5680b.pdf",
+            "news_date": "2026-01-17 16:01:03"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results for the quarter and nine months ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92d9a635-9186-48cc-8e8a-97aed4ca0018.pdf",
+            "news_date": "2026-01-17 15:48:38"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Approval Of Financial Results For The Quarter And Nine Months Ended 31.12.2025",
+            "news_body": "Financial Results for the quarter and nine months ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73e9e23f-d602-48ad-9dfb-a728c168a936.pdf",
+            "news_date": "2026-01-17 15:11:53"
         },
         {
             "sym": "UCOBANK",
@@ -98,6 +219,116 @@
             "seg": "E"
         },
         {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Nine Months Ended 31.12.2025",
+            "news_body": "Financial Results for the quarter and nine months ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16c76e9c-3a70-47a3-8553-03dee4195aea.pdf",
+            "news_date": "2026-01-17 15:08:18"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Post Earnings Call With Analysts to discuss the financial performance of the Bank for the quarter/nine months ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c417d54-5824-45eb-9d04-8499f3c435f7.pdf",
+            "news_date": "2026-01-14 19:26:24"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results Of The Bank For The Quarter And Nine Months Ended\r\n31St December 2025.",
+            "news_body": "UCO Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/01/2026 inter alia to consider and approve unaudited financial results of the Bank for the quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1354f887-517f-48a4-9b81-0b38077874b5.pdf",
+            "news_date": "2026-01-14 13:00:56"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank w.e.f. 11.01.2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a50ee45-4e44-48b6-8317-8a6c79a1ef12.pdf",
+            "news_date": "2026-01-10 19:45:05"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI DP Regulations for the quarter ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fb21e23-c9e4-4208-ba9a-fc801798e01d.pdf",
+            "news_date": "2026-01-09 10:24:34"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures Of The Bank As On 31St December 2025",
+            "news_body": "Provisional Business Figures of the Bank as on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=025e0632-09ce-40ca-ae24-9bda56247811.pdf",
+            "news_date": "2026-01-02 15:02:56"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window from 1st January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d96e722-513d-452c-b110-d1725c4bc6c1.pdf",
+            "news_date": "2025-12-29 12:45:29"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Resignation of Shareholder Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38c2da79-38f4-4e09-a0cc-e18a519fe240.pdf",
+            "news_date": "2025-12-26 15:53:08"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af4dc079-0919-472a-9d89-73aadf5ebe7f.pdf",
+            "news_date": "2025-12-10 18:39:12"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Interest Rate Updates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95b423c6-ea42-4d7a-8699-9293d6f642aa.pdf",
+            "news_date": "2025-11-07 17:53:00"
+        },
+        {
             "sym": "UCOBANK",
             "disp": "UCO Bank",
             "bse_code": 532505,
@@ -120,6 +351,17 @@
             "sid": 11223,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Post Earnings Analyst Meet held on 17.10.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04a91106-5635-4b60-bb61-9b7d3944e0fc.pdf",
+            "news_date": "2025-10-24 16:12:39"
         },
         {
             "sym": "UCOBANK",
@@ -146,6 +388,28 @@
             "seg": "E"
         },
         {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio/Video Recording of the Post Earnings Analyst Meet held on 17.10.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c763471-b4f3-4e97-a7ea-9cf34f61a31f.pdf",
+            "news_date": "2025-10-17 21:16:16"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results for the quarter and half year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70a8fb19-291c-4a92-84a0-0ec97ddd5b57.pdf",
+            "news_date": "2025-10-17 13:57:28"
+        },
+        {
             "sym": "UCOBANK",
             "disp": "UCO Bank",
             "bse_code": 532505,
@@ -168,6 +432,171 @@
             "sid": 11223,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation on Financial Results for the quarter and half year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b577513-2f5c-4be7-b0b8-b68b772b2939.pdf",
+            "news_date": "2025-10-17 13:49:37"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Reviewed Financial Results For The Quarter And Half Year Ended 30.09.2025",
+            "news_body": "Reviewed Financial Results for the quarter and half year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=962c6c36-6a73-44f2-8d66-3c1db863ec18.pdf",
+            "news_date": "2025-10-17 13:37:55"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "India Rating reaffirmed the Banks Long term Issuer Rating and Bond Rating at AA/Stable",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b236be4-6ea1-45f7-8041-85a27935fc99.pdf",
+            "news_date": "2025-10-16 15:54:33"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Joining Details Of Post Earnings Call To Be Held On 17.10.2025 At 03.00 Pm",
+            "news_body": "Joining Details of Post Earnings Call to be held on 17.10.2025 at 3.00 pm",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba650f1a-f827-4404-b3ef-dc38e776b64d.pdf",
+            "news_date": "2025-10-14 11:04:48"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Post Earnings Call held on 17.10.2025 at 03.00 pm",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81c6fd61-5528-4b86-a3bd-1afac795dff6.pdf",
+            "news_date": "2025-10-13 18:58:33"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Financial Results For The Quarter And Half Year Ended 30.09.2025",
+            "news_body": "UCO Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/10/2025 inter alia to consider and approve financial results for the quarter and half year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5b7b50b-ea2c-4a42-a5d5-c1e342c10cc5.pdf",
+            "news_date": "2025-10-13 18:35:28"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8632f7d9-649d-4ea3-9f1e-88e8f8383a13.pdf",
+            "news_date": "2025-10-12 15:50:42"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures Of The Bank - 30.09.2025",
+            "news_body": "Quarterly Business Update - 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=915f20fc-7869-4aed-91bf-3316a8324d2e.pdf",
+            "news_date": "2025-10-04 16:37:51"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI DP Regulations - 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=efde517a-04fb-4bbe-b904-4bc6552ea002.pdf",
+            "news_date": "2025-10-03 13:48:06"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window from 1st October 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32a534f1-0f0f-4f88-9ba1-2e9b77534b95.pdf",
+            "news_date": "2025-09-23 15:29:37"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Extension Of Tenure Of Shri Rajendra Kumar Saboo Executive Director",
+            "news_body": "Extension of tenure of Shri Rajendra Kumar Saboo for a further period of 3 years",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49a2e8c4-d3b7-4af6-800f-63a3a9fd4c23.pdf",
+            "news_date": "2025-09-16 13:11:54"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank w.e.f. 10.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fa7831b-92ed-46bc-8990-3a79cad87c9e.pdf",
+            "news_date": "2025-09-09 19:02:54"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Approval Of Reserve Bank Of India To Setup IFSC Banking Unit (IBU) At Gift City Gandhinagar Gujarat",
+            "news_body": "Approval of RBI for setting up IBU at GIFT City",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66b4d510-16be-4662-b3ff-14affc7e3896.pdf",
+            "news_date": "2025-09-03 18:57:26"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55a16d49-62f5-4f2d-8298-e6564d6cbf33.pdf",
+            "news_date": "2025-08-07 18:54:17"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Reaffirmation of Bond and Issuer Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3183dcc-126c-4015-a766-42720fceff1f.pdf",
+            "news_date": "2025-08-06 12:16:58"
         },
         {
             "sym": "UCOBANK",
@@ -194,6 +623,17 @@
             "seg": "E"
         },
         {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Post Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b81725c-e713-4ddb-9f0a-06799a6ac230.pdf",
+            "news_date": "2025-07-28 15:40:51"
+        },
+        {
             "sym": "UCOBANK",
             "disp": "UCO Bank",
             "bse_code": 532505,
@@ -216,6 +656,17 @@
             "sid": 11223,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio/Video Recording of Post Earnings Call with Analyst held on 21.07.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bea68a19-818c-44b3-b40e-41372939ef2f.pdf",
+            "news_date": "2025-07-21 21:19:09"
         },
         {
             "sym": "UCOBANK",
@@ -242,6 +693,39 @@
             "seg": "E"
         },
         {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation on Financial Results -Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=800742ce-e059-4051-9aef-12fd4460c898.pdf",
+            "news_date": "2025-07-21 15:20:05"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Unaudited (Reviewed) Financial Results for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c306010e-108b-49ad-8079-b58f53a79119.pdf",
+            "news_date": "2025-07-21 15:07:45"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Rectification In Subject Line Of Outcome Announcement Letter Dated 21St July 2025",
+            "news_body": "Rectification in Subject Line of Outcome Announcement Letter dated 21st July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66015423-27b5-4132-8801-f36a939b571b.pdf",
+            "news_date": "2025-07-21 14:04:22"
+        },
+        {
             "sym": "UCOBANK",
             "disp": "UCO Bank",
             "bse_code": 532505,
@@ -264,6 +748,237 @@
             "sid": 11223,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results -June-25 Quarter",
+            "news_body": "Unaudited Financial Results for the quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=590dbb0f-012b-48ea-b0fe-fea2cb7563bb.pdf",
+            "news_date": "2025-07-21 12:57:14"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Financial Results For The Quarter Ended 30.06.2025",
+            "news_body": "Unaudited Financial Results for the quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aaf29095-7292-425e-8266-2fe407ec5ad2.pdf",
+            "news_date": "2025-07-21 12:53:42"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Post Earnings Call on 21st July 2025 at 03:30 PM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9d3e136-e59a-4650-b436-f1eaca94d4c2.pdf",
+            "news_date": "2025-07-16 12:35:17"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Unaudited (Reviewed) Financial Results Of The Bank For The Quarter Ended 30Th June 2025.",
+            "news_body": "UCO Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 21/07/2025 inter alia to consider and approve unaudited (reviewed) financial results of the Bank for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=286a50e5-08a7-41de-8bdd-4e4ebc41a514.pdf",
+            "news_date": "2025-07-15 16:43:26"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df4ea723-fd82-427f-838a-577adb9fd92b.pdf",
+            "news_date": "2025-07-10 16:54:39"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a0e79ec-b153-4314-96f2-6b776ed0297a.pdf",
+            "news_date": "2025-07-08 12:22:47"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures For June 2025",
+            "news_body": "Provisional Business Figures for June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06c89332-4bbb-43e4-8ed4-571f79117b22.pdf",
+            "news_date": "2025-07-03 15:35:24"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "CLOSURE OF TRADING WINDOW FROM 01.07.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbf0632b-d3c6-4c25-bba1-a531b4c0e14f.pdf",
+            "news_date": "2025-06-25 15:45:10"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor",
+            "news_body": "Appointment of Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9acb2c6-f859-4d03-bfcc-3281cc8be3d7.pdf",
+            "news_date": "2025-06-19 19:51:34"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizer Report - 22nd AGM held on 19th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fee895bc-82a7-420d-8afb-6918431a8bef.pdf",
+            "news_date": "2025-06-19 18:55:41"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 22nd AGM and Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16d4360d-88af-4e23-8485-2cf8a5e145d7.pdf",
+            "news_date": "2025-06-19 18:51:54"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3e00f9a-2895-4b45-8ec2-6947e49ccd4d.pdf",
+            "news_date": "2025-06-06 19:17:59"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Chief Financial Officer",
+            "news_body": "Change in Chief Financial Officer of the Bank w.e.f. 02.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8167bfe4-3e07-4632-8758-2c1b30a957f1.pdf",
+            "news_date": "2025-06-02 20:07:20"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In The Senior Management",
+            "news_body": "Change in the Senior Management of the Bank w.e.f. June 1 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=feed60b1-223b-464c-8011-d0c04dc861b8.pdf",
+            "news_date": "2025-06-01 18:09:30"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Senior Management",
+            "news_body": "Change in Senior Management of the Bank w.e.f. June 1 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5f5959e-54ef-4244-aad1-d0b5fa6e4bb3.pdf",
+            "news_date": "2025-06-01 17:03:03"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdacdb95-4858-45d7-88f7-4d56deed2e38.pdf",
+            "news_date": "2025-05-27 18:17:20"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a8354c4-7285-474d-b665-27481d0d7e0e.pdf",
+            "news_date": "2025-05-27 14:41:48"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "22Nd Annual General Meeting Of The Bank On 19Th June 2025",
+            "news_body": "22nd AGM on 19th June 2025 at 11.00 am through VC/OAVM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=002ed36a-f445-4e20-97ed-36db89791ec0.pdf",
+            "news_date": "2025-05-22 14:18:00"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b4f9f1aa-eab4-438f-8fcd-19b0ff529441.pdf",
+            "news_date": "2025-05-21 15:50:00"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a5a15ab-aef9-473a-ad4a-d2ba5cad6be3.pdf",
+            "news_date": "2025-05-13 12:22:27"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Outcome of Institutional Investor/Analysts Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38db34cd-dbd5-4526-a068-3bddca894e0e.pdf",
+            "news_date": "2025-05-06 18:57:54"
         },
         {
             "sym": "UCOBANK",
@@ -290,6 +1005,325 @@
             "seg": "E"
         },
         {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Post Earnings Call with Analysts/investors held on 28.04.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6655cae-adfa-4d42-9bac-b7848eea3197.pdf",
+            "news_date": "2025-05-03 13:53:49"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Interaction with Institutional Investor / Analysts",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1136f3cf-b98d-4393-b794-30be0c84180f.pdf",
+            "news_date": "2025-05-02 20:02:45"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of Post Earnings conference Call held on 28.04.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bfd69f4-b87c-4f31-a885-2718bb85563b.pdf",
+            "news_date": "2025-04-28 20:33:10"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Record Date Intimation For The Purpose Of Dividend For The FY 2024-25",
+            "news_body": "Record Date Intimation for Dividend for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddcca447-3cf5-4b76-ac75-f92a04e29c0e.pdf",
+            "news_date": "2025-04-28 19:35:23"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results - 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bec7c2b5-c953-48a4-9eb4-74c2fa4148f2.pdf",
+            "news_date": "2025-04-28 16:05:52"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Presentation On Financial Results - 31.03.2025",
+            "news_body": "Presentation on Financial Results - 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e974ccec-e75c-4768-8327-a93818f65148.pdf",
+            "news_date": "2025-04-28 16:02:29"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board Recommended Dividend at the rate of Rs.0.39 per equity share for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2511b5a2-8eda-4794-a113-b99a0a708e54.pdf",
+            "news_date": "2025-04-28 15:54:15"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Approval of audited Financial Results  Dividend and Equity Capital Raising  Plan",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cad9e2d-ca99-4818-9343-7885530a4cd9.pdf",
+            "news_date": "2025-04-28 15:43:12"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Post Earning Conference Call held on 28.04.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7f4d90d-5e57-4a0c-ba7d-8fac83a4c01e.pdf",
+            "news_date": "2025-04-23 22:35:03"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Financial Results Dividend And Equity Capital Raising",
+            "news_body": "UCO Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/04/2025 inter alia to consider and approve Financial Results Dividend and Equity Capital Raising",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f880c558-2094-4d06-ba19-3336cdde7bfd.pdf",
+            "news_date": "2025-04-23 21:53:35"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in the composition of Board of Directors of UCO Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bf43c27-30d0-43b8-a538-5ad4c09ae49a.pdf",
+            "news_date": "2025-04-11 19:26:43"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d7a80f7-7ed5-4c68-abc0-826a9e6c7ae7.pdf",
+            "news_date": "2025-04-09 16:55:24"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In The Assignment Of Senior Management",
+            "news_body": "Change in the Assignment of Senior Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4fa60745-4de8-4964-86bd-a6bf627b12c3.pdf",
+            "news_date": "2025-04-09 13:25:15"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Reg.30 Of SEBI LODR Regulations",
+            "news_body": "Intimation under Reg.30 of SEBI LODR Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb467192-a608-4b5b-9f62-bddd9342292f.pdf",
+            "news_date": "2025-04-08 20:43:48"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor For FY 2024-25",
+            "news_body": "Appointment of Secretarial Auditors for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52099ffc-105c-455d-ac77-49abdced496f.pdf",
+            "news_date": "2025-04-08 13:27:54"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg.74(5) of SEBI DP Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a2b6136-f5bd-4b58-991d-d51c5baf4666.pdf",
+            "news_date": "2025-04-04 17:27:43"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures Of The Bank As On 31St March 2025",
+            "news_body": "Provisional Business Figures of the Bank as on 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed4f4f74-ab48-4326-b5bc-a9ebe9338724.pdf",
+            "news_date": "2025-04-03 22:56:49"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI LODR Regulations",
+            "news_body": "Intimation under Regulation 30 of SEBI LODR Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3d642fe-08ab-4237-9295-a3dd8377a6ff.pdf",
+            "news_date": "2025-04-02 22:35:00"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Qualified Institutional Placement",
+            "caption": "Announcement under Regulation 30 (LODR)-Qualified Institutional Placement",
+            "news_body": "Outcome of the meeting of the Capital Raising Committee of the Board - For Allotment of Equity Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55520cdc-f47b-43d7-9bb3-b739cb13245f.pdf",
+            "news_date": "2025-03-27 22:48:18"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Qualified Institutional Placement",
+            "caption": "Announcement under Regulation 30 (LODR)-Qualified Institutional Placement",
+            "news_body": "Outcome of the meeting of Capital Raising Committee of the Board - Issue Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d9fe9b4-5895-4e3c-8383-99b0ee11c4bc.pdf",
+            "news_date": "2025-03-27 19:03:35"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Qualified Institutional Placement",
+            "caption": "Announcement under Regulation 30 (LODR)-Qualified Institutional Placement",
+            "news_body": "Outcome of the Capital Raising Committee of the Board",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=643c7d39-f8f3-4f87-accb-d689d798f7be.pdf",
+            "news_date": "2025-03-24 19:43:31"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Non-Deal Road Shows/Analyst/Institutional Investor Meet",
+            "news_body": "Outcome of Non-deal road shows/Analyst/Institutional Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3efd306b-5106-4b26-b187-37a69e57666d.pdf",
+            "news_date": "2025-03-21 18:23:52"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark Rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=479733df-acc0-4409-bf14-50eba16b6044.pdf",
+            "news_date": "2025-03-10 17:31:10"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8430d613-3ac8-417f-83e2-fa768a55e1c4.pdf",
+            "news_date": "2025-03-03 18:05:38"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Schedule Of Non-Deal Road Shows/ Analyst/ Institutional Investor Meet",
+            "news_body": "Schedule of non-deal road shows/Analyst/Institutional Investor Meet from Feb 24 2025 onwards",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa05c78b-e37d-41ac-b3f3-6e0271911de7.pdf",
+            "news_date": "2025-02-19 16:45:14"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Interest Rates Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Interest Rates Updates",
+            "news_body": "Update on Benchmark rates of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a64289c-cfc4-4e32-af2d-d0ba33516084.pdf",
+            "news_date": "2025-02-07 19:45:04"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Reg.30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "Disclosure under Reg.30 of SEBI LODR Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=356c8b2c-cab9-41f4-bd00-52e3b545d5ba.pdf",
+            "news_date": "2025-02-07 17:47:32"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Senior Management",
+            "news_body": "Change in Senior Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f03906ea-5fcd-4733-8729-8115c748bf19.pdf",
+            "news_date": "2025-02-04 13:58:27"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Senior Management Of The Bank",
+            "news_body": "Change in Senior Management of the Bank - Retirement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff8aec16-0844-4e97-b7ee-24cc1758c098.pdf",
+            "news_date": "2025-02-01 11:15:33"
+        },
+        {
             "sym": "UCOBANK",
             "disp": "UCO Bank",
             "bse_code": 532505,
@@ -312,6 +1346,72 @@
             "sid": 11223,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Call held on 21.01.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de9dff96-2c6a-4a85-ae32-039b1db239ed.pdf",
+            "news_date": "2025-01-28 16:10:18"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "EGM - Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3001f411-2a52-47fd-9b5c-8584d5179882.pdf",
+            "news_date": "2025-01-22 16:19:08"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "EGM- Proceedings and Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ac2dc2d-f26e-48e0-b82f-28b3b2d8f10f.pdf",
+            "news_date": "2025-01-22 16:11:54"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial) for the quarter ended December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88dae904-edda-4248-af07-4c2b2d95d571.pdf",
+            "news_date": "2025-01-21 19:03:43"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Link of Audio/Video Recording of Analyst Meet held on 21.01.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe186771-5771-4bec-8676-58bef148e109.pdf",
+            "news_date": "2025-01-21 18:44:42"
+        },
+        {
+            "co_code": 5475,
+            "bse_code": 532505,
+            "isin": "INE691A01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Revised Presentation On Financial Results For The Quarter And Nine Months Ended 31.12.2024",
+            "news_body": "Revised Presentation - Q3FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4a70050-b6f9-4cec-9e31-f02326bc514c.pdf",
+            "news_date": "2025-01-21 18:24:43"
         },
         {
             "sym": "UCOBANK",
@@ -1297,6 +2397,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

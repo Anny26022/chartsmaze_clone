@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7303b6f-8f1f-4b87-bed3-b60d5d255e29.pdf",
+            "news_date": "2026-02-12 14:58:24"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ac2d351-6740-4d03-b08c-38f8ac58cf36.pdf",
+            "news_date": "2026-02-12 14:44:42"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results And Outcome Of Board Meeting",
+            "news_body": "Un-audited Financial Results and Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de00254e-0e36-4787-b75a-9ec1c5ab9c05.pdf",
+            "news_date": "2026-02-12 14:39:51"
+        },
+        {
             "sym": "WSTCSTPAPR",
             "disp": "West Coast Paper Mills",
             "bse_code": 500444,
@@ -24,6 +57,116 @@
             "sid": 3799,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results",
+            "news_body": "Un-audited Financial Results for the Quarter and Nine months ended on 31 December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41d47917-ce86-4b4c-9151-c61adec0d4c8.pdf",
+            "news_date": "2026-02-12 14:37:01"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Financial Results",
+            "news_body": "West Coast Paper Mills Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2026 inter alia to consider and approve Un-audited Financial Results (Standalone/Consolidated) for the quarter and nine months period ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1d01eb2-3ff7-4920-b689-46c5273dcc2a.pdf",
+            "news_date": "2026-01-30 15:17:47"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Special Window",
+            "news_body": "Report on Re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bca86de1-3a26-4627-8a51-4a0ae2f508e7.pdf",
+            "news_date": "2026-01-13 17:23:05"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Reg.74(5) of SEBI(DP)Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bac6ea0c-34d6-4498-ba67-605b8437cf4c.pdf",
+            "news_date": "2026-01-05 10:48:22"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34b29b70-7baf-400f-858d-c69bb1d86b39.pdf",
+            "news_date": "2025-12-29 11:23:46"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Special Window",
+            "news_body": "Report on Re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b8e331c-e5ed-4236-a7d8-c59b3cfc90ae.pdf",
+            "news_date": "2025-12-08 09:54:39"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "ICRA Limited has reaffirmed the Credit Ratings of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4db14170-4050-4c0c-92cc-7d90ca00fbd7.pdf",
+            "news_date": "2025-11-27 10:59:38"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "News Paper Publication of Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5a5e6be-aed6-4c72-acc4-df0d45b31624.pdf",
+            "news_date": "2025-11-13 17:59:30"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Related Party Transactions",
+            "news_body": "Regulation 23(9) of SEBI LODR Regulations-Disclosure of Related Party Transactions",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef2bcd52-a9ad-4983-a9b4-49052d1db2a7.pdf",
+            "news_date": "2025-11-12 14:04:06"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Press Release",
+            "news_body": "Press Release on Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d71521f-aabb-4ee6-b2c3-6d33fe9e0baa.pdf",
+            "news_date": "2025-11-12 13:46:13"
         },
         {
             "sym": "WSTCSTPAPR",
@@ -50,6 +193,215 @@
             "seg": "E"
         },
         {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results Financial Results",
+            "news_body": "Un audited Financial Results as on 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8ec8574-c87e-4d02-a95a-035dd0cad7c4.pdf",
+            "news_date": "2025-11-12 13:31:04"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results",
+            "news_body": "Un-audited Financial Results (Standalone & Consolidated) for the Quarter and Half year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2af9459-53cb-4650-9b10-4b68e65ee883.pdf",
+            "news_date": "2025-11-12 13:18:06"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Special Window",
+            "news_body": "Report on Re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b699790-82b6-43f9-b408-42970fb16bea.pdf",
+            "news_date": "2025-11-07 16:59:12"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Financial Results",
+            "news_body": "West Coast Paper Mills Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2025 inter alia to consider and approve Un-audited Financial Results (Standalone/Consolidated) of the Company for the quarter and half year ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=093520f0-b09e-42b2-9e54-6863ce80cbf9.pdf",
+            "news_date": "2025-11-06 11:24:25"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Special Window",
+            "news_body": "Report on Re-lodgement of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29a46074-3c89-4fd5-bb4c-b8eeb4d6949d.pdf",
+            "news_date": "2025-10-07 15:57:25"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Confirmation Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=940f34a5-5412-467f-a14a-df8a7ba87a91.pdf",
+            "news_date": "2025-10-07 15:54:15"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closing of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af8434ac-6339-4d94-a44c-28d335123ff0.pdf",
+            "news_date": "2025-09-26 16:31:37"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting Minutes",
+            "news_body": "We enclose herewith Minutes of Proceedings of the 70th AGM held on 28.08.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91e82c99-0cc7-42d3-8cb5-94aebb3925c0.pdf",
+            "news_date": "2025-09-19 17:42:57"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Re-lodgement of Transfer Requests of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a213987-61bb-4ca9-a53b-e5124fcff1ba.pdf",
+            "news_date": "2025-09-16 17:30:06"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Annual General Meeting-Update",
+            "news_body": "70th AGM Proceedings Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26f5fc00-32da-4237-b316-572a1876568e.pdf",
+            "news_date": "2025-08-28 22:35:09"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "70th AGM Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78ce69ca-bd62-48a2-aedf-b7c3f4cb29f3.pdf",
+            "news_date": "2025-08-28 22:10:56"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "70th AGM Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=318d8af8-20d7-450c-afbe-9e359544261e.pdf",
+            "news_date": "2025-08-28 22:05:20"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Shareholder Meeting-Update",
+            "news_body": "70th AGM Proceedings Voting Results and Scrutinizers Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f899a173-933c-48fd-90b1-9e285050b17d.pdf",
+            "news_date": "2025-08-28 20:44:47"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "70th AGM Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e82921d-4462-4eae-83e2-87e9bb192208.pdf",
+            "news_date": "2025-08-28 20:40:36"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Summary of the Proceedings of 70th AGM and Voting Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e737a22-4f65-4b1a-b9d7-c307356c5740.pdf",
+            "news_date": "2025-08-28 20:36:02"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Re-Lodgement Of Transfer Requests Of Physical Shares",
+            "news_body": "Report on Re-lodgement of Transfer request of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a02211b4-8abc-46f1-81c5-9459437e5cf7.pdf",
+            "news_date": "2025-08-25 18:00:11"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19e4cf16-f8c9-4751-b9c0-d70a33c43251.pdf",
+            "news_date": "2025-08-12 14:35:35"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5233d161-2239-420b-b579-eaa6710a1575.pdf",
+            "news_date": "2025-08-11 14:16:27"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results",
+            "news_body": "Financial Results for the Quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c106306-87bd-4816-9d56-4efea926e313.pdf",
+            "news_date": "2025-08-11 14:11:33"
+        },
+        {
             "sym": "WSTCSTPAPR",
             "disp": "West Coast Paper Mills",
             "bse_code": 500444,
@@ -72,6 +424,237 @@
             "sid": 3799,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results",
+            "news_body": "Financial Results for the Quarter ended on 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06681bbe-99d7-42e5-bef1-c09102f11893.pdf",
+            "news_date": "2025-08-11 14:02:09"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Financial Results",
+            "news_body": "West Coast Paper Mills Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/08/2025 inter alia to consider and approve Un-audited Financial Results of the Company for the Quarter ended on June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9f7ee19-48ef-4683-a045-379e48e006c9.pdf",
+            "news_date": "2025-08-02 10:55:00"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc718b96-f93e-4748-97f0-479ca8e1ff0b.pdf",
+            "news_date": "2025-07-31 12:04:39"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c188348e-29fc-4dee-97a1-d3fef5ee43fa.pdf",
+            "news_date": "2025-07-30 20:07:20"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Notice of 70th AGM and Annual Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e9b38cf-17de-4fe7-896a-d0f4154c5845.pdf",
+            "news_date": "2025-07-30 15:08:34"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of AGM And Annual Report",
+            "news_body": "Notice of 70th AGM and Annual Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0557ce7-1d4c-48fc-8078-ddab40e87c8d.pdf",
+            "news_date": "2025-07-30 14:58:08"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3173f91c-f424-4f2f-bb67-f2ef75f4c5d7.pdf",
+            "news_date": "2025-07-30 14:30:25"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting-Revised",
+            "news_body": "Annual General Meeting will be held on 28th August 2025-Revised.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d7e58ec-32a6-450c-8c9b-e6b8813d7434.pdf",
+            "news_date": "2025-07-16 17:15:02"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date/Book Closure For AGM And Dividend-Revised",
+            "news_body": "Revised intimation for Record date/Book Closure for the purpose of AGM and Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cd5eda7-465c-42ef-b0b7-212335b89eaf.pdf",
+            "news_date": "2025-07-16 17:11:04"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Annual General Meeting And Dividend Updates",
+            "news_body": "Annual General Meeting and Dividend Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc49422c-c420-4cf2-9dcd-8f94ea58bf1d.pdf",
+            "news_date": "2025-07-16 16:37:40"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30-Updates",
+            "news_body": "Reply to e-mail from BSE Ltd. for significant increase in the volume of security across Exchanges.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=568af305-b4b0-4467-92ab-d4201d749622.pdf",
+            "news_date": "2025-07-07 11:48:48"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from West Coast Paper Mills Ltd",
+            "news_body": "The Exchange has sought clarification from West Coast Paper Mills Ltd on July 7 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-07-07 11:36:14"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Confirmation Certificate under Reg.74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ee6c810-df4d-45d4-9057-373303519ece.pdf",
+            "news_date": "2025-07-05 16:11:01"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closing of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db3b0d65-6fd1-4a06-b44f-21401120d5b2.pdf",
+            "news_date": "2025-06-25 11:47:09"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting",
+            "news_body": "Annual General Meeting will be held on 18.08.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d218f34-ccdb-41b2-b8d1-3ae1adce17f8.pdf",
+            "news_date": "2025-06-19 10:12:24"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date/Book Closure For AGM And Dividend",
+            "news_body": "Intimation of Record date/Book closure for the purpose of AGM and Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ae4af75-04b2-4765-a8d4-9687c86f4f04.pdf",
+            "news_date": "2025-06-19 10:05:28"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Annual General Meeting And Dividend Update",
+            "news_body": "Annual General Meeting and Dividend Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f7c2956-920e-4505-8ec8-77dec52b1cd1.pdf",
+            "news_date": "2025-06-19 10:00:06"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "News Paper Publication of Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=242168ff-264c-4eb1-b547-8210eef6280f.pdf",
+            "news_date": "2025-05-24 12:02:08"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40e085a1-d3d0-4320-b90b-fca713a1b41a.pdf",
+            "news_date": "2025-05-23 16:12:22"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Board Recommended Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bad6906b-ebb2-4afb-871a-ce521563e33b.pdf",
+            "news_date": "2025-05-23 15:50:56"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor",
+            "news_body": "Appointment of Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6124109-f39e-4e1e-869f-57adb44939d2.pdf",
+            "news_date": "2025-05-23 15:36:20"
         },
         {
             "sym": "WSTCSTPAPR",
@@ -98,6 +681,171 @@
             "seg": "E"
         },
         {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results Financial Results",
+            "news_body": "Financial Results as on 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7397354c-5537-44ed-b45b-940cc56d8bc0.pdf",
+            "news_date": "2025-05-23 15:11:53"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results For The Quarter And Year Ended 31.03.2025",
+            "news_body": "Audited Financial Results for the Quarter and Year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0a669ad-2dda-4516-98dc-bceac776de51.pdf",
+            "news_date": "2025-05-23 14:52:55"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Audited Financial Results",
+            "news_body": "West Coast Paper Mills Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/05/2025 inter alia to consider and approve Audited Financial Results(Standalone/Consolidated) of the Company for the quarter/year ended 31.03.2025 and to recommend dividend if any on Equity Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94a7b5cc-b81e-41cf-a694-e9b589654234.pdf",
+            "news_date": "2025-05-14 16:15:03"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e66c7327-1dc4-4680-a529-c18140b403b8.pdf",
+            "news_date": "2025-05-12 16:20:54"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR)Regulations 2015",
+            "news_body": "Product launch",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbd0d500-db2a-4a8a-9df0-39163874543c.pdf",
+            "news_date": "2025-04-30 15:21:32"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>West Coast Paper Mills Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L02101KA1955PLC001936</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>111.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>AASTABLE</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>ICRA LIMITED</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: SHRI BRAJMOHAN PRASAD <br/>  Designation: COMPANY SECRETARY AND COMPLIANCE OFFICER <br/> EmailId: brajmohan@westcoastpaper.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: SHRI RAJESH BOTHRA <br/> Designation: CHIEF FINANCIAL OFFICER <br/> EmailId: rbothra@westcoastpaper.com</div> </div> <div> <br/> Date: 18/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e80825da-50bb-433b-a104-8f5559019c81.pdf",
+            "news_date": "2025-04-18 16:00:54"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Postal Ballot",
+            "caption": "Postal Ballot",
+            "news_body": "Minutes of Postal Ballot dated April 02 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64bd56f8-2808-4ffc-9da4-1c97e8a1691d.pdf",
+            "news_date": "2025-04-14 11:11:10"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Compliance Certificate under Regulation 74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8c4bbb6-4e07-49a0-8f35-0532ab9ad910.pdf",
+            "news_date": "2025-04-05 14:23:13"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Postal Ballot e-Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc265ba5-6838-46c8-8b55-b4ae5d567a30.pdf",
+            "news_date": "2025-04-03 15:19:05"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30-Cautionary Letter/Email",
+            "news_body": "Disclosure of Cautionary letter/email and reply.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=934aa8d8-0b7b-455a-9d2a-3dacbc554a33.pdf",
+            "news_date": "2025-03-29 16:18:33"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closing of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14d92b69-eb6a-4c64-8692-cb4580ada131.pdf",
+            "news_date": "2025-03-26 10:21:26"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication regarding Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f84e06a-225c-46d8-8327-db953916341c.pdf",
+            "news_date": "2025-02-28 15:10:13"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot and e-Voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9e37dcf-c6ef-4aae-83c9-39a4ff41fa11.pdf",
+            "news_date": "2025-02-27 17:47:36"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of News Paper publication - Cut off date for Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d1b82eb-7143-4c21-8f8b-2558b7e2c50d.pdf",
+            "news_date": "2025-02-17 11:55:41"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Cut-Off Date For Postal Ballot",
+            "news_body": "Cut-Off date for Postal Ballot through E-voting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0adf0903-ef58-4990-97c8-8b9f4c7f17e5.pdf",
+            "news_date": "2025-02-15 11:16:37"
+        },
+        {
             "sym": "WSTCSTPAPR",
             "disp": "West Coast Paper Mills",
             "bse_code": 500444,
@@ -120,6 +868,72 @@
             "sid": 3799,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d3ba774-0802-474a-a36d-8ce7ab6b79b2.pdf",
+            "news_date": "2025-02-14 18:25:59"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "News Paper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28d35893-de8c-424a-82d2-503ba29cb994.pdf",
+            "news_date": "2025-02-14 16:29:25"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23157a95-c13b-47f4-9e42-477e2b450258.pdf",
+            "news_date": "2025-02-13 17:34:14"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=effab3bb-fc2e-4af8-9c69-016f0086c4f6.pdf",
+            "news_date": "2025-02-13 15:18:40"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c755458b-4ec0-4ec6-95ee-bcd4ad506825.pdf",
+            "news_date": "2025-02-13 15:05:04"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results",
+            "news_body": "Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9742ca51-406f-48dd-900a-f445da8b604c.pdf",
+            "news_date": "2025-02-13 14:52:07"
         },
         {
             "sym": "WSTCSTPAPR",
@@ -146,6 +960,149 @@
             "seg": "E"
         },
         {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Results",
+            "news_body": "Un-audited Financial Results for the Quarter and Nine Months period ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc2992e0-7178-4592-8a5e-866e36cb4a1c.pdf",
+            "news_date": "2025-02-13 14:45:11"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Un-Audited Financial Results For The Quarter And Nine Months Ended December 31 2024",
+            "news_body": "WEST COAST PAPER MILLS LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2025 inter alia to consider and approve Un-Audited Financial Results (Standalone and Consolidated) for the Quarter and Nine Months Ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31b0eaac-dd7f-4ce7-85f8-6ca74dadc8bb.pdf",
+            "news_date": "2025-02-01 10:35:38"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Postal Ballot",
+            "caption": "Postal Ballot",
+            "news_body": "Minutes of Postal Ballot dated 11.01.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2d2f4d7-acec-4ff9-a473-b200b02aca97.pdf",
+            "news_date": "2025-01-27 16:15:53"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "e-Voting results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=456daf70-bf6d-48bc-9ac1-2e1e2768e871.pdf",
+            "news_date": "2025-01-11 19:04:03"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Confirmation Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=690149cf-ae11-4d35-86d9-70c5ede7de5e.pdf",
+            "news_date": "2025-01-07 17:30:45"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Details of Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71446bba-a895-4247-8ce1-1c078d3ce4bf.pdf",
+            "news_date": "2024-12-18 16:54:36"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2682c77-3a24-4052-b8c5-8e3a6963ae56.pdf",
+            "news_date": "2024-12-11 11:09:09"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication regarding Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9750602-9f7a-4bf9-952a-eaaa746309e2.pdf",
+            "news_date": "2024-12-10 16:06:18"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot and e-Voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26d78835-a7c3-497e-942d-086cb05443c1.pdf",
+            "news_date": "2024-12-09 15:11:31"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "ICRA Limited has reaffirmed Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a01e64a-7d62-435a-9366-847b933b0dde.pdf",
+            "news_date": "2024-11-26 12:20:51"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "News Paper advertisement-Cut off date for Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=170c09b4-61dc-43e7-87f6-4ea1f4eaa032.pdf",
+            "news_date": "2024-11-18 17:53:03"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "News Paper Advertisement-Q2 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=585c472d-f697-4fc6-97bc-863084ade065.pdf",
+            "news_date": "2024-11-16 18:14:07"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Cut-Off Date For Postal Ballot",
+            "news_body": "Cut-off date for Postal Ballot through e-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ca2afb4-361d-45fd-af04-253652a50078.pdf",
+            "news_date": "2024-11-16 12:15:21"
+        },
+        {
             "sym": "WSTCSTPAPR",
             "disp": "West Coast Paper Mills",
             "bse_code": 500444,
@@ -168,6 +1125,50 @@
             "sid": 3799,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08c821c3-0ee2-48b3-8398-325c68a4e91f.pdf",
+            "news_date": "2024-11-16 12:05:27"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=feda6ce7-4bd7-4222-846f-4d9c3361f8cf.pdf",
+            "news_date": "2024-11-14 14:59:08"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6afdc4d7-bc65-4e10-aebc-d23820decb40.pdf",
+            "news_date": "2024-11-14 14:24:19"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Related Party Transactions",
+            "news_body": "Related Party Transactions pursuant to Regulation 23(9) of SEBI(LODR) Regulations, 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bae5c27-ccc3-4308-95ce-eba988b91737.pdf",
+            "news_date": "2024-11-14 14:13:56"
         },
         {
             "sym": "WSTCSTPAPR",
@@ -194,6 +1195,94 @@
             "seg": "E"
         },
         {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results For Quarter And Half Year Ended September 30,2024",
+            "news_body": "Un-Audited Financial Results(Standalone and Consolidated) for the Quarter and Half year ended September 30,2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37fb579d-3207-4def-92aa-754e0a39214b.pdf",
+            "news_date": "2024-11-14 13:39:58"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Un-Audited Financial Results For The Quarter And Half Year Ended September 30, 2024",
+            "news_body": "WEST COAST PAPER MILLS LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/11/2024 ,inter alia, to consider and approve Un-audited Financial Results(Standalone/Consolidated) for the quarter and half year ended September 30,2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb29f9ee-d3bf-4503-b4ae-1fa7b9f4e135.pdf",
+            "news_date": "2024-10-28 12:10:07"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7bddd94-bc93-4d43-91b4-fded015039a7.pdf",
+            "news_date": "2024-10-11 12:04:32"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Confirmation Certificate in the matter of Regulation 74(5) of SEBI (DP) Regulations, 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe367cd8-923f-471e-94b4-a10ebe2e4abb.pdf",
+            "news_date": "2024-10-05 15:41:36"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Details of Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0266901-362c-4d2b-87b9-6061767858d8.pdf",
+            "news_date": "2024-10-05 15:37:05"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closing of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=341237db-47b5-4644-8200-277e1996ebd9.pdf",
+            "news_date": "2024-09-26 14:54:30"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Details of Loss of Share Certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b51cbff0-96f2-4ee8-9d20-06e3bb4324cb.pdf",
+            "news_date": "2024-09-18 16:01:15"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholders Meeting  Minutes",
+            "news_body": "We enclose herewith Minutes of proceedings of the 69th Annual General Meeting held on August 14, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c80dbafb-d2de-4942-8a99-2870902eda31.pdf",
+            "news_date": "2024-08-31 11:31:39"
+        },
+        {
             "sym": "WSTCSTPAPR",
             "disp": "West Coast Paper Mills",
             "bse_code": 500444,
@@ -216,6 +1305,17 @@
             "sid": 3799,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 607,
+            "bse_code": 500444,
+            "isin": "INE976A01021",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30679bc9-8d23-43b5-bcd3-8782ca1cd051.pdf",
+            "news_date": "2024-08-19 14:34:58"
         },
         {
             "sym": "WSTCSTPAPR",
@@ -721,6 +1821,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

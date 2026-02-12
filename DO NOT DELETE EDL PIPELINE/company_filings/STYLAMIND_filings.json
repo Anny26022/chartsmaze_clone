@@ -26,6 +26,17 @@
             "seg": "E"
         },
         {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Investor and Analyst Meet held on January 29 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b16a5eaa-7642-4962-ad3c-9434f4fc88bb.pdf",
+            "news_date": "2026-02-04 15:33:40"
+        },
+        {
             "sym": "STYLAMIND",
             "disp": "Stylam Industries",
             "bse_code": 526951,
@@ -48,6 +59,39 @@
             "sid": 5186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under Regulation 30 of Securities and Exchange Board of India (Listing Obligations And Disclosure Requirements) Regulations 2015 - Audio Recordings of Q3 FY2026 Earnings Conference Call \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2710c28-4252-40c3-8c86-51edcc5902ef.pdf",
+            "news_date": "2026-01-29 17:27:00"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement -Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b8d92e5-552d-4918-9f7f-0d89fde11e23.pdf",
+            "news_date": "2026-01-25 17:26:23"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Earnings Conference Call on Un-audited Financial Results for the Third Quarter (Q3) and Nine Months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37de190f-27b4-49f6-876c-c8572f72223d.pdf",
+            "news_date": "2026-01-23 17:37:31"
         },
         {
             "sym": "STYLAMIND",
@@ -74,6 +118,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Unaudited Financial Results of the Company for the Third Quarter (Q3) and Nine Months Ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e01696b-c3b3-4172-8810-628d51822b8c.pdf",
+            "news_date": "2026-01-23 16:07:24"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (SEBI Regulations).",
+            "news_body": "Disclosure under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cd584cb-4fbe-46e1-8410-5da097f557ba.pdf",
+            "news_date": "2026-01-23 13:06:17"
+        },
+        {
             "sym": "STYLAMIND",
             "disp": "Stylam Industries",
             "bse_code": 526951,
@@ -96,6 +162,182 @@
             "sid": 5186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Third Quarter (Q3) And Nine Months Ended December 31 2025.",
+            "news_body": "Results For The Third Quarter (Q3) and Nine Months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=626ea16c-a3a0-43e0-a075-447820798da6.pdf",
+            "news_date": "2026-01-23 12:55:34"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Standalone & Consolidated Financial Results For The Third Quarter (Q3) & Nine Months Ended December 31 2025",
+            "news_body": "Unaudited Standalone & Consolidated Financial Results For The Third Quarter (Q3) & Nine Months Ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b16ae10-0358-487f-81cc-7f57d6d5aabe.pdf",
+            "news_date": "2026-01-23 12:50:23"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Postponement Of InvestorS Conference Call To Be Held On 23.01.2026",
+            "news_body": "Postponement of Investors Conference Call to be held on 23.01.2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b835048-dfb1-49b2-a267-002ed4e05c41.pdf",
+            "news_date": "2026-01-21 12:35:17"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Earnings Conference Call on Un-audited Financial Results for the Third Quarter (Q3) and Nine Months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d50e8944-e756-4cf0-a326-1ffb94dc9be3.pdf",
+            "news_date": "2026-01-20 17:47:29"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of The Un-Audited Financial Results (Standalone And Consolidated) Of The Company For The Third Quarter (Q3) And Nine Months Ended 31 December 2025.",
+            "news_body": "Stylam Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/01/2026 inter alia to consider and approve Board Meeting Intimation For approval of the Un-Audited Financial Results (Standalone and Consolidated) of the Company for the Third Quarter (Q3) and Nine Months ended 31 December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ebf6fa8-0d2e-40de-8cd5-3a7851600a92.pdf",
+            "news_date": "2026-01-16 15:01:46"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Open Offer - Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Open Offer - Updates",
+            "news_body": "A Copy of the Draft Letter of Offer (DLoF) with respect to the open offer made by Aica Kogyo Company Limited to the Public Shareholders of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ec161bd-0cc1-414a-99f8-ec3f94cf0654.pdf",
+            "news_date": "2026-01-10 10:38:04"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5f4e7cd-8e08-4253-9e04-308d1a3a906b.pdf",
+            "news_date": "2026-01-09 17:16:18"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Open Offer - Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Open Offer - Updates",
+            "news_body": "Intimation under regulation 30 and other applicable provisions of the SEBI LODR 2015 - Detailed Public Statement (DPS) with respect to the Open Offer made by Aica Kogyo Company Limited to the Public Shareholders of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d38a2ce3-b776-462f-915d-e43fe0bc7026.pdf",
+            "news_date": "2026-01-02 15:18:51"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General",
+            "descriptor": "General",
+            "caption": "Detailed Public Statement",
+            "news_body": "ICICI Securities Ltd (\"Manager to the Open Offer\") has submitted to BSE a copy of Detailed Public Statement in terms of Regulation 3(1) and Regulation 4 read with Regulation 13(4) 14(3) 15(2) and other applicable Regulations of the SEBI (SAST) Regulations 2011 as amended to the Public Shareholders of Stylam Industries Ltd (\"Target Company\").",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7599C9F8-5BDB-49F7-80A1-D375B63305E7-141741.pdf",
+            "news_date": "2026-01-02 14:17:58"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cd1f654-9def-41c9-a189-f12af50c901f.pdf",
+            "news_date": "2025-12-29 12:41:14"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General",
+            "descriptor": "Open Offer",
+            "caption": "Public Announcement - Open Offer",
+            "news_body": "ICICI Securities Ltd (\"Manager to the Open Offer\") has submitted to BSE a copy of Public Announcement for the attention of the Public Shareholders of Stylam Industries Ltd (\"Target Company\") under Regulation 3(1) and Regulation 4 read with Regulations 13(1) 14 and 15(1) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations 2011 and subsequent amendments thereto.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7B2E7B83-3F4A-4D23-AB11-8565A7464783-175015.pdf",
+            "news_date": "2025-12-26 17:50:23"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "Pls refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b53c8381-aa77-4bf3-8353-17d9ed2003a0.pdf",
+            "news_date": "2025-12-26 13:51:37"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Read Along With Schedule III Of The Securities And Exchange Board Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulation 2015.",
+            "news_body": "Please refer attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4126d528-8f7a-4975-8b69-d1f71ededcdf.pdf",
+            "news_date": "2025-12-26 13:44:42"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Intimation Under Regulation 30 Read With Schedule III Of The SEBI LODR.",
+            "news_body": "Intimation Under Regulation 30 Read With Schedule III Of The SEBI LODR.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa274cda-c585-4d85-a2b2-e5378c48fd25.pdf",
+            "news_date": "2025-12-26 13:36:57"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement - Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8672b99-9124-4ccd-95c4-da2b83108ea7.pdf",
+            "news_date": "2025-11-17 13:22:32"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Award",
+            "news_body": "The Company has been honored with \"Second Best Exporter of Decorative Laminates\" award and received the highest recognition for exports for the year 2023-24 & 2024-25 from the Plastic Export Promotion Council.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5511a29-3b38-4d95-bff4-1d8199a02d3c.pdf",
+            "news_date": "2025-11-17 11:28:46"
         },
         {
             "sym": "STYLAMIND",
@@ -122,6 +364,17 @@
             "seg": "E"
         },
         {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on unaudited Financial Results of the Company for the Second Quarter (Q2) and Half Year Ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1311e464-7f93-46f0-a225-598ef645fa51.pdf",
+            "news_date": "2025-11-14 17:13:40"
+        },
+        {
             "sym": "STYLAMIND",
             "disp": "Stylam Industries",
             "bse_code": 526951,
@@ -144,6 +397,215 @@
             "sid": 5186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Second Quarter (Q2) And Half Year Ended September 30 2025.",
+            "news_body": "Results For The Second Quarter (Q2) and Half Year Ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd46a4af-5beb-434b-abdf-165745044760.pdf",
+            "news_date": "2025-11-14 16:16:37"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Standalone & Consolidated Financial Results For The Second Quarter (Q2) And Half Year Ended September 30 2025.",
+            "news_body": "Unaudited Standalone & Consolidated Financial Results For the Second Quarter (Q2) and Half Year Ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=718e1b08-0532-492d-b722-c80b0270fa9d.pdf",
+            "news_date": "2025-11-14 16:08:22"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of The Un-Audited Financial Results (Standalone & Consolidated) Of The Company For The Second Quarter (Q2) And Half Year Ended September 30 2025.",
+            "news_body": "Stylam Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/11/2025 inter alia to consider and approve Board Meeting Intimation for approval Of The Un-Audited Financial Results (Standalone & Consolidated) Of The Company For The Second Quarter (Q2) and Half Year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16a07f9a-f9f9-4ec9-bb04-28b9e4b52565.pdf",
+            "news_date": "2025-11-05 13:29:48"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "Clarification/Confirmation on news item appearing in \"Media Publication\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=182c36b8-2435-4fe8-af01-720e917f0107.pdf",
+            "news_date": "2025-10-28 13:28:57"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Stylam Industries Ltd",
+            "news_body": "The Exchange has sought clarification from Stylam Industries Ltd on October 28 2025 with reference to news appeared in https://www.cnbctv18.com/market dated October 28 2025 quoting \"Japans AICA Kogyo looks to acquire majority stake in Stylam Industries: Sources\" <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-10-28 11:35:25"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a558b46e-a61a-4d64-9961-238547a46d24.pdf",
+            "news_date": "2025-10-10 13:53:55"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizer Report on the E-voting Results of 34th Annual General Meeting held on 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=014a41c1-e93d-409a-8f79-cedd209ae34e.pdf",
+            "news_date": "2025-10-02 09:31:05"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Summary of the proceedings of the 34th Annual General Meeting of Stylam Industries Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=866b4974-5dc2-4700-8a8f-6320aa2ba998.pdf",
+            "news_date": "2025-09-30 15:17:55"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63489eff-abfa-47bf-a53e-fd97ac5facc1.pdf",
+            "news_date": "2025-09-25 12:38:27"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter To The Shareholders - Annual Report 2024-25.",
+            "news_body": "Stylam Industries Limited has informed the Exchange regarding the Letter to the Shareholders.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a6d2d49-eba2-46ae-873f-1a6dfd01d451.pdf",
+            "news_date": "2025-09-05 16:23:34"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Stylam Industries Limited has informed the Exchange about the Newspaper Publication regarding the 34th AGM e-voting and other related information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8aa18373-627c-4989-a33b-dea332577d35.pdf",
+            "news_date": "2025-09-05 15:18:12"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Stylam Industries Limited has informed the Exchange regarding the Annual Report for the Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=995ba4c7-4582-4915-a4fe-d9deb41d2e46.pdf",
+            "news_date": "2025-09-04 17:31:08"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Stylam Industries Limited has informed the Exchange regarding the BRSR for the FY endedn2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a19eb80-77f2-452d-8207-24443f896a71.pdf",
+            "news_date": "2025-09-04 17:17:02"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 34Th Annual General Meeting Scheduled On September 30 2025 At 11:00 A.M. (IST)",
+            "news_body": "Notice of 34th Annual General Meeting Scheduled on September 30 2025 at 11:00 A.M. (IST)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f599a0ef-e2c3-4717-aa1a-a42d3718ff61.pdf",
+            "news_date": "2025-09-04 17:01:51"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement - Registration of E-mail address to receive Annual Report and subsequent to cast vote through e-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ec9efec-925f-4780-91f7-003c76523c81.pdf",
+            "news_date": "2025-08-29 12:18:42"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "34TH Annual General Meeting Of The Company Is Scheduled On Tuesday September 30 2025.",
+            "news_body": "34TH Annual General Meeting of the Company is scheduled on Tuesday September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4fa68960-2e4f-4b0a-a694-e7c83c3b2640.pdf",
+            "news_date": "2025-08-29 11:37:05"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Sanjiv Kumar Goel Practicing Company Secretary as Secretarial Auditor.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4af7d50c-d907-4a58-8496-4592aa8d65c0.pdf",
+            "news_date": "2025-08-29 11:28:06"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement - Intimation to the Shareholders regarding Special Window for re-lodgment of transfer request of Physical Shares and 100 Days Campaign - \"Saksham Niveshak.\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74baca63-fb8b-4d91-a7bb-f8f494ad8342.pdf",
+            "news_date": "2025-08-26 15:59:33"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement - Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca15c9c8-7f36-408a-83d5-f703b7d5f8e0.pdf",
+            "news_date": "2025-08-04 16:07:07"
         },
         {
             "sym": "STYLAMIND",
@@ -170,6 +632,17 @@
             "seg": "E"
         },
         {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Unaudited Financial Results of the Company for the First Quarter (Q1) Ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0273e978-9d83-42e2-b1b6-c0a373e208b7.pdf",
+            "news_date": "2025-08-02 15:28:45"
+        },
+        {
             "sym": "STYLAMIND",
             "disp": "Stylam Industries",
             "bse_code": 526951,
@@ -192,6 +665,61 @@
             "sid": 5186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The First Quarter (Q1) Ended June 30 2025.",
+            "news_body": "Results for the First Quarter (Q1) ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5ebb1a4-57fd-45d2-a6cb-e25bc7856568.pdf",
+            "news_date": "2025-08-02 12:20:43"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Standalone & Consolidated Financial Results For The First Quarter (Q1) Ended June 30 2025.",
+            "news_body": "Unaudited Standalone & Consolidated Financial Results For The First Quarter (Q1) Ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b277c3a-1378-4e01-bead-f7abb6c585a6.pdf",
+            "news_date": "2025-08-02 12:17:48"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of The Un-Audited Financial Results Of The Company For The Quarter Ended June 30 2025.",
+            "news_body": "Stylam Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 02/08/2025 inter alia to consider and approve The Un-Audited Financial Results Of The Company For The Quarter Ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=796b2d2f-1919-4ae2-b8d5-12d4d0a2be66.pdf",
+            "news_date": "2025-07-25 17:24:20"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74 (5) of SEBI (DP) Regulation 2018 for the Quarter ended 30 June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb85c5b3-a671-4d41-92db-b8d3ba5380f3.pdf",
+            "news_date": "2025-07-15 17:10:40"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5c735f3-f249-45c1-af95-decec3de26ac.pdf",
+            "news_date": "2025-06-27 17:31:29"
         },
         {
             "sym": "STYLAMIND",
@@ -218,6 +746,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Announcement under Regulation 30 (LODR) - Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed7d09b3-7a0f-4dd1-9ef8-a5cab23932be.pdf",
+            "news_date": "2025-05-30 12:09:24"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement - Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=169a17f7-a8b8-4961-9924-b01e33e6ed0d.pdf",
+            "news_date": "2025-05-28 13:09:54"
+        },
+        {
             "sym": "STYLAMIND",
             "disp": "Stylam Industries",
             "bse_code": 526951,
@@ -240,6 +790,17 @@
             "sid": 5186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation under Regulation 30 of Securities and Exchange Board of India (Listing Obligations And Disclosure Requirements) Regulations 2015 - Audio Recordings of Q4 FY2025 Earnings Conference Call \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d23f7be-3f77-4d83-9436-5c5c9d2b08c7.pdf",
+            "news_date": "2025-05-27 18:21:58"
         },
         {
             "sym": "STYLAMIND",
@@ -266,6 +827,17 @@
             "seg": "E"
         },
         {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Audited Financial Results of the Company for the Fourth Quarter (Q4) and Year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7845550-ac1e-48d6-b953-f0cfc598d4e0.pdf",
+            "news_date": "2025-05-26 13:23:52"
+        },
+        {
             "sym": "STYLAMIND",
             "disp": "Stylam Industries",
             "bse_code": 526951,
@@ -288,6 +860,127 @@
             "sid": 5186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter And Year Ended March 31 2025",
+            "news_body": "Results for the Quarter and Year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0cf42cc-9d68-4025-a45d-2fa67a2c0c31.pdf",
+            "news_date": "2025-05-26 12:54:45"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Audited Standalone & Consolidated Financial Results For The Financial Year Ended March 31 2025",
+            "news_body": "Board Meeting Outcome For Audited Standalone & Consolidated Financial Results For The Financial Year Ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2978a0cf-4ed3-4dde-b06d-208899c6528d.pdf",
+            "news_date": "2025-05-26 12:49:40"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f63bf0d7-ba6d-4b49-b488-b4eef229e590.pdf",
+            "news_date": "2025-05-22 15:06:09"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Audited Financial Results For The Fourth Quarter (Q4) And Year Ended March 31 2025.",
+            "news_body": "Stylam Industries Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 26/05/2025 inter alia to consider and approve Board Meeting intimation for the Audited Financial Results for the Fourth Quarter (Q4) and Year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a21a130-d885-4258-988b-74dd96edc452.pdf",
+            "news_date": "2025-05-19 15:06:46"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Compliances - Reg. 24(A) - Annual Secretarial Compliance Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e14141a9-0d0f-44ca-be66-14de68f9f358.pdf",
+            "news_date": "2025-05-16 11:22:40"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Stylam Industries Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L20211CH1991PLC011732</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>36.07</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>A+Stable</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CARE RATINGS LIMITED</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Dhiraj Kheriwal <br/>  Designation: Company Secretary <br/> EmailId: cs@stylam.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Kishan Nagpal <br/> Designation: CFO <br/> EmailId: kishan.nagpal@stylam.com</div> </div> <div> <br/> Date: 29/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4502262b-b233-4ea9-9284-d81681733d5a.pdf",
+            "news_date": "2025-04-29 17:25:56"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Change Of E-Mail And Website Of The Registrar And Share Transfer Agent (RTA) Of The Company.",
+            "news_body": "Intimation for change of e-mail and website of the Registrar and Share Transfer Agent (\"RTA\") of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d685930d-b5e9-4443-8406-9f891e1e6875.pdf",
+            "news_date": "2025-04-23 13:37:01"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74 (5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4af218fd-3f98-48db-97b0-05e943d91f6a.pdf",
+            "news_date": "2025-04-08 15:31:56"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosures Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (Listing Obligations and Disclosures Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08db34c0-fc77-49d3-a89c-b2dabdeb19d5.pdf",
+            "news_date": "2025-04-04 13:27:15"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6115870-32f6-4538-8cb6-5ad3ad0f10f8.pdf",
+            "news_date": "2025-03-25 17:18:48"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement -Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c5d6b5b-07c3-4069-8c15-e3b7ba596253.pdf",
+            "news_date": "2025-02-10 15:02:34"
         },
         {
             "sym": "STYLAMIND",
@@ -314,6 +1007,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on Unaudited Financial Results of the Company for the Third Quarter (Q3) and Nine Months ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cf78573-d312-483f-a197-eebad944692e.pdf",
+            "news_date": "2025-02-08 15:41:49"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financial)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40be5d7f-1522-49e5-9b45-55db66410065.pdf",
+            "news_date": "2025-02-08 12:21:27"
+        },
+        {
             "sym": "STYLAMIND",
             "disp": "Stylam Industries",
             "bse_code": 526951,
@@ -336,6 +1051,160 @@
             "sid": 5186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter And Nine Months Ended December 31 2024.",
+            "news_body": "Results for the Quarter and nine months ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63d292c1-6d18-48e9-a667-0618ad9bec2e.pdf",
+            "news_date": "2025-02-08 12:12:16"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results For December 31 2024",
+            "news_body": "Outcome of Board Meeting Held on 08.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6f7cab7-5438-4286-8141-4a995d583343.pdf",
+            "news_date": "2025-02-08 12:08:07"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Unaudited Financial Results For The Third Quarter (Q3) & Nine Months Ended On 31St December 2024",
+            "news_body": "Stylam Industries Limitedhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 08/02/2025 inter alia to consider and approve Board Meeting Intimation for the Unaudited Financial Results for the Third Quarter (Q3) & Nine Months Ended on 31St December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64c1a5dc-e044-472d-9834-01283b31c872.pdf",
+            "news_date": "2025-01-31 12:37:20"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 (5) Of The Securities And Exchange Board Of India (\"SEBI\")  (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation Under Regulation 30 (5) of the Securities and Exchange Board of India (\"SEBI\") (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c42fa4e2-dbc2-46e7-a15d-53107ce01efd.pdf",
+            "news_date": "2025-01-21 15:51:29"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "Intimation under regulation 30 of SEBI (Listing Obligations and Disclosures Requirements) Regulations 2015 (Listing Regulations) for appointment of Company Secretary & Compliance Officer (Key Managerial Personnel) of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7e9c3c0-2f97-480a-a2cd-ae22187e535c.pdf",
+            "news_date": "2025-01-21 12:37:54"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 32 (1) (3) - Statement of Deviation & Variation",
+            "caption": "Non Applicability Of SEBI (Listing Obligations Disclosure Requirements) Regulations 2015",
+            "news_body": "Company has not raised any funds through Public Issue Right Issue Prferential Issue QIP etc. during the quarter ending 31.12.2024. Hence Deviation under regulation 32(1) of SEBI (LODR) Regulation 2015 is not applicable  to the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42c38352-4e45-488d-b6be-f14019624483.pdf",
+            "news_date": "2025-01-18 12:54:43"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulation attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eae07cfa-4a35-4d4e-be9c-bdf1707af2df.pdf",
+            "news_date": "2025-01-18 12:48:19"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "letter on confirmation for issue of duplicate share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8596ac94-efc6-4b2b-8afe-86891d6ab540.pdf",
+            "news_date": "2025-01-07 17:02:26"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "LOSS OF SHARE CERTIFICATE",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6848d112-72bd-4ab4-89f4-b2c6dd45f7bd.pdf",
+            "news_date": "2024-12-09 20:14:46"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "intimation regarding issue of duplicate shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae19e668-b859-4717-bea5-494c31c16640.pdf",
+            "news_date": "2024-11-12 20:39:08"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Jagdish Rai Gupta",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=694297D1_EA92_4494_BFCE_6D6C4B935A5B_163546.pdf",
+            "news_date": "2024-10-21 16:35:49"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Company Update",
+            "descriptor": "Resignation of Company Secretary / Compliance Officer",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Company Secretary / Compliance Officer",
+            "news_body": "intimation regarding resignation of company secretary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eba1843a-cf96-40af-aa98-ed3eb664f320.pdf",
+            "news_date": "2024-10-21 10:15:34"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Jagdish Rai Gupta",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=579788B7_0DBA_412A_A3F5_41AD049F0387_124654.pdf",
+            "news_date": "2024-10-19 12:46:58"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Jagdish Rai Gupta",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E77B438B_C603_4DBD_A302_561AA90A5211_124606.pdf",
+            "news_date": "2024-10-19 12:46:11"
         },
         {
             "sym": "STYLAMIND",
@@ -362,6 +1231,61 @@
             "seg": "E"
         },
         {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation for the quarter ended September 30th 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bc11f48-82ea-4da2-8fc4-f65239a602c3.pdf",
+            "news_date": "2024-10-17 17:04:50"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Company Update",
+            "descriptor": "Reg. 32 (1), (3) - Statement of Deviation & Variation",
+            "caption": "Non Applicability Of Regulation 32",
+            "news_body": "Non applicability of regulation 32",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30960b23-62d4-4422-ac2d-0aa13631a0da.pdf",
+            "news_date": "2024-10-16 17:12:57"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "intimation regarding loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=607256ad-c5ee-42ec-8df4-6d69fabb4de3.pdf",
+            "news_date": "2024-10-16 17:09:12"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e91729a4-2f61-4901-988c-99edbfb2075a.pdf",
+            "news_date": "2024-10-16 17:03:02"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited (Standalone And Consolidated) Financial Results Of The Company For The Quarter And Half-Year Ended September 30, 2024",
+            "news_body": "Unaudited (Standalone and Consolidated) Financial Results of the Company for the quarter and half-year ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69949558-e7f2-4208-9af5-9d1c76dc9365.pdf",
+            "news_date": "2024-10-15 13:44:06"
+        },
+        {
             "sym": "STYLAMIND",
             "disp": "Stylam Industries",
             "bse_code": 526951,
@@ -384,6 +1308,182 @@
             "sid": 5186,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "In Reference To Our Letter Dated October 07, 2024, We Wish To Inform You That The Board Of Directors At Their Meeting Held Today I.E. October 15, 2024, Have Inter-Alia, Approved The Following",
+            "news_body": "outcome of board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8777332d-1b67-4eaa-9f73-e354319cceca.pdf",
+            "news_date": "2024-10-15 13:38:51"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Compliance Under Regulations 74",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f4ad1f9-8971-49bb-b360-9ca709c77583.pdf",
+            "news_date": "2024-10-14 18:27:34"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Pursuant To Regulation 29 Of SEBI (LISTING OBLIGATIONS AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2015.",
+            "news_body": "Stylam Industries Limitedhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 15/10/2024 ,inter alia, to consider and approve Pursuant to Regulation 29(1)(a) &(e) of SEBI (LODR) Regulations, 2015, this is to inform the Exchange that Board Meeting of Stylam Industries Limited is scheduled to be held on Tuesday 15th October, 2024 at the Hotel SIP 'N' DINE  SCO 16A, Sector 7C, Madhya Marg Chandigarh, to inter-alia, to consider- the Unaudited Standalone and Consolidated Financial Results for the quarter and half year ended 30th September, 2024 along with the Limited Review Report of the auditors for the corresponding period;",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1ebab25-8100-42da-85fe-bbd66cc77c00.pdf",
+            "news_date": "2024-10-07 17:08:30"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "VOTING RESULTS AND SCRUTINIZER REPORT",
+            "news_body": "VOTING RESULTS AND SCRUTINIZER REPORT OF THE 33RD AGM OF THE COMPANY",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e9f1762-5c01-4476-8d76-a3624b7c76fe.pdf",
+            "news_date": "2024-10-01 18:50:41"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings and outcome of the 33RD AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b02e059-fdb1-4ea1-843c-f377b10a17d8.pdf",
+            "news_date": "2024-09-30 13:39:51"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation of loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fec460e-6a90-4a3c-abef-f1934e4d5c21.pdf",
+            "news_date": "2024-09-26 18:22:55"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation Regarding closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0ca7219-de99-4a69-ba81-0a51a24577e3.pdf",
+            "news_date": "2024-09-25 13:13:25"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation regarding loss of share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfaadd64-27f7-4173-820d-fb8dfe9929a7.pdf",
+            "news_date": "2024-09-18 17:41:41"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of AGM notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98675cd8-72d5-4e7f-bc4d-ccc14b0743bf.pdf",
+            "news_date": "2024-09-07 12:17:17"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Corp. Action",
+            "descriptor": "Book Closure",
+            "caption": "BOOK CLOSURE FOR AGM PURPOSE",
+            "news_body": "In pursuant to regulation 42 intimation regarding Books closure intimation for annual general meeting of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8f0315a-20c5-4a11-84be-1c1278817d29.pdf",
+            "news_date": "2024-09-06 12:53:27"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual report for the year 2023-24",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6f19835-ffe0-4b3b-871b-be4bda06f9c5.pdf",
+            "news_date": "2024-09-06 12:22:38"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "BRSR FOR THE YEAR ENDED MARCH 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b877eac0-a8d4-48ad-a269-818894c445e7.pdf",
+            "news_date": "2024-09-06 11:55:50"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Submission Of Annual Report Of The Company For The Financial Year 2023-24 Along With The Notice Of The 33Rd  Annual General Meeting",
+            "news_body": "Pursuant to regulation 30 and 34 of Sebi LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5273ae2-7238-4bb7-b87c-69ad5232b6d7.pdf",
+            "news_date": "2024-09-06 11:47:38"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Intimation related with appointment of Independent Directror",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5b2c98b-0c05-4524-b1ae-c27c1780ecb6.pdf",
+            "news_date": "2024-08-27 16:02:48"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Reconstitution Of Committee Of The Board Of Directors-Intimation Under Regulation  30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) 2015.",
+            "news_body": "updates for reconstitution of committees",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd030feb-ef50-423d-9607-9ee63326475a.pdf",
+            "news_date": "2024-08-07 16:47:33"
+        },
+        {
+            "co_code": 4888,
+            "bse_code": 526951,
+            "isin": "INE239C01020",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "newspaper publication of quarterly results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9ed5705-ef2a-4f71-bb86-ff9c1ebb6ecd.pdf",
+            "news_date": "2024-08-01 12:32:48"
         },
         {
             "sym": "STYLAMIND",
@@ -1777,6 +2877,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

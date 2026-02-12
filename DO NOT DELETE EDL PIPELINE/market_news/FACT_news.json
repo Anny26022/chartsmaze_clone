@@ -1,0 +1,69 @@
+{
+    "Symbol": "FACT",
+    "ISIN": "INE188A01015",
+    "News": [
+        {
+            "Title": "FACT Reports Q3 Net Loss of \u20b9680 Million vs Profit",
+            "Summary": "Fertilisers & Chemical Travancore posted a net loss of \u20b9680 million in Q3 compared to a profit of \u20b980 million in the same quarter last year, marking a significant year-over-year decline.",
+            "Sentiment": "negative",
+            "PublishDate": 1769592418884,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "Company Reports Strong Q2 Performance with Revenue Growth and Doubled Net Profit",
+            "Summary": "The company reported Q2 revenue of 16 billion rupees, up from 14.4 billion rupees year-over-year. EBITDA increased to 394 million rupees from 350 million rupees, while EBITDA margin remained flat at 2.42%. Net profit showed significant improvement, rising to 211 million rupees from 112 million rupees in the same period last year.",
+            "Sentiment": "positive",
+            "PublishDate": 1761901478425,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Proposal Suggests Reducing GST Rate on Fertilizers from 18% to 5%",
+            "Summary": "A proposal has been made to lower the Goods and Services Tax (GST) rate on fertilizers from the current 18% to 5%. This tax reduction would make fertilizers more affordable for farmers and agricultural businesses.",
+            "Sentiment": "positive",
+            "PublishDate": 1755854264517,
+            "Source": "sectoral"
+        },
+        {
+            "Title": "China Removes Export Restrictions on Fertilizers to India",
+            "Summary": "China has lifted restrictions on fertilizer exports to India. This policy change removes previous barriers that limited fertilizer trade between the two countries.",
+            "Sentiment": "positive",
+            "PublishDate": 1755578061931,
+            "Source": "sectoral"
+        },
+        {
+            "Title": "FACT Reports Strong Q1 Turnaround with 43M Rupees Net Profit",
+            "Summary": "Fertilizers & Chemicals Travancore (FACT) reported a net profit of 43 million rupees in Q1, marking a significant turnaround from a loss of 487 million rupees in the same period last year. The company's EBITDA improved to a gain of 239 million rupees compared to a loss of 566 million rupees year-over-year, with an EBITDA margin of 2.30%. Revenue grew substantially to 10 billion rupees from 5.99 billion rupees in the previous year's corresponding quarter.",
+            "Sentiment": "positive",
+            "PublishDate": 1755076428957,
+            "Source": "earnings"
+        },
+        {
+            "Title": "China Eases Urea Export Restrictions to India Amid Improving Relations",
+            "Summary": "China has relaxed its urea export policies toward India as diplomatic tensions between the two countries show signs of improvement. This development affects the fertilizer trade relationship between the world's two most populous nations.",
+            "Sentiment": "positive",
+            "PublishDate": 1754990124894,
+            "Source": "global"
+        },
+        {
+            "Title": "GST Council May Consider 12% Uniform Tax Rate on Fertilizers and Inputs",
+            "Summary": "The GST Council is reportedly considering implementing a uniform 12% tax rate on fertilizers and inputs, with a potential decision timeline of September.",
+            "Sentiment": "neutral",
+            "PublishDate": 1754468900501,
+            "Source": "sectoral"
+        },
+        {
+            "Title": "Fertilizers & Chemicals Travancore Reports Improved Q4 Results",
+            "Summary": "Fertilizers & Chemicals Travancore has reported its quarterly results. The company's Q4 EBITDA increased to 848 million rupees from 355 million rupees year-over-year. The EBITDA margin improved to 8.05% from 3.36% in the same period last year. Revenue for Q4 was 10.5 billion rupees, slightly down from 10.62 billion rupees in the previous year. The company turned a profit in Q4, reporting a net profit of 707 million rupees compared to a loss of 791 million rupees in the same quarter last year.",
+            "Sentiment": "positive",
+            "PublishDate": 1748253051000,
+            "Source": "result"
+        },
+        {
+            "Title": "Company Reports Decline in Q2 Revenue",
+            "Summary": "The company has reported a year-over-year decrease in its second quarter revenue. The Q2 revenue stood at 14.4 billion rupees, compared to 16.6 billion rupees in the same quarter of the previous year.",
+            "Sentiment": "negative",
+            "PublishDate": 1731054090000,
+            "Source": "result"
+        }
+    ]
+}

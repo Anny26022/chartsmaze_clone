@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published in the newspaper is attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0782fe8-c875-425d-a619-d3d249cbacec.pdf",
+            "news_date": "2026-02-05 14:42:20"
+        },
+        {
             "sym": "GESHIP",
             "disp": "Great Eastern Shipping Company",
             "bse_code": 500620,
@@ -24,6 +35,17 @@
             "sid": 13776,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "We enclose herewith transcripts of the earnings call held on January 30 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c510083-090a-4e67-a696-b662c6921a10.pdf",
+            "news_date": "2026-02-04 14:21:57"
         },
         {
             "sym": "GESHIP",
@@ -50,6 +72,17 @@
             "seg": "E"
         },
         {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith the investor presentation for the analyst/Investor meet to be held today.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a80fe67-957f-44bb-9281-b8bd4babaefe.pdf",
+            "news_date": "2026-02-02 13:05:50"
+        },
+        {
             "sym": "GESHIP",
             "disp": "Great Eastern Shipping Company",
             "bse_code": 500620,
@@ -72,6 +105,28 @@
             "sid": 13776,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Earnings call conducted on January 30 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c628a473-01b9-46d2-8d98-952ec8da6854.pdf",
+            "news_date": "2026-01-30 18:25:46"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication With Regard To Tax Deduction At Source (TDS) On Dividend",
+            "news_body": "Communication with regard to Tax Deduction at Source (TDS) on Dividend is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45925a2f-61d6-4972-94bd-5f54607bf844.pdf",
+            "news_date": "2026-01-29 20:07:57"
         },
         {
             "sym": "GESHIP",
@@ -98,6 +153,72 @@
             "seg": "E"
         },
         {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith the Investor Presentation pertaining to the Unaudited Financial Results for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db0decf4-84f5-4fdc-bf72-d77e28b6bcd6.pdf",
+            "news_date": "2026-01-29 19:58:30"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Designating Lead Independent Director",
+            "news_body": "The Board of Directors at its meeting held today have designated a Lead Independent Director of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6175842b-e6e0-4211-a11c-893cf2b7c073.pdf",
+            "news_date": "2026-01-29 19:56:22"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Date of payment of Dividend",
+            "caption": "Announcement under Regulation 30 (LODR)-Date of payment of Dividend",
+            "news_body": "The interim dividend will be paid to the shareholders on or after February 24 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b723a57b-6f2f-4ca6-a89b-0f521d967189.pdf",
+            "news_date": "2026-01-29 19:54:25"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Fixing Of Record Date For Interim Dividend",
+            "news_body": "The Record Date for the purpose of interim dividend is February 04 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cc4a94b-6ce5-47ce-a4a9-2e7b2632342e.pdf",
+            "news_date": "2026-01-29 19:52:51"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board of Directors at its meeting held today have declared 3rd interim dividend for FY 2025-26 of Rs. 9 per share to the equity shareholders of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d51175a-735d-44d5-96eb-303b8ec8b829.pdf",
+            "news_date": "2026-01-29 19:50:52"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "This is to inform you that the Board of Directors at their meeting held today i.e. January 29 2026 have:\r\n1. Considered and approved unaudited financial results (Provisional) for the quarter ended December 31 2025.\r\n2. Declared 3rd interim dividend for FY 2025-26 of Rs. 9/- per share to the equity shareholders of the Company.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c8b1e3e-9c1c-43d5-85e8-95b1d90ee842.pdf",
+            "news_date": "2026-01-29 19:47:46"
+        },
+        {
             "sym": "GESHIP",
             "disp": "Great Eastern Shipping Company",
             "bse_code": 500620,
@@ -120,6 +241,193 @@
             "sid": 13776,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter Ended December 31 2025",
+            "news_body": "The Board of Directors at its meeting held today have considered and approved the Unaudited Financial Results (Provisional) for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d1f232f-f4a3-42d2-959c-50da820b67ab.pdf",
+            "news_date": "2026-01-29 19:45:12"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company took delivery of a 2019 built Ultramax Dry Bulk Carrier \"Jag Riddhi\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a863e418-ac9a-4218-aca3-e43025bef70d.pdf",
+            "news_date": "2026-01-28 12:22:57"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 the investor/ analyst meet arranged by MUFG Corporate Markets is scheduled on February 02 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04d5311c-6e02-4693-9afa-915d2998cda0.pdf",
+            "news_date": "2026-01-28 10:19:36"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has delivered its 2011 built Kamsarmax Dry Bulk Carrier Jag Aarati.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c10185c5-5312-4b9d-b031-403bbc719366.pdf",
+            "news_date": "2026-01-23 12:43:28"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We enclose herewith the details for earnings call to be held on January 30 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e2c6cb3-d132-4e15-a19b-c882c917ce5f.pdf",
+            "news_date": "2026-01-21 12:04:25"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company took delivery of a 2015 built VLGC \"Jag Vijay\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce889edb-d1ed-47d5-892d-78b40de02369.pdf",
+            "news_date": "2026-01-16 17:50:02"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation Pertaining To Board Meeting Scheduled To Be Held On January 29 2026.",
+            "news_body": "Great Eastern Shipping Company Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/01/2026 inter alia to consider and approve This is to inform you that the meeting of the Board of Directors of the Company is scheduled to be held on Thursday January 29 2026 to inter-alia consider the following:\r\n1. Unaudited Financial Results (Provisional) for the quarter ended December 31 2025. \r\n2. Declaration of Interim Dividend for the Financial Year 2025-26 if any.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6578d253-3e71-4c66-b546-7805ba449b2c.pdf",
+            "news_date": "2026-01-16 16:11:58"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) SEBI (DP) Regulations 2018 for the quarter ended December 31 2025 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6ed1f79-92ac-4c0b-88ff-efbed6b91e14.pdf",
+            "news_date": "2026-01-12 15:05:02"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Please find enclosed the rating letter issued by Brickwork Ratings India Pvt. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45d51b56-2e0a-49db-a185-cc52d8a2cec8.pdf",
+            "news_date": "2026-01-05 19:33:29"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published in the newspaper is attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ba11631-2e76-4db3-9b96-8226f68dcded.pdf",
+            "news_date": "2026-01-02 15:08:35"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has contracted to buy a secondhand Medium Range Tanker. A Press Release to be issued in this connection is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12a8b945-b3ef-4f2b-aece-ff1611f33642.pdf",
+            "news_date": "2025-12-31 16:18:40"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window intimation is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65ec6a62-04d5-4f6f-b7ae-a15ac2563a44.pdf",
+            "news_date": "2025-12-31 10:25:28"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has contracted to sell its 2002 built Very Large Gas Carrier  Jag Vishnu.\r\n\r\nA Press Release in this connection is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c277857a-fa39-466e-9b94-95051562bfc3.pdf",
+            "news_date": "2025-12-26 16:35:18"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has delivered its 2005 built Suezmax Crude Tanker Jag Lok to the buyers.\r\n\r\nA Press Release in this connection is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce0a9e6f-3f09-4d20-a624-524a69a0cc45.pdf",
+            "news_date": "2025-12-23 12:15:19"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "We Now Wish To Inform You That National Company Law Tribunal Has Passed An Order For The Dissolution Of GOSL. Consequently GOSL Has Ceased To Exist As A Company And A Subsidiary Of GIL.\r\n\r\n",
+            "news_body": "We refer to our letter dated April 30 2025 informing that the Board of GIL a wholly owned subsidiary of the Company had approved the voluntary liquaidation of GOSL a wholly owned subsidiary of GIL. \r\n\r\nWe now wish to inform you that NCLT has passed an an order for dissolution of GOSL.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f4460b3-c509-425e-a953-7e6aeaf9af0e.pdf",
+            "news_date": "2025-12-22 16:18:48"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has contracted to buy a secondhand Very Large Gas Carrier of about 84048 cbm on December 19 2025.\r\n\r\nA Press Release in this connection enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=475d00b1-f354-49b0-938b-0cdc0b5e56af.pdf",
+            "news_date": "2025-12-19 17:36:29"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has contracted to sell its 2011 built Kamsarmax Dry Bulk Carrier Jag Aarati.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7695e940-ede0-4896-b834-cc5acdb09e2b.pdf",
+            "news_date": "2025-12-18 10:50:33"
         },
         {
             "sym": "GESHIP",
@@ -146,6 +454,39 @@
             "seg": "E"
         },
         {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith the revised Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ae67fd4-540a-4f16-b5d2-eee20b92b8c2.pdf",
+            "news_date": "2025-12-11 11:28:26"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has delivered its 2005 built Medium Range Product Tanker Jag Pooja",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f3baa23-3737-41e4-a6e6-8c5043ee2309.pdf",
+            "news_date": "2025-11-20 15:37:12"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published in Newspaper is attached herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70af93be-ca3a-4ea3-93c4-35b9bfb93790.pdf",
+            "news_date": "2025-11-18 10:41:57"
+        },
+        {
             "sym": "GESHIP",
             "disp": "Great Eastern Shipping Company",
             "bse_code": 500620,
@@ -168,6 +509,17 @@
             "sid": 13776,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed the transcripts of earnings call conducted on November 10 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdfeb886-263a-40bf-accb-79e8073435e8.pdf",
+            "news_date": "2025-11-14 16:15:58"
         },
         {
             "sym": "GESHIP",
@@ -194,6 +546,17 @@
             "seg": "E"
         },
         {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of earnings call conducted on November 10 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98c608e7-c042-432d-8be0-a44b67fceeff.pdf",
+            "news_date": "2025-11-10 18:34:24"
+        },
+        {
             "sym": "GESHIP",
             "disp": "Great Eastern Shipping Company",
             "bse_code": 500620,
@@ -216,6 +579,116 @@
             "sid": 13776,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith Investor Presentation pertaining to unaudited financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0e73b33-a47e-455a-8033-91b96320db96.pdf",
+            "news_date": "2025-11-08 20:30:19"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "We enclose herewith the details regarding change in directorate of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d75e2e7c-49a2-43d1-bada-3f421cb38a89.pdf",
+            "news_date": "2025-11-07 22:45:42"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication With Regards To Tax Deduction At Source (TDS) On Dividend",
+            "news_body": "Communication with regards to Tax Deduction at source on dividend is attached",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9006523-0860-4482-ae35-ca306b341cfb.pdf",
+            "news_date": "2025-11-07 20:51:09"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "The Board at its meeting held today i.e. November 07 2025 has appointed Mr. Bharat K. Sheth Deputy Chairman and Managing Director as Chairman of the Company w.e.f. November 09 2025. Accordingly he will be re-designated as Chairman and Managing Director w.e.f. the same date.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f268a3ac-9af0-42be-b374-79aba6aea919.pdf",
+            "news_date": "2025-11-07 20:47:55"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chairman",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chairman",
+            "news_body": "Mr. K. M. Sheth Non- Executive Chairman of the Company owing to age related reasons has decided to step down as Chairman and Member of the Board of the Company w.e.f. November 09 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fced8b19-3ec5-48e5-8fdf-0bfaab236103.pdf",
+            "news_date": "2025-11-07 20:42:52"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "We enclose herewith the details regarding change in management of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12b9474e-06c1-4a31-9fe8-c20f687be91a.pdf",
+            "news_date": "2025-11-07 20:39:57"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Date of payment of Dividend",
+            "caption": "Announcement under Regulation 30 (LODR)-Date of payment of Dividend",
+            "news_body": "The interim dividend will be paid to the shareholders on or after December 02 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7d54376-05fc-4452-90bc-ca7d2136829b.pdf",
+            "news_date": "2025-11-07 20:37:15"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For The Purpose Of Interim Dividend- November 13 2025",
+            "news_body": "The record date for the purpose of interim dividend is fixed on November 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=533a5c5f-f75c-43f3-9475-de84266c03c6.pdf",
+            "news_date": "2025-11-07 20:35:30"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board at its meeting held today has declared 2nd interim dividend for FY 25-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c65a3ca-2145-49fa-8c88-1dcaa1c82fad.pdf",
+            "news_date": "2025-11-07 20:33:41"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "This is to inform you that the Board of Directors at their meeting held today i.e. November 07 2025 have:\r\n1. Considered and approved unaudited financial results (Provisional) for the quarter\r\nand half year ended September 30 2025.\r\n2. Declared 2nd interim dividend for FY 2025-26 of Rs. 7.20 per share to the equity\r\nshareholders of the Company.\r\nThe Record Date fixed for the purpose of ascertaining the shareholders eligible\r\nfor receiving interim dividend is November 13 2025. The interim dividend will be\r\npaid to the shareholders on or after December 02 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b4614e4-35a7-4bc5-8086-10b6a1b5ead8.pdf",
+            "news_date": "2025-11-07 20:31:54"
         },
         {
             "sym": "GESHIP",
@@ -242,6 +715,182 @@
             "seg": "E"
         },
         {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "The Board at its meeting held today i.e. November 07 2025 have considered and approved unaudited financial results (provisional) for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e751ecd3-c1c9-4690-a52f-3b88338fbf21.pdf",
+            "news_date": "2025-11-07 20:29:33"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has contracted to buy  an Ultrmax Dry Bulk Carrier of about 63500 dwt. \r\n\r\nA Press Release in this connection is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=284efbcc-fec1-4ba1-a274-80dbc3e1c110.pdf",
+            "news_date": "2025-10-30 20:02:48"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Board of Directors of the Company will meet on November 07 -08  2025 to inter-alia consider the Financial Results for the quarter and half year ended September 30 2025.\r\n\r\nAn Earnings Call has been scheduled at 04:00 pm (IST) on Monday November 10 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c7511e1-5874-4dfd-b6b1-b28003740aee.pdf",
+            "news_date": "2025-10-29 10:45:22"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting To Be Held On November 07-08 2025",
+            "news_body": "Great Eastern Shipping Company Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/11/2025 inter alia to consider and approve This is to inform you that the meeting of the Board of Directors of the Company is scheduled to be held on Friday-Saturday November 07-08 2025 to inter-alia consider the following:\r\n1. Unaudited Financial Results (Provisional) for the quarter and half year ended September 30 2025.\r\n2. Declaration of Interim Dividend for the Financial Year 2025-26 if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fab31fe2-e601-4fc8-9bc5-1b6dee3624dd.pdf",
+            "news_date": "2025-10-28 11:57:31"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has contracted to sell its 2005 built Medium Range Product tanker Jag Pooja",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31410daa-d62d-46c3-b475-67910521b935.pdf",
+            "news_date": "2025-10-17 11:04:52"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations 2015- ESG Ratings",
+            "news_body": "We wish to inform you about the ESG rating assigned by CFC Finlease Private Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eeade6f5-b95d-4767-adec-cddae7214157.pdf",
+            "news_date": "2025-10-14 17:25:21"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company took delivery of 2016 built Kamsarmax Dry Bulk Carrier \"Jag Anjali\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5700db19-68b9-4bc3-a115-0bf624bc2b2c.pdf",
+            "news_date": "2025-10-14 12:46:27"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended September 30 2025 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66138f73-02f3-459c-8094-d37374a1e5b9.pdf",
+            "news_date": "2025-10-13 10:38:18"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window intimation is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=873091ce-6144-495b-954f-b65256cb8b0d.pdf",
+            "news_date": "2025-09-30 10:39:09"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company took delivery of a 2015 built Kamsarmax Dry Bulk Carrier \"Jag Amol\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cb2e3b1-9a27-4ee5-a1f1-9df0f5afac8c.pdf",
+            "news_date": "2025-09-22 12:02:32"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "Further to our letter dated July 31 2025 we wish to inform you that the Company has entered into a loan agreement with Greatship (India) Limited a wholly owned subsidiary of the Company for granting a term loan of Rs. 425 crores.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9737fd60-a5ca-47b0-825d-ab7e8a1ac7f7.pdf",
+            "news_date": "2025-09-18 16:47:11"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has contracted to sell its 2005 built Suezmax Crude Tanker Jag Lok. A press release to be issued in this connection is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=878a81d6-ea85-411e-bc7d-845d3859a1c0.pdf",
+            "news_date": "2025-09-15 16:14:44"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published in newspaper pursuant to SEBI circular dated July 2 2025 relating to re-lodge of transfer request of physical shares is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0fc931a-33bd-4a54-9229-a7489e885c5e.pdf",
+            "news_date": "2025-09-05 13:25:19"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has contracted to buy  a Kamsarmax dry bulk carrier of about 81922 dwt.  The 2016 built vessel is expected to join the fleet by Q3 FY 26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a7a5649-9324-4052-8a52-4e9e49ecc913.pdf",
+            "news_date": "2025-09-02 14:30:10"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We wish to inform you that the Company has contracted to buy  a Suezmax Crude Carrier of about 164715 dwt on August 25 2025. \r\n\r\nA Press Release to be issued in this connection is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=237d3003-85ef-4fa3-b8d4-11aba00e743e.pdf",
+            "news_date": "2025-08-25 22:56:41"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication regarding 100 days campaign - \"Saksham Niveshak\" is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da9c0ac3-1779-40d0-a5aa-0d89ddbf73d3.pdf",
+            "news_date": "2025-08-14 16:08:54"
+        },
+        {
             "sym": "GESHIP",
             "disp": "Great Eastern Shipping Company",
             "bse_code": 500620,
@@ -264,6 +913,17 @@
             "sid": 13776,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed the transcripts of the earnings call held on August 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=476e1829-179a-4594-a289-3e21c2609667.pdf",
+            "news_date": "2025-08-06 11:25:03"
         },
         {
             "sym": "GESHIP",
@@ -290,6 +950,94 @@
             "seg": "E"
         },
         {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "We enclose herewith the audio call recording of the Earnings call held on August 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad4386be-5b92-448a-b6ab-dc764f7c31ca.pdf",
+            "news_date": "2025-08-01 21:51:17"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "We enclose herewith the proceedings of the AGM held on August 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66322a75-8b36-418d-be24-cfc3753e8bb3.pdf",
+            "news_date": "2025-08-01 21:45:48"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "We wish to inform you that the shareholders at their AGM held on August 01 2025 have approved the alteration of Articles of Association.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be2cf0a1-345b-441d-9224-891581755f27.pdf",
+            "news_date": "2025-08-01 21:42:43"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "We enclose herewith the details regarding the appointments/re-appointments as approved at the AGM held on August 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb791fb3-2b30-4a3c-9a73-4ee08067272f.pdf",
+            "news_date": "2025-08-01 21:40:37"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "We enclose herewith the details as required for the appointment of Secretarial Auditors of the Company approved at the AGM held on August 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15b62a69-b7ff-4cd6-ac15-35b56e4192af.pdf",
+            "news_date": "2025-08-01 21:38:34"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "We enclose herewith the Scrutinizers report for the AGM held on August 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8ef2d2f-d327-417d-9562-c5eb670de148.pdf",
+            "news_date": "2025-08-01 21:30:11"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "We enclose herewith the outcome of 77th Annual general Meeting of the Company held on August 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7a8ad07-1d98-49b6-981b-ec1656d0be25.pdf",
+            "news_date": "2025-08-01 21:26:54"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication With Regards To Tax Deduction At Source (TDS) On Dividend.",
+            "news_body": "Communication with regards to Tax Deduction at source (TDS) on dividend is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=536dbcbb-4b42-4298-a7c9-d1b26c75808a.pdf",
+            "news_date": "2025-07-31 19:29:21"
+        },
+        {
             "sym": "GESHIP",
             "disp": "Great Eastern Shipping Company",
             "bse_code": 500620,
@@ -312,6 +1060,83 @@
             "sid": 13776,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith the investor presentation pertaining to the Unaudited Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=701aef93-0472-42cd-94dd-233f290ffb18.pdf",
+            "news_date": "2025-07-31 19:10:13"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "The Board at its meeting held today i.e. July 31 2025 have approved granting a term loan to Greatship (India) Limited a wholly owned subsidiary of the Company. The loan agreement shall be executed in due course.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ede1e217-aa08-4815-b273-a34b11353de3.pdf",
+            "news_date": "2025-07-31 18:38:42"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "The Board at its meeting held today i.e. July 31 2025 declared an interim dividend for FY 25-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ff69c30-f6d2-40ad-99a6-ca83c43bdf18.pdf",
+            "news_date": "2025-07-31 18:35:35"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Date of payment of Dividend",
+            "caption": "Announcement under Regulation 30 (LODR)-Date of payment of Dividend",
+            "news_body": "The Board at its meeting held today i.e. July 31 2025 declared an interim dividend for FY 25-26. the interim dividend will be paid to the shareholders on or after August 22 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06ad21f9-d7e6-4c3a-8593-95d9a63507b1.pdf",
+            "news_date": "2025-07-31 18:34:11"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board at its meeting held today i.e. July 31 2025 declared an interim dividend for FY 2025-26 of Rs. 7.20 per share to the equity shareholders of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86c24eb3-7c7e-46cc-87a9-8354e7fe35dc.pdf",
+            "news_date": "2025-07-31 18:31:43"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Fixing Of Record Date",
+            "news_body": "The record date fixed for the purpose of ascertaining the shareholders eligible for receiving interim dividend is August 06 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf4fed9a-831b-4686-83d3-5478ca82f091.pdf",
+            "news_date": "2025-07-31 18:29:16"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "This is to inform you that the Board of Directors at their meeting held today i.e. July 31 2025 have:\r\n1. Considered and approved unaudited financial results (Provisional) for the quarter ended June 30 2025.\r\n2. Declared an interim dividend for FY 2025-26 of Rs. 7.20 per share to the equity shareholders of the Company.\r\n3. Approved granting a term loan upto Rs. 425 crores to Greatship (India) Limited (GIL) a wholly owned subsidiary of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9409c4e9-9c33-47d9-8885-45a89186ba96.pdf",
+            "news_date": "2025-07-31 18:26:35"
         },
         {
             "sym": "GESHIP",
@@ -338,6 +1163,226 @@
             "seg": "E"
         },
         {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "The Board at its meeting held today i.e. July 31 2025 considered and approved the unaudited financial results (provisional) for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70d995f4-698c-4ea7-a296-b59203838727.pdf",
+            "news_date": "2025-07-31 18:22:20"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "The Company has contracted to buy a Kamsarmax Dry Bulk Carrier of about 81843 dwt. The vessel is expected to join the fleet by Q3FY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cda7df1-0ad1-4ec0-8fa2-2c4efff49aac.pdf",
+            "news_date": "2025-07-25 15:58:11"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Board of Directors of the Company will meet on Thursday July 31 2025 to inter-alia consider the Financial Results for the quarter ended June 30 2025. An Earnings Call has been scheduled at 04:30 pm (IST) on Friday August 01 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98ad8ee9-b395-4510-8a57-7bf109f34790.pdf",
+            "news_date": "2025-07-25 10:56:11"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published in newspaper pursuant to SEBI Circular dated July 2 2025 relating to re-lodge of transfer request of physical shares is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6d921ac-71a3-4bd7-b34b-dc31ae710c4e.pdf",
+            "news_date": "2025-07-24 16:21:29"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Board Meeting To Be Held On July 31 2025",
+            "news_body": "Great Eastern Shipping Company Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/07/2025 inter alia to consider and approve 1.Unaudited Financial Results (Provisional) for the quarter ended June 30 2025. \r\n2.Declaration of Interim Dividend for the Financial Year 2025-26 if any.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8326a277-ffc3-44ba-91cd-e933114911c1.pdf",
+            "news_date": "2025-07-21 15:16:32"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) SEBI (DP) Regulations 2018 for the quarter ended June 30 2025 is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83c11459-b653-4ca4-924f-25e9de045297.pdf",
+            "news_date": "2025-07-10 15:58:11"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed copies of public notice of 77th Annual General Meeting of the Company published in newspapers by way of advertisement.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71459037-c381-4f33-8d07-afea2fbf2bb6.pdf",
+            "news_date": "2025-07-09 15:37:12"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESG Rating",
+            "news_body": "ESG Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c14089b2-d09e-46d0-9cbd-82cabf24911f.pdf",
+            "news_date": "2025-07-09 10:20:37"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letters To Be Sent To Shareholders Of The Company Under Regulation 36 Of SEBI LODR.",
+            "news_body": "Letters to be sent to shareholders of the Company under Regulation 36 of SEBI LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6cbf2f8-185d-430a-bc4d-61dd1d8ef64a.pdf",
+            "news_date": "2025-07-08 17:49:08"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "We enclose herewith BRSR 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39c70031-aab5-4b69-a990-516114e0a88a.pdf",
+            "news_date": "2025-07-08 16:00:50"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "We enclose herewith the Notice of AGM and Annual report of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a145f970-be38-4f6c-88fc-ac75938e5e34.pdf",
+            "news_date": "2025-07-08 15:51:31"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "77Th Annual General Meeting Of The Company Scheduled To Be Held On August 01 2025",
+            "news_body": "We enclose herewith Notice of AGM and Annual Report of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df6d5c67-7bb1-4edc-829f-69a296718e8c.pdf",
+            "news_date": "2025-07-08 15:42:22"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find attached newspaper publication in respect of information pertaining to 77th Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76535f4c-041e-439d-b351-f5a592931967.pdf",
+            "news_date": "2025-07-03 16:45:43"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in senior management disclosure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b16f2461-c991-4836-9582-16b34d98d872.pdf",
+            "news_date": "2025-06-30 16:17:51"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window Intimation is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9658b80d-dd9e-4a44-a29f-051f5a0aa5b8.pdf",
+            "news_date": "2025-06-30 11:37:04"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice published in the Newspaper relating to Transfer of Dividend and Shares to Investor Education and Protection Fund (IEPF) Authority.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dda33d51-eb56-4690-8835-b9b1dd15e7bd.pdf",
+            "news_date": "2025-05-30 14:35:25"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of ESG Rating Of The Company",
+            "news_body": "Intimation of ESG rating of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4dbe6283-b0da-484a-b2fb-7e4ec366bce9.pdf",
+            "news_date": "2025-05-26 13:17:39"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We enclose herewith details for investor/analyst meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cf0d4062-6b47-4559-b0c9-7234796683bb.pdf",
+            "news_date": "2025-05-22 16:16:39"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Further to our letter dated May 20 2025 we enclose herewith the revised copy of Annual Secretarial Compliance Report for the year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eafae573-4c5f-40d6-bf52-7c47b289d856.pdf",
+            "news_date": "2025-05-21 16:30:42"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Please find enclosed copy of Annual Secretarial Compliance Report for the year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4df845b9-f4ba-4376-84fb-6d596053abc3.pdf",
+            "news_date": "2025-05-20 10:57:46"
+        },
+        {
             "sym": "GESHIP",
             "disp": "Great Eastern Shipping Company",
             "bse_code": 500620,
@@ -360,6 +1405,17 @@
             "sid": 13776,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed transcripts of the earnings call held on May 12 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a247c156-d1ff-49af-9d19-4035bc405447.pdf",
+            "news_date": "2025-05-13 18:33:42"
         },
         {
             "sym": "GESHIP",
@@ -386,6 +1442,17 @@
             "seg": "E"
         },
         {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 audio call recording of the earnings call held on May 12 2025 at 04:00 p.m. has been uploaded on the Companys website",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b418df3-fa9e-47a2-a355-c0956a51eaf0.pdf",
+            "news_date": "2025-05-12 21:04:17"
+        },
+        {
             "sym": "GESHIP",
             "disp": "Great Eastern Shipping Company",
             "bse_code": 500620,
@@ -408,6 +1475,39 @@
             "sid": 13776,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith the Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e51c7ec-6fa9-4c67-b202-1f81652812c6.pdf",
+            "news_date": "2025-05-09 19:09:33"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication With Regards To Tax Deduction At Source (TDS) On Dividend.",
+            "news_body": "We enclose herewith Communication with regards to TDS on dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20b2155b-8dc5-4030-ad62-87af85cceb4c.pdf",
+            "news_date": "2025-05-09 19:04:54"
+        },
+        {
+            "co_code": 207,
+            "bse_code": 500620,
+            "isin": "INE017A01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "SEBI (Prohibition Of Insider Trading) Regulations 2015",
+            "news_body": "We enclose herewith the amended code of practices and procedures for fair disclosure of UPSI",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cc9cb08-5b38-45ae-ae2d-95cc598914da.pdf",
+            "news_date": "2025-05-09 18:51:43"
         },
         {
             "sym": "GESHIP",
@@ -2401,6 +3501,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

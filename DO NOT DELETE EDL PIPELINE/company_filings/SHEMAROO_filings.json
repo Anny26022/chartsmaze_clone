@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f24f8767-740b-47eb-902c-2576268ba3c7.pdf",
+            "news_date": "2026-02-12 14:55:12"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice pursuant to Regulation 30 of SEBI LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99bb6f17-f01c-4bd0-a661-437891e9ad45.pdf",
+            "news_date": "2026-02-11 17:47:39"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Preferential Issue",
+            "caption": "Announcement under Regulation 30 (LODR)-Preferential Issue",
+            "news_body": "Announcement under Regulation 30 of SEBI LODR - Preferential Issue",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1bd1dce-1170-4db2-8dcd-21a89c5890c0.pdf",
+            "news_date": "2026-02-11 16:54:32"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting- Pursuant To Regulation 30 Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Outcome of Board Meeting held on February 11 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c45a44be-0216-4c8c-a525-db3ec7b4e4d9.pdf",
+            "news_date": "2026-02-11 16:49:39"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Regulation 29 Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Shemaroo Entertainment Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/02/2026 inter alia to consider and approve a proposal for raising funds to augment the financial resources of the Company through the issuance of equity shares convertible instruments or any other securities by any of the permissible modes in one or more tranches as may be decided by the Board subject to such regulatory and/or statutory approvals as may be required including the approval of the shareholders of the Company.\r\n\r\nFurther in accordance with the Code of Conduct for Prevention of Insider Trading of Shemaroo Entertainment Limited read with the SEBI (Prohibition of Insider Trading) Regulations 2015 as amended the Trading Window for dealing in the securities of the Company shall remain closed for all designated persons their immediate relatives and other connected persons covered under the said Code from the date of this intimation and shall reopen after 48 hours from the conclusion of the aforesaid Board Meeting.\r\n\r\nKindly take the above on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a1d347d-02c0-4dad-939a-dc1332436e9d.pdf",
+            "news_date": "2026-02-06 18:29:09"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -24,6 +79,17 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Earnings Conference Call of the Company for the third quarter and nine month ended December 31 2025 held on Friday January 30 2026 at 12.00 Noon (IST).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=183e3b1d-c590-491a-ae66-ad976b1c57a5.pdf",
+            "news_date": "2026-02-02 12:01:16"
         },
         {
             "sym": "SHEMAROO",
@@ -50,6 +116,28 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of audio recording of the Earnings Conference Call of Shemaroo Entertainment Limited for the quarter and half year ended December 31 2025 (Q3/9M-FY26) which was held on Friday January 30 2026 at 12.00 P.M. (IST) on the Companys website i.e. www.shemarooent.com as follows:\r\n \r\nInvestors ?Conference Call Transcript/Earnings Concall Audio Recording i.e. \r\nhttps://www.shemarooent.com/uploads/pdf/conference_call_transcript_pdf/concall-ShemarooEntertainmentLtd-30012026.mp3\r\n\r\n Kindly take the above on record and oblige.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfaf7389-4956-4d0f-9d14-6063625fd52c.pdf",
+            "news_date": "2026-01-30 17:27:41"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Re-Appointment Of Internal Auditors Of The Company Pursuant To Regulation 30 Of SEBI(LODR) Regulations 2015",
+            "news_body": "Intimation of Re-appointment of Internal Auditors of the Company pursuant to Regulation 30 of SEBI(LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd10e0c2-cf2b-44e9-a08a-b6efb1ebc355.pdf",
+            "news_date": "2026-01-30 12:17:25"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -72,6 +160,17 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find herewith enclosed the earnings presentation for the period ended December 31 2025 (Q3/9M-FY26)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b9a8944-29cb-4b0b-bb86-6969c2cffc34.pdf",
+            "news_date": "2026-01-29 22:11:32"
         },
         {
             "sym": "SHEMAROO",
@@ -98,6 +197,116 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting- Pursuant To Regulation 33 And 30 Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Unaudited Financial Results (Standalone & Consolidated) of the Company for the period ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e03fde52-de8d-4869-8f62-aa5a0decbab3.pdf",
+            "news_date": "2026-01-29 18:26:56"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting- Pursuant To Regulation 33 And 30 Of The SEBI (LODR)  Regulations 2015",
+            "news_body": "This is to inform you that the Board of Directors at its meeting held today i.e. January 29 2026 inter-alia have considered and approved the Unaudited Financial Results (Standalone & Consolidated) of the Company for the Quarter and Nine Months  ended December 31 2025 (Q3/FY 2026) along with the Limited Review Report(s) thereon.\r\n\r\nIn this regard please find enclosed the following: \r\n\r\na.  Unaudited Financial Results (Standalone & Consolidated) for the quarter and nine months ended 31 st December 2025; \r\n\r\nb.  Limited Review Reports by the Statutory Auditor.\r\n\r\nKindly take above information on record and the same is also disseminated on the website of the Company i.e. www.shemarooent.com.\r\n\r\nThe meeting of the Board of Directors commenced at 2:30 P.M. and concluded at 5:30 P.M.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52aec961-4312-42ea-8088-b1c20a9e27ff.pdf",
+            "news_date": "2026-01-29 18:20:48"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform that an Earnings Conference Call for the Investors of the Company on the Unaudited Financial Results for the quarter ended December 31 2025 (Q3/9M-FY26) is scheduled to be held on Friday January 30 2026 at 12.00 P.M. (IST).\r\n\r\nThe details of aforesaid conference is enclosed herewith.\r\n\r\nThe aforesaid shall also be available on the website of the Company i.e. www.shemarooent.com\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92d79fc1-0464-4370-91bc-15819c36679d.pdf",
+            "news_date": "2026-01-23 13:00:30"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting For Consideration And Approval Of The Unaudited Financial Results Of The Company For The Period Ended December 31 2025",
+            "news_body": "Shemaroo Entertainment Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/01/2026 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results of the Company for the period ended December 31 2025.\r\n\r\nIn this connection as informed earlier pursuant to Code of Conduct for Prevention of Insider Trading of Shemaroo Entertainment Limited read with the SEBI (Prohibition of Insider Trading) Regulations 2015 as amended Trading Window for dealing in the securities of the Company shall remain closed for all designated persons their immediate relatives and all connected persons covered under the aforesaid code up to 48 hours of declaration of the results. \r\n\r\nKindly take the above on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68015acd-29cd-497a-ba77-6ab04b2511f3.pdf",
+            "news_date": "2026-01-23 12:41:10"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018 for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e588c074-828d-400d-a77f-41f865a6bc60.pdf",
+            "news_date": "2026-01-13 11:51:54"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1d45775-ca4b-46ac-ae5d-c953bc115f13.pdf",
+            "news_date": "2025-12-30 12:39:47"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=048d2377-1b30-4e8e-a0f9-e8dfdf905816.pdf",
+            "news_date": "2025-12-08 18:38:14"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Announcement under Regulation 30 of SEBI(LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c150e49-93eb-40ad-abc5-633d0c57ca42.pdf",
+            "news_date": "2025-12-05 16:22:09"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b3aa61b-64e4-4a0a-9263-d030a8383b1d.pdf",
+            "news_date": "2025-11-21 19:01:41"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "In compliance with Regulation 30(6) read with Schedule III and other applicable provisions of the SEBI Listing Regulations please find enclosed the transcript of the earnings conference call of the Company for the second quarter and half year ended 30 September 2025 held on Thursday November 06 2025 at 12 Noon (IST). \r\n \r\nThe text transcript of the said earnings call are also uploaded on the website of the Company at the weblink : SHEMAROO - Transcript of Earnings Conference Call dated November 06 2025\r\n\r\nKindly take the above on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b86dfb87-7cad-4d70-b174-d39db5ffa146.pdf",
+            "news_date": "2025-11-10 15:30:46"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -120,6 +329,17 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of audio recording of the Earnings Conference Call of Shemaroo Entertainment Limited for the quarter and half year ended September 30 2025 (Q2/H1-FY26) which was held on Thursday November 06 2025 at 12.00 P.M. (IST) on the Companys website i.e. www.shemarooent.com as follows:\r\n \r\nInvestors ?Conference Call Transcript/Earnings Concall Audio Recording i.e. \r\nhttps://shemarooent.com/uploads/pdf/conference_call_transcript_pdf/Concall-ShemarooEntertainmentLtd-06112025.mp3\r\n  \r\nKindly take the above on record and oblige.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ec4a69a-1308-4aea-8a40-c6115f9c3760.pdf",
+            "news_date": "2025-11-06 15:52:04"
         },
         {
             "sym": "SHEMAROO",
@@ -146,6 +366,39 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find herewith enclosed earnings call presentation of Shemaroo Entertainment Limited for the period ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d301db2-4dff-467b-9ccf-693eeaf2ee3b.pdf",
+            "news_date": "2025-11-06 07:49:06"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Company Secretary / Compliance Officer",
+            "caption": "Appointment of Company Secretary and Compliance Officer",
+            "news_body": "Appointment of Ms. Meenakshi A. Pansari as Company Secretary and Compliance Officer of the company w.e.f. November 05 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b281c2e4-6d3d-4207-85df-971d2a21440e.pdf",
+            "news_date": "2025-11-05 19:18:28"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Cessation of Ms. Namrata B. Shinde as Compliance Officer of the Company from closure of working hours of November 04 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=335d4391-b889-4066-a296-7d1532b5ea09.pdf",
+            "news_date": "2025-11-05 19:11:44"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -168,6 +421,182 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results Of The Company Both On The Standalone And Consolidated Basis For The Quarter Ended September 30 2025",
+            "news_body": "Unaudited financial Results of the Company both on the Standalone and Consolidated basis for the Quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f980d2b9-b938-4a2c-896c-395bb371092c.pdf",
+            "news_date": "2025-11-05 17:41:09"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting- Pursuant To Regulation 33 And 30 Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Outcome of Board Meeting- Pursuant to Regulation 33 and 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8cad7be-bf97-495b-8ac5-200698bb6e9a.pdf",
+            "news_date": "2025-11-05 17:20:05"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform that an Earnings Conference Call for the Investors of the Company on the Unaudited Financial Results for the quarter ended September 30 2025 (Q2/H1-FY26) is scheduled to be held on Thursday November 06 2025 at 12 P.M. (IST).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89ab8622-bbc2-4f9e-b0e4-ba2311dae772.pdf",
+            "news_date": "2025-10-31 17:34:44"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited (Standalone And Consolidated)Financial Results For The Quarter Ended September 30 2025",
+            "news_body": "Shemaroo Entertainment Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/11/2025 inter alia to consider and approve This is to inform that a meeting of the Board of Directors of Shemaroo Entertainment Limited is scheduled to be held on Wednesday November 05 2025 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results of the Company for the period ended September 30 2025.\r\nIn this connection as informed earlier pursuant to Code of Conduct for Prevention of Insider Trading of Shemaroo Entertainment Limited read with the SEBI (Prohibition of Insider Trading) Regulations 2015 as amended Trading Window for dealing in the securities of the Company shall remain closed for all designated persons their immediate relatives and all connected persons covered under the aforesaid code upto 48 hours of declaration of the results.\r\nKindly take the above on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86db0998-c16d-467a-a27e-eb66da2952af.pdf",
+            "news_date": "2025-10-29 17:10:22"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018 for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e88ef1ae-4c21-4295-ba07-0469ee709dbb.pdf",
+            "news_date": "2025-10-14 11:30:00"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find attached disclosure under Regulation 30 of SEBI(LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a01fe91-3bb1-458c-886e-15cb988f335f.pdf",
+            "news_date": "2025-10-01 12:49:20"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5af32fc-8732-479b-95c3-28d10f0c83ea.pdf",
+            "news_date": "2025-09-26 13:17:46"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "20Th ANNUAL GENERAL MEETING (AGM) Transcript Dated September 19 2025",
+            "news_body": "Submitting herewith link of transcript of the 20th Annual General Meeting of the Company held on September 19 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=067c3f9c-8851-42a7-9565-7f0adb93c97d.pdf",
+            "news_date": "2025-09-22 17:22:52"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Pursuant to the Regulation 44(3) of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 the combined voting results (Remote E-voting and E-voting during AGM) of the businesses transected at the AGM of the Company is enclosed along with the Scrutinizers Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6d7d263-ef77-40e8-b92a-a6d0b83c7325.pdf",
+            "news_date": "2025-09-20 16:38:05"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Submitting herewith proceedings of the 20th Annual General Meeting of the Company held on Friday September 19 2025 at 04:00 PM IST vis VC/OAVM. The meeting commenced at 04:00 PM IST and concluded at 04:29 PM IST.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42119125-1cda-4248-8f93-f4b3c6be450d.pdf",
+            "news_date": "2025-09-19 18:17:04"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) Regulations 2015 - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba79ce00-2e42-4611-b40e-f426e10250ed.pdf",
+            "news_date": "2025-08-23 16:29:56"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find attached disclosure under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72e2c2b7-df8a-420f-a614-d9db29bff7d5.pdf",
+            "news_date": "2025-08-22 17:27:13"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Pursuant to Regulation 34 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 the Company hereby submits Annual Report of the Company for the Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fab0279-f745-464b-82d4-71ff9da5c030.pdf",
+            "news_date": "2025-08-22 16:14:22"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Register of Members and Share Transfer Books of the Company will remain closed from Friday September 12 2025 to Friday September 19 2025 (both days inclusive) for the purpose of Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e592b6b-2c19-43e8-b1f8-8cf9f78facf2.pdf",
+            "news_date": "2025-08-22 14:51:34"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "The 20Th Annual General Meeting (AGM) Of The Members Of Shemaroo Entertainment Limited Is Scheduled To Be Held On Friday 19Th September 2025 At 04.00 P.M. (IST) Through Two-Way Video Conferencing (VC) Facility/Other Audio Visual Means (OAVM)",
+            "news_body": "Please find attached herewith Notice of 20th Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39d3b486-2dc0-4533-a86c-d0d495f53e0a.pdf",
+            "news_date": "2025-08-22 14:43:10"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 of SEBI (LODR) Regulations 2015 - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=120b6c15-f298-4e1d-b447-5731aecde328.pdf",
+            "news_date": "2025-08-20 12:08:06"
         },
         {
             "sym": "SHEMAROO",
@@ -194,6 +623,17 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of Concall Transcript of the Earnings Presentation of Shemaroo Entertainment \r\nLimited for the quarter ended June 30 2025 (Q1/FY26) which was held on Friday  July 25 2025 at 12.00 Noon IST on the Companys website i.e. www.shemarooent.com as follow: \r\n \r\nInvestors?Conference Call Transcript/Earnings Concall Audio Recording i.e. \r\nhttps://shemarooent.com/uploads/pdf/conference_call_transcript_pdf/Website_UP_Trancript_25072025.pdf\r\n\r\nTranscript of the Earnings call is also annexed.\r\n\r\nKindly take the above on record and oblige.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06a0c179-cc58-4bc8-a2d9-2950a7791d42.pdf",
+            "news_date": "2025-07-29 16:26:53"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -216,6 +656,17 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of audio recording of the Earnings Conference Call of Shemaroo Entertainment Limited for the quarter ended June 30 2025 (Q1-FY26) which was held on Friday                      July 25 2025 at 12.00 P.M. (IST) on the Companys website i.e. www.shemarooent.com as follows:\r\n \r\nInvestors ?Conference Call Transcript/Earnings Concall Audio Recording i.e. \r\nhttps://shemarooent.com/uploads/pdf/conference_call_transcript_pdf/Concall_sel_25072025.mp3\r\n\r\nKindly take the above on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3a581d2-b69a-4b74-bd45-90dedf464729.pdf",
+            "news_date": "2025-07-25 14:56:58"
         },
         {
             "sym": "SHEMAROO",
@@ -242,6 +693,17 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Announcement under Regulation 30 (LODR) - Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8c39d10-40f2-49d5-bef7-5472d61967ca.pdf",
+            "news_date": "2025-07-24 20:50:52"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -264,6 +726,116 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results Of The Company Both On Standalone And Consolidated Basis For The Quarter Ended June 30 2025",
+            "news_body": "Unaudited Financial Results of the Company both on the Standalone and Consolidated basis for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48516b75-24c6-4e34-a1fe-03ea7f9424fa.pdf",
+            "news_date": "2025-07-24 18:38:21"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting- Pursuant To Regulation 33 And 30 Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Outcome of Board Meeting- Pursuant to Regulation 33 and 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41d9ec3b-d1a7-46f5-9a54-7e3cefc24a74.pdf",
+            "news_date": "2025-07-24 18:11:10"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform that an Earnings Conference Call for the Investors of the Company on the Unaudited Financial Results for the quarter ended June 30 2025 (Q1-FY26) is scheduled to be held on Friday July 25 2025 at 12.00 P.M. (IST).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d58648fc-8302-4c00-8869-f6c8f4ea728f.pdf",
+            "news_date": "2025-07-17 18:04:24"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Transfer of Unpaid/Unclaimed Dividend of FY 2017-18 and shares thereon to IEPF",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=385bee20-a7d0-4800-9cb2-29b94e69a332.pdf",
+            "news_date": "2025-07-16 16:43:34"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Financial Results Of The Company For The Period Ended June 30 2025",
+            "news_body": "Shemaroo Entertainment Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/07/2025 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results of the Company for the period ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c815bfe3-217d-4558-a375-e46eac604e83.pdf",
+            "news_date": "2025-07-15 13:03:17"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=801a77a6-97c4-4657-bd7e-d5c8d5b3a15f.pdf",
+            "news_date": "2025-07-14 13:15:58"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4fbf0ab-606d-42b0-aac5-0ae95fe6f44a.pdf",
+            "news_date": "2025-06-26 12:11:04"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Voting Result and Scrutinizers Report of the Postal Ballot Notice dated May 14 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=468c32de-1eb0-406c-9905-cdc22b29bde2.pdf",
+            "news_date": "2025-06-18 12:40:35"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Pursuant to SEBI (LODR) Regulations 2015 enclosing herewith the Annual Secretarial Compliance Report for financial year ended March 31 2025 under Regulation 24A",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d52a6c2d-d44c-4243-b9f3-2ebd9e2897d7.pdf",
+            "news_date": "2025-05-29 15:27:29"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Company Secretary / Compliance Officer",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Company Secretary / Compliance Officer",
+            "news_body": "Announcement under Regulation 30 (LODR) - Resignation of Company Secretary and Compliance Officer of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0b14c4c-96af-48d7-b041-4b10f3611771.pdf",
+            "news_date": "2025-05-20 16:06:46"
         },
         {
             "sym": "SHEMAROO",
@@ -290,6 +862,17 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of Concall Transcript of the Earnings Presentation of Shemaroo Entertainment Limited for the quarter ended March 31 2025 (Q4/FY25) which was held on Wednesday  14 May 2025 at 12 Noon (IST) on the Companys website i.e. www.shemarooent.com as follow: \r\n \r\nInvestors?Conference Call Transcript/Earnings Concall Audio Recording i.e.\r\nhttps://www.shemarooent.com/uploads/pdf/conference_call_transcript_pdf/Transcript.pdf\r\n \r\nTranscript of the Earnings call is also annexed.\r\n\r\nKindly take the above on record and oblige.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42554da3-a03e-4b2e-a7b0-03928e90261d.pdf",
+            "news_date": "2025-05-19 15:20:59"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -312,6 +895,17 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results",
+            "news_body": "Audited Financial Results (Standalone and Consolidated) for the quarter/year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=410eba6b-80dc-41ee-93a1-5900b231a3a2.pdf",
+            "news_date": "2025-05-15 12:43:02"
         },
         {
             "sym": "SHEMAROO",
@@ -338,6 +932,28 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of audio recording of the Earnings Conference Call of Shemaroo Entertainment Limited for the quarter and period ended March 31 2025 (Q4-FY25/FY25) which was held on Wednesday May 14 2025 at 12.00 P.M. (IST) on the Companys website i.e. www.shemarooent.com as follows:\r\n \r\nInvestors ?Conference Call Transcript/Earnings Concall Audio Recording i.e. \r\nhttps://shemarooent.com/uploads/pdf/conference_call_transcript_pdf/Concall_ShemarooEntertainment_Ltd_14052025.mp3\r\n\r\n\r\nKindly take the above on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c682a23e-029f-455f-b532-2a36f86896f0.pdf",
+            "news_date": "2025-05-14 17:13:16"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4301648-5db2-47fd-8f3c-792e463d6d4f.pdf",
+            "news_date": "2025-05-14 15:32:04"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -360,6 +976,193 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Announcement under Regulation 30 (LODR) - Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24463477-5174-4cd5-817d-17f00598b524.pdf",
+            "news_date": "2025-05-13 23:16:15"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting- Pursuant To Regulation 33 And 30 Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Outcome of Board Meeting- Pursuant to Regulation 33 and 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc6350c6-2d7d-4d12-b935-373292ba360f.pdf",
+            "news_date": "2025-05-13 19:07:03"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Shemaroo Entertainment Limited has entered into Share Purchase Agreement for acquisition of 100% equity share capital of Aikyam Entertainment Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0c2d0f9-f199-4bb8-8283-cf5c0e5713b6.pdf",
+            "news_date": "2025-05-08 19:51:47"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform that an Earnings Conference Call for the Investors of the Company on the Audited Financial Results for the financial year ended March 31 2025 (Q4-FY25/FY-25) is scheduled to be held on Wednesday May 14 2025 at 12 P.M. (IST).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd4f05de-180c-4c47-9220-49e2be98792a.pdf",
+            "news_date": "2025-05-06 16:28:01"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Audited Financial Results Alongwith The Auditors Report Thereon Of The Company For The Quarter And Financial Year Ended March 31 2025",
+            "news_body": "Shemaroo Entertainment Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/05/2025 inter alia to consider and approve the Standalone and Consolidated Audited Financial Results alongwith the Auditors Report thereon of the Company for the quarter and financial year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4fd436c6-3225-4d06-9789-98b8666def00.pdf",
+            "news_date": "2025-05-05 17:03:22"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e5c6398-fec1-4fbc-98d6-99b897e3c043.pdf",
+            "news_date": "2025-04-15 12:54:29"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Retirement",
+            "caption": "Announcement under Regulation 30 (LODR)-Retirement",
+            "news_body": "Intimation of completion of tenure of Dr. CA Reeta Shah Non-Executive Independent Director of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e208e004-8a41-48e2-acbd-1c7b2fbb4de4.pdf",
+            "news_date": "2025-03-27 19:35:59"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68b3b5e4-9951-4bbc-8b38-064b5ac59062.pdf",
+            "news_date": "2025-03-26 12:29:51"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Appointment of Ms. Kashmira Nilesh Dedhia as an Additional Director designated as Non-Executive Independent Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43b2397a-6347-4e11-8143-e00763bc1b3b.pdf",
+            "news_date": "2025-03-24 17:52:38"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Board Meeting Dated March 24 2025",
+            "news_body": "Outcome of Board Meeting dated March 24 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd8d704c-cd19-41bb-a627-8d65f2b54c3e.pdf",
+            "news_date": "2025-03-24 17:31:18"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Shemaroo Entertainment Limited Has Informed The Exchange Regarding Investor Presentation.",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d07c7dac-d56b-4064-80c7-ffc18099eae0.pdf",
+            "news_date": "2025-03-19 11:51:50"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Announcement under Regulation 30 (LODR) - Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e980fc54-ac38-4bea-bf07-00a91d206403.pdf",
+            "news_date": "2025-03-13 11:53:12"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30(6) of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eba2206a-a300-4a66-8c32-490387df3c13.pdf",
+            "news_date": "2025-03-12 15:04:17"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing - Financial",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2da0554-1707-4653-957e-f1fbd1e69818.pdf",
+            "news_date": "2025-02-18 13:52:32"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "Announcement under Regulation 30 of SEBI (Listing Obligation & Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0aad15c7-1c4d-4257-a3f8-1d5d117f33fe.pdf",
+            "news_date": "2025-02-05 23:35:18"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of Concall Transcript of the Earnings Presentation of Shemaroo Entertainment \r\nLimited for the quarter ended December 31 2024 (Q3/9M-FY25) which was held on Friday January 17 2025 at 12 Noon (IST) on the Companys website i.e. www.shemarooent.com as follow: \r\n \r\nInvestors?Conference Call Transcript/Earnings Concall Audio Recording i.e. \r\nhttps://www.shemarooent.com/uploads/pdf/conference_call_transcript_pdf/December2024ConcallTranscript.pdf\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab418409-1bb5-49d2-b3bb-ee27f70e9750.pdf",
+            "news_date": "2025-01-22 15:04:15"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of audio recording of the Earnings Conference Call of Shemaroo Entertainment Limited for the quarter and period ended December 31 2024 (Q3/9M-FY25) which was held on Friday January 17 2025 at 12.00 P.M. (IST) on the Companys website i.e. www.shemarooent.com as follows:\r\n \r\nInvestors ?Conference Call Transcript/Earnings Concall Audio Recording i.e. \r\nhttps://shemarooent.com/uploads/pdf/conference_call_transcript_pdf/Concall_ShemarooEntertainmentLtd_17012025.mp3 \r\n\r\nKindly take the above on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=395409fe-5796-4bda-958d-e145e8660c21.pdf",
+            "news_date": "2025-01-17 15:05:23"
         },
         {
             "sym": "SHEMAROO",
@@ -386,6 +1189,17 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Announcement under Regulation 30 (LODR) - Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af231d42-c4ea-41a0-a016-6bcac9aaec8f.pdf",
+            "news_date": "2025-01-16 20:10:19"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -408,6 +1222,94 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Period Ended December 31 2024",
+            "news_body": "Unaudited Financial Results for the period ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dffb8149-7d63-4bda-a1df-8545e132d0d8.pdf",
+            "news_date": "2025-01-16 17:19:50"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated January 16 2025",
+            "news_body": "Outcome of Board Meeting- Pursuant to Regulation 33 and 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fc58f55-aa41-4de2-b51a-27f0892668ee.pdf",
+            "news_date": "2025-01-16 17:10:09"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulation 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80202f07-3e83-4875-ab8d-badd5c4ce78c.pdf",
+            "news_date": "2025-01-10 16:38:36"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform that an Earnings Conference Call for the Investors of the Company on Unaudited Financial Results for the quarter ended December 31 2024 (Q3/FY25) is scheduled to be held on Friday January 17 2025 at 12 noon IST.\n\nThe details of aforesaid conference is enclosed herewith.\n\nThe aforesaid shall also be available on the website of the Company i.e. www.shemarooent.com",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5a3997d-2d56-4f4b-8fee-1ac9720859a2.pdf",
+            "news_date": "2025-01-08 17:09:21"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Financial Results Of The Company For The Period Ended December 31 2024",
+            "news_body": "Shemaroo Entertainment Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/01/2025 inter alia to consider and approve This is to inform that a meeting of the Board of Directors of Shemaroo Entertainment Limited is scheduled to be held on Thursday January 16 2025 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results of the Company for the period ended December 31 2024.\n\nIn this connection as informed earlier pursuant to Code of Conduct for Prevention of Insider Trading of Shemaroo Entertainment Limited read with the SEBI (Prohibition of Insider Trading) Regulations 2015 as amended Trading Window for dealing in the securities of the Company shall remain closed for all designated persons their immediate relatives and all connected persons covered under the aforesaid code upto 48 hours of declaration of the results. \n\nKindly take the above on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=770a6421-0e17-4068-8f2c-32c9f79e8b29.pdf",
+            "news_date": "2025-01-08 15:59:01"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4cfb4b3d-e881-4477-9342-b7cf969dd34b.pdf",
+            "news_date": "2024-12-30 13:38:20"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Board Meeting Held On 27Th December 2024",
+            "news_body": "Outcome of Board Meeting held on 27th December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2020274b-2660-406a-8b40-bdf0a69cce1a.pdf",
+            "news_date": "2024-12-27 17:17:03"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Company Update",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Board of Directors of the Company has passed resolution by circulation on November 22, 2024, approving the allotment of 7,525 equity shares exercised under the ''Shemaroo Entertainment Limited Employees Stock Option Scheme - 2021''.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c504a445-e85c-4040-b523-56dd8b4c3a7e.pdf",
+            "news_date": "2024-11-22 16:41:23"
         },
         {
             "sym": "SHEMAROO",
@@ -434,6 +1336,17 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of Concall Transcript of the Earnings Presentation of Shemaroo Entertainment Limited for the quarter ended September 30, 2024 (Q2/H1-FY25) which was held on Friday,  October 18, 2024 at 12 Noon (IST), on the Company's website i.e. www.shemarooent.com as follow:  Investors?Conference Call Transcript/Earnings Concall Audio Recording i.e. https://shemarooent.com/uploads/pdf/conference_call_transcript_pdf/september2024concalltranscript.pdfTranscript of the Earnings call is also annexed.Kindly take the above on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68331e52-1864-4a4a-bd40-d590d7a70b22.pdf",
+            "news_date": "2024-10-21 16:42:08"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -456,6 +1369,17 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find link of audio recording of the Earnings Conference Call of Shemaroo Entertainment Limited for the quarter and half year ended September 30, 2024 (Q2/H1-FY25) which was held on Friday, October 18, 2024 at 12.00 P.M. (IST), on the Company's website i.e. www.shemarooent.com as follows: Investors ?Conference Call Transcript/Earnings Concall Audio Recording i.e. https://shemarooent.com/uploads/pdf/conference_call_transcript_pdf/ConcallSEL18102024.mp3",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7147234e-2538-49dc-8b17-f628aa85828e.pdf",
+            "news_date": "2024-10-18 15:28:51"
         },
         {
             "sym": "SHEMAROO",
@@ -482,6 +1406,17 @@
             "seg": "E"
         },
         {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find attached herewith Earnings Presentation of Shemaroo Entertainment Limited for the quarter and half year ended September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89968fb7-caa4-4a2a-b3c1-2d3eaba359ec.pdf",
+            "news_date": "2024-10-17 21:35:02"
+        },
+        {
             "sym": "SHEMAROO",
             "disp": "Shemaroo Entertainment",
             "bse_code": 538685,
@@ -504,6 +1439,171 @@
             "sid": 5068,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For Period Ended September 30, 2024",
+            "news_body": "Unaudited Financial Results for the period ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff154b10-f3fd-4043-b57d-987103548c64.pdf",
+            "news_date": "2024-10-17 16:50:24"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Dated October 17, 2024",
+            "news_body": "Outcome of the Board Meeting dated October 17, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51e76497-0d77-432d-9137-c84a99d26a46.pdf",
+            "news_date": "2024-10-17 16:45:46"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform that an Earnings Conference Call for the Investors of the Company on Unaudited Financial Results for the Quarter ended September 30, 2024 (Q2/FY25) is scheduled to be held on Friday, October 18, 2024 at 12 noon IST.The details of aforesaid conference is enclosed herewith.The aforesaid shall also be available on the website of the Company i.e. www.shemarooent.com",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a686d2c7-f1fd-437a-bb4d-4de1ca544af9.pdf",
+            "news_date": "2024-10-09 16:38:35"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Financial Results Of The Company For The Period Ended September 30, 2024",
+            "news_body": "Shemaroo Entertainment Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/10/2024 ,inter alia, to consider and approve  the Unaudited Financial Results of the Company for the period ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a770a8dd-7401-47c1-a5ee-9276244a51d3.pdf",
+            "news_date": "2024-10-09 16:34:12"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "In compliance with Regulation 74(5) of SEBI (Depositories and Participants) Regulations, 2018, enclosing herewith a copy of certificate issued by Link Intime India Private Limited, Registrar and Share Transfer Agent of the Company for the quarter ended September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=288c2545-eb02-4099-8624-4018bfc86455.pdf",
+            "news_date": "2024-10-08 17:55:41"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3177fed1-9797-4783-b8c4-9f0fbaa1d700.pdf",
+            "news_date": "2024-09-26 17:17:28"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Reply To Clarification Sought By Exchange For Significant Increase In The Volume Of Security Of The Company",
+            "news_body": "Reply to Clarification",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b887c070-5fb6-46d6-bc28-25170a939ef1.pdf",
+            "news_date": "2024-09-26 13:26:40"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Shemaroo Entertainment Ltd",
+            "news_body": "The Exchange has sought clarification from Shemaroo Entertainment Ltd on September 26, 2024, with reference to Movement in Volume. <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2024-09-26 12:01:39"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Company Update",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Board of Directors of the Company has passed resolution by circulation on September 10, 2024, approving the allotment of 24,640 equity shares exercised under the Shemaroo Entertainment Limited Employees Stock Option Scheme - 2021.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b0586454-422d-45c9-bd17-aa33a33847c9.pdf",
+            "news_date": "2024-09-10 16:15:58"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "19Th ANNUAL GENERAL MEETING (AGM) Transcript Dated August 29, 2024",
+            "news_body": "Submitting herewith link of transcript of the 19th AGM of the Company held on August 29, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17e5361a-94fa-477f-9c99-7fe79cd459d8.pdf",
+            "news_date": "2024-08-30 18:01:50"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "Pursuant to the Regulation 44(3) of the SEBI (Listing Obligation and Disclosure Requirements) Regulations, 2015, the combined voting results (Remote E-voting during AGM) of the businesses transacted at the AGM of the Company is enclosed along with the Scrutinizer''s Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9c1e520-2280-4ef4-bef2-d8341d0f37f7.pdf",
+            "news_date": "2024-08-30 12:31:10"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Submitting herewith proceedings of the 19th Annual General Meeting of the Company held on Thursday, August 29, 2024 at 04.00 PM IST via VC/OAVM. The Meeting commenced at 04.00 PM IST and concluded at 04.28 PM IST.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=40c3a98d-893e-48cb-ba7e-e1ae2b424557.pdf",
+            "news_date": "2024-08-29 17:56:52"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Pursuant to Regulation 34 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the Company hereby submits Annual Report of the Company for the Financial Year 2023-24.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01c17ac5-ce7b-498c-a2fc-cd0fcf020172.pdf",
+            "news_date": "2024-08-05 17:55:26"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Register of Members and Share Transfer Books of the Company will remain closed from Thursday, August 22, 2024 to Thursday, August 29, 2024 (both days inclusive) for the purpose of AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13ab70ac-7a25-4e1b-876c-3778ea020e54.pdf",
+            "news_date": "2024-08-05 16:26:55"
+        },
+        {
+            "co_code": 41398,
+            "bse_code": 538685,
+            "isin": "INE363M01019",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "The 19Th Annual General Meeting (AGM) Of The Company Is Scheduled To Be Held On Thursday, August 29, 2024 At 04:00 P.M. (IST) Through Video Conferencing (VC)/ Other Audio Visual Means (OAVM).",
+            "news_body": "Pursuant to Regulation 42 of SEBI (LODR) Regulations, 2015, the Register of Members and the Share Transfer Books of the Company will remain closed from Thursday, August 22, 2024 to Thursday, August 29, 2024 (both days inclusive) for the purpose of AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58509832-3f34-4b4c-9062-51bcdcb23c06.pdf",
+            "news_date": "2024-08-05 16:23:34"
         },
         {
             "sym": "SHEMAROO",
@@ -1969,6 +3069,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

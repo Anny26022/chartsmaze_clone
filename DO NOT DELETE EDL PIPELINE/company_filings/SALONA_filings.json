@@ -2,6 +2,50 @@
     "code": 0,
     "data": [
         {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Salona Cotspin Ltd has informed BSE regarding Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44319393-A915-4944-B98E-F5933D1D544F-150555.pdf",
+            "news_date": "2023-04-10 15:06:06"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification",
+            "news_body": "With reference to significant movement in price, in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded, Salona Cotspin Ltd has submitted to BSE a copy of Clarification is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C82D94EF-5A96-4373-9E40-B6273043C00F-182702.PDF",
+            "news_date": "2022-04-12 18:27:05"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Salona Cotspin Ltd",
+            "news_body": "The Exchange has sought clarification from Salona Cotspin Ltd on April 11, 2022 with reference to significant movement in price, in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2022-04-11 18:23:03"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Salona Cotspin Ltd",
+            "news_body": "The Exchange has sought clarification from Salona Cotspin Ltd on March 2, 2022 with reference to significant movement in price, in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2022-03-02 19:58:43"
+        },
+        {
             "sym": "SALONA",
             "disp": "Salona Cotspin",
             "bse_code": 590056,
@@ -24,7 +68,303 @@
             "sid": 17351,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone Financial Results, Limited Review Report for June 30, 2021",
+            "news_body": "Salona Cotspin Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended June 30, 2021<BR><BR>2. Standalone Limited Review for the period ended June 30, 2021",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88079434-565A-4D12-A628-C99DA8266A19-184736.pdf",
+            "news_date": "2021-08-12 18:47:41"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Results",
+            "news_body": "Salona Cotspin Ltd has informed BSE regarding Board Meeting Intimation for Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=BADC680A-FB83-4435-9A58-DDF85A3C8F21-140852.pdf",
+            "news_date": "2021-08-03 14:08:56"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Half Yearly Disclosure on Related Party Transactions under Regulation 23(9) of SEBI LODR(Amendment) Regulations, 2018",
+            "news_body": "Salona Cotspin Ltd  has submitted to BSE a copy of Half Yearly disclosure on Related Party Transactions under Regulation 23(9) of SEBI Listing Obligation and Disclosure Requirement (Amendment) Regulations, 2018 for the Half Year ended March 31, 2021.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F8AE2AB7-7A4F-4105-8AA8-D843DFEAE2A1-125735.PDF",
+            "news_date": "2021-07-08 13:07:41"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Result",
+            "descriptor": "Auditors Report",
+            "caption": "Standalone Financial Results, Auditors Report for March 31, 2021",
+            "news_body": "Salona Cotspin Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended March 31, 2021<BR><BR>2. Standalone Auditors Report for the period ended March 31, 2021<BR><BR>3. Standalone Cash Flow Statement for the period ended March 31, 2021",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02E1805D-9571-4F81-BA59-2E3FCE87FA0E-194634.pdf",
+            "news_date": "2021-06-28 19:46:45"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board to consider Dividend",
+            "news_body": "Salona Cotspin Ltd has informed BSE that the meeting of the Board of Directors of the Company will be held on June 28, 2021, to consider and take on record the Audited Financial Results of the Company, for the year ended March 31, 2021 and to consider and recommend dividend, if any, on equity shares of the company for the financial year ended March 31, 2021.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=D2D8F298-4E6B-4AB4-ACC1-946013E0EDBE-144119.pdf",
+            "news_date": "2021-06-17 14:41:32"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification",
+            "news_body": "With reference to significant movement in price, in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded, Salona Cotspin Ltd has submitted to BSE a copy of Clarification is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C710F97E-72A4-4897-9FE9-CE7AF3DDBD5F-140620.pdf",
+            "news_date": "2021-06-09 14:06:25"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Salona Cotspin Ltd",
+            "news_body": "The Exchange has sought clarification from Salona Cotspin Ltd on June 09, 2021 with reference to significant movement in price, in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2021-06-09 12:19:12"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone Financial Results, Limited Review Report for December 31, 2020",
+            "news_body": "Salona Cotspin Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended December 31, 2020<BR><BR>2. Standalone Limited Review for the period ended December 31, 2020",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8984E935-A356-4B80-B589-CAC82C9CB7D4-194917.pdf",
+            "news_date": "2021-02-12 19:49:20"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Results",
+            "news_body": "Salona Cotspin Ltd has informed BSE regarding Board Meeting Intimation for Results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8F4115D1-9E78-4BD8-A11D-41CC843BE4D6-162616.pdf",
+            "news_date": "2021-02-03 16:26:19"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Shareholding",
+            "caption": "Shareholding for the Period Ended September 30, 2020",
+            "news_body": "Salona Cotspin Ltd has submitted to BSE the Shareholding Pattern for the Period Ended September 30, 2020. For more details, kindly <a href=http://www.bseindia.com/corporates/shpSecurities.aspx?scripcd=590056&qtrid=107.00>Click here</a>",
+            "file_url": "",
+            "news_date": "2020-10-27 11:41:25"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Compliance Certificate For Period Ended September 30, 2020",
+            "news_body": "Salona Cotspin Ltd has informed BSE regarding Compliance certificate under Reg. 7(3) for period ended September 30, 2020.<BR>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=AD7457F4-D7D4-4E5A-B695-1B344E698CAF-145027.pdf",
+            "news_date": "2020-10-14 14:50:30"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Reg. 13(3) - Statement of Investor Complaints",
+            "caption": "Statement of Investor Complaint under Reg. 13(3) of SEBI (LODR) Regulations, 2015 for Quarter ended September 30, 2020",
+            "news_body": "Salona Cotspin Ltd has informed BSE regarding Quarterly Statement on Investor Complaints / Grievances Redressal Mechanism for the Quarter ended September 30, 2020, under Regulation 13(3) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015. <table border=''1''><tr bgcolor=''#d6d6d6''><th class=''TTRow_left''> No.of Investor complaints pending at the beginning of the quarter </th><th class=''TTRow''> No.of Investor complaints received during the quarter</th><th class=''TTRow''> No.of Investor complaints disposed of during the quarter </th><th class=''TTRow''> No.of Investor complaints unresolved at the end of the quarter </th></tr><tr><td class=''TTRow''> 0 </td><td class=''TTRow''> 0 </td><td class=''TTRow''> 0 </td><td class=''TTRow''> 0 </td></tr></table>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80723FCB-C32E-4831-B2EB-294173546362-144200.pdf",
+            "news_date": "2020-10-14 14:42:04"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Outcome of AGM",
+            "news_body": "Salona Cotspin Ltd has informed BSE that the 26th Annual General Meeting (AGM) of the Company was held on September 21, 2020.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B6550DCE-A8D5-4AB0-809E-C5A5FE3CF348-194237.pdf",
+            "news_date": "2020-09-21 19:42:42"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Book Closure / AGM",
+            "caption": "Fixes Book Closure for AGM (Cut-off date for e-voting)",
+            "news_body": "Salona Cotspin Ltd has informed BSE that the Register of Members & Share Transfer Books of the Company will remain closed from September 15, 2020 to September 21, 2020 (both days inclusive) for the purpose of 26th Annual General Meeting (AGM) of the Company to be held on September 21, 2020.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=BDAC01FC-9C90-4F95-877A-D75CC3E81244-105257.pdf",
+            "news_date": "2020-08-29 11:00:03"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone Financial Results, Limited Review Report for June 30, 2020",
+            "news_body": "Salona Cotspin Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended June 30, 2020<BR><BR>2. Standalone Limited Review for the period ended June 30, 2020",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F6E6A942-49A6-4CD3-B8BD-23EBC2F9546B-150324.pdf",
+            "news_date": "2020-08-14 15:03:29"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Cash Flow Statement for the period ended March 31, 2020.",
+            "news_body": "Salona Cotspin Ltd has submitted to BSE a copy of Cash Flow Statement for the period ended March 31, 2020.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31F4EF3C-D5DD-4346-B78B-B31483E5CE2C-130301.pdf",
+            "news_date": "2020-08-13 13:03:18"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Directorate",
+            "caption": "Appointment of Additional Director",
+            "news_body": "Salona Cotspin Ltd has informed BSE regarding Appointment of Additional Director.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5EC15861-09D9-4179-AEF3-D7F148410482-184944.pdf",
+            "news_date": "2020-06-25 18:49:46"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Result",
+            "descriptor": "Auditors Report",
+            "caption": "Standalone Financial Results, Auditors Report for March 31, 2020",
+            "news_body": "Salona Cotspin Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended March 31, 2020<BR><BR>2. Standalone Auditors Report for the period ended March 31, 2020",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8EBE6344-C0D6-4FC7-B687-479DB4B7484C-184330.pdf",
+            "news_date": "2020-06-25 18:43:35"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Corp. Action",
+            "descriptor": "Dividend",
+            "caption": "Board to consider Dividend",
+            "news_body": "Salona Cotspin Ltd has informed BSE that the meeting of the Board of Directors of the Company will be held on June 25, 2020, to consider and take on record the Audited Financial Results of the Company, for the year ended March 31, 2020 and to consider and recommend dividend, if any, on equity share of the Company for the financial year ended March 31, 2020.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=D5342F4E-783D-407F-A0EE-0F51B16ADFE0-121924.pdf",
+            "news_date": "2020-06-10 12:19:27"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification",
+            "news_body": "With reference to significant movement in price, in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded, Salona Cotspin Ltd has submitted to BSE a copy of Clarification is enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9D50B377-758D-448F-97E6-439AD4084AD4-175229.pdf",
+            "news_date": "2020-06-03 17:52:31"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Salona Cotspin Ltd",
+            "news_body": "The Exchange has sought clarification from Salona Cotspin Ltd on June 03, 2020 with reference to significant movement in price, in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2020-06-03 12:08:20"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Resume of Operations",
+            "news_body": "With reference to the earlier letter dated March 23, 2020, wherein the Company had informed of the disruption of operations across the country on account of the COVID -19 pandemic. Salona Cotspin Ltd has now informed BSE that in accordance with the guidelines issued by Government of India and various State Government Authorities, the Company has partially resumed operations at its manufacturing location, warehouses, and offices wherein lockdown restrictions have been eased with effect from May 07, 2020. The operations at these locations will be carried out in accordance with the guidelines issued by the regulatory authorities, after obtaining permissions wherever required. The Company has taken all the required measures to ensure the safety of its employees at all locations in accordance with the guidance issued by the Central/State/Municipal authorities.<BR><BR>The Company will continue to monitor the situation closely and take appropriate action as per regulatory guidelines.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5990DE13-6F0F-44EF-ABA4-025D8718198D-120825.pdf",
+            "news_date": "2020-05-07 12:13:48"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Compliance Certificate For Period Ended March 31, 2020",
+            "news_body": "Salona Cotspin Ltd has informed BSE regarding Compliance certificate under Reg. 7(3) for period ended March 31, 2020.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3DEF4E66-8271-4ECF-BBCC-2E813C2D7E07-134303.pdf",
+            "news_date": "2020-04-30 13:43:10"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Reg. 13(3) - Statement of Investor Complaints",
+            "caption": "Statement of Investor Complaint under Reg. 13(3) of SEBI (LODR) Regulations, 2015 for Quarter ended March 31, 2020",
+            "news_body": "Salona Cotspin Ltd has informed BSE regarding Quarterly Statement on Investor Complaints / Grievances Redressal Mechanism for the Quarter ended March 31, 2020, under Regulation 13(3) of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015. <table border=''1''><tr bgcolor=''#d6d6d6''><th class=''TTRow_left''> No.of Investor complaints pending at the beginning of the quarter </th><th class=''TTRow''> No.of Investor complaints received during the quarter</th><th class=''TTRow''> No.of Investor complaints disposed of during the quarter </th><th class=''TTRow''> No.of Investor complaints unresolved at the end of the quarter </th></tr><tr><td class=''TTRow''> 0 </td><td class=''TTRow''> 0 </td><td class=''TTRow''> 0 </td><td class=''TTRow''> 0 </td></tr></table>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A8E1B430-7806-41EB-9276-C07B8A98BAF1-113802.pdf",
+            "news_date": "2020-04-30 11:38:15"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Intimation of Shutdown in the wake of Corona virus (COVID-19)",
+            "news_body": "Salona Cotspin Ltd has informed BSE regarding Intimation of Shutdown in the wake of Corona virus (COVID-19).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B2B1D1AD-ED71-485D-8B7E-7C51DE205CC9-093638.pdf",
+            "news_date": "2020-03-24 09:36:42"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Standalone Financial Results, Limited Review Report for December 31, 2019",
+            "news_body": "Salona Cotspin Ltd has informed BSE about : <BR><BR>1. Standalone Financial Results for the period ended December 31, 2019<BR><BR>2. Standalone Limited Review for the period ended December 31, 2019",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6C8CD9AC-6069-42A0-AAC1-62C93FAFDFB9-181511.pdf",
+            "news_date": "2020-02-17 18:15:18"
+        },
+        {
+            "co_code": 15798,
+            "bse_code": 590056,
+            "isin": "INE498E01010",
+            "ann_type": "Company Update",
+            "descriptor": "Shareholding",
+            "caption": "Shareholding for the Period Ended December 31, 2019",
+            "news_body": "Salona Cotspin Ltd has submitted to BSE the Shareholding Pattern for the Period Ended December 31, 2019. For more details, kindly <a href=http://www.bseindia.com/corporates/shpSecurities.aspx?scripcd=590056&qtrid=104.00>Click here</a>",
+            "file_url": "",
+            "news_date": "2020-01-24 15:01:49"
         }
-    ],
-    "remarks": ""
+    ]
 }

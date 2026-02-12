@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c7b902f-cd00-4215-bd7f-20d118c2b23f.pdf",
+            "news_date": "2026-02-12 19:59:58"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Voluntary Revision Of Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a82e474-8e2a-4fc7-b302-c9b035fb7f7a.pdf",
+            "news_date": "2026-02-12 18:47:55"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015 - Investment in Quanta People Solutions Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9543116c-d1e6-4885-8564-cab377e964cf.pdf",
+            "news_date": "2026-02-11 15:47:10"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -24,6 +57,83 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f9e6585-cfd1-43b9-8226-574700a5fa23.pdf",
+            "news_date": "2026-02-11 15:41:12"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for The Board Meeting Held On February 11 2026",
+            "news_body": "as enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=425d3298-3881-4784-873f-58016ac7699c.pdf",
+            "news_date": "2026-02-11 14:14:48"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR) Regulations 2015 - Update On Sale Of Windmills",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e57ed1b2-a0bb-4790-8476-56a2c5a8b77d.pdf",
+            "news_date": "2026-01-30 19:36:54"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving The Unaudited Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Avanti Feeds Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 11/02/2026 inter alia to consider and approve the unaudited financial results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8aca48be-3dc4-4b20-92f0-07d8ffbfba6c.pdf",
+            "news_date": "2026-01-27 19:44:26"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e61ac48b-fba4-4894-b05e-6fa2721f8f68.pdf",
+            "news_date": "2026-01-03 12:17:25"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db270109-bceb-47ab-a68c-44aa3c5b07e8.pdf",
+            "news_date": "2025-12-23 18:16:51"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8146568f-550c-4573-856f-b42423ab75bf.pdf",
+            "news_date": "2025-12-04 19:25:57"
         },
         {
             "sym": "AVANTIFEED",
@@ -50,6 +160,28 @@
             "seg": "E"
         },
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fafd0b67-6390-48ac-bc45-313ee939e8d2.pdf",
+            "news_date": "2025-11-19 18:30:20"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a27e716d-c9ee-45d1-bd9e-db576dabfc5c.pdf",
+            "news_date": "2025-11-15 18:32:23"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -72,6 +204,39 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4823a2d5-75f5-46ad-b163-8799d4da7eac.pdf",
+            "news_date": "2025-11-14 18:48:42"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3a92cdc-aab9-4151-b1be-6fc4a2355198.pdf",
+            "news_date": "2025-11-11 18:40:58"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6245aaf-b46e-4428-be8d-4c0d0bfe4b5a.pdf",
+            "news_date": "2025-11-06 13:04:46"
         },
         {
             "sym": "AVANTIFEED",
@@ -98,6 +263,149 @@
             "seg": "E"
         },
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Half Year Ended 30Th September 2025",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96e91c42-50e9-4a79-82ae-b1e1aa6fb1ce.pdf",
+            "news_date": "2025-11-05 18:11:27"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 05Th November 2025",
+            "news_body": "As enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51abbe69-f806-40ce-916a-21cad4822304.pdf",
+            "news_date": "2025-11-05 17:46:57"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "As enclsoed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44fa5822-f933-4648-bab1-d2d0801e197c.pdf",
+            "news_date": "2025-10-29 11:45:52"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Avanti Feeds Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/11/2025 inter alia to consider and approve the un-audited standalone and consolidated financial results of the Company for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfef1d78-a351-4451-9f6b-aab9d75d8d4d.pdf",
+            "news_date": "2025-10-24 18:26:03"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations Or SEBI (LODR) Reg. 2015) In Respect Of Incorporation Of A Wholly Owned Subsidiary Company.",
+            "news_body": "Intimation of incorporation of a Wholly Owned Subsidiary Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20be103e-7642-470a-a846-332acd338aff.pdf",
+            "news_date": "2025-10-22 18:34:33"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b667a44a-10b8-4923-a8e7-0945a19ec179.pdf",
+            "news_date": "2025-10-09 16:36:09"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9bac00a-1653-405f-932b-57a06b6fecd6.pdf",
+            "news_date": "2025-09-30 15:37:55"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ef240df-54b7-4f7b-9785-ccbd540a3eb4.pdf",
+            "news_date": "2025-09-25 18:41:21"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aede0763-cc80-45d9-bde0-075e819c2c77.pdf",
+            "news_date": "2025-09-20 10:30:05"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60893dd5-03c4-4333-9c9f-85372d866dac.pdf",
+            "news_date": "2025-09-20 10:27:56"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On Friday September 12 2025",
+            "news_body": "Outcome of Board Meeting held on Friday September 12 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73bbd773-ace0-4075-86e7-693430baa679.pdf",
+            "news_date": "2025-09-12 14:28:54"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification Sought From Avanti Feeds Ltd",
+            "news_body": "The letter is attached for the same",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bfd75ff-88eb-414d-b6f1-6b7f0143df01.pdf",
+            "news_date": "2025-09-11 15:49:29"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Avanti Feeds Ltd",
+            "news_body": "The Exchange has sought clarification from Avanti Feeds Ltd on September 11 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-09-11 12:21:30"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -120,6 +428,17 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of post earning Audio Conference Call for quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae9240e0-d40c-487c-adb3-70d29ef01e25.pdf",
+            "news_date": "2025-09-03 17:11:02"
         },
         {
             "sym": "AVANTIFEED",
@@ -146,6 +465,17 @@
             "seg": "E"
         },
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Post Earnings Conference Call of Unaudited Financial Results (Standalone and Consolidated) for the Q1 FY 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1382c841-f291-4740-bbd1-3dfe224002a3.pdf",
+            "news_date": "2025-08-29 19:40:48"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -168,6 +498,61 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investors Presentation for Q1 FY2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe36034-4a0f-4f33-9f8d-8acd3d2ed4d3.pdf",
+            "news_date": "2025-08-29 13:02:35"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investors conference (i.e. Group Meet) call for Quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff556923-9e48-42c6-9408-9a964654ec10.pdf",
+            "news_date": "2025-08-25 19:29:51"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results and Scrutinisers Report for the 32nd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55632ca8-0ea1-4c41-886c-1926cc7f33a2.pdf",
+            "news_date": "2025-08-14 19:57:55"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 32nd Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ca03ca7-74af-475a-a0c8-166e6edcd558.pdf",
+            "news_date": "2025-08-14 19:01:25"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Newspaper Publication - Un Audited Financial Results for Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc7ce8f6-1b3b-4d8c-a233-7f6636cef11b.pdf",
+            "news_date": "2025-08-14 18:39:57"
         },
         {
             "sym": "AVANTIFEED",
@@ -194,6 +579,193 @@
             "seg": "E"
         },
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting For The Quarter Ended 30Th June 2025.",
+            "news_body": "Outcome of the Board Meeting for the Quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=024e4997-d8ca-4945-98bf-1dc0a0a810e9.pdf",
+            "news_date": "2025-08-13 14:03:29"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting For The Quarter Ended 30Th June 2025.",
+            "news_body": "Outcome of the Board Meeting for the Quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1fb6462-7056-407c-a4e3-950d45dde20b.pdf",
+            "news_date": "2025-08-13 13:55:27"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarter Ended June 30 2025.",
+            "news_body": "Avanti Feeds Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2025 inter alia to consider and approve The un-audited standalone and consolidated financial results of the Company for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91fe617a-5d45-4982-a305-fb6acf3ef7fd.pdf",
+            "news_date": "2025-07-31 18:41:31"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation about the Special Window for Re-Lodgment of Transfer Requests for Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80ff4fa1-e245-4302-bc60-710ee9e882df.pdf",
+            "news_date": "2025-07-20 13:42:24"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of dispatch of 32nd AGM Notice.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bbb1532-535c-4fe7-a00b-9f58d816cc2d.pdf",
+            "news_date": "2025-07-20 13:22:49"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d260fdd-db64-4689-8a9f-24621a105208.pdf",
+            "news_date": "2025-07-19 21:18:47"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Notice of 32nd Annual General Meeting (AGM) and Annual Report of the Company for the FY 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85d24761-5637-4bd7-bee7-c6fc4d95ae00.pdf",
+            "news_date": "2025-07-19 21:15:38"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 32Nd Annual General Meeting (AGM) And Annual Report Of The Company For The FY 2024-25",
+            "news_body": "Notice of 32nd Annual General Meeting (AGM) and Annual Report of the Company for the FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f33d978-95af-4c27-bd56-754c652ce21b.pdf",
+            "news_date": "2025-07-19 20:56:33"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Newspaper Publication of 32nd Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c520ab9d-2dbf-4df0-8804-eb5ce9442ae0.pdf",
+            "news_date": "2025-07-16 13:57:54"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend/AGM",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "Intimation of 32nd Annual General Meeting Book Closure and Cut-off date for e-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b44c311a-91e4-4609-9c9c-ecb687c47934.pdf",
+            "news_date": "2025-07-12 11:53:15"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Corporate Action - Fixes Book Closure For Dividend",
+            "news_body": "Corporate Action - Fixes Book Closure for Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11edaa4b-ecab-4327-80ad-46a81bec6f62.pdf",
+            "news_date": "2025-07-12 11:37:45"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action-Board To Consider Dividend",
+            "news_body": "Corporate Action - Board to consider Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3dbddea5-4628-4a3d-bb05-e9457f14ba55.pdf",
+            "news_date": "2025-07-12 11:33:00"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of 32Nd Annual General Meeting Book Closure And Cut-Off Date For E-Voting.",
+            "news_body": "Intimation of 32nd Annual General Meeting Book Closure and cut-off date for e-voting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2db390ed-18b5-4936-8c3d-ecd58a752c85.pdf",
+            "news_date": "2025-07-12 11:28:57"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=418f1a2a-f05b-431a-b824-4da5ff5583b9.pdf",
+            "news_date": "2025-07-09 16:57:43"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Approvals Received From Stock Exchanges For\r\nReclassification Of Mr. Vijaya Kumar Chukkapalli Promoter Group Shareholder Under Regulation 31A Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation of Approvals received from Stock Exchanges for Reclassification of Mr. Vijaya Kumar Chukkapalli Promoter Group Shareholder Under Regulation 31A of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=938d6a24-730e-4616-a61d-810005c00bb8.pdf",
+            "news_date": "2025-06-26 18:52:47"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the first quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0854cde7-db40-4be2-bb87-a355110a52f3.pdf",
+            "news_date": "2025-06-25 15:54:20"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper clippings in connection with notice for Loss of Share Certificates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69946012-d672-4d9b-a8a6-11b6a5c62aed.pdf",
+            "news_date": "2025-06-19 15:21:08"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -216,6 +788,17 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of post earnings Audio Conference Call for the quarter and Year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f87e2284-64c8-4411-afb6-e987a0505ed7.pdf",
+            "news_date": "2025-06-11 15:18:53"
         },
         {
             "sym": "AVANTIFEED",
@@ -242,6 +825,17 @@
             "seg": "E"
         },
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of post earning Conference call of Audited Financial results ( Standalone and Consolidated) for Q4 & FY2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c72ee1b-89c1-48c0-8dd0-bbfacdb2540d.pdf",
+            "news_date": "2025-06-07 18:25:06"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -264,6 +858,116 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investors Presentation for the Audited Standalone and Consolidated Financial results for the quarter and year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa1eb370-25a3-41de-8984-4a7051edb4cf.pdf",
+            "news_date": "2025-06-07 11:45:34"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investors Conference call for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e543a0a-2ef8-405e-b70b-eec60fbbf426.pdf",
+            "news_date": "2025-06-04 16:37:00"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investors Conference call for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5cf1dc6-23fb-4763-affd-716a7d22facf.pdf",
+            "news_date": "2025-06-04 16:12:37"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Transfer of Equity Shares to Investor Education and Protection Fund (IEPF) during the Year 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ef8d80b-580e-4647-941f-7179789c3eb2.pdf",
+            "news_date": "2025-06-04 12:48:15"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Newspaper publication - Audited Financials Results for Quarter and Year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ac39c08-1d95-4454-8fa4-a6164da77d20.pdf",
+            "news_date": "2025-05-29 15:51:15"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Update",
+            "news_body": "General update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab07e633-b235-46d5-ad7c-658809c17b0f.pdf",
+            "news_date": "2025-05-29 15:38:26"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for Financial Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56c4e4ed-38f2-44a8-a1ca-3e24379cbdc8.pdf",
+            "news_date": "2025-05-28 18:41:32"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Board Meeting - Appointment Of Secretarial Auditor.",
+            "news_body": "Outcome of Board Meeting - Appointment of Secretarial Auditor.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84dc161e-f754-4898-836e-7011459088ba.pdf",
+            "news_date": "2025-05-28 17:39:26"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Outcome of Board Meeting - Appointment of Directors.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8aebad31-6881-4f95-96c4-a3169b6ef982.pdf",
+            "news_date": "2025-05-28 17:32:35"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board of Directors at their Board Meeting held on 28th May 2025 recommended payment of the final dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfe64a09-4f2c-4397-b4bb-83272aad146c.pdf",
+            "news_date": "2025-05-28 17:20:23"
         },
         {
             "sym": "AVANTIFEED",
@@ -290,6 +994,138 @@
             "seg": "E"
         },
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Financial Year Ended 31St March 2025",
+            "news_body": "Audited Financial Results for the Quarter and Financial Year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e9c7ea1-0e5d-4511-915b-46da19a21495.pdf",
+            "news_date": "2025-05-28 16:54:17"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting For The Quarter And Financial Year Ended 31St March 2025.",
+            "news_body": "Outcome of the Board Meeting for the Quarter and Financial Year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce42a02-03c6-439f-81d0-3044395766f3.pdf",
+            "news_date": "2025-05-28 16:30:08"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Cessation of Directorship of Sri Raghumath Vemali (DIN: 10405110) as Non - Executive Nominee Director of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3da917f0-6b73-4b70-9740-652b14c5ee74.pdf",
+            "news_date": "2025-05-21 17:41:47"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Meeting Of The Board Of Directors",
+            "news_body": "Avanti Feeds Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2025 inter alia to consider and approve Audited Results Dividend if any and other Business Matters.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=313518a3-e1e4-4862-a1c1-57ce3fd93f4c.pdf",
+            "news_date": "2025-05-14 14:53:48"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulation 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07ab52eb-725a-4fe4-9ac3-3d73567239a7.pdf",
+            "news_date": "2025-04-08 18:32:41"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2fefa80-480e-4cce-abbd-b9eae4c18f52.pdf",
+            "news_date": "2025-03-25 15:33:55"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Thai Union Asia Investment Holdings Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B70334BE_B5AA_4ACE_B632_AAABE1BF1A4C_125040.pdf",
+            "news_date": "2025-03-10 12:50:51"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Thai Union Group Public Company Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5C829973_3E43_41FE_942F_8DD1FDA6B90A_174840.pdf",
+            "news_date": "2025-03-07 17:48:45"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Thai Union Group Public Company Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A7EF16D2_A2E2_4069_B077_3A8A4993768F_130445.pdf",
+            "news_date": "2025-03-07 13:04:49"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Thai Union Asia Investment Holding Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1883404B_E5AE_41F0_B060_7F36199EFC52_114421.pdf",
+            "news_date": "2025-03-07 11:44:24"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Update",
+            "news_body": "General Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45a97597-531d-46c6-8611-4615105fa85b.pdf",
+            "news_date": "2025-03-05 13:40:06"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Update",
+            "news_body": "General update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fd09cbb-a158-4bec-b294-9a266e720141.pdf",
+            "news_date": "2025-02-28 16:38:14"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -312,6 +1148,28 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of post earning Audio Conference Call for the Quarter and nine Months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95f9b768-3c1b-4aff-ae33-2cd72e7100f9.pdf",
+            "news_date": "2025-02-28 16:13:54"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of post Earning conference call of unaudited financial results(Standalone & Consolidated) for Q3 FY 2025 .",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e2b35ad-0586-44d4-8f27-008b6b01eb21.pdf",
+            "news_date": "2025-02-24 18:48:18"
         },
         {
             "sym": "AVANTIFEED",
@@ -338,6 +1196,50 @@
             "seg": "E"
         },
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investors Presentation Q3 & 9M FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86c03db4-9495-4454-acc5-14c0419b14d2.pdf",
+            "news_date": "2025-02-22 11:34:11"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Investors conference (i.e. Group Meet) Call for Quarter and Nine Months ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66f97a02-1ca3-4722-8dd5-00579311df15.pdf",
+            "news_date": "2025-02-19 18:31:55"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Newspaper publication - Unaudited Financial Results (Standalone & Consolidated) for the Quarter and nine months ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a64f0b5d-9d0b-4d9d-a119-881495ca01e3.pdf",
+            "news_date": "2025-02-11 13:09:46"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Financials for the Quarter and nine months ended on 31.12.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b787dcd5-6c03-4e10-b797-bb4158c9c5f3.pdf",
+            "news_date": "2025-02-10 17:56:32"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -360,6 +1262,61 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On 10.02.2025",
+            "news_body": "Outcome of the Board Meeting held on 10.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc2671af-5f4d-401b-8131-c75f66d72df6.pdf",
+            "news_date": "2025-02-10 15:27:48"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 10.02.2025",
+            "news_body": "Outcome of Board Meeting held on 10.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53df105f-97fc-4a37-a219-0383bdf677c3.pdf",
+            "news_date": "2025-02-10 15:19:26"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Meeting Of The Board Of Directors",
+            "news_body": "AVANTI FEEDS LTD.-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/02/2025 inter alia to consider and approve Intimation of Meeting of the Board of Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=029f053f-d6e8-4f72-9a1e-54e9807f8c35.pdf",
+            "news_date": "2025-01-28 17:23:03"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under regulation 74(5) of SEBI (Depositories and Participants)  Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=178a99d2-1c18-4580-953f-23eb24cc8e50.pdf",
+            "news_date": "2025-01-09 13:18:09"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation of Issue of Letter of Confirmation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c74a87c1-dec5-4597-b65e-342ecac9b5bf.pdf",
+            "news_date": "2024-12-16 17:44:39"
         },
         {
             "sym": "AVANTIFEED",
@@ -386,6 +1343,39 @@
             "seg": "E"
         },
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of post earning Audio Conference Call for the Q2 H1 FY25 ended on September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c84d59e-7b30-41da-a065-7e575c392053.pdf",
+            "news_date": "2024-11-27 15:40:25"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Publication of Notice in Newspapers in connection with Loss of share Certificate.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62e9c0ef-9ccf-4a2d-81e8-aa1a36feb18f.pdf",
+            "news_date": "2024-11-26 12:51:09"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Intimation Of Submission Of Application Of Promoter Group Reclassification",
+            "news_body": "Intimation of Submission of Application of Promoter Group Reclassification",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=615ac3b9-73af-4aec-a3ba-d1fe524cbcd5.pdf",
+            "news_date": "2024-11-23 14:11:58"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -408,6 +1398,39 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of post Earning Conference Call of Un audited financial results (standalone and Consolidated) for the Q2 H1FY 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91694a95-2f78-4603-88fd-b497fad4577c.pdf",
+            "news_date": "2024-11-20 18:54:40"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Notice of Postal Ballot and Remote e-voting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01248d1f-7a6b-4c9d-b378-aa255c191abd.pdf",
+            "news_date": "2024-11-20 13:09:23"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Intimation of Notice of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=599321aa-ff7d-44b5-9d18-d3ad2bf3ab7c.pdf",
+            "news_date": "2024-11-19 17:02:16"
         },
         {
             "sym": "AVANTIFEED",
@@ -434,6 +1457,61 @@
             "seg": "E"
         },
         {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investors Presentation Q2H1YF 2025 results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=775b2d10-6797-4179-9fa8-6d739c7ff8f0.pdf",
+            "news_date": "2024-11-19 10:23:00"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Presentation  for Q2H1FY 2025 for results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f17263da-3d95-4672-926c-6983a763de07.pdf",
+            "news_date": "2024-11-18 18:48:50"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Investors Con Call for QEHY ended on 30.09.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18c37fb9-9cc5-49cd-8304-bcb9941831ab.pdf",
+            "news_date": "2024-11-16 11:41:40"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Newspaper Publication - unaudited Financial Results ( Standalone & Consolidated) for the Quarter and half year ended on September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5c968d2-7976-45bf-a3e1-6c612ebcb3dc.pdf",
+            "news_date": "2024-11-15 11:34:48"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Board Approval Of Reclassification Request From Promoter Group To Public Category.",
+            "news_body": "Board Approval of reclassification Request from Promoter group to Public category.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81e355f5-d56a-4982-922e-2398034df078.pdf",
+            "news_date": "2024-11-14 16:53:25"
+        },
+        {
             "sym": "AVANTIFEED",
             "disp": "Avanti Feeds",
             "bse_code": 512573,
@@ -456,6 +1534,28 @@
             "sid": 7936,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting Held On November 14, 2024.",
+            "news_body": "Outcome of Board Meeting held on November 14,2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03f59ae2-59f5-4384-861d-0b5a4b2a27c8.pdf",
+            "news_date": "2024-11-14 16:47:13"
+        },
+        {
+            "co_code": 3852,
+            "bse_code": 512573,
+            "isin": "INE871C01038",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On November 14, 2024",
+            "news_body": "Outcome of Board Meeting held on November 14,2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a84cf3b-4ac0-4e87-89a4-511d3cc10cb9.pdf",
+            "news_date": "2024-11-14 16:43:44"
         },
         {
             "sym": "AVANTIFEED",
@@ -1465,6 +2565,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

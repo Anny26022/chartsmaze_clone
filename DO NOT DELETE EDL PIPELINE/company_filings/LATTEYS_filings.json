@@ -2,6 +2,72 @@
     "code": 0,
     "data": [
         {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Appointment",
+            "descriptor": "Appointment",
+            "caption": "Appointment",
+            "news_body": "Latteys Industries Limited has informed the Exchange regarding Appointment of Mr Ashish Singhal as Chief Financial Officer of the company w.e.f. January 24, 2026.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LATTEYS_23012026173739_appointmentcovering.pdf",
+            "news_date": "2026-01-23 00:00:00"
+        },
+        {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Resignation",
+            "descriptor": "Resignation",
+            "caption": "Resignation",
+            "news_body": "Latteys Industries Limited has informed the Exchange regarding Resignation of Mr Sumit Goel as Chief Financial Officer of the company w.e.f. January 20, 2026.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LATTEYS_19012026150853_CFORESIGNATION.pdf",
+            "news_date": "2026-01-19 00:00:00"
+        },
+        {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Latteys Industries Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018 for the quarter ending on December 31, 2025",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LATTEYS_09012026122042_regulation74_5.pdf",
+            "news_date": "2026-01-09 00:00:00"
+        },
+        {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Bagging/Receiving of orders/contracts",
+            "descriptor": "Bagging/Receiving of orders/contracts",
+            "caption": "Bagging/Receiving of orders/contracts",
+            "news_body": "Latteys Industries Limited has informed the Exchange about Bagging/Receiving of orders/contracts",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LATTEYS_09012026105540_Disclosure09012026.pdf",
+            "news_date": "2026-01-09 00:00:00"
+        },
+        {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Latteys Industries Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LATTEYS_30122025144258_TradingWindowDec25.pdf",
+            "news_date": "2025-12-30 00:00:00"
+        },
+        {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "Latteys Industries Limited has informed the Exchange about Copy of Newspaper Publication",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LATTEYS_14112025133330_copyofnewspaperpublication.pdf",
+            "news_date": "2025-11-14 00:00:00"
+        },
+        {
             "sym": "LATTEYS",
             "disp": "Latteys Industries",
             "bse_code": 0,
@@ -48,7 +114,50 @@
             "sid": 15840,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Latteys Industries Limited has submitted to the Exchange, the Standalone and Consolidated financial results for the quarter and half year ended September 30, 2025",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LATTEYS_13112025163713_finaloutcome13112025.pdf",
+            "news_date": "2025-11-13 00:00:00"
+        },
+        {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Latteys Industries Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018 for the quarter ending on sept 30 2025",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LATTEYS_08102025115305_Regulation_74_5.pdf",
+            "news_date": "2025-10-08 00:00:00"
+        },
+        {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Latteys Industries Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/LATTEYS_29092025122207_TradingWindowSept25.pdf",
+            "news_date": "2025-09-29 00:00:00"
+        },
+        {
+            "co_code": 72359,
+            "bse_code": 0,
+            "isin": "INE262Z01023",
+            "ann_type": "Disclosure under SEBI Takeover Regulations",
+            "descriptor": "Disclosure under SEBI Takeover Regulations",
+            "caption": "Disclosure under SEBI Takeover Regulations",
+            "news_body": "Latteys Industries Limited has Submitted to the Exchange a copy of Disclosure under Regulation 31(4) of the Securities and Exchange Board of India (Substantial Acquisition of Shares and Takeovers) Regulations, 2011.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/team_sandeshc_24092025125052_LATTEYS.pdf",
+            "news_date": "2025-09-24 00:00:00"
         }
-    ],
-    "remarks": ""
+    ]
 }

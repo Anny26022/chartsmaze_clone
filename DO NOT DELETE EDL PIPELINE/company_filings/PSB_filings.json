@@ -2,6 +2,83 @@
     "code": 0,
     "data": [
         {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Strikes /Lockouts / Disturbances",
+            "caption": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
+            "news_body": "Notice of Strike by AIBEA BEFI and AIBOA",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1307a1ed-c361-4142-be66-74aeb289c119.pdf",
+            "news_date": "2026-02-11 16:29:51"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Earnings Call with Analysts/Investors on Reviewed Unaudited Financial Results for Quarter (Q3) / Nine Months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2520c34-c09c-413c-adbd-92dbc2bf4582.pdf",
+            "news_date": "2026-01-28 18:16:48"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Permission From Reserve Bank Of India To Setup IFSC Banking Unit (IBU) At Gift City Gujarat",
+            "news_body": "Permission from Reserve Bank of India to setup IFSC Banking Unit (IBU) at Gift City Gujarat",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b2268a9-ae88-4ec9-b5ce-ff05a29b8afe.pdf",
+            "news_date": "2026-01-28 15:47:14"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Strikes /Lockouts / Disturbances",
+            "caption": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
+            "news_body": "Notice of Strike",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4385e3ba-10d8-4aed-bb78-02306fb9b510.pdf",
+            "news_date": "2026-01-26 15:56:45"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Submission of Proceedings Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5623ab72-5d2e-4fcf-b840-cf48e10bafe0.pdf",
+            "news_date": "2026-01-21 17:09:46"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst Meet Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3068a825-4c39-40d8-a98e-686b47796eeb.pdf",
+            "news_date": "2026-01-20 20:50:49"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94fe9547-a019-4908-a14c-f8350c6cdf20.pdf",
+            "news_date": "2026-01-19 18:26:46"
+        },
+        {
             "sym": "PSB",
             "disp": "Punjab & Sind Bank",
             "bse_code": 533295,
@@ -24,6 +101,28 @@
             "sid": 21001,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Revision",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a63b27cb-ab50-4828-a99a-c4e2a3808989.pdf",
+            "news_date": "2026-01-17 21:05:44"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25f111a6-693b-4abd-8895-93669fbbd2ed.pdf",
+            "news_date": "2026-01-17 18:02:12"
         },
         {
             "sym": "PSB",
@@ -50,6 +149,17 @@
             "seg": "E"
         },
         {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a15e67e-2ccf-4b11-9212-2727ab39a69f.pdf",
+            "news_date": "2026-01-17 17:53:44"
+        },
+        {
             "sym": "PSB",
             "disp": "Punjab & Sind Bank",
             "bse_code": 533295,
@@ -72,6 +182,160 @@
             "sid": 21001,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb89b3a1-c87e-4700-a3a2-d620dffc58e5.pdf",
+            "news_date": "2026-01-17 15:41:14"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d2422996-59c7-433a-9204-6c077c595ddc.pdf",
+            "news_date": "2026-01-17 15:37:58"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst Meet Schedule",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a76603e-b341-4242-afb7-8ac612c5b7bf.pdf",
+            "news_date": "2026-01-15 17:36:22"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting To Consider And Approve Unaudited Reviewed Financial Results For The Quarter / Nine Months Ended December 31 2025",
+            "news_body": "Punjab & Sind Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/01/2026 inter alia to consider and approve Board meeting to consider and approve Unaudited Reviewed Financial Results for the Quarter / Nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee1c8489-a37a-4fe1-9e64-9177d80ff7cc.pdf",
+            "news_date": "2026-01-13 17:03:46"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Addendum To Notice Of Extraordinary General Meeting",
+            "news_body": "Addendum to Notice of Extraordinary General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd26493f-ba6b-4594-ba3c-cb9eb72e3f46.pdf",
+            "news_date": "2026-01-08 16:18:21"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures Of The Bank For The Quarter Ended 31.12.2025",
+            "news_body": "Provisional Business Figures of the Bank for the Quarter ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5afffa0-fce5-41bf-8ae3-498b338ec0c3.pdf",
+            "news_date": "2026-01-01 19:04:56"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0358f52a-d94c-457f-82e7-888a33e2dc57.pdf",
+            "news_date": "2025-12-31 12:44:43"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=012e6a28-78ab-45c4-9a94-f71ca765ad04.pdf",
+            "news_date": "2025-12-31 12:43:23"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Notice Of Extraordinary General Meeting (EGM) Scheduled To Be Held On January 21 2026",
+            "news_body": "Notice of Extraordinary General Meeting (EGM) scheduled to be held on January 21 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6af7ff85-1a98-4f41-9d7e-2138cb702dc0.pdf",
+            "news_date": "2025-12-30 11:37:50"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication in connection with EGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca39c0ff-362f-4e40-affb-5909eab92a9d.pdf",
+            "news_date": "2025-12-24 17:44:00"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Extraordinary General Meeting",
+            "news_body": "Extraordinary General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=344ba5f3-b430-490c-920a-97b70828ea82.pdf",
+            "news_date": "2025-12-23 16:33:07"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Appointment of Statutory Auditor/s",
+            "caption": "Announcement under Regulation 30 (LODR)-Appointment of Statutory Auditor/s",
+            "news_body": "Re-Appointment of Statutory Central Auditors of the Bank for the FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73b06c63-9dc1-424b-873c-4794597041dc.pdf",
+            "news_date": "2025-12-08 18:11:03"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Earnings Call with Analysts/Investors on Reviewed Unaudited Financial Results for Quarter (Q2) / Half Year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1abffcf-76f3-48a1-a173-f3d3c0a76fb3.pdf",
+            "news_date": "2025-10-28 17:29:48"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d09b8ca-f8d3-431b-8282-a5cf895e215f.pdf",
+            "news_date": "2025-10-18 16:05:30"
         },
         {
             "sym": "PSB",
@@ -98,6 +362,17 @@
             "seg": "E"
         },
         {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio / Video Recording of Analyst Meet on Financial Results for Quarter (Q2) / Half Year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99d33ce2-e715-4173-97ed-33b25e0bea5c.pdf",
+            "news_date": "2025-10-17 16:13:05"
+        },
+        {
             "sym": "PSB",
             "disp": "Punjab & Sind Bank",
             "bse_code": 533295,
@@ -120,6 +395,28 @@
             "sid": 21001,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b5d16e2-8d03-4758-bbbb-aa26da3d9ac5.pdf",
+            "news_date": "2025-10-16 20:20:28"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "FINANCIAL RESULTS FOR THE QUARTER & HALF YEAR ENDED 30th SEPTEMBER 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df24be30-5a63-4bea-baf3-bc3c657af20a.pdf",
+            "news_date": "2025-10-16 19:55:11"
         },
         {
             "sym": "PSB",
@@ -146,6 +443,193 @@
             "seg": "E"
         },
         {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=070d6d03-519d-4cf6-ba97-413ed5dc9569.pdf",
+            "news_date": "2025-10-16 17:54:18"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30251310-b7ad-4d78-a46c-b050e42ea81d.pdf",
+            "news_date": "2025-10-16 17:48:40"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf4c330f-7997-48d2-8e47-3b9bcc39e532.pdf",
+            "news_date": "2025-10-14 19:55:02"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting To Consider And Approve Unaudited Reviewed Financial Results For The Quarter (Q2) / Half Year Ended September 30 2025 And Capital / Fund Raising Plan",
+            "news_body": "Punjab & Sind Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 16/10/2025 inter alia to consider and approve Board meeting to consider and approve Unaudited Reviewed Financial Results for the Quarter (Q2) / Half Year ended September 30 2025 and Capital / Fund Raising Plan",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef65e091-5f2f-4497-96da-1ca88f96fbdb.pdf",
+            "news_date": "2025-10-13 18:35:40"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Rating by India Ratings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ffe372d-c92d-4bb2-a107-ab817ce100a5.pdf",
+            "news_date": "2025-10-07 20:50:40"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures Of The Bank",
+            "news_body": "Provisional Business figures of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=898a03e1-3471-442c-ae32-1ce36d55bfbb.pdf",
+            "news_date": "2025-10-04 16:49:00"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Details Of Bonds Issued And Outstanding As On 30.09.2025",
+            "news_body": "Details of Bonds issued and Outstanding as on 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=342d89b1-9c63-4bff-8222-77d4108e375a.pdf",
+            "news_date": "2025-10-04 16:45:14"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Disclosure - Prohibition of Insider Trading",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25e03ad4-6b9e-4653-82ab-657ac1dbf2d5.pdf",
+            "news_date": "2025-09-29 17:19:50"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25e27f7f-a7e3-49a5-9bd0-38caa1f3cd8e.pdf",
+            "news_date": "2025-09-10 17:43:42"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82f63fed-35cd-4f7f-8769-6de7f50bdd9c.pdf",
+            "news_date": "2025-09-10 14:26:48"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Rating by CARE Ratings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d78e3643-5c8c-4bd5-b174-a0acc721f91d.pdf",
+            "news_date": "2025-08-22 20:36:08"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor Of The Bank",
+            "news_body": "Appointment of Secretarial Auditor of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d747851-d1cf-4dff-b290-3d1b85f0658b.pdf",
+            "news_date": "2025-08-05 20:03:29"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "15th Annual General Meeting - Submission of Proceedings & Voting Results under SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8522b236-89d7-4f3b-a4c2-2c5b9e4556af.pdf",
+            "news_date": "2025-08-05 19:35:06"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ffd19f1-f510-463b-80d5-826a960c8f02.pdf",
+            "news_date": "2025-07-29 18:33:43"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Recent Media Reports",
+            "news_body": "Clarification on Recent Media Reports",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f491dfe7-b9ec-40dc-9bde-dc1563e116b3.pdf",
+            "news_date": "2025-07-29 17:16:09"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst ConCall Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ea99eaf-e6ce-491a-9625-a6bf1aee79fe.pdf",
+            "news_date": "2025-07-22 18:00:09"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=451a7a66-6bb7-49e0-a848-ae233a7cbfe3.pdf",
+            "news_date": "2025-07-21 19:02:56"
+        },
+        {
             "sym": "PSB",
             "disp": "Punjab & Sind Bank",
             "bse_code": 533295,
@@ -168,6 +652,28 @@
             "sid": 21001,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Reviewed Unaudited Financial Results for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=039685d7-a9ec-41ed-a472-6f3ffe67e753.pdf",
+            "news_date": "2025-07-19 18:46:16"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on the Financial Results For The Quarter Ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd3c0817-9857-4f2a-bb15-a60f472f9696.pdf",
+            "news_date": "2025-07-19 17:20:04"
         },
         {
             "sym": "PSB",
@@ -194,6 +700,226 @@
             "seg": "E"
         },
         {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter Ended June 30 2025",
+            "news_body": "Results for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=feb05730-12bd-4a56-ad8d-82e751b2e9ad.pdf",
+            "news_date": "2025-07-19 16:31:10"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d18ee4c-6078-4913-a089-b7d396ddf4a9.pdf",
+            "news_date": "2025-07-19 15:43:09"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11cede03-1004-44fc-b9d7-47e9084ea628.pdf",
+            "news_date": "2025-07-17 19:26:10"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting To Consider And Approve Unaudited Reviewed Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Punjab & Sind Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 19/07/2025 inter alia to consider and approve Board meeting to consider and approve Unaudited Reviewed Financial Results for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ed45de8-5a9c-4bb4-addc-3eda52a8449f.pdf",
+            "news_date": "2025-07-16 16:24:26"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication in connection with the 15th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fbee277-ae37-49f2-a4a3-b1e22b48b243.pdf",
+            "news_date": "2025-07-15 14:59:53"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d00cafcb-1ad7-44c3-8a4b-a8ceb563408c.pdf",
+            "news_date": "2025-07-14 16:16:01"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 15Th Annual General Meeting",
+            "news_body": "Notice of 15th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa069311-30c0-450f-92db-883083a82707.pdf",
+            "news_date": "2025-07-14 15:56:33"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34cfdbda-e097-491f-971b-bca390506407.pdf",
+            "news_date": "2025-07-14 15:52:36"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7052848-570b-4fd3-b972-e446c3fddf49.pdf",
+            "news_date": "2025-07-08 14:11:06"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Final Dividend For FY 2024-25",
+            "news_body": "Record date for dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef52ceda-02d9-4600-87dd-5d1b8bfaa950.pdf",
+            "news_date": "2025-07-07 15:14:35"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "15Th Annual General Meeting",
+            "news_body": "15th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5eb51e48-7d51-4036-a0ee-00f41de51649.pdf",
+            "news_date": "2025-07-07 15:10:59"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures Of The Bank",
+            "news_body": "Provisional Business Figures of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2818870b-b3e7-463d-b123-ddbe6d290e14.pdf",
+            "news_date": "2025-07-03 16:51:41"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=262a9f5c-1e37-4138-b3c7-15a6b5ad2b33.pdf",
+            "news_date": "2025-06-30 12:21:05"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb6d798a-d6e4-4f48-a1c9-3b898fa58d9e.pdf",
+            "news_date": "2025-06-25 19:26:38"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b15a5db-4a5e-4d45-b550-0dd6bf573c24.pdf",
+            "news_date": "2025-06-02 20:50:37"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Extension of Tenure of Sh Swarup Kumar Saha",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=103ddb46-e3f4-4d29-8fab-8df50d713f58.pdf",
+            "news_date": "2025-06-02 20:48:18"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1b8502d-7465-4258-a4a8-b9cd89a93c33.pdf",
+            "news_date": "2025-06-01 00:18:07"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=565055fc-5d2f-441a-bdf8-2b6915686fde.pdf",
+            "news_date": "2025-05-07 18:22:17"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81db49df-747f-400a-8226-47e774005b95.pdf",
+            "news_date": "2025-05-01 15:58:55"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst Meet Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4e5ae68-1940-48b4-a00b-4cfef95de6ca.pdf",
+            "news_date": "2025-04-30 19:52:20"
+        },
+        {
             "sym": "PSB",
             "disp": "Punjab & Sind Bank",
             "bse_code": 533295,
@@ -216,6 +942,39 @@
             "sid": 21001,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=052cadbc-73eb-4dfc-9c9c-d855bc0a32c3.pdf",
+            "news_date": "2025-04-29 22:42:13"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45f68789-5899-4c47-826c-db183484689b.pdf",
+            "news_date": "2025-04-29 22:21:46"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Dividend Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a8870e0-fe04-4bd6-9fa4-5b07815e4a54.pdf",
+            "news_date": "2025-04-29 22:16:06"
         },
         {
             "sym": "PSB",
@@ -242,6 +1001,215 @@
             "seg": "E"
         },
         {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Period Ended 31.03.2025",
+            "news_body": "Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b32cf11d-0b85-4eff-8942-3fbe0cd2340e.pdf",
+            "news_date": "2025-04-29 22:09:43"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d3324b1-abae-4812-944a-993677e6b58b.pdf",
+            "news_date": "2025-04-29 22:00:14"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Secretarial Compliance Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e738eeb-7726-4d86-8bee-e0cb48abed01.pdf",
+            "news_date": "2025-04-29 11:08:46"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Earnings Call with Analysts & Investors on the Audited Financial Results for the Quarter (Q4) / Year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdcb7dd6-c153-4c4d-b6de-75c2a1f6aeab.pdf",
+            "news_date": "2025-04-27 14:08:04"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering Audited Financial Results Of The Bank For The Quarter And Financial Year Ended On March 31 2025",
+            "news_body": "Punjab & Sind Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/04/2025 inter alia to consider and approve Considering Audited Financial Results of the Bank for the Quarter and Financial Year ended on March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e408e6cb-732d-4f18-a85a-f93bd054669f.pdf",
+            "news_date": "2025-04-23 18:41:50"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Clarification - Allocation of Functional Roles",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7bba2f2e-b920-4ddf-80ef-84baec57ae8e.pdf",
+            "news_date": "2025-04-17 12:34:32"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8470e95-9eed-494e-8adc-3655cb41c2c9.pdf",
+            "news_date": "2025-04-13 23:07:37"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Allocation of Functional Roles",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53208e10-4926-4738-b82f-ba5a5cdc5808.pdf",
+            "news_date": "2025-04-09 23:48:26"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Details Of Bonds Issued And Outstanding As On 31.03.2025",
+            "news_body": "Bond",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=324c8c08-f5f4-4dfc-8598-9b02fe75a1b5.pdf",
+            "news_date": "2025-04-07 15:39:47"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Chapter XIV - Centralized Database For Corporate Bonds/Debentures",
+            "news_body": "Bond",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e63d654e-5e0b-4cec-8a1f-b8933bf459cd.pdf",
+            "news_date": "2025-04-07 15:35:04"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Provisional Business Figures Of The Bank",
+            "news_body": "Provisional Business Figures",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=998fcff3-fce4-42ad-8101-b587fa9f2854.pdf",
+            "news_date": "2025-04-02 18:23:42"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of General Managers",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fb8b2a6-d937-4e41-9a03-990bf1a5629d.pdf",
+            "news_date": "2025-04-01 16:51:10"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c24f2e78-4008-4d8e-a6fe-922dc61ddd7f.pdf",
+            "news_date": "2025-03-29 18:29:18"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Qualified Institutions Placement Of Equity Shares",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef9533a1-9050-4540-b878-575b0b901f94.pdf",
+            "news_date": "2025-03-28 12:50:59"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "Allotment of Securities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbc08878-7abe-42bf-90af-f3cdf8f015bc.pdf",
+            "news_date": "2025-03-27 23:31:03"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "Outcome of Capital Issue Committee",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6912e98a-3039-4313-b7a7-724c05df1435.pdf",
+            "news_date": "2025-03-27 21:17:14"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (LODR) Regulations 2015",
+            "news_body": "RBI Penalty",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8b72f45-2113-4fda-80d5-11ded2fc9627.pdf",
+            "news_date": "2025-03-26 19:04:59"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "Outcome of Capital Issue Committee",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7defd2f9-c9b0-4189-ab07-1c80063bd16d.pdf",
+            "news_date": "2025-03-24 20:17:12"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=166df684-d727-46db-bb58-9dc0c237461c.pdf",
+            "news_date": "2025-03-10 20:58:11"
+        },
+        {
             "sym": "PSB",
             "disp": "Punjab & Sind Bank",
             "bse_code": 533295,
@@ -264,6 +1232,28 @@
             "sid": 21001,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Revised Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31c8ea22-db0f-4683-80ec-bbed9a8ebb36.pdf",
+            "news_date": "2025-03-06 19:58:38"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Rating by Infomerics Ratings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6c0a31c-227e-4ae7-80c4-ffcdb3d58bea.pdf",
+            "news_date": "2025-03-03 16:22:18"
         },
         {
             "sym": "PSB",
@@ -290,6 +1280,72 @@
             "seg": "E"
         },
         {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e15108af-6282-4f5d-87a8-40ab0aa65b85.pdf",
+            "news_date": "2025-03-01 18:23:29"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d20375b-02df-4ceb-b77d-1f84b92b2f9c.pdf",
+            "news_date": "2025-03-01 18:20:07"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst Meet Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea1437ca-b756-478f-81e2-faa05be8832c.pdf",
+            "news_date": "2025-01-23 21:38:04"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst Meet Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c09a7e8-4098-4043-8898-e05b8de439ff.pdf",
+            "news_date": "2025-01-16 17:35:19"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5940c241-9c7f-4769-9159-a94468553223.pdf",
+            "news_date": "2025-01-16 16:12:38"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10d35269-4206-4fcd-80ce-7928a1ba29a0.pdf",
+            "news_date": "2025-01-15 22:54:01"
+        },
+        {
             "sym": "PSB",
             "disp": "Punjab & Sind Bank",
             "bse_code": 533295,
@@ -314,6 +1370,39 @@
             "seg": "E"
         },
         {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=967ada3f-731c-4a52-91da-1740e32e24b4.pdf",
+            "news_date": "2025-01-15 20:06:04"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Statement Indicating Deviation / Variation In The Utilisation Of Issue Proceeds",
+            "news_body": "Statement of Deviation / Variation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ec3e614-5b59-43b1-b964-7317d1428b79.pdf",
+            "news_date": "2025-01-15 19:09:23"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing - Financial",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7aea069-776d-4488-829c-a33713235365.pdf",
+            "news_date": "2025-01-15 18:44:05"
+        },
+        {
             "sym": "PSB",
             "disp": "Punjab & Sind Bank",
             "bse_code": 533295,
@@ -336,6 +1425,17 @@
             "sid": 21001,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5814,
+            "bse_code": 533295,
+            "isin": "INE608A01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f523b7b2-ebdd-43cd-bd92-727673bde63b.pdf",
+            "news_date": "2025-01-15 18:19:26"
         },
         {
             "sym": "PSB",
@@ -1393,6 +2493,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

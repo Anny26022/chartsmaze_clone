@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of Acquisition under regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de189398-0c76-418f-9dc7-2d16d0b0ce27.pdf",
+            "news_date": "2026-01-28 17:12:26"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Re-Lodgment Of Transfer Requests Of Physical Shares",
+            "news_body": "Report on Re-lodgment of transfer requests of physical shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d43965b-535a-4ec0-a788-4fc461629f0a.pdf",
+            "news_date": "2026-01-24 13:00:39"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of newspaper cutting of unaudited financial result for the quarter and nine month ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45ce37b0-ce3d-41e0-8a3b-8bfd8cf70af0.pdf",
+            "news_date": "2026-01-22 15:56:33"
+        },
+        {
             "sym": "SANGAMIND",
             "disp": "Sangam",
             "bse_code": 514234,
@@ -24,6 +57,28 @@
             "sid": 4184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the Financial Result for the Quarter & Nine month ended 31st December 2025 in pursuant to regulation of SEBI (LODR) regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57f7ac49-e4ed-40ee-a993-f9c0d878ac55.pdf",
+            "news_date": "2026-01-21 18:28:39"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 21St January 2026",
+            "news_body": "Outcome of the Board Meeting held on 21st January 2026 inter alia to consider and approve the Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73287029-4453-43d4-97c6-32fde917faa6.pdf",
+            "news_date": "2026-01-21 14:13:36"
         },
         {
             "sym": "SANGAMIND",
@@ -50,6 +105,61 @@
             "seg": "E"
         },
         {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results (Standalone & Consolidated) For The Quarter And Nine-Months Ended 31St December 2025",
+            "news_body": "Pursuant to the provisions of Regulation 33 of SEBI (LODR) Regulations 2015 please find attached Un-audited Financial Results (Standalone & Consolidated) of the Company for the quarter and nine-months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03fe359c-e35b-4fb2-942c-4696b99584d1.pdf",
+            "news_date": "2026-01-21 14:07:08"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Fixation Of Meeting Of Board Of Directors On 21St January 2026",
+            "news_body": "Sangam India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 21/01/2026 inter alia to consider and approve the Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter and nine months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f80f837-4277-4177-a22f-faa62bf9d389.pdf",
+            "news_date": "2026-01-14 14:28:51"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 for the quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fb1e4ae-9c0c-4b56-b9c0-94dda78e86bb.pdf",
+            "news_date": "2026-01-08 11:00:55"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Agreement for Installation of Solar Power Plant for Captive Consumption",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd345be9-13be-431b-9e5d-7b293b5e7523.pdf",
+            "news_date": "2025-12-26 17:22:50"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7763e3ea-3ec1-407d-aa81-7a98b16ee12e.pdf",
+            "news_date": "2025-12-26 10:08:30"
+        },
+        {
             "sym": "SANGAMIND",
             "disp": "Sangam",
             "bse_code": 514234,
@@ -72,6 +182,28 @@
             "sid": 4184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Submission of Transcript of earning conference call with Analyst / Investor held on 11th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa3ca5e4-d998-4480-8589-3e68a960833e.pdf",
+            "news_date": "2025-11-14 11:07:10"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed copies of newspaper publications of Unaudited Financial Results of the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=359f5d44-2979-4b03-9e0a-318a6e9764a4.pdf",
+            "news_date": "2025-11-12 12:47:08"
         },
         {
             "sym": "SANGAMIND",
@@ -98,6 +230,17 @@
             "seg": "E"
         },
         {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst/Investor Earning Call Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fc33504-66b8-4daa-a793-1db9bfcdf72c.pdf",
+            "news_date": "2025-11-11 15:48:44"
+        },
+        {
             "sym": "SANGAMIND",
             "disp": "Sangam",
             "bse_code": 514234,
@@ -120,6 +263,17 @@
             "sid": 4184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the Financial Results for the Quarter & Half Year ended 30th September 2025 in pursuant to regulation of SEBI (LODR) regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1536b391-16da-4f57-98f7-a1038c20f229.pdf",
+            "news_date": "2025-11-10 21:59:14"
         },
         {
             "sym": "SANGAMIND",
@@ -146,6 +300,226 @@
             "seg": "E"
         },
         {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results (Consolidated And Standalone) For The Quarter/Half-Year Ended 30Th September 2025",
+            "news_body": "Unaudited Financial Results (Consolidated and Standalone) for the quarter/half-year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11185333-8512-464e-adb1-7fc2a29a46c7.pdf",
+            "news_date": "2025-11-10 20:22:46"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Meeting Of Board Of Directors Held On Monday 10Th November 2025",
+            "news_body": "Outcome of the Meeting of Board of Directors held on Monday 10th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c66f0d3f-c98b-4291-b93a-bc17585c1fe4.pdf",
+            "news_date": "2025-11-10 20:09:21"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "INTIMATION OF SCHEDULE OF INVESTORS CONFERENCE CALL",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1acb05f-4ffa-444f-a9d6-88c5ecdcb0e9.pdf",
+            "news_date": "2025-11-06 15:36:03"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Fixation Of Meeting Of Board Of Directors On 10Th November 2025",
+            "news_body": "Sangam India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/11/2025 inter alia to consider and approve the Un-audited Financial Results of the Company for the quarter/half-year ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=298d50d8-8e0b-493e-af01-14cb4528c752.pdf",
+            "news_date": "2025-11-03 12:53:42"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Pursuant to regulation 30 of SEBI Listing Regulations submitting the Credit Rating of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da0f1dd2-fa45-4c9a-97ed-8fa89bcff654.pdf",
+            "news_date": "2025-10-21 15:54:07"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of Acquisition under regulation 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27e56d9c-eaf5-4716-91d9-c68a60dfad72.pdf",
+            "news_date": "2025-10-15 12:13:29"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 for the quarter ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4bec574-deec-49c0-b9f2-8b3da9551464.pdf",
+            "news_date": "2025-10-09 14:46:17"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Saksham Niveshak - 100 Days Campaign",
+            "news_body": "\"Saksham Niveshak\" - 100 days Compaign - Request to shareholders to update KYC details and clain unpaid/unclaimed dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14bb7023-fc95-4d3b-8083-a1f24efbcce2.pdf",
+            "news_date": "2025-09-29 14:56:07"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90952656-645a-43d1-b247-46b07f17549e.pdf",
+            "news_date": "2025-09-25 12:00:54"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Submission of the voting results along with Scrutinizers report of the 39th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b768ddc-cff7-4266-84a1-cc37f6dc3a4e.pdf",
+            "news_date": "2025-09-20 10:41:05"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "Sangam (India) Limited has informed the exchange about the Approval of shareholder 1. Dividend @ Rs. 2 per share of Rs. 10 each. 2. Re-appointment of Mr. Sudhir Maheshwari as an independent Director. 3. Re-appointment of V. K. Sodani as Director who retire by rotation 4. Appointment of M/s B. K. Sharma & Associates as secretarial auditors. 5. Other businesses as set out in the notice of 39th AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b019af1-1434-4b2e-99e9-39bd2ee1b507.pdf",
+            "news_date": "2025-09-19 16:28:12"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 39th Annual General Meeting held on Friday 19th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47762adc-9ab4-4c5d-a2d7-e1dd3d46bf6c.pdf",
+            "news_date": "2025-09-19 15:11:12"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of newspaper publication with regards to Notice to shareholders for transfer of equity shares to the IEPF authority",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c924b43-6391-4e82-9f7b-6a732217f627.pdf",
+            "news_date": "2025-09-06 17:31:21"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper publication with respect to Notice of 39th Annual General Meeting to be held on Friday 19th September 2025 at 11.00 am (IST) E-voting details Record date for dividend and Annual Report for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c2111d3-ed88-47e9-9382-d7ac34d0ae69.pdf",
+            "news_date": "2025-08-29 11:46:34"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action - Fixed Record Date Of Payment Of Dividend And AGM On 12Th September 2025",
+            "news_body": "Fixation of Record Date on Friday 12th September 2025 for determining entitlement of members to Final Dividend @ Rs. 2.00 per share of Rs. 10.00 each for the Financial Year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8778d43-bb32-40fb-9f45-254290420b7c.pdf",
+            "news_date": "2025-08-27 17:55:47"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "BRSR for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=104f11b0-d77c-4e45-967c-e8a1984cd51a.pdf",
+            "news_date": "2025-08-27 15:20:10"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the F.Y. 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99f11ba6-26eb-4a0a-821e-d4d0418d7185.pdf",
+            "news_date": "2025-08-27 15:14:48"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 39Th AGM Scheduled To Be Held On Friday 19 September 2025 E-Voting & Record Date For Dividend",
+            "news_body": "Notice of 39th AGM scheduled to be held on Friday 19th September 2025 e-voting & record date for dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aff802d8-13dc-4e23-9100-563084ae2658.pdf",
+            "news_date": "2025-08-27 14:54:54"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Purchase Of Recycle Polyester Staple Fibre Manufacturing Unit",
+            "news_body": "Outcome of Board Meeting held on Thursday the 7th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e513d9e8-1132-40dc-aec7-c42de1aecdd2.pdf",
+            "news_date": "2025-08-07 17:07:21"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper cutting of Unaudited Financial Result for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c5734e6-d7b5-482e-8814-61367ccfc028.pdf",
+            "news_date": "2025-08-04 15:17:19"
+        },
+        {
             "sym": "SANGAMIND",
             "disp": "Sangam",
             "bse_code": 514234,
@@ -168,6 +542,17 @@
             "sid": 4184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Submission of Investor Presentation in connection with Un-Audited Financial Result for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68158025-1131-47e4-9721-860e8264437d.pdf",
+            "news_date": "2025-08-02 15:48:26"
         },
         {
             "sym": "SANGAMIND",
@@ -194,6 +579,72 @@
             "seg": "E"
         },
         {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Un-Audited Financial Results For The Quarter Ended 30.06.2025.",
+            "news_body": "Please find enclosed herewith Unaudited Financial Result for the Quarter Ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff4d1876-b5cf-4668-b1ee-71cbf6c07628.pdf",
+            "news_date": "2025-08-01 16:54:27"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Meeting Of Board Of Directors Held On Friday 01St August 2025 And Unaudited Financial Results (Consolidated And Standalone) For The Quarter Ended 30Th June 2025",
+            "news_body": "Outcome of the Meeting of Board of Directors held on Friday 01st August 2025 and Unaudited Financial Results (Consolidated and Standalone) for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3cfa622-737f-49fe-8d38-a9b70af533f7.pdf",
+            "news_date": "2025-08-01 16:30:23"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Fixation Of Meeting Of Board Of Directors On 1St August 2025",
+            "news_body": "Sangam India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 01/08/2025 inter alia to consider and approve the Unaudited Financial Results of the Company for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b4646d7-69f6-482c-a702-b0497d351f77.pdf",
+            "news_date": "2025-07-23 16:12:35"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b93722ea-b303-4200-a965-2376b1636306.pdf",
+            "news_date": "2025-07-11 10:39:37"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c91de2c6-7a7f-450f-a37a-40268d871ac8.pdf",
+            "news_date": "2025-06-23 14:53:47"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Intimation with regards to MOU executed with DaMENSC Apparel Pvt. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=739d1418-812d-465f-8b3b-62635ba48cab.pdf",
+            "news_date": "2025-06-04 17:57:29"
+        },
+        {
             "sym": "SANGAMIND",
             "disp": "Sangam",
             "bse_code": 514234,
@@ -216,6 +667,61 @@
             "sid": 4184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Submission of Investor Presentation in connection with Audited Financial Results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72f74bfe-1c49-429f-a681-bd8dee0cd07c.pdf",
+            "news_date": "2025-05-30 18:04:12"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance (Revised) for the Financial Year ended 31st March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43fa606c-1544-438f-ad95-d069c3d31368.pdf",
+            "news_date": "2025-05-30 16:43:48"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper Cutting of Audited Financial Results for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c256615a-0a70-4eb4-ab60-a7e4cd337355.pdf",
+            "news_date": "2025-05-30 13:03:50"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Internal Auditor Secretarial Auditor and Cost Auditor and Reappointment of Shri Sudhir Maheshwari as non-executive independent director for a second term of 5 years.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=027a1e16-2236-456f-a159-5992310e002c.pdf",
+            "news_date": "2025-05-29 18:21:55"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board recommended Dividend @20% i.e. Rs. 2/- per equity share of Rs. 10/- each for the financial year ended 31st March 2025 subject to approval of shareholders of the company at ensuing Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f188035c-bd4c-4f90-b4a2-1a613e0ebbb5.pdf",
+            "news_date": "2025-05-29 18:14:13"
         },
         {
             "sym": "SANGAMIND",
@@ -242,6 +748,193 @@
             "seg": "E"
         },
         {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Result For The Quarter And Year Ended 31St March 2025",
+            "news_body": "Audited Financial Result for the quarter and year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fc6bcf8-0a5e-4c5a-ab7b-031e8b8ab1d1.pdf",
+            "news_date": "2025-05-29 18:05:58"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 29Th May 2025",
+            "news_body": "The Board of Directors in their meeting held on  May 29 2025 approved the following :\r\n1. The Audited Standalone and Consolidated Financial Results of the Company for the quarter and year ended 31st March 2025 along with Statement of Assets and Liabilities as at that date and Statement of Cash Flows for the year ended on 31st March 2025;\r\n2. Recommendation of Dividend @ 20% i.e. Rs. 2/- per equity share of Rs. 10/- each \r\n3. Re-appointment of Mr. Sudhir Maheshwari (DIN: 02376365) as Non-executive Independent Director\r\n4. The appointment of M/s B K Sharma and Associates Practicing Company Secretaries as the Secretarial Auditor of the Company \r\n5. The appointment of M/s PricewaterhouseCoopers Services LLP (PwC)as Internal Auditor \r\n6. The appointment of M/s K.G. Goyal & Co. Cost Accountants as Cost Auditors \r\n7. To grant upto 750000 stock option under Sangam (India) Limited - ESOP Scheme 2022 to eligible employee of the Company.\r\n\r\n\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6bc4ec35-fc55-4c34-a222-ae2bce56a3e8.pdf",
+            "news_date": "2025-05-29 17:56:43"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Pursuant to Regulation 24A of SEBI (LODR) Regulations 2015 read with SEBI Master Circular no. SEBI/HO/CFD/PoD2/CIR/P/0155 dated 11.11.2024 we are enclosing herewith Annual Secretarial Compliance Report duly signed by the Practicing Company Secretary for the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d9170d2-3353-43dc-aace-3541a869c745.pdf",
+            "news_date": "2025-05-29 09:30:55"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Fixation Of Board Meeting On Thursday The 29Th Day Of May 2025",
+            "news_body": "Sangam India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/05/2025 inter alia to consider and approve Audited Financial Results (Standalone & Consolidated) of the Company for the quarter and financial year ended 31st March 2025 and to consider and recommend the payment of Dividend if any for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4884dd2-3253-4263-93b1-ebb4698c4733.pdf",
+            "news_date": "2025-05-22 12:44:24"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Updates",
+            "news_body": "Sangam India Onboards Gelmart Industries Inc. (Supplier to Walmart) as a Customer for its Garment Division",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=deb13917-c0f9-4282-b498-5735d0c07735.pdf",
+            "news_date": "2025-05-16 12:09:23"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Sangam India Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L17118RJ1984PLC003173</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>666.69</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>INDA</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>INDIA RATINGS AND RESEARCH PVT. LTD.</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: Arjun Agal <br/>  Designation: Company Secretary <br/> EmailId: arjunagal@sangamgroup.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Surat Ram Dakhera <br/> Designation: Chief Financial Officer <br/> EmailId: sr.dakhera@sangamgroup.com</div> </div> <div> <br/> Date: 14/05/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b91a8be-023c-4001-a1f6-1757473ea76b.pdf",
+            "news_date": "2025-05-14 17:51:32"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Joint Venture",
+            "caption": "Announcement under Regulation 30 (LODR)-Joint Venture",
+            "news_body": "Intimation of incorporation of new Joint Venture Company namely Goldenseams Sangam Private Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ea41629-981e-4594-a6ee-b9816954b3f2.pdf",
+            "news_date": "2025-04-30 19:21:39"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Discrepancies In The Format Of Consolidated Limited Review Report",
+            "news_body": "In continuation to the Financial Results for the Qtr ended December 2024 submitted on 12th February 2025 we are submitting the Limited Review Report (Consolidated) in the revised format for the quarter ended December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2287b70-cce0-4942-bfe3-fb5a12d49e75.pdf",
+            "news_date": "2025-04-26 15:20:15"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Announcement under Regulation 30 with regard to execution of Memorandum of Understanding with Golden Seams Industries Pvt. Ltd.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e6bc548-f4bb-4d4e-b564-cda6422b54d4.pdf",
+            "news_date": "2025-04-17 17:30:49"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Price Movement",
+            "news_body": "Clarification on Price Movement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4505728d-1427-4c18-989b-29ce55367f63.pdf",
+            "news_date": "2025-04-11 14:58:09"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulation  2018 for the Quarter & year ended 31st March 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79e9c5a9-bfef-47f7-aec2-73844dd34804.pdf",
+            "news_date": "2025-04-10 16:32:31"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Sangam India Ltd",
+            "news_body": "The Exchange has sought clarification from Sangam India Ltd on March 26 2025 with reference to significant movement in price in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-03-26 17:16:02"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Revised Intimation Regarding Fire Incident",
+            "news_body": "Revised Intimation regarding Fire Incident occurred at Denim Division located at Village Billiya Kalan Chittorgarh Road Bhilwara under Regulation 30 of SEBI (Listing Obligation and Disclosure Requirements) Regulation 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8bda5208-4a2d-4568-bd7b-8aa78d06291b.pdf",
+            "news_date": "2025-03-26 10:40:43"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8dc055c-8eea-4567-acd8-efc998bca364.pdf",
+            "news_date": "2025-03-25 14:25:39"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Fire Incident Occurred At Denim Division Located At Village Billiya Kalan Chittorgarh Road Bhilwara Under Regulation 30 Of The SEBI (Listing Obligation And Disclosure Requirements) Regulation 2015",
+            "news_body": "Intimation regarding Fire incident occurred at Denim Division located at village Biliya Kalan Chittorgarh Road  Bhilwara under Regulation 30 of SEBI (Listing Obligation and Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ea7b907-d1b4-4ecd-b239-fb0f7ba00bb4.pdf",
+            "news_date": "2025-03-10 18:09:04"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 12Th February 2025",
+            "news_body": "Pursuant to the Regulation 30 of the Securities and Exchange Board of India (Listing Obligations\r\nand Disclosure Requirements) Regulations 2015 the Board of Directors at their meeting held\r\ntoday i.e 12th February 2025 have inter-alia approved the Unaudited Financial Results\r\n(Standalone and Consolidated) of the Company for the quarter & Nine Months ended on 31st\r\nDecember 2024. A copy of the Unaudited Financial Results (Standalone and Consolidated) along with the Limited\r\nReview Report by the Auditors of the Company is enclosed herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3abfbaf5-0ae5-4743-8044-87f34a6e204f.pdf",
+            "news_date": "2025-03-08 15:45:36"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of copy of unaudited financial result for the quarter and nine months ended 31st December 2024 published in the newspapers.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22c7a346-0e4c-4165-b3f4-b6da8127ca7f.pdf",
+            "news_date": "2025-02-13 15:27:11"
+        },
+        {
             "sym": "SANGAMIND",
             "disp": "Sangam",
             "bse_code": 514234,
@@ -264,6 +957,28 @@
             "sid": 4184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Pursuant to Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed herewith the copy of Investor presentation in connection with the Unaudited Financial result for the quarter and nine months ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d804d1d-d890-43e0-a873-509fc6a3e2fb.pdf",
+            "news_date": "2025-02-13 14:34:04"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Pursuant to SEBI Circular dated 31st December 2024 please find attached herewith integrated filing (Financial) for the quarter and Nine Months ended 31st December 2024 alongwith Limited Review Report by Statutory Auditors.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0dd7871a-6738-404a-bf54-475120a219a6.pdf",
+            "news_date": "2025-02-12 16:46:41"
         },
         {
             "sym": "SANGAMIND",
@@ -290,6 +1005,160 @@
             "seg": "E"
         },
         {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "The Quarter Ended 31St December 2024",
+            "news_body": "Pursuant to Regulation 33 of SEBI Listing Regulations 2015 we are enclosing herewith Unaudited Financial Results (Consolidated and Standalone) for the quarter ended 31st December 2024 approved by the Board of Directors at their meeting held on today i.e. 12th February 2025 alongwith Limited Review Report by the Statutory Auditors.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d30269a8-0a85-4687-9b1b-97b0f179cce3.pdf",
+            "news_date": "2025-02-12 16:17:57"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Financial Results Of The Company For The Quarter & Nine Months Ended 31St December 2024.",
+            "news_body": "SANGAM (INDIA) LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2025 inter alia to consider and approve the Unaudited Financial Results of the Company for the quarter & Nine Months ended 31st December 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f497278d-cca5-4ab5-b6ee-552f58c6b996.pdf",
+            "news_date": "2025-02-03 11:08:46"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the Quarter ended 31st December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e225bd22-6ca5-491e-a94f-926732971e5c.pdf",
+            "news_date": "2025-01-11 10:24:12"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of NEWS Paper publication with regards to Notice to shareholders for transfer of Equity shares to IEPF Authority.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3ee2386-a2c9-4c85-a286-d261421bb3c1.pdf",
+            "news_date": "2024-12-23 16:04:29"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Result of Postal Ballot by remote e-voting process & submission of Scrutinizer report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=548701cb-95f8-40a6-ace3-2e004469c246.pdf",
+            "news_date": "2024-11-29 17:32:24"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Result of Postal Ballot by remote e-voting process & submission  of Scrutinizer report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57b7cb61-ae6e-4fc9-968e-1fff21e99c37.pdf",
+            "news_date": "2024-11-29 17:29:11"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Pursuant to Regulation 39(3) of SEBI (LODR) Regulation, 2015, the RTA has received information regarding loss of share certificate as on 11-11-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c405b6fa-25b1-4323-ae16-e4465afe8d71.pdf",
+            "news_date": "2024-11-12 12:25:20"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Intimation of issuance of duplicate share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f3f7fda-740c-4e38-89b5-6731ff5b1b1d.pdf",
+            "news_date": "2024-11-05 14:15:05"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submitting the copy of notice of postal ballot published in news papers.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a53f877e-18c4-4a86-871c-663c13d25a6d.pdf",
+            "news_date": "2024-10-31 13:42:27"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Submission of postal ballot notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0d250b2-2435-48d5-a4d4-1ad303e3c662.pdf",
+            "news_date": "2024-10-29 18:31:27"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Investor Presentation In Connection With Unaudited Financial Results For The Quarter Ended 30Th September, 2024.",
+            "news_body": "Pursuant to Regulation 30 of SEBI (LODR) Regulation, 2015, please find enclosed Investor Presentation in connection with the Unaudited Financial Results for the Quarter/half-year ended 30th September, 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48a9e37c-101a-4379-b6bf-06a88cf1284c.pdf",
+            "news_date": "2024-10-26 17:56:27"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of unaudited financial result of the company for the quarter and half year ended on 30th September, 2024 published in news paper",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32b6c138-d171-4ec7-bcc3-46b1cf6b258e.pdf",
+            "news_date": "2024-10-26 13:16:25"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Expiry of term for one year of Mrs Aparna Sahay as an independent director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46b5bdb4-446d-412e-864b-4793cbf1d638.pdf",
+            "news_date": "2024-10-26 12:07:53"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Meeting Of Board Of Directors Held On 25Th October, 2024 And Unaudited Financial Results (Consolidated And Standalone) For The Quarter / Half Year Ended 30Th September, 2024.",
+            "news_body": "Pursuant to the Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, the Board of Directors at their meeting held today i.e 25th October, 2024, have inter-alia, approved the following: i. Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter/ half year ended on 30th September, 2024. A copy of the Unaudited Financial Results (Standalone and Consolidated) along with the Limited Review Report by the Auditors of the Company is enclosed herewith as Annexure A.ii. On recommendation of Nomination and Remuneration Committee the Board of Directors of the Company has Re-appointed Shri. Ram Pal Soni (DIN: 00401439) as Whole-time Director designated as Chairman of the Company for a period of 3 years subject to the approval of shareholders of the Company. iii. Postal Ballot Notice for re-appointment of Shri R. P. Soni as Whole-time Director designated as Chairman of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05ba422d-97ea-4c65-b48b-e0b3a2cba9eb.pdf",
+            "news_date": "2024-10-25 18:40:48"
+        },
+        {
             "sym": "SANGAMIND",
             "disp": "Sangam",
             "bse_code": 514234,
@@ -312,6 +1181,215 @@
             "sid": 4184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results (Standalone & Consolidated) For The Quarter/Half-Year Ended 30Th September, 2024",
+            "news_body": "Pursuant to SEBI (LODR) Regulation, 2015, the Board of Directors at their meeting held on today i.e. 25th October, 2024, have inter-alia approved Unaudited Financial Results for the Quarter/Half-year ended 30th September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03fe46ab-3eef-480c-9415-fc78f1c913e5.pdf",
+            "news_date": "2024-10-25 18:33:40"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of LODR",
+            "news_body": "Resolution passed by circulation for reconstitutes of the statutory committees of the Board of Director of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5529c4a-e7d2-4716-a49f-3300fe6875cd.pdf",
+            "news_date": "2024-10-21 16:52:07"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation To Consider And Approve The Un-Audited (Standalone And Consolidated) Financial Results Of The Company For The Quarter / Half Year Ended 30Th September, 2024.",
+            "news_body": "SANGAM (INDIA) LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 25/10/2024 ,inter alia, to consider and approve SANGAM (INDIA) LTD. has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 25/10/2024 ,inter alia, to consider and approve the Un-Audited (Standalone And Consolidated) Financial Results of the Company for the quarter / Half Year ended 30th September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c6faee9-5f3d-4d70-a1f2-99fa01925e57.pdf",
+            "news_date": "2024-10-17 15:52:29"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Pursuant to regulation 74(5) of the SEBI (Depositories and Participants) Regulations, 2018, please find attached Certificate received from the RTA.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9773d1c0-0b68-4c4b-a613-f9b58bac6b29.pdf",
+            "news_date": "2024-10-15 11:07:38"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Pursuant to Regulation 39(3) of SEBI (LODR) Regulation, 2015, the RTA has received information regarding loss of share Certificate as on 30-09-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aebf9f0f-152b-47d6-9982-ba49b7f19215.pdf",
+            "news_date": "2024-10-03 18:11:39"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Schedule B of SEBI (PIT) Regulation, 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cac49ede-1177-4045-9e09-aa63c2d8594f.pdf",
+            "news_date": "2024-09-28 17:07:54"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 7(2) Of Securities And Exchange Board Of India (Prohibition Of Insider Trading) Regulation, 2015 Received From Sangam (India) Limited-Employees Welfare Trust.",
+            "news_body": "Disclosure under Regulation 7(2) of Securities and Exchange Board of India (Prohibition of Insider Trading) Regulation, 2015 received from Sangam (India) Limited - Employee Welfare Trust.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68a5b107-9af6-4422-9931-e0cb753be698.pdf",
+            "news_date": "2024-09-25 17:35:14"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Scrutinizer''s Report",
+            "news_body": "In terms of Regulation 44(3) of SEBI (LODR) Regulations, 2015, we are enclosing herewith Scrutinizers Report of the 38th Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c02927a4-9936-4789-9c2c-1c0b2446e82b.pdf",
+            "news_date": "2024-09-23 22:10:27"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "In pursuance to Regulation 30 read with SEBI (LODR) Regulations, 2015, we wish to inform you that Shri Achintya Karati and Shri Tapan Kumar Mukhopadhyay, Non-executive Independent Directors have completed their second term of five consecutive years as Independent Directors on 23rd September, 2024.Accordingly, they ceased to be Independent Directors of the Company from the conclusion of the AGM held on 23rd September, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35e68a24-919d-4df0-a76e-a08edeb7f1f6.pdf",
+            "news_date": "2024-09-23 22:01:46"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceeding of 38th Annual General Meeting held on 23rd September, 2024 at 4.00 pm.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60fddc42-430d-41a6-b3f4-ec4d0c0ce653.pdf",
+            "news_date": "2024-09-23 20:27:25"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "",
+            "descriptor": "",
+            "caption": "Disclosure under Regulation 30A of LODR",
+            "news_body": "In pursuance to Regulation 30 read with Schedule III SEBI (LODR) Regulations, 2015, we wish to inform you that Shri Achintya Karati and Shri Tapan Kumar Mukhopadhyay, Independent Directors has completed their second term of 5 consecutive years as Independent Directors of the Company on 23rd September, 2024. Accordingly, they ceased to be Independent Directors from the conclusion of the AGM held on 23rd September, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d5453c1-3f8d-452f-b741-631a475147d7.pdf",
+            "news_date": "2024-09-23 20:05:52"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Issue of duplicate share certificate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61d23b34-5c7a-416a-8f42-ddf70c30e7d6.pdf",
+            "news_date": "2024-09-17 14:52:40"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "In terms of Regulation 34(1) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please find enclosed copy of Notice of the 38th Annual General Meeting and the Revised Annual Report of the Company for the financial year 2023-24. The above is also uploaded on the website of the Company www.sangamgroup.com",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=259c1a43-abde-4865-b751-b25e513f8e08.pdf",
+            "news_date": "2024-09-17 11:53:40"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Pursuant to Regulation 39(3) of SEBI (LODR) Regulations, 2015, our RTA has received information on dated 12th September, 2024 regarding loss of Share Certificate as per details given in the attached letter of intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c76d4d9b-1334-4dfe-9296-a013072caf61.pdf",
+            "news_date": "2024-09-13 12:26:20"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the F.Y. 2023-24",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a10402e-da2b-493f-bbf0-39af47a54f6d.pdf",
+            "news_date": "2024-09-02 16:15:23"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of copy of newspaper advertisement in respect of publication of notice of 38th Annual General Meeting, Book closure & Remote e-voting/ e-voting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27219dfe-4b5f-4a87-bdbd-8f538750d6d1.pdf",
+            "news_date": "2024-09-02 15:18:31"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Notice For Closure Of Register Of Members And Intimation Of Remote E-Voting.",
+            "news_body": "Pursuant to Regulation 42 of SEBI Regulation, 2015,  the Register of Members and Share Transfer Books shall remain closed from Friday, 20th September, 2024 to Monday, 23rd September, 2024 (both days inclusive) to decide the entitlement of shareholders for payment of dividend if approved at the ensuing Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79991f03-9497-4de0-ba17-10a58cec0005.pdf",
+            "news_date": "2024-08-31 17:32:44"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "In terms of Regulation 34(1) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, please find enclosed copy of Notice of the 38th Annual General Meeting and the Annual Report of the Company for the financial year 2023-24. The above is also uploaded on the website of the Company www.sangamgroup.com",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ce851e4-72f5-42ca-8849-a751e542a7de.pdf",
+            "news_date": "2024-08-30 19:44:16"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "1. Regulation 34 - Notice Of The 38Th Annual General Meeting & Annual Report For The Year 2023-24        2. Intimation Of Cut-Off Date 16Th September, 2024 To Determine The Eligibility Of  The Members To Cast Their Vote Through Remote E- Voting And E- Voting During 38Th Annual General Meeting And Dividend For The FY 2023-24",
+            "news_body": "With reference to above, we are enclosing herewith Notice of 38th Annual General Meeting and Annual Report for the year 2023-24 and intimation of cut-off date for E-voting and book closure dates for the purpose of payment of Dividend and Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6919e802-865c-4865-934e-0098f26c9fb0.pdf",
+            "news_date": "2024-08-30 19:19:00"
         },
         {
             "sym": "SANGAMIND",
@@ -338,6 +1416,17 @@
             "seg": "E"
         },
         {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Pursuant to Regulation 30 read with Para A Part A of Schedule III and all other applicable provisions of LODR, Transcript of Company''s Analyst Call held on 13th August, 2024 is being attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acdb57bd-94f3-48a7-aeb2-525200d8e513.pdf",
+            "news_date": "2024-08-16 15:08:06"
+        },
+        {
             "sym": "SANGAMIND",
             "disp": "Sangam",
             "bse_code": 514234,
@@ -360,6 +1449,17 @@
             "sid": 4184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2831,
+            "bse_code": 514234,
+            "isin": "INE495C01010",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "In compliance with Regulation 30 read with Para A Part A of schedule III and other applicableprovisions of Securities and Exchange Board of India (Listing Obligations and DisclosureRequirements) Regulations, 2015, the Audio recording of management interaction with the Investorsof the company held on 13th August, 2024 are uploaded on the website of the company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3ec67f5-45d9-4275-9e56-ec4e84f97ca2.pdf",
+            "news_date": "2024-08-13 19:20:16"
         },
         {
             "sym": "SANGAMIND",
@@ -1201,6 +2301,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

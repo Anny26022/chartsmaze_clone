@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Notice Of Strike",
+            "news_body": "Notice of Strike",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cd292ef-81a3-4dbc-8dc7-84c8329084cf.pdf",
+            "news_date": "2026-02-11 20:50:13"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In MCLR W.E.F.  12.02.2026",
+            "news_body": "Change in MCLR w.e.f. 12.02.2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a66f2eb4-3413-4c5e-9f90-6a5a41f12ab8.pdf",
+            "news_date": "2026-02-11 19:12:00"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment & Redemption Payment",
+            "news_body": "Credit Confirmation of Annual Interest Payment and Redemption payment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21659e2d-5d36-4586-8af4-abb8c3f076f4.pdf",
+            "news_date": "2026-02-02 16:12:05"
+        },
+        {
             "sym": "CANBK",
             "disp": "Canara Bank",
             "bse_code": 532483,
@@ -24,6 +57,28 @@
             "sid": 10794,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a231c04d-8c2c-45b3-bf71-af599183ad7b.pdf",
+            "news_date": "2026-01-30 19:59:59"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=311abf37-b05a-4c44-8381-71dc2eef5b51.pdf",
+            "news_date": "2026-01-30 16:03:40"
         },
         {
             "sym": "CANBK",
@@ -50,6 +105,50 @@
             "seg": "E"
         },
         {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings conference call with Analysts / Investors: Unaudited Financial Results of the Bank for Q3 &HY 2025-26 - Audio/Video recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=727c2b03-b57f-4469-9045-4fd08248d402.pdf",
+            "news_date": "2026-01-29 19:09:52"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure In Terms Of Regulation 32(1) & 52(7) Of SEBI (LODR) Regulations 2015",
+            "news_body": "Statement indicating utilisation of issue proceeds and deviation or variation for the quarter ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=baecb32e-e07f-43b2-886c-80d6323c2511.pdf",
+            "news_date": "2026-01-29 13:52:09"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Security Cover Certificate Quarter Ended 31.12.2025",
+            "news_body": "Security Cover Certificate Quarter ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49d994fb-9c72-450c-b339-af9016cec098.pdf",
+            "news_date": "2026-01-29 13:31:07"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=391e127c-81b0-437e-b5a1-9c78710f6896.pdf",
+            "news_date": "2026-01-29 13:20:56"
+        },
+        {
             "sym": "CANBK",
             "disp": "Canara Bank",
             "bse_code": 532483,
@@ -72,6 +171,17 @@
             "sid": 10794,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c918247-8fed-40e3-a28d-b7f7a90b05c4.pdf",
+            "news_date": "2026-01-29 13:16:08"
         },
         {
             "sym": "CANBK",
@@ -98,6 +208,369 @@
             "seg": "E"
         },
         {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Integrated Filing (Financial) - Unaudited (Reviewed)\r\nFinancial Results (Standalone & Consolidated) For The Third Quarter & Nine Months Ended 31.12.2025",
+            "news_body": "Financial Results for the Quarter ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aeb07b86-322a-4bf9-8d5d-f7fd1dcbad6a.pdf",
+            "news_date": "2026-01-29 13:06:30"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting - Integrated Filing (Financial) - Unaudited (Reviewed) Financial Results (Standalone & Consolidated) For The Third Quarter & Nine Months Ended 31.12.2025",
+            "news_body": "Financial Results - Outcome - Quarter ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28b1096f-a57c-45e7-959f-3d424ab0f0a9.pdf",
+            "news_date": "2026-01-29 13:01:47"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Notice Of Strike",
+            "news_body": "Notice of Strike",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bed3b50-04d2-4a10-af63-4181a4abafbd.pdf",
+            "news_date": "2026-01-25 13:39:35"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Media Meet & Earnings/Conference Call with Analysts & Investors-  Unaudited (Reviewed) Financial Results (Standalone and Consolidated) for the Third Quarter & Nine Months ended 31.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2ec571c-4ef6-4f70-8889-148691678d86.pdf",
+            "news_date": "2026-01-21 17:36:26"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited (Reviewed) Standalone And Consolidated Financial Results For The Third Quarter & Nine Months Ended 31.12.2025\r\n",
+            "news_body": "Canara Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/01/2026 inter alia to consider and approve Unaudited (Reviewed) and Standalone and Consolidated Financial Results for the Third Quarter and Nine Months ended 31.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12b7fbcc-ad4b-4f63-9849-0c576a46b759.pdf",
+            "news_date": "2026-01-20 15:55:40"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Interest/Principal Payment Due Date/Record\r\nDate Of Basel III Compliant Tier I / Tier II/Long Term Bonds Issued By Canara Bank On Private Placement Basis.",
+            "news_body": "Intimation of Record Dates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6dedcbe8-7eca-4f1a-82bd-b9319958ce8b.pdf",
+            "news_date": "2026-01-14 21:28:43"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment & Redemption Payment",
+            "news_body": "Credit Confirmation of Annual Interest Payment & Redemption  Payment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea76b9b4-5f9a-4270-a950-e43ee11e9ec3.pdf",
+            "news_date": "2026-01-07 19:15:05"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment & Redemption Payment",
+            "news_body": "Credit Confirmation of Annual Interest Payment & Redemption Payment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64a4c1b9-6124-4f91-a9ca-3ae277c86d6c.pdf",
+            "news_date": "2026-01-06 19:08:59"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74 (5) of SEBI(DP) Regulations2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=988af2f9-50aa-4502-9580-b94ae65c56d8.pdf",
+            "news_date": "2026-01-02 15:11:30"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment & Redemption Payment",
+            "news_body": "Credit Confirmation of Annual Interest Payment & Redemption Payment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6f7e8784-23ca-4159-a8b4-95d52665dfe6.pdf",
+            "news_date": "2025-12-31 19:08:05"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Additional Charge for the position of Managing Director and Chief Executive Office of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b400a98e-0c40-4e55-9087-c82891a4f0cb.pdf",
+            "news_date": "2025-12-31 18:55:42"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Retirement",
+            "caption": "Announcement under Regulation 30 (LODR)-Retirement",
+            "news_body": "Completion of Tenure of Shri K. Satyanarayana Raju MD & CEO of the Bank",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e065a43-36cf-4d24-b8c5-20f85cec0ad6.pdf",
+            "news_date": "2025-12-31 18:44:22"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment & Redemption Payment",
+            "news_body": "Credit Confirmation of Annual Interest Payment & Redemption Payment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd2a7aa9-7abd-4f99-afcb-4b47b0a19953.pdf",
+            "news_date": "2025-12-31 15:27:34"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Compliance Certificates And Reports On Securities And Exchange Board Of India-Cybersecurity And Cyber Resilience Framework (SEBI-CSCRF).",
+            "news_body": "Compliance Certificates and Reports on Securities and Exchange Board of India-Cybersecurity and Cyber Resilience Framework (SEBI-CSCRF).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee943695-4f66-4786-8a51-e317817aee82.pdf",
+            "news_date": "2025-12-29 16:57:15"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment",
+            "news_body": "Credit Confirmation of Annual Interest Payment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=daa904b8-a289-4b54-ae54-8eb69e63a133.pdf",
+            "news_date": "2025-12-24 14:43:24"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window - Quarter ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba6a25d8-8191-47ec-90cc-4a5ee3c7664c.pdf",
+            "news_date": "2025-12-24 12:47:44"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment & Redemption Payment",
+            "news_body": "Credit Confirmation of Annual Interest Payment & Redemption Payment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f9c81d7-c618-46e5-935b-f51caf1c6eed.pdf",
+            "news_date": "2025-12-18 18:22:38"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment - Regulation 57 Of SEBI (Listing Obligations &Disclosure Requirements) Regulations 2015 - INE476A08217",
+            "news_body": "Credit Confirmation of Annual Interest Payment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7fb925c-672a-43f9-b88b-77920234532b.pdf",
+            "news_date": "2025-12-11 19:02:21"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Special Window for Re-lodgement of Transfer Request of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f0dcc2c-90c5-493f-983f-d5eb6f1e1d2b.pdf",
+            "news_date": "2025-12-09 15:12:40"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication- Saksham Niveshak",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d21ec17d-b669-4ee0-8af6-d754009d1594.pdf",
+            "news_date": "2025-12-08 18:57:10"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment",
+            "news_body": "Credit Confirmation of Annual Interest Payment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8daf274a-d7c2-4b99-9fef-1ca804f5f618.pdf",
+            "news_date": "2025-12-02 19:46:37"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Issue Of Base III Compliant Additional Tier I Bonds Series I For Rs. 3500 Crore.",
+            "news_body": "Issue of Base III Compliant Additional Tier I Bonds Series I for Rs. 3500 Crore",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fe13772-38f1-4c08-88de-f2cc639e19ee.pdf",
+            "news_date": "2025-12-02 18:54:48"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Senior Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7db2381d-7e30-46cd-bbb6-5f314bcc3af2.pdf",
+            "news_date": "2025-12-01 13:59:58"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment - Regulation 57 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - ISIN: INE476A08209",
+            "news_body": "Interest Payment - ISIN: INE476A08209",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=adf76f0d-4f3e-4022-bb0c-f0b550decaa0.pdf",
+            "news_date": "2025-11-29 17:15:07"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (LODR) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67ba45a7-0d1b-4370-b572-ad1e2de41e05.pdf",
+            "news_date": "2025-11-26 20:02:52"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4805154b-b7c2-4685-9107-33521070da8c.pdf",
+            "news_date": "2025-11-24 21:56:15"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5825ad7a-ffef-4703-abb0-9926e0e56c41.pdf",
+            "news_date": "2025-11-24 21:54:02"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Regulation 50 And 60 (2) (Chapter - V) Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - Intimation Of Redemption & Interest Payment Due Date/Record Date Of Basel III Compliant Tier II Bonds Issued By Canara Bank On Private Placem",
+            "news_body": "Intimation of Redemption and Interest payment date and Record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c2b2309-061c-47a6-b090-9284829d125d.pdf",
+            "news_date": "2025-11-21 18:27:35"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Revision In Marginal Cost Of Funds Based Lending Rate (MCLR) W.E.F. 12.11.2025",
+            "news_body": "Change in MCLR w.e.f 12.11.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1dc661a-1e95-48ac-a4a7-5119831dc1a3.pdf",
+            "news_date": "2025-11-11 17:42:49"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Exercising Of Call Option Of Basel III Compliant Additional Tier I Bonds (ISIN: INE476A08100 & INE476A08118) - Intimation To Stock Exchanges Regarding Call Option Notice Sent To Bondholders.",
+            "news_body": "Notices sent to Bondholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=829a5aac-a552-4488-968c-65eff89229e1.pdf",
+            "news_date": "2025-11-10 19:40:42"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Exercising Of Call Option Of Basel III Complaint Additional Tier I Bonds (ISIN: INE476A08100 & INE476A08118) - RBI Approval.",
+            "news_body": "Exercising of Call Options-RBI Approval",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23a5d8d9-5e26-4e06-b873-c0f62a74114a.pdf",
+            "news_date": "2025-11-07 19:25:15"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Ratings by Care Ratings Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07463e87-13ae-4222-8b31-aee997b975b4.pdf",
+            "news_date": "2025-11-06 20:40:33"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Completion of Tenure of Shri Vijay Srirangan as Non-Executive Chairman of the Bank.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9771b66-f4b9-44ec-a71b-aaeb4fa844b1.pdf",
+            "news_date": "2025-11-06 19:05:10"
+        },
+        {
             "sym": "CANBK",
             "disp": "Canara Bank",
             "bse_code": 532483,
@@ -120,6 +593,39 @@
             "sid": 10794,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of analyst call held on 30.10.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4c3d524-32c7-4aef-95df-29b4905e3348.pdf",
+            "news_date": "2025-11-03 16:44:53"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fcfe81a-0862-4af2-b73c-dceb4a0340ae.pdf",
+            "news_date": "2025-10-31 19:43:08"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating  -Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=055ef6e1-3956-4099-ab2a-fcf81e3e2f31.pdf",
+            "news_date": "2025-10-30 19:56:05"
         },
         {
             "sym": "CANBK",
@@ -146,6 +652,39 @@
             "seg": "E"
         },
         {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings conference call with Analysts / Investors:  Unaudited Financial Results of the Bank for Q2 &HY 2025-26 -- Audio/Video recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f935c8a-4cef-44df-8d94-052ef1ad88e2.pdf",
+            "news_date": "2025-10-30 19:33:30"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Of Security Cover Certificate For The Quarter Ended 30.09.2025",
+            "news_body": "Disclosure of Security Cover Certificate for the Quarter ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d0c469d-be6a-4fcb-a496-f20523d32735.pdf",
+            "news_date": "2025-10-30 13:01:22"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release - Financial Results for the Half Year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f6fd920-8f71-49a2-814a-2a8801247d56.pdf",
+            "news_date": "2025-10-30 12:50:36"
+        },
+        {
             "sym": "CANBK",
             "disp": "Canara Bank",
             "bse_code": 532483,
@@ -168,6 +707,17 @@
             "sid": 10794,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation / Performance Highlights - Financial Results for Half Year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d4c8715-ea4f-4f11-aeda-bac6c4912008.pdf",
+            "news_date": "2025-10-30 12:45:10"
         },
         {
             "sym": "CANBK",
@@ -194,6 +744,446 @@
             "seg": "E"
         },
         {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Second Quarter And Half Year Ended 30.09.2025",
+            "news_body": "Financial Results for the Second Quarter and Half Year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48cedd0a-638a-4b60-b582-d9698850f6ca.pdf",
+            "news_date": "2025-10-30 12:38:01"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting - Integrated Filing (Financial) - Unaudited (Reviewed) Financial Results (Standalone And Consolidated) For The Second Quarter And Half Year Ended 30.09.2025",
+            "news_body": "Financial Results for the Second Quarter and Half Year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be33df11-f6d3-4da1-a5eb-d04731f4b8ef.pdf",
+            "news_date": "2025-10-30 12:33:02"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment - Regulation 57 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - ISIN: INE476A08126",
+            "news_body": "Annual Interest Payment - ISIN : INE476A08126",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0af87549-a9cd-417c-8704-9e607a43ca42.pdf",
+            "news_date": "2025-10-27 17:29:52"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Media Meet and Earnings / Conference Call with Analysts & Investors - Unaudited (Reviewed) Financial Results (Standalone & Consolidated) for the Second Quarter & Half Year ended 30.09.2025\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bffb873-ea8c-424b-a57c-313cb5a67931.pdf",
+            "news_date": "2025-10-21 18:46:32"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Notice Of Board Meeting",
+            "news_body": "Canara Bankhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/10/2025 inter alia to consider and approve Unaudited (Reviewed) Standalone and Consolidated Financial  Results for the Second Quarter and Half Year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81fa32fa-5791-4cc7-a5f8-c57ff11db12e.pdf",
+            "news_date": "2025-10-17 17:10:55"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information on Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e759892c-726b-4606-a4fc-a53599121e10.pdf",
+            "news_date": "2025-10-17 16:32:22"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information on Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2aa20a85-3fc9-4bcb-98c3-ee2b80612abd.pdf",
+            "news_date": "2025-10-16 19:02:43"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Special Window for  Re- lodgement  of transfer requests of  Physical Shares - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02a540af-5f68-480e-8f44-e9680151201e.pdf",
+            "news_date": "2025-10-10 13:56:30"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information on Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d93f30e-4e11-4590-b946-53e001c8045a.pdf",
+            "news_date": "2025-10-05 10:34:58"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information on Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2676b756-cd26-4567-9839-482732056e82.pdf",
+            "news_date": "2025-10-04 12:09:10"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e28618cd-f98c-41a6-8df2-d94efc1f90d8.pdf",
+            "news_date": "2025-10-03 17:13:17"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information on Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71b4b04e-8c3e-48e3-9353-2a110a8ab722.pdf",
+            "news_date": "2025-10-03 11:41:07"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Canara Bank - Half Yearly Statement Of Outstanding Bonds As On 30.09.2025",
+            "news_body": "Half Yearly Statement of Outstanding Bonds as on 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13ff48d6-ebf5-4e0e-9c87-057986e38e57.pdf",
+            "news_date": "2025-10-02 14:21:11"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Transfer of Equity Shares of Canara Bank to IEPF - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ed6960e-c114-483e-b1b3-1de2692faae1.pdf",
+            "news_date": "2025-09-30 14:05:09"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information of Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4756f9e4-3686-4033-a87b-f729b89dbe84.pdf",
+            "news_date": "2025-09-30 12:06:43"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest & Redemption Payment - Regulation 57 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - ISIN:  INE476A08092",
+            "news_body": "Annual Interest & Redemption Payment ISIN  INE476A08092",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70ad2739-0d9f-4df1-a2f5-29c4a701248e.pdf",
+            "news_date": "2025-09-29 19:24:17"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment - Regulation 57 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - ISIN: INE476A08191",
+            "news_body": "Annual Interest Payment - ISIN: INE476A08191",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b13b7b5a-227b-4a60-848c-95b1f57d7872.pdf",
+            "news_date": "2025-09-29 18:39:06"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest & Redemption Payment - Regulation 57 Of SEBI Listing Obligations & Disclosure (Requirements) Regulations 2015 - ISIN: INE667A08039",
+            "news_body": "Annual Interest & Redemption Payment - ISIN : INE667A08039",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f1b13ca-cf7b-472d-bf00-c3f0df71e950.pdf",
+            "news_date": "2025-09-26 19:10:44"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information on Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc2f2f80-5b00-46cd-9584-6fb4502427e8.pdf",
+            "news_date": "2025-09-26 11:26:15"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure from 01.10.2025 upto 48 hours after the declaration of Financial Results of the Bank for the QE 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07005c64-9c63-4d9c-b9da-030dd700ca73.pdf",
+            "news_date": "2025-09-25 18:06:47"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information on Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a775575-1f12-49cc-a238-ada0331a08dd.pdf",
+            "news_date": "2025-09-23 12:11:29"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Extension of term of appointment of Shri Hardeep Singh Ahluwalia  Executive Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b94501f8-6a20-4d67-a818-81afdb29a424.pdf",
+            "news_date": "2025-09-17 11:44:40"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment - Regulation 57 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - ISIN: INE476A08183",
+            "news_body": "Credit confirmation of Annual Interest Payment- ISIN: INE476A08183",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bce449f6-4ab2-4103-9829-b6773cb8791b.pdf",
+            "news_date": "2025-09-15 18:06:27"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information on Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d67ccc06-ef8d-4325-8dd7-3366d2c88390.pdf",
+            "news_date": "2025-09-15 16:49:35"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Election of One Director of the Bank  from amongst Shareholders other than the Central Government - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1f08aec-3cee-4379-8b7a-13c0dda94d3c.pdf",
+            "news_date": "2025-09-13 13:20:25"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Election of One Shareholder Director of the Bank - Cancellation of EGM scheduled to be held on 25th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05348e3d-05f9-4ae9-bb8d-c74ee1b77862.pdf",
+            "news_date": "2025-09-12 13:08:28"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Information On Subsidiaries",
+            "news_body": "Information on Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73d6842b-5011-47a0-afd2-957d9154df8c.pdf",
+            "news_date": "2025-09-11 22:07:50"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest & Redemption Payment - Regulation 57 Of SEBI Listing Obligations & Disclosure (Requirements) Regulations 2015 - ISIN:  INE476A08084",
+            "news_body": "Credit Confirmation of Annual Interest & Redemption Payment- Regulations 57 of SEBI Listing Obligations & Disclosure                                  ( Requirements ) Regulations 2015 - ISIN: INE476A08084",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa016299-5e7f-4a37-b155-5c8f78ed0f63.pdf",
+            "news_date": "2025-09-11 16:44:10"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Saksham Niveshak- 100 Days Campaign- Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11e54133-fea0-4d98-b7fd-c12146139087.pdf",
+            "news_date": "2025-09-06 16:36:52"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of newspaper publication made on 30.08.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09d0a710-6178-409e-a923-30bb978bc3ac.pdf",
+            "news_date": "2025-08-30 12:54:24"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment - Regulation 57 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - ISIN: INE476A08241",
+            "news_body": "Credit confirmation of Annual Interest Payment - Regulation 57 of SEBI (Listing Obligations & Disclosure Requirements ) Regulations 2015- ISIN: INE476A08241",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ffc0aa4-9bc4-495a-a782-661d75dc3b40.pdf",
+            "news_date": "2025-08-29 17:27:57"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Notice Of Extraordinary General Meeting",
+            "news_body": "Notice of Extraordinary General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8938ced-116c-4514-88aa-bf92f95bd4da.pdf",
+            "news_date": "2025-08-29 13:01:11"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - Credit Rating\r\n",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) 2015 - Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73e11dab-0b80-4a78-abf2-c928a91270d7.pdf",
+            "news_date": "2025-08-28 19:06:25"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Confirmation Of Annual Interest Payment - Regulation 57 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - ISIN: INE476A08175 Unsecured Subordinated Non-Convertible Redeemable Fully Paid Up Taxable Basel III Compliant Tier 2",
+            "news_body": "Credit confirmation of Annual Interest Payment  - Regulation 57  of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 ISIN: INE476A08175",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e43a5590-16d7-4724-bdb3-1baeeef3e0d0.pdf",
+            "news_date": "2025-08-26 16:14:31"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) 2015 - Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11468e8f-6c34-43ad-ab74-1e935acf70a5.pdf",
+            "news_date": "2025-08-25 17:50:52"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf78ebe9-e0a7-48e0-9d00-303d8f127eec.pdf",
+            "news_date": "2025-08-14 19:40:33"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Extra Ordinary General Meeting - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75e91eaf-28e6-4c92-b9d4-0e0b1911b86e.pdf",
+            "news_date": "2025-08-12 12:14:50"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Special Window for re-lodgment of transfer requests of physical shares - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdbe7392-0c27-419f-9673-b58cef746981.pdf",
+            "news_date": "2025-08-11 13:18:07"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication - Exercising of Call Option of Basel III complaint Additional Tier I Bonds",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6c6d6a4-d699-4ab3-8e1b-bf52ddcc2db4.pdf",
+            "news_date": "2025-08-08 15:03:59"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Exercising Of Call Option Of Basel III Complaint Additional Tier I Bonds (ISIN: INE476A08084 & INE476A08092) - RBI Approval",
+            "news_body": "Exercising of Call Option of Basel III complaint Additional Tier I Bonds (ISIN: INE476A08084 & INE476A08092)- RBI Approval",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=546e9bae-b799-4e8d-8334-2837db955dee.pdf",
+            "news_date": "2025-08-05 18:30:04"
+        },
+        {
             "sym": "CANBK",
             "disp": "Canara Bank",
             "bse_code": 532483,
@@ -216,6 +1206,61 @@
             "sid": 10794,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earning Conference Call with Analysts/Investors call Q1 FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63e53b9a-e3de-49bb-827e-c48a7e7f4186.pdf",
+            "news_date": "2025-07-28 14:46:25"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Election of Two Directors from amongst Shareholders Other than Central Government",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=136a807e-2619-4ff1-811b-1f2ad3921cf7.pdf",
+            "news_date": "2025-07-27 11:38:41"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Regulation 50 And 60 (Chapter - V) Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - Intimation Of Interest Payment Due Date/Record Date Of Basel III Compliant Tier I / Tier II Bonds Issued By Canara Bank On Private Placement Basi",
+            "news_body": "Regulation 50 and 60 (Chapter  - V) of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015 - Intimation of Interest Payment due date/Record date of Basel III Compliant Tier I and Tier II Bonds issued by Canara Bank on Private Placement Basis",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9dcecca-0cca-40db-8817-5378f0a088b6.pdf",
+            "news_date": "2025-07-25 18:20:15"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication-Unaudited (reviewed) Financial Results (Standalone & Consolidated)  for the Quarter/ Three  Months ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d72a59e5-f20b-459d-b6db-ea6a123961a3.pdf",
+            "news_date": "2025-07-25 18:11:33"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Notice for Specified/ Cut off  Date  for  Election of Shareholder Director - Newspaper  Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba43da2d-8193-45c9-9031-21a2b93f366d.pdf",
+            "news_date": "2025-07-25 17:39:38"
         },
         {
             "sym": "CANBK",
@@ -242,6 +1287,50 @@
             "seg": "E"
         },
         {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earnings conference call with Analysts / Investors: Unaudited Financial Results of the Bank for Q1 FY 2025-26 -Audio/Video recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39da3b4e-afa7-4df0-a699-1cfce6e2be33.pdf",
+            "news_date": "2025-07-24 19:41:14"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Of Security Cover Certificate For The Quarter Ended June 30 2025",
+            "news_body": "Disclosure of Security Cover Certificate for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2abd2872-4ffc-4236-b6cb-d1920d4de739.pdf",
+            "news_date": "2025-07-24 13:38:08"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Convening Of Extraordinary General Meeting (EGM)",
+            "news_body": "Convening of Extraordinary General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3884edd-f8c5-4b66-9b35-c0ab60b7aa0d.pdf",
+            "news_date": "2025-07-24 13:29:19"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release  - Unaudited (Reviewed) Financial Results (Standalone & Consolidated) for the First Quarter / Three Months ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2044e19b-db19-4c50-b5c3-a971af894dd2.pdf",
+            "news_date": "2025-07-24 13:24:15"
+        },
+        {
             "sym": "CANBK",
             "disp": "Canara Bank",
             "bse_code": 532483,
@@ -264,6 +1353,17 @@
             "sid": 10794,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5471,
+            "bse_code": 532483,
+            "isin": "INE476A01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation / Performance Highlights  - Unaudited (Reviewed) Financial Results (Standalone & Consolidated) for the First Quarter / Three Months ended 30.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f50b9fe8-c5ef-4f1b-bbd1-a1f16bbdd127.pdf",
+            "news_date": "2025-07-24 13:21:16"
         },
         {
             "sym": "CANBK",
@@ -1705,6 +2805,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

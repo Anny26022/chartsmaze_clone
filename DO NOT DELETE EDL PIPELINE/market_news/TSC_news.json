@@ -1,0 +1,27 @@
+{
+    "Symbol": "TSC",
+    "ISIN": "INE16VK01010",
+    "News": [
+        {
+            "Title": "TSMC Reports 35% Profit Jump, Plans Major Investment Boost",
+            "Summary": "Taiwan's TSMC posted \u20b91,32,400 crores net profit in Q4, up 35% YoY, driven by AI chip demand. The world's largest chipmaker plans to increase capital spending to $52-56 billion by 2026.",
+            "Sentiment": "positive",
+            "PublishDate": 1768469615724,
+            "Source": "global"
+        },
+        {
+            "Title": "TSMC Q4 revenue beats forecasts with 20.45% growth",
+            "Summary": "Taiwan Semiconductor Manufacturing Company's Q4 revenue reached $33.04 billion, exceeding analyst estimates of $32.72 billion, driven by AI demand and pre-tariff stockpiling orders.",
+            "Sentiment": "positive",
+            "PublishDate": 1767944575872,
+            "Source": "global"
+        },
+        {
+            "Title": "TSMC Eyes Advanced Chip Production in Japan Facility",
+            "Summary": "Taiwan Semiconductor Manufacturing Company is reportedly considering producing advanced semiconductors at its Japanese facility, according to Nikkei reports, marking potential expansion of high-end chip manufacturing capabilities.",
+            "Sentiment": "positive",
+            "PublishDate": 1765444294121,
+            "Source": "global"
+        }
+    ]
+}

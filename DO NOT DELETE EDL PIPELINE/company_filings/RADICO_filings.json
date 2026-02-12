@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1569d065-900d-46c1-a602-66a79d6f1944.pdf",
+            "news_date": "2026-02-12 18:43:06"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "A conversation over the Glass - Jim Murray with Abhishek Khaitan at the First Public Testing of Rampur 1943 Virasat",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f69d1171-ecbd-4f6b-bae3-70b492d75301.pdf",
+            "news_date": "2026-02-12 11:32:42"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4dba11d2-ab43-4238-afbc-38291b96730e.pdf",
+            "news_date": "2026-02-03 18:37:17"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -24,6 +57,17 @@
             "sid": 10990,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f080fcae-4cc7-4098-a681-42d90e429668.pdf",
+            "news_date": "2026-01-30 21:26:27"
         },
         {
             "sym": "RADICO",
@@ -50,6 +94,28 @@
             "seg": "E"
         },
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording Of The Earnings Conference Call",
+            "news_body": "Audio Recording of the Earnings Conference Call held on January 23 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7af8da5f-4033-466c-90ae-45838a84902f.pdf",
+            "news_date": "2026-01-23 18:37:23"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of copies of Newspaper Advertisements",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2721a6e1-7c5b-42b6-b0ed-70da73b34c2c.pdf",
+            "news_date": "2026-01-23 16:14:24"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -72,6 +138,17 @@
             "sid": 10990,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results (Standalone And Consolidated)For The Quarter And  Nine Months Ended December 312025.",
+            "news_body": "Unaudited Financial Results for the Quarter and Nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8643325a-0b0d-4c47-8789-250258bd10d2.pdf",
+            "news_date": "2026-01-22 15:25:47"
         },
         {
             "sym": "RADICO",
@@ -98,6 +175,226 @@
             "seg": "E"
         },
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=869adf74-9a62-47fb-adc3-83b6b839a6e7.pdf",
+            "news_date": "2026-01-22 14:16:47"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (LODR) Regulation 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (LODR) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c51822a-9f10-4c62-9e3e-92076c6f482c.pdf",
+            "news_date": "2026-01-22 14:13:38"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On January 22 2026",
+            "news_body": "Outcome of the meeting of Board of Directors held on January 22 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7234249e-f820-41b0-8393-7604905dc9aa.pdf",
+            "news_date": "2026-01-22 14:00:30"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=491a5ca7-0221-409f-9142-9396d61a8390.pdf",
+            "news_date": "2026-01-19 17:13:27"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Q3 FY2026 Earnings Conference Call Invitation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be6df4c6-048d-4635-a636-0acacf0bf5b9.pdf",
+            "news_date": "2026-01-16 11:43:11"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release dated January 12 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=007dc7a8-0229-4a7a-8f60-3814686c8c24.pdf",
+            "news_date": "2026-01-12 15:36:12"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Meeting Dated January 22 2026",
+            "news_body": "Radico Khaitan Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 22/01/2026 inter alia to consider and approve the Unaudited Standalone and Consolidated Financial Results of the company for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bdfcce5-2f89-40a8-9aad-059394db8589.pdf",
+            "news_date": "2026-01-12 11:59:48"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc5a0fe1-77b2-4cef-bda0-8b172554d6cd.pdf",
+            "news_date": "2026-01-05 15:14:34"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2534205-b3c1-4be4-996d-f23578321903.pdf",
+            "news_date": "2025-12-31 11:04:24"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated December 23 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8887f18-07be-4877-bef4-0ad40afad22c.pdf",
+            "news_date": "2025-12-23 13:42:36"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2003701-82b1-47ef-88b7-50b18bd85629.pdf",
+            "news_date": "2025-12-23 12:29:34"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c575572-ead9-400c-809f-4b2dbf097ba2.pdf",
+            "news_date": "2025-12-12 16:43:49"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc468089-b098-43e8-ac40-4c87ff518caf.pdf",
+            "news_date": "2025-12-04 17:16:16"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfe6e058-2f90-4cd6-9472-25d179a23a40.pdf",
+            "news_date": "2025-11-28 13:44:00"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity Shares on Exercise of Stock Options under Employee Stock Option Scheme 2006",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebbf516e-60b8-45b0-9087-f392f5343c95.pdf",
+            "news_date": "2025-11-27 15:39:55"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated November 24 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b693a66-5bd7-47cd-b77f-76b46a70e8b4.pdf",
+            "news_date": "2025-11-24 08:32:02"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Clarification on Volume Movement in Scrip",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7298bc6-4526-48a4-97f5-f2efc75ad90a.pdf",
+            "news_date": "2025-11-21 15:21:03"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Radico Khaitan Ltd",
+            "news_body": "The Exchange has sought clarification from Radico Khaitan Ltd on November 21 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-11-21 13:39:02"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62486ecc-785a-4f1c-bc7e-fad71b410981.pdf",
+            "news_date": "2025-11-11 16:20:08"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated November 7 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b32cf03-1b5a-4410-b2b0-a4c7e3ec4d34.pdf",
+            "news_date": "2025-11-07 11:07:53"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -120,6 +417,17 @@
             "sid": 10990,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbf63e89-7168-4733-9c5a-85450585b82e.pdf",
+            "news_date": "2025-11-06 11:16:58"
         },
         {
             "sym": "RADICO",
@@ -146,6 +454,28 @@
             "seg": "E"
         },
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bf5c952-7f55-4df7-a8f0-222e0da488c9.pdf",
+            "news_date": "2025-11-05 13:40:50"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c2349ea-c412-45ae-8853-95cde91fb686.pdf",
+            "news_date": "2025-11-03 13:43:42"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -168,6 +498,39 @@
             "sid": 10990,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording Of The Earnings Conference Call",
+            "news_body": "Audio Recording of the Earnings Conference Call held on October 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f672ef12-e020-412c-8d14-cc9c7b60196b.pdf",
+            "news_date": "2025-10-30 22:40:17"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ad891f9-d924-4350-a372-8411fb42be5d.pdf",
+            "news_date": "2025-10-30 18:46:39"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of copies of Newspaper Advertisements",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=340be2db-52e7-44f1-a9c2-fc0cbdbada30.pdf",
+            "news_date": "2025-10-30 14:58:19"
         },
         {
             "sym": "RADICO",
@@ -194,6 +557,17 @@
             "seg": "E"
         },
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financials Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Financial Results for the Quarter and Half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8013df9d-1fe1-48a7-b6eb-f4022098ff4b.pdf",
+            "news_date": "2025-10-29 14:39:22"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -216,6 +590,270 @@
             "sid": 10990,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4d307d6-5ef4-4c49-b438-0fb3b3e6b0cf.pdf",
+            "news_date": "2025-10-29 14:35:56"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Restructuring",
+            "caption": "Announcement under Regulation 30 (LODR)-Restructuring",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulation 2015 for Scheme of Amalgamation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93d618d7-0111-43f9-b8aa-19cb5d1afe6c.pdf",
+            "news_date": "2025-10-29 14:33:59"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulation 2015 for Scheme of Amalgamation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=122810e7-c431-4c27-ae93-a49250c6400b.pdf",
+            "news_date": "2025-10-29 14:31:22"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Meeting Of The Board Of Directors Held On October 29 2025",
+            "news_body": "Outcome of the meeting of the Board of Directors held on October 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f92b4276-18b6-4a7a-9cde-1bf0f16f522a.pdf",
+            "news_date": "2025-10-29 14:29:29"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b5d4b5a-78cd-4ae8-aa7b-c70e17d7896d.pdf",
+            "news_date": "2025-10-26 13:56:58"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Q2 FY2026 Earnings Conference Call Invitation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27c304a4-e081-4a69-ba92-8f14d7814972.pdf",
+            "news_date": "2025-10-24 14:13:15"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI Listing Regulations",
+            "news_body": "Disclosure under Regulation 30 of SEBI Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b686e919-5329-4072-8b43-7c0a68d57719.pdf",
+            "news_date": "2025-10-09 14:58:21"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Meeting Dated October 29 2025",
+            "news_body": "Radico Khaitan Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/10/2025 inter alia to consider and approve Unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d51b95e3-1eb2-4a8e-8d34-5684e40599b5.pdf",
+            "news_date": "2025-10-09 13:49:48"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a7b4abc-fe15-4819-991e-aa168502ccb5.pdf",
+            "news_date": "2025-10-07 17:36:04"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 10(5) in respect of acquisition under Reg. 10(1)(a) of SEBI (SAST) Reg. 2011",
+            "caption": "Disclosures under Reg. 10(5) in respect of acquisition under Reg. 10(1)(a) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 10(5) in respect of acquisition under Regulation 10(1)(a) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Abhishek Khaitan",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=CF3BD1DD_B688_4A23_99C3_54BC9FC7B2E1_103929.pdf",
+            "news_date": "2025-10-03 10:39:36"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated September 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80068226-1241-49b1-a3fc-f7cb8787d020.pdf",
+            "news_date": "2025-09-29 14:08:06"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated September 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a77186b3-084c-40a6-a74a-55092da3a78d.pdf",
+            "news_date": "2025-09-29 10:00:14"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity Shares on Exercise of Stock Options under Employee Stock Option Scheme 2006",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=070984e7-bb35-4f4b-bbbe-53a46e091ce6.pdf",
+            "news_date": "2025-09-25 20:59:50"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5fac20e-6927-4376-b106-a05cc7438bfb.pdf",
+            "news_date": "2025-09-25 13:17:20"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fe0f081-1de4-4e69-ba8d-61dcea9673e4.pdf",
+            "news_date": "2025-09-18 19:34:35"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75a0e5f3-0a1d-4809-91eb-b7da5fb9c1a0.pdf",
+            "news_date": "2025-09-16 17:54:11"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated August 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7d03ede-498c-40ba-ab81-281f808464b8.pdf",
+            "news_date": "2025-08-29 18:34:05"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "press release dated August 26 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f7aeef2-979b-4d0b-9e20-e3600f95ca0b.pdf",
+            "news_date": "2025-08-26 15:19:09"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57f604ea-a712-49a7-bfa3-4d9ae1e87599.pdf",
+            "news_date": "2025-08-25 17:59:35"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c280dd03-c892-4549-943e-5767a9ad4e73.pdf",
+            "news_date": "2025-08-17 12:20:03"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations\")",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9de87f6e-5da4-44c2-8eca-5b4ace2f4959.pdf",
+            "news_date": "2025-08-12 19:24:38"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results and Consolidated Scrutinizers Report for 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f5f21d0-e47b-4c0c-a656-d0611fa1106e.pdf",
+            "news_date": "2025-08-08 22:31:30"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Voting Results and Consolidated Scrutinizers Report for 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb0be1cd-aa75-45ce-9473-01c0018ef337.pdf",
+            "news_date": "2025-08-08 22:26:03"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Summary Of Proceedings Of 41St Annual General Meeting",
+            "news_body": "Summary of Proceedings of 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b0ecfe0-aed6-4941-b8b1-5af22de74cf2.pdf",
+            "news_date": "2025-08-08 14:45:07"
         },
         {
             "sym": "RADICO",
@@ -242,6 +880,17 @@
             "seg": "E"
         },
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=449c88b5-7f8a-44ac-9055-344898a6426c.pdf",
+            "news_date": "2025-08-07 10:16:12"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -264,6 +913,28 @@
             "sid": 10990,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording Of The Earnings Conference Call",
+            "news_body": "Audio recording of the Earnings Conference Call held on August 1 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f43055fe-3fa4-4a08-aede-699d196dd037.pdf",
+            "news_date": "2025-08-01 18:57:47"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of copies of Newspaper Advertisements",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e87f0bd2-b9e7-48b1-ba55-3501cbc67d39.pdf",
+            "news_date": "2025-08-01 12:35:44"
         },
         {
             "sym": "RADICO",
@@ -290,6 +961,17 @@
             "seg": "E"
         },
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa2f29e5-5cac-4a02-961d-6fa6941ebf4b.pdf",
+            "news_date": "2025-07-31 14:33:41"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -312,6 +994,171 @@
             "sid": 10990,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Quarter Ended June 30 2025",
+            "news_body": "Financial Results for the Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73aee56d-5780-4566-981c-4bfca3ac1a8c.pdf",
+            "news_date": "2025-07-31 14:29:26"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated July 31 2025",
+            "news_body": "Outcome of the Meeting of Board of Directors held on July 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d15d777-820b-402e-a1a6-3a4be5803c89.pdf",
+            "news_date": "2025-07-31 14:25:48"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Presentation",
+            "news_body": "Presentation dated July 28 2025 issued by the Company announcing the launch of a New Luxury Vodka The Spirit of Kashmyr",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c099a300-9bbf-41a9-af46-45abe9e2d060.pdf",
+            "news_date": "2025-07-28 09:38:14"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated July 28 2025 issued by the Company announcing the launch of a new luxury vodka The Spirit of Kashmyr",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebdf66d2-e47c-48bc-beee-d163369501c3.pdf",
+            "news_date": "2025-07-28 09:33:04"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Q1 FY2026 Earnings Conference Call Invitation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c1f7aae-454a-4529-ad87-4866e47a3cf1.pdf",
+            "news_date": "2025-07-24 19:20:53"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Notice of the 41st Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f66fb145-29ba-44bc-9bf4-fe01160e1376.pdf",
+            "news_date": "2025-07-16 12:34:50"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d6d9017-c825-444b-ba30-d2622ddad5e6.pdf",
+            "news_date": "2025-07-15 23:38:18"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 41St Annual General Meeting",
+            "news_body": "Notice of 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2177908-6e24-48d5-b5d3-6d6cd84966ea.pdf",
+            "news_date": "2025-07-15 23:35:25"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Notice convening the 41st Annual General Meeting and Annual Report for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8ff4ada-6a1d-4850-b186-2de53204bcb6.pdf",
+            "news_date": "2025-07-15 23:31:00"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Meeting Dated July 31 2025.",
+            "news_body": "Radico Khaitan Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/07/2025 inter alia to consider and approve Unaudited Standalone and Consolidated Financial Results of the Company for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fed8380-6607-4630-86c1-a8850c22b990.pdf",
+            "news_date": "2025-07-14 10:19:59"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80ad291f-33aa-492b-b2d3-521e935a2003.pdf",
+            "news_date": "2025-07-07 11:55:13"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity Shares on exercise of Stock options under Employee Stock Option Scheme 2006",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48141c55-3e14-4392-a5cb-83f13e802183.pdf",
+            "news_date": "2025-07-02 19:12:01"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Notice of the 41st Annual General Meeting Record Date and Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a51f4af-0131-4665-bda5-a20dd51b6460.pdf",
+            "news_date": "2025-06-28 13:29:57"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93cca6f6-7f49-485b-879e-10acd5e8232f.pdf",
+            "news_date": "2025-06-25 18:12:41"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8481b969-c04f-49a5-8bf5-ec68bff9b0d1.pdf",
+            "news_date": "2025-06-24 17:22:50"
         },
         {
             "sym": "RADICO",
@@ -338,6 +1185,116 @@
             "seg": "E"
         },
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=334f2d43-3b5e-47d3-aeda-818fa757102b.pdf",
+            "news_date": "2025-06-23 15:55:37"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release dated June 20 2025 titled \"A Vodka That Celebrates Indian Roots: Radico Khaitan Launches Magic Moments Flavours of India.\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c44c3f92-d8c8-4f6f-859a-ae75c96f0afc.pdf",
+            "news_date": "2025-06-20 15:47:17"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d84aa2b-888e-455e-bb30-2f4f84569a7d.pdf",
+            "news_date": "2025-06-16 17:02:35"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release dated June 10 2025 titled \"Radico Khaitan secures global spotlight with Eight Brands in Drinks International Millionaires Club 2025\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e1f72c1-6252-4bde-a218-c90aa392cb75.pdf",
+            "news_date": "2025-06-10 13:35:31"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for transfer of Equity Shares of the Company to Investor Education and Protection Fund (IEPF) Authority",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2dc70f39-29b5-4057-953a-d35d6464fce8.pdf",
+            "news_date": "2025-06-05 11:59:49"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb7c8af7-9f9b-4398-b149-efe80e1f8eb8.pdf",
+            "news_date": "2025-06-02 12:18:11"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated May 28 2025 titled Radico Khaitan issues clarification statement over TRIKAL.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06b94fdc-382d-4d03-bff9-a56ff33cdda3.pdf",
+            "news_date": "2025-05-28 17:38:12"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation regarding Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f91d1a9e-e275-44a8-b852-50544221f6b1.pdf",
+            "news_date": "2025-05-24 14:37:53"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated May 23 2025 titled Radico Khaitan Ignites the Whisky World with an Explosive Launch of Morpheus Super Premium Whisky A Spirit for the Daring\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b92c32bc-28ed-4cc1-a809-1d5a4fe0a436.pdf",
+            "news_date": "2025-05-23 22:35:02"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated May 23 2025 titled Radico Khaitan Introduces TRIKAL Indian Single Malt - Eternal Whisky A Celebration of the Past Present and Future",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74a1b058-53c5-4244-94aa-05c72c3ad6d1.pdf",
+            "news_date": "2025-05-23 22:28:10"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -360,6 +1317,39 @@
             "sid": 10990,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Earnings Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22096843-43ec-47ff-b2e0-c289fce72554.pdf",
+            "news_date": "2025-05-13 16:46:32"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Grant Of Stock Options",
+            "news_body": "Grant of 80000 stock options to eligible employees of the Company under ESOP 2006",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5de434cf-b4e5-46fd-b4f3-071ab9eae5e5.pdf",
+            "news_date": "2025-05-11 19:27:02"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the Financial Year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e1205ab-792b-4ddd-82db-04c6a932e0b5.pdf",
+            "news_date": "2025-05-08 19:44:49"
         },
         {
             "sym": "RADICO",
@@ -386,6 +1376,83 @@
             "seg": "E"
         },
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording Of Earnings Conference Call",
+            "news_body": "Audio recording of Earnings Conference Call held today i.e. May 7 2025 for Audited Financial Results of the Company for the quarter and financial year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8eb23688-9563-4c22-8a85-0b5c695c9aa7.pdf",
+            "news_date": "2025-05-07 19:08:26"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action - Fixes Record Date For The Purpose Of Dividend",
+            "news_body": "Pursuant to Regulation 42 of Listing Regulations the Board has fixed Thursday July 24 2025 as the record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae46967a-5dbe-4ba2-897e-7b1ebe074ae9.pdf",
+            "news_date": "2025-05-07 18:17:40"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of copies of Newspaper Advertisements",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30c06f55-986e-48c2-9588-1e5523ca8209.pdf",
+            "news_date": "2025-05-07 17:50:20"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Annual General Meeting",
+            "news_body": "The Board has fixed July 24 2025 as record date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b13982e7-6adf-46eb-86a5-3185c726de9b.pdf",
+            "news_date": "2025-05-06 17:41:17"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Intimation Of Annual General Meeting",
+            "news_body": "The 41st Annual General Meeting of the Company is scheduled to be held on August 08 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc8d6f98-c7f8-4c40-bf9d-5a7041d95b8d.pdf",
+            "news_date": "2025-05-06 17:38:29"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "The Board of Directors at its meeting held today on May 06 2025 recommended a dividend of 200% i.e. Rs. 4 per equity Share of Rs. 2 each",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d35dda5-990e-4139-b9d3-022f1841a5ca.pdf",
+            "news_date": "2025-05-06 17:31:48"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (LODR)",
+            "news_body": "Appointment of Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcda377d-9363-408a-a5f1-6284c95dd021.pdf",
+            "news_date": "2025-05-06 17:28:42"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -410,6 +1477,17 @@
             "seg": "E"
         },
         {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e18a9b89-4f63-4a62-9198-a9be0c3a153c.pdf",
+            "news_date": "2025-05-06 17:25:16"
+        },
+        {
             "sym": "RADICO",
             "disp": "Radico Khaitan",
             "bse_code": 532497,
@@ -432,6 +1510,28 @@
             "sid": 10990,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For The Board Meeting Dated May 06 2025",
+            "news_body": "Financial Results for the quarter and financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=05ca8ad5-9162-430b-8f3a-050f56c8fef3.pdf",
+            "news_date": "2025-05-06 17:20:57"
+        },
+        {
+            "co_code": 2153,
+            "bse_code": 532497,
+            "isin": "INE944F01028",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated May 06 2025",
+            "news_body": "Outcome of the meeting of Board of Directors of the Company held today on May 06 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e307f954-4c19-4d66-b072-a0c3869bdd14.pdf",
+            "news_date": "2025-05-06 17:13:26"
         },
         {
             "sym": "RADICO",
@@ -2161,6 +3261,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of earnings call Q3&9MFY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22080911-cd0a-4565-815a-6e3af07b3bc8.pdf",
+            "news_date": "2026-02-12 23:27:20"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication in Jansatta (Hindi Edition)dated February 7 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1eeafbee-91c0-4bcd-8784-c53d205a9c8a.pdf",
+            "news_date": "2026-02-09 11:51:42"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Recording of earnings call of Q3&9MFY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=519c77d8-e2f2-409d-8e30-6726f68fdc53.pdf",
+            "news_date": "2026-02-06 20:26:14"
+        },
+        {
             "sym": "SBCL",
             "disp": "Shivalik Bimetal Controls",
             "bse_code": 513097,
@@ -24,6 +57,72 @@
             "sid": 4656,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation Q3&9MFY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10255d3b-89e4-4219-b558-be03ca776e2e.pdf",
+            "news_date": "2026-02-06 12:42:46"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of unaudited financial results December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3332eed7-5711-4ee5-b709-207e1412b945.pdf",
+            "news_date": "2026-02-06 11:19:02"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release dated 05th February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a89a33e-e1c1-4c77-863d-6f7018afecf1.pdf",
+            "news_date": "2026-02-05 17:38:40"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30- Updates",
+            "news_body": "A Company is in process for setting up a new manufacturing facility at Pune Maharashtra to Produce the Automotive Busbar/Connectors and/or their Subsequent assemblies.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2b26609-0f65-417a-aaa6-d949d636a549.pdf",
+            "news_date": "2026-02-05 17:34:27"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action - Board Fixed Record Date As February 13 2026",
+            "news_body": "Corporate Action - Board has fixed the record date as February 13 2026 for the purpose of Interim Dividend @ 100%( i.e Rs. 2/-) per share.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aded7e21-952b-481f-acc8-5ecc0377972c.pdf",
+            "news_date": "2026-02-05 17:08:39"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board approved the Interim Dividend @100% (i.e Rs. 2/-) per share for the FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc14202c-a477-4465-9db1-6eda939aca1d.pdf",
+            "news_date": "2026-02-05 17:02:51"
         },
         {
             "sym": "SBCL",
@@ -50,6 +149,138 @@
             "seg": "E"
         },
         {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Unaudited financial Results for the quarter and nine months ended December 31 2025 along with Limited Review Report thereon.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8a60f33-19ad-431e-964e-2d4ede45e50e.pdf",
+            "news_date": "2026-02-05 16:56:09"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On Toady I.E 05Th Day Of February 2026",
+            "news_body": "Outcome of Board Meeting held today i.e 05th day of February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2fc1ba85-067a-4254-9c3a-adec9646de9a.pdf",
+            "news_date": "2026-02-05 16:51:47"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings call invitation - Q3 & 9M FY2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d08b528-8366-4998-9993-11b30cf5cfd5.pdf",
+            "news_date": "2026-02-03 18:51:24"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings call invitation - Q3 & 9M FY2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d89e69da-52c4-4ff5-82fe-0d4041f42fcd.pdf",
+            "news_date": "2026-02-03 17:35:05"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Interim Dividend If Any.",
+            "news_body": "Record date for Interim Dividend If any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ef122d9-7a1a-4f44-9ba5-f5f127cf7c4a.pdf",
+            "news_date": "2026-01-29 17:24:48"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Financial Results For The Quarter Ended December 31 2025 And Declaration Of Interim Dividend If Any For The FY 2025-26.",
+            "news_body": "Shivalik Bimetal Controls Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/02/2026 inter alia to consider and approve the unaudited financial results for the quarter and nine months ended December 31 2025 and declaration of interim dividend if any for the FY 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddedebb9-1bfa-4f25-bc06-1da37614f4b5.pdf",
+            "news_date": "2026-01-29 17:08:07"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release dated January 29 2026 regarding minor fire incident at main plant; no casualties and no damage to equipment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=58ca6f07-0206-4460-a9ed-26d90f618487.pdf",
+            "news_date": "2026-01-29 12:42:04"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Strikes /Lockouts / Disturbances",
+            "caption": "Announcement under Regulation 30 (LODR)-Strikes /Lockouts / Disturbances",
+            "news_body": "Intimation of minor fire incident at Companys main plant at solan Himachal Pradesh",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82fbcc8f-4026-41f1-baf8-e8ee7f605e94.pdf",
+            "news_date": "2026-01-29 12:12:18"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a13e793f-7b6b-4655-8d93-68d58664fe90.pdf",
+            "news_date": "2026-01-12 12:34:25"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97879665-bd3b-4d01-a562-b7f05a5c1a38.pdf",
+            "news_date": "2025-12-22 14:26:55"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Transfer of Shares to Investor Education and Protection Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac4cac27-9ee0-4c6d-89a1-20b1526fc2cb.pdf",
+            "news_date": "2025-12-17 11:05:40"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Institutional Investor(s)/ Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0714e0ec-99ec-4b66-8dbb-caa5a66977ef.pdf",
+            "news_date": "2025-11-19 22:58:43"
+        },
+        {
             "sym": "SBCL",
             "disp": "Shivalik Bimetal Controls",
             "bse_code": 513097,
@@ -72,6 +303,61 @@
             "sid": 4656,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript Q2&H1 FY2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19adc7ec-5a40-4af1-b5ea-2010374af248.pdf",
+            "news_date": "2025-11-19 22:55:37"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 31A(3)(Vii) Of SEBI (LODR) 2015",
+            "news_body": "Intimation regarding shareholders approval w.r.t Reclassification of Promoter under Regulation 31A (3) (vii) of SEBI(LODR) 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=505f40dd-d59a-42e4-8598-e1cb552093a0.pdf",
+            "news_date": "2025-11-18 17:58:57"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Transcript of Extra Ordinary General meeting 01/2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=202a969d-5e92-4888-adfe-e7b7556b9cc2.pdf",
+            "news_date": "2025-11-18 17:54:56"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report of Extra Ordinary General Meeting 01/2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6761bf1b-bf34-410f-afb8-d42c4bdbb360.pdf",
+            "news_date": "2025-11-18 17:53:07"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Proceedings of Extra Ordinary General Meeting 01/2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c64b7ea-655f-455d-9ddd-e3dfd20d880b.pdf",
+            "news_date": "2025-11-18 17:50:24"
         },
         {
             "sym": "SBCL",
@@ -98,6 +384,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call Q2 & H1 FY2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcb88833-d0f4-4f19-a646-b02836f588c2.pdf",
+            "news_date": "2025-11-13 22:45:07"
+        },
+        {
             "sym": "SBCL",
             "disp": "Shivalik Bimetal Controls",
             "bse_code": 513097,
@@ -120,6 +417,50 @@
             "sid": 4656,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Q2 & H1 FY2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aaf564be-c898-4b2f-a9ee-8a534af2be55.pdf",
+            "news_date": "2025-11-13 13:41:34"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of unaudited results of quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6720933-77a8-4e52-b035-57a81c4fec91.pdf",
+            "news_date": "2025-11-13 10:52:50"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Internal Auditor",
+            "news_body": "Board Resolved to appoint M/s T R Chadha & Co. LLP Chartered Accountants New Delhi as internal Auditor of the Company for FY 2026-27 commencing from 01st April 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59571261-682f-45dc-92da-71a260f5a246.pdf",
+            "news_date": "2025-11-12 19:17:39"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 12th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87f0be60-285e-407e-9821-4ae12dea7b83.pdf",
+            "news_date": "2025-11-12 17:46:48"
         },
         {
             "sym": "SBCL",
@@ -146,6 +487,259 @@
             "seg": "E"
         },
         {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Unaudited Standalone and Consolidated Financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=926708f5-0dfd-4b18-8255-b78080860a6c.pdf",
+            "news_date": "2025-11-12 15:09:09"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held Today I.E 12Th Day Of November 2025",
+            "news_body": "Outcome of Board meeting held today i.e 12th day of November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=895f992b-d452-4cd7-bbe1-760b444e57a3.pdf",
+            "news_date": "2025-11-12 15:04:05"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings call invitation - Q2 & H1 FY2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c14472cf-5abb-4691-b703-ac714ae8e1f2.pdf",
+            "news_date": "2025-11-10 14:45:47"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Standalone And Consolidated Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Shivalik Bimetal Controls Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2025 inter alia to consider and approve the unaudited standalone and consolidated financial Results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2acfa40-e52c-4bc0-8112-889930df7076.pdf",
+            "news_date": "2025-11-05 17:57:28"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Notice of Extra Ordinary General Meeting 01/2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=890d8d84-813f-44a9-8d69-6c70886c3d7c.pdf",
+            "news_date": "2025-10-16 11:23:48"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Notice Calling The Extra-Ordinary General Meeting Scheduled To Be Held On November 18 2025",
+            "news_body": "Notice calling the Extra Ordinary General Meeting scheduled to be held on November 18 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba378158-2ee0-4450-8042-d693e0a3af39.pdf",
+            "news_date": "2025-10-15 13:41:51"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6f55e4a-9adf-4adf-88eb-0fcf06cbf12e.pdf",
+            "news_date": "2025-10-14 17:41:53"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held Today  I.E 10Th Day Of October 2025",
+            "news_body": "Outcome of Board Meeting held Today  i.e 10th day of October 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec4ea30b-0d73-4b2b-bad4-14fcd8ca0619.pdf",
+            "news_date": "2025-10-10 12:55:22"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Receipt Of No-Objection Letter For Reclassification From Promoter Category To Public Category Shareholder In Accordance With Regulation 31A Of SEBI (LODR)",
+            "news_body": "Intimation of receipt of No Objection Letter for Reclassification from promoter and promoter group to public",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3526736-aafb-4511-9d7b-5ea97d2da6d2.pdf",
+            "news_date": "2025-09-30 10:25:44"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9101477-b3f0-4e70-95d7-3f8cdb27c04f.pdf",
+            "news_date": "2025-09-26 16:54:46"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results of 41st Annual General Meeting along with Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=704f3511-4e55-4d29-8729-36bf5c764b09.pdf",
+            "news_date": "2025-09-17 20:32:16"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management w.r.t a) Appointment of Dr Shrikant Baldi as Independent Director for a term of 5 years b)Appointment due to retire by rotation of Mr. G S Gill c) Appointment of M/s R Miglani & Co as Secretarial Auditor for a period of 5 years d) Ratification of Remuneration of Cost Auditors for the FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f706638c-5d60-491d-8dde-ae635da0aca3.pdf",
+            "news_date": "2025-09-16 19:30:23"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5a72ef1-5bec-4366-87ad-fa67e9ee58d6.pdf",
+            "news_date": "2025-09-16 19:11:53"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 10(6) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 10(6) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 10(6) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Kabir Ghumman",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7F578C91_1E1D_4A1A_97DD_538005FD40A3_114958.pdf",
+            "news_date": "2025-09-04 11:50:03"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Sumer Ghumman",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3DB779AE_6E44_4939_9E02_664C44E5525A_132040.pdf",
+            "news_date": "2025-09-02 13:20:55"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Kabir Ghumman",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B90651E5_1F48_4953_873D_C1C3707F25A5_131858.pdf",
+            "news_date": "2025-09-02 13:19:02"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Regulation-42 Intimation Of Record Date",
+            "news_body": "Regulation 42- Intimation of Record Date i.e. September 9 2025 for the purpose of Final Dividend FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b112dee4-433c-4fd1-8401-ee61c0aa2083.pdf",
+            "news_date": "2025-08-25 18:39:25"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Notice of 41st AGM of the Company in Jansatta and Financial Express",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b28a2812-cf2e-45df-872c-23c4e7b704be.pdf",
+            "news_date": "2025-08-23 14:23:40"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reg 36(1)(B) - Dispatch Of Letter To Shareholders",
+            "news_body": "Dispatch of letter to shareholders having link and QR code to access the Notice of AGM and Annual Report of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=38de5845-8b7d-46c0-b12a-5bb579cbd071.pdf",
+            "news_date": "2025-08-23 14:19:59"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Intimation Of Book Closure For Determining Eligibility For Final Dividend",
+            "news_body": "Book Closure pursuant to Reg 42 for 41st Annual General Meeting- Wednesday September 10 2025 to Tuesday September 16 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bbf693d-b7f5-45bf-b4fc-163a4dcee691.pdf",
+            "news_date": "2025-08-22 18:32:33"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of Annual General Meeting",
+            "news_body": "Notice of 41st Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b583660-2a8c-4866-968e-32429d277cf0.pdf",
+            "news_date": "2025-08-22 18:28:30"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Reporting FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=065dbda1-1b1c-4cf5-ac1c-66dd4172fb20.pdf",
+            "news_date": "2025-08-22 18:26:38"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2cf4bf6f-8751-4ce6-811b-86310e98bf40.pdf",
+            "news_date": "2025-08-22 18:24:17"
+        },
+        {
             "sym": "SBCL",
             "disp": "Shivalik Bimetal Controls",
             "bse_code": 513097,
@@ -168,6 +762,39 @@
             "sid": 4656,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Q1FY26 Earnings Call Transcript held on August 14 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eac8d12f-32cf-4d2f-bab4-d7f5d8ee204f.pdf",
+            "news_date": "2025-08-20 14:37:44"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 10(5) in respect of acquisition under Reg. 10(1)(a) of SEBI (SAST) Reg. 2011",
+            "caption": "Disclosures under Reg. 10(5) in respect of acquisition under Reg. 10(1)(a) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 10(5) in respect of acquisition under Regulation 10(1)(a) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Kabir Ghumman",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83A24478_4C4C_4761_BC51_488175D0FEA9_104618.pdf",
+            "news_date": "2025-08-19 10:46:23"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of unaudited results for the quarter ended June 30 2025 (Jansatta- Hindi Edition)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e012209-933d-458b-bf5c-4d0a00e7bd78.pdf",
+            "news_date": "2025-08-15 11:00:48"
         },
         {
             "sym": "SBCL",
@@ -194,6 +821,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reg 30- Earnings Call Audio Recording",
+            "news_body": "Audio recording of Earnings Call Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72267f1e-3702-4470-811b-cc9b94034c52.pdf",
+            "news_date": "2025-08-14 18:14:35"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Reg 31A Of SEBI (LODR) 2015 - Promoter Reclassification",
+            "news_body": "Reg 31A - Application to Stock Exchange for Obtaining NOC w.r.t Request of Promoter Reclassification",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02997ebf-23dd-4fbc-baa5-eb68f42b4704.pdf",
+            "news_date": "2025-08-14 18:08:22"
+        },
+        {
             "sym": "SBCL",
             "disp": "Shivalik Bimetal Controls",
             "bse_code": 513097,
@@ -216,6 +865,17 @@
             "sid": 4656,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fa293f7-ee66-4c4a-8a9e-6f6e61b60e3f.pdf",
+            "news_date": "2025-08-14 12:51:47"
         },
         {
             "sym": "SBCL",
@@ -242,6 +902,72 @@
             "seg": "E"
         },
         {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aafb4681-e9f2-42f2-984d-4f5d3bb9e0d2.pdf",
+            "news_date": "2025-08-14 12:51:03"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of unaudited results (Standalone and Consolidated) for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55ab784e-d859-4793-89fa-e752f256e76f.pdf",
+            "news_date": "2025-08-14 11:38:23"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Regulation-30 Re-Appointment Of Internal Auditors Tax Auditors Cost Auditors And Secretarial Auditors",
+            "news_body": "Regulation 30- Re-appointment of Internal Auditors Tax Auditors Cost Auditors for 1 year and Secretarial Auditors for 5 years (subject to approval of shareholders in AGM)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45f07dcc-04f7-4759-8ab0-1a7fbdcfa4c5.pdf",
+            "news_date": "2025-08-13 19:39:48"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Proposal to appoint a) Mr. Srikant Baldi as Non- Executive Independent Director subject to approval of shareholder b) Approval of retire by rotation of Mr. G S Gill",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6e116c6-dc30-4487-8b1e-e714138c5184.pdf",
+            "news_date": "2025-08-13 19:36:48"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 13th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6d31d7e-6318-4e5c-afa0-c6f57ef5ac5c.pdf",
+            "news_date": "2025-08-13 18:14:19"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reg 30- Approval Of Board To File Application To Obtain NOC Under Reg 31A W.R.T Reclassification Request",
+            "news_body": "Reg 31A - Approval to file application to obtain NOC w.r.t Reclassification request received",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e9c72a2-0d72-425f-9ed8-762d8f62041e.pdf",
+            "news_date": "2025-08-13 17:18:56"
+        },
+        {
             "sym": "SBCL",
             "disp": "Shivalik Bimetal Controls",
             "bse_code": 513097,
@@ -264,6 +990,116 @@
             "sid": 4656,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Results For The Quarter Ended June 30 2025",
+            "news_body": "Unaudited Standalone and consolidated financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6dfd7e4-eab2-4edb-b1f0-4fb7c536a176.pdf",
+            "news_date": "2025-08-13 17:00:20"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of the Board meeting dated 13th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bee83776-8caf-4e5a-b989-93729417c68e.pdf",
+            "news_date": "2025-08-13 16:52:12"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings call invitation - Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70b47fa3-cd82-4abe-b671-64c3c41d4492.pdf",
+            "news_date": "2025-08-11 18:12:27"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Standalone And Consolidated Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Shivalik Bimetal Controls Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/08/2025 inter alia to consider and approve the unaudited standalone and consolidated financial results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b201793-9e60-49bc-a5d9-de22df7b2d8f.pdf",
+            "news_date": "2025-08-06 18:03:08"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Reg. 30 - Newspaper publication w.r.t a) Transfer of shares to Investor Education Protection Fund and b) In compliance with SEBI Circular dated July 02 2025 w.r.t special window for Re-lodgement of transfer requests of physical shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=edc7af0e-ef7c-44da-a955-af59e8cb5a3b.pdf",
+            "news_date": "2025-07-16 10:39:06"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9292f3d-cece-469e-94f7-60191fd26fd1.pdf",
+            "news_date": "2025-07-14 10:39:57"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " Intimation Regarding Request Letter Received From Members Of The Promoter(S) For Reclassification From \"Promoter And Promoter Group\" Category To \"Public\" Category Pursuant To Regulation 30 & 31A Of SEBI (Listing Obligations And Disclosure Requirements) R",
+            "news_body": "Pursuant to Regulation 30 and 31A of SEBI (LODR) Regulations 2015 we wish to inform that the company has received request letters for reclassifying their shareholding from promoter to promoter group category to public category.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8eda2324-2f06-49e3-9750-d2b1523d7d83.pdf",
+            "news_date": "2025-07-11 22:48:16"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30-  Information/Update On New Contact No. Of The Corporate Office At Nehru Place Delhi.",
+            "news_body": "Disclosure under Regulation 30 of SEBI (LODR) Regulations 2015 - Information/update on new contact no. of the corporate office at Nehru Place Delhi.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17d814f1-c7c0-4672-b4cb-c6c3c5e9e4fb.pdf",
+            "news_date": "2025-07-05 11:02:30"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9106db25-e487-4cb8-8a5d-a481dc10ac86.pdf",
+            "news_date": "2025-06-25 12:55:27"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Reporting To Stock Exchanges Regarding Violations Under Securities And Exchange Board Of India (Prohibition Of Insider Trading) Regulations 2015",
+            "news_body": "Update on reporting to stock exchange regarding violations under SEBI (PIT) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bac25e5-65e2-4953-88c3-9a5a3dd8470d.pdf",
+            "news_date": "2025-06-11 17:06:39"
         },
         {
             "sym": "SBCL",
@@ -290,6 +1126,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Earnings call Q4 & FY2025 dated May 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95d1e642-29dd-4a96-97eb-9cdf774d8d1a.pdf",
+            "news_date": "2025-06-05 17:14:31"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Publication of Results - Hindi Edition",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab8c6628-0171-4cd0-be83-6f187c8971d0.pdf",
+            "news_date": "2025-05-31 10:43:17"
+        },
+        {
             "sym": "SBCL",
             "disp": "Shivalik Bimetal Controls",
             "bse_code": 513097,
@@ -312,6 +1170,17 @@
             "sid": 4656,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 - Link Of Audio Recording",
+            "news_body": "Earning call Audio Recording - Q4FY25 & FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=052561ab-a136-4a51-b975-fb09c8f804ea.pdf",
+            "news_date": "2025-05-30 18:33:41"
         },
         {
             "sym": "SBCL",
@@ -338,6 +1207,61 @@
             "seg": "E"
         },
         {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Q4 & FY 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9540a776-dad8-4644-8e7d-78559e0f6b1a.pdf",
+            "news_date": "2025-05-30 12:15:49"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Results - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f1fe4c1-477d-4ec0-82b3-2086e2c332cd.pdf",
+            "news_date": "2025-05-30 10:37:45"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press release dated May 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ef06a99-2831-4382-8cbb-e9574e97c759.pdf",
+            "news_date": "2025-05-29 22:03:08"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dde85b1-8b2c-42c2-9794-a9b69c51c30a.pdf",
+            "news_date": "2025-05-29 18:12:13"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board of Directors at its meeting held today i.e 29th May 2025 recommended a final dividend of Rs. 1.50 per equity shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b69f996-8d6c-4be3-a7e3-85b5efcaccaf.pdf",
+            "news_date": "2025-05-29 17:55:35"
+        },
+        {
             "sym": "SBCL",
             "disp": "Shivalik Bimetal Controls",
             "bse_code": 513097,
@@ -362,6 +1286,171 @@
             "seg": "E"
         },
         {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results-Audited Financial Results For Quarter And Year Ended March 31 2025",
+            "news_body": "Audited standalone and consolidated financial results for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcb0945e-3921-4f78-9094-a68c8de08086.pdf",
+            "news_date": "2025-05-29 17:48:46"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held Today I.E 29Th Day Of May 2025",
+            "news_body": "1. The Audited Financial Results of the Company (Standalone and Consolidated) for the Financial Year ended March 31 2025; \r\n2. Recommended a final dividend @75% i.e. Rs. 1.50/- per equity share of Rs. 2/- each for the financial year ended March 31 2025 subject to the approval of the shareholders at the forthcoming Annual General Meeting of the Company. The final dividend is in addition to interim dividend of Rs. 1.20/- per equity share already declared during the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fee4e5ae-bb6e-4569-90ee-81b8ddc34c98.pdf",
+            "news_date": "2025-05-29 17:41:31"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings call invitation - Q4 & FY2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=396647af-abe1-4359-a2ae-fbc87b1c4cb3.pdf",
+            "news_date": "2025-05-27 13:52:46"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for For Consider And Approve The Audited Financial Results For The Year Ended March 31 2025 And Recommendation Of Final Dividend If Any.",
+            "news_body": "Shivalik Bimetal Controls Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/05/2025 inter alia to consider and approve a) the Audited Standalone and Consolidated Financial Results for the quarter and year ended March 31 2025;\r\nb) recommend final dividend to the shareholders for approval if any for the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42a9840f-3a2b-4e2d-b579-4f1d209a8aa1.pdf",
+            "news_date": "2025-05-22 22:23:09"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Corporate Office Address",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Corporate Office Address",
+            "news_body": "Intimation about Change of Corporate Office Address from H-2 Suneja Chambers 2nd Floor Alaknanda Commercial Complex New Delhi -110019 to 04th Floor Space No. 408 Eros Corporate Tower Nehru Place New Delhi -110019",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf8a8c7c-6ae2-4275-8ca6-9f0c789c9c77.pdf",
+            "news_date": "2025-05-05 17:07:05"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Shivalik Bimetal Controls Ltd</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L27101HP1984PLC005862</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>A</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>CRISIL LTD.</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: AARTI SAHNI <br/>  Designation: COMPANY SECRETARY <br/> EmailId: aartijassal@shivalikbimetals.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: RAJEEV RANJAN <br/> Designation: CHIEF FINANCIAL OFFICER <br/> EmailId: rranjan@shivalikbimetals.com</div> </div> <div> <br/> Date: 23/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d8e1b1a-2dfc-4816-a768-2716741dce56.pdf",
+            "news_date": "2025-04-23 12:46:46"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (D & P) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f9576a1-d25a-4654-b28a-ba56cb4dcf88.pdf",
+            "news_date": "2025-04-15 12:28:04"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)- Business Update",
+            "news_body": "Business update of Shivalik Bimetal Controls Ltd. on Impact Assessment on US Tariff Announcement.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f65e130a-9617-4fbf-bcd0-ed2e873856d7.pdf",
+            "news_date": "2025-04-11 13:42:13"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4df2e3cf-6081-408d-8a13-03dd9119f389.pdf",
+            "news_date": "2025-03-25 18:17:03"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 Shivalik Bimetal Controls Limited (the Company) hereby informs that the\r\nCompany is having meeting with Institutional Investors through a Non-Deal Roadshow organised by Ambit Capital Private Limited as per the details attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=267c679c-e9d3-429c-b7c7-73cc40492a33.pdf",
+            "news_date": "2025-03-05 13:41:00"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Reporting Regarding Violations Under Securities And Exchange Board Of India (Prohibition Of Insider Trading) Regulations 2015",
+            "news_body": "Reporting regarding violations under SEBI ( Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7672971-2e1a-4905-892b-b5ecc664dadb.pdf",
+            "news_date": "2025-02-18 18:49:00"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Earnings Call Q3 & 9M FY25 dated February 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=796b08fe-c420-4393-956f-e1ddf36ef331.pdf",
+            "news_date": "2025-02-18 18:39:13"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Publication of Unaudited Results-Q3 & 9M FY25 - Jansatta dated 14.02.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=876185ad-f6ce-4251-82a2-14c07fe70d92.pdf",
+            "news_date": "2025-02-14 10:50:20"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call Q3 & 9MFY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d68906e0-4855-4c4b-83e1-8ff856f2bb23.pdf",
+            "news_date": "2025-02-13 18:26:36"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "unaudited quarterly results Q3FY25 & 9MFY25 - Financial Express dated 13/02/2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdfacc22-6d92-4e43-bdfc-53819aa84069.pdf",
+            "news_date": "2025-02-13 12:26:51"
+        },
+        {
             "sym": "SBCL",
             "disp": "Shivalik Bimetal Controls",
             "bse_code": 513097,
@@ -384,6 +1473,17 @@
             "sid": 4656,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1336,
+            "bse_code": 513097,
+            "isin": "INE386D01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Q3FY25 &9MFY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6aa779d1-f26a-4bc4-848f-dfb13c24c511.pdf",
+            "news_date": "2025-02-12 21:07:41"
         },
         {
             "sym": "SBCL",
@@ -1585,6 +2685,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

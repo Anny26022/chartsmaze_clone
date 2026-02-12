@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa748fd7-1083-4c78-a8dd-45458be2c16e.pdf",
+            "news_date": "2026-02-11 18:34:47"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Concall - audio link",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50d6d8fe-f295-412e-afc1-0ef17d435297.pdf",
+            "news_date": "2026-02-09 19:22:47"
+        },
+        {
             "sym": "SARDAEN",
             "disp": "Sarda Energy & Minerals",
             "bse_code": 504614,
@@ -24,6 +46,39 @@
             "sid": 17758,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a4fefc0-cc2e-4b57-9e79-f7411c7c2946.pdf",
+            "news_date": "2026-02-09 13:30:26"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a252553a-a96c-4b2e-a4b2-fb6889611765.pdf",
+            "news_date": "2026-02-07 17:54:22"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef955937-819a-4dce-9d07-e72d355ab569.pdf",
+            "news_date": "2026-02-07 15:21:50"
         },
         {
             "sym": "SARDAEN",
@@ -50,6 +105,193 @@
             "seg": "E"
         },
         {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Results For 3Rd Quarter And Nine Months Ended 31.12.2025",
+            "news_body": "Unaudited Results for 3rd quarter and nine months ended 31.12.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1d3ba25-4241-405a-8a0c-e8abfe777c7b.pdf",
+            "news_date": "2026-02-07 15:20:11"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06f625f1-6663-4b25-8f72-e762d2c68009.pdf",
+            "news_date": "2026-02-07 15:16:03"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a6ef8cd-0f23-44f4-bfd3-71aac78242a6.pdf",
+            "news_date": "2026-02-05 16:18:15"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=123c8510-a3f3-48b9-809d-5f74b88121c0.pdf",
+            "news_date": "2026-02-03 13:32:20"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Concall",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e57e3e4-9427-4e00-8c37-2e326cdf3cf2.pdf",
+            "news_date": "2026-02-03 12:48:24"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b27ca5a-1380-4d44-b044-261787e274ad.pdf",
+            "news_date": "2026-01-19 15:03:27"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting",
+            "news_body": "Sarda Energy & Minerals Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/02/2026 inter alia to consider and approve Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c50f54a0-74a7-4c5b-8dcb-90a85db7f11a.pdf",
+            "news_date": "2026-01-19 15:01:28"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a6dd678-f0f4-4854-aa9d-b200392938d3.pdf",
+            "news_date": "2026-01-17 15:30:52"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0797788f-b28a-4fbd-9978-36f0f3795b6f.pdf",
+            "news_date": "2026-01-13 12:33:08"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4065c584-a86b-4d04-9bfe-97347910e9a3.pdf",
+            "news_date": "2025-12-30 18:13:38"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7932e835-47e7-4d6c-889a-74dfb9d86c8e.pdf",
+            "news_date": "2025-12-24 16:01:38"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7516930a-a3c0-4ccc-bf7c-b636f9270994.pdf",
+            "news_date": "2025-12-23 16:54:19"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=884f2ba0-86cf-461c-8cef-a14c89d65e17.pdf",
+            "news_date": "2025-12-22 15:33:33"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2832203b-9eab-4b90-b0b3-0073b0b6f1a3.pdf",
+            "news_date": "2025-12-22 15:15:20"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0cc71f95-eb26-42f8-ae92-f997415d76f3.pdf",
+            "news_date": "2025-11-27 13:29:59"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Concall transcript.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60bc044d-57dd-4acc-a932-614297b09620.pdf",
+            "news_date": "2025-11-20 14:42:27"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Link",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a4df8529-4a24-42bb-adb0-bd55b4077a03.pdf",
+            "news_date": "2025-11-12 19:34:48"
+        },
+        {
             "sym": "SARDAEN",
             "disp": "Sarda Energy & Minerals",
             "bse_code": 504614,
@@ -72,6 +314,72 @@
             "sid": 17758,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f862c5ee-9e82-49c3-b29b-a2844a015573.pdf",
+            "news_date": "2025-11-12 13:00:57"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Revision In Rating Outlook - Wholly Owned Subsidiary",
+            "news_body": "Revision in Rating Outlook - Wholly Owned Subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d3f92de-1e17-4bcf-8bd7-f6ebf0321390.pdf",
+            "news_date": "2025-11-12 10:35:37"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Revision in Rating Outlook",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3769ee5b-1743-4d72-8a1b-a0db1a26f09a.pdf",
+            "news_date": "2025-11-12 10:32:38"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release (Revised)",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release (Revised)",
+            "news_body": "Revised - Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85ad1ab3-2cb4-4637-a323-6445ac7bfc5f.pdf",
+            "news_date": "2025-11-11 12:50:27"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfbd0606-bd8d-4e68-8ee1-a96af6fbb013.pdf",
+            "news_date": "2025-11-11 11:41:43"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Un-Audited Results For The Quarter And Half Year Ended 30.09.2025",
+            "news_body": "Un-audited results for the quarter and half year ended 30.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff6e0387-e3b1-4797-8bc9-df1d8cafbf84.pdf",
+            "news_date": "2025-11-10 14:21:27"
         },
         {
             "sym": "SARDAEN",
@@ -98,6 +406,281 @@
             "seg": "E"
         },
         {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Results For The Quarter And Half Year Ended 30.09.2025",
+            "news_body": "Un-audited Results for the quarter and half year ended 30.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=783be92f-ffa1-4024-b5b5-828f1971c31f.pdf",
+            "news_date": "2025-11-10 14:19:10"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Company to participate in investor conferences on 14/11/2025 and 20/11/2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f184357-0432-4e91-9d8f-2cfc03eb4ba5.pdf",
+            "news_date": "2025-11-07 15:25:19"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Conference call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ce1b516-fb30-4f47-81bc-746a0ec3e13c.pdf",
+            "news_date": "2025-11-07 14:53:08"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08321feb-ce70-4557-a8e1-0f06773924f7.pdf",
+            "news_date": "2025-10-27 17:54:03"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering 2Nd Quarter 2025-26 Unaudited Results",
+            "news_body": "Sarda Energy & Minerals Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/11/2025 inter alia to consider and approve un-audited results for 2nd quarter 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57046e71-7e57-452a-9da3-ef755737c1cc.pdf",
+            "news_date": "2025-10-27 16:50:29"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate  under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=785ce2de-29de-4b0c-87f5-703ba66eb886.pdf",
+            "news_date": "2025-10-18 15:17:04"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Minutes of 52nd AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64f69320-69e4-4898-8993-b1ec96018599.pdf",
+            "news_date": "2025-10-11 15:14:46"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cb2ff38-bf1a-4cd8-b483-c850ba7362ef.pdf",
+            "news_date": "2025-10-10 17:10:32"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results and Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc796e3a-5ce9-4f26-86d1-a55eae36beb1.pdf",
+            "news_date": "2025-09-26 17:59:04"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba5a1d6e-03fb-45a7-a57f-76fd7f0c9d0d.pdf",
+            "news_date": "2025-09-26 12:01:40"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 52nd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67c65be4-44d8-4731-96f8-3f826d7bc2f2.pdf",
+            "news_date": "2025-09-25 12:43:15"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Meeting with investor group",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6688f8f1-a792-409d-b8dc-466506c7a3a1.pdf",
+            "news_date": "2025-09-08 17:09:23"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ecab52d-1acb-4b19-b10f-493b76b4f3d3.pdf",
+            "news_date": "2025-09-02 13:11:04"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "BRSR 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=624f0508-e1bc-4943-8f13-17442acd34b8.pdf",
+            "news_date": "2025-09-01 17:26:37"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80743f36-fa94-4935-8656-4c0fcc36a4cf.pdf",
+            "news_date": "2025-09-01 17:25:35"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "AGM On 25.09.2025",
+            "news_body": "AGM on 25.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f06d0ccf-793a-4793-992b-ffcf58e0c3da.pdf",
+            "news_date": "2025-09-01 17:16:30"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e41ea8f-bcfb-4e9c-8c5d-eea8885d00c8.pdf",
+            "news_date": "2025-08-22 15:46:00"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Declaration Of Successful Bidder",
+            "news_body": "Declaration of Successful Bidder",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d94351f-e0f8-42ff-9204-5a3c4a9da70b.pdf",
+            "news_date": "2025-08-19 12:05:53"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Participation in conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea74ee99-7399-4b8d-9db6-57ddbe012e2f.pdf",
+            "news_date": "2025-08-19 10:35:03"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "participation in Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84b9406e-7693-4edf-8b68-fa8a0fd3dc35.pdf",
+            "news_date": "2025-08-18 10:53:35"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Concall Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a338a42-ec5e-401b-8ca7-aed34f9d6346.pdf",
+            "news_date": "2025-08-11 15:24:33"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f25b0620-c035-49a8-98f8-4bb7fb6239fc.pdf",
+            "news_date": "2025-08-11 13:10:24"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification Regarding Increase In Volume",
+            "news_body": "Clarification regarding increase in volume",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79f537c7-11b1-4c18-88a7-e2fb45b27ed8.pdf",
+            "news_date": "2025-08-06 16:00:35"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Sarda Energy & Minerals Ltd",
+            "news_body": "The Exchange has sought clarification from Sarda Energy & Minerals Ltd on August 5 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-08-05 11:28:41"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio link of concall",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71cb86e2-e009-4f48-89a9-47e4c0d397cc.pdf",
+            "news_date": "2025-08-04 18:46:52"
+        },
+        {
             "sym": "SARDAEN",
             "disp": "Sarda Energy & Minerals",
             "bse_code": 504614,
@@ -120,6 +703,61 @@
             "sid": 17758,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af75d6f4-68eb-4b47-8af3-2a7ab8987c4e.pdf",
+            "news_date": "2025-08-04 13:56:46"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a552c8a6-351a-4e8f-8863-b9c8b767ef13.pdf",
+            "news_date": "2025-08-02 19:14:11"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Dividend 2024-25",
+            "news_body": "Record Date for dividend 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1e89c53-86e1-43e4-a6d2-0a2ff45a6b8a.pdf",
+            "news_date": "2025-08-02 16:08:57"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Amendment to AOA",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=993e9164-8fc5-4eaf-a2c4-1c7d5b2fce45.pdf",
+            "news_date": "2025-08-02 16:02:13"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "\r\nchange in management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4aa875a-62a3-4c01-84b7-d0ebc41bf86d.pdf",
+            "news_date": "2025-08-02 15:59:14"
         },
         {
             "sym": "SARDAEN",
@@ -146,6 +784,171 @@
             "seg": "E"
         },
         {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Results For The Quarter Ended 30.06.2025",
+            "news_body": "Unaudited Results for the quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db2c8e2f-88f7-4bc9-9f11-e5e1a81d1a6c.pdf",
+            "news_date": "2025-08-02 15:53:22"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d60acf1-3389-49dc-842d-ca26aa570920.pdf",
+            "news_date": "2025-08-02 15:46:02"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of concall",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26e9c674-3aae-4a4f-a317-1e11fe3daf6d.pdf",
+            "news_date": "2025-07-26 10:43:29"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca699c44-89aa-41e3-8b34-8cc0c250edb9.pdf",
+            "news_date": "2025-07-21 13:13:59"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Results For 1St Quarter 2025-26 And Seeking Consent Of The Members For Raising Funds Through Permissible Means",
+            "news_body": "Sarda Energy & Minerals Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 02/08/2025 inter alia to consider and approve Unaudited results for 1st quarter 2025-26 and seeking consent of the members for raising funds through permissible means",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7532eb9-05c4-4971-b5c7-85f6fced348b.pdf",
+            "news_date": "2025-07-21 12:59:03"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a4be74e-9091-46bc-97e7-5742ca1c4c3f.pdf",
+            "news_date": "2025-07-14 17:27:13"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a157790-eadb-4107-bce5-00e862f04425.pdf",
+            "news_date": "2025-07-11 17:43:57"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1d7380f-18be-4d48-992e-0e850d952d5d.pdf",
+            "news_date": "2025-07-09 13:43:55"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32055fc3-29c4-442a-9ab3-0037f66e0c33.pdf",
+            "news_date": "2025-07-03 16:05:45"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Consent To Operate",
+            "news_body": "Consent to Operate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcc235fe-8155-4793-b9fa-15e54e74995e.pdf",
+            "news_date": "2025-06-28 11:13:38"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fd29bf8-f63d-4e51-93fc-bab5b339bfc7.pdf",
+            "news_date": "2025-06-27 10:24:55"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Concall Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=275b2fc8-e335-4d0c-a009-b344a279dcc0.pdf",
+            "news_date": "2025-06-02 18:43:22"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Consent To Operate",
+            "news_body": "Consent to Operate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=16ee1620-2c07-4186-b41b-44c495da7e0b.pdf",
+            "news_date": "2025-06-02 18:01:18"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fc4e7dd-00b8-43d1-99ae-f15bb3b4cd19.pdf",
+            "news_date": "2025-05-29 10:59:08"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Link for concall",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cb0a7f1d-5bed-41ea-9aed-418ad3fbda66.pdf",
+            "news_date": "2025-05-27 19:18:07"
+        },
+        {
             "sym": "SARDAEN",
             "disp": "Sarda Energy & Minerals",
             "bse_code": 504614,
@@ -168,6 +971,50 @@
             "sid": 17758,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79e0529d-f3bb-42aa-bde0-0c812ac6060f.pdf",
+            "news_date": "2025-05-27 13:32:12"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70bb897f-9fbf-4256-9d74-c966e59f9af8.pdf",
+            "news_date": "2025-05-24 19:35:58"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor And Cost Auditor",
+            "news_body": "Appointment of Secretarial Auditor and Cost Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5d4797d-1835-4a2b-bb2e-55af66eaa846.pdf",
+            "news_date": "2025-05-24 16:29:30"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Board recommends dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=adcc9af0-cec7-4ef0-af70-c3aeb08f428c.pdf",
+            "news_date": "2025-05-24 16:26:51"
         },
         {
             "sym": "SARDAEN",
@@ -194,6 +1041,204 @@
             "seg": "E"
         },
         {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Year Ended 31.03.2025",
+            "news_body": "Financial Results for the quarter and year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d5da21f-7d95-4111-b39c-025ef6dd6249.pdf",
+            "news_date": "2025-05-24 16:24:55"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8af52a6a-bb3c-4926-b972-564393cd646b.pdf",
+            "news_date": "2025-05-24 16:17:54"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Concall intimation - Updated",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f703bf9-1198-4af2-a38a-b1e475efea1b.pdf",
+            "news_date": "2025-05-22 14:58:25"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Conference call intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ac1fa6d-9a71-4c3c-9d70-885f3285e898.pdf",
+            "news_date": "2025-05-22 12:55:05"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8177b1ef-54f1-4d92-9edb-307fb0a16a2a.pdf",
+            "news_date": "2025-05-09 15:25:24"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Approving Financial Results Financial Statements And Dividend If Any For The Year Ended 31.03.2025",
+            "news_body": "Sarda Energy & Minerals Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 24/05/2025 inter alia to consider and approve financial results financial statements and dividend if any for the year ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f593a949-55a3-4182-8831-17b869046ec8.pdf",
+            "news_date": "2025-05-09 14:34:36"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41c5236f-adb0-444e-971d-6a9d35836165.pdf",
+            "news_date": "2025-04-12 10:55:57"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Sarda Metals & Alloys Ltd - Wholly Owned Subsidiary - Updates",
+            "news_body": "Sarda Metals & Alloys Ltd. - Wholly Owned Subsidiary - Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8114a32b-f0e4-4be0-b3c9-5dc6fb6703db.pdf",
+            "news_date": "2025-03-29 16:43:31"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b2412b9-2eda-4246-bf44-5a512a609d0b.pdf",
+            "news_date": "2025-03-26 15:44:33"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Restart Of Power Generation At Independent Power Plant \r\n",
+            "news_body": "Restart of power generation at Independent Power Plant",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f20a890-2706-4050-9d33-9fff4f345876.pdf",
+            "news_date": "2025-03-25 13:43:35"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fe8e38a-1a77-43a2-8f2b-d6a0a0bb87c1.pdf",
+            "news_date": "2025-03-24 17:54:29"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst/Institutional Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=818a2126-6ca5-4b66-ada9-205da24fe03a.pdf",
+            "news_date": "2025-03-13 13:05:13"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Rating - Subsidiary",
+            "news_body": "Credit Rating - Subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c60ae9fa-66b8-46ff-91b6-e6cc1018ec82.pdf",
+            "news_date": "2025-03-03 14:31:05"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding A Fire Incident",
+            "news_body": "Intimation regarding a fire incident",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6945a9b3-ad32-44f6-935c-dc70e93035ff.pdf",
+            "news_date": "2025-02-26 13:16:06"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb636387-23a8-4341-aa98-71e9ed18330f.pdf",
+            "news_date": "2025-02-21 14:49:38"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2cc04398-7731-4512-9b03-e1e7d53ec9d4.pdf",
+            "news_date": "2025-02-20 13:01:57"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Concall Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10b88067-7061-4ea0-89b3-adb578416b27.pdf",
+            "news_date": "2025-02-15 11:52:12"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio link for investors concall",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb8fed2a-1875-4334-ab1e-1e4a42f13713.pdf",
+            "news_date": "2025-02-10 15:29:08"
+        },
+        {
             "sym": "SARDAEN",
             "disp": "Sarda Energy & Minerals",
             "bse_code": 504614,
@@ -218,6 +1263,50 @@
             "seg": "E"
         },
         {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1cec295-0c3e-498c-8f63-43c1476c8049.pdf",
+            "news_date": "2025-02-10 10:11:33"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b451c07-95d6-46fa-92d1-5d438e5bcaf1.pdf",
+            "news_date": "2025-02-08 18:12:15"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (financial) for the quarter and nine months ended 31.12.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e80dcf8-3848-4f84-88e2-8960c5f275c4.pdf",
+            "news_date": "2025-02-08 16:44:11"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e88cf70-fd4b-4a3c-b837-ff86e75e9235.pdf",
+            "news_date": "2025-02-08 16:17:49"
+        },
+        {
             "sym": "SARDAEN",
             "disp": "Sarda Energy & Minerals",
             "bse_code": 504614,
@@ -240,6 +1329,17 @@
             "sid": 17758,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1140,
+            "bse_code": 504614,
+            "isin": "INE385C01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Results For The Quarter Ended 31.12.2024",
+            "news_body": "un-audited results for the quarter ended 31.12.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86f05269-bef6-406e-b2da-34474154c608.pdf",
+            "news_date": "2025-02-08 16:14:02"
         },
         {
             "sym": "SARDAEN",
@@ -1417,6 +2517,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

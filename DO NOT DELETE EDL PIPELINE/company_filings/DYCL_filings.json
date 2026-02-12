@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for Product Launch.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7a2c423-0a6d-48eb-a0a9-01e9a264b2b2.pdf",
+            "news_date": "2026-02-12 19:14:53"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Product Launch",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e28641e-4501-40ca-8b00-d7ca50197602.pdf",
+            "news_date": "2026-02-12 19:12:38"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed herewith the transcript of the conference call held on Tuesday January 27 2026 to discuss the Unaudited financial results for Quarter and Nine Months ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22da8a5a-3def-4e77-b2d2-b9db5680b63e.pdf",
+            "news_date": "2026-02-02 18:55:41"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosures Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Grant Of UL Certification And BIS License",
+            "news_body": "Intimation for Grant of UL Certification and BIS License under regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3410767a-fcf7-42e4-9b64-43a480f381d3.pdf",
+            "news_date": "2026-01-28 18:22:24"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation for Newspaper Publication on Unaudited Financial Results for the Quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c30a803-0cdd-4f7f-9590-f9d05d85d646.pdf",
+            "news_date": "2026-01-28 15:42:32"
+        },
+        {
             "sym": "DYCL",
             "disp": "Dynamic Cables",
             "bse_code": 540795,
@@ -24,6 +79,28 @@
             "sid": 10417,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "In Continuation to our letter dated January 20 2026 and pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed the link to the audio recording of the Analysts/Investors Call on the Un-audited Financial Results for the quarter and nine months ended on December 31 2025 held on Tuesday January 272026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5668faf2-8391-4379-a73b-c8ec7dd0fb30.pdf",
+            "news_date": "2026-01-27 16:54:53"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on Unaudited Financial Results for the Quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d05892c-d6f2-47ed-adcc-b3ff57b63d85.pdf",
+            "news_date": "2026-01-27 14:04:28"
         },
         {
             "sym": "DYCL",
@@ -50,6 +127,171 @@
             "seg": "E"
         },
         {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Un-audited Financial Results for the Quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9cd4099a-53c4-49da-a225-416dc91f2fe4.pdf",
+            "news_date": "2026-01-27 12:28:39"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On January 27 2026.",
+            "news_body": "Outcome of Board Meeting held on January 27 2026 pursuant to Regulation 30 and 33 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97a022d8-d285-47f7-9041-c87cec0cc37c.pdf",
+            "news_date": "2026-01-27 12:23:19"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we hereby submit details of the Conference Call with investors and analysts on the Un-audited Financial Results of the company for the quarter and nine months ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ceda7b2-f0fa-45cb-974b-d4a70c264936.pdf",
+            "news_date": "2026-01-20 17:20:10"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we hereby submit intimation regarding Conference Call with investors and analysts on the Un-audited Financial Results of the company for the quarter and nine ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3e2b737-70b8-442e-9829-38de6d85a45d.pdf",
+            "news_date": "2026-01-20 17:02:10"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considertaion And Approval Of The Un-Audited Financial Results Of The Company For The Quarter And Nine Months Ended On December 31 2025",
+            "news_body": "Dynamic Cables Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 27/01/2026 inter alia to consider and approve Pursuant to Regulation 29(1)(a) of the Listing Regulations we hereby inform you that a meeting of Board of Directors is scheduled to be held on Tuesday January 272026 inter alia to consider and approve the Un-audited Financial Results of the company for the quarter and nine months ended on December 31 2025 and to take on record Limited Review Report thereon pursuant to Regulation 33 of the Listing Regulations.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aca80732-eda1-4dd9-b774-f54f8889bc83.pdf",
+            "news_date": "2026-01-20 16:13:59"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Grant Of Accreditation By NABL.",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations & Disclosure Reqirements) Regulations 2015 for Intimation of grant of Accreditation by NABL.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=975c3a26-9046-42ef-a82b-4a96492b5909.pdf",
+            "news_date": "2026-01-12 18:20:28"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (DP) Regulations 2018 for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b19001d3-b7c9-4b43-a8c1-243a811bafd4.pdf",
+            "news_date": "2026-01-07 12:27:35"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f204344-4ef4-4c18-b6aa-89dbc72df41c.pdf",
+            "news_date": "2025-12-29 11:53:35"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Grant Of Employee Stock Options Under Dynam?? ??bles Limited - Employee Stock Option Plan 2024",
+            "news_body": "Intimation of Grant of Employee Stock Options under Dynamic Cables Limited- Employee Sock Option Plan 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e5361ee-2664-417c-ac83-3a3620e1fb6e.pdf",
+            "news_date": "2025-12-11 17:27:09"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Company has received approval from Power Grid Corporation of India Limited for the manufacturing & supply of ASCR and AL59 (upto 61 strands) for its manufacturing plant.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4186be6-8f6f-43bd-8dd7-bbc1cd2132ab.pdf",
+            "news_date": "2025-11-29 17:33:18"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015- Company has received UL Certification for cables covered under in UL 854 standard from UL Solutions.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=546b623e-07bd-4ed5-b8ae-8c9ba6f0fb86.pdf",
+            "news_date": "2025-11-28 18:00:29"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we wish to inform you that the officials of the Company will be participating in the attached Investor/ Analyst Conference organized by the Nuvama Professional Clients Group.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e9b0349-9663-4c05-a605-544068782b8c.pdf",
+            "news_date": "2025-11-25 17:52:56"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of upgradation of Credit Rtaing from India Ratings & Research Private Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb97bdda-d041-4f6e-888c-c282565b31d8.pdf",
+            "news_date": "2025-11-10 18:08:55"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "please find enclosed transcript of the conference call held on Tuesday October 28 2025 to discuss the Unaudited financial results for Quarter ended on September 30 2025.\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04644658-fa26-4d86-b9af-d2ddc87ecae3.pdf",
+            "news_date": "2025-10-31 16:33:16"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Unaudited Financial Results for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2151dc76-6cbd-4fa5-ac7c-53703ca89d5d.pdf",
+            "news_date": "2025-10-29 17:34:45"
+        },
+        {
             "sym": "DYCL",
             "disp": "Dynamic Cables",
             "bse_code": 540795,
@@ -72,6 +314,39 @@
             "sid": 10417,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "In Continuation to our letter dated October 23 2025 and pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find below the link to the audio recording of theanalysts/Investors Call on the Un-audited Financial Results of Dynamic Cables Limited for the quarter ended on September 30 2025 held on October 28 2025. \r\n\r\nIn this regard the audio recording of the said conference call has been uploaded on Companys website and can be accessed at this link https://www.dynamiccables.co.in/audio/q2fy26resultsd.mp3\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54c6f3f4-4833-443c-a7fc-ae02862a3fc8.pdf",
+            "news_date": "2025-10-28 16:29:45"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release under Regulation 30 of SEBI(Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=477da045-d48d-4198-8524-64a3a62bba60.pdf",
+            "news_date": "2025-10-28 13:40:18"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Amendment In The  Code Of Practices And Procedures For Fair Disclosure Of Unpublished Price Sensitive Information And Policy For Determination Of Legitimate Purposes",
+            "news_body": "Amendment in the \"Code of Pratices and Procedures for Fair Disclosure of Unpublished Price Sensitive Information and Policy for detremination of legitimate purposes\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12dc73ce-d28b-477d-ad0e-51edf4e850d6.pdf",
+            "news_date": "2025-10-28 13:25:51"
         },
         {
             "sym": "DYCL",
@@ -98,6 +373,127 @@
             "seg": "E"
         },
         {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter And Half Year Ended On September 30 2025.",
+            "news_body": "Un-audited Financial Results for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f068358a-aaf8-4e4e-9270-69baacac3436.pdf",
+            "news_date": "2025-10-28 12:24:23"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On October 28 2025.",
+            "news_body": "Outcome of Board Meeting held on October 28 2025 pursuant to Regulation 30 and 33 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=330d64bc-ebd0-4cec-9bf2-19b181bf5760.pdf",
+            "news_date": "2025-10-28 12:14:36"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015- Intimation of Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b7c0a32-4fd1-4022-ba7a-91212833fb5e.pdf",
+            "news_date": "2025-10-23 12:57:44"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting Pursuant To Regulation 29 Of The Securities And Exchange Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Dynamic Cables Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/10/2025 inter alia to consider and approve the Un-audited Financial Results of the company for the quarter and half year ended on September 30 2025 and to take on record Limited Review Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2617064d-a493-45b2-8672-203d198e209b.pdf",
+            "news_date": "2025-10-23 12:39:45"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 for the quarter ended 30 September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=723e6698-495a-478c-9b6d-a3a474fa1ff2.pdf",
+            "news_date": "2025-10-08 16:00:26"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aba992f7-4256-47a2-9820-0d390a17a9ac.pdf",
+            "news_date": "2025-09-27 14:03:50"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation under Regulation 30 of SEBI(Listing Obligations and Disclosure Requirements)2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1aa362dd-61e5-48c8-bda0-e7d7fc0e5dbf.pdf",
+            "news_date": "2025-09-22 18:33:16"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor\"s Meet .",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7633452f-d5bc-4e74-a158-09d9bb33d04a.pdf",
+            "news_date": "2025-09-11 17:23:25"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation  Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca4f7387-85fb-4df6-ad6d-94dca530f12e.pdf",
+            "news_date": "2025-08-19 18:32:00"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Conference Call For Financial Results for Quarter and financial year ended on June 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4db04ca6-b2f6-4a21-a21c-d3fe1058116f.pdf",
+            "news_date": "2025-07-26 15:36:30"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Unaudited Financial Results for quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14068707-825b-40c1-981a-1d886a62c99e.pdf",
+            "news_date": "2025-07-24 12:21:48"
+        },
+        {
             "sym": "DYCL",
             "disp": "Dynamic Cables",
             "bse_code": 540795,
@@ -120,6 +516,28 @@
             "sid": 10417,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "In Continuation to our letter dated July 18 2025 and pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find below the web link for the audio recording of Conference Call held on July 23 2025 to discuss the Financial Results for the quarter ended June 30 2025:\r\n\r\nhttps://www.dynamiccables.co.in/audio/q1fy26results.mp3 \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa8b05c0-3049-4250-bd08-a96cca172acd.pdf",
+            "news_date": "2025-07-23 16:40:03"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release- Unaudited Financial Results for Quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92f1d14a-21d4-45d7-9e3e-fbd35e8d15e0.pdf",
+            "news_date": "2025-07-23 13:08:04"
         },
         {
             "sym": "DYCL",
@@ -146,6 +564,303 @@
             "seg": "E"
         },
         {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter Ended On June 30 2025",
+            "news_body": "Unaudited Financial Results for the Quarter ended June 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66c010ef-8556-4fa9-8b06-f1b124aa5abc.pdf",
+            "news_date": "2025-07-23 12:35:13"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Pursuant To Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Pursuant to Regulation 30 of Listing Regulations we wish to inform you that the Board of Directors at their meeting held today i.e. Wednesday July 23 2025 inter alia considered and approved the  Un-audited Financial Results for the quarter ended on June 30 2025 and took on record Limited Review Report thereon pursuant to Regulation 33 of Listing Regulations (copy of the same is enclosed herewith.)\r\n\r\nFurther in accordance with the Securities and Exchange Board of India (Prohibition of Insider Trading) Regulations 2015 and Companys Code of conduct for Prohibition of Insider Trading the Trading Window for trading in the shares of the Company will open from July 26 2025 for the Designated Persons of the Company and their immediate relatives.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b914b9a4-6289-4ec3-b54c-3dc5ff5c8523.pdf",
+            "news_date": "2025-07-23 12:26:03"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015- Intimation of Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=647d4a07-3329-4336-be3e-d13513fe3ca6.pdf",
+            "news_date": "2025-07-18 14:02:20"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting For Considering And Approving Un-Audited Financial Results Of The Company For The Quarter Ended On June 30 2025",
+            "news_body": "Dynamic Cables Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/07/2025 inter alia to consider and approve Un-audited Financial Results of the company for the quarter ended on June 30 2025 and to take on record Limited Review Report thereon pursuant to Regulation 33 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60e03e2b-164e-402a-bd4c-f033de49c3fb.pdf",
+            "news_date": "2025-07-18 13:10:55"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Equity Shares pursuant to Bonus Issue.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e130efa-af87-447c-85ec-6e4f4f3064c3.pdf",
+            "news_date": "2025-07-14 10:30:02"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI(DP) Regulations2018 for Quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a4b3789-df6e-423e-b9ea-0e77783b96c6.pdf",
+            "news_date": "2025-07-10 14:58:09"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Record date for issue of Bonus Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8eff3ef6-d096-49f8-b303-6bc27e65c80f.pdf",
+            "news_date": "2025-07-03 16:30:38"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date Pursuant To Regulation 42 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "The Board has fixed Friday July 11 2025 as the record date for the purpose of determining the Equity shareholdersof the company eligible for Bonus Equity Shares of the comapny.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3699de37-bc72-4ffe-9d48-6047d033f0fc.pdf",
+            "news_date": "2025-07-02 16:04:14"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Intimation under Regulation 30 of SEBI(LODR)Regulations 2015- Alteration in Memorandum of Association of the Comapny.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=660cc489-a2a7-44b3-be08-faa928b85812.pdf",
+            "news_date": "2025-07-01 19:32:05"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results and Scutinizers Report of 18th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89b5707e-609e-4157-bf68-a83617255cb8.pdf",
+            "news_date": "2025-07-01 19:06:34"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Summary of Proceedings of 18th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4419cea-fc9f-4f21-9b83-db59a475a0cd.pdf",
+            "news_date": "2025-06-30 19:05:16"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosures Pursuant To Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 - Corporate Presentation",
+            "news_body": "Corporate Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb02c211-e043-43ed-8642-93ff416868a1.pdf",
+            "news_date": "2025-06-30 13:18:28"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4eed3e51-981a-4a9d-98f5-8787e23b186c.pdf",
+            "news_date": "2025-06-28 13:59:03"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Disclosure under Regulation 30 of SEBI(Listing Obligations & Disclosure Requirements) Regulations 2015- Resignation of Senior Management Personnel.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=84f9b5b3-7085-484e-af4b-425225518024.pdf",
+            "news_date": "2025-06-07 11:18:03"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for 18th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11193402-f2cb-476a-b7a4-2a2d8ed6c5c6.pdf",
+            "news_date": "2025-06-05 12:31:11"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Notice Of 18Th Annual General Meeting",
+            "news_body": "Notice of 18th Annual General Meeting For FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55f7552c-37f6-45be-a5e4-2e36d3f5e730.pdf",
+            "news_date": "2025-06-04 20:47:46"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the Financial Year ended 2024-25 along with Notice of 18th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7a9d86a-3f1f-4b26-bd2d-4976a72cfd63.pdf",
+            "news_date": "2025-06-04 20:30:44"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Board of Directors in its meeting held on May 30 2025  approved Amendment in Memorandum of Association of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e613ed20-9fa1-48c0-b283-b8f4b40fd376.pdf",
+            "news_date": "2025-05-30 12:19:58"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Bonus",
+            "caption": "Corporate Action-Board recommends Bonus Issue",
+            "news_body": "Board recommended issue of bonus shares in the ratio of 1:1 ie 1 (one ) bonus Equity Shares of Rs. 10/- each for every 1 (One) existing fully paid up Equity Shares of Rs.10/- each.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc7b3e14-862f-40af-a68e-b6ce17d7bc3b.pdf",
+            "news_date": "2025-05-30 12:16:53"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Meeting Of Board Of Directors Of The Company Held On Friday May 30 2025",
+            "news_body": "This is to inform you that the Board of Directors of the company at their meeting held today i.e. on Friday May 30 2025 inter alia transacted the following businesses:\r\n1.Increase in Authorized Share Capital \r\n2.Issue of Bonus Equity Shares\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06535639-6967-4c65-83fd-5212a6569632.pdf",
+            "news_date": "2025-05-30 12:10:59"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting Under Regulation 29 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "Dynamic Cables Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/05/2025 inter alia to consider and approve 1.To consider and approve increase in authorized share capital and consequent alteration of Capital Clause (Clause V) of Memorandum and Articles of Association of the company subject to approval of shareholders. \r\n2.To consider and approve the proposal of issuance of bonus equity shares to the shareholders of the Company in accordance with the provisions of the Companies Act 2013 (including the rules and regulations framed thereunder) and the Securities and Exchange Board of India (Issue of Capital and Disclosure Requirements) Regulations 2018 subject to such regulatory/ statutory approvals as may be required including approval of shareholders in this regard. \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6b3d141-e59c-46c8-8484-a04fff3dc0e9.pdf",
+            "news_date": "2025-05-27 11:14:29"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for 18th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fb72c03-b882-4e38-9373-ad84733a4564.pdf",
+            "news_date": "2025-05-25 14:43:54"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "In continuation to our letter dated May 08 2025 and May 13 2025 and pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed transcript of the conference call held on Tuesday May 13 2025 to discuss the financial results for Quarter and financial year ended on March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72b2869e-287d-4d78-a314-c74363257685.pdf",
+            "news_date": "2025-05-17 17:14:26"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the Financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99dbdd5f-554a-4bda-8cca-4d13622762b6.pdf",
+            "news_date": "2025-05-16 16:00:45"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Significant Price Movement",
+            "news_body": "Reply to the BSE Email dated May 152025-Clarification on significant Price Movement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed8c79ea-6066-4eec-8572-d3b2b456acd8.pdf",
+            "news_date": "2025-05-15 11:51:24"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Dynamic Cables Ltd",
+            "news_body": "The Exchange has sought clarification from Dynamic Cables Ltd on May 15 2025 with reference to Movement in Price.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-05-15 11:21:12"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication- Audited Financial Results for the Quarter and Financial Year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe7b0138-afb7-4895-9051-ef6572926e5a.pdf",
+            "news_date": "2025-05-14 16:00:45"
+        },
+        {
             "sym": "DYCL",
             "disp": "Dynamic Cables",
             "bse_code": 540795,
@@ -168,6 +883,72 @@
             "sid": 10417,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of a Conference Call on May 13 2025 to discuss Financial Results for the quarter and financial year ended March 312025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9347add0-7d8c-40bb-84f2-833c0429dfc7.pdf",
+            "news_date": "2025-05-13 17:36:38"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release on the Audited Financial Results for the Quarter and Financial Year ended on March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3daa24d6-f237-46c9-9800-a3e8bec844fe.pdf",
+            "news_date": "2025-05-13 13:21:08"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "18Th Annual General Meeting Of Company To Be Held On Monday June 30 2025",
+            "news_body": "18th AGM of the company to be held on June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=533c9eaa-84a2-4113-9817-96c291d2538b.pdf",
+            "news_date": "2025-05-13 12:37:04"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Announcement under Regulation 30 of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015- Appointment/Reappointments of Auditors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d44706c-52b9-4b35-ae67-cd82ca426753.pdf",
+            "news_date": "2025-05-13 12:25:56"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Announcement under Regulation 30 of SEBI( Listing Obligations & Disclosure Requirements)Regulations 2015- Reappointment of Managing Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4b850216-495a-4481-9e9a-d2601a9ab845.pdf",
+            "news_date": "2025-05-13 12:22:55"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For The Purpose Of Dividend",
+            "news_body": "Record Dated for the Dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32eb039f-fddc-4318-ae44-ab18ea086f92.pdf",
+            "news_date": "2025-05-13 12:20:32"
         },
         {
             "sym": "DYCL",
@@ -194,6 +975,226 @@
             "seg": "E"
         },
         {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Financial Year Ended March 312025",
+            "news_body": "Audited Financial Results for the quarter and Financial year ended March 312025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1dd24906-2e0f-433b-ac13-e7186016d4d6.pdf",
+            "news_date": "2025-05-13 12:05:15"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Of Dynamic Cables Held On Tuesday May 13 2025",
+            "news_body": "Outcome of Board Meeting held on May 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6144560-8f52-48ee-89b4-264d5299f28f.pdf",
+            "news_date": "2025-05-13 11:54:06"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 this is to inform you that a Phillip Capital is hosting a Conference Call on Tuesday May 13 2025 at 02:00 P.M. (IST) to discuss the Financial Results of the Company for Quarter and financial year ended on March 31 2025. Further no Unpublished Price Sensitive Information (UPSI) is proposed to be shared/ discussed during the Call.  \r\n\r\nWe observed that the hyperlink for the registration of the Conference Call in the enclosed invitation was not working due to a technical error in the previous filing. Hence we are submmitting the revised intimation for the Call.\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd2e4bac-9c14-4b87-b383-ef7e67840a16.pdf",
+            "news_date": "2025-05-08 20:40:40"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 this is to inform you that a Phillip Capital is hosting a Conference Call on Tuesday May 13 2025 at 02:00 P.M. (IST) to discuss the Financial Results of the Company for Quarter and financial year ended on March 31 2025. Further no Unpublished Price Sensitive Information (UPSI) is proposed to be shared/ discussed during the Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6a03e90-556b-44ba-a2b7-2b95bb1e3877.pdf",
+            "news_date": "2025-05-08 18:44:07"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting Pursuant To Regulation 29 Of The Securities And Exchange Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Dynamic Cables Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/05/2025 inter alia to consider and approve the Audited Financial Results of the company for the quarter and financial year ended on March 31 2025 along with the Statement of Assets and liabilities as on that date and Cash Flow Statement of the Company for the financial year ended on March 31 2025 and to take on record Auditors report thereon pursuant to Regulation 33 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 and To consider and recommend final dividend if any on the equity shares of the Company for the FY 2024-25.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62e83547-2472-4a69-b1b4-8c97b8804d9e.pdf",
+            "news_date": "2025-05-08 18:32:40"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of Revision in Credit Rating(s)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da125e5f-d5fe-4bd6-9f23-fe41b200955c.pdf",
+            "news_date": "2025-04-11 10:51:46"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depositories and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d4dec90-a994-472b-851b-64d1d10158a0.pdf",
+            "news_date": "2025-04-07 16:58:21"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation regarding the Income Tax Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7ab2db0-c7ce-4e14-968a-3d33b4530810.pdf",
+            "news_date": "2025-03-31 15:31:56"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f9035db2-b59a-450b-a7f0-e78156a78f91.pdf",
+            "news_date": "2025-03-28 18:43:46"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04f8910c-45ba-4653-bba1-bdfeeac37542.pdf",
+            "news_date": "2025-03-26 15:53:04"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we would like to inform you that the Meeting with the Institutional Investor / Analyst - India Cables and Wire and Transmission day session organized by Goldman Sachs scheduled to be held on March 11 2025 at 02:00 P.M. - 02:45 P.M. IST",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=198f9a44-cd9c-453b-bb3e-f8de94806221.pdf",
+            "news_date": "2025-03-04 17:06:18"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure under Regulation 30 of the SEBI ( Listing Obligations and Disclosure Requirements) Regulations 2015- Favorable Income Tax Rectification Order",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e84c3c7-48b3-448f-8f84-a802073bae7f.pdf",
+            "news_date": "2025-02-05 16:04:51"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation about Typographical error in the Disclosure under under Regulation 30 of SEBI (listing Obligations and Disclosure Requirements) Regulations 2015 summitted to Stock Exchanges on January 01 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0601e580-6db8-48cb-be27-423c66add251.pdf",
+            "news_date": "2025-02-03 18:18:16"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "In continuation to our letter dated January 23 2025 and January 28 2025 and pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed transcript of the conference call held on Tuesday January 28 2025 to discuss the financial results for Quarter and Nine Months ended on December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f77e93de-2d86-449c-9e60-28a59ca0d229.pdf",
+            "news_date": "2025-02-03 14:46:41"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (LODR) Regulations 2015 for favorable order of GST",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=707de579-ccd4-4734-a2e0-963bde1f6876.pdf",
+            "news_date": "2025-01-29 17:40:25"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper Publication for extract of Unaudited Financial Results for the quarter and nine months ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=904c466e-361d-4c15-b9e9-b14df5d9df1f.pdf",
+            "news_date": "2025-01-29 11:41:15"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "In Continuation to our letter dated January 23 2025 and pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 we wish to inform you that Phillip Capital (India) Private Limited hosted a Conference Call on January 28 2025 to discuss Financial Results for the quarter and nine months ended December 31 2024.\r\n\r\nIn this regard the audio recording of the said conference call has been uploaded on Companys   website and can be accessed at this link: https://www.dynamiccables.co.in/audio/q3fy25results.mp3\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5af4894c-7390-42e2-9eec-5d90628cc92c.pdf",
+            "news_date": "2025-01-28 20:32:32"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing for the Unaudited Financial Results for the quarter and Nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9a174d3-f11d-4091-9001-2f8f941b92e8.pdf",
+            "news_date": "2025-01-28 18:03:43"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release under Regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79a639cc-e936-48f2-b792-9deef1340ae9.pdf",
+            "news_date": "2025-01-28 16:47:29"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 32 (1) (3) - Statement of Deviation & Variation",
+            "caption": "Statement Of Deviation Or Variation In Utilization Of Funds Under Regulation 32 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amen",
+            "news_body": "Statement of deviation or Variation in Utilization of Funds under Regulation 32 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=62c945c1-14e3-4913-989e-56b007b873a1.pdf",
+            "news_date": "2025-01-28 15:30:27"
+        },
+        {
             "sym": "DYCL",
             "disp": "Dynamic Cables",
             "bse_code": 540795,
@@ -216,6 +1217,105 @@
             "sid": 10417,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Financial Results For The Quarter And Nine Months Ended December 312024",
+            "news_body": "Submission of Unaudited financials results for the quarter and nine months ended 31st  December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c02a16e1-b446-44be-b03f-89d4ae531248.pdf",
+            "news_date": "2025-01-28 14:50:34"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 28.01.2025",
+            "news_body": "The Board of Directors of the company at their meeting held on Tuesday January 28 2025 inter alia transacted the following matters along with other matters:\r\n1.Considered and approved the Un-audited Financial Results for the quarter and nine months ended on December 31 2024 and took on record Limited Review Report thereon pursuant to Regulation 33 of Listing Regulations (Enclosed herewith).\r\n2.The Board took note of the debottlenecking initiatives undertook by the management during the quarter which are expected to result in an incremental production capacity of up to 15% over the existing capacity. Consequently the turnover capacity [revenue range supported by our current production capacity] from our existing plants has increased from Rs. 950-1000 Crores per annum to Rs. 1100-1150 Crores per annum.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=295fe881-af23-431c-b4be-e23dfb9ed406.pdf",
+            "news_date": "2025-01-28 14:46:07"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 this is to inform you that a PhillipCapital (India) Private Limited is hosting a Conference Call on Tuesday January 28 2025 at 05:00 PM (IST) to discuss the Financial Results of the Company for Quarter and Nine Months ended on December 31 2024. Further no Unpublished Price Sensitive Information (UPSI) is proposed to be shared/discussed during the Call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5cfb26a-b754-44fc-bc7b-1e83fa69305e.pdf",
+            "news_date": "2025-01-23 17:55:17"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting Pursuant To Regulation 29 Of The Securities And Exchange Of India (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "Dynamic Cables Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/01/2025 inter alia to consider and approve the Un-audited Financial Results of the company for the quarter and nine months ended on December 31 2024 and to take on record Limited Review Report thereon pursuant to Regulation 33 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e99d7565-e6ab-46c8-8c36-7791781a340c.pdf",
+            "news_date": "2025-01-22 17:53:59"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74 (5) of SEBI (DP) Regulations 2018 for the quarter ended December 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b04bc2ad-dbb9-4458-a13c-951ad9d2e4f1.pdf",
+            "news_date": "2025-01-10 15:40:27"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation for appointment and re designation of Senior Management Personnel of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a150eb5-4b23-47e8-8817-e80d62c38528.pdf",
+            "news_date": "2025-01-01 16:09:42"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation for Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a8a340b-cffb-42dc-a6ee-613bdc7ad2b9.pdf",
+            "news_date": "2024-12-28 14:17:49"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Reply To The Clarification Sought On Increase In Volume",
+            "news_body": "Reply to the Clarification sought by the BSE Ltd. on significant increase in the volume of security across Exchanges, in the recent past.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d3bcc5c-6c64-407b-b9f3-92bb83dee302.pdf",
+            "news_date": "2024-12-17 12:23:27"
+        },
+        {
+            "co_code": 37752,
+            "bse_code": 540795,
+            "isin": "INE600Y01019",
+            "ann_type": "Company Update",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Dynamic Cables Ltd",
+            "news_body": "The Exchange has sought clarification from Dynamic Cables Ltd on December 17, 2024, with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2024-12-17 11:53:11"
         },
         {
             "sym": "DYCL",
@@ -961,6 +2061,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

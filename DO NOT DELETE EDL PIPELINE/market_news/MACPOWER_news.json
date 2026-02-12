@@ -1,0 +1,48 @@
+{
+    "Symbol": "MACPOWER",
+    "ISIN": "INE155Z01011",
+    "News": [
+        {
+            "Title": "Macpower CNC Machines Reports 13% Growth in Q2 Net Profit to 94 Million Rupees",
+            "Summary": "Macpower CNC Machines reported Q2 net profit of 94 million rupees compared to 83 million rupees in the same period last year. Revenue increased to 857 million rupees from 711 million rupees year-over-year. EBITDA rose to 142 million rupees from 127 million rupees, though EBITDA margin declined to 16.5% from 17.92% in the previous year.",
+            "Sentiment": "positive",
+            "PublishDate": 1763020319909,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Macpower CNC Machines Expands Production Capacity by 500 Units to 2,500 Machines Annually",
+            "Summary": "Macpower CNC Machines has increased its annual production capacity by 500 machines, bringing the total capacity to 2,500 machines. The expansion includes the addition of a new assembly unit and enhancements to the distribution network.",
+            "Sentiment": "positive",
+            "PublishDate": 1762748698527,
+            "Source": "stock"
+        },
+        {
+            "Title": "Macpower CNC Machines Reports 15% Growth in Net Profit and 22% Revenue Increase",
+            "Summary": "Macpower CNC Machines reported net profit of 46 million rupees compared to 40 million rupees in the same quarter last year, representing a year-over-year increase. The company's revenue grew to 610 million rupees from 502 million rupees in the corresponding period of the previous year.",
+            "Sentiment": "positive",
+            "PublishDate": 1754492389664,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Macpower CNC Reports Decline in Q3 EBITDA and Margin",
+            "Summary": "Macpower CNC has reported a decrease in its third-quarter EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) from 101 million rupees to 75 million rupees year-over-year. The company's EBITDA margin also declined from 15.26% to 12.51% compared to the same period last year.",
+            "Sentiment": "negative",
+            "PublishDate": 1739444731000,
+            "Source": "earnings"
+        },
+        {
+            "Title": "MACPOWER CNC Reports Decline in Q3 Profit and Revenue",
+            "Summary": "MACPOWER CNC has reported its financial results for the third quarter. The company's net profit decreased to 45 million rupees from 70 million rupees in the same period last year. Revenue also declined to 601 million rupees from 661 million rupees year-over-year.",
+            "Sentiment": "negative",
+            "PublishDate": 1739444725000,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Macpower CNC Machines Secures 29.5M Rupee Order from Defence Department",
+            "Summary": "<p><span class=\"positive\">Macpower CNC Machines</span> has received an <b>order</b> worth <span class=\"positive\">29.5 million rupees</span> from the <span class=\"neutral\">Vehicle Factory Jabalpur</span>, which is part of the <span class=\"neutral\">Department of Defence Production</span>. The order involves the <b>design, manufacturing, supply, erection, commissioning, and job-proven tooled-up solution</b> of a <span class=\"neutral\">Horizontal Machining Center (HMC)</span>.</p>",
+            "Sentiment": "positive",
+            "PublishDate": 1728998214000,
+            "Source": "corporate_action"
+        }
+    ]
+}

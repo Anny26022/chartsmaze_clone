@@ -1,0 +1,34 @@
+{
+    "Symbol": "UNIHEALTH",
+    "ISIN": "INE0PRF01011",
+    "News": [
+        {
+            "Title": "Unihealth Plans 200-Bed Multi-Specialty Hospital in Nashik, Opening Early 2026",
+            "Summary": "Unihealth announced plans to establish a 200-bed multi-specialty hospital in Nashik, India. The facility is scheduled to open in early 2026 and aims to improve healthcare access in North Maharashtra.",
+            "Sentiment": "positive",
+            "PublishDate": 1758182283640,
+            "Source": "stock"
+        },
+        {
+            "Title": "UniHealth Hospitals Issues Zero Coupon CCDs to Promoters",
+            "Summary": "UniHealth Hospitals has announced the issuance of zero coupon Compulsorily Convertible Debentures (CCDs) worth Rs 10.57 crore to its promoters. The company, which is listed in the SME segment, currently has a market capitalization of Rs 210 crore.",
+            "Sentiment": "neutral",
+            "PublishDate": 1741761965000,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Unihealth Hospitals Group Launches First Multi-specialty Hospital in India",
+            "Summary": "Unihealth Hospitals, operating under the Unihealth \u2013 UMC Hospitals Group, has announced the establishment of its first multi-specialty hospital in India. This marks a significant expansion for the healthcare provider into the Indian market, potentially offering a wide range of medical services to patients in the country.",
+            "Sentiment": "positive",
+            "PublishDate": 1736295417000,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "UniHealth Hospitals Group Announces First Multi-Specialty Hospital in India",
+            "Summary": "UniHealth Hospitals Group, also known as UMC Hospitals Group, has announced plans to establish its first multi-specialty hospital in India. This marks a significant expansion for the healthcare provider into the Indian market, potentially increasing access to specialized medical care in the country.",
+            "Sentiment": "positive",
+            "PublishDate": 1736246091000,
+            "Source": "corporate_action"
+        }
+    ]
+}

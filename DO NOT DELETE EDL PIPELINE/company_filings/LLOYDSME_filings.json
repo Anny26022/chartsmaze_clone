@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification With Respect To Volume Movement",
+            "news_body": "Clarification with respect to Volume Movement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21b186a7-a57b-4078-9d93-1825561135ae.pdf",
+            "news_date": "2026-02-12 13:08:03"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Lloyds Metals and Energy Ltd",
+            "news_body": "The Exchange has sought clarification from Lloyds Metals and Energy Ltd on February 12 2026 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2026-02-12 12:18:42"
+        },
+        {
             "sym": "LLOYDSME",
             "disp": "Lloyds Metals & Energy",
             "bse_code": 512455,
@@ -24,6 +46,28 @@
             "sid": 17313,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the conference call for Investors and Analysts for Q3 & 9M FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=190a117d-6272-4dde-a95f-faab1b22a064.pdf",
+            "news_date": "2026-02-09 17:49:16"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of extracts of Standalone and Consolidated Un-Audited Financial Results for the Quarter and Nine Months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acd2fe02-5199-42fb-9ac8-79a3bb6e0b5b.pdf",
+            "news_date": "2026-02-05 15:40:32"
         },
         {
             "sym": "LLOYDSME",
@@ -50,6 +94,94 @@
             "seg": "E"
         },
         {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation of Audio Recording of Earnings Conference Call for Q3 & 9M FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55596a87-8dca-4b51-9941-fc988bd51195.pdf",
+            "news_date": "2026-02-04 18:27:50"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monitoring Agency Report For The Quarter Ended 31St December 2025",
+            "news_body": "Monitoring Agency Report for the quarter ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8fdb8b6-9f36-48cd-834f-1fa96c2dd28d.pdf",
+            "news_date": "2026-02-03 22:48:42"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of investments by Lloyds Global Resources FZCO Wholly Owned Subsidiary of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61f237ec-4b8b-4bef-ac64-47c6450a2b6b.pdf",
+            "news_date": "2026-02-03 21:31:50"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Approval For Increase In Capacity Of Pellet Plants At Konsari",
+            "news_body": "Intimation of approval for increase of capacity of Pellet Plants at Konsari",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab78cf87-c882-4233-8eba-132e257eb3ab.pdf",
+            "news_date": "2026-02-03 21:21:05"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Intimation of Designation of Mr. Ashit Patni Chief Marketing Officer as Senior Managerial Personnel of the Company with effect from 3rd February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e45bda4-5ee0-48e0-866c-d88ab99929f3.pdf",
+            "news_date": "2026-02-03 21:13:31"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Approval Of Second Slurry Pipeline Project",
+            "news_body": "Intimation of approval of Second Slurry Pipeline Project",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e3a424a2-c867-4238-a782-a302615982f7.pdf",
+            "news_date": "2026-02-03 21:08:47"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of incorporation of wholly owned subsidiary in Maharashtra India",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0afd6f5e-9705-4291-a3db-784ad4bf92a0.pdf",
+            "news_date": "2026-02-03 21:03:01"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Intimation for allotment of Equity Shares upon conversion of Preferentially Issued Convertible Warrants to Non-Promoters",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef9ea454-2167-4b93-ba15-f6c475a37583.pdf",
+            "news_date": "2026-02-03 20:56:56"
+        },
+        {
             "sym": "LLOYDSME",
             "disp": "Lloyds Metals & Energy",
             "bse_code": 512455,
@@ -72,6 +204,17 @@
             "sid": 17313,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation for Q3 & 9MFY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdae9240-df9d-4cc6-8fee-ddb633cf9b2f.pdf",
+            "news_date": "2026-02-03 20:46:32"
         },
         {
             "sym": "LLOYDSME",
@@ -98,6 +241,28 @@
             "seg": "E"
         },
         {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation for Q3 & 9MFY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7101ae8-d26c-4f54-b4d4-3f9fe3dae5fb.pdf",
+            "news_date": "2026-02-03 20:45:56"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 3Rd February 2026",
+            "news_body": "Outcome of Board Meeting held on 3rd February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=236bb1d8-c8c7-44e2-8f7e-14023237a445.pdf",
+            "news_date": "2026-02-03 20:42:13"
+        },
+        {
             "sym": "LLOYDSME",
             "disp": "Lloyds Metals & Energy",
             "bse_code": 512455,
@@ -120,6 +285,479 @@
             "sid": 17313,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting Held On 3Rd February 2026",
+            "news_body": "Outcome of Board Meeting held on 3rd February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ca09421-6af5-44db-b20c-443f3a2a8a9e.pdf",
+            "news_date": "2026-02-03 20:38:49"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Termination Of Monitoring Agency Agreement By Monitoring Agency For Preferential Issue Of Warrants",
+            "news_body": "Intimation for termination of Monitoring Agency Agreement by Monitoring Agency for Preferential Issue of Warrants",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f5f15c9-2f5d-4ee2-a508-78e88974af30.pdf",
+            "news_date": "2026-02-03 18:39:43"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on February 02 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33E727AA_8A20_4584_8A51_B84909B2295D_102536.pdf",
+            "news_date": "2026-02-03 10:25:40"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 31 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57A893E5_7D1E_4FFB_8C0A_3CA464066D55_162002.pdf",
+            "news_date": "2026-01-31 16:20:08"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Intimation of Allotment of Non-convertible Debentures.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=508e0ff5-b8f2-4465-a55d-52e104ab206e.pdf",
+            "news_date": "2026-01-30 19:34:42"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 30 2026 for Crosslink Food and Farms Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=937387A2_EBD7_4DCE_86D7_29E112B9376B_172810.pdf",
+            "news_date": "2026-01-30 17:28:15"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 30 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75409F9A_CDBD_4881_B434_76818CABC427_144345.pdf",
+            "news_date": "2026-01-30 14:43:57"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Conference Call for investors and analysts for Q3FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=927f4776-d85b-4f63-a562-5b3e44a94a98.pdf",
+            "news_date": "2026-01-29 19:26:58"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Notice Of Board Meeting To Be Held On Tuesday 03Rd February 2026",
+            "news_body": "Lloyds Metals And Energy Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 03/02/2026 inter alia to consider and approve Lloyds Metals And Energy Ltd has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 03/02/2026 inter alia to consider and approve Intimation of Board Meeting to be held on Tuesday 03rd February 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1a8a468-a671-441d-a329-0be1ee8cea8b.pdf",
+            "news_date": "2026-01-29 18:23:43"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 29 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5F74AA86_8F68_4328_9C24_24A5C7AB98ED_154708.pdf",
+            "news_date": "2026-01-29 15:47:12"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 29 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A4CCE4FC_DCC1_45BE_A135_2CA666ABA0C0_154536.pdf",
+            "news_date": "2026-01-29 15:45:40"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on  January 29 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=D602D616_6E7D_4A46_BBB9_4B2C415B8B91_154402.pdf",
+            "news_date": "2026-01-29 15:44:06"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 29 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=DFEA0488_A50E_4964_946E_C6DC7C7E7CEF_154230.pdf",
+            "news_date": "2026-01-29 15:42:34"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 28 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=DAFDC335_9960_4AD1_ADF0_E78B07A84E1B_191627.pdf",
+            "news_date": "2026-01-28 19:16:31"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Revised Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received revised Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 28 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B75EDDF7_8EF8_4E35_AC07_1CF79B6BD628_180529.pdf",
+            "news_date": "2026-01-28 18:05:34"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 22 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=738A96F3_2047_4372_8CA1_DDB24D522937_104515.pdf",
+            "news_date": "2026-01-23 10:45:19"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation About Clarification In Disclosure Made Under Regulation 30 Dated 16Th January2026 For Entering Into Sale Of Shares And Claims Agreement By Lloyds Global Resources FZCO Wholly-Owned Subsidiary Of The Company.",
+            "news_body": "Intimation about clarification in disclosure made under Regulation 30 dated 16th January 2026 for entering into sale of shares and claims Agreement by Lloyds Global Resources FZCO wholly-owned subsidiary of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79e438cd-50e6-46d7-8b8e-c021a0058a85.pdf",
+            "news_date": "2026-01-22 18:18:58"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Acquisition Of Equity Stake In Hexa Energy W2 Private Limited",
+            "news_body": "Update on Acquisition of Equity Stake in Hexa Energy W2 Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=919f0eef-403f-43a6-8ee0-cc621b5b8dfe.pdf",
+            "news_date": "2026-01-21 18:52:23"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Intimation for entering into sale of shares and claims agreement by Lloyds Global Resources FZCO wholly owned subsidiary of the company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=634961ea-e156-4fb0-96fd-849888e47036.pdf",
+            "news_date": "2026-01-16 18:16:42"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48c4b75f-7cf6-4eed-9bbf-56f08f80a5ec.pdf",
+            "news_date": "2026-01-09 12:55:54"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 06 2026 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=B625505C_B09E_47F0_A8BD_2EE63916FD23_140519.pdf",
+            "news_date": "2026-01-06 14:05:27"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Lloyds Enterprises Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8A67582F_36BF_45AC_A244_9CE93DF2DE02_144355.pdf",
+            "news_date": "2026-01-03 14:44:06"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for SKY United LLP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=AE022408_81D6_452D_9CF2_B8D820467961_170911.pdf",
+            "news_date": "2026-01-02 17:09:16"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on January 02 2026 for Crosslink Food and Farms Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4E771A6B_97C6_4EFB_A33C_946B943624C0_155232.pdf",
+            "news_date": "2026-01-02 15:52:35"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Operational Update For 9MFY26",
+            "news_body": "Intimation for Operational Update for 9MFY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=32ca9497-8d9b-4a08-adb4-0577b34e5b22.pdf",
+            "news_date": "2026-01-01 15:03:15"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on December 31 2025 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3723444A_D4F0_4A28_B9E1_B977B181B550_132655.pdf",
+            "news_date": "2025-12-31 13:26:59"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on December 31 2025 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00B9F96E_FF60_4E16_94E5_8FD293FDCD03_132611.pdf",
+            "news_date": "2025-12-31 13:26:15"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on December 31 2025 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46896F1E_1A9B_4821_9DD7_B26ACF155043_132514.pdf",
+            "news_date": "2025-12-31 13:25:20"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on December 31 2025 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4C7DC27A_FF1C_4D89_814B_188B281AE7BF_132359.pdf",
+            "news_date": "2025-12-31 13:24:07"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of 160000 Employee Stock Options Under \"Lloyds Metals And Energy Employee Stock Option Scheme - 2024\"",
+            "news_body": "Grant of 160000 Employee Stock Options under \"Lloyds Metals and Energy Employee Stock option Scheme- 2024\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=293c5182-0d5c-4e4e-a23f-a398618378b5.pdf",
+            "news_date": "2025-12-31 13:19:45"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of 587818 Equity Shares under Lloyds Metals and Energy Limited Employee Stock Option Plan - 2017",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eea030e3-ea64-40fa-b0da-25379aaa1f24.pdf",
+            "news_date": "2025-12-31 13:06:06"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Equity Shares upon Conversion of Preferentially Issued Convertible Warrants to Promoters and Non-Promoters",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0c00a0f-ce7b-4db7-8a51-810cbc70e283.pdf",
+            "news_date": "2025-12-31 12:57:06"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 31St December 2025",
+            "news_body": "Outcome of Board Meeting held on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b74b1b35-8c8c-484e-96b1-431ccd70d89e.pdf",
+            "news_date": "2025-12-31 12:47:44"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on December 26 2025 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7F93BFFF_2FAD_4EBA_BD1B_A48EE107EFF0_174757.pdf",
+            "news_date": "2025-12-26 17:48:07"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of Trading window for dealing in securities of Lloyds Metals and Energy Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0cec00e9-6bab-40b8-9e76-fb166c732449.pdf",
+            "news_date": "2025-12-26 17:20:40"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Employee Stock Options Under Lloyds Metals And Energy Employee Stock Option Scheme 2024",
+            "news_body": "Grant of Employee Stock Options under \"Lloyds Metals and Energy Employee Stock Option Scheme 2024\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd7c4fbe-d597-4cdf-8075-b792693e44f1.pdf",
+            "news_date": "2025-12-10 20:02:26"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Employee Stock Options Under Lloyds Metals And Energy Employee Stock Option Scheme 2024",
+            "news_body": "Grant of Employee Stock Options under \"Lloyds Metals and Energy Employee Stock Option Scheme 2024\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6512be82-4891-4bce-ae25-f02c18d8522b.pdf",
+            "news_date": "2025-12-10 20:01:27"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Employee Stock Options Under Lloyds Metals And Energy Limited Employee Stock Options Plan - 2017",
+            "news_body": "Grant of Employee Stock Options under \"Lloyds Metals and Energy Limited Employee Stock Options Plan - 2017\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9b77b833-abac-4587-beeb-ab031851c5b9.pdf",
+            "news_date": "2025-12-10 19:57:06"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated 10th December 2024 - Lloyds Metals and Energy Limited and Tata Steel Limited have entered into a non-binding Memorandum of Understanding",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b559626-450a-4035-ba3d-f8503bbdcc48.pdf",
+            "news_date": "2025-12-10 19:41:04"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Approval to accquire upto 50% Equity Stake in Nexus Holdco FZCO by Lloyds Global Resources FZCO Wholly Owned Subsidiary of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a34ba154-5f9e-4e12-b534-d46bc1d75841.pdf",
+            "news_date": "2025-12-10 19:12:30"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 10Th December 2025",
+            "news_body": "Outcome of Board Meeting held on 10th December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e5c792f-9558-4c22-865c-bd4efccd2ea9.pdf",
+            "news_date": "2025-12-10 19:04:53"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of scheduled investors and analysts meet/conference/events",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aefc8e81-7031-4c27-ac28-01558381172e.pdf",
+            "news_date": "2025-12-08 17:00:31"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of scheduled investors and analysts meet/conference/events",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d87c4dc6-85d8-457a-95fe-9b569c9faced.pdf",
+            "news_date": "2025-11-20 10:16:46"
         },
         {
             "sym": "LLOYDSME",
@@ -146,6 +784,28 @@
             "seg": "E"
         },
         {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Conference Call for Investors and analysts for Q2 & H1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ee2d242-8569-4018-8f70-7d6ed06a399a.pdf",
+            "news_date": "2025-11-18 16:58:32"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 31(1) and 31(2) of SEBI (SAST) Regulations 2011.",
+            "news_body": "The Exchange has received Disclosure under Regulation 31(1) and 31(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 on November 13 2025 for Thriveni Earthmovers Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95A86F77_13ED_44FC_B69F_9ACD97A8F858_101657.pdf",
+            "news_date": "2025-11-14 10:17:03"
+        },
+        {
             "sym": "LLOYDSME",
             "disp": "Lloyds Metals & Energy",
             "bse_code": 512455,
@@ -168,6 +828,105 @@
             "sid": 17313,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Intimation of Audio Recording of Earnings Conference Call for Q2 & H1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=292e07c1-55f5-402d-b966-28fa4e45d654.pdf",
+            "news_date": "2025-11-13 18:02:35"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of extracts of Standalone and Consolidated Un-Audited Financial Results for the Quarter and Half Year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=151eb2bc-b629-40ab-b871-d3a49bbd78ba.pdf",
+            "news_date": "2025-11-13 17:33:28"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monitoring Agency Report For The Quarter Ended 30Th September 2025",
+            "news_body": "Monitoring Agency Report for the quarter ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b823584-a9bf-4c1c-ab82-a75a4ca73cde.pdf",
+            "news_date": "2025-11-12 20:44:47"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Intimation of allotment of Equity Shares under the Lloyds Metals and Energy Limiyed Employee Stock Options Plan - 2017",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a303820-3ec6-404c-a7ac-e6a6d966bddc.pdf",
+            "news_date": "2025-11-12 20:09:13"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Employee Stock Options Under Lloyds Metals And Energy Employee Stock Option Scheme  2024",
+            "news_body": "Grant of Employee Stock Options under Lloyds Metals and Energy Employee Stock Option Scheme 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08f961a6-0a6b-44de-9823-23f48bc6f9c5.pdf",
+            "news_date": "2025-11-12 20:00:31"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Employee Stock Options Under Lloyds Metals And Energy Limited Employee Stock Options Plan - 2017",
+            "news_body": "Grant of Employee Stock Options under Lloyds Metals and Energy Limited Employee Stock Options Plan - 2017",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34a13e9e-88b6-41de-99a3-5d011d35d35c.pdf",
+            "news_date": "2025-11-12 19:51:21"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30(5) Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation of Disclosure under Regulation 30(5) of SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b04c5f78-bbfe-435c-9ea0-d8f04b6c112f.pdf",
+            "news_date": "2025-11-12 19:18:38"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30(5) Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation of Disclosure under Regulation 30(5) of SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ada216e9-c6ec-4984-8a77-2cabf3153b1f.pdf",
+            "news_date": "2025-11-12 19:17:54"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Intimation of subscribing upto 20% equity stake in LT Gondwana Skill Hub Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c487dd4c-8b84-4d9a-8f62-e54ead8d16d7.pdf",
+            "news_date": "2025-11-12 19:06:03"
         },
         {
             "sym": "LLOYDSME",
@@ -194,6 +953,17 @@
             "seg": "E"
         },
         {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation for Q2 & H1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cef17cd1-7b00-4176-b2ef-e4bf77109d93.pdf",
+            "news_date": "2025-11-12 19:00:07"
+        },
+        {
             "sym": "LLOYDSME",
             "disp": "Lloyds Metals & Energy",
             "bse_code": 512455,
@@ -218,6 +988,325 @@
             "seg": "E"
         },
         {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended 30Th September 2025",
+            "news_body": "Financial Results for the Quarter ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed83c537-a3d0-4035-8930-5a07d70d3297.pdf",
+            "news_date": "2025-11-12 18:23:29"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 12Th November 2025",
+            "news_body": "Outcome of Board Meeting held on 12th November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a33b788-ac1e-4ee1-947d-51fe70880c7a.pdf",
+            "news_date": "2025-11-12 18:16:29"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of scheduled investors and analysts meet/conference/events",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3eca0126-49bf-4861-843f-347ea98b166c.pdf",
+            "news_date": "2025-11-07 19:01:30"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Earnings Conference Call for investors and analysts for Q2FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c40348c-c6ca-4b3f-ba89-5daad9fe2ac9.pdf",
+            "news_date": "2025-11-07 16:27:27"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Notice Of Board Meeting To Be Held On Wednesday 12Th November 2025",
+            "news_body": "Lloyds Metals And Energy Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2025 inter alia to consider and approve Unaudited Financial Results (Standalone and Consolidated) of the Company for the Quarter and Half Year ended 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5408d17e-141a-4c92-8572-bd3b4057ccf2.pdf",
+            "news_date": "2025-11-07 15:38:26"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Completion Of Accquisition Of 49.99% Equity Shares Of Thriveni Pellets Private Limited",
+            "news_body": "Completion of accquisition of 49.99% Equity Shates of Thriveni Pellets Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=233c22c6-4bab-47ad-a177-3c87ec6b75d5.pdf",
+            "news_date": "2025-10-21 19:01:58"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of 1957458 equity shares at an issue price of Rs. 1460.50 per share on a Preferential Basis",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=083e7211-1bc6-41f2-84d2-8ffdd7d18c76.pdf",
+            "news_date": "2025-10-21 18:54:22"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Transaction In Relation To Acquisition Of Equity Stake In Thriveni Pellets Private Limited",
+            "news_body": "Update on transaction in relation to Acquisition of Equity Stake in Thriveni Pellets Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41e75880-8bb6-469f-97a3-e08216382724.pdf",
+            "news_date": "2025-10-08 13:50:34"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74 (5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d8c01cf-1db7-4ed6-9c0d-79bb52090a42.pdf",
+            "news_date": "2025-10-06 16:59:36"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Operational Update For H1FY26",
+            "news_body": "Intimation for Operational Update for H1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c29616f2-d6cb-44b3-bd8c-5dc2387c95c6.pdf",
+            "news_date": "2025-10-01 15:22:22"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5689d9e3-b1e5-4340-ae31-e743d3152fa4.pdf",
+            "news_date": "2025-09-26 19:43:32"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Incorporation Of Lloyds Global Resources FZCO Wholly Owned Subsidiary",
+            "news_body": "Intimation of Incorporation of Lloyds Global Resources FZCO Wholly Owned Subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2381d4b-792f-4182-b0ee-735bfb5a460d.pdf",
+            "news_date": "2025-09-26 11:39:16"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of scheduled investors and analysts meet/conference/events",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9f71bb1-d069-41da-91e5-6f77bb6c0966.pdf",
+            "news_date": "2025-09-22 18:41:42"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Credit Of Equity Shares Of Mandovi River Pellets Private Limited",
+            "news_body": "Intimation of credit of equity shares of Mandovi River Pellets Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b46455b-2dbd-45ef-917c-8c53aab9dd21.pdf",
+            "news_date": "2025-09-12 18:58:59"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Publication of Newspaper Advertisement for \"Saksham Niveshak\" - 100 Day Investor Awareness Campaign",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4283cc3-a81e-4610-8fd3-803f867dc6af.pdf",
+            "news_date": "2025-09-12 18:43:16"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of scheduled investors and analysts meet/conference/events",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=256ff62e-ffb1-4dac-bd61-2a25c76e8d0b.pdf",
+            "news_date": "2025-09-12 17:15:48"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report and Result of E-Voting of the Extraordinary General Meeting of the Company held on 11 September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbbefc36-779a-455f-a89e-289400f2b65b.pdf",
+            "news_date": "2025-09-12 16:54:42"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Proceedings of the Extra Ordinary General Meeting of the Company held on Thursday 11th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac8accf3-fb59-4591-b85a-7781bd0c5334.pdf",
+            "news_date": "2025-09-11 19:02:57"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of Copy of Newspaper publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad12c558-36c2-4eb9-886d-1361a9cbc9d5.pdf",
+            "news_date": "2025-09-06 14:47:47"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Corrigendum To The Notice Of Extraordinary General Meeting",
+            "news_body": "Intimation of Corrigendum to the Notice of Extraordinary General Meeting scheduled to be held on Thursday 11th September 2025 at 11:30 A.M. IST.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b41d4fda-db58-40fa-8cfa-c71349f0820f.pdf",
+            "news_date": "2025-09-05 20:20:56"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Corrigendum To The Notice Of Extraordinary General Meeting",
+            "news_body": "Intimation of Corrigendum to the Notice of Extraordinary General Meeting to be held on Thursday 11th September 2025 at 11:30 A.M. IST",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3033265-2de2-47ad-8bb4-c84a19f6fc51.pdf",
+            "news_date": "2025-09-05 20:17:28"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Successfully Commissioning Of 360 KTPA Sponge Iron Plant At Ghugus Maharashtra",
+            "news_body": "Intimation of successfully commissioning of 360 KTPA Sponge Iron Plant at Ghugus Maharashtra.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7bea667-6ce9-460c-bca9-ef37d20529fa.pdf",
+            "news_date": "2025-09-01 08:49:04"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Acquisition Of Equity Stake In Mandovi River Pellets Private Limited",
+            "news_body": "Update on Acquisition of Equity Stake in Mandovi River Pellets Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7359a026-cc25-4570-90c0-c7e5a16dfb69.pdf",
+            "news_date": "2025-08-29 13:30:03"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Catalyst Trusteeship Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30702166_F699_4BA4_9C52_251987F05829_192217.pdf",
+            "news_date": "2025-08-25 19:22:21"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Outcome Of Board Meeting Submitted On 12Th August 2025",
+            "news_body": "Clarification on Outcome of Board Meeting submitted on 12th August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ecaa860-7a9d-4b3d-ad74-e588038a4f7a.pdf",
+            "news_date": "2025-08-21 18:18:21"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of Notice of Extraordinary General Meeting of the Company and E-voting Information",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a1e59b4-f5a8-40b6-9f6b-da1e92c014ca.pdf",
+            "news_date": "2025-08-20 15:08:41"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date For Determining Members Eligible For Voting At Extraordinary General Meeting",
+            "news_body": "Intimation of Record date for determining members eligible for voting at Extraordinary General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6498adc6-217b-4ff9-9faa-169e206904c4.pdf",
+            "news_date": "2025-08-19 18:05:48"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Notice Convening Extraordinary General Meeting Of The Company Scheduled To Be Held On Thursday 11Th September 2025",
+            "news_body": "Notice convening Extraordinary General Meeting of the Company scheduled to be held on Thursday 11th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21d95077-bbdf-4801-b995-af457be4ce89.pdf",
+            "news_date": "2025-08-19 17:50:26"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Successful Bidder In Respect Of Tandsi - III & Tandsi - III (Extn.) Coal Mine",
+            "news_body": "Intimation of Successful Bidder in respect of Tandsi - III & Tandsi -III (Extension) Coal Mine",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47227187-daf8-4003-9e8b-d4945454eaf9.pdf",
+            "news_date": "2025-08-19 15:52:46"
+        },
+        {
             "sym": "LLOYDSME",
             "disp": "Lloyds Metals & Energy",
             "bse_code": 512455,
@@ -240,6 +1329,17 @@
             "sid": 17313,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 2629,
+            "bse_code": 512455,
+            "isin": "INE281B01032",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of the Conference Call for Investors and Analysts for Q1 FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44c37071-0854-4a6c-90ea-7f1502662130.pdf",
+            "news_date": "2025-08-18 18:52:02"
         },
         {
             "sym": "LLOYDSME",
@@ -1225,6 +2325,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

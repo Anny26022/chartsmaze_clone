@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demat Report For The Month Ended January 2026",
+            "news_body": "Please find enclosed herewith Demat Report for the month ended January 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a18ed239-6d49-44f2-a231-a99b8292b038.pdf",
+            "news_date": "2026-02-05 13:05:16"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Please find enclosed herewith Monitoring Agency Report for the quarter ended 31.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=107bd7fb-281d-40a3-a734-9e619e9624d3.pdf",
+            "news_date": "2026-01-28 10:05:05"
+        },
+        {
             "sym": "VSSL",
             "disp": "Vardhman Special Steels",
             "bse_code": 534392,
@@ -24,6 +46,17 @@
             "sid": 27067,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed herewith transcript of Earnings Conference Call of the Company held on 21.01.2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20691e25-6a96-4242-ac5e-d94947160c61.pdf",
+            "news_date": "2026-01-24 15:43:46"
         },
         {
             "sym": "VSSL",
@@ -50,6 +83,28 @@
             "seg": "E"
         },
         {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Link For Audio Recording",
+            "news_body": "Please find enclosed herewith link for audio recording.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7943dc5c-f656-4e66-84eb-3e3975035df7.pdf",
+            "news_date": "2026-01-21 16:39:03"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith a copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3f12e7a-4ab2-4f2b-bab4-854ac21c997d.pdf",
+            "news_date": "2026-01-21 16:30:50"
+        },
+        {
             "sym": "VSSL",
             "disp": "Vardhman Special Steels",
             "bse_code": 534392,
@@ -72,6 +127,28 @@
             "sid": 27067,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find enclosed herewith a copy of Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd8be151-8709-4255-a54b-fa8ee11b3660.pdf",
+            "news_date": "2026-01-20 18:07:53"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed herewith Media Release on financial results of the Company for the quarter/ nine-months ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8007727-d6f2-4131-b42d-d3500e333288.pdf",
+            "news_date": "2026-01-20 17:33:35"
         },
         {
             "sym": "VSSL",
@@ -98,6 +175,259 @@
             "seg": "E"
         },
         {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Un-Audited Financial Results For The Quarter / Nine-Months Ended 31.12.2025.",
+            "news_body": "Please find enclosed herewith Un-audited Financial Results for the quarter / nine-months ended 31.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d77a933e-8833-4101-9c6d-8ec8e8435ef7.pdf",
+            "news_date": "2026-01-20 13:52:50"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed herewith intimation regarding Earnings Conference Call of the Company scheduled to be held on 21.01.2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e76a067a-8696-4967-9f38-da9432cebb4c.pdf",
+            "news_date": "2026-01-17 18:34:32"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Un-Audited Financial Results For The Quarter/ Nine-Months Ended 31.12.2025.",
+            "news_body": "Vardhman Special Steels Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 20/01/2026 inter alia to consider and approve the Un-audited Financial Results of the Company for the quarter/ nine-months ended 31.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2cfa457-462e-435c-b9db-5448d78462b4.pdf",
+            "news_date": "2026-01-14 17:06:37"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find enclosed herewith Certificate under Reg. 74(5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eac7633e-ea63-4a42-8b5f-be36b2871715.pdf",
+            "news_date": "2026-01-09 17:30:59"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demat Report For The Month Ended December 2025.",
+            "news_body": "Please find enclosed herewith Demat Report for the month ended December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=240f3622-d9d0-488c-9077-31b39f327797.pdf",
+            "news_date": "2026-01-08 18:10:14"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Please find enclosed herewith intimation regarding allotment of  shares under Vardhman Special Steels Limited Employee Stock Option Plans.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8dab619b-f599-40b8-a5b6-0aa9820ea7e3.pdf",
+            "news_date": "2026-01-08 11:36:38"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find enclosed herewith intimation regarding closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e01a5acb-43dd-48d8-9314-04058b94041d.pdf",
+            "news_date": "2025-12-26 15:00:54"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith a copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3af020b-1da4-4989-87e2-8a26d7fe3e63.pdf",
+            "news_date": "2025-12-24 17:14:08"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed herewith Media Release on Setting-up a Steel Forging Manufacturing Facility in the State of Punjab.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa1f0661-d2b5-48cb-87a9-da35d528c7d8.pdf",
+            "news_date": "2025-12-23 11:51:21"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 - Para A (Sub-Para 20)",
+            "news_body": "Please find enclosed herewith revised intimation regarding action(s) taken or order passed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27f45347-179a-41bb-a82a-5eeccfccbeb6.pdf",
+            "news_date": "2025-12-22 14:11:35"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated 22.12.2025",
+            "news_body": "Please find enclosed herewith Outcome of Board Meeting held on 22.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5deea1b8-0243-4c61-8edc-e517a8cd38a8.pdf",
+            "news_date": "2025-12-22 12:33:15"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 - Para A (Sub-Para 20)",
+            "news_body": "Please find enclosed herewith intimation regarding Action(s) taken or order passed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc0983b0-a3df-4b3f-8569-04042152026a.pdf",
+            "news_date": "2025-12-20 15:17:04"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Please find enclosed herewith Voting Results of Postal Ballot ended on 10.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3d8ec9b7-ff9c-4b1c-8001-3bdd791681e9.pdf",
+            "news_date": "2025-12-11 14:09:24"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Please find enclosed herewith Scrutinizer Report of Postal Ballot ended on 10.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1979f296-432c-4022-9994-0caae4e5ef83.pdf",
+            "news_date": "2025-12-11 14:07:37"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Postal Ballot",
+            "news_body": "Please find enclosed herewith Outcome of Postal Ballot ended on 10.12.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4766226c-9efd-4491-81d8-c56fc248c0ce.pdf",
+            "news_date": "2025-12-10 17:51:30"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demat Report For The Month Ended November 2025.",
+            "news_body": "Please find enclosed herewith Demat Report for the month ended November 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fa4352a-f38f-4e1c-81b1-c393ac1a1318.pdf",
+            "news_date": "2025-12-06 12:51:43"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Analysts/Investors Meet - Outcome",
+            "news_body": "Please find enclosed herewith intimation regarding outcome of Analysts/ Investors meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb16ae93-506d-43cb-a7bc-23cdb2904a96.pdf",
+            "news_date": "2025-11-27 14:18:55"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please find enclosed herewith intimation regarding Change in Senior Management.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=244d6c3c-795c-4bf1-a728-7e9c2fae87d5.pdf",
+            "news_date": "2025-11-25 16:56:50"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed herewith intimation regarding Analysts/ Investor Meet scheduled to be held on 27.11.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddec2e31-8b35-4bdc-9f96-e71680376a23.pdf",
+            "news_date": "2025-11-24 14:29:11"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith a copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a9362b9-afbb-420d-9bfd-03b31afcc40b.pdf",
+            "news_date": "2025-11-11 12:01:18"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith a copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=857019be-f535-415e-86bd-bf4274419ce5.pdf",
+            "news_date": "2025-11-11 11:59:11"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Please find enclosed herewith Postal Ballot Notice of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e1c5a1c-9467-440f-ab04-8396972f6f21.pdf",
+            "news_date": "2025-11-10 15:41:22"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demat Report For The Month Ended October 2025.",
+            "news_body": "Please find enclosed herewith Demat Report for the month ended October 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d6d0c76-b677-4d83-ad18-cf626e3c4ca9.pdf",
+            "news_date": "2025-11-07 12:08:29"
+        },
+        {
             "sym": "VSSL",
             "disp": "Vardhman Special Steels",
             "bse_code": 534392,
@@ -120,6 +450,28 @@
             "sid": 27067,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed herewith Transcript of the Earnings Conference Call of the Company held on 03.11.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83430905-98bc-4d7a-bbbc-01f5b3f746b0.pdf",
+            "news_date": "2025-11-06 17:07:41"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Please find enclosed herewith Monitoring Agency Report for the quarter ended 30.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=854bb101-6342-42b6-b0dd-6a11a8189f11.pdf",
+            "news_date": "2025-11-05 09:43:49"
         },
         {
             "sym": "VSSL",
@@ -146,6 +498,28 @@
             "seg": "E"
         },
         {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Link Of Audio Recording",
+            "news_body": "Please find enclosed herewith link of Audio Recording of the Earnings Conference Call of the Company held today.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bde23340-20ef-40d8-b33b-6f960fc5b3d7.pdf",
+            "news_date": "2025-11-03 16:52:57"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Investment In Sone Solar Private Limited",
+            "news_body": "Please find enclosed herewith intimation regarding update on investment in Sone Solar Private Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff82ca8d-0312-4a9d-95cb-0d0e93a42a42.pdf",
+            "news_date": "2025-10-30 18:18:15"
+        },
+        {
             "sym": "VSSL",
             "disp": "Vardhman Special Steels",
             "bse_code": 534392,
@@ -168,6 +542,61 @@
             "sid": 27067,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find enclosed herewith a copy of Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d49c933d-1f63-4cbc-aad2-eed31efd9cdb.pdf",
+            "news_date": "2025-10-29 16:37:58"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=512bff43-e17c-4b7b-ae45-ee8c4b47aa7e.pdf",
+            "news_date": "2025-10-29 14:59:58"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed herewith Media Release on financial results of the Company for the quarter/ half-year ended 30th September2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=efcbd21f-2d5e-4a0b-ab4a-16c7388c3d7a.pdf",
+            "news_date": "2025-10-28 18:55:17"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed herewith revised intimation regarding Earnings Conference Call of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b4646d8-2329-447d-9e7f-6f37765ad44a.pdf",
+            "news_date": "2025-10-28 18:20:09"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Board Meeting",
+            "news_body": "Please find attached herewith outcome of Board Meeting regarding approval of Vardhman Special Steels Limited Employee Stock Option Plan 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0b91419-7e3c-4de2-87e7-d416bf0c2206.pdf",
+            "news_date": "2025-10-28 14:06:02"
         },
         {
             "sym": "VSSL",
@@ -194,6 +623,292 @@
             "seg": "E"
         },
         {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial Results For The Quarter/ Half Year Ended 30.09.2025.",
+            "news_body": "Please find attached herewith un-audited financial results of the Company for the quarter/ half year ended 30.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e22ba085-5450-4e55-9e10-4e5c09bd59a5.pdf",
+            "news_date": "2025-10-28 13:57:50"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed herewith intimation regarding Earnings Conference Call of the Company scheduled to be held on 29th October 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f1f3e98-aabb-4e1b-928b-fda61870e270.pdf",
+            "news_date": "2025-10-25 12:47:52"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Un-Audited Financial Results Of The Company For The Quarter/ Half-Year Ended 30Th September 2025.\r\n\r\n",
+            "news_body": "Vardhman Special Steels Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/10/2025 inter alia to consider and approve the Un-audited Financial Results of the Company for the quarter/ half-year ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18d35aa7-fa98-49da-a8e5-a064ff55f58a.pdf",
+            "news_date": "2025-10-16 17:09:02"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith Copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6cf01e7-2b3a-43bc-9323-374b164a5248.pdf",
+            "news_date": "2025-10-14 12:18:34"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find enclosed herewith certificate under Regulation 74 (5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47462021-f938-4c13-94b0-0d2a68834c0f.pdf",
+            "news_date": "2025-10-08 15:23:04"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demat Report For The Month Ended September 2025.",
+            "news_body": "Please find enclosed herewith Demat Report for the month ended September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0c47ae1-c165-4c3c-8ad1-62fc994e3478.pdf",
+            "news_date": "2025-10-08 15:17:14"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Please find enclosed herewith intimation regarding allotment of shares under Vardhman Special Steels Employee Stock Option Plans.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=83a676d8-063c-4db8-ac8c-bcbba317b39e.pdf",
+            "news_date": "2025-10-06 11:44:35"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find enclosed herewith intimation regarding Closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d35b7dc-f984-4df2-8cd9-5f246b3e020d.pdf",
+            "news_date": "2025-09-27 15:15:44"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Please find enclosed herewith Voting Results in respect of 15th AGM of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=058ba5ba-f701-4f91-bb66-8ebc4e60500a.pdf",
+            "news_date": "2025-09-25 20:07:21"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Please find enclosed herewith Scrutinizers report in respect of 15th AGM of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51ea9647-0107-4bb3-a40f-7ca8fceee331.pdf",
+            "news_date": "2025-09-25 19:59:24"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Designation Of Mr. Sachit Jain From The Vice Chairman & Managing Director To The Chairman & Managing Director.",
+            "news_body": "Please find enclosed  herewith intimation regarding change in designation of Mr. Sachit Jain.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80ecb96c-a396-4808-9837-b357eb9a6c39.pdf",
+            "news_date": "2025-09-25 19:46:50"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Please find enclosed herewith intimation regarding appointment of Mr. Dinkar Gupta and Mr. Nishant Arya as Non-Executive Non-Independent Directors of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa17121c-5d62-47f6-af82-7905f8780417.pdf",
+            "news_date": "2025-09-25 19:33:10"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " AGM - Updates",
+            "news_body": "This is to inform you that the Members of the Company in its AGM held today have approved the appointment of Mr. Koichiro Hayashida (DIN: 11164707) as Non-Executive Non-Independent Director on the Board of the Company w.e.f. 04.07.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c50c52cb-915a-4444-a88c-7b6a82f2f064.pdf",
+            "news_date": "2025-09-24 17:01:05"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Please find enclosed herewith intimation regarding cessation of Mr. Rajeev Gupta and Mr. Sanjoy Bhattacharyya as Directors of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e6df0bb-07a4-4b46-8de8-126be59e7b04.pdf",
+            "news_date": "2025-09-24 16:39:28"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Please find enclosed herewith Summary of Proceedings of 15th AGM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=325c9959-25f3-4bd3-a3b2-6201ce3736b1.pdf",
+            "news_date": "2025-09-24 16:20:59"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Analysts/Investors Meet - Outcome",
+            "news_body": "Please find enclosed herewith outcome of Analysts/ Investors Meet held on 23.09.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d56a6c9d-9e5e-4519-ae7b-3d3a493acb6b.pdf",
+            "news_date": "2025-09-23 16:56:58"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed herewith intimation regarding Analysts/ Investors Meet scheduled to be held on 23.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18ebff48-b84a-4196-a222-d50e51eed8cf.pdf",
+            "news_date": "2025-09-18 15:54:26"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demat Report For The Month Ended August 2025.",
+            "news_body": "Please find enclosed herewith Demat Report for the month ended August 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=840cfde7-5bf4-454c-9be5-54c93ec71f9f.pdf",
+            "news_date": "2025-09-06 15:18:27"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " Dispatch Of Letter To The Members Of The Company.",
+            "news_body": "Please find enclosed herewith intimation regarding dispatch of Letter to the Members of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07fcf032-269f-491a-bfdc-01b004c3c28b.pdf",
+            "news_date": "2025-09-03 15:06:34"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith a copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=671ba48a-5d61-47b6-a6dc-f18de4d45db9.pdf",
+            "news_date": "2025-09-03 15:01:44"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Please find enclosed herewith BRSR for the FY 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=863865cb-6a18-4ee7-80c3-6879699669fc.pdf",
+            "news_date": "2025-09-02 18:19:37"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Corporate Action - Fixes Record Date For Dividend",
+            "news_body": "Please find enclosed herewith intimation regarding Record Date.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=42a5ab8c-4b9c-4928-b9dc-44c722560ec1.pdf",
+            "news_date": "2025-09-02 17:58:58"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Please find enclosed herewith Annual Report of the Company for the FY 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9249cdd-6482-428f-a2c5-c1d23dd1c9a7.pdf",
+            "news_date": "2025-09-02 17:52:05"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Shareholders Meeting - AGM On 24-09-2025.",
+            "news_body": "Please find enclosed herewith Notice of AGM of the Company scheduled to be held on 24.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02019fff-60d5-4499-8880-2c02e8156382.pdf",
+            "news_date": "2025-09-02 17:23:44"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith a copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9a2301e0-bbb7-435e-afe3-166e933cdcfd.pdf",
+            "news_date": "2025-08-21 17:59:53"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demat Report For The Month Ended July 2025.",
+            "news_body": "Please find enclosed herewith Demat Report for the month ended July 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4eb21951-a029-4180-a610-9343b752d088.pdf",
+            "news_date": "2025-08-06 14:19:48"
+        },
+        {
             "sym": "VSSL",
             "disp": "Vardhman Special Steels",
             "bse_code": 534392,
@@ -216,6 +931,17 @@
             "sid": 27067,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed herewith Transcript of Earnings Conference Call of the Company held on 28.07.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d66db49a-49c7-4bae-8a24-327c80bd8c51.pdf",
+            "news_date": "2025-08-01 13:03:37"
         },
         {
             "sym": "VSSL",
@@ -242,6 +968,39 @@
             "seg": "E"
         },
         {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Link Of Audio Recording",
+            "news_body": "Please find enclosed herewith Link of Audio Recording of the Earnings Conference Call of the Company held today.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7f1df6fe-fcf2-4b44-9536-cfc837dfb34b.pdf",
+            "news_date": "2025-07-28 17:55:09"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith a copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1a11290-34de-4267-a9ae-03453fd54a1f.pdf",
+            "news_date": "2025-07-26 12:47:07"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed herewith Media Release for 1QFY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a092eaee-22c7-4f40-8e45-cb22b08c1779.pdf",
+            "news_date": "2025-07-25 18:29:44"
+        },
+        {
             "sym": "VSSL",
             "disp": "Vardhman Special Steels",
             "bse_code": 534392,
@@ -266,6 +1025,28 @@
             "seg": "E"
         },
         {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find enclosed herewith a copy of Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2331dcae-bb8f-42f0-ad16-bf981f8655a4.pdf",
+            "news_date": "2025-07-25 18:21:25"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith Newspaper Notice regarding opening of Special Window for re-lodgement of transfer requests of physical shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7c771c5-cbcf-4294-8bb8-3354831fda0f.pdf",
+            "news_date": "2025-07-25 14:06:37"
+        },
+        {
             "sym": "VSSL",
             "disp": "Vardhman Special Steels",
             "bse_code": 534392,
@@ -288,6 +1069,325 @@
             "sid": 27067,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results - Un-Audited Financial Results For The Quarter Ended 30.06.2025",
+            "news_body": "Please find enclosed herewith Un-audited financial results of the Company for the quarter ended 30.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa977688-7794-4fc0-9d8a-53164ddd3c97.pdf",
+            "news_date": "2025-07-25 13:58:10"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed herewith intimation regarding Earnings Conference Cal of the Company scheduled to be held on 28.07.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3330674c-aae7-495c-ba3c-ba972d4c3a69.pdf",
+            "news_date": "2025-07-23 17:39:14"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Un-Audited Financial Results Of The Company For The Quarter Ended 30Th June 2025.",
+            "news_body": "Vardhman Special Steels Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 25/07/2025 inter alia to consider and approve the Un-audited Financial Results of the Company for the quarter ended 30.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88e44237-8358-451d-a595-a5ecb1cace19.pdf",
+            "news_date": "2025-07-22 16:07:57"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Memorandum of Understanding /Agreements",
+            "caption": "Announcement under Regulation 30 (LODR)-Memorandum of Understanding /Agreements",
+            "news_body": "Please find enclosed herewith intimation regarding amendment in Share Subscription and Shareholders Agreement entered into by the Company with ASG HOLDCO BETA PTE. LTD. & Sone Solar Private Limited and Power Supply and Offtake Agreement entered into by the Company with Sone Solar Private Limited.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f6f05ba-e5ce-45cd-9ec2-53f34c08cdc7.pdf",
+            "news_date": "2025-07-22 15:51:36"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find enclosed herewith Certificate u/r 74(5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c4181fc-7f80-445e-b8d5-2f324cd0b909.pdf",
+            "news_date": "2025-07-12 14:54:31"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Aichi Steel Corporation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=CB47453F_93D0_43AF_80D5_7BB2C9CF555F_125733.pdf",
+            "news_date": "2025-07-08 12:57:37"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 169(5) Of The SEBI (Issue Of Capital And Disclosure Requirements) Regulations 2018",
+            "news_body": "Please find enclosed herewith intimation under Regulation 169(5) of SEBI (Issue of Capital and Disclosure Requirements) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b581e22-d03c-465c-a7e6-2477902828f4.pdf",
+            "news_date": "2025-07-04 17:22:18"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Please find enclosed herewith intimation regarding appointment of Mr. Koichiro Hayashida (DIN: 11164707) as a Non-Executive Non-Independent Director of the Company w.e.f. 4th July 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b9c7be5-2e32-4797-a31b-3255299f5788.pdf",
+            "news_date": "2025-07-04 15:01:51"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Please find enclosed herewith intimation regarding allotment of securities pursuant to Preferential Issue.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a640a7f-d8f0-483f-bdd5-50cecab5435c.pdf",
+            "news_date": "2025-07-04 11:55:08"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demat Report For The Month Ended June 2025.",
+            "news_body": "Please find enclosed herewith Demat Report for the month ended June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a0a5a8c-1a46-4117-9bed-fbcb50eb7ddf.pdf",
+            "news_date": "2025-07-03 16:25:36"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find enclosed herewith intimation regarding closure of trading window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91ca00ff-f7c3-4c31-a1d2-be863f7648d2.pdf",
+            "news_date": "2025-06-28 17:56:29"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Please find enclosed herewith Voting Results of the EGM held on 25.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f3b9fa0-4faa-463d-80af-281eb9f9aed3.pdf",
+            "news_date": "2025-06-25 18:41:55"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Please find enclosed herewith Scrutinizers Report for the EGM held on 25.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=215eda72-3906-4da4-b4ce-570c04e99837.pdf",
+            "news_date": "2025-06-25 18:33:05"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of The Extra-Ordinary General Meeting Held On June 25 2025.",
+            "news_body": "Please find enclosed herewith outcome of Extra-Ordinary General Meeting held on June 25 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b37ee58-3528-44a1-8cd2-64ba55dd1ebd.pdf",
+            "news_date": "2025-06-25 12:33:53"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Please find enclosed herewith proceedings of the Extra-Ordinary General Meeting held today.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5366a48-fa37-4756-b38d-7549762bc940.pdf",
+            "news_date": "2025-06-25 12:23:37"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI LODR Regulations 2015",
+            "news_body": "Please find enclosed herewith intimation under regulation 30 of SEBI LODR Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85c0d708-8533-49f4-ae15-ee6217a31536.pdf",
+            "news_date": "2025-06-23 16:39:32"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 29(1)(D) Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find enclosed herewith intimation under regulation 29(1)(d) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4d29f33-011b-4fb4-a548-7fe99c78deca.pdf",
+            "news_date": "2025-06-20 10:58:55"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Newspaper Publication",
+            "news_body": "Please find enclosed herewith a copy of newspaper publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6ecddc7-4907-49f5-a141-7f5beb728fd5.pdf",
+            "news_date": "2025-06-19 14:35:39"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Corrigendum To The Notice Of Extra-Ordinary General Meeting",
+            "news_body": "Please find enclosed herewith Corrigendum to the Notice of Extra-Ordinary General Meeting of the Members of the Company to be held on June 25 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b5b9116-863a-4464-9191-508ad907bf5e.pdf",
+            "news_date": "2025-06-18 18:13:42"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Analysts/ Investors Meet - 17.06.2025",
+            "news_body": "Please find enclosed herewith outcome of Analysts/ Investors Meet held on 17.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d52ac545-b264-4c28-a061-17dfe7c4d9a4.pdf",
+            "news_date": "2025-06-17 15:52:08"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed herewith intimation regarding schedule of Analysts/ Investor Meet to be held on June 17 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fe456f0-a55e-499e-b260-46d6d5abc852.pdf",
+            "news_date": "2025-06-11 17:28:21"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Demat Report For The Month Ended May 2025",
+            "news_body": "Please find enclosed herewith Demat Report for the month ended May 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a7a2b00-04b0-471d-97f0-3838a9906c0e.pdf",
+            "news_date": "2025-06-06 11:57:16"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed herewith copy of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d33e357-ff42-4344-8470-7640e6ae3161.pdf",
+            "news_date": "2025-06-04 12:53:27"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting - EGM On 25.06.2025",
+            "news_body": "Please find enclosed herewith Notice of EGM scheduled to be held on 25.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1e1ae42-126f-47a6-ab14-eac65395154d.pdf",
+            "news_date": "2025-06-03 18:47:35"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed herewith Media/ Press release dated 03.06.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85109673-b6b9-4e38-b551-d3bb957a1a4a.pdf",
+            "news_date": "2025-06-03 17:53:57"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Disclosure under Regulation 30A of LODR",
+            "news_body": "Please find enclosed herewith disclosure under regulation 30A of SEBI LODR.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0658d0f-2a15-4a92-8db3-2b6bb395edb3.pdf",
+            "news_date": "2025-06-03 12:46:42"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Analysts/Investors Meet",
+            "news_body": "Please find enclosed herewith outcome of Analysts/Investors meet held today.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=133554eb-ed49-4450-b8de-ad51278a1876.pdf",
+            "news_date": "2025-05-30 17:56:07"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Dated 29.05.2025",
+            "news_body": "Please find attached herewith outcome of the Board Meeting dated 29.05.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c112e90-d612-4fd9-8540-d6c0d3a20ee8.pdf",
+            "news_date": "2025-05-29 16:38:10"
+        },
+        {
+            "co_code": 40412,
+            "bse_code": 534392,
+            "isin": "INE050M01012",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Please find enclosed herewith Annual Secretarial Compliance Report for the year ended 31.03.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9868ba3a-649e-4f07-840f-6706114e2c90.pdf",
+            "news_date": "2025-05-26 13:23:50"
         },
         {
             "sym": "VSSL",
@@ -1849,6 +2949,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

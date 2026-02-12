@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement- Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98ba067f-0d62-4660-b706-2741efcb60c7.pdf",
+            "news_date": "2026-01-31 13:06:08"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal ballot notice for the change in the object clause for the utilization of funds raised in the preferential issue of Equity Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab517937-5a83-4216-86f4-304462642399.pdf",
+            "news_date": "2026-01-30 14:38:30"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of the un-audited financial statements for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e35a6e1a-ecee-48ea-83b4-7d0f5167a889.pdf",
+            "news_date": "2026-01-29 11:07:20"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Media Release- Q3FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=753ad6a7-ba46-4840-9bd3-7f90786da50f.pdf",
+            "news_date": "2026-01-28 17:13:05"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Variation In Terms Of The Objects Of The Preferential Issue",
+            "news_body": "Variation in terms of the objects of the preferential issue as stated in the explanatory statement of the resolution approved by the members on July 22 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd2216dc-d393-4906-8cf2-5a117aabd751.pdf",
+            "news_date": "2026-01-28 14:37:01"
+        },
+        {
             "sym": "KAYA",
             "disp": "Kaya",
             "bse_code": 539276,
@@ -24,6 +79,237 @@
             "sid": 10276,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Unaudited Standalone and Consolidated Financial Results for the Quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=303612a8-e9c6-4fd9-a2bc-6487a89b73a6.pdf",
+            "news_date": "2026-01-28 13:52:17"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Financial Results for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c75f5c73-ac99-4a37-bfeb-214f15c1ecd6.pdf",
+            "news_date": "2026-01-28 13:40:09"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Resignation of Mr. Nishant Nayyar Vice President and Head- Marketing",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3dad8ee0-293d-4104-8c67-4736903773fd.pdf",
+            "news_date": "2026-01-23 20:46:26"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Ms. Dhivya Ashok as the Chief Operating Officer- South&East (SMP)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39acdb0c-523a-4f7a-aaa1-cb79a0735a81.pdf",
+            "news_date": "2026-01-17 16:22:50"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Notice Of Board Meeting Scheduled To Be Held On Wednesday January 28 2026",
+            "news_body": "Kaya Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/01/2026 inter alia to consider and approve the un-audited standalone & consolidated financial results of the Company for the quarter ended December 31 2025 along with the Limited Review Report of the Auditors thereon.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9812d4d1-bb56-4b4d-a0f2-4957c16f0455.pdf",
+            "news_date": "2026-01-16 11:06:20"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI(DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc419aaa-8d27-4e72-85ac-f4c9564c40f7.pdf",
+            "news_date": "2026-01-06 15:13:29"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Saurav Jha as the Chief Business Transformation Officer (SMP)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=093b1fec-8a96-40ac-80fd-a9ab6c5c7c37.pdf",
+            "news_date": "2025-12-17 14:00:48"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of Financial Results for the Quarter and Half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3a55080-b4ce-4d05-be4a-f5bdcaec0dd7.pdf",
+            "news_date": "2025-11-14 10:18:04"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Media release for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a646505-5a39-41cf-a553-da2e411c6c09.pdf",
+            "news_date": "2025-11-13 16:30:36"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of The Revised List Of Authorised Kmps To Make Requisite Disclosures Under Regulation 30 Of SEBI(LODR) Regulations 2015",
+            "news_body": "Intimation of the revised list of authorised KMPs to make requisite disclosures under Regulation 30 of SEBI(LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb633739-3e1e-4278-957c-8fbead69a633.pdf",
+            "news_date": "2025-11-13 15:52:06"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Financial Results And Limited Review Report For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Financial Results and Limited Review Report for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74b31138-274d-4416-b3ec-ae540c62fe5d.pdf",
+            "news_date": "2025-11-13 15:29:09"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Financial Results Of The Company For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Kaya Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2025 inter alia to consider and approve the un-audited standalone and consolidated financial results of the Company for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed80ad3f-36b9-4894-9c8e-1280f448e08d.pdf",
+            "news_date": "2025-11-03 20:56:09"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) under SEBI (DP) Regulations 2018 for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3492bf1b-0a09-447f-a51c-317752d8309f.pdf",
+            "news_date": "2025-10-07 16:06:43"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4451ad03-d99c-42ae-84f2-113e5fe81b99.pdf",
+            "news_date": "2025-09-25 14:38:21"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update On Board Meeting",
+            "news_body": "This is to inform that the board meeting to be held today September 18 2025 is deferred till further communication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0196a6fa-8bdd-49e2-bae8-ce0450a6c6e5.pdf",
+            "news_date": "2025-09-18 10:27:49"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI LODR",
+            "news_body": "Announcement under Regulation 30 of SEBI LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50f33a0f-6e63-4d82-b8c9-793eac525b9c.pdf",
+            "news_date": "2025-09-18 10:13:03"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Prior Intimation Of Board Meeting",
+            "news_body": "Kaya Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 18/09/2025 inter alia to consider and approve Fund raising",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34cc8f93-81cf-4375-b79e-f40e4eb7cd05.pdf",
+            "news_date": "2025-09-15 16:17:41"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Axana Estates LLP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=DAEEA3DC_AF89_4A15_8DF1_4C60C42C3780_170309.pdf",
+            "news_date": "2025-09-10 17:03:24"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Resignation of Mr. Rajiv Suri Global CEO",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=afaef6ec-5f87-43d1-b554-33948f33406e.pdf",
+            "news_date": "2025-08-29 19:37:27"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of 2090068 equity shares to Axana Estates LLP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31cc40f8-8168-4086-b47d-a2876f36ea84.pdf",
+            "news_date": "2025-08-12 16:46:00"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication of Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d642d54-adcc-4edd-8cea-cc1dab09b516.pdf",
+            "news_date": "2025-08-06 11:16:55"
         },
         {
             "sym": "KAYA",
@@ -50,6 +336,28 @@
             "seg": "E"
         },
         {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Performance update for Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99f73b10-8f93-4925-bc8b-0a1548650141.pdf",
+            "news_date": "2025-08-05 16:27:01"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Media Release for Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbe37205-2ea8-4bf6-b0c3-8332e5aae07e.pdf",
+            "news_date": "2025-08-05 15:52:44"
+        },
+        {
             "sym": "KAYA",
             "disp": "Kaya",
             "bse_code": 539276,
@@ -72,6 +380,336 @@
             "sid": 10276,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results And Limited Review Report For The Quarter Ended June 30 2025",
+            "news_body": "Financial Results and Limited Review Report for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be10b981-0011-40ed-8207-ae88440ad746.pdf",
+            "news_date": "2025-08-05 15:32:16"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 22nd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=adae4b53-7d5b-4fc2-b7e2-10012797c805.pdf",
+            "news_date": "2025-08-05 14:41:40"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Results and the Scrutinizer report for the 22nd Annual General Meeting held on August 5 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20676d3b-eabc-493b-afa7-cba7d804e3f3.pdf",
+            "news_date": "2025-08-05 14:21:38"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor Of The Company",
+            "news_body": "Appointment of Secretarial Auditor of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1fafb2e-5e03-40e7-a76a-2e0327054742.pdf",
+            "news_date": "2025-08-05 12:53:27"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Receipt Of In-Principle Approval For The Preferential Issue",
+            "news_body": "Receipt of in-principle approval for the preferential issue",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8af2e8b7-a1ae-4d7c-8010-fd1686e1c5dd.pdf",
+            "news_date": "2025-08-01 16:58:45"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor/ analyst conference call invite- August 6 2025 at 4:00 PM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec1773ee-42f5-4f4b-ac7a-9746dd1be013.pdf",
+            "news_date": "2025-07-30 11:04:01"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Kaya Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/08/2025 inter alia to consider and approve the un-audited standalone & consolidated financial results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61f4f176-edf0-47f5-9ac5-2a08c36eb24c.pdf",
+            "news_date": "2025-07-28 14:27:38"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Proceedings of the Extra Ordinary General Meeting of the Company held on July 22 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2990249-b7e3-4684-a91d-1ad990f1f00f.pdf",
+            "news_date": "2025-07-22 15:08:55"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizer report and voting results enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=547a2b8d-8f25-4303-aa9b-62d3a82ab33c.pdf",
+            "news_date": "2025-07-22 13:15:18"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement- Corrigendum to the notice of EGM dated June 26 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=348cd5c7-a680-431c-8187-244514be90cd.pdf",
+            "news_date": "2025-07-18 11:55:26"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Esops And Rsus",
+            "news_body": "Disclosure under regulation 30 for grant of ESOPs and RSUs as approved by the Nomination and Remuneration Committee of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56601bc5-948e-40d8-9cad-b258abe2e301.pdf",
+            "news_date": "2025-07-17 21:52:37"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Corrigendum To The EGM Notice Dated June 26 2025",
+            "news_body": "Corrigendum to the EGM notice dated June 26 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=66321c82-c3a2-49da-9bf1-9f320c8f9ac0.pdf",
+            "news_date": "2025-07-17 21:42:35"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for the Dispatch of 22nd Annual General Meeting notice along with the Annual Report for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e949f7ce-3cda-455e-afcb-5d0f765e8fde.pdf",
+            "news_date": "2025-07-14 11:01:32"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 36 (1) (B)  Of  SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "The Company has sent a letter providing a weblink for assessing the annual report to the members who have not registered their email addresses with Company/RTA or Depositories",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d924649-440b-4958-aa2f-19309efebad7.pdf",
+            "news_date": "2025-07-12 20:58:35"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2b22dd7-793d-4fcf-8564-eda942e67425.pdf",
+            "news_date": "2025-07-12 12:57:02"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41cb75fc-5fbf-4a57-8f43-263c40d2154d.pdf",
+            "news_date": "2025-07-12 12:56:00"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting Intimation",
+            "news_body": "Notice of 22nd Annual General Meeting to be held on August 5 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d836946-31bd-4f67-866a-95b24aa239e0.pdf",
+            "news_date": "2025-07-12 12:49:11"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement- Notice of 22nd Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1629627-77fb-451b-b48e-33ca90adff9d.pdf",
+            "news_date": "2025-07-12 11:51:12"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of the SEBI( Depositories and Participants) Regulations 2018 for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=065f5d88-5b2b-45d9-b1fe-54c9c8ea564e.pdf",
+            "news_date": "2025-07-09 16:58:57"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Results of Postal Ballot notice dated May 28 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28cd3f4f-a84d-409d-abf5-006b53af959c.pdf",
+            "news_date": "2025-07-07 15:09:53"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for Notice of Extra Ordinary General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d86fe00e-b3a2-4a75-858f-a259d0089b48.pdf",
+            "news_date": "2025-06-28 11:30:03"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Equity Intelligence India Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=E4B08E27_5EC3_449F_829E_09802948A3CF_164341.pdf",
+            "news_date": "2025-06-27 16:43:44"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Extra Ordinary General Meeting - July 22 2025",
+            "news_body": "Extra Ordinary General Meeting to be held on July 222025 to approve preferential issue.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7c93450-42ce-4d16-99cc-749ce41cd6a1.pdf",
+            "news_date": "2025-06-27 15:56:13"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On June 26 2025",
+            "news_body": "Approval of Preferential Issue",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5cdf735e-f4c1-4402-a143-4a35d005e0d8.pdf",
+            "news_date": "2025-06-26 10:51:38"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Equity Inteliigence India Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4BE33B49_7CFA_49CF_AF24_01F210E75841_162924.pdf",
+            "news_date": "2025-06-25 16:29:27"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Prior Intimation Of Board Meeting",
+            "news_body": "Kaya Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 26/06/2025 inter alia to consider and approve Fund raising",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b852f0c9-15d5-4cc0-8f03-292d1c1f81ce.pdf",
+            "news_date": "2025-06-23 20:50:05"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Results of postal ballot notice dated May 12 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85a4711e-7a5b-4aa1-8982-ff525a6f4ba3.pdf",
+            "news_date": "2025-06-12 11:14:17"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement- Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=993bc664-1a5d-440b-89a3-a7a866834fd1.pdf",
+            "news_date": "2025-06-06 11:44:37"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of postal ballot dated May 28 2025 for the amendment of Kaya ESOP Plan 2021",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31af5584-a6b0-4c67-ae19-8f824059d29a.pdf",
+            "news_date": "2025-06-05 15:59:58"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Financial results for the Quarter and Financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4dc34c65-0674-4be1-8f68-df05decbefed.pdf",
+            "news_date": "2025-05-30 11:25:48"
         },
         {
             "sym": "KAYA",
@@ -98,6 +736,83 @@
             "seg": "E"
         },
         {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Performance update on the financial results for Q4FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=328dd92b-557b-49ab-82d7-707f60b4746e.pdf",
+            "news_date": "2025-05-29 12:42:57"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the Financial year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23b1c81e-e9cf-41e1-aff6-04fd2e8e5f5e.pdf",
+            "news_date": "2025-05-29 12:09:13"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of Secretarial Auditor",
+            "news_body": "Appointment of Secretarial Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=419fbeed-aafb-4b1f-8443-49f70a57e803.pdf",
+            "news_date": "2025-05-28 23:03:50"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "Approval to amend the existing Kaya ESOP Plan 2021",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4f40173e-67d4-4f37-9429-1b667260708a.pdf",
+            "news_date": "2025-05-28 22:59:18"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "To Avail Loan From Directors",
+            "news_body": "To avail loan from Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5374c2ab-bfd7-4011-84c8-1ae902f1eed2.pdf",
+            "news_date": "2025-05-28 22:56:54"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Mr. Rishabh Mariwala as a Non-Executive Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0995e00-62bc-4725-8445-cfa6c8bc1812.pdf",
+            "news_date": "2025-05-28 22:55:02"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Media Release Q4FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7eeecc22-17c0-44dd-8a14-5d6ab6fcf58e.pdf",
+            "news_date": "2025-05-28 22:51:23"
+        },
+        {
             "sym": "KAYA",
             "disp": "Kaya",
             "bse_code": 539276,
@@ -120,6 +835,204 @@
             "sid": 10276,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Financial Year Ended March 31 2025",
+            "news_body": "Financial Results for the Financial Year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a07782a-fb02-498a-a8cb-a671f7075c93.pdf",
+            "news_date": "2025-05-28 22:29:57"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Announcement for rescheduling investor call for Q4FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acf04134-6d25-48f9-a203-313c32b20664.pdf",
+            "news_date": "2025-05-28 16:37:05"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor call Q4 FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c3401b87-7c5c-4406-9fbe-bf5e567dba5e.pdf",
+            "news_date": "2025-05-20 14:02:14"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Audited Results FY25",
+            "news_body": "Kaya Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2025 inter alia to consider and approve Audited results FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a116f2f-a002-48f8-82a4-d145076b6669.pdf",
+            "news_date": "2025-05-19 12:36:09"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af367a36-dc5d-4bb2-a2e0-64e513c7981b.pdf",
+            "news_date": "2025-05-13 11:00:16"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Intimation of Postal Ballot Notice dated May 12 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5ee75d3-9139-4440-b174-4e80e2b39037.pdf",
+            "news_date": "2025-05-12 20:21:20"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 - Director Loan Repayment",
+            "news_body": "Approval for repayment of director loan repayment \r\n(material related party transaction)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c40a6be2-d95f-45c7-b459-ba58dd045267.pdf",
+            "news_date": "2025-05-12 16:45:55"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a3010fe-9e49-45d4-8212-89fbcd334b05.pdf",
+            "news_date": "2025-04-10 14:54:54"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "We hereby inform Mr. B S Nagesh has completed his 2nd consecutive term as an Independent Director and therefore ceases to be the Director of the Company w.e.f. end of day of March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a4d9d10-381a-4c8b-8e96-5e47aec037cd.pdf",
+            "news_date": "2025-03-31 20:45:21"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Equity Intelligence India Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23F95021_5F1D_4828_BAF8_4EEF5B4AE0AD_165558.pdf",
+            "news_date": "2025-03-26 16:56:05"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Voting results and Scrutinizer report for the postal ballot notice dated January 28 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da810013-cb0f-4e9f-b0c6-d2305b75353b.pdf",
+            "news_date": "2025-03-11 14:21:30"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for postal ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a713810-b01c-4d09-abdd-72d69e5db8f2.pdf",
+            "news_date": "2025-02-08 11:00:26"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of postal ballot is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ac8a421-ce32-411f-aea9-3d701d57a626.pdf",
+            "news_date": "2025-02-07 10:10:41"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financials ) for Q3FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3481138d-da9d-4607-b9d0-5cf0bda36d79.pdf",
+            "news_date": "2025-01-29 14:42:17"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Q3FY25 Financial Results in newspaper",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=77ef57ef-91cd-4e47-88b7-9b04fe9ae5a3.pdf",
+            "news_date": "2025-01-29 12:58:03"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Voluntary Winding-Up Of Wholly Owned Subsidiary",
+            "news_body": "Winding up of wholly owned subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf10307b-a698-4717-8461-62e0e9293756.pdf",
+            "news_date": "2025-01-28 18:00:04"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Change In Directors",
+            "news_body": "Change in Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6387215-ca37-4cd3-8d09-5d909e183f55.pdf",
+            "news_date": "2025-01-28 17:14:11"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release Q3FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2dbf49b-fc97-4b31-b78c-1a093c668467.pdf",
+            "news_date": "2025-01-28 17:03:35"
         },
         {
             "sym": "KAYA",
@@ -146,6 +1059,17 @@
             "seg": "E"
         },
         {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q3FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59acb098-fc73-4615-858b-4096755c9b33.pdf",
+            "news_date": "2025-01-28 17:02:04"
+        },
+        {
             "sym": "KAYA",
             "disp": "Kaya",
             "bse_code": 539276,
@@ -168,6 +1092,94 @@
             "sid": 10276,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For Q3FY25",
+            "news_body": "Financial results for Q3FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e09b497-3c12-489e-8920-6f7b98d43e99.pdf",
+            "news_date": "2025-01-28 17:00:42"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "\r\nThis is to inform you that the Company will hold an investor/analyst conference call on Tuesday January 28 2025 at 5:30 p.m. (IST). During the call the Management will comment on the financial results and operations for the quarter ended December 31 2024. Audio recording and transcript of the said call will be subsequently published on the Companys website at www.kaya.in\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ba3c10b-1947-4479-b6a1-8b45f9193461.pdf",
+            "news_date": "2025-01-20 14:02:10"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform you that the Company will hold an investor/analyst conference call on Tuesday January 28 2025 at 5:30 p.m. (IST). During the call the Management will comment on the financial results and operations for the quarter ended December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57a65ee8-f113-4c1a-ba4b-efcdfab96131.pdf",
+            "news_date": "2025-01-20 11:28:39"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Financial Results For The Quarter Ended December 31 2024",
+            "news_body": "Kaya Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/01/2025 inter alia to consider and approve Intimation of board meeting to be held on January 28 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fe29cfe-4825-47d6-9463-f2e1c343b153.pdf",
+            "news_date": "2025-01-17 08:58:34"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "As per attachment",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8bfed18-d8fc-41f8-bfe7-9f1a1cce9912.pdf",
+            "news_date": "2025-01-13 12:13:55"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Please find enclosed intimation under Regulation 39(3) of SEBI (Listing Obligations and Disclosure Requirements) Regulation, 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c6988f2-1eb4-43f1-8d43-d08601d363bd.pdf",
+            "news_date": "2024-12-06 14:30:50"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Company Update",
+            "descriptor": "Diversification / Disinvestment",
+            "caption": "Announcement under Regulation 30 (LODR)-Diversification / Disinvestment",
+            "news_body": "Update on Disinvestment from Kaya Middle East Business",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60847ce0-0df8-4a8e-89fe-9c5f99c8a0aa.pdf",
+            "news_date": "2024-11-15 23:25:05"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Company Update",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the quarter ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5058d62f-2124-4504-953c-dd0ad84d00d2.pdf",
+            "news_date": "2024-10-28 16:12:10"
         },
         {
             "sym": "KAYA",
@@ -194,6 +1206,17 @@
             "seg": "E"
         },
         {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Company Update",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the quarter ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e5deeff-93b0-4e06-a63e-bbc7bdf41675.pdf",
+            "news_date": "2024-10-28 15:55:43"
+        },
+        {
             "sym": "KAYA",
             "disp": "Kaya",
             "bse_code": 539276,
@@ -216,6 +1239,83 @@
             "sid": 10276,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30, 2024",
+            "news_body": "Financial Results - Standalone & Consolidated for the quarter and half year ended September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f762705-8c17-49f2-9013-2fee80c42468.pdf",
+            "news_date": "2024-10-28 15:42:27"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earnings Conference Call- Q2FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1c60a0f-8ca6-4cae-8ab0-5f8e7b441b97.pdf",
+            "news_date": "2024-10-17 16:47:35"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Un-Audited Financial Results",
+            "news_body": "Kaya Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/10/2024 ,inter alia, to consider and approve The Un-audited standalone & consolidated financial results of the Company for the quarter and half year ended September 30, 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f1f4c337-d364-426c-9e1d-1d1ae4e5b55d.pdf",
+            "news_date": "2024-10-16 10:45:25"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Company Update",
+            "descriptor": "Resignation of Chief Executive Officer (CEO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Executive Officer (CEO)",
+            "news_body": "Please find intimation under Regulation 30- Resignation of CEO",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70dd2adc-1d26-40ca-9b5e-819796cbe6f6.pdf",
+            "news_date": "2024-10-08 22:44:37"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Please find enclosed confirmation certificate issued under Regulation 74(5) of SEBI (DP) Regulation 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e8ecee2-21ee-448f-b6ff-9e83ef467cc5.pdf",
+            "news_date": "2024-10-07 12:04:39"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Sad Demise Of Mr. Kishore V Mariwala, Promoter Of The Company",
+            "news_body": "Please find an intimation by the Company on the captioned subject",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1cd96508-f53f-4ec1-a9e8-2b4bb61480d1.pdf",
+            "news_date": "2024-10-01 16:21:04"
+        },
+        {
+            "co_code": 26579,
+            "bse_code": 539276,
+            "isin": "INE587G01015",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations, 2015",
+            "news_body": "Please find enclosed Disclosure under Regulation 30 read with clause 20 of para A of Part A of Schedule III",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=822778c8-5732-444f-98a8-598100022d2a.pdf",
+            "news_date": "2024-09-19 14:47:18"
         },
         {
             "sym": "KAYA",
@@ -937,6 +2037,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

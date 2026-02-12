@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "Nitiraj Engineers Limited has informed the Exchange about Copy of Newspaper Publication regarding Postal Ballot Notice",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_07022026140907_SEBI__LODR__Newspaper_Adv_Postal_Ballot_Notice_S.pdf",
+            "news_date": "2026-02-07 00:00:00"
+        },
+        {
             "sym": "NITIRAJ",
             "disp": "Nitiraj Engineers",
             "bse_code": 0,
@@ -26,6 +37,61 @@
             "seg": "E"
         },
         {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Nitiraj Engineers Limited has informed the Exchange regarding  Board meeting held on February 06, 2026.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_06022026161905_Outcome_BM_S.pdf",
+            "news_date": "2026-02-06 00:00:00"
+        },
+        {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Shareholders meeting",
+            "descriptor": "Shareholders meeting",
+            "caption": "Shareholders meeting",
+            "news_body": "Nitiraj Engineers Limited has informed the Exchange regarding Notice of Postal Ballot",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_06022026162433_Postal_Ballot_Notice_Nitiraj_Eng_09-03-2026.pdf",
+            "news_date": "2026-02-06 00:00:00"
+        },
+        {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Nitiraj Engineers Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_07012026182805_74_5Nitiraj.pdf",
+            "news_date": "2026-01-07 00:00:00"
+        },
+        {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Nitiraj Engineers Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_27122025204813_TradingWIndowClosure.pdf",
+            "news_date": "2025-12-27 00:00:00"
+        },
+        {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Copy of Newspaper Publication",
+            "descriptor": "Copy of Newspaper Publication",
+            "caption": "Copy of Newspaper Publication",
+            "news_body": "Nitiraj Engineers Limited has informed the Exchange about Copy of Newspaper Publication",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_17112025124101_Newspaaper_Publication_for_Sep_2025_results.pdf",
+            "news_date": "2025-11-17 00:00:00"
+        },
+        {
             "sym": "NITIRAJ",
             "disp": "Nitiraj Engineers",
             "bse_code": 0,
@@ -48,7 +114,61 @@
             "sid": 3247,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Outcome of Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Outcome of Board Meeting",
+            "news_body": "Nitiraj Engineers Limited has submitted to the Exchange, the financial results for the period ended September 30, 2025.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_14112025171704_2526_Financial_Q2_Digitally_Signed_.pdf",
+            "news_date": "2025-11-14 00:00:00"
+        },
+        {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Certificate under SEBI (Depositories and Participa",
+            "descriptor": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "caption": "Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "news_body": "Nitiraj Engineers Limited has informed the Exchange about Certificate under SEBI (Depositories and Participants) Regulations, 2018",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_13102025163207_Reg_74_5_Sep2025_s.pdf",
+            "news_date": "2025-10-13 00:00:00"
+        },
+        {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Trading Window",
+            "descriptor": "Trading Window",
+            "caption": "Trading Window",
+            "news_body": "Nitiraj Engineers Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_24092025161725_Trading_Wondow_closure_Nitiraj_Sep2025_s.pdf",
+            "news_date": "2025-09-24 00:00:00"
+        },
+        {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Shareholders meeting",
+            "descriptor": "Shareholders meeting",
+            "caption": "Shareholders meeting",
+            "news_body": "Nitiraj Engineers Limited has submitted the Exchange a copy Srutinizers report of  Annual General Meeting held on September 23, 2025. Further, the company has informed the Exchange regarding voting results.",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_24092025144450_Cover_letter_Scrutinizer_Report_Voting_Results_s.pdf",
+            "news_date": "2025-09-24 00:00:00"
+        },
+        {
+            "co_code": 68910,
+            "bse_code": 0,
+            "isin": "INE439T01012",
+            "ann_type": "Shareholders meeting",
+            "descriptor": "Shareholders meeting",
+            "caption": "Shareholders meeting",
+            "news_body": "Nitiraj Engineers Limited has informed the Exchange regarding Proceedings of Annual General Meeting held on September 23, 2025",
+            "file_url": "https://nsearchives.nseindia.com/corporate/NITIRAJ_23092025182911_Proceedings_of_the_AGM_2024_25_S.pdf",
+            "news_date": "2025-09-23 00:00:00"
         }
-    ],
-    "remarks": ""
+    ]
 }

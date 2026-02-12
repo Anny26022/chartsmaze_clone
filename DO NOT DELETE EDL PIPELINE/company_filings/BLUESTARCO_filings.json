@@ -2,6 +2,17 @@
     "code": 0,
     "data": [
         {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b4921b5-5d14-4697-84ae-a6a20f6eb55a.pdf",
+            "news_date": "2026-02-04 17:49:39"
+        },
+        {
             "sym": "BLUESTARCO",
             "disp": "Blue Star",
             "bse_code": 500067,
@@ -24,6 +35,61 @@
             "sid": 8311,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=06e22652-9cee-4a41-8ab3-24619d40f51b.pdf",
+            "news_date": "2026-02-04 17:43:17"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of LODR",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5d88f0a-dca7-43d5-8df6-721bfb22e533.pdf",
+            "news_date": "2026-02-01 21:20:04"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders - Financial Results For The Third Quarter And Nine Months Ended On December 31 2025",
+            "news_body": "Please find enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=153dfc57-c472-44be-8418-8735f1977a15.pdf",
+            "news_date": "2026-01-30 21:47:53"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ce9faa5-fcb1-4bea-8a26-9483856b7ead.pdf",
+            "news_date": "2026-01-30 21:42:05"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investor Update For The Third Quarter And Nine Months Ended On December 31 2025",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee8cb09d-434a-4152-b432-b48107f5e9db.pdf",
+            "news_date": "2026-01-30 11:32:28"
         },
         {
             "sym": "BLUESTARCO",
@@ -50,6 +116,39 @@
             "seg": "E"
         },
         {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=498973ca-a226-4b40-a114-4f27d5c8771d.pdf",
+            "news_date": "2026-01-30 11:28:23"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4cdf00c7-839a-414c-9f36-f29986d4d807.pdf",
+            "news_date": "2026-01-29 15:52:53"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed Press release titled Board Level changes in Blue Star",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7cdbae29-b5c8-4d3e-abfb-39abea73fe57.pdf",
+            "news_date": "2026-01-29 15:50:57"
+        },
+        {
             "sym": "BLUESTARCO",
             "disp": "Blue Star",
             "bse_code": 500067,
@@ -72,6 +171,105 @@
             "sid": 8311,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results  - Financial Results For Dec 31 2025",
+            "news_body": "Please find enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ceede38f-16e7-47be-80d3-4018557f6d0b.pdf",
+            "news_date": "2026-01-29 15:42:05"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Please find enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cc6de6d-4ebc-49d7-b2d2-ea5b27086438.pdf",
+            "news_date": "2026-01-29 15:36:28"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "Please find enclosed outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6af213c2-d634-4708-a54c-74f1efdff52a.pdf",
+            "news_date": "2026-01-29 15:34:20"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On January 29 2026",
+            "news_body": "Please find enclosed outcome of the Board Meeting held on January 29 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d44897fd-a054-4283-8edf-770585792583.pdf",
+            "news_date": "2026-01-29 15:32:20"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4edea7c6-1fea-4c41-81f9-4232d03aa144.pdf",
+            "news_date": "2026-01-22 23:11:52"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b0f3d95-36e7-4229-9211-6f3cb63e18ff.pdf",
+            "news_date": "2026-01-15 14:16:43"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer the enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c42f5ce7-e4b5-48aa-851b-5650b47373ba.pdf",
+            "news_date": "2026-01-13 16:35:37"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find enclosed intimation relating to Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6492f243-173a-488e-902a-9f0c60f0d03c.pdf",
+            "news_date": "2025-12-24 21:02:18"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Un-Audited Standalone And Consolidated Financial Results (With Limited Review Report) For The Third Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Blue Star Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/01/2026 inter alia to consider and approve consideration and approval of the Un-audited Standalone and Consolidated Financial Results (with limited review report) for the Third Quarter and Nine Months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7df83c6-5b2b-461c-a10b-1b6782beab1a.pdf",
+            "news_date": "2025-12-24 21:00:30"
         },
         {
             "sym": "BLUESTARCO",
@@ -98,6 +296,61 @@
             "seg": "E"
         },
         {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed transcript of earnings call for Q2 and H1 of FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7fceb6e-bb5f-47b3-84ca-440da978d15b.pdf",
+            "news_date": "2025-11-12 16:39:41"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders - Financial Results For The Second Quarter And Half Year Ended September 30 2025",
+            "news_body": "Please find enclosed intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=193e1e0f-10b8-409c-8ee9-2277c6b67d61.pdf",
+            "news_date": "2025-11-06 21:42:01"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73bbce02-e836-40b4-bf70-3e2d5d1b31f0.pdf",
+            "news_date": "2025-11-06 19:09:53"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=508a5c4e-788d-453e-ac54-6cc4d5816dba.pdf",
+            "news_date": "2025-11-06 18:47:43"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investor Update For The Second Quarter And Half Year Ended September 30 2025",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ee6ba33-9266-4384-b794-b191a8a7f9cf.pdf",
+            "news_date": "2025-11-06 11:31:22"
+        },
+        {
             "sym": "BLUESTARCO",
             "disp": "Blue Star",
             "bse_code": 500067,
@@ -120,6 +373,50 @@
             "sid": 8311,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find enclosed intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5dc1d90-185e-444e-b67c-3523e422122c.pdf",
+            "news_date": "2025-11-06 11:27:29"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Unaudited Standalone And Consolidated Financial Results For The Second Quarter And Half Year Ended On September 30 2025",
+            "news_body": "Please refer enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fe72ae3-d658-49b0-bf34-a7f255b033eb.pdf",
+            "news_date": "2025-11-05 16:42:52"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer the enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b51736ba-f776-4302-b08c-9c8483cd1835.pdf",
+            "news_date": "2025-11-05 16:33:30"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please refer enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81f34e7e-762f-4e56-887b-ff508ac0b1ac.pdf",
+            "news_date": "2025-11-05 16:24:08"
         },
         {
             "sym": "BLUESTARCO",
@@ -146,6 +443,116 @@
             "seg": "E"
         },
         {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Financial Results For The Second Quarter And Half Year Ended On September 30 2025",
+            "news_body": "Please refer enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fcb445ac-d07f-4040-8aa7-7895b55e8684.pdf",
+            "news_date": "2025-11-05 16:21:42"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "Please refer outcome of Board Meeting for Q2FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f28b45c-c3eb-4e74-8371-a533f5685101.pdf",
+            "news_date": "2025-11-05 16:13:22"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Grant Of Options Under Blue Star Employees Stock Option Scheme 2024 (ESOP 2024)",
+            "news_body": "Please find enclosed intimation relating to Grant of Stock Options.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2c39331-7d66-4689-9fd2-a713b053e86c.pdf",
+            "news_date": "2025-10-31 14:57:04"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=650a1ed2-2b1d-4ad9-b2f1-4e693c884fa3.pdf",
+            "news_date": "2025-10-27 22:59:13"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer the enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=edbc3b5c-823e-43dc-b79c-1aeb6096fe80.pdf",
+            "news_date": "2025-10-09 12:43:55"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for SBI Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ECFB2F64_F8A0_4521_BD5D_C462178F824B_100344.pdf",
+            "news_date": "2025-10-03 10:03:49"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db2bf17d-154d-402c-9357-6592dd2f3b13.pdf",
+            "news_date": "2025-09-25 18:05:04"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Un-Audited Standalone And Consolidated Financial Results (With Limited Review Report) For The Second Quarter And Half Year Ending On September 30 2025 As Required Under Regulation 33(3) Of The Listing Regulations",
+            "news_body": "Blue Star Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/11/2025 inter alia to consider and approve the Un-audited Standalone and Consolidated Financial Results (with limited review report) for the Second Quarter and Half Year ending on September 30 2025 as required under Regulation 33(3) of the Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0432ff5-f8ed-434a-b211-9342f3b1defd.pdf",
+            "news_date": "2025-09-25 17:47:41"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b61b6ee-4103-4799-8a35-0044b689028a.pdf",
+            "news_date": "2025-09-10 17:18:03"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29dc2f6c-6f1b-4e8c-9ba3-568741e01b38.pdf",
+            "news_date": "2025-09-04 17:55:03"
+        },
+        {
             "sym": "BLUESTARCO",
             "disp": "Blue Star",
             "bse_code": 500067,
@@ -168,6 +575,83 @@
             "sid": 8311,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da8b2d40-46e5-4964-ad0d-dd74495d8636.pdf",
+            "news_date": "2025-08-13 15:07:15"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da16712c-344f-4a2c-b434-2250311471f6.pdf",
+            "news_date": "2025-08-07 23:13:11"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investor Update For The First Quarter Ended June 30 2025",
+            "news_body": "Please find enclosed the intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4263eef3-e998-4dfb-aef8-6e08ca778556.pdf",
+            "news_date": "2025-08-07 20:20:20"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find enclosed the intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50c9a003-5d9a-42fa-8433-2e07b235e821.pdf",
+            "news_date": "2025-08-07 20:16:00"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders - Financial Results For The First Quarter Ended June 30 2025",
+            "news_body": "Please find enclosed the intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fa761ce-c5e5-44e5-b8d5-63537f6b7d29.pdf",
+            "news_date": "2025-08-07 20:08:50"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Please find enclosed the intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41036d20-d799-475f-bb5e-fbc97ff82120.pdf",
+            "news_date": "2025-08-07 19:53:48"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investor Update For The First Quarter Ended June 30 2025",
+            "news_body": "Please find enclosed the Investor Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=35ffa2ac-3f81-4ab8-968a-db4af7dfa573.pdf",
+            "news_date": "2025-08-07 11:26:58"
         },
         {
             "sym": "BLUESTARCO",
@@ -194,6 +678,325 @@
             "seg": "E"
         },
         {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find enclosed Investor Presentation for Q1FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d2c654c-07e9-47ef-b53f-ad87f701bf43.pdf",
+            "news_date": "2025-08-07 11:24:22"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Please find attached proceedings of the Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcc7dfb7-d732-4a66-8017-c90b3fb917fe.pdf",
+            "news_date": "2025-08-06 23:04:06"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed the intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82218035-ddf0-4623-b12e-34ea7caa0306.pdf",
+            "news_date": "2025-08-06 19:01:50"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed the Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=be8a96e2-e906-4ed4-b30f-a4704c51072a.pdf",
+            "news_date": "2025-08-06 15:35:06"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "Please find enclosed the intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bb31cc8-4ac1-4683-a71b-74b3cc8f3dd2.pdf",
+            "news_date": "2025-08-06 15:23:49"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 (The Listing Regulations)",
+            "news_body": "Please find enclosed the Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a770c2d-63b1-458f-abf1-c9ac94052d41.pdf",
+            "news_date": "2025-08-06 15:22:15"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please find enclosed intimation for appointment of SMP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a104d7f-d80c-4ab8-9dc6-0911267ded6d.pdf",
+            "news_date": "2025-08-01 16:24:07"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please refer enclosed intimation for change in Senior Management of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b61d2fd0-8cb6-40a6-bea8-78ae4a49c0fb.pdf",
+            "news_date": "2025-07-29 15:14:40"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04d1a2b8-e020-4294-99b2-919b48eaa63a.pdf",
+            "news_date": "2025-07-23 18:48:12"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ffc6b80-41b1-4772-bfe1-8a57c56c151c.pdf",
+            "news_date": "2025-07-14 19:55:55"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulations 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 - Letter To Members",
+            "news_body": "Please find enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=733a4847-9bad-4c05-ac6f-16be0aa29bfb.pdf",
+            "news_date": "2025-07-12 19:44:07"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Please find enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae06be72-4c5d-4a1f-a639-6fa72122ba60.pdf",
+            "news_date": "2025-07-11 22:42:06"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 77Th Annual General Meeting Of The Company",
+            "news_body": "Please find enclosed the Notice of the 77th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c70e1a10-de15-47b5-a685-2df1d36a5e47.pdf",
+            "news_date": "2025-07-11 22:35:59"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Please find enclosed the BRSR for FY25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5e6c6a8-af45-47fb-8a3c-c11ca4d2c607.pdf",
+            "news_date": "2025-07-11 20:48:43"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Please find enclosed Annual Report for FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e3eb47f-875f-4aa8-9db9-22dd8c73a23a.pdf",
+            "news_date": "2025-07-11 20:46:58"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 77Th Annual General Meeting Of The Company",
+            "news_body": "Please find enclosed the Intimation of the Notice of the 77th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ab86743-4585-48e0-875d-9a0a76fb5ead.pdf",
+            "news_date": "2025-07-11 20:37:31"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Newspapo",
+            "news_body": "Please find enclosed newspaper intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0a62b51-8d4e-44e6-a3ba-03676ea84f94.pdf",
+            "news_date": "2025-07-01 22:22:13"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please find enclosed the intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47c5babe-aaa6-467f-ac61-ef1a8684af99.pdf",
+            "news_date": "2025-06-30 19:11:45"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approving The Un-Audited Standalone And Consolidated Financial Results (With Limited Review Report) For The First Quarter Ended June 30 2025 As Required Under Regulation 33(3) Of The Listing Regulations.",
+            "news_body": "Blue Star Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/08/2025 inter alia to consider and approve the Un-audited Standalone and Consolidated Financial Results (with limited review report) for the First Quarter ended June 30 2025 as required under Regulation 33(3) of the Listing Regulations",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f150e510-48b6-46d4-baf1-e0c7ed90a8e9.pdf",
+            "news_date": "2025-06-26 19:09:06"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find enclosed the intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c91d915a-637f-4876-aa45-98fa8fb0c07e.pdf",
+            "news_date": "2025-06-26 19:05:04"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please fine enclosed intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=718be655-6e9f-464b-a6af-9b3abbd32190.pdf",
+            "news_date": "2025-06-19 19:32:04"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Advertisement",
+            "news_body": "Newspaper advertisement giving notice of transfer of Equity shares of the company to Investor Education and Protection Fund (IEPF)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21677107-92b0-4146-9206-36f97741b031.pdf",
+            "news_date": "2025-06-11 18:52:18"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders - Tax Deduction On Dividend Payout",
+            "news_body": "Please find enclosed the Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3a62a113-8f65-40b9-9f4f-cdb27a0b5946.pdf",
+            "news_date": "2025-05-30 17:25:36"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed the intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7109d818-5f7f-4059-b8f4-2ebdef349fa8.pdf",
+            "news_date": "2025-05-30 17:15:01"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed the Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d4959dd8-b7f7-410d-a8ee-9d5d282b21c9.pdf",
+            "news_date": "2025-05-28 18:13:26"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8650ae9b-b472-4b14-8bef-17c31493615c.pdf",
+            "news_date": "2025-05-22 17:27:44"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2273ab80-ddf9-4bd1-90e5-6fc440abb1e2.pdf",
+            "news_date": "2025-05-22 17:16:50"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed the intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bce2a55-295c-4b27-aaf1-86ae1010cdaf.pdf",
+            "news_date": "2025-05-21 17:46:28"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b1fe781-758b-46ff-bdc5-87de033d34bd.pdf",
+            "news_date": "2025-05-14 17:30:01"
+        },
+        {
             "sym": "BLUESTARCO",
             "disp": "Blue Star",
             "bse_code": 500067,
@@ -216,6 +1019,39 @@
             "sid": 8311,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=822e2659-a6c7-49dc-950d-0197677b6c91.pdf",
+            "news_date": "2025-05-14 17:22:13"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find enclosed newspaper advertisement for financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1166668-2f2a-49e8-b868-7e1562fa0e5b.pdf",
+            "news_date": "2025-05-08 18:03:18"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Communication To Shareholders - Financial Results For The Fourth Quarter And Financial Year Ended March 31 2025",
+            "news_body": "Please fine enclosed intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8f4b6fc2-2791-4599-ba31-51cc5589116a.pdf",
+            "news_date": "2025-05-08 17:57:31"
         },
         {
             "sym": "BLUESTARCO",
@@ -242,6 +1078,28 @@
             "seg": "E"
         },
         {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find enclosed intimation for audio recording of the Investors Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=474c83ab-f13b-4129-9e14-3ec65e5c1661.pdf",
+            "news_date": "2025-05-08 17:52:49"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investor Update For The Fourth Quarter And Financial Year Ended March 31 2025",
+            "news_body": "Please find enclosed the intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18647121-9ff3-45b5-acf4-8fda3907d930.pdf",
+            "news_date": "2025-05-08 11:27:07"
+        },
+        {
             "sym": "BLUESTARCO",
             "disp": "Blue Star",
             "bse_code": 500067,
@@ -266,6 +1124,237 @@
             "seg": "E"
         },
         {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find enclosed the intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac56f923-6dcf-4826-ad9f-f6ce69d43c9b.pdf",
+            "news_date": "2025-05-08 11:20:38"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please refer the enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c536d51-b3af-4a3b-92b4-27c094dbf962.pdf",
+            "news_date": "2025-05-07 16:22:13"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Mr Vir S Advani as Chairman and Managing Director for a further period of five years commencing from April 1 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2cfbf49-2bc8-424b-89d3-cd125cb897de.pdf",
+            "news_date": "2025-05-07 16:11:49"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Annual General Meeting Scheduled On August 6 2025.",
+            "news_body": "Please refer enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fe3c9c0-7995-4d29-98bf-700672a6c96a.pdf",
+            "news_date": "2025-05-07 16:09:34"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Shareholders Meeting Scheduled On August 6 2025",
+            "news_body": "Please refer enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7c6830ef-2866-4e0b-8e11-6249f0f286d4.pdf",
+            "news_date": "2025-05-07 16:07:32"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Please refer enclosed file",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff16e822-1a35-4e3c-ba26-3c7be943a849.pdf",
+            "news_date": "2025-05-07 16:05:34"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend/AGM",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Please refer the enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2449af8f-e650-452c-951b-057cc113605d.pdf",
+            "news_date": "2025-05-07 16:04:24"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Please refer enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f939e99-cb75-4a1b-bba4-da2dffba2f6d.pdf",
+            "news_date": "2025-05-07 16:02:07"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6add6cf9-387d-4887-8c7c-7cf92790b0da.pdf",
+            "news_date": "2025-05-07 15:59:44"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e8c2fbd-5316-4272-9856-8f2a96e2d18d.pdf",
+            "news_date": "2025-05-07 15:58:09"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Please find enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=218f4160-9c01-4a12-a665-dcec86f5b431.pdf",
+            "news_date": "2025-04-22 20:00:38"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please refer the enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2830c9ed-6646-47f8-bf47-f3e9bf8d5ec8.pdf",
+            "news_date": "2025-04-09 17:30:24"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed the press release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80da8c2e-6fc6-49cd-8bd6-d5c878ecb59d.pdf",
+            "news_date": "2025-03-31 12:07:28"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please find enclosed the intimation for appointment of Senior Managerial Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b65e8c9-61cb-41c6-ab29-a3ab91e89e74.pdf",
+            "news_date": "2025-03-31 11:56:11"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Audited Standalone And Consolidated Financial Results Of The Company For Q4FY25 And FY25 And Recommendation Of Final Dividend For The Year Ended March 31 2025 If Any On The Equity Shares Of The Comp",
+            "news_body": "Blue Star Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/05/2025 inter alia to consider and approve the Audited Standalone and Consolidated Financial Results of the Company for the Fourth Quarter and Financial Year ended March 31 2025 as required under Regulation 33(3) of the Listing Regulations; and Recommendation of final dividend for the year ended March 31 2025 if any on the equity shares of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=744c3145-68e7-495d-845b-06bf841bf13d.pdf",
+            "news_date": "2025-03-27 19:15:34"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please find enclosed the Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98cced9b-9ca6-4463-a375-6a2c0e9d8c8d.pdf",
+            "news_date": "2025-03-27 19:10:33"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Blue Star ESOP Trust  - Trust Deed",
+            "news_body": "Please  find enclosed Blue Star ESOP Trust Deed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21f3cfff-896a-48cd-a32d-c8cb19f9dab8.pdf",
+            "news_date": "2025-03-07 17:30:25"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Please find enclosed the Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7e23efc-c647-4bb9-a286-3b399c189200.pdf",
+            "news_date": "2025-03-06 12:13:02"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations)",
+            "news_body": "Please refer enclosed file.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1608e6c8-df5b-4343-8e04-56148471cac8.pdf",
+            "news_date": "2025-02-25 19:58:05"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Press Release",
+            "news_body": "Please find enclosed Press Released issued by the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c9876b1-4c81-4318-a247-982dc47cd3f4.pdf",
+            "news_date": "2025-02-25 12:10:47"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR) - Change In Senior Management",
+            "news_body": "Please refer the enclosed intimation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33c44b2e-a958-4d7d-815e-0b740b9ec54a.pdf",
+            "news_date": "2025-02-17 11:32:48"
+        },
+        {
             "sym": "BLUESTARCO",
             "disp": "Blue Star",
             "bse_code": 500067,
@@ -288,6 +1377,17 @@
             "sid": 8311,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 82,
+            "bse_code": 500067,
+            "isin": "INE472A01039",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find enclosed the Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b61411ba-625a-4a34-82fe-bc389558ac10.pdf",
+            "news_date": "2025-02-04 19:04:21"
         },
         {
             "sym": "BLUESTARCO",
@@ -1921,6 +3021,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

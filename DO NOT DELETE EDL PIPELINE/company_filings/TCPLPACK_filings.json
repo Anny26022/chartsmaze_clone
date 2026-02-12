@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4472f753-7acd-454f-91d4-697b8bc2ef1d.pdf",
+            "news_date": "2026-02-11 15:06:48"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=468fdfb9-ac4c-476c-a605-2f26e3ba430a.pdf",
+            "news_date": "2026-02-09 18:45:45"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Commencement Of Commercial Production",
+            "news_body": "Commencement of Commercial production of Accura Technik Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e0d1854-3005-4e74-bc31-130ed21ac751.pdf",
+            "news_date": "2026-02-09 18:43:50"
+        },
+        {
             "sym": "TCPLPACK",
             "disp": "TCPL Packaging",
             "bse_code": 523301,
@@ -24,6 +57,28 @@
             "sid": 184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba9b0079-c285-4491-8d41-e72c09d489de.pdf",
+            "news_date": "2026-02-09 18:36:27"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a42f5be-c8d3-447d-936b-692a0ef62c60.pdf",
+            "news_date": "2026-02-09 18:33:25"
         },
         {
             "sym": "TCPLPACK",
@@ -50,6 +105,83 @@
             "seg": "E"
         },
         {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results",
+            "news_body": "Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=652a0ecc-f5ee-42c9-8667-596533f604c0.pdf",
+            "news_date": "2026-02-09 18:27:50"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst /Investor meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=193163f2-7f13-4a08-a0dd-237628383747.pdf",
+            "news_date": "2026-02-05 11:06:04"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarterly Results",
+            "news_body": "TCPL Packaging Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 09/02/2026 inter alia to consider and approve Quarterly Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4de9aeb0-879c-4995-bc9a-286438481503.pdf",
+            "news_date": "2026-01-28 15:00:31"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17dc82a7-6d8f-4333-a264-cf5b7579b217.pdf",
+            "news_date": "2026-01-07 14:44:14"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=067bfe65-3b69-44cf-9711-884f31a0cea9.pdf",
+            "news_date": "2025-12-29 15:25:16"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESOP Updates",
+            "news_body": "ESOP Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef13c659-eb27-4896-8a22-359afae83a34.pdf",
+            "news_date": "2025-12-19 17:35:01"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Intimation under Reg. 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0276defe-2e78-4802-9ba4-8a4c6ec400fa.pdf",
+            "news_date": "2025-12-15 15:26:45"
+        },
+        {
             "sym": "TCPLPACK",
             "disp": "TCPL Packaging",
             "bse_code": 523301,
@@ -72,6 +204,50 @@
             "sid": 184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6ab9435-cf2a-41a5-85cb-267603753f1b.pdf",
+            "news_date": "2025-11-20 15:01:47"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst/Investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7398c489-2656-4668-a788-68b863a3e7c7.pdf",
+            "news_date": "2025-11-17 18:22:15"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52f06241-d13b-4847-9100-9136962d3414.pdf",
+            "news_date": "2025-11-15 19:34:06"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec5b78bb-324e-48bd-a8d7-389fbd6785fa.pdf",
+            "news_date": "2025-11-14 15:04:33"
         },
         {
             "sym": "TCPLPACK",
@@ -98,6 +274,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3314196-3d79-4cac-8651-24c4bb405362.pdf",
+            "news_date": "2025-11-14 14:56:09"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=568f4651-0a5b-4b10-b0eb-2bc4dd9cec26.pdf",
+            "news_date": "2025-11-14 14:54:15"
+        },
+        {
             "sym": "TCPLPACK",
             "disp": "TCPL Packaging",
             "bse_code": 523301,
@@ -120,6 +318,116 @@
             "sid": 184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results",
+            "news_body": "Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15519216-2bf6-48c7-b96f-26015637059e.pdf",
+            "news_date": "2025-11-14 14:49:24"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst /Investor meet Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ec0250c-d4a7-442f-8df0-45c184e5b40b.pdf",
+            "news_date": "2025-11-06 16:57:15"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting Intimation For Quarterly Results",
+            "news_body": "TCPL Packaging Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/11/2025 inter alia to consider and approve Quarterly Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f741624a-2a27-43db-9218-dc3597f90710.pdf",
+            "news_date": "2025-10-29 15:01:06"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Intimation under Reg. 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0cafa06a-629b-4ad5-b36f-ee9b7b223832.pdf",
+            "news_date": "2025-10-16 15:03:31"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56cd65e2-16e7-4adf-8e00-e0c613369257.pdf",
+            "news_date": "2025-10-09 11:31:58"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=315d3cbc-28a7-48a6-8f00-3bf647ec30d3.pdf",
+            "news_date": "2025-09-29 16:27:43"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESOP Updates",
+            "news_body": "ESOP Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7a494c8-a611-4a47-b9ad-3b41f9abba75.pdf",
+            "news_date": "2025-09-12 14:43:50"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Intimation under Reg. 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f1fa145-b165-4dae-866a-d9fb0138dfbf.pdf",
+            "news_date": "2025-09-01 14:51:16"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=970d3f2f-e78a-4776-9c99-cb9fefa1fea0.pdf",
+            "news_date": "2025-08-21 11:39:46"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5fd70c42-12b0-4b41-8f3e-2f524545cb7a.pdf",
+            "news_date": "2025-08-18 12:34:19"
         },
         {
             "sym": "TCPLPACK",
@@ -146,6 +454,83 @@
             "seg": "E"
         },
         {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Call Transcript",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e6b12af-4a55-4a32-bb53-d1adf72c7bcf.pdf",
+            "news_date": "2025-08-05 16:37:58"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst/Investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e33521c-8828-4cf4-984a-aff35999e876.pdf",
+            "news_date": "2025-08-01 17:47:02"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Dividend Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Dividend Updates",
+            "news_body": "Dividend Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=26a2e65e-5c7a-43a5-be25-7a6b31925e5a.pdf",
+            "news_date": "2025-08-01 17:41:38"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Esops Grants",
+            "news_body": "ESOPs Grants",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12f594b7-bb82-4c4c-a4f9-35f6bc9100b5.pdf",
+            "news_date": "2025-08-01 17:36:11"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f5f9673f-14f4-4959-a6da-11c2bc5c573d.pdf",
+            "news_date": "2025-08-01 17:31:47"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "AGM Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4ebde297-e4d7-41ef-872d-45d9aca04c6c.pdf",
+            "news_date": "2025-07-31 22:26:24"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=529ecbdf-265d-4f57-81c5-b39e61b6b27a.pdf",
+            "news_date": "2025-07-31 16:23:40"
+        },
+        {
             "sym": "TCPLPACK",
             "disp": "TCPL Packaging",
             "bse_code": 523301,
@@ -168,6 +553,17 @@
             "sid": 184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e52e101-e7f7-41cb-8883-847506283340.pdf",
+            "news_date": "2025-07-31 16:21:06"
         },
         {
             "sym": "TCPLPACK",
@@ -194,6 +590,127 @@
             "seg": "E"
         },
         {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results",
+            "news_body": "Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33eaa168-d02a-4dfd-a8a5-6a817b39d348.pdf",
+            "news_date": "2025-07-31 16:13:51"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst/Investor meet intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55ae1dc7-fd97-41d8-9490-da66ceb32170.pdf",
+            "news_date": "2025-07-23 11:17:08"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Quarterly Results",
+            "news_body": "TCPL Packaging Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/07/2025 inter alia to consider and approve Quarterly Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2d66ef8c-f177-49c2-90ce-0e7f07868228.pdf",
+            "news_date": "2025-07-16 18:02:06"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7e2f6ab-0992-4710-aeb3-8ec7079ebcd4.pdf",
+            "news_date": "2025-07-11 17:14:40"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72290113-d67e-4e64-b86e-17a4901c84d1.pdf",
+            "news_date": "2025-07-09 14:55:11"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": " Letter To The Member",
+            "news_body": "Letter to the Member",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5f4d4f7-fff7-4c44-af0d-5de0f3ae5593.pdf",
+            "news_date": "2025-07-09 14:42:36"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=75fc1c0c-d475-47c9-956f-46257b4580ef.pdf",
+            "news_date": "2025-07-07 18:49:56"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "BRSR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bd8ca74-be52-4dbc-a0f3-9c4dbd40864b.pdf",
+            "news_date": "2025-07-07 18:10:52"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "AGM",
+            "news_body": "AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bbda6f21-e51b-402d-bf47-ddb054f04a68.pdf",
+            "news_date": "2025-07-07 17:43:26"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESOP Updates",
+            "news_body": "ESOP Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6bb0e919-7939-4725-a9d0-776f46235722.pdf",
+            "news_date": "2025-06-27 14:12:19"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fefd5284-ed14-4127-b0b3-989f2c4a54e7.pdf",
+            "news_date": "2025-06-26 12:45:33"
+        },
+        {
             "sym": "TCPLPACK",
             "disp": "TCPL Packaging",
             "bse_code": 523301,
@@ -216,6 +733,39 @@
             "sid": 184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": " 31 March 2025",
+            "news_body": "Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f0aa437-0093-43f4-b668-7ed4b17b0bce.pdf",
+            "news_date": "2025-06-16 11:38:31"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "IEPF Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=940f2017-f9e7-4a6a-8ac5-64b3d0fe2f52.pdf",
+            "news_date": "2025-06-11 14:46:48"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESOP Updates",
+            "news_body": "ESOP Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4176b265-c14c-4c06-bf9a-f658552dac06.pdf",
+            "news_date": "2025-06-11 14:40:33"
         },
         {
             "sym": "TCPLPACK",
@@ -242,6 +792,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c951800c-2026-4e2b-a7ec-5331b357df9d.pdf",
+            "news_date": "2025-06-05 16:37:59"
+        },
+        {
             "sym": "TCPLPACK",
             "disp": "TCPL Packaging",
             "bse_code": 523301,
@@ -264,6 +825,39 @@
             "sid": 184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b41e1b6-af7a-479e-83ed-f90cdcc79bd5.pdf",
+            "news_date": "2025-06-02 17:38:57"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Dividend",
+            "news_body": "Record Date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8419aca3-0fbc-457c-9766-210276268523.pdf",
+            "news_date": "2025-06-02 17:30:50"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c60297a5-74dd-47d5-a8f6-b04a30e11880.pdf",
+            "news_date": "2025-05-31 19:25:33"
         },
         {
             "sym": "TCPLPACK",
@@ -290,6 +884,17 @@
             "seg": "E"
         },
         {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Earnings Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f234bd56-42f7-4b3a-93a9-71f9354a2743.pdf",
+            "news_date": "2025-05-30 15:24:15"
+        },
+        {
             "sym": "TCPLPACK",
             "disp": "TCPL Packaging",
             "bse_code": 523301,
@@ -312,6 +917,281 @@
             "sid": 184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01ca0554-0c2c-456c-94ee-9f0b2058c2a3.pdf",
+            "news_date": "2025-05-30 15:22:02"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1bc70f07-3be4-49da-b9a8-de331fd5bd14.pdf",
+            "news_date": "2025-05-30 15:19:29"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0f82fcb-8d02-4b49-b1bd-7e5d1030d255.pdf",
+            "news_date": "2025-05-30 15:16:50"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Dividend",
+            "news_body": "Book Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c15c944-f62d-4196-848f-1973bdc283e4.pdf",
+            "news_date": "2025-05-30 15:14:02"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9bc0b59a-a8cf-4c21-9a80-876c8a13d581.pdf",
+            "news_date": "2025-05-30 15:02:42"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst/Investor meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6e4215b-3832-4027-84ca-c7895eaee73f.pdf",
+            "news_date": "2025-05-23 14:38:39"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "B&K Securities Annual Investor Conference",
+            "news_body": "Annual Conference",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4ac3fad-ff68-489d-902d-13f640fd6bf0.pdf",
+            "news_date": "2025-05-23 14:35:23"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Audited Financial Results",
+            "news_body": "TCPL Packaging Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/05/2025 inter alia to consider and approve Audited Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=485cfd6a-77fc-4320-a1d8-581aaf094c31.pdf",
+            "news_date": "2025-05-21 17:23:27"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Appointment of Independent Director on the Board of Unlisted Subsidiary",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=02d70f45-aa31-4ec8-a8cc-602ffd0e3dbe.pdf",
+            "news_date": "2025-05-16 16:20:06"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Meeting Updates",
+            "caption": "Announcement under Regulation 30 (LODR)-Meeting Updates",
+            "news_body": "Meeting Updates - Establishment of a world class gravure cylinder manufacturing facility in Silvassa",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a6ae932-1f6a-4f9d-ba02-c7b1d2e0b558.pdf",
+            "news_date": "2025-05-06 16:41:37"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c51f84a5-998a-4839-adb5-6067f144bbac.pdf",
+            "news_date": "2025-04-08 11:23:04"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Investors Meeting",
+            "news_body": "Investors Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c941de5-b9c3-4fff-803e-f72564141de7.pdf",
+            "news_date": "2025-03-30 10:37:59"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14f540a6-6433-4849-a47c-dd13bb0721eb.pdf",
+            "news_date": "2025-03-28 14:58:46"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Postal Ballot Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e8775c2-fa93-452c-9be9-5f17a25bee03.pdf",
+            "news_date": "2025-03-21 14:51:10"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Postal Ballot Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7801456c-35ef-418f-b3dd-537f9d3439ff.pdf",
+            "news_date": "2025-03-21 14:47:32"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESOP Updates",
+            "news_body": "ESOP Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd06d0ba-0050-42b6-850d-592b4a3e07ac.pdf",
+            "news_date": "2025-03-13 17:41:23"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Intimation under Reg. 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ef8a0d4e-9a36-4bcb-919d-31c4af339d78.pdf",
+            "news_date": "2025-03-12 15:02:20"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The SEBI (Listing Obligation And Disclosure Requirements) Regulations 2015 - Inauguration Of New Greenfield Facility At Chennai",
+            "news_body": "Inauguration of New Greenfield facility at Chennai",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eadf7a74-4beb-41ab-9b8c-c7ffccf5d7ab.pdf",
+            "news_date": "2025-03-06 16:16:24"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESOP Updates",
+            "news_body": "ESOP Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7854ec72-a4a0-4a49-a8bb-e5909e5e49e4.pdf",
+            "news_date": "2025-03-03 21:54:16"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f3b5d17-ed52-41b2-baf1-ac3f027e1d5a.pdf",
+            "news_date": "2025-02-19 22:00:32"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Postal Ballot - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34f19fdc-5c05-4969-acdd-fa3577ef0afe.pdf",
+            "news_date": "2025-02-19 17:28:45"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6a37b8d-40ff-4dab-a222-b3e8ccbe1fb6.pdf",
+            "news_date": "2025-02-17 17:57:48"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Investors meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=64021282-10ca-4c70-9b77-6244670067c8.pdf",
+            "news_date": "2025-02-17 17:50:28"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88d60dda-8c6f-4d72-82bb-a53d638cc1a6.pdf",
+            "news_date": "2025-02-15 17:28:51"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=babe134b-afa4-495a-b989-792756c7c6af.pdf",
+            "news_date": "2025-02-13 19:56:50"
         },
         {
             "sym": "TCPLPACK",
@@ -338,6 +1218,28 @@
             "seg": "E"
         },
         {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5818c3b-28de-4788-baed-0b6fa17b7908.pdf",
+            "news_date": "2025-02-13 19:55:03"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Financial",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68fe94e4-e044-4b93-abbf-7711b85cf338.pdf",
+            "news_date": "2025-02-13 19:48:40"
+        },
+        {
             "sym": "TCPLPACK",
             "disp": "TCPL Packaging",
             "bse_code": 523301,
@@ -360,6 +1262,204 @@
             "sid": 184,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results",
+            "news_body": "Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=745b65b2-e306-4bdf-84be-432c4ea143d8.pdf",
+            "news_date": "2025-02-13 19:44:12"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Conference call to be held on Monday February 17 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93e55ec9-60f9-43e3-9899-24cf593c49fc.pdf",
+            "news_date": "2025-02-07 14:43:54"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Intimation under Reg. 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a40d7b9a-b4bf-4abb-a2fa-49e45b7fec26.pdf",
+            "news_date": "2025-02-05 15:30:33"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Unaudited Financial Results",
+            "news_body": "TCPL PACKAGING LTD.-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/02/2025 inter alia to consider and approve unaudited financial results (standalone and consolidated) of the Company for the quarter and nine months ended\r\nDecember 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6837e1db-abbc-44de-aa82-0acf22e6b956.pdf",
+            "news_date": "2025-01-27 16:59:59"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Announcement under Reg. 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=213c3aeb-0417-452b-982d-3614a39bd104.pdf",
+            "news_date": "2025-01-22 17:28:50"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Cessation",
+            "caption": "Announcement under Regulation 30 (LODR)-Cessation",
+            "news_body": "Announcement under Reg 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d3e7cda-3ce0-45a6-8697-7ac02fc3dd6b.pdf",
+            "news_date": "2025-01-21 15:57:42"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg. 74(5)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9bea894-e47c-4361-ac33-0a06d319b174.pdf",
+            "news_date": "2025-01-07 12:27:30"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Updates on Acquisition",
+            "news_body": "Intimation under Reg 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f53b427-3288-430d-a64b-e1afe17d0fd5.pdf",
+            "news_date": "2025-01-03 16:54:21"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change Of Name Of Registrar & Share Transfer Agent From Link Intime India Private Limited To MUFG Intime India Private Limited",
+            "news_body": "Change of name of Registrar & Share Transfer Agent",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3de9145-7090-4b85-83aa-c803f16ae914.pdf",
+            "news_date": "2025-01-01 08:50:50"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=372570e6-b427-45de-b7a1-b8fecaae1b9f.pdf",
+            "news_date": "2024-12-27 16:18:41"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Compliance - Reg. 39(3)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=39b73799-104e-49f9-948a-2590a2b1168a.pdf",
+            "news_date": "2024-12-10 16:29:02"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for DSP Trustee Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=AAEF946F_444B_4EBB_BDF9_DEFC8FB06063_162322.pdf",
+            "news_date": "2024-12-04 16:23:33"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Compliance - Reg 39(3)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=649ba94b-cd96-4dfb-a1cb-923d23404aa0.pdf",
+            "news_date": "2024-12-03 16:47:14"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Compliance - Reg. 39(3)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a8be828-cd43-47ed-b51f-8dda40d36635.pdf",
+            "news_date": "2024-12-02 17:29:08"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Compliance - Reg 39(3)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=482d3e1f-0182-4dcc-9541-e70e9c11f81d.pdf",
+            "news_date": "2024-11-30 14:31:00"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Compliances-Reg. 39(3)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c5764ec-4d5c-47bf-9326-05da68a6354c.pdf",
+            "news_date": "2024-11-29 17:07:05"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Compliance - Reg. 39(3)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18febffa-1c3f-4056-b3c5-eb28dd31cbc6.pdf",
+            "news_date": "2024-11-27 17:26:20"
+        },
+        {
+            "co_code": 1764,
+            "bse_code": 523301,
+            "isin": "INE822C01015",
+            "ann_type": "",
+            "descriptor": "Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "caption": "Compliances-Reg. 39 (3) - Details of Loss of Certificate / Duplicate Certificate",
+            "news_body": "Compliance - Reg. 39(3)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e1e65f4-542e-4f3e-97b2-5430cf798fc2.pdf",
+            "news_date": "2024-11-15 17:34:30"
         },
         {
             "sym": "TCPLPACK",
@@ -1681,6 +2781,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

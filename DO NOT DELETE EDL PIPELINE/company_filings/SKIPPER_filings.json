@@ -2,6 +2,72 @@
     "code": 0,
     "data": [
         {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation under Regulation 30 of SEBI(LODR) 2015- for Re-lodgement of Transfer Requests of Physical Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e4fe5c6-9fe4-4023-a8c2-f3b3809671a1.pdf",
+            "news_date": "2026-02-12 15:27:41"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find enclosed transcript of Investor Meet held on 29th January 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4829328c-9ffa-4c87-ab60-1fbcda870730.pdf",
+            "news_date": "2026-02-04 18:37:14"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Participation In Investor(S) Conference",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba72d31f-95cc-4df2-90ec-aff5aa1374e1.pdf",
+            "news_date": "2026-02-03 16:36:17"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dfe0991f-0009-4302-a496-19142aeb6d7b.pdf",
+            "news_date": "2026-01-31 15:16:28"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "We are enclosing copies of Newspaper Publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73f32362-6d5a-4d9d-90fe-fc2b5a8b24eb.pdf",
+            "news_date": "2026-01-30 16:21:53"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=92649a41-7340-41a7-8dda-4ab1e514dfe4.pdf",
+            "news_date": "2026-01-30 16:03:57"
+        },
+        {
             "sym": "SKIPPER",
             "disp": "Skipper",
             "bse_code": 538562,
@@ -24,6 +90,28 @@
             "sid": 9428,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "We are enclosing audio recording of Investor/Analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e9b5b96-c752-4cfb-be8d-f2c76f748bd9.pdf",
+            "news_date": "2026-01-29 22:27:11"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We are enclosing the press release for quarter ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04746811-a3eb-4ae8-82c5-ef8773707f16.pdf",
+            "news_date": "2026-01-29 16:57:52"
         },
         {
             "sym": "SKIPPER",
@@ -50,6 +138,17 @@
             "seg": "E"
         },
         {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We are enclosing investor presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=595c8f37-4016-4625-ae55-84f2fb55c729.pdf",
+            "news_date": "2026-01-29 13:59:58"
+        },
+        {
             "sym": "SKIPPER",
             "disp": "Skipper",
             "bse_code": 538562,
@@ -72,6 +171,303 @@
             "sid": 9428,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For Quarter Ended 31.12.2025",
+            "news_body": "We are enclosing result for quarter ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f7a650b5-c08c-4516-92f8-263ecc905b9c.pdf",
+            "news_date": "2026-01-29 13:43:41"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 29Th January 2026 In Terms Of Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "We are enclosing outcome of Board Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=599a6a9f-3e9d-4516-a162-d4a86f9677cb.pdf",
+            "news_date": "2026-01-29 13:34:45"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform that schedule of investor meet is scheduled to be held on Thursday 29th January 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bfaa1699-efb4-4c44-916f-f59b7c0faffd.pdf",
+            "news_date": "2026-01-24 12:45:19"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Under Regulation 29 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Notice Of Board Meeting",
+            "news_body": "Skipper Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 29/01/2026 inter alia to consider and approve the standalone and consolidated unaudited financial results for the quarter ended 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=29aadaa6-1312-4386-9a55-311e698c61bd.pdf",
+            "news_date": "2026-01-24 12:34:49"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fa644c08-c691-438d-a10d-c1a1f4ee184f.pdf",
+            "news_date": "2026-01-15 15:40:11"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=80c92ed4-999a-4872-a3e4-89f34946d230.pdf",
+            "news_date": "2026-01-12 13:31:27"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "We are hereby enclosing Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13751905-f5b3-4599-b9a6-433bf2e83ac0.pdf",
+            "news_date": "2026-01-08 17:29:44"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Change In Email Address Of The Registrar And Share Transfer Agent Of The Company.",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=418f5554-eede-464b-bdeb-618eab342da8.pdf",
+            "news_date": "2026-01-02 15:46:10"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "This is to inform that trading window for dealing in securities of the company will remain closed from 1st January 2026 till the conclusion of 48 hours after the declaration of unaudited financial results by the company for the quarter ending on 31st December 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4112013-088d-4e37-9899-e2d90d2bdc29.pdf",
+            "news_date": "2025-12-24 15:28:45"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09853f84-b586-4173-afb0-f0d13fcd88c8.pdf",
+            "news_date": "2025-12-22 16:23:12"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find Enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcbda13d-261c-4d0d-9c72-81110e9c7102.pdf",
+            "news_date": "2025-12-20 15:33:25"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "The Company is filing the outcome of the Postal Ballot along with the Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82886f45-79bc-4fa2-aee9-fde850efba45.pdf",
+            "news_date": "2025-12-19 15:55:13"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "The Company is filing the outcome of the postal Ballot along with the Scrutinizers Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34553be0-22af-4ecc-b132-9b3e7213b394.pdf",
+            "news_date": "2025-12-19 15:53:36"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "We are enclosing the proceedings of Postal ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=413a11fa-c4d8-46e0-baee-aa731d0d17ce.pdf",
+            "news_date": "2025-12-18 18:19:45"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fe3f8cff-c5b0-4595-b4bf-8653829fa6d4.pdf",
+            "news_date": "2025-12-05 17:00:25"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1ffaac4-a60d-4560-a66d-3bb6a1b12fca.pdf",
+            "news_date": "2025-12-01 16:46:09"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Newspaper Publication Of Postal Ballot Notice",
+            "news_body": "We are enclosing herewith copies of newspaper publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9af68147-f311-4f22-80c3-165dd99c0133.pdf",
+            "news_date": "2025-11-19 16:20:21"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Submission Of Newspaper Advertisement For Publication Of Notice Of Forfeiture Under Regulation 30 Read With Regulation 47 Of Securities And Exchange Board Of India (Listing Obligations & Disclosure Requirements) Regulations 2015.",
+            "news_body": "Please Find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d630840c-c058-4571-a774-6cb82579c32a.pdf",
+            "news_date": "2025-11-19 16:17:15"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Notice Of Forfeiture Of Partly Paid-Up Equity Shares In Terms Of Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015.",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e49f76e5-b438-4365-ad4a-751e2f5d87d4.pdf",
+            "news_date": "2025-11-18 16:24:34"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "We are enclosing the Notice of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb204d67-8b39-4540-9c03-e15cf9a0fc5b.pdf",
+            "news_date": "2025-11-18 15:55:11"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please Find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c2af01b-e8b1-46f3-a831-073729010296.pdf",
+            "news_date": "2025-11-18 15:40:29"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "We are enclosing transcript of Investor/Analyst meet.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e0fa2da-0c27-4a67-9f4a-7f6905854987.pdf",
+            "news_date": "2025-11-13 17:01:53"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "We are informing that the Company has fixed Friday 14th November 2025 as the cut off date for determining the list of shareholders for sending the Notice of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdb59d6d-ae3a-4a54-a172-689b0b6b8a45.pdf",
+            "news_date": "2025-11-13 16:54:40"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Submission Of Monitoring Agency Report Under Regulation 82(4) Of SEBI (Issue Of Capital And Disclosure Requirements) Regulations 2018 For The Quarter Ended 30Th September 2025",
+            "news_body": "We are enclosing signed Monitoring Agency Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91d428a8-e0f3-4c16-b90b-05da159b222f.pdf",
+            "news_date": "2025-11-08 14:48:54"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "We are enclosing the copies of newspaper publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e5f16dea-fef8-4c31-9597-c92eee643a20.pdf",
+            "news_date": "2025-11-08 14:43:46"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a33eba43-78e5-425f-a10f-2f19ed2d67c5.pdf",
+            "news_date": "2025-11-07 22:54:18"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We are enclosing Press Release on financial performance of the Company for quarter ended 30.09.2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f02ec02e-ea3d-494d-8580-7001451d5af1.pdf",
+            "news_date": "2025-11-07 15:12:57"
         },
         {
             "sym": "SKIPPER",
@@ -98,6 +494,28 @@
             "seg": "E"
         },
         {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Please find enclosed copy of Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=514f74ca-92a8-47a4-befd-28ee21b98bcb.pdf",
+            "news_date": "2025-11-07 15:06:00"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9abf471-c9ae-4f3c-8131-ceb445e1bd7f.pdf",
+            "news_date": "2025-11-07 14:57:09"
+        },
+        {
             "sym": "SKIPPER",
             "disp": "Skipper",
             "bse_code": 538562,
@@ -120,6 +538,303 @@
             "sid": 9428,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For Quarter And Half Year Ended 30.09.2025",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c9c3060e-b8f7-43c2-a11e-f4eb2eaf28af.pdf",
+            "news_date": "2025-11-07 14:48:49"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On 7Th November 2025.",
+            "news_body": "Please find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebeb05de-e327-402c-a486-012385c0283a.pdf",
+            "news_date": "2025-11-07 14:40:47"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform you that an investor/analyst meet is scheduled to be held on Friday 7th November 2025 at 05:00 P.M.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac0d1404-97a8-4875-87c1-1d0c0563dba7.pdf",
+            "news_date": "2025-11-04 16:36:39"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Under Regulation 29 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Notice Of Board Meeting",
+            "news_body": "Skipper Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/11/2025 inter alia to consider and approve standalone and consolidated unaudited financial result for Quarter ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd1d17ee-a642-4912-a071-7465557683eb.pdf",
+            "news_date": "2025-11-03 12:50:37"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 29 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Notice Of Board Meeting",
+            "news_body": "This is to inform that meeting of Board of Directors of the Company is scheduled to be held on Friday 7th November 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=71a24214-0594-4578-88a2-8bb001c5fdaa.pdf",
+            "news_date": "2025-11-01 13:00:05"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Submission Of ESG Ratings",
+            "news_body": "Submission of ESG Ratings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f8d0300b-1d5e-4c01-958a-dc7e05b129c4.pdf",
+            "news_date": "2025-10-29 18:19:01"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Submission of Compliance Certificate under Regulation 74(5) of DP Regulations2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6719383d-8357-41ce-8d10-680f9d2318d8.pdf",
+            "news_date": "2025-10-11 11:00:45"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a7eca71f-7d41-4198-83e0-c6797cba9537.pdf",
+            "news_date": "2025-10-09 12:50:06"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation regarding closure of Trading Window.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=df6a6cc0-d968-4c6a-b887-34a8ec5de365.pdf",
+            "news_date": "2025-09-26 16:10:09"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "We are enclosing voting results and scrutinizer report for 44th Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9de9c5f7-2e30-4b40-9497-a59c43f7aa3b.pdf",
+            "news_date": "2025-09-25 16:10:51"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Revised proceedings of thee AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=500d7e43-58b6-4b52-8aa7-a250317dcc63.pdf",
+            "news_date": "2025-09-23 16:31:50"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "We are enclosing a summary of the proceedings of 44th Annual General Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6adbd942-1dcd-4f5d-b5aa-d79e49939254.pdf",
+            "news_date": "2025-09-23 13:40:40"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of The Meeting Of The Rights Issue Committee Of The Company",
+            "news_body": "Outcome of the meeting of the Rights Issue Committee of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5859f30f-e6f4-4bd4-b098-5ae23dcc587c.pdf",
+            "news_date": "2025-09-15 18:28:59"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Record Date For Dividend Declaration",
+            "news_body": "Intimation of record date for declaration of dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab443f99-3c37-4d4b-a579-ae299beeee8d.pdf",
+            "news_date": "2025-09-06 15:03:07"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Communication Of Deduction Of Tax At Source On Dividend To Shareholders",
+            "news_body": "Please Find Enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=79c4fd5a-148c-42fc-bcb4-f8d82a36d098.pdf",
+            "news_date": "2025-08-30 16:03:22"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "We are enclosing the copies of the newspaper publication regarding dispatch of Notice of AGM and Annual Report.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ddb4c6d6-2506-417e-9a8c-3113e1210fb2.pdf",
+            "news_date": "2025-08-30 15:57:01"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please find Enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ab4cc48-03c2-4523-86ac-06c2bd01105b.pdf",
+            "news_date": "2025-08-30 15:41:45"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "We are enclosing BRSR for FY 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=27884945-e198-4752-a792-ea4ebfe7f288.pdf",
+            "news_date": "2025-08-29 18:43:28"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "AGM",
+            "caption": "Notice Convening 44Th Annual General Meeting Of The Company",
+            "news_body": "We are enclosing notice of 44th Annual General Meeting of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6e3876d1-fe3b-4f8c-b50d-3bc662213b88.pdf",
+            "news_date": "2025-08-29 18:29:19"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "We are enclosing Annual Report for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c8818d6e-fda0-4fca-9ac9-84c566299240.pdf",
+            "news_date": "2025-08-29 17:48:00"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper publication for prior intimation of AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf4463ec-b07e-4d12-925b-cae49b399fdf.pdf",
+            "news_date": "2025-08-25 16:43:56"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication for Saksham Niveshak Campaign",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=78559009-ccc0-4049-861d-efe4b352d618.pdf",
+            "news_date": "2025-08-25 16:34:13"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please Find Attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e75dc642-e21c-461e-b0b1-3bef5e1d2053.pdf",
+            "news_date": "2025-08-07 16:37:21"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Revision Of Last Date For Payment Of Unpaid Call Money By Holders Of Partly Paid-Up Equity Shares.",
+            "news_body": "Please Find Attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d88ae85-8fe0-4a3a-8553-95552e87ca93.pdf",
+            "news_date": "2025-08-06 16:49:31"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "We are attaching transcript of Investor/Analysts meet held on 31st July 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bd44116-d903-483d-a823-a67b8d81d4e4.pdf",
+            "news_date": "2025-08-06 12:07:36"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Monitoring Agency Report Under Regulation 82(4) Of SEBI (Issue Of Capital And Disclosure Requirements) Regulations 2018 For The Quarter Ended 30Th June 2025",
+            "news_body": "We are attaching Monitoring Agency report for the Quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=054c04e4-6ba8-4056-ab85-96297f3edc9b.pdf",
+            "news_date": "2025-08-06 11:57:32"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of the Financial Results for the quarter ended June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fefd22b3-b72e-4e3d-a456-51bc6004cece.pdf",
+            "news_date": "2025-08-01 14:36:41"
         },
         {
             "sym": "SKIPPER",
@@ -146,6 +861,61 @@
             "seg": "E"
         },
         {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of Conference call for Discussion on Q1FY26 Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d229a562-6c53-44d4-95eb-b21ffdbd2b7e.pdf",
+            "news_date": "2025-07-31 23:08:08"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release for the quarter ended 30th June  2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c851015d-c222-4295-9a6a-c7130c496531.pdf",
+            "news_date": "2025-07-31 18:04:36"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Code of Conduct under SEBI (PIT) Regulations 2015",
+            "caption": "Announcement under Regulation 30 (LODR)-Code of Conduct under SEBI (PIT) Regulations 2015",
+            "news_body": "Please Find enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2bce6408-4d76-486c-89a7-538542d3ea07.pdf",
+            "news_date": "2025-07-31 17:04:52"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Establishment of Corporate Office and maintenance of Books of Accounts at the Corporate Office.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=296693ac-0228-4ca2-8d38-5d07f65ec0ff.pdf",
+            "news_date": "2025-07-31 15:36:13"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Please Find Enclosed.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7a2f8d9-c996-4c28-a61b-8ed5ef844e23.pdf",
+            "news_date": "2025-07-31 15:31:48"
+        },
+        {
             "sym": "SKIPPER",
             "disp": "Skipper",
             "bse_code": 538562,
@@ -168,6 +938,28 @@
             "sid": 9428,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We are enclosing Investor Presentation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=99d24c28-b3d2-4d5c-9d3f-b23d37b03cff.pdf",
+            "news_date": "2025-07-31 15:10:26"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1a083db-4d63-4782-87fc-84db816d5c90.pdf",
+            "news_date": "2025-07-31 14:48:57"
         },
         {
             "sym": "SKIPPER",
@@ -194,6 +986,193 @@
             "seg": "E"
         },
         {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results For June Quarter",
+            "news_body": "Results for June Quarter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3154d323-4916-41e2-bf1c-5398cd88ba42.pdf",
+            "news_date": "2025-07-31 14:25:12"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "We are enclosing outcome of Board Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c198131-4598-453d-82e3-ad8143cc990d.pdf",
+            "news_date": "2025-07-31 14:19:35"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "This is to inform you that meeting of Investors/Analyst is scheduled to be held on Thursday 31st July 2025 at 05.00 P.M.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3dae2534-c8b2-420d-8497-98ec97bf2ca6.pdf",
+            "news_date": "2025-07-28 13:35:03"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Prior Intimation Of The Board Meeting To Be Held On 31.07.2025",
+            "news_body": "Skipper Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/07/2025 inter alia to consider and approve standalone and consolidated unaudited financial results of the company for the quarter ended 30.06.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db38db51-1257-49b7-82d9-db0f7316d70c.pdf",
+            "news_date": "2025-07-25 13:37:57"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under regulation 74(5)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96c4a807-a8db-454f-968b-abcf175ae4bd.pdf",
+            "news_date": "2025-07-12 14:24:46"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "We are intimating about the closure of trading window for the quarter ended 30th June 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f96892cb-d105-4b75-98d0-9c991236ef3d.pdf",
+            "news_date": "2025-06-26 16:30:37"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 As Amended Wrt. Receipt Of Call Money In Respect Of First And Final Call On The Outstanding Partly Paid-Up Righ",
+            "news_body": "We are enclosing outcome of Rights Issue Committee meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba439946-162e-4ced-bc31-9e6c1ee40585.pdf",
+            "news_date": "2025-06-19 17:37:19"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "We Are Intimating About The Newspaper Publication Regarding Dispatch Of IEPF Notice To The  Shareholders",
+            "news_body": "Intimation wrt. newspaper publication of the IEPF Notice to the shareholders of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d31a0fac-c316-4d15-886d-8ac61bd4f4d0.pdf",
+            "news_date": "2025-06-03 15:18:48"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "We are enclosing annual secretarial Compliance report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0bc34dda-a162-40b1-b76f-974854a4a89c.pdf",
+            "news_date": "2025-05-30 11:52:07"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "We are intimating regarding the newspaper publication of Final reminder-cum-forfeiture notice made in Delhi Lucknow and Chandigarh",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7217828-5a95-415e-a6e9-d3fdd9523d7c.pdf",
+            "news_date": "2025-05-24 11:29:03"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "We are enclosing Newspaper Publication made today 23rd May 2025  for final reminder-cum-forfeiture notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=304d722a-f011-47a9-806d-60a41b6365fc.pdf",
+            "news_date": "2025-05-23 15:47:43"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Receipt Of Call Money In Respect Of First And Final Call On The Outstanding Partly Paid-Up Rights Equity Shares Of The Company Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations\r\nAnd Disclosure Requirements) Regulations",
+            "news_body": "We are enclosing outcome of Rights Issue Committee Meeting dated 20.05.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5b8ffa48-8691-4a7a-a784-80d5ca355ad6.pdf",
+            "news_date": "2025-05-20 16:55:53"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Participation In Investors Conference",
+            "news_body": "This is to inform that management will participate in Invest India Global Conference on Friday 23rd May 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=824a2d2a-7230-4824-b6ee-5982fdfba571.pdf",
+            "news_date": "2025-05-19 18:11:58"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation To The Holders Of Physical Securities To Furnish KYC Details And Nomination",
+            "news_body": "Intimation to the holders of physical securities to furnish KYC and Nomination details",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f04bbe9-5603-422f-a077-bc32c05f5a73.pdf",
+            "news_date": "2025-05-14 13:03:15"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Compliance",
+            "descriptor": "Reg. 32 (1) (3) - Statement of Deviation & Variation",
+            "caption": "Submission Of Monitoring Agency Report Under Regulation 82(4) Of SEBI (Issue Of Capital And Disclosure Requirements) Regulations 2018 For The Quarter Ended 31ST  MARCH 2025.",
+            "news_body": "We are enclosing Monitoring Agency Report for the quarter ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=775dc366-2afe-4684-a8ca-ec66dcd62db7.pdf",
+            "news_date": "2025-05-09 18:05:26"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "We are enclosed transcript of the con call for the quarter ended 31.03.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdd5637f-718c-478b-97fb-764867f6e74e.pdf",
+            "news_date": "2025-05-07 16:11:04"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "we are enclosing copies of newspaper publication.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3b8bc4ef-35ce-4f7e-8061-4389b75f486a.pdf",
+            "news_date": "2025-05-01 15:16:39"
+        },
+        {
             "sym": "SKIPPER",
             "disp": "Skipper",
             "bse_code": 538562,
@@ -216,6 +1195,28 @@
             "sid": 9428,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "We are enclosing audio recording of conference call held today 30th April 2025 at 05.00 PM.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81bb47db-d35c-4aaa-bed1-364f667a6983.pdf",
+            "news_date": "2025-04-30 22:04:57"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We are enclosing press release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3be643fc-f9fb-459f-a004-9945ecc03e29.pdf",
+            "news_date": "2025-04-30 16:58:37"
         },
         {
             "sym": "SKIPPER",
@@ -242,6 +1243,28 @@
             "seg": "E"
         },
         {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We are attaching Investors Presentation quarter ended 31st Match 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10bf75a6-0e0f-4f7b-8bbb-ade50e90e2ee.pdf",
+            "news_date": "2025-04-30 16:36:10"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Appointment Of M/S. MKB & Associates Practising Company Secretaries As The Secretarial Auditor Of The Company For A Period Of Five Consecutive Years Commencing From\r\n1St April 2025 To 31St March 2030",
+            "news_body": "We are enclosing outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3d27ba6-dfab-4b1e-b491-abcf4acb5e7e.pdf",
+            "news_date": "2025-04-30 16:16:40"
+        },
+        {
             "sym": "SKIPPER",
             "disp": "Skipper",
             "bse_code": 538562,
@@ -264,6 +1287,83 @@
             "sid": 9428,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Year 31.03.2025",
+            "news_body": "We are enclosing result",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60e70c2c-2d9d-43c4-a4b2-682567acb808.pdf",
+            "news_date": "2025-04-30 16:07:08"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Intimation",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board to consider Dividend",
+            "news_body": "We are enclosing dividend",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bb4f3a7-026a-412e-9555-de3aa3b642fa.pdf",
+            "news_date": "2025-04-30 15:58:08"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "We are enclosing integrated financial results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5dab3326-34bd-4f7d-a4c4-82db973f0f27.pdf",
+            "news_date": "2025-04-30 15:55:52"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "We are enclosing outcome of Board Meeting dated 30.04.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9c2ecf3-b724-4229-920e-9ce654e1f290.pdf",
+            "news_date": "2025-04-30 15:44:26"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "We are enclosing intimation of analyst meet held on 30.04.2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a2b604ee-cd55-4b25-8026-0493df59ca39.pdf",
+            "news_date": "2025-04-25 17:40:55"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Under Regulation 29 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Notice Of Board Meeting",
+            "news_body": "Skipper Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 30/04/2025 inter alia to consider and approve  standalone and consolidated Audited financial results of the Company for the quarter and year ended 31st march 2025 and declaration of final dividend.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00566b61-7dcc-4634-a933-71bde16f74cb.pdf",
+            "news_date": "2025-04-24 15:23:53"
+        },
+        {
+            "co_code": 25991,
+            "bse_code": 538562,
+            "isin": "INE439E01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "We are enclosing show cause notice u/s 74 of CGST Act 2017",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a828c917-9ef5-48a4-9054-139a1b971391.pdf",
+            "news_date": "2025-04-17 17:06:48"
         },
         {
             "sym": "SKIPPER",
@@ -1849,6 +2949,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec0ad768-a5d6-4d46-b893-a6cf6becff42.pdf",
+            "news_date": "2026-02-06 14:43:43"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Transcript For Earnings Conference Call For Q3 Of FY26",
+            "news_body": "Transcript for earnings conference call for Q3 of FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c12b02fe-03c4-4062-9aa8-c934f61b6da5.pdf",
+            "news_date": "2026-01-28 15:24:59"
+        },
+        {
             "sym": "GRANULES",
             "disp": "Granules",
             "bse_code": 532482,
@@ -24,6 +46,17 @@
             "sid": 11872,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of the Earnings call for Q3 of FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e01c8d60-f4eb-4cfd-bd6a-520dc5179b21.pdf",
+            "news_date": "2026-01-23 21:42:16"
         },
         {
             "sym": "GRANULES",
@@ -50,6 +83,259 @@
             "seg": "E"
         },
         {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q3 of FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db50795f-3cf6-4abe-a1ef-dab8d469fbc9.pdf",
+            "news_date": "2026-01-23 17:13:17"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b773ccd3-de6c-41cd-b900-9de226353fbe.pdf",
+            "news_date": "2026-01-23 17:08:38"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ddb0955-253a-47bd-80be-593cc266ff64.pdf",
+            "news_date": "2026-01-23 17:01:06"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Scrutinizers Report for the EGM results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2577008-9ad3-46e8-981a-a9aead2a64d2.pdf",
+            "news_date": "2026-01-22 17:08:53"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "SUMMARY OF THE PROCEEDINGS OF THE EXTRA ORDINARY GENERAL MEETING OF THE COMPANY",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e735a39-aaed-467b-b6dc-368ec0e99872.pdf",
+            "news_date": "2026-01-22 17:05:57"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ebdc16a-c21d-42c6-ba2a-853014c9282c.pdf",
+            "news_date": "2026-01-14 11:54:23"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Corrigendum To The Notice Of Extra-Ordinary General Meeting Of The Company",
+            "news_body": "Corrigendum to the Notice of EGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed27f1c5-2f3f-4ef9-98ae-44ed1e827744.pdf",
+            "news_date": "2026-01-13 11:21:40"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst and Investor Earning Conference Call for Q3 of Financial Year 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50520ba6-12b0-4b0a-b216-a6cc3de9bbb9.pdf",
+            "news_date": "2026-01-08 10:34:54"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for To Consider And Approve The Unaudited Financial Results For The Third Quarter And Nine Months Ended On December 31 2025.",
+            "news_body": "Granules India Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/01/2026 inter alia to consider and approve the unaudited financial results for the third quarter and nine months ended on December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b924c51-9d6e-4d8e-ba0e-0b6c3d0b6920.pdf",
+            "news_date": "2026-01-08 10:19:35"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=54f0aa08-3245-444b-81ee-ebf6eeff547f.pdf",
+            "news_date": "2026-01-08 08:34:08"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "News Paper Publication",
+            "news_body": "News Paper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c46dfba8-e4c3-4eb8-9d0b-c11cf407ad27.pdf",
+            "news_date": "2026-01-02 13:23:14"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Notice Of The Extraordinary General Meeting",
+            "news_body": "Notice of the Extraordinary General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e44a2311-355d-4c90-974a-a8ff1d27b4b0.pdf",
+            "news_date": "2025-12-31 13:35:09"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6592420f-6848-47dc-910f-c490cfeb02e9.pdf",
+            "news_date": "2025-12-26 10:08:15"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated December 23 2025",
+            "news_body": "Outcome of Board Meeting Dated December 23 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcbcc32c-e356-495b-a0e1-e0b10b816c33.pdf",
+            "news_date": "2025-12-23 10:37:27"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93df5fc8-d731-4289-b793-e25026db9762.pdf",
+            "news_date": "2025-12-22 07:42:44"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=76b03265-1ffb-4a5d-b663-535c709d2b90.pdf",
+            "news_date": "2025-12-19 19:46:17"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering And Evaluating The Proposals For Raising Funds On A Private Placement Basis By Way Of Preferential Issue Including The Determination Of Issue Price Subject To Such Regulatory/Statutory Approvals As May Be Required.",
+            "news_body": "Granules India Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/12/2025 inter alia to consider and approve proposals for raising funds on a private placement basis by way of preferential issue including the determination of issue price subject to such regulatory/statutory approvals as may be required.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=47fa691f-8033-4ad5-8dfd-696771a87cf9.pdf",
+            "news_date": "2025-12-18 11:15:41"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcd90f5d-a3fe-41e2-b72a-9090a8e915a4.pdf",
+            "news_date": "2025-12-12 15:13:46"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=70bbe32b-7c8d-4c5a-ac35-639423b5869c.pdf",
+            "news_date": "2025-12-12 11:37:16"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a16c7f22-07de-4d96-bd9f-83bb0ccc3f61.pdf",
+            "news_date": "2025-12-04 12:09:56"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d36b06e3-4f54-4061-9c06-0e5b62a66f66.pdf",
+            "news_date": "2025-12-01 12:20:59"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3ed20c3-e0bb-4a19-90b6-005d4c8b5b42.pdf",
+            "news_date": "2025-11-27 11:39:57"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Transcript Of The Earnings Conference Call For Q2 And The Half-Year Of FY26.",
+            "news_body": "Transcript of the Earnings Conference Call for Q2 and the half-year of FY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=772bee6e-3a91-41d7-bed0-511154af3068.pdf",
+            "news_date": "2025-11-19 11:20:46"
+        },
+        {
             "sym": "GRANULES",
             "disp": "Granules",
             "bse_code": 532482,
@@ -72,6 +358,28 @@
             "sid": 11872,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Conference call for Q2 and the half year of FY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba99266a-4396-4656-a64b-0860c903cb91.pdf",
+            "news_date": "2025-11-13 19:08:20"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33df1965-0443-41d6-9378-ef971b749d63.pdf",
+            "news_date": "2025-11-13 15:02:33"
         },
         {
             "sym": "GRANULES",
@@ -98,6 +406,39 @@
             "seg": "E"
         },
         {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the Earnings Call for Q2 of FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7836c830-a1a7-4426-b8e0-edf09ec7ddc0.pdf",
+            "news_date": "2025-11-13 14:05:49"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4158b74e-5a4e-47f3-a9e5-297add08840b.pdf",
+            "news_date": "2025-11-13 14:01:10"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3d33e79-88c4-40fd-906a-f21f386edb4d.pdf",
+            "news_date": "2025-11-13 13:55:51"
+        },
+        {
             "sym": "GRANULES",
             "disp": "Granules",
             "bse_code": 532482,
@@ -120,6 +461,127 @@
             "sid": 11872,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter & Half Year Ended On September 302025",
+            "news_body": "Financial Results for the Quarter & Half Year Ended on September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a7c9901-4490-4f47-9ac5-9575f1b2f52b.pdf",
+            "news_date": "2025-11-13 13:38:39"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2c6e5a0e-d182-4cc4-94c0-72c8474d2611.pdf",
+            "news_date": "2025-11-11 11:16:50"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor/ Analyst Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1981da31-af26-4e5e-a5e8-eaed97da5a05.pdf",
+            "news_date": "2025-11-07 16:22:47"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2999d51-83af-4f0c-a2ba-9363c30fb170.pdf",
+            "news_date": "2025-11-05 09:38:58"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of the Earnings Conference call for Q2 and Half year of FY26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82f5383b-3e7e-46ca-be7e-ecf295146837.pdf",
+            "news_date": "2025-10-31 15:51:45"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Inter-Alia To Consider And Approve The Unaudited Financial Results For The Second Quarter And Half-Year Ended On September 30 2025.",
+            "news_body": "Granules India Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 13/11/2025 inter alia to consider and approve the unaudited financial results for the second quarter and half-year ended on September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f03bb4f4-4a9f-4e5d-9a43-1d96380c77b0.pdf",
+            "news_date": "2025-10-30 10:46:04"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=670ff5b4-1d7a-48e5-8430-4e8651194af0.pdf",
+            "news_date": "2025-10-29 12:39:05"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fba8508-fe01-4204-9900-2297462ac075.pdf",
+            "news_date": "2025-10-29 12:36:53"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69092490-48ee-4f04-8721-a7e9e05b917e.pdf",
+            "news_date": "2025-09-25 11:17:14"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Equity Shares of the Company upon exercise of Employee Stock Options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f14a8470-cdb3-4ab3-969a-d558a2e46a89.pdf",
+            "news_date": "2025-09-04 11:25:19"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Transcript Of Earning Conference Call For Q1 Of FY26",
+            "news_body": "Transcript of Earning Conference Call for Q1 of FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=866f0b73-596a-44ac-a724-97d4f9efa249.pdf",
+            "news_date": "2025-08-19 12:03:42"
         },
         {
             "sym": "GRANULES",
@@ -146,6 +608,17 @@
             "seg": "E"
         },
         {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of the Earnings Conference call for Q1 of FY26. \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a665230-8c04-4c70-a938-f9b02eb8ace8.pdf",
+            "news_date": "2025-08-12 16:54:55"
+        },
+        {
             "sym": "GRANULES",
             "disp": "Granules",
             "bse_code": 532482,
@@ -168,6 +641,259 @@
             "sid": 11872,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for Q1 of FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5bc56a95-f04d-4778-9ee4-6496eefbb38a.pdf",
+            "news_date": "2025-08-12 13:10:26"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89895a36-ba83-4301-8242-b5d3435df604.pdf",
+            "news_date": "2025-08-12 13:07:26"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e382986c-c38e-4964-b5c0-9bf502a35762.pdf",
+            "news_date": "2025-08-12 12:53:09"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Revised Schedule for the Earnings Call for Q1 of FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=074f3eb1-2ada-4338-88bf-a8352c91b0a1.pdf",
+            "news_date": "2025-08-07 18:00:55"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers Report for the 34th Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a643ebbb-f2c2-40c1-b8f8-89d73a8bf236.pdf",
+            "news_date": "2025-08-07 17:58:54"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Outcome of the 34th Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a6ed29a6-7169-4169-865f-1f0f7f925ab6.pdf",
+            "news_date": "2025-08-07 17:56:38"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Analyst/ Investor Meet",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2bd6aaa-e97f-4c69-8785-c9f88ad28c36.pdf",
+            "news_date": "2025-08-04 16:24:55"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ee94a9a9-5ead-444c-bd8e-46f79fd47dd6.pdf",
+            "news_date": "2025-08-01 16:48:44"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "Clarification to the exchange letter",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4fae839-6b82-44d3-9c85-4a3bbd3df275.pdf",
+            "news_date": "2025-08-01 14:20:03"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Granules India Ltd",
+            "news_body": "The Exchange has sought clarification from Granules India Ltd on August 1 2025 with reference to news appeared in https://www.moneycontrol.com dated August 1 2025 quoting \"Pharma stocks slump as Trump shoots letters to 17 global drug majors seeking lower prices\" <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-08-01 13:30:30"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of the Earnings Conference Call for Q1 of FY26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebbdbb65-fbf1-4321-820a-9f1db3fb8a54.pdf",
+            "news_date": "2025-07-21 11:31:17"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Change in Directorate",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ea3a19b-bbb1-4fa6-a2fc-2466d35a18e8.pdf",
+            "news_date": "2025-07-18 13:44:43"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=456ddfbd-68ca-4bee-854b-aac40779b420.pdf",
+            "news_date": "2025-07-17 12:21:15"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report for FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98ce5d8e-b79e-47ad-a3e0-8b3e50fcedb2.pdf",
+            "news_date": "2025-07-16 18:37:45"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Integrated Annual Report for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cc866b6-0306-4800-bc74-01a805857053.pdf",
+            "news_date": "2025-07-16 18:35:37"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Un-Audited Financial Results For The Quarter Ended On June 30 2025.",
+            "news_body": "Granules India Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/08/2025 inter alia to consider and approve un-audited financial results for the quarter ended on June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b5d52646-7b9f-49ce-89e6-0feb9abcf47f.pdf",
+            "news_date": "2025-07-14 14:48:38"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57c459b3-2126-466c-9752-5d3ff328f58d.pdf",
+            "news_date": "2025-07-09 16:07:30"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=13bd0010-e3aa-401f-b2ce-fd021d6c88cf.pdf",
+            "news_date": "2025-06-28 06:54:16"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a11d2904-1ad6-44e9-a6ee-5be62774e38d.pdf",
+            "news_date": "2025-06-26 11:42:24"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46273f25-3a04-4c78-819d-3e1edc0c7660.pdf",
+            "news_date": "2025-06-20 16:23:34"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity shares upon exercise of employee stock options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a1ef136-5de4-41a6-ae32-1c6513e2da3a.pdf",
+            "news_date": "2025-06-17 11:21:00"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Transcript Of Earnings Conference Call For Q4 Of FY25",
+            "news_body": "Transcript of Earnings Conference Call for Q4 of FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b6629c4-8ee6-4dcb-bf82-7bc68b4c0e60.pdf",
+            "news_date": "2025-06-04 12:10:42"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Senior Management Personnel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a2162e6-e461-4b03-bf46-69cd0eb4f946.pdf",
+            "news_date": "2025-06-02 12:09:41"
         },
         {
             "sym": "GRANULES",
@@ -194,6 +920,28 @@
             "seg": "E"
         },
         {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording for the Earnings call for Q4 and FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2ddbe0d-bf08-4c3b-abf7-5d763a31dbef.pdf",
+            "news_date": "2025-05-28 18:52:32"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Record Date For Payment Of Final Dividend For FY25",
+            "news_body": "Record Date for payment of Final Dividend for F25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4d118e99-1555-4a05-b9e3-7df18656c04d.pdf",
+            "news_date": "2025-05-28 15:16:50"
+        },
+        {
             "sym": "GRANULES",
             "disp": "Granules",
             "bse_code": 532482,
@@ -216,6 +964,28 @@
             "sid": 11872,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5eca01f8-d2fc-4f97-9c38-9bf40455153a.pdf",
+            "news_date": "2025-05-28 13:56:25"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=641bbeda-fd98-4ab5-a873-ec7030681916.pdf",
+            "news_date": "2025-05-28 13:53:10"
         },
         {
             "sym": "GRANULES",
@@ -242,6 +1012,325 @@
             "seg": "E"
         },
         {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Audited Financial Results For The Quarter And Financial Year Ended On March 31 2025",
+            "news_body": "Audited Financial Results for the Quarter and Financial year ended on March 312025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56ebd31c-14b1-4bc4-b463-be6e203006b1.pdf",
+            "news_date": "2025-05-28 13:40:47"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d28b0d4-a0e6-4dd9-b68d-672133360a5d.pdf",
+            "news_date": "2025-05-28 13:33:36"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dbc49968-7283-4e61-959a-16ed33f1ed3a.pdf",
+            "news_date": "2025-05-28 13:26:57"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance report for FY25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=88b08a23-fa82-4cf6-a999-a76ffde5aecc.pdf",
+            "news_date": "2025-05-07 17:12:35"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Earning call for Q4 and FY25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=89e5d729-bea8-4552-ba7b-d8f3278fb37b.pdf",
+            "news_date": "2025-05-07 17:09:59"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c908013-e2dc-45ff-b735-b5b21aee5ee3.pdf",
+            "news_date": "2025-05-07 11:20:19"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Audited Financial Results For The FY Ended March 31 2025 And Recommendation Of Final Dividend If Any.",
+            "news_body": "Granules India Ltd-has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/05/2025 inter alia to consider and approve the audited financial results for the FY ended March 31 2025 and recommendation of final dividend if any.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=87d8947e-b979-4132-acf3-fc7e8eb0b552.pdf",
+            "news_date": "2025-05-07 10:24:37"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Registered Office Address",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Registered Office Address",
+            "news_body": "Change in Registered Office Address",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=82b4a256-81f0-4dce-9ec3-a94acdd02c9f.pdf",
+            "news_date": "2025-04-20 14:04:52"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b215268-08d6-480b-92f7-2af0b80d7f2e.pdf",
+            "news_date": "2025-04-18 16:58:53"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53e2466b-2a04-47bc-bff8-481159904dd9.pdf",
+            "news_date": "2025-04-10 16:31:50"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Compliance",
+            "descriptor": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure ",
+            "caption": "Format of the Initial Disclosure to be made by an entity identified as a Large Corporate : Annexure A",
+            "news_body": "  <b>Format of Initial Disclosure to be made by an entity identified as a Large Corporate.</b><br/><br/> <table border=1px><tr> <td><b>Sr. No.</b></td> <td><b>Particulars</b></td> <td><b>Details</b></td> </tr> <tr><td>1</td><td>Name of Company</td><td>Granules India Ltd-</td></tr> <tr><td>2</td><td>CIN NO.</td><td>L24110TG1991PLC012471</td></tr> <tr><td>3</td> <td>Outstanding borrowing of company as on 31st March / 31st December as applicable (in Rs cr)</td> <td>0.00</td></tr> <tr><td>4</td><td>Highest Credit Rating during the previous FY </td><td>NA</td></tr> <tr><td>4a</td><td>Name of the Credit Rating Agency issuing the Credit Rating mentioned in (4)</td><td>Not Applicable</td></tr> <tr><td>5</td><td>Name of Stock Exchange# in which the fine shall be paid in case of shortfall in the required borrowing under the framework</td><td>BSE</td></tr> </table>  <br/><br/> <div> <div style=float:left;> We confirm that we are a Large Corporate as per the applicability criteria given under the SEBI circular SEBI/HO/DDHS/CIR/P/2018/144 dated November 26 2018. No</div> <br/><br/><br/> <div style=float:left;> Name of the Company Secretary: CHAITANYA TUMMALA <br/>  Designation: COMPANY SECRETARY   <br/> EmailId: Chaitanya.tummala@granulesindia.com</div> <div style=float:left;margin-left:50px;> Name of the Chief Financial Officer: Mukesh Surana <br/> Designation: Chief Financial Officer <br/> EmailId: Mukesh.surana@granulesindia.com</div> </div> <div> <br/> Date: 07/04/2025<br/><br/> <b>Note:<b> In terms para of 3.2(ii) of the circular beginning F.Y 2022 in the event of shortfall in the mandatory borrowing through debt securities a fine of 0.2% of the shortfall shall be levied by Stock Exchanges at the end of the two-year block period. Therefore an entity identified as LC shall provide in its initial disclosure for a financial year the name of Stock Exchange to which it would pay the fine in case of shortfall in the mandatory borrowing through debt markets. </div>",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90a7f62e-8e89-411c-9fda-c6e214f5475f.pdf",
+            "news_date": "2025-04-07 14:48:58"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=09308c03-a4cf-454e-9638-5817928f9bc7.pdf",
+            "news_date": "2025-03-27 10:53:38"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4df9fd1-03ac-4255-bfba-fef16e192bce.pdf",
+            "news_date": "2025-03-25 18:03:56"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc6a5dca-ae58-4d7a-8c8a-99ef79168805.pdf",
+            "news_date": "2025-03-25 17:58:55"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of Equity shares upon exercise of stock options",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0a349d0-0616-4a06-a656-e0b27b3fc155.pdf",
+            "news_date": "2025-03-20 15:03:07"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcddb24f-d80a-4e94-9499-aeb0b10db029.pdf",
+            "news_date": "2025-03-18 16:24:27"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Life Insurance Corporation of India",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0FC6B1ED_37B2_4964_8118_E2F03D846786_151204.pdf",
+            "news_date": "2025-03-03 15:12:13"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update Under Regulation 30",
+            "news_body": "Update under Regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=94683407-6c35-4b7e-8e1a-3c8bf735babe.pdf",
+            "news_date": "2025-02-28 12:04:21"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2455c03-bd7d-4280-b5c0-34261b2b690b.pdf",
+            "news_date": "2025-02-28 12:01:28"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates",
+            "news_body": "Updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2bf4868-cfef-4fc2-b122-eeecb4a08006.pdf",
+            "news_date": "2025-02-27 16:06:12"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d12134ea-9c2e-4eec-95c6-2e50d825424b.pdf",
+            "news_date": "2025-02-21 19:47:21"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8b5085b-8e7a-47f5-8693-88f649fcb575.pdf",
+            "news_date": "2025-02-21 19:25:28"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d6f4aa7d-a5af-4653-9e64-734ecea29ce6.pdf",
+            "news_date": "2025-02-07 14:31:06"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Change in Management",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e3be8a9-f8ef-45c7-aad6-13fc95621a08.pdf",
+            "news_date": "2025-02-03 10:31:25"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97e20ab4-3a91-47f7-800e-432e06fd86bb.pdf",
+            "news_date": "2025-01-30 13:14:47"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Transcript Of Earnings Conference Call For Q3 Of FY25",
+            "news_body": "Transcript of Earnings Conference call for Q3 of FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9f2f1069-0079-4950-8d40-9b4488193f37.pdf",
+            "news_date": "2025-01-30 13:09:45"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update",
+            "news_body": "Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2e27a3bd-ef03-47dd-838e-97b395b1a562.pdf",
+            "news_date": "2025-01-29 17:50:22"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Call for Q3 of FY25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55879e45-6d02-46a5-93c9-989271f81143.pdf",
+            "news_date": "2025-01-24 17:54:56"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filing (Financials) for the Quarter ended on December 31 2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b1d26c7-e7b0-4c22-abec-c958128e3636.pdf",
+            "news_date": "2025-01-24 14:58:56"
+        },
+        {
             "sym": "GRANULES",
             "disp": "Granules",
             "bse_code": 532482,
@@ -264,6 +1353,17 @@
             "sid": 11872,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 12632,
+            "bse_code": 532482,
+            "isin": "INE101D01020",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcab8c06-83d6-4bee-9172-0835e80af842.pdf",
+            "news_date": "2025-01-24 13:24:24"
         },
         {
             "sym": "GRANULES",
@@ -1273,6 +2373,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

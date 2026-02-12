@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Frauds-Initial Disclosure",
+            "descriptor": "GENERAL",
+            "caption": "Frauds-Initial Disclosure",
+            "news_body": "Disclosure of Material event/information as per Regulation 30 and 51 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24143d4f-5183-427c-b68b-291965f944f0.pdf",
+            "news_date": "2026-02-06 16:44:33"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation Regarding Update in Credit Rating of the Company Under Regulation 30 of LODR",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c0a33a7-fd1c-4725-bb00-31fef7689a48.pdf",
+            "news_date": "2026-01-28 18:22:56"
+        },
+        {
             "sym": "ARSSBL",
             "disp": "Anand Rathi Share & Stock Brokers",
             "bse_code": 544530,
@@ -24,6 +46,39 @@
             "sid": 759956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Earnings Conference Call Transcript for the Third Quarter and Nine Months Ended December 31 2025 held on January 15 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22127d5b-e9f0-4c48-878b-a89eff12f489.pdf",
+            "news_date": "2026-01-21 17:19:58"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Monitoring Agency Report for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3907f233-652b-48d4-9a77-6c5d3b5a400a.pdf",
+            "news_date": "2026-01-21 12:10:18"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Enclosed herewith is the copies of newspaper advertisements pertaining to unaudited (standalone and consolidated) financial results for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7320a3d8-0c65-4621-a4c6-c00eae2dde6e.pdf",
+            "news_date": "2026-01-16 15:10:39"
         },
         {
             "sym": "ARSSBL",
@@ -50,6 +105,17 @@
             "seg": "E"
         },
         {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Earnings Conference Call for the Third Quarter and 9 (Nine) Months Ended December 31 2025 held on January 15 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3619344d-4e13-4631-867e-a0c8eafe38d5.pdf",
+            "news_date": "2026-01-15 18:54:50"
+        },
+        {
             "sym": "ARSSBL",
             "disp": "Anand Rathi Share & Stock Brokers",
             "bse_code": 544530,
@@ -72,6 +138,39 @@
             "sid": 759956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Under Regulation 30",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7ae11df-5689-4fdd-a918-cca71313f7bc.pdf",
+            "news_date": "2026-01-14 19:57:05"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Announcement under Regulation 30 - Press Release",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8372e3ba-66ba-4abf-ab9c-8f8ca8601ae2.pdf",
+            "news_date": "2026-01-14 18:43:10"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On Wednesday January 14 2026",
+            "news_body": "Outcome of the Board Meeting held on Wednesday January 14 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c42cd6dd-4261-473a-977a-b32a01b28f31.pdf",
+            "news_date": "2026-01-14 18:31:19"
         },
         {
             "sym": "ARSSBL",
@@ -98,6 +197,160 @@
             "seg": "E"
         },
         {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On Wednesday January 14 2026",
+            "news_body": "Outcome of Board Meeting Held on 14th January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2011e104-cbcc-4cde-97f0-f14e08129cfc.pdf",
+            "news_date": "2026-01-14 18:22:04"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 (SEBI Listing Regulations) - Adoption Of New Line Of Business By The Wholly Subsidiary Company Anand Rathi International Ventures (IFSC) Private ",
+            "news_body": "Disclosure under Regulation 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1eb1a514-3d62-4c58-97e4-4df134f11efc.pdf",
+            "news_date": "2026-01-13 17:57:33"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Revised Intimation of Schedule of Analysts/ Institutional Investors Meeting - Change in Time of Q3 F.Y. 2026 Earnings Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b56060d-5552-40a3-bdb3-1548fdb6fde7.pdf",
+            "news_date": "2026-01-13 17:50:17"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analysts/ Institutional Investors Meetings to be held on January 15 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28d11a2b-1605-4c3b-9fcc-969c40f2cdb2.pdf",
+            "news_date": "2026-01-12 21:16:02"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration Of Unaudited Financial (Standalone And Consolidated) Results For The Quarter And Nine Months Ended December 31 2025.",
+            "news_body": "Anand Rathi Share And Stock Brokers Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 14/01/2026 inter alia to consider and approve Unaudited Financial (Standalone and Consolidated) Results for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=557fe778-8bfc-4d07-8d22-06b12c51bcf0.pdf",
+            "news_date": "2026-01-08 16:17:44"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018 for the quarter ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ba5eaba-4330-4db7-8152-e7b7f65edb03.pdf",
+            "news_date": "2026-01-07 19:55:29"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window from Thursday January 01 2026 till 48 hours after the declaration of the Unaudited Financial Results of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f85307e0-e787-4780-9fcc-ee2e58545031.pdf",
+            "news_date": "2025-12-29 18:30:55"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Submission Of Disclosure Under Regulation 52(4) Of SEBI (LODR) Regulations 2015",
+            "news_body": "Submission of disclosure under Regulation 52(4) of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7350b52c-1632-44d4-8d9d-dc5a96855d39.pdf",
+            "news_date": "2025-12-08 17:19:13"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Pursuant to Regulation 30 of the SEBI LODR Regulations 2015 it is hereby intimated that NSE Clearing Limited has issued Action letter and imposed penalty on the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d03fad92-3589-4a3b-be03-470d13bbf093.pdf",
+            "news_date": "2025-11-25 18:06:55"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of The SEBI (LODR)",
+            "news_body": "Announcement under regulation 30 of SEBI (LODR) - Clarification on Movement in Price of the Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=514bf32a-b97a-4409-b38c-4a8f8db34777.pdf",
+            "news_date": "2025-11-18 10:42:03"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from Anand Rathi Share And Stock Brokers Ltd",
+            "news_body": "The Exchange has sought clarification from Anand Rathi Share And Stock Brokers Ltd on November 17 2025 with reference to significant movement in price in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-11-17 17:46:06"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Monitoring Agency Report",
+            "caption": "Announcement under Regulation 30 (LODR)-Monitoring Agency Report",
+            "news_body": "Intimation of Monitaring Agency Report for the Quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c6324eb-56a8-489f-a253-49c918b1727a.pdf",
+            "news_date": "2025-10-30 13:01:46"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation For Change Of Corporate Identification Number (CIN) And Listing Status Of The Company",
+            "news_body": "Enclosed herewith the Intimation regarding change in CIN and Listing Status of the Company on Ministry of Corporate Affairs (MCA)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e2e75e6-e526-4102-b75a-2a8bd113c8ab.pdf",
+            "news_date": "2025-10-28 18:13:40"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Award of Order / Receipt of Order",
+            "caption": "Announcement under Regulation 30 (LODR)-Award_of_Order_Receipt_of_Order",
+            "news_body": "Pursuant to Regulation 30 of SEBI LODR Regulations 2015 it is hereby intimated that MCX has imposed penalty on Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f726bde6-13a4-4303-9c27-32cee30a3d45.pdf",
+            "news_date": "2025-10-28 17:31:15"
+        },
+        {
             "sym": "ARSSBL",
             "disp": "Anand Rathi Share & Stock Brokers",
             "bse_code": 544530,
@@ -120,6 +373,39 @@
             "sid": 759956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Intimation of Earning Call Transcript for the second quarter and half year ended September30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c511a82f-004c-4abe-8107-aab8bc2138a6.pdf",
+            "news_date": "2025-10-24 15:50:57"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of the Extract of Unaudited Finacial Results for the quarter and Half Year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9404cbf1-f2a2-455e-8284-bd0ea0b7c30a.pdf",
+            "news_date": "2025-10-20 16:10:18"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication of the extract of Unaudited Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c59184c6-2fe5-4998-aaec-3943a0226f7a.pdf",
+            "news_date": "2025-10-20 16:06:10"
         },
         {
             "sym": "ARSSBL",
@@ -146,6 +432,17 @@
             "seg": "E"
         },
         {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Earning Call Audio Recording Intimation held on 20/10/2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e389130a-4821-4fd9-af03-6c2b8965b7b5.pdf",
+            "news_date": "2025-10-20 14:52:16"
+        },
+        {
             "sym": "ARSSBL",
             "disp": "Anand Rathi Share & Stock Brokers",
             "bse_code": 544530,
@@ -168,6 +465,28 @@
             "sid": 759956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation for the Second Quarter and Half year Ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=559bc860-d55c-4083-af70-14a84f43421c.pdf",
+            "news_date": "2025-10-19 20:44:40"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Press Release dated October 18 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cae1a789-3498-43fa-b448-21a7cb1d7c52.pdf",
+            "news_date": "2025-10-18 14:51:33"
         },
         {
             "sym": "ARSSBL",
@@ -194,6 +513,17 @@
             "seg": "E"
         },
         {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Enclosed herewith the financial results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bdcd6845-7860-4b58-b590-a6e496596dd1.pdf",
+            "news_date": "2025-10-18 14:00:13"
+        },
+        {
             "sym": "ARSSBL",
             "disp": "Anand Rathi Share & Stock Brokers",
             "bse_code": 544530,
@@ -216,7 +546,94 @@
             "sid": 759956,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Enclosed herewith the Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2a8c7fa6-f8de-4384-955d-1e0b74ad9044.pdf",
+            "news_date": "2025-10-18 13:36:45"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On October 18 2025",
+            "news_body": "Enclosed herewith the Outcome for the Board Meeting held on October 18 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab6c0d34-fac9-439a-9921-591704dcfa93.pdf",
+            "news_date": "2025-10-18 13:05:53"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Enclosed herewith intimation of Schedule of Analysts / Institutional Investors Meeting.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dc7d4f3-bb2b-43e2-a58f-ea3d00ba7a77.pdf",
+            "news_date": "2025-10-15 21:46:21"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results Of The Company For The Quarter Ended June 30 2025 And Quarter And Half Year Ended September 30 2025.",
+            "news_body": "Anand Rathi Share And Stock Brokers Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 18/10/2025 inter alia to consider and approve Unaudited financial results (standalone and consolidated) of\r\nthe Company for the quarter ended 30th June 2025 and quarter and half year ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=760119ff-f6f6-4254-ab0a-2014dc0581df.pdf",
+            "news_date": "2025-10-14 16:14:49"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Please find enclosed the certificate under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 as  received from MUFG Intime India Private Limited (formerly known as Link Intime India Private Limited) for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0820663f-bccb-4b97-8af3-530783e26fea.pdf",
+            "news_date": "2025-10-13 20:43:18"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30(5) Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015 - Authority For Determining Materiality Of Events Or Information",
+            "news_body": "Intimation regarding authority to determine materiality of events or information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=11ed152c-84a8-4881-84e0-d8a8d774d622.pdf",
+            "news_date": "2025-10-01 19:06:19"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window From 30th September 2025 to 22nd October 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d44021b8-7fda-42de-96e5-81d4274e2ba2.pdf",
+            "news_date": "2025-09-30 18:49:36"
+        },
+        {
+            "co_code": 29599,
+            "bse_code": 544530,
+            "isin": "INE549H01021",
+            "ann_type": "General",
+            "descriptor": "New Listing",
+            "caption": "Listing of Equity Shares of Anand Rathi Share And Stock Brokers Ltd<BR>",
+            "news_body": "Trading Members of the Exchange are hereby informed that effective from September 30 2025 the equity shares of Anand Rathi Share And Stock Brokers Ltd (Scrip Code: 544530) are listed and admitted to dealings on the Exchange in the list of B Group Securities. For further details please refer to the notice no. 20250929- dated September 29 2025.",
+            "file_url": "",
+            "news_date": "2025-09-30 08:07:50"
         }
-    ],
-    "remarks": ""
+    ]
 }

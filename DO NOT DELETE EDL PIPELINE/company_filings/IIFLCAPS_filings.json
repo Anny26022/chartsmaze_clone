@@ -2,6 +2,39 @@
     "code": 0,
     "data": [
         {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "This is in reference to our letter dated February 07 2026. The recording of the Earnings Call held on Wednesday February 11 2026 at 2:00 p.m. relating to the financial results of the Company for the quarter and nine months ended December 31 2025 is available on the Companys website.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ae43b7b-7c2c-4c48-9cba-b3d028dcd3ac.pdf",
+            "news_date": "2026-02-11 18:06:43"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Please find attached extract of Unaudited Financial Results for the quarter and nine months ended December 31 2025 published in newspaper today i.e. February 11 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f95cbec9-5e48-425b-9173-5b36ab2ed6df.pdf",
+            "news_date": "2026-02-11 18:00:37"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We enclose herewith the press release on the Unaudited Financial Results of the Company for the quarter and nine months ended December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e846a72c-a9d5-454d-930d-9b436e2b4b1e.pdf",
+            "news_date": "2026-02-10 19:45:33"
+        },
+        {
             "sym": "IIFLCAPS",
             "disp": "IIFL Capital Services",
             "bse_code": 542773,
@@ -24,6 +57,61 @@
             "sid": 13072,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith the Investor Presentation on the Unaudited Financial Results for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ed1f412e-2209-43f4-92ee-4cd7dff8b43c.pdf",
+            "news_date": "2026-02-10 19:41:43"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Amendment To The Code Of Practices And Procedures For Fair Disclosure Of Unpublished Price Sensitive Information",
+            "news_body": "Amendment to the Code of Practice and Procedures for Fair Disclosure of Unpublished Price Sensitive information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7dda2ce0-245e-4a99-8328-cd94ac879938.pdf",
+            "news_date": "2026-02-10 18:56:24"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Date of payment of Dividend",
+            "caption": "Announcement under Regulation 30 (LODR)-Date of payment of Dividend",
+            "news_body": "The interim dividend for the Financial year 2025-26 shall be paid/dispatched on or before March 11 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03aa55c7-ceed-45e9-acfb-35448851d455.pdf",
+            "news_date": "2026-02-10 18:51:03"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Fixed Record Date For Interim Dividend For The Financial Year 2025-26",
+            "news_body": "Pursuant to Regulation 42 of SEBI Listing Regulation Monday February 16 2026 is fixed as the record Date for interim Dividend for the Financial Year 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a78ca29-65c5-490d-8c47-382c8cc61ee9.pdf",
+            "news_date": "2026-02-10 18:45:54"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "The Board of Directors of the Company at their meeting held on February 10 2026 has inter-alia approved and declared an interim dividend of Rs. 3/- per equity shares of face value of Rs. 2/- for the Financial year 2025-26.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e0c0e52-8294-4efb-a4ac-239c10b5b800.pdf",
+            "news_date": "2026-02-10 18:39:23"
         },
         {
             "sym": "IIFLCAPS",
@@ -50,6 +138,237 @@
             "seg": "E"
         },
         {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Nine Months Ended December 31 2025",
+            "news_body": "Financial Results for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0d6106a-7b6c-4283-89e0-ef88aa9515bb.pdf",
+            "news_date": "2026-02-10 18:32:44"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting held today i.e. February 10 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=547a550f-df8a-4502-9127-55b700ddf877.pdf",
+            "news_date": "2026-02-10 18:24:32"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Company will host an earnings conference call on Wednesday February 11 2026 at 2:00 p.m. during which the Management will discuss the Companys performance for the quarter and nine months ended December 31 2025 with the participants. The transcript and recording of the call will be made available on the website of the Company i.e. www.iiflcapital.com.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9e1de6f9-2edd-4911-b828-7cfbb50de517.pdf",
+            "news_date": "2026-02-07 15:06:06"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve Inter Alia Standalone And Consolidated Unaudited Financial Results For The Quarter And Nine Months\r\nEnded December 31 2025",
+            "news_body": "IIFL Capital Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/02/2026 inter alia to consider and approve \r\n(a) Standalone and Consolidated Unaudited Financial Results for the quarter and nine months ended December 31 2025 pursuant to SEBI Listing Regulations;\r\n\r\n(b) Declaration of interim dividend for the financial year 2025-2026 if any and fixation of record date relating thereto;\r\n\r\n(c) Any other business.\r\n\r\nFurther pursuant to the Companys Code of Conduct for Prevention of Insider Trading and Disclosure Practices the Trading Window for dealing in securities of the Company shall remain closed for all the designated persons (including Directors) and their immediate relatives from January 01 2026 to February 12 2026 (both days inclusive).",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f61c9d82-a367-458c-ab78-0b2ceeff541e.pdf",
+            "news_date": "2026-02-05 18:33:00"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Grant of stock options to the identified employee(s) under the \"IIFL Securities Limited Employee Stock Option Scheme - 2018\" (IIFL ESOS - 2018) of the company each option being convertible into one fully paid-up equity share.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a1628e8-aa82-41c6-a6d9-b9542eb5f23d.pdf",
+            "news_date": "2026-02-04 15:42:25"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of 51350 equity shares to the employees of the Company on exercise of stock options under \"IIFL Securities Limited Employee Stock Option Scheme - 2018\" (IIFL ESOS- 2018). The said equity shares shall rank pari passu with the existing equity shares from the date of allotment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8fdb6b1-c759-4e76-b592-4d886e6c2618.pdf",
+            "news_date": "2026-02-04 15:36:05"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (Listing Obligation And Disclosure Requirement) Regulations 2015",
+            "news_body": "Pursuant to Regulation 30 read with Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 as amended we wish to inform you that SES ESG Research Private Limited (\"SES ESG Ratings\") has voluntarily assigned ESG Score of 77.8 to the company based on disclosures made for the financial year 2025 along with the publicly available information",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4b63c7a-65dd-40f2-961b-f0c9b1746ae3.pdf",
+            "news_date": "2026-02-04 12:53:14"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "With reference to the captioned subject as required under Regulation 74(5) of the SEBI (Depositories and Participants)Regulations 2018 we are enclosing herewith certificate received from the Companys Registrar and Share Transfer Agent i.e. MUFG Intime India Private Limited (Formerly known as Link Intime India Private Limited) for the quarter ended December 31 2025.\r\n\r\nKindly take the same on record and acknowledge.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20b59b4d-f218-4252-a89b-4e8540644c4c.pdf",
+            "news_date": "2026-01-13 14:44:00"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification /Confirmation On News Item Appearing In Media/Publication\"",
+            "news_body": "Reply to clarification / confirmation on news item appearing in \"Media/ Publication\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4a392216-79cf-4642-b14c-0b03e5937e14.pdf",
+            "news_date": "2026-01-07 14:40:41"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from IIFL Capital Services Ltd",
+            "news_body": "The Exchange has sought clarification from IIFL Capital Services Ltd on January 7 2026 with reference to news appeared in https://economictimes.indiatimes.com dated January 7 2026 quoting \"TPG nears deal to buy 30-40% stake in Nirmal Jains IIFL Capital open offer likely\" <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2026-01-07 13:05:30"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Nomination and Remuneration Committee of the Board of Directors of the Company by way of circular resolution dated January 01 2026 allotted 448210 Equity Shares to the employees of the Company on exercise of stock options under IIFL Securities Limited Employee Stock Option Scheme - 2018 (IIFL ESOS - 2018). The said equity shares shall rank pari passu with the existing equity shares from the date of allotment. Upon allotment the equity base of the Company stands increased from 310867784 to 311315994 Equity shares of Rs. 2/- each. Kindly take the same on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4cbc125e-0efb-4b66-a70d-22023c51c24a.pdf",
+            "news_date": "2026-01-01 11:51:41"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Pursuant To Regulation 30 Of The SEBI (Listing Obligation And Disclosure Requirements) Regulations 2015 (\"SEBI Listing Regulations\")",
+            "news_body": "Disclosure pursuant to Regulation 30 of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 (\"SEBI Listing Regulations\")",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0c2a300-1234-42a9-b933-9c210d90a208.pdf",
+            "news_date": "2025-12-30 17:49:00"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cb00c6b-1895-41be-838a-feb075e84bac.pdf",
+            "news_date": "2025-12-26 17:30:16"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligation And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7a333edf-1641-4347-8672-01f4f84727ae.pdf",
+            "news_date": "2025-12-23 18:27:46"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Pursuant to Regulation 30 of SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 (\"SEBI Listing Regulations\") we wish to inform that Infomerics Valuation and Rating Limited (Formerly known as Infomerics Valuation and Rating Pvt. Ltd.) has assigned credit rating on Commercial Paper of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7f3f03f-4380-4bf1-ae8e-74451361b85e.pdf",
+            "news_date": "2025-12-17 15:27:44"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of Securities And Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91e779aa-3c56-4c0e-b310-91ab3f18b6e9.pdf",
+            "news_date": "2025-12-12 19:21:00"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2faf3cdd-8795-47ba-aef4-584d274bdd2d.pdf",
+            "news_date": "2025-12-04 17:01:33"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Increase In Volume",
+            "news_body": "Please find the response to the clarification sought regarding the increase in the Companys script volume.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=926d4e9c-e6e8-4412-8ae0-eceb1b53fc33.pdf",
+            "news_date": "2025-12-01 13:39:00"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from IIFL Capital Services Ltd",
+            "news_body": "The Exchange has sought clarification from IIFL Capital Services Ltd on December 1 2025 with reference to Movement in Volume.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-12-01 13:02:01"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Nomination and Remuneration Committee of the Board of Directors of the Company by way of circular resolution dated November 27 2025 allotted 247405 equity shares to the employees of the Company on the exercise of stock options under IIFL Securities Limited Employee Stock Option Scheme - 2018 (IIFL ESOS - 2018). The said equity shares shall rank pari passu with the existing equity shares from the date of allotment. Upon allotment the equity base of the Company stands increased from 310620379 to  310867784 Equity Shares of Rs. 2/- each. Kindly take the same on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55998963-f5b2-4f0b-8ebd-3688803059e0.pdf",
+            "news_date": "2025-11-27 17:48:42"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Pursuant to Regulation 30 of SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 (\"SEBI Listing Regulations\")  we wish to inform that CRISIL Ratings Limited has reaffirmed the rating on Commercial Paper of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2620aa5-323a-4a29-8b82-373beb8315cc.pdf",
+            "news_date": "2025-11-18 15:41:44"
+        },
+        {
             "sym": "IIFLCAPS",
             "disp": "IIFL Capital Services",
             "bse_code": 542773,
@@ -72,6 +391,50 @@
             "sid": 13072,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript for earnings conference call  held on Monday November 10 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7db38e8-ff10-48a1-9204-68400eb50d42.pdf",
+            "news_date": "2025-11-14 19:26:52"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "This is in reference to our letter dated November 4 2025. The recording of the Earnings Call held on Monday November 10 2025 at 12:00 noon relating to the financial results of the Company for the quarter and half year ended September 30 2025 is available on the Companys website.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e89729fe-150e-43ac-ae8d-39f8121b8766.pdf",
+            "news_date": "2025-11-10 18:43:10"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Regulation 47 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed copies of the extract of Unaudited Financial Results of IIFL Capital Services Limited for the quarter and half year ended September 30 2025 published in newspaper on November 8 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b79e4b6d-1f1a-494e-9ffa-bb0763940c4a.pdf",
+            "news_date": "2025-11-08 18:25:44"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We enclose herewith the Press release on the unaudited Financial Results of the Company for the quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=91b24333-a73b-4c98-8a42-a9018e31a032.pdf",
+            "news_date": "2025-11-07 22:00:23"
         },
         {
             "sym": "IIFLCAPS",
@@ -98,6 +461,17 @@
             "seg": "E"
         },
         {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith the Investor Presentation on the Unaudited Financial Results of the Company for the quarter and  half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=217b2c10-fa46-42c4-beb4-ba8a6732ef37.pdf",
+            "news_date": "2025-11-07 21:54:49"
+        },
+        {
             "sym": "IIFLCAPS",
             "disp": "IIFL Capital Services",
             "bse_code": 542773,
@@ -120,6 +494,292 @@
             "sid": 13072,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Half Year Ended September 30 2025",
+            "news_body": "Financial Results for the quarter and half year ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e33feb46-5aab-4d08-8eb6-57a492957dc9.pdf",
+            "news_date": "2025-11-07 20:34:08"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "This is to inform you that pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 (\"SEBI Listing Regulations\") the Board of Directors of the Company at their meeting held today i.e. Friday November 07 2025 has inter-alia considered and approved the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter  and half year ended September 30 2025 along with the Limited Review Report thereon issued by the Statutory Auditors of the Company as required under SEBI Listing Regulations.\r\n\r\nIn this regard please find enclosed the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended September 30 2025 along with the Limited Review Report.\r\n\r\nThe aforesaid results have been uploaded on the websites of the Stock Exchanges i.e. www.nseindia.com and www.bseindia.com and are also available on the Companys website at www.iiflcapital.com\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3bb415ef-6d11-401d-88fc-dd2acdde9ce0.pdf",
+            "news_date": "2025-11-07 20:26:17"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Company will host an earnings conference call on Monday November 10 2025 at 12:00 noon during which the management will discuss the Companys performance for the quarter and half year ended September 30 2025 with the participants. The transcript and recording of the call will be made available on the website of the Company i.e. www.iiflcapital.com",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c49b0e9-709f-429f-a436-47b4f4c6e191.pdf",
+            "news_date": "2025-11-04 17:04:58"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Nomination and Remuneration Committee of the Board of Directors of the Company by way of circular resolution dated November 03 2025 allotted 252550 Equity Shares to the Employees of the Company on exercise of stock options under IIFL Securities Limited Employee Stock Option Scheme - 2018 (IIFL ESOS - 2018). The said equity shares shall rank pari passu with the existing equity shares from the date of allotment. \r\nUpon allotment the equity base of the Company stands increased from 310367829 to 310620379.\r\nKindly take the same on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93132121-a895-4a93-b695-c8967a26d6b8.pdf",
+            "news_date": "2025-11-03 17:09:28"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve Inter Alia Standalone And Consolidated Unaudited Financial Results For The Quarter And Half Year Ended September 30 2025 \r\n",
+            "news_body": "IIFL Capital Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 07/11/2025 inter alia to consider and approve \r\n\r\n(a) Standalone and Consolidated Unaudited Financial Results for the quarter and half year ended September 30 2025 pursuant to SEBI Listing Regulations;\r\n\r\n(b) Any other business with the permission of the chair. \r\n\r\nFurther pursuant to the Companys Code of Conduct for Prevention of Insider Trading and Disclosure Practices the Trading Window for dealing in securities of the Company shall remain closed for all the designated persons (including Directors) and their immediate relatives from October 01 2025 to November 09 2025 (both days inclusive).\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da37aa34-5eb2-40ba-8d14-d0076fae4d8d.pdf",
+            "news_date": "2025-11-03 17:01:54"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (Listing Obligation And Disclosure Requirement) Regulations 2015",
+            "news_body": "Pursuant to Regulation 30 read with Schedule III of the SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 as amended we wish to inform you that CFC Finlease Private Limited (\"CFC Finlease\") a SEBI-registered and licensed ESG Rating Provider (ERP) has voluntarily assigned an ESG rating of 79 to the Company based on publicly available information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b94a8d98-2c70-4dd5-94f1-1b8e4ac280f7.pdf",
+            "news_date": "2025-10-23 19:07:06"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "With reference to the captioned subject as required under Regulation 74(5) of SEBI (Depositories and Participants)Regulations 2018 we are enclosing certificate received from the Companys Registrar and Share Transfer Agent for the quarter ended September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6815715f-97a3-4b08-83b3-86c1f1b60280.pdf",
+            "news_date": "2025-10-08 15:10:41"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (Listing Obligation And Disclosure Requirement) Regulations 2015",
+            "news_body": "We wish to inform you that Crisil ESG Ratings & Analytics Ltd (\"Crisil ESG Ratings\") has voluntarily assigned an ESG rating of \"Crisil ESG 63\" to the Company based on disclosure made for the fiscal year 2025 along with other publicly available information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=071012d1-5690-4fe7-ba90-40ae96160a3a.pdf",
+            "news_date": "2025-10-03 13:16:53"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (Listing Obligation And Disclosure Requirement) Regulations 2015",
+            "news_body": "Announcement under Regulation 30 of SEBI (Listing Obligation and Disclosure Requirement) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a02b674b-7b8b-4002-8cc6-8d49fd9be6c5.pdf",
+            "news_date": "2025-10-01 16:51:43"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (Listing Obligation And Disclosure Requirement) Regulations 2015",
+            "news_body": "Announce under Regulation 30 of SEBI (Listing Obligation and Disclosure Requirement) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37593397-7a62-4b2f-88d0-ebb06eb2be3a.pdf",
+            "news_date": "2025-09-30 19:19:18"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Pursuant to Regulation 30 of SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 we wish to inform you that the Nomination and Remuneration Committee of the Board of Directors of the Company by way of circular resolution dated September 29 2025 has approved the grant of 173158 stock options to identified employee(s) under the \"IIFL Securities Employee Stock Option Scheme - 2018 of the Company each option being convertible into one fully paid-up equity share.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9810617a-6981-4640-bf64-73bc715b3f1e.pdf",
+            "news_date": "2025-09-29 15:38:04"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "Allotment of 107610 equity shares to the employees of the Company on exercise of stock options under IIFL Securities Limited Employee Stock Option Scheme - 2018 (IIFL ESOS - 2018). The said equity shares shall rank pari passu with the existing equity shares from the date of allotment.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a522e783-9644-4a63-9a78-67efaec92ef9.pdf",
+            "news_date": "2025-09-29 15:30:36"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73820a00-2622-4b76-bc39-e4425b8bbd4c.pdf",
+            "news_date": "2025-09-25 15:48:55"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Disclosure under SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 - Voting Results and Scrutinizers Report of the 30th Annual General Meeting of IIFL Capital Services Limited (\"the Company\")",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3aa9b7b5-840a-4520-8918-22b686560662.pdf",
+            "news_date": "2025-09-17 18:52:41"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Change In Senior Management Personnel",
+            "news_body": "Outcome of the Board Meeting held on September 17 2025 regarding change in Senior Management Personnel of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ab73e95-3a9c-459e-a827-d580dd5661ba.pdf",
+            "news_date": "2025-09-17 12:37:34"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of the Board Meeting held on September 17 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f593e100-95d2-4e9d-8850-10d3c9321982.pdf",
+            "news_date": "2025-09-17 12:33:21"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of the 30th Annual General Meeting of IIFL Capital Services Limited held on September 16 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b632c11b-5470-4213-8c85-f98510b8c09e.pdf",
+            "news_date": "2025-09-16 18:47:16"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure\r\nRequirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ebb49067-bee8-4821-a587-b53ae03b4c20.pdf",
+            "news_date": "2025-08-29 21:35:50"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Nomination and Remuneration Committee of the Board of Directors of the Company by way of circular resolution dated August 26 2025 allotted 125000 Equity Shares to the employees of the Company on the exercise of stock options under IIFL Securities Limited Employee Stock Option Scheme - 2018 (IIFL ESOS- 2018). The said equity shares shall rank pari passu with the existing equity shares from the date of allotment. \r\n\r\nUpon allotment the equity base of the Company stands increased from 310135219 to 310260219 Equity Shares of Rs. 2/- each.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6c2d4da1-0dd8-4115-8a6a-52f1ec7104ea.pdf",
+            "news_date": "2025-08-26 17:51:50"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Regulation 30 & 47 of SEBI Listing Regulations we are enclosing copies of newspaper advertisement published on Sunday August 24 2025 regarding dispatch of the Notice of 30th AGM of IIFL Capital Services Limited together with Annual Report for the FY 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8d9f77b6-5796-4857-af50-46610d04bc34.pdf",
+            "news_date": "2025-08-24 15:22:53"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 - Letter To Shareholders",
+            "news_body": "Pursuant to Regulation 36(1)(b) of the SEBI Listing Regulations please find enclosed the communication sent to those shareholders whose email addresses are not registered with the Company/Registrar and Transfer Agent/ Depositories containing weblink and QR Code to access the Notice of the AGM along with Annual Report of the Company for the FY 2024-25.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aaffb152-007b-4d1f-be83-67c20187960e.pdf",
+            "news_date": "2025-08-23 19:21:05"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "Record Date",
+            "caption": "Intimation Of Record Date",
+            "news_body": "The record date (cut-off date) for determining the members eligible for availing the remote e-voting and e-voting facility during AGM is Tuesday September 09 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e5d063b-2eba-4c12-8a7b-622f0f63b47b.pdf",
+            "news_date": "2025-08-23 19:11:30"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Pursuant to Regulation 34(2)(f) of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find attached herewith BRSR for the financial year 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca44332b-e253-4ae4-a1cc-bd554858cad4.pdf",
+            "news_date": "2025-08-23 18:46:25"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Pursuant to the provisions of Regulation 34 read with Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 we hereby submit the following documents:\r\n\r\na) Notice of the 30th Annual General Meeting (\"AGM\") of the Company scheduled to be held on Tuesday September 16 2025 at 11:30 a.m. IST through Video Conferencing (VC) / Other Audio Visual Means (OAVM);\r\n\r\nb) Annual Report of the Company for the financial year 2024-25 including the Business Responsibility and Sustainability Report (BRSR).\r\n\r\nThe Notice of the 30th AGM and the Annual Report for FY 2024-25 are also available on the Companys website at www.iiflcapital.com and on the website of CDSL at www.evotingindia.com.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cbc302fa-d76b-49c4-8237-3f2ed6efecb0.pdf",
+            "news_date": "2025-08-23 18:40:33"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of The 30Th Annual General Meeting Of The Company",
+            "news_body": "We wish to inform you that the 30th AGM of the Company is scheduled to be held on Tuesday September 16 2025 at 11:30 a.m. (IST) through VC/OAVM in compliance with MCA Circular and SEBI Circular.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0de3b566-4034-42e6-941f-781435fb649f.pdf",
+            "news_date": "2025-08-23 18:27:05"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Regulation 30 and 47 of the SEBI Listing Regulations Please find enclosed copies of newspaper advertisement published on August 22 2025 regarding 30th AGM of the Company scheduled to be held on Tuesday September 16 2025 at 11:30 a.m. (IST) through VC/OAVM means.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ca73af35-e719-43f5-b24e-326797d08e07.pdf",
+            "news_date": "2025-08-22 17:29:12"
         },
         {
             "sym": "IIFLCAPS",
@@ -146,6 +806,17 @@
             "seg": "E"
         },
         {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "This is a continuation of the Earnings Conference Call transcript submitted on August 4 2025 for the call held on Tuesday July 29 2025.\r\n\r\nWe wish to inform you that the revenue from the new wealth management team was inadvertently stated only for a month as Rs. 8 Crores whereas revenue for the Q1FY26 was Rs. 28 Crores.\r\n\r\nAccordingly we are enclosing herewith revised transcript.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6060314a-fb9c-488e-9b37-f69c562fd086.pdf",
+            "news_date": "2025-08-12 20:13:27"
+        },
+        {
             "sym": "IIFLCAPS",
             "disp": "IIFL Capital Services",
             "bse_code": 542773,
@@ -168,6 +839,50 @@
             "sid": 13072,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find attached herewith a transcript of the earnings call held on Tuesday July 29 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c2d1c68-6691-4533-821f-ae14992d6525.pdf",
+            "news_date": "2025-08-04 20:25:26"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "This is with reference to our letter dated July 24 2025. The recording of the Earnings Call held on Tuesday July 29 2025 at 12.00 Noon pertaining to the financial results of the Company for the quarter ended June 30 2025 is available on website of the Company and can be accessed on the following link:\r\n\r\nhttps://files.iiflcapital.com/assets/10034710_98de511fbb.mp3\r\n\r\nKindly take the same on record and oblige\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de5f9a05-eb46-44e7-beb0-cfba4e20a2d0.pdf",
+            "news_date": "2025-07-29 17:08:30"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Regulation 47 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed copies of the extract of Unaudited Financial Results of IIFL Capital Services Limited for the quarter ended June 30 2025 published in newspaper on July 29 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=07890ada-bd97-437b-b52e-e5beb55e5a6b.pdf",
+            "news_date": "2025-07-29 16:58:55"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We enclose herewith the press release on the Unaudited Financial Results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0083f848-bbb2-4b35-bab2-2fefa192fe71.pdf",
+            "news_date": "2025-07-28 20:43:06"
         },
         {
             "sym": "IIFLCAPS",
@@ -194,6 +909,39 @@
             "seg": "E"
         },
         {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith the Investor Presentation on the Unaudited Financial Results of the Company for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8fc9bea3-e10f-46b2-a22d-3c3631c76171.pdf",
+            "news_date": "2025-07-28 20:37:32"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "The Board of Directors of the Company at their meeting held today i.e. July 28 2025 has inter alia considered and approved reappointment of Mr. Anand Shailesh Bathiya ( w.e.f. September  22 2025) and Mr. Viswanathan Krishnan ( w.e.f. January 21 2026) subject to the approval of shareholders of the Company and Regulators/Exchange(s) as may be required.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9ecc44ff-02b1-4d36-92e0-9f2d5e207da0.pdf",
+            "news_date": "2025-07-28 19:51:45"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Announcement under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=058c9de5-f5a8-4d5d-accf-f8caa3f0897d.pdf",
+            "news_date": "2025-07-28 19:45:03"
+        },
+        {
             "sym": "IIFLCAPS",
             "disp": "IIFL Capital Services",
             "bse_code": 542773,
@@ -216,6 +964,259 @@
             "sid": 13072,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended June 30 2025",
+            "news_body": "Financial Results for the quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ecb4c9af-5ffe-4672-8054-4ebe54638f08.pdf",
+            "news_date": "2025-07-28 19:39:14"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting held on July 28 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3156c93d-e496-4aa4-ba53-7fcd91f2bef3.pdf",
+            "news_date": "2025-07-28 19:30:47"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Nomination and Remuneration Committee of the Board of Directors of the Company by way of circular resolution dated July 26 2025 allotted 154160 Equity Shares to the employee of the Company on exercise of stock options under IIFL Securities Limited Employee Stock Option Scheme - 2018. The said equity shares shall rank pari passu with the existing equity shares from the date of allotment.\r\n\r\nUpon allotment the equity base of the Company stands increased from 309981059 to 310135219 Equity Shares of Rs. 2/- each.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63c7befc-d8a6-47bc-a53c-d2cec396c898.pdf",
+            "news_date": "2025-07-26 19:59:56"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "The Company will host an earnings conference call on Tuesday July 29 2025 at 12:00 noon during which the Management will discuss the Companys performance for the quarter ended June 30 2025 with the participants. The transcript and recording of the call will be made available on the website of the Company i.e. www.iiflcapital.com\r\n\r\nKindly take the same on record and oblige.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8511da61-dea0-406c-8b6b-ab704a7566fb.pdf",
+            "news_date": "2025-07-24 20:13:51"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consider And Approve Inter Alia Standalone And Consolidated Unaudited Financial Results For The Quarter Ended June 30 2025\r\n",
+            "news_body": "IIFL Capital Services Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/07/2025 inter alia to consider and approve \r\n\r\n(a) Standalone and Consolidated Unaudited Financial Results for the quarter ended June 30 2025 pursuant to SEBI Listing Regulations;\r\n\r\n(b) Any other business with the permission of the chair. \r\n\r\nFurther pursuant to the Companys Code of Conduct for Prevention of Insider Trading and Disclosure Practices the Trading Window for dealing in securities of the Company shall remain closed for all the designated persons (including Directors) and their immediate relatives from July 01 2025 to July 30 2025 (both days inclusive).\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a0636098-02e9-404f-917e-d50e9a45519e.pdf",
+            "news_date": "2025-07-23 17:22:39"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8d55570-83e7-40b4-8e53-7db9fca21acd.pdf",
+            "news_date": "2025-07-21 19:13:00"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015 we wish to inform you that the Nomination and Remuneration Committee of the Board of Directors of the Company at its meeting held today i.e. July 17 2025 has approved the grant of 470835 stock options to identified employee(s) under the \"IIFL Securities Employee Stock Option Scheme -2018 of the Company each option being convertible into one fully paid-up Equity Shares.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=312f4486-eb97-4a95-b77f-e91edf43cc3c.pdf",
+            "news_date": "2025-07-17 15:42:07"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "With reference to the captioned subject as required under Regulation 74(5) of the SEBI (Depositories and Participants) Regulations 2018 we are enclosing herewith certificate received from the Companys Registrar and Share Transfer Agent for the quarter ended June 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73d59f28-c6af-4b0e-8f03-bd33ff31af89.pdf",
+            "news_date": "2025-07-15 20:22:39"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 read with Para A of Part A of Schedule III of SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f281354e-b93c-41b6-9d1f-1b6f6ccc3579.pdf",
+            "news_date": "2025-07-15 20:17:02"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d7d6769b-2e98-4785-9240-c80035b089ab.pdf",
+            "news_date": "2025-06-26 18:20:11"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Nomination and Remuneration Committee of the Board of Directors of the Company by way of circular resolution dated June 25 2025 allotted 1500 Equity shares to the employee of the Company on exercise of stock options under IIFL Securities Limited Employee Stock Options Scheme  - 2018. The said equity shares shall rank pari passu with the existing equity shares from the date of allotment.\r\n\r\nUpon allotment the equity base of the Company stands increased from 309979559 to 309981059 Equity Shares of Rs. 2/- each.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae82205d-69db-4a3d-a9ae-147086e832f4.pdf",
+            "news_date": "2025-06-25 15:39:53"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Orpheus Trading Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96F70EC3_5A21_4D5E_B396_394462D63F20_172940.pdf",
+            "news_date": "2025-06-23 17:29:44"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Orpheus Trading Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=253BD9A3_49B0_4F70_B35E_C418907BD9E0_172830.pdf",
+            "news_date": "2025-06-23 17:28:37"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Pursuant to Rule 20(4) of the Companies (Management and Administration) Rule 2014 as amended the Consolidated Scrutinizers Report on the remote e-voting process conducted for the postal ballot notice is enclosed herewith.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ef77457-7110-4d1a-83e1-dac8ab37b68e.pdf",
+            "news_date": "2025-06-09 18:47:06"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Outcome of Postal Ballot notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a07e9b01-3328-483f-8c0c-338480ccc8dc.pdf",
+            "news_date": "2025-06-09 18:43:07"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Clarification On Price Movement",
+            "news_body": "Clarification on Price Movement",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dcb5b915-b16a-4ba0-b2f9-25580abfccdc.pdf",
+            "news_date": "2025-06-06 21:21:14"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from IIFL Capital Services Ltd",
+            "news_body": "The Exchange has sought clarification from IIFL Capital Services Ltd on June 6 2025 with reference to significant movement in price in order to ensure that investors have latest relevant information about the company and to inform the market so that the interest of the investors is safeguarded.<BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2025-06-06 17:36:38"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Pursuant to Regulation 24(A) of SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015 please find enclosed herewith the Annual Secretarial Compliance Report of the Company for the financial year ended March 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ac933b56-36cc-427e-bee8-a7cef8529259.pdf",
+            "news_date": "2025-05-28 19:42:53"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18894725-5921-498e-b8f4-d46d8c815419.pdf",
+            "news_date": "2025-05-27 16:19:46"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of ESOP / ESPS",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment of ESOP / ESPS",
+            "news_body": "The Nomination and Remuneration Committee of the Board of Directors of the Company by way of circular resolution dated May 26 2025 allotted 23750 Equity Shares to the employees of the Company on exercise of stock options under IIFL Securities Limited Employee Stock Option Scheme - 2018. The said equity shares shall rank pari passu with the existing equity shares from the date of allotment.\r\n\r\nUpon allotment the equity base of the Company stands increased from 309955809 to 309979559 Equity Shares of Rs. 2/- each.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=546b66ff-a22d-43e1-8b00-1e9018764c70.pdf",
+            "news_date": "2025-05-26 19:12:49"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b137bbdb-29be-4225-a834-51f8666b0bb5.pdf",
+            "news_date": "2025-05-20 16:07:40"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligation And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligation and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1410e059-837b-494d-aa40-3907c1dc6a90.pdf",
+            "news_date": "2025-05-19 18:41:23"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Regulation 47 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 please find enclosed copies of Postal Ballot notice and e-voting information of IIFL Capital Services Limited published in newspapers on May 07 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41aa9f97-19e9-4c76-b272-85b82f1e6178.pdf",
+            "news_date": "2025-05-07 15:10:40"
         },
         {
             "sym": "IIFLCAPS",
@@ -242,6 +1243,61 @@
             "seg": "E"
         },
         {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Please find attached herewith a transcript of the earnings call held on Tuesday April 29 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=20ae93ca-0fb0-43b4-9984-5170ba021e47.pdf",
+            "news_date": "2025-05-06 18:52:13"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 as amended from time to time please find enclosed herewith copy of the Notice of the Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=24ff45ec-5b47-48c6-98d7-0cb114324649.pdf",
+            "news_date": "2025-05-06 15:25:15"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "This is with reference to our letter dated April 24 2025. The recording of the Earnings Call held on Tuesday April 29 2025 at 2.00 p.m. pertaining to the financial results of the Company for the quarter and year ended March 31 2025 is available on website of the Company and can be accessed on the following link:\r\n\r\nhttps://files.iiflcapital.com/assets/IIFL_Capital_Earnings_Call_Recording_Q4_FY_25_3d937e03fb.mp3\r\n\r\nKindly take the same on record and oblige.\r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7e4f2edb-28ea-4379-8d71-d9828ab4b393.pdf",
+            "news_date": "2025-04-29 16:47:16"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Pursuant to Regulation 47 of the SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015 please find enclosed copies of the extract of Audited Financial Results of IIFL Capital Services Limited (Formerly known as IIFL Securities Limited) for the quarter and year ended March 31 2025 published in newspapers on April 29 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bcc88721-9a68-47b2-b320-bb7aaa494c00.pdf",
+            "news_date": "2025-04-29 16:39:47"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "We enclose herewith the press release on the Audited Financial Results of the Company for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=641daddd-aef1-4d77-a322-58842d749d04.pdf",
+            "news_date": "2025-04-28 22:45:09"
+        },
+        {
             "sym": "IIFLCAPS",
             "disp": "IIFL Capital Services",
             "bse_code": 542773,
@@ -266,6 +1322,28 @@
             "seg": "E"
         },
         {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "We enclose herewith the Investor Presentation on the Audited Financial Results of the Company for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=af2472e7-7574-4bb9-8626-8acdc447771a.pdf",
+            "news_date": "2025-04-28 22:41:21"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Pursuant To Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Disclosure pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a361df91-130b-4dc2-a7f6-6a324cf6f1b5.pdf",
+            "news_date": "2025-04-28 21:19:05"
+        },
+        {
             "sym": "IIFLCAPS",
             "disp": "IIFL Capital Services",
             "bse_code": 542773,
@@ -288,6 +1366,28 @@
             "sid": 13072,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Year Ended March 31 2025",
+            "news_body": "Financial Results for the quarter and year ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65f94d93-c724-4d27-8738-ae118121e81c.pdf",
+            "news_date": "2025-04-28 21:14:29"
+        },
+        {
+            "co_code": 26658,
+            "bse_code": 542773,
+            "isin": "INE489L01022",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=815ab80d-71ba-48d9-a4f0-537d1d2ab3df.pdf",
+            "news_date": "2025-04-28 21:00:19"
         },
         {
             "sym": "IIFLCAPS",
@@ -1729,6 +2829,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

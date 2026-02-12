@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a3106173-bc46-4ab3-a242-59f9872db30f.pdf",
+            "news_date": "2026-02-10 12:11:13"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3eb97f1e-eae1-4457-902f-513b71e54b4b.pdf",
+            "news_date": "2026-02-04 21:53:38"
+        },
+        {
             "sym": "MARUTI",
             "disp": "Maruti Suzuki",
             "bse_code": 532500,
@@ -24,6 +46,50 @@
             "sid": 10999,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of investors call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d7965cf-ea8d-4a59-b2d1-30d9c0c4969f.pdf",
+            "news_date": "2026-02-02 21:01:56"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Maruti Suzuki Production Volume: January 2026",
+            "news_body": "Maruti Suzuki Production Volume: January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=944c854b-4258-4ee9-97ac-bc107ca667a2.pdf",
+            "news_date": "2026-02-02 17:08:35"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki sales in January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46dd624d-eca7-4339-8fa1-068b1ed794d9.pdf",
+            "news_date": "2026-02-02 09:38:14"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of published results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b8c13577-6c7e-4c49-a9b7-4dc11c15c3dc.pdf",
+            "news_date": "2026-01-29 12:57:09"
         },
         {
             "sym": "MARUTI",
@@ -50,6 +116,17 @@
             "seg": "E"
         },
         {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording",
+            "news_body": "Audio recording of the investors call held on 28th January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0fb852ba-04ba-462d-b583-53db3775bea3.pdf",
+            "news_date": "2026-01-28 20:27:17"
+        },
+        {
             "sym": "MARUTI",
             "disp": "Maruti Suzuki",
             "bse_code": 532500,
@@ -72,6 +149,39 @@
             "sid": 10999,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the financial results for the quarter ended on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d203cd4-51c6-4795-a58f-b784adfca9a0.pdf",
+            "news_date": "2026-01-28 14:23:35"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki India Limited Financial Results Q3 and 9M FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=203cbb32-73a9-4e9d-83d2-1e1e7dc662cb.pdf",
+            "news_date": "2026-01-28 14:19:15"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Un-Audited Financial Results For The Quarter Ended On 31St December 2025",
+            "news_body": "Un-audited financial results for the quarter ended on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5da50e60-4158-47d9-af68-9c7fdc777ab3.pdf",
+            "news_date": "2026-01-28 14:15:21"
         },
         {
             "sym": "MARUTI",
@@ -98,6 +208,358 @@
             "seg": "E"
         },
         {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter Ended On 31St December 2025",
+            "news_body": "Un-audited financial results for the quarter ended on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd54e326-e4bd-454e-adcd-839f00e1841e.pdf",
+            "news_date": "2026-01-28 14:11:33"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=643f5937-38c7-400c-8097-10a6ca6da264.pdf",
+            "news_date": "2026-01-27 18:52:09"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015\r\n",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b936d61-8c7b-4799-ae59-854f5c625ce7.pdf",
+            "news_date": "2026-01-23 21:43:46"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1a98609-1978-453f-8d73-71e460191a1d.pdf",
+            "news_date": "2026-01-21 15:35:55"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki commences exports of VICTORIS badged as Across",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a314d6ab-06fc-4863-86e6-47ff70deab0c.pdf",
+            "news_date": "2026-01-16 14:45:57"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering The Unaudited Financial Results For The Quarter Ended On 31St December 2025",
+            "news_body": "Maruti Suzuki India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 28/01/2026 inter alia to consider and approve the unaudited financial results for the quarter ended on 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6ae3f7cf-ac74-4aa8-97f7-c3570ed7a3ce.pdf",
+            "news_date": "2026-01-15 11:17:29"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki collaborates with Indian Oil Corporation Limited to further expand nationwide service reach",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=93b832b8-3f4b-4587-8f4e-d8f22cdc05e0.pdf",
+            "news_date": "2026-01-12 13:27:23"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Board Approval For Land Acquisition For Capacity Expansion",
+            "news_body": "Board Approval for Land acquisition for Capacity Expansion",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8ca5fe4-9306-4e07-b395-f8e4d34d914a.pdf",
+            "news_date": "2026-01-12 10:02:28"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Maruti Suzuki Production Volume: December 2025",
+            "news_body": "Maruti Suzuki Production Volume: December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=894bac5a-18f9-407e-9346-7d5cceedab51.pdf",
+            "news_date": "2026-01-01 20:55:16"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki sales in December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8cc8f45e-8369-468e-b516-541a0db36a14.pdf",
+            "news_date": "2026-01-01 12:24:54"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aad9e3de-a13f-4be1-832c-cadc95dd547b.pdf",
+            "news_date": "2025-12-29 17:56:25"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e732707-fe99-4a8d-bb90-df6b99cba386.pdf",
+            "news_date": "2025-12-28 14:08:56"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9c2f1794-a9eb-4910-b33f-ed38f5fd1639.pdf",
+            "news_date": "2025-12-23 18:46:52"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff9c2c6b-695d-4256-b7bf-c4e855ebc65e.pdf",
+            "news_date": "2025-12-18 18:38:24"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The SEBI (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=41be8af5-054a-4a5a-8d09-e1603d616b9b.pdf",
+            "news_date": "2025-12-18 18:11:06"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d26260c-386e-4df4-8743-72d9b7d034d5.pdf",
+            "news_date": "2025-12-17 17:27:05"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki ushers in inclusive mobility with WagonR Swivel Seat: A step towards providing accessible mobility for senior citizens and persons with disabilities",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86fcd483-4d70-4ebb-8324-a7eceae561fc.pdf",
+            "news_date": "2025-12-17 14:02:00"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESG Rating By NSE Sustainability Ratings And Analytics Limited",
+            "news_body": "ESG rating by NSE Sustainability Ratings and Analytics Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6aa4948c-d891-43d4-a793-4b9fd624e57a.pdf",
+            "news_date": "2025-12-10 13:58:35"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "India Goes Electric with Maruti Suzuki. One India One EV Charging platform.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e7141c2-0d33-400f-8e20-80628edeedf1.pdf",
+            "news_date": "2025-12-02 21:07:26"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Maruti Suzuki Production Volume: November 2025",
+            "news_body": "Maruti Suzuki Production Volume: November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9f8ce84-58bc-4f89-aa80-5f53482204aa.pdf",
+            "news_date": "2025-12-01 17:50:16"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki sales in November 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=758e25e6-6489-4121-b49d-fb27199e79e2.pdf",
+            "news_date": "2025-12-01 14:11:25"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Effectiveness Of The Scheme Of Amalgamation",
+            "news_body": "Effectiveness of the Scheme of Amalgamation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6c62c90-1b2d-4e89-9111-be57bc15171f.pdf",
+            "news_date": "2025-12-01 00:21:55"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of notice published in newspaper",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=44a86d76-bb2f-45ed-915b-f1494ec10bd9.pdf",
+            "news_date": "2025-11-27 15:17:19"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Re-affirmation of credit ratings by CRISIL Ratings Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1f863732-9424-445b-87b3-b44e4b27410b.pdf",
+            "news_date": "2025-11-21 15:51:06"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=60e47ebc-6d3c-42db-9a7a-2593bc6054c7.pdf",
+            "news_date": "2025-11-17 17:32:38"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Recall Of 39506 Grand Vitara Vehicles",
+            "news_body": "Recall of 39506 Grand Vitara vehicles",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8ada6313-864e-4e41-8941-6d551cb55c0b.pdf",
+            "news_date": "2025-11-14 19:51:42"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00d0064a-d50a-45f1-a22d-4ae94c831f6d.pdf",
+            "news_date": "2025-11-13 11:46:30"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of investor meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=61bacdaa-f6f9-45d7-8c3a-92a26e6b2464.pdf",
+            "news_date": "2025-11-12 17:15:23"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESG Rating By MSCI ESG Research LLC",
+            "news_body": "ESG rating by MSCI ESG Research LLC",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d058dbb9-d156-4e83-9c85-ca0a000aa08a.pdf",
+            "news_date": "2025-11-07 23:07:53"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Issuance Of Order By The Honble National Company Law Tribunal Principal Bench (New Delhi) (NCLT) Sanctioning The Scheme Of Amalgamation",
+            "news_body": "Issuance of Order by the Honble National Company Law Tribunal Principal Bench (New Delhi) (NCLT) sanctioning scheme of amalgamation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=681c7f78-7cba-4fc3-92da-fa8d9efb7259.pdf",
+            "news_date": "2025-11-06 18:48:01"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f528454-2a72-4720-9c6a-4e5aae303341.pdf",
+            "news_date": "2025-11-06 17:02:08"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1adce1b0-841d-4877-bf20-02b4eeb3958b.pdf",
+            "news_date": "2025-11-04 10:18:21"
+        },
+        {
             "sym": "MARUTI",
             "disp": "Maruti Suzuki",
             "bse_code": 532500,
@@ -120,6 +582,61 @@
             "sid": 10999,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of investors call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=55f7cee9-19ee-40fb-9041-6445ea307574.pdf",
+            "news_date": "2025-11-03 22:01:27"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=854f8cb2-8e0d-4ca5-9d2c-136c58c884cd.pdf",
+            "news_date": "2025-11-02 10:24:59"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Maruti Suzuki Production Volume: October 2025",
+            "news_body": "Maruti Suzuki Production Volume: October 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e44466a-2c6f-4f6e-b393-23ff963e6596.pdf",
+            "news_date": "2025-11-01 22:31:52"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki sales in October 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aca05a96-1d48-4f65-b8c2-e92066f819c4.pdf",
+            "news_date": "2025-11-01 14:40:43"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of published results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68fe8b1a-907d-4d1c-935e-fc181ae3c5ba.pdf",
+            "news_date": "2025-11-01 11:08:32"
         },
         {
             "sym": "MARUTI",
@@ -146,6 +663,17 @@
             "seg": "E"
         },
         {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording",
+            "news_body": "Audio recording of the investors call held on 31st October 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9803c3d1-b31d-4c0d-9b1b-a49084a0a632.pdf",
+            "news_date": "2025-10-31 22:37:32"
+        },
+        {
             "sym": "MARUTI",
             "disp": "Maruti Suzuki",
             "bse_code": 532500,
@@ -168,6 +696,28 @@
             "sid": 10999,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation on the financial results for the quarter ended on 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=de8ce513-a808-453e-9b3b-94328ebe6e0c.pdf",
+            "news_date": "2025-10-31 14:44:00"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki India Limited Financial Results Q2 and H1 FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c835045e-710f-497b-b717-6619ab877115.pdf",
+            "news_date": "2025-10-31 14:37:54"
         },
         {
             "sym": "MARUTI",
@@ -194,6 +744,347 @@
             "seg": "E"
         },
         {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter Ended On 30Th September 2025",
+            "news_body": "Un-audited financial results for the quarter ended on 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95ad289a-203f-4a92-b897-a62c6a4bd9a4.pdf",
+            "news_date": "2025-10-31 14:24:26"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Un-Audited Financial Results For The Quarter Ended On 30Th September 2025",
+            "news_body": "Un-audited financial results for the quarter ended on 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1b4fced5-921c-496a-9c10-987914fde694.pdf",
+            "news_date": "2025-10-31 14:17:18"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Conference Call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ad1b9fca-a508-45cb-a670-7eb879e4de61.pdf",
+            "news_date": "2025-10-27 17:21:43"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98925f31-25b7-4b56-aaf4-dbb108031fac.pdf",
+            "news_date": "2025-10-17 15:11:21"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015\r\n",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7573f1f2-3b4c-4643-9d4f-376ceae0c414.pdf",
+            "news_date": "2025-10-10 18:17:40"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Considering The Unaudited Financial Results For The Quarter Ended On 30Th September 2025",
+            "news_body": "Maruti Suzuki India Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/10/2025 inter alia to consider and approve the unaudited financial results for the quarter ended on 30th September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=98fd3c1c-325e-4c3d-a229-b57f8f371471.pdf",
+            "news_date": "2025-10-09 10:56:51"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Maruti Suzuki Production Volume: September 2025",
+            "news_body": "Maruti Suzuki Production Volume: September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e7a88d4-67aa-4b01-9a8e-23e19ff40e3a.pdf",
+            "news_date": "2025-10-01 17:03:08"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki sales in September 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bc02f7eb-1679-4fef-9363-9b85b769b4d0.pdf",
+            "news_date": "2025-10-01 16:16:41"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of notice published in newspaper",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1af1839c-4b17-4f66-91a4-26bc5fd9f94c.pdf",
+            "news_date": "2025-09-30 10:35:44"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=43ecbee6-a76f-4e47-9cd4-8a1ab2c42084.pdf",
+            "news_date": "2025-09-26 17:06:27"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4535e978-7d52-492c-bb65-e5e6db561a62.pdf",
+            "news_date": "2025-09-19 09:49:51"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=807bf1db-c116-425a-bdb9-00d45dd2b6c2.pdf",
+            "news_date": "2025-09-19 09:35:43"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of The Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c7b075e2-3bd5-4b24-a5ba-89bd1659e71c.pdf",
+            "news_date": "2025-09-18 17:08:34"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding Reduction In Automobile Prices Due To GST Revision",
+            "news_body": "Intimation regarding reduction in automobile prices due to GST revision",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c6260859-2c9c-4155-9234-d22d02d45c1c.pdf",
+            "news_date": "2025-09-18 13:52:32"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki announces introductory prices for the VICTORIS starting at Rs. 10 49 900",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7d2c6781-2234-4ef9-a429-bb72ceed3ffa.pdf",
+            "news_date": "2025-09-15 17:31:49"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "ESG Rating By Crisil ESG Ratings & Analytics Limited",
+            "news_body": "ESG rating by Crisil ESG Ratings & Analytics Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e2c18ba8-e5b3-4235-880a-cc3a65cce865.pdf",
+            "news_date": "2025-09-15 13:35:04"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb5bda8b-1970-4cea-a021-7faf032fe662.pdf",
+            "news_date": "2025-09-14 09:32:13"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Technology Strategy Briefing 2025",
+            "news_body": "Technology Strategy Briefing 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbd757c2-8c52-4a32-9651-1f28a8ff5b5f.pdf",
+            "news_date": "2025-09-09 12:47:35"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0eea9eb6-4a54-4f58-b833-839280b8923a.pdf",
+            "news_date": "2025-09-08 17:21:59"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki launches the All-New VICTORIS the SUV thats \"Got It All\"",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4bfaecef-dfb9-45f7-9d3f-54933ec92abf.pdf",
+            "news_date": "2025-09-03 13:24:11"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Maruti Suzuki Production Volume: August 2025",
+            "news_body": "Maruti Suzuki Production volume: August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a14d3266-1a84-4d94-ba74-8d6c4b2399ec.pdf",
+            "news_date": "2025-09-01 16:01:29"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki sales in August 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0e6c19f6-853c-4dc1-b387-caa2f2d7fa4e.pdf",
+            "news_date": "2025-09-01 14:58:25"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinisers Report and Voting Results of 44th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bddfd9f2-d139-4aab-9c46-2b5b3f791a0c.pdf",
+            "news_date": "2025-09-01 13:55:52"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of notice published in newspaper",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=061f50b1-dd18-4648-a019-8749d124c4e4.pdf",
+            "news_date": "2025-08-30 16:52:38"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 44th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8df6635-2384-4431-a480-f755f2c54d67.pdf",
+            "news_date": "2025-08-28 13:35:45"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Schedule of Investor Meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea8476b1-bddc-4cf2-b406-4b85b1cf78fb.pdf",
+            "news_date": "2025-08-26 18:36:35"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Honble Prime Minister Shri Narendra Modi commemorates two historic firsts in India",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17010989-b82c-4cc9-ade2-9d998e330a36.pdf",
+            "news_date": "2025-08-26 15:25:37"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba72d74e-4752-4ebc-b713-ba9c5d473d22.pdf",
+            "news_date": "2025-08-22 15:30:00"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b9b98ca5-8d58-433b-8a14-5586e5150182.pdf",
+            "news_date": "2025-08-12 18:21:14"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki Celebrates 10 Years of NEXA Unveils Grand Vitara PHANTOM BLAQ Edition",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccf397b1-e9d7-4910-b6a0-4703155d7e6a.pdf",
+            "news_date": "2025-08-10 12:28:48"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper advertisement for Notice of hearing of the petition in relation to the scheme of amalgamation of Suzuki Motor Gujarat Private Limited a wholly owned subsidiary (Transferor Company) into and with Maruti Suzuki India Limited (Transferee Company)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=73b3248e-422c-416e-ae09-b6940bcbdd7c.pdf",
+            "news_date": "2025-08-10 11:17:46"
+        },
+        {
             "sym": "MARUTI",
             "disp": "Maruti Suzuki",
             "bse_code": 532500,
@@ -216,6 +1107,127 @@
             "sid": 10999,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of investors call",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=52a4a2af-bc3c-4598-8c7d-0732fcbea876.pdf",
+            "news_date": "2025-08-06 22:51:38"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of notice published in newspaper",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1decda12-2664-432b-a504-db467ac1ba20.pdf",
+            "news_date": "2025-08-06 13:21:56"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Web - Link Of The Annual Report For The Financial Year 2024 - 25",
+            "news_body": "Web - link of the Annual Report for the financial year 2024 - 25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=49fb5b67-acc5-4d38-92ee-7abec3184eba.pdf",
+            "news_date": "2025-08-05 22:01:05"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility and Sustainability Report (BRSR) for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bf787958-642f-4d2e-8b39-4642011531dc.pdf",
+            "news_date": "2025-08-05 21:14:09"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6b3feef-628a-443c-9e63-665a5e057547.pdf",
+            "news_date": "2025-08-05 21:01:45"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Notice Of 44Th Annual General Meeting And Annual Report For The Financial Year 2024-25",
+            "news_body": "Notice of 44th Annual General Meeting and Annual Report for the financial year 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acb9be5b-1f68-450b-ad5f-de99a19d0c3e.pdf",
+            "news_date": "2025-08-05 20:54:07"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7deb2bcb-b8fa-4501-971f-3c3a0b2409f9.pdf",
+            "news_date": "2025-08-04 17:31:45"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "news_body": "Intimation under Regulation 30 of SEBI (Listing Obligations & Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=442207b5-d956-46d8-be86-4e89ff0fb8a3.pdf",
+            "news_date": "2025-08-01 22:47:37"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Maruti Suzuki Production Volume: July 2025",
+            "news_body": "Maruti Suzuki Production volume: July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=654d7db8-160e-4c41-9ad7-1551c84e998a.pdf",
+            "news_date": "2025-08-01 18:31:31"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of published results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=607be810-e6b6-42af-8711-b907b23757e9.pdf",
+            "news_date": "2025-08-01 17:40:15"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki sales in July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8e2069b2-e751-401c-90bd-4b7afdcba3d1.pdf",
+            "news_date": "2025-08-01 14:04:56"
         },
         {
             "sym": "MARUTI",
@@ -242,6 +1254,28 @@
             "seg": "E"
         },
         {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Audio Recording",
+            "news_body": "Audio recording of the investors call held on 31st July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00e43bbb-b39c-415e-9553-22942a9b49fd.pdf",
+            "news_date": "2025-07-31 22:05:47"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of notice published in newspaper",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d8b6ad1-8c6f-4369-a869-15ae18741c29.pdf",
+            "news_date": "2025-07-31 19:01:43"
+        },
+        {
             "sym": "MARUTI",
             "disp": "Maruti Suzuki",
             "bse_code": 532500,
@@ -266,6 +1300,39 @@
             "seg": "E"
         },
         {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation on the financial results for the quarter ended on 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fb1d3824-d661-4143-b061-9964bf79d1b3.pdf",
+            "news_date": "2025-07-31 15:16:16"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Press Release / Media Release",
+            "caption": "Announcement under Regulation 30 (LODR)-Press Release / Media Release",
+            "news_body": "Maruti Suzuki Financials Results: Quarter 1 (April-June) FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b93e9ef-cb6e-4342-bf4e-4774f5cc3a51.pdf",
+            "news_date": "2025-07-31 15:09:05"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Un-Audited Financial Results For The Quarter Ended On 30Th June 2025",
+            "news_body": "Un-audited financial results for the quarter ended on 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8b4d022b-2665-46bd-971b-40a10c0d8b72.pdf",
+            "news_date": "2025-07-31 15:02:52"
+        },
+        {
             "sym": "MARUTI",
             "disp": "Maruti Suzuki",
             "bse_code": 532500,
@@ -288,6 +1355,39 @@
             "sid": 10999,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter Ended On 30Th June 2025",
+            "news_body": "Un-audited financial results for the quarter ended on 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=137cfadf-5b68-453d-b006-18b67f7b250e.pdf",
+            "news_date": "2025-07-31 14:58:39"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Amendments to Memorandum & Articles of Association",
+            "caption": "Announcement under Regulation 30 (LODR)-Amendments to Memorandum & Articles of Association",
+            "news_body": "Alteration to the Object Clause of the Memorandum of Association",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6f6a137-6565-40ba-9bf5-61ae107fa12e.pdf",
+            "news_date": "2025-07-31 12:04:49"
+        },
+        {
+            "co_code": 5496,
+            "bse_code": 532500,
+            "isin": "INE585B01010",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Director",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b91ecfd3-32c1-48be-b857-b12c837e66da.pdf",
+            "news_date": "2025-07-31 12:00:19"
         },
         {
             "sym": "MARUTI",
@@ -1609,6 +2709,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

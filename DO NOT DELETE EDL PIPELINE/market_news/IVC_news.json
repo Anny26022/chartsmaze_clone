@@ -1,0 +1,55 @@
+{
+    "Symbol": "IVC",
+    "ISIN": "INE050B01023",
+    "News": [
+        {
+            "Title": "IL&FS Investment Managers Issues Postal Ballot Notice",
+            "Summary": "IL&FS Investment Managers issues postal ballot notice for shareholder approval on continuation of Independent Director Mr. Chitranjan Singh Kahlon beyond 75 years through remote e-voting from January 20 to February 18, 2026.",
+            "Sentiment": "neutral",
+            "PublishDate": 1768462675243,
+            "Source": "stocks"
+        },
+        {
+            "Title": "ILFS Investment Managers Faces Regulatory Action Over Delayed Quarterly Results Filing",
+            "Summary": "ILFS Investment Managers failed to submit consolidated financial results for the quarter ended June 30, 2025 by the August 14 deadline due to non-receipt of subsidiary APUIAML's board-approved results, leading to stock exchanges imposing fines of Rs. 2,65,500 and threatening to freeze promoter shareholdings. The company's board determined the delay was beyond their control as APUIAML couldn't convene board meetings due to unavailability of government-nominated directors, and has since completed and submitted the delayed results while requesting waiver of penalties.",
+            "Sentiment": "negative",
+            "PublishDate": 1763459559772,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "ILFS Investment Managers Reports Mixed Financial Results, Declares Interim Dividend Despite Ongoing SFIO Investigation",
+            "Summary": "ILFS Investment Managers Limited approved quarterly results for June 2025 and September 2025, declaring an interim dividend of \u20b90.50 per equity share with record date November 21, 2025. The company faces material uncertainty as a going concern due to reduced fee revenue from expiring fund terms, while remaining under SFIO investigation with consolidated results for September 2025 delayed due to subsidiary issues.",
+            "Sentiment": "neutral",
+            "PublishDate": 1763057709989,
+            "Source": "earnings"
+        },
+        {
+            "Title": "IL&FS Investment Managers Announces Final Dividend Payment Date for FY2025",
+            "Summary": "IL&FS Investment Managers Limited announced that the final dividend for financial year 2024-2025 will be paid on or after September 24, 2025. The dividend payment is subject to shareholder approval at the Annual General Meeting scheduled for September 19, 2025. The company communicated this information to both the National Stock Exchange and Bombay Stock Exchange.",
+            "Sentiment": "neutral",
+            "PublishDate": 1756384323354,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "IL&FS Investment Managers Accepts Company Secretary Harish Agrawal's Resignation",
+            "Summary": "IL&FS Investment Managers Limited's Board of Directors accepted the resignation of Harish Agrawal from his position as Company Secretary and Compliance Officer. Agrawal tendered his resignation on July 31, 2025, citing personal reasons, with his duties ending on September 30, 2025. The board meeting was held on August 14, 2025, where this decision was formalized.",
+            "Sentiment": "neutral",
+            "PublishDate": 1755181246552,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "IL&FS Investment Managers Reports Loss in Q1, Unable to Adopt Consolidated Results",
+            "Summary": "IL&FS Investment Managers Limited announced unaudited standalone financial results for the quarter ended June 30, 2025, showing a net loss of \u20b922.69 lakhs compared to a loss of \u20b9334.07 lakhs in the previous quarter. The company generated no revenue from operations during the quarter, with total revenue of \u20b9144.67 lakhs coming entirely from other income including fair value gains on investments. The company could not adopt consolidated results as subsidiaries Andhra Pradesh Urban Infrastructure Asset Management Limited and IL&FS Investment Advisors LLC failed to provide their limited review results. The auditors issued a qualified conclusion citing ongoing SFIO investigation against the IL&FS Group and material uncertainty about the company's going concern status due to significantly reduced fee revenue and lack of new fund raises. The company expects its future income from existing funds and liquid assets will be sufficient to meet obligations over the next 12 months.",
+            "Sentiment": "negative",
+            "PublishDate": 1755156487543,
+            "Source": "earnings"
+        },
+        {
+            "Title": "IL&FS: Debt Resolution Reaches \u20b938,082 Crore by September 2024",
+            "Summary": "IL&FS group has resolved debt of \u20b938,082 crore as of September 30, 2024. This includes \u20b920,289 crore from asset monetization, \u20b98,140 crore from various financial measures, and \u20b99,653 crore from interim distribution. The group maintains an overall debt resolution target of \u20b961,000 crore, which is approximately 61.39% of its total external debt of \u20b999,355 crore.",
+            "Sentiment": "positive",
+            "PublishDate": 1730877412000,
+            "Source": "normal_news"
+        }
+    ]
+}

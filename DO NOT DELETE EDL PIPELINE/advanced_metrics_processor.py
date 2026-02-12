@@ -38,31 +38,41 @@ def process_symbol_csv(csv_path):
         ath = df['High'].max()
         pct_from_ath = ((ath - latest['Close']) / ath) * 100 if ath > 0 else 0
         
-        # 2. Gap Up %
+        # 2. Gap Up % and Day Range %
         gap_up_pct = ((latest['Open'] - prev['Close']) / prev['Close']) * 100 if prev['Close'] > 0 else 0
+        day_range_pct = ((latest['High'] - latest['Low']) / latest['Low']) * 100 if latest['Low'] > 0 else 0
         
         # 3. ADR (Average Daily Range)
-        # ADR = (High - Low) / Low * 100
         df['Daily_Range_Pct'] = ((df['High'] - df['Low']) / df['Low']) * 100
         adr_5 = df['Daily_Range_Pct'].tail(5).mean()
         adr_14 = df['Daily_Range_Pct'].tail(14).mean()
         adr_20 = df['Daily_Range_Pct'].tail(20).mean()
         adr_30 = df['Daily_Range_Pct'].tail(30).mean()
 
-        # 4. Volume Metrics
-        # Turnover = Close * Volume
-        df['Turnover_Cr'] = (df['Close'] * df['Volume']) / 10000000 # Indian Cr
+        # 4. Returns & Low Benchmarks
+        # 6 Month Return (~126 trading days)
+        price_6m_ago = df['Close'].iloc[-126] if len(df) >= 126 else df['Close'].iloc[0]
+        returns_6m = ((latest['Close'] - price_6m_ago) / price_6m_ago) * 100
+        
+        # 52W Low (~252 trading days)
+        low_52w = df['Low'].tail(252).min()
+        pct_from_52w_low = ((latest['Close'] - low_52w) / low_52w) * 100 if low_52w > 0 else 0
+
+        # 5. Volume Metrics
+        df['Turnover_Cr'] = (df['Close'] * df['Volume']) / 10000000 
         avg_rupee_vol_30 = df['Turnover_Cr'].tail(30).mean()
         
-        # RVOL (Relative Volume) - Today's Vol / 20D Avg Vol
-        avg_vol_20 = df['Volume'].tail(21).iloc[:-1].mean() # excluding today
+        avg_vol_20 = df['Volume'].tail(21).iloc[:-1].mean()
         rvol = latest['Volume'] / avg_vol_20 if avg_vol_20 > 0 else 0
         
-        # 200 Days EMA Volume
         df['EMA_Vol_200'] = calculate_ema(df['Volume'], 200)
         ema_vol_200_latest = df['EMA_Vol_200'].iloc[-1]
+        
+        # % from 52W High of 200D EMA Volume
+        ema_vol_200_52w_high = df['EMA_Vol_200'].tail(252).max()
+        pct_from_ema_200_52w_high = ((ema_vol_200_latest - ema_vol_200_52w_high) / ema_vol_200_52w_high) * 100 if ema_vol_200_52w_high > 0 else 0
 
-        # 5. Turnover Moving Averages
+        # 6. Turnover Moving Averages
         turnover_20 = df['Turnover_Cr'].tail(20).mean()
         turnover_50 = df['Turnover_Cr'].tail(50).mean()
         turnover_100 = df['Turnover_Cr'].tail(100).mean()
@@ -74,15 +84,18 @@ def process_symbol_csv(csv_path):
             "Daily Rupee Turnover 50(Cr.)": round(turnover_50, 2),
             "Daily Rupee Turnover 100(Cr.)": round(turnover_100, 2),
             "200 Days EMA Volume": round(ema_vol_200_latest, 0),
+            "% from 52W High 200 Days EMA Volume": round(pct_from_ema_200_52w_high, 2),
             "5 Days MA ADR(%)": round(adr_5, 2),
             "14 Days MA ADR(%)": round(adr_14, 2),
             "20 Days MA ADR(%)": round(adr_20, 2),
             "30 Days MA ADR(%)": round(adr_30, 2),
             "% from ATH": round(pct_from_ath, 2),
-            "Gap Up %": round(gap_up_pct, 2)
+            "Gap Up %": round(gap_up_pct, 2),
+            "Day Range(%)": round(day_range_pct, 2),
+            "6 Month Returns(%)": round(returns_6m, 2),
+            "% from 52W Low": round(pct_from_52w_low, 2)
         }
     except Exception as e:
-        # print(f"Error processing {sym}: {e}")
         return sym, None
 
 def main():
@@ -132,8 +145,9 @@ def main():
             placeholders = [
                 "30 Days Average Rupee Volume(Cr.)", "RVOL", 
                 "Daily Rupee Turnover 20(Cr.)", "Daily Rupee Turnover 50(Cr.)", "Daily Rupee Turnover 100(Cr.)",
-                "200 Days EMA Volume", "5 Days MA ADR(%)", "14 Days MA ADR(%)", "20 Days MA ADR(%)", 
-                "30 Days MA ADR(%)", "% from ATH", "Gap Up %"
+                "200 Days EMA Volume", "% from 52W High 200 Days EMA Volume", "5 Days MA ADR(%)", 
+                "14 Days MA ADR(%)", "20 Days MA ADR(%)", "30 Days MA ADR(%)", "% from ATH", 
+                "Gap Up %", "Day Range(%)", "6 Month Returns(%)", "% from 52W Low"
             ]
             for p in placeholders:
                 if p not in stock: stock[p] = 0.0

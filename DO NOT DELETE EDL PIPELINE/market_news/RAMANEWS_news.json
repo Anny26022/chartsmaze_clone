@@ -1,0 +1,76 @@
+{
+    "Symbol": "RAMANEWS",
+    "ISIN": "INE278B01020",
+    "News": [
+        {
+            "Title": "Shree Rama Newsprint Wins Appeal Against Collector Order",
+            "Summary": "Appellate Authority quashes Collector Surat's order dated 01.05.2025, remands matter back to Collector for fresh consideration in favor of Shree Rama Newsprint Limited.",
+            "Sentiment": "positive",
+            "PublishDate": 1770639299799,
+            "Source": "stocks"
+        },
+        {
+            "Title": "Shree Rama Newsprint Director Steps Down After Tenure",
+            "Summary": "Shree Rama Newsprint Limited announces cessation of Mr. Kanhayalal Chandak as Independent Director effective February 8, 2026, following completion of his second and final term.",
+            "Sentiment": "neutral",
+            "PublishDate": 1770533746071,
+            "Source": "stocks"
+        },
+        {
+            "Title": "Shree Rama Newsprint disposes paper division equipment",
+            "Summary": "Shree Rama Newsprint Limited announces disposal of paper division equipment to Mehali Papers for Rs.28.00 lakhs, expected completion by March 31, 2026. Paper division contributed 1.87% to total revenue.",
+            "Sentiment": "neutral",
+            "PublishDate": 1770387859477,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "Shree Rama Newsprint Disposes Paper Division Equipment",
+            "Summary": "Shree Rama Newsprint Limited announced disposal of paper division equipment worth \u20b92.00 crores to related party Bluecraft Agro Private Limited, expected completion by March 31, 2026.",
+            "Sentiment": "neutral",
+            "PublishDate": 1768313025673,
+            "Source": "co_actions_results"
+        },
+        {
+            "Title": "Shree Rama Newsprint Fined Rs. 28,320 by Stock Exchanges for Delayed Compliance Officer Appointment",
+            "Summary": "Shree Rama Newsprint Limited was penalized by BSE and NSE for a 24-day delay in appointing a Company Secretary as Compliance Officer under SEBI regulations. The company's Board acknowledged the non-compliance, confirmed payment of the total fine of Rs. 28,320 (including 18% GST), and directed management to ensure timely statutory compliance going forward.",
+            "Sentiment": "negative",
+            "PublishDate": 1763058538512,
+            "Source": "corporate_governance"
+        },
+        {
+            "Title": "Shree Rama Newsprint Reports Rs 2,048 Lakh Loss for Half-Year Ended September 2025",
+            "Summary": "Shree Rama Newsprint Limited reported a total comprehensive loss of Rs 2,048.51 lakhs for the half-year ended September 30, 2025. The company's current liabilities exceeded current assets by Rs 10,165.20 lakhs, raising material uncertainty about its ability to continue as a going concern. The Paper Division remains classified as discontinued operations, with the company disposing assets on a piecemeal basis. During the quarter ended December 31, 2024, the company recognized an additional impairment loss of Rs 6,956.48 lakhs on discontinued operations assets. The auditors issued an unmodified conclusion but highlighted going concern uncertainties and emphasized matters related to the discontinued Paper Division. The company's management believes disposal of non-core assets and funding options will strengthen its working capital position.",
+            "Sentiment": "negative",
+            "PublishDate": 1763015544821,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Shree Rama Newsprint Receives Permanent Stay on Collector Surat's Order",
+            "Summary": "Shree Rama Newsprint Limited has received a permanent stay on a Collector Surat order dated May 1, 2025. The Appellate Authority (Secretary Revenue Department, Government of Gujarat) granted the permanent stay on November 3, 2025, which was received by the company on November 11, 2025. The stay will remain in effect until the final disposal of the appeal. The company had previously challenged the original order before the Appellate Authority and will continue to update stock exchanges on material developments in this matter.",
+            "Sentiment": "positive",
+            "PublishDate": 1762881587047,
+            "Source": "stock"
+        },
+        {
+            "Title": "Rama Newsprint Reports Q1 FY26 Loss of \u20b91,030 Crores, Approves Key Board Appointments",
+            "Summary": "Rama Newsprint and Papers Limited reported a comprehensive loss of \u20b91,029.69 lakhs for the quarter ended June 30, 2025. The company's current liabilities exceeded current assets by \u20b97,620.82 lakhs, raising material uncertainty about its ability to continue as a going concern. The Board approved several key decisions including the re-appointment of Mr. Siddharth Chowdhary as Whole-Time Director for three years (December 10, 2025 to December 9, 2028), subject to shareholder approval. The company appointed Mr. Kinjal Shah as Secretarial Auditor for five years and M/s. A. H. Jain & Co. as Internal Auditor for FY 2025-26. Two material related party transactions were approved: a loan/guarantee facility up to \u20b950 crores with holding company Riddhi Siddhi Gluco Biols Limited, and sale of plant and machinery up to \u20b920 crores with Bluecraft Agro Private Limited. The 34th Annual General Meeting is scheduled for September 25, 2025, with September 18, 2025 as the cut-off date for e-voting. The company continues to dispose of assets from its discontinued Paper Division on a piecemeal basis.",
+            "Sentiment": "negative",
+            "PublishDate": 1755005568996,
+            "Source": "earnings"
+        },
+        {
+            "Title": "Shree Rama Newsprint Redeems First Installment of Zero-Coupon Debentures Worth Rs. 14.125 Crore",
+            "Summary": "Shree Rama Newsprint Limited has redeemed the first installment of unlisted, secured, zero-coupon, non-convertible debentures (ZCDs) issued to Bank of India and Punjab National Bank. The redemption was part of a Joint Lender Forum approved plan requiring the debentures to be redeemed in three equal annual installments, beginning at the end of the 10th year from issuance. The company paid Rs. 7.875 crore to Bank of India for 78,750 debentures and Rs. 6.250 crore to Punjab National Bank for 62,500 debentures, totaling Rs. 14.125 crore. Each debenture has a face value of Rs. 1,000.",
+            "Sentiment": "neutral",
+            "PublishDate": 1754312320177,
+            "Source": "corporate_action"
+        },
+        {
+            "Title": "Shree Rama Newsprint: Penny Stock Surges 125% in One Month Despite Market Downturn",
+            "Summary": "Shree Rama Newsprint, a penny stock under \u20b950, has risen 125% in the past month despite broader market weakness. The stock hit a 52-week high of \u20b936.40 on February 24. However, it was locked at a 5% lower circuit at \u20b934.57 on BSE Tuesday, ending a six-session rally. The company's Q3FY25 results showed a widened net loss of \u20b980.65 crore compared to \u20b910.09 crore in the year-ago period, with revenue declining 6.22% YoY to \u20b912.43 crore.",
+            "Sentiment": "neutral",
+            "PublishDate": 1740464606000,
+            "Source": "earnings"
+        }
+    ]
+}

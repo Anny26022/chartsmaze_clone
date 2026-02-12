@@ -2,6 +2,28 @@
     "code": 0,
     "data": [
         {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investoe Meeting under SEBI (LODR) Regulations2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=53b11f06-9612-4a57-bd74-85680d919fd3.pdf",
+            "news_date": "2026-02-12 17:02:15"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investor meeting under SEBI (LODR) Regulation 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=97445dd5-2cfa-4b3a-8b00-207cf8ec16ca.pdf",
+            "news_date": "2026-02-12 16:53:14"
+        },
+        {
             "sym": "PRIVISCL",
             "disp": "Privi Speciality Chemicals",
             "bse_code": 530117,
@@ -24,6 +46,17 @@
             "sid": 8825,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording Analyst/ Investors Meet held on Tuesday February 102026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9de12c9f-748c-466f-9540-1ae75fe72bfc.pdf",
+            "news_date": "2026-02-10 18:15:45"
         },
         {
             "sym": "PRIVISCL",
@@ -50,6 +83,28 @@
             "seg": "E"
         },
         {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Prsentation for the Quarter and Nine Month ended December 312025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=372822d9-daaa-4c7c-b340-11582272325e.pdf",
+            "news_date": "2026-02-10 15:07:40"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Board Meeting Held On February 09 2026",
+            "news_body": "Outcome of Board Meeting held on February 09 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9e8210d-0a0f-4dfa-8c89-777d813e1d5e.pdf",
+            "news_date": "2026-02-09 19:29:23"
+        },
+        {
             "sym": "PRIVISCL",
             "disp": "Privi Speciality Chemicals",
             "bse_code": 530117,
@@ -72,6 +127,138 @@
             "sid": 8825,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of Board Meeting Held On February 09 2026 - Unaudited Financial Results For Period Ended December 31 2025",
+            "news_body": "Outcome of Board Meeting held on February 09 2026 - Board has inter alia approved Unaudited Financials Results (Standalone & Consolidated) for the quarter and nine months ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dc785cce-2e30-42d1-8282-7dcabea616ee.pdf",
+            "news_date": "2026-02-09 19:22:34"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On February 09 2026",
+            "news_body": "Outcome of Board Meeting held on February 09 2026 pursuant to Regulation 30 read with Regulation 33 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7853830d-e1d7-48ac-bdfe-d1d43b419bb6.pdf",
+            "news_date": "2026-02-09 19:15:59"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Investor Call Intimation scheduled to be held on Tuesday February 102026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c29e358d-6af3-4e86-8069-4a389d1cd30b.pdf",
+            "news_date": "2026-02-02 15:28:24"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting Dated February 092025",
+            "news_body": "Privi Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 09/02/2026 inter alia to consider and approve Intimation of Board Meeting to be held on Monday February 092026 to consider and approve the un-audited standalone and consolidated financials results.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd0359b3-299b-4c79-b34f-53d0272c2cda.pdf",
+            "news_date": "2026-01-29 17:56:21"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (D&P) Regulations 2018 for the quarter ended December 31 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=272cff77-04d7-49f6-9263-125b9f807f31.pdf",
+            "news_date": "2026-01-06 17:49:52"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(1) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(1) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for SBI Mutual Fund",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C86AD38D_1C26_4EED_9301_C9F18D5F057A_160756.pdf",
+            "news_date": "2026-01-02 16:08:04"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Vivira Investment & Trading Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=17091F5F_2C2E_4C44_8C85_BA617E2C59DE_103050.pdf",
+            "news_date": "2026-01-01 10:30:55"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ba636318-2de1-42a1-8817-b651516c847e.pdf",
+            "news_date": "2025-12-24 11:17:28"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General - Updates",
+            "news_body": "Update- Board Meeting held on December 192025 to consider and approve scheme of amalgmation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ede7b1a6-2312-4587-90ba-ce2433ca02b4.pdf",
+            "news_date": "2025-12-19 19:28:11"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On December 192025",
+            "news_body": "Outcome of Board Meeting held on December 192025 to consider and approve scheme of amalgamation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f214c450-06d0-49c9-86d2-2abf9b5c4a46.pdf",
+            "news_date": "2025-12-19 19:24:38"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of Board Meeting Held On November 152025",
+            "news_body": "Outcome of the Board Meeting held on November 152025 for withdrawal of the application under regulation 37 of SEBI (LODR)  Regulations 2015 for obtaining NOC from Stock Exchanges in respect of proposed Scheme of Amalgamation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2652dc66-642b-4f8b-a3e7-0f1c5819f506.pdf",
+            "news_date": "2025-11-15 12:40:10"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Held On November 15 2025",
+            "news_body": "Outcome of Board Meeting - Withdrawal of application filed under Regulation 37 of SEBI (LODR) Regulations 2015 for obtaining NOC from stock exchanges in respect of proposed Scheme of Amalgamation.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e530c625-5c4b-4d98-8533-7a19bd3d760d.pdf",
+            "news_date": "2025-11-15 12:31:29"
         },
         {
             "sym": "PRIVISCL",
@@ -98,6 +285,72 @@
             "seg": "E"
         },
         {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Analyst/Investors Meet held on Friday November 072025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d03b0a1d-2b65-4ccb-9337-01c61201b5bb.pdf",
+            "news_date": "2025-11-14 11:54:04"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Analyst/ Investor Meet - Outcome",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=01d53939-19f3-47cf-8fc1-d4bae36730cc.pdf",
+            "news_date": "2025-11-07 19:01:40"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investor Meeting under SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ba56184-a66b-4204-86b7-5a8118570e52.pdf",
+            "news_date": "2025-11-07 18:01:56"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investor Meeting under SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=463686bf-7b5a-43eb-b130-5b8d08225f4c.pdf",
+            "news_date": "2025-11-07 17:57:42"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investor Meetings under SEBI (LODR) Regulations2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a18a3119-0ce7-4c65-8d17-8c06e0ebe156.pdf",
+            "news_date": "2025-11-07 15:37:15"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investor Meetings Under SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e6e2f4b8-6300-4310-9e39-8867f83dca4d.pdf",
+            "news_date": "2025-11-07 15:25:40"
+        },
+        {
             "sym": "PRIVISCL",
             "disp": "Privi Speciality Chemicals",
             "bse_code": 530117,
@@ -120,6 +373,17 @@
             "sid": 8825,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation - Financial & Operation review for quarter and half year ended September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=18ae73e7-4b19-40b9-8c8a-a7faddbc78ef.pdf",
+            "news_date": "2025-11-06 15:25:56"
         },
         {
             "sym": "PRIVISCL",
@@ -146,6 +410,105 @@
             "seg": "E"
         },
         {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Un-Audited Financial Results For The Quarter And Half Year Ended September 302025",
+            "news_body": "Un-audited Financial Results for the quarter and half year ended September 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=81ead8d1-06a0-4213-8503-0fe9940a9edc.pdf",
+            "news_date": "2025-11-05 14:14:24"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On November 052025.",
+            "news_body": "Outcome of the Board Meeting held on November 052025 for declaration of Unaudited standalone and cosolidated financial results of the company for the quarter and half year ended September 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3ca593a-14a0-45d6-9d66-1a659cb5b44a.pdf",
+            "news_date": "2025-11-05 14:07:45"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation.  \r\n\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc27a94e-14b3-4a37-90ff-8969eb73d249.pdf",
+            "news_date": "2025-10-31 17:58:47"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 SEBI (LODR)2015.",
+            "news_body": "Newpaper advertisement regarding initiation of 100 days campaign named \"saksham Niveshak\" by IEPFA",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=974e7eee-9d9d-435c-b7da-e4834478e34c.pdf",
+            "news_date": "2025-10-31 15:29:53"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting To Be Held On Wednesday November 052025",
+            "news_body": "Privi Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 05/11/2025 inter alia to consider and approve the un-audited standalone and consolidated Financial Results for the quarter and half year ended September 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=28fe5fa6-ad9b-44f1-8681-b00800adf2ea.pdf",
+            "news_date": "2025-10-29 13:24:27"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (Depository and Participants) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68e9bf32-1953-4a0a-b78a-df7769f33aa8.pdf",
+            "news_date": "2025-10-09 10:42:29"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window Closure for the purpose of declaration of un-audited financial results for the 2nd qtr and half year ending September 30 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31fa2a34-8e5c-4989-ad31-2c80b56aa087.pdf",
+            "news_date": "2025-09-25 15:57:34"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Scheduled of Analyst/Institutional Investors Meeting on September 11 2025 from 02:00 pm onwards",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f91b083-2156-4ed2-bdb2-11c9305eba78.pdf",
+            "news_date": "2025-09-08 15:15:40"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investor Meetings under SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=415f49cb-a3d9-4fd9-9a80-3ff515b04362.pdf",
+            "news_date": "2025-09-04 14:51:13"
+        },
+        {
             "sym": "PRIVISCL",
             "disp": "Privi Speciality Chemicals",
             "bse_code": 530117,
@@ -168,6 +531,17 @@
             "sid": 8825,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Analyst/ Investors Meet held on Tuesday August 052025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7ac4bb57-5713-4727-9dec-cad1eebde003.pdf",
+            "news_date": "2025-08-11 17:50:03"
         },
         {
             "sym": "PRIVISCL",
@@ -194,6 +568,17 @@
             "seg": "E"
         },
         {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Outcome of Q1 Earnings Call - Audio Recordings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdf36076-e1ec-45f3-872e-612efd1cf013.pdf",
+            "news_date": "2025-08-05 18:45:35"
+        },
+        {
             "sym": "PRIVISCL",
             "disp": "Privi Speciality Chemicals",
             "bse_code": 530117,
@@ -216,6 +601,50 @@
             "sid": 8825,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investors Presentation - Financial & Operation Review for quarter ended June 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=63fa212f-9d3d-43f9-9bbd-f489b75a2e4b.pdf",
+            "news_date": "2025-08-05 14:17:15"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Scrutinizers report on the voting results of the business transacted at the 40th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b50c9ae6-7ab5-4322-a132-88511a4f3c8d.pdf",
+            "news_date": "2025-08-02 16:27:38"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceedings of 40th AGM held through VC on Friday August 01 2025 under Reg 30 of the SEBI (LODR) Reg 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4624df08-b2ed-4177-aa94-ca202276b65e.pdf",
+            "news_date": "2025-08-01 18:43:11"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of The Board Meeting Held On August 012025",
+            "news_body": "Outcome of the Board Meeting held on August 012025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4715c4c6-91db-46b8-b4a5-450d68d6fb65.pdf",
+            "news_date": "2025-08-01 13:13:44"
         },
         {
             "sym": "PRIVISCL",
@@ -242,6 +671,259 @@
             "seg": "E"
         },
         {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone And Consolidated Results For The Quarter Ended June 302025.",
+            "news_body": "Unaudited Standalone and consolidated Results for the Quarter ended June 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4721da61-ac54-49bb-8495-370d246964a8.pdf",
+            "news_date": "2025-08-01 13:08:34"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On August 012025",
+            "news_body": "Outcome of the the Board Meeting held on August 012025 to consider and approve Unaudited standalone and consolidated financial results of the company for the quarter ended June 302025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cc3ff075-f02a-4594-b4a3-bb23b798c460.pdf",
+            "news_date": "2025-08-01 12:58:53"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Announcement  under Reg 30 - Intimation of Investors Call scheduled to be held on August 05 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=374c0a40-be31-49c7-92b6-dc4b4b44add2.pdf",
+            "news_date": "2025-07-24 16:14:04"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting To Be Held On Friday August 01 2025",
+            "news_body": "Privi Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 01/08/2025 inter alia to consider and approve To Consider and approve the Un-audited Standalone and Financial Results for the quarter ended on June 302025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9fcd3a45-d250-4bed-8948-f73b97e2c525.pdf",
+            "news_date": "2025-07-22 17:47:47"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate Under Reg 74(5) of SEBI (DP) Regulations 2018 for Q1 FY 2025-26",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=56bf9c7e-5b92-4340-825e-2198e102224f.pdf",
+            "news_date": "2025-07-07 16:41:22"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication - Notice of 40th AGM & Book Closure date",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0ab02df2-90e3-4e7e-85a5-ff29b4906298.pdf",
+            "news_date": "2025-07-07 10:13:43"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "caption": "Business Responsibility and Sustainability Reporting (BRSR)",
+            "news_body": "Business Responsibility Sustainability Report for the year ended March 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6a6ec9fa-d81d-4567-bb2e-68922c6d3eba.pdf",
+            "news_date": "2025-07-05 16:50:49"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report for the Financial Year 2024-2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd42ec2b-7313-402d-ac4f-04c1678a0c4c.pdf",
+            "news_date": "2025-07-05 16:25:01"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Shareholders Meeting Dated August 012025",
+            "news_body": "Notice of 40th Annual General Meeting to be held on Friday August 012025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0f92a990-4b8d-42eb-997d-78d24cce24b5.pdf",
+            "news_date": "2025-07-05 16:16:27"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d72e173c-6119-4074-a2aa-8527a00d0650.pdf",
+            "news_date": "2025-06-27 13:16:23"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Updates- Company Awarded With Ecovadis Platinum",
+            "news_body": "Updates- Company awarded with Ecovadis Platinum",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e919779a-6be5-43e1-83b8-09f643522b2b.pdf",
+            "news_date": "2025-06-26 17:39:13"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Rameshbabu Gokarneswarao Guduru",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F1359189_33FE_48C2_8578_4C405FC4E138_120556.pdf",
+            "news_date": "2025-06-23 12:06:00"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Vijay Kumar Doppalapudi",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=F8F8543A_125B_48F8_9D37_8EC9A8E05ECA_175042.pdf",
+            "news_date": "2025-06-20 17:50:49"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Vinaykumar Doppalapudi Rao",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8B826ABF_8AAF_46C5_8ABA_35D6C8092694_173504.pdf",
+            "news_date": "2025-06-20 17:35:11"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Bhaktavartsala Rao Doppalapudi",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=C54A85FF_C0E0_4812_9EC0_F13ABF7BE63D_173412.pdf",
+            "news_date": "2025-06-20 17:34:19"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for Vivira Investment & Trading Pvt Ltd",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37017631_FF1F_49E1_B648_C24B9E41C56E_170041.pdf",
+            "news_date": "2025-06-20 17:00:49"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investor Meeting Under SEBI (LODR) Regulations2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d8c5a96-3481-49bb-a42d-a3508e2c175a.pdf",
+            "news_date": "2025-06-18 11:01:57"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Board Meeting Outcome-Updates",
+            "news_body": "Board Meeting Outcome- Not to proceed with capital raising by way of QIP",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d340f35-7838-4b86-8e6d-65d77f9a7aff.pdf",
+            "news_date": "2025-06-14 14:18:03"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Approval of Scheme of Amalgamation and Merger by Board of Directors in the Board meeting held on June 142025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ad97ff4-c610-4985-8995-644c8dfc2204.pdf",
+            "news_date": "2025-06-14 14:13:12"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On June 142025 Pursuant To Regulation 30 Of SEBI (LODR) Regulations2015",
+            "news_body": "Outcome of the Board Meeting held on June 142025 Pursuant to Regulation 30 of SEBI (LODR) Regulations2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=46fdbe9d-16ee-48a2-bdd6-669a0a8d2ee4.pdf",
+            "news_date": "2025-06-14 14:06:34"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of schedule of Analyst/Institutional Investor Meetings under SEBI (LODR) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=314bf56d-cd53-412d-9b72-0400cd208871.pdf",
+            "news_date": "2025-05-23 12:55:33"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for FY 2024-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c01becd-2b12-45fb-9130-78b29a04e1f0.pdf",
+            "news_date": "2025-05-19 16:45:49"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investor Meeting Under SEBI (LODR) Regulations2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=407aea4e-9800-4447-b8c6-ca62eb7d6fab.pdf",
+            "news_date": "2025-05-15 13:18:28"
+        },
+        {
             "sym": "PRIVISCL",
             "disp": "Privi Speciality Chemicals",
             "bse_code": 530117,
@@ -264,6 +946,17 @@
             "sid": 8825,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "Transcript of Analyst/Investors Meet held on Tuesday May 062025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c5e8e5c-db4c-4499-9c44-5f3d0dd4ef9c.pdf",
+            "news_date": "2025-05-12 15:47:10"
         },
         {
             "sym": "PRIVISCL",
@@ -290,6 +983,17 @@
             "seg": "E"
         },
         {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio Recording of Analyst/Investors Meet held on Tuesday May 062025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7610582-430a-4592-a80b-24a3cef251d7.pdf",
+            "news_date": "2025-05-06 19:42:56"
+        },
+        {
             "sym": "PRIVISCL",
             "disp": "Privi Speciality Chemicals",
             "bse_code": 530117,
@@ -312,6 +1016,28 @@
             "sid": 8825,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor presentation - Financial & Operation Review for quarter and year ended March 312025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=08de0417-dbe7-41cd-b874-99a6e3535992.pdf",
+            "news_date": "2025-05-05 18:48:22"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 (LODR)- Updates",
+            "news_body": "Re-appointment of Statutory Auditor and Appointment of Secretarial Auditor.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0b616a2-f396-47ae-a481-4a8963f4448f.pdf",
+            "news_date": "2025-05-03 15:59:42"
         },
         {
             "sym": "PRIVISCL",
@@ -338,6 +1064,193 @@
             "seg": "E"
         },
         {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results-Financial Results For The Year Ended March 312025.",
+            "news_body": "Outcome of BM-Audited Standalone and Consolidated Financial Results for FY 2024-25.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cff0cb0b-94ca-44f5-a3c7-09b9a7c6898d.pdf",
+            "news_date": "2025-05-03 15:51:43"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Dividend",
+            "caption": "Corporate Action-Board approves Dividend",
+            "news_body": "Outcome of Board Meeting- Recommended Dividend of Rs.5/- per equity share of Rs.10 each for the Financial Year ended March 312025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5065a77c-5a7a-4bca-8eb9-25f0786ee022.pdf",
+            "news_date": "2025-05-03 15:42:03"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On Saturday May032025",
+            "news_body": "Outcome of the Board Meeting held on Saturday May032025 Pursuant to Regulation 30 read with Regulation 33 of SEBI (LODR) Regulations2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f29a856a-8db0-445a-8f90-f7b4c0487951.pdf",
+            "news_date": "2025-05-03 15:30:10"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Announcement under Regulation 30(LODR)-Analyst/Investors Meet-Intimation",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d8415d78-3c38-484b-bc34-ebe1b7e4b004.pdf",
+            "news_date": "2025-04-30 16:18:37"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of Board Meeting",
+            "news_body": "Privi Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 03/05/2025 inter alia to consider and approve Intimation of Board Meeting scheduled to be held on Saturday May 032025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b892413-6385-4ccf-a0c9-a58b31b79090.pdf",
+            "news_date": "2025-04-22 18:29:39"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of The SEBI (LODR)2015-Update Of State Incentives",
+            "news_body": "Announcement under Regulation 30 of the SEBI (LODR) 2015-Update of State Incentives",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33059b5f-0e56-49f9-a675-e911f923ae64.pdf",
+            "news_date": "2025-04-08 17:56:11"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations 2018 for the quarter ended March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f61bf50b-a4ba-4e09-a747-f57636455931.pdf",
+            "news_date": "2025-04-07 10:56:59"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor Meet to be held at the manufacturing facilities at Mahad on April 092025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2264013-e4af-411b-be5e-e399399de4be.pdf",
+            "news_date": "2025-04-04 15:18:11"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Resignation of Non-Executive Independent Directors w.e.f. closing hrs of March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ceecffa-d68d-4c91-8a66-bcf56159a39b.pdf",
+            "news_date": "2025-03-31 18:34:46"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Of Cautionary Letter Received From Stock Exchanges",
+            "news_body": "Intimation of Cautionary letter received from Stock Exchanges",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db130a8f-561d-4320-b8c9-ab6c66a7fe1e.pdf",
+            "news_date": "2025-03-28 19:08:15"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Closure of Trading Window for the purpose of declaration of the Audited Financial Results for Quarter & Year ending March 312025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bb6f10a6-392b-4b84-8cf7-8971aca78f59.pdf",
+            "news_date": "2025-03-27 16:49:58"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Intimation of Resignation of Non-Executive  Independent Director pursuant to Regulation 30 of SEBI (LODR) Regulations2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fdfe0658-be17-42d9-ba1d-a00bf547e025.pdf",
+            "news_date": "2025-03-19 13:15:06"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Intimation of revision in Ratings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04e87340-b1c6-4d1a-a2b5-552f4e5c204e.pdf",
+            "news_date": "2025-03-10 18:22:23"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/Institutional Investor meetings under the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd5d1609-9df9-43d5-a8ad-b0fca4a2d93d.pdf",
+            "news_date": "2025-02-27 10:27:27"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of Analyst/ Institutional Investor Meetings under SEBI (LODR) Regulations 2015.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12f84c8c-eb4d-41c3-8efa-51c7b7c21774.pdf",
+            "news_date": "2025-02-19 15:02:45"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Transcript of the Analyst/Investors Meet held on Thursday February 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e42d894d-0248-4b42-8f57-a389a77ac780.pdf",
+            "news_date": "2025-02-18 10:51:04"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Outcome",
+            "news_body": "Audio recording of analyst/investor meet held on Thursday February 13 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7fc1a11d-bd42-4c23-b2cc-5a659029c056.pdf",
+            "news_date": "2025-02-13 18:44:03"
+        },
+        {
             "sym": "PRIVISCL",
             "disp": "Privi Speciality Chemicals",
             "bse_code": 530117,
@@ -362,6 +1275,50 @@
             "seg": "E"
         },
         {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Investor Presentation- Financial & Operational review for quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72b76c08-9d73-449b-8929-c6818d74f53f.pdf",
+            "news_date": "2025-02-12 16:54:09"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Of The Board Meeting Dated February 12 2025",
+            "news_body": "Outcome of the Board meeting dated February 12 2025- Reconstitution of the Committees of the Board of Directors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5a30fd17-a152-414d-8851-03f94fb0e2e7.pdf",
+            "news_date": "2025-02-12 16:19:46"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Outcome of the Board meeting dated February 12 2025 - Integrated filing (financial)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ae45a24-2840-4164-b72a-03abfe4e4cc8.pdf",
+            "news_date": "2025-02-12 15:37:56"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Outcome of the Board Meeting dated February 12 2025- Resignation of Independent Director Mr. D.T. Khilnani w.e.f. closing business hours of March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d73bf00d-1a50-4bbc-a994-504e2df1215f.pdf",
+            "news_date": "2025-02-12 15:29:56"
+        },
+        {
             "sym": "PRIVISCL",
             "disp": "Privi Speciality Chemicals",
             "bse_code": 530117,
@@ -384,6 +1341,149 @@
             "sid": 8825,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Dated February 12 2025",
+            "news_body": "Outcome of the Board meeting held on February 12 2025 pursuant to regulation 30 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fbe2dea-5ccc-4102-a930-cbb7be134084.pdf",
+            "news_date": "2025-02-12 15:24:58"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On February 12 2025 Pursuant To Regulation 30 Read With Regulation 33 Of SEBI (LODR) Regulations 2015",
+            "news_body": "Outcome of the Board meeting held on February 12 2025 pursuant to regulation 30 read with regulation 33 of SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c271fe3-9fdb-4f31-a8ea-9797b65a494d.pdf",
+            "news_date": "2025-02-12 15:19:42"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Company Has Been Awarded The Prestigious \"Trishul Award\"",
+            "news_body": "Disclosure under Reg 30 - Company has been awarded with prestigious \"Trishul Award\".",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bda3701f-6939-4d1f-91f9-8c74c116ee4a.pdf",
+            "news_date": "2025-02-11 15:30:32"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Investors Meet to be held on Thursday Februray 13 2025 @ 04:00 pm",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=95b72303-ff2c-4827-9b8d-fff4ad07efba.pdf",
+            "news_date": "2025-02-05 11:06:32"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Of BM To Be Held On Wednesday February 12 2025",
+            "news_body": "Privi Speciality Chemicals Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/02/2025 inter alia to consider and approve BM Intimation - to consider and approve Unaudited Financial Results for third quarter and nine months ended December 31 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=00a35e84-6f13-445e-bf93-7f343c2bfc6d.pdf",
+            "news_date": "2025-02-03 11:45:59"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Result of postal ballot notice of the Company-Disclosure under regulation 30 of the SEBI (LODR) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=571a50cd-53d0-488a-a405-3563f7135553.pdf",
+            "news_date": "2025-01-10 19:34:10"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of Postal_Ballot",
+            "news_body": "Result of postal ballot notice of the company-disclosure under regulation 30 of the SEBI (Listing obligations and disclosure requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=30042efb-92d3-44ff-806f-a0eddb98abfa.pdf",
+            "news_date": "2025-01-10 19:31:07"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Reg 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd63ada9-d5bf-4695-90d1-057f99d2af02.pdf",
+            "news_date": "2025-01-06 18:58:45"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of trading window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5f1c1764-b07a-43f0-8c1d-1a692ef6770c.pdf",
+            "news_date": "2024-12-27 16:03:42"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Initimation of Notice of Postal Ballot.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6410073-8dd1-4135-aa69-ab4941f45c6b.pdf",
+            "news_date": "2024-12-11 10:28:40"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal ballot notice of the company-Disclosure under regulation 30 of the SEBI (Listing obligations and disclosure requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=34e4eebb-f873-4ea8-86b1-2b0014e8c1a7.pdf",
+            "news_date": "2024-12-10 14:27:58"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Company Update",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Intimation of Schedule of analyst/institutional investor meetings under the SEBI (Listing obligations and disclosure requirements) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c380c433-a231-416f-bcdc-1391779ba09c.pdf",
+            "news_date": "2024-12-10 14:23:12"
+        },
+        {
+            "co_code": 4846,
+            "bse_code": 530117,
+            "isin": "INE959A01019",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Outcome Of The Board Meeting Held On November 29, 2024 Pursuant To Regulation 30 Of SEBI (LODR) Regulations, 2015",
+            "news_body": "Outcome of the Board meeting held on November 29, 2024 pursuant to regulation 30 of SEBI (LODR) Regulations, 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3f0ebf0e-f413-47b0-bd42-a7a2e4bb40a4.pdf",
+            "news_date": "2024-11-29 17:23:25"
         },
         {
             "sym": "PRIVISCL",
@@ -1465,6 +2565,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

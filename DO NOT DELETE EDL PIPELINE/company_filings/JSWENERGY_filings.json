@@ -2,6 +2,61 @@
     "code": 0,
     "data": [
         {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "GENERAL",
+            "caption": "Rumour verification - Regulation 30(11)",
+            "news_body": "The Exchange has sought clarification from JSW Energy Limited with respect to recent news item captioned \"JSW Energy to set up its first nuclear power plant by 2030\". The response from the Company is attached.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=25156a37-fdd4-4f0d-bdf1-0fba0f34b19b.pdf",
+            "news_date": "2026-02-03 18:14:45"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst / Institutional Investors Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0af19df-9b05-4bc9-aaf2-ff186f1d2e9e.pdf",
+            "news_date": "2026-01-30 19:54:41"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Acquisition Of Tidong Power Generation Private Limited By JSW Neo Energy Limited - Update",
+            "news_body": "sition of Tidong Power Generation Private Limited by JSW Neo Energy Limited - Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8c6377e5-1557-470d-8556-4f8131879d59.pdf",
+            "news_date": "2026-01-29 21:52:19"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Analyst / Institutional Investors Meetings",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8881342f-8341-4ba2-8a32-b1470f5c95f8.pdf",
+            "news_date": "2026-01-29 18:10:17"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General",
+            "descriptor": "Clarification",
+            "caption": "Clarification sought from JSW Energy Ltd",
+            "news_body": "The Exchange has sought clarification from JSW Energy Ltd on January 29 2026 with reference to news appeared in https://economictimes.indiatimes.com dated January 29 2026 quoting \"JSW Energy to set up its first nuclear power plant by 2030\" <BR><BR>The reply is awaited.",
+            "file_url": "",
+            "news_date": "2026-01-29 16:19:34"
+        },
+        {
             "sym": "JSWENERGY",
             "disp": "JSW Energy",
             "bse_code": 533148,
@@ -24,6 +79,50 @@
             "sid": 17869,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "The transcript of the  Results Conference Call  scheduled on Friday 23rd January 2026 at 7.00 p.m. (IST) to discuss the Companys unaudited Standalone and Consolidated Financial Results for the quarter and nine months ended 31st December 2025 is enclosed",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffe80964-e76c-4eb0-b3de-d320fdc8e631.pdf",
+            "news_date": "2026-01-28 19:19:57"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations 2011 for JTPM Metal Traders Ltd & PACs",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=A3F7E302_093A_468B_9F61_43824F1CF9F4_154320.pdf",
+            "news_date": "2026-01-24 15:43:25"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Re-appointment of Mr. Munesh Khanna as a Non-Executive Independent Director of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6f32f5a-5967-4075-a969-c07535d00be6.pdf",
+            "news_date": "2026-01-23 18:56:24"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 23Rd January 2026",
+            "news_body": "Outcome of the Board Meeting held on 23rd January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0d46eb1-df29-4417-8376-790e28d9758e.pdf",
+            "news_date": "2026-01-23 18:46:48"
         },
         {
             "sym": "JSWENERGY",
@@ -50,6 +149,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Results Presentation in connection with the unaudited Standalone and Consolidated Financial Results of the Company for the quarter and nine months ended 31st December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5214591-9f7c-49f3-ae62-863a280be31a.pdf",
+            "news_date": "2026-01-23 18:41:28"
+        },
+        {
             "sym": "JSWENERGY",
             "disp": "JSW Energy",
             "bse_code": 533148,
@@ -72,6 +182,556 @@
             "sid": 17869,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On 23Rd January 2026",
+            "news_body": "Outcome of the Board Meeting held on 23rd January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f0b3ef2e-188e-4116-88bc-da796aea4382.pdf",
+            "news_date": "2026-01-23 18:33:58"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "CompanyS Resolution Plan For Raigarh Champa Rail Infrastructure Private Limited - Update",
+            "news_body": "Companys Resolution Plan for Raigarh Champa Rail Infrastructure Private Limited - Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f558748b-1c97-40eb-ae55-0b38638e6c78.pdf",
+            "news_date": "2026-01-22 11:56:46"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Preferential Issue",
+            "caption": "Announcement under Regulation 30 (LODR)-Preferential Issue",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 in relation to the allotment of 9523809 equity shares and 47619047 convertible warrants on a preferential basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7b04c6bb-7cfc-4cd9-888a-4d449daba70e.pdf",
+            "news_date": "2026-01-21 18:37:35"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 in relation to the allotment of 9523809 equity shares and 47619047 convertible warrants on a preferential basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=406092b0-0c17-4249-9a2e-7ff327accac0.pdf",
+            "news_date": "2026-01-21 18:35:06"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 In Relation To The In-Principle Approval For The Issuance Of 9523809 Equity Shares And 47619047 Convertible War",
+            "news_body": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure requirements) Regulations 2015 in relation to the in-principle approval for the issuance of 9523809 equity shares and 47619047 convertible warrants on a preferential basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d96a07f-c885-46dd-b344-a0b2a715e856.pdf",
+            "news_date": "2026-01-21 16:32:34"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Following our earlier intimation dated 19th January 2026 in respect of the Results Conference Call scheduled to be held on Friday 23rd January 2026 at 7.00 p.m. (IST) to discuss the unaudited Standalone and Consolidated Financial Results for the quarter and nine months ended 31st December 2025 we wish to inform that the dial-in link has been revised as the previously provided link was not functional due to a technical reason. The rest of the details remain the same.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7bc79c16-f960-4cfc-9f8a-ef18a87d07fd.pdf",
+            "news_date": "2026-01-20 19:10:15"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Power Purchase Agreement For 1600 MW With West Bengal DISCOM",
+            "news_body": "Power Purchase Agreement for 1600 MW with West Bengal DISCOM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cd9b4ff5-5bdd-4058-ac22-f8723a97ea56.pdf",
+            "news_date": "2026-01-20 18:40:51"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Disclosure Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 In Relation To The\r\nIn-Principle Approval For The Issuance Of 9523809 Equity Shares And 47619047 Convertible Wa",
+            "news_body": "Disclosure under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure requirements) Regulations 2015 in relation to the in-principle approval for the issuance of 9523809 equity shares and 47619047 convertible warrants on a preferential basis.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e24cf554-1fb2-4d94-8d3e-6d406045214d.pdf",
+            "news_date": "2026-01-20 15:17:29"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "As informed earlier a meeting of the Board of Directors will be held on Friday 23rd January 2026 to consider inter-alia the unaudited Standalone and Consolidated Financial Results of the Company for the quarter and nine months ended 31st December 2025.\r\n\r\nA Results Conference Call is scheduled to be held on Friday 23rd January 2026 at 7.00 p.m. (IST) to discuss the above mentioned Financial Results.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d46e45b9-8bf9-4eb6-aec9-10dae619d135.pdf",
+            "news_date": "2026-01-19 20:40:35"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Under Regulation 29 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 And Intimation Of Trading Window Opening",
+            "news_body": "JSW Energy Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 23/01/2026 inter alia to consider and approve Pursuant to Regulation 29 of the Listing Regulations please note that a meeting of the Board of Directors of the Company is scheduled to be held on Friday 23rd January 2026 to inter-alia consider the unaudited Standalone and Consolidated Financial Results of the Company for the\r\nquarter and nine months ended 31st December 2025.\r\n\r\nIn view of the above the Trading Window for dealing in the securities of the Company that was closed for all Designated Persons from 1st January 2026 shall open on Monday\r\n26th January 2026.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3fbd92a4-f984-4543-b2ea-14ce4bfc6efd.pdf",
+            "news_date": "2026-01-19 20:29:27"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "JSW Energy Secures Supply Of Turbine Generators For 1600 MW Salboni Plant",
+            "news_body": "JSW Energy Secures Supply of Turbine Generators for 1600 MW Salboni Plant",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=acd77abf-b33a-404e-afe3-f55fd9f55e7b.pdf",
+            "news_date": "2026-01-15 19:51:13"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "JSW Energy Secures Supply Of Turbine Generators For 1600 MW Salboni Plant",
+            "news_body": "JSW Energy Secures Supply of Turbine Generators for 1600 MW Salboni Plant",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ea1408be-f249-4fe6-a662-657add92f56a.pdf",
+            "news_date": "2026-01-15 19:24:17"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 On Clarifications Regarding Notice Of Extraordinary General Meeting As Amended And Supplemented By The Corrigen",
+            "news_body": "Intimation under Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 on clarifications regarding notice of Extraordinary General Meeting as amended and supplemented by the corrigendum thereto.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d2564b8-2aef-42a6-8a89-5feba8607b2d.pdf",
+            "news_date": "2026-01-12 16:28:59"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Update - Material Litigation Under Regulation 30(4) Of The Securities Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations)",
+            "news_body": "Update - Material litigation under Regulation 30(4) of the Securities Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=21b49ca2-bd9d-4537-92da-8b2e227e4018.pdf",
+            "news_date": "2026-01-10 11:56:05"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - O2 Renewable Energy VII Private Limited",
+            "news_body": "Assignment of Credit Rating - O2 Renewable Energy VII Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d633609-4e3d-4e53-a714-42d279b2c06e.pdf",
+            "news_date": "2026-01-06 14:59:22"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Outcome Proceedings Voting Results And ScrutinizerS Report Of The Extraordinary General Meeting Held On 3Rd January 2026",
+            "news_body": "Outcome Proceedings Voting Results and Scrutinizers Report of the Extraordinary General Meeting held on 3rd January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f3c07c6a-ac73-4e07-bf01-30c05d6c60c0.pdf",
+            "news_date": "2026-01-03 18:27:19"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Preferential Issue",
+            "caption": "Announcement under Regulation 30 (LODR)-Preferential Issue",
+            "news_body": "Preferential Issue of Equity Shares and Warrants convertible into  equity shares on a private placement basis to the Equity/ warrants Allottee",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d3a2e452-bf93-4e57-bb12-a50bf445355f.pdf",
+            "news_date": "2026-01-03 18:05:42"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "Issue of Equity Shares etc as detailed in item no. 3 of the EGM  Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d5c8aabb-c0a5-4f8f-8e47-2b0288e2a1a3.pdf",
+            "news_date": "2026-01-03 17:58:49"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Outcome Proceedings Voting Results and Scrutinizers Report of the Extraordinary General Meeting held on 3rd January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6889323-dfac-487e-9915-c3e3ca992a32.pdf",
+            "news_date": "2026-01-03 17:52:35"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Outcome",
+            "descriptor": "EGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of EGM",
+            "news_body": "Outcome Proceedings Voting Results and Scrutinizers Report of the Extraordinary General Meeting held on 3rd January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e0363007-2577-4b48-9237-2c035c642bf2.pdf",
+            "news_date": "2026-01-03 17:50:21"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - JSW Renew Energy Seventeen Limited",
+            "news_body": "Assignment of Credit Rating - JSW Renew Energy Seventeen Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ec584615-b760-43c1-8c91-f16d7fad1d3e.pdf",
+            "news_date": "2025-12-31 22:14:16"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - XL Xergi Power Private Limited",
+            "news_body": "Assignment of Credit Rating - XL Xergi Power Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a9715063-ed4d-48ed-b2ad-976e658bb00c.pdf",
+            "news_date": "2025-12-30 18:32:49"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI Listing Regulations please note that a meeting with investors / analysts is scheduled as per the attached letter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c1c32bb9-ed09-4254-84c2-bdb6eca77873.pdf",
+            "news_date": "2025-12-29 20:39:22"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=19837baa-efcc-44e0-a874-e3c323f0a3c2.pdf",
+            "news_date": "2025-12-29 19:52:24"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Intimation of newspaper publication of Corrigendum to the Notice of Extraordinary General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=04602ed7-773d-4b38-b7f9-b090f90f8404.pdf",
+            "news_date": "2025-12-27 16:23:03"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "EGM",
+            "caption": "Corrigendum To The Notice Of The Extraordinary General Meeting",
+            "news_body": "Corrigendum to the Notice of the Extraordinary General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6fb21cdd-cf13-4abb-bf11-f7ed6d3534a3.pdf",
+            "news_date": "2025-12-26 21:27:37"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - O2 Companies",
+            "news_body": "Assignment of Credit Rating - O2 Companies",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=442bbdd3-1f1e-470d-935d-0b8ab3c2fecc.pdf",
+            "news_date": "2025-12-17 11:56:02"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Announcement under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations 2015 - Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4df2fd6d-864a-49d5-b1c3-d7054b5c1c16.pdf",
+            "news_date": "2025-12-14 17:00:08"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Intimation",
+            "descriptor": "EGM",
+            "caption": "Notice Of The Extraordinary General Meeting Scheduled To Be Held On 3Rd January 2026",
+            "news_body": "Notice of the Extraordinary General Meeting scheduled to be held on 3rd January 2026",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7377e7db-0f13-49e8-81a8-04444c221047.pdf",
+            "news_date": "2025-12-12 21:43:53"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Authority To Determine Materiality Of An Event Or Information And For Making Disclosures To The Stock Exchanges",
+            "news_body": "In terms of Regulation 30 (5) of the SEBI Listing Regulations 2015 Mr. Chandrasekaran Prabhakaran in addition to the Joint Managing Director & Chief Executive Officer and the Company Secretary would be the Key Managerial Personnel authorized to determine the materiality of an event or information and for making disclosures to the Stock Exchanges as per the Companys Policy on Criteria for Determining Materiality for Disclosure of Events and Information.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=dd1082cf-0dda-47f4-8340-c7d7861d7664.pdf",
+            "news_date": "2025-12-12 14:48:39"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Chandrasekaran Prabhakaran as the Chief Financial Officer and a Key Managerial Personnel of the Company with effect from 1st January 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=beef98cb-7180-4dca-ad58-d9b9112c8595.pdf",
+            "news_date": "2025-12-12 14:40:54"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Raising of Funds",
+            "caption": "Announcement under Regulation 30 (LODR)-Raising of Funds",
+            "news_body": "Raising of funds of up to Rs. 10000 crores in one or more tranches through the issuance of eligible securities of the Company by way of private offerings and / or qualified institutions placement or any other method or combination thereof as permitted under the applicable laws subject to approval of the Shareholders and such regulatory / statutory approvals as may be required",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc2898fb-8bd3-4c7f-9b5c-102e3dbd0b67.pdf",
+            "news_date": "2025-12-12 14:38:38"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Preferential Issue",
+            "caption": "Announcement under Regulation 30 (LODR)-Preferential Issue",
+            "news_body": "Preferential issue of equity shares of face value of Rs. 10 each (the Equity Shares) and convertible warrants of face value of Rs. 10 each (the Warrants) by the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=12ff1281-1099-436c-be37-a0449a835982.pdf",
+            "news_date": "2025-12-12 14:35:18"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Issue of Securities",
+            "caption": "Announcement under Regulation 30 (LODR)-Issue of Securities",
+            "news_body": "Preferential issue of equity shares of face value of Rs. 10 each (the Equity Shares) and convertible warrants of face value of Rs. 10 each (the Warrants) by the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f4c6a41f-437b-4b99-a801-716c6c316269.pdf",
+            "news_date": "2025-12-12 14:33:44"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 12Th December 2025",
+            "news_body": "Outcome of the Board Meeting held on 12th December 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=33123b83-0b4a-4150-927a-bd7779b0ff4c.pdf",
+            "news_date": "2025-12-12 14:27:17"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Power Purchase Agreement For 400 MW With Karnataka DISCOMS",
+            "news_body": "Power Purchase Agreement for 400 MW with Karnataka DISCOMS",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1abd5257-e7b7-40b3-896c-f64e2a80a195.pdf",
+            "news_date": "2025-12-12 13:01:18"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI Listing Regulations please note that the Company will be meeting a group of investors virtually as given in the attached letter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=cdddaead-47c4-48c0-90ca-59ae8f1d94f7.pdf",
+            "news_date": "2025-12-09 21:06:30"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - Clean Solar Power (Bhainsada) Private Limited",
+            "news_body": "Assignment of Credit Rating - Clean Solar Power (Bhainsada) Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=374ce2ee-4c6a-4532-b5cd-e5c768b56144.pdf",
+            "news_date": "2025-12-09 20:54:39"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Inter-Alia The Proposal For Raising Of Funds By Various Modes.",
+            "news_body": "JSW Energy Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/12/2025 inter alia to consider and approve the proposal for raising funds by way of issue of equity shares / warrants / any convertible securities / any other securities through one or more of the permissible modes including but not limited to a qualified institutions placement rights issue preferential allotment or a combination thereof as may be permitted under applicable laws subject to such regulatory / statutory approvals as may be required.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=531843a2-6179-4816-8071-4fa17bf4ba68.pdf",
+            "news_date": "2025-12-09 20:03:26"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Approval Of The CompanyS Resolution Plan For Raigarh Champa Rail Infrastructure Private Limited By The Committee Of Creditors",
+            "news_body": "Approval of the Companys resolution plan for Raigarh Champa Rail Infrastructure Private Limited by the Committee of Creditors",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f61f11ab-226f-464b-8407-6287c6e176c9.pdf",
+            "news_date": "2025-11-20 16:40:31"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Chief Financial Officer (CFO)",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Chief Financial Officer (CFO)",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations) read with Schedule III we hereby inform you that Mr. Pritesh Vinay has expressed his intention to step down from the Board of the Company to pursue career opportunities outside the JSW Group and has accordingly tendered his resignation as Director (Finance) and Key Managerial Person of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=96cd02c0-e7e8-4b8f-813d-23ca31a85d5e.pdf",
+            "news_date": "2025-11-17 18:14:08"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Directorate",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Directorate",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations) read with Schedule III we hereby inform you that Mr. Pritesh Vinay has expressed his intention to step down from the Board of the Company to pursue career opportunities outside the JSW Group and has accordingly tendered his resignation as Director (Finance) and Key Managerial Person of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1ac0ed94-961e-4648-9cf9-b3a7bf4e0aa5.pdf",
+            "news_date": "2025-11-17 18:13:06"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations) read with Schedule III we hereby inform you that Mr. Pritesh Vinay has expressed his intention to step down from the Board of the Company to pursue career opportunities outside the JSW Group and has accordingly tendered his resignation as Director (Finance) and Key Managerial Person of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57859c5f-2fff-4b66-938b-01533553c3a2.pdf",
+            "news_date": "2025-11-17 18:10:11"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - O2 Power Private Limited",
+            "news_body": "Assignment of Credit Rating - O2 Power Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7860fb52-a45e-4e64-9758-1b273d235d67.pdf",
+            "news_date": "2025-11-13 19:59:09"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Allotment of Equity Shares",
+            "caption": "Announcement under Regulation 30 (LODR)-Allotment",
+            "news_body": "Allotment of Non-Convertible Debentures",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c4c604a8-844c-4ae5-9075-6e048a8c5faf.pdf",
+            "news_date": "2025-11-12 18:43:01"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Rating Update - Step-Down Subsidiaries",
+            "news_body": "Credit Rating Update - Step-down Subsidiaries",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=45519a6c-e6fb-47e5-a5ad-a220d235c076.pdf",
+            "news_date": "2025-11-11 19:30:42"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Commissioning Of Green Hydrogen Plant",
+            "news_body": "Commissioning of Green Hydrogen plant",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce79d532-5b14-4c55-9646-fc869a7329ec.pdf",
+            "news_date": "2025-11-11 08:53:24"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Commissioning Of 85 MW Of Renewable Energy Capacity",
+            "news_body": "This is to inform you that the Company has successfully commissioned 85 MW of renewable energy capacity with solar capacity of 74 MW and wind capacity of 11 MW taking the installed capacity to 13295 MW.\r\n\r\nThe Press Release in this regard is attached.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8785d820-ad9c-4827-8fc1-db51aa6a7f81.pdf",
+            "news_date": "2025-11-10 08:51:29"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI Listing Regulations please note that the Company will be meeting a group of investors as given in the attached letter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1d2ad480-b660-48a1-a8e4-f238de30a52a.pdf",
+            "news_date": "2025-11-04 19:05:41"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - JSW Renewable Energy (Dolvi) Limited",
+            "news_body": "Assignment of Credit Rating - JSW Renewable Energy (Dolvi) Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a1be21cd-a816-43b0-92b2-a8cb036526b5.pdf",
+            "news_date": "2025-10-30 18:45:38"
         },
         {
             "sym": "JSWENERGY",
@@ -98,6 +758,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "With reference to the Results Conference Call held on Friday 17th October 2025 to discuss the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended 30th September 2025 and pursuant to Regulation 46 of the Listing Regulations we enclose herewith a transcript of the aforesaid conference call.\r\n\r\nThe same is simultaneously being made available on the website of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5c37efcb-8b66-49c8-84e2-9bc99290195b.pdf",
+            "news_date": "2025-10-22 19:04:07"
+        },
+        {
             "sym": "JSWENERGY",
             "disp": "JSW Energy",
             "bse_code": 533148,
@@ -120,6 +791,17 @@
             "sid": 17869,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On 17Th October 2025",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations) we hereby inform you that the Board of Directors at its meeting held today has inter-alia approved the unaudited Standalone and Consolidated Financial Results for the quarter and half year ended 30th September 2025.\r\nA copy of the said Financial Results containing disclosures required under Regulations 33 52 54 and other provisions of the Listing Regulations as applicable together with the Limited Review Reports by Deloitte Haskins & Sells LLP. Chartered Accountants and security cover certificate under Regulation 54(3) and 56(1)(d) of the Listing Regulations is enclosed.\r\nA press release issued by the Company is also attached.\r\nThe Board Meeting commenced at 4:00 p.m. and concluded at 5.45 p.m. \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6bed321c-8cec-4229-b668-8391f528a8a4.pdf",
+            "news_date": "2025-10-17 18:20:49"
         },
         {
             "sym": "JSWENERGY",
@@ -146,6 +828,292 @@
             "seg": "E"
         },
         {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Further to our letter dated 17th October 2025 please find attached the Results Presentation in connection with the unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half Year ended 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=22d54c04-ed1f-4afe-858c-7b4a04e05f0f.pdf",
+            "news_date": "2025-10-17 18:10:53"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 17Th October 2025",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations) we hereby inform you that the Board of Directors at its meeting held today has inter-alia approved the unaudited Standalone and Consolidated Financial Results for the quarter and half year ended 30th September 2025.\r\nA copy of the said Financial Results containing disclosures required under Regulations 33 52 54 and other provisions of the Listing Regulations as applicable together with the Limited Review Reports by Deloitte Haskins & Sells LLP. Chartered Accountants and security cover certificate under Regulation 54(3) and 56(1)(d) of the Listing Regulations is enclosed.\r\nA press release issued by the Company is also attached.\r\nThe Board Meeting commenced at 4:00 p.m. and concluded at 5.45 p.m.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e896b0a-6d1b-4604-b6af-7623db4ea3c3.pdf",
+            "news_date": "2025-10-17 18:07:31"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Letter Of Award From Power Company Of Karnataka Limited For 400 MW Power Supply Arrangement",
+            "news_body": "This is to inform you that JSW Energy (Utkal) Limited a subsidiary of the Company has received a letter of award from Power Company of Karnataka Limited for a 400 MW 25 years power supply arrangement from 1st April 2026.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0c8d8645-2b35-4de1-8906-feed746c1af2.pdf",
+            "news_date": "2025-10-16 20:26:36"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "As informed earlier a meeting of the Board of Directors will be held on Friday 17th October 2025 to consider and approve inter-alia the unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended 30th September 2025.\r\n\r\nA Results Conference Call is scheduled to be held on Friday 17th October 2025 at 7.00 p.m. (IST) to discuss the above mentioned Financial Results.\r\n\r\nThe Conference Call invitation is attached for your information. \r\n\r\nThe transcript in relation to the aforesaid call will be made available at the website of the Company i.e. https://group.jsw.in/investors/energy/jsw-energy-fy-2025-26-corporate-governance-stock-exchange-releases and will be duly filed with the Stock Exchanges.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=57952541-8fda-4594-a4a0-2ca84711eae3.pdf",
+            "news_date": "2025-10-10 20:01:17"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "As informed earlier a meeting of the Board of Directors will be held on Friday 17th October 2025 to consider and approve inter-alia the unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended 30th September 2025.\r\n\r\nA Results Conference Call is scheduled to be held on Friday 17th October 2025 at 7.00 p.m. (IST) to discuss the above mentioned Financial Results.\r\n\r\nThe Conference Call invitation is attached for your information. \r\n\r\nThe transcript in relation to the aforesaid call will be made available at the website of the Company i.e. https://group.jsw.in/investors/energy/jsw-energy-fy-2025-26-corporate-governance-stock-exchange-releases and will be duly filed with the Stock Exchanges.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9298b1d6-ac86-41b9-8406-1a5dd04d1898.pdf",
+            "news_date": "2025-10-10 20:00:36"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Under Regulation 29 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 (Listing Regulations) And Intimation Of Trading Window Opening",
+            "news_body": "JSW Energy Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 17/10/2025 inter alia to consider and approve This is to inform you that pursuant to Regulation 29 of the Listing Regulations a meeting of the Board of Directors of the Company will be held on Friday 17th October 2025 to inter-alia consider the unaudited Standalone and Consolidated Financial Results of the Company for the quarter and half year ended 30th September 2025.\r\n\r\nIn view of the above the Trading Window for dealing in the securities of the Company that was closed for all Designated Persons from 1st October 2025 shall open on Monday 20th October 2025.\r\n\r\nThe above is for your information and record.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ccc33bb2-17e2-45b2-a9a7-47e45cd26d59.pdf",
+            "news_date": "2025-10-10 19:57:10"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Rating - JSW Renew Energy Limited",
+            "news_body": "Credit Rating - JSW Renew Energy Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3cc41bd8-4726-43c2-a5fe-0e90854d09ec.pdf",
+            "news_date": "2025-10-09 15:56:57"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Commissioning Of 114 MW Of Renewable Energy Capacity",
+            "news_body": "Commissioning of 114 MW of renewable energy capacity",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d19afe4f-7d49-4ecc-af5e-68b9c3107f58.pdf",
+            "news_date": "2025-10-04 16:03:28"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Please note that in terms of the Companys Code of Conduct to Regulate Monitor and Report Trading by Insiders read with the SEBI (Prohibition of Insider Trading) Regulations 2015 the Trading Window for dealing in the securities of the Company will remain closed from 1st October 2025 till 48 hours after the declaration of the unaudited Financial Results for the quarter and half year ending 30th September 2025.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fbc56ee2-c493-459f-b9ee-5140c7fb08a5.pdf",
+            "news_date": "2025-09-29 18:23:57"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Battery Energy Storage Systems Projects From Solar Energy Corporation Of India Limited - Update",
+            "news_body": "Battery Energy Storage Systems Projects from Solar Energy Corporation of India Limited - Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74289785-bdf9-44a1-9a5a-eddd046356e8.pdf",
+            "news_date": "2025-09-25 19:20:46"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Acquisition Of Tidong Power Generation Private Limited By JSW Neo Energy Limited",
+            "news_body": "Acquisition of Tidong Power Generation Private Limited by JSW Neo Energy Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2dae7100-cafb-498d-bbc7-5219e0061be2.pdf",
+            "news_date": "2025-09-18 22:10:02"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Scheme of Arrangement",
+            "caption": "Announcement under Regulation 30 (LODR)-Scheme of Arrangement",
+            "news_body": "Scheme of Arrangement between GE Power India Limited and JSW Energy Limited and their respective shareholders",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f30149ff-9749-4560-aae0-354510f23b07.pdf",
+            "news_date": "2025-09-18 22:02:34"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Battery Energy Storage Systems Projects From Solar Energy Corporation Of India Limited - Update",
+            "news_body": "Battery Energy Storage Systems Projects from Solar Energy Corporation of India Limited - Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fc273395-afe5-4d1a-ab41-50b7efc84cbf.pdf",
+            "news_date": "2025-09-15 15:59:22"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "Credit Rating updates",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37df0d67-ba03-44da-93f5-ce26c3acee5a.pdf",
+            "news_date": "2025-09-12 19:08:21"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Commissioning Of 317 MW Of Renewable Energy Capacity",
+            "news_body": "Commissioning of 317 MW of renewable energy capacity",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=349e8b38-9620-4347-b378-bc052821d0eb.pdf",
+            "news_date": "2025-09-11 18:40:59"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Rating - JSW Renewable Energy (Cement) Limited",
+            "news_body": "Credit Rating - JSW Renewable Energy (Cement) Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0d11e84a-98e4-465e-b9ec-0ca5f796bd44.pdf",
+            "news_date": "2025-09-11 18:33:07"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Credit Rating",
+            "caption": "Announcement under Regulation 30 (LODR)-Credit Rating",
+            "news_body": "We wish to inform you that India Ratings and Research (Ind-Ra) vide its release dated 9th September 2025 has assigned / affirmed the rating of IND AA/Stable for the Non-convertible Debentures and the long-term bank facilities and IND A1+ for the short-term facilities including Commercial Paper of the Company. Further Long-Term Issuer Rating is affirmed at IND AA/Stable.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0b4e882b-89a8-4db1-b500-5a80da41379b.pdf",
+            "news_date": "2025-09-09 18:23:20"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - O2 Companies",
+            "news_body": "Assignment of Credit Rating - O2 Companies",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=932547ff-b696-4eea-9b20-55dbd9f10e2f.pdf",
+            "news_date": "2025-09-09 18:15:48"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Dear Madam / Sir \r\n\r\nPursuant to Regulation 30 read with Schedule III Part A Para A of the Listing Regulations please find enclosed the copies of the Newspaper advertisement published today in Financial Express (English) (all editions) and Navshakti (Marathi) (Mumbai edition) giving notice to shareholders regarding the initiation of 100 days campaign - Saksham Niveshak by the Investor Education and Protection Fund Authority under the Ministry of Corporate Affairs. \r\n\r\nThe above information is also available on the website of the Company at https://www.jsw.in/investors/energy/jsw-energy-investor-information-iepf. \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e9460861-e0de-493e-83e3-773c898852ea.pdf",
+            "news_date": "2025-09-05 17:28:18"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI Listing Regulations please note that the Company will be meeting a group of investors as given in the attached letter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d14be49b-9dee-4348-a52e-61026f2a2a7c.pdf",
+            "news_date": "2025-09-03 19:46:18"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Regarding 100 Days Campaign - Saksham Niveshak",
+            "news_body": "Intimation regarding 100 Days Campaign - Saksham Niveshak",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=221e4c5c-2b22-45cf-8944-759a0f87cbca.pdf",
+            "news_date": "2025-09-02 22:22:55"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI Listing Regulations please note that the Company will be meeting a group of investors as given in the attached letter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=03b2ee3f-5794-4d07-8b57-72843a83c9da.pdf",
+            "news_date": "2025-08-26 18:32:13"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - JSW Renew Energy Three Limited",
+            "news_body": "Assignment of Credit Rating - JSW Renew Energy Three Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bd6dc0dc-952f-4477-a6eb-98d801f76002.pdf",
+            "news_date": "2025-08-20 08:35:44"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Credit Rating Assignment - Step-Down Subsidiaries",
+            "news_body": "We wish to inform you that India Ratings and Research (Ind-Ra) vide their release dated 11th August 2025 has assigned a rating of IND A+/Stable on the bank loan facilities of the following step-down subsidiaries of the Company:\r\n\r\n1. JSW Wind Power (Pennar) Private Limited\r\n2. JSW Wind Power (Isapur) Limited\r\n3. JSW Wind Power Limited\r\n\r\nThe Press Release from Ind-Ra in this regard is available on their website www.indiaratings.co.in",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0c50d3f-2cd5-4e9b-b24d-2e5dc1c77066.pdf",
+            "news_date": "2025-08-12 08:37:15"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "JSW Energy Commissions The Third And Final 80 MW Unit Of The 240 MW Kutehr Hydro Plant; Installed Capacity Surpasses 13 GW",
+            "news_body": "JSW Energy commissions the third and final 80 MW Unit of the 240 MW Kutehr Hydro Plant; Installed Capacity Surpasses 13 GW",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=68a012f8-2fdd-412b-8468-ae740ef0da4e.pdf",
+            "news_date": "2025-08-08 21:28:20"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Pursuant to Regulation 30 of the SEBI Listing Regulations please note that the Company will be meeting a group of investors as given in the attached letter.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=67de8e96-c1f6-4500-9eda-2e69defa7459.pdf",
+            "news_date": "2025-08-06 21:50:23"
+        },
+        {
             "sym": "JSWENERGY",
             "disp": "JSW Energy",
             "bse_code": 533148,
@@ -168,6 +1136,50 @@
             "sid": 17869,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Earnings Call Transcript",
+            "caption": "Announcement under Regulation 30 (LODR)-Earnings Call Transcript",
+            "news_body": "With reference to the Results Conference Call held on Thursday 31st July 2025 to discuss the unaudited Standalone and Consolidated Financial Results of the Company for the quarter ended 30th June 2025 and pursuant to Regulation 46 of the Listing Regulations we enclose herewith a transcript of the aforesaid conference call.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ffd2a901-a6eb-40cc-b4d1-975fab97c118.pdf",
+            "news_date": "2025-08-06 21:35:03"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "JSW Energy Commissions The Second 80 MW Unit Of The 240 MW Kutehr Hydro Plant",
+            "news_body": "JSW Energy commissions the second 80 MW Unit of the 240 MW Kutehr Hydro Plant",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa37b972-4822-4580-bc1b-7701978a6033.pdf",
+            "news_date": "2025-08-06 08:47:30"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "We refer to our earlier intimations dated 23rd June 2025 and 25th July 2025 wherein we had informed you that the National Company Law Tribunal Hyderabad Bench had vide its order dated 23th July 2025 (NCLT Order) allowed the withdrawal of the application for the Corporate Insolvency Resolution Process (CIRP) of KSK Water Infrastructures Private Limited (KWIPL) under Section 12A of the Insolvency and Bankruptcy Code 2016 pursuant to the Settlement Plan submitted by the Company for the settlement of debt of creditors of KWIPL.\r\n \r\nIn furtherance to aforesaid intimations this is to inform you that the Company has implemented the Settlement Plan and as a part of the Settlement Plan acquired majority shareholding of KWIPL.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f2c532cb-0f11-441f-8991-f2cf0f91f371.pdf",
+            "news_date": "2025-08-04 21:01:06"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Commencement Of Power Supply To Haryana Power Purchase Centre From The 240 MW Kutehr Hydro Electric Project",
+            "news_body": "Commencement of power supply to Haryana Power Purchase Centre from the 240 MW Kutehr Hydro Electric Project",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e4768191-749e-4499-86fe-b5ecae07a1fb.pdf",
+            "news_date": "2025-08-02 22:36:55"
         },
         {
             "sym": "JSWENERGY",
@@ -194,6 +1206,17 @@
             "seg": "E"
         },
         {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Investor Presentation",
+            "caption": "Announcement under Regulation 30 (LODR)-Investor Presentation",
+            "news_body": "Results Presentation in connection with the unaudited Standalone and Consolidated Financial Results of the Company for the quarter ended 30th June 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1c37e860-2ad2-4553-81f6-a4a968bb5e7d.pdf",
+            "news_date": "2025-07-31 18:24:39"
+        },
+        {
             "sym": "JSWENERGY",
             "disp": "JSW Energy",
             "bse_code": 533148,
@@ -216,6 +1239,83 @@
             "sid": 17869,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Outcome Of The Board Meeting Held On 31St July 2025",
+            "news_body": "Outcome of the Board Meeting held on 31st July 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=aa1560e0-c53a-4464-aad2-f7d432be4f99.pdf",
+            "news_date": "2025-07-31 18:21:39"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting Held On 31St July 2025",
+            "news_body": "Pursuant to Regulation 30 of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations 2015 (Listing Regulations) we hereby inform you that the Board of Directors at its meeting held today has inter-alia approved the unaudited Standalone and Consolidated Financial Results for the quarter ended 30th June 2025. \r\n\r\nA copy of the said Financial Results containing disclosures required under Regulations 33 52 54 and other provisions of the Listing Regulations as applicable together with the Limited Review Reports by Deloitte Haskins & Sells LLP. Chartered Accountants Mumbai the Statutory Auditor of the Company and security cover certificate under Regulation 54(3) of the Listing Regulations is enclosed. \r\n\r\nA press release issued by the Company is also attached.\r\n\r\nThe Board Meeting commenced at 4:00 p.m. and concluded at 6:00 p.m. \r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d21bee53-5dc1-4cea-b10c-12a6bee1dd88.pdf",
+            "news_date": "2025-07-31 18:15:11"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "Analyst / Investor Meet",
+            "caption": "Announcement under Regulation 30 (LODR)-Analyst / Investor Meet - Intimation",
+            "news_body": "Dear Madam / Sir \r\n\r\nAs informed earlier a meeting of the Board of Directors will be held on Thursday 31st July 2025 to consider and approve inter-alia the unaudited Standalone and Consolidated Financial Results of the Company for the quarter ended 30th June 2025.\r\n\r\nA Results Conference Call is scheduled to be held on Thursday 31st July 2025 at 7.00 p.m. (IST) to discuss the above mentioned Financial Results.\r\n\r\nThe Conference Call invitation is attached for your information. \r\n\r\nThe transcript in relation to the aforesaid call will be made available at the website of the Company i.e. https://www.jsw.in/investors/energy and will be duly filed with the Stock Exchanges.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c715bbbe-cd5a-4044-849b-b2c2343e9c10.pdf",
+            "news_date": "2025-07-29 12:10:51"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Assignment Of Credit Rating - JSW Neo Energy Limited",
+            "news_body": "Assignment of Credit Rating - JSW Neo Energy Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e800c3d6-9fc8-4154-9172-48c8523a159f.pdf",
+            "news_date": "2025-07-28 19:46:47"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Intimation Under Regulation 29 Of The Securities And Exchange Board Of India (Listing Obligations And Disclosure Requirements) Regulations 2015 And Intimation Of Trading Window Opening",
+            "news_body": "JSW Energy Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 31/07/2025 inter alia to consider and approve This is to inform you that pursuant to Regulation 29 of the Listing Regulations a meeting of the Board of Directors of the Company will be held on Thursday 31st July 2025 to inter-alia consider the unaudited Standalone and Consolidated Financial Results of the Company for the quarter ended 30th June 2025.\r\n\r\nIn view of the above the Trading Window for dealing in the securities of the Company that was closed for all the Designated Persons from 1st July 2025 shall open on Sunday 3rd August 2025.\r\n\r\nThe above is for your information and record.\r\n",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a5e8d70a-daa0-4160-84d9-8e36666d2cd2.pdf",
+            "news_date": "2025-07-28 17:02:38"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "CompanyS Settlement Plan For Settlement Of Debt Of KSK Water Infrastructures Private Limited - Update",
+            "news_body": "Companys Settlement Plan for settlement of debt of KSK Water Infrastructures Private Limited - Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=74212777-443d-4f42-848c-41353ffe6fbb.pdf",
+            "news_date": "2025-07-25 17:19:59"
+        },
+        {
+            "co_code": 27323,
+            "bse_code": 533148,
+            "isin": "INE121E01018",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "CompanyS Settlement Plan For Settlement Of Debt Of KSK Water Infrastructures Private Limited - Update",
+            "news_body": "Companys Settlement Plan for settlement of debt of KSK Water Infrastructures Private Limited - Update",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=692e75d5-fe3b-4f88-a419-67b79eba040f.pdf",
+            "news_date": "2025-07-25 16:47:02"
         },
         {
             "sym": "JSWENERGY",
@@ -1297,6 +2397,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }

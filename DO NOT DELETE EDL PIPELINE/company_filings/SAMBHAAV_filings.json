@@ -2,6 +2,50 @@
     "code": 0,
     "data": [
         {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2f4bcdc4-10fe-4921-a151-9cbb66665b0e.pdf",
+            "news_date": "2026-01-31 12:03:28"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ae4dff19-7794-483e-8915-b8c4ecf42bc8.pdf",
+            "news_date": "2026-01-30 14:21:28"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a138465d-89be-43ce-ac3f-749d63d29b9f.pdf",
+            "news_date": "2026-01-28 11:51:11"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Board Meeting",
+            "news_body": "Outcome of the Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8d32a27-e54a-41f6-ac8c-f6984c102cb7.pdf",
+            "news_date": "2026-01-27 17:10:03"
+        },
+        {
             "sym": "SAMBHAAV",
             "disp": "Sambhaav Media",
             "bse_code": 511630,
@@ -24,6 +68,105 @@
             "sid": 9829,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone & Consolidated Financial Results For The Third Quarter And Nine Months Ended On 31St December 2025",
+            "news_body": "Financial Result",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a884bc7b-b8ad-4971-b0e8-65fe2feaf2b6.pdf",
+            "news_date": "2026-01-27 17:04:27"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of The Unaudited Financial Results (Standalone And Consolidated) For The Quarter And Nine Months Ended On December 31 2025",
+            "news_body": "Sambhaav Media Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 27/01/2026 inter alia to consider and approve the Unaudited Financial Results (Standalone and Consolidated) for the quarter and nine months ended on December 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9d259b02-48c5-44e1-aa93-43edee9c6bfa.pdf",
+            "news_date": "2026-01-19 17:28:21"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate u/r 74 (5) of SEBI (DP) Regulation 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5844c957-3e1a-49b9-beca-9f4da99aa893.pdf",
+            "news_date": "2026-01-08 12:47:55"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "General Update",
+            "news_body": "Report on Special Window for Re-Lodgment of transfer request of Physical Shares",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c5246dba-baf5-4ce9-82cb-2d3a42fd27cf.pdf",
+            "news_date": "2026-01-08 12:36:23"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Submission",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2ae6503b-327a-4fe4-bc52-865b863c0a05.pdf",
+            "news_date": "2025-12-19 10:45:17"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c597058f-6e91-44e1-9c86-e9d99485203c.pdf",
+            "news_date": "2025-11-13 11:10:46"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Acquisition",
+            "caption": "Announcement under Regulation 30 (LODR)-Acquisition",
+            "news_body": "Approval to the further acquisition of Equity shares of Gujarat News Broadcasters Private Limited",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=65bee17e-18e8-4fdd-927c-a1d3777f62da.pdf",
+            "news_date": "2025-11-12 13:23:42"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Re-appointment of Mr. Manoj Vadodaria",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=394a491c-364d-49e1-88a5-040950de7561.pdf",
+            "news_date": "2025-11-12 13:14:28"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e7442d34-d24a-420c-be30-99eb06cad1d8.pdf",
+            "news_date": "2025-11-12 12:53:42"
         },
         {
             "sym": "SAMBHAAV",
@@ -50,6 +193,116 @@
             "seg": "E"
         },
         {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone & Consolidated Financial Results For The Second Quarter/Half Year Ended On 30Th September 2025",
+            "news_body": "Financial Results",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1fea19a6-cd68-4327-973f-65137615396c.pdf",
+            "news_date": "2025-11-12 12:48:54"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results (Standalone And Consolidated) For The Quarter/Half Year Ended On September 30 2025",
+            "news_body": "Sambhaav Media Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/11/2025 inter alia to consider and approve Unaudited Financial Results (Standalone and Consolidated) for the quarter/half year ended on September 30 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=066b6911-b48b-4717-986a-e2ff92bb86c7.pdf",
+            "news_date": "2025-11-04 14:47:33"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate u/r 74 (5) of SEBI (DP) Regulation 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a97cfbab-67e1-4f3f-9c95-fcf3fbdf9e32.pdf",
+            "news_date": "2025-10-07 15:03:50"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6d8d9b0c-52ca-444e-8d01-89143d681f9c.pdf",
+            "news_date": "2025-09-25 15:35:05"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Intimation Under Regulation 30 Of Securities And Exchange Board Of India (Listing Obligation And Disclosure Requirement) Regulations 2015",
+            "news_body": "Intimation to the shareholders for updating their KYC details etc.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=50cec3ef-59b8-49d1-b511-9766b23eed31.pdf",
+            "news_date": "2025-09-17 16:57:21"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Submission",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=250e1fb1-f495-4fa7-bf32-7304f1651e2d.pdf",
+            "news_date": "2025-09-11 13:02:04"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Voting Result and Scrutinizer Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=326d7dd2-990c-458c-985e-3c329714008b.pdf",
+            "news_date": "2025-08-13 18:12:03"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceeding of the AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=86a50e74-3b2b-4dbe-854d-184e78031a01.pdf",
+            "news_date": "2025-08-13 14:56:17"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=129896e9-ac0f-4af0-ac34-c61f37256172.pdf",
+            "news_date": "2025-08-07 12:59:04"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b585550c-8df8-48d6-a84b-934c7a1bf21a.pdf",
+            "news_date": "2025-08-06 12:40:47"
+        },
+        {
             "sym": "SAMBHAAV",
             "disp": "Sambhaav Media",
             "bse_code": 511630,
@@ -72,6 +325,138 @@
             "sid": 9829,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter Ended On 30-06-2025",
+            "news_body": "Financial Result for the quarter ended on 30-06-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b7db63fb-248e-4fe0-a62a-c863c0e1ef4c.pdf",
+            "news_date": "2025-08-06 12:36:54"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Financial Results For Quarter Ended On 30-06-2025",
+            "news_body": "Sambhaav Media Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/08/2025 inter alia to consider and approve Financial Results for Quarter ended on 30-06-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b6c235da-6f64-4cf2-8e97-d7cd7c6d55ec.pdf",
+            "news_date": "2025-07-28 18:13:34"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=db29b11a-30a5-4e03-bf7e-d4a37ba2ee15.pdf",
+            "news_date": "2025-07-23 14:00:11"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report of the Company for FY 24-25",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=406bd7d3-273f-48d4-a59c-8a73795cd411.pdf",
+            "news_date": "2025-07-22 11:38:58"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Book Closure",
+            "caption": "Corporate Action- Book Closure For Purpose Of 35Th Annual General Meeting",
+            "news_body": "Book Closure for the purpose of 35th Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=48a5d093-3da8-452d-b697-0ac80fede9aa.pdf",
+            "news_date": "2025-07-22 11:22:45"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "AGM",
+            "caption": "Intimation Of 35Th Annual General Meeting",
+            "news_body": "Intimation of Annual General Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=907351c5-e2b9-406d-8bda-ca893c652554.pdf",
+            "news_date": "2025-07-22 11:10:55"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=0a7b40c4-0b46-49b4-a58c-58bf3661ceaf.pdf",
+            "news_date": "2025-07-19 11:25:59"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulations 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9813dee5-0d0d-4975-a428-27790884fd37.pdf",
+            "news_date": "2025-07-05 13:00:21"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e918b048-43d5-48e8-847c-73d518e406f0.pdf",
+            "news_date": "2025-06-24 13:10:43"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Compliance",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Submission of Annual Secretarial Compliance Report for the year ended on 31-03-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=bea31995-9fbd-41ab-be01-367a1fe10dec.pdf",
+            "news_date": "2025-05-09 15:24:54"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e0b1f03-44f8-472d-bc7d-86d2694928ce.pdf",
+            "news_date": "2025-05-07 12:44:36"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 - Appointment Of  Secretarial Auditor And Internal Auditor",
+            "news_body": "Appointment of Secretarial and Internal Auditor",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c85557c4-3e1d-42c7-9584-f641f6dfec33.pdf",
+            "news_date": "2025-05-06 16:12:45"
         },
         {
             "sym": "SAMBHAAV",
@@ -98,6 +483,138 @@
             "seg": "E"
         },
         {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Results- Financial For Year Ended On 31-03-2025",
+            "news_body": "Result for Financial Year ended on 31-03-2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=72068feb-9a8b-4299-a8e1-aa284fd303a6.pdf",
+            "news_date": "2025-05-06 13:02:50"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e8c938f8-2e86-4c31-892c-e006e00526b5.pdf",
+            "news_date": "2025-05-06 12:43:40"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for \r\nApproval Of Audited Financial Results As On 31-03-2025",
+            "news_body": "Sambhaav Media Ltdhas informed BSE that the meeting of the Board of Directors of the Company is scheduled on 06/05/2025 inter alia to consider and approve 1. To approve audited standalone and consolidated financial statements for the financial year ended on March 31 2025 together with the reports of the auditors and directors thereon; and\r\n\r\n2. To approve audited standalone and consolidated financial results for the quarter/ year ended on March 31 2025",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=69b6188a-34e2-45a2-8a24-75584cbe746e.pdf",
+            "news_date": "2025-04-28 18:17:23"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulation 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5112b60e-8039-47e4-bfa1-4ed02e984bf6.pdf",
+            "news_date": "2025-04-04 14:33:35"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "Appointment of Mr. Sanjay Gaur as Chief Marketing Officer of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=753306b7-1421-4dd3-8a24-5c3c175c92fd.pdf",
+            "news_date": "2025-04-01 18:59:41"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5e5f2d4a-e8e6-4220-8ccd-53e9efea29e3.pdf",
+            "news_date": "2025-03-25 14:32:22"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Postal Ballot",
+            "caption": " Shareholder Meeting / Postal Ballot-Scrutinizer\"s Report",
+            "news_body": "Voting Result and Scrutinizers Report of the Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d1edb240-8aea-45e8-98f2-8db3d7dd84e7.pdf",
+            "news_date": "2025-03-20 17:53:24"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=effbd67d-edc6-48f3-b103-737a05bd3493.pdf",
+            "news_date": "2025-02-14 13:27:18"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Intimation for Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9277a81-0e65-4a54-8015-352fcc45c050.pdf",
+            "news_date": "2025-02-12 17:12:14"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ce3cd90e-82e4-4e2a-b903-e843070e5ab0.pdf",
+            "news_date": "2025-02-11 11:45:31"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Integrated Filing (Financial)",
+            "caption": "Integrated Filing (Financial)",
+            "news_body": "Integrated Filling (Financial)",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1e6dd30a-726b-4939-942a-89ba163a28c1.pdf",
+            "news_date": "2025-02-10 13:18:03"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6bb2db7-e6da-4bbc-966f-3ae116d218ba.pdf",
+            "news_date": "2025-02-10 13:08:50"
+        },
+        {
             "sym": "SAMBHAAV",
             "disp": "Sambhaav Media",
             "bse_code": 511630,
@@ -120,6 +637,116 @@
             "sid": 9829,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Outcome",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter And Nine Months Ended On 31-12-2024",
+            "news_body": "Financial Results for the quarter and nine months ended on 31-12-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=31e9d9f2-4fc4-428a-b5f4-62caddf42ac2.pdf",
+            "news_date": "2025-02-10 12:59:49"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Intimation",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of Unaudited Financial Results (Standalone And Consolidated) For The Quarter / Nine Months Ended On 31-12-2024",
+            "news_body": "SAMBHAAV MEDIA LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 10/02/2025 inter alia to consider and approve  unaudited financial results (standalone and consolidated) for the quarter / nine months ended on 31-12-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=592e4c10-8b41-4106-b733-b94c09a951f6.pdf",
+            "news_date": "2025-01-30 17:23:38"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "General_Announcements",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations 2018",
+            "news_body": "Certificate under regulation 74(5) of SEBI (DP)Regulation 2018 for the quarter ended on 31-12-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=85c073aa-a2a4-48c7-a92a-d83eea4e6d16.pdf",
+            "news_date": "2025-01-03 18:10:16"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizers Report",
+            "news_body": "Postal Ballot Voting Results and Scrutinizer''s Report",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=90e598d1-a0dc-4ba1-ab3f-e1d92875e1cb.pdf",
+            "news_date": "2024-12-07 19:30:26"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI (Listing Obligations And Disclosure Requirements) Regulations, 2015",
+            "news_body": "Announcement under Regulation 30 of SEBI LODR, 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23136388-f842-4769-a09d-743242d84fab.pdf",
+            "news_date": "2024-11-26 18:34:57"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Announcement Under Regulation 30 Of SEBI LODR, 2015",
+            "news_body": "Announcement under Regulation 30 of SEBI LODR, 2015",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ab02b871-c6cb-45de-89a3-fb3e88a0f1d8.pdf",
+            "news_date": "2024-11-22 16:09:11"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c179c470-2dcb-45e1-9166-92536efa8625.pdf",
+            "news_date": "2024-11-06 11:18:01"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f6a97ad1-9736-4adf-b3a1-7e42aa927bcc.pdf",
+            "news_date": "2024-11-05 11:44:31"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d0058b12-838e-4198-9cc7-7239a9e26dc4.pdf",
+            "news_date": "2024-10-28 15:27:55"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting Dated 26-10-2024",
+            "news_body": "Outcome of Board Meeting dated 26-10-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=37357d76-7ef4-4e64-84a1-e98451bf0a91.pdf",
+            "news_date": "2024-10-26 12:41:46"
         },
         {
             "sym": "SAMBHAAV",
@@ -146,6 +773,105 @@
             "seg": "E"
         },
         {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone & Consolidated Financial Results For The Second Quarter/Half Year Ended On 30Th September, 2024",
+            "news_body": "The Board of Directors has considered and approved; unaudited financial results for the second Quarter/half year ended on 30.09.2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3e91857f-81fd-48ea-8dae-d3647b4feae0.pdf",
+            "news_date": "2024-10-26 12:32:26"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Consideration And Approval Of The Unaudited Financial Results (Standalone And Consolidated) For The Quarter/Half Year Ended On September 30, 2024",
+            "news_body": "SAMBHAAV MEDIA LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 26/10/2024 ,inter alia, to consider and approve Unaudited Financial Results (Standalone and Consolidated) for the quarter/half year ended on September 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=da56fba5-de2b-4032-9a41-ca11aeb6aaa1.pdf",
+            "news_date": "2024-10-18 17:55:04"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate under Reg. 74(5) of SEBI (DP)Regulation, 2018 for the Quarter ended on September, 30 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=d9cce336-eac3-403d-9c7b-af5ddcd027d6.pdf",
+            "news_date": "2024-10-17 17:43:44"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Request For Updating The KYC Details",
+            "news_body": "Physical Shareholders are requested to update their KYC details in their folios",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4e0eec66-55fb-4389-8aca-24ece9c29acf.pdf",
+            "news_date": "2024-10-01 16:23:44"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Trading Window Closure",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=ff420985-e072-4321-a559-655b7a1fd364.pdf",
+            "news_date": "2024-09-25 14:44:55"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Retirement",
+            "caption": "Announcement under Regulation 30 (LODR)-Retirement",
+            "news_body": "Completion of Second Term of Mr. O P Bhandari, Mr. N R Mehta and Mr. Dilip Patel",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=487d5839-4dcf-43d4-ac7c-736ee05cdfa9.pdf",
+            "news_date": "2024-09-19 18:18:55"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "This is to submit that Board of Director have made the appointment of Mr. Paresh Vaghela and Mr. Balveermal Singhvi as an Independent Director of the Company.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd1613f3-8c28-4705-9502-bab3cde12cda.pdf",
+            "news_date": "2024-09-16 18:38:09"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Copy of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=59ae176b-75e1-4d30-926b-5f18aa00b1a7.pdf",
+            "news_date": "2024-08-13 12:29:19"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting held on 12.08.2024; to consider and approve unaudited financial results for the quarter ended on 30.06.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=15b4dc45-d230-46c8-a32c-97315664874a.pdf",
+            "news_date": "2024-08-12 12:29:43"
+        },
+        {
             "sym": "SAMBHAAV",
             "disp": "Sambhaav Media",
             "bse_code": 511630,
@@ -168,6 +894,171 @@
             "sid": 9829,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Results- Unaudited Financial Results For The Quarter Ended On 30.06.2024",
+            "news_body": "Unaudited Financial Results (Standalone and Consolidated) for the quarter ended on 30.06.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=fd4b739f-1b12-40e7-a8a5-52137aa6b7eb.pdf",
+            "news_date": "2024-08-12 12:20:23"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for The Unaudited Financial Results (Standalone And Consolidated) For The First Quarter Ended On June 30, 2024",
+            "news_body": "SAMBHAAV MEDIA LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 12/08/2024 ,inter alia, to consider and approve the Unaudited Financial Results (Standalone and Consolidated) for the first quarter ended on June 30, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e668d592-855a-4d10-b765-80896329d547.pdf",
+            "news_date": "2024-08-05 18:12:55"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Scrutinizer''s Report",
+            "news_body": "Voting Result and Consolidated Scrutinizer''s Report of 34 th AGM",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8216f8d7-0937-429d-b3ce-46da91151508.pdf",
+            "news_date": "2024-08-02 18:36:08"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting / Postal Ballot-Outcome of AGM",
+            "news_body": "Proceeding of 34th Annual General Meeting of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=1a2a8148-c51b-445b-b29d-d6cf5482a7cc.pdf",
+            "news_date": "2024-08-01 15:54:43"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=7da67743-d038-4847-8297-a201aaf8a623.pdf",
+            "news_date": "2024-07-10 12:16:06"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Corp. Action",
+            "descriptor": "Book Closure",
+            "caption": "Corporate Action- Book Closure For Purpose Of 34Th Annual General Meeting",
+            "news_body": "Book Closure for the purpose of 34th Annual General Meeting  of the Company to be held on 01.08.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=14f2d61c-915c-40ce-8f80-e8840872e107.pdf",
+            "news_date": "2024-07-09 17:45:39"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "",
+            "descriptor": "Reg. 34 (1) Annual Report",
+            "caption": "Reg. 34 (1) Annual Report.",
+            "news_body": "Annual Report of Sambhaav Media Limited for the Financial Year 23-24",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=006ac092-f801-4714-9e6e-b340abd36af5.pdf",
+            "news_date": "2024-07-09 17:26:24"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "AGM/EGM",
+            "descriptor": "AGM",
+            "caption": "Shareholder Meeting - AGM On 01 St August 2024",
+            "news_body": "Notice of Annual General Meeting to be held on August 01, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2b7335df-4552-42b7-9a61-93ecc8ff45dc.pdf",
+            "news_date": "2024-07-09 16:59:41"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f65df0d3-276e-459d-b5ed-af296f50c5bd.pdf",
+            "news_date": "2024-07-06 13:09:19"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate under Regulation 74 (5) of SEBI (DP) Regulations, 2018",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5d6bbc06-6c71-4ca7-873c-9f4e4d8d3443.pdf",
+            "news_date": "2024-07-03 12:41:50"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of Trading window closure and Insider Trading Code",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=eb3b7253-c753-440b-96f1-723a5b2f18ef.pdf",
+            "news_date": "2024-06-26 14:19:48"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Reg.24(A)-Annual Secretarial Compliance",
+            "caption": "Compliances-Reg.24(A)-Annual Secretarial Compliance",
+            "news_body": "Annual Secretarial Compliance Report for the year ended on 31-03-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3c7eb0eb-9765-4490-b3ae-5b6f8a2a67c5.pdf",
+            "news_date": "2024-05-29 18:30:25"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8a915375-23de-464e-b0f6-24cbe11b33db.pdf",
+            "news_date": "2024-05-06 12:36:39"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Resignation of Director",
+            "caption": "Announcement under Regulation 30 (LODR)-Resignation of Director",
+            "news_body": "Intimation of Resignation of Mr. Amitkumar Ray as Whole Time Director of the Company",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=23b3c933-15ec-4d06-9052-ce3de91ca6e2.pdf",
+            "news_date": "2024-05-04 19:01:45"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of The Meeting",
+            "news_body": "Outcome of the Board Meeting held on 04.05.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=8aa79a44-19a5-4a02-84ec-c4cfaecf0ed6.pdf",
+            "news_date": "2024-05-04 17:19:39"
         },
         {
             "sym": "SAMBHAAV",
@@ -194,6 +1085,138 @@
             "seg": "E"
         },
         {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Financial Results For The Quarter & Year Ended On March 31, 2024",
+            "news_body": "Financial Results for the quarter & year ended on March 31, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e1f296c8-daaa-424f-950b-5dc4bbbff3c2.pdf",
+            "news_date": "2024-05-04 17:13:50"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Approval Of Audited Standalone And Consolidated Financial Results For The Quarter/ Year Ended On March 31, 2024",
+            "news_body": "SAMBHAAV MEDIA LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 04/05/2024 ,inter alia, to consider and approve 1. Audited standalone and consolidated financial statements for the financial year ended on March 31, 2024 together with the reports of the auditors and directors thereon2. Audited standalone and consolidated financial results for the quarter/ year ended on March 31, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=033af318-cb7f-417a-8b35-b49b7c484b10.pdf",
+            "news_date": "2024-04-27 16:54:57"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Reg. 7(3) \u2013 Compliance Certificate (RTA & Compliance Officer)",
+            "caption": "Compliance Certificate For The Year Ended On March 31, 2024",
+            "news_body": "Compliance Certificate for the year ended on March 31, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=2590543c-41e8-4c5c-9763-1f0427683367.pdf",
+            "news_date": "2024-04-22 13:12:15"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Reg. 40 (10) - PCS Certificate for Transfer / Transmission / Transposition",
+            "caption": "Certificate From Practicing Company Secretary For The Period Ended On March 31, 2024",
+            "news_body": "Compliance Certificate from PCS for the period ended on March 31, 2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=10eaffd7-d23a-4a0e-8780-b01d729752e9.pdf",
+            "news_date": "2024-04-17 16:32:10"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate under Regulation 74(5) of SEBI (DP) Regulation, 2018 for the quarter ended on 31.03.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=4c1c62bd-81d9-410e-8d91-052fe1d24c2b.pdf",
+            "news_date": "2024-04-04 18:18:59"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "caption": "Disclosures under Reg. 29(2) of SEBI (SAST) Regulations, 2011",
+            "news_body": "The Exchange has received the disclosure under Regulation 29(2) of SEBI (Substantial Acquisition of Shares & Takeovers) Regulations, 2011 for Neha Vadodaria, Kajal Vadodaria, Kiran Vadodaria & Manoj Vadodaria",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9AB705C5_B54E_4352_A1C2_F29E008FA26C_160842.pdf",
+            "news_date": "2024-03-30 16:08:45"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Closure of Trading Window",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c0709d4a-b2fb-45d1-a30b-1f9246220a77.pdf",
+            "news_date": "2024-03-22 15:55:10"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Voting Result & Scrutinizer Report Of The Postal Ballot",
+            "news_body": "Voting Result and Scrutinizer Report of the Postal Ballot Notice dated 09.02.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=a8f59a29-f95b-4f27-8231-6fd9f52908dd.pdf",
+            "news_date": "2024-03-18 18:15:26"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Newspaper Advertisement for dispatch of Postal Ballot Notice",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=c2e712de-c393-429c-8baf-b97aeca5185c.pdf",
+            "news_date": "2024-02-17 13:58:20"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "AGM/EGM",
+            "descriptor": "Postal Ballot",
+            "caption": "Shareholder Meeting / Postal Ballot-Notice of Postal Ballot",
+            "news_body": "Notice of Postal Ballot under section 110 of Companies Act, 2013",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=3ce63e28-b48b-440c-8d15-b62c667e905a.pdf",
+            "news_date": "2024-02-16 15:52:54"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Newspaper Publication",
+            "caption": "Announcement under Regulation 30 (LODR)-Newspaper Publication",
+            "news_body": "Submission of Newspaper Publication",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=f08a5b99-dfaa-440e-b8b3-6d0ac84b5a9f.pdf",
+            "news_date": "2024-02-10 12:29:16"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Board Meeting",
+            "descriptor": "Outcome of Board Meeting",
+            "caption": "Board Meeting Outcome for Outcome Of Board Meeting",
+            "news_body": "Outcome of Board Meeting held on 09.02.2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9152e2ae-0f39-41f7-b6e6-daab742db196.pdf",
+            "news_date": "2024-02-09 16:30:48"
+        },
+        {
             "sym": "SAMBHAAV",
             "disp": "Sambhaav Media",
             "bse_code": 511630,
@@ -216,6 +1239,83 @@
             "sid": 9829,
             "exch": "NSE",
             "seg": "E"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Result",
+            "descriptor": "Financial Results",
+            "caption": "Unaudited Standalone & Consolidated Financial Results For The Third Quarter And Nine Months Ended On 31 December, 2023",
+            "news_body": "Submission of Unaudited Standalone and Consolidated Financial Results for the third quarter and nine months ended on 31.12.2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=6b43dc43-9586-4b00-836f-6a2302a24e5c.pdf",
+            "news_date": "2024-02-09 16:26:28"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Board Meeting",
+            "descriptor": "Board Meeting",
+            "caption": "Board Meeting Intimation for Board Meeting To Be Held On Friday, February 09, 2024",
+            "news_body": "SAMBHAAV MEDIA LTD.has informed BSE that the meeting of the Board of Directors of the Company is scheduled on 09/02/2024 ,inter alia, to consider and approve  the Unaudited Financial Results (Standalone and Consolidated) for the quarter/nine months ended on December 31, 2023.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=5ca93c05-a2b0-43da-8bc4-c9f454bc10b4.pdf",
+            "news_date": "2024-02-02 10:43:36"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "General",
+            "caption": "Submission Of Contact Details Of Authorize Persons To Determine Materiality Of Any Event Or Information Of The Company",
+            "news_body": "Please find updated list of persons authorised to determine materiality of Event/Information",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b1b29059-d707-4188-91dd-ef24e9dbcc9e.pdf",
+            "news_date": "2024-01-16 12:39:02"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Change in Management",
+            "caption": "Announcement under Regulation 30 (LODR)-Change in Management",
+            "news_body": "This is to inform that the Board of Directors of Sambhaav Media Limited have at their meeting held on 16-01-2024; appointed Mr. Sanjay Thaker as CFO of the Company w.e.f. 16-01-2024.",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=51197a00-4bc1-43cc-92fc-9aa5c4d835b5.pdf",
+            "news_date": "2024-01-16 12:10:17"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "",
+            "descriptor": "Outcome without intimation",
+            "caption": "Board Meeting Outcome for Appointment Of Mr. Sanjay Thaker As Chief Financial Officer Of The Company",
+            "news_body": "Appointment of Mr. Sanjay Thaker as Chief Financial Officer of the Company w.e.f. 16-01-2024",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=9883134e-853f-4fd4-adf2-1eb42502009a.pdf",
+            "news_date": "2024-01-16 12:00:05"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Company Update",
+            "descriptor": "Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "caption": "Compliances-Certificate under Reg. 74 (5) of SEBI (DP) Regulations, 2018",
+            "news_body": "Certificate u/r 74(5) of SEBI (Depositories and Participants) Regulation, 2018 for the quarter ended on December 31, 2023",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=b2e508c8-a0a9-4d3e-8d1f-735adcabf65e.pdf",
+            "news_date": "2024-01-04 11:06:00"
+        },
+        {
+            "co_code": 4476,
+            "bse_code": 511630,
+            "isin": "INE699B01027",
+            "ann_type": "Insider Trading / SAST",
+            "descriptor": "Closure of Trading Window",
+            "caption": "Closure of Trading Window",
+            "news_body": "Intimation of closure of Trading Window under the Insider Trading Code",
+            "file_url": "https://www.bseindia.com/stockinfo/AnnPdfOpen.aspx?Pname=e94fe622-21bc-4bb1-a93d-63e60c77e90a.pdf",
+            "news_date": "2023-12-27 12:52:59"
         },
         {
             "sym": "SAMBHAAV",
@@ -697,6 +1797,5 @@
             "exch": "NSE",
             "seg": "E"
         }
-    ],
-    "remarks": ""
+    ]
 }
