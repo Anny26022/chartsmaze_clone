@@ -4,20 +4,20 @@ from pipeline_utils import get_headers
 
 def fetch_all_indices():
     """
-    Fetches strictly NSE Indices using the ScanX Analytics API.
-    This is the live source-of-truth used by the Dhan terminal.
+    Fetches strictly NSE Indices using ScanX Pro API.
+    Captures Live LTP, OHLC, and TODAY'S VOLUME (from technical fields).
     """
-    print("Fetching NSE Indices via ScanX Pro API...")
+    print("Fetching NSE Indices & Today's Volume via ScanX Pro API...")
     
     url = "https://ow-scanx-analytics.dhan.co/customscan/fetchdt"
     
-    # Payload designed to get all indices with their live markers
     payload = {
         "data": {
             "sort": "Sym", "sorder": "asc", "count": 500,
             "fields": [
                 "Sym", "DispSym", "Sid", "Exch", "Seg", "Inst", 
-                "Ltp", "Pchange", "PPerchange", "High1Yr", "Low1Yr"
+                "Open", "High", "Low", "Ltp", "Pchange", "PPerchange", 
+                "High1Yr", "Low1Yr", "Min1TotalVolPrevCandle" # <--- Cumulative Today Volume
             ],
             "params": [
                 {"field": "Inst", "op": "", "val": "IDX"},
@@ -32,12 +32,12 @@ def fetch_all_indices():
         if response.status_code == 200:
             raw_data = response.json().get('data', [])
             
-            # Since you want STRICTLY NSE Indices, we filter for common NSE index patterns
-            # or exclude known BSE/Global ones if necessary. 
-            # Dhan's ScanX primarily contains NSE indices for 'Exch: IDX'.
-            
             final_indices = []
             for item in raw_data:
+                # Get volume, ensure it is positive (some specific fields might have overflow -1 values)
+                vol = item.get('Min1TotalVolPrevCandle', 0)
+                if isinstance(vol, (int, float)) and vol < 0: vol = 0
+
                 final_indices.append({
                     "IndexName": item.get('DispSym'),
                     "Symbol": item.get('Sym'),
@@ -45,19 +45,22 @@ def fetch_all_indices():
                     "Exchange": item.get('Exch'),
                     "Segment": item.get('Seg'),
                     "Instrument": item.get('Inst'),
+                    "Open": item.get('Open'),
+                    "High": item.get('High'),
+                    "Low": item.get('Low'),
                     "Ltp": item.get('Ltp'),
                     "Chng": item.get('Pchange'),
                     "PChng": item.get('PPerchange'),
+                    "Volume": vol, # TODAY'S LIVE VOLUME
                     "52W_High": item.get('High1Yr'),
                     "52W_Low": item.get('Low1Yr')
                 })
             
-            print(f"Successfully identified {len(final_indices)} Indices with Live LTP.")
+            print(f"Successfully identified {len(final_indices)} Indices with Today's Volume.")
             
             output_file = "all_indices_list.json"
             with open(output_file, 'w') as f:
                 json.dump(final_indices, f, indent=4)
-            print(f"Saved to {output_file}")
             return True
         else:
             print(f"API Error: Status {response.status_code}")
