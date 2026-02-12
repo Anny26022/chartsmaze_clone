@@ -67,7 +67,7 @@ def fetch_all_dhan_data():
                 sym = item.get('Sym')
                 isin = item.get('Isin')
                 disp_sym = item.get('DispSym')
-                sid = item.get('sid')
+                sid = item.get('Sid')
                 
                 if sym and isin:
                     master_map.append({

@@ -1,73 +1,49 @@
 [
     {
         "Sr. No": 1,
-        "Symbol": "GRAPHISAD",
-        "Series": "SM",
-        "Security Name": "GRAPHISADS LIMITED",
+        "Symbol": "SMLMAH",
+        "Series": "EQ",
+        "Security Name": "SML MAHINDRA LIMITED",
         "From": 10,
         "To": 5
     },
     {
         "Sr. No": 2,
-        "Symbol": "JITFINFRA",
+        "Symbol": "AIRAN",
         "Series": "EQ",
-        "Security Name": "JITF INFRALOGISTICS LIMITED",
-        "From": 10,
-        "To": 5
+        "Security Name": "AIRAN LIMITED",
+        "From": 20,
+        "To": 10
     },
     {
         "Sr. No": 3,
-        "Symbol": "LOYALTEX",
-        "Series": "BE",
-        "Security Name": "LOYAL TEXTILE MILLS LIMITED",
-        "From": 10,
-        "To": 5
+        "Symbol": "APEX",
+        "Series": "EQ",
+        "Security Name": "APEX FROZEN FOODS LIMITED",
+        "From": 20,
+        "To": 10
     },
     {
         "Sr. No": 4,
-        "Symbol": "ABMINTLLTD",
+        "Symbol": "AVANTIFEED",
         "Series": "EQ",
-        "Security Name": "ABM INTERNATIONAL LIMITED",
+        "Security Name": "AVANTI FEEDS LIMITED",
         "From": 20,
         "To": 10
     },
     {
         "Sr. No": 5,
-        "Symbol": "CLEDUCATE",
+        "Symbol": "SADBHIN",
         "Series": "EQ",
-        "Security Name": "CL EDUCATE LIMITED",
+        "Security Name": "SADBHAV INFRASTRUCTURE PROJECT LIMITED",
         "From": 20,
-        "To": 10
+        "To": 5
     },
     {
         "Sr. No": 6,
-        "Symbol": "KSHITIJPOL",
-        "Series": "EQ",
-        "Security Name": "KSHITIJ POLYLINE LIMITED",
-        "From": 20,
-        "To": 10
-    },
-    {
-        "Sr. No": 7,
-        "Symbol": "LAXMICOT",
-        "Series": "EQ",
-        "Security Name": "LAXMI COTSPIN LIMITED",
-        "From": 20,
-        "To": 10
-    },
-    {
-        "Sr. No": 8,
-        "Symbol": "LEXUS",
-        "Series": "EQ",
-        "Security Name": "LEXUS GRANITO (INDIA) LIMITED",
-        "From": 20,
-        "To": 10
-    },
-    {
-        "Sr. No": 9,
-        "Symbol": "CBAZAAR",
+        "Symbol": "TANKUP",
         "Series": "ST",
-        "Security Name": "NET AVENUE TECHNOLOGIES LIMITED",
+        "Security Name": "TANKUP ENGINEERS LIMITED",
         "From": 5,
         "To": 2
     }
