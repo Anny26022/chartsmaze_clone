@@ -56,14 +56,32 @@ def main():
     print(f"Preparing chunks for {len(indices)} indices...")
     for idx in indices:
         sym = idx["Symbol"]
+        safe_sym = get_safe_sym(sym)
+        output_path = os.path.join(OUTPUT_DIR, f"{safe_sym}.csv")
+        
+        # --- INCREMENTAL CHECK ---
+        target_start = global_start_ts
+        if os.path.exists(output_path):
+            try:
+                with open(output_path, "r") as f:
+                    rows = list(csv.DictReader(f))
+                    if rows:
+                        last_dt = datetime.strptime(rows[-1]["Date"], "%Y-%m-%d")
+                        # If data is from today, skip this index
+                        if (datetime.now() - last_dt).days < 1:
+                            continue
+                        # Otherwise, only fetch from the day after the last date
+                        target_start = int(last_dt.timestamp()) + 86400
+            except: pass
+
         current_end = global_end_ts
-        while current_end > global_start_ts:
-            c_start = max(global_start_ts, current_end - (CHUNK_DAYS * 86400))
+        while current_end > target_start:
+            c_start = max(target_start, current_end - (CHUNK_DAYS * 86400))
             payload = {
                 "EXCH": idx["Exchange"], "SYM": sym, "SEG": idx["Segment"],
                 "INST": idx["Instrument"], "SEC_ID": idx["IndexID"],
                 "EXPCODE": 0, "INTERVAL": "D", "START": c_start, "END": current_end,
-                "SAFE_SYM": get_safe_sym(sym) # Helper tag
+                "SAFE_SYM": safe_sym
             }
             tasks.append(payload)
             current_end = c_start - 86400
