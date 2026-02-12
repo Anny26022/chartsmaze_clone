@@ -276,7 +276,10 @@ def main():
     # 4c. F&O Data (Lot Size, Next Expiry)
     results["enrich_fno_data.py"] = run_script("enrich_fno_data.py", "Phase 4")
     
-    # 4d. Corporate Events + News Feed (MUST BE LAST)
+    # 4d. Market Breadth & Relative Strength Rating (Needs returns and SMA status)
+    results["process_market_breadth.py"] = run_script("process_market_breadth.py", "Phase 4")
+    
+    # 4e. Corporate Events + News Feed (MUST BE LAST)
     results["add_corporate_events.py"] = run_script("add_corporate_events.py", "Phase 4")
     
     # ─── PHASE 5: Compression ───
