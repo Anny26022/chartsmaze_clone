@@ -135,17 +135,18 @@ def run_script(script_name, phase_label):
 
 def compress_output():
     """Compress final JSONs to .json.gz for ultra compression."""
-    files_to_compress = [
-        "all_stocks_fundamental_analysis.json",
-        "sector_analytics.json"
-    ]
+    files_to_compress = {
+        "all_stocks_fundamental_analysis.json": "all_stocks_fundamental_analysis.json.gz",
+        "sector_analytics.json": "sector_analytics.json.gz",
+        "market_breadth.csv": "market_breadth.json.gz"
+    }
     
     total_raw = 0
     total_gz = 0
     
-    for filename in files_to_compress:
+    for filename, output_name in files_to_compress.items():
         json_path = os.path.join(BASE_DIR, filename)
-        gz_path = f"{json_path}.gz"
+        gz_path = os.path.join(BASE_DIR, output_name)
         
         if os.path.exists(json_path):
             raw_size = os.path.getsize(json_path)
@@ -284,6 +285,9 @@ def main():
     
     # 4d. Market Breadth & Relative Strength Rating (Needs returns and SMA status)
     results["process_market_breadth.py"] = run_script("process_market_breadth.py", "Phase 4")
+
+    # 4e. Historical Market Breadth (Line Charts)
+    results["process_historical_market_breadth.py"] = run_script("process_historical_market_breadth.py", "Phase 4")
     
     # 4e. Corporate Events + News Feed (MUST BE LAST)
     results["add_corporate_events.py"] = run_script("add_corporate_events.py", "Phase 4")

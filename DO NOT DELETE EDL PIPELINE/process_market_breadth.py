@@ -11,7 +11,6 @@ SECTOR_OUTPUT_FILE = os.path.join(BASE_DIR, "sector_analytics.json")
 
 def calculate_rs_score(df):
     """Calculates Relative Strength Score (1-99) for each stock."""
-    # Standard Momentum Weights: 40% 1Y, 20% 6M, 20% 3M, 20% 1M
     w_1y, w_6m, w_3m, w_1m = 0.4, 0.2, 0.2, 0.2
     
     for col in ['1 Year Returns(%)', '6 Month Returns(%)', '3 Month Returns(%)', '1 Month Returns(%)']:
@@ -24,7 +23,6 @@ def calculate_rs_score(df):
     
     if not df.empty:
         # Professional RS Percentile: 1-99
-        # We use a slight ceiling to ensure the top-tier stocks cluster at 99
         df['RS Rating'] = (df['RS_Raw'].rank(pct=True, method='min') * 99).apply(np.ceil).astype(int)
         df['RS Rating'] = df['RS Rating'].clip(1, 99)
     else:
@@ -38,21 +36,28 @@ def generate_analytics(df):
         if not isinstance(status_str, str): return False
         return sma_key in status_str and "Above" in status_str
 
-    # Pre-calculate flags
+    # --- 1. PRE-CALCULATE FLAGS ---
     df['Above_SMA_200'] = df['SMA Status'].apply(lambda x: is_above(x, "SMA 200"))
     df['Above_SMA_50'] = df['SMA Status'].apply(lambda x: is_above(x, "SMA 50"))
     df['Above_SMA_20'] = df['SMA Status'].apply(lambda x: is_above(x, "SMA 20"))
-    df['Above_EMA_21'] = df['EMA Status'].apply(lambda x: is_above(x, "EMA 20"))
     
-    # helper for contribution: Performance Power = Mcap * 1yr Return
-    df['Power'] = df['Market Cap(Cr.)'] * df['1 Year Returns(%)']
+    # Near High Buckets
+    df['Dist_High'] = df['% from 52W High'].apply(lambda x: abs(x) if x is not None else 999)
+    
+    # RS Buckets
+    df['Above_RS_70'] = df['RS Rating'] >= 70
+    df['Above_RS_80'] = df['RS Rating'] >= 80
+    df['Above_RS_90'] = df['RS Rating'] >= 90
 
-    # --- 1. SECTOR LEVEL (Main Bars) ---
-    sector_groups = df.groupby('Sector')
+    # Counts for contribution
+    sector_counts = df['Sector'].value_counts().to_dict()
+
+    # --- 2. SECTOR LEVEL ---
     sector_list = []
-    
+    sector_groups = df.groupby('Sector')
     for sector_name, group in sector_groups:
-        if sector_name == "N/A": continue
+        if not sector_name or sector_name == "N/A": continue
+        
         sector_list.append({
             "Type": "Sector",
             "Name": sector_name,
@@ -60,35 +65,39 @@ def generate_analytics(df):
             "Breadth_SMA200": round(group['Above_SMA_200'].mean() * 100, 1),
             "Breadth_SMA50": round(group['Above_SMA_50'].mean() * 100, 1),
             "Breadth_SMA20": round(group['Above_SMA_20'].mean() * 100, 1),
-            "Breadth_EMA21": round(group['Above_EMA_21'].mean() * 100, 1),
-            "Total_Power": group['Power'].sum()
+            "Breadth_RS70": round(group['Above_RS_70'].mean() * 100, 1),
+            "Breadth_RS80": round(group['Above_RS_80'].mean() * 100, 1),
+            "Breadth_RS90": round(group['Above_RS_90'].mean() * 100, 1),
+            "NearHigh_1pc": round((group['Dist_High'] <= 1.0).mean() * 100, 1),
+            "NearHigh_2pc": round((group['Dist_High'] <= 2.0).mean() * 100, 1),
+            "NearHigh_5pc": round((group['Dist_High'] <= 5.0).mean() * 100, 1)
         })
-    
-    sector_power_map = {item['Name']: item['Total_Power'] for item in sector_list}
 
-    # --- 2. INDUSTRY LEVEL (Sidebar) ---
-    industry_groups = df.groupby('Basic Industry')
+    # --- 3. INDUSTRY LEVEL ---
     industry_list = []
-    
+    industry_groups = df.groupby('Basic Industry')
     for ind_name, group in industry_groups:
-        if ind_name == "N/A": continue
+        if not ind_name or ind_name == "N/A": continue
         parent_sector = group['Sector'].iloc[0]
-        ind_power = group['Power'].sum()
-        sector_total_power = sector_power_map.get(parent_sector, 1)
+        sector_total = sector_counts.get(parent_sector, 1)
         
-        # Contribution Calculation
-        contribution = (ind_power / sector_total_power * 100) if sector_total_power != 0 else 0
+        # Absolute Breadth Contribution (Industry Winners / Sector Total Stocks)
+        win_50 = group['Above_SMA_50'].sum()
+        win_rs80 = group['Above_RS_80'].sum()
+        win_nh5 = (group['Dist_High'] <= 5.0).sum()
         
         industry_list.append({
             "Type": "Industry",
             "Name": ind_name,
             "ParentSector": parent_sector,
             "StockCount": len(group),
-            "Breadth_SMA200": round(group['Above_SMA_200'].mean() * 100, 1),
             "Breadth_SMA50": round(group['Above_SMA_50'].mean() * 100, 1),
-            "Breadth_SMA20": round(group['Above_SMA_20'].mean() * 100, 1),
-            "Breadth_EMA21": round(group['Above_EMA_21'].mean() * 100, 1),
-            "Contribution_%": round(contribution, 1)
+            "Breadth_RS80": round(group['Above_RS_80'].mean() * 100, 1),
+            "Breadth_NH5": round((group['Dist_High'] <= 5.0).mean() * 100, 1),
+            # Dashboard Style Contribution
+            "Contribution_SMA50_%": round((win_50 / sector_total) * 100, 1),
+            "Contribution_RS80_%": round((win_rs80 / sector_total) * 100, 1),
+            "Contribution_NH5_%": round((win_nh5 / sector_total) * 100, 1)
         })
 
     return {"Sectors": sector_list, "Industries": industry_list}
@@ -98,36 +107,36 @@ def main():
         print("Input file not found.")
         return
 
-    print("Loading data for Multi-Level Analysis...")
+    print("Loading data for Multi-Tab Analysis (MA, RS, NH)...")
     with open(INPUT_FILE, "r") as f:
         data = json.load(f)
     df = pd.DataFrame(data)
     
-    # --- GLOBAL FILTER: Minimum 300 Cr Market Cap ---
-    initial_count = len(df)
+    # Global Filter (Min 300 Cr)
     df['Market Cap(Cr.)'] = pd.to_numeric(df['Market Cap(Cr.)'], errors='coerce').fillna(0)
     df = df[df['Market Cap(Cr.)'] >= 300].copy()
-    print(f"Filtered out {initial_count - len(df)} stocks below 300 Cr. Processing {len(df)} quality stocks...")
     
-    # 1. Update RS Rating in Stock JSON
+    # 1. Update Ranks
     df = calculate_rs_score(df)
     
-    # 2. Generate Sector/Industry Analytics
-    print("Generating refined Sector & Industry analytics...")
+    # 2. Generate Analytics
+    print("Generating comprehensive analytics for all three dashboard tabs...")
     analytics_output = generate_analytics(df)
     
     with open(SECTOR_OUTPUT_FILE, "w") as f:
         json.dump(analytics_output, f, indent=4)
 
-    # 3. Save Cleaned Stock JSON
-    cols_to_drop = ['RS_Raw', 'Above_SMA_200', 'Above_SMA_50', 'Above_SMA_20', 'Above_EMA_21', 'Power']
+    # 3. Save Final Stock Master
+    cols_to_drop = [
+        'RS_Raw', 'Above_SMA_200', 'Above_SMA_50', 'Above_SMA_20', 
+        'Above_RS_70', 'Above_RS_80', 'Above_RS_90', 'Dist_High'
+    ]
     df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
     
-    final_stock_data = df.to_dict(orient='records')
     with open(OUTPUT_FILE, "w") as f:
-        json.dump(final_stock_data, f, indent=4)
+        json.dump(df.to_dict(orient='records'), f, indent=4)
     
-    print(f"Success! Sector metrics ({len(analytics_output['Sectors'])}) and Industry metrics ({len(analytics_output['Industries'])}) saved to {SECTOR_OUTPUT_FILE}")
+    print(f"Success! Dashboard Engine complete for MA, RS, and Near-High views.")
 
 if __name__ == "__main__":
     main()
