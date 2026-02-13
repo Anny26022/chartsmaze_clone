@@ -50,5 +50,5 @@ jobs:
           git add "DO NOT DELETE EDL PIPELINE/market_breadth.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/all_indices_list.json"
           git commit -m "Automated Daily Data Refresh [skip ci]" || echo "No changes to commit"
-          git pull --rebase origin main
+          git pull --rebase --autostash origin main
           git push
