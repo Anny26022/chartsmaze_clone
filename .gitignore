@@ -14,6 +14,9 @@ DO NOT DELETE EDL PIPELINE/indices_ohlcv_data/
 
 # Track the final Output
 !DO NOT DELETE EDL PIPELINE/all_stocks_fundamental_analysis.json.gz
+!DO NOT DELETE EDL PIPELINE/sector_analytics.json.gz
+!DO NOT DELETE EDL PIPELINE/market_breadth.json.gz
+!DO NOT DELETE EDL PIPELINE/all_indices_list.json
 
 # macOS / Python
 .DS_Store
