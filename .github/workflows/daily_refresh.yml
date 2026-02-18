@@ -21,15 +21,15 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Cache OHLCV Data
+      - name: Cache OHLCV Data  
         uses: actions/cache@v4
         with:
           path: |
             DO NOT DELETE EDL PIPELINE/ohlcv_data
             DO NOT DELETE EDL PIPELINE/indices_ohlcv_data
-          key: ohlcv-cache-${{ runner.os }}-${{ hashFiles('**/master_isin_map.json') }}
+          key: ohlcv-v1-${{ runner.os }}-${{ hashFiles('DO NOT DELETE EDL PIPELINE/master_isin_map.json') }}
           restore-keys: |
-            ohlcv-cache-${{ runner.os }}-
+            ohlcv-v1-${{ runner.os }}-
 
       - name: Install Dependencies
         run: |
