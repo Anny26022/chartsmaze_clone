@@ -18,7 +18,7 @@ OUTPUT_GZ = os.path.join(BASE_DIR, "market_breadth.json.gz") # Matching user req
 LOOKBACK_DAYS = 250
 
 def calculate_historical_breadth():
-    print("⏳ Loading master stock list (300Cr filter)...")
+    print("⏳ Loading master stock list...")
     if not os.path.exists(MASTER_STOCKS_FILE):
         print("Error: Run bulk_market_analyzer first.")
         return
@@ -26,9 +26,9 @@ def calculate_historical_breadth():
     with open(MASTER_STOCKS_FILE, "r") as f:
         stocks_data = json.load(f)
     
-    # Only use stocks we are already tracking (MCAP >= 300)
+    # Only use stocks we are already tracking
     valid_symbols = {s['Symbol'] for s in stocks_data}
-    print(f"Targeting {len(valid_symbols)} quality stocks for historical breadth.")
+    print(f"Targeting {len(valid_symbols)} stocks for historical breadth.")
 
     # 1. Determine Master Timeline (Last 250 days of Nifty 50)
     nifty_path = os.path.join(INDEX_OHLCV_DIR, "NIFTY.csv")

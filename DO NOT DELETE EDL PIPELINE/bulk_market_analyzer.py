@@ -346,8 +346,8 @@ def analyze_all_stocks():
         
         analyzed_data.append(stock_analysis)
 
-    # Filter by Market Cap (Min 300 Cr)
-    final_data = [s for s in analyzed_data if s.get("Market Cap(Cr.)", 0) >= 300]
+    # Filter by Market Cap (Disabled as per user request to include all stocks)
+    final_data = analyzed_data[:]
     
     # Save to JSON
     with open(output_file, "w") as f:

@@ -112,9 +112,9 @@ def main():
         data = json.load(f)
     df = pd.DataFrame(data)
     
-    # Global Filter (Min 300 Cr)
+    # Global Filter (Min 300 Cr) - Disabled as per user request
     df['Market Cap(Cr.)'] = pd.to_numeric(df['Market Cap(Cr.)'], errors='coerce').fillna(0)
-    df = df[df['Market Cap(Cr.)'] >= 300].copy()
+    # df = df[df['Market Cap(Cr.)'] >= 300].copy()
     
     # 1. Update Ranks
     df = calculate_rs_score(df)
