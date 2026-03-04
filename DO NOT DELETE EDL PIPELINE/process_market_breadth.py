@@ -53,16 +53,46 @@ def load_benchmark_returns():
                 return 0.0
             return ((current - past) / past) * 100
         
+        def get_return_1m_ago(lookback):
+            """Return as of 1 month (20 days) ago"""
+            if len(df) < TRADING_DAYS_1M + lookback + 1:
+                return 0.0
+            past = df['Close'].iloc[-(TRADING_DAYS_1M + lookback + 1)]
+            past_date = df['Close'].iloc[-(TRADING_DAYS_1M + 1)]
+            if past <= 0 or past_date <= 0:
+                return 0.0
+            return ((past_date - past) / past) * 100
+        
+        def get_return_3m_ago(lookback):
+            """Return as of 3 months (60 days) ago"""
+            if len(df) < TRADING_DAYS_3M + lookback + 1:
+                return 0.0
+            past = df['Close'].iloc[-(TRADING_DAYS_3M + lookback + 1)]
+            past_date = df['Close'].iloc[-(TRADING_DAYS_3M + 1)]
+            if past <= 0 or past_date <= 0:
+                return 0.0
+            return ((past_date - past) / past) * 100
+        
         benchmark_returns = {
             '3M': get_return(TRADING_DAYS_3M),
             '6M': get_return(TRADING_DAYS_6M),
             '9M': get_return(TRADING_DAYS_9M),
             '12M': get_return(TRADING_DAYS_12M),
-            '1M': get_return(TRADING_DAYS_1M),
-            'current_price': df['Close'].iloc[-1]
+            # Benchmark returns as of 1 month ago
+            '3M_1M_ago': get_return_1m_ago(TRADING_DAYS_3M),
+            '6M_1M_ago': get_return_1m_ago(TRADING_DAYS_6M),
+            '9M_1M_ago': get_return_1m_ago(TRADING_DAYS_9M),
+            '12M_1M_ago': get_return_1m_ago(TRADING_DAYS_12M),
+            # Benchmark returns as of 3 months ago
+            '3M_3M_ago': get_return_3m_ago(TRADING_DAYS_3M),
+            '6M_3M_ago': get_return_3m_ago(TRADING_DAYS_6M),
+            '9M_3M_ago': get_return_3m_ago(TRADING_DAYS_9M),
+            '12M_3M_ago': get_return_3m_ago(TRADING_DAYS_12M),
         }
         
-        print(f"  Benchmark returns: 3M={benchmark_returns['3M']:.1f}%, 6M={benchmark_returns['6M']:.1f}%, 12M={benchmark_returns['12M']:.1f}%")
+        print(f"  Benchmark current: 3M={benchmark_returns['3M']:.1f}%, 6M={benchmark_returns['6M']:.1f}%, 12M={benchmark_returns['12M']:.1f}%")
+        print(f"  Benchmark 1M ago: 3M={benchmark_returns['3M_1M_ago']:.1f}%, 6M={benchmark_returns['6M_1M_ago']:.1f}%")
+        print(f"  Benchmark 3M ago: 3M={benchmark_returns['3M_3M_ago']:.1f}%, 6M={benchmark_returns['6M_3M_ago']:.1f}%")
         return benchmark_returns
         
     except Exception as e:
@@ -79,18 +109,32 @@ def calculate_historical_returns(df, lookback):
         return 0.0
     return ((current_price - past_price) / past_price) * 100
 
-def process_stock_ohlcv(csv_path):
-    """Process a single stock's OHLCV CSV to get historical returns."""
+def calculate_returns_as_of_date(df, days_ago, lookback):
+    """Calculate return for a period ending 'days_ago' trading days from today.
+    e.g., if days_ago=20 and lookback=63, calculate return from (63+20) days ago to 20 days ago."""
+    if len(df) < days_ago + lookback + 1:
+        return 0.0
+    past_price = df['Close'].iloc[-(days_ago + lookback + 1)]
+    past_date_price = df['Close'].iloc[-(days_ago + 1)]
+    if past_price <= 0 or past_date_price <= 0:
+        return 0.0
+    return ((past_date_price - past_price) / past_price) * 100
+
+def process_stock_ohlcv_full(csv_path):
+    """Process a single stock's OHLCV CSV to get ALL historical returns.
+    Includes: current, 1M ago, 3M ago"""
     sym = os.path.basename(csv_path).replace(".csv", "")
     try:
         df = pd.read_csv(csv_path)
-        if df.empty or len(df) < 30:
+        if df.empty or len(df) < 60:
             return sym, None
         
         df['Date'] = pd.to_datetime(df['Date'])
         df = df.sort_values('Date').reset_index(drop=True)
         
         returns = {}
+        
+        # Current returns (from today)
         if len(df) >= TRADING_DAYS_1M + 1:
             returns['1M_Return'] = calculate_historical_returns(df, TRADING_DAYS_1M)
         if len(df) >= TRADING_DAYS_3M + 1:
@@ -101,6 +145,27 @@ def process_stock_ohlcv(csv_path):
             returns['9M_Return'] = calculate_historical_returns(df, TRADING_DAYS_9M)
         if len(df) >= TRADING_DAYS_12M + 1:
             returns['12M_Return'] = calculate_historical_returns(df, TRADING_DAYS_12M)
+        
+        # Returns as of 1 month ago (20 trading days ago)
+        # So what was the 3M return 20 days ago? That's return from 20+3M days ago to 20 days ago
+        if len(df) >= TRADING_DAYS_1M + TRADING_DAYS_3M + 1:
+            returns['3M_Return_1M_ago'] = calculate_returns_as_of_date(df, TRADING_DAYS_1M, TRADING_DAYS_3M)
+        if len(df) >= TRADING_DAYS_1M + TRADING_DAYS_6M + 1:
+            returns['6M_Return_1M_ago'] = calculate_returns_as_of_date(df, TRADING_DAYS_1M, TRADING_DAYS_6M)
+        if len(df) >= TRADING_DAYS_1M + TRADING_DAYS_9M + 1:
+            returns['9M_Return_1M_ago'] = calculate_returns_as_of_date(df, TRADING_DAYS_1M, TRADING_DAYS_9M)
+        if len(df) >= TRADING_DAYS_1M + TRADING_DAYS_12M + 1:
+            returns['12M_Return_1M_ago'] = calculate_returns_as_of_date(df, TRADING_DAYS_1M, TRADING_DAYS_12M)
+        
+        # Returns as of 3 months ago (60 trading days ago)
+        if len(df) >= TRADING_DAYS_3M + TRADING_DAYS_3M + 1:
+            returns['3M_Return_3M_ago'] = calculate_returns_as_of_date(df, TRADING_DAYS_3M, TRADING_DAYS_3M)
+        if len(df) >= TRADING_DAYS_3M + TRADING_DAYS_6M + 1:
+            returns['6M_Return_3M_ago'] = calculate_returns_as_of_date(df, TRADING_DAYS_3M, TRADING_DAYS_6M)
+        if len(df) >= TRADING_DAYS_3M + TRADING_DAYS_9M + 1:
+            returns['9M_Return_3M_ago'] = calculate_returns_as_of_date(df, TRADING_DAYS_3M, TRADING_DAYS_9M)
+        if len(df) >= TRADING_DAYS_3M + TRADING_DAYS_12M + 1:
+            returns['12M_Return_3M_ago'] = calculate_returns_as_of_date(df, TRADING_DAYS_3M, TRADING_DAYS_12M)
         
         return sym, returns
     except Exception as e:
@@ -113,7 +178,7 @@ def load_historical_returns():
     
     historical_data = {}
     with ThreadPoolExecutor(max_workers=10) as executor:
-        futures = [executor.submit(process_stock_ohlcv, cf) for cf in csv_files]
+        futures = [executor.submit(process_stock_ohlcv_full, cf) for cf in csv_files]
         for future in futures:
             sym, returns = future.result()
             if returns:
@@ -159,25 +224,27 @@ def calculate_current_rs(df, historical_data, benchmark=None):
     return df
 
 def calculate_1m_rs(df, historical_data, benchmark=None):
-    """Calculate RS Rating as of 1 month ago (20 trading days) - relative to benchmark."""
+    """Calculate RS Rating as of 1 month ago (20 trading days) - relative to benchmark.
+    Uses historical returns from 1 month ago."""
     w_3m, w_6m, w_9m, w_12m = 0.4, 0.2, 0.2, 0.2
     
     def get_1m_rs(symbol):
         stock_data = historical_data.get(symbol, {})
-        three_m = stock_data.get('3M_Return', 0)
-        six_m = stock_data.get('6M_Return', 0)
-        nine_m = stock_data.get('9M_Return', 0)
-        twelve_m = stock_data.get('12M_Return', 0)
+        # Use returns from 1 month ago
+        three_m = stock_data.get('3M_Return_1M_ago', 0)
+        six_m = stock_data.get('6M_Return_1M_ago', 0)
+        nine_m = stock_data.get('9M_Return_1M_ago', 0)
+        twelve_m = stock_data.get('12M_Return_1M_ago', 0)
         rs_raw = (three_m * w_3m) + (six_m * w_6m) + (nine_m * w_9m) + (twelve_m * w_12m)
         return rs_raw
     
     if 'RS_1M_Raw' not in df.columns:
         df['RS_1M_Raw'] = df['Symbol'].apply(get_1m_rs)
     
-    # Apply benchmark ratio
+    # Apply benchmark ratio using benchmark returns from 1 month ago
     if benchmark is not None:
-        benchmark_rs = (benchmark['3M'] * w_3m) + (benchmark['6M'] * w_6m) + \
-                      (benchmark['9M'] * w_9m) + (benchmark['12M'] * w_12m)
+        benchmark_rs = (benchmark.get('3M_1M_ago', 0) * w_3m) + (benchmark.get('6M_1M_ago', 0) * w_6m) + \
+                      (benchmark.get('9M_1M_ago', 0) * w_9m) + (benchmark.get('12M_1M_ago', 0) * w_12m)
         df['RS_1M_Ratio'] = ((1 + df['RS_1M_Raw']) / (1 + benchmark_rs)) * 100
     else:
         df['RS_1M_Ratio'] = df['RS_1M_Raw'] + 100
@@ -191,25 +258,27 @@ def calculate_1m_rs(df, historical_data, benchmark=None):
     return df
 
 def calculate_3m_rs(df, historical_data, benchmark=None):
-    """Calculate RS Rating as of 3 months ago (60 trading days) - relative to benchmark."""
+    """Calculate RS Rating as of 3 months ago (60 trading days) - relative to benchmark.
+    Uses historical returns from 3 months ago."""
     w_3m, w_6m, w_9m, w_12m = 0.4, 0.2, 0.2, 0.2
     
     def get_3m_rs(symbol):
         stock_data = historical_data.get(symbol, {})
-        three_m = stock_data.get('3M_Return', 0)
-        six_m = stock_data.get('6M_Return', 0)
-        nine_m = stock_data.get('9M_Return', 0)
-        twelve_m = stock_data.get('12M_Return', 0)
+        # Use returns from 3 months ago
+        three_m = stock_data.get('3M_Return_3M_ago', 0)
+        six_m = stock_data.get('6M_Return_3M_ago', 0)
+        nine_m = stock_data.get('9M_Return_3M_ago', 0)
+        twelve_m = stock_data.get('12M_Return_3M_ago', 0)
         rs_raw = (three_m * w_3m) + (six_m * w_6m) + (nine_m * w_9m) + (twelve_m * w_12m)
         return rs_raw
     
     if 'RS_3M_Raw' not in df.columns:
         df['RS_3M_Raw'] = df['Symbol'].apply(get_3m_rs)
     
-    # Apply benchmark ratio
+    # Apply benchmark ratio using benchmark returns from 3 months ago
     if benchmark is not None:
-        benchmark_rs = (benchmark['3M'] * w_3m) + (benchmark['6M'] * w_6m) + \
-                      (benchmark['9M'] * w_9m) + (benchmark['12M'] * w_12m)
+        benchmark_rs = (benchmark.get('3M_3M_ago', 0) * w_3m) + (benchmark.get('6M_3M_ago', 0) * w_6m) + \
+                      (benchmark.get('9M_3M_ago', 0) * w_9m) + (benchmark.get('12M_3M_ago', 0) * w_12m)
         df['RS_3M_Ratio'] = ((1 + df['RS_3M_Raw']) / (1 + benchmark_rs)) * 100
     else:
         df['RS_3M_Ratio'] = df['RS_3M_Raw'] + 100
