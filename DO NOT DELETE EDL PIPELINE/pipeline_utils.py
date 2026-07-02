@@ -10,7 +10,9 @@ import gzip
 import json
 import os
 import random
+import time
 from pathlib import Path
+from tempfile import NamedTemporaryFile
 
 import requests
 
@@ -73,24 +75,49 @@ def load_json(path, default=None):
         raise
 
 
-def save_json(path, data, indent=4, ensure_ascii=True):
-    """Write JSON to a pipeline-relative path and create parent dirs."""
+def atomic_replace_bytes(path, data):
+    """Atomically write bytes to a pipeline-relative path."""
     resolved = resolve_path(path)
     resolved.parent.mkdir(parents=True, exist_ok=True)
-    with resolved.open("w") as f:
-        json.dump(data, f, indent=indent, ensure_ascii=ensure_ascii)
+    with NamedTemporaryFile("wb", delete=False, dir=resolved.parent, prefix=f".{resolved.name}.", suffix=".tmp") as tmp:
+        tmp.write(data)
+        tmp_path = Path(tmp.name)
+    try:
+        tmp_path.replace(resolved)
+    except Exception:
+        tmp_path.unlink(missing_ok=True)
+        raise
+
+
+def atomic_replace_text(path, text):
+    """Atomically write text to a pipeline-relative path."""
+    atomic_replace_bytes(path, text.encode())
+
+
+def save_json(path, data, indent=4, ensure_ascii=True):
+    """Write JSON atomically to a pipeline-relative path and create parent dirs."""
+    text = json.dumps(data, indent=indent, ensure_ascii=ensure_ascii)
+    atomic_replace_text(path, text)
 
 
 def compress_file(src, dst, compresslevel=9):
-    """Gzip one file and return raw/gz byte sizes."""
+    """Atomically gzip one file and return raw/gz byte sizes."""
     src_path = resolve_path(src)
     dst_path = resolve_path(dst)
     if not src_path.exists():
         return 0, 0
 
     raw_size = src_path.stat().st_size
-    with src_path.open("rb") as f_in, gzip.open(dst_path, "wb", compresslevel=compresslevel) as f_out:
-        f_out.write(f_in.read())
+    dst_path.parent.mkdir(parents=True, exist_ok=True)
+    with NamedTemporaryFile("wb", delete=False, dir=dst_path.parent, prefix=f".{dst_path.name}.", suffix=".tmp") as tmp:
+        tmp_path = Path(tmp.name)
+    try:
+        with src_path.open("rb") as f_in, gzip.open(tmp_path, "wb", compresslevel=compresslevel) as f_out:
+            f_out.write(f_in.read())
+        tmp_path.replace(dst_path)
+    except Exception:
+        tmp_path.unlink(missing_ok=True)
+        raise
     return raw_size, dst_path.stat().st_size
 
 
@@ -100,16 +127,25 @@ def chunked(items, size):
         yield i, items[i:i + size]
 
 
-def post_json(url, payload, include_origin=False, timeout=30):
-    """POST JSON and return the decoded response."""
-    response = requests.post(
-        url,
-        json=payload,
-        headers=get_headers(include_origin=include_origin),
-        timeout=timeout,
-    )
-    response.raise_for_status()
-    return response.json()
+def post_json(url, payload, include_origin=False, timeout=30, retries=2, backoff=0.5):
+    """POST JSON with bounded retries and return the decoded response."""
+    last_error = None
+    for attempt in range(retries + 1):
+        try:
+            response = requests.post(
+                url,
+                json=payload,
+                headers=get_headers(include_origin=include_origin),
+                timeout=timeout,
+            )
+            response.raise_for_status()
+            return response.json()
+        except requests.RequestException as e:
+            last_error = e
+            if attempt >= retries:
+                raise
+            time.sleep(backoff * (2 ** attempt))
+    raise last_error
 
 
 def fetch_scanx_data(payload, timeout=30):

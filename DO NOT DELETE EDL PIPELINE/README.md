@@ -29,6 +29,7 @@ python3 run_full_pipeline.py
 ```
 
 Runs the fetch, analysis, enrichment, breadth, and compression stages in dependency order and produces `all_stocks_fundamental_analysis.json.gz`.
+The runner also writes `pipeline_report.json` with script status, artifact validation results, byte sizes, configuration flags, and the final exit code.
 
 **Configuration flags:**
 - `FETCH_OHLCV = True/False` — Include stock/index OHLCV sync. Stock OHLCV is incremental and currently defaults to roughly two years of history when no local CSV exists.
@@ -54,21 +55,35 @@ PHASE 5 (Output):     gzip compression of final artifacts
 
 ### Reliability Notes
 - The pipeline preserves the existing public/undocumented endpoint behavior, but critical foundation scripts now exit non-zero when they cannot produce their required files.
+- JSON and gzip writes are atomic, so interrupted writes do not leave half-written final artifacts in place.
+- Shared HTTP POST calls use bounded retries with exponential backoff for transient upstream/network errors.
+- Known script outputs are validated after each script runs. Required script validation failures stop the pipeline; optional/enrichment validation failures are reported as warnings.
+- Final release artifacts are validated before the runner returns success: `all_stocks_fundamental_analysis.json.gz`, `sector_analytics.json.gz`, `market_breadth.json.gz`, and `all_indices_list.json`.
 - Non-critical enrichment failures are reported in the final runner summary so a refresh can finish while still showing incomplete sections.
 - Shared helpers live in `pipeline_utils.py`, `dhan_next_utils.py`, `nse_archive_utils.py`, and `ohlcv_utils.py` to keep request, JSON, gzip, path, Next.js, NSE archive, and OHLCV parsing behavior consistent.
-- See `docs/DATA_LIMITATIONS.md` before relying on generated artifacts. This project is not affiliated with Dhan, NSE, or any exchange, and outputs are not investment advice.
+- Importable package code lives under `src/edl_pipeline/`. The top-level scripts remain compatibility wrappers so existing automation can keep running `python3 run_full_pipeline.py` and individual script names.
+- See `docs/DATA_LIMITATIONS.md` before relying on generated artifacts. This project is not affiliated with Dhan, NSE, Google, or any exchange, and outputs are not investment advice.
+
+### Unofficial Endpoint Reference
+
+The full endpoint dossier is in [`docs/DHAN_UNOFFICIAL_ENDPOINTS.md`](docs/DHAN_UNOFFICIAL_ENDPOINTS.md). It documents every public/unofficial source currently used by this repo: Dhan ScanX, Dhan static ScanX, Dhan news, Dhan tick history, Dhan Next.js data files, Google Sheets Gviz surveillance lists, and NSE archive CSVs.
+
+For data lineage, see [`docs/DHAN_ENDPOINT_TO_ARTIFACT_MAP.md`](docs/DHAN_ENDPOINT_TO_ARTIFACT_MAP.md), which maps each endpoint to the script, raw artifact, transform, and final fields it affects.
 
 ### Verification
 ```bash
 python3 -m unittest discover -s tests -v
 python3 -m compileall -q .
+python3 -m pip install -e . --dry-run
 ```
 
 The unit tests cover deterministic transform helpers without calling live Dhan/NSE endpoints. Run `python3 run_full_pipeline.py` only when you want a full live data refresh.
 
 ---
 
-## 📡 API Reference (Endpoints, Payloads & Limits)
+## 📡 Quick API Reference (Endpoints, Payloads & Limits)
+
+This section is a compact overview. The detailed, repo-grounded source reference lives in [`docs/DHAN_UNOFFICIAL_ENDPOINTS.md`](docs/DHAN_UNOFFICIAL_ENDPOINTS.md).
 
 ### 1. Full Market Data — `fetch_dhan_data.py`
 | Key | Value |
@@ -285,6 +300,12 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 | `pipeline_utils.py` | Shared paths, headers, JSON, gzip, and ScanX helpers |
 | `nse_archive_utils.py` | Shared NSE archive CSV lookup/parsing helpers |
 | `ohlcv_utils.py` | Shared OHLCV candle parsing and CSV read/write helpers |
+| `src/edl_pipeline/runner.py` | Importable pipeline runner used by `run_full_pipeline.py` |
+| `src/edl_pipeline/artifacts.py` | Stage script lists and generated artifact names |
+| `src/edl_pipeline/config.py` | Environment-backed runtime configuration |
+| `src/edl_pipeline/schemas.py` | Stable public output field names |
+| `src/edl_pipeline/transforms/` | Modular transform implementations behind legacy wrappers |
+| `src/edl_pipeline/sources/` | Source endpoint facades for future fetcher cleanup |
 
 ### Standalone Scripts
 | File | Role |

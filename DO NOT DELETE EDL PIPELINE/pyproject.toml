@@ -33,6 +33,12 @@ dependencies = [
 edl-pipeline = "run_full_pipeline:main"
 
 [tool.setuptools]
+package-dir = { "edl_pipeline" = "src/edl_pipeline" }
+packages = [
+    "edl_pipeline",
+    "edl_pipeline.sources",
+    "edl_pipeline.transforms",
+]
 py-modules = [
     "add_corporate_events",
     "advanced_metrics_processor",

@@ -1,9 +1,17 @@
 import contextlib
+import gzip
 import io
+import json
+import sys
 import tempfile
 import unittest
 from unittest import mock
 from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+SRC = ROOT / "src"
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
 
 from fetch_bulk_block_deals import date_chunks, dedupe_deals
 from fetch_company_filings import dedupe_filings
@@ -11,11 +19,20 @@ from fetch_corporate_actions import flatten_actions
 from fetch_dhan_data import build_master_map
 from fetch_fno_expiry import flatten_expiry_data
 from fetch_fno_lot_sizes import clean_lot_size_item
-from bulk_market_analyzer import calculate_cagr
+from bulk_market_analyzer import analyze_stock, calculate_cagr
 from nse_archive_utils import clean_records
 from ohlcv_utils import merge_rows_by_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
 from pipeline_utils import chunked, load_json, save_json
 from run_full_pipeline import env_bool
+from edl_pipeline.schemas import REQUIRED_FINAL_FIELDS
+from edl_pipeline.transforms.events import (
+    apply_events_to_master,
+    collect_circuit_revision_events,
+    collect_deal_events,
+    collect_surveillance_events,
+    collect_upcoming_action_events,
+)
+from edl_pipeline.transforms.historical_breadth import build_breadth_rows, empty_breadth_arrays
 
 
 class TransformTests(unittest.TestCase):
@@ -38,6 +55,58 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(calculate_cagr(-10, 100, 5), 0.0)
         self.assertEqual(calculate_cagr(100, -10, 5), 0.0)
         self.assertAlmostEqual(calculate_cagr(200, 100, 5), 14.8698, places=3)
+
+    def test_analyze_stock_preserves_core_formula_outputs(self):
+        item = {
+            "Symbol": "ABC",
+            "Name": "ABC Ltd",
+            "incomeStat_cq": {
+                "YEAR": "Q1|Q0",
+                "NET_PROFIT": "10|5|4|3|2",
+                "EPS": "2|1|0.5|0.25|1",
+                "SALES": "100|80|70|60|50",
+                "OPM": "20|15|10|5|10",
+            },
+            "incomeStat_cy": {"EPS": "8|6", "SALES": "200|180|160|140|120|100"},
+            "TTM_cy": {"OPM": "18", "EPS": "7"},
+            "CV": {"INDUSTRY_NAME": "Software", "SECTOR": "IT", "MARKET_CAP": "1000", "STOCK_PE": "20"},
+            "roce_roe": {"ROE": "15", "ROCE": "18"},
+            "sHp": {"FII": "10|8", "DII": "5|4", "PROMOTER": "40"},
+            "bs_c": {"NON_CURRENT_LIABILITIES": "50", "TOTAL_EQUITY": "100"},
+        }
+        tech = {
+            "Ltp": "100",
+            "High1Yr": "120",
+            "DayRSI14CurrentCandle": "62.5",
+            "PPerchange": "1",
+            "PricePerchng1week": "2",
+            "PricePerchng1mon": "3",
+            "PricePerchng3mon": "4",
+            "PricePerchng1year": "5",
+            "idxlist": [{"Indexid": 13, "Name": "Nifty 50"}],
+        }
+        advanced = {
+            "SMA": [{"Indicator": "20-SMA", "Value": "80"}],
+            "EMA": [{"Indicator": "200-EMA", "Value": "125"}],
+            "TechnicalIndicators": [{"Indicator": "RSI", "Action": "Neutral"}, {"Indicator": "MACD", "Action": "Bullish"}],
+            "Pivots": [{"Classic": {"PP": "123.45"}}],
+        }
+
+        result = analyze_stock(item, tech, advanced, {"ABC": "2020-01-01"})
+
+        self.assertEqual(result["QoQ % Net Profit Latest"], 100.0)
+        self.assertEqual(result["YoY % Net Profit Latest"], 400.0)
+        self.assertAlmostEqual(result["Sales Growth 5 Years(%)"], 14.87, places=2)
+        self.assertEqual(result["D/E"], 0.5)
+        self.assertEqual(result["PEG"], 0.2)
+        self.assertEqual(result["Forward P/E"], 17.5)
+        self.assertEqual(result["Free Float(%)"], 60.0)
+        self.assertEqual(result["Float Shares(Cr.)"], 6.0)
+        self.assertEqual(result["% from 52W High"], -16.67)
+        self.assertEqual(result["Index"], "Nifty 50")
+        self.assertEqual(result["SMA Status"], "SMA 20: Above (25.0%)")
+        self.assertEqual(result["EMA Status"], "EMA 200: Below (-20.0%)")
+        self.assertEqual(result["Technical Sentiment"], "RSI: Neutral | MACD: Bullish")
 
     def test_dedupe_filings_prefers_record_with_file_url(self):
         filings = [
@@ -149,6 +218,54 @@ class TransformTests(unittest.TestCase):
         with mock.patch.dict("os.environ", {"FLAG": "not-a-bool"}, clear=True):
             with contextlib.redirect_stdout(io.StringIO()):
                 self.assertTrue(env_bool("FLAG", True))
+
+    def test_event_transform_helpers_preserve_marker_contract(self):
+        today = __import__("datetime").datetime(2026, 1, 10)
+
+        merged = {}
+        for event_map in [
+            collect_surveillance_events([{"Symbol": "ABC", "Stage": "LTASM - I"}]),
+            collect_upcoming_action_events(
+                [{"Symbol": "ABC", "Type": "DIVIDEND", "ExDate": "2026-01-20"}],
+                today=today,
+            ),
+            collect_circuit_revision_events([{"Symbol": "ABC", "From": "10", "To": "20"}]),
+            collect_deal_events([{"sym": "ABC", "deal": "BULK", "date": "2026-01-08 00:00:00"}], today=today),
+        ]:
+            for symbol, events in event_map.items():
+                merged.setdefault(symbol, []).extend(events)
+
+        master = [{"Symbol": "ABC"}, {"Symbol": "XYZ"}]
+        result = apply_events_to_master(master, merged, {"ABC": [{"Headline": "Result"}]}, {"ABC": [{"Title": "News"}]})
+
+        self.assertIn("★: LTASM", result[0]["Event Markers"])
+        self.assertIn("💸: Dividend (20-Jan)", result[0]["Event Markers"])
+        self.assertEqual(result[0]["Recent Announcements"], [{"Headline": "Result"}])
+        self.assertEqual(result[0]["News Feed"], [{"Title": "News"}])
+        self.assertEqual(result[1]["Event Markers"], "N/A")
+
+    def test_current_gzip_artifact_has_required_public_schema_fields(self):
+        artifact = ROOT / "all_stocks_fundamental_analysis.json.gz"
+        self.assertTrue(artifact.exists())
+
+        with gzip.open(artifact, "rt") as f:
+            rows = json.load(f)
+
+        self.assertGreater(len(rows), 0)
+        for field in REQUIRED_FINAL_FIELDS:
+            self.assertIn(field, rows[0])
+
+    def test_historical_breadth_rows_preserve_legacy_labels(self):
+        timeline = ["2026-01-01", "2026-01-02"]
+        arrays = empty_breadth_arrays(len(timeline))
+        arrays["advances"][0] = 2
+        arrays["declines"][0] = 1
+        rows = build_breadth_rows(timeline, arrays, {"Nifty 50": [100, 101]}, processed_count=2)
+
+        self.assertEqual(rows[0], "Type of Info,2026-01-01,2026-01-02")
+        self.assertIn("5 Day Ratio,2.0,2.0", rows)
+        self.assertIn("Nifty 500 % of W&M RSI > 60,0,0", rows)
+        self.assertEqual(rows[-1], "Nifty 50,100,101")
 
 
 if __name__ == "__main__":
