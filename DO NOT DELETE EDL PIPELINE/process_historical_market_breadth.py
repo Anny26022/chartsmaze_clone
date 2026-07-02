@@ -1,18 +1,15 @@
 import os
-import json
+import sys
 import pandas as pd
 import glob
 import numpy as np
-import gzip
-from datetime import datetime
-from pipeline_utils import BASE_DIR
+from pipeline_utils import BASE_DIR, load_json
 
 # --- Configuration ---
 SYMBOL_OHLCV_DIR = os.path.join(BASE_DIR, "ohlcv_data")
 INDEX_OHLCV_DIR = os.path.join(BASE_DIR, "indices_ohlcv_data")
 MASTER_STOCKS_FILE = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 OUTPUT_CSV = os.path.join(BASE_DIR, "market_breadth.csv")
-OUTPUT_GZ = os.path.join(BASE_DIR, "market_breadth.json.gz") # Matching user requested file naming convention
 
 # Max days to look back (250 trading days ~ 1 year)
 LOOKBACK_DAYS = 250
@@ -21,10 +18,9 @@ def calculate_historical_breadth():
     print("⏳ Loading master stock list...")
     if not os.path.exists(MASTER_STOCKS_FILE):
         print("Error: Run bulk_market_analyzer first.")
-        return
+        return False
 
-    with open(MASTER_STOCKS_FILE, "r") as f:
-        stocks_data = json.load(f)
+    stocks_data = load_json(MASTER_STOCKS_FILE)
     
     # Only use stocks we are already tracking
     valid_symbols = {s['Symbol'] for s in stocks_data}
@@ -34,7 +30,7 @@ def calculate_historical_breadth():
     nifty_path = os.path.join(INDEX_OHLCV_DIR, "NIFTY.csv")
     if not os.path.exists(nifty_path):
         print("Error: NIFTY index data not found.")
-        return
+        return False
     
     nifty_df = pd.read_csv(nifty_path)
     timeline = nifty_df['Date'].tail(LOOKBACK_DAYS).tolist()
@@ -110,7 +106,7 @@ def calculate_historical_breadth():
                 else: vol_minus[idx] += 1
             
             processed_count += 1
-        except:
+        except Exception:
             continue
 
     print(f"✅ Analyzed {processed_count} stocks. Merging with Index data...")
@@ -198,6 +194,7 @@ def calculate_historical_breadth():
         f.write(final_output)
 
     print(f"🚀 Market Breadth Historical Data generated: {OUTPUT_CSV}")
+    return True
 
 if __name__ == "__main__":
-    calculate_historical_breadth()
+    sys.exit(0 if calculate_historical_breadth() else 1)

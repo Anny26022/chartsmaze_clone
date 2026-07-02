@@ -1,9 +1,9 @@
-import json
 import os
+import sys
 import pandas as pd
 import numpy as np
 import glob
-from pipeline_utils import BASE_DIR
+from pipeline_utils import BASE_DIR, load_json, save_json
 from concurrent.futures import ThreadPoolExecutor
 
 # --- Configuration ---
@@ -384,11 +384,10 @@ def generate_analytics(df):
 def main():
     if not os.path.exists(INPUT_FILE):
         print("Input file not found.")
-        return
+        return False
 
     print("Loading data for Multi-Tab Analysis (MA, RS, NH)...")
-    with open(INPUT_FILE, "r") as f:
-        data = json.load(f)
+    data = load_json(INPUT_FILE)
     df = pd.DataFrame(data)
     
     df['Market Cap(Cr.)'] = pd.to_numeric(df['Market Cap(Cr.)'], errors='coerce').fillna(0)
@@ -427,8 +426,7 @@ def main():
     print("Generating comprehensive analytics for all three dashboard tabs...")
     analytics_output = generate_analytics(df)
     
-    with open(SECTOR_OUTPUT_FILE, "w") as f:
-        json.dump(analytics_output, f, indent=4)
+    save_json(SECTOR_OUTPUT_FILE, analytics_output)
 
     # 6. Save Final Stock Master with new RS columns
     cols_to_drop = [
@@ -439,8 +437,7 @@ def main():
     ]
     df = df.drop(columns=[c for c in cols_to_drop if c in df.columns])
     
-    with open(OUTPUT_FILE, "w") as f:
-        json.dump(df.to_dict(orient='records'), f, indent=4)
+    save_json(OUTPUT_FILE, df.to_dict(orient='records'))
     
     print(f"Success! Dashboard Engine complete with new RS metrics:")
     print(f"  - Current RS Rating (40% 3M + 20% 6M + 20% 9M + 20% 12M)")
@@ -449,6 +446,7 @@ def main():
     print(f"  - Industry RS Rank")
     print(f"  - Industry 1W Rank")
     print(f"  - Industry 3W Rank")
+    return True
 
 if __name__ == "__main__":
-    main()
+    sys.exit(0 if main() else 1)

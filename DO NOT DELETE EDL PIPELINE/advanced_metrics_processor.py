@@ -1,11 +1,12 @@
 import pandas as pd
-import json
 import os
 import glob
+import sys
 from concurrent.futures import ThreadPoolExecutor
 
+from pipeline_utils import BASE_DIR, load_json, save_json
+
 # --- Configuration ---
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_INPUT = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 PRICE_BANDS_FILE = os.path.join(BASE_DIR, "complete_price_bands.json")
 OHLCV_DIR = os.path.join(BASE_DIR, "ohlcv_data")
@@ -102,20 +103,17 @@ def process_symbol_csv(csv_path):
 def main():
     print("Loading base analysis data...")
     try:
-        with open(JSON_INPUT, "r") as f:
-            base_data = json.load(f)
+        base_data = load_json(JSON_INPUT)
     except Exception as e:
         print(f"Error: {JSON_INPUT} not found. Run bulk_market_analyzer.py first.")
-        return
+        return False
 
     print("Loading Price Bands (Circuit Limits)...")
     price_band_map = {}
     try:
-        with open(PRICE_BANDS_FILE, "r") as f:
-            pb_data = json.load(f)
-            for item in pb_data:
-                price_band_map[item.get("Symbol")] = item.get("Band")
-    except:
+        for item in load_json(PRICE_BANDS_FILE):
+            price_band_map[item.get("Symbol")] = item.get("Band")
+    except Exception:
         print("Warning: Price bands file not found.")
 
     print("Processing OHLCV metrics for all stocks...")
@@ -165,10 +163,10 @@ def main():
             for p in placeholders:
                 if p not in stock: stock[p] = 0.0
 
-    with open(JSON_OUTPUT, "w") as f:
-        json.dump(base_data, f, indent=4)
+    save_json(JSON_OUTPUT, base_data)
     
     print(f"Successfully updated master JSON: {JSON_OUTPUT}")
+    return True
 
 if __name__ == "__main__":
-    main()
+    sys.exit(0 if main() else 1)

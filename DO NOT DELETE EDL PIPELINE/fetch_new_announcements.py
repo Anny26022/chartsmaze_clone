@@ -1,13 +1,12 @@
-import json
-import requests
-import os
-import time
+import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from pipeline_utils import BASE_DIR, get_headers
+
+from pipeline_utils import load_json, post_json, save_json
 
 # --- Configuration ---
-INPUT_FILE = os.path.join(BASE_DIR, "master_isin_map.json")
-OUTPUT_FILE = os.path.join(BASE_DIR, "all_company_announcements.json")
+INPUT_FILE = "master_isin_map.json"
+OUTPUT_FILE = "all_company_announcements.json"
+API_URL = "https://ow-static-scanx.dhan.co/staticscanx/announcements"
 MAX_THREADS = 40  # Faster for small payloads
 
 def fetch_announcements(item):
@@ -15,39 +14,31 @@ def fetch_announcements(item):
     symbol = item.get("Symbol")
     isin = item.get("ISIN")
     name = item.get("Name")
-    
-    api_url = "https://ow-static-scanx.dhan.co/staticscanx/announcements"
-    headers = get_headers()
 
     payload = {"data": {"isin": isin}}
 
     try:
-        response = requests.post(api_url, json=payload, headers=headers, timeout=10)
-        if response.status_code == 200:
-            res_json = response.json()
-            announcments = res_json.get("data")
-            if announcments and isinstance(announcments, list):
-                # Return list of mapped results
-                return [
-                    {
-                        "Symbol": symbol,
-                        "Name": name,
-                        "Event": ann.get("events"),
-                        "Date": ann.get("date"),
-                        "Type": ann.get("type")
-                    } for ann in announcments
-                ]
+        announcements = post_json(API_URL, payload, timeout=10).get("data")
+        if announcements and isinstance(announcements, list):
+            return [
+                {
+                    "Symbol": symbol,
+                    "Name": name,
+                    "Event": ann.get("events"),
+                    "Date": ann.get("date"),
+                    "Type": ann.get("type")
+                } for ann in announcements
+            ]
         return None
-    except Exception as e:
+    except Exception:
         return None
 
 def main():
-    if not os.path.exists(INPUT_FILE):
+    try:
+        master_list = load_json(INPUT_FILE)
+    except FileNotFoundError:
         print(f"Error: {INPUT_FILE} not found.")
-        return
-
-    with open(INPUT_FILE, "r") as f:
-        master_list = json.load(f)
+        return False
 
     print(f"Starting fetch for {len(master_list)} stocks...")
     all_results = []
@@ -67,10 +58,9 @@ def main():
     # Sort results by date descending
     all_results.sort(key=lambda x: x.get("Date", ""), reverse=True)
 
-    with open(OUTPUT_FILE, "w") as f:
-        json.dump(all_results, f, indent=4)
-
+    save_json(OUTPUT_FILE, all_results)
     print(f"Successfully saved {len(all_results)} announcements to {OUTPUT_FILE}")
+    return True
 
 if __name__ == "__main__":
-    main()
+    sys.exit(0 if main() else 1)

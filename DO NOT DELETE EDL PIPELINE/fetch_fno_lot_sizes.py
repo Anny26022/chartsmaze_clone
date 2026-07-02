@@ -1,81 +1,63 @@
-import requests
-import json
-import re
+import sys
 
-def get_build_id():
-    url = "https://dhan.co/nse-fno-lot-size/"
-    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        match = re.search(r'"buildId":"([^"]+)"', response.text)
-        return match.group(1) if match else None
-    except:
-        return None
+from dhan_next_utils import find_nested_list, get_build_id, get_embedded_next_data, get_next_data
+from pipeline_utils import save_json
+
+
+PAGE_URL = "https://dhan.co/nse-fno-lot-size/"
+NEXT_PAGE = "nse-fno-lot-size"
+OUTPUT_FILE = "fno_lot_sizes_cleaned.json"
+
+
+def is_lot_size_list(items):
+    return len(items) > 10 and isinstance(items[0], dict) and ("sym" in items[0] or "symbol" in items[0])
+
+
+def load_instrument_list(build_id):
+    data = get_next_data(build_id, NEXT_PAGE)
+    instrument_list = data.get("pageProps", {}).get("listData", [])
+    if instrument_list:
+        return instrument_list
+
+    print("Falling back to BeautifulSoup extraction...")
+    embedded = get_embedded_next_data(PAGE_URL)
+    return find_nested_list(embedded.get("props", {}), is_lot_size_list) or []
+
+
+def clean_lot_size_item(item):
+    lots = {}
+    for index, contract in enumerate(item.get("fo_dt", [])):
+        contract_sym = contract.get("sym", "")
+        try:
+            month_label = contract_sym.split("-")[1]
+        except Exception:
+            month_label = f"Month_{index + 1}"
+        lots[f"Lot_{month_label}"] = contract.get("ls")
+
+    entry = {"Symbol": item.get("sym") or item.get("symbol"), "Name": item.get("disp") or item.get("companyName")}
+    entry.update(lots)
+    return entry
 
 def fetch_fno_lot_sizes():
-    build_id = get_build_id()
-    direct_json_url = f"https://dhan.co/_next/data/{build_id}/nse-fno-lot-size.json"
-    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+    build_id = get_build_id(PAGE_URL)
 
     print(f"Primary Fetch: Direct JSON via Next.js Data API...")
-    instrument_list = []
     try:
-        response = requests.get(direct_json_url, headers=headers, timeout=15)
-        if response.status_code == 200:
-            data = response.json()
-            instrument_list = data.get('pageProps', {}).get('listData', [])
-        
-        if not instrument_list:
-            print("Falling back to BeautifulSoup extraction...")
-            from bs4 import BeautifulSoup
-            web_url = "https://dhan.co/nse-fno-lot-size/"
-            response = requests.get(web_url, headers=headers, timeout=15)
-            soup = BeautifulSoup(response.text, 'html.parser')
-            next_data = soup.find('script', id='__NEXT_DATA__')
-            if next_data:
-                data_json = json.loads(next_data.string)
-                # Helper to find the flat list in props
-                def find_data_list(obj):
-                    if isinstance(obj, list) and len(obj) > 10:
-                        if isinstance(obj[0], dict) and ('sym' in obj[0] or 'symbol' in obj[0]): return obj
-                    if isinstance(obj, dict):
-                        for v in obj.values():
-                            res = find_data_list(v)
-                            if res: return res
-                    return None
-                instrument_list = find_data_list(data_json.get('props', {}))
+        instrument_list = load_instrument_list(build_id)
 
         if not instrument_list:
             print("ERROR: Could not locate lot size data.")
-            return
+            return False
 
-        final_list = []
-        for item in instrument_list:
-            symbol = item.get('sym') or item.get('symbol')
-            name = item.get('disp') or item.get('companyName')
-            fo_contracts = item.get('fo_dt', [])
-            
-            lots = {}
-            for i, contract in enumerate(fo_contracts):
-                contract_sym = contract.get('sym', '')
-                try:
-                    month_label = contract_sym.split('-')[1]
-                except:
-                    month_label = f"Month_{i+1}"
-                lots[f"Lot_{month_label}"] = contract.get('ls')
-            
-            entry = {"Symbol": symbol, "Name": name}
-            entry.update(lots)
-            final_list.append(entry)
-        
-        output_file = "fno_lot_sizes_cleaned.json"
-        with open(output_file, 'w') as f:
-            json.dump(final_list, f, indent=4)
+        final_list = [clean_lot_size_item(item) for item in instrument_list]
+        save_json(OUTPUT_FILE, final_list)
             
         print(f"Successfully extracted {len(final_list)} instruments via Direct JSON.")
+        return True
 
     except Exception as e:
         print(f"An error occurred: {e}")
+        return False
 
 if __name__ == "__main__":
-    fetch_fno_lot_sizes()
+    sys.exit(0 if fetch_fno_lot_sizes() else 1)

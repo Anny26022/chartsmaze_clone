@@ -39,36 +39,49 @@ Dependency Chain (Strict Order):
        → all_stocks_fundamental_analysis.json.gz
 
   PHASE 6: Optional (Standalone Data, not in master JSON)
-     - fetch_all_indices.py         → all_indices_list.json
      - fetch_etf_data.py            → etf_data_response.json
 """
 
+import os
+import shutil
 import subprocess
 import sys
-import os
 import time
-import shutil
-import glob
-import gzip
-import json
+from dataclasses import dataclass
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+from pipeline_utils import BASE_DIR, compress_file
+
 
 # ═══════════════════════════════════════════════════
 # Configuration
 # ═══════════════════════════════════════════════════
 
-# OHLCV: Auto-detect mode
-# True = always fetch (incremental update: ~2-5 min if data exists, ~30 min first time)
-# False = skip entirely (ADR, RVOL, ATH, % from ATH fields will be 0)
-FETCH_OHLCV = True
+def env_bool(name, default):
+    """Read a boolean env var while preserving the supplied default."""
+    value = os.getenv(name)
+    if value is None:
+        return default
 
-# Set to True to also fetch standalone data (Indices, ETFs)
-FETCH_OPTIONAL = False
+    normalized = value.strip().lower()
+    if normalized in {"1", "true", "yes", "y", "on"}:
+        return True
+    if normalized in {"0", "false", "no", "n", "off"}:
+        return False
 
-# Auto-delete intermediate files after pipeline succeeds
-# Keeps: all_stocks_fundamental_analysis.json.gz + ohlcv_data/
-CLEANUP_INTERMEDIATE = True
+    print(f"  ⚠️  Ignoring invalid {name}={value!r}; using {default}.")
+    return default
+
+
+# OHLCV: Auto-detect mode.
+# Override with EDL_FETCH_OHLCV=0/1.
+FETCH_OHLCV = env_bool("EDL_FETCH_OHLCV", True)
+
+# Optional standalone ETF scan. Override with EDL_FETCH_OPTIONAL=0/1.
+FETCH_OPTIONAL = env_bool("EDL_FETCH_OPTIONAL", False)
+
+# Auto-delete intermediate files after pipeline succeeds.
+# Override with EDL_CLEANUP_INTERMEDIATE=0/1.
+CLEANUP_INTERMEDIATE = env_bool("EDL_CLEANUP_INTERMEDIATE", True)
 
 # ═══════════════════════════════════════════════════
 
@@ -97,14 +110,52 @@ INTERMEDIATE_DIRS = [
     "market_news",
 ]
 
+FILES_TO_COMPRESS = {
+    "all_stocks_fundamental_analysis.json": "all_stocks_fundamental_analysis.json.gz",
+    "sector_analytics.json": "sector_analytics.json.gz",
+    "market_breadth.csv": "market_breadth.json.gz",
+}
 
-def run_script(script_name, phase_label):
-    """Run a Python script and return success/failure."""
+PHASE2_SCRIPTS = [
+    "fetch_company_filings.py",
+    "fetch_new_announcements.py",
+    "fetch_advanced_indicators.py",
+    "fetch_market_news.py",
+    "fetch_corporate_actions.py",
+    "fetch_surveillance_lists.py",
+    "fetch_circuit_stocks.py",
+    "fetch_bulk_block_deals.py",
+    "fetch_incremental_price_bands.py",
+    "fetch_complete_price_bands.py",
+    "fetch_all_indices.py",
+]
+
+PHASE4_SCRIPTS = [
+    "advanced_metrics_processor.py",
+    "process_earnings_performance.py",
+    "enrich_fno_data.py",
+    "process_market_breadth.py",
+    "process_historical_market_breadth.py",
+    "add_corporate_events.py",
+]
+
+
+@dataclass
+class ScriptResult:
+    ok: bool
+    required: bool
+    elapsed: float = 0.0
+    returncode: int = 0
+    error: str = ""
+
+
+def run_script(script_name, phase_label, required=False):
+    """Run a Python script and report whether it completed successfully."""
     script_path = os.path.join(BASE_DIR, script_name)
     
     if not os.path.exists(script_path):
         print(f"  ⚠️  SKIP: {script_name} not found.")
-        return False
+        return ScriptResult(False, required, error="missing")
     
     print(f"  ▶ Running {script_name}...")
     start = time.time()
@@ -120,50 +171,56 @@ def run_script(script_name, phase_label):
         
         if result.returncode == 0:
             print(f"  ✅ {script_name} ({elapsed:.1f}s)")
-            return True
-        else:
-            print(f"  ❌ {script_name} FAILED ({elapsed:.1f}s)")
-            return True # Continuing on enrichment errors to finish the job
+            return ScriptResult(True, required, elapsed=elapsed)
+
+        print(f"  ❌ {script_name} FAILED ({elapsed:.1f}s, exit {result.returncode})")
+        return ScriptResult(False, required, elapsed=elapsed, returncode=result.returncode)
             
     except subprocess.TimeoutExpired:
         print(f"  ⏰ {script_name} TIMED OUT (>30 min)")
-        return False
+        return ScriptResult(False, required, elapsed=1800, error="timeout")
     except Exception as e:
         print(f"  ❌ {script_name} EXCEPTION: {e}")
-        return False
+        return ScriptResult(False, required, error=str(e))
 
 
 def compress_output():
     """Compress final JSONs to .json.gz for ultra compression."""
-    files_to_compress = {
-        "all_stocks_fundamental_analysis.json": "all_stocks_fundamental_analysis.json.gz",
-        "sector_analytics.json": "sector_analytics.json.gz",
-        "market_breadth.csv": "market_breadth.json.gz"
-    }
-    
     total_raw = 0
     total_gz = 0
     
-    for filename, output_name in files_to_compress.items():
-        json_path = os.path.join(BASE_DIR, filename)
-        gz_path = os.path.join(BASE_DIR, output_name)
-        
-        if os.path.exists(json_path):
-            raw_size = os.path.getsize(json_path)
+    for filename, output_name in FILES_TO_COMPRESS.items():
+        raw_size, gz_size = compress_file(filename, output_name)
+        if raw_size:
             total_raw += raw_size
-            
-            with open(json_path, "rb") as f_in:
-                data = f_in.read()
-            with gzip.open(gz_path, "wb", compresslevel=9) as f_out:
-                f_out.write(data)
-                
-            total_gz += os.path.getsize(gz_path)
+            total_gz += gz_size
         else:
             print(f"  ⚠️  {filename} not found to compress.")
             
     ratio = (1 - total_gz / total_raw) * 100 if total_raw > 0 else 0
     print(f"  📦 Compressed: {total_raw / (1024*1024):.1f} MB → {total_gz / (1024*1024):.1f} MB ({ratio:.0f}% reduction)")
     return total_raw, total_gz
+
+
+def download_nse_listing_dates():
+    """Download NSE listing dates used by the base analyzer."""
+    print("  ▶ Downloading NSE Listing Dates...")
+    csv_path = os.path.join(BASE_DIR, "nse_equity_list.csv")
+    try:
+        result = subprocess.run(
+            ["curl", "-s", "-o", csv_path,
+             "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
+             "--http1.1",
+             "--header", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"],
+            capture_output=True, text=True, timeout=30
+        )
+        if result.returncode == 0 and os.path.getsize(csv_path) > 0:
+            print("  ✅ NSE Listing Dates downloaded.")
+            return True
+        print(f"  ⚠️  NSE CSV download failed (exit {result.returncode}, non-critical).")
+    except Exception as e:
+        print(f"  ⚠️  NSE CSV download failed: {e} (non-critical).")
+    return False
 
 
 def cleanup_intermediate():
@@ -204,49 +261,27 @@ def main():
     # ─── PHASE 1: Core Data ───
     print("\n📦 PHASE 1: Core Data (Foundation)")
     print("─" * 40)
-    results["fetch_dhan_data.py"] = run_script("fetch_dhan_data.py", "Phase 1")
+    results["fetch_dhan_data.py"] = run_script("fetch_dhan_data.py", "Phase 1", required=True)
     
-    if not results["fetch_dhan_data.py"]:
+    if not results["fetch_dhan_data.py"].ok:
         print("\n🛑 CRITICAL: fetch_dhan_data.py failed. Cannot continue.")
         print("   This script produces master_isin_map.json which ALL other scripts need.")
         return
     
-    results["fetch_fundamental_data.py"] = run_script("fetch_fundamental_data.py", "Phase 1")
+    results["fetch_fundamental_data.py"] = run_script("fetch_fundamental_data.py", "Phase 1", required=True)
+
+    if not results["fetch_fundamental_data.py"].ok:
+        print("\n🛑 CRITICAL: fetch_fundamental_data.py failed. Cannot continue.")
+        print("   This script produces fundamental_data.json for the base analyzer.")
+        return
     
-    # Download NSE listing dates CSV
-    print("  ▶ Downloading NSE Listing Dates...")
-    csv_path = os.path.join(BASE_DIR, "nse_equity_list.csv")
-    try:
-        result = subprocess.run(
-            ["curl", "-s", "-o", csv_path,
-             "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
-             "--http1.1",
-             "--header", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"],
-            capture_output=True, text=True, timeout=30
-        )
-        print(f"  ✅ NSE Listing Dates downloaded.")
-    except:
-        print(f"  ⚠️  NSE CSV download failed (non-critical).")
+    download_nse_listing_dates()
 
     # ─── PHASE 2: Data Enrichment ───
     print("\n📡 PHASE 2: Data Enrichment (Fetching)")
     print("─" * 40)
     
-    phase2_scripts = [
-        "fetch_company_filings.py",
-        "fetch_new_announcements.py",
-        "fetch_advanced_indicators.py",
-        "fetch_market_news.py",
-        "fetch_corporate_actions.py",
-        "fetch_surveillance_lists.py",
-        "fetch_circuit_stocks.py",
-        "fetch_bulk_block_deals.py",
-        "fetch_incremental_price_bands.py",
-        "fetch_complete_price_bands.py",
-        "fetch_all_indices.py",
-    ]
-    
-    for script in phase2_scripts:
+    for script in PHASE2_SCRIPTS:
         results[script] = run_script(script, "Phase 2")
     
     # ─── PHASE 2.5: OHLCV (Smart Incremental) ───
@@ -263,9 +298,9 @@ def main():
     # ─── PHASE 3: Base Analysis ───
     print("\n🔬 PHASE 3: Base Analysis (Building Master JSON)")
     print("─" * 40)
-    results["bulk_market_analyzer.py"] = run_script("bulk_market_analyzer.py", "Phase 3")
+    results["bulk_market_analyzer.py"] = run_script("bulk_market_analyzer.py", "Phase 3", required=True)
     
-    if not results["bulk_market_analyzer.py"]:
+    if not results["bulk_market_analyzer.py"].ok:
         print("\n🛑 CRITICAL: bulk_market_analyzer.py failed.")
         print("   Cannot produce all_stocks_fundamental_analysis.json.")
         return
@@ -274,23 +309,8 @@ def main():
     print("\n✨ PHASE 4: Enrichment (Injecting into Master JSON)")
     print("─" * 40)
     
-    # 4a. Advanced Metrics (ADR, RVOL, ATH) - needs ohlcv_data/
-    results["advanced_metrics_processor.py"] = run_script("advanced_metrics_processor.py", "Phase 4")
-    
-    # 4b. Earnings Performance - needs company_filings/ + ohlcv_data/
-    results["process_earnings_performance.py"] = run_script("process_earnings_performance.py", "Phase 4")
-    
-    # 4c. F&O Data (Lot Size, Next Expiry)
-    results["enrich_fno_data.py"] = run_script("enrich_fno_data.py", "Phase 4")
-    
-    # 4d. Market Breadth & Relative Strength Rating (Needs returns and SMA status)
-    results["process_market_breadth.py"] = run_script("process_market_breadth.py", "Phase 4")
-
-    # 4e. Historical Market Breadth (Line Charts)
-    results["process_historical_market_breadth.py"] = run_script("process_historical_market_breadth.py", "Phase 4")
-    
-    # 4e. Corporate Events + News Feed (MUST BE LAST)
-    results["add_corporate_events.py"] = run_script("add_corporate_events.py", "Phase 4")
+    for script in PHASE4_SCRIPTS:
+        results[script] = run_script(script, "Phase 4")
     
     # ─── PHASE 5: Compression ───
     print("\n📦 PHASE 5: Compression (.json → .json.gz)")
@@ -301,7 +321,7 @@ def main():
     if FETCH_OPTIONAL:
         print("\n📋 PHASE 6: Optional Standalone Data")
         print("─" * 40)
-        for script in ["fetch_all_indices.py", "fetch_etf_data.py"]:
+        for script in ["fetch_etf_data.py"]:
             results[script] = run_script(script, "Phase 6")
     
     # ─── CLEANUP: Remove intermediate files ───
@@ -312,8 +332,8 @@ def main():
     
     # ─── FINAL REPORT ───
     total_time = time.time() - overall_start
-    success = sum(1 for v in results.values() if v)
-    failed = sum(1 for v in results.values() if not v)
+    success = sum(1 for v in results.values() if v.ok)
+    failed = sum(1 for v in results.values() if not v.ok)
     
     print("\n" + "═" * 60)
     print("  PIPELINE COMPLETE")
@@ -324,9 +344,10 @@ def main():
     
     if failed > 0:
         print("\n  Failed Scripts:")
-        for script, ok in results.items():
-            if not ok:
-                print(f"    ❌ {script}")
+        for script, result in results.items():
+            if not result.ok:
+                critical = " CRITICAL" if result.required else ""
+                print(f"    ❌{critical} {script}")
     
     gz_path = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json.gz")
     if os.path.exists(gz_path):

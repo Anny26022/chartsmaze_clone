@@ -1,8 +1,26 @@
-# EDL Pipeline — Dhan ScanX Data Integration
+# EDL Pipeline - Dhan ScanX Data Integration
 
 > **Single command to refresh everything:** `python3 run_full_pipeline.py`
 
 ---
+
+## Install
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+The project also has package metadata in `pyproject.toml`, so editable installs work:
+
+```bash
+pip install -e .
+edl-pipeline
+```
+
+Copy `.env.example` only if your shell tooling automatically loads env files. The scripts read normal environment variables directly.
+When using the installed `edl-pipeline` command outside this folder, set `EDL_BASE_DIR` to the absolute pipeline directory.
 
 ## 🚀 Master Pipeline Runner
 
@@ -10,21 +28,43 @@
 python3 run_full_pipeline.py
 ```
 
-Runs **16 scripts** in the correct dependency order and produces `all_stocks_fundamental_analysis.json` in ~4 minutes.
+Runs the fetch, analysis, enrichment, breadth, and compression stages in dependency order and produces `all_stocks_fundamental_analysis.json.gz`.
 
-**Configuration flags** (edit inside the script):
-- `FETCH_OHLCV = True/False` — Include lifetime OHLCV download (~30 min extra).
-- `FETCH_OPTIONAL = True/False` — Include FNO, ETF, Indices standalone data.
+**Configuration flags:**
+- `FETCH_OHLCV = True/False` — Include stock/index OHLCV sync. Stock OHLCV is incremental and currently defaults to roughly two years of history when no local CSV exists.
+- `FETCH_OPTIONAL = True/False` — Include optional standalone ETF data.
+- `CLEANUP_INTERMEDIATE = True/False` — Delete intermediate JSON/CSV files after successful compression.
+
+The same flags can be overridden without editing source:
+```bash
+EDL_FETCH_OHLCV=0 EDL_CLEANUP_INTERMEDIATE=0 python3 run_full_pipeline.py
+```
 
 ### Pipeline Phases
 ```
 PHASE 1 (Core):       fetch_dhan_data.py → fetch_fundamental_data.py
-PHASE 2 (Enrichment): fetch_company_filings.py, fetch_market_news.py, etc.
+PHASE 2 (Enrichment): fetch_company_filings.py, fetch_market_news.py, fetch_all_indices.py, etc.
+PHASE 2.5 (OHLCV):    fetch_all_ohlcv.py → fetch_indices_ohlcv.py
 PHASE 3 (Analysis):   bulk_market_analyzer.py (creates base JSON)
-PHASE 4 (Injection):  advanced_metrics_processor.py → process_earnings_performance.py → add_corporate_events.py (LAST!)
+PHASE 4 (Injection):  advanced_metrics_processor.py → process_market_breadth.py → add_corporate_events.py (LAST!)
+PHASE 5 (Output):     gzip compression of final artifacts
 ```
 
 ⚠️ **Rule**: `bulk_market_analyzer.py` MUST run before Phase 4. `add_corporate_events.py` MUST be the very last script.
+
+### Reliability Notes
+- The pipeline preserves the existing public/undocumented endpoint behavior, but critical foundation scripts now exit non-zero when they cannot produce their required files.
+- Non-critical enrichment failures are reported in the final runner summary so a refresh can finish while still showing incomplete sections.
+- Shared helpers live in `pipeline_utils.py`, `dhan_next_utils.py`, `nse_archive_utils.py`, and `ohlcv_utils.py` to keep request, JSON, gzip, path, Next.js, NSE archive, and OHLCV parsing behavior consistent.
+- See `docs/DATA_LIMITATIONS.md` before relying on generated artifacts. This project is not affiliated with Dhan, NSE, or any exchange, and outputs are not investment advice.
+
+### Verification
+```bash
+python3 -m unittest discover -s tests -v
+python3 -m compileall -q .
+```
+
+The unit tests cover deterministic transform helpers without calling live Dhan/NSE endpoints. Run `python3 run_full_pipeline.py` only when you want a full live data refresh.
 
 ---
 
@@ -186,7 +226,7 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 | **URL** | `https://openweb-ticks.dhan.co/getDataH` |
 | **Method** | `POST` |
 | **Threads** | 15 |
-| **Start** | `215634600` (Oct 31, 1976 — forces max history) |
+| **Start** | Incremental; defaults to ~2 years when no local stock CSV exists |
 | **Interval** | `D` (Daily candles) |
 | **Output** | `ohlcv_data/{SYMBOL}.csv` |
 
@@ -194,23 +234,23 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 {
   "EXCH": "NSE", "SYM": "<SYMBOL>", "SEG": "E", "INST": "EQUITY",
   "SEC_ID": "<Sid>", "EXPCODE": 0,
-  "INTERVAL": "D", "START": 215634600, "END": <CURRENT_TIMESTAMP>
+  "INTERVAL": "D", "START": <INCREMENTAL_START>, "END": <CURRENT_TIMESTAMP>
 }
 ```
 
 ---
 
-## 📂 Standalone Scripts (Not in Pipeline)
+## 📂 Standalone / Optional Scripts
 
 | Script | URL | Output |
 |---|---|---|
 | `fetch_fno_data.py` | `customscan/fetchdt` (filter: `FnoFlag=1`, count: 500) | `fno_stocks_response.json` |
 | `fetch_fno_lot_sizes.py` | `dhan.co/nse-fno-lot-size/` (Next.js data) | `fno_lot_sizes_cleaned.json` |
 | `fetch_fno_expiry.py` | `dhan.co/_next/data/{buildId}/fno-expiry-calendar.json` | `fno_expiry_calendar.json` |
-| `fetch_all_indices.py` | `customscan/fetchdt` + Gviz fallback (count: 500) | `all_indices_list.json` |
+| `fetch_all_indices.py` | `customscan/fetchdt` (count: 500) | `all_indices_list.json` |
 | `fetch_etf_data.py` | `customscan/fetchdt` (filter: `ETFFlag`, count: 1000) | `etf_data_response.json` |
 
-> **Note**: Run these manually when needed. Their output JSONs are **not** consumed by the pipeline.
+> **Note**: `fetch_all_indices.py` is used by the default runner because index OHLCV and breadth calculations depend on it. ETF and standalone F&O scans remain optional.
 
 ---
 
@@ -232,11 +272,19 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 | `fetch_bulk_block_deals.py` | Bulk/Block deals (30 days) → `bulk_block_deals.json` |
 | `fetch_incremental_price_bands.py` | Daily price band changes → `incremental_price_bands.json` |
 | `fetch_complete_price_bands.py` | All securities bands → `complete_price_bands.json` |
+| `fetch_all_ohlcv.py` | Incremental stock OHLCV history → `ohlcv_data/` |
+| `fetch_indices_ohlcv.py` | Incremental index OHLCV history → `indices_ohlcv_data/` |
 | `bulk_market_analyzer.py` | Builds base `all_stocks_fundamental_analysis.json` |
 | `advanced_metrics_processor.py` | Injects ADR, RVOL, ATH, Turnover |
 | `process_earnings_performance.py` | Injects post-earnings returns |
+| `enrich_fno_data.py` | Injects F&O flag, lot size, next expiry |
+| `process_market_breadth.py` | Injects RS ratings and writes `sector_analytics.json` |
+| `process_historical_market_breadth.py` | Writes historical breadth CSV data |
 | `add_corporate_events.py` | Injects Event Markers, Announcements, News Feed (FINAL) |
 | `single_stock_analyzer.py` | Utility to inspect a single stock |
+| `pipeline_utils.py` | Shared paths, headers, JSON, gzip, and ScanX helpers |
+| `nse_archive_utils.py` | Shared NSE archive CSV lookup/parsing helpers |
+| `ohlcv_utils.py` | Shared OHLCV candle parsing and CSV read/write helpers |
 
 ### Standalone Scripts
 | File | Role |
@@ -244,15 +292,13 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 | `fetch_fno_data.py` | 207 F&O stocks |
 | `fetch_fno_lot_sizes.py` | F&O lot sizes |
 | `fetch_fno_expiry.py` | Expiry calendar |
-| `fetch_all_indices.py` | 194 market indices |
-| `fetch_etf_data.py` | 361 ETFs |
-| `fetch_all_ohlcv.py` | Lifetime OHLCV history (optional in pipeline) |
+| `fetch_etf_data.py` | ETF scan |
 
 ---
 
 ## 📊 Output Field Reference (`all_stocks_fundamental_analysis.json`)
 
-**Total: 86 fields per stock across 2,775 stocks.**
+**Current generated artifact: 95 fields per stock across 2,939 stocks. Counts can change as Dhan/NSE source coverage changes.**
 
 ### 1. Identity & Classification
 `Symbol`, `Name`, `Listing Date`, `Basic Industry`, `Sector`, `Index`

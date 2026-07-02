@@ -3,18 +3,19 @@ ULTRA-FAST Index OHLCV Fetcher - Hybrid Incremental
 Merges deep history with Today's live snapshot from ScanX API.
 """
 
-import json
 import requests
-import os
+import sys
 import time
-import csv
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from pipeline_utils import BASE_DIR, get_headers
+
+from ohlcv_utils import merge_rows_by_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
+from pipeline_utils import ensure_dir, get_headers, load_json, resolve_path
 
 # --- Configuration ---
-INPUT_FILE = os.path.join(BASE_DIR, "all_indices_list.json")
-OUTPUT_DIR = os.path.join(BASE_DIR, "indices_ohlcv_data")
+INPUT_FILE = "all_indices_list.json"
+OUTPUT_DIR = "indices_ohlcv_data"
+TICK_API_URL = "https://openweb-ticks.dhan.co/getDataH"
 CHUNK_DAYS = 120
 MAX_THREADS = 60
 
@@ -23,28 +24,21 @@ def get_safe_sym(sym):
 
 def fetch_chunk(payload):
     try:
-        r = requests.post("https://openweb-ticks.dhan.co/getDataH", json=payload, headers=get_headers(), timeout=10)
+        r = requests.post(TICK_API_URL, json=payload, headers=get_headers(), timeout=10)
         if r.status_code == 200:
-            data = r.json().get("data", {})
-            times = data.get("Time", [])
-            if not times: return []
-            
-            rows = []
-            o, h, l, c, v = data.get("o", []), data.get("h", []), data.get("l", []), data.get("c", []), data.get("v", [])
-            for i in range(len(times)):
-                t = times[i]
-                dt_str = t if isinstance(t, str) else datetime.fromtimestamp(t).strftime("%Y-%m-%d")
-                rows.append({'Date': dt_str, 'Open': o[i], 'High': h[i], 'Low': l[i], 'Close': c[i], 'Volume': v[i]})
-            return rows
-    except:
+            return rows_from_tick_data(r.json().get("data", {}))
+    except Exception:
         pass
     return []
 
 def main():
-    if not os.path.exists(OUTPUT_DIR): os.makedirs(OUTPUT_DIR)
-    if not os.path.exists(INPUT_FILE): return
+    ensure_dir(OUTPUT_DIR)
 
-    with open(INPUT_FILE, "r") as f: indices = json.load(f)
+    try:
+        indices = load_json(INPUT_FILE)
+    except FileNotFoundError:
+        print(f"Error: {INPUT_FILE} not found.")
+        return False
 
     tasks = []
     global_start_ts = 215634600 # 1976
@@ -57,20 +51,18 @@ def main():
     for idx in indices:
         sym = idx["Symbol"]
         safe_sym = get_safe_sym(sym)
-        output_path = os.path.join(OUTPUT_DIR, f"{safe_sym}.csv")
+        output_path = resolve_path(OUTPUT_DIR) / f"{safe_sym}.csv"
         
         target_start = global_start_ts
-        if os.path.exists(output_path):
+        rows = read_ohlcv_csv(output_path)
+        if rows:
             try:
-                with open(output_path, "r") as f:
-                    rows = list(csv.DictReader(f))
-                    if rows:
-                        existing_data_cache[safe_sym] = rows
-                        last_row_date = rows[-1]["Date"]
-                        # We still schedule a chunk for recent days to ensure gap-filling
-                        last_dt = datetime.strptime(last_row_date, "%Y-%m-%d")
-                        target_start = int(last_dt.timestamp()) + 86400
-            except: pass
+                existing_data_cache[safe_sym] = rows
+                last_row_date = rows[-1]["Date"]
+                last_dt = datetime.strptime(last_row_date, "%Y-%m-%d")
+                target_start = int(last_dt.timestamp()) + 86400
+            except Exception:
+                pass
 
         # Only crawl if there's a gap before today
         if target_start < global_end_ts - 86400:
@@ -117,19 +109,12 @@ def main():
             'Volume': idx.get('Volume', 0)
         }
         
-        # Deduplicate and update
-        merged = {r['Date']: r for r in all_rows}
-        merged[today_str] = today_row
-        
-        final_rows = sorted(merged.values(), key=lambda x: x['Date'])
-        
-        output_path = os.path.join(OUTPUT_DIR, f"{safe_sym}.csv")
-        with open(output_path, "w", newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=['Date', 'Open', 'High', 'Low', 'Close', 'Volume'])
-            writer.writeheader()
-            writer.writerows(final_rows)
+        final_rows = merge_rows_by_date(all_rows + [today_row])
+        output_path = resolve_path(OUTPUT_DIR) / f"{safe_sym}.csv"
+        write_ohlcv_csv(output_path, final_rows)
 
     print(f"Successfully updated all index CSVs with Today's Live data.")
+    return True
 
 if __name__ == "__main__":
-    main()
+    sys.exit(0 if main() else 1)

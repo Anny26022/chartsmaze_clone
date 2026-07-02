@@ -1,11 +1,10 @@
-import json
 import os
-import glob
+import sys
 import pandas as pd
-from datetime import datetime, timedelta
+
+from pipeline_utils import BASE_DIR, load_json, save_json
 
 # --- Configuration ---
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FILINGS_DIR = os.path.join(BASE_DIR, "company_filings")
 OHLCV_DIR = os.path.join(BASE_DIR, "ohlcv_data")
 MASTER_JSON = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
@@ -13,13 +12,11 @@ MASTER_JSON = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 def get_earnings_info(filing_path):
     """Extract latest results date and time"""
     try:
-        with open(filing_path, "r") as f:
-            data = json.load(f)
-            filings = data.get("data", [])
-            results = [f for f in filings if f.get("descriptor") == "Financial Results"]
-            if not results: return None, None
-            results.sort(key=lambda x: x.get("news_date", ""), reverse=True)
-            return results[0].get("news_date", ""), results[0].get("descriptor")
+        filings = load_json(filing_path).get("data", [])
+        results = [f for f in filings if f.get("descriptor") == "Financial Results"]
+        if not results: return None, None
+        results.sort(key=lambda x: x.get("news_date", ""), reverse=True)
+        return results[0].get("news_date", ""), results[0].get("descriptor")
     except Exception:
         return None, None
 
@@ -77,11 +74,10 @@ def calculate_earnings_metrics(csv_path, earnings_news_date):
 def main():
     print("Loading master analysis data...")
     try:
-        with open(MASTER_JSON, "r") as f:
-            analysis_data = json.load(f)
+        analysis_data = load_json(MASTER_JSON)
     except Exception as e:
         print(f"Error loading {MASTER_JSON}: {e}")
-        return
+        return False
 
     print("Analyzing filings and calculating earnings metrics...")
     
@@ -99,11 +95,10 @@ def main():
         stock["Returns since Earnings(%)"] = ret
         stock["Max Returns since Earnings(%)"] = max_ret
 
-    # Save update
-    with open(MASTER_JSON, "w") as f:
-        json.dump(analysis_data, f, indent=4)
+    save_json(MASTER_JSON, analysis_data)
         
     print(f"Successfully updated earnings metrics for {len(analysis_data)} stocks.")
+    return True
 
 if __name__ == "__main__":
-    main()
+    sys.exit(0 if main() else 1)

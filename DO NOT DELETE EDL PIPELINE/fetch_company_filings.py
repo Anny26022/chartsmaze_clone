@@ -1,15 +1,43 @@
-import json
+import sys
 import requests
-import os
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from pipeline_utils import BASE_DIR, get_headers
+from pipeline_utils import ensure_dir, get_headers, load_json, resolve_path, save_json
 
 # --- Configuration ---
-INPUT_FILE = os.path.join(BASE_DIR, "master_isin_map.json")
-OUTPUT_DIR = os.path.join(BASE_DIR, "company_filings")
+INPUT_FILE = "master_isin_map.json"
+OUTPUT_DIR = "company_filings"
+LEGACY_URL = "https://ow-static-scanx.dhan.co/staticscanx/company_filings"
+LODR_URL = "https://ow-static-scanx.dhan.co/staticscanx/lodr"
 MAX_THREADS = 20  # Fast with 20 threads
 FORCE_UPDATE = True # Set to True to refresh all filings
+
+
+def fetch_endpoint(url, isin, headers):
+    payload = {"data": {"isin": isin, "pg_no": 1, "count": 100}}
+    try:
+        response = requests.post(url, json=payload, headers=headers, timeout=10)
+        if response.status_code == 200:
+            return response.json().get("data", []) or []
+    except Exception:
+        pass
+    return []
+
+
+def dedupe_filings(items):
+    unique_map = {}
+    for entry in items:
+        news_id = entry.get("news_id")
+        date_str = entry.get("news_date")
+        caption = entry.get("caption") or entry.get("descriptor") or "Unknown"
+        key = news_id if news_id else f"{date_str}_{caption}"
+
+        if key not in unique_map or (entry.get("file_url") and not unique_map[key].get("file_url")):
+            unique_map[key] = entry
+
+    final_list = list(unique_map.values())
+    final_list.sort(key=lambda x: x.get("news_date", "1900-01-01"), reverse=True)
+    return final_list
 
 def fetch_filings(item):
     symbol = item.get("Symbol")
@@ -18,99 +46,32 @@ def fetch_filings(item):
     if not symbol or not isin:
         return None
 
-    output_path = os.path.join(OUTPUT_DIR, f"{symbol}_filings.json")
-    
+    output_path = resolve_path(OUTPUT_DIR) / f"{symbol}_filings.json"
+
     # Check FORCE_UPDATE flag
-    if os.path.exists(output_path) and os.path.getsize(output_path) > 10 and not FORCE_UPDATE:
+    if output_path.exists() and output_path.stat().st_size > 10 and not FORCE_UPDATE:
         return "skipped"
 
-    # --- 1. Fetch from Old Endpoint (/company_filings) ---
-    url1 = "https://ow-static-scanx.dhan.co/staticscanx/company_filings"
-    data1 = []
-    
     headers = get_headers()
-
-    try:
-        payload1 = {
-            "data": {
-                "isin": isin,
-                "pg_no": 1,
-                "count": 100
-            }
-        }
-        res1 = requests.post(url1, json=payload1, headers=headers, timeout=10)
-        if res1.status_code == 200:
-            data1 = res1.json().get("data", []) or []
-    except:
-        pass
-
-    # --- 2. Fetch from New Endpoint (/lodr) ---
-    url2 = "https://ow-static-scanx.dhan.co/staticscanx/lodr"
-    data2 = []
-    try:
-         payload2 = {
-            "data": {
-                "isin": isin,
-                "pg_no": 1,
-                "count": 100
-            }
-        }
-         res2 = requests.post(url2, json=payload2, headers=headers, timeout=10)
-         if res2.status_code == 200:
-             data2 = res2.json().get("data", []) or []
-    except:
-        pass
-
-    # --- 3. Merge & Deduplicate ---
-    combined = data1 + data2
-    unique_map = {}
-    
-    # We use (date + caption) or unique 'news_id' if available to deduplicate
-    for entry in combined:
-        nid = entry.get("news_id")
-        date_str = entry.get("news_date")
-        caption = entry.get("caption") or entry.get("descriptor") or "Unknown"
-        
-        # Create a unique key
-        key = nid if nid else f"{date_str}_{caption}"
-        
-        # If duplicate, keep one (prefer one with file_url if possible, usually both have it)
-        if key not in unique_map:
-            unique_map[key] = entry
-        else:
-            # If current has a URL but stored doesn't, swap (rare case)
-            if entry.get("file_url") and not unique_map[key].get("file_url"):
-                unique_map[key] = entry
-
-    final_list = list(unique_map.values())
-    
-    # Sort by date descending (latest first)
-    try:
-        final_list.sort(key=lambda x: x.get("news_date", "1900-01-01"), reverse=True)
-    except:
-        pass # Fallback if dates are weird
+    final_list = dedupe_filings(
+        fetch_endpoint(LEGACY_URL, isin, headers) + fetch_endpoint(LODR_URL, isin, headers)
+    )
 
     if not final_list:
         return "empty"
 
-    wrapped_data = {"code": 0, "data": final_list}
-    
-    with open(output_path, "w") as f:
-        json.dump(wrapped_data, f, indent=4)
-        
+    save_json(output_path, {"code": 0, "data": final_list})
     return "success"
 
 def main():
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
+    ensure_dir(OUTPUT_DIR)
 
     print(f"Loading ISIN mapping from {INPUT_FILE}...")
     try:
-        with open(INPUT_FILE, "r") as f:
-            stock_list = json.load(f)
+        stock_list = load_json(INPUT_FILE)
     except Exception as e:
         print(f"Error: Could not load {INPUT_FILE}: {e}")
-        return
+        return False
 
     total = len(stock_list)
     print(f"Starting Multi-threaded Filing Fetch (Threads: {MAX_THREADS}) for {total} stocks...")
@@ -138,6 +99,7 @@ def main():
     print("\n--- Final Report ---")
     print(f"Total Time: {time.time() - start_time:.1f}s")
     print(f"Finished: {success_count} | Errors: {error_count} | Skipped: {skipped_count}")
+    return True
 
 if __name__ == "__main__":
-    main()
+    sys.exit(0 if main() else 1)

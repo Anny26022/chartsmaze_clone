@@ -1,6 +1,15 @@
-import json
 import csv
 import os
+import sys
+
+from pipeline_utils import BASE_DIR, load_json, save_json
+
+
+FUNDAMENTAL_FILE = os.path.join(BASE_DIR, "fundamental_data.json")
+ADVANCED_FILE = os.path.join(BASE_DIR, "advanced_indicator_data.json")
+DHAN_DATA_FILE = os.path.join(BASE_DIR, "dhan_data_response.json")
+LISTING_DATES_FILE = os.path.join(BASE_DIR, "nse_equity_list.csv")
+OUTPUT_FILE = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 
 def get_float(value_str):
     try:
@@ -13,6 +22,12 @@ def calculate_change(current, previous):
         return 0.0
     return ((current - previous) / abs(previous)) * 100
 
+def calculate_cagr(current, previous, years):
+    """Return CAGR only when both endpoints are positive."""
+    if current <= 0 or previous <= 0 or years <= 0:
+        return 0.0
+    return ((current / previous) ** (1 / years) - 1) * 100
+
 def get_value_from_pipe_string(pipe_string, index):
     if not pipe_string:
         return 0.0
@@ -22,27 +37,17 @@ def get_value_from_pipe_string(pipe_string, index):
     return 0.0
 
 def analyze_all_stocks():
-    # Paths relative to script
-    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    # BASE_DIR is defined globally
-    input_file = os.path.join(BASE_DIR, "fundamental_data.json")
-    # output_file is defined globally as OUTPUT_FILE
-    ADVANCED_FILE = os.path.join(BASE_DIR, "advanced_indicator_data.json")
-    output_file = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
-
     print("Loading fundamental data...")
     try:
-        with open(input_file, "r") as f:
-            data = json.load(f)
+        data = load_json(FUNDAMENTAL_FILE)
     except FileNotFoundError:
-        print(f"Error: {input_file} not found.")
-        return
+        print(f"Error: {FUNDAMENTAL_FILE} not found.")
+        return False
 
     # Load Listing Dates from NSE CSV
     listing_date_map = {}
-    csv_path = os.path.join(BASE_DIR, "nse_equity_list.csv")
     try:
-        with open(csv_path, "r") as f:
+        with open(LISTING_DATES_FILE, "r") as f:
             reader = csv.DictReader(f)
             for row in reader:
                 sym = row.get("SYMBOL")
@@ -55,27 +60,22 @@ def analyze_all_stocks():
 
     # Load Technical Data from Dhan Response
     dhan_tech_map = {}
-    dhan_file = os.path.join(BASE_DIR, "dhan_data_response.json")
     try:
-        with open(dhan_file, "r") as f:
-            dhan_data = json.load(f)
-            for item in dhan_data:
-                sym = item.get("Sym")
-                if sym:
-                    dhan_tech_map[sym] = item
+        for item in load_json(DHAN_DATA_FILE):
+            sym = item.get("Sym")
+            if sym:
+                dhan_tech_map[sym] = item
         print(f"Loaded technical data for {len(dhan_tech_map)} symbols.")
     except FileNotFoundError:
-        print(f"Warning: {dhan_file} not found.")
+        print(f"Warning: {DHAN_DATA_FILE} not found.")
 
     # Load Advanced Indicator Data
     adv_tech_map = {}
     try:
-        with open(ADVANCED_FILE, "r") as f:
-            adv_data = json.load(f)
-            for item in adv_data:
-                sym = item.get("Symbol")
-                if sym:
-                    adv_tech_map[sym] = item
+        for item in load_json(ADVANCED_FILE):
+            sym = item.get("Symbol")
+            if sym:
+                adv_tech_map[sym] = item
         print(f"Loaded advanced indicators for {len(adv_tech_map)} symbols.")
     except FileNotFoundError:
         print(f"Warning: {ADVANCED_FILE} not found. Running without advanced indicators.")
@@ -138,9 +138,7 @@ def analyze_all_stocks():
         qoq_sales = calculate_change(sales_latest, sales_prev)
         yoy_sales = calculate_change(sales_latest, sales_last_year_q)
         
-        sales_growth_5y = 0.0
-        if sales_5_years_ago > 0:
-            sales_growth_5y = ((sales_current_annual / sales_5_years_ago) ** (1/5) - 1) * 100
+        sales_growth_5y = calculate_cagr(sales_current_annual, sales_5_years_ago, 5)
 
         # --- 4. OPM ---
         opm_latest = get_value_from_pipe_string(cq.get("OPM"), 0)
@@ -349,11 +347,10 @@ def analyze_all_stocks():
     # Filter by Market Cap (Disabled as per user request to include all stocks)
     final_data = analyzed_data[:]
     
-    # Save to JSON
-    with open(output_file, "w") as f:
-        json.dump(final_data, f, indent=4)
+    save_json(OUTPUT_FILE, final_data)
         
-    print(f"Successfully saved analysis for {len(final_data)} stocks (filtered from {len(analyzed_data)}) to {output_file}")
+    print(f"Successfully saved analysis for {len(final_data)} stocks (filtered from {len(analyzed_data)}) to {OUTPUT_FILE}")
+    return True
 
 if __name__ == "__main__":
-    analyze_all_stocks()
+    sys.exit(0 if analyze_all_stocks() else 1)

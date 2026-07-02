@@ -2,17 +2,9 @@ import requests
 import json
 import re
 from bs4 import BeautifulSoup
+from dhan_next_utils import get_build_id
 
-def get_build_id():
-    """Dynamically fetch the Next.js buildId."""
-    url = "https://dhan.co/all-indices/"
-    headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
-    try:
-        response = requests.get(url, headers=headers, timeout=10)
-        match = re.search(r'"buildId":"([^"]+)"', response.text)
-        return match.group(1) if match else None
-    except:
-        return None
+BUILD_ID_PAGE = "https://dhan.co/all-indices/"
 
 def fetch_surveillance_lists():
     # Google Spreadsheet Gviz API (The most direct source)
@@ -36,7 +28,7 @@ def fetch_surveillance_lists():
         "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
 
-    build_id = get_build_id()
+    build_id = get_build_id(BUILD_ID_PAGE)
 
     for filename, config in lists_config.items():
         gid = config['gid']

@@ -1,19 +1,15 @@
-import json
+import sys
 import requests
-import os
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from pipeline_utils import BASE_DIR, get_headers
+from pipeline_utils import ensure_dir, get_headers, load_json, resolve_path, save_json
 
 # --- Configuration ---
-INPUT_FILE = os.path.join(BASE_DIR, "master_isin_map.json")
-OUTPUT_DIR = os.path.join(BASE_DIR, "market_news")
+INPUT_FILE = "master_isin_map.json"
+OUTPUT_DIR = "market_news"
+API_URL = "https://news-live.dhan.co/v2/news/getLiveNews"
 MAX_THREADS = 15  # 15 threads to be safe with this API
 NEWS_LIMIT = 50   # User requested 50 news items per stock
-
-# Ensure output directory exists
-if not os.path.exists(OUTPUT_DIR):
-    os.makedirs(OUTPUT_DIR)
 
 def fetch_market_news(item):
     """
@@ -25,12 +21,10 @@ def fetch_market_news(item):
     if not symbol or not isin:
         return None
         
-    output_path = os.path.join(OUTPUT_DIR, f"{symbol}_news.json")
+    output_path = resolve_path(OUTPUT_DIR) / f"{symbol}_news.json"
     
     # Simple check to skip if recently fetched (optional, can be removed for full freshness)
     # For now, we fetch fresh every time as news updates frequently
-    
-    url = "https://news-live.dhan.co/v2/news/getLiveNews"
     
     payload = {
         "categories": ["ALL"],
@@ -46,7 +40,7 @@ def fetch_market_news(item):
     headers = get_headers()
     
     try:
-        response = requests.post(url, json=payload, headers=headers, timeout=10)
+        response = requests.post(API_URL, json=payload, headers=headers, timeout=10)
         
         if response.status_code == 200:
             data = response.json()
@@ -65,11 +59,7 @@ def fetch_market_news(item):
                         "Source": news.get("category", "")
                     })
                 
-                final_output = {"Symbol": symbol, "ISIN": isin, "News": processed_news}
-                
-                with open(output_path, "w") as f:
-                    json.dump(final_output, f, indent=4)
-                
+                save_json(output_path, {"Symbol": symbol, "ISIN": isin, "News": processed_news})
                 return "success"
             else:
                 return "empty"
@@ -85,11 +75,12 @@ def fetch_market_news(item):
 def main():
     print(f"Loading ISIN mapping from {INPUT_FILE}...")
     try:
-        with open(INPUT_FILE, "r") as f:
-            stock_list = json.load(f)
+        stock_list = load_json(INPUT_FILE)
     except Exception as e:
         print(f"Error: Could not load {INPUT_FILE}: {e}")
-        return
+        return False
+
+    ensure_dir(OUTPUT_DIR)
 
     total = len(stock_list)
     print(f"Starting Market News Fetch (Limit: {NEWS_LIMIT} items) for {total} stocks...")
@@ -118,7 +109,8 @@ def main():
     print("\n--- Final Report ---")
     print(f"Total Time: {time.time() - start_time:.1f}s")
     print(f"News Found: {success_count} stocks | No News: {empty_count} | Errors: {error_count}")
-    print(f"Data saved to: {OUTPUT_DIR}/")
+    print(f"Data saved to: {resolve_path(OUTPUT_DIR)}/")
+    return True
 
 if __name__ == "__main__":
-    main()
+    sys.exit(0 if main() else 1)

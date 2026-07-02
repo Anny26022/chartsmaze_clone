@@ -1,0 +1,69 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edl-pipeline"
+version = "0.1.0"
+description = "Python market-data ETL pipeline for Indian equities using public Dhan and NSE endpoints."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Aniket Mahato" }]
+keywords = ["etl", "market-data", "nse", "dhan", "equities"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial",
+]
+dependencies = [
+    "beautifulsoup4>=4.12",
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "requests>=2.31",
+]
+
+[project.scripts]
+edl-pipeline = "run_full_pipeline:main"
+
+[tool.setuptools]
+py-modules = [
+    "add_corporate_events",
+    "advanced_metrics_processor",
+    "bulk_market_analyzer",
+    "dhan_next_utils",
+    "enrich_fno_data",
+    "fetch_advanced_indicators",
+    "fetch_all_indices",
+    "fetch_all_ohlcv",
+    "fetch_bulk_block_deals",
+    "fetch_circuit_stocks",
+    "fetch_company_filings",
+    "fetch_complete_price_bands",
+    "fetch_corporate_actions",
+    "fetch_dhan_data",
+    "fetch_etf_data",
+    "fetch_fno_data",
+    "fetch_fno_expiry",
+    "fetch_fno_lot_sizes",
+    "fetch_fundamental_data",
+    "fetch_incremental_price_bands",
+    "fetch_indices_ohlcv",
+    "fetch_market_news",
+    "fetch_new_announcements",
+    "fetch_surveillance_lists",
+    "nse_archive_utils",
+    "ohlcv_utils",
+    "pipeline_utils",
+    "process_earnings_performance",
+    "process_historical_market_breadth",
+    "process_market_breadth",
+    "run_full_pipeline",
+    "single_stock_analyzer",
+]

@@ -1,24 +1,31 @@
-# ══════════════════════════════════
-# EDL Pipeline - .gitignore
-# ══════════════════════════════════
+# EDL Pipeline generated intermediates
+DO NOT DELETE EDL PIPELINE/*.json
+DO NOT DELETE EDL PIPELINE/*.csv
+DO NOT DELETE EDL PIPELINE/company_filings/
+DO NOT DELETE EDL PIPELINE/market_news/
 
-# Intermediate Data (Purged by script, but ignored just in case)
-*.json
-company_filings/
-market_news/
-*.csv
-
-# OHLCV Cache (Handled by GitHub Cache, do NOT commit to Git)
+# OHLCV cache. GitHub Actions caches these; they should not be committed.
 DO NOT DELETE EDL PIPELINE/ohlcv_data/
 DO NOT DELETE EDL PIPELINE/indices_ohlcv_data/
 
-# Track the final Output
+# Tracked generated outputs
 !DO NOT DELETE EDL PIPELINE/all_stocks_fundamental_analysis.json.gz
 !DO NOT DELETE EDL PIPELINE/sector_analytics.json.gz
 !DO NOT DELETE EDL PIPELINE/market_breadth.json.gz
 !DO NOT DELETE EDL PIPELINE/all_indices_list.json
 
+# Local environment
+.env
+.venv/
+venv/
+
 # macOS / Python
 .DS_Store
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
