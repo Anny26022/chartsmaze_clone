@@ -22,6 +22,8 @@ INTERMEDIATE_FILES = [
     "all_stocks_fundamental_analysis.json",
     "sector_analytics.json",
     "market_breadth.csv",
+    "market_breadth_v2.json",
+    "breadth_universe_snapshot.json",
     "etf_data_response.json",
 ]
 
@@ -34,6 +36,8 @@ FILES_TO_COMPRESS = {
     "all_stocks_fundamental_analysis.json": "all_stocks_fundamental_analysis.json.gz",
     "sector_analytics.json": "sector_analytics.json.gz",
     "market_breadth.csv": "market_breadth.json.gz",
+    "market_breadth_v2.json": "market_breadth_v2.json.gz",
+    "breadth_universe_snapshot.json": "breadth_universe_snapshot.json.gz",
 }
 
 PHASE2_SCRIPTS = [
@@ -56,6 +60,7 @@ PHASE4_SCRIPTS = [
     "enrich_fno_data.py",
     "process_market_breadth.py",
     "process_historical_market_breadth.py",
+    "process_mbi_market_breadth.py",
     "add_corporate_events.py",
 ]
 
@@ -137,6 +142,20 @@ SCRIPT_OUTPUT_SPECS = {
     "process_historical_market_breadth.py": [
         ArtifactSpec("market_breadth.csv", "csv", min_count=2),
     ],
+    "process_mbi_market_breadth.py": [
+        ArtifactSpec(
+            "market_breadth_v2.json",
+            "json",
+            min_count=1,
+            required_fields=("methodology", "quality", "records"),
+        ),
+        ArtifactSpec(
+            "breadth_universe_snapshot.json",
+            "json",
+            min_count=1,
+            required_fields=("filters", "eligible_count", "eligible"),
+        ),
+    ],
     "add_corporate_events.py": [
         ArtifactSpec(
             "all_stocks_fundamental_analysis.json",
@@ -159,5 +178,17 @@ FINAL_ARTIFACT_SPECS = [
     ),
     ArtifactSpec("sector_analytics.json.gz", "gzip_json", min_count=1, required_fields=("Sectors", "Industries")),
     ArtifactSpec("market_breadth.json.gz", "gzip_csv", min_count=2),
+    ArtifactSpec(
+        "market_breadth_v2.json.gz",
+        "gzip_json",
+        min_count=1,
+        required_fields=("methodology", "quality", "records"),
+    ),
+    ArtifactSpec(
+        "breadth_universe_snapshot.json.gz",
+        "gzip_json",
+        min_count=1,
+        required_fields=("filters", "eligible_count", "eligible"),
+    ),
     ArtifactSpec("all_indices_list.json", "json", min_count=1),
 ]

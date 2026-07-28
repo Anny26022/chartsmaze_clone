@@ -21,7 +21,14 @@ from fetch_fno_expiry import flatten_expiry_data
 from fetch_fno_lot_sizes import clean_lot_size_item
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from nse_archive_utils import clean_records
-from ohlcv_utils import merge_rows_by_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
+from ohlcv_utils import (
+    chunk_history_range,
+    merge_rows_by_date,
+    plan_history_ranges,
+    read_ohlcv_csv,
+    rows_from_tick_data,
+    write_ohlcv_csv,
+)
 from pipeline_utils import chunked, load_json, save_json
 from run_full_pipeline import env_bool
 from edl_pipeline.schemas import REQUIRED_FINAL_FIELDS
@@ -188,6 +195,31 @@ class TransformTests(unittest.TestCase):
             write_ohlcv_csv(csv_path, rows)
             self.assertEqual(read_ohlcv_csv(csv_path)[0]["Date"], "2026-01-01")
 
+    def test_ohlcv_history_planner_backfills_and_updates_cache(self):
+        existing = [
+            {"Date": "2026-01-10"},
+            {"Date": "2026-01-20"},
+        ]
+        timestamp = lambda value: int(__import__("datetime").datetime.strptime(value, "%Y-%m-%d").timestamp())
+
+        ranges = plan_history_ranges(
+            existing,
+            timestamp("2026-01-01"),
+            timestamp("2026-01-31"),
+        )
+
+        self.assertEqual(
+            ranges,
+            [
+                (timestamp("2026-01-01"), timestamp("2026-01-09")),
+                (timestamp("2026-01-21"), timestamp("2026-01-31")),
+            ],
+        )
+        chunks = chunk_history_range(timestamp("2026-01-01"), timestamp("2026-01-31"), 10)
+        self.assertEqual(len(chunks), 3)
+        self.assertEqual(chunks[0][1], timestamp("2026-01-31"))
+        self.assertEqual(chunks[-1][0], timestamp("2026-01-01"))
+
     def test_shared_json_and_chunk_helpers(self):
         self.assertEqual(list(chunked([1, 2, 3], 2)), [(0, [1, 2]), (2, [3])])
 
@@ -248,7 +280,7 @@ class TransformTests(unittest.TestCase):
         artifact = ROOT / "all_stocks_fundamental_analysis.json.gz"
         self.assertTrue(artifact.exists())
 
-        with gzip.open(artifact, "rt") as f:
+        with gzip.open(artifact, "rt", encoding="utf-8") as f:
             rows = json.load(f)
 
         self.assertGreater(len(rows), 0)

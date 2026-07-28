@@ -65,7 +65,7 @@ def validate_json(path, min_count=1, required_fields=()):
     if size <= 0:
         return _bad(resolved, "json", "empty file", size)
     try:
-        with resolved.open("r") as f:
+        with resolved.open("r", encoding="utf-8") as f:
             data = json.load(f)
     except Exception as e:
         return _bad(resolved, "json", f"invalid JSON: {e}", size)
@@ -87,7 +87,7 @@ def validate_gzip_json(path, min_count=1, required_fields=()):
     if size <= 0:
         return _bad(resolved, "gzip_json", "empty file", size)
     try:
-        with gzip.open(resolved, "rt") as f:
+        with gzip.open(resolved, "rt", encoding="utf-8") as f:
             data = json.load(f)
     except Exception as e:
         return _bad(resolved, "gzip_json", f"invalid gzip JSON: {e}", size)
@@ -109,7 +109,7 @@ def validate_csv(path, min_count=1):
     if size <= 0:
         return _bad(resolved, "csv", "empty file", size)
     try:
-        with resolved.open("r") as f:
+        with resolved.open("r", encoding="utf-8") as f:
             rows = list(csv.reader(f))
     except Exception as e:
         return _bad(resolved, "csv", f"invalid CSV: {e}", size)
@@ -127,7 +127,7 @@ def validate_gzip_csv(path, min_count=1):
     if size <= 0:
         return _bad(resolved, "gzip_csv", "empty file", size)
     try:
-        with gzip.open(resolved, "rt") as f:
+        with gzip.open(resolved, "rt", encoding="utf-8") as f:
             rows = list(csv.reader(f))
     except Exception as e:
         return _bad(resolved, "gzip_csv", f"invalid gzip CSV: {e}", size)

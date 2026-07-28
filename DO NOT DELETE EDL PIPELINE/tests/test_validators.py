@@ -53,7 +53,7 @@ class ValidatorTests(unittest.TestCase):
             raw_size, gz_size = compress_file(json_path, gzip_path)
 
             self.assertEqual(load_json(json_path), {"a": 1})
-            with gzip.open(gzip_path, "rt") as f:
+            with gzip.open(gzip_path, "rt", encoding="utf-8") as f:
                 self.assertEqual(json.load(f), {"a": 1})
 
         self.assertGreater(raw_size, 0)

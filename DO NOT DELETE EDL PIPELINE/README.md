@@ -59,6 +59,12 @@ PHASE 5 (Output):     gzip compression of final artifacts
 - Shared HTTP POST calls use bounded retries with exponential backoff for transient upstream/network errors.
 - Known script outputs are validated after each script runs. Required script validation failures stop the pipeline; optional/enrichment validation failures are reported as warnings.
 - Final release artifacts are validated before the runner returns success: `all_stocks_fundamental_analysis.json.gz`, `sector_analytics.json.gz`, `market_breadth.json.gz`, and `all_indices_list.json`.
+- The versioned MBI/XP engine additionally produces `market_breadth_v2.json.gz` and
+  `breadth_universe_snapshot.json.gz`. Its methodology is pinned in
+  `breadth_methodology.json`; the current universe requires latest price `>= 1`
+  and market capitalization strictly greater than `100` crore.
+- Calculation formulas, denominator rules, XP assumptions, and known
+  survivorship limitations are documented in `docs/BREADTH_METHODOLOGY.md`.
 - Non-critical enrichment failures are reported in the final runner summary so a refresh can finish while still showing incomplete sections.
 - Shared helpers live in `pipeline_utils.py`, `dhan_next_utils.py`, `nse_archive_utils.py`, and `ohlcv_utils.py` to keep request, JSON, gzip, path, Next.js, NSE archive, and OHLCV parsing behavior consistent.
 - Importable package code lives under `src/edl_pipeline/`. The top-level scripts remain compatibility wrappers so existing automation can keep running `python3 run_full_pipeline.py` and individual script names.
