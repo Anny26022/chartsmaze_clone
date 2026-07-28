@@ -379,6 +379,38 @@ class BreadthV2Tests(unittest.TestCase):
             saved = json.loads(output_path.read_text(encoding="utf-8"))
             self.assertEqual(saved["quality"]["processed_indices"], 2)
 
+    def test_duplicate_index_symbols_use_index_id_for_distinct_histories(self):
+        indices = [
+            {"IndexName": "First CAPINS", "Symbol": "CAPINS", "IndexID": 99},
+            {"IndexName": "Second CAPINS", "Symbol": "CAPINS", "IndexID": 846},
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index_dir = root / "indices"
+            index_dir.mkdir()
+            make_ohlcv([100, 101]).to_csv(
+                index_dir / "CAPINS__99.csv",
+                index=False,
+            )
+            make_ohlcv([200, 202]).to_csv(
+                index_dir / "CAPINS__846.csv",
+                index=False,
+            )
+
+            artifact = generate_all_index_history(
+                indices,
+                index_dir,
+                root / "all_indices.json",
+                output_sessions=2,
+            )
+
+            self.assertEqual(artifact["quality"]["processed_indices"], 2)
+            closes = {
+                row["index_id"]: row["records"][-1]["close"]
+                for row in artifact["indices"]
+            }
+            self.assertEqual(closes, {99: 101, 846: 202})
+
 
 if __name__ == "__main__":
     unittest.main()

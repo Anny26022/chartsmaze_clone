@@ -1,6 +1,7 @@
 """Publish normalized history for every index fetched by the EDL pipeline."""
 
 from datetime import datetime, timezone
+from collections import Counter
 import json
 import numbers
 from pathlib import Path
@@ -12,9 +13,17 @@ import pandas as pd
 INDEX_COLUMNS = ("Open", "High", "Low", "Close", "Volume")
 
 
-def safe_index_symbol(symbol):
+def safe_index_symbol(symbol, index_id=None, disambiguate=False):
     """Match the filename normalization used by fetch_indices_ohlcv.py."""
-    return "".join(character if character.isalnum() else "_" for character in str(symbol))
+    safe_symbol = "".join(
+        character if character.isalnum() else "_"
+        for character in str(symbol)
+    )
+    return (
+        f"{safe_symbol}__{index_id}"
+        if disambiguate
+        else safe_symbol
+    )
 
 
 def _round_value(value, digits):
@@ -103,12 +112,22 @@ def generate_all_index_history(
     missing_history = []
     invalid_history = []
 
-    for index in sorted(index_rows, key=lambda item: str(item.get("Symbol") or "")):
+    symbol_counts = Counter(str(index.get("Symbol") or "") for index in index_rows)
+
+    for index in sorted(
+        index_rows,
+        key=lambda item: (
+            str(item.get("Symbol") or ""),
+            str(item.get("IndexID") or ""),
+        ),
+    ):
         symbol = str(index.get("Symbol") or "").strip()
         if not symbol:
             invalid_history.append({"symbol": None, "error": "missing symbol"})
             continue
-        csv_path = indices_root / f"{safe_index_symbol(symbol)}.csv"
+        csv_path = indices_root / (
+            f"{safe_index_symbol(symbol, index.get('IndexID'), symbol_counts[symbol] > 1)}.csv"
+        )
         if not csv_path.exists():
             missing_history.append(symbol)
             continue

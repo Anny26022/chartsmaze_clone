@@ -6,6 +6,7 @@ Merges deep history with Today's live snapshot from ScanX API.
 import requests
 import sys
 import time
+from collections import Counter
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
@@ -19,8 +20,13 @@ TICK_API_URL = "https://openweb-ticks.dhan.co/getDataH"
 CHUNK_DAYS = 120
 MAX_THREADS = 60
 
-def get_safe_sym(sym):
-    return "".join([c if c.isalnum() else "_" for c in sym])
+def get_safe_sym(sym, index_id=None, disambiguate=False):
+    safe_symbol = "".join([c if c.isalnum() else "_" for c in sym])
+    return (
+        f"{safe_symbol}__{index_id}"
+        if disambiguate
+        else safe_symbol
+    )
 
 def fetch_chunk(payload):
     try:
@@ -46,11 +52,21 @@ def main():
     today_str = datetime.now().strftime("%Y-%m-%d")
     
     existing_data_cache = {}
+    symbol_counts = Counter(str(index.get("Symbol") or "") for index in indices)
+
+    def cache_key(index):
+        symbol = str(index["Symbol"])
+        return get_safe_sym(
+            symbol,
+            index.get("IndexID"),
+            disambiguate=symbol_counts[symbol] > 1,
+        )
+
     print(f"Checking {len(indices)} indices for sync...")
 
     for idx in indices:
         sym = idx["Symbol"]
-        safe_sym = get_safe_sym(sym)
+        safe_sym = cache_key(idx)
         output_path = resolve_path(OUTPUT_DIR) / f"{safe_sym}.csv"
         
         target_start = global_start_ts
@@ -78,7 +94,7 @@ def main():
                 current_end = c_start - 86400
 
     # Execute history crawl if needed
-    new_data = {get_safe_sym(i["Symbol"]): [] for i in indices}
+    new_data = {cache_key(index): [] for index in indices}
     if tasks:
         print(f"Executing {len(tasks)} API chunks for history...")
         with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
@@ -91,7 +107,7 @@ def main():
 
     print("Merging with Live Snapshots and saving CSVs...")
     for idx in indices:
-        safe_sym = get_safe_sym(idx["Symbol"])
+        safe_sym = cache_key(idx)
         
         # 1. Start with existing or historic data
         base_rows = existing_data_cache.get(safe_sym, [])
