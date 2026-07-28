@@ -16,6 +16,7 @@ if str(SRC) not in sys.path:
 from edl_pipeline.breadth.aggregates import BreadthAccumulator
 from edl_pipeline.breadth.config import BreadthMethodology, load_methodology
 from edl_pipeline.breadth.indicators import prepare_history
+from edl_pipeline.breadth.indices import generate_all_index_history
 from edl_pipeline.breadth.mbi import enrich_records
 from edl_pipeline.breadth.pipeline import generate_market_breadth
 from edl_pipeline.breadth.universe import build_universe_snapshot
@@ -178,6 +179,7 @@ class BreadthV2Tests(unittest.TestCase):
         self.assertEqual(output[0]["xp_advancer_count"], 3)
         self.assertEqual(output[0]["xp_decliner_count"], 1)
         self.assertEqual(output[0]["xp_smoothed_advances"], 3)
+        self.assertIsNone(output[0]["em"])
         self.assertAlmostEqual(output[0]["new_52w_high_pct"], 30.0)
         self.assertAlmostEqual(output[0]["new_52w_low_pct"], 10.0)
         self.assertAlmostEqual(output[0]["xp"], 10.7142261241, places=6)
@@ -282,8 +284,100 @@ class BreadthV2Tests(unittest.TestCase):
             self.assertEqual(artifact["quality"]["record_count"], 250)
             self.assertEqual(artifact["records"][-1]["valid_sma_200"], 2)
             self.assertIn("xp", artifact["records"][-1])
+            expected_table_fields = {
+                "date",
+                "ratio_4_5",
+                "xp",
+                "em",
+                "change_4_5",
+                "ratio_20",
+                "change_20",
+                "ratio_50",
+                "change_50",
+                "new_52w_high_pct",
+                "new_52w_low_pct",
+                "up_4_5_pct",
+                "down_4_5_pct",
+                "above_10_pct",
+                "above_20_pct",
+                "above_50_pct",
+                "above_200_pct",
+                "index_change_pct",
+            }
+            schema_fields = {column["field"] for column in artifact["table_schema"]}
+            self.assertEqual(schema_fields, expected_table_fields)
+            self.assertTrue(
+                expected_table_fields.issubset(artifact["records"][-1])
+            )
             self.assertEqual(json.loads(output_path.read_text(encoding="utf-8"))["methodology"]["version"], "mbi-xp-v2.2")
             self.assertEqual(json.loads(snapshot_path.read_text(encoding="utf-8"))["eligible_count"], 2)
+
+    def test_all_index_history_publishes_every_available_index(self):
+        indices = [
+            {
+                "IndexName": "Nifty 50",
+                "Symbol": "NIFTY",
+                "IndexID": 13,
+                "Exchange": "IDX",
+                "Segment": "I",
+                "Instrument": "IDX",
+                "Ltp": 102,
+                "PChng": 0.99,
+            },
+            {
+                "IndexName": "Nifty Midcap",
+                "Symbol": "NIFTY MIDCAP",
+                "IndexID": 14,
+                "Exchange": "IDX",
+                "Segment": "I",
+                "Instrument": "IDX",
+                "Ltp": 202,
+                "PChng": 0.5,
+            },
+            {
+                "IndexName": "Missing Index",
+                "Symbol": "MISSING",
+                "IndexID": 15,
+            },
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index_dir = root / "indices"
+            index_dir.mkdir()
+            make_ohlcv([100, 101, 102]).to_csv(
+                index_dir / "NIFTY.csv",
+                index=False,
+            )
+            make_ohlcv([200, 201, 202]).to_csv(
+                index_dir / "NIFTY_MIDCAP.csv",
+                index=False,
+            )
+            output_path = root / "all_indices.json"
+
+            artifact = generate_all_index_history(
+                indices,
+                index_dir,
+                output_path,
+                output_sessions=2,
+                generated_at="2026-01-01T00:00:00+00:00",
+            )
+
+            self.assertEqual(artifact["quality"]["available_indices"], 3)
+            self.assertEqual(artifact["quality"]["processed_indices"], 2)
+            self.assertEqual(
+                artifact["quality"]["missing_history_symbols"],
+                ["MISSING"],
+            )
+            by_symbol = {row["symbol"]: row for row in artifact["indices"]}
+            self.assertEqual(set(by_symbol), {"NIFTY", "NIFTY MIDCAP"})
+            self.assertEqual(len(by_symbol["NIFTY"]["records"]), 2)
+            self.assertAlmostEqual(
+                by_symbol["NIFTY"]["records"][-1]["change_pct"],
+                100 * (102 / 101 - 1),
+                places=6,
+            )
+            saved = json.loads(output_path.read_text(encoding="utf-8"))
+            self.assertEqual(saved["quality"]["processed_indices"], 2)
 
 
 if __name__ == "__main__":

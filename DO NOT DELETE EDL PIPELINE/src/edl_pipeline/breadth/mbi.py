@@ -161,6 +161,7 @@ def enrich_records(records, methodology, index_closes=None):
             )
         row["xp_advancer_count"] = up_4_5_count
         row["xp_decliner_count"] = down_4_5_count
+        row["em"] = None
         row["xp_smoothed_advances"] = current_z
         if current_z is not None:
             previous_z = current_z

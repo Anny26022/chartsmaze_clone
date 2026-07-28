@@ -14,6 +14,33 @@ from .mbi import enrich_records
 from .universe import build_universe_snapshot
 
 
+TRADINGVIEW_TABLE_SCHEMA = [
+    {"label": "Date", "field": "date", "available": True},
+    {"label": "4.5R", "field": "ratio_4_5", "available": True},
+    {"label": "XP", "field": "xp", "available": True, "note": "public-formula proxy"},
+    {
+        "label": "EM",
+        "field": "em",
+        "available": False,
+        "note": "proprietary source series is not publicly available",
+    },
+    {"label": "4.5Chg", "field": "change_4_5", "available": True},
+    {"label": "20R(s)", "field": "ratio_20", "available": True},
+    {"label": "20Chg", "field": "change_20", "available": True},
+    {"label": "50R(s)", "field": "ratio_50", "available": True},
+    {"label": "50Chg", "field": "change_50", "available": True},
+    {"label": "52WH", "field": "new_52w_high_pct", "available": True},
+    {"label": "52WL", "field": "new_52w_low_pct", "available": True},
+    {"label": "4.5+", "field": "up_4_5_pct", "available": True},
+    {"label": "4.5-", "field": "down_4_5_pct", "available": True},
+    {"label": "10+", "field": "above_10_pct", "available": True},
+    {"label": "20+", "field": "above_20_pct", "available": True},
+    {"label": "50+", "field": "above_50_pct", "available": True},
+    {"label": "200+", "field": "above_200_pct", "available": True},
+    {"label": "Index", "field": "index_change_pct", "available": True},
+]
+
+
 def _save_json(path, data):
     """Write JSON atomically without coupling the calculation package to HTTP helpers."""
     resolved = Path(path)
@@ -115,6 +142,12 @@ def generate_market_breadth(
     artifact = {
         "generated_at": generated_at,
         "methodology": methodology.to_dict(),
+        "table_schema": TRADINGVIEW_TABLE_SCHEMA,
+        "table_notes": {
+            "selected_ma_type": methodology.default_ma_type,
+            "default_index_symbol": "NIFTY",
+            "all_index_history_artifact": "all_indices_history_v2.json.gz",
+        },
         "source": {
             "universe": "Dhan ScanX customscan/fetchdt snapshot",
             "equity_history": "Dhan openweb-ticks getDataH normalized OHLCV cache",

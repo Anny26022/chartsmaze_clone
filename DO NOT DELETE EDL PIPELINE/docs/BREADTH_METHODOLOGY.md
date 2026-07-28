@@ -170,9 +170,23 @@ than a reconstruction.
 
 ## Outputs
 
-- `market_breadth_v2.json.gz`: methodology, quality report, and 250 daily rows
+- `market_breadth_v2.json.gz`: methodology, table schema, quality report, and
+  250 daily rows
 - `breadth_universe_snapshot.json.gz`: exact included and excluded securities
+- `all_indices_history_v2.json.gz`: current snapshot plus up to 250 normalized
+  OHLCV and daily-return rows for every index returned by the NSE index scan
 - `market_breadth.json.gz`: unchanged legacy breadth artifact
+
+The table schema maps the published fields directly to the labels visible in
+the reference indicator: `4.5R`, `XP`, `4.5Chg`, `20R(s)`, `20Chg`, `50R(s)`,
+`50Chg`, `52WH`, `52WL`, `4.5+`, `4.5-`, `10+`, `20+`, `50+`, `200+`, and
+`Index`. `EM` is present as a documented unavailable/null field because its
+private source series and formula have not been published.
+
+The `Index` field in each breadth row remains the default NIFTY daily change,
+matching a single selected benchmark in the indicator. Consumers that need a
+different benchmark can join the row date to `all_indices_history_v2.json.gz`
+by index symbol and date without rerunning breadth calculations.
 
 Run only the new generator after the universe and OHLCV caches exist:
 

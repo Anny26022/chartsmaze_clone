@@ -24,6 +24,7 @@ INTERMEDIATE_FILES = [
     "market_breadth.csv",
     "market_breadth_v2.json",
     "breadth_universe_snapshot.json",
+    "all_indices_history_v2.json",
     "etf_data_response.json",
 ]
 
@@ -38,6 +39,7 @@ FILES_TO_COMPRESS = {
     "market_breadth.csv": "market_breadth.json.gz",
     "market_breadth_v2.json": "market_breadth_v2.json.gz",
     "breadth_universe_snapshot.json": "breadth_universe_snapshot.json.gz",
+    "all_indices_history_v2.json": "all_indices_history_v2.json.gz",
 }
 
 PHASE2_SCRIPTS = [
@@ -155,6 +157,12 @@ SCRIPT_OUTPUT_SPECS = {
             min_count=1,
             required_fields=("filters", "eligible_count", "eligible"),
         ),
+        ArtifactSpec(
+            "all_indices_history_v2.json",
+            "json",
+            min_count=1,
+            required_fields=("quality", "indices"),
+        ),
     ],
     "add_corporate_events.py": [
         ArtifactSpec(
@@ -189,6 +197,12 @@ FINAL_ARTIFACT_SPECS = [
         "gzip_json",
         min_count=1,
         required_fields=("filters", "eligible_count", "eligible"),
+    ),
+    ArtifactSpec(
+        "all_indices_history_v2.json.gz",
+        "gzip_json",
+        min_count=1,
+        required_fields=("quality", "indices"),
     ),
     ArtifactSpec("all_indices_list.json", "json", min_count=1),
 ]
