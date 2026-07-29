@@ -15,6 +15,7 @@ class ArtifactSpec:
     kind: str
     min_count: int = 1
     required_fields: tuple = ()
+    nested_min_counts: tuple = ()
 
 
 @dataclass
@@ -57,7 +58,22 @@ def _check_required_fields(rows, required_fields):
     return f"missing fields: {', '.join(missing)}" if missing else ""
 
 
-def validate_json(path, min_count=1, required_fields=()):
+def _check_nested_min_counts(data, nested_min_counts):
+    if not nested_min_counts:
+        return ""
+    if not isinstance(data, dict):
+        return "nested count checks require a JSON object"
+    for field, minimum in nested_min_counts:
+        value = data.get(field)
+        if not isinstance(value, (list, dict)):
+            return f"field {field} is not a collection"
+        count = len(value)
+        if count < minimum:
+            return f"field {field} count {count} < {minimum}"
+    return ""
+
+
+def validate_json(path, min_count=1, required_fields=(), nested_min_counts=()):
     resolved = resolve_path(path)
     if not resolved.exists():
         return _missing(resolved, "json")
@@ -76,10 +92,13 @@ def validate_json(path, min_count=1, required_fields=()):
     field_error = _check_required_fields(data, required_fields)
     if field_error:
         return _bad(resolved, "json", field_error, size, count)
+    nested_count_error = _check_nested_min_counts(data, nested_min_counts)
+    if nested_count_error:
+        return _bad(resolved, "json", nested_count_error, size, count)
     return _good(resolved, "json", size=size, count=count)
 
 
-def validate_gzip_json(path, min_count=1, required_fields=()):
+def validate_gzip_json(path, min_count=1, required_fields=(), nested_min_counts=()):
     resolved = resolve_path(path)
     if not resolved.exists():
         return _missing(resolved, "gzip_json")
@@ -98,6 +117,9 @@ def validate_gzip_json(path, min_count=1, required_fields=()):
     field_error = _check_required_fields(data, required_fields)
     if field_error:
         return _bad(resolved, "gzip_json", field_error, size, count)
+    nested_count_error = _check_nested_min_counts(data, nested_min_counts)
+    if nested_count_error:
+        return _bad(resolved, "gzip_json", nested_count_error, size, count)
     return _good(resolved, "gzip_json", size=size, count=count)
 
 
@@ -161,9 +183,19 @@ def validate_file(path, min_count=1):
 
 def validate_artifact(spec):
     if spec.kind == "json":
-        return validate_json(spec.path, spec.min_count, spec.required_fields)
+        return validate_json(
+            spec.path,
+            spec.min_count,
+            spec.required_fields,
+            spec.nested_min_counts,
+        )
     if spec.kind == "gzip_json":
-        return validate_gzip_json(spec.path, spec.min_count, spec.required_fields)
+        return validate_gzip_json(
+            spec.path,
+            spec.min_count,
+            spec.required_fields,
+            spec.nested_min_counts,
+        )
     if spec.kind == "csv":
         return validate_csv(spec.path, spec.min_count)
     if spec.kind == "gzip_csv":

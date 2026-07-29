@@ -19,6 +19,9 @@ from .artifacts import (
     FINAL_ARTIFACT_SPECS,
     INTERMEDIATE_DIRS,
     INTERMEDIATE_FILES,
+    OHLCV_DERIVED_FILES,
+    OHLCV_DERIVED_FINAL_PATHS,
+    OHLCV_DERIVED_SCRIPT,
     OPTIONAL_SCRIPTS,
     PHASE2_SCRIPTS,
     PHASE4_SCRIPTS,
@@ -98,12 +101,14 @@ def run_script(script_name, phase_label="", required=False):
         return ScriptResult(False, required, error=str(e))
 
 
-def compress_output():
+def compress_output(include_ohlcv_derived=True):
     """Compress final JSONs to .json.gz and return raw/gz byte sizes."""
     total_raw = 0
     total_gz = 0
 
     for filename, output_name in FILES_TO_COMPRESS.items():
+        if not include_ohlcv_derived and filename in OHLCV_DERIVED_FILES:
+            continue
         raw_size, gz_size = compress_file(filename, output_name)
         if raw_size:
             total_raw += raw_size
@@ -201,8 +206,13 @@ def write_pipeline_report(report):
     print("  Report: pipeline_report.json")
 
 
-def validate_final_artifacts():
-    checks = validate_many(FINAL_ARTIFACT_SPECS)
+def validate_final_artifacts(include_ohlcv_derived=True):
+    specs = [
+        spec
+        for spec in FINAL_ARTIFACT_SPECS
+        if include_ohlcv_derived or spec.path not in OHLCV_DERIVED_FINAL_PATHS
+    ]
+    checks = validate_many(specs)
     failed = [check for check in checks if not check.ok]
     if failed:
         print("\nFINAL ARTIFACT VALIDATION")
@@ -313,11 +323,18 @@ def main(config=None):
     print("\nPHASE 4: Enrichment (Injecting into Master JSON)")
     print("-" * 40)
     for script in PHASE4_SCRIPTS:
-        results[script] = run_script(script, "Phase 4")
+        if script == OHLCV_DERIVED_SCRIPT and not config.fetch_ohlcv:
+            print(f"  SKIP: {script} (EDL_FETCH_OHLCV=0)")
+            continue
+        results[script] = run_script(
+            script,
+            "Phase 4",
+            required=script == OHLCV_DERIVED_SCRIPT,
+        )
 
     print("\nPHASE 5: Compression (.json -> .json.gz)")
     print("-" * 40)
-    raw_size, gz_size = compress_output()
+    raw_size, gz_size = compress_output(include_ohlcv_derived=config.fetch_ohlcv)
 
     if config.fetch_optional:
         print("\nPHASE 6: Optional Standalone Data")
@@ -330,7 +347,9 @@ def main(config=None):
         print("-" * 40)
         cleanup_intermediate()
 
-    final_checks = validate_final_artifacts()
+    final_checks = validate_final_artifacts(
+        include_ohlcv_derived=config.fetch_ohlcv
+    )
     required_failed = any(result.required and not result.ok for result in results.values())
     final_failed = any(not check.ok for check in final_checks)
     exit_code = 1 if required_failed or final_failed else 0

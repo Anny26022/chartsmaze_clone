@@ -42,6 +42,18 @@ FILES_TO_COMPRESS = {
     "all_indices_history_v2.json": "all_indices_history_v2.json.gz",
 }
 
+OHLCV_DERIVED_SCRIPT = "process_mbi_market_breadth.py"
+OHLCV_DERIVED_FILES = frozenset(
+    {
+        "market_breadth_v2.json",
+        "breadth_universe_snapshot.json",
+        "all_indices_history_v2.json",
+    }
+)
+OHLCV_DERIVED_FINAL_PATHS = frozenset(
+    f"{path}.gz" for path in OHLCV_DERIVED_FILES
+)
+
 PHASE2_SCRIPTS = [
     "fetch_company_filings.py",
     "fetch_new_announcements.py",
@@ -150,6 +162,7 @@ SCRIPT_OUTPUT_SPECS = {
             "json",
             min_count=1,
             required_fields=("methodology", "quality", "records"),
+            nested_min_counts=(("records", 1),),
         ),
         ArtifactSpec(
             "breadth_universe_snapshot.json",
@@ -191,6 +204,7 @@ FINAL_ARTIFACT_SPECS = [
         "gzip_json",
         min_count=1,
         required_fields=("methodology", "quality", "records"),
+        nested_min_counts=(("records", 1),),
     ),
     ArtifactSpec(
         "breadth_universe_snapshot.json.gz",

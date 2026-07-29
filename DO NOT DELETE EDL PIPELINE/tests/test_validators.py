@@ -39,6 +39,41 @@ class ValidatorTests(unittest.TestCase):
         self.assertTrue(check.ok)
         self.assertEqual(check.count, 2)
 
+    def test_validate_json_rejects_empty_nested_records(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "breadth.json"
+            gzip_path = Path(tmp) / "breadth.json.gz"
+            payload = {
+                "methodology": {},
+                "quality": {},
+                "records": [],
+            }
+            path.write_text(json.dumps(payload), encoding="utf-8")
+            with gzip.open(gzip_path, "wt", encoding="utf-8") as f:
+                json.dump(payload, f)
+
+            checks = validate_many(
+                [
+                    ArtifactSpec(
+                        str(path),
+                        "json",
+                        required_fields=("methodology", "quality", "records"),
+                        nested_min_counts=(("records", 1),),
+                    ),
+                    ArtifactSpec(
+                        str(gzip_path),
+                        "gzip_json",
+                        required_fields=("methodology", "quality", "records"),
+                        nested_min_counts=(("records", 1),),
+                    ),
+                ]
+            )
+
+        self.assertTrue(all(not check.ok for check in checks))
+        self.assertTrue(
+            all("field records count 0 < 1" in check.message for check in checks)
+        )
+
     def test_validate_many_reports_unknown_kind(self):
         checks = validate_many([ArtifactSpec("x", "unknown")])
 
