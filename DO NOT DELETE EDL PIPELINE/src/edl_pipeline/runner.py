@@ -306,8 +306,12 @@ def main(config=None):
     if config.fetch_ohlcv:
         print("\nPHASE 2.5: OHLCV History (Smart Incremental)")
         print("-" * 40)
-        results["fetch_all_ohlcv.py"] = run_script("fetch_all_ohlcv.py", "Phase 2.5")
-        results["fetch_indices_ohlcv.py"] = run_script("fetch_indices_ohlcv.py", "Phase 2.5")
+        results["fetch_all_ohlcv.py"] = run_script(
+            "fetch_all_ohlcv.py", "Phase 2.5", required=True
+        )
+        results["fetch_indices_ohlcv.py"] = run_script(
+            "fetch_indices_ohlcv.py", "Phase 2.5", required=True
+        )
 
     print("\nPHASE 3: Base Analysis (Building Master JSON)")
     print("-" * 40)

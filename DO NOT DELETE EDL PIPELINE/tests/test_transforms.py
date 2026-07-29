@@ -27,8 +27,10 @@ from ohlcv_utils import (
     plan_history_ranges,
     read_ohlcv_csv,
     rows_from_tick_data,
+    symbol_csv_path,
     write_ohlcv_csv,
 )
+from fetch_all_ohlcv import fetch_history_chunk
 from pipeline_utils import chunked, load_json, save_json
 from run_full_pipeline import env_bool
 from edl_pipeline.schemas import REQUIRED_FINAL_FIELDS
@@ -219,6 +221,27 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(len(chunks), 3)
         self.assertEqual(chunks[0][1], timestamp("2026-01-31"))
         self.assertEqual(chunks[-1][0], timestamp("2026-01-01"))
+
+    def test_symbol_csv_path_rejects_path_traversal(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            self.assertEqual(
+                symbol_csv_path(tmp, "M&M"),
+                Path(tmp) / "M&M.csv",
+            )
+            for unsafe in ("../secret", r"..\secret", "name:stream"):
+                with self.assertRaises(ValueError):
+                    symbol_csv_path(tmp, unsafe)
+
+    def test_history_fetch_raises_after_bounded_retries(self):
+        with mock.patch(
+            "fetch_all_ohlcv.requests.post",
+            side_effect=__import__("requests").RequestException("offline"),
+        ) as post:
+            with mock.patch("fetch_all_ohlcv.time.sleep"):
+                with self.assertRaises(RuntimeError):
+                    fetch_history_chunk({})
+
+        self.assertEqual(post.call_count, 3)
 
     def test_shared_json_and_chunk_helpers(self):
         self.assertEqual(list(chunked([1, 2, 3], 2)), [(0, [1, 2]), (2, [3])])

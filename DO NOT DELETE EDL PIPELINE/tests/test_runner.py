@@ -73,6 +73,8 @@ class RunnerTests(unittest.TestCase):
                                 )
 
         self.assertEqual(code, 0)
+        self.assertIn(("fetch_all_ohlcv.py", True), calls)
+        self.assertIn(("fetch_indices_ohlcv.py", True), calls)
         self.assertIn(("process_mbi_market_breadth.py", True), calls)
 
     def test_no_ohlcv_mode_excludes_derived_compression_and_final_checks(self):

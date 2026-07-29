@@ -19,23 +19,36 @@ OUTPUT_DIR = "indices_ohlcv_data"
 TICK_API_URL = "https://openweb-ticks.dhan.co/getDataH"
 CHUNK_DAYS = 120
 MAX_THREADS = 60
+FETCH_ATTEMPTS = 3
 
 def get_safe_sym(sym, index_id=None, disambiguate=False):
-    safe_symbol = "".join([c if c.isalnum() else "_" for c in sym])
+    safe_symbol = "".join(c if c.isalnum() else "_" for c in str(sym))
+    safe_index_id = "".join(
+        c if c.isalnum() else "_" for c in str(index_id)
+    )
     return (
-        f"{safe_symbol}__{index_id}"
+        f"{safe_symbol}__{safe_index_id}"
         if disambiguate
         else safe_symbol
     )
 
 def fetch_chunk(payload):
-    try:
-        r = requests.post(TICK_API_URL, json=payload, headers=get_headers(), timeout=10)
-        if r.status_code == 200:
+    last_error = None
+    for attempt in range(FETCH_ATTEMPTS):
+        try:
+            r = requests.post(
+                TICK_API_URL,
+                json=payload,
+                headers=get_headers(),
+                timeout=10,
+            )
+            r.raise_for_status()
             return rows_from_tick_data(r.json().get("data", {}))
-    except Exception:
-        pass
-    return []
+        except (requests.RequestException, ValueError, TypeError, IndexError) as error:
+            last_error = error
+            if attempt + 1 < FETCH_ATTEMPTS:
+                time.sleep(0.25 * (2 ** attempt))
+    raise RuntimeError("Index OHLCV chunk failed after retries") from last_error
 
 def main():
     ensure_dir(OUTPUT_DIR)
@@ -52,14 +65,17 @@ def main():
     today_str = datetime.now().strftime("%Y-%m-%d")
     
     existing_data_cache = {}
-    symbol_counts = Counter(str(index.get("Symbol") or "") for index in indices)
+    safe_symbol_counts = Counter(
+        get_safe_sym(index.get("Symbol") or "") for index in indices
+    )
 
     def cache_key(index):
         symbol = str(index["Symbol"])
+        safe_symbol = get_safe_sym(symbol)
         return get_safe_sym(
             symbol,
             index.get("IndexID"),
-            disambiguate=symbol_counts[symbol] > 1,
+            disambiguate=safe_symbol_counts[safe_symbol] > 1,
         )
 
     print(f"Checking {len(indices)} indices for sync...")
@@ -95,13 +111,18 @@ def main():
 
     # Execute history crawl if needed
     new_data = {cache_key(index): [] for index in indices}
+    failed_chunks = 0
     if tasks:
         print(f"Executing {len(tasks)} API chunks for history...")
         with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
             future_to_payload = {executor.submit(fetch_chunk, t): t for t in tasks}
             for future in as_completed(future_to_payload):
                 payload = future_to_payload[future]
-                rows = future.result()
+                try:
+                    rows = future.result()
+                except Exception:
+                    failed_chunks += 1
+                    continue
                 if rows:
                     new_data[payload["SAFE_SYM"]].extend(rows)
 
@@ -129,7 +150,10 @@ def main():
         output_path = resolve_path(OUTPUT_DIR) / f"{safe_sym}.csv"
         write_ohlcv_csv(output_path, final_rows)
 
-    print(f"Successfully updated all index CSVs with Today's Live data.")
+    if failed_chunks:
+        print(f"Error: {failed_chunks} index history chunk(s) failed after retries.")
+        return False
+    print("Successfully updated all index CSVs with Today's Live data.")
     return True
 
 if __name__ == "__main__":

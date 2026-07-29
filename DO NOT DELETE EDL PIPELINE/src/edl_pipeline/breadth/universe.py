@@ -1,6 +1,7 @@
 """Build and audit the latest-snapshot breadth universe."""
 
 from datetime import datetime, timezone
+import math
 
 
 def safe_float(value):
@@ -8,7 +9,7 @@ def safe_float(value):
         number = float(value)
     except (TypeError, ValueError):
         return None
-    if number != number:
+    if not math.isfinite(number):
         return None
     return number
 

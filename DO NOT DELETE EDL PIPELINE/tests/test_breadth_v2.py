@@ -1,3 +1,5 @@
+import contextlib
+import io
 import math
 import json
 import sys
@@ -5,6 +7,7 @@ import tempfile
 import unittest
 from dataclasses import replace
 from pathlib import Path
+from unittest import mock
 
 import pandas as pd
 
@@ -16,10 +19,15 @@ if str(SRC) not in sys.path:
 from edl_pipeline.breadth.aggregates import BreadthAccumulator
 from edl_pipeline.breadth.config import BreadthMethodology, load_methodology
 from edl_pipeline.breadth.indicators import prepare_history
-from edl_pipeline.breadth.indices import generate_all_index_history
+from edl_pipeline.breadth.indices import (
+    generate_all_index_history,
+    safe_index_symbol,
+)
 from edl_pipeline.breadth.mbi import enrich_records
-from edl_pipeline.breadth.pipeline import generate_market_breadth
+from edl_pipeline.breadth.pipeline import generate_market_breadth, load_index_closes
 from edl_pipeline.breadth.universe import build_universe_snapshot
+import process_mbi_market_breadth
+from process_mbi_market_breadth import history_coverage
 
 
 def make_ohlcv(closes, start="2024-01-01"):
@@ -97,6 +105,7 @@ class BreadthV2Tests(unittest.TestCase):
             {"Sym": "EQUAL", "Isin": "I2", "Sid": 2, "Ltp": 1, "Mcap": 100},
             {"Sym": "LOWPRICE", "Isin": "I3", "Sid": 3, "Ltp": 0.99, "Mcap": 5000},
             {"Sym": "NOCAP", "Isin": "I4", "Sid": 4, "Ltp": 10, "Mcap": None},
+            {"Sym": "INFINITE", "Isin": "I5", "Sid": 5, "Ltp": math.inf, "Mcap": 5000},
         ]
 
         snapshot = build_universe_snapshot(rows, self.methodology, "2026-01-01T00:00:00+00:00")
@@ -106,6 +115,7 @@ class BreadthV2Tests(unittest.TestCase):
         self.assertIn("market_cap_not_strictly_greater", reasons["EQUAL"])
         self.assertIn("price_below_minimum", reasons["LOWPRICE"])
         self.assertIn("missing_market_cap", reasons["NOCAP"])
+        self.assertIn("missing_price", reasons["INFINITE"])
 
     def test_indicators_use_prior_window_for_strict_new_high(self):
         closes = [100 + index * 0.1 for index in range(254)]
@@ -118,6 +128,15 @@ class BreadthV2Tests(unittest.TestCase):
             prepared.loc[253, "SMA_200"],
             sum(closes[-200:]) / 200,
         )
+
+    def test_indicators_drop_non_finite_closes(self):
+        prepared = prepare_history(
+            make_ohlcv([100.0, math.inf, 102.0]),
+            self.methodology,
+        )
+
+        self.assertEqual(prepared["Close"].tolist(), [100.0, 102.0])
+        self.assertTrue(all(math.isfinite(value) for value in prepared["Close"]))
 
     def test_negative_four_boundary_is_strict(self):
         closes = [100.0, 104.0, 99.84, 95.74656]
@@ -312,6 +331,94 @@ class BreadthV2Tests(unittest.TestCase):
             self.assertEqual(json.loads(output_path.read_text(encoding="utf-8"))["methodology"]["version"], "mbi-xp-v2.2")
             self.assertEqual(json.loads(snapshot_path.read_text(encoding="utf-8"))["eligible_count"], 2)
 
+    def test_market_breadth_requires_valid_index_history(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaises(FileNotFoundError):
+                load_index_closes(Path(tmp) / "NIFTY.csv")
+
+    def test_history_coverage_rejects_catastrophic_partial_data(self):
+        self.assertEqual(history_coverage(1, 100), 0.01)
+        self.assertEqual(history_coverage(90, 100), 0.90)
+        self.assertEqual(history_coverage(0, 0), 0.0)
+
+    def test_process_stage_fails_below_minimum_history_coverage(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            ohlcv = root / "ohlcv"
+            indices = root / "indices"
+            ohlcv.mkdir()
+            indices.mkdir()
+            required_files = {
+                "UNIVERSE_FILE": root / "universe.json",
+                "INDEX_FILE": indices / "NIFTY.csv",
+                "INDEX_LIST_FILE": root / "indices.json",
+                "METHODOLOGY_FILE": root / "methodology.json",
+            }
+            for path in required_files.values():
+                path.write_text("[]", encoding="utf-8")
+
+            patches = [
+                mock.patch.object(process_mbi_market_breadth, name, value)
+                for name, value in {
+                    **required_files,
+                    "OHLCV_DIR": ohlcv,
+                    "INDICES_DIR": indices,
+                    "OUTPUT_FILE": root / "breadth.json",
+                    "SNAPSHOT_FILE": root / "snapshot.json",
+                    "ALL_INDICES_OUTPUT_FILE": root / "all_indices.json",
+                }.items()
+            ]
+            with contextlib.ExitStack() as stack:
+                for patch in patches:
+                    stack.enter_context(patch)
+                stack.enter_context(
+                    mock.patch.object(
+                        process_mbi_market_breadth,
+                        "load_methodology",
+                        return_value=self.methodology,
+                    )
+                )
+                stack.enter_context(
+                    mock.patch.object(
+                        process_mbi_market_breadth,
+                        "load_json",
+                        return_value=[],
+                    )
+                )
+                stack.enter_context(
+                    mock.patch.object(
+                        process_mbi_market_breadth,
+                        "generate_market_breadth",
+                        return_value=(
+                            {
+                                "generated_at": "2026-01-01T00:00:00+00:00",
+                                "quality": {
+                                    "processed_symbols": 1,
+                                    "missing_history_count": 99,
+                                    "record_count": 1,
+                                },
+                            },
+                            {"eligible_count": 100},
+                        ),
+                    )
+                )
+                stack.enter_context(
+                    mock.patch.object(
+                        process_mbi_market_breadth,
+                        "generate_all_index_history",
+                        return_value={
+                            "quality": {
+                                "available_indices": 100,
+                                "processed_indices": 100,
+                            }
+                        },
+                    )
+                )
+                with contextlib.redirect_stdout(io.StringIO()):
+                    result = process_mbi_market_breadth.main()
+
+        self.assertEqual(result, 1)
+
     def test_all_index_history_publishes_every_available_index(self):
         indices = [
             {
@@ -410,6 +517,14 @@ class BreadthV2Tests(unittest.TestCase):
                 for row in artifact["indices"]
             }
             self.assertEqual(closes, {99: 101, 846: 202})
+
+    def test_normalized_index_collisions_are_disambiguated_safely(self):
+        value = safe_index_symbol("A-B", "../13", disambiguate=True)
+
+        self.assertTrue(value.startswith("A_B__"))
+        self.assertTrue(value.endswith("13"))
+        self.assertNotIn("/", value)
+        self.assertNotIn("\\", value)
 
 
 if __name__ == "__main__":

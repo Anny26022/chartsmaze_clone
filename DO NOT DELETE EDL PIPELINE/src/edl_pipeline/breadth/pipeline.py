@@ -2,6 +2,7 @@
 
 from datetime import datetime, timezone
 import json
+import math
 import numbers
 from pathlib import Path
 from tempfile import NamedTemporaryFile
@@ -12,6 +13,7 @@ from .aggregates import BreadthAccumulator
 from .indicators import prepare_history
 from .mbi import enrich_records
 from .universe import build_universe_snapshot
+from ohlcv_utils import symbol_csv_path
 
 
 TRADINGVIEW_TABLE_SCHEMA = [
@@ -53,7 +55,7 @@ def _save_json(path, data):
         prefix=f".{resolved.name}.",
         suffix=".tmp",
     ) as handle:
-        json.dump(data, handle, indent=2, ensure_ascii=False)
+        json.dump(data, handle, indent=2, ensure_ascii=False, allow_nan=False)
         temporary = Path(handle.name)
     try:
         temporary.replace(resolved)
@@ -65,13 +67,18 @@ def _save_json(path, data):
 def load_index_closes(path):
     resolved = Path(path)
     if not resolved.exists():
-        return {}
+        raise FileNotFoundError(f"Required index history is missing: {resolved}")
     frame = pd.read_csv(resolved)
     if "Date" not in frame or "Close" not in frame:
-        return {}
+        raise ValueError(f"Required index history has no Date/Close columns: {resolved}")
     frame["Date"] = pd.to_datetime(frame["Date"], errors="coerce").dt.strftime("%Y-%m-%d")
     frame["Close"] = pd.to_numeric(frame["Close"], errors="coerce")
+    frame["Close"] = frame["Close"].where(
+        frame["Close"].map(lambda value: pd.isna(value) or math.isfinite(value))
+    )
     frame = frame.dropna(subset=["Date", "Close"]).drop_duplicates("Date", keep="last")
+    if frame.empty:
+        raise ValueError(f"Required index history has no valid rows: {resolved}")
     return dict(zip(frame["Date"], frame["Close"]))
 
 
@@ -81,7 +88,7 @@ def _round_value(value, digits):
     if isinstance(value, numbers.Integral):
         return int(value)
     if isinstance(value, numbers.Real):
-        if pd.isna(value):
+        if pd.isna(value) or not math.isfinite(float(value)):
             return None
         return round(float(value), digits)
     if isinstance(value, dict):
@@ -112,7 +119,7 @@ def generate_market_breadth(
 
     for stock in snapshot["eligible"]:
         symbol = stock["symbol"]
-        csv_path = ohlcv_root / f"{symbol}.csv"
+        csv_path = symbol_csv_path(ohlcv_root, symbol)
         if not csv_path.exists():
             missing_history.append(symbol)
             continue

@@ -1,8 +1,21 @@
 import csv
 from datetime import datetime
+from pathlib import Path
 
 
 OHLCV_FIELDS = ["Date", "Open", "High", "Low", "Close", "Volume"]
+
+
+def symbol_csv_path(directory, symbol):
+    """Resolve a provider symbol to a CSV without allowing path traversal."""
+    value = str(symbol).strip()
+    if (
+        not value
+        or value in {".", ".."}
+        or any(character in value for character in ("/", "\\", "\0", ":"))
+    ):
+        raise ValueError(f"Unsafe market symbol: {value!r}")
+    return Path(directory) / f"{value}.csv"
 
 
 def date_string(value):

@@ -30,6 +30,9 @@ def prepare_history(frame, methodology):
     df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
     for column in ("Open", "High", "Low", "Close", "Volume"):
         df[column] = pd.to_numeric(df[column], errors="coerce")
+    df.loc[:, ("Open", "High", "Low", "Close", "Volume")] = df.loc[
+        :, ("Open", "High", "Low", "Close", "Volume")
+    ].replace([np.inf, -np.inf], np.nan)
 
     df = (
         df.dropna(subset=["Date", "Close"])

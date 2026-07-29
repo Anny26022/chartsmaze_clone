@@ -3,6 +3,7 @@
 from datetime import datetime, timezone
 from collections import Counter
 import json
+import math
 import numbers
 from pathlib import Path
 from tempfile import NamedTemporaryFile
@@ -19,8 +20,12 @@ def safe_index_symbol(symbol, index_id=None, disambiguate=False):
         character if character.isalnum() else "_"
         for character in str(symbol)
     )
+    safe_index_id = "".join(
+        character if character.isalnum() else "_"
+        for character in str(index_id)
+    )
     return (
-        f"{safe_symbol}__{index_id}"
+        f"{safe_symbol}__{safe_index_id}"
         if disambiguate
         else safe_symbol
     )
@@ -32,7 +37,7 @@ def _round_value(value, digits):
     if isinstance(value, numbers.Integral):
         return int(value)
     if isinstance(value, numbers.Real):
-        if pd.isna(value):
+        if pd.isna(value) or not math.isfinite(float(value)):
             return None
         return round(float(value), digits)
     return value
@@ -49,7 +54,7 @@ def _save_json(path, data):
         prefix=f".{resolved.name}.",
         suffix=".tmp",
     ) as handle:
-        json.dump(data, handle, indent=2, ensure_ascii=False)
+        json.dump(data, handle, indent=2, ensure_ascii=False, allow_nan=False)
         temporary = Path(handle.name)
     try:
         temporary.replace(resolved)
@@ -70,6 +75,9 @@ def _normalize_index_history(path, output_sessions, rounding_digits):
         if column not in frame:
             frame[column] = None
         frame[column] = pd.to_numeric(frame[column], errors="coerce")
+        frame[column] = frame[column].where(
+            frame[column].map(lambda value: pd.isna(value) or math.isfinite(value))
+        )
     frame = (
         frame.dropna(subset=["Date", "Close"])
         .drop_duplicates("Date", keep="last")
@@ -112,7 +120,9 @@ def generate_all_index_history(
     missing_history = []
     invalid_history = []
 
-    symbol_counts = Counter(str(index.get("Symbol") or "") for index in index_rows)
+    safe_symbol_counts = Counter(
+        safe_index_symbol(index.get("Symbol") or "") for index in index_rows
+    )
 
     for index in sorted(
         index_rows,
@@ -125,8 +135,9 @@ def generate_all_index_history(
         if not symbol:
             invalid_history.append({"symbol": None, "error": "missing symbol"})
             continue
+        safe_symbol = safe_index_symbol(symbol)
         csv_path = indices_root / (
-            f"{safe_index_symbol(symbol, index.get('IndexID'), symbol_counts[symbol] > 1)}.csv"
+            f"{safe_index_symbol(symbol, index.get('IndexID'), safe_symbol_counts[safe_symbol] > 1)}.csv"
         )
         if not csv_path.exists():
             missing_history.append(symbol)
@@ -152,7 +163,7 @@ def generate_all_index_history(
                 "exchange": index.get("Exchange"),
                 "segment": index.get("Segment"),
                 "instrument": index.get("Instrument"),
-                "current_snapshot": {
+                "current_snapshot": _round_value({
                     "open": index.get("Open"),
                     "high": index.get("High"),
                     "low": index.get("Low"),
@@ -162,7 +173,7 @@ def generate_all_index_history(
                     "volume": index.get("Volume"),
                     "high_52w": index.get("52W_High"),
                     "low_52w": index.get("52W_Low"),
-                },
+                }, rounding_digits),
                 "records": records,
             }
         )

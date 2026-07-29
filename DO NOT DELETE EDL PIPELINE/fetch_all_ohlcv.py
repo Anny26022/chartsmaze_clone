@@ -11,6 +11,7 @@ from ohlcv_utils import (
     plan_history_ranges,
     read_ohlcv_csv,
     rows_from_tick_data,
+    symbol_csv_path,
     write_ohlcv_csv,
 )
 from pipeline_utils import ensure_dir, fetch_scanx_data, get_headers, load_json, resolve_path
@@ -22,6 +23,7 @@ CHUNK_DAYS = 180  # Fetch in chunks to avoid API limits
 MAX_THREADS = 15
 TICK_API_URL = "https://openweb-ticks.dhan.co/getDataH"
 HISTORY_CALENDAR_DAYS = int(os.getenv("EDL_OHLCV_HISTORY_DAYS", str(4 * 365)))
+FETCH_ATTEMPTS = 3
 
 def get_live_snapshots():
     """Fetches live OHLCV snapshot for all stocks to fill in Today's gap."""
@@ -41,16 +43,25 @@ def get_live_snapshots():
 
 def fetch_history_chunk(payload):
     """Fetch a single chunk of historical data."""
-    try:
-        response = requests.post(TICK_API_URL, json=payload, headers=get_headers(include_origin=True), timeout=15)
-        if response.status_code == 200:
+    last_error = None
+    for attempt in range(FETCH_ATTEMPTS):
+        try:
+            response = requests.post(
+                TICK_API_URL,
+                json=payload,
+                headers=get_headers(include_origin=True),
+                timeout=15,
+            )
+            response.raise_for_status()
             return rows_from_tick_data(response.json().get("data", {}))
-    except Exception:
-        pass
-    return []
+        except (requests.RequestException, ValueError, TypeError, IndexError) as error:
+            last_error = error
+            if attempt + 1 < FETCH_ATTEMPTS:
+                time.sleep(0.25 * (2 ** attempt))
+    raise RuntimeError("Historical OHLCV chunk failed after retries") from last_error
 
 def fetch_single_stock(sym, details, live_snapshot=None):
-    output_path = resolve_path(OUTPUT_DIR) / f"{sym}.csv"
+    output_path = symbol_csv_path(resolve_path(OUTPUT_DIR), sym)
     today_str = datetime.now().strftime("%Y-%m-%d")
     
     # Four calendar years gives roughly 1,000 trading sessions. This supports
@@ -126,7 +137,7 @@ def main():
                 counts["error"] += 1
 
     print(f"Done! Updated: {counts['success']} | UpToDate: {counts['uptodate']} | Errors: {counts['error']}")
-    return True
+    return counts["error"] == 0
 
 if __name__ == "__main__":
     sys.exit(0 if main() else 1)

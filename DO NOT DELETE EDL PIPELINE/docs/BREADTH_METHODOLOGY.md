@@ -163,10 +163,9 @@ protected script.
 ## EM
 
 The protected indicator describes EM as its Pine Seed score. No public formula
-or raw seed series has been found. The reference values are useful for
-comparison, but the pipeline deliberately does not publish an `em` field:
-fitting a rule to ten displayed integers would be an unvalidated proxy rather
-than a reconstruction.
+or raw seed series has been found. The pipeline keeps the `em` field explicitly
+set to `null`; fitting a numeric rule to ten displayed integers would be an
+unvalidated proxy rather than a reconstruction.
 
 ## Outputs
 
