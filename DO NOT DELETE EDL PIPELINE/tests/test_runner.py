@@ -11,7 +11,14 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from edl_pipeline.config import PipelineConfig
-from edl_pipeline.runner import ScriptResult, build_pipeline_report, main, run_script
+from edl_pipeline.runner import (
+    ScriptResult,
+    build_pipeline_report,
+    compress_output,
+    main,
+    run_script,
+    validate_final_artifacts,
+)
 from edl_pipeline.validators import ArtifactCheck
 
 
@@ -40,8 +47,60 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(code, 0)
         self.assertNotIn("fetch_all_ohlcv.py", calls)
         self.assertNotIn("fetch_indices_ohlcv.py", calls)
+        self.assertNotIn("process_mbi_market_breadth.py", calls)
         self.assertNotIn("fetch_etf_data.py", calls)
         self.assertIn("bulk_market_analyzer.py", calls)
+
+    def test_main_requires_breadth_stage_when_ohlcv_is_enabled(self):
+        calls = []
+
+        def fake_run_script(script, phase_label="", required=False):
+            calls.append((script, required))
+            return ScriptResult(True, required)
+
+        with mock.patch("edl_pipeline.runner.run_script", side_effect=fake_run_script):
+            with mock.patch("edl_pipeline.runner.download_nse_listing_dates", return_value=True):
+                with mock.patch("edl_pipeline.runner.compress_output", return_value=(100, 10)):
+                    with mock.patch("edl_pipeline.runner.validate_final_artifacts", return_value=[]):
+                        with mock.patch("edl_pipeline.runner.write_pipeline_report"):
+                            with contextlib.redirect_stdout(io.StringIO()):
+                                code = main(
+                                    PipelineConfig(
+                                        fetch_ohlcv=True,
+                                        fetch_optional=False,
+                                        cleanup_intermediate=False,
+                                    )
+                                )
+
+        self.assertEqual(code, 0)
+        self.assertIn(("fetch_all_ohlcv.py", True), calls)
+        self.assertIn(("fetch_indices_ohlcv.py", True), calls)
+        self.assertIn(("process_mbi_market_breadth.py", True), calls)
+
+    def test_no_ohlcv_mode_excludes_derived_compression_and_final_checks(self):
+        with mock.patch(
+            "edl_pipeline.runner.compress_file",
+            return_value=(100, 10),
+        ) as compress_file:
+            compress_output(include_ohlcv_derived=False)
+
+        compressed_sources = {call.args[0] for call in compress_file.call_args_list}
+        self.assertNotIn("market_breadth_v2.json", compressed_sources)
+        self.assertNotIn("breadth_universe_snapshot.json", compressed_sources)
+        self.assertNotIn("all_indices_history_v2.json", compressed_sources)
+        self.assertIn("all_stocks_fundamental_analysis.json", compressed_sources)
+
+        with mock.patch(
+            "edl_pipeline.runner.validate_many",
+            return_value=[],
+        ) as validate_many:
+            validate_final_artifacts(include_ohlcv_derived=False)
+
+        final_paths = {spec.path for spec in validate_many.call_args.args[0]}
+        self.assertNotIn("market_breadth_v2.json.gz", final_paths)
+        self.assertNotIn("breadth_universe_snapshot.json.gz", final_paths)
+        self.assertNotIn("all_indices_history_v2.json.gz", final_paths)
+        self.assertIn("all_stocks_fundamental_analysis.json.gz", final_paths)
 
     def test_required_output_validation_failure_marks_script_failed(self):
         completed = mock.Mock(returncode=0)

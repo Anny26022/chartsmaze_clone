@@ -1,8 +1,21 @@
 import csv
 from datetime import datetime
+from pathlib import Path
 
 
 OHLCV_FIELDS = ["Date", "Open", "High", "Low", "Close", "Volume"]
+
+
+def symbol_csv_path(directory, symbol):
+    """Resolve a provider symbol to a CSV without allowing path traversal."""
+    value = str(symbol).strip()
+    if (
+        not value
+        or value in {".", ".."}
+        or any(character in value for character in ("/", "\\", "\0", ":"))
+    ):
+        raise ValueError(f"Unsafe market symbol: {value!r}")
+    return Path(directory) / f"{value}.csv"
 
 
 def date_string(value):
@@ -43,6 +56,47 @@ def read_ohlcv_csv(path):
 
 def merge_rows_by_date(rows):
     return sorted({row["Date"]: row for row in rows}.values(), key=lambda row: row["Date"])
+
+
+def plan_history_ranges(existing_rows, desired_start_ts, desired_end_ts):
+    """Plan backward and forward gaps without discarding an existing cache."""
+    if desired_start_ts >= desired_end_ts:
+        return []
+    if not existing_rows:
+        return [(int(desired_start_ts), int(desired_end_ts))]
+
+    parsed = []
+    for row in existing_rows:
+        try:
+            parsed.append(int(datetime.strptime(row["Date"], "%Y-%m-%d").timestamp()))
+        except (KeyError, TypeError, ValueError):
+            continue
+    if not parsed:
+        return [(int(desired_start_ts), int(desired_end_ts))]
+
+    one_day = 86400
+    first_ts = min(parsed)
+    last_ts = max(parsed)
+    ranges = []
+    if desired_start_ts < first_ts - one_day:
+        ranges.append((int(desired_start_ts), int(first_ts - one_day)))
+    if last_ts + one_day < desired_end_ts:
+        ranges.append((int(last_ts + one_day), int(desired_end_ts)))
+    return ranges
+
+
+def chunk_history_range(start_ts, end_ts, chunk_days):
+    """Yield non-overlapping API ranges from newest to oldest."""
+    if chunk_days <= 0:
+        raise ValueError("chunk_days must be positive")
+    chunks = []
+    pointer = int(end_ts)
+    span = int(chunk_days * 86400)
+    while pointer > start_ts:
+        chunk_start = max(int(start_ts), pointer - span)
+        chunks.append((chunk_start, pointer))
+        pointer = chunk_start
+    return chunks
 
 
 def write_ohlcv_csv(path, rows):

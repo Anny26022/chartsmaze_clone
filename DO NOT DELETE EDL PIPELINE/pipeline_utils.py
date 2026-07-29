@@ -67,7 +67,7 @@ def load_json(path, default=None):
     """Load JSON from a pipeline-relative path."""
     resolved = resolve_path(path)
     try:
-        with resolved.open("r") as f:
+        with resolved.open("r", encoding="utf-8") as f:
             return json.load(f)
     except FileNotFoundError:
         if default is not None:
@@ -91,7 +91,7 @@ def atomic_replace_bytes(path, data):
 
 def atomic_replace_text(path, text):
     """Atomically write text to a pipeline-relative path."""
-    atomic_replace_bytes(path, text.encode())
+    atomic_replace_bytes(path, text.encode("utf-8"))
 
 
 def save_json(path, data, indent=4, ensure_ascii=True):
