@@ -19,13 +19,13 @@ from fetch_corporate_actions import flatten_actions
 from fetch_dhan_data import build_master_map
 from fetch_fno_expiry import flatten_expiry_data
 from fetch_fno_lot_sizes import clean_lot_size_item
-from advanced_metrics_processor import apply_live_sma_signals, merge_historical_metrics, process_symbol_csv
-from standardize_stock_artifact import apply_canonical_sma_fields, canonicalize_stock
+from advanced_metrics_processor import merge_historical_metrics, process_symbol_csv
+from standardize_stock_artifact import canonicalize_stock
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from process_market_breadth import generate_analytics
 from nse_archive_utils import clean_records
 from ohlcv_utils import merge_rows_by_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
-from pipeline_utils import chunked, load_json, save_json
+from pipeline_utils import apply_sma_fields, chunked, load_json, save_json
 from run_full_pipeline import env_bool
 from edl_pipeline.transforms.events import (
     apply_events_to_master,
@@ -177,7 +177,7 @@ class TransformTests(unittest.TestCase):
             "distance_from_sma20_percent": -11.11,
         }
 
-        apply_live_sma_signals(stock)
+        apply_sma_fields(stock)
 
         self.assertTrue(stock["close_above_sma20"])
         self.assertTrue(stock["close_above_sma50"])

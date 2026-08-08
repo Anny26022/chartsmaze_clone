@@ -4,7 +4,7 @@ import glob
 import sys
 from concurrent.futures import ThreadPoolExecutor
 
-from pipeline_utils import BASE_DIR, load_json, save_json
+from pipeline_utils import BASE_DIR, apply_sma_fields, load_json, save_json
 
 # --- Configuration ---
 JSON_INPUT = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
@@ -50,40 +50,6 @@ def merge_historical_metrics(stock, metrics):
     for field, value in metrics.items():
         if field not in LIVE_SCANNER_FIELDS:
             stock[field] = value
-
-
-def apply_live_sma_signals(stock):
-    """Keep canonical SMA signals consistent with published live values."""
-    close = pd.to_numeric(stock.get('close'), errors='coerce')
-    smas = {
-        period: pd.to_numeric(stock.get(f'sma{period}'), errors='coerce')
-        for period in (10, 20, 50, 200)
-    }
-
-    def available(*values):
-        return all(pd.notna(value) for value in values)
-
-    def above(left, right):
-        return boolean_or_none(left > right, available(left, right))
-
-    stock.update({
-        'close_above_sma10': boolean_or_none(close > smas[10], available(close, smas[10])),
-        'close_above_sma20': boolean_or_none(close > smas[20], available(close, smas[20])),
-        'close_above_sma50': boolean_or_none(close > smas[50], available(close, smas[50])),
-        'close_above_sma200': boolean_or_none(close > smas[200], available(close, smas[200])),
-        'sma10_above_sma20': above(smas[10], smas[20]),
-        'sma20_above_sma50': above(smas[20], smas[50]),
-        'sma50_above_sma200': above(smas[50], smas[200]),
-        'distance_from_sma20_percent': value_or_none(
-            ((close - smas[20]) / smas[20]) * 100
-        ) if available(close, smas[20]) and smas[20] != 0 else None,
-        'distance_from_sma50_percent': value_or_none(
-            ((close - smas[50]) / smas[50]) * 100
-        ) if available(close, smas[50]) and smas[50] != 0 else None,
-        'distance_from_sma200_percent': value_or_none(
-            ((close - smas[200]) / smas[200]) * 100
-        ) if available(close, smas[200]) and smas[200] != 0 else None,
-    })
 
 
 def drop_copied_live_snapshot(df):
@@ -344,7 +310,7 @@ def main():
 
         # Reconcile every stock, including symbols without usable OHLCV
         # history, against the live ScanX values published in the artifact.
-        apply_live_sma_signals(stock)
+        apply_sma_fields(stock)
         for field in SCANNER_DERIVED_FIELDS:
             stock.setdefault(field, None)
 

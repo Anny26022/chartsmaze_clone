@@ -75,6 +75,30 @@ def load_json(path, default=None):
         raise
 
 
+def apply_sma_fields(row):
+    """Derive canonical SMA flags and distances from published values."""
+    values = {}
+    for field in ("close", "sma10", "sma20", "sma50", "sma200"):
+        try:
+            values[field] = float(row.get(field))
+        except (TypeError, ValueError):
+            values[field] = None
+
+    close = values["close"]
+    for period in (10, 20, 50, 200):
+        sma = values[f"sma{period}"]
+        row[f"close_above_sma{period}"] = close > sma if None not in (close, sma) else None
+        if period != 10:
+            row[f"distance_from_sma{period}_percent"] = (
+                round((close - sma) / sma * 100, 2) if close is not None and sma not in (None, 0) else None
+            )
+
+    for left, right in ((10, 20), (20, 50), (50, 200)):
+        a, b = values[f"sma{left}"], values[f"sma{right}"]
+        row[f"sma{left}_above_sma{right}"] = a > b if None not in (a, b) else None
+    return row
+
+
 def atomic_replace_bytes(path, data):
     """Atomically write bytes to a pipeline-relative path."""
     resolved = resolve_path(path)
