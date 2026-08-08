@@ -46,6 +46,38 @@ def normalize_object(value):
     return value
 
 
+def apply_canonical_sma_fields(result):
+    """Make published SMA flags and distances agree with published values."""
+    close = result.get("close")
+    try:
+        close = float(close)
+    except (TypeError, ValueError):
+        close = None
+
+    for period in (10, 20, 50, 200):
+        value = result.get(f"sma{period}")
+        try:
+            value = float(value)
+        except (TypeError, ValueError):
+            value = None
+        result[f"close_above_sma{period}"] = (
+            close > value if close is not None and value is not None else None
+        )
+        if period in (20, 50, 200):
+            result[f"distance_from_sma{period}_percent"] = (
+                round((close - value) / value * 100, 2)
+                if close is not None and value not in (None, 0) else None
+            )
+
+    for left, right in ((10, 20), (20, 50), (50, 200)):
+        left_value = result.get(f"sma{left}")
+        right_value = result.get(f"sma{right}")
+        try:
+            result[f"sma{left}_above_sma{right}"] = float(left_value) > float(right_value)
+        except (TypeError, ValueError):
+            result[f"sma{left}_above_sma{right}"] = None
+
+
 def canonicalize_stock(stock):
     result = {
         "schema_version": "3.0",
@@ -120,6 +152,7 @@ def canonicalize_stock(stock):
         "news_feed": normalize_object(stock.get("News Feed", [])),
     }
     result.update({key: normalize_object(value) for key, value in aliases.items()})
+    apply_canonical_sma_fields(result)
     return normalize_object(result)
 
 

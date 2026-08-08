@@ -20,7 +20,7 @@ from fetch_dhan_data import build_master_map
 from fetch_fno_expiry import flatten_expiry_data
 from fetch_fno_lot_sizes import clean_lot_size_item
 from advanced_metrics_processor import apply_live_sma_signals, merge_historical_metrics, process_symbol_csv
-from standardize_stock_artifact import canonicalize_stock
+from standardize_stock_artifact import apply_canonical_sma_fields, canonicalize_stock
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from process_market_breadth import generate_analytics
 from nse_archive_utils import clean_records
@@ -417,6 +417,14 @@ class TransformTests(unittest.TestCase):
 
         sme_result = canonicalize_stock({"Symbol": "SME", "Name": "SME Ltd", "is_sme": True})
         self.assertFalse(sme_result["default_screener_eligible"])
+
+    def test_canonicalizer_keeps_sma_flags_consistent_with_published_values(self):
+        result = canonicalize_stock({"Symbol": "ABC", "close": 100, "sma20": 90, "sma50": 110})
+
+        self.assertTrue(result["close_above_sma20"])
+        self.assertFalse(result["close_above_sma50"])
+        self.assertAlmostEqual(result["distance_from_sma20_percent"], 11.11, places=2)
+        self.assertFalse(result["sma20_above_sma50"])
 
     def test_sector_analytics_use_ma_breadth_without_rs_fields(self):
         analytics = generate_analytics([
