@@ -109,6 +109,10 @@ def quarterly_metric_fields(prefix, source, pipe_name):
         f"{prefix} 2 Quarters Back": two_back,
         f"{prefix} 3 Quarters Back": three_back,
         f"{prefix} Last Year Quarter": last_year,
+        **{
+            f"{prefix} {quarters} Quarters Back": get_value_from_pipe_string(source.get(pipe_name), quarters)
+            for quarters in (5, 6, 7)
+        },
         f"QoQ % {prefix} Latest": round(calculate_change(latest, previous), 2),
         f"YoY % {prefix} Latest": round(calculate_change(latest, last_year), 2),
     }
@@ -140,6 +144,7 @@ def valuation_fields(cv, ttm_cy, roce_roe, bs_c, eps_latest, yoy_eps):
         "P/E": pe,
         "PEG": round(peg, 2),
         "Forward P/E": round(forward_pe, 2),
+        "Price to Book": get_optional_float(cv.get("PRICE_TO_BOOK_VALUE")),
         "Historical P/E 5": 0.0,
     }
 
@@ -149,9 +154,11 @@ def ownership_fields(shp, market_cap_cr, ltp, total_shares):
     fii_prev = get_value_from_pipe_string(shp.get("FII"), 1)
     dii_latest = get_value_from_pipe_string(shp.get("DII"), 0)
     dii_prev = get_value_from_pipe_string(shp.get("DII"), 1)
+    public_latest = get_value_from_pipe_string(shp.get("PUBLIC"), 0)
 
     promoter_history = shp.get("PROMOTER")
     promoter_latest = get_value_from_pipe_string(promoter_history, 0) if promoter_history else None
+    promoter_prev = get_value_from_pipe_string(promoter_history, 1) if promoter_history else None
     free_float_pct = 100.0 - promoter_latest if promoter_latest is not None and promoter_latest >= 0 else None
 
     total_shares_cr = total_shares / 10_000_000 if total_shares > 0 else 0.0
@@ -160,6 +167,15 @@ def ownership_fields(shp, market_cap_cr, ltp, total_shares):
     float_shares_cr = total_shares_cr * (free_float_pct / 100.0) if free_float_pct is not None else None
 
     return {
+        "Promoter Latest Quarter": promoter_latest,
+        "Promoter Previous Quarter": promoter_prev,
+        "Promoter QoQ Change": round(promoter_latest - promoter_prev, 2)
+        if promoter_latest is not None and promoter_prev is not None else None,
+        "Public Latest Quarter": public_latest,
+        "FII Latest Quarter": fii_latest,
+        "FII Previous Quarter": fii_prev,
+        "DII Latest Quarter": dii_latest,
+        "DII Previous Quarter": dii_prev,
         "FII % change QoQ": round(fii_latest - fii_prev, 2),
         "DII % change QoQ": round(dii_latest - dii_prev, 2),
         "Free Float(%)": round(free_float_pct, 2) if free_float_pct is not None else None,

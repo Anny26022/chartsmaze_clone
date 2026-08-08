@@ -71,16 +71,16 @@ class TransformTests(unittest.TestCase):
             "Name": "ABC Ltd",
             "incomeStat_cq": {
                 "YEAR": "Q1|Q0",
-                "NET_PROFIT": "10|5|4|3|2",
-                "EPS": "2|1|0.5|0.25|1",
-                "SALES": "100|80|70|60|50",
-                "OPM": "20|15|10|5|10",
+                "NET_PROFIT": "10|5|4|3|2|1.5|1|0.5",
+                "EPS": "2|1|0.5|0.25|1|0.8|0.6|0.4",
+                "SALES": "100|80|70|60|50|45|40|35",
+                "OPM": "20|15|10|5|10|9|8|7",
             },
             "incomeStat_cy": {"EPS": "8|6", "SALES": "200|180|160|140|120|100"},
             "TTM_cy": {"OPM": "18", "EPS": "7"},
-            "CV": {"INDUSTRY_NAME": "Software", "SECTOR": "IT", "MARKET_CAP": "1000", "STOCK_PE": "20"},
+            "CV": {"INDUSTRY_NAME": "Software", "SECTOR": "IT", "MARKET_CAP": "1000", "STOCK_PE": "20", "PRICE_TO_BOOK_VALUE": "4.5"},
             "roce_roe": {"ROE": "15", "ROCE": "18"},
-            "sHp": {"FII": "10|8", "DII": "5|4", "PROMOTER": "40"},
+            "sHp": {"FII": "10|8", "DII": "5|4", "PROMOTER": "40|39", "PUBLIC": "45|48"},
             "bs_c": {"NON_CURRENT_LIABILITIES": "50", "TOTAL_EQUITY": "100"},
         }
         tech = {
@@ -125,6 +125,19 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["D/E"], 0.5)
         self.assertEqual(result["PEG"], 0.2)
         self.assertEqual(result["Forward P/E"], 17.5)
+        self.assertEqual(result["Price to Book"], 4.5)
+        self.assertEqual(result["Net Profit 7 Quarters Back"], 0.5)
+        self.assertEqual(result["EPS 5 Quarters Back"], 0.8)
+        self.assertEqual(result["Sales 6 Quarters Back"], 40.0)
+        self.assertEqual(result["OPM 7 Quarters Back"], 7.0)
+        self.assertEqual(result["Promoter Latest Quarter"], 40.0)
+        self.assertEqual(result["Promoter Previous Quarter"], 39.0)
+        self.assertEqual(result["Promoter QoQ Change"], 1.0)
+        self.assertEqual(result["Public Latest Quarter"], 45.0)
+        self.assertEqual(result["FII Latest Quarter"], 10.0)
+        self.assertEqual(result["FII Previous Quarter"], 8.0)
+        self.assertEqual(result["DII Latest Quarter"], 5.0)
+        self.assertEqual(result["DII Previous Quarter"], 4.0)
         self.assertEqual(result["Free Float(%)"], 60.0)
         self.assertEqual(result["Float Shares(Cr.)"], 6.0)
         self.assertEqual(result["listing_board"], "UNKNOWN")
