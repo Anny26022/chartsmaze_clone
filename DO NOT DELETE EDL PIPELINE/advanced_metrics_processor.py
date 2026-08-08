@@ -329,7 +329,6 @@ def main():
             # Merge historical calculations without replacing current ScanX
             # turnover or moving averages with values from the OHLCV cache.
             merge_historical_metrics(stock, metrics)
-            apply_live_sma_signals(stock)
             if "ATH_Value" in stock: del stock["ATH_Value"]
         else:
             # Initialize with 0 for consistency if missing
@@ -343,6 +342,9 @@ def main():
             for p in placeholders:
                 if p not in stock: stock[p] = 0.0
 
+        # Reconcile every stock, including symbols without usable OHLCV
+        # history, against the live ScanX values published in the artifact.
+        apply_live_sma_signals(stock)
         for field in SCANNER_DERIVED_FIELDS:
             stock.setdefault(field, None)
 
