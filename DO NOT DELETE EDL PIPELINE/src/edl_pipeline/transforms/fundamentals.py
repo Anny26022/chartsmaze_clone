@@ -93,7 +93,7 @@ def load_sme_map(path=SME_DATA_FILE):
         rows = load_json(path)
     except FileNotFoundError:
         print(f"Warning: {path} not found. SME classification unavailable.")
-        return {}
+        return None
     return {row.get("Symbol"): row for row in rows if row.get("Symbol")}
 
 
@@ -226,6 +226,7 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
     ltp = get_float(tech.get("Ltp", 0))
     total_shares = get_optional_float(tech.get("TotalShares")) or 0.0
     volume = get_optional_float(tech.get("Volume", tech.get("volume")))
+    sme_record = sme_map.get(symbol) if sme_map is not None else None
 
     net_profit = quarterly_metric_fields("Net Profit", cq, "NET_PROFIT")
     eps = quarterly_metric_fields("EPS", cq, "EPS")
@@ -272,9 +273,9 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
             "exchange": tech.get("Exch", "NSE"),
             "instrument": tech.get("Inst", "EQUITY"),
             "segment": tech.get("Seg", "E"),
-            "listing_board": "SME" if sme_map and symbol in sme_map else "UNKNOWN",
-            "is_sme": True if sme_map and symbol in sme_map else None,
-            "listing_series": sme_map.get(symbol, {}).get("Series") if sme_map else None,
+            "listing_board": "SME" if sme_record else "MAINBOARD" if sme_map is not None else "UNKNOWN",
+            "is_sme": True if sme_record else False if sme_map is not None else None,
+            "listing_series": sme_record.get("Series") if sme_record else None,
             "close": ltp,
             "open": get_optional_float(tech.get("Open")),
             "high": get_optional_float(tech.get("High")),

@@ -19,7 +19,7 @@ from fetch_corporate_actions import flatten_actions
 from fetch_dhan_data import build_master_map
 from fetch_fno_expiry import flatten_expiry_data
 from fetch_fno_lot_sizes import clean_lot_size_item
-from advanced_metrics_processor import process_symbol_csv
+from advanced_metrics_processor import merge_historical_metrics, process_symbol_csv
 from standardize_stock_artifact import canonicalize_stock
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from process_market_breadth import generate_analytics
@@ -127,6 +127,17 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["Forward P/E"], 17.5)
         self.assertEqual(result["Free Float(%)"], 60.0)
         self.assertEqual(result["Float Shares(Cr.)"], 6.0)
+        self.assertEqual(result["listing_board"], "UNKNOWN")
+        self.assertIsNone(result["is_sme"])
+
+        mainboard = analyze_stock(item, tech, advanced, {"ABC": "2020-01-01"}, {})
+        self.assertEqual(mainboard["listing_board"], "MAINBOARD")
+        self.assertFalse(mainboard["is_sme"])
+
+        sme = analyze_stock(item, tech, advanced, {"ABC": "2020-01-01"}, {"ABC": {"Series": "SM"}})
+        self.assertEqual(sme["listing_board"], "SME")
+        self.assertTrue(sme["is_sme"])
+        self.assertEqual(sme["listing_series"], "SM")
         self.assertEqual(result["% from 52W High"], -16.67)
         self.assertEqual(result["Index"], "Nifty 50")
         self.assertEqual(result["SMA Status"], "SMA 20: Above (25.0%)")
@@ -139,7 +150,21 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["market_cap_crore"], 1100.0)
         self.assertEqual(result["sma10"], 90.0)
         self.assertEqual(result["perf_6m"], 4.5)
-        self.assertEqual(result["Float Shares(Cr.)"], 6.0)
+
+    def test_historical_metrics_do_not_replace_live_scanner_values(self):
+        stock = {"rupee_volume": 1000.0, "sma10": 101.0, "sma20": 102.0, "sma50": 103.0, "sma200": 104.0}
+        merge_historical_metrics(stock, {
+            "rupee_volume": 10.0,
+            "sma10": 11.0,
+            "sma20": 12.0,
+            "sma50": 13.0,
+            "sma200": 14.0,
+            "avg_rupee_volume_20": 500.0,
+        })
+
+        self.assertEqual(stock["rupee_volume"], 1000.0)
+        self.assertEqual([stock[f"sma{period}"] for period in (10, 20, 50, 200)], [101.0, 102.0, 103.0, 104.0])
+        self.assertEqual(stock["avg_rupee_volume_20"], 500.0)
 
     def test_ohlcv_scanner_metrics_include_normalized_values_and_signals(self):
         pandas = __import__("pandas")

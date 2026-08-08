@@ -26,6 +26,11 @@ SCANNER_DERIVED_FIELDS = [
     'sma50_crossed_above_sma200_today',
 ]
 
+# These values come from the current ScanX response.  The OHLCV cache is used
+# for historical calculations, but must never replace the live scanner quote
+# or its vendor-calculated moving averages.
+LIVE_SCANNER_FIELDS = {'rupee_volume', 'sma10', 'sma20', 'sma50', 'sma200'}
+
 def calculate_ema(series, periods):
     return series.ewm(span=periods, adjust=False).mean()
 
@@ -38,6 +43,13 @@ def value_or_none(value, digits=2):
 
 def boolean_or_none(condition, available):
     return bool(condition) if available else None
+
+
+def merge_historical_metrics(stock, metrics):
+    """Add cache-derived fields without replacing current ScanX fields."""
+    for field, value in metrics.items():
+        if field not in LIVE_SCANNER_FIELDS:
+            stock[field] = value
 
 
 def drop_copied_live_snapshot(df):
@@ -280,8 +292,9 @@ def main():
                 if ath > 0:
                     metrics["% from ATH"] = round(((ath - live_ltp) / ath) * 100, 2)
             
-            # Merge and clean up helper
-            stock.update(metrics)
+            # Merge historical calculations without replacing current ScanX
+            # turnover or moving averages with values from the OHLCV cache.
+            merge_historical_metrics(stock, metrics)
             if "ATH_Value" in stock: del stock["ATH_Value"]
         else:
             # Initialize with 0 for consistency if missing
