@@ -169,6 +169,35 @@ class TransformTests(unittest.TestCase):
         self.assertTrue(metrics["close_above_sma20"])
         self.assertTrue(metrics["breakout_above_20d_high"])
         self.assertTrue(metrics["breakout_above_52w_high"])
+        self.assertGreater(metrics["distance_from_sma20_percent"], 0)
+        self.assertIn("sma50_crossed_above_sma200_today", metrics)
+
+    def test_ohlcv_metrics_ignore_copied_non_trading_snapshot(self):
+        pandas = __import__("pandas")
+        rows = []
+        start = pandas.Timestamp("2025-01-01")
+        for index in range(253):
+            close = 100 + index
+            rows.append({
+                "Date": (start + pandas.Timedelta(days=index)).strftime("%Y-%m-%d"),
+                "Open": close - 1,
+                "High": close + 1,
+                "Low": close - 2,
+                "Close": close,
+                "Volume": 1_000 + index,
+            })
+        rows[-1].update({"Open": 350, "High": 362, "Low": 349, "Close": 360, "Volume": 5_000})
+        copied = dict(rows[-1])
+        copied["Date"] = "2026-01-01"
+        rows.append(copied)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            csv_path = Path(tmp) / "ABC.csv"
+            pandas.DataFrame(rows).to_csv(csv_path, index=False)
+            _, metrics = process_symbol_csv(csv_path)
+
+        self.assertEqual(metrics["as_of_date"], rows[-2]["Date"])
+        self.assertTrue(metrics["breakout_above_20d_high"])
 
     def test_dedupe_filings_prefers_record_with_file_url(self):
         filings = [
@@ -336,10 +365,14 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["market_cap_crore"], 1000)
         self.assertEqual(result["close"], 100)
         self.assertEqual(result["event_markers"], ["★: LTASM", "📦: Block Deal"])
+        self.assertTrue(result["default_screener_eligible"])
         self.assertEqual(result["recent_announcements"][0]["headline"], "Result")
         self.assertNotIn("rs_rating", result)
         for field in REQUIRED_FINAL_FIELDS:
             self.assertIn(field, result)
+
+        sme_result = canonicalize_stock({"Symbol": "SME", "Name": "SME Ltd", "is_sme": True})
+        self.assertFalse(sme_result["default_screener_eligible"])
 
     def test_sector_analytics_use_ma_breadth_without_rs_fields(self):
         analytics = generate_analytics([

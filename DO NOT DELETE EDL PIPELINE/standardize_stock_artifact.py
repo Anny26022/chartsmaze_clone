@@ -58,6 +58,7 @@ def canonicalize_stock(stock):
         "listing_board": stock.get("listing_board", "UNKNOWN"),
         "is_sme": stock.get("is_sme"),
         "listing_series": stock.get("listing_series"),
+        "default_screener_eligible": stock.get("is_sme") is not True,
         "sector": stock.get("sector", stock.get("Sector")),
         "industry": stock.get("industry", stock.get("Basic Industry")),
         "index_memberships": [item.strip() for item in (stock.get("Index") or "").split(",") if item.strip() and item.strip() != "N/A"],

@@ -20,7 +20,10 @@ SCANNER_DERIVED_FIELDS = [
     'sma20_above_sma50', 'sma50_above_sma200', 'bullish_candle',
     'close_near_day_high', 'breakout_above_20d_high', 'breakout_above_50d_high',
     'near_52w_high', 'breakout_above_52w_high', 'is_nr7', 'is_inside_day',
-    'is_bullish_engulfing',
+    'is_bullish_engulfing', 'distance_from_sma20_percent',
+    'distance_from_sma50_percent', 'distance_from_sma200_percent',
+    'distance_from_52w_high_percent', 'distance_from_52w_low_percent',
+    'sma50_crossed_above_sma200_today',
 ]
 
 def calculate_ema(series, periods):
@@ -35,6 +38,14 @@ def value_or_none(value, digits=2):
 
 def boolean_or_none(condition, available):
     return bool(condition) if available else None
+
+
+def drop_copied_live_snapshot(df):
+    """Drop a non-trading-day snapshot copied verbatim from the prior session."""
+    columns = ['Open', 'High', 'Low', 'Close', 'Volume']
+    if len(df) > 1 and df[columns].iloc[-1].equals(df[columns].iloc[-2]):
+        return df.iloc[:-1].copy()
+    return df
 
 
 def process_symbol_csv(csv_path):
@@ -52,6 +63,9 @@ def process_symbol_csv(csv_path):
         if df.empty: return sym, None
 
         df = df.sort_values('Date') if 'Date' in df.columns else df
+        df = drop_copied_live_snapshot(df)
+        if len(df) < 5:
+            return sym, None
 
         # Latest row
         latest = df.iloc[-1]
@@ -111,10 +125,17 @@ def process_symbol_csv(csv_path):
         volume = float(latest['Volume'])
         prior_20 = df.iloc[-21:-1] if len(df) >= 21 else pd.DataFrame()
 
-        rolling_sma = {
-            period: df['Close'].rolling(period, min_periods=period).mean().iloc[-1]
-            if len(df) >= period else None
+        sma_series = {
+            period: df['Close'].rolling(period, min_periods=period).mean()
             for period in (10, 20, 50, 200)
+        }
+        rolling_sma = {
+            period: series.iloc[-1] if len(df) >= period else None
+            for period, series in sma_series.items()
+        }
+        previous_sma = {
+            period: series.iloc[-2] if len(df) >= period + 1 else None
+            for period, series in sma_series.items()
         }
 
         true_range = pd.concat([
@@ -153,6 +174,15 @@ def process_symbol_csv(csv_path):
             'sma10_above_sma20': boolean_or_none(rolling_sma[10] > rolling_sma[20], rolling_sma[10] is not None and rolling_sma[20] is not None),
             'sma20_above_sma50': boolean_or_none(rolling_sma[20] > rolling_sma[50], rolling_sma[20] is not None and rolling_sma[50] is not None),
             'sma50_above_sma200': boolean_or_none(rolling_sma[50] > rolling_sma[200], rolling_sma[50] is not None and rolling_sma[200] is not None),
+            'sma50_crossed_above_sma200_today': boolean_or_none(
+                previous_sma[50] <= previous_sma[200] and rolling_sma[50] > rolling_sma[200],
+                previous_sma[50] is not None and previous_sma[200] is not None,
+            ),
+            'distance_from_sma20_percent': value_or_none(((close - rolling_sma[20]) / rolling_sma[20]) * 100) if rolling_sma[20] else None,
+            'distance_from_sma50_percent': value_or_none(((close - rolling_sma[50]) / rolling_sma[50]) * 100) if rolling_sma[50] else None,
+            'distance_from_sma200_percent': value_or_none(((close - rolling_sma[200]) / rolling_sma[200]) * 100) if rolling_sma[200] else None,
+            'distance_from_52w_high_percent': value_or_none(((close - prior_52w_high) / prior_52w_high) * 100) if prior_52w_high else None,
+            'distance_from_52w_low_percent': value_or_none(pct_from_52w_low),
             'bullish_candle': close > open_price,
             'close_near_day_high': boolean_or_none(
                 (high - close) / current_range <= 0.25,
@@ -160,7 +190,7 @@ def process_symbol_csv(csv_path):
             ),
             'breakout_above_20d_high': boolean_or_none(close > prior_20_high, prior_20_high is not None),
             'breakout_above_50d_high': boolean_or_none(close > prior_50_high, prior_50_high is not None),
-            'near_52w_high': boolean_or_none(close >= prior_52w_high * 0.97, prior_52w_high is not None),
+            'near_52w_high': boolean_or_none(close >= prior_52w_high * 0.95, prior_52w_high is not None),
             'breakout_above_52w_high': boolean_or_none(close > prior_52w_high, prior_52w_high is not None),
             'is_nr7': boolean_or_none(current_range <= prior_six_ranges.min(), len(prior_six_ranges) == 6),
             'is_inside_day': boolean_or_none(high <= float(prev['High']) and low >= float(prev['Low']), len(df) >= 2),
