@@ -18,6 +18,7 @@ INTERMEDIATE_FILES = [
     "lower_circuit_stocks.json",
     "incremental_price_bands.json",
     "complete_price_bands.json",
+    "sme_market_data.json",
     "nse_equity_list.csv",
     "all_stocks_fundamental_analysis.json",
     "sector_analytics.json",
@@ -63,6 +64,7 @@ PHASE2_SCRIPTS = [
     "fetch_incremental_price_bands.py",
     "fetch_complete_price_bands.py",
     "fetch_all_indices.py",
+    "fetch_sme_data.py",
 ]
 
 PHASE4_SCRIPTS = [
@@ -122,6 +124,9 @@ SCRIPT_OUTPUT_SPECS = {
     ],
     "fetch_all_indices.py": [
         ArtifactSpec("all_indices_list.json", "json", min_count=1),
+    ],
+    "fetch_sme_data.py": [
+        ArtifactSpec("sme_market_data.json", "json", min_count=1, required_fields=("Symbol", "Series")),
     ],
     "fetch_all_ohlcv.py": [
         ArtifactSpec("ohlcv_data", "dir", min_count=1),

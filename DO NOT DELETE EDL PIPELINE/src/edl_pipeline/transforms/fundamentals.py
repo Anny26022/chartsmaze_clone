@@ -10,6 +10,7 @@ from pipeline_utils import BASE_DIR, load_json, save_json
 FUNDAMENTAL_FILE = os.path.join(BASE_DIR, "fundamental_data.json")
 ADVANCED_FILE = os.path.join(BASE_DIR, "advanced_indicator_data.json")
 DHAN_DATA_FILE = os.path.join(BASE_DIR, "dhan_data_response.json")
+SME_DATA_FILE = os.path.join(BASE_DIR, "sme_market_data.json")
 LISTING_DATES_FILE = os.path.join(BASE_DIR, "nse_equity_list.csv")
 OUTPUT_FILE = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 
@@ -85,6 +86,15 @@ def map_scan_rows_by_symbol(path, symbol_key, label, missing_warning):
     except FileNotFoundError:
         print(missing_warning)
     return mapped
+
+
+def load_sme_map(path=SME_DATA_FILE):
+    try:
+        rows = load_json(path)
+    except FileNotFoundError:
+        print(f"Warning: {path} not found. SME classification unavailable.")
+        return {}
+    return {row.get("Symbol"): row for row in rows if row.get("Symbol")}
 
 
 def quarterly_metric_fields(prefix, source, pipe_name):
@@ -200,7 +210,7 @@ def classic_pivot(advanced_tech):
     return "N/A"
 
 
-def analyze_stock(item, tech, advanced_tech, listing_date_map):
+def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
     symbol = item.get("Symbol", "UNKNOWN")
     cq = item.get("incomeStat_cq", {})
     cy = item.get("incomeStat_cy", {})
@@ -262,6 +272,9 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map):
             "exchange": tech.get("Exch", "NSE"),
             "instrument": tech.get("Inst", "EQUITY"),
             "segment": tech.get("Seg", "E"),
+            "listing_board": "SME" if sme_map and symbol in sme_map else "UNKNOWN",
+            "is_sme": True if sme_map and symbol in sme_map else None,
+            "listing_series": sme_map.get(symbol, {}).get("Series") if sme_map else None,
             "close": ltp,
             "open": get_optional_float(tech.get("Open")),
             "high": get_optional_float(tech.get("High")),
@@ -313,6 +326,7 @@ def analyze_all_stocks():
         return False
 
     listing_date_map = load_listing_dates()
+    sme_map = load_sme_map()
     dhan_tech_map = map_scan_rows_by_symbol(DHAN_DATA_FILE, "Sym", "technical data", f"Warning: {DHAN_DATA_FILE} not found.")
     advanced_tech_map = map_scan_rows_by_symbol(
         ADVANCED_FILE,
@@ -328,6 +342,7 @@ def analyze_all_stocks():
             dhan_tech_map.get(item.get("Symbol", "UNKNOWN"), {}),
             advanced_tech_map.get(item.get("Symbol", "UNKNOWN"), {}),
             listing_date_map,
+            sme_map,
         )
         for item in data
     ]
