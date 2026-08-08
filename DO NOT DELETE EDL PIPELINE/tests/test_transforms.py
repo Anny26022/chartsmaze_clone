@@ -188,7 +188,7 @@ class TransformTests(unittest.TestCase):
             })
         rows[-1].update({"Open": 350, "High": 362, "Low": 349, "Close": 360, "Volume": 5_000})
         copied = dict(rows[-1])
-        copied["Date"] = "2026-01-01"
+        copied["Date"] = "2025-09-13"  # Saturday
         rows.append(copied)
 
         with tempfile.TemporaryDirectory() as tmp:

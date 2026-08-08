@@ -43,7 +43,11 @@ def boolean_or_none(condition, available):
 def drop_copied_live_snapshot(df):
     """Drop a non-trading-day snapshot copied verbatim from the prior session."""
     columns = ['Open', 'High', 'Low', 'Close', 'Volume']
-    if len(df) > 1 and df[columns].iloc[-1].equals(df[columns].iloc[-2]):
+    latest_is_weekend = (
+        'Date' in df.columns
+        and pd.to_datetime(df['Date'].iloc[-1], errors='coerce').weekday() >= 5
+    )
+    if latest_is_weekend and len(df) > 1 and df[columns].iloc[-1].equals(df[columns].iloc[-2]):
         return df.iloc[:-1].copy()
     return df
 
