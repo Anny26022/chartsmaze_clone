@@ -59,15 +59,6 @@ PHASE 5 (Output):     gzip compression of final artifacts
 - Shared HTTP POST calls use bounded retries with exponential backoff for transient upstream/network errors.
 - Known script outputs are validated after each script runs. Required script validation failures stop the pipeline; optional/enrichment validation failures are reported as warnings.
 - Final release artifacts are validated before the runner returns success: `all_stocks_fundamental_analysis.json.gz`, `sector_analytics.json.gz`, `market_breadth.json.gz`, and `all_indices_list.json`.
-- The versioned MBI/XP engine additionally produces `market_breadth_v2.json.gz`,
-  `breadth_universe_snapshot.json.gz`, and `all_indices_history_v2.json.gz`.
-  The breadth artifact includes an explicit TradingView-style table schema for
-  every publicly reconstructable column; the index artifact publishes 250
-  sessions for every fetched NSE index. Its methodology is pinned in
-  `breadth_methodology.json`; the current universe requires latest price `>= 1`
-  and market capitalization strictly greater than `100` crore.
-- Calculation formulas, denominator rules, XP assumptions, and known
-  survivorship limitations are documented in `docs/BREADTH_METHODOLOGY.md`.
 - Non-critical enrichment failures are reported in the final runner summary so a refresh can finish while still showing incomplete sections.
 - Shared helpers live in `pipeline_utils.py`, `dhan_next_utils.py`, `nse_archive_utils.py`, and `ohlcv_utils.py` to keep request, JSON, gzip, path, Next.js, NSE archive, and OHLCV parsing behavior consistent.
 - Importable package code lives under `src/edl_pipeline/`. The top-level scripts remain compatibility wrappers so existing automation can keep running `python3 run_full_pipeline.py` and individual script names.
@@ -328,7 +319,38 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 
 ## 📊 Output Field Reference (`all_stocks_fundamental_analysis.json`)
 
-**Current generated artifact: 95 fields per stock across 2,939 stocks. Counts can change as Dhan/NSE source coverage changes.**
+**The published artifact uses Scanner Schema v3. Counts can change as Dhan/NSE source coverage changes.**
+
+The pipeline now publishes only the canonical Scanner Schema v3 artifact.
+Legacy display labels below exist only in the transient internal file before the
+final standardization stage; they are never present in the published JSON or
+gzip artifact.
+
+### Scanner Schema v3
+
+The scanner uses normalized snake_case keys instead of parsing display strings.
+Direct ScanX dashboard fields include `exchange`, `instrument`, `segment`,
+`close`, `open`, `high`, `low`, `volume`, `change_percent`,
+`market_cap_crore`, `shares_outstanding`, `share_capital`, `sector`,
+`perf_1w`, `perf_1m`, `perf_3m`, `perf_6m`, `perf_12m`, `sma10`, `sma20`,
+`sma50`, `sma200`, and `rsi14`. `shares_outstanding` is the ScanX
+`TotalShares` value, not a market-cap-derived estimate. `share_capital` is
+preserved exactly as supplied by ScanX until its unit is independently
+documented.
+
+The fundamental endpoint supplies `industry` and ownership percentages.
+`rupee_volume` is calculated from close and volume; `free_float_percent` is
+the non-promoter ownership percentage; and `float_shares` is calculated from
+`shares_outstanding × free_float_percent`.
+
+The OHLCV stage calculates `avg_volume_20`, `avg_rupee_volume_20`,
+`relative_volume_20`, `atr14`, `atr_percent_14`, `adr20`, `adr_percent_20`,
+and the boolean scan signals for moving-average relationships, candles,
+breakouts, 52-week highs, NR7, inside days, and bullish engulfing patterns.
+Fields requiring insufficient price history are written as `null`.
+
+Relative-strength ratings and industry RS ranks are not generated. Sector and
+industry analytics contain only moving-average and 52-week-high breadth.
 
 ### 1. Identity & Classification
 `Symbol`, `Name`, `Listing Date`, `Basic Industry`, `Sector`, `Index`

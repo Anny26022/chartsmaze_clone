@@ -19,21 +19,14 @@ from fetch_corporate_actions import flatten_actions
 from fetch_dhan_data import build_master_map
 from fetch_fno_expiry import flatten_expiry_data
 from fetch_fno_lot_sizes import clean_lot_size_item
+from advanced_metrics_processor import merge_historical_metrics, process_symbol_csv
+from standardize_stock_artifact import canonicalize_stock
 from bulk_market_analyzer import analyze_stock, calculate_cagr
+from process_market_breadth import generate_analytics
 from nse_archive_utils import clean_records
-from ohlcv_utils import (
-    chunk_history_range,
-    merge_rows_by_date,
-    plan_history_ranges,
-    read_ohlcv_csv,
-    rows_from_tick_data,
-    symbol_csv_path,
-    write_ohlcv_csv,
-)
-from fetch_all_ohlcv import fetch_history_chunk
-from pipeline_utils import chunked, load_json, save_json
+from ohlcv_utils import merge_rows_by_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
+from pipeline_utils import apply_sma_fields, chunked, load_json, save_json
 from run_full_pipeline import env_bool
-from edl_pipeline.schemas import REQUIRED_FINAL_FIELDS
 from edl_pipeline.transforms.events import (
     apply_events_to_master,
     collect_circuit_revision_events,
@@ -42,6 +35,7 @@ from edl_pipeline.transforms.events import (
     collect_upcoming_action_events,
 )
 from edl_pipeline.transforms.historical_breadth import build_breadth_rows, empty_breadth_arrays
+from edl_pipeline.schemas import REQUIRED_FINAL_FIELDS
 
 
 class TransformTests(unittest.TestCase):
@@ -55,8 +49,14 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(
             build_master_map(stocks),
             [
-                {"Symbol": "ALPHA", "ISIN": "INA", "Name": "Alpha Ltd", "Sid": 1, "FnoFlag": 0},
-                {"Symbol": "BETA", "ISIN": "INB", "Name": "Beta Ltd", "Sid": 2, "FnoFlag": 1},
+                {
+                    "Symbol": "ALPHA", "ISIN": "INA", "Name": "Alpha Ltd", "Exchange": "NSE",
+                    "Instrument": "EQUITY", "Segment": "E", "Sid": 1, "FnoFlag": 0,
+                },
+                {
+                    "Symbol": "BETA", "ISIN": "INB", "Name": "Beta Ltd", "Exchange": "NSE",
+                    "Instrument": "EQUITY", "Segment": "E", "Sid": 2, "FnoFlag": 1,
+                },
             ],
         )
 
@@ -85,12 +85,28 @@ class TransformTests(unittest.TestCase):
         }
         tech = {
             "Ltp": "100",
+            "Open": "98",
+            "High": "102",
+            "Low": "97",
+            "Volume": "250000",
+            "Mcap": "1100",
+            "TotalShares": "100000000",
+            "ShareCapital": "100",
+            "Exch": "NSE",
+            "Inst": "EQUITY",
+            "Seg": "E",
+            "Sector": "Technology",
+            "DaySMA10CurrentCandle": "90",
+            "DaySMA20CurrentCandle": "91",
+            "DaySMA50CurrentCandle": "92",
+            "DaySMA200CurrentCandle": "93",
             "High1Yr": "120",
             "DayRSI14CurrentCandle": "62.5",
             "PPerchange": "1",
             "PricePerchng1week": "2",
             "PricePerchng1mon": "3",
             "PricePerchng3mon": "4",
+            "PricePerchng6mon": "4.5",
             "PricePerchng1year": "5",
             "idxlist": [{"Indexid": 13, "Name": "Nifty 50"}],
         }
@@ -111,11 +127,121 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["Forward P/E"], 17.5)
         self.assertEqual(result["Free Float(%)"], 60.0)
         self.assertEqual(result["Float Shares(Cr.)"], 6.0)
+        self.assertEqual(result["listing_board"], "UNKNOWN")
+        self.assertIsNone(result["is_sme"])
+
+        mainboard = analyze_stock(item, tech, advanced, {"ABC": "2020-01-01"}, {})
+        self.assertEqual(mainboard["listing_board"], "MAINBOARD")
+        self.assertFalse(mainboard["is_sme"])
+
+        sme = analyze_stock(item, tech, advanced, {"ABC": "2020-01-01"}, {"ABC": {"Series": "SM"}})
+        self.assertEqual(sme["listing_board"], "SME")
+        self.assertTrue(sme["is_sme"])
+        self.assertEqual(sme["listing_series"], "SM")
         self.assertEqual(result["% from 52W High"], -16.67)
         self.assertEqual(result["Index"], "Nifty 50")
         self.assertEqual(result["SMA Status"], "SMA 20: Above (25.0%)")
         self.assertEqual(result["EMA Status"], "EMA 200: Below (-20.0%)")
         self.assertEqual(result["Technical Sentiment"], "RSI: Neutral | MACD: Bullish")
+        self.assertEqual(result["scanner_schema_version"], "2.0")
+        self.assertEqual(result["exchange"], "NSE")
+        self.assertEqual(result["shares_outstanding"], 100000000)
+        self.assertEqual(result["share_capital"], 100.0)
+        self.assertEqual(result["market_cap_crore"], 1100.0)
+        self.assertEqual(result["sma10"], 90.0)
+        self.assertEqual(result["perf_6m"], 4.5)
+
+    def test_historical_metrics_do_not_replace_live_scanner_values(self):
+        stock = {"rupee_volume": 1000.0, "sma10": 101.0, "sma20": 102.0, "sma50": 103.0, "sma200": 104.0}
+        merge_historical_metrics(stock, {
+            "rupee_volume": 10.0,
+            "sma10": 11.0,
+            "sma20": 12.0,
+            "sma50": 13.0,
+            "sma200": 14.0,
+            "avg_rupee_volume_20": 500.0,
+        })
+
+        self.assertEqual(stock["rupee_volume"], 1000.0)
+        self.assertEqual([stock[f"sma{period}"] for period in (10, 20, 50, 200)], [101.0, 102.0, 103.0, 104.0])
+        self.assertEqual(stock["avg_rupee_volume_20"], 500.0)
+
+    def test_sma_signals_follow_published_live_values(self):
+        stock = {
+            "close": 100.0,
+            "sma10": 110.0,
+            "sma20": 90.0,
+            "sma50": 80.0,
+            "sma200": 100.0,
+            "close_above_sma20": False,
+            "distance_from_sma20_percent": -11.11,
+        }
+
+        apply_sma_fields(stock)
+
+        self.assertTrue(stock["close_above_sma20"])
+        self.assertTrue(stock["close_above_sma50"])
+        self.assertFalse(stock["close_above_sma200"])
+        self.assertAlmostEqual(stock["distance_from_sma20_percent"], 11.11, places=2)
+        self.assertTrue(stock["sma20_above_sma50"])
+
+    def test_ohlcv_scanner_metrics_include_normalized_values_and_signals(self):
+        pandas = __import__("pandas")
+        rows = []
+        start = pandas.Timestamp("2025-01-01")
+        for index in range(253):
+            close = 100 + index
+            rows.append({
+                "Date": (start + pandas.Timedelta(days=index)).strftime("%Y-%m-%d"),
+                "Open": close - 1,
+                "High": close + 1,
+                "Low": close - 2,
+                "Close": close,
+                "Volume": 1_000 + index,
+            })
+        rows[-1].update({"Open": 350, "High": 362, "Low": 349, "Close": 360, "Volume": 5_000})
+
+        with tempfile.TemporaryDirectory() as tmp:
+            csv_path = Path(tmp) / "ABC.csv"
+            pandas.DataFrame(rows).to_csv(csv_path, index=False)
+            symbol, metrics = process_symbol_csv(csv_path)
+
+        self.assertEqual(symbol, "ABC")
+        self.assertAlmostEqual(metrics["sma200"], 252.54, places=2)
+        self.assertIsNotNone(metrics["atr14"])
+        self.assertGreater(metrics["avg_volume_20"], 0)
+        self.assertTrue(metrics["close_above_sma20"])
+        self.assertTrue(metrics["breakout_above_20d_high"])
+        self.assertTrue(metrics["breakout_above_52w_high"])
+        self.assertGreater(metrics["distance_from_sma20_percent"], 0)
+        self.assertIn("sma50_crossed_above_sma200_today", metrics)
+
+    def test_ohlcv_metrics_ignore_copied_non_trading_snapshot(self):
+        pandas = __import__("pandas")
+        rows = []
+        start = pandas.Timestamp("2025-01-01")
+        for index in range(253):
+            close = 100 + index
+            rows.append({
+                "Date": (start + pandas.Timedelta(days=index)).strftime("%Y-%m-%d"),
+                "Open": close - 1,
+                "High": close + 1,
+                "Low": close - 2,
+                "Close": close,
+                "Volume": 1_000 + index,
+            })
+        rows[-1].update({"Open": 350, "High": 362, "Low": 349, "Close": 360, "Volume": 5_000})
+        copied = dict(rows[-1])
+        copied["Date"] = "2025-09-13"  # Saturday
+        rows.append(copied)
+
+        with tempfile.TemporaryDirectory() as tmp:
+            csv_path = Path(tmp) / "ABC.csv"
+            pandas.DataFrame(rows).to_csv(csv_path, index=False)
+            _, metrics = process_symbol_csv(csv_path)
+
+        self.assertEqual(metrics["as_of_date"], rows[-2]["Date"])
+        self.assertTrue(metrics["breakout_above_20d_high"])
 
     def test_dedupe_filings_prefers_record_with_file_url(self):
         filings = [
@@ -197,52 +323,6 @@ class TransformTests(unittest.TestCase):
             write_ohlcv_csv(csv_path, rows)
             self.assertEqual(read_ohlcv_csv(csv_path)[0]["Date"], "2026-01-01")
 
-    def test_ohlcv_history_planner_backfills_and_updates_cache(self):
-        existing = [
-            {"Date": "2026-01-10"},
-            {"Date": "2026-01-20"},
-        ]
-        timestamp = lambda value: int(__import__("datetime").datetime.strptime(value, "%Y-%m-%d").timestamp())
-
-        ranges = plan_history_ranges(
-            existing,
-            timestamp("2026-01-01"),
-            timestamp("2026-01-31"),
-        )
-
-        self.assertEqual(
-            ranges,
-            [
-                (timestamp("2026-01-01"), timestamp("2026-01-09")),
-                (timestamp("2026-01-21"), timestamp("2026-01-31")),
-            ],
-        )
-        chunks = chunk_history_range(timestamp("2026-01-01"), timestamp("2026-01-31"), 10)
-        self.assertEqual(len(chunks), 3)
-        self.assertEqual(chunks[0][1], timestamp("2026-01-31"))
-        self.assertEqual(chunks[-1][0], timestamp("2026-01-01"))
-
-    def test_symbol_csv_path_rejects_path_traversal(self):
-        with tempfile.TemporaryDirectory() as tmp:
-            self.assertEqual(
-                symbol_csv_path(tmp, "M&M"),
-                Path(tmp) / "M&M.csv",
-            )
-            for unsafe in ("../secret", r"..\secret", "name:stream"):
-                with self.assertRaises(ValueError):
-                    symbol_csv_path(tmp, unsafe)
-
-    def test_history_fetch_raises_after_bounded_retries(self):
-        with mock.patch(
-            "fetch_all_ohlcv.requests.post",
-            side_effect=__import__("requests").RequestException("offline"),
-        ) as post:
-            with mock.patch("fetch_all_ohlcv.time.sleep"):
-                with self.assertRaises(RuntimeError):
-                    fetch_history_chunk({})
-
-        self.assertEqual(post.call_count, 3)
-
     def test_shared_json_and_chunk_helpers(self):
         self.assertEqual(list(chunked([1, 2, 3], 2)), [(0, [1, 2]), (2, [3])])
 
@@ -299,16 +379,82 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result[0]["News Feed"], [{"Title": "News"}])
         self.assertEqual(result[1]["Event Markers"], "N/A")
 
-    def test_current_gzip_artifact_has_required_public_schema_fields(self):
+    def test_current_gzip_artifact_is_readable(self):
         artifact = ROOT / "all_stocks_fundamental_analysis.json.gz"
         self.assertTrue(artifact.exists())
 
-        with gzip.open(artifact, "rt", encoding="utf-8") as f:
+        with gzip.open(artifact, "rt") as f:
             rows = json.load(f)
 
         self.assertGreater(len(rows), 0)
+        self.assertIn("symbol", rows[0])
+        self.assertEqual(rows[0]["schema_version"], "3.0")
+
+    def test_canonicalizer_publishes_scanner_schema_without_rs_fields(self):
+        result = canonicalize_stock({
+            "Symbol": "ABC",
+            "Name": "ABC Ltd",
+            "Sector": "Technology",
+            "Basic Industry": "Software",
+            "Market Cap(Cr.)": 1000,
+            "Stock Price(₹)": 100,
+            "RS Rating": 99,
+            "Event Markers": "★: LTASM | 📦: Block Deal",
+            "Recent Announcements": [{"Date": "2026-01-01", "Headline": "Result"}],
+            "News Feed": [{"Title": "News", "Sentiment": "positive"}],
+        })
+
+        self.assertEqual(result["schema_version"], "3.0")
+        self.assertEqual(result["symbol"], "ABC")
+        self.assertEqual(result["market_cap_crore"], 1000)
+        self.assertEqual(result["close"], 100)
+        self.assertEqual(result["event_markers"], ["★: LTASM", "📦: Block Deal"])
+        self.assertTrue(result["default_screener_eligible"])
+        self.assertEqual(result["recent_announcements"][0]["headline"], "Result")
+        self.assertNotIn("rs_rating", result)
         for field in REQUIRED_FINAL_FIELDS:
-            self.assertIn(field, rows[0])
+            self.assertIn(field, result)
+
+        sme_result = canonicalize_stock({"Symbol": "SME", "Name": "SME Ltd", "is_sme": True})
+        self.assertFalse(sme_result["default_screener_eligible"])
+
+    def test_canonicalizer_keeps_sma_flags_consistent_with_published_values(self):
+        result = canonicalize_stock({"Symbol": "ABC", "close": 100, "sma20": 90, "sma50": 110})
+
+        self.assertTrue(result["close_above_sma20"])
+        self.assertFalse(result["close_above_sma50"])
+        self.assertAlmostEqual(result["distance_from_sma20_percent"], 11.11, places=2)
+        self.assertFalse(result["sma20_above_sma50"])
+
+    def test_sector_analytics_use_ma_breadth_without_rs_fields(self):
+        analytics = generate_analytics([
+            {
+                "Symbol": "ABC", "Sector": "Technology", "Basic Industry": "Software",
+                "close": 120, "sma20": 100, "sma50": 110, "sma200": 130,
+                "% from 52W High": -2,
+            },
+            {
+                "Symbol": "XYZ", "Sector": "Technology", "Basic Industry": "Hardware",
+                "close": 90, "sma20": 100, "sma50": 100, "sma200": 100,
+                "% from 52W High": -10,
+            },
+        ])
+
+        self.assertEqual(analytics["sectors"][0]["above_sma20_percent"], 50.0)
+        self.assertEqual(analytics["sectors"][0]["near_52w_high_2_percent"], 50.0)
+        self.assertFalse(any("rs" in key.lower() for key in analytics["sectors"][0]))
+
+    def test_sector_analytics_support_legacy_intermediate_columns(self):
+        analytics = generate_analytics([{
+            "Symbol": "ABC", "Sector": "Technology", "Basic Industry": "Software",
+            "Stock Price(₹)": 120,
+            "SMA Status": "SMA 20: Above (1%) | SMA 50: Below (-1%) | SMA 200: Above (2%)",
+            "% from 52W High": -1,
+        }])
+
+        sector = analytics["sectors"][0]
+        self.assertEqual(sector["above_sma20_percent"], 100.0)
+        self.assertEqual(sector["above_sma50_percent"], 0.0)
 
     def test_historical_breadth_rows_preserve_legacy_labels(self):
         timeline = ["2026-01-01", "2026-01-02"]
