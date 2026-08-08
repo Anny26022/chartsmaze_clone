@@ -6,13 +6,15 @@ from pipeline_utils import SCANX_FETCH_URL, fetch_scanx_data, resolve_path, save
 DASHBOARD_FIELDS = [
     "Isin", "DispSym", "Mcap", "Pe", "DivYeild", "Revenue", "Year1RevenueGrowth", "NetProfitMargin",
     "YoYLastQtrlyProfitGrowth", "EBIDTAMargin", "volume", "PricePerchng1year", "PricePerchng3year",
-    "PricePerchng5year", "Ind_Pe", "Pb", "DivYeild", "Eps", "DaySMA50CurrentCandle", "DaySMA200CurrentCandle",
+    "PricePerchng5year", "Ind_Pe", "Pb", "DivYeild", "Eps", "DaySMA10CurrentCandle", "DaySMA20CurrentCandle",
+    "DaySMA50CurrentCandle", "DaySMA200CurrentCandle",
     "DayRSI14CurrentCandle", "ROCE", "Ltp", "Roe", "RtAwayFrom5YearHigh", "RtAwayFrom1MonthHigh",
     "High5yr", "High3Yr", "High1Yr", "High1Wk", "Sym", "PricePerchng1mon", "PricePerchng1week",
     "PricePerchng3mon", "YearlyEarningPerShare", "OCFGrowthOnYr", "Year1CAGREPSGrowth", "NetChangeInCash",
     "FreeCashFlow", "PricePerchng2week", "DayBbUpper_Sub_BbLower", "DayATR14CurrentCandleMul_2",
     "Min5HighCurrentCandle", "Min15HighCurrentCandle", "Min5EMA50CurrentCandle", "Min15EMA50CurrentCandle",
-    "Min15SMA100CurrentCandle", "Open", "BcClose", "Rmp", "PledgeBenefit", "idxlist", "Sid", "FnoFlag"
+    "Min15SMA100CurrentCandle", "Open", "High", "Low", "Volume", "BcClose", "Rmp", "PledgeBenefit",
+    "PricePerchng6mon", "Sector", "TotalShares", "ShareCapital", "Exch", "Inst", "Seg", "idxlist", "Sid", "FnoFlag"
 ]
 
 
@@ -26,6 +28,9 @@ def build_master_map(stocks):
                 "Symbol": symbol,
                 "ISIN": isin,
                 "Name": item.get("DispSym"),
+                "Exchange": item.get("Exch", "NSE"),
+                "Instrument": item.get("Inst", "EQUITY"),
+                "Segment": item.get("Seg", "E"),
                 "Sid": item.get("Sid"),
                 "FnoFlag": item.get("FnoFlag", 0),
             })

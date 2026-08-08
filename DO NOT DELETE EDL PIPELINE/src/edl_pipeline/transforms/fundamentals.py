@@ -27,6 +27,15 @@ def get_float(value_str):
         return 0.0
 
 
+def get_optional_float(value):
+    if value is None or value == "":
+        return None
+    try:
+        return float(value)
+    except (ValueError, TypeError):
+        return None
+
+
 def calculate_change(current, previous):
     if previous == 0:
         return 0.0
@@ -125,25 +134,26 @@ def valuation_fields(cv, ttm_cy, roce_roe, bs_c, eps_latest, yoy_eps):
     }
 
 
-def ownership_fields(shp, market_cap_cr, ltp):
+def ownership_fields(shp, market_cap_cr, ltp, total_shares):
     fii_latest = get_value_from_pipe_string(shp.get("FII"), 0)
     fii_prev = get_value_from_pipe_string(shp.get("FII"), 1)
     dii_latest = get_value_from_pipe_string(shp.get("DII"), 0)
     dii_prev = get_value_from_pipe_string(shp.get("DII"), 1)
 
-    promoter_latest = get_value_from_pipe_string(shp.get("PROMOTER"), 0)
-    free_float_pct = 100.0 - promoter_latest if shp and promoter_latest is not None and promoter_latest >= 0 else 0.0
+    promoter_history = shp.get("PROMOTER")
+    promoter_latest = get_value_from_pipe_string(promoter_history, 0) if promoter_history else None
+    free_float_pct = 100.0 - promoter_latest if promoter_latest is not None and promoter_latest >= 0 else None
 
-    float_shares_cr = 0.0
-    if market_cap_cr > 0 and ltp > 0:
+    total_shares_cr = total_shares / 10_000_000 if total_shares > 0 else 0.0
+    if total_shares_cr == 0.0 and market_cap_cr > 0 and ltp > 0:
         total_shares_cr = market_cap_cr / ltp
-        float_shares_cr = total_shares_cr * (free_float_pct / 100.0)
+    float_shares_cr = total_shares_cr * (free_float_pct / 100.0) if free_float_pct is not None else None
 
     return {
         "FII % change QoQ": round(fii_latest - fii_prev, 2),
         "DII % change QoQ": round(dii_latest - dii_prev, 2),
-        "Free Float(%)": round(free_float_pct, 2),
-        "Float Shares(Cr.)": round(float_shares_cr, 2),
+        "Free Float(%)": round(free_float_pct, 2) if free_float_pct is not None else None,
+        "Float Shares(Cr.)": round(float_shares_cr, 2) if float_shares_cr is not None else None,
     }
 
 
@@ -202,8 +212,10 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map):
 
     industry = cv.get("INDUSTRY_NAME", "N/A")
     sector = cv.get("SECTOR", "N/A")
-    market_cap_cr = get_float(cv.get("MARKET_CAP"))
+    market_cap_cr = get_float(tech.get("Mcap") or cv.get("MARKET_CAP"))
     ltp = get_float(tech.get("Ltp", 0))
+    total_shares = get_optional_float(tech.get("TotalShares")) or 0.0
+    volume = get_optional_float(tech.get("Volume", tech.get("volume")))
 
     net_profit = quarterly_metric_fields("Net Profit", cq, "NET_PROFIT")
     eps = quarterly_metric_fields("EPS", cq, "EPS")
@@ -215,6 +227,9 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map):
 
     high_52w = get_float(tech.get("High1Yr", 0))
     pct_from_52w_high = ((ltp - high_52w) / high_52w) * 100 if high_52w > 0 and ltp > 0 else 0.0
+
+    ownership = ownership_fields(shp, market_cap_cr, ltp, total_shares)
+    free_float_pct = ownership["Free Float(%)"]
 
     stock_analysis = {
         "Symbol": symbol,
@@ -232,7 +247,7 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map):
         "Sales Growth 5 Years(%)": round(calculate_cagr(sales_current_annual, sales_5_years_ago, 5), 2),
         **opm,
         **valuation_fields(cv, ttm_cy, roce_roe, bs_c, eps["EPS Latest Quarter"], eps["YoY % EPS Latest"]),
-        **ownership_fields(shp, market_cap_cr, ltp),
+        **ownership,
         "% from 52W High": round(pct_from_52w_high, 2),
     }
 
@@ -242,7 +257,36 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map):
 
     stock_analysis.update(
         {
+            "scanner_schema_version": "2.0",
             "Stock Price(₹)": ltp,
+            "exchange": tech.get("Exch", "NSE"),
+            "instrument": tech.get("Inst", "EQUITY"),
+            "segment": tech.get("Seg", "E"),
+            "close": ltp,
+            "open": get_optional_float(tech.get("Open")),
+            "high": get_optional_float(tech.get("High")),
+            "low": get_optional_float(tech.get("Low")),
+            "volume": volume,
+            "rupee_volume": round(ltp * volume, 2) if ltp > 0 and volume is not None else None,
+            "change_percent": get_optional_float(tech.get("PPerchange")),
+            "market_cap_crore": market_cap_cr,
+            "shares_outstanding": int(total_shares) if total_shares > 0 else None,
+            "share_capital": get_float(tech.get("ShareCapital", 0)) or None,
+            "sector": tech.get("Sector") or sector,
+            "industry": industry,
+            "free_float_percent": free_float_pct,
+            "float_shares": round(total_shares * (free_float_pct / 100.0))
+            if total_shares > 0 and free_float_pct is not None else None,
+            "perf_1w": get_optional_float(tech.get("PricePerchng1week")),
+            "perf_1m": get_optional_float(tech.get("PricePerchng1mon")),
+            "perf_3m": get_optional_float(tech.get("PricePerchng3mon")),
+            "perf_6m": get_optional_float(tech.get("PricePerchng6mon")),
+            "perf_12m": get_optional_float(tech.get("PricePerchng1year")),
+            "sma10": get_optional_float(tech.get("DaySMA10CurrentCandle")),
+            "sma20": get_optional_float(tech.get("DaySMA20CurrentCandle")),
+            "sma50": get_optional_float(tech.get("DaySMA50CurrentCandle")),
+            "sma200": get_optional_float(tech.get("DaySMA200CurrentCandle")),
+            "rsi14": round(rsi_14, 2) if tech.get("DayRSI14CurrentCandle") is not None else None,
             "Index": index_memberships(tech),
             "1 Day Returns(%)": get_float(tech.get("PPerchange", 0)),
             "1 Week Returns(%)": get_float(tech.get("PricePerchng1week", 0)),
