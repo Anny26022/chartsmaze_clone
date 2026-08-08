@@ -52,6 +52,40 @@ def merge_historical_metrics(stock, metrics):
             stock[field] = value
 
 
+def apply_live_sma_signals(stock):
+    """Keep canonical SMA signals consistent with published live values."""
+    close = pd.to_numeric(stock.get('close'), errors='coerce')
+    smas = {
+        period: pd.to_numeric(stock.get(f'sma{period}'), errors='coerce')
+        for period in (10, 20, 50, 200)
+    }
+
+    def available(*values):
+        return all(pd.notna(value) for value in values)
+
+    def above(left, right):
+        return boolean_or_none(left > right, available(left, right))
+
+    stock.update({
+        'close_above_sma10': boolean_or_none(close > smas[10], available(close, smas[10])),
+        'close_above_sma20': boolean_or_none(close > smas[20], available(close, smas[20])),
+        'close_above_sma50': boolean_or_none(close > smas[50], available(close, smas[50])),
+        'close_above_sma200': boolean_or_none(close > smas[200], available(close, smas[200])),
+        'sma10_above_sma20': above(smas[10], smas[20]),
+        'sma20_above_sma50': above(smas[20], smas[50]),
+        'sma50_above_sma200': above(smas[50], smas[200]),
+        'distance_from_sma20_percent': value_or_none(
+            ((close - smas[20]) / smas[20]) * 100
+        ) if available(close, smas[20]) and smas[20] != 0 else None,
+        'distance_from_sma50_percent': value_or_none(
+            ((close - smas[50]) / smas[50]) * 100
+        ) if available(close, smas[50]) and smas[50] != 0 else None,
+        'distance_from_sma200_percent': value_or_none(
+            ((close - smas[200]) / smas[200]) * 100
+        ) if available(close, smas[200]) and smas[200] != 0 else None,
+    })
+
+
 def drop_copied_live_snapshot(df):
     """Drop a non-trading-day snapshot copied verbatim from the prior session."""
     columns = ['Open', 'High', 'Low', 'Close', 'Volume']
@@ -295,6 +329,7 @@ def main():
             # Merge historical calculations without replacing current ScanX
             # turnover or moving averages with values from the OHLCV cache.
             merge_historical_metrics(stock, metrics)
+            apply_live_sma_signals(stock)
             if "ATH_Value" in stock: del stock["ATH_Value"]
         else:
             # Initialize with 0 for consistency if missing

@@ -19,7 +19,7 @@ from fetch_corporate_actions import flatten_actions
 from fetch_dhan_data import build_master_map
 from fetch_fno_expiry import flatten_expiry_data
 from fetch_fno_lot_sizes import clean_lot_size_item
-from advanced_metrics_processor import merge_historical_metrics, process_symbol_csv
+from advanced_metrics_processor import apply_live_sma_signals, merge_historical_metrics, process_symbol_csv
 from standardize_stock_artifact import canonicalize_stock
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from process_market_breadth import generate_analytics
@@ -165,6 +165,25 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(stock["rupee_volume"], 1000.0)
         self.assertEqual([stock[f"sma{period}"] for period in (10, 20, 50, 200)], [101.0, 102.0, 103.0, 104.0])
         self.assertEqual(stock["avg_rupee_volume_20"], 500.0)
+
+    def test_sma_signals_follow_published_live_values(self):
+        stock = {
+            "close": 100.0,
+            "sma10": 110.0,
+            "sma20": 90.0,
+            "sma50": 80.0,
+            "sma200": 100.0,
+            "close_above_sma20": False,
+            "distance_from_sma20_percent": -11.11,
+        }
+
+        apply_live_sma_signals(stock)
+
+        self.assertTrue(stock["close_above_sma20"])
+        self.assertTrue(stock["close_above_sma50"])
+        self.assertFalse(stock["close_above_sma200"])
+        self.assertAlmostEqual(stock["distance_from_sma20_percent"], 11.11, places=2)
+        self.assertTrue(stock["sma20_above_sma50"])
 
     def test_ohlcv_scanner_metrics_include_normalized_values_and_signals(self):
         pandas = __import__("pandas")
