@@ -290,9 +290,11 @@ def _evaluate_patterns(
         min_swing = float(_pick(spec, "minimum_swing_percent", "minSwingPct"))
         tolerance = float(_pick(spec, "cluster_tolerance_percent", "clusterTolerancePct"))
         min_length = int(_pick(spec, "minimum_base_length_days", "minBaseLengthDays"))
-        max_length = int(_pick(spec, "maximum_base_length_days", "maxBaseLengthDays"))
+        # These optional bounds are omitted by the public Horizontal
+        # Resistance preset, so apply its published control defaults here.
+        max_length = int(_pick(spec, "maximum_base_length_days", "maxBaseLengthDays", 400))
         min_depth = float(_pick(spec, "minimum_base_depth_percent", "minBaseDepthPct", 0))
-        max_depth = float(_pick(spec, "maximum_base_depth_percent", "maxBaseDepthPct"))
+        max_depth = float(_pick(spec, "maximum_base_depth_percent", "maxBaseDepthPct", 60))
         max_below_line = float(_pick(spec, "maximum_percent_below_line", "maxPctBelowLine"))
         max_below_ema = float(_pick(spec, "maximum_percent_below_20ema", "maxPctBelow20Ema"))
         if len(frame) < 21 or lookback <= 0:

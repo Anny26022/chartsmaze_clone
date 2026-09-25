@@ -39,6 +39,13 @@ class TrendScannerTests(unittest.TestCase):
         self.assertEqual(list_presets()[0]["id"], "lib-persistent-momentum")
         validate_preset_library(CONDITION_REGISTRY)
 
+    def test_every_vendored_preset_executes_with_its_public_default_parameters(self):
+        frame = rising_history(400)
+        for preset in load_preset_library()["presets"]:
+            with self.subTest(preset=preset["id"]):
+                result = evaluate_history(frame, preset["expression"], context={"stock": {"symbol": "TEST"}})
+                self.assertIn(result["status"], {"match", "no_match", "unavailable"})
+
     def test_registry_exposes_trend_momentum_and_volume_conditions(self):
         self.assertEqual(set(CONDITION_REGISTRY), {
             "persistent_momentum", "price_vs_ema", "ema_shakeout_reclaim", "adx",

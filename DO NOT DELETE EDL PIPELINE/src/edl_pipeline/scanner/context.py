@@ -70,6 +70,7 @@ def normalize_condition_spec(raw: dict[str, Any]) -> dict[str, Any]:
     if condition == "relative_volume" and "multiple" not in spec:
         spec["multiple"] = spec.get("value", 1)
     if condition == "volume_trend":
+        spec.setdefault("recent_window", spec.get("recent_days", spec.get("recentDays")))
         spec.setdefault("base_window", spec.get("baseDays"))
         spec.setdefault("value", spec.get("ratio"))
     if condition == "highest_volume":
