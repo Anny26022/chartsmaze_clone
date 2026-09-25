@@ -79,6 +79,16 @@ python3 -m pip install -e . --dry-run
 
 The unit tests cover deterministic transform helpers without calling live Dhan/NSE endpoints. Run `python3 run_full_pipeline.py` only when you want a full live data refresh.
 
+### Daily trend screens
+
+The local condition engine evaluates the eight daily trend conditions over the
+published OHLCV cache without making a provider request. See
+[`docs/TREND_CONDITION_ENGINE.md`](docs/TREND_CONDITION_ENGINE.md) and run:
+
+```bash
+python3 screen_trend_conditions.py --request examples/trend-screen-request.json
+```
+
 ---
 
 ## 📡 Quick API Reference (Endpoints, Payloads & Limits)
