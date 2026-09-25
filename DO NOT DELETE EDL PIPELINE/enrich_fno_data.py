@@ -90,11 +90,15 @@ def main():
     # 2. Load ISIN map to get FnoFlag
     fno_symbols = set()
     fno_security_ids = set()
+    security_id_by_symbol = {}
     if os.path.exists(MASTER_ISIN):
         for item in load_json(MASTER_ISIN):
+            symbol = item.get("Symbol")
+            security_id = normalized_security_id(item.get("Sid"))
+            if symbol and security_id:
+                security_id_by_symbol[normalized_symbol(symbol)] = security_id
             if item.get("FnoFlag") == 1 or item.get("FnoFlag") == "1":
-                fno_symbols.add(item["Symbol"])
-                security_id = normalized_security_id(item.get("Sid"))
+                fno_symbols.add(symbol)
                 if security_id:
                     fno_security_ids.add(security_id)
 
@@ -118,7 +122,14 @@ def main():
     expiry_matched = 0
     for stock in master_data:
         sym = stock.get("Symbol")
-        security_id = stock.get("Sid")
+        # The base analysis deliberately has a compact schema and does not
+        # retain Sid until standardization. Resolve it from the authoritative
+        # master map before matching Dhan's underlyingSecID.
+        security_id = (
+            stock.get("Sid")
+            or stock.get("Security ID")
+            or security_id_by_symbol.get(normalized_symbol(sym))
+        )
 
         if sym in fno_symbols or (
             normalized_security_id(security_id) is not None

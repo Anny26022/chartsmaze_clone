@@ -1,4 +1,5 @@
 import contextlib
+import enrich_fno_data
 import gzip
 import io
 import json
@@ -172,6 +173,35 @@ class TransformTests(unittest.TestCase):
             symbols, security_ids = fetch_next_expiry('build')
         self.assertEqual(symbols['MM'], '2099-01-01')
         self.assertEqual(security_ids['123'], '2099-01-01')
+
+    def test_fno_expiry_security_ids_match_master_symbols_not_contract_names(self):
+        """Dhan expiry symbols include the contract month; Sid is the stable key."""
+        response = {'pageProps': {'expiryData': {'data': [{'exps': [{'explst': [
+            {'symbolName': 'ABB SEP FUT', 'underlyingSecID': 13, 'expdate': '2099-09-29'},
+        ]}]}]}}}
+        with mock.patch('enrich_fno_data.get_next_data', return_value=response):
+            _, security_ids = fetch_next_expiry('build')
+        # The master universe calls it ABB; only its Dhan security ID connects
+        # it to the expiry contract labelled "ABB SEP FUT".
+        self.assertEqual(lookup_expiry({}, security_ids, 'ABB', 13), '2099-09-29')
+
+    def test_fno_enrichment_resolves_sid_from_master_before_standardization(self):
+        """Base analysis has no Sid, while expiry contracts only share Sid."""
+        response = {'pageProps': {'expiryData': {'data': [{'exps': [{'explst': [
+            {'symbolName': 'ABB SEP FUT', 'underlyingSecID': 13, 'expdate': '2099-09-29'},
+        ]}]}]}}}
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            master = root / 'analysis.json'
+            isin_map = root / 'master.json'
+            save_json(master, [{'Symbol': 'ABB'}])
+            save_json(isin_map, [{'Symbol': 'ABB', 'Sid': 13, 'FnoFlag': 1}])
+            with mock.patch.object(enrich_fno_data, 'MASTER_JSON', str(master)), \
+                 mock.patch.object(enrich_fno_data, 'MASTER_ISIN', str(isin_map)), \
+                 mock.patch.object(enrich_fno_data, 'get_build_id', return_value='build'), \
+                 mock.patch.object(enrich_fno_data, 'get_next_data', return_value=response):
+                self.assertTrue(enrich_fno_data.main())
+            self.assertEqual(load_json(master)[0]['Next Expiry'], '2099-09-29')
 
     def test_historical_metrics_do_not_replace_live_scanner_values(self):
         stock = {"rupee_volume": 1000.0, "sma10": 101.0, "sma20": 102.0, "sma50": 103.0, "sma200": 104.0}
