@@ -41,6 +41,8 @@ FILES_TO_COMPRESS = {
     "breadth_universe_snapshot.json": "breadth_universe_snapshot.json.gz",
     "all_indices_history_v2.json": "all_indices_history_v2.json.gz",
     "corporate_action_ledger.json": "corporate_action_ledger.json.gz",
+    "nse_fno_ban.json": "nse_fno_ban.json.gz",
+    "rs_rating_daily.json": "rs_rating_daily.json.gz",
 }
 
 # The full refresh generates and validates these alongside the stock snapshot.
@@ -70,6 +72,7 @@ PHASE2_SCRIPTS = [
     "fetch_complete_price_bands.py",
     "fetch_nse_delivery_data.py",
     "fetch_nse_delivery_history.py",
+    "fetch_nse_fno_ban.py",
     "fetch_all_indices.py",
     "fetch_sme_data.py",
 ]
@@ -81,6 +84,7 @@ PHASE4_SCRIPTS = [
     "enrich_delivery_data.py",
     "process_market_breadth.py",
     "process_historical_market_breadth.py",
+    "build_rs_ratings.py",
     "add_corporate_events.py",
     "build_corporate_action_ledger.py",
     OHLCV_DERIVED_SCRIPT,
@@ -134,6 +138,12 @@ SCRIPT_OUTPUT_SPECS = {
     ],
     "fetch_nse_delivery_data.py": [
         ArtifactSpec("nse_delivery_data.json", "json", min_count=1, required_fields=("source", "as_of_date", "records")),
+    ],
+    "fetch_nse_fno_ban.py": [
+        ArtifactSpec("nse_fno_ban.json", "json", required_fields=("source", "available", "trade_date", "symbols")),
+    ],
+    "build_rs_ratings.py": [
+        ArtifactSpec("rs_rating_daily.json", "json", required_fields=("source", "as_of_date", "ratings")),
     ],
     "fetch_all_indices.py": [
         ArtifactSpec("all_indices_list.json", "json", min_count=1),
@@ -212,6 +222,8 @@ FINAL_ARTIFACT_SPECS = [
     ArtifactSpec("breadth_universe_snapshot.json.gz", "gzip_json", required_fields=("generated_at", "eligible", "excluded")),
     ArtifactSpec("all_indices_history_v2.json.gz", "gzip_json", required_fields=("generated_at", "quality", "indices"), nested_min_counts=(("indices", 1),)),
     ArtifactSpec("corporate_action_ledger.json.gz", "gzip_json", required_fields=("source", "price_adjusted", "records")),
+    ArtifactSpec("nse_fno_ban.json.gz", "gzip_json", required_fields=("source", "available", "trade_date", "symbols")),
+    ArtifactSpec("rs_rating_daily.json.gz", "gzip_json", required_fields=("source", "as_of_date", "ratings")),
 ]
 
 SCRIPT_OUTPUT_SPECS[OHLCV_DERIVED_SCRIPT] = [

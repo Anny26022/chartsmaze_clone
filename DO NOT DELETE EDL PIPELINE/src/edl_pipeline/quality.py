@@ -39,6 +39,8 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
         breadth = read_json(root / "market_breadth_v2.json.gz")
         universe = read_json(root / "breadth_universe_snapshot.json.gz")
         ledger = read_json(root / "corporate_action_ledger.json.gz")
+        fno_ban = read_json(root / "nse_fno_ban.json.gz")
+        rs_ratings = read_json(root / "rs_rating_daily.json.gz")
         source = read_json(root / "master_isin_map.json")
         for name in ("sector_analytics.json.gz", "all_indices_list.json"):
             read_json(root / name)
@@ -54,6 +56,10 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
             errors.append("v2 outputs were not generated together today")
         if breadth["records"][-1]["date"] != session.isoformat():
             errors.append("breadth and benchmark sessions differ")
+        if rs_ratings.get("as_of_date") != session.isoformat():
+            errors.append("RS ratings and benchmark sessions differ")
+        if fno_ban.get("available") and not fno_ban.get("trade_date"):
+            errors.append("available F&O-ban report has no trade date")
         with gzip.open(root / "market_breadth.json.gz", "rt", encoding="utf-8") as handle:
             legacy = list(csv.reader(handle))
         legacy_dates = [date.fromisoformat(value) for value in legacy[0][1:]]
@@ -127,6 +133,11 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
                                               "price_actions_requiring_verified_ratio": sum(record.get("adjustment_status") == "requires_verified_ratio" for record in ledger.get("records", [])),
                                               "action_type_counts": dict(action_counts),
                                               "price_adjusted": ledger.get("price_adjusted")},
+                "fno_ban": {"available": bool(fno_ban.get("available")), "trade_date": fno_ban.get("trade_date"),
+                            "symbols": len(fno_ban.get("symbols", []))},
+                "rs_ratings": {"as_of_date": rs_ratings.get("as_of_date"),
+                               "universe_count": rs_ratings.get("liquid_universe_count"),
+                               "ratings": len(rs_ratings.get("ratings", {}))},
                 "missing_field_counts": dict(Counter(k for row in availability for k in row["missing_fields"])),
                 "symbols": availability, "indices": index_availability, "errors": errors}
     except (ValueError, KeyError, TypeError, IndexError, StopIteration, OSError) as error:

@@ -36,6 +36,11 @@ class TrendScannerTests(unittest.TestCase):
             "new_high", "new_low", "percent_from_52w_high", "percent_from_52w_low",
             "consolidation_range", "atr_percent", "range_contraction", "inside_bar",
             "unfilled_gap", "vcp_contraction_legs", "horizontal_resistance_line",
+            "relative_strength", "rs_new_high", "rs_rating", "market_cap",
+            "free_float_market_cap", "pe_ratio", "earnings_growth", "days_since_earnings",
+            "sector", "industry", "average_turnover", "adr_percent", "price_range",
+            "price_band", "circuit_band_minimum", "series", "listing_age_days",
+            "index_membership", "market_breadth", "fno_ban",
         })
 
     def test_range_conditions_use_high_low_history_and_recent_signal_dates(self):

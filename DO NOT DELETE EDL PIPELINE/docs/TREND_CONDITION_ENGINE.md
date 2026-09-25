@@ -37,6 +37,13 @@ controls. Supported daily-OHLCV conditions are:
 - `unfilled_gap`
 - `vcp_contraction_legs`
 - `horizontal_resistance_line`
+- `relative_strength`, `rs_new_high`, and `rs_rating`
+- `market_cap`, `free_float_market_cap`, `pe_ratio`, `earnings_growth`, and
+  `days_since_earnings`
+- `sector`, `industry`, `average_turnover`, `adr_percent`, `price_range`,
+  `price_band`, `circuit_band_minimum`, `series`, `listing_age_days`, and
+  `index_membership`
+- `market_breadth` and `fno_ban`
 
 ## Calculation contract
 
@@ -103,3 +110,38 @@ saved UI rule to be translated without silently changing its parameters.
 The generated output includes each condition's result and details. By default
 only matches are emitted; use `include_non_matches` in the request or
 `--include-non-matches` for diagnostics.
+
+## Snapshot and cross-symbol conditions
+
+The full refresh now also publishes `rs_rating_daily.json.gz` and
+`nse_fno_ban.json.gz`. They are part of the same promoted dataset as the stock
+snapshot, rather than optional files left in a local worktree.
+
+- `relative_strength` and `rs_new_high` align stock and benchmark sessions
+  before calculating their relative-strength line. They never compare unequal
+  calendar windows.
+- `rs_rating` ranks one-, three-, and twelve-month excess returns versus
+  NIFTY across the breadth-eligible universe. Its artifact must have the exact
+  same `as_of_date` as the screen, otherwise it is `unavailable`; a current
+  rank is never reused for an historical screen.
+- Snapshot fundamentals use the canonical stock artifact. PBT is retained
+  alongside revenue, net profit and EPS when the upstream quarterly response
+  supplies it. The selected report type cannot be inferred from the current
+  upstream snapshot, so a report-type-specific request is not treated as a
+  separate audited value.
+- `average_turnover` supports daily turnover. One-, three-, and five-minute
+  turnover options return `unavailable` until an intraday turnover history is
+  collected.
+- `series` uses the NSE `EQUITY_L` listing series, falling back to the latest
+  NSE delivery-series field where necessary. Index membership is only as
+  complete and current as the upstream membership snapshot; absent membership
+  is `unavailable`, never a negative result.
+- `market_breadth` currently publishes the all-active breadth universe. Other
+  requested universes return `unavailable` until their membership datasets are
+  published.
+- `fno_ban` reads NSE's official security-ban CSV. Its CSV heading determines
+  `trade_date` (not the daily-report index date). A retrieval failure is
+  published as `available: false`, causing the rule to return `unavailable`
+  rather than wrongly treating every security as unbanned. It is also
+  `unavailable` for a screen date other than that report's trade date; the
+  current list is never back-applied to historical screens.

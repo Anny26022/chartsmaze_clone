@@ -113,6 +113,7 @@ class TransformTests(unittest.TestCase):
                 "NET_PROFIT": "10|5|4|3|2",
                 "EPS": "2|1|0.5|0.25|1",
                 "SALES": "100|80|70|60|50",
+                "PBT": "40|20|15|10|8",
                 "OPM": "20|15|10|5|10",
             },
             "incomeStat_cy": {"EPS": "8|6", "SALES": "200|180|160|140|120|100"},
@@ -160,6 +161,7 @@ class TransformTests(unittest.TestCase):
 
         self.assertEqual(result["QoQ % Net Profit Latest"], 100.0)
         self.assertEqual(result["YoY % Net Profit Latest"], 400.0)
+        self.assertEqual(result["QoQ % PBT Latest"], 100.0)
         self.assertAlmostEqual(result["Sales Growth 5 Years(%)"], 14.87, places=2)
         self.assertEqual(result["D/E"], 0.5)
         self.assertEqual(result["PEG"], 0.2)

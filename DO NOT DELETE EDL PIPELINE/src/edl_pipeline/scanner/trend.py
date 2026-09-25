@@ -16,6 +16,7 @@ import numpy as np
 import pandas as pd
 
 from .patterns import PATTERN_CONDITION_REGISTRY, evaluate_pattern
+from .context import CONTEXT_CONDITION_REGISTRY, evaluate_context_condition, normalize_condition_spec
 
 
 REQUIRED_COLUMNS = ("Date", "Open", "High", "Low", "Close", "Volume")
@@ -95,6 +96,7 @@ CONDITION_REGISTRY = {
         "definition": "NSE delivery percentage met the threshold on a session within the requested window.",
     },
     **PATTERN_CONDITION_REGISTRY,
+    **CONTEXT_CONDITION_REGISTRY,
 }
 
 
@@ -210,7 +212,8 @@ def _persisted(frame, average, comparison, days, mode):
     return bool(reclaimed.any())
 
 
-def _evaluate(frame, spec, delivery_history=None):
+def _evaluate(frame, spec, delivery_history=None, context=None):
+    spec = normalize_condition_spec(spec)
     condition = spec.get("condition") or spec.get("id")
     if condition not in CONDITION_REGISTRY:
         raise ValueError(f"Unsupported trend condition: {condition!r}")
@@ -220,6 +223,10 @@ def _evaluate(frame, spec, delivery_history=None):
     pattern_result = evaluate_pattern(frame, spec, _result, _unavailable, _comparison, _ma)
     if pattern_result is not None:
         return pattern_result
+
+    context_result = evaluate_context_condition(frame, spec, context, _result, _unavailable, _comparison)
+    if context_result is not None:
+        return context_result
 
     if condition == "persistent_momentum":
         periods = [int(period) for period in spec.get("periods", (10, 20, 50))]
@@ -385,10 +392,12 @@ def _evaluate(frame, spec, delivery_history=None):
     raise AssertionError("registry and evaluator are out of sync")
 
 
-def evaluate_history(rows, conditions, as_of_date: str | None = None, delivery_history=None):
+def evaluate_history(rows, conditions, as_of_date: str | None = None, delivery_history=None, context=None):
     """Evaluate an ANDed list of condition specs for one symbol's OHLCV rows."""
     frame = normalize_history(pd.DataFrame(rows), as_of_date)
-    results = [_evaluate(frame, spec, delivery_history) for spec in conditions]
+    context = dict(context or {})
+    context["delivery_history"] = delivery_history or []
+    results = [_evaluate(frame, spec, delivery_history, context) for spec in conditions]
     statuses = [result.status for result in results]
     overall = "unavailable" if "unavailable" in statuses else ("match" if all(status == "match" for status in statuses) else "no_match")
     return {
@@ -398,13 +407,15 @@ def evaluate_history(rows, conditions, as_of_date: str | None = None, delivery_h
     }
 
 
-def evaluate_universe(ohlcv_directory, conditions, as_of_date: str | None = None, include_non_matches=False, delivery_history=None):
+def evaluate_universe(ohlcv_directory, conditions, as_of_date: str | None = None, include_non_matches=False, delivery_history=None, context_by_symbol=None):
     """Evaluate cached daily CSVs, returning only matches unless requested otherwise."""
     directory = Path(ohlcv_directory)
     results = []
     counts = {"match": 0, "no_match": 0, "unavailable": 0}
     for path in sorted(directory.glob("*.csv")):
-        outcome = evaluate_history(pd.read_csv(path), conditions, as_of_date, (delivery_history or {}).get(path.stem, []))
+        context = dict(context_by_symbol or {})
+        context["stock"] = (context.get("stocks") or {}).get(path.stem, {})
+        outcome = evaluate_history(pd.read_csv(path), conditions, as_of_date, (delivery_history or {}).get(path.stem, []), context)
         counts[outcome["status"]] += 1
         if include_non_matches or outcome["status"] == "match":
             results.append({"symbol": path.stem, **outcome})

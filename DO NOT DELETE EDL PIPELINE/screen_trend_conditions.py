@@ -1,9 +1,12 @@
 """Run a daily trend screen against the locally cached OHLCV universe."""
 
 import argparse
+import gzip
 import json
 from pathlib import Path
 import sys
+
+import pandas as pd
 
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
@@ -13,12 +16,66 @@ if str(SRC) not in sys.path:
 from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_universe
 
 
+def _read_json(path):
+    if not path.exists():
+        return None
+    opener = gzip.open if path.suffix == ".gz" else open
+    with opener(path, "rt", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def _benchmark_keys(index):
+    values = (index.get("symbol"), index.get("name"))
+    keys = {str(value).upper().replace(" ", "_") for value in values if value}
+    if "NIFTY_50" in keys or "NIFTY50" in keys:
+        keys.add("NIFTY_50")
+    if "NIFTY_MIDSMALLCAP_400" in keys or "NIFTY_MIDSMALL_400" in keys:
+        keys.add("NIFTY_MIDSMALL400")
+    return keys
+
+
+def _load_context(root, stock_path=None, index_path=None, breadth_path=None):
+    stocks = _read_json(stock_path or (root / "all_stocks_fundamental_analysis.json.gz")) or []
+    index_artifact = _read_json(index_path or (root / "all_indices_history_v2.json.gz")) or {}
+    benchmarks = {}
+    for index in index_artifact.get("indices", []):
+        records = pd.DataFrame(index.get("records", []))
+        if records.empty or not {"date", "close"}.issubset(records):
+            continue
+        records["Date"] = pd.to_datetime(records["date"], errors="coerce")
+        records["close"] = pd.to_numeric(records["close"], errors="coerce")
+        records = records.dropna(subset=("Date", "close"))
+        for key in _benchmark_keys(index):
+            benchmarks[key] = records
+    breadth_artifact = _read_json(breadth_path or (root / "market_breadth_v2.json.gz")) or {}
+    latest = (breadth_artifact.get("records") or [])[-1:] or []
+    breadth = {}
+    if latest:
+        row = latest[0]
+        all_active = {
+            "pct_above_sma10": row.get("above_10_pct"), "pct_above_sma20": row.get("above_20_pct"),
+            "pct_above_sma50": row.get("above_50_pct"), "pct_above_sma200": row.get("above_200_pct"),
+            "ad_ratio_sma10": row.get("ratio_10"),
+            "volume_ratio20": (row.get("volume_above_20", 0) / row.get("volume_below_or_equal_20")) if row.get("volume_below_or_equal_20") else None,
+        }
+        breadth["all_active"] = all_active
+    ban = _read_json(root / "nse_fno_ban.json") or _read_json(root / "nse_fno_ban.json.gz") or {}
+    fno_ban_symbols = {str(symbol).upper(): True for symbol in ban.get("symbols", [])}
+    rs_artifact = _read_json(root / "rs_rating_daily.json") or _read_json(root / "rs_rating_daily.json.gz") or {}
+    return {"stocks": {item.get("symbol"): item for item in stocks if item.get("symbol")}, "benchmarks": benchmarks, "breadth": breadth, "fno_ban_symbols": fno_ban_symbols, "fno_ban_available": ban.get("available", False), "fno_ban_trade_date": ban.get("trade_date"), "rs_ratings": rs_artifact.get("ratings", rs_artifact), "rs_ratings_as_of": rs_artifact.get("as_of_date")}
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--request", type=Path, help="JSON request with a non-empty conditions array")
     parser.add_argument("--output", type=Path, help="Write JSON result here; otherwise print it")
     parser.add_argument("--as-of-date", help="Use the latest session on or before YYYY-MM-DD")
     parser.add_argument("--delivery-history", type=Path, help="JSON delivery-history artifact with a records array")
+    parser.add_argument("--stock-snapshot", type=Path, help="Canonical stock snapshot (.json or .json.gz)")
+    parser.add_argument("--index-history", type=Path, help="Index history artifact (.json or .json.gz)")
+    parser.add_argument("--breadth", type=Path, help="Market breadth artifact (.json or .json.gz)")
+    parser.add_argument("--fno-ban", type=Path, help="Official NSE F&O ban snapshot JSON")
+    parser.add_argument("--rs-ratings", type=Path, help="Daily RS-rating snapshot JSON")
     parser.add_argument("--include-non-matches", action="store_true")
     parser.add_argument("--list-conditions", action="store_true")
     args = parser.parse_args(argv)
@@ -41,12 +98,23 @@ def main(argv=None):
         for item in records:
             if isinstance(item, dict) and item.get("symbol"):
                 delivery_history.setdefault(item["symbol"], []).append(item)
+    context = _load_context(ROOT, args.stock_snapshot, args.index_history, args.breadth)
+    if args.fno_ban:
+        artifact = _read_json(args.fno_ban) or {}
+        context["fno_ban_symbols"] = {str(symbol).upper(): True for symbol in artifact.get("symbols", [])}
+        context["fno_ban_available"] = artifact.get("available", True)
+        context["fno_ban_trade_date"] = artifact.get("trade_date")
+    if args.rs_ratings:
+        artifact = _read_json(args.rs_ratings) or {}
+        context["rs_ratings"] = artifact.get("ratings", artifact)
+        context["rs_ratings_as_of"] = artifact.get("as_of_date")
     result = evaluate_universe(
         ROOT / "ohlcv_data",
         conditions,
         args.as_of_date or request.get("as_of_date"),
         args.include_non_matches or bool(request.get("include_non_matches")),
         delivery_history,
+        context,
     )
     rendered = json.dumps(result, indent=2, allow_nan=False)
     if args.output:

@@ -1,0 +1,257 @@
+"""Artifact-aware screener rules and JournalToday request normalization."""
+
+from __future__ import annotations
+
+from datetime import date
+from typing import Any, Callable
+
+import numpy as np
+import pandas as pd
+
+
+CONTEXT_CONDITION_REGISTRY = {
+    "relative_strength": {"inputs": {"benchmark": "string", "window": "integer", "comparison": "comparison", "value": "number"}, "definition": "Stock return less benchmark return over the same sessions, in percentage points."},
+    "rs_new_high": {"inputs": {"benchmark": "string", "lookback_days": "integer", "minimum_price_below_high_percent": "number"}, "definition": "Relative-strength line is at its lookback high while price remains below its own high."},
+    "rs_rating": {"inputs": {"window": "one_month|three_month|twelve_month", "comparison": "comparison", "value": "number"}, "definition": "Percentile rank of relative strength across the configured liquid universe."},
+    "market_cap": {"inputs": {"comparison": "comparison", "value_crore": "number"}, "definition": "Current full market capitalisation in crore."},
+    "free_float_market_cap": {"inputs": {"comparison": "comparison", "value_crore": "number"}, "definition": "Current market capitalisation multiplied by free-float percentage."},
+    "pe_ratio": {"inputs": {"comparison": "comparison", "value": "number"}, "definition": "Current positive trailing P/E."},
+    "earnings_growth": {"inputs": {"metric": "net_profit|revenue|pbt|eps", "basis": "qoq|yoy", "comparison": "comparison", "value": "number", "maximum_filing_age_days": "integer"}, "definition": "Reported quarterly line-item growth, subject to filing age."},
+    "days_since_earnings": {"inputs": {"comparison": "comparison", "days": "integer"}, "definition": "Trading sessions since the latest reported earnings date."},
+    "sector": {"inputs": {"values": "string[]"}, "definition": "NSE sector membership."},
+    "industry": {"inputs": {"values": "string[]"}, "definition": "NSE industry membership."},
+    "average_turnover": {"inputs": {"comparison": "comparison", "lookback_days": "integer", "value_crore": "number", "window_minutes": "daily|1|3|5"}, "definition": "Average daily traded value; intraday modes require intraday turnover history."},
+    "adr_percent": {"inputs": {"comparison": "comparison", "lookback_days": "integer", "value": "number"}, "definition": "Mean daily high-low percentage range."},
+    "price_range": {"inputs": {"minimum_price": "number", "maximum_price": "number"}, "definition": "Latest close lies within an inclusive price band."},
+    "price_band": {"inputs": {"values": "string[]"}, "definition": "Current NSE regulatory price-band value."},
+    "circuit_band_minimum": {"inputs": {"minimum_band_percent": "number"}, "definition": "Current circuit/price band is at least the specified percentage."},
+    "series": {"inputs": {"values": "string[]"}, "definition": "NSE listing series."},
+    "listing_age_days": {"inputs": {"comparison": "comparison", "days": "integer"}, "definition": "Trading sessions since NSE listing date."},
+    "index_membership": {"inputs": {"index_name": "string"}, "definition": "Current canonical index membership."},
+    "market_breadth": {"inputs": {"universe": "all_active|nifty50|niftymidsmall400", "metric": "pct_above_sma10|pct_above_sma20|pct_above_sma50|pct_above_sma200|ad_ratio_sma10|volume_ratio20", "comparison": "comparison", "value": "number"}, "definition": "Date-aligned market breadth for a named universe."},
+    "fno_ban": {"inputs": {"mode": "exclude|only"}, "definition": "Current official NSE F&O security-ban report."},
+}
+
+KIND_ALIASES = {
+    "PERSISTENT_MOMENTUM": "persistent_momentum", "PRICE_VS_EMA": "price_vs_ema", "EMA_SHAKEOUT": "ema_shakeout_reclaim", "ADX": "adx", "PRICE_VS_SMA": "price_vs_sma", "PCT_DAYS_ABOVE_MA": "percent_days_above_ma", "MA_STACK": "ma_stack", "MA_SLOPE": "ma_slope", "PRICE_CHANGE_PCT": "price_change_percent", "CONSECUTIVE_UP_DAYS": "consecutive_up_days", "GAP_UP": "gap_up", "GAP_DOWN": "gap_down", "VOLUME_VS_AVG": "relative_volume", "AVG_VOLUME_RATIO": "volume_trend", "HIGHEST_VOLUME_IN_N_DAYS": "highest_volume", "DELIVERY_PCT_SPIKE": "delivery_percent_spike", "NEW_HIGH": "new_high", "NEW_LOW": "new_low", "PCT_FROM_52W_HIGH": "percent_from_52w_high", "PCT_FROM_52W_LOW": "percent_from_52w_low", "CONSOLIDATION_RANGE": "consolidation_range", "ATR_PCT": "atr_percent", "RANGE_CONTRACTION": "range_contraction", "INSIDE_BAR": "inside_bar", "UNFILLED_GAP": "unfilled_gap", "VCP_LEGS": "vcp_contraction_legs", "HORIZONTAL_RESISTANCE_LINE": "horizontal_resistance_line", "RELATIVE_STRENGTH": "relative_strength", "RS_NEW_HIGH": "rs_new_high", "RS_RATING": "rs_rating", "MARKETCAP": "market_cap", "FF_MARKETCAP": "free_float_market_cap", "PE_RATIO": "pe_ratio", "EARNINGS_GROWTH": "earnings_growth", "DAYS_SINCE_EARNINGS": "days_since_earnings", "SECTOR": "sector", "INDUSTRY": "industry", "AVG_TURNOVER": "average_turnover", "ADR_PCT": "adr_percent", "PRICE_RANGE": "price_range", "PRICE_BAND": "price_band", "CIRCUIT_BAND_MIN": "circuit_band_minimum", "SERIES": "series", "LISTING_AGE_DAYS": "listing_age_days", "INDEX_MEMBERSHIP": "index_membership", "MARKET_BREADTH": "market_breadth", "FNO_BAN": "fno_ban",
+}
+
+COMPARISON_ALIASES = {"ABOVE": "greater_or_equal", "BELOW": "less_or_equal", "GREATER": "greater", "LESS": "less", "EQUAL": "equal"}
+
+
+def normalize_condition_spec(raw: dict[str, Any]) -> dict[str, Any]:
+    """Translate JournalToday bundle request keys without changing native callers."""
+    spec = dict(raw)
+    kind = spec.get("condition") or spec.get("id") or spec.get("kind")
+    condition = KIND_ALIASES.get(str(kind), str(kind).lower())
+    params = dict(spec.pop("params", {}) or {})
+    spec.update(params)
+    spec["condition"] = condition
+    spec.pop("id", None); spec.pop("kind", None)
+    aliases = {
+        "overDays": "window", "withinDays": "fired_within", "persistDays": "persist_days", "avgDays": "average_window", "minDays": "minimum_up_days", "positiveClose": "closed_up", "minDeliverablePct": "minimum_delivery_percent", "lookbackDays": "lookback_days", "maxRangePct": "max_range_percent", "excludeLatest": "exclude_latest", "recentDays": "recent_days", "priorDays": "prior_days", "maxRatio": "max_ratio", "priorMode": "prior_mode", "minGapPct": "minimum_gap_percent", "minLegs": "minimum_legs", "maxFinalLegPct": "max_final_leg_percent", "maxLegRatio": "max_leg_ratio", "minSwingPct": "minimum_swing_percent", "clusterTolerancePct": "cluster_tolerance_percent", "minBaseLengthDays": "minimum_base_length_days", "maxBaseLengthDays": "maximum_base_length_days", "minBaseDepthPct": "minimum_base_depth_percent", "maxBaseDepthPct": "maximum_base_depth_percent", "maxPctBelowLine": "maximum_percent_below_line", "maxPctBelow20Ema": "maximum_percent_below_20ema", "valueCr": "value_crore", "maxAgeDays": "maximum_filing_age_days", "windowMinutes": "window_minutes", "minPrice": "minimum_price", "maxPrice": "maximum_price", "minBandPct": "minimum_band_percent", "minPriceBelowHighPct": "minimum_price_below_high_percent", "indexName": "index_name", "ema10Days": "ema10_days", "ema20Days": "ema20_days", "ema50Days": "ema50_days", "maType": "ma_type", "priceAbove": "price_above_fastest", "minChangePct": "value", "pct": "value", "reportType": "report_type",
+    }
+    for source, destination in aliases.items():
+        if source in spec and destination not in spec:
+            spec[destination] = spec[source]
+    if condition == "persistent_momentum" and "periods" not in spec:
+        spec["periods"] = [10, 20, 50]
+        spec["persist_days"] = {10: int(spec.get("ema10_days", 20)), 20: int(spec.get("ema20_days", 30)), 50: int(spec.get("ema50_days", 50))}
+    if condition in {"price_vs_ema", "price_vs_sma"}:
+        comparison = str(spec.get("comparison", "ABOVE")).lower()
+        spec["comparison"] = "above" if comparison in {"above", "greater", "greater_or_equal"} else "below"
+    elif "comparison" in spec:
+        spec["comparison"] = COMPARISON_ALIASES.get(str(spec["comparison"]).upper(), str(spec["comparison"]).lower())
+    for key in ("direction", "state", "timeframe", "prior_mode", "ma_type", "basis", "metric", "mode", "universe"):
+        if key in spec and isinstance(spec[key], str):
+            spec[key] = spec[key].lower()
+    if condition == "relative_volume" and "multiple" not in spec:
+        spec["multiple"] = spec.get("value", 1)
+    if condition == "volume_trend":
+        spec.setdefault("base_window", spec.get("baseDays"))
+        spec.setdefault("value", spec.get("ratio"))
+    if condition == "highest_volume":
+        spec.setdefault("lookback", spec.get("lookback_days"))
+    if condition == "atr_percent":
+        spec.setdefault("value", spec.get("pct"))
+    metric_aliases = {
+        "pctabovesma10": "pct_above_sma10", "pctabovesma20": "pct_above_sma20",
+        "pctabovesma50": "pct_above_sma50", "pctabovesma200": "pct_above_sma200",
+        "adratiosma10": "ad_ratio_sma10", "volratio20": "volume_ratio20",
+    }
+    if condition == "market_breadth":
+        spec["metric"] = metric_aliases.get(spec.get("metric"), spec.get("metric"))
+    return spec
+
+
+def _value(stock, key):
+    value = (stock or {}).get(key)
+    return value if value not in {None, "", "N/A"} else None
+
+
+def _float(stock, key):
+    value = _value(stock, key)
+    try:
+        return float(value) if value is not None else None
+    except (TypeError, ValueError):
+        return None
+
+
+def _aligned_relative_strength(frame, benchmark):
+    if benchmark is None or benchmark.empty:
+        return None
+    index = benchmark.rename(columns={"date": "Date", "close": "benchmark_close"})
+    merged = frame[["Date", "Close"]].merge(index[["Date", "benchmark_close"]], on="Date", how="inner")
+    merged = merged.loc[(merged["Close"] > 0) & (merged["benchmark_close"] > 0)].copy()
+    if merged.empty:
+        return None
+    merged["rs"] = merged["Close"] / merged["benchmark_close"]
+    return merged
+
+
+def evaluate_context_condition(frame, spec, context, result: Callable[..., Any], unavailable: Callable[..., Any], comparison: Callable[[float, str, float], bool]):
+    """Evaluate non-OHLCV-only rules; return ``None`` when not applicable."""
+    condition = spec["condition"]
+    if condition not in CONTEXT_CONDITION_REGISTRY:
+        return None
+    context = context or {}
+    stock = context.get("stock") or {}
+    as_of_date = frame["Date"].iloc[-1].date() if not frame.empty else None
+
+    if condition in {"relative_strength", "rs_new_high"}:
+        benchmark = (context.get("benchmarks") or {}).get(str(spec.get("benchmark", "NIFTY_50")).upper())
+        merged = _aligned_relative_strength(frame, benchmark)
+        if merged is None:
+            return unavailable(condition, "benchmark_history_unavailable")
+        window = int(spec.get("window", spec.get("lookback_days", 60)))
+        if len(merged) <= window:
+            return unavailable(condition, "insufficient_aligned_history")
+        if condition == "relative_strength":
+            stock_return = merged["Close"].iloc[-1] / merged["Close"].iloc[-1-window] - 1
+            benchmark_return = merged["benchmark_close"].iloc[-1] / merged["benchmark_close"].iloc[-1-window] - 1
+            spread = (stock_return - benchmark_return) * 100
+            target = float(spec["value"])
+            return result(condition, comparison(spread, spec["comparison"], target), round(spread, 6), benchmark=str(spec.get("benchmark", "NIFTY_50")), window=window, comparison=spec["comparison"], target=target)
+        rs = merged["rs"].tail(window)
+        own_high = frame["High"].tail(window).max()
+        below = (own_high - frame["Close"].iloc[-1]) / own_high * 100 if own_high else np.nan
+        target = float(spec["minimum_price_below_high_percent"])
+        matched = bool(rs.iloc[-1] >= rs.max() and below >= target)
+        return result(condition, matched, round(float(rs.iloc[-1]), 8), benchmark=str(spec.get("benchmark", "NIFTY_50")), lookback_days=window, percent_below_own_high=round(float(below), 6), minimum_price_below_high_percent=target)
+
+    if condition == "rs_rating":
+        rating_as_of = pd.to_datetime(context.get("rs_ratings_as_of"), errors="coerce")
+        if as_of_date is None or pd.isna(rating_as_of) or rating_as_of.date() != as_of_date:
+            return unavailable(condition, "rs_rating_not_aligned_to_screen_date")
+        rating = _value((context.get("rs_ratings") or {}).get(stock.get("symbol"), {}), str(spec.get("window", "twelve_month")).lower())
+        if rating is None:
+            return unavailable(condition, "rs_rating_history_unavailable")
+        value = float(rating); target = float(spec["value"])
+        return result(condition, comparison(value, spec["comparison"], target), value, window=spec.get("window"), comparison=spec["comparison"], target=target)
+
+    if condition in {"market_cap", "free_float_market_cap", "pe_ratio"}:
+        if condition == "market_cap": value = _float(stock, "market_cap_crore")
+        elif condition == "free_float_market_cap":
+            cap, free_float = _float(stock, "market_cap_crore"), _float(stock, "free_float_percent")
+            value = cap * free_float / 100 if cap is not None and free_float is not None else None
+        else:
+            value = _float(stock, "pe_ratio")
+            if value is not None and value <= 0: value = None
+        if value is None:
+            return unavailable(condition, "snapshot_value_unavailable")
+        target = float(spec.get("value_crore", spec.get("value")))
+        return result(condition, comparison(value, spec["comparison"], target), round(value, 6), comparison=spec["comparison"], target=target)
+
+    if condition == "earnings_growth":
+        metric = str(spec.get("metric", "net_profit")).lower()
+        basis = str(spec.get("basis", "yoy")).lower()
+        prefix = {"net_profit": "net_profit", "revenue": "sales", "eps": "eps", "pbt": "pbt"}.get(metric)
+        if prefix is None:
+            return unavailable(condition, "metric_history_unavailable")
+        value = _float(stock, f"{basis}_percent_{prefix}_latest")
+        announcement = pd.to_datetime(_value(stock, "latest_earnings_date"), errors="coerce")
+        max_age = int(spec.get("maximum_filing_age_days", 200))
+        if value is None or pd.isna(announcement): return unavailable(condition, "earnings_history_unavailable")
+        age = int((as_of_date - announcement.date()).days) if as_of_date else None
+        if age is None or age > max_age: return unavailable(condition, "earnings_filing_too_old")
+        target = float(spec["value"])
+        return result(condition, comparison(value, spec["comparison"], target), value, metric=metric, basis=basis, filing_age_days=age, maximum_filing_age_days=max_age)
+
+    if condition in {"days_since_earnings", "listing_age_days"}:
+        source = "latest_earnings_date" if condition == "days_since_earnings" else "listing_date"
+        marker = pd.to_datetime(_value(stock, source), errors="coerce")
+        if pd.isna(marker): return unavailable(condition, "date_unavailable")
+        sessions = int((frame["Date"].dt.date > marker.date()).sum())
+        target = float(spec["days"])
+        return result(condition, comparison(sessions, spec["comparison"], target), sessions, comparison=spec["comparison"], target=target, source_date=marker.date().isoformat())
+
+    if condition in {"sector", "industry", "price_band", "series"}:
+        key = {"sector":"sector", "industry":"industry", "price_band":"circuit_limit", "series":"listing_series"}[condition]
+        if condition == "series" and _value(stock, key) is None:
+            key = "delivery_series"
+        actual, wanted = _value(stock, key), {str(item).upper() for item in spec.get("values", [])}
+        if condition == "series":
+            dated = {str(row.get("date")): row.get("series") for row in context.get("delivery_history", []) if row.get("date")}
+            actual = dated.get(as_of_date.isoformat(), actual) if as_of_date else actual
+        if condition == "price_band" and str(actual).strip() in {"", "-", "NONE", "N/A"}:
+            actual = "No Band"
+        if actual is None: return unavailable(condition, "snapshot_value_unavailable")
+        matched = str(actual).upper() in wanted if wanted else False
+        return result(condition, matched, matched, actual=actual, values=sorted(wanted))
+
+    if condition == "average_turnover":
+        if str(spec.get("window_minutes", "daily")) not in {"", "daily"}:
+            return unavailable(condition, "intraday_turnover_history_unavailable")
+        window = int(spec.get("lookback_days", 20))
+        if len(frame) < window: return unavailable(condition, "insufficient_history")
+        value = float((frame["Close"] * frame["Volume"]).tail(window).mean() / 10_000_000)
+        target = float(spec["value_crore"])
+        return result(condition, comparison(value, spec["comparison"], target), round(value, 6), lookback_days=window, comparison=spec["comparison"], target=target)
+
+    if condition == "adr_percent":
+        window = int(spec.get("lookback_days", 14))
+        if len(frame) < window: return unavailable(condition, "insufficient_history")
+        value = float(((frame["High"] - frame["Low"]) / frame["Close"] * 100).tail(window).mean())
+        target = float(spec["value"])
+        return result(condition, comparison(value, spec["comparison"], target), round(value, 6), lookback_days=window, comparison=spec["comparison"], target=target)
+
+    if condition == "price_range":
+        value = float(frame["Close"].iloc[-1]); low, high = float(spec.get("minimum_price", 0)), float(spec.get("maximum_price", float("inf")))
+        return result(condition, low <= value <= high, value, minimum_price=low, maximum_price=high)
+
+    if condition == "circuit_band_minimum":
+        raw = _value(stock, "circuit_limit")
+        if raw is None: return unavailable(condition, "snapshot_value_unavailable")
+        if str(raw).strip().upper() in {"-", "NO BAND", "NONE"}:
+            return result(condition, True, None, minimum_band_percent=float(spec["minimum_band_percent"]), no_band=True)
+        try: value = float(str(raw).replace("%", "").strip())
+        except ValueError: return unavailable(condition, "invalid_circuit_band")
+        target = float(spec["minimum_band_percent"])
+        return result(condition, value >= target, value, minimum_band_percent=target)
+
+    if condition == "index_membership":
+        memberships = {str(item).upper() for item in (stock.get("index_memberships") or [])}
+        target = str(spec["index_name"]).upper()
+        if not memberships: return unavailable(condition, "index_membership_unavailable")
+        return result(condition, target in memberships, target in memberships, index_name=spec["index_name"], memberships=sorted(memberships))
+
+    if condition == "market_breadth":
+        breadth = (context.get("breadth") or {}).get(str(spec.get("universe", "all_active")).lower())
+        if not breadth: return unavailable(condition, "breadth_universe_unavailable")
+        metric = str(spec["metric"]).lower()
+        value = breadth.get(metric)
+        if value is None: return unavailable(condition, "breadth_metric_unavailable")
+        target = float(spec["value"])
+        return result(condition, comparison(float(value), spec["comparison"], target), float(value), universe=spec.get("universe"), metric=metric, comparison=spec["comparison"], target=target)
+
+    if condition == "fno_ban":
+        available = context.get("fno_ban_available", "fno_ban_symbols" in context)
+        if not available: return unavailable(condition, "fno_ban_snapshot_unavailable")
+        trade_date = pd.to_datetime(context.get("fno_ban_trade_date"), errors="coerce")
+        if context.get("fno_ban_trade_date") is not None and (as_of_date is None or pd.isna(trade_date) or trade_date.date() != as_of_date):
+            return unavailable(condition, "fno_ban_not_aligned_to_screen_date")
+        status = bool((context.get("fno_ban_symbols") or {}).get(str(stock.get("symbol", "")).upper()))
+        mode = str(spec.get("mode", "exclude")).lower()
+        matched = status if mode == "only" else not status
+        return result(condition, matched, status, mode=mode)
+    return None

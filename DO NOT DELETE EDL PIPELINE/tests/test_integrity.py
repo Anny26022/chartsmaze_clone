@@ -125,6 +125,8 @@ class IntegrityTests(unittest.TestCase):
             'market_breadth_v2.json.gz':{'generated_at':stamp,'records':[{'date':'2026-09-24'}]},
             'breadth_universe_snapshot.json.gz':{'generated_at':stamp},
             'corporate_action_ledger.json.gz':{'source':'test','price_adjusted':False,'records':[]},
+            'nse_fno_ban.json.gz':{'source':'test','available':False,'trade_date':None,'symbols':[]},
+            'rs_rating_daily.json.gz':{'source':'test','as_of_date':'2026-09-24','ratings':{}},
         }
         for name, data in files.items():
             self.write(root, name, data)
@@ -247,12 +249,13 @@ class IntegrityTests(unittest.TestCase):
             }])
             self.write(root,'history_corporate_actions.json',[])
             self.write(root,'all_indices_list.json',[{'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'}])
+            self.write(root,'nse_fno_ban.json',{'source':'test','available':False,'trade_date':None,'symbols':[]})
             shutil.copy2(ROOT/'breadth_methodology.json',root/'breadth_methodology.json')
             env=dict(os.environ,EDL_BASE_DIR=str(root))
             for name in ('bulk_market_analyzer.py','advanced_metrics_processor.py',
                          'process_earnings_performance.py','process_market_breadth.py',
                          'process_historical_market_breadth.py','add_corporate_events.py',
-                         'process_mbi_market_breadth.py','build_corporate_action_ledger.py','standardize_stock_artifact.py'):
+                         'process_mbi_market_breadth.py','build_rs_ratings.py','build_corporate_action_ledger.py','standardize_stock_artifact.py'):
                 result=subprocess.run([sys.executable,str(ROOT/name)],cwd=root,env=env,capture_output=True,text=True,timeout=30)
                 self.assertEqual(result.returncode,0,name+'\n'+result.stdout+'\n'+result.stderr)
             for raw,compressed in FILES_TO_COMPRESS.items():
