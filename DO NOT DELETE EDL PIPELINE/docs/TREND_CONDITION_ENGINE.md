@@ -11,7 +11,7 @@ python3 screen_trend_conditions.py \
 ```
 
 Use `--list-conditions` to obtain the machine-readable registry of supported
-controls. The eight currently supported conditions are:
+controls. Supported daily-OHLCV conditions are:
 
 - `persistent_momentum`
 - `price_vs_ema`
@@ -21,6 +21,12 @@ controls. The eight currently supported conditions are:
 - `percent_days_above_ma`
 - `ma_stack`
 - `ma_slope`
+- `price_change_percent`
+- `consecutive_up_days`
+- `gap_up` and `gap_down`
+- `relative_volume`
+- `volume_trend`
+- `highest_volume`
 
 ## Calculation contract
 
@@ -39,6 +45,15 @@ controls. The eight currently supported conditions are:
   JournalToday parity.
 - `ema_shakeout_reclaim` requires a current close above the EMA plus a low-side
   or close-side dip in the requested recent window.
+- `fired_within` is counted in trading sessions, including the latest session:
+  `1` means the signal must be present today; `2` also accepts yesterday.
+- Relative volume compares a day's volume with the *preceding* `average_window`
+  sessions, avoiding look-ahead bias. Volume trend compares the most recent
+  window with the immediately preceding base window.
+- Delivery % is deliberately not a condition in this OHLCV-only engine. The
+  EDL now publishes the latest delivery snapshot separately; a historical
+  delivery-series artifact is still required for a faithful `fired_within`
+  delivery-spike rule.
 
 The generated output includes each condition's result and details. By default
 only matches are emitted; use `include_non_matches` in the request or

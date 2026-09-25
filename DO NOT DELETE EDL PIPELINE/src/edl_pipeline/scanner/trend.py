@@ -60,6 +60,34 @@ CONDITION_REGISTRY = {
         "inputs": {"period": "integer", "ma_type": "sma|ema", "window": "integer", "comparison": "comparison", "value": "number"},
         "definition": "Percent change in a moving average from the start to the end of a window.",
     },
+    "price_change_percent": {
+        "inputs": {"window": "integer", "comparison": "comparison", "value": "number"},
+        "definition": "Close-to-close percentage change over the requested number of sessions.",
+    },
+    "consecutive_up_days": {
+        "inputs": {"minimum_up_days": "integer", "fired_within": "integer"},
+        "definition": "A run of higher closes occurred within the requested recent sessions.",
+    },
+    "gap_up": {
+        "inputs": {"minimum_gap_percent": "number", "fired_within": "integer"},
+        "definition": "Open exceeded the prior close by at least the threshold within the recent sessions.",
+    },
+    "gap_down": {
+        "inputs": {"minimum_gap_percent": "number", "fired_within": "integer"},
+        "definition": "Open was below the prior close by at least the threshold within the recent sessions.",
+    },
+    "relative_volume": {
+        "inputs": {"average_window": "integer", "multiple": "number", "fired_within": "integer"},
+        "definition": "Volume was at least a multiple of its preceding average volume within the recent sessions.",
+    },
+    "volume_trend": {
+        "inputs": {"recent_window": "integer", "base_window": "integer", "comparison": "comparison", "value": "number"},
+        "definition": "Ratio of recent average volume to the immediately preceding base-window average.",
+    },
+    "highest_volume": {
+        "inputs": {"lookback": "integer", "fired_within": "integer", "closed_up": "boolean"},
+        "definition": "A session had the highest volume in its lookback window, optionally while closing above its prior close.",
+    },
 }
 
 
@@ -250,6 +278,79 @@ def _evaluate(frame, spec):
             return _unavailable(condition, "insufficient_history")
         slope = float((average.iloc[-1] / average.iloc[-1 - window] - 1) * 100)
         return _result(condition, _comparison(slope, spec["comparison"], float(spec["value"])), round(slope, 6), period=int(spec["period"]), ma_type=spec.get("ma_type", "sma"), window=window, comparison=spec["comparison"], target=float(spec["value"]))
+
+    if condition == "price_change_percent":
+        window = int(spec["window"])
+        if window <= 0 or len(frame) <= window:
+            return _unavailable(condition, "insufficient_history")
+        prior = frame["Close"].iloc[-1 - window]
+        if prior == 0:
+            return _unavailable(condition, "invalid_prior_close")
+        change = float((frame["Close"].iloc[-1] / prior - 1) * 100)
+        return _result(condition, _comparison(change, spec["comparison"], float(spec["value"])), round(change, 6), window=window, comparison=spec["comparison"], target=float(spec["value"]))
+
+    if condition == "consecutive_up_days":
+        minimum, fired_within = int(spec["minimum_up_days"]), int(spec.get("fired_within", 1))
+        if minimum <= 0 or fired_within <= 0 or len(frame) <= minimum:
+            return _unavailable(condition, "insufficient_history")
+        up = frame["Close"].diff().gt(0)
+        runs = up.groupby((~up).cumsum()).cumsum()
+        candidates = [(age, int(runs.iloc[-1 - age])) for age in range(min(fired_within, len(frame))) if runs.iloc[-1 - age] >= minimum]
+        matched = bool(candidates)
+        age, run = candidates[0] if candidates else (None, int(runs.iloc[-1]))
+        return _result(condition, matched, run, minimum_up_days=minimum, fired_within=fired_within, days_since_signal=age)
+
+    if condition in {"gap_up", "gap_down"}:
+        fired_within = int(spec.get("fired_within", 1))
+        if fired_within <= 0 or len(frame) < 2:
+            return _unavailable(condition, "insufficient_history")
+        gap = (frame["Open"] / frame["Close"].shift(1) - 1) * 100
+        threshold = float(spec["minimum_gap_percent"])
+        values = gap.tail(fired_within)
+        qualifying = values >= threshold if condition == "gap_up" else values <= -threshold
+        locations = np.flatnonzero(qualifying.fillna(False).to_numpy())
+        matched = len(locations) > 0
+        offset = int(locations[-1]) if matched else None
+        value = float(values.iloc[offset]) if matched else None
+        return _result(condition, matched, round(value, 6) if value is not None else None, minimum_gap_percent=threshold, fired_within=fired_within, days_since_signal=(len(values) - 1 - offset) if offset is not None else None)
+
+    if condition == "relative_volume":
+        average_window, fired_within = int(spec["average_window"]), int(spec.get("fired_within", 1))
+        if average_window <= 0 or fired_within <= 0 or len(frame) <= average_window:
+            return _unavailable(condition, "insufficient_history")
+        baseline = frame["Volume"].shift(1).rolling(average_window, min_periods=average_window).mean()
+        ratios = frame["Volume"] / baseline
+        values = ratios.tail(fired_within)
+        qualifying = values >= float(spec["multiple"])
+        locations = np.flatnonzero(qualifying.fillna(False).to_numpy())
+        matched = len(locations) > 0
+        offset = int(locations[-1]) if matched else None
+        value = float(values.iloc[offset]) if matched else None
+        return _result(condition, matched, round(value, 6) if value is not None else None, average_window=average_window, multiple=float(spec["multiple"]), fired_within=fired_within, days_since_signal=(len(values) - 1 - offset) if offset is not None else None)
+
+    if condition == "volume_trend":
+        recent, base = int(spec["recent_window"]), int(spec["base_window"])
+        if recent <= 0 or base <= 0 or len(frame) < recent + base:
+            return _unavailable(condition, "insufficient_history")
+        base_average = frame["Volume"].iloc[-recent - base:-recent].mean()
+        if pd.isna(base_average) or base_average <= 0:
+            return _unavailable(condition, "invalid_base_volume")
+        ratio = float(frame["Volume"].tail(recent).mean() / base_average)
+        return _result(condition, _comparison(ratio, spec["comparison"], float(spec["value"])), round(ratio, 6), recent_window=recent, base_window=base, comparison=spec["comparison"], target=float(spec["value"]))
+
+    if condition == "highest_volume":
+        lookback, fired_within = int(spec["lookback"]), int(spec.get("fired_within", 1))
+        if lookback <= 0 or fired_within <= 0 or len(frame) < lookback:
+            return _unavailable(condition, "insufficient_history")
+        highest = frame["Volume"].rolling(lookback, min_periods=lookback).max()
+        candidates = (frame["Volume"].eq(highest)).tail(fired_within)
+        if spec.get("closed_up", False):
+            candidates &= frame["Close"].gt(frame["Close"].shift(1)).tail(fired_within)
+        locations = np.flatnonzero(candidates.fillna(False).to_numpy())
+        matched = len(locations) > 0
+        offset = int(locations[-1]) if matched else None
+        value = int(frame["Volume"].tail(fired_within).iloc[offset]) if matched else None
+        return _result(condition, matched, value, lookback=lookback, fired_within=fired_within, closed_up=bool(spec.get("closed_up", False)), days_since_signal=(fired_within - 1 - offset) if offset is not None else None)
 
     raise AssertionError("registry and evaluator are out of sync")
 

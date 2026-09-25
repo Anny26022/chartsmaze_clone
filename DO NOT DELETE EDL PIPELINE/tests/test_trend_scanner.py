@@ -27,11 +27,34 @@ def rising_history(length=300):
 
 
 class TrendScannerTests(unittest.TestCase):
-    def test_registry_exposes_all_eight_trend_conditions(self):
+    def test_registry_exposes_trend_momentum_and_volume_conditions(self):
         self.assertEqual(set(CONDITION_REGISTRY), {
             "persistent_momentum", "price_vs_ema", "ema_shakeout_reclaim", "adx",
             "price_vs_sma", "percent_days_above_ma", "ma_stack", "ma_slope",
+            "price_change_percent", "consecutive_up_days", "gap_up", "gap_down",
+            "relative_volume", "volume_trend", "highest_volume",
         })
+
+    def test_momentum_and_volume_conditions_match_a_clear_signal(self):
+        frame = rising_history(80)
+        frame.loc[frame.index[-1], ["Open", "High", "Low", "Close", "Volume"]] = [182, 184, 179, 180, 10_000_000]
+        result = evaluate_history(frame, [
+            {"condition": "price_change_percent", "window": 5, "comparison": "greater", "value": 1},
+            {"condition": "consecutive_up_days", "minimum_up_days": 3, "fired_within": 1},
+            {"condition": "gap_up", "minimum_gap_percent": 1, "fired_within": 1},
+            {"condition": "relative_volume", "average_window": 20, "multiple": 2, "fired_within": 1},
+            {"condition": "volume_trend", "recent_window": 5, "base_window": 20, "comparison": "greater", "value": 1},
+            {"condition": "highest_volume", "lookback": 20, "fired_within": 1, "closed_up": True},
+        ])
+        self.assertEqual(result["status"], "match")
+        self.assertTrue(all(item["status"] == "match" for item in result["conditions"]))
+
+    def test_gap_down_and_fired_within_are_evaluated_on_historical_sessions(self):
+        frame = rising_history(30)
+        frame.loc[frame.index[-2], "Open"] = int(frame.loc[frame.index[-3], "Close"] * .90)
+        result = evaluate_history(frame, [{"condition": "gap_down", "minimum_gap_percent": 5, "fired_within": 2}])
+        self.assertEqual(result["status"], "match")
+        self.assertEqual(result["conditions"][0]["details"]["days_since_signal"], 1)
 
     def test_all_trend_conditions_match_a_clear_rising_series(self):
         frame = rising_history()
