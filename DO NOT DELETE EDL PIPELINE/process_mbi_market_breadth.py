@@ -11,7 +11,9 @@ if str(SRC_DIR) not in sys.path:
 from edl_pipeline.breadth.config import load_methodology
 from edl_pipeline.breadth.indices import generate_all_index_history
 from edl_pipeline.breadth.pipeline import generate_market_breadth
-from pipeline_utils import load_json
+from pipeline_utils import BASE_PATH, load_json
+
+BASE_DIR = BASE_PATH
 
 
 UNIVERSE_FILE = BASE_DIR / "dhan_data_response.json"

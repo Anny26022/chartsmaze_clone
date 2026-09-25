@@ -147,9 +147,9 @@ def load_index_data(timeline):
             df = pd.read_csv(path)
             df = df[df["Date"].isin(timeline)]
             price_map = df.set_index("Date")["Close"].to_dict()
-            index_data[label] = [round(price_map.get(date, 0), 2) for date in timeline]
+            index_data[label] = [round(price_map[date], 2) if date in price_map else None for date in timeline]
         else:
-            index_data[label] = [0] * len(timeline)
+            index_data[label] = [None] * len(timeline)
     return index_data
 
 
@@ -159,12 +159,12 @@ def calc_ratio(advances, declines, window):
         start = max(0, i - window + 1)
         sum_adv = sum(advances[start:i + 1])
         sum_dec = sum(declines[start:i + 1])
-        ratios.append(round(sum_adv / sum_dec, 2) if sum_dec > 0 else 1.0)
+        ratios.append(round(sum_adv / sum_dec, 2) if sum_dec > 0 else None)
     return ratios
 
 
 def to_csv_row(label, values):
-    return f"{label}," + ",".join(map(str, values))
+    return f"{label}," + ",".join("" if value is None else str(value) for value in values)
 
 
 def build_breadth_rows(timeline, arrays, index_data, processed_count):
@@ -187,7 +187,7 @@ def build_breadth_rows(timeline, arrays, index_data, processed_count):
         "Up by 25% in Quarter",
         "Down by 25% in Quarter",
     ]:
-        rows.append(to_csv_row(label, [0] * num_days))
+        rows.append(to_csv_row(label, [None] * num_days))
 
     rows.append(to_csv_row("Above 200MA %", np.round(arrays["above_200ma"] / total_tracked * 100, 1)))
     rows.append(to_csv_row("Above 50MA %", np.round(arrays["above_50ma"] / total_tracked * 100, 1)))
@@ -198,7 +198,7 @@ def build_breadth_rows(timeline, arrays, index_data, processed_count):
     rows.append(to_csv_row("Reached 52w Low", arrays["low_52w"].astype(int)))
     rows.append(to_csv_row("Volume greater than 20Day Average", arrays["vol_plus"].astype(int)))
     rows.append(to_csv_row("Volume less than 20Day Average", arrays["vol_minus"].astype(int)))
-    rows.append(to_csv_row("Nifty 500 % of W&M RSI > 60", [0] * num_days))
+    rows.append(to_csv_row("Nifty 500 % of W&M RSI > 60", [None] * num_days))
     rows.append(to_csv_row("Advances", arrays["advances"].astype(int)))
     rows.append(to_csv_row("Declines", arrays["declines"].astype(int)))
 

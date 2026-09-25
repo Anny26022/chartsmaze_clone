@@ -1,5 +1,6 @@
 import os
 import sys
+import math
 import pandas as pd
 
 from pipeline_utils import BASE_DIR, load_json, save_json
@@ -23,7 +24,7 @@ def get_earnings_info(filing_path):
 def calculate_earnings_metrics(csv_path, earnings_news_date):
     """Calculate returns since the earnings announcement using smart benchmarking"""
     if not earnings_news_date:
-        return 0.0, 0.0
+        return None, None
     
     try:
         # news_date format: "2026-01-27 20:17:25"
@@ -36,6 +37,7 @@ def calculate_earnings_metrics(csv_path, earnings_news_date):
         
         df = pd.read_csv(csv_path)
         df['Date'] = pd.to_datetime(df['Date'])
+        df = df.sort_values('Date').drop_duplicates('Date', keep='last')
         
         # Latest trading session
         latest_price = df.iloc[-1]['Close']
@@ -55,11 +57,13 @@ def calculate_earnings_metrics(csv_path, earnings_news_date):
             
         if pre_news_df.empty or post_news_df.empty:
             # Fallback
-            if post_news_df.empty: return 0.0, 0.0
+            if post_news_df.empty: return None, None
             base_price = post_news_df.iloc[0]['Close']
         else:
             base_price = pre_news_df.iloc[-1]['Close']
             
+        if not math.isfinite(float(base_price)) or base_price <= 0:
+            return None, None
         # 1. Returns since Earnings (%)
         returns_since = ((latest_price - base_price) / base_price) * 100
         
@@ -67,9 +71,10 @@ def calculate_earnings_metrics(csv_path, earnings_news_date):
         max_high = post_news_df['High'].max()
         max_returns = ((max_high - base_price) / base_price) * 100
         
-        return round(returns_since, 2), round(max_returns, 2)
+        return tuple(round(value, 2) if math.isfinite(float(value)) else None
+                     for value in (returns_since, max_returns))
     except Exception:
-        return 0.0, 0.0
+        return None, None
 
 def main():
     print("Loading master analysis data...")
