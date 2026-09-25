@@ -57,6 +57,8 @@ def normalize_condition_spec(raw: dict[str, Any]) -> dict[str, Any]:
     if condition == "persistent_momentum" and "periods" not in spec:
         spec["periods"] = [10, 20, 50]
         spec["persist_days"] = {10: int(spec.get("ema10_days", 20)), 20: int(spec.get("ema20_days", 30)), 50: int(spec.get("ema50_days", 50))}
+    if condition == "ema_shakeout_reclaim" and "dip_within" not in spec:
+        spec["dip_within"] = spec.get("fired_within")
     if condition in {"price_vs_ema", "price_vs_sma"}:
         comparison = str(spec.get("comparison", "ABOVE")).lower()
         spec["comparison"] = "above" if comparison in {"above", "greater", "greater_or_equal"} else "below"

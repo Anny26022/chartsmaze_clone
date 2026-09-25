@@ -30,6 +30,10 @@ class ScannerContextTests(unittest.TestCase):
         self.assertEqual(pattern["prior_mode"], "prior")
         breadth = normalize_condition_spec({"kind": "MARKET_BREADTH", "params": {"universe": "ALL_ACTIVE", "metric": "pctAboveSma50", "comparison": "ABOVE", "value": 50}})
         self.assertEqual(breadth["metric"], "pct_above_sma50")
+        shakeout = normalize_condition_spec({"kind": "EMA_SHAKEOUT", "params": {"period": 20, "withinDays": 10}})
+        rs_high = normalize_condition_spec({"kind": "RS_NEW_HIGH", "params": {"benchmark": "NIFTY_50", "lookbackDays": 60, "minPriceBelowHighPct": 2}})
+        self.assertEqual(shakeout["dip_within"], 10)
+        self.assertEqual(rs_high["minimum_price_below_high_percent"], 2)
 
     def test_snapshot_liquidity_and_cross_series_rules(self):
         frame = history()
