@@ -10,6 +10,26 @@ python3 screen_trend_conditions.py \
   --output output/trend-screen.json
 ```
 
+## Named preset library
+
+The scanner ships a versioned, offline copy of the 45 public JournalToday
+v1.0.39 preset definitions. Each has its stable `lib-*` ID, display metadata,
+human-readable rules, and original nested AND/OR expression. They are local
+data, not a runtime scrape.
+
+```bash
+python3 screen_trend_conditions.py --list-presets
+python3 screen_trend_conditions.py --preset lib-horizontal-resistance \
+  --output output/horizontal-resistance.json
+```
+
+A saved request can also specify `{ "preset": "lib-vcp" }`. Output carries
+the selected preset's ID, rules, category, and horizon for auditability. The
+public bundle supplies composition and defaults, but not private server
+algorithms for complex primitives. Chartsmaze evaluates those deterministically
+under the contracts below; identical preset names do not imply identical
+third-party result lists.
+
 Use `--list-conditions` to obtain the machine-readable registry of supported
 controls. Supported daily-OHLCV conditions are:
 

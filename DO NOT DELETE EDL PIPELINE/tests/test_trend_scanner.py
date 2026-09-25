@@ -13,6 +13,7 @@ if str(SRC) not in sys.path:
 
 from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_history, evaluate_universe
 from edl_pipeline.scanner.context import KIND_ALIASES
+from edl_pipeline.scanner.presets import get_preset, list_presets, load_preset_library, validate_preset_library
 
 
 def rising_history(length=300):
@@ -29,6 +30,15 @@ def rising_history(length=300):
 
 
 class TrendScannerTests(unittest.TestCase):
+    def test_vendored_preset_library_is_complete_and_uses_supported_conditions(self):
+        library = load_preset_library()
+        self.assertEqual(library["schema_version"], 1)
+        self.assertEqual(len(library["presets"]), 45)
+        self.assertEqual(len({preset["id"] for preset in library["presets"]}), 45)
+        self.assertEqual(get_preset("Horizontal Resistance")["id"], "lib-horizontal-resistance")
+        self.assertEqual(list_presets()[0]["id"], "lib-persistent-momentum")
+        validate_preset_library(CONDITION_REGISTRY)
+
     def test_registry_exposes_trend_momentum_and_volume_conditions(self):
         self.assertEqual(set(CONDITION_REGISTRY), {
             "persistent_momentum", "price_vs_ema", "ema_shakeout_reclaim", "adx",

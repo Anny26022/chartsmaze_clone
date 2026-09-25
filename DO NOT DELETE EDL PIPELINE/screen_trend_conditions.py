@@ -14,6 +14,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from edl_pipeline.scanner.history import load_snapshot
+from edl_pipeline.scanner.presets import get_preset, list_presets, validate_preset_library
 from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_universe, evaluate_universe_range
 
 
@@ -110,7 +111,8 @@ def _range_sessions(root, start, end):
 
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--request", type=Path, help="JSON request with a non-empty conditions array")
+    parser.add_argument("--request", type=Path, help="JSON request with a non-empty conditions array or preset ID")
+    parser.add_argument("--preset", help="Run a vendored preset by lib-* ID or exact name")
     parser.add_argument("--output", type=Path, help="Write JSON result here; otherwise print it")
     parser.add_argument("--as-of-date", help="Use the latest session on or before YYYY-MM-DD")
     parser.add_argument("--as-of-from", help="Run independently for each NIFTY session from YYYY-MM-DD")
@@ -125,16 +127,27 @@ def main(argv=None):
     parser.add_argument("--rs-ratings", type=Path, help="Daily RS-rating snapshot JSON")
     parser.add_argument("--include-non-matches", action="store_true")
     parser.add_argument("--list-conditions", action="store_true")
+    parser.add_argument("--list-presets", action="store_true")
     args = parser.parse_args(argv)
     if args.list_conditions:
         print(json.dumps(CONDITION_REGISTRY, indent=2, sort_keys=True))
         return 0
-    if not args.request:
-        parser.error("--request is required unless --list-conditions is used")
-    request = json.loads(args.request.read_text())
-    conditions = request.get("expression", request.get("conditions"))
+    if args.list_presets:
+        print(json.dumps(list_presets(), indent=2, ensure_ascii=False))
+        return 0
+    if args.request and args.preset:
+        parser.error("Use either --request or --preset, not both")
+    if not args.request and not args.preset:
+        parser.error("--request or --preset is required unless listing definitions")
+    request = json.loads(args.request.read_text()) if args.request else {}
+    preset_id = args.preset or request.get("preset") or request.get("preset_id")
+    preset = get_preset(preset_id) if preset_id else None
+    if preset and (request.get("expression") or request.get("conditions")):
+        parser.error("A preset request must not also supply expression or conditions")
+    conditions = (preset or {}).get("expression") or request.get("expression", request.get("conditions"))
     if not conditions:
         parser.error("request.expression or request.conditions must be non-empty")
+    validate_preset_library(CONDITION_REGISTRY)
     delivery_history = {}
     delivery_path = args.delivery_history or (ROOT / "delivery_history_data")
     paths = sorted(delivery_path.glob("*.json")) if delivery_path.is_dir() else [delivery_path]
@@ -176,6 +189,12 @@ def main(argv=None):
             ROOT / "ohlcv_data", conditions, as_of_date, include_non_matches,
             delivery_history, context, selected_symbols,
         )
+    if preset:
+        result["preset"] = {
+            "id": preset["id"], "name": preset["name"], "category": preset["category"],
+            "horizon": preset["horizon"], "description": preset["description"],
+            "rules": preset["rules"],
+        }
     rendered = json.dumps(result, indent=2, allow_nan=False)
     if args.output:
         args.output.parent.mkdir(parents=True, exist_ok=True)
