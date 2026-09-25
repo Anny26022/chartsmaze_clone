@@ -331,9 +331,6 @@ def main(config=None):
     print("\nPHASE 4: Enrichment (Injecting into Master JSON)")
     print("-" * 40)
     for script in PHASE4_SCRIPTS:
-        if script == OHLCV_DERIVED_SCRIPT and not config.fetch_ohlcv:
-            print(f"  SKIP: {script} (EDL_FETCH_OHLCV=0)")
-            continue
         results[script] = run_script(
             script,
             "Phase 4",

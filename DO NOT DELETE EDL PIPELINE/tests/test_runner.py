@@ -11,7 +11,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from edl_pipeline.config import PipelineConfig
-from edl_pipeline.artifacts import PHASE4_SCRIPTS, SCRIPT_OUTPUT_SPECS
+from edl_pipeline.artifacts import OHLCV_DERIVED_SCRIPT, PHASE4_SCRIPTS, SCRIPT_OUTPUT_SPECS
 from edl_pipeline.runner import ScriptResult, build_pipeline_report, main, run_script
 from edl_pipeline.validators import ArtifactCheck
 
@@ -19,6 +19,7 @@ from edl_pipeline.validators import ArtifactCheck
 class RunnerTests(unittest.TestCase):
     def test_standardizer_is_last_enrichment_stage_with_matching_contracts(self):
         self.assertEqual(PHASE4_SCRIPTS[-1], "standardize_stock_artifact.py")
+        self.assertLess(PHASE4_SCRIPTS.index(OHLCV_DERIVED_SCRIPT), PHASE4_SCRIPTS.index("build_rs_ratings.py"))
         self.assertEqual(
             SCRIPT_OUTPUT_SPECS["add_corporate_events.py"][0].required_fields,
             ("Event Markers", "Recent Announcements", "News Feed"),

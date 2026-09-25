@@ -84,10 +84,12 @@ PHASE4_SCRIPTS = [
     "enrich_delivery_data.py",
     "process_market_breadth.py",
     "process_historical_market_breadth.py",
+    # This produces breadth_universe_snapshot.json, which is the fixed
+    # universe required to rank relative strength.
+    OHLCV_DERIVED_SCRIPT,
     "build_rs_ratings.py",
     "add_corporate_events.py",
     "build_corporate_action_ledger.py",
-    OHLCV_DERIVED_SCRIPT,
     "standardize_stock_artifact.py",
 ]
 
