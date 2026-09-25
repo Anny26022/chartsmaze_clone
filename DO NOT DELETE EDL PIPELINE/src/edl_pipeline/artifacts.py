@@ -91,6 +91,10 @@ PHASE4_SCRIPTS = [
     "standardize_stock_artifact.py",
 ]
 
+# This runs after the canonical artifact is compressed, so standardisation
+# remains the final mutation of the public stock snapshot.
+SCANNER_HISTORY_SCRIPT = "snapshot_screener_context.py"
+
 OPTIONAL_SCRIPTS = [
     "fetch_etf_data.py",
 ]
@@ -138,6 +142,9 @@ SCRIPT_OUTPUT_SPECS = {
     ],
     "fetch_nse_delivery_data.py": [
         ArtifactSpec("nse_delivery_data.json", "json", min_count=1, required_fields=("source", "as_of_date", "records")),
+    ],
+    "snapshot_screener_context.py": [
+        ArtifactSpec("scanner_history_data", "dir", min_count=1),
     ],
     "fetch_nse_fno_ban.py": [
         ArtifactSpec("nse_fno_ban.json", "json", required_fields=("source", "available", "trade_date", "symbols")),

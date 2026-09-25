@@ -1,6 +1,7 @@
 import sys
 import tempfile
 import unittest
+import json
 from pathlib import Path
 
 import pandas as pd
@@ -11,6 +12,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_history, evaluate_universe
+from edl_pipeline.scanner.context import KIND_ALIASES
 
 
 def rising_history(length=300):
@@ -42,6 +44,24 @@ class TrendScannerTests(unittest.TestCase):
             "price_band", "circuit_band_minimum", "series", "listing_age_days",
             "index_membership", "market_breadth", "fno_ban",
         })
+
+    def test_live_bundle_condition_contract_remains_mapped(self):
+        fixture = json.loads((ROOT / "tests" / "fixtures" / "journaltoday_screener_contract.json").read_text())
+        self.assertEqual(len(fixture["condition_kinds"]), 47)
+        self.assertEqual({KIND_ALIASES[kind] for kind in fixture["condition_kinds"]}, set(CONDITION_REGISTRY))
+
+    def test_nested_expression_uses_three_valued_boolean_logic(self):
+        frame = rising_history(80)
+        expression = {
+            "type": "group", "op": "OR", "children": [
+                {"type": "condition", "kind": "PRICE_CHANGE_PCT", "params": {"overDays": 5, "comparison": "ABOVE", "pct": 1}},
+                {"type": "condition", "kind": "ADX", "params": {"period": 1000, "comparison": "ABOVE", "value": 25}},
+            ],
+        }
+        result = evaluate_history(frame, expression)
+        self.assertEqual(result["status"], "match")
+        self.assertEqual(result["expression"]["op"], "OR")
+        self.assertEqual(result["expression"]["children"][1]["status"], "unavailable")
 
     def test_range_conditions_use_high_low_history_and_recent_signal_dates(self):
         frame = rising_history()

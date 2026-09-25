@@ -1,6 +1,6 @@
 # Daily trend-condition engine
 
-`screen_trend_conditions.py` evaluates an ANDed JSON request against the local
+`screen_trend_conditions.py` evaluates a JournalToday-compatible expression tree against the local
 daily `ohlcv_data/*.csv` cache. It is deliberately local and reproducible: it
 does not make a network request while screening.
 
@@ -49,8 +49,10 @@ controls. Supported daily-OHLCV conditions are:
 
 - Conditions are evaluated on daily OHLCV through `as_of_date`; if omitted,
   the most recent session in each symbol's cache is used.
-- Multiple conditions are ANDed. `persistent_momentum` is the one exception:
-  it matches if *any* selected EMA period satisfies its own required run.
+- A legacy flat `conditions` list is ANDed. An `expression` can use nested
+  `AND`/`OR` groups (up to any practical depth). Unknown inputs propagate only
+  where they affect the result: `match OR unavailable` is a match, while
+  `no_match OR unavailable` remains unavailable.
 - A missing required moving-average or ADX warm-up returns `unavailable`, not
   `match` or `no_match`.
 - EMA uses `adjust=False`; ADX uses Wilder smoothing (`alpha = 1 / period`).
@@ -153,3 +155,22 @@ snapshot, rather than optional files left in a local worktree.
   rather than wrongly treating every security as unbanned. It is also
   `unavailable` for a screen date other than that report's trade date; the
   current list is never back-applied to historical screens.
+
+## Universes and historical snapshots
+
+The request can use `scanUniverse`/`scan_universe` of `UNIVERSE`, `NIFTY50`,
+`MIDSMALL400`, or `NIFTY500`, or supply an explicit `symbols` list. Named
+universes are resolved from the membership values stored for the selected
+session; a missing historical membership is never inferred.
+
+Use `asOfFrom` plus `asOfTo` (or CLI `--as-of-from` and `--as-of-to`) for a
+range screen. The CLI returns a separate result for every cached NIFTY trading
+session, avoiding an undocumented interpretation of a condition over a range.
+
+Every full refresh writes a compact, date-keyed `scanner_history_data/*.json.gz`
+snapshot containing only fields used by context conditions: fundamentals,
+sector/industry, price bands, index memberships, the breadth row, and the
+official F&O ban row. The directory is an incremental cache, retained by the
+scheduled workflow but not committed to Git. It makes historical screens
+correct going forward; it cannot manufacture an older point-in-time snapshot
+that was never collected.

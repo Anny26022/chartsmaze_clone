@@ -49,6 +49,11 @@ but retries the latest seven calendar days because the current bhavcopy may
 appear after the first request. Network or NSE server failures are reported as
 failures and never misclassified as a non-trading day.
 
+The normal full-refresh stage requires the 260-session cache to be ready before
+it can publish. The GitHub daily workflow caches this directory between runs,
+so after the initial backfill it fetches only a newly published session instead
+of rebuilding historical delivery data every day.
+
 ## Staging schema
 
 ```json

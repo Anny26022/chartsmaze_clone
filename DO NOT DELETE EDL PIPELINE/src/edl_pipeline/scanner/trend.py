@@ -392,27 +392,63 @@ def _evaluate(frame, spec, delivery_history=None, context=None):
     raise AssertionError("registry and evaluator are out of sync")
 
 
+def _combine_group(operator, children):
+    """Three-valued boolean logic: unknown only survives when it can matter."""
+    statuses = [child["status"] for child in children]
+    if operator == "AND":
+        status = "no_match" if "no_match" in statuses else ("unavailable" if "unavailable" in statuses else "match")
+    elif operator == "OR":
+        status = "match" if "match" in statuses else ("unavailable" if "unavailable" in statuses else "no_match")
+    else:
+        raise ValueError("Expression group op must be AND or OR.")
+    return {"type": "group", "op": operator, "status": status, "children": children}
+
+
+def _evaluate_expression(frame, expression, delivery_history, context):
+    if isinstance(expression, list):
+        expression = {"type": "group", "op": "AND", "children": expression}
+    if not isinstance(expression, dict):
+        raise ValueError("Screen expression must be a condition or group object.")
+    if expression.get("type") == "group" or "children" in expression:
+        children = expression.get("children") or []
+        if not children:
+            raise ValueError("Screen expression group must not be empty.")
+        return _combine_group(str(expression.get("op", "AND")).upper(), [
+            _evaluate_expression(frame, child, delivery_history, context) for child in children
+        ])
+    result = _evaluate(frame, expression, delivery_history, context).as_dict()
+    return {"type": "condition", "status": result["status"], "result": result}
+
+
+def _leaf_results(node):
+    if node["type"] == "condition":
+        return [node["result"]]
+    return [result for child in node["children"] for result in _leaf_results(child)]
+
+
 def evaluate_history(rows, conditions, as_of_date: str | None = None, delivery_history=None, context=None):
-    """Evaluate an ANDed list of condition specs for one symbol's OHLCV rows."""
+    """Evaluate a flat legacy list or JournalToday-compatible expression tree."""
     frame = normalize_history(pd.DataFrame(rows), as_of_date)
     context = dict(context or {})
     context["delivery_history"] = delivery_history or []
-    results = [_evaluate(frame, spec, delivery_history, context) for spec in conditions]
-    statuses = [result.status for result in results]
-    overall = "unavailable" if "unavailable" in statuses else ("match" if all(status == "match" for status in statuses) else "no_match")
+    expression = _evaluate_expression(frame, conditions, delivery_history, context)
     return {
-        "status": overall,
+        "status": expression["status"],
         "as_of_date": frame["Date"].iloc[-1].strftime("%Y-%m-%d") if not frame.empty else None,
-        "conditions": [result.as_dict() for result in results],
+        "conditions": _leaf_results(expression),
+        "expression": expression,
     }
 
 
-def evaluate_universe(ohlcv_directory, conditions, as_of_date: str | None = None, include_non_matches=False, delivery_history=None, context_by_symbol=None):
-    """Evaluate cached daily CSVs, returning only matches unless requested otherwise."""
+def evaluate_universe(ohlcv_directory, conditions, as_of_date: str | None = None, include_non_matches=False, delivery_history=None, context_by_symbol=None, symbols=None):
+    """Evaluate a screen against selected cached symbols, returning only matches by default."""
     directory = Path(ohlcv_directory)
+    wanted = {str(symbol).upper() for symbol in symbols} if symbols else None
     results = []
     counts = {"match": 0, "no_match": 0, "unavailable": 0}
     for path in sorted(directory.glob("*.csv")):
+        if wanted is not None and path.stem.upper() not in wanted:
+            continue
         context = dict(context_by_symbol or {})
         context["stock"] = (context.get("stocks") or {}).get(path.stem, {})
         outcome = evaluate_history(pd.read_csv(path), conditions, as_of_date, (delivery_history or {}).get(path.stem, []), context)
@@ -426,3 +462,19 @@ def evaluate_universe(ohlcv_directory, conditions, as_of_date: str | None = None
         "counts": counts,
         "results": results,
     }
+
+
+def evaluate_universe_range(ohlcv_directory, conditions, dates, include_non_matches=False, delivery_history=None, context_for_date=None, symbols=None):
+    """Run a screen independently at each supplied trading-session date.
+
+    Range mode intentionally returns one point-in-time screen per session rather
+    than flattening a condition into an undocumented, ambiguous "range match".
+    """
+    runs = []
+    for session in dates:
+        context = context_for_date(session) if context_for_date else None
+        runs.append(evaluate_universe(
+            ohlcv_directory, conditions, session, include_non_matches,
+            delivery_history, context, symbols,
+        ))
+    return {"mode": "range", "from": dates[0] if dates else None, "to": dates[-1] if dates else None, "runs": runs}

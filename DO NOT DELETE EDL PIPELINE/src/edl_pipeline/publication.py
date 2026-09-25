@@ -46,7 +46,7 @@ def main():
         print("EDL_FETCH_OHLCV=0: diagnostic run; published files will not change.")
     with TemporaryDirectory(prefix=".edl-refresh-", dir=destination) as temporary:
         stage = Path(temporary)
-        for name in ("ohlcv_data", "indices_ohlcv_data", "delivery_history_data"):
+        for name in ("ohlcv_data", "indices_ohlcv_data", "delivery_history_data", "scanner_history_data"):
             cache = destination / name
             cache.mkdir(exist_ok=True)
             (stage / name).symlink_to(cache, target_is_directory=True)

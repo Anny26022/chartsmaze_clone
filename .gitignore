@@ -8,6 +8,7 @@ DO NOT DELETE EDL PIPELINE/market_news/
 DO NOT DELETE EDL PIPELINE/ohlcv_data/
 DO NOT DELETE EDL PIPELINE/indices_ohlcv_data/
 DO NOT DELETE EDL PIPELINE/delivery_history_data/
+DO NOT DELETE EDL PIPELINE/scanner_history_data/
 
 # Tracked generated outputs
 !DO NOT DELETE EDL PIPELINE/all_stocks_fundamental_analysis.json.gz
