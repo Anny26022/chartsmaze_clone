@@ -33,7 +33,72 @@ class TrendScannerTests(unittest.TestCase):
             "price_vs_sma", "percent_days_above_ma", "ma_stack", "ma_slope",
             "price_change_percent", "consecutive_up_days", "gap_up", "gap_down",
             "relative_volume", "volume_trend", "highest_volume", "delivery_percent_spike",
+            "new_high", "new_low", "percent_from_52w_high", "percent_from_52w_low",
+            "consolidation_range", "atr_percent", "range_contraction", "inside_bar",
+            "unfilled_gap", "vcp_contraction_legs", "horizontal_resistance_line",
         })
+
+    def test_range_conditions_use_high_low_history_and_recent_signal_dates(self):
+        frame = rising_history()
+        high = evaluate_history(frame, [{"condition": "new_high", "lookback_days": 252, "fired_within": 1}])
+        low = evaluate_history(frame, [{"condition": "new_low", "lookback_days": 252, "fired_within": 1}])
+        distance = evaluate_history(frame, [{"condition": "percent_from_52w_high", "comparison": "less", "value": 2}])
+        self.assertEqual(high["status"], "match")
+        self.assertEqual(low["status"], "no_match")
+        self.assertEqual(distance["status"], "match")
+        self.assertEqual(high["conditions"][0]["details"]["days_since_signal"], 0)
+
+    def test_consolidation_atr_and_prior_range_contraction(self):
+        frame = rising_history(90)
+        frame.loc[frame.index[-60:-10], "High"] = 140
+        frame.loc[frame.index[-60:-10], "Low"] = 80
+        frame.loc[frame.index[-20:], ["Open", "High", "Low", "Close"]] = [100, 101, 99, 100]
+        result = evaluate_history(frame, [
+            {"condition": "consolidation_range", "lookback_days": 10, "max_range_percent": 3, "exclude_latest": 0},
+            {"condition": "atr_percent", "period": 3, "comparison": "less", "value": 5},
+            {"condition": "range_contraction", "recent_days": 10, "prior_days": 50, "max_ratio": .2, "prior_mode": "prior"},
+        ])
+        self.assertEqual(result["status"], "match")
+        self.assertTrue(all(item["status"] == "match" for item in result["conditions"]))
+
+    def test_daily_and_iso_weekly_inside_bars(self):
+        frame = rising_history(20)
+        frame.loc[frame.index[-3], ["High", "Low"]] = [150, 50]
+        frame.loc[frame.index[-2], ["High", "Low"]] = [140, 60]
+        frame.loc[frame.index[-1], ["High", "Low"]] = [130, 70]
+        daily = evaluate_history(frame, [{"condition": "inside_bar", "timeframe": "daily", "consecutive": 2}])
+        self.assertEqual(daily["status"], "match")
+
+        weekly = rising_history(15)
+        weekly.loc[weekly.index[-10:-5], ["High", "Low"]] = [160, 40]
+        weekly.loc[weekly.index[-5:], ["High", "Low"]] = [150, 50]
+        weekly_result = evaluate_history(weekly, [{"condition": "inside_bar", "timeframe": "weekly", "consecutive": 1}])
+        self.assertEqual(weekly_result["status"], "match")
+
+    def test_gap_state_uses_prior_close_as_the_fill_level(self):
+        frame = rising_history(30)
+        frame[["Open", "High", "Low", "Close"]] = frame[["Open", "High", "Low", "Close"]].astype(float)
+        prior_close = frame["Close"].iloc[-3]
+        frame.loc[frame.index[-2], ["Open", "High", "Low", "Close"]] = [prior_close * 1.08, prior_close * 1.09, prior_close * 1.06, prior_close * 1.07]
+        frame.loc[frame.index[-1], "Low"] = prior_close + 1
+        unfilled = evaluate_history(frame, [{"condition": "unfilled_gap", "direction": "up", "minimum_gap_percent": 5, "within_days": 3, "state": "unfilled"}])
+        frame.loc[frame.index[-1], "Low"] = prior_close
+        filled = evaluate_history(frame, [{"condition": "unfilled_gap", "direction": "up", "minimum_gap_percent": 5, "within_days": 3, "state": "filled"}])
+        self.assertEqual(unfilled["status"], "match")
+        self.assertEqual(filled["status"], "match")
+
+    def test_vcp_legs_and_horizontal_resistance_are_deterministic(self):
+        close = [100] * 250 + [100, 120, 100, 115, 105, 112, 108, 111, 109, 110]
+        dates = pd.date_range("2025-01-01", periods=len(close), freq="B")
+        frame = pd.DataFrame({
+            "Date": dates.strftime("%Y-%m-%d"), "Open": close,
+            "High": [value + 1 for value in close], "Low": [value - 1 for value in close],
+            "Close": close, "Volume": [100] * len(close),
+        })
+        vcp = evaluate_history(frame, [{"condition": "vcp_contraction_legs", "minimum_legs": 3, "lookback_days": 20, "max_final_leg_percent": 8, "max_leg_ratio": .9, "minimum_swing_percent": 1.5}])
+        resistance = evaluate_history(frame, [{"condition": "horizontal_resistance_line", "lookback_days": 100, "minimum_swing_percent": 1.5, "cluster_tolerance_percent": 3, "minimum_base_length_days": 4, "maximum_base_length_days": 100, "minimum_base_depth_percent": 0, "maximum_base_depth_percent": 60, "maximum_percent_below_line": 20, "maximum_percent_below_20ema": 20}])
+        self.assertEqual(vcp["status"], "match")
+        self.assertEqual(resistance["status"], "match")
 
     def test_momentum_and_volume_conditions_match_a_clear_signal(self):
         frame = rising_history(80)

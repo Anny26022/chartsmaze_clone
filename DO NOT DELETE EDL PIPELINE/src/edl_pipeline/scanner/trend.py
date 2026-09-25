@@ -15,6 +15,8 @@ from typing import Any
 import numpy as np
 import pandas as pd
 
+from .patterns import PATTERN_CONDITION_REGISTRY, evaluate_pattern
+
 
 REQUIRED_COLUMNS = ("Date", "Open", "High", "Low", "Close", "Volume")
 COMPARISONS = {
@@ -92,6 +94,7 @@ CONDITION_REGISTRY = {
         "inputs": {"minimum_delivery_percent": "number", "fired_within": "integer"},
         "definition": "NSE delivery percentage met the threshold on a session within the requested window.",
     },
+    **PATTERN_CONDITION_REGISTRY,
 }
 
 
@@ -213,6 +216,10 @@ def _evaluate(frame, spec, delivery_history=None):
         raise ValueError(f"Unsupported trend condition: {condition!r}")
     if frame.empty:
         return _unavailable(condition, "no_ohlcv_history")
+
+    pattern_result = evaluate_pattern(frame, spec, _result, _unavailable, _comparison, _ma)
+    if pattern_result is not None:
+        return pattern_result
 
     if condition == "persistent_momentum":
         periods = [int(period) for period in spec.get("periods", (10, 20, 50))]
