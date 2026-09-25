@@ -88,6 +88,10 @@ CONDITION_REGISTRY = {
         "inputs": {"lookback": "integer", "fired_within": "integer", "closed_up": "boolean"},
         "definition": "A session had the highest volume in its lookback window, optionally while closing above its prior close.",
     },
+    "delivery_percent_spike": {
+        "inputs": {"minimum_delivery_percent": "number", "fired_within": "integer"},
+        "definition": "NSE delivery percentage met the threshold on a session within the requested window.",
+    },
 }
 
 
@@ -203,7 +207,7 @@ def _persisted(frame, average, comparison, days, mode):
     return bool(reclaimed.any())
 
 
-def _evaluate(frame, spec):
+def _evaluate(frame, spec, delivery_history=None):
     condition = spec.get("condition") or spec.get("id")
     if condition not in CONDITION_REGISTRY:
         raise ValueError(f"Unsupported trend condition: {condition!r}")
@@ -352,13 +356,32 @@ def _evaluate(frame, spec):
         value = int(frame["Volume"].tail(fired_within).iloc[offset]) if matched else None
         return _result(condition, matched, value, lookback=lookback, fired_within=fired_within, closed_up=bool(spec.get("closed_up", False)), days_since_signal=(fired_within - 1 - offset) if offset is not None else None)
 
+    if condition == "delivery_percent_spike":
+        fired_within = int(spec.get("fired_within", 1))
+        if fired_within <= 0:
+            raise ValueError("fired_within must be positive.")
+        by_date = {
+            str(item.get("date")): item.get("delivery_percent")
+            for item in (delivery_history or [])
+            if isinstance(item, dict) and item.get("date") and item.get("delivery_percent") is not None
+        }
+        sessions = frame.tail(fired_within)["Date"].dt.strftime("%Y-%m-%d").tolist()
+        values = [by_date.get(session) for session in sessions]
+        known = [(index, float(value)) for index, value in enumerate(values) if value is not None]
+        if not known:
+            return _unavailable(condition, "no_delivery_history_for_window")
+        threshold = float(spec["minimum_delivery_percent"])
+        qualifying = [(index, value) for index, value in known if value >= threshold]
+        index, value = qualifying[-1] if qualifying else (None, max(value for _, value in known))
+        return _result(condition, bool(qualifying), round(value, 6), minimum_delivery_percent=threshold, fired_within=fired_within, days_since_signal=(len(sessions) - 1 - index) if index is not None else None, available_sessions=len(known))
+
     raise AssertionError("registry and evaluator are out of sync")
 
 
-def evaluate_history(rows, conditions, as_of_date: str | None = None):
+def evaluate_history(rows, conditions, as_of_date: str | None = None, delivery_history=None):
     """Evaluate an ANDed list of condition specs for one symbol's OHLCV rows."""
     frame = normalize_history(pd.DataFrame(rows), as_of_date)
-    results = [_evaluate(frame, spec) for spec in conditions]
+    results = [_evaluate(frame, spec, delivery_history) for spec in conditions]
     statuses = [result.status for result in results]
     overall = "unavailable" if "unavailable" in statuses else ("match" if all(status == "match" for status in statuses) else "no_match")
     return {
@@ -368,13 +391,13 @@ def evaluate_history(rows, conditions, as_of_date: str | None = None):
     }
 
 
-def evaluate_universe(ohlcv_directory, conditions, as_of_date: str | None = None, include_non_matches=False):
+def evaluate_universe(ohlcv_directory, conditions, as_of_date: str | None = None, include_non_matches=False, delivery_history=None):
     """Evaluate cached daily CSVs, returning only matches unless requested otherwise."""
     directory = Path(ohlcv_directory)
     results = []
     counts = {"match": 0, "no_match": 0, "unavailable": 0}
     for path in sorted(directory.glob("*.csv")):
-        outcome = evaluate_history(pd.read_csv(path), conditions, as_of_date)
+        outcome = evaluate_history(pd.read_csv(path), conditions, as_of_date, (delivery_history or {}).get(path.stem, []))
         counts[outcome["status"]] += 1
         if include_non_matches or outcome["status"] == "match":
             results.append({"symbol": path.stem, **outcome})

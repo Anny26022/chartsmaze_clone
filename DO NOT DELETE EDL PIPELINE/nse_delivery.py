@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import csv
-from datetime import datetime
+from datetime import date, datetime, timedelta
 from io import StringIO
 from urllib.parse import urljoin
 
@@ -18,6 +18,7 @@ NSE_HEADERS = {
     "Referer": "https://www.nseindia.com/all-reports",
 }
 DELIVERY_FILE_KEY = "CM-BHAVDATA-FULL"
+HISTORICAL_FILE_URL = "https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_{date}.csv"
 
 
 def parse_nse_date(value: str) -> str:
@@ -79,3 +80,29 @@ def fetch_latest_delivery_bhavcopy(session: requests.Session | None = None) -> t
         "file_url": url,
         "as_of_date": parse_nse_date(descriptor["tradingDate"]),
     }, records
+
+
+def fetch_delivery_history_by_date(from_date: str, to_date: str, session: requests.Session | None = None) -> tuple[list[dict], list[str]]:
+    """Download a bounded calendar range of daily full-universe delivery CSVs.
+
+    Weekends/holidays are represented as skipped dates; a missing file never
+    becomes a zero-delivery record.
+    """
+    start, end = date.fromisoformat(from_date), date.fromisoformat(to_date)
+    if start > end:
+        raise ValueError("from_date must not be after to_date")
+    session = session or requests.Session()
+    session.headers.update(NSE_HEADERS)
+    records, skipped = [], []
+    current = start
+    while current <= end:
+        url = HISTORICAL_FILE_URL.format(date=current.strftime("%d%m%Y"))
+        response = session.get(url, timeout=60)
+        if response.status_code == 404:
+            skipped.append(current.isoformat())
+        else:
+            response.raise_for_status()
+            rows = csv.DictReader(StringIO(response.content.decode("utf-8-sig")))
+            records.extend(item for row in rows if (item := normalize_row(row)))
+        current += timedelta(days=1)
+    return records, skipped

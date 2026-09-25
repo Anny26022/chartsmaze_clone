@@ -32,7 +32,7 @@ class TrendScannerTests(unittest.TestCase):
             "persistent_momentum", "price_vs_ema", "ema_shakeout_reclaim", "adx",
             "price_vs_sma", "percent_days_above_ma", "ma_stack", "ma_slope",
             "price_change_percent", "consecutive_up_days", "gap_up", "gap_down",
-            "relative_volume", "volume_trend", "highest_volume",
+            "relative_volume", "volume_trend", "highest_volume", "delivery_percent_spike",
         })
 
     def test_momentum_and_volume_conditions_match_a_clear_signal(self):
@@ -55,6 +55,15 @@ class TrendScannerTests(unittest.TestCase):
         result = evaluate_history(frame, [{"condition": "gap_down", "minimum_gap_percent": 5, "fired_within": 2}])
         self.assertEqual(result["status"], "match")
         self.assertEqual(result["conditions"][0]["details"]["days_since_signal"], 1)
+
+    def test_delivery_spike_uses_date_aligned_history_and_never_guesses_missing_days(self):
+        frame = rising_history(10)
+        records = [{"date": frame["Date"].iloc[-2], "delivery_percent": 62.5}]
+        matched = evaluate_history(frame, [{"condition": "delivery_percent_spike", "minimum_delivery_percent": 60, "fired_within": 2}], delivery_history=records)
+        missing = evaluate_history(frame, [{"condition": "delivery_percent_spike", "minimum_delivery_percent": 60, "fired_within": 2}])
+        self.assertEqual(matched["status"], "match")
+        self.assertEqual(matched["conditions"][0]["details"]["days_since_signal"], 1)
+        self.assertEqual(missing["status"], "unavailable")
 
     def test_all_trend_conditions_match_a_clear_rising_series(self):
         frame = rising_history()

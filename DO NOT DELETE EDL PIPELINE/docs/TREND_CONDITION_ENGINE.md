@@ -27,6 +27,7 @@ controls. Supported daily-OHLCV conditions are:
 - `relative_volume`
 - `volume_trend`
 - `highest_volume`
+- `delivery_percent_spike`
 
 ## Calculation contract
 
@@ -50,10 +51,10 @@ controls. Supported daily-OHLCV conditions are:
 - Relative volume compares a day's volume with the *preceding* `average_window`
   sessions, avoiding look-ahead bias. Volume trend compares the most recent
   window with the immediately preceding base window.
-- Delivery % is deliberately not a condition in this OHLCV-only engine. The
-  EDL now publishes the latest delivery snapshot separately; a historical
-  delivery-series artifact is still required for a faithful `fired_within`
-  delivery-spike rule.
+- `delivery_percent_spike` reads the date-based `delivery_history.json`
+  artifact. Build it with `fetch_nse_delivery_history.py --from-date
+  YYYY-MM-DD --to-date YYYY-MM-DD`; it downloads one official full-universe
+  bhavcopy per calendar day and leaves unavailable dates explicit.
 
 The generated output includes each condition's result and details. By default
 only matches are emitted; use `include_non_matches` in the request or
