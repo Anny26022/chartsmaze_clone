@@ -129,6 +129,13 @@ snapshot, rather than optional files left in a local worktree.
   supplies it. The selected report type cannot be inferred from the current
   upstream snapshot, so a report-type-specific request is not treated as a
   separate audited value.
+- Market cap and free-float cap are reconstructable on a historical screen:
+  the selected close is multiplied by the current implied share count
+  (`current market cap / current close`), matching the bundle's documented
+  price-scaled approach. P/E, reported earnings growth, sector/industry,
+  circuit band, and current index membership are not reconstructed from a
+  future snapshot; they return `unavailable` unless their snapshot date is the
+  selected screen date.
 - `average_turnover` supports daily turnover. One-, three-, and five-minute
   turnover options return `unavailable` until an intraday turnover history is
   collected.
@@ -138,7 +145,8 @@ snapshot, rather than optional files left in a local worktree.
   is `unavailable`, never a negative result.
 - `market_breadth` currently publishes the all-active breadth universe. Other
   requested universes return `unavailable` until their membership datasets are
-  published.
+  published. The all-active result is also date-aligned; it is not reused for
+  an earlier screen date.
 - `fno_ban` reads NSE's official security-ban CSV. Its CSV heading determines
   `trade_date` (not the daily-report index date). A retrieval failure is
   published as `available: false`, causing the rule to return `unavailable`

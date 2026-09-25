@@ -111,6 +111,12 @@ def _aligned_relative_strength(frame, benchmark):
     return merged
 
 
+def _stock_snapshot_is_aligned(stock, as_of_date):
+    """Whether point-in-time-only stock metadata belongs to this screen date."""
+    snapshot_date = pd.to_datetime(_value(stock, "as_of_date"), errors="coerce")
+    return as_of_date is not None and not pd.isna(snapshot_date) and snapshot_date.date() == as_of_date
+
+
 def evaluate_context_condition(frame, spec, context, result: Callable[..., Any], unavailable: Callable[..., Any], comparison: Callable[[float, str, float], bool]):
     """Evaluate non-OHLCV-only rules; return ``None`` when not applicable."""
     condition = spec["condition"]
@@ -152,11 +158,21 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         return result(condition, comparison(value, spec["comparison"], target), value, window=spec.get("window"), comparison=spec["comparison"], target=target)
 
     if condition in {"market_cap", "free_float_market_cap", "pe_ratio"}:
-        if condition == "market_cap": value = _float(stock, "market_cap_crore")
+        if condition in {"market_cap", "free_float_market_cap"}:
+            current_cap, current_close = _float(stock, "market_cap_crore"), _float(stock, "close")
+            # The bundle documents historical market-cap as historical price
+            # scaled by today's share count.  Derive that share count from the
+            # current cap/close instead of reusing a future cap unchanged.
+            cap = current_cap * float(frame["Close"].iloc[-1]) / current_close if current_cap is not None and current_close not in (None, 0) else None
+        else:
+            cap = None
+        if condition == "market_cap": value = cap
         elif condition == "free_float_market_cap":
-            cap, free_float = _float(stock, "market_cap_crore"), _float(stock, "free_float_percent")
+            free_float = _float(stock, "free_float_percent")
             value = cap * free_float / 100 if cap is not None and free_float is not None else None
         else:
+            if not _stock_snapshot_is_aligned(stock, as_of_date):
+                return unavailable(condition, "pe_snapshot_not_aligned_to_screen_date")
             value = _float(stock, "pe_ratio")
             if value is not None and value <= 0: value = None
         if value is None:
@@ -165,6 +181,8 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         return result(condition, comparison(value, spec["comparison"], target), round(value, 6), comparison=spec["comparison"], target=target)
 
     if condition == "earnings_growth":
+        if not _stock_snapshot_is_aligned(stock, as_of_date):
+            return unavailable(condition, "earnings_snapshot_not_aligned_to_screen_date")
         metric = str(spec.get("metric", "net_profit")).lower()
         basis = str(spec.get("basis", "yoy")).lower()
         prefix = {"net_profit": "net_profit", "revenue": "sales", "eps": "eps", "pbt": "pbt"}.get(metric)
@@ -173,16 +191,18 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         value = _float(stock, f"{basis}_percent_{prefix}_latest")
         announcement = pd.to_datetime(_value(stock, "latest_earnings_date"), errors="coerce")
         max_age = int(spec.get("maximum_filing_age_days", 200))
-        if value is None or pd.isna(announcement): return unavailable(condition, "earnings_history_unavailable")
+        if value is None or pd.isna(announcement) or announcement.date() > as_of_date: return unavailable(condition, "earnings_history_unavailable")
         age = int((as_of_date - announcement.date()).days) if as_of_date else None
         if age is None or age > max_age: return unavailable(condition, "earnings_filing_too_old")
         target = float(spec["value"])
         return result(condition, comparison(value, spec["comparison"], target), value, metric=metric, basis=basis, filing_age_days=age, maximum_filing_age_days=max_age)
 
     if condition in {"days_since_earnings", "listing_age_days"}:
+        if condition == "days_since_earnings" and not _stock_snapshot_is_aligned(stock, as_of_date):
+            return unavailable(condition, "earnings_snapshot_not_aligned_to_screen_date")
         source = "latest_earnings_date" if condition == "days_since_earnings" else "listing_date"
         marker = pd.to_datetime(_value(stock, source), errors="coerce")
-        if pd.isna(marker): return unavailable(condition, "date_unavailable")
+        if pd.isna(marker) or marker.date() > as_of_date: return unavailable(condition, "date_unavailable")
         sessions = int((frame["Date"].dt.date > marker.date()).sum())
         target = float(spec["days"])
         return result(condition, comparison(sessions, spec["comparison"], target), sessions, comparison=spec["comparison"], target=target, source_date=marker.date().isoformat())
@@ -195,6 +215,8 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         if condition == "series":
             dated = {str(row.get("date")): row.get("series") for row in context.get("delivery_history", []) if row.get("date")}
             actual = dated.get(as_of_date.isoformat(), actual) if as_of_date else actual
+        elif not _stock_snapshot_is_aligned(stock, as_of_date):
+            return unavailable(condition, "snapshot_not_aligned_to_screen_date")
         if condition == "price_band" and str(actual).strip() in {"", "-", "NONE", "N/A"}:
             actual = "No Band"
         if actual is None: return unavailable(condition, "snapshot_value_unavailable")
@@ -222,6 +244,8 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         return result(condition, low <= value <= high, value, minimum_price=low, maximum_price=high)
 
     if condition == "circuit_band_minimum":
+        if not _stock_snapshot_is_aligned(stock, as_of_date):
+            return unavailable(condition, "snapshot_not_aligned_to_screen_date")
         raw = _value(stock, "circuit_limit")
         if raw is None: return unavailable(condition, "snapshot_value_unavailable")
         if str(raw).strip().upper() in {"-", "NO BAND", "NONE"}:
@@ -232,12 +256,17 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         return result(condition, value >= target, value, minimum_band_percent=target)
 
     if condition == "index_membership":
+        if not _stock_snapshot_is_aligned(stock, as_of_date):
+            return unavailable(condition, "index_membership_not_aligned_to_screen_date")
         memberships = {str(item).upper() for item in (stock.get("index_memberships") or [])}
         target = str(spec["index_name"]).upper()
         if not memberships: return unavailable(condition, "index_membership_unavailable")
         return result(condition, target in memberships, target in memberships, index_name=spec["index_name"], memberships=sorted(memberships))
 
     if condition == "market_breadth":
+        breadth_as_of = pd.to_datetime(context.get("breadth_as_of"), errors="coerce")
+        if as_of_date is None or pd.isna(breadth_as_of) or breadth_as_of.date() != as_of_date:
+            return unavailable(condition, "breadth_not_aligned_to_screen_date")
         breadth = (context.get("breadth") or {}).get(str(spec.get("universe", "all_active")).lower())
         if not breadth: return unavailable(condition, "breadth_universe_unavailable")
         metric = str(spec["metric"]).lower()

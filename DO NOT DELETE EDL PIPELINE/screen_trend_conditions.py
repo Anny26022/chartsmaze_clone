@@ -62,7 +62,7 @@ def _load_context(root, stock_path=None, index_path=None, breadth_path=None):
     ban = _read_json(root / "nse_fno_ban.json") or _read_json(root / "nse_fno_ban.json.gz") or {}
     fno_ban_symbols = {str(symbol).upper(): True for symbol in ban.get("symbols", [])}
     rs_artifact = _read_json(root / "rs_rating_daily.json") or _read_json(root / "rs_rating_daily.json.gz") or {}
-    return {"stocks": {item.get("symbol"): item for item in stocks if item.get("symbol")}, "benchmarks": benchmarks, "breadth": breadth, "fno_ban_symbols": fno_ban_symbols, "fno_ban_available": ban.get("available", False), "fno_ban_trade_date": ban.get("trade_date"), "rs_ratings": rs_artifact.get("ratings", rs_artifact), "rs_ratings_as_of": rs_artifact.get("as_of_date")}
+    return {"stocks": {item.get("symbol"): item for item in stocks if item.get("symbol")}, "benchmarks": benchmarks, "breadth": breadth, "breadth_as_of": latest[0].get("date") if latest else None, "fno_ban_symbols": fno_ban_symbols, "fno_ban_available": ban.get("available", False), "fno_ban_trade_date": ban.get("trade_date"), "rs_ratings": rs_artifact.get("ratings", rs_artifact), "rs_ratings_as_of": rs_artifact.get("as_of_date")}
 
 
 def main(argv=None):
