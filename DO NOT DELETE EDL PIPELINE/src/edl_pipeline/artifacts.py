@@ -35,11 +35,13 @@ FILES_TO_COMPRESS = {
     "all_stocks_fundamental_analysis.json": "all_stocks_fundamental_analysis.json.gz",
     "sector_analytics.json": "sector_analytics.json.gz",
     "market_breadth.csv": "market_breadth.json.gz",
+    "market_breadth_v2.json": "market_breadth_v2.json.gz",
+    "breadth_universe_snapshot.json": "breadth_universe_snapshot.json.gz",
+    "all_indices_history_v2.json": "all_indices_history_v2.json.gz",
 }
 
-# These artifacts are produced by the separate OHLCV-derived breadth pipeline.
-# Keep their names in the shared registry so the runner can selectively skip
-# or validate them without coupling the scanner publication stages to them.
+# The full refresh generates and validates these alongside the stock snapshot.
+# A no-OHLCV diagnostic run skips them and is never published.
 OHLCV_DERIVED_SCRIPT = "process_mbi_market_breadth.py"
 OHLCV_DERIVED_FILES = frozenset(
     {
@@ -74,6 +76,7 @@ PHASE4_SCRIPTS = [
     "process_market_breadth.py",
     "process_historical_market_breadth.py",
     "add_corporate_events.py",
+    OHLCV_DERIVED_SCRIPT,
     "standardize_stock_artifact.py",
 ]
 
@@ -189,4 +192,13 @@ FINAL_ARTIFACT_SPECS = [
     ArtifactSpec("sector_analytics.json.gz", "gzip_json", min_count=1, required_fields=("sectors", "industries")),
     ArtifactSpec("market_breadth.json.gz", "gzip_csv", min_count=2),
     ArtifactSpec("all_indices_list.json", "json", min_count=1),
+    ArtifactSpec("market_breadth_v2.json.gz", "gzip_json", required_fields=("generated_at", "quality", "records"), nested_min_counts=(("records", 1),)),
+    ArtifactSpec("breadth_universe_snapshot.json.gz", "gzip_json", required_fields=("generated_at", "eligible", "excluded")),
+    ArtifactSpec("all_indices_history_v2.json.gz", "gzip_json", required_fields=("generated_at", "quality", "indices"), nested_min_counts=(("indices", 1),)),
 ]
+
+SCRIPT_OUTPUT_SPECS[OHLCV_DERIVED_SCRIPT] = [
+    ArtifactSpec(path, "json", required_fields=("generated_at",))
+    for path in sorted(OHLCV_DERIVED_FILES)
+]
+INTERMEDIATE_FILES.extend(sorted(OHLCV_DERIVED_FILES))

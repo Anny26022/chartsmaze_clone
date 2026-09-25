@@ -427,3 +427,9 @@ industry analytics contain only moving-average and 52-week-high breadth.
 
 ---
 **Note**: This folder is part of the EDL Pipeline. **DO NOT DELETE**.
+# Publication safety
+
+The public entrypoint now stages each refresh, validates the complete output set,
+and preserves the last published dataset on failure. See
+[Pipeline integrity](docs/PIPELINE_INTEGRITY.md) for coverage gates, freshness
+limits, per-symbol availability, and the intentional zero-to-null corrections.

@@ -1,9 +1,7 @@
 import sys
 import time
 
-import requests
-
-from pipeline_utils import chunked, get_headers, load_json, save_json
+from pipeline_utils import chunked, post_json, load_json, save_json
 
 
 MASTER_MAP_FILE = "master_isin_map.json"
@@ -29,8 +27,6 @@ def attach_symbol_metadata(rows, isin_lookup):
     return rows
 
 def fetch_fundamental_data():
-    headers = get_headers()
-
     # 1. Load ISINs from Master Map
     try:
         master_map = load_json(MASTER_MAP_FILE)
@@ -44,6 +40,7 @@ def fetch_fundamental_data():
     print(f"Loaded {total_isins} ISINs from master map.")
 
     all_fundamental_data = []
+    failed_batches = 0
     
     for start_index, batch_isins in chunked(all_isins, BATCH_SIZE):
         batch_number = start_index // BATCH_SIZE + 1
@@ -52,29 +49,25 @@ def fetch_fundamental_data():
         payload = {"data": {"isins": batch_isins}}
         
         try:
-            response = requests.post(API_URL, json=payload, headers=headers, timeout=30)
-            
-            if response.status_code == 200:
-                data = response.json()
-                
-                if data.get('status') == 'success':
-                    batch_results = data.get('data', [])
-                    if batch_results:
-                        all_fundamental_data.extend(attach_symbol_metadata(batch_results, isin_lookup))
-                        print(f"  Success: Received {len(batch_results)} records.")
-                    else:
-                        print("  Warning: No data returned for this batch.")
-                else:
-                    print(f"  API Error: {data.get('message')}")
+            data = post_json(API_URL, payload, timeout=30)
+            if data.get('status') == 'success' and isinstance(data.get('data'), list):
+                batch_results = data['data']
+                all_fundamental_data.extend(attach_symbol_metadata(batch_results, isin_lookup))
+                print(f"  Success: Received {len(batch_results)} records.")
             else:
-                print(f"  HTTP Error: {response.status_code}")
+                failed_batches += 1
+                print("  API error or invalid fundamental response.")
                 
         except Exception as e:
+            failed_batches += 1
             print(f"  Exception fetching batch: {e}")
             
         time.sleep(REQUEST_DELAY_SECONDS)
 
     # 3. Save Consolidated Data
+    if failed_batches:
+        print(f"Refusing partial fundamental refresh: {failed_batches} failed batches.")
+        return False
     if all_fundamental_data:
         save_json(OUTPUT_FILE, all_fundamental_data)
         print(f"\nSuccessfully saved fundamental data for {len(all_fundamental_data)} securities to {OUTPUT_FILE}")

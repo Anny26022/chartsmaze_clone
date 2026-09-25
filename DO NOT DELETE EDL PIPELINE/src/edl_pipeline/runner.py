@@ -13,6 +13,7 @@ import sys
 import time
 
 from pipeline_utils import BASE_DIR, compress_file, save_json
+import pipeline_utils
 
 from .artifacts import (
     FILES_TO_COMPRESS,
@@ -63,7 +64,7 @@ def validate_script_outputs(script_name):
 
 def run_script(script_name, phase_label="", required=False):
     """Run a Python script and report whether it completed successfully."""
-    script_path = os.path.join(BASE_DIR, script_name)
+    script_path = os.path.join(os.path.dirname(pipeline_utils.__file__), script_name)
 
     if not os.path.exists(script_path):
         print(f"  WARNING: SKIP: {script_name} not found.")
@@ -301,7 +302,7 @@ def main(config=None):
     print("\nPHASE 2: Data Enrichment (Fetching)")
     print("-" * 40)
     for script in PHASE2_SCRIPTS:
-        results[script] = run_script(script, "Phase 2")
+        results[script] = run_script(script, "Phase 2", required=script == "fetch_all_indices.py")
 
     if config.fetch_ohlcv:
         print("\nPHASE 2.5: OHLCV History (Smart Incremental)")
@@ -333,8 +334,12 @@ def main(config=None):
         results[script] = run_script(
             script,
             "Phase 4",
-            required=script == OHLCV_DERIVED_SCRIPT,
+            required=True,
         )
+
+    if any(result.required and not result.ok for result in results.values()):
+        write_pipeline_report(build_pipeline_report(results, time.time() - overall_start, 0, 0, [], config, 1))
+        return 1
 
     print("\nPHASE 5: Compression (.json -> .json.gz)")
     print("-" * 40)
@@ -346,18 +351,15 @@ def main(config=None):
         for script in OPTIONAL_SCRIPTS:
             results[script] = run_script(script, "Phase 6")
 
-    if config.cleanup_intermediate:
-        print("\nCLEANUP: Removing intermediate files...")
-        print("-" * 40)
-        cleanup_intermediate()
-
     final_checks = validate_final_artifacts(
         include_ohlcv_derived=config.fetch_ohlcv
     )
     required_failed = any(result.required and not result.ok for result in results.values())
     final_failed = any(not check.ok for check in final_checks)
     exit_code = 1 if required_failed or final_failed else 0
+    if exit_code == 0 and config.cleanup_intermediate:
+        cleanup_intermediate()
     total_time = time.time() - overall_start
-    print_final_report(results, total_time, raw_size, config.cleanup_intermediate, final_checks)
+    print_final_report(results, total_time, raw_size, config.cleanup_intermediate and exit_code == 0, final_checks)
     write_pipeline_report(build_pipeline_report(results, total_time, raw_size, gz_size, final_checks, config, exit_code))
     return exit_code

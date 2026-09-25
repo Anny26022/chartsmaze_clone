@@ -8,6 +8,7 @@
 
 import gzip
 import json
+import math
 import os
 import random
 import time
@@ -80,7 +81,8 @@ def apply_sma_fields(row):
     values = {}
     for field in ("close", "sma10", "sma20", "sma50", "sma200"):
         try:
-            values[field] = float(row.get(field))
+            value = float(row.get(field))
+            values[field] = value if math.isfinite(value) else None
         except (TypeError, ValueError):
             values[field] = None
 
@@ -118,9 +120,20 @@ def atomic_replace_text(path, text):
     atomic_replace_bytes(path, text.encode("utf-8"))
 
 
+def finite_json(data):
+    """Preserve missing numeric data as null, including nested provider values."""
+    if isinstance(data, float) and not math.isfinite(data):
+        return None
+    if isinstance(data, dict):
+        return {key: finite_json(value) for key, value in data.items()}
+    if isinstance(data, (list, tuple)):
+        return [finite_json(value) for value in data]
+    return data
+
+
 def save_json(path, data, indent=4, ensure_ascii=True):
     """Write JSON atomically to a pipeline-relative path and create parent dirs."""
-    text = json.dumps(data, indent=indent, ensure_ascii=ensure_ascii)
+    text = json.dumps(finite_json(data), indent=indent, ensure_ascii=ensure_ascii, allow_nan=False)
     atomic_replace_text(path, text)
 
 

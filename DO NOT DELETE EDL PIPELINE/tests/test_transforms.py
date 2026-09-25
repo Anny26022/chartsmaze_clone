@@ -61,8 +61,8 @@ class TransformTests(unittest.TestCase):
         )
 
     def test_calculate_cagr_avoids_complex_values_for_negative_inputs(self):
-        self.assertEqual(calculate_cagr(-10, 100, 5), 0.0)
-        self.assertEqual(calculate_cagr(100, -10, 5), 0.0)
+        self.assertIsNone(calculate_cagr(-10, 100, 5))
+        self.assertIsNone(calculate_cagr(100, -10, 5))
         self.assertAlmostEqual(calculate_cagr(200, 100, 5), 14.8698, places=3)
 
     def test_analyze_stock_preserves_core_formula_outputs(self):
@@ -465,7 +465,7 @@ class TransformTests(unittest.TestCase):
 
         self.assertEqual(rows[0], "Type of Info,2026-01-01,2026-01-02")
         self.assertIn("5 Day Ratio,2.0,2.0", rows)
-        self.assertIn("Nifty 500 % of W&M RSI > 60,0,0", rows)
+        self.assertIn("Nifty 500 % of W&M RSI > 60,,", rows)
         self.assertEqual(rows[-1], "Nifty 50,100,101")
 
 

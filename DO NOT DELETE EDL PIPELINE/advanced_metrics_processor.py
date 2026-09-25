@@ -2,6 +2,7 @@ import pandas as pd
 import os
 import glob
 import sys
+import math
 from concurrent.futures import ThreadPoolExecutor
 
 from pipeline_utils import BASE_DIR, apply_sma_fields, load_json, save_json
@@ -36,13 +37,13 @@ def calculate_ema(series, periods):
 
 
 def value_or_none(value, digits=2):
-    if pd.isna(value):
+    if value is None or not math.isfinite(float(value)):
         return None
     return round(float(value), digits)
 
 
 def boolean_or_none(condition, available):
-    return bool(condition) if available else None
+    return bool(condition()) if available else None
 
 
 def merge_historical_metrics(stock, metrics):
@@ -68,19 +69,19 @@ def process_symbol_csv(csv_path):
     sym = os.path.basename(csv_path).replace(".csv", "")
     try:
         df = pd.read_csv(csv_path)
-        if df.empty or len(df) < 5:
+        if df.empty:
             return sym, None
 
         # Ensure numeric
         for col in ['Open', 'High', 'Low', 'Close', 'Volume']:
             df[col] = pd.to_numeric(df[col], errors='coerce')
         
-        df = df.dropna()
+        df = df.replace([float('inf'), float('-inf')], float('nan')).dropna()
         if df.empty: return sym, None
 
         df = df.sort_values('Date') if 'Date' in df.columns else df
         df = drop_copied_live_snapshot(df)
-        if len(df) < 5:
+        if df.empty:
             return sym, None
 
         # Latest row
@@ -94,8 +95,8 @@ def process_symbol_csv(csv_path):
         pct_from_ath = ((ath - latest['Close']) / ath) * 100 if ath > 0 else 0
         
         # 2. Gap Up % and Day Range %
-        gap_up_pct = ((latest['Open'] - prev['Close']) / prev['Close']) * 100 if prev['Close'] > 0 else 0
-        day_range_pct = ((latest['High'] - latest['Low']) / latest['Low']) * 100 if latest['Low'] > 0 else 0
+        gap_up_pct = ((latest['Open'] - prev['Close']) / prev['Close']) * 100 if len(df) >= 2 and prev['Close'] > 0 else None
+        day_range_pct = ((latest['High'] - latest['Low']) / latest['Low']) * 100 if latest['Low'] > 0 else None
         
         # 3. ADR (Average Daily Range)
         df['Daily_Range_Pct'] = ((df['High'] - df['Low']) / df['Low']) * 100
@@ -106,19 +107,16 @@ def process_symbol_csv(csv_path):
 
         # 4. Returns & Low Benchmarks
         # 6 Month Return (~126 trading days)
-        price_6m_ago = df['Close'].iloc[-126] if len(df) >= 126 else df['Close'].iloc[0]
-        returns_6m = ((latest['Close'] - price_6m_ago) / price_6m_ago) * 100
+        price_6m_ago = df['Close'].iloc[-127] if len(df) >= 127 else None
+        returns_6m = ((latest['Close'] - price_6m_ago) / price_6m_ago) * 100 if price_6m_ago is not None and price_6m_ago > 0 else None
         
         # 52W Low (~252 trading days)
         low_52w = df['Low'].tail(252).min()
-        pct_from_52w_low = ((latest['Close'] - low_52w) / low_52w) * 100 if low_52w > 0 else 0
+        pct_from_52w_low = ((latest['Close'] - low_52w) / low_52w) * 100 if len(df) >= 252 and low_52w > 0 else None
 
         # 5. Volume Metrics
         df['Turnover_Cr'] = (df['Close'] * df['Volume']) / 10000000 
         avg_rupee_vol_30 = df['Turnover_Cr'].tail(30).mean()
-        
-        avg_vol_20 = df['Volume'].tail(21).iloc[:-1].mean()
-        rvol = latest['Volume'] / avg_vol_20 if avg_vol_20 > 0 else 0
         
         df['EMA_Vol_200'] = calculate_ema(df['Volume'], 200)
         ema_vol_200_latest = df['EMA_Vol_200'].iloc[-1]
@@ -183,15 +181,15 @@ def process_symbol_csv(csv_path):
             'atr_percent_14': value_or_none((atr14 / close) * 100) if atr14 is not None and close > 0 else None,
             'adr20': value_or_none(adr20),
             'adr_percent_20': value_or_none(adr_percent_20),
-            'close_above_sma10': boolean_or_none(close > rolling_sma[10], rolling_sma[10] is not None),
-            'close_above_sma20': boolean_or_none(close > rolling_sma[20], rolling_sma[20] is not None),
-            'close_above_sma50': boolean_or_none(close > rolling_sma[50], rolling_sma[50] is not None),
-            'close_above_sma200': boolean_or_none(close > rolling_sma[200], rolling_sma[200] is not None),
-            'sma10_above_sma20': boolean_or_none(rolling_sma[10] > rolling_sma[20], rolling_sma[10] is not None and rolling_sma[20] is not None),
-            'sma20_above_sma50': boolean_or_none(rolling_sma[20] > rolling_sma[50], rolling_sma[20] is not None and rolling_sma[50] is not None),
-            'sma50_above_sma200': boolean_or_none(rolling_sma[50] > rolling_sma[200], rolling_sma[50] is not None and rolling_sma[200] is not None),
+            'close_above_sma10': boolean_or_none(lambda: close > rolling_sma[10], rolling_sma[10] is not None),
+            'close_above_sma20': boolean_or_none(lambda: close > rolling_sma[20], rolling_sma[20] is not None),
+            'close_above_sma50': boolean_or_none(lambda: close > rolling_sma[50], rolling_sma[50] is not None),
+            'close_above_sma200': boolean_or_none(lambda: close > rolling_sma[200], rolling_sma[200] is not None),
+            'sma10_above_sma20': boolean_or_none(lambda: rolling_sma[10] > rolling_sma[20], rolling_sma[10] is not None and rolling_sma[20] is not None),
+            'sma20_above_sma50': boolean_or_none(lambda: rolling_sma[20] > rolling_sma[50], rolling_sma[20] is not None and rolling_sma[50] is not None),
+            'sma50_above_sma200': boolean_or_none(lambda: rolling_sma[50] > rolling_sma[200], rolling_sma[50] is not None and rolling_sma[200] is not None),
             'sma50_crossed_above_sma200_today': boolean_or_none(
-                previous_sma[50] <= previous_sma[200] and rolling_sma[50] > rolling_sma[200],
+                lambda: previous_sma[50] <= previous_sma[200] and rolling_sma[50] > rolling_sma[200],
                 previous_sma[50] is not None and previous_sma[200] is not None,
             ),
             'distance_from_sma20_percent': value_or_none(((close - rolling_sma[20]) / rolling_sma[20]) * 100) if rolling_sma[20] else None,
@@ -201,17 +199,17 @@ def process_symbol_csv(csv_path):
             'distance_from_52w_low_percent': value_or_none(pct_from_52w_low),
             'bullish_candle': close > open_price,
             'close_near_day_high': boolean_or_none(
-                (high - close) / current_range <= 0.25,
+                lambda: (high - close) / current_range <= 0.25,
                 current_range > 0,
             ),
-            'breakout_above_20d_high': boolean_or_none(close > prior_20_high, prior_20_high is not None),
-            'breakout_above_50d_high': boolean_or_none(close > prior_50_high, prior_50_high is not None),
-            'near_52w_high': boolean_or_none(close >= prior_52w_high * 0.95, prior_52w_high is not None),
-            'breakout_above_52w_high': boolean_or_none(close > prior_52w_high, prior_52w_high is not None),
-            'is_nr7': boolean_or_none(current_range <= prior_six_ranges.min(), len(prior_six_ranges) == 6),
-            'is_inside_day': boolean_or_none(high <= float(prev['High']) and low >= float(prev['Low']), len(df) >= 2),
+            'breakout_above_20d_high': boolean_or_none(lambda: close > prior_20_high, prior_20_high is not None),
+            'breakout_above_50d_high': boolean_or_none(lambda: close > prior_50_high, prior_50_high is not None),
+            'near_52w_high': boolean_or_none(lambda: close >= prior_52w_high * 0.95, prior_52w_high is not None),
+            'breakout_above_52w_high': boolean_or_none(lambda: close > prior_52w_high, prior_52w_high is not None),
+            'is_nr7': boolean_or_none(lambda: current_range <= prior_six_ranges.min(), len(prior_six_ranges) == 6),
+            'is_inside_day': boolean_or_none(lambda: high <= float(prev['High']) and low >= float(prev['Low']), len(df) >= 2),
             'is_bullish_engulfing': boolean_or_none(
-                close > open_price and float(prev['Close']) < float(prev['Open'])
+                lambda: close > open_price and float(prev['Close']) < float(prev['Open'])
                 and open_price <= float(prev['Close']) and close >= float(prev['Open']),
                 len(df) >= 2,
             ),
@@ -222,23 +220,23 @@ def process_symbol_csv(csv_path):
         })
 
         return sym, {
-            "30 Days Average Rupee Volume(Cr.)": round(avg_rupee_vol_30, 2),
-            "RVOL": round(rvol, 2),
-            "Daily Rupee Turnover 20(Cr.)": round(turnover_20, 2),
-            "Daily Rupee Turnover 50(Cr.)": round(turnover_50, 2),
-            "Daily Rupee Turnover 100(Cr.)": round(turnover_100, 2),
-            "200 Days EMA Volume": round(ema_vol_200_latest, 0),
-            "% from 52W High 200 Days EMA Volume": round(pct_from_ema_200_52w_high, 2),
-            "5 Days MA ADR(%)": round(adr_5, 2),
-            "14 Days MA ADR(%)": round(adr_14, 2),
-            "20 Days MA ADR(%)": round(adr_20, 2),
-            "30 Days MA ADR(%)": round(adr_30, 2),
+            "30 Days Average Rupee Volume(Cr.)": value_or_none(avg_rupee_vol_30) if len(df) >= 30 else None,
+            "RVOL": scanner_metrics['relative_volume_20'],
+            "Daily Rupee Turnover 20(Cr.)": value_or_none(turnover_20) if len(df) >= 20 else None,
+            "Daily Rupee Turnover 50(Cr.)": value_or_none(turnover_50) if len(df) >= 50 else None,
+            "Daily Rupee Turnover 100(Cr.)": value_or_none(turnover_100) if len(df) >= 100 else None,
+            "200 Days EMA Volume": value_or_none(ema_vol_200_latest, 0) if len(df) >= 200 else None,
+            "% from 52W High 200 Days EMA Volume": value_or_none(pct_from_ema_200_52w_high) if len(df) >= 451 else None,
+            "5 Days MA ADR(%)": value_or_none(adr_5) if len(df) >= 5 else None,
+            "14 Days MA ADR(%)": value_or_none(adr_14) if len(df) >= 14 else None,
+            "20 Days MA ADR(%)": value_or_none(adr_20) if len(df) >= 20 else None,
+            "30 Days MA ADR(%)": value_or_none(adr_30) if len(df) >= 30 else None,
             "% from ATH": round(pct_from_ath, 2),
             "ATH_Value": round(ath, 2),
-            "Gap Up %": round(gap_up_pct, 2),
-            "Day Range(%)": round(day_range_pct, 2),
-            "6 Month Returns(%)": round(returns_6m, 2),
-            "% from 52W Low": round(pct_from_52w_low, 2),
+            "Gap Up %": value_or_none(gap_up_pct),
+            "Day Range(%)": value_or_none(day_range_pct),
+            "6 Month Returns(%)": value_or_none(returns_6m),
+            "% from 52W Low": value_or_none(pct_from_52w_low),
             **scanner_metrics,
         }
     except Exception as e:
@@ -297,7 +295,7 @@ def main():
             merge_historical_metrics(stock, metrics)
             if "ATH_Value" in stock: del stock["ATH_Value"]
         else:
-            # Initialize with 0 for consistency if missing
+            # Missing history is not a measured zero.
             placeholders = [
                 "30 Days Average Rupee Volume(Cr.)", "RVOL", 
                 "Daily Rupee Turnover 20(Cr.)", "Daily Rupee Turnover 50(Cr.)", "Daily Rupee Turnover 100(Cr.)",
@@ -306,7 +304,7 @@ def main():
                 "Gap Up %", "Day Range(%)", "6 Month Returns(%)", "% from 52W Low"
             ]
             for p in placeholders:
-                if p not in stock: stock[p] = 0.0
+                if p not in stock: stock[p] = None
 
         # Reconcile every stock, including symbols without usable OHLCV
         # history, against the live ScanX values published in the artifact.

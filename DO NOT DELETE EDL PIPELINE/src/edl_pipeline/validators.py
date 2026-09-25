@@ -4,6 +4,7 @@ from dataclasses import asdict, dataclass
 import csv
 import gzip
 import json
+import math
 from pathlib import Path
 
 from pipeline_utils import resolve_path
@@ -49,7 +50,11 @@ def _check_required_fields(rows, required_fields):
     if isinstance(rows, list):
         if not rows:
             return "empty list has no fields"
-        sample = rows[0]
+        for index, sample in enumerate(rows):
+            error = _check_required_fields(sample, required_fields)
+            if error:
+                return f"row {index}: {error}"
+        return ""
     elif isinstance(rows, dict):
         sample = rows
     else:
@@ -73,6 +78,19 @@ def _check_nested_min_counts(data, nested_min_counts):
     return ""
 
 
+def strict_json_load(handle):
+    def reject(value):
+        raise ValueError(f"non-finite number: {value}")
+
+    def finite_float(value):
+        number = float(value)
+        if not math.isfinite(number):
+            reject(value)
+        return number
+
+    return json.load(handle, parse_constant=reject, parse_float=finite_float)
+
+
 def validate_json(path, min_count=1, required_fields=(), nested_min_counts=()):
     resolved = resolve_path(path)
     if not resolved.exists():
@@ -82,7 +100,7 @@ def validate_json(path, min_count=1, required_fields=(), nested_min_counts=()):
         return _bad(resolved, "json", "empty file", size)
     try:
         with resolved.open("r", encoding="utf-8") as f:
-            data = json.load(f)
+            data = strict_json_load(f)
     except Exception as e:
         return _bad(resolved, "json", f"invalid JSON: {e}", size)
 
@@ -107,7 +125,7 @@ def validate_gzip_json(path, min_count=1, required_fields=(), nested_min_counts=
         return _bad(resolved, "gzip_json", "empty file", size)
     try:
         with gzip.open(resolved, "rt", encoding="utf-8") as f:
-            data = json.load(f)
+            data = strict_json_load(f)
     except Exception as e:
         return _bad(resolved, "gzip_json", f"invalid gzip JSON: {e}", size)
 

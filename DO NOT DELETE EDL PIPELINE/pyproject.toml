@@ -65,6 +65,7 @@ py-modules = [
     "fetch_market_news",
     "fetch_new_announcements",
     "fetch_surveillance_lists",
+    "fetch_sme_data",
     "nse_archive_utils",
     "ohlcv_utils",
     "pipeline_utils",
@@ -74,4 +75,5 @@ py-modules = [
     "process_market_breadth",
     "run_full_pipeline",
     "single_stock_analyzer",
+    "standardize_stock_artifact",
 ]

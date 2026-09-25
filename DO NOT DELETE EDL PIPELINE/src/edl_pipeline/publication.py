@@ -1,0 +1,83 @@
+"""Build in isolation; promote only a complete, validated output set.
+
+Git publication is one commit. Local promotion rolls back on an I/O failure;
+it is not an atomic multi-file transaction for concurrent filesystem readers.
+"""
+import os
+from pathlib import Path
+import shutil
+import subprocess
+import sys
+from tempfile import TemporaryDirectory
+
+import pipeline_utils
+from pipeline_utils import atomic_replace_bytes, save_json
+from .artifacts import FINAL_ARTIFACT_SPECS
+from .config import PipelineConfig
+from .quality import inspect_publication
+
+
+def promote(stage, destination, names):
+    """Read the full candidate set before replacing any published file."""
+    candidate = {name: (stage / name).read_bytes() for name in names}
+    previous = {name: (destination / name).read_bytes()
+                if (destination / name).exists() else None for name in names}
+    replaced = []
+    try:
+        for name, data in candidate.items():
+            replaced.append(name)
+            atomic_replace_bytes(destination / name, data)
+    except Exception:
+        for name in reversed(replaced):
+            if previous[name] is None:
+                (destination / name).unlink(missing_ok=True)
+            else:
+                atomic_replace_bytes(destination / name, previous[name])
+        raise
+
+
+def main():
+    config = PipelineConfig.from_env()
+    destination = Path(pipeline_utils.BASE_DIR)
+    source = Path(pipeline_utils.__file__).resolve().parent
+    destination.mkdir(parents=True, exist_ok=True)
+    # A no-history run is diagnostic only; never mix fresh stocks with old breadth.
+    if not config.fetch_ohlcv:
+        print("EDL_FETCH_OHLCV=0: diagnostic run; published files will not change.")
+    with TemporaryDirectory(prefix=".edl-refresh-", dir=destination) as temporary:
+        stage = Path(temporary)
+        for name in ("ohlcv_data", "indices_ohlcv_data"):
+            cache = destination / name
+            cache.mkdir(exist_ok=True)
+            (stage / name).symlink_to(cache, target_is_directory=True)
+        methodology = destination / "breadth_methodology.json"
+        if not methodology.exists():
+            methodology = source / "breadth_methodology.json"
+        shutil.copy2(methodology, stage / methodology.name)
+        env = dict(os.environ, EDL_BASE_DIR=str(stage), EDL_CLEANUP_INTERMEDIATE="0")
+        env["PYTHONPATH"] = os.pathsep.join([str(source), str(source / "src"), env.get("PYTHONPATH", "")])
+        result = subprocess.run(
+            [sys.executable, "-c", "from edl_pipeline.runner import main; raise SystemExit(main())"],
+            cwd=stage, env=env,
+        )
+        report_path = stage / "pipeline_report.json"
+        report = pipeline_utils.load_json(report_path, default={})
+        if result.returncode != 0 or not config.fetch_ohlcv:
+            report["published"] = False
+            save_json(destination / "pipeline_failure_report.json", report)
+            return result.returncode
+        quality = inspect_publication(stage)
+        save_json(stage / "data_quality.json", quality)
+        report["quality_errors"] = quality["errors"]
+        report["published"] = not quality["errors"]
+        if quality["errors"]:
+            report["exit_code"] = 1
+            save_json(destination / "pipeline_failure_report.json", report)
+            save_json(destination / "data_quality_failure.json", quality)
+            print("Publication rejected:", "; ".join(quality["errors"][:10]))
+            return 1
+        save_json(report_path, report)
+        names = [spec.path for spec in FINAL_ARTIFACT_SPECS] + ["data_quality.json", "pipeline_report.json"]
+        promote(stage, destination, names)
+        print("Published validated dataset and per-symbol data_quality.json.")
+        return 0
