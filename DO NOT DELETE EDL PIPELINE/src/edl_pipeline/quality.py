@@ -104,7 +104,7 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
         index_current = sum(x["as_of_date"] == session.isoformat() for x in index_availability)
         if not index_availability or index_current / len(index_availability) < 0.90:
             errors.append("current index-history coverage below 90%")
-        coverage_fields = ("listing_date", "sector", "industry", "circuit_limit", "fno_eligible")
+        coverage_fields = ("listing_date", "sector", "industry", "circuit_limit", "fno_eligible", "delivery_percent")
         coverage = {
             field: {
                 "available": sum(stock.get(field) is not None for stock in stocks),

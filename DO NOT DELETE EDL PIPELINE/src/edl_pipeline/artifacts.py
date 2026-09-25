@@ -25,6 +25,7 @@ INTERMEDIATE_FILES = [
     "market_breadth.csv",
     "etf_data_response.json",
     "corporate_action_ledger.json",
+    "nse_delivery_data.json",
 ]
 
 INTERMEDIATE_DIRS = [
@@ -75,6 +76,7 @@ PHASE4_SCRIPTS = [
     "advanced_metrics_processor.py",
     "process_earnings_performance.py",
     "enrich_fno_data.py",
+    "enrich_delivery_data.py",
     "process_market_breadth.py",
     "process_historical_market_breadth.py",
     "add_corporate_events.py",
@@ -155,6 +157,9 @@ SCRIPT_OUTPUT_SPECS = {
         ArtifactSpec("all_stocks_fundamental_analysis.json", "json", min_count=1),
     ],
     "enrich_fno_data.py": [
+        ArtifactSpec("all_stocks_fundamental_analysis.json", "json", min_count=1),
+    ],
+    "enrich_delivery_data.py": [
         ArtifactSpec("all_stocks_fundamental_analysis.json", "json", min_count=1),
     ],
     "process_market_breadth.py": [

@@ -121,6 +121,11 @@ def canonicalize_stock(stock):
         "event_markers": [item.strip() for item in (stock.get("Event Markers") or "").split("|") if item.strip() and item.strip() != "N/A"],
         "recent_announcements": normalize_object(stock.get("Recent Announcements", [])),
         "news_feed": normalize_object(stock.get("News Feed", [])),
+        "delivery_percent": stock.get("Delivery %"),
+        "deliverable_quantity": stock.get("Deliverable Quantity"),
+        "delivery_traded_quantity": stock.get("Delivery Traded Quantity"),
+        "delivery_as_of_date": stock.get("Delivery As Of Date"),
+        "delivery_series": stock.get("Delivery Series"),
     }
     result.update({key: normalize_object(value) for key, value in aliases.items()})
     apply_sma_fields(result)
