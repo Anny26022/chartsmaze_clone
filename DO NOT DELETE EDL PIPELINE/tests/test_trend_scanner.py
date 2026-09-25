@@ -220,6 +220,22 @@ class TrendScannerTests(unittest.TestCase):
         self.assertEqual(strict["status"], "no_match")
         self.assertEqual(reclaim["status"], "match")
 
+    def test_persistent_momentum_defaults_to_one_reclaimed_breach(self):
+        frame = rising_history(40)
+        frame.loc[frame.index[-3], ["Open", "High", "Low", "Close"]] = [80, 150, 79, 80]
+        frame.loc[frame.index[-2], ["Open", "High", "Low", "Close"]] = [140, 155, 139, 140]
+        frame.loc[frame.index[-1], ["Open", "High", "Low", "Close"]] = [141, 156, 140, 141]
+        default = evaluate_history(frame, [{
+            "condition": "persistent_momentum", "periods": [5], "persist_days": 3,
+        }])
+        strict = evaluate_history(frame, [{
+            "condition": "persistent_momentum", "periods": [5], "persist_days": 3,
+            "persistence_mode": "strict_close",
+        }])
+        self.assertEqual(default["status"], "match")
+        self.assertEqual(default["conditions"][0]["details"]["persistence_mode"], "reclaim_by_extreme")
+        self.assertEqual(strict["status"], "no_match")
+
     def test_insufficient_history_is_unavailable_not_a_false_match(self):
         result = evaluate_history(rising_history(20), [{
             "condition": "ma_stack", "periods": [50, 150, 200], "ma_type": "sma",

@@ -32,8 +32,8 @@ COMPARISONS = {
 # the exact supported controls without duplicating the calculation contract.
 CONDITION_REGISTRY = {
     "persistent_momentum": {
-        "inputs": {"periods": "integer[]", "persist_days": "integer | {period: integer}"},
-        "definition": "Any requested EMA period has stayed below the close for its required run.",
+        "inputs": {"periods": "integer[]", "persist_days": "integer | {period: integer}", "persistence_mode": "strict_close|reclaim_by_extreme"},
+        "definition": "Any requested EMA period has stayed below the close for its required run; the default tolerates one reclaimed breach.",
     },
     "price_vs_ema": {
         "inputs": {"period": "integer", "comparison": "above|below", "persist_days": "integer", "persistence_mode": "strict_close|reclaim_by_extreme"},
@@ -231,14 +231,19 @@ def _evaluate(frame, spec, delivery_history=None, context=None):
     if condition == "persistent_momentum":
         periods = [int(period) for period in spec.get("periods", (10, 20, 50))]
         required = spec.get("persist_days", 1)
+        # The public JournalToday request carries only the period/day inputs.
+        # Its observed matched set is materially closer to this mode than to
+        # strict closes. Keep it as the useful default while allowing callers
+        # to ask for the narrower strict-close definition explicitly.
+        persistence_mode = spec.get("persistence_mode", "reclaim_by_extreme")
         outcomes = {}
         for period in periods:
             days = int(required.get(str(period), required.get(period, 1)) if isinstance(required, dict) else required)
-            persisted = _persisted(frame, _ma(frame, "ema", period), "above", days, "strict_close")
+            persisted = _persisted(frame, _ma(frame, "ema", period), "above", days, persistence_mode)
             outcomes[str(period)] = persisted
         if any(value is None for value in outcomes.values()):
             return _unavailable(condition, "insufficient_history")
-        return _result(condition, any(outcomes.values()), any(outcomes.values()), qualifying_periods=[key for key, value in outcomes.items() if value], runs=outcomes)
+        return _result(condition, any(outcomes.values()), any(outcomes.values()), qualifying_periods=[key for key, value in outcomes.items() if value], runs=outcomes, persistence_mode=persistence_mode)
 
     if condition in {"price_vs_ema", "price_vs_sma"}:
         ma_type = "ema" if condition == "price_vs_ema" else "sma"
