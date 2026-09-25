@@ -21,6 +21,16 @@ def history(length=300):
 
 
 class ScannerContextTests(unittest.TestCase):
+    def test_relative_strength_accepts_raw_artifact_with_parsed_date_column(self):
+        frame = history(80)
+        benchmark = frame[["Date", "Close"]].rename(columns={"Date": "date", "Close": "close"})
+        benchmark["Date"] = pd.to_datetime(benchmark["date"])
+        result = evaluate_history(frame, [{
+            "kind": "RELATIVE_STRENGTH",
+            "params": {"benchmark": "NIFTY_50", "overDays": 20, "comparison": "ABOVE", "pct": -1},
+        }], context={"stock": {"symbol": "TEST"}, "benchmarks": {"NIFTY_50": benchmark}})
+        self.assertIn(result["status"], {"match", "no_match"})
+
     def test_journaltoday_payload_is_normalized_for_existing_and_new_rules(self):
         momentum = normalize_condition_spec({"kind": "PRICE_CHANGE_PCT", "params": {"overDays": 5, "comparison": "ABOVE", "pct": 4}})
         trend = normalize_condition_spec({"kind": "PERSISTENT_MOMENTUM", "params": {"ema10Days": 20, "ema20Days": 30, "ema50Days": 50}})

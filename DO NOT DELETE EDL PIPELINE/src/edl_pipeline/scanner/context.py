@@ -102,8 +102,18 @@ def _float(stock, key):
 def _aligned_relative_strength(frame, benchmark):
     if benchmark is None or benchmark.empty:
         return None
-    index = benchmark.rename(columns={"date": "Date", "close": "benchmark_close"})
-    merged = frame[["Date", "Close"]].merge(index[["Date", "benchmark_close"]], on="Date", how="inner")
+    # Pipeline index artifacts retain raw ``date``/``close`` alongside their
+    # parsed ``Date`` column. Selecting explicitly avoids a duplicate Date
+    # label when a raw artifact is used as a benchmark.
+    date_column = "Date" if "Date" in benchmark.columns else "date"
+    close_column = "close" if "close" in benchmark.columns else "Close"
+    if date_column not in benchmark.columns or close_column not in benchmark.columns:
+        return None
+    index = pd.DataFrame({
+        "Date": pd.to_datetime(benchmark[date_column], errors="coerce"),
+        "benchmark_close": pd.to_numeric(benchmark[close_column], errors="coerce"),
+    }).dropna(subset=("Date", "benchmark_close"))
+    merged = frame[["Date", "Close"]].merge(index, on="Date", how="inner")
     merged = merged.loc[(merged["Close"] > 0) & (merged["benchmark_close"] > 0)].copy()
     if merged.empty:
         return None
