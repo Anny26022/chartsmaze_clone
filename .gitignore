@@ -32,3 +32,6 @@ __pycache__/
 .ruff_cache/
 build/
 dist/
+
+# Isolated full-refresh staging directories
+DO NOT DELETE EDL PIPELINE/.edl-refresh-*/

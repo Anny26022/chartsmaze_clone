@@ -68,6 +68,7 @@ PHASE2_SCRIPTS = [
     "fetch_bulk_block_deals.py",
     "fetch_incremental_price_bands.py",
     "fetch_complete_price_bands.py",
+    "fetch_nse_delivery_data.py",
     "fetch_all_indices.py",
     "fetch_sme_data.py",
 ]
@@ -129,6 +130,9 @@ SCRIPT_OUTPUT_SPECS = {
     ],
     "fetch_complete_price_bands.py": [
         ArtifactSpec("complete_price_bands.json", "json", min_count=1),
+    ],
+    "fetch_nse_delivery_data.py": [
+        ArtifactSpec("nse_delivery_data.json", "json", min_count=1, required_fields=("source", "as_of_date", "records")),
     ],
     "fetch_all_indices.py": [
         ArtifactSpec("all_indices_list.json", "json", min_count=1),

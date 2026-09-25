@@ -2,45 +2,42 @@
 
 The scanner can publish these optional, per-symbol fields:
 
-- `delivery_percent`: `COP_DELIV_PERC` / percentage of traded quantity marked deliverable.
-- `deliverable_quantity`: `COP_DELIV_QTY`.
-- `delivery_traded_quantity`: `CH_TOT_TRADED_QTY`.
+- `delivery_percent`: `DELIV_PER` / percentage of traded quantity marked deliverable.
+- `deliverable_quantity`: `DELIV_QTY`.
+- `delivery_traded_quantity`: `TTL_TRD_QNTY`.
 - `delivery_as_of_date` and `delivery_series`.
 
 ## Source and contract
 
-The adapter uses the endpoint called by NSE's own **Security-wise Archives
-(Equities)** page:
+The adapter first reads NSE's own daily-report manifest:
 
-`GET /api/historicalOR/generateSecurityWiseHistoricalData?from=DD-MM-YYYY&to=DD-MM-YYYY&symbol=RELIANCE&type=priceVolumeDeliverable&series=ALL`
+`GET /api/daily-reports?key=CM`
 
-It is a symbol-scoped public page API, not a bulk-data service. The pipeline
-therefore does **not** issue thousands of requests as part of every full run.
-For production universe-wide historical delivery coverage, ingest a licensed
-bulk/EOD source into `nse_delivery_data.json` using the documented schema.
+It resolves NSE's `CM-BHAVDATA-FULL` entry—for example
+`https://nsearchives.nseindia.com/products/content/sec_bhavdata_full_25092026.csv`—and
+downloads one CSV containing the full daily NSE delivery universe. The API
+response supplies the filename and URL, so the pipeline does not guess paths.
 
-## Bounded collection
+This is a current daily snapshot. A historical daily delivery series still
+requires archived daily files or a licensed bulk/EOD source.
 
-Use the adapter only for a small, explicit set of symbols, with a conservative
-delay. It writes a staging file that the normal EDL run merges automatically.
+## Collection
+
+Run the collector before the full EDL pipeline. It makes one manifest request
+and one CSV download, then stages `nse_delivery_data.json` for the normal EDL
+run to merge automatically.
 
 ```bash
 cd "DO NOT DELETE EDL PIPELINE"
-python fetch_nse_delivery_data.py \
-  --symbols-file symbols.json \
-  --from-date 18-09-2026 --to-date 25-09-2026 \
-  --max-symbols 50 --delay-seconds 0.5
+python fetch_nse_delivery_data.py
 python run_full_pipeline.py
 ```
-
-`symbols.json` may be a JSON list of symbols or the existing master ISIN-map
-format. The command fails rather than exceeding its explicit safety cap.
 
 ## Staging schema
 
 ```json
 {
-  "source": "NSE security-wise price-volume-deliverable archive",
+  "source": "NSE daily full bhavcopy and security deliverable data",
   "records": [{
     "symbol": "RELIANCE",
     "series": "EQ",

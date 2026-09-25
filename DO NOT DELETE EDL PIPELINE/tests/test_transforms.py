@@ -43,16 +43,16 @@ from edl_pipeline.schemas import REQUIRED_FINAL_FIELDS
 
 
 class TransformTests(unittest.TestCase):
-    def test_nse_delivery_adapter_normalizes_current_page_response(self):
+    def test_nse_delivery_adapter_normalizes_full_bhavcopy_row(self):
         row = normalize_row({
-            "CH_SYMBOL": "RELIANCE", "CH_SERIES": "EQ", "mTIMESTAMP": "25-Sep-2026",
-            "CH_TOT_TRADED_QTY": 13138735, "COP_DELIV_QTY": 8311348, "COP_DELIV_PERC": 63.26,
+            "SYMBOL": "RELIANCE", " SERIES": "EQ", " DATE1": "25-Sep-2026",
+            " TTL_TRD_QNTY": 13138735, " DELIV_QTY": 8311348, " DELIV_PER": 63.26,
         })
         self.assertEqual(row, {
             "symbol": "RELIANCE", "series": "EQ", "date": "2026-09-25",
             "traded_quantity": 13138735, "deliverable_quantity": 8311348,
             "delivery_percent": 63.26,
-            "source": "NSE security-wise price-volume-deliverable archive",
+            "source": "NSE daily full bhavcopy and security deliverable data",
         })
 
     def test_delivery_enrichment_uses_only_the_latest_record_per_symbol(self):
