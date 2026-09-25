@@ -18,8 +18,10 @@ It resolves NSE's `CM-BHAVDATA-FULL` entry—for example
 downloads one CSV containing the full daily NSE delivery universe. The API
 response supplies the filename and URL, so the pipeline does not guess paths.
 
-This is a current daily snapshot. A historical daily delivery series still
-requires archived daily files or a licensed bulk/EOD source.
+The same official archive also supplies one `sec_bhavdata_full_DDMMYYYY.csv`
+file per published session.  The pipeline retains a local 260-session cache,
+which is enough for the scanner's 252-session / 52-week rules and lets
+`Delivery % Spike` evaluate its `fired_within` window from date-aligned rows.
 
 ## Collection
 
@@ -32,6 +34,20 @@ cd "DO NOT DELETE EDL PIPELINE"
 python fetch_nse_delivery_data.py
 python run_full_pipeline.py
 ```
+
+`run_full_pipeline.py` also runs `fetch_nse_delivery_history.py`. The history
+cache is deliberately local and ignored by Git: it contains hundreds of
+full-universe CSV-derived files, and is reused by later refreshes rather than
+downloaded again. Run it separately to build or repair the cache:
+
+```bash
+python fetch_nse_delivery_history.py --sessions 260
+```
+
+The collector records old 404s as non-published dates (weekends and holidays),
+but retries the latest seven calendar days because the current bhavcopy may
+appear after the first request. Network or NSE server failures are reported as
+failures and never misclassified as a non-trading day.
 
 ## Staging schema
 
