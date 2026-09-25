@@ -32,9 +32,12 @@ def main(argv=None):
     if not isinstance(conditions, list) or not conditions:
         parser.error("request.conditions must be a non-empty array")
     delivery_history = {}
-    delivery_path = args.delivery_history or (ROOT / "delivery_history.json")
-    if delivery_path.exists():
-        records = json.loads(delivery_path.read_text()).get("records", [])
+    delivery_path = args.delivery_history or (ROOT / "delivery_history_data")
+    paths = sorted(delivery_path.glob("*.json")) if delivery_path.is_dir() else [delivery_path]
+    for path in paths:
+        if not path.exists():
+            continue
+        records = json.loads(path.read_text()).get("records", [])
         for item in records:
             if isinstance(item, dict) and item.get("symbol"):
                 delivery_history.setdefault(item["symbol"], []).append(item)

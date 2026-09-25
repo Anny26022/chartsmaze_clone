@@ -106,3 +106,13 @@ def fetch_delivery_history_by_date(from_date: str, to_date: str, session: reques
             records.extend(item for row in rows if (item := normalize_row(row)))
         current += timedelta(days=1)
     return records, skipped
+
+
+def fetch_delivery_file_for_date(session_date: date, session: requests.Session) -> list[dict] | None:
+    """Fetch one dated bulk file; ``None`` means NSE did not publish one."""
+    url = HISTORICAL_FILE_URL.format(date=session_date.strftime("%d%m%Y"))
+    response = session.get(url, timeout=60)
+    if response.status_code == 404:
+        return None
+    response.raise_for_status()
+    return [item for row in csv.DictReader(StringIO(response.content.decode("utf-8-sig"))) if (item := normalize_row(row))]

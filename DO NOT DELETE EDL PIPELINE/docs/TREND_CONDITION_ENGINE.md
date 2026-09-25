@@ -51,10 +51,10 @@ controls. Supported daily-OHLCV conditions are:
 - Relative volume compares a day's volume with the *preceding* `average_window`
   sessions, avoiding look-ahead bias. Volume trend compares the most recent
   window with the immediately preceding base window.
-- `delivery_percent_spike` reads the date-based `delivery_history.json`
-  artifact. Build it with `fetch_nse_delivery_history.py --from-date
-  YYYY-MM-DD --to-date YYYY-MM-DD`; it downloads one official full-universe
-  bhavcopy per calendar day and leaves unavailable dates explicit.
+- `delivery_percent_spike` reads the cached `delivery_history_data/` directory.
+  The full pipeline maintains the newest 260 published NSE sessions there;
+  its first run downloads the one official full-universe bhavcopy for each
+  missing calendar date, and later runs fetch only missing/new files.
 
 The generated output includes each condition's result and details. By default
 only matches are emitted; use `include_non_matches` in the request or

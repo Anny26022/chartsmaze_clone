@@ -69,6 +69,7 @@ PHASE2_SCRIPTS = [
     "fetch_incremental_price_bands.py",
     "fetch_complete_price_bands.py",
     "fetch_nse_delivery_data.py",
+    "fetch_nse_delivery_history.py",
     "fetch_all_indices.py",
     "fetch_sme_data.py",
 ]
