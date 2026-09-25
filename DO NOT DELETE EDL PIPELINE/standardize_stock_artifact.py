@@ -52,6 +52,8 @@ def canonicalize_stock(stock):
         "symbol": stock.get("Symbol"),
         "name": stock.get("Name"),
         "listing_date": stock.get("Listing Date"),
+        "isin": stock.get("ISIN"),
+        "security_id": stock.get("Security ID"),
         "exchange": stock.get("exchange"),
         "instrument": stock.get("instrument"),
         "segment": stock.get("segment"),
@@ -61,7 +63,8 @@ def canonicalize_stock(stock):
         "default_screener_eligible": stock.get("is_sme") is not True,
         "sector": stock.get("sector", stock.get("Sector")),
         "industry": stock.get("industry", stock.get("Basic Industry")),
-        "index_memberships": [item.strip() for item in (stock.get("Index") or "").split(",") if item.strip() and item.strip() != "N/A"],
+        "index_memberships": stock.get("Index Memberships") or [item.strip() for item in (stock.get("Index") or "").split(",") if item.strip() and item.strip() != "N/A"],
+        "index_memberships_as_of": stock.get("Index Membership As Of"),
         "as_of_date": stock.get("as_of_date"),
     }
 

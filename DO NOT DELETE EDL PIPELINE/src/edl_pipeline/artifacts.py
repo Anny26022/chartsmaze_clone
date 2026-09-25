@@ -24,6 +24,7 @@ INTERMEDIATE_FILES = [
     "sector_analytics.json",
     "market_breadth.csv",
     "etf_data_response.json",
+    "corporate_action_ledger.json",
 ]
 
 INTERMEDIATE_DIRS = [
@@ -38,6 +39,7 @@ FILES_TO_COMPRESS = {
     "market_breadth_v2.json": "market_breadth_v2.json.gz",
     "breadth_universe_snapshot.json": "breadth_universe_snapshot.json.gz",
     "all_indices_history_v2.json": "all_indices_history_v2.json.gz",
+    "corporate_action_ledger.json": "corporate_action_ledger.json.gz",
 }
 
 # The full refresh generates and validates these alongside the stock snapshot.
@@ -76,6 +78,7 @@ PHASE4_SCRIPTS = [
     "process_market_breadth.py",
     "process_historical_market_breadth.py",
     "add_corporate_events.py",
+    "build_corporate_action_ledger.py",
     OHLCV_DERIVED_SCRIPT,
     "standardize_stock_artifact.py",
 ]
@@ -169,6 +172,9 @@ SCRIPT_OUTPUT_SPECS = {
             required_fields=("Event Markers", "Recent Announcements", "News Feed"),
         ),
     ],
+    "build_corporate_action_ledger.py": [
+        ArtifactSpec("corporate_action_ledger.json", "json", required_fields=("source", "price_adjusted", "records")),
+    ],
     "standardize_stock_artifact.py": [
         ArtifactSpec(
             "all_stocks_fundamental_analysis.json",
@@ -195,6 +201,7 @@ FINAL_ARTIFACT_SPECS = [
     ArtifactSpec("market_breadth_v2.json.gz", "gzip_json", required_fields=("generated_at", "quality", "records"), nested_min_counts=(("records", 1),)),
     ArtifactSpec("breadth_universe_snapshot.json.gz", "gzip_json", required_fields=("generated_at", "eligible", "excluded")),
     ArtifactSpec("all_indices_history_v2.json.gz", "gzip_json", required_fields=("generated_at", "quality", "indices"), nested_min_counts=(("indices", 1),)),
+    ArtifactSpec("corporate_action_ledger.json.gz", "gzip_json", required_fields=("source", "price_adjusted", "records")),
 ]
 
 SCRIPT_OUTPUT_SPECS[OHLCV_DERIVED_SCRIPT] = [

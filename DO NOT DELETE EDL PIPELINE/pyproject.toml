@@ -44,6 +44,7 @@ py-modules = [
     "add_corporate_events",
     "advanced_metrics_processor",
     "bulk_market_analyzer",
+    "build_corporate_action_ledger",
     "dhan_next_utils",
     "enrich_fno_data",
     "fetch_advanced_indicators",

@@ -38,6 +38,7 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
         indices = read_json(root / "all_indices_history_v2.json.gz")
         breadth = read_json(root / "market_breadth_v2.json.gz")
         universe = read_json(root / "breadth_universe_snapshot.json.gz")
+        ledger = read_json(root / "corporate_action_ledger.json.gz")
         source = read_json(root / "master_isin_map.json")
         for name in ("sector_analytics.json.gz", "all_indices_list.json"):
             read_json(root / name)
@@ -61,12 +62,16 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
         if any(len(row) != len(legacy[0]) for row in legacy[1:]):
             errors.append("legacy breadth has inconsistent row widths")
         symbols = [x["symbol"] for x in stocks]
-        expected = {x["Symbol"] for x in source}
+        source_by_symbol = {x["Symbol"]: x for x in source}
+        expected = set(source_by_symbol)
         if set(symbols) != expected or len(symbols) != len(set(symbols)):
             errors.append("stock universe differs from fetched master or has duplicates")
         availability = []
         for stock in stocks:
             symbol = stock["symbol"]
+            identity = source_by_symbol.get(symbol, {})
+            if stock.get("isin") != identity.get("ISIN") or str(stock.get("security_id")) != str(identity.get("Sid")):
+                errors.append(f"{symbol}: canonical identity does not match master")
             missing = sorted(k for k, value in stock.items() if value is None)
             stamp = stock.get("as_of_date")
             if stamp is not None:
@@ -76,7 +81,8 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
             invalid = ohlc_error(stock)
             if invalid:
                 errors.append(f"{symbol}: {invalid}")
-            availability.append({"symbol": symbol, "as_of_date": stamp,
+            availability.append({"symbol": symbol, "isin": stock.get("isin"),
+                                 "security_id": stock.get("security_id"), "as_of_date": stamp,
                                  "history_current": stamp == session.isoformat(),
                                  "missing_fields": missing})
         current = sum(row["history_current"] for row in availability)
@@ -98,10 +104,29 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
         index_current = sum(x["as_of_date"] == session.isoformat() for x in index_availability)
         if not index_availability or index_current / len(index_availability) < 0.90:
             errors.append("current index-history coverage below 90%")
+        coverage_fields = ("listing_date", "sector", "industry", "circuit_limit", "fno_eligible")
+        coverage = {
+            field: {
+                "available": sum(stock.get(field) is not None for stock in stocks),
+                "missing": sum(stock.get(field) is None for stock in stocks),
+            }
+            for field in coverage_fields
+        }
+        fno = [stock for stock in stocks if stock.get("fno_eligible") is True]
+        coverage["fno_lot_size"] = {"eligible": len(fno), "available": sum(stock.get("fno_lot_size") is not None for stock in fno), "missing": sum(stock.get("fno_lot_size") is None for stock in fno)}
+        coverage["fno_next_expiry"] = {"eligible": len(fno), "available": sum(stock.get("fno_next_expiry") is not None for stock in fno), "missing": sum(stock.get("fno_next_expiry") is None for stock in fno)}
+        if ledger.get("price_adjusted") is not False:
+            errors.append("corporate-action ledger unexpectedly claims adjusted prices")
+        action_counts = Counter(record.get("action_type") for record in ledger.get("records", []))
         return {"reference_session": session.isoformat(),
                 "freshness_policy": {"expected_session": expected_session, "max_calendar_age_days": max_age_days,
                                      "note": "Benchmark-aligned; not an exchange-holiday calendar. Set EDL_EXPECTED_SESSION for an exact session gate."},
                 "stock_count": len(stocks), "current_history_count": current,
+                "coverage": coverage,
+                "corporate_action_ledger": {"records": len(ledger.get("records", [])),
+                                              "price_actions_requiring_verified_ratio": sum(record.get("adjustment_status") == "requires_verified_ratio" for record in ledger.get("records", [])),
+                                              "action_type_counts": dict(action_counts),
+                                              "price_adjusted": ledger.get("price_adjusted")},
                 "missing_field_counts": dict(Counter(k for row in availability for k in row["missing_fields"])),
                 "symbols": availability, "indices": index_availability, "errors": errors}
     except (ValueError, KeyError, TypeError, IndexError, StopIteration, OSError) as error:
