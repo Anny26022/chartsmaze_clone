@@ -19,4 +19,12 @@ Failures write `pipeline_failure_report.json` and, for quality rejection, `data_
 
 Existing field names and artifact names are preserved, including the legacy CSV named `market_breadth.json.gz`. Indicator smoothing conventions, adjusted-price methodology, custom scanner rules, delivery data and source licensing are not changed by this patch.
 
+## Existing-data integration
+
+The canonical stock artifact retains its source `isin` and `security_id`, so consumers can join it safely to reference data. It preserves every current provider index membership and marks it `current_snapshot`; this does not create historical constituent membership.
+
+`data_quality.json` contains coverage for listing date, sector, industry, circuit limit, F&O eligibility, F&O lot size and next expiry. It also contains an explicit per-symbol missing-field list. The pipeline publishes `corporate_action_ledger.json.gz`, a source-preserving ledger of fetched actions. `SPLIT`, `BONUS`, and `RIGHTS` rows are marked `requires_verified_ratio`; `price_adjusted` remains false. Raw OHLCV is deliberately untouched until a reliable factor source and reconciliation policy exist.
+
+F&O expiry matches by Dhan underlying security ID first and normalized symbol second, avoiding punctuation/suffix mismatches. A refresh with eligible F&O securities but zero matched expiries fails rather than publishing an all-empty expiry column.
+
 Verification: run `python -m unittest discover -s tests -v` and `python -m compileall -q .`. The tests include offline real-transform generation plus short-history, missing-input, full-record JSON and rollback cases. Passing tests do not replace a full live refresh against upstream providers.

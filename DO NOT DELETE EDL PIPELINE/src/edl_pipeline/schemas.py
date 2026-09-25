@@ -3,6 +3,8 @@
 REQUIRED_FINAL_FIELDS = [
     "schema_version",
     "symbol",
+    "isin",
+    "security_id",
     "name",
     "sector",
     "industry",

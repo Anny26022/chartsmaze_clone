@@ -15,13 +15,6 @@ SME_DATA_FILE = os.path.join(BASE_DIR, "sme_market_data.json")
 LISTING_DATES_FILE = os.path.join(BASE_DIR, "nse_equity_list.csv")
 OUTPUT_FILE = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 
-REQUESTED_INDEX_IDS = {
-    13, 51, 38, 17, 18, 19, 20, 37, 1, 442, 443, 22, 5, 3, 444, 7, 14,
-    25, 27, 28, 447, 35, 41, 46, 44, 16, 43, 42, 45, 39, 466, 34, 32,
-    15, 33, 31, 30, 29,
-}
-
-
 def get_float(value_str):
     return get_optional_float(value_str)
 
@@ -175,15 +168,15 @@ def ownership_fields(shp, market_cap_cr, ltp, total_shares):
 
 
 def index_memberships(tech):
+    """Preserve every current provider membership; historical dates are not implied."""
     indices_found = []
     idx_list_raw = tech.get("idxlist", [])
     if isinstance(idx_list_raw, list):
         for idx_obj in idx_list_raw:
-            idx_id = idx_obj.get("Indexid")
             idx_name = idx_obj.get("Name")
-            if idx_id in REQUESTED_INDEX_IDS and idx_name:
+            if idx_name:
                 indices_found.append(idx_name)
-    return ", ".join(indices_found) if indices_found else "N/A"
+    return sorted(set(indices_found))
 
 
 def average_status(items, suffix, ltp):
@@ -253,6 +246,8 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
         "Symbol": symbol,
         "Name": item.get("Name", ""),
         "Listing Date": listing_date_map.get(symbol, "N/A"),
+        "ISIN": item.get("ISIN") or item.get("isin"),
+        "Security ID": item.get("Sid") or item.get("security_id"),
         "Basic Industry": industry,
         "Sector": sector,
         "Market Cap(Cr.)": market_cap_cr,
@@ -308,7 +303,9 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
             "sma50": get_optional_float(tech.get("DaySMA50CurrentCandle")),
             "sma200": get_optional_float(tech.get("DaySMA200CurrentCandle")),
             "rsi14": rounded(rsi_14),
-            "Index": index_memberships(tech),
+            "Index": ", ".join(index_memberships(tech)) or "N/A",
+            "Index Memberships": index_memberships(tech),
+            "Index Membership As Of": "current_snapshot",
             "1 Day Returns(%)": get_float(tech.get("PPerchange")),
             "1 Week Returns(%)": get_float(tech.get("PricePerchng1week")),
             "1 Month Returns(%)": get_float(tech.get("PricePerchng1mon")),

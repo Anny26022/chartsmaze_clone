@@ -8,7 +8,8 @@ to the master ISIN map's FnoFlag field.
 
 import os
 import sys
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
+import re
 
 from dhan_next_utils import get_build_id, get_next_data
 from pipeline_utils import BASE_DIR, load_json, save_json
@@ -16,6 +17,19 @@ from pipeline_utils import BASE_DIR, load_json, save_json
 MASTER_JSON = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 MASTER_ISIN = os.path.join(BASE_DIR, "master_isin_map.json")
 BUILD_ID_PAGE = "https://dhan.co/nse-fno-lot-size/"
+
+
+def normalized_symbol(value):
+    """Compare provider symbols despite punctuation, suffix, and case changes."""
+    return re.sub(r"[^A-Z0-9]", "", str(value or "").upper()).removesuffix("EQ")
+
+
+def normalized_security_id(value):
+    return str(value).strip() if value not in (None, "") else None
+
+
+def ist_today():
+    return datetime.now(timezone(timedelta(hours=5, minutes=30))).date().isoformat()
 
 
 def fetch_lot_sizes(build_id):
@@ -27,7 +41,7 @@ def fetch_lot_sizes(build_id):
     data = get_next_data(build_id, "nse-fno-lot-size")
     instruments = data.get("pageProps", {}).get("listData", [])
     for item in instruments:
-        sym = item.get("sym")
+        sym = normalized_symbol(item.get("sym"))
         fo_contracts = item.get("fo_dt", [])
         if sym and fo_contracts:
             lot_map[sym] = fo_contracts[0].get("ls")
@@ -36,25 +50,33 @@ def fetch_lot_sizes(build_id):
 
 
 def fetch_next_expiry(build_id):
-    """Fetch F&O expiry calendar. Returns {symbol: next_expiry_date}."""
-    expiry_map = {}
+    """Fetch expiry dates keyed by both Dhan security ID and normalized symbol."""
+    by_symbol = {}
+    by_security_id = {}
     if not build_id:
-        return expiry_map
+        return by_symbol, by_security_id
 
     data = get_next_data(build_id, "fno-expiry-calendar")
     expiry_raw = data.get("pageProps", {}).get("expiryData", {}).get("data", [])
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = ist_today()
 
     for exchange_data in expiry_raw:
         for exp_group in exchange_data.get("exps", []):
             for item in exp_group.get("explst", []):
-                sym = item.get("symbolName")
+                sym = normalized_symbol(item.get("symbolName"))
+                security_id = normalized_security_id(item.get("underlyingSecID"))
                 exp_date = item.get("expdate")
-                if sym and exp_date and exp_date >= today:
-                    if sym not in expiry_map or exp_date < expiry_map[sym]:
-                        expiry_map[sym] = exp_date
+                if exp_date and exp_date >= today:
+                    if sym and (sym not in by_symbol or exp_date < by_symbol[sym]):
+                        by_symbol[sym] = exp_date
+                    if security_id and (security_id not in by_security_id or exp_date < by_security_id[security_id]):
+                        by_security_id[security_id] = exp_date
 
-    return expiry_map
+    return by_symbol, by_security_id
+
+
+def lookup_expiry(by_symbol, by_security_id, symbol, security_id):
+    return by_security_id.get(normalized_security_id(security_id)) or by_symbol.get(normalized_symbol(symbol))
 
 
 def main():
@@ -67,10 +89,14 @@ def main():
 
     # 2. Load ISIN map to get FnoFlag
     fno_symbols = set()
+    fno_security_ids = set()
     if os.path.exists(MASTER_ISIN):
         for item in load_json(MASTER_ISIN):
             if item.get("FnoFlag") == 1 or item.get("FnoFlag") == "1":
                 fno_symbols.add(item["Symbol"])
+                security_id = normalized_security_id(item.get("Sid"))
+                if security_id:
+                    fno_security_ids.add(security_id)
 
     print(f"Found {len(fno_symbols)} F&O eligible stocks from ISIN map.")
 
@@ -84,28 +110,37 @@ def main():
     print(f"  Got lot sizes for {len(lot_map)} instruments.")
 
     print("Fetching F&O expiry calendar...")
-    expiry_map = fetch_next_expiry(build_id)
-    print(f"  Got expiry dates for {len(expiry_map)} instruments.")
+    expiry_by_symbol, expiry_by_security_id = fetch_next_expiry(build_id)
+    print(f"  Got expiry dates for {len(expiry_by_symbol)} symbols and {len(expiry_by_security_id)} security IDs.")
 
     # 4. Enrich master JSON
     enriched = 0
+    expiry_matched = 0
     for stock in master_data:
         sym = stock.get("Symbol")
+        security_id = stock.get("Sid")
 
-        if sym in fno_symbols:
+        if sym in fno_symbols or (
+            normalized_security_id(security_id) is not None
+            and normalized_security_id(security_id) in fno_security_ids
+        ):
             stock["F&O"] = "Yes"
-            stock["Lot Size"] = lot_map.get(sym, "N/A")
-            stock["Next Expiry"] = expiry_map.get(sym, "N/A")
+            stock["Lot Size"] = lot_map.get(normalized_symbol(sym), "N/A")
+            expiry = lookup_expiry(expiry_by_symbol, expiry_by_security_id, sym, security_id)
+            stock["Next Expiry"] = expiry or "N/A"
+            expiry_matched += bool(expiry)
             enriched += 1
         else:
             stock["F&O"] = "No"
             stock["Lot Size"] = "N/A"
             stock["Next Expiry"] = "N/A"
 
-    # 5. Save
+    print(f"Successfully enriched {enriched} F&O stocks; expiry matched {expiry_matched}/{enriched}.")
+    if enriched and expiry_matched == 0:
+        print("F&O expiry source did not match any eligible security; refusing to publish empty expiry coverage.")
+        return False
+    # 5. Save only a complete enrichment result.
     save_json(MASTER_JSON, master_data, ensure_ascii=False)
-
-    print(f"Successfully enriched {enriched} F&O stocks in master JSON.")
     return True
 
 

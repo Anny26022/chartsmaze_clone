@@ -18,6 +18,7 @@ from fetch_company_filings import dedupe_filings
 from fetch_corporate_actions import flatten_actions
 from fetch_dhan_data import build_master_map
 from fetch_fno_expiry import flatten_expiry_data
+from enrich_fno_data import fetch_next_expiry, lookup_expiry, normalized_symbol
 from fetch_fno_lot_sizes import clean_lot_size_item
 from advanced_metrics_processor import merge_historical_metrics, process_symbol_csv
 from standardize_stock_artifact import canonicalize_stock
@@ -69,6 +70,8 @@ class TransformTests(unittest.TestCase):
         item = {
             "Symbol": "ABC",
             "Name": "ABC Ltd",
+            "ISIN": "INE000000001",
+            "Sid": 123,
             "incomeStat_cq": {
                 "YEAR": "Q1|Q0",
                 "NET_PROFIT": "10|5|4|3|2",
@@ -108,7 +111,7 @@ class TransformTests(unittest.TestCase):
             "PricePerchng3mon": "4",
             "PricePerchng6mon": "4.5",
             "PricePerchng1year": "5",
-            "idxlist": [{"Indexid": 13, "Name": "Nifty 50"}],
+            "idxlist": [{"Indexid": 13, "Name": "Nifty 50"}, {"Indexid": 999, "Name": "Custom Index"}],
         }
         advanced = {
             "SMA": [{"Indicator": "20-SMA", "Value": "80"}],
@@ -139,7 +142,9 @@ class TransformTests(unittest.TestCase):
         self.assertTrue(sme["is_sme"])
         self.assertEqual(sme["listing_series"], "SM")
         self.assertEqual(result["% from 52W High"], -16.67)
-        self.assertEqual(result["Index"], "Nifty 50")
+        self.assertEqual(result["Index"], "Custom Index, Nifty 50")
+        self.assertEqual(result["Index Memberships"], ["Custom Index", "Nifty 50"])
+        self.assertEqual(result["Index Membership As Of"], "current_snapshot")
         self.assertEqual(result["SMA Status"], "SMA 20: Above (25.0%)")
         self.assertEqual(result["EMA Status"], "EMA 200: Below (-20.0%)")
         self.assertEqual(result["Technical Sentiment"], "RSI: Neutral | MACD: Bullish")
@@ -150,6 +155,23 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["market_cap_crore"], 1100.0)
         self.assertEqual(result["sma10"], 90.0)
         self.assertEqual(result["perf_6m"], 4.5)
+        self.assertEqual(result["ISIN"], "INE000000001")
+        self.assertEqual(result["Security ID"], 123)
+
+    def test_fno_expiry_lookup_prefers_security_id_then_normalized_symbol(self):
+        self.assertEqual(normalized_symbol('M&M-EQ'), 'MM')
+        self.assertEqual(lookup_expiry({'MM':'2026-10-01'}, {'123':'2026-09-29'}, 'M&M-EQ', 123), '2026-09-29')
+        self.assertEqual(lookup_expiry({'MM':'2026-10-01'}, {}, 'M&M-EQ', None), '2026-10-01')
+
+    def test_fno_expiry_builds_security_id_and_symbol_lookup(self):
+        response = {'pageProps': {'expiryData': {'data': [{'exps': [{'explst': [
+            {'symbolName': 'M&M-EQ', 'underlyingSecID': 123, 'expdate': '2099-01-02'},
+            {'symbolName': 'M&M-EQ', 'underlyingSecID': 123, 'expdate': '2099-01-01'},
+        ]}]}]}}}
+        with mock.patch('enrich_fno_data.get_next_data', return_value=response):
+            symbols, security_ids = fetch_next_expiry('build')
+        self.assertEqual(symbols['MM'], '2099-01-01')
+        self.assertEqual(security_ids['123'], '2099-01-01')
 
     def test_historical_metrics_do_not_replace_live_scanner_values(self):
         stock = {"rupee_volume": 1000.0, "sma10": 101.0, "sma20": 102.0, "sma50": 103.0, "sma200": 104.0}

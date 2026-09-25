@@ -24,6 +24,7 @@ from edl_pipeline.publication import promote, main as publish
 from edl_pipeline.quality import inspect_publication
 from edl_pipeline.transforms.fundamentals import analyze_stock, calculate_change, get_float
 from edl_pipeline.validators import validate_json, validate_gzip_json
+from build_corporate_action_ledger import build_ledger
 
 
 class IntegrityTests(unittest.TestCase):
@@ -123,6 +124,7 @@ class IntegrityTests(unittest.TestCase):
             'all_indices_history_v2.json.gz':{'generated_at':stamp,'indices':[{'symbol':'NIFTY','records':[bar]}]},
             'market_breadth_v2.json.gz':{'generated_at':stamp,'records':[{'date':'2026-09-24'}]},
             'breadth_universe_snapshot.json.gz':{'generated_at':stamp},
+            'corporate_action_ledger.json.gz':{'source':'test','price_adjusted':False,'records':[]},
         }
         for name, data in files.items():
             self.write(root, name, data)
@@ -139,6 +141,8 @@ class IntegrityTests(unittest.TestCase):
             report=inspect_publication(root, today=date(2026,9,24))
             self.assertEqual(report['errors'], [])
             self.assertIn('atr14', report['symbols'][0]['missing_fields'])
+            self.assertEqual(report['coverage']['listing_date']['missing'], 1)
+            self.assertFalse(report['corporate_action_ledger']['price_adjusted'])
 
     def test_stale_mixed_invalid_and_incomplete_publications_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -241,13 +245,14 @@ class IntegrityTests(unittest.TestCase):
                 'Mcap':1000,'Ltp':last['Close'],'Open':last['Open'],
                 'High':last['High'],'Low':last['Low'],'Volume':last['Volume'],
             }])
+            self.write(root,'history_corporate_actions.json',[])
             self.write(root,'all_indices_list.json',[{'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'}])
             shutil.copy2(ROOT/'breadth_methodology.json',root/'breadth_methodology.json')
             env=dict(os.environ,EDL_BASE_DIR=str(root))
             for name in ('bulk_market_analyzer.py','advanced_metrics_processor.py',
                          'process_earnings_performance.py','process_market_breadth.py',
                          'process_historical_market_breadth.py','add_corporate_events.py',
-                         'process_mbi_market_breadth.py','standardize_stock_artifact.py'):
+                         'process_mbi_market_breadth.py','build_corporate_action_ledger.py','standardize_stock_artifact.py'):
                 result=subprocess.run([sys.executable,str(ROOT/name)],cwd=root,env=env,capture_output=True,text=True,timeout=30)
                 self.assertEqual(result.returncode,0,name+'\n'+result.stdout+'\n'+result.stderr)
             for raw,compressed in FILES_TO_COMPRESS.items():
@@ -256,6 +261,15 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(report['errors'],[])
             self.assertEqual(report['stock_count'],1)
             self.assertIn('net_profit_latest_quarter',report['symbols'][0]['missing_fields'])
+
+    def test_action_ledger_preserves_unverified_price_actions(self):
+        ledger = build_ledger([
+            {'Symbol':'ABC','Type':'SPLIT','ExDate':'2026-01-01','RecordDate':'2025-12-30','Details':'Face value changed'},
+            {'Symbol':'ABC','Type':'DIVIDEND','ExDate':'2026-01-02','Details':'Rs 1'},
+        ])
+        self.assertEqual(ledger[0]['adjustment_status'], 'requires_verified_ratio')
+        self.assertIsNone(ledger[0]['adjustment_factor'])
+        self.assertFalse(ledger[1]['affects_price'])
 
 
 if __name__=='__main__':unittest.main()
