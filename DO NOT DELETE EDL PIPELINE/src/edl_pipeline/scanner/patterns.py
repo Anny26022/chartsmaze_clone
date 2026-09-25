@@ -306,7 +306,9 @@ def _evaluate_patterns(
         candidate = None
         for pivot in reversed(pivots):
             index, price, _ = pivot
-            if not (window["Close"].iloc[index + 1:] > price).any():
+            # A malformed source candle can carry a zero high despite a
+            # positive close. It cannot define a percentage-based ceiling.
+            if price > 0 and not (window["Close"].iloc[index + 1:] > price).any():
                 candidate = pivot
                 break
         if candidate is None:

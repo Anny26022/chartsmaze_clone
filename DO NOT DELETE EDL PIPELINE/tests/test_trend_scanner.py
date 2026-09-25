@@ -142,6 +142,19 @@ class TrendScannerTests(unittest.TestCase):
         self.assertEqual(vcp["status"], "match")
         self.assertEqual(resistance["status"], "match")
 
+    def test_horizontal_resistance_ignores_zero_price_pivots(self):
+        frame = rising_history(300)
+        frame["High"] = 0
+        frame["Low"] = 0
+        result = evaluate_history(frame, [{
+            "condition": "horizontal_resistance_line", "lookback_days": 100,
+            "minimum_swing_percent": 1.5, "cluster_tolerance_percent": 2.5,
+            "minimum_base_length_days": 15, "maximum_percent_below_line": 5,
+            "maximum_percent_below_20ema": 2,
+        }])
+        self.assertEqual(result["status"], "unavailable")
+        self.assertEqual(result["conditions"][0]["details"]["reason"], "no_swing_high_pivot")
+
     def test_momentum_and_volume_conditions_match_a_clear_signal(self):
         frame = rising_history(80)
         frame.loc[frame.index[-1], ["Open", "High", "Low", "Close", "Volume"]] = [182, 184, 179, 180, 10_000_000]
