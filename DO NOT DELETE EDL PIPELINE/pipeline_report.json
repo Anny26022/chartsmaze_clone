@@ -1,0 +1,581 @@
+{
+    "generated_at": "2026-09-25T14:28:46.875842+00:00",
+    "base_dir": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una",
+    "config": {
+        "fetch_ohlcv": true,
+        "fetch_optional": false,
+        "cleanup_intermediate": false
+    },
+    "total_time_seconds": 487.986,
+    "raw_size_bytes": 50350658,
+    "gzip_size_bytes": 5421859,
+    "exit_code": 0,
+    "scripts": {
+        "fetch_dhan_data.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 4.343733072280884,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/dhan_data_response.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 7728963,
+                    "count": 3159
+                },
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/master_isin_map.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 750159,
+                    "count": 3159
+                }
+            ]
+        },
+        "fetch_fundamental_data.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 25.27835702896118,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/fundamental_data.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 43455521,
+                    "count": 3159
+                }
+            ]
+        },
+        "fetch_company_filings.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 42.532193183898926,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/company_filings",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 2584
+                }
+            ]
+        },
+        "fetch_new_announcements.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 88.16610527038574,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_company_announcements.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 158618,
+                    "count": 726
+                }
+            ]
+        },
+        "fetch_advanced_indicators.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 21.725653886795044,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/advanced_indicator_data.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 9887238,
+                    "count": 3159
+                }
+            ]
+        },
+        "fetch_market_news.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 28.5707688331604,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/market_news",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 3113
+                }
+            ]
+        },
+        "fetch_corporate_actions.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 14.206372737884521,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/upcoming_corporate_actions.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 8243,
+                    "count": 39
+                },
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/history_corporate_actions.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 8333313,
+                    "count": 38232
+                }
+            ]
+        },
+        "fetch_surveillance_lists.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 1.9482629299163818,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/nse_asm_list.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 30535,
+                    "count": 197
+                },
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/nse_gsm_list.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 12173,
+                    "count": 77
+                }
+            ]
+        },
+        "fetch_circuit_stocks.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 0.8313090801239014,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/upper_circuit_stocks.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 43389,
+                    "count": 125
+                },
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/lower_circuit_stocks.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 34164,
+                    "count": 99
+                }
+            ]
+        },
+        "fetch_bulk_block_deals.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 17.61711621284485,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/bulk_block_deals.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 2909022,
+                    "count": 5681
+                }
+            ]
+        },
+        "fetch_incremental_price_bands.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 0.785926103591919,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/incremental_price_bands.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 1969,
+                    "count": 11
+                }
+            ]
+        },
+        "fetch_complete_price_bands.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 0.5155990123748779,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/complete_price_bands.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 604003,
+                    "count": 3556
+                }
+            ]
+        },
+        "fetch_all_indices.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 0.29326581954956055,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_indices_list.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 84998,
+                    "count": 192
+                }
+            ]
+        },
+        "fetch_sme_data.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 0.6202921867370605,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/sme_market_data.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 86860,
+                    "count": 560
+                }
+            ]
+        },
+        "fetch_all_ohlcv.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 110.91697001457214,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/ohlcv_data",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 3158
+                }
+            ]
+        },
+        "fetch_indices_ohlcv.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 1.4391779899597168,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/indices_ohlcv_data",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 192
+                }
+            ]
+        },
+        "bulk_market_analyzer.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 0.841141939163208,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 11617271,
+                    "count": 3159
+                }
+            ]
+        },
+        "advanced_metrics_processor.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 13.773837089538574,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 17259471,
+                    "count": 3159
+                }
+            ]
+        },
+        "process_earnings_performance.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 6.642228841781616,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 17693826,
+                    "count": 3159
+                }
+            ]
+        },
+        "enrich_fno_data.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 5.302047252655029,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 17932084,
+                    "count": 3159
+                }
+            ]
+        },
+        "process_market_breadth.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 0.6259520053863525,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 17932084,
+                    "count": 3159
+                },
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/sector_analytics.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 100971,
+                    "count": 2
+                }
+            ]
+        },
+        "process_historical_market_breadth.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 35.1997709274292,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/market_breadth.csv",
+                    "kind": "csv",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 31709,
+                    "count": 29
+                }
+            ]
+        },
+        "add_corporate_events.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 3.482429265975952,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 24668070,
+                    "count": 3159
+                }
+            ]
+        },
+        "build_corporate_action_ledger.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 0.4565000534057617,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/corporate_action_ledger.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 14990738,
+                    "count": 3
+                }
+            ]
+        },
+        "process_mbi_market_breadth.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 52.618967056274414,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_indices_history_v2.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 10942160,
+                    "count": 5
+                },
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/breadth_universe_snapshot.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 1084513,
+                    "count": 10
+                },
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/market_breadth_v2.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 855012,
+                    "count": 7
+                }
+            ]
+        },
+        "standardize_stock_artifact.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 4.200366735458374,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 22345555,
+                    "count": 3159
+                }
+            ]
+        }
+    },
+    "final_artifacts": [
+        {
+            "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_stocks_fundamental_analysis.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 2927849,
+            "count": 3159
+        },
+        {
+            "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/sector_analytics.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 6363,
+            "count": 2
+        },
+        {
+            "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/market_breadth.json.gz",
+            "kind": "gzip_csv",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 11738,
+            "count": 29
+        },
+        {
+            "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_indices_list.json",
+            "kind": "json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 84998,
+            "count": 192
+        },
+        {
+            "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/market_breadth_v2.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 110902,
+            "count": 7
+        },
+        {
+            "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/breadth_universe_snapshot.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 128769,
+            "count": 10
+        },
+        {
+            "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/all_indices_history_v2.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 1499971,
+            "count": 5
+        },
+        {
+            "path": "/Users/aniketmahato/Downloads/chartsmaze-existing-data-integration/DO NOT DELETE EDL PIPELINE/.edl-refresh-vqmg3una/corporate_action_ledger.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 736267,
+            "count": 3
+        }
+    ],
+    "quality_errors": [],
+    "published": true
+}
