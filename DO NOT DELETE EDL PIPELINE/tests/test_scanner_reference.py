@@ -57,7 +57,10 @@ class ScannerReferenceTests(unittest.TestCase):
             report = audit_reference(root, {
                 "as_of_date": "2025-03-25",
                 "screens": {"Persistent Momentum": []},
+                "universe_symbols": ["TEST", "NOT_LOCAL"],
             })
         self.assertEqual(report["provided_preset_count"], 1)
         self.assertFalse(report["complete"])
         self.assertIn("lib-persistent-momentum", report["screens"])
+        self.assertEqual(report["universe_comparison"]["shared_universe_count"], 1)
+        self.assertEqual(report["universe_comparison"]["reference_only_count"], 1)
