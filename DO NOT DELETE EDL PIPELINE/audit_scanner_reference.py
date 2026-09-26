@@ -17,7 +17,7 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from edl_pipeline.scanner.presets import get_preset
+from edl_pipeline.scanner.presets import get_preset, list_presets
 from edl_pipeline.scanner.reference import compare_symbol_sets
 from edl_pipeline.scanner.trend import evaluate_universe
 from screen_trend_conditions import _load_context
@@ -44,6 +44,13 @@ def audit_reference(root: Path, reference: dict) -> dict:
 
     context = _load_context(root, as_of_date)
     delivery_history = _read_delivery_history(root)
+    known_presets = {preset["id"] for preset in list_presets()}
+    requested_presets = set(screens)
+    missing_presets = sorted(known_presets - requested_presets)
+    unexpected_presets = sorted(requested_presets - known_presets)
+    if unexpected_presets:
+        raise ValueError(f"unknown preset(s): {', '.join(unexpected_presets)}")
+
     output = {}
     for preset_id, reference_symbols in screens.items():
         preset = get_preset(preset_id)
@@ -63,8 +70,15 @@ def audit_reference(root: Path, reference: dict) -> dict:
     return {
         "schema_version": 1,
         "as_of_date": as_of_date,
+        "expected_preset_count": len(known_presets),
+        "provided_preset_count": len(requested_presets),
+        "missing_presets": missing_presets,
+        "complete": not missing_presets,
         "screens": output,
-        "all_exact": all(item["exact"] for item in output.values()),
+        # ``all_supplied_exact`` is deliberately distinct from full parity:
+        # a two-screen reference must never be reported as a 45-preset match.
+        "all_supplied_exact": all(item["exact"] for item in output.values()),
+        "all_presets_exact": not missing_presets and all(item["exact"] for item in output.values()),
     }
 
 
@@ -72,6 +86,10 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--reference", required=True, type=Path, help="JSON reference file with as_of_date and screens")
     parser.add_argument("--output", type=Path, help="Optional JSON report path; otherwise prints to stdout")
+    parser.add_argument(
+        "--require-full-exact-match", action="store_true",
+        help="Exit non-zero unless the reference covers all 45 presets and every symbol set matches exactly.",
+    )
     args = parser.parse_args(argv)
     try:
         reference = json.loads(args.reference.read_text())
@@ -83,7 +101,7 @@ def main(argv=None):
         args.output.write_text(rendered + "\n")
     else:
         print(rendered)
-    return 0
+    return 0 if not args.require_full_exact_match or report["all_presets_exact"] else 1
 
 
 if __name__ == "__main__":

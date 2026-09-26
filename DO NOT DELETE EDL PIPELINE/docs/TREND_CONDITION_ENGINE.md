@@ -219,6 +219,23 @@ and a Jaccard score; it never contacts or impersonates another screener.
 python audit_scanner_reference.py --reference reference.json --output audit.json
 ```
 
+For a parity claim, the reference must contain all **45** preset IDs captured
+on one as-of session. The audit then needs `all_presets_exact: true`; a partial
+reference can only establish `all_supplied_exact`. Use the strict mode in CI or
+release validation so an incomplete or mismatched capture fails explicitly:
+
+```bash
+python audit_scanner_reference.py \
+  --reference all-45-reference.json \
+  --output parity-audit.json \
+  --require-full-exact-match
+```
+
+The source result capture must also use the same intended equity universe and
+the same completed NSE session. A different universe, stale bar, corporate
+action adjustment, or private pattern implementation is a real output
+difference—not proof that either evaluator is defective.
+
 Treat exact matches as a regression check for deterministic rules and treat
 pattern/relative-strength comparisons as calibration evidence. A reference
 list alone cannot reveal another service's private OHLCV revisions, benchmark

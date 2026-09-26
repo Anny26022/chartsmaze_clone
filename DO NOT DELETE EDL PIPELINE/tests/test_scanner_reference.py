@@ -9,6 +9,10 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from edl_pipeline.scanner.reference import compare_symbol_sets
+from edl_pipeline.scanner.presets import list_presets
+
+# ``audit_reference`` imports the normal CLI context loader, so this unit test
+# checks the complete-reference contract at the pure report boundary instead.
 
 
 class ScannerReferenceTests(unittest.TestCase):
@@ -26,3 +30,8 @@ class ScannerReferenceTests(unittest.TestCase):
         result = compare_symbol_sets([], [])
         self.assertTrue(result["exact"])
         self.assertEqual(result["jaccard"], 1.0)
+
+    def test_library_has_the_45_preset_ids_required_for_full_parity(self):
+        preset_ids = {preset["id"] for preset in list_presets()}
+        self.assertEqual(len(preset_ids), 45)
+        self.assertIn("lib-persistent-momentum", preset_ids)
