@@ -99,10 +99,11 @@ controls. Supported daily-OHLCV conditions are:
 - `new_high` and `new_low` compare a session's high/low with its completed
   rolling lookback. Their `fired_within` behaves identically to other recent
   signal controls: one means the latest session only.
-- The 52-week distance rules use 252 sessions and the session high/low, not
-  the close-only return. A high-distance of 5 means the latest close is 5%
-  below the 252-session highest high; a low-distance of 5 means it is 5%
-  above the 252-session lowest low.
+- The 52-week distance rules use the latest 252 sessions and the session
+  high/low, not the close-only return. For a stock listed less than 252
+  sessions ago, the complete post-listing history is used. A high-distance of
+  5 means the latest close is 5% below that window's highest high; a
+  low-distance of 5 means it is 5% above its lowest low.
 - `consolidation_range` is `(max(high) - min(low)) / final_close * 100` over
   the base. `exclude_latest` removes that many latest sessions before the base
   is selected, allowing a breakout session to be tested outside its base.

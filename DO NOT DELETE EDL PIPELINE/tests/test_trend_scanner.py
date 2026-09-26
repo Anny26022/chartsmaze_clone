@@ -90,6 +90,19 @@ class TrendScannerTests(unittest.TestCase):
         self.assertEqual(distance["status"], "match")
         self.assertEqual(high["conditions"][0]["details"]["days_since_signal"], 0)
 
+    def test_52_week_distance_uses_available_post_listing_history(self):
+        frame = rising_history(80)
+        high = evaluate_history(frame, [
+            {"condition": "percent_from_52w_high", "comparison": "less", "value": 2},
+        ])
+        low = evaluate_history(frame, [
+            {"condition": "percent_from_52w_low", "comparison": "greater", "value": 2},
+        ])
+        self.assertEqual(high["status"], "match")
+        self.assertEqual(low["status"], "match")
+        self.assertEqual(high["conditions"][0]["details"]["sessions"], 80)
+        self.assertEqual(low["conditions"][0]["details"]["sessions"], 80)
+
     def test_consolidation_atr_and_prior_range_contraction(self):
         frame = rising_history(90)
         frame.loc[frame.index[-60:-10], "High"] = 140

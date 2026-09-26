@@ -24,11 +24,11 @@ PATTERN_CONDITION_REGISTRY = {
     },
     "percent_from_52w_high": {
         "inputs": {"comparison": "comparison", "value": "number"},
-        "definition": "Latest close's percentage distance below the highest high in 252 sessions.",
+        "definition": "Latest close's percentage distance below the highest high in the latest 252 sessions, or all available post-listing sessions.",
     },
     "percent_from_52w_low": {
         "inputs": {"comparison": "comparison", "value": "number"},
-        "definition": "Latest close's percentage distance above the lowest low in 252 sessions.",
+        "definition": "Latest close's percentage distance above the lowest low in the latest 252 sessions, or all available post-listing sessions.",
     },
     "consolidation_range": {
         "inputs": {"lookback_days": "integer", "max_range_percent": "number", "exclude_latest": "integer"},
@@ -176,15 +176,20 @@ def _evaluate_patterns(
         return result(condition, matched, round(value, 6) if value is not None else None, lookback_days=lookback, fired_within=fired_within, days_since_signal=(fired_within - 1 - offset) if offset is not None else None, signal_date=frame["Date"].iloc[signal_index].strftime("%Y-%m-%d") if signal_index is not None else None)
 
     if condition in {"percent_from_52w_high", "percent_from_52w_low"}:
-        if len(frame) < 252:
+        if frame.empty:
             return unavailable(condition, "insufficient_history")
-        extreme = float(frame["High"].tail(252).max()) if condition.endswith("high") else float(frame["Low"].tail(252).min())
+        # A newly listed stock has no pre-listing sessions.  Treat its
+        # available listed history as its 52-week window instead of making the
+        # condition permanently unavailable until session 252.  Established
+        # stocks remain capped at the latest 252 trading sessions.
+        sessions = min(252, len(frame))
+        extreme = float(frame["High"].tail(sessions).max()) if condition.endswith("high") else float(frame["Low"].tail(sessions).min())
         if extreme <= 0:
             return unavailable(condition, "invalid_extreme")
         close = float(frame["Close"].iloc[-1])
         distance = (extreme - close) / extreme * 100 if condition.endswith("high") else (close - extreme) / extreme * 100
         target = float(_pick(spec, "value", "pct"))
-        return result(condition, comparison(distance, spec["comparison"], target), round(distance, 6), comparison=spec["comparison"], target=target, extreme=round(extreme, 6), sessions=252)
+        return result(condition, comparison(distance, spec["comparison"], target), round(distance, 6), comparison=spec["comparison"], target=target, extreme=round(extreme, 6), sessions=sessions)
 
     if condition == "consolidation_range":
         lookback = int(_pick(spec, "lookback_days", "lookbackDays"))
