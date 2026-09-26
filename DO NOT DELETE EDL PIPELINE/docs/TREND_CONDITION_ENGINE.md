@@ -197,3 +197,28 @@ official F&O ban row. The directory is an incremental cache, retained by the
 scheduled workflow but not committed to Git. It makes historical screens
 correct going forward; it cannot manufacture an older point-in-time snapshot
 that was never collected.
+
+## Reference-screen audits
+
+`audit_scanner_reference.py` compares a dated, user-supplied symbol list with
+the local evaluator using the same date, context snapshot and full delivery
+history cache as a normal screen. It reports both directions of the difference
+and a Jaccard score; it never contacts or impersonates another screener.
+
+```json
+{
+  "as_of_date": "2026-09-25",
+  "screens": {
+    "lib-persistent-momentum": ["ABC", "XYZ"]
+  }
+}
+```
+
+```bash
+python audit_scanner_reference.py --reference reference.json --output audit.json
+```
+
+Treat exact matches as a regression check for deterministic rules and treat
+pattern/relative-strength comparisons as calibration evidence. A reference
+list alone cannot reveal another service's private OHLCV revisions, benchmark
+adjustments, membership universe, or pattern evaluator.
