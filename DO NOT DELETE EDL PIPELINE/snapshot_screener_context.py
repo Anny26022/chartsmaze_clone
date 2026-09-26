@@ -11,8 +11,9 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
+from edl_pipeline.scanner.earnings import merge_observations
 from edl_pipeline.scanner.history import build_snapshot
-from pipeline_utils import BASE_DIR, load_json
+from pipeline_utils import BASE_DIR, load_json, save_json
 
 
 def _read_artifact(root: Path, stem: str, default=None):
@@ -40,7 +41,18 @@ def main():
     if not session:
         print("Cannot snapshot scanner context without a breadth session date.")
         return 1
-    path = build_snapshot(root / "scanner_history_data", stocks, breadth, fno, session)
+    # Kept inside the persistent scanner-history cache, which publication
+    # mounts into the staging refresh rather than deleting as an intermediate.
+    ledger_path = root / "scanner_history_data" / "earnings_observations.json"
+    ledger_path.parent.mkdir(parents=True, exist_ok=True)
+    ledger = load_json(ledger_path, default={})
+    observations = merge_observations(ledger.get("observations", []), stocks, session)
+    save_json(ledger_path, {
+        "schema_version": 1,
+        "source": "Dhan fundamental snapshot joined to exchange Financial Results filing date",
+        "observations": observations,
+    }, ensure_ascii=False)
+    path = build_snapshot(root / "scanner_history_data", stocks, breadth, fno, session, observations)
     print(f"Saved scanner context snapshot: {path.name}")
     return 0
 

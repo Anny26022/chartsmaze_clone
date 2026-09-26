@@ -261,6 +261,9 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
         "Sector": sector,
         "Market Cap(Cr.)": market_cap_cr,
         "Latest Quarter": cq.get("YEAR", "").split("|")[0] if cq.get("YEAR") else "N/A",
+        # ScanX exposes ``incomeStat_cq`` and ``incomeStat_sq`` separately;
+        # this pipeline deliberately uses the former, consolidated series.
+        "Earnings Report Type": "CONSOLIDATED",
         **net_profit,
         **eps,
         "EPS Last Year": get_value_from_pipe_string(cy.get("EPS"), 0),

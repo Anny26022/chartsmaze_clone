@@ -116,6 +116,7 @@ def canonicalize_stock(stock):
         "fno_next_expiry": stock.get("Next Expiry"),
         "circuit_limit": stock.get("Circuit Limit"),
         "latest_earnings_date": stock.get("Quarterly Results Date"),
+        "earnings_report_type": stock.get("Earnings Report Type"),
         "returns_since_earnings_percent": stock.get("Returns since Earnings(%)"),
         "max_returns_since_earnings_percent": stock.get("Max Returns since Earnings(%)"),
         "event_markers": [item.strip() for item in (stock.get("Event Markers") or "").split("|") if item.strip() and item.strip() != "N/A"],

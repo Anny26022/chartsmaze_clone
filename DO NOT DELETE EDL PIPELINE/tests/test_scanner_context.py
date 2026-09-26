@@ -50,7 +50,7 @@ class ScannerContextTests(unittest.TestCase):
     def test_snapshot_liquidity_and_cross_series_rules(self):
         frame = history()
         benchmark = pd.DataFrame({"date": frame["Date"], "close": [100 + index / 2 for index in range(len(frame))]})
-        stock = {"symbol": "TEST", "as_of_date": "2026-02-24", "close": 399, "market_cap_crore": 10_000, "free_float_percent": 40, "pe_ratio": 25, "sector": "IT", "industry": "Software", "listing_series": "EQ", "listing_date": "2024-01-01", "latest_earnings_date": "2026-02-01", "qoq_percent_net_profit_latest": 25, "circuit_limit": "20%", "index_memberships": ["NIFTY 500"]}
+        stock = {"symbol": "TEST", "as_of_date": "2026-02-24", "close": 399, "market_cap_crore": 10_000, "free_float_percent": 40, "pe_ratio": 25, "sector": "IT", "industry": "Software", "listing_series": "EQ", "listing_date": "2024-01-01", "latest_earnings_date": "2026-02-01", "earnings_report_type": "CONSOLIDATED", "qoq_percent_net_profit_latest": 25, "circuit_limit": "20%", "index_memberships": ["NIFTY 500"]}
         context = {"stock": stock, "benchmarks": {"NIFTY_50": benchmark}, "breadth": {"all_active": {"pct_above_sma50": 60}}, "breadth_as_of": "2026-02-24", "fno_ban_symbols": {"TEST": True}}
         result = evaluate_history(frame, [
             {"kind": "MARKETCAP", "params": {"comparison": "ABOVE", "valueCr": 5_000}},
@@ -75,6 +75,19 @@ class ScannerContextTests(unittest.TestCase):
             {item["details"]["reason"] for item in result["conditions"]},
             {"pe_snapshot_not_aligned_to_screen_date", "snapshot_not_aligned_to_screen_date", "earnings_snapshot_not_aligned_to_screen_date"},
         )
+
+    def test_consolidated_earnings_request_fails_closed_when_statement_type_is_unknown(self):
+        frame = history()
+        stock = {
+            "symbol": "TEST", "as_of_date": "2026-02-24", "latest_earnings_date": "2026-02-01",
+            "yoy_percent_net_profit_latest": 25,
+        }
+        result = evaluate_history(frame, [{
+            "kind": "EARNINGS_GROWTH",
+            "params": {"metric": "NET_PROFIT", "basis": "YOY", "comparison": "ABOVE", "pct": 10, "reportType": "PREFER_CONSOLIDATED"},
+        }], context={"stock": stock})
+        self.assertEqual(result["status"], "unavailable")
+        self.assertEqual(result["conditions"][0]["details"]["reason"], "consolidated_earnings_unavailable")
 
     def test_fno_ban_parser_accepts_an_empty_report_and_symbols(self):
         self.assertEqual(parse_report("Securities in Ban For Trade Date 28-SEP-2026:\n"), ("2026-09-28", []))

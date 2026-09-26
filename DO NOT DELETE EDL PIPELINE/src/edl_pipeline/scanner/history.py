@@ -8,10 +8,13 @@ from datetime import date
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 
+from .earnings import EARNINGS_FIELDS, select_observation
+
 
 SCANNER_SNAPSHOT_FIELDS = (
     "symbol", "as_of_date", "close", "market_cap_crore", "free_float_percent",
     "pe_ratio", "latest_earnings_date", "sector", "industry", "circuit_limit",
+    "earnings_report_type",
     "listing_date", "listing_series", "delivery_series", "index_memberships",
     "qoq_percent_net_profit_latest", "yoy_percent_net_profit_latest",
     "qoq_percent_sales_latest", "yoy_percent_sales_latest",
@@ -32,14 +35,27 @@ def _write_gzip_json(path: Path, payload: dict) -> None:
         temporary.unlink(missing_ok=True)
 
 
-def build_snapshot(cache_dir: Path, stocks: list[dict], breadth: dict, fno_ban: dict, as_of_date: str) -> Path:
+def build_snapshot(cache_dir: Path, stocks: list[dict], breadth: dict, fno_ban: dict, as_of_date: str, earnings_observations=None) -> Path:
     """Persist only fields that influence scanner conditions for one session."""
     session = date.fromisoformat(as_of_date).isoformat()
     record = next((item for item in breadth.get("records", []) if item.get("date") == session), None)
+    snapshot_stocks = []
+    for stock in stocks:
+        if not stock.get("symbol"):
+            continue
+        item = {field: stock.get(field) for field in SCANNER_SNAPSHOT_FIELDS}
+        observation = select_observation(earnings_observations or [], stock["symbol"], session)
+        if observation:
+            # The selected values are now truly date-bounded, even if the
+            # current provider snapshot has advanced to a newer quarter.
+            item.update({field: observation.get(field) for field in EARNINGS_FIELDS})
+            item["latest_earnings_date"] = observation["announcement_date"]
+            item["earnings_observed_on"] = observation.get("observed_on")
+        snapshot_stocks.append(item)
     payload = {
-        "schema_version": 1,
+        "schema_version": 2,
         "as_of_date": session,
-        "stocks": [{field: stock.get(field) for field in SCANNER_SNAPSHOT_FIELDS} for stock in stocks if stock.get("symbol")],
+        "stocks": snapshot_stocks,
         "breadth": record,
         "fno_ban": {
             "available": bool(fno_ban.get("available")),

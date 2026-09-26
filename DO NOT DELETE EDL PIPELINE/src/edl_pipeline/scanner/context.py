@@ -196,6 +196,10 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
             return unavailable(condition, "earnings_snapshot_not_aligned_to_screen_date")
         metric = str(spec.get("metric", "net_profit")).lower()
         basis = str(spec.get("basis", "yoy")).lower()
+        requested_report_type = str(spec.get("report_type", "")).upper()
+        actual_report_type = str(_value(stock, "earnings_report_type") or "").upper()
+        if requested_report_type == "PREFER_CONSOLIDATED" and actual_report_type not in {"CONSOLIDATED", "C"}:
+            return unavailable(condition, "consolidated_earnings_unavailable")
         prefix = {"net_profit": "net_profit", "revenue": "sales", "eps": "eps", "pbt": "pbt"}.get(metric)
         if prefix is None:
             return unavailable(condition, "metric_history_unavailable")
@@ -206,7 +210,7 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         age = int((as_of_date - announcement.date()).days) if as_of_date else None
         if age is None or age > max_age: return unavailable(condition, "earnings_filing_too_old")
         target = float(spec["value"])
-        return result(condition, comparison(value, spec["comparison"], target), value, metric=metric, basis=basis, filing_age_days=age, maximum_filing_age_days=max_age)
+        return result(condition, comparison(value, spec["comparison"], target), value, metric=metric, basis=basis, report_type=actual_report_type, filing_age_days=age, maximum_filing_age_days=max_age)
 
     if condition in {"days_since_earnings", "listing_age_days"}:
         if condition == "days_since_earnings" and not _stock_snapshot_is_aligned(stock, as_of_date):

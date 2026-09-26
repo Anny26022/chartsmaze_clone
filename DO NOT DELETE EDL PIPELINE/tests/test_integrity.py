@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 from advanced_metrics_processor import process_symbol_csv
 from process_earnings_performance import calculate_earnings_metrics
+from edl_pipeline.quality import inspect_delivery_history
 import fetch_fundamental_data
 from pipeline_utils import save_json
 from edl_pipeline.artifacts import FILES_TO_COMPRESS, FINAL_ARTIFACT_SPECS, PHASE4_SCRIPTS, OHLCV_DERIVED_SCRIPT
@@ -130,6 +131,13 @@ class IntegrityTests(unittest.TestCase):
         }
         for name, data in files.items():
             self.write(root, name, data)
+        delivery_dir = root / 'delivery_history_data'; delivery_dir.mkdir(exist_ok=True)
+        for offset in range(252):
+            day = (date(2026, 9, 24) - timedelta(days=offset)).isoformat()
+            (delivery_dir / f'{day}.json').write_text(json.dumps({
+                'date': day,
+                'records': [{'symbol': 'ABC', 'series': 'EQ', 'date': day, 'delivery_percent': 50}],
+            }))
         (root/'market_breadth.json.gz').write_bytes(gzip.compress(b'Type of Info,2026-09-24\nAdvances,1\n'))
         return files
 
@@ -251,6 +259,10 @@ class IntegrityTests(unittest.TestCase):
             self.write(root,'all_indices_list.json',[{'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'}])
             self.write(root,'nse_fno_ban.json',{'source':'test','available':False,'trade_date':None,'symbols':[]})
             shutil.copy2(ROOT/'breadth_methodology.json',root/'breadth_methodology.json')
+            delivery_dir=root/'delivery_history_data'; delivery_dir.mkdir()
+            for offset in range(252):
+                day=(today-timedelta(days=offset)).isoformat()
+                (delivery_dir/f'{day}.json').write_text(json.dumps({'date':day,'records':[{'symbol':'ABC','series':'EQ','date':day,'delivery_percent':50}]}))
             env=dict(os.environ,EDL_BASE_DIR=str(root))
             for name in ('bulk_market_analyzer.py','advanced_metrics_processor.py',
                          'process_earnings_performance.py','process_market_breadth.py',
