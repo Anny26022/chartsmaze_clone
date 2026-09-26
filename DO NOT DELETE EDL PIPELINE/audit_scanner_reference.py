@@ -12,6 +12,8 @@ import json
 from pathlib import Path
 import sys
 
+import pandas as pd
+
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
 if str(SRC) not in sys.path:
@@ -19,7 +21,7 @@ if str(SRC) not in sys.path:
 
 from edl_pipeline.scanner.presets import get_preset, list_presets
 from edl_pipeline.scanner.reference import compare_symbol_sets
-from edl_pipeline.scanner.trend import evaluate_universe
+from edl_pipeline.scanner.trend import evaluate_history
 from screen_trend_conditions import _load_context
 
 
@@ -45,33 +47,55 @@ def audit_reference(root: Path, reference: dict) -> dict:
     context = _load_context(root, as_of_date)
     delivery_history = _read_delivery_history(root)
     known_presets = {preset["id"] for preset in list_presets()}
-    requested_presets = set(screens)
-    missing_presets = sorted(known_presets - requested_presets)
-    unexpected_presets = sorted(requested_presets - known_presets)
-    if unexpected_presets:
-        raise ValueError(f"unknown preset(s): {', '.join(unexpected_presets)}")
+    # Input files may use human-facing preset names or stable library IDs.
+    # Resolve both to IDs before assessing completeness; otherwise a complete
+    # capture exported from the source UI is falsely reported as unknown.
+    resolved_screens = {}
+    for input_key, reference_symbols in screens.items():
+        preset = get_preset(input_key)
+        preset_id = preset["id"]
+        if preset_id in resolved_screens:
+            raise ValueError(f"duplicate preset reference: {preset_id}")
+        resolved_screens[preset_id] = (preset, reference_symbols)
+    missing_presets = sorted(known_presets - set(resolved_screens))
 
+    # Read each local history once, then evaluate every requested preset from
+    # that in-memory frame. A preset-first audit rereads the entire 98 MB
+    # universe 45 times, turning one same-session comparison into ~4.4 GB of
+    # repeated I/O.
     output = {}
-    for preset_id, reference_symbols in screens.items():
-        preset = get_preset(preset_id)
-        if preset is None:
-            raise ValueError(f"unknown preset: {preset_id}")
+    local_matches = {preset_id: [] for preset_id in resolved_screens}
+    local_counts = {
+        preset_id: {"match": 0, "no_match": 0, "unavailable": 0}
+        for preset_id in resolved_screens
+    }
+    for preset_id, (_, reference_symbols) in resolved_screens.items():
         if not isinstance(reference_symbols, list):
             raise ValueError(f"{preset_id}: symbols must be an array")
-        evaluated = evaluate_universe(
-            root / "ohlcv_data", preset["expression"], as_of_date,
-            delivery_history=delivery_history, context_by_symbol=context,
-        )
+    for path in sorted((root / "ohlcv_data").glob("*.csv")):
+        symbol = path.stem
+        stock_context = dict(context)
+        stock_context["stock"] = (stock_context.get("stocks") or {}).get(symbol, {})
+        history = pd.read_csv(path)
+        for preset_id, (preset, _) in resolved_screens.items():
+            outcome = evaluate_history(
+                history, preset["expression"], as_of_date,
+                delivery_history.get(symbol, []), stock_context,
+            )
+            local_counts[preset_id][outcome["status"]] += 1
+            if outcome["status"] == "match":
+                local_matches[preset_id].append(symbol)
+    for preset_id, (preset, reference_symbols) in resolved_screens.items():
         output[preset_id] = {
             "name": preset["name"],
-            "local_counts": evaluated["counts"],
-            **compare_symbol_sets(reference_symbols, [item["symbol"] for item in evaluated["results"]]),
+            "local_counts": local_counts[preset_id],
+            **compare_symbol_sets(reference_symbols, local_matches[preset_id]),
         }
     return {
         "schema_version": 1,
         "as_of_date": as_of_date,
         "expected_preset_count": len(known_presets),
-        "provided_preset_count": len(requested_presets),
+        "provided_preset_count": len(resolved_screens),
         "missing_presets": missing_presets,
         "complete": not missing_presets,
         "screens": output,
