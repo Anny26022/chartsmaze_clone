@@ -1,0 +1,485 @@
+"""Daily trend-condition engine over locally cached OHLCV history.
+
+The engine deliberately returns ``unavailable`` rather than guessing when a
+symbol does not have sufficient history.  Conditions in a request are ANDed;
+the ``persistent_momentum`` condition itself is an explicit any-of EMA rule.
+"""
+
+from __future__ import annotations
+
+from dataclasses import dataclass
+from datetime import date
+from pathlib import Path
+from typing import Any
+
+import numpy as np
+import pandas as pd
+
+from .patterns import PATTERN_CONDITION_REGISTRY, evaluate_pattern
+from .context import CONTEXT_CONDITION_REGISTRY, evaluate_context_condition, normalize_condition_spec
+
+
+REQUIRED_COLUMNS = ("Date", "Open", "High", "Low", "Close", "Volume")
+COMPARISONS = {
+    "greater": lambda left, right: left > right,
+    "greater_or_equal": lambda left, right: left >= right,
+    "less": lambda left, right: left < right,
+    "less_or_equal": lambda left, right: left <= right,
+    "equal": lambda left, right: left == right,
+}
+
+# This is intentionally data, rather than UI code, so a web client can render
+# the exact supported controls without duplicating the calculation contract.
+CONDITION_REGISTRY = {
+    "persistent_momentum": {
+        "inputs": {"periods": "integer[]", "persist_days": "integer | {period: integer}", "persistence_mode": "strict_close|reclaim_by_extreme"},
+        "definition": "Any requested EMA period has stayed below the close for its required run; the default tolerates one reclaimed breach.",
+    },
+    "price_vs_ema": {
+        "inputs": {"period": "integer", "comparison": "above|below", "persist_days": "integer", "persistence_mode": "strict_close|reclaim_by_extreme"},
+        "definition": "Close stays on the selected side of the EMA for a run; reclaim mode permits one reclaimed breach.",
+    },
+    "ema_shakeout_reclaim": {
+        "inputs": {"period": "integer", "dip_within": "integer", "dip_basis": "low|close"},
+        "definition": "A recent dip below the EMA followed by a latest close back above it.",
+    },
+    "adx": {
+        "inputs": {"period": "integer", "comparison": "comparison", "value": "number"},
+        "definition": "Wilder ADX, a direction-neutral trend-strength measure.",
+    },
+    "price_vs_sma": {
+        "inputs": {"period": "integer", "comparison": "above|below", "persist_days": "integer", "persistence_mode": "strict_close|reclaim_by_extreme"},
+        "definition": "Close stays on the selected side of the SMA for a run.",
+    },
+    "percent_days_above_ma": {
+        "inputs": {"period": "integer", "ma_type": "sma|ema", "window": "integer", "comparison": "comparison", "value": "number"},
+        "definition": "Percentage of closes above the selected moving average in the window.",
+    },
+    "ma_stack": {
+        "inputs": {"periods": "integer[]", "ma_type": "sma|ema", "price_above_fastest": "boolean"},
+        "definition": "Moving averages are strictly ordered from the shortest to longest period.",
+    },
+    "ma_slope": {
+        "inputs": {"period": "integer", "ma_type": "sma|ema", "window": "integer", "comparison": "comparison", "value": "number"},
+        "definition": "Percent change in a moving average from the start to the end of a window.",
+    },
+    "price_change_percent": {
+        "inputs": {"window": "integer", "comparison": "comparison", "value": "number"},
+        "definition": "Close-to-close percentage change over the requested number of sessions.",
+    },
+    "consecutive_up_days": {
+        "inputs": {"minimum_up_days": "integer", "fired_within": "integer"},
+        "definition": "A run of higher closes occurred within the requested recent sessions.",
+    },
+    "gap_up": {
+        "inputs": {"minimum_gap_percent": "number", "fired_within": "integer"},
+        "definition": "Open exceeded the prior close by at least the threshold within the recent sessions.",
+    },
+    "gap_down": {
+        "inputs": {"minimum_gap_percent": "number", "fired_within": "integer"},
+        "definition": "Open was below the prior close by at least the threshold within the recent sessions.",
+    },
+    "relative_volume": {
+        "inputs": {"average_window": "integer", "multiple": "number", "fired_within": "integer"},
+        "definition": "Volume was at least a multiple of its preceding average volume within the recent sessions.",
+    },
+    "volume_trend": {
+        "inputs": {"recent_window": "integer", "base_window": "integer", "comparison": "comparison", "value": "number"},
+        "definition": "Ratio of recent average volume to the immediately preceding base-window average.",
+    },
+    "highest_volume": {
+        "inputs": {"lookback": "integer", "fired_within": "integer", "closed_up": "boolean"},
+        "definition": "A session had the highest volume in its lookback window, optionally while closing above its prior close.",
+    },
+    "delivery_percent_spike": {
+        "inputs": {"minimum_delivery_percent": "number", "fired_within": "integer"},
+        "definition": "NSE delivery percentage met the threshold on a session within the requested window.",
+    },
+    **PATTERN_CONDITION_REGISTRY,
+    **CONTEXT_CONDITION_REGISTRY,
+}
+
+
+@dataclass(frozen=True)
+class ConditionResult:
+    condition: str
+    status: str
+    value: float | bool | None
+    details: dict[str, Any]
+
+    def as_dict(self):
+        return {
+            "condition": self.condition,
+            "status": self.status,
+            "value": self.value,
+            "details": self.details,
+        }
+
+
+def _result(condition, matched, value=None, **details):
+    return ConditionResult(condition, "match" if matched else "no_match", value, details)
+
+
+def _unavailable(condition, reason):
+    return ConditionResult(condition, "unavailable", None, {"reason": reason})
+
+
+def _comparison(value, comparison, target):
+    try:
+        return bool(COMPARISONS[comparison](value, target))
+    except KeyError as error:
+        raise ValueError(f"Unsupported comparison: {comparison}") from error
+
+
+def normalize_history(rows: pd.DataFrame, as_of_date: str | None = None):
+    missing = [column for column in REQUIRED_COLUMNS if column not in rows.columns]
+    if missing:
+        raise ValueError(f"Missing OHLCV columns: {', '.join(missing)}")
+    frame = rows.loc[:, REQUIRED_COLUMNS].copy()
+    frame["Date"] = pd.to_datetime(frame["Date"], errors="coerce")
+    for column in REQUIRED_COLUMNS[1:]:
+        frame[column] = pd.to_numeric(frame[column], errors="coerce")
+    frame = frame.replace([np.inf, -np.inf], np.nan).dropna(subset=("Date", "Open", "High", "Low", "Close"))
+    frame = frame.loc[(frame["Close"] > 0) & (frame["High"] >= frame["Low"])]
+    if as_of_date:
+        cutoff = pd.Timestamp(as_of_date)
+        frame = frame.loc[frame["Date"] <= cutoff]
+    return frame.sort_values("Date").drop_duplicates("Date", keep="last").reset_index(drop=True)
+
+
+def _ma(frame, ma_type, period):
+    period = int(period)
+    if period <= 0:
+        raise ValueError("Moving-average period must be positive.")
+    if ma_type == "sma":
+        return frame["Close"].rolling(period, min_periods=period).mean()
+    if ma_type == "ema":
+        return frame["Close"].ewm(span=period, adjust=False, min_periods=period).mean()
+    raise ValueError("ma_type must be 'sma' or 'ema'.")
+
+
+def _adx(frame, period):
+    period = int(period)
+    if period <= 0:
+        raise ValueError("ADX period must be positive.")
+    high, low, close = frame["High"], frame["Low"], frame["Close"]
+    previous_close = close.shift(1)
+    true_range = pd.concat((high - low, (high - previous_close).abs(), (low - previous_close).abs()), axis=1).max(axis=1)
+    upward = high.diff()
+    downward = -low.diff()
+    plus_dm = upward.where((upward > downward) & (upward > 0), 0.0)
+    minus_dm = downward.where((downward > upward) & (downward > 0), 0.0)
+    atr = true_range.ewm(alpha=1 / period, adjust=False, min_periods=period).mean()
+    plus_di = 100 * plus_dm.ewm(alpha=1 / period, adjust=False, min_periods=period).mean() / atr
+    minus_di = 100 * minus_dm.ewm(alpha=1 / period, adjust=False, min_periods=period).mean() / atr
+    denominator = (plus_di + minus_di).replace(0, np.nan)
+    dx = 100 * (plus_di - minus_di).abs() / denominator
+    return dx.ewm(alpha=1 / period, adjust=False, min_periods=period).mean()
+
+
+def _persisted(frame, average, comparison, days, mode):
+    days = int(days)
+    if days <= 0:
+        raise ValueError("persist_days must be positive.")
+    window = frame.tail(days)
+    averages = average.tail(days)
+    if len(window) < days or averages.isna().any():
+        return None
+    desired = window["Close"] > averages if comparison == "above" else window["Close"] < averages
+    if comparison not in {"above", "below"}:
+        raise ValueError("comparison must be 'above' or 'below'.")
+    if mode == "strict_close":
+        return bool(desired.all())
+    if mode != "reclaim_by_extreme":
+        raise ValueError("persistence_mode must be 'strict_close' or 'reclaim_by_extreme'.")
+
+    # A single contrary close does not reset the run when a later bar trades
+    # through that breach bar's extreme and closes back on the desired side.
+    breaches = np.flatnonzero(~desired.to_numpy())
+    if len(breaches) == 0:
+        return True
+    if len(breaches) != 1:
+        return False
+    breach_index = int(breaches[0])
+    later = window.iloc[breach_index + 1:]
+    if later.empty:
+        return False
+    breach = window.iloc[breach_index]
+    if comparison == "above":
+        reclaimed = (later["High"] >= breach["High"]) & (later["Close"] > averages.iloc[breach_index + 1:])
+    else:
+        reclaimed = (later["Low"] <= breach["Low"]) & (later["Close"] < averages.iloc[breach_index + 1:])
+    return bool(reclaimed.any())
+
+
+def _evaluate(frame, spec, delivery_history=None, context=None):
+    spec = normalize_condition_spec(spec)
+    condition = spec.get("condition") or spec.get("id")
+    if condition not in CONDITION_REGISTRY:
+        raise ValueError(f"Unsupported trend condition: {condition!r}")
+    if frame.empty:
+        return _unavailable(condition, "no_ohlcv_history")
+
+    pattern_result = evaluate_pattern(frame, spec, _result, _unavailable, _comparison, _ma)
+    if pattern_result is not None:
+        return pattern_result
+
+    context_result = evaluate_context_condition(frame, spec, context, _result, _unavailable, _comparison)
+    if context_result is not None:
+        return context_result
+
+    if condition == "persistent_momentum":
+        periods = [int(period) for period in spec.get("periods", (10, 20, 50))]
+        required = spec.get("persist_days", 1)
+        # The public JournalToday request carries only the period/day inputs.
+        # Its observed matched set is materially closer to this mode than to
+        # strict closes. Keep it as the useful default while allowing callers
+        # to ask for the narrower strict-close definition explicitly.
+        persistence_mode = spec.get("persistence_mode", "reclaim_by_extreme")
+        outcomes = {}
+        for period in periods:
+            days = int(required.get(str(period), required.get(period, 1)) if isinstance(required, dict) else required)
+            persisted = _persisted(frame, _ma(frame, "ema", period), "above", days, persistence_mode)
+            outcomes[str(period)] = persisted
+        if any(value is None for value in outcomes.values()):
+            return _unavailable(condition, "insufficient_history")
+        return _result(condition, any(outcomes.values()), any(outcomes.values()), qualifying_periods=[key for key, value in outcomes.items() if value], runs=outcomes, persistence_mode=persistence_mode)
+
+    if condition in {"price_vs_ema", "price_vs_sma"}:
+        ma_type = "ema" if condition == "price_vs_ema" else "sma"
+        persisted = _persisted(frame, _ma(frame, ma_type, spec["period"]), spec["comparison"], spec["persist_days"], spec.get("persistence_mode", "strict_close"))
+        if persisted is None:
+            return _unavailable(condition, "insufficient_history")
+        return _result(condition, persisted, persisted, period=int(spec["period"]), comparison=spec["comparison"], persist_days=int(spec["persist_days"]), persistence_mode=spec.get("persistence_mode", "strict_close"))
+
+    if condition == "ema_shakeout_reclaim":
+        average = _ma(frame, "ema", spec["period"])
+        dip_within = int(spec["dip_within"])
+        recent = frame.tail(dip_within)
+        recent_average = average.tail(dip_within)
+        if len(recent) < dip_within or recent_average.isna().any():
+            return _unavailable(condition, "insufficient_history")
+        dip_basis = spec.get("dip_basis", "low")
+        dips = recent["Low"] < recent_average if dip_basis == "low" else recent["Close"] < recent_average
+        if dip_basis not in {"low", "close"}:
+            raise ValueError("dip_basis must be 'low' or 'close'.")
+        matched = bool(dips.any() and recent["Close"].iloc[-1] > recent_average.iloc[-1])
+        return _result(condition, matched, matched, period=int(spec["period"]), dip_within=dip_within, dip_basis=dip_basis)
+
+    if condition == "adx":
+        value = _adx(frame, spec["period"]).iloc[-1]
+        if pd.isna(value):
+            return _unavailable(condition, "insufficient_history")
+        return _result(condition, _comparison(float(value), spec["comparison"], float(spec["value"])), round(float(value), 6), period=int(spec["period"]), comparison=spec["comparison"], target=float(spec["value"]))
+
+    if condition == "percent_days_above_ma":
+        window = int(spec["window"])
+        average = _ma(frame, spec.get("ma_type", "sma"), spec["period"])
+        values = frame.tail(window)
+        averages = average.tail(window)
+        if len(values) < window or averages.isna().any():
+            return _unavailable(condition, "insufficient_history")
+        percentage = float((values["Close"] > averages).mean() * 100)
+        return _result(condition, _comparison(percentage, spec["comparison"], float(spec["value"])), round(percentage, 6), period=int(spec["period"]), ma_type=spec.get("ma_type", "sma"), window=window, comparison=spec["comparison"], target=float(spec["value"]))
+
+    if condition == "ma_stack":
+        periods = sorted(int(period) for period in spec["periods"])
+        if len(periods) < 2 or len(set(periods)) != len(periods):
+            raise ValueError("ma_stack needs at least two distinct periods.")
+        averages = [_ma(frame, spec.get("ma_type", "sma"), period).iloc[-1] for period in periods]
+        if any(pd.isna(value) for value in averages):
+            return _unavailable(condition, "insufficient_history")
+        matched = all(left > right for left, right in zip(averages, averages[1:]))
+        if spec.get("price_above_fastest", False):
+            matched = matched and bool(frame["Close"].iloc[-1] > averages[0])
+        return _result(condition, matched, matched, periods=periods, ma_type=spec.get("ma_type", "sma"), averages=[round(float(value), 6) for value in averages])
+
+    if condition == "ma_slope":
+        window = int(spec["window"])
+        average = _ma(frame, spec.get("ma_type", "sma"), spec["period"])
+        if len(average) <= window or pd.isna(average.iloc[-1]) or pd.isna(average.iloc[-1 - window]) or average.iloc[-1 - window] == 0:
+            return _unavailable(condition, "insufficient_history")
+        slope = float((average.iloc[-1] / average.iloc[-1 - window] - 1) * 100)
+        return _result(condition, _comparison(slope, spec["comparison"], float(spec["value"])), round(slope, 6), period=int(spec["period"]), ma_type=spec.get("ma_type", "sma"), window=window, comparison=spec["comparison"], target=float(spec["value"]))
+
+    if condition == "price_change_percent":
+        window = int(spec["window"])
+        if window <= 0 or len(frame) <= window:
+            return _unavailable(condition, "insufficient_history")
+        prior = frame["Close"].iloc[-1 - window]
+        if prior == 0:
+            return _unavailable(condition, "invalid_prior_close")
+        change = float((frame["Close"].iloc[-1] / prior - 1) * 100)
+        return _result(condition, _comparison(change, spec["comparison"], float(spec["value"])), round(change, 6), window=window, comparison=spec["comparison"], target=float(spec["value"]))
+
+    if condition == "consecutive_up_days":
+        minimum, fired_within = int(spec["minimum_up_days"]), int(spec.get("fired_within", 1))
+        if minimum <= 0 or fired_within <= 0 or len(frame) <= minimum:
+            return _unavailable(condition, "insufficient_history")
+        up = frame["Close"].diff().gt(0)
+        runs = up.groupby((~up).cumsum()).cumsum()
+        candidates = [(age, int(runs.iloc[-1 - age])) for age in range(min(fired_within, len(frame))) if runs.iloc[-1 - age] >= minimum]
+        matched = bool(candidates)
+        age, run = candidates[0] if candidates else (None, int(runs.iloc[-1]))
+        return _result(condition, matched, run, minimum_up_days=minimum, fired_within=fired_within, days_since_signal=age)
+
+    if condition in {"gap_up", "gap_down"}:
+        fired_within = int(spec.get("fired_within", 1))
+        if fired_within <= 0 or len(frame) < 2:
+            return _unavailable(condition, "insufficient_history")
+        gap = (frame["Open"] / frame["Close"].shift(1) - 1) * 100
+        threshold = float(spec["minimum_gap_percent"])
+        values = gap.tail(fired_within)
+        qualifying = values >= threshold if condition == "gap_up" else values <= -threshold
+        locations = np.flatnonzero(qualifying.fillna(False).to_numpy())
+        matched = len(locations) > 0
+        offset = int(locations[-1]) if matched else None
+        value = float(values.iloc[offset]) if matched else None
+        return _result(condition, matched, round(value, 6) if value is not None else None, minimum_gap_percent=threshold, fired_within=fired_within, days_since_signal=(len(values) - 1 - offset) if offset is not None else None)
+
+    if condition == "relative_volume":
+        average_window, fired_within = int(spec["average_window"]), int(spec.get("fired_within", 1))
+        if average_window <= 0 or fired_within <= 0 or len(frame) <= average_window:
+            return _unavailable(condition, "insufficient_history")
+        baseline = frame["Volume"].shift(1).rolling(average_window, min_periods=average_window).mean()
+        ratios = frame["Volume"] / baseline
+        values = ratios.tail(fired_within)
+        qualifying = values >= float(spec["multiple"])
+        locations = np.flatnonzero(qualifying.fillna(False).to_numpy())
+        matched = len(locations) > 0
+        offset = int(locations[-1]) if matched else None
+        value = float(values.iloc[offset]) if matched else None
+        return _result(condition, matched, round(value, 6) if value is not None else None, average_window=average_window, multiple=float(spec["multiple"]), fired_within=fired_within, days_since_signal=(len(values) - 1 - offset) if offset is not None else None)
+
+    if condition == "volume_trend":
+        recent, base = int(spec["recent_window"]), int(spec["base_window"])
+        if recent <= 0 or base <= 0 or len(frame) < recent + base:
+            return _unavailable(condition, "insufficient_history")
+        base_average = frame["Volume"].iloc[-recent - base:-recent].mean()
+        if pd.isna(base_average) or base_average <= 0:
+            return _unavailable(condition, "invalid_base_volume")
+        ratio = float(frame["Volume"].tail(recent).mean() / base_average)
+        return _result(condition, _comparison(ratio, spec["comparison"], float(spec["value"])), round(ratio, 6), recent_window=recent, base_window=base, comparison=spec["comparison"], target=float(spec["value"]))
+
+    if condition == "highest_volume":
+        lookback, fired_within = int(spec["lookback"]), int(spec.get("fired_within", 1))
+        if lookback <= 0 or fired_within <= 0 or len(frame) < lookback:
+            return _unavailable(condition, "insufficient_history")
+        highest = frame["Volume"].rolling(lookback, min_periods=lookback).max()
+        candidates = (frame["Volume"].eq(highest)).tail(fired_within)
+        if spec.get("closed_up", False):
+            candidates &= frame["Close"].gt(frame["Close"].shift(1)).tail(fired_within)
+        locations = np.flatnonzero(candidates.fillna(False).to_numpy())
+        matched = len(locations) > 0
+        offset = int(locations[-1]) if matched else None
+        value = int(frame["Volume"].tail(fired_within).iloc[offset]) if matched else None
+        return _result(condition, matched, value, lookback=lookback, fired_within=fired_within, closed_up=bool(spec.get("closed_up", False)), days_since_signal=(fired_within - 1 - offset) if offset is not None else None)
+
+    if condition == "delivery_percent_spike":
+        fired_within = int(spec.get("fired_within", 1))
+        if fired_within <= 0:
+            raise ValueError("fired_within must be positive.")
+        by_date = {
+            str(item.get("date")): item.get("delivery_percent")
+            for item in (delivery_history or [])
+            if isinstance(item, dict) and item.get("date") and item.get("delivery_percent") is not None
+        }
+        sessions = frame.tail(fired_within)["Date"].dt.strftime("%Y-%m-%d").tolist()
+        values = [by_date.get(session) for session in sessions]
+        known = [(index, float(value)) for index, value in enumerate(values) if value is not None]
+        if not known:
+            return _unavailable(condition, "no_delivery_history_for_window")
+        threshold = float(spec["minimum_delivery_percent"])
+        qualifying = [(index, value) for index, value in known if value >= threshold]
+        index, value = qualifying[-1] if qualifying else (None, max(value for _, value in known))
+        return _result(condition, bool(qualifying), round(value, 6), minimum_delivery_percent=threshold, fired_within=fired_within, days_since_signal=(len(sessions) - 1 - index) if index is not None else None, available_sessions=len(known))
+
+    raise AssertionError("registry and evaluator are out of sync")
+
+
+def _combine_group(operator, children):
+    """Three-valued boolean logic: unknown only survives when it can matter."""
+    statuses = [child["status"] for child in children]
+    if operator == "AND":
+        status = "no_match" if "no_match" in statuses else ("unavailable" if "unavailable" in statuses else "match")
+    elif operator == "OR":
+        status = "match" if "match" in statuses else ("unavailable" if "unavailable" in statuses else "no_match")
+    else:
+        raise ValueError("Expression group op must be AND or OR.")
+    return {"type": "group", "op": operator, "status": status, "children": children}
+
+
+def _evaluate_expression(frame, expression, delivery_history, context):
+    if isinstance(expression, list):
+        expression = {"type": "group", "op": "AND", "children": expression}
+    if not isinstance(expression, dict):
+        raise ValueError("Screen expression must be a condition or group object.")
+    if expression.get("type") == "group" or "children" in expression:
+        children = expression.get("children") or []
+        if not children:
+            raise ValueError("Screen expression group must not be empty.")
+        return _combine_group(str(expression.get("op", "AND")).upper(), [
+            _evaluate_expression(frame, child, delivery_history, context) for child in children
+        ])
+    result = _evaluate(frame, expression, delivery_history, context).as_dict()
+    return {"type": "condition", "status": result["status"], "result": result}
+
+
+def _leaf_results(node):
+    if node["type"] == "condition":
+        return [node["result"]]
+    return [result for child in node["children"] for result in _leaf_results(child)]
+
+
+def evaluate_history(rows, conditions, as_of_date: str | None = None, delivery_history=None, context=None):
+    """Evaluate a flat legacy list or JournalToday-compatible expression tree."""
+    frame = normalize_history(pd.DataFrame(rows), as_of_date)
+    context = dict(context or {})
+    context["delivery_history"] = delivery_history or []
+    expression = _evaluate_expression(frame, conditions, delivery_history, context)
+    return {
+        "status": expression["status"],
+        "as_of_date": frame["Date"].iloc[-1].strftime("%Y-%m-%d") if not frame.empty else None,
+        "conditions": _leaf_results(expression),
+        "expression": expression,
+    }
+
+
+def evaluate_universe(ohlcv_directory, conditions, as_of_date: str | None = None, include_non_matches=False, delivery_history=None, context_by_symbol=None, symbols=None):
+    """Evaluate a screen against selected cached symbols, returning only matches by default."""
+    directory = Path(ohlcv_directory)
+    wanted = {str(symbol).upper() for symbol in symbols} if symbols else None
+    results = []
+    counts = {"match": 0, "no_match": 0, "unavailable": 0}
+    for path in sorted(directory.glob("*.csv")):
+        if wanted is not None and path.stem.upper() not in wanted:
+            continue
+        context = dict(context_by_symbol or {})
+        context["stock"] = (context.get("stocks") or {}).get(path.stem, {})
+        outcome = evaluate_history(pd.read_csv(path), conditions, as_of_date, (delivery_history or {}).get(path.stem, []), context)
+        counts[outcome["status"]] += 1
+        if include_non_matches or outcome["status"] == "match":
+            results.append({"symbol": path.stem, **outcome})
+    return {
+        "generated_at": date.today().isoformat(),
+        "as_of_date": as_of_date,
+        "condition_count": len(conditions),
+        "counts": counts,
+        "results": results,
+    }
+
+
+def evaluate_universe_range(ohlcv_directory, conditions, dates, include_non_matches=False, delivery_history=None, context_for_date=None, symbols=None):
+    """Run a screen independently at each supplied trading-session date.
+
+    Range mode intentionally returns one point-in-time screen per session rather
+    than flattening a condition into an undocumented, ambiguous "range match".
+    """
+    runs = []
+    for session in dates:
+        context = context_for_date(session) if context_for_date else None
+        runs.append(evaluate_universe(
+            ohlcv_directory, conditions, session, include_non_matches,
+            delivery_history, context, symbols,
+        ))
+    return {"mode": "range", "from": dates[0] if dates else None, "to": dates[-1] if dates else None, "runs": runs}

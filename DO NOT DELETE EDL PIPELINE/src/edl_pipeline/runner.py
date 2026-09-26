@@ -26,6 +26,7 @@ from .artifacts import (
     OPTIONAL_SCRIPTS,
     PHASE2_SCRIPTS,
     PHASE4_SCRIPTS,
+    SCANNER_HISTORY_SCRIPT,
     SCRIPT_OUTPUT_SPECS,
 )
 from .config import PipelineConfig
@@ -302,7 +303,9 @@ def main(config=None):
     print("\nPHASE 2: Data Enrichment (Fetching)")
     print("-" * 40)
     for script in PHASE2_SCRIPTS:
-        results[script] = run_script(script, "Phase 2", required=script == "fetch_all_indices.py")
+        results[script] = run_script(
+            script, "Phase 2", required=script in {"fetch_all_indices.py", "fetch_nse_delivery_history.py"},
+        )
 
     if config.fetch_ohlcv:
         print("\nPHASE 2.5: OHLCV History (Smart Incremental)")
@@ -328,9 +331,6 @@ def main(config=None):
     print("\nPHASE 4: Enrichment (Injecting into Master JSON)")
     print("-" * 40)
     for script in PHASE4_SCRIPTS:
-        if script == OHLCV_DERIVED_SCRIPT and not config.fetch_ohlcv:
-            print(f"  SKIP: {script} (EDL_FETCH_OHLCV=0)")
-            continue
         results[script] = run_script(
             script,
             "Phase 4",
@@ -344,6 +344,10 @@ def main(config=None):
     print("\nPHASE 5: Compression (.json -> .json.gz)")
     print("-" * 40)
     raw_size, gz_size = compress_output(include_ohlcv_derived=config.fetch_ohlcv)
+
+    print("\nPHASE 5.5: Scanner point-in-time context")
+    print("-" * 40)
+    results[SCANNER_HISTORY_SCRIPT] = run_script(SCANNER_HISTORY_SCRIPT, "Phase 5.5", required=True)
 
     if config.fetch_optional:
         print("\nPHASE 6: Optional Standalone Data")

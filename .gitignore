@@ -7,6 +7,8 @@ DO NOT DELETE EDL PIPELINE/market_news/
 # OHLCV cache. GitHub Actions caches these; they should not be committed.
 DO NOT DELETE EDL PIPELINE/ohlcv_data/
 DO NOT DELETE EDL PIPELINE/indices_ohlcv_data/
+DO NOT DELETE EDL PIPELINE/delivery_history_data/
+DO NOT DELETE EDL PIPELINE/scanner_history_data/
 
 # Tracked generated outputs
 !DO NOT DELETE EDL PIPELINE/all_stocks_fundamental_analysis.json.gz
@@ -14,6 +16,8 @@ DO NOT DELETE EDL PIPELINE/indices_ohlcv_data/
 !DO NOT DELETE EDL PIPELINE/market_breadth.json.gz
 !DO NOT DELETE EDL PIPELINE/all_indices_list.json
 !DO NOT DELETE EDL PIPELINE/corporate_action_ledger.json.gz
+!DO NOT DELETE EDL PIPELINE/nse_fno_ban.json.gz
+!DO NOT DELETE EDL PIPELINE/rs_rating_daily.json.gz
 !DO NOT DELETE EDL PIPELINE/data_quality.json
 !DO NOT DELETE EDL PIPELINE/pipeline_report.json
 
@@ -32,3 +36,6 @@ __pycache__/
 .ruff_cache/
 build/
 dist/
+
+# Isolated full-refresh staging directories
+DO NOT DELETE EDL PIPELINE/.edl-refresh-*/

@@ -25,6 +25,7 @@ INTERMEDIATE_FILES = [
     "market_breadth.csv",
     "etf_data_response.json",
     "corporate_action_ledger.json",
+    "nse_delivery_data.json",
 ]
 
 INTERMEDIATE_DIRS = [
@@ -40,6 +41,8 @@ FILES_TO_COMPRESS = {
     "breadth_universe_snapshot.json": "breadth_universe_snapshot.json.gz",
     "all_indices_history_v2.json": "all_indices_history_v2.json.gz",
     "corporate_action_ledger.json": "corporate_action_ledger.json.gz",
+    "nse_fno_ban.json": "nse_fno_ban.json.gz",
+    "rs_rating_daily.json": "rs_rating_daily.json.gz",
 }
 
 # The full refresh generates and validates these alongside the stock snapshot.
@@ -67,6 +70,9 @@ PHASE2_SCRIPTS = [
     "fetch_bulk_block_deals.py",
     "fetch_incremental_price_bands.py",
     "fetch_complete_price_bands.py",
+    "fetch_nse_delivery_data.py",
+    "fetch_nse_delivery_history.py",
+    "fetch_nse_fno_ban.py",
     "fetch_all_indices.py",
     "fetch_sme_data.py",
 ]
@@ -75,13 +81,21 @@ PHASE4_SCRIPTS = [
     "advanced_metrics_processor.py",
     "process_earnings_performance.py",
     "enrich_fno_data.py",
+    "enrich_delivery_data.py",
     "process_market_breadth.py",
     "process_historical_market_breadth.py",
+    # This produces breadth_universe_snapshot.json, which is the fixed
+    # universe required to rank relative strength.
+    OHLCV_DERIVED_SCRIPT,
+    "build_rs_ratings.py",
     "add_corporate_events.py",
     "build_corporate_action_ledger.py",
-    OHLCV_DERIVED_SCRIPT,
     "standardize_stock_artifact.py",
 ]
+
+# This runs after the canonical artifact is compressed, so standardisation
+# remains the final mutation of the public stock snapshot.
+SCANNER_HISTORY_SCRIPT = "snapshot_screener_context.py"
 
 OPTIONAL_SCRIPTS = [
     "fetch_etf_data.py",
@@ -128,6 +142,18 @@ SCRIPT_OUTPUT_SPECS = {
     "fetch_complete_price_bands.py": [
         ArtifactSpec("complete_price_bands.json", "json", min_count=1),
     ],
+    "fetch_nse_delivery_data.py": [
+        ArtifactSpec("nse_delivery_data.json", "json", min_count=1, required_fields=("source", "as_of_date", "records")),
+    ],
+    "snapshot_screener_context.py": [
+        ArtifactSpec("scanner_history_data", "dir", min_count=1),
+    ],
+    "fetch_nse_fno_ban.py": [
+        ArtifactSpec("nse_fno_ban.json", "json", required_fields=("source", "available", "trade_date", "symbols")),
+    ],
+    "build_rs_ratings.py": [
+        ArtifactSpec("rs_rating_daily.json", "json", required_fields=("source", "as_of_date", "ratings")),
+    ],
     "fetch_all_indices.py": [
         ArtifactSpec("all_indices_list.json", "json", min_count=1),
     ],
@@ -155,6 +181,9 @@ SCRIPT_OUTPUT_SPECS = {
         ArtifactSpec("all_stocks_fundamental_analysis.json", "json", min_count=1),
     ],
     "enrich_fno_data.py": [
+        ArtifactSpec("all_stocks_fundamental_analysis.json", "json", min_count=1),
+    ],
+    "enrich_delivery_data.py": [
         ArtifactSpec("all_stocks_fundamental_analysis.json", "json", min_count=1),
     ],
     "process_market_breadth.py": [
@@ -202,6 +231,8 @@ FINAL_ARTIFACT_SPECS = [
     ArtifactSpec("breadth_universe_snapshot.json.gz", "gzip_json", required_fields=("generated_at", "eligible", "excluded")),
     ArtifactSpec("all_indices_history_v2.json.gz", "gzip_json", required_fields=("generated_at", "quality", "indices"), nested_min_counts=(("indices", 1),)),
     ArtifactSpec("corporate_action_ledger.json.gz", "gzip_json", required_fields=("source", "price_adjusted", "records")),
+    ArtifactSpec("nse_fno_ban.json.gz", "gzip_json", required_fields=("source", "available", "trade_date", "symbols")),
+    ArtifactSpec("rs_rating_daily.json.gz", "gzip_json", required_fields=("source", "as_of_date", "ratings")),
 ]
 
 SCRIPT_OUTPUT_SPECS[OHLCV_DERIVED_SCRIPT] = [

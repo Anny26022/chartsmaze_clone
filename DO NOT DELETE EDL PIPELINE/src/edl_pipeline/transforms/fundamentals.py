@@ -67,8 +67,11 @@ def load_listing_dates(path=LISTING_DATES_FILE):
             for row in reader:
                 symbol = row.get("SYMBOL")
                 date_list = row.get(" DATE OF LISTING") or row.get("DATE OF LISTING")
-                if symbol and date_list:
-                    listing_date_map[symbol] = date_list
+                if symbol:
+                    listing_date_map[symbol] = {
+                        "listing_date": date_list,
+                        "series": row.get(" SERIES") or row.get("SERIES"),
+                    }
         print(f"Loaded listing dates for {len(listing_date_map)} symbols.")
     except FileNotFoundError:
         print("Warning: nse_equity_list.csv not found.")
@@ -242,21 +245,31 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
     ownership = ownership_fields(shp, market_cap_cr, ltp, total_shares)
     free_float_pct = ownership["Free Float(%)"]
 
+    listing = listing_date_map.get(symbol, {})
+    # Keep the public helper compatible with older callers/tests that pass a
+    # simple symbol -> listing-date map.
+    if not isinstance(listing, dict):
+        listing = {"listing_date": listing}
+
     stock_analysis = {
         "Symbol": symbol,
         "Name": item.get("Name", ""),
-        "Listing Date": listing_date_map.get(symbol, "N/A"),
+        "Listing Date": listing.get("listing_date", "N/A"),
         "ISIN": item.get("ISIN") or item.get("isin"),
         "Security ID": item.get("Sid") or item.get("security_id"),
         "Basic Industry": industry,
         "Sector": sector,
         "Market Cap(Cr.)": market_cap_cr,
         "Latest Quarter": cq.get("YEAR", "").split("|")[0] if cq.get("YEAR") else "N/A",
+        # ScanX exposes ``incomeStat_cq`` and ``incomeStat_sq`` separately;
+        # this pipeline deliberately uses the former, consolidated series.
+        "Earnings Report Type": "CONSOLIDATED",
         **net_profit,
         **eps,
         "EPS Last Year": get_value_from_pipe_string(cy.get("EPS"), 0),
         "EPS 2 Years Back": get_value_from_pipe_string(cy.get("EPS"), 1),
         **sales,
+        **quarterly_metric_fields("PBT", cq, "PBT"),
         "Sales Growth 5 Years(%)": rounded(calculate_cagr(sales_current_annual, sales_5_years_ago, 5)),
         **opm,
         **valuation_fields(cv, ttm_cy, roce_roe, bs_c, eps["EPS Latest Quarter"], eps["YoY % EPS Latest"]),
@@ -277,7 +290,7 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
             "segment": tech.get("Seg", "E"),
             "listing_board": "SME" if sme_record else "MAINBOARD" if sme_map is not None else "UNKNOWN",
             "is_sme": True if sme_record else False if sme_map is not None else None,
-            "listing_series": sme_record.get("Series") if sme_record else None,
+            "listing_series": sme_record.get("Series") if sme_record else listing.get("series"),
             "close": ltp,
             "open": get_optional_float(tech.get("Open")),
             "high": get_optional_float(tech.get("High")),

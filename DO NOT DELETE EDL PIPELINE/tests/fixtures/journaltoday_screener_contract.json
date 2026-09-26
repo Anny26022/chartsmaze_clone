@@ -1,0 +1,17 @@
+{
+  "source": "JournalToday StockScreenerPage v1.0.39 bundle audit",
+  "condition_kinds": [
+    "PERSISTENT_MOMENTUM", "PRICE_VS_EMA", "EMA_SHAKEOUT", "ADX", "PRICE_VS_SMA", "PCT_DAYS_ABOVE_MA", "MA_STACK", "MA_SLOPE",
+    "PRICE_CHANGE_PCT", "CONSECUTIVE_UP_DAYS", "GAP_UP", "GAP_DOWN", "VOLUME_VS_AVG", "AVG_VOLUME_RATIO", "HIGHEST_VOLUME_IN_N_DAYS", "DELIVERY_PCT_SPIKE",
+    "NEW_HIGH", "NEW_LOW", "PCT_FROM_52W_HIGH", "PCT_FROM_52W_LOW", "CONSOLIDATION_RANGE", "ATR_PCT", "RANGE_CONTRACTION", "INSIDE_BAR", "UNFILLED_GAP", "VCP_LEGS", "HORIZONTAL_RESISTANCE_LINE",
+    "RELATIVE_STRENGTH", "RS_NEW_HIGH", "RS_RATING", "MARKETCAP", "FF_MARKETCAP", "PE_RATIO", "EARNINGS_GROWTH", "DAYS_SINCE_EARNINGS", "SECTOR", "INDUSTRY", "AVG_TURNOVER", "ADR_PCT", "PRICE_RANGE", "PRICE_BAND", "CIRCUIT_BAND_MIN", "SERIES", "LISTING_AGE_DAYS", "INDEX_MEMBERSHIP", "MARKET_BREADTH", "FNO_BAN"
+  ],
+  "expression_example": {
+    "type": "group",
+    "op": "OR",
+    "children": [
+      {"type": "condition", "kind": "PRICE_CHANGE_PCT", "params": {"overDays": 5, "comparison": "ABOVE", "pct": 1}},
+      {"type": "condition", "kind": "ADX", "params": {"period": 1000, "comparison": "ABOVE", "value": 25}}
+    ]
+  }
+}

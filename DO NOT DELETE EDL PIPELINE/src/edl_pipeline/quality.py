@@ -8,6 +8,46 @@ import os
 from .validators import strict_json_load
 
 
+MIN_DELIVERY_HISTORY_SESSIONS = 252
+
+
+def inspect_delivery_history(root, reference_session):
+    """Audit the cached official NSE daily-delivery files used by the scanner.
+
+    A latest delivery snapshot alone is insufficient for a ``fired_within``
+    delivery rule.  Treat missing sessions as missing data, never as zero
+    delivery, and require an actual file for the benchmark screen date.
+    """
+    cache = root / "delivery_history_data"
+    sessions = []
+    latest_records = []
+    for path in sorted(cache.glob("????-??-??.json")):
+        try:
+            payload = read_json(path)
+            records = payload.get("records", [])
+        except (OSError, ValueError, AttributeError):
+            continue
+        if not isinstance(records, list) or not records or payload.get("date") != path.stem:
+            continue
+        if any(item.get("date") == path.stem for item in records if isinstance(item, dict)):
+            sessions.append(path.stem)
+            if path.stem == reference_session:
+                latest_records = records
+    current_equities = sum(
+        str(item.get("series") or "").upper() == "EQ"
+        for item in latest_records if isinstance(item, dict)
+    )
+    return {
+        "minimum_required_sessions": MIN_DELIVERY_HISTORY_SESSIONS,
+        "cached_sessions": len(sessions),
+        "oldest_session": sessions[0] if sessions else None,
+        "latest_session": sessions[-1] if sessions else None,
+        "reference_session_present": bool(latest_records),
+        "reference_session_records": len(latest_records),
+        "reference_session_equity_records": current_equities,
+    }
+
+
 def read_json(path):
     opener = gzip.open if path.suffix == ".gz" else open
     with opener(path, "rt", encoding="utf-8") as handle:
@@ -39,6 +79,8 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
         breadth = read_json(root / "market_breadth_v2.json.gz")
         universe = read_json(root / "breadth_universe_snapshot.json.gz")
         ledger = read_json(root / "corporate_action_ledger.json.gz")
+        fno_ban = read_json(root / "nse_fno_ban.json.gz")
+        rs_ratings = read_json(root / "rs_rating_daily.json.gz")
         source = read_json(root / "master_isin_map.json")
         for name in ("sector_analytics.json.gz", "all_indices_list.json"):
             read_json(root / name)
@@ -54,6 +96,18 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
             errors.append("v2 outputs were not generated together today")
         if breadth["records"][-1]["date"] != session.isoformat():
             errors.append("breadth and benchmark sessions differ")
+        if rs_ratings.get("as_of_date") != session.isoformat():
+            errors.append("RS ratings and benchmark sessions differ")
+        delivery_history = inspect_delivery_history(root, session.isoformat())
+        if delivery_history["cached_sessions"] < MIN_DELIVERY_HISTORY_SESSIONS:
+            errors.append(
+                "delivery-history coverage below "
+                f"{MIN_DELIVERY_HISTORY_SESSIONS} sessions: {delivery_history['cached_sessions']}"
+            )
+        if not delivery_history["reference_session_present"]:
+            errors.append("delivery-history has no date-aligned file for benchmark session")
+        if fno_ban.get("available") and not fno_ban.get("trade_date"):
+            errors.append("available F&O-ban report has no trade date")
         with gzip.open(root / "market_breadth.json.gz", "rt", encoding="utf-8") as handle:
             legacy = list(csv.reader(handle))
         legacy_dates = [date.fromisoformat(value) for value in legacy[0][1:]]
@@ -104,7 +158,7 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
         index_current = sum(x["as_of_date"] == session.isoformat() for x in index_availability)
         if not index_availability or index_current / len(index_availability) < 0.90:
             errors.append("current index-history coverage below 90%")
-        coverage_fields = ("listing_date", "sector", "industry", "circuit_limit", "fno_eligible")
+        coverage_fields = ("listing_date", "sector", "industry", "circuit_limit", "fno_eligible", "delivery_percent")
         coverage = {
             field: {
                 "available": sum(stock.get(field) is not None for stock in stocks),
@@ -127,6 +181,12 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
                                               "price_actions_requiring_verified_ratio": sum(record.get("adjustment_status") == "requires_verified_ratio" for record in ledger.get("records", [])),
                                               "action_type_counts": dict(action_counts),
                                               "price_adjusted": ledger.get("price_adjusted")},
+                "fno_ban": {"available": bool(fno_ban.get("available")), "trade_date": fno_ban.get("trade_date"),
+                            "symbols": len(fno_ban.get("symbols", []))},
+                "rs_ratings": {"as_of_date": rs_ratings.get("as_of_date"),
+                               "universe_count": rs_ratings.get("liquid_universe_count"),
+                               "ratings": len(rs_ratings.get("ratings", {}))},
+                "delivery_history": delivery_history,
                 "missing_field_counts": dict(Counter(k for row in availability for k in row["missing_fields"])),
                 "symbols": availability, "indices": index_availability, "errors": errors}
     except (ValueError, KeyError, TypeError, IndexError, StopIteration, OSError) as error:

@@ -23,6 +23,8 @@ from enrich_fno_data import fetch_next_expiry, lookup_expiry, normalized_symbol
 from fetch_fno_lot_sizes import clean_lot_size_item
 from advanced_metrics_processor import merge_historical_metrics, process_symbol_csv
 from standardize_stock_artifact import canonicalize_stock
+from nse_delivery import normalize_row
+from enrich_delivery_data import apply_delivery_data
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from process_market_breadth import generate_analytics
 from nse_archive_utils import clean_records
@@ -41,6 +43,39 @@ from edl_pipeline.schemas import REQUIRED_FINAL_FIELDS
 
 
 class TransformTests(unittest.TestCase):
+    def test_nse_delivery_adapter_normalizes_full_bhavcopy_row(self):
+        row = normalize_row({
+            "SYMBOL": "RELIANCE", " SERIES": "EQ", " DATE1": "25-Sep-2026",
+            " TTL_TRD_QNTY": 13138735, " DELIV_QTY": 8311348, " DELIV_PER": 63.26,
+        })
+        self.assertEqual(row, {
+            "symbol": "RELIANCE", "series": "EQ", "date": "2026-09-25",
+            "traded_quantity": 13138735, "deliverable_quantity": 8311348,
+            "delivery_percent": 63.26,
+            "source": "NSE daily full bhavcopy and security deliverable data",
+        })
+
+    def test_delivery_enrichment_uses_only_the_latest_record_per_symbol(self):
+        stocks = [{"Symbol": "RELIANCE"}, {"Symbol": "NO_RECORD"}]
+        applied = apply_delivery_data(stocks, [
+            {"symbol": "RELIANCE", "date": "2026-09-24", "delivery_percent": 61.28,
+             "deliverable_quantity": 8, "traded_quantity": 10, "series": "EQ"},
+            {"symbol": "RELIANCE", "date": "2026-09-25", "delivery_percent": 63.26,
+             "deliverable_quantity": 9, "traded_quantity": 11, "series": "EQ"},
+        ])
+        self.assertEqual(applied, 1)
+        self.assertEqual(stocks[0]["Delivery %"], 63.26)
+        self.assertEqual(stocks[0]["Delivery As Of Date"], "2026-09-25")
+        self.assertNotIn("Delivery %", stocks[1])
+
+    def test_standardization_keeps_delivery_fields_and_nulls(self):
+        result = canonicalize_stock({"Symbol": "RELIANCE", "Delivery %": 63.26,
+                                     "Deliverable Quantity": 8, "Delivery Traded Quantity": 10,
+                                     "Delivery As Of Date": "2026-09-25", "Delivery Series": "EQ"})
+        self.assertEqual(result["delivery_percent"], 63.26)
+        self.assertEqual(result["delivery_as_of_date"], "2026-09-25")
+        self.assertEqual(result["delivery_series"], "EQ")
+
     def test_build_master_map_filters_missing_ids_and_sorts_symbols(self):
         stocks = [
             {"Sym": "BETA", "Isin": "INB", "DispSym": "Beta Ltd", "Sid": 2, "FnoFlag": 1},
@@ -78,6 +113,7 @@ class TransformTests(unittest.TestCase):
                 "NET_PROFIT": "10|5|4|3|2",
                 "EPS": "2|1|0.5|0.25|1",
                 "SALES": "100|80|70|60|50",
+                "PBT": "40|20|15|10|8",
                 "OPM": "20|15|10|5|10",
             },
             "incomeStat_cy": {"EPS": "8|6", "SALES": "200|180|160|140|120|100"},
@@ -125,6 +161,7 @@ class TransformTests(unittest.TestCase):
 
         self.assertEqual(result["QoQ % Net Profit Latest"], 100.0)
         self.assertEqual(result["YoY % Net Profit Latest"], 400.0)
+        self.assertEqual(result["QoQ % PBT Latest"], 100.0)
         self.assertAlmostEqual(result["Sales Growth 5 Years(%)"], 14.87, places=2)
         self.assertEqual(result["D/E"], 0.5)
         self.assertEqual(result["PEG"], 0.2)

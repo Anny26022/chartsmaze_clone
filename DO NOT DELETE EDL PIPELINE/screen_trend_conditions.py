@@ -1,0 +1,208 @@
+"""Run a daily trend screen against the locally cached OHLCV universe."""
+
+import argparse
+import gzip
+import json
+from pathlib import Path
+import sys
+
+import pandas as pd
+
+ROOT = Path(__file__).resolve().parent
+SRC = ROOT / "src"
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
+
+from edl_pipeline.scanner.history import load_snapshot
+from edl_pipeline.scanner.presets import get_preset, list_presets, validate_preset_library
+from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_universe, evaluate_universe_range
+
+
+def _read_json(path):
+    if not path.exists():
+        return None
+    opener = gzip.open if path.suffix == ".gz" else open
+    with opener(path, "rt", encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def _benchmark_keys(index):
+    values = (index.get("symbol"), index.get("name"))
+    keys = {str(value).upper().replace(" ", "_") for value in values if value}
+    if "NIFTY_50" in keys or "NIFTY50" in keys:
+        keys.add("NIFTY_50")
+    if "NIFTY_MIDSMALLCAP_400" in keys or "NIFTY_MIDSMALL_400" in keys:
+        keys.add("NIFTY_MIDSMALL400")
+    return keys
+
+
+def _load_context(root, as_of_date=None, stock_path=None, index_path=None, breadth_path=None):
+    stocks = _read_json(stock_path or (root / "all_stocks_fundamental_analysis.json.gz")) or []
+    index_artifact = _read_json(index_path or (root / "all_indices_history_v2.json.gz")) or {}
+    benchmarks = {}
+    for index in index_artifact.get("indices", []):
+        records = pd.DataFrame(index.get("records", []))
+        if records.empty or not {"date", "close"}.issubset(records):
+            continue
+        records["Date"] = pd.to_datetime(records["date"], errors="coerce")
+        records["close"] = pd.to_numeric(records["close"], errors="coerce")
+        records = records.dropna(subset=("Date", "close"))
+        for key in _benchmark_keys(index):
+            benchmarks[key] = records
+    breadth_artifact = _read_json(breadth_path or (root / "market_breadth_v2.json.gz")) or {}
+    records = breadth_artifact.get("records") or []
+    latest = records[-1:] or []
+    current_session = latest[0].get("date") if latest else None
+    saved = load_snapshot(root / "scanner_history_data", as_of_date)
+    if saved:
+        stocks = saved.get("stocks") or []
+        for stock in stocks:
+            stock["as_of_date"] = as_of_date
+        latest = [saved["breadth"]] if saved.get("breadth") else []
+    breadth = {}
+    if latest:
+        row = latest[0]
+        all_active = {
+            "pct_above_sma10": row.get("above_10_pct"), "pct_above_sma20": row.get("above_20_pct"),
+            "pct_above_sma50": row.get("above_50_pct"), "pct_above_sma200": row.get("above_200_pct"),
+            "ad_ratio_sma10": row.get("ratio_10"),
+            "volume_ratio20": (row.get("volume_above_20", 0) / row.get("volume_below_or_equal_20")) if row.get("volume_below_or_equal_20") else None,
+        }
+        breadth["all_active"] = all_active
+    ban = (saved or {}).get("fno_ban") or _read_json(root / "nse_fno_ban.json") or _read_json(root / "nse_fno_ban.json.gz") or {}
+    fno_ban_symbols = {str(symbol).upper(): True for symbol in ban.get("symbols", [])}
+    rs_artifact = _read_json(root / "rs_rating_daily.json") or _read_json(root / "rs_rating_daily.json.gz") or {}
+    return {"stocks": {item.get("symbol"): item for item in stocks if item.get("symbol")}, "benchmarks": benchmarks, "breadth": breadth, "breadth_as_of": latest[0].get("date") if latest else None, "fno_ban_symbols": fno_ban_symbols, "fno_ban_available": ban.get("available", False), "fno_ban_trade_date": ban.get("trade_date"), "rs_ratings": rs_artifact.get("ratings", rs_artifact), "rs_ratings_as_of": rs_artifact.get("as_of_date"), "membership_snapshot_available": bool(saved) or not as_of_date or as_of_date == current_session}
+
+
+def _symbols_from_text(value):
+    return {part.strip().upper() for part in str(value or "").replace("\n", ",").split(",") if part.strip()}
+
+
+def _resolve_universe(context, universe, explicit_symbols):
+    """Resolve the bundle's named stock universes against dated membership data."""
+    if explicit_symbols:
+        return sorted(explicit_symbols)
+    universe = str(universe or "UNIVERSE").upper()
+    if universe == "UNIVERSE":
+        return None
+    if not context.get("membership_snapshot_available"):
+        raise ValueError("The requested historical date has no dated index-membership snapshot.")
+    targets = {
+        "NIFTY50": {"NIFTY 50", "NIFTY50"},
+        "MIDSMALL400": {"NIFTY MIDSMALLCAP 400", "NIFTY MIDSMALL 400", "MIDSMALL400"},
+        "NIFTY500": {"NIFTY 500", "NIFTY500"},
+    }.get(universe)
+    if targets is None:
+        raise ValueError(f"Unsupported scan universe: {universe}")
+    return sorted(
+        symbol for symbol, stock in context.get("stocks", {}).items()
+        if {str(value).upper() for value in stock.get("index_memberships", [])} & targets
+    )
+
+
+def _range_sessions(root, start, end):
+    path = root / "indices_ohlcv_data" / "NIFTY.csv"
+    if not path.exists():
+        raise ValueError("Range screens need the cached NIFTY index history.")
+    dates = pd.to_datetime(pd.read_csv(path)["Date"], errors="coerce").dropna().dt.strftime("%Y-%m-%d")
+    return [value for value in dates if start <= value <= end]
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--request", type=Path, help="JSON request with a non-empty conditions array or preset ID")
+    parser.add_argument("--preset", help="Run a vendored preset by lib-* ID or exact name")
+    parser.add_argument("--output", type=Path, help="Write JSON result here; otherwise print it")
+    parser.add_argument("--as-of-date", help="Use the latest session on or before YYYY-MM-DD")
+    parser.add_argument("--as-of-from", help="Run independently for each NIFTY session from YYYY-MM-DD")
+    parser.add_argument("--as-of-to", help="Run independently for each NIFTY session through YYYY-MM-DD")
+    parser.add_argument("--symbols", help="Comma/newline-separated symbol universe")
+    parser.add_argument("--universe", choices=("UNIVERSE", "NIFTY50", "MIDSMALL400", "NIFTY500"))
+    parser.add_argument("--delivery-history", type=Path, help="JSON delivery-history artifact with a records array")
+    parser.add_argument("--stock-snapshot", type=Path, help="Canonical stock snapshot (.json or .json.gz)")
+    parser.add_argument("--index-history", type=Path, help="Index history artifact (.json or .json.gz)")
+    parser.add_argument("--breadth", type=Path, help="Market breadth artifact (.json or .json.gz)")
+    parser.add_argument("--fno-ban", type=Path, help="Official NSE F&O ban snapshot JSON")
+    parser.add_argument("--rs-ratings", type=Path, help="Daily RS-rating snapshot JSON")
+    parser.add_argument("--include-non-matches", action="store_true")
+    parser.add_argument("--list-conditions", action="store_true")
+    parser.add_argument("--list-presets", action="store_true")
+    args = parser.parse_args(argv)
+    if args.list_conditions:
+        print(json.dumps(CONDITION_REGISTRY, indent=2, sort_keys=True))
+        return 0
+    if args.list_presets:
+        print(json.dumps(list_presets(), indent=2, ensure_ascii=False))
+        return 0
+    if args.request and args.preset:
+        parser.error("Use either --request or --preset, not both")
+    if not args.request and not args.preset:
+        parser.error("--request or --preset is required unless listing definitions")
+    request = json.loads(args.request.read_text()) if args.request else {}
+    preset_id = args.preset or request.get("preset") or request.get("preset_id")
+    preset = get_preset(preset_id) if preset_id else None
+    if preset and (request.get("expression") or request.get("conditions")):
+        parser.error("A preset request must not also supply expression or conditions")
+    conditions = (preset or {}).get("expression") or request.get("expression", request.get("conditions"))
+    if not conditions:
+        parser.error("request.expression or request.conditions must be non-empty")
+    validate_preset_library(CONDITION_REGISTRY)
+    delivery_history = {}
+    delivery_path = args.delivery_history or (ROOT / "delivery_history_data")
+    paths = sorted(delivery_path.glob("*.json")) if delivery_path.is_dir() else [delivery_path]
+    for path in paths:
+        if not path.exists():
+            continue
+        records = json.loads(path.read_text()).get("records", [])
+        for item in records:
+            if isinstance(item, dict) and item.get("symbol"):
+                delivery_history.setdefault(item["symbol"], []).append(item)
+    as_of_date = args.as_of_date or request.get("as_of_date")
+    context = _load_context(ROOT, as_of_date, args.stock_snapshot, args.index_history, args.breadth)
+    if args.fno_ban:
+        artifact = _read_json(args.fno_ban) or {}
+        context["fno_ban_symbols"] = {str(symbol).upper(): True for symbol in artifact.get("symbols", [])}
+        context["fno_ban_available"] = artifact.get("available", True)
+        context["fno_ban_trade_date"] = artifact.get("trade_date")
+    if args.rs_ratings:
+        artifact = _read_json(args.rs_ratings) or {}
+        context["rs_ratings"] = artifact.get("ratings", artifact)
+        context["rs_ratings_as_of"] = artifact.get("as_of_date")
+    explicit_symbols = _symbols_from_text(args.symbols or request.get("symbols"))
+    universe = args.universe or request.get("scan_universe") or request.get("scanUniverse") or "UNIVERSE"
+    selected_symbols = _resolve_universe(context, universe, explicit_symbols)
+    include_non_matches = args.include_non_matches or bool(request.get("include_non_matches"))
+    from_date = args.as_of_from or request.get("as_of_from") or request.get("asOfFrom")
+    to_date = args.as_of_to or request.get("as_of_to") or request.get("asOfTo")
+    if bool(from_date) != bool(to_date):
+        parser.error("--as-of-from and --as-of-to must be supplied together")
+    if from_date:
+        dates = _range_sessions(ROOT, from_date, to_date)
+        result = evaluate_universe_range(
+            ROOT / "ohlcv_data", conditions, dates, include_non_matches, delivery_history,
+            lambda session: _load_context(ROOT, session, args.stock_snapshot, args.index_history, args.breadth),
+            selected_symbols,
+        )
+    else:
+        result = evaluate_universe(
+            ROOT / "ohlcv_data", conditions, as_of_date, include_non_matches,
+            delivery_history, context, selected_symbols,
+        )
+    if preset:
+        result["preset"] = {
+            "id": preset["id"], "name": preset["name"], "category": preset["category"],
+            "horizon": preset["horizon"], "description": preset["description"],
+            "rules": preset["rules"],
+        }
+    rendered = json.dumps(result, indent=2, allow_nan=False)
+    if args.output:
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(rendered + "\n")
+    else:
+        print(rendered)
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
