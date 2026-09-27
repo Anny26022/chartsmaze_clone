@@ -51,6 +51,11 @@ class IntegrityTests(unittest.TestCase):
                 ["NSE:ABC"], {"NSE:ABC": {"202606": "result.pdf"}},
             )
         self.assertEqual(dates, {"result.pdf": "2026-08-11"})
+        with mock.patch.object(fetch_stockscans_financials, "post_json", side_effect=ValueError("bad response")):
+            self.assertEqual(
+                fetch_stockscans_financials.announcement_dates(["NSE:ABC"], {"NSE:ABC": {"202606": "result.pdf"}}),
+                {},
+            )
 
     def test_stockscans_candidates_include_stale_or_incomplete_consolidated_only(self):
         now = datetime(2026, 9, 28, tzinfo=timezone.utc)

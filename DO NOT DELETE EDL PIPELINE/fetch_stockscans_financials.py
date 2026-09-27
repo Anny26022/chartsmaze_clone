@@ -127,7 +127,12 @@ def announcement_dates(company_ids, result_urls):
     for _page in range(MAX_ANNOUNCEMENT_PAGES):
         if not pending:
             break
-        payload = post_json(ANNOUNCEMENTS_URL, {"companyIds": company_ids, "offset": offset})
+        try:
+            payload = post_json(ANNOUNCEMENTS_URL, {"companyIds": company_ids, "offset": offset})
+        except (requests.RequestException, ValueError):
+            # A failed announcement batch must leave its records unverified,
+            # not discard successful statements from other batches.
+            break
         rows = payload.get("companyAnnouncements", [])
         if not isinstance(rows, list) or not rows:
             break
@@ -153,7 +158,7 @@ def fetch_statement_and_documents(item):
         statement = normalize_statement(company_id, get_json(STATEMENT_URL.format(company_id=encoded_company_id)))
         documents = result_documents(encoded_company_id)
         return symbol, {"statement": statement, "documents": documents}
-    except requests.RequestException:
+    except (requests.RequestException, ValueError):
         return symbol, None
 
 
