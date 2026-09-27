@@ -10,7 +10,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from edl_pipeline.scanner.history import build_snapshot, load_snapshot
-from edl_pipeline.scanner.earnings import merge_observations
+from edl_pipeline.scanner.earnings import merge_observations, select_observation
 
 
 class ScannerHistoryTests(unittest.TestCase):
@@ -46,3 +46,14 @@ class ScannerHistoryTests(unittest.TestCase):
             saved = load_snapshot(Path(directory), "2026-06-01")
         self.assertEqual(saved["stocks"][0]["latest_quarter"], "202603")
         self.assertEqual(saved["stocks"][0]["yoy_percent_net_profit_latest"], 10)
+
+    def test_earnings_observed_after_screen_date_are_not_backfilled(self):
+        observations = [{
+            "symbol": "RELIANCE", "announcement_date": "2026-08-01",
+            "observed_on": "2026-09-25", "latest_quarter": "202606",
+        }]
+        self.assertIsNone(select_observation(observations, "RELIANCE", "2026-08-15"))
+        self.assertEqual(
+            select_observation(observations, "RELIANCE", "2026-09-25")["latest_quarter"],
+            "202606",
+        )

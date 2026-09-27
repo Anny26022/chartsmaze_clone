@@ -75,8 +75,10 @@ def merge_observations(existing: Iterable[dict], stocks: Iterable[dict], observe
 def select_observation(observations: Iterable[dict], symbol: str, as_of_date: str) -> dict | None:
     """Select the newest filing publicly available on ``as_of_date``.
 
-    ``observed_on`` is retained for provenance; filing date is the availability
-    boundary because it is the event date surfaced by the exchange filing feed.
+    Both the exchange filing date and the date on which this pipeline observed
+    the provider snapshot must be on or before the screen date.  The latter
+    prevents a quarterly value first collected today from being projected into
+    an older historical screen, even when its reported filing date is older.
     """
     as_of = _iso_date(as_of_date)
     if not as_of:
@@ -85,7 +87,9 @@ def select_observation(observations: Iterable[dict], symbol: str, as_of_date: st
         item for item in observations
         if str(item.get("symbol") or "").upper() == str(symbol).upper()
         and (announcement := _iso_date(item.get("announcement_date"))) is not None
+        and (observed_on := _iso_date(item.get("observed_on"))) is not None
         and announcement <= as_of
+        and observed_on <= as_of
     ]
     if not candidates:
         return None
