@@ -198,7 +198,7 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         basis = str(spec.get("basis", "yoy")).lower()
         requested_report_type = str(spec.get("report_type", "")).upper()
         actual_report_type = str(_value(stock, "earnings_report_type") or "").upper()
-        if requested_report_type == "PREFER_CONSOLIDATED" and actual_report_type not in {"CONSOLIDATED", "C"}:
+        if requested_report_type in {"CONSOLIDATED", "C"} and actual_report_type not in {"CONSOLIDATED", "C"}:
             return unavailable(condition, "consolidated_earnings_unavailable")
         prefix = {"net_profit": "net_profit", "revenue": "sales", "eps": "eps", "pbt": "pbt"}.get(metric)
         if prefix is None:

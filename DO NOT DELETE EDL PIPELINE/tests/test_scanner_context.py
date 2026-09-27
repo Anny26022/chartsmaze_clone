@@ -76,18 +76,23 @@ class ScannerContextTests(unittest.TestCase):
             {"pe_snapshot_not_aligned_to_screen_date", "snapshot_not_aligned_to_screen_date", "earnings_snapshot_not_aligned_to_screen_date"},
         )
 
-    def test_consolidated_earnings_request_fails_closed_when_statement_type_is_unknown(self):
+    def test_prefer_consolidated_permits_standalone_fallback_but_strict_does_not(self):
         frame = history()
         stock = {
             "symbol": "TEST", "as_of_date": "2026-02-24", "latest_earnings_date": "2026-02-01",
-            "yoy_percent_net_profit_latest": 25,
+            "earnings_report_type": "STANDALONE", "yoy_percent_net_profit_latest": 25,
         }
-        result = evaluate_history(frame, [{
+        preferred = evaluate_history(frame, [{
             "kind": "EARNINGS_GROWTH",
             "params": {"metric": "NET_PROFIT", "basis": "YOY", "comparison": "ABOVE", "pct": 10, "reportType": "PREFER_CONSOLIDATED"},
         }], context={"stock": stock})
-        self.assertEqual(result["status"], "unavailable")
-        self.assertEqual(result["conditions"][0]["details"]["reason"], "consolidated_earnings_unavailable")
+        strict = evaluate_history(frame, [{
+            "kind": "EARNINGS_GROWTH",
+            "params": {"metric": "NET_PROFIT", "basis": "YOY", "comparison": "ABOVE", "pct": 10, "reportType": "CONSOLIDATED"},
+        }], context={"stock": stock})
+        self.assertEqual(preferred["status"], "match")
+        self.assertEqual(strict["status"], "unavailable")
+        self.assertEqual(strict["conditions"][0]["details"]["reason"], "consolidated_earnings_unavailable")
 
     def test_fno_ban_parser_accepts_an_empty_report_and_symbols(self):
         self.assertEqual(parse_report("Securities in Ban For Trade Date 28-SEP-2026:\n"), ("2026-09-28", []))

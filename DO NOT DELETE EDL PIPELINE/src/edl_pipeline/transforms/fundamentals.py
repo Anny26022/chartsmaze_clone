@@ -117,6 +117,52 @@ def quarterly_metric_fields(prefix, source, pipe_name):
     }
 
 
+def _quarterly_period(source):
+    """Return the newest provider period represented by a quarterly series."""
+    value = str((source or {}).get("YEAR") or "").split("|")[0]
+    if len(value) == 6 and value.isdigit():
+        return int(value)
+    return None
+
+
+def _has_complete_quarterly_series(source):
+    """Require one coherent latest quarter before selecting a statement type."""
+    return all(get_value_from_pipe_string((source or {}).get(metric), 0) is not None
+               for metric in ("NET_PROFIT", "SALES", "EPS"))
+
+
+def select_quarterly_statement(consolidated, standalone):
+    """Prefer a current consolidated series, otherwise use a current standalone one.
+
+    ScanX legitimately omits consolidated statements for many companies and
+    sometimes returns an obsolete consolidated series alongside a current
+    standalone statement.  ``PREFER_CONSOLIDATED`` means retain the former
+    when it is current, not discard a usable latter statement.
+    """
+    consolidated_period = _quarterly_period(consolidated)
+    standalone_period = _quarterly_period(standalone)
+    consolidated_ok = _has_complete_quarterly_series(consolidated)
+    standalone_ok = _has_complete_quarterly_series(standalone)
+
+    if consolidated_ok and (
+        not standalone_ok
+        or consolidated_period is None
+        or standalone_period is None
+        or consolidated_period >= standalone_period
+    ):
+        return consolidated, "CONSOLIDATED"
+    if standalone_ok:
+        return standalone, "STANDALONE"
+    # Keep a partial consolidated record visible to non-scanner consumers, but
+    # label it accurately so a condition requiring a complete report fails
+    # closed rather than pretending it is a valid consolidated statement.
+    if consolidated_period is not None:
+        return consolidated, "CONSOLIDATED"
+    if standalone_period is not None:
+        return standalone, "STANDALONE"
+    return {}, "UNAVAILABLE"
+
+
 def valuation_fields(cv, ttm_cy, roce_roe, bs_c, eps_latest, yoy_eps):
     roe = get_float(roce_roe.get("ROE"))
     roce = get_float(roce_roe.get("ROCE"))
@@ -215,7 +261,9 @@ def classic_pivot(advanced_tech):
 
 def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
     symbol = item.get("Symbol", "UNKNOWN")
-    cq = item.get("incomeStat_cq", {})
+    cq, earnings_report_type = select_quarterly_statement(
+        item.get("incomeStat_cq", {}), item.get("incomeStat_sq", {}),
+    )
     cy = item.get("incomeStat_cy", {})
     ttm_cy = item.get("TTM_cy", {})
     cv = item.get("CV", {})
@@ -261,9 +309,7 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
         "Sector": sector,
         "Market Cap(Cr.)": market_cap_cr,
         "Latest Quarter": cq.get("YEAR", "").split("|")[0] if cq.get("YEAR") else "N/A",
-        # ScanX exposes ``incomeStat_cq`` and ``incomeStat_sq`` separately;
-        # this pipeline deliberately uses the former, consolidated series.
-        "Earnings Report Type": "CONSOLIDATED",
+        "Earnings Report Type": earnings_report_type,
         **net_profit,
         **eps,
         "EPS Last Year": get_value_from_pipe_string(cy.get("EPS"), 0),

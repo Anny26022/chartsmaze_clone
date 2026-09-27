@@ -198,6 +198,18 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["ISIN"], "INE000000001")
         self.assertEqual(result["Security ID"], 123)
 
+    def test_analyze_stock_falls_back_to_current_standalone_statement(self):
+        item = {
+            "Symbol": "ABC", "incomeStat_cq": {"YEAR": "201609", "NET_PROFIT": "1", "SALES": "1", "EPS": "1"},
+            "incomeStat_sq": {
+                "YEAR": "202606|202506", "NET_PROFIT": "12|10|8|7|6", "SALES": "120|100|80|70|60", "EPS": "2|1.8|1.6|1.4|1",
+            },
+        }
+        result = analyze_stock(item, {}, {}, {})
+        self.assertEqual(result["Earnings Report Type"], "STANDALONE")
+        self.assertEqual(result["Latest Quarter"], "202606")
+        self.assertEqual(result["YoY % Net Profit Latest"], 100.0)
+
     def test_fno_expiry_lookup_prefers_security_id_then_normalized_symbol(self):
         self.assertEqual(normalized_symbol('M&M-EQ'), 'MM')
         self.assertEqual(lookup_expiry({'MM':'2026-10-01'}, {'123':'2026-09-29'}, 'M&M-EQ', 123), '2026-09-29')
