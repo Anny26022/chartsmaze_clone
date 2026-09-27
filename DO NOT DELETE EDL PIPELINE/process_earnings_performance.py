@@ -10,11 +10,31 @@ FILINGS_DIR = os.path.join(BASE_DIR, "company_filings")
 OHLCV_DIR = os.path.join(BASE_DIR, "ohlcv_data")
 MASTER_JSON = os.path.join(BASE_DIR, "all_stocks_fundamental_analysis.json")
 
+
+def is_financial_results_filing(filing):
+    """Recognize an actual results disclosure from either ScanX filing feed.
+
+    ``company_filings`` labels results directly, whereas the newer LODR feed
+    commonly labels the same disclosure ``Outcome of Board Meeting``.  A board
+    meeting *intimation* is not a result, so it must not advance the earnings
+    date before the figures are approved.
+    """
+    descriptor = str(filing.get("descriptor") or "").casefold()
+    if descriptor == "financial results":
+        return True
+    if "outcome" not in descriptor:
+        return False
+    text = " ".join(str(filing.get(key) or "") for key in ("caption", "news_body")).casefold()
+    return "financial result" in text and (
+        "approved" in text or "taken on record" in text or "considered and approved" in text
+    )
+
+
 def get_earnings_info(filing_path):
     """Extract latest results date and time"""
     try:
         filings = load_json(filing_path).get("data", [])
-        results = [f for f in filings if f.get("descriptor") == "Financial Results"]
+        results = [f for f in filings if is_financial_results_filing(f)]
         if not results: return None, None
         results.sort(key=lambda x: x.get("news_date", ""), reverse=True)
         return results[0].get("news_date", ""), results[0].get("descriptor")

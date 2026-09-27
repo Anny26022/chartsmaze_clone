@@ -16,7 +16,7 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 from advanced_metrics_processor import process_symbol_csv
-from process_earnings_performance import calculate_earnings_metrics
+from process_earnings_performance import calculate_earnings_metrics, get_earnings_info, is_financial_results_filing
 from edl_pipeline.quality import inspect_delivery_history
 import fetch_fundamental_data
 from pipeline_utils import save_json
@@ -29,6 +29,24 @@ from build_corporate_action_ledger import build_ledger
 
 
 class IntegrityTests(unittest.TestCase):
+    def test_earnings_date_accepts_approved_lodr_outcome_not_intimation(self):
+        approved = {
+            "descriptor": "Outcome of Board Meeting",
+            "news_date": "2026-07-27 18:07:24",
+            "news_body": "The Board approved the unaudited financial results for the quarter ended June 30 2026.",
+        }
+        intimation = {
+            "descriptor": "Board Meeting",
+            "news_date": "2026-07-20 16:46:00",
+            "news_body": "Meeting scheduled to consider unaudited financial results for the quarter ended June 30 2026.",
+        }
+        self.assertTrue(is_financial_results_filing(approved))
+        self.assertFalse(is_financial_results_filing(intimation))
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".json") as handle:
+            json.dump({"data": [intimation, approved]}, handle)
+            handle.flush()
+            self.assertEqual(get_earnings_info(handle.name)[0], "2026-07-27 18:07:24")
+
     def history(self, root, count, flat=False):
         rows = []
         for i, day in enumerate(pd.bdate_range('2025-01-01', periods=count)):
