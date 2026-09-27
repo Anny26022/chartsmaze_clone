@@ -10,6 +10,7 @@ as-of-date scanner snapshot.
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 import os
+from threading import Event
 import time
 
 import requests
@@ -23,8 +24,8 @@ OUTPUT_FILE = "stockscans_financial_data.json"
 STATEMENT_URL = "https://www.stockscans.in/api/company/fundamentals/statements/{company_id}/C"
 DOCUMENTS_URL = "https://www.stockscans.in/api/company/fundamentals/documents/{company_id}"
 ANNOUNCEMENTS_URL = "https://www.stockscans.in/api/company/fundamentals/announcements"
-MAX_WORKERS = int(os.getenv("STOCKSCANS_MAX_WORKERS", "4"))
-REQUEST_DELAY_SECONDS = float(os.getenv("STOCKSCANS_REQUEST_DELAY_SECONDS", "0.15"))
+MAX_WORKERS = int(os.getenv("STOCKSCANS_MAX_WORKERS", "1"))
+REQUEST_DELAY_SECONDS = float(os.getenv("STOCKSCANS_REQUEST_DELAY_SECONDS", "1.0"))
 ANNOUNCEMENT_BATCH_SIZE = int(os.getenv("STOCKSCANS_ANNOUNCEMENT_BATCH_SIZE", "5"))
 MAX_ANNOUNCEMENT_PAGES = int(os.getenv("STOCKSCANS_MAX_ANNOUNCEMENT_PAGES", "50"))
 
@@ -37,14 +38,22 @@ def headers():
     return {"Accept": "application/json", "User-Agent": "Chartsmaze data pipeline/1.0"}
 
 
+class RateLimitedError(requests.RequestException):
+    """The public source declined further requests; stop instead of retrying."""
+
+
 def get_json(url):
     response = requests.get(url, headers=headers(), timeout=20)
+    if response.status_code == 429:
+        raise RateLimitedError("StockScans rate limit reached")
     response.raise_for_status()
     return response.json()
 
 
 def post_json(url, payload):
     response = requests.post(url, json=payload, headers=headers(), timeout=20)
+    if response.status_code == 429:
+        raise RateLimitedError("StockScans rate limit reached")
     response.raise_for_status()
     return response.json()
 
@@ -150,16 +159,24 @@ def announcement_dates(company_ids, result_urls):
     return found
 
 
-def fetch_statement_and_documents(item):
+def fetch_statement_and_documents(item, stop_event):
     symbol = item["Symbol"]
+    if stop_event.is_set():
+        return symbol, None, "rate_limited"
     company_id = f"NSE:{symbol}"
     encoded_company_id = requests.utils.quote(company_id, safe="")
     try:
         statement = normalize_statement(company_id, get_json(STATEMENT_URL.format(company_id=encoded_company_id)))
+        time.sleep(REQUEST_DELAY_SECONDS)
+        if stop_event.is_set():
+            return symbol, None, "rate_limited"
         documents = result_documents(encoded_company_id)
-        return symbol, {"statement": statement, "documents": documents}
+        return symbol, {"statement": statement, "documents": documents}, None
+    except RateLimitedError:
+        stop_event.set()
+        return symbol, None, "rate_limited"
     except (requests.RequestException, ValueError):
-        return symbol, None
+        return symbol, None, "request_failed"
 
 
 def fetch_stockscans_financials():
@@ -169,15 +186,21 @@ def fetch_stockscans_financials():
     print(f"StockScans fallback candidates: {len(candidates)} incomplete or stale ScanX consolidated statements.")
 
     raw = {}
+    failures = {"rate_limited": 0, "request_failed": 0}
+    stop_event = Event()
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
-        futures = [executor.submit(fetch_statement_and_documents, item) for item in candidates]
+        futures = [executor.submit(fetch_statement_and_documents, item, stop_event) for item in candidates]
         for index, future in enumerate(as_completed(futures), start=1):
-            symbol, result = future.result()
+            symbol, result, error = future.result()
             if result:
                 raw[symbol] = result
+            if error:
+                failures[error] += 1
             if index % 100 == 0 or index == len(candidates):
                 print(f"  statements/documents: {index}/{len(candidates)}")
-            time.sleep(REQUEST_DELAY_SECONDS)
+
+    if stop_event.is_set():
+        print("StockScans rate limit reached; preserving verified rows and stopping this refresh.")
 
     by_symbol = {row["Symbol"]: row for row in candidates}
     result_urls = {
@@ -222,6 +245,9 @@ def fetch_stockscans_financials():
             "statement_or_document_responses": len(raw),
             "verified_latest_results": len(records),
             "unverified_or_unavailable": len(candidates) - len(records),
+            "rate_limited": failures["rate_limited"],
+            "request_failed": failures["request_failed"],
+            "complete": not stop_event.is_set(),
         },
     })
     print(f"StockScans verified consolidated fallbacks: {len(records)}/{len(candidates)}")
