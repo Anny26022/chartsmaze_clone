@@ -7,6 +7,7 @@ INTERMEDIATE_FILES = [
     "master_isin_map.json",
     "dhan_data_response.json",
     "fundamental_data.json",
+    "stockscans_financial_data.json",
     "advanced_indicator_data.json",
     "all_company_announcements.json",
     "upcoming_corporate_actions.json",
@@ -60,6 +61,7 @@ OHLCV_DERIVED_FINAL_PATHS = frozenset(
 )
 
 PHASE2_SCRIPTS = [
+    "fetch_stockscans_financials.py",
     "fetch_company_filings.py",
     "fetch_new_announcements.py",
     "fetch_advanced_indicators.py",
@@ -108,6 +110,9 @@ SCRIPT_OUTPUT_SPECS = {
     ],
     "fetch_fundamental_data.py": [
         ArtifactSpec("fundamental_data.json", "json", min_count=1),
+    ],
+    "fetch_stockscans_financials.py": [
+        ArtifactSpec("stockscans_financial_data.json", "json", min_count=0, required_fields=("records", "quality")),
     ],
     "fetch_company_filings.py": [
         ArtifactSpec("company_filings", "dir", min_count=1),

@@ -19,6 +19,7 @@ from advanced_metrics_processor import process_symbol_csv
 from process_earnings_performance import calculate_earnings_metrics, get_earnings_info, is_financial_results_filing
 from edl_pipeline.quality import inspect_delivery_history
 import fetch_fundamental_data
+import fetch_stockscans_financials
 from pipeline_utils import save_json
 from edl_pipeline.artifacts import FILES_TO_COMPRESS, FINAL_ARTIFACT_SPECS, PHASE4_SCRIPTS, OHLCV_DERIVED_SCRIPT
 from edl_pipeline.publication import promote, main as publish
@@ -29,6 +30,36 @@ from build_corporate_action_ledger import build_ledger
 
 
 class IntegrityTests(unittest.TestCase):
+    def test_stockscans_normalizes_consolidated_quarters_and_requires_result_document_date(self):
+        statement = {
+            "quarterly": [
+                ["Date", "Revenue", "Operating Profit", "PBT", "PAT", "EPS", "OPM"],
+                ["202606", 100, 20, 18, 15, 3, 20],
+                ["202603", 80, 16, 14, 12, 2.4, 20],
+            ],
+        }
+        self.assertEqual(
+            fetch_stockscans_financials.normalize_statement("NSE:ABC", statement)[0],
+            {"period": "202606", "sales": 100, "operating_profit": 20, "pbt": 18,
+             "net_profit": 15, "eps": 3, "opm": 20},
+        )
+        with mock.patch.object(fetch_stockscans_financials, "post_json", return_value={
+            "limit": 30,
+            "companyAnnouncements": [{"ssUrl": "result.pdf", "date": "2026-08-11"}],
+        }):
+            dates = fetch_stockscans_financials.announcement_dates(
+                ["NSE:ABC"], {"NSE:ABC": {"202606": "result.pdf"}},
+            )
+        self.assertEqual(dates, {"result.pdf": "2026-08-11"})
+
+    def test_stockscans_candidates_include_stale_or_incomplete_consolidated_only(self):
+        now = datetime(2026, 9, 28, tzinfo=timezone.utc)
+        current = {"incomeStat_cq": {"YEAR": "202606", "SALES": "1", "NET_PROFIT": "1", "EPS": "1"}}
+        stale = {"incomeStat_cq": {"YEAR": "202503", "SALES": "1", "NET_PROFIT": "1", "EPS": "1"}}
+        incomplete = {"incomeStat_cq": {"YEAR": "202606", "SALES": "1", "NET_PROFIT": "", "EPS": "1"}}
+        self.assertFalse(fetch_stockscans_financials.needs_stockscans_fallback(current, now))
+        self.assertTrue(fetch_stockscans_financials.needs_stockscans_fallback(stale, now))
+        self.assertTrue(fetch_stockscans_financials.needs_stockscans_fallback(incomplete, now))
     def test_earnings_date_accepts_approved_lodr_outcome_not_intimation(self):
         approved = {
             "descriptor": "Outcome of Board Meeting",
