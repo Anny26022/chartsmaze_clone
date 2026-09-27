@@ -10,7 +10,7 @@ from collections import Counter
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from ohlcv_utils import merge_rows_by_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
+from ohlcv_utils import discard_weekend_rows, is_nse_cash_session, merge_rows_by_date, nse_calendar_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
 from pipeline_utils import ensure_dir, get_headers, load_json, resolve_path
 
 # --- Configuration ---
@@ -62,7 +62,8 @@ def main():
     tasks = []
     global_start_ts = 215634600 # 1976
     global_end_ts = int(time.time())
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    today_str = nse_calendar_date()
+    append_live_snapshot = is_nse_cash_session()
     
     existing_data_cache = {}
     safe_symbol_counts = Counter(
@@ -137,16 +138,17 @@ def main():
         
         # 2. Add TODAY'S snapshot from all_indices_list.json
         # Ltp is Close for the running day
-        today_row = {
-            'Date': today_str, 
-            'Open': idx.get('Open'), 
-            'High': idx.get('High'), 
-            'Low': idx.get('Low'), 
-            'Close': idx.get('Ltp'), 
-            'Volume': idx.get('Volume', 0)
-        }
-        
-        final_rows = merge_rows_by_date(all_rows + [today_row])
+        live_rows = []
+        if append_live_snapshot:
+            live_rows.append({
+                'Date': today_str,
+                'Open': idx.get('Open'),
+                'High': idx.get('High'),
+                'Low': idx.get('Low'),
+                'Close': idx.get('Ltp'),
+                'Volume': idx.get('Volume', 0)
+            })
+        final_rows = merge_rows_by_date(discard_weekend_rows(all_rows + live_rows))
         output_path = resolve_path(OUTPUT_DIR) / f"{safe_sym}.csv"
         write_ohlcv_csv(output_path, final_rows)
 

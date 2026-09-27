@@ -6,8 +6,10 @@ import json
 import sys
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from unittest import mock
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
@@ -28,7 +30,7 @@ from enrich_delivery_data import apply_delivery_data
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from process_market_breadth import generate_analytics
 from nse_archive_utils import clean_records
-from ohlcv_utils import merge_rows_by_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
+from ohlcv_utils import discard_weekend_rows, is_nse_cash_session, merge_rows_by_date, nse_calendar_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
 from pipeline_utils import apply_sma_fields, chunked, load_json, save_json
 from run_full_pipeline import env_bool
 from edl_pipeline.transforms.events import (
@@ -411,6 +413,21 @@ class TransformTests(unittest.TestCase):
             csv_path = Path(tmp) / "ABC.csv"
             write_ohlcv_csv(csv_path, rows)
             self.assertEqual(read_ohlcv_csv(csv_path)[0]["Date"], "2026-01-01")
+
+    def test_live_snapshot_is_only_used_during_nse_cash_hours(self):
+        kolkata = ZoneInfo("Asia/Kolkata")
+        self.assertTrue(is_nse_cash_session(datetime(2026, 9, 25, 10, 0, tzinfo=kolkata)))
+        self.assertFalse(is_nse_cash_session(datetime(2026, 9, 25, 16, 0, tzinfo=kolkata)))
+        self.assertFalse(is_nse_cash_session(datetime(2026, 9, 26, 10, 0, tzinfo=kolkata)))
+        self.assertEqual(nse_calendar_date(datetime(2026, 9, 25, 20, 0, tzinfo=timezone.utc)), "2026-09-26")
+
+    def test_ohlcv_repair_removes_only_weekend_rows(self):
+        rows = [
+            {"Date": "2026-09-25", "Close": 100},
+            {"Date": "2026-09-26", "Close": 100},
+            {"Date": "2026-09-27", "Close": 100},
+        ]
+        self.assertEqual([row["Date"] for row in discard_weekend_rows(rows)], ["2026-09-25"])
 
     def test_shared_json_and_chunk_helpers(self):
         self.assertEqual(list(chunked([1, 2, 3], 2)), [(0, [1, 2]), (2, [3])])

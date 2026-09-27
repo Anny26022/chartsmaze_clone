@@ -2,12 +2,14 @@ import requests
 import os
 import sys
 import time
-from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from ohlcv_utils import (
     chunk_history_range,
+    discard_weekend_rows,
     merge_rows_by_date,
+    is_nse_cash_session,
+    nse_calendar_date,
     plan_history_ranges,
     read_ohlcv_csv,
     rows_from_tick_data,
@@ -62,7 +64,7 @@ def fetch_history_chunk(payload):
 
 def fetch_single_stock(sym, details, live_snapshot=None):
     output_path = symbol_csv_path(resolve_path(OUTPUT_DIR), sym)
-    today_str = datetime.now().strftime("%Y-%m-%d")
+    today_str = nse_calendar_date()
     
     # Four calendar years gives roughly 1,000 trading sessions. This supports
     # a 250-session published window, a prior 252-session high/low reference,
@@ -85,7 +87,7 @@ def fetch_single_stock(sym, details, live_snapshot=None):
                 new_rows.extend(chunk_rows)
 
     # 2. Hybrid Step: Add Today using Live Snapshot
-    if live_snapshot:
+    if live_snapshot and is_nse_cash_session():
         s = live_snapshot
         today_row = {
             'Date': today_str, 
@@ -97,13 +99,11 @@ def fetch_single_stock(sym, details, live_snapshot=None):
         }
         new_rows.append(today_row)
 
-    if not new_rows: 
-        return "uptodate"
+    # 3. Merge, deduplicate and repair old weekend snapshot rows even when
+    # the history provider has no new trading-day candle to contribute.
+    final_rows = merge_rows_by_date(discard_weekend_rows(existing_rows + new_rows))
 
-    # 3. Merge and Deduplicate
-    final_rows = merge_rows_by_date(existing_rows + new_rows)
-
-    if not final_rows: 
+    if not final_rows or final_rows == existing_rows:
         return "uptodate"
 
     write_ohlcv_csv(output_path, final_rows)
