@@ -25,7 +25,7 @@ from enrich_fno_data import fetch_next_expiry, lookup_expiry, normalized_symbol
 from fetch_fno_lot_sizes import clean_lot_size_item
 from advanced_metrics_processor import merge_historical_metrics, process_symbol_csv
 from standardize_stock_artifact import canonicalize_stock
-from nse_delivery import normalize_row
+from nse_delivery import normalize_ohlcv_row, normalize_row
 from enrich_delivery_data import apply_delivery_data
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from process_market_breadth import generate_analytics
@@ -45,6 +45,16 @@ from edl_pipeline.schemas import REQUIRED_FINAL_FIELDS
 
 
 class TransformTests(unittest.TestCase):
+    def test_nse_full_bhavcopy_normalizes_closed_session_ohlcv(self):
+        self.assertEqual(normalize_ohlcv_row({
+            "SYMBOL": "RELIANCE", " SERIES": " EQ", " DATE1": " 25-Sep-2026",
+            " OPEN_PRICE": " 1210.5", " HIGH_PRICE": " 1227.4", " LOW_PRICE": " 1210.5",
+            " CLOSE_PRICE": " 1226", " TTL_TRD_QNTY": " 13138735",
+        }), {
+            "symbol": "RELIANCE", "series": "EQ", "date": "2026-09-25", "open": 1210.5,
+            "high": 1227.4, "low": 1210.5, "close": 1226.0, "volume": 13138735.0,
+        })
+
     def test_nse_delivery_adapter_normalizes_full_bhavcopy_row(self):
         row = normalize_row({
             "SYMBOL": "RELIANCE", " SERIES": "EQ", " DATE1": "25-Sep-2026",

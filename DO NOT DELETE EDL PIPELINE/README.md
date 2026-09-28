@@ -43,7 +43,9 @@ EDL_FETCH_OHLCV=0 EDL_CLEANUP_INTERMEDIATE=0 python3 run_full_pipeline.py
 
 ### Optional EOD2 historical bootstrap
 
-The normal daily refresh remains ScanX/NSE-driven. To seed longer **adjusted**
+The normal daily refresh uses the official NSE full bhavcopy for the latest
+closed session and Dhan only for an in-market provisional candle or a missing
+history fallback. To seed longer **adjusted**
 daily OHLCV history from a local checkout of EOD2's data repository, set its
 path for one full refresh:
 
@@ -62,7 +64,7 @@ remain the source for delivery-percent screens.
 ```
 PHASE 1 (Core):       fetch_dhan_data.py → fetch_fundamental_data.py
 PHASE 2 (Enrichment): fetch_company_filings.py, fetch_market_news.py, fetch_all_indices.py, etc.
-PHASE 2.5 (OHLCV):    optional EOD2 bootstrap → fetch_all_ohlcv.py → fetch_indices_ohlcv.py
+PHASE 2.5 (OHLCV):    optional EOD2 bootstrap → official NSE close → ScanX fallback/live → index sync
 PHASE 3 (Analysis):   bulk_market_analyzer.py (creates base JSON)
 PHASE 4 (Injection):  advanced_metrics_processor.py → process_market_breadth.py → add_corporate_events.py (LAST!)
 PHASE 5 (Output):     gzip compression of final artifacts

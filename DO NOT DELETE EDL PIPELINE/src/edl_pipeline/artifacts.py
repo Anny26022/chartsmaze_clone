@@ -28,6 +28,7 @@ INTERMEDIATE_FILES = [
     "corporate_action_ledger.json",
     "nse_delivery_data.json",
     "eod2_ohlcv_import_report.json",
+    "nse_daily_ohlcv_report.json",
 ]
 
 INTERMEDIATE_DIRS = [
@@ -149,7 +150,7 @@ SCRIPT_OUTPUT_SPECS = {
         ArtifactSpec("complete_price_bands.json", "json", min_count=1),
     ],
     "fetch_nse_delivery_data.py": [
-        ArtifactSpec("nse_delivery_data.json", "json", min_count=1, required_fields=("source", "as_of_date", "records")),
+        ArtifactSpec("nse_delivery_data.json", "json", min_count=1, required_fields=("source", "as_of_date", "retrieved_at", "records", "ohlcv_records")),
     ],
     "snapshot_screener_context.py": [
         ArtifactSpec("scanner_history_data", "dir", min_count=1),
@@ -168,6 +169,9 @@ SCRIPT_OUTPUT_SPECS = {
     ],
     "fetch_all_ohlcv.py": [
         ArtifactSpec("ohlcv_data", "dir", min_count=1),
+    ],
+    "apply_nse_daily_ohlcv.py": [
+        ArtifactSpec("nse_daily_ohlcv_report.json", "json", required_fields=("available",)),
     ],
     "import_eod2_ohlcv.py": [
         ArtifactSpec("eod2_ohlcv_import_report.json", "json", required_fields=("enabled", "source")),

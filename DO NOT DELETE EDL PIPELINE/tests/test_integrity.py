@@ -21,6 +21,7 @@ from edl_pipeline.quality import inspect_delivery_history
 import fetch_fundamental_data
 import fetch_stockscans_financials
 import import_eod2_ohlcv
+import apply_nse_daily_ohlcv
 from pipeline_utils import save_json
 from edl_pipeline.artifacts import FILES_TO_COMPRESS, FINAL_ARTIFACT_SPECS, PHASE4_SCRIPTS, OHLCV_DERIVED_SCRIPT
 from edl_pipeline.publication import promote, main as publish
@@ -63,6 +64,27 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(rows[0]["Close"], "11.0")
             self.assertEqual(rows[-1]["Close"], "205")
             self.assertNotIn("DLV_QTY", rows[0])
+
+    def test_official_nse_close_overrides_only_its_session(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            output = root / "ohlcv_data"
+            output.mkdir()
+            (output / "ABC.csv").write_text(
+                "Date,Open,High,Low,Close,Volume\n"
+                "2026-09-25,1,2,1,2,10\n"
+                "2026-09-26,3,4,3,4,20\n"
+            )
+            applied = apply_nse_daily_ohlcv.apply_official_ohlcv(
+                [{"Symbol": "ABC"}], [{
+                    "symbol": "ABC", "date": "2026-09-25", "open": 10, "high": 12,
+                    "low": 9, "close": 11, "volume": 100,
+                }], output,
+            )
+            rows = import_eod2_ohlcv.read_ohlcv_csv(output / "ABC.csv")
+            self.assertEqual(applied, 1)
+            self.assertEqual(rows[0]["Close"], "11")
+            self.assertEqual(rows[1]["Close"], "4")
 
     def test_stockscans_normalizes_consolidated_quarters_and_requires_result_document_date(self):
         statement = {

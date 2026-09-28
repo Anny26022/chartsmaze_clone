@@ -48,6 +48,31 @@ def normalize_row(row: dict) -> dict | None:
         return None
 
 
+def normalize_ohlcv_row(row: dict) -> dict | None:
+    """Normalize the OHLCV portion of one official NSE full-bhavcopy row."""
+    row = {str(key).strip(): value for key, value in row.items()}
+    symbol = str(row.get("SYMBOL") or "").strip().upper()
+    try:
+        result = {
+            "symbol": symbol,
+            "series": str(row.get("SERIES") or "").strip().upper() or None,
+            "date": parse_nse_date(row["DATE1"]),
+            "open": float(row["OPEN_PRICE"]),
+            "high": float(row["HIGH_PRICE"]),
+            "low": float(row["LOW_PRICE"]),
+            "close": float(row["CLOSE_PRICE"]),
+            "volume": float(row["TTL_TRD_QNTY"]),
+        }
+    except (KeyError, TypeError, ValueError):
+        return None
+    if (
+        not symbol or result["volume"] < 0 or result["low"] <= 0
+        or not result["low"] <= min(result["open"], result["close"]) <= max(result["open"], result["close"]) <= result["high"]
+    ):
+        return None
+    return result
+
+
 def latest_delivery_file(report_payload: dict) -> dict:
     """Find NSE's newest published Full Bhavcopy + Delivery CSV descriptor."""
     candidates = []
@@ -60,8 +85,8 @@ def latest_delivery_file(report_payload: dict) -> dict:
     return max(candidates, key=lambda item: parse_nse_date(item["tradingDate"]))
 
 
-def fetch_latest_delivery_bhavcopy(session: requests.Session | None = None) -> tuple[dict, list[dict]]:
-    """Download NSE's one-file full-universe delivery snapshot."""
+def fetch_latest_full_bhavcopy(session: requests.Session | None = None) -> tuple[dict, list[dict], list[dict]]:
+    """Download one official file for both daily OHLCV and delivery data."""
     session = session or requests.Session()
     session.headers.update(NSE_HEADERS)
     reports = session.get(NSE_DAILY_REPORTS_URL, timeout=30)
@@ -70,16 +95,23 @@ def fetch_latest_delivery_bhavcopy(session: requests.Session | None = None) -> t
     url = urljoin(descriptor["filePath"].rstrip("/") + "/", descriptor["fileActlName"])
     response = session.get(url, timeout=60)
     response.raise_for_status()
-    rows = csv.DictReader(StringIO(response.content.decode("utf-8-sig")))
-    records = [item for row in rows if (item := normalize_row(row))]
-    if not records:
-        raise RuntimeError(f"NSE delivery file contained no usable records: {url}")
+    rows = list(csv.DictReader(StringIO(response.content.decode("utf-8-sig"))))
+    delivery_records = [item for row in rows if (item := normalize_row(row))]
+    ohlcv_records = [item for row in rows if (item := normalize_ohlcv_row(row))]
+    if not delivery_records or not ohlcv_records:
+        raise RuntimeError(f"NSE full bhavcopy contained no usable records: {url}")
     return {
         "source": "NSE daily full bhavcopy and security deliverable data",
         "file_name": descriptor["fileActlName"],
         "file_url": url,
         "as_of_date": parse_nse_date(descriptor["tradingDate"]),
-    }, records
+    }, delivery_records, ohlcv_records
+
+
+def fetch_latest_delivery_bhavcopy(session: requests.Session | None = None) -> tuple[dict, list[dict]]:
+    """Compatibility wrapper for the delivery-only consumer."""
+    metadata, delivery_records, _ = fetch_latest_full_bhavcopy(session)
+    return metadata, delivery_records
 
 
 def fetch_delivery_history_by_date(from_date: str, to_date: str, session: requests.Session | None = None) -> tuple[list[dict], list[str]]:

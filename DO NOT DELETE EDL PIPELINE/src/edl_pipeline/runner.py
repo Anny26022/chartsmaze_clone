@@ -313,6 +313,9 @@ def main(config=None):
         results["import_eod2_ohlcv.py"] = run_script(
             "import_eod2_ohlcv.py", "Phase 2.5", required=True
         )
+        results["apply_nse_daily_ohlcv.py"] = run_script(
+            "apply_nse_daily_ohlcv.py", "Phase 2.5", required=True
+        )
         results["fetch_all_ohlcv.py"] = run_script(
             "fetch_all_ohlcv.py", "Phase 2.5", required=True
         )

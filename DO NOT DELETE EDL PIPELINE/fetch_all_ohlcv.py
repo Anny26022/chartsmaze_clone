@@ -2,6 +2,8 @@ import requests
 import os
 import sys
 import time
+import json
+from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from ohlcv_utils import (
@@ -26,6 +28,31 @@ MAX_THREADS = 15
 TICK_API_URL = "https://openweb-ticks.dhan.co/getDataH"
 HISTORY_CALENDAR_DAYS = int(os.getenv("EDL_OHLCV_HISTORY_DAYS", str(4 * 365)))
 FETCH_ATTEMPTS = 3
+NSE_DAILY_REPORT_FILE = "nse_daily_ohlcv_report.json"
+MIN_READY_HISTORY_ROWS = 252
+
+
+def official_session():
+    """Return the staged official session, if this refresh obtained one."""
+    try:
+        with open(NSE_DAILY_REPORT_FILE, encoding="utf-8") as handle:
+            report = json.load(handle)
+        return report.get("as_of_date") if report.get("available") else None
+    except (OSError, ValueError, AttributeError):
+        return None
+
+
+def has_official_history(existing_rows, session, desired_start):
+    """Avoid a Dhan request when official data covers the needed cache state."""
+    if not session or len(existing_rows) < MIN_READY_HISTORY_ROWS:
+        return False
+    dates = []
+    for row in existing_rows:
+        try:
+            dates.append(datetime.strptime(row["Date"], "%Y-%m-%d").timestamp())
+        except (KeyError, TypeError, ValueError):
+            continue
+    return bool(dates) and any(row.get("Date") == session for row in existing_rows) and min(dates) <= desired_start
 
 def get_live_snapshots():
     """Fetches live OHLCV snapshot for all stocks to fill in Today's gap."""
@@ -62,7 +89,7 @@ def fetch_history_chunk(payload):
                 time.sleep(0.25 * (2 ** attempt))
     raise RuntimeError("Historical OHLCV chunk failed after retries") from last_error
 
-def fetch_single_stock(sym, details, live_snapshot=None):
+def fetch_single_stock(sym, details, live_snapshot=None, official_nse_session=None):
     output_path = symbol_csv_path(resolve_path(OUTPUT_DIR), sym)
     today_str = nse_calendar_date()
     
@@ -73,18 +100,21 @@ def fetch_single_stock(sym, details, live_snapshot=None):
     desired_start = current_end - (HISTORY_CALENDAR_DAYS * 86400)
     existing_rows = read_ohlcv_csv(output_path)
 
-    # 1. Fetch both an older backfill gap and a newer incremental gap.
+    # 1. The official full bhavcopy supplies the closed session for every
+    # matching stock.  Dhan is therefore only a fallback for a missing/stale
+    # cache, never the routine post-close history source.
     new_rows = []
-    for range_start, range_end in plan_history_ranges(existing_rows, desired_start, current_end):
-        for c_start, c_end in chunk_history_range(range_start, range_end, CHUNK_DAYS):
-            payload = {
-                "EXCH": details["Exch"], "SYM": sym, "SEG": details["Seg"],
-                "INST": details["Inst"], "SEC_ID": details["Sid"],
-                "EXPCODE": 0, "INTERVAL": "D", "START": int(c_start), "END": int(c_end)
-            }
-            chunk_rows = fetch_history_chunk(payload)
-            if chunk_rows:
-                new_rows.extend(chunk_rows)
+    if not has_official_history(existing_rows, official_nse_session, desired_start):
+        for range_start, range_end in plan_history_ranges(existing_rows, desired_start, current_end):
+            for c_start, c_end in chunk_history_range(range_start, range_end, CHUNK_DAYS):
+                payload = {
+                    "EXCH": details["Exch"], "SYM": sym, "SEG": details["Seg"],
+                    "INST": details["Inst"], "SEC_ID": details["Sid"],
+                    "EXPCODE": 0, "INTERVAL": "D", "START": int(c_start), "END": int(c_end)
+                }
+                chunk_rows = fetch_history_chunk(payload)
+                if chunk_rows:
+                    new_rows.extend(chunk_rows)
 
     # 2. Hybrid Step: Add Today using Live Snapshot
     if live_snapshot and is_nse_cash_session():
@@ -121,14 +151,18 @@ def main():
     stocks = {item["Sym"]: {"Sid": item["Sid"], "Exch": item.get("Exch", "NSE"), "Inst": "EQUITY", "Seg": "E"} 
               for item in dhan_data if item.get("Sym") and item.get("Sid")}
 
-    # Get live snapshots for today's data
-    live_snapshots = get_live_snapshots()
+    # One bulk ScanX snapshot is used only while a daily candle is forming.
+    live_snapshots = get_live_snapshots() if is_nse_cash_session() else {}
+    nse_session = official_session()
 
     print(f"Syncing OHLCV for {len(stocks)} stocks (Hybrid Multi-Chunk Mode)...")
     counts = {"success": 0, "uptodate": 0, "error": 0}
     
     with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
-        futures = {executor.submit(fetch_single_stock, s, stocks[s], live_snapshots.get(s)): s for s in stocks}
+        futures = {
+            executor.submit(fetch_single_stock, s, stocks[s], live_snapshots.get(s), nse_session): s
+            for s in stocks
+        }
         for future in as_completed(futures):
             try:
                 res = future.result()
