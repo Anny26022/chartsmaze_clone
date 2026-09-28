@@ -369,6 +369,10 @@ class IntegrityTests(unittest.TestCase):
             })
             self.write(root,'all_indices_list.json',[{'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'}])
             self.write(root,'nse_fno_ban.json',{'source':'test','available':False,'trade_date':None,'symbols':[]})
+            (root/'filing_history_data').mkdir()
+            self.write(root/'filing_history_data','filing_history.json',{
+                'symbols':{'ABC':{'isin':'INE000000001','lodr_backfill_complete':True,'filings':[{'news_id':'one'}]}},
+            })
             shutil.copy2(ROOT/'breadth_methodology.json',root/'breadth_methodology.json')
             delivery_dir=root/'delivery_history_data'; delivery_dir.mkdir()
             for offset in range(252):
@@ -380,6 +384,7 @@ class IntegrityTests(unittest.TestCase):
                          'process_historical_market_breadth.py','add_corporate_events.py',
                          'process_mbi_market_breadth.py','build_rs_ratings.py','build_shareholding_history.py',
                          'build_corporate_action_ledger.py','standardize_stock_artifact.py',
+                         'build_filing_history_artifact.py',
                          'build_ipo_screener_artifact.py'):
                 result=subprocess.run([sys.executable,str(ROOT/name)],cwd=root,env=env,capture_output=True,text=True,timeout=30)
                 self.assertEqual(result.returncode,0,name+'\n'+result.stdout+'\n'+result.stderr)

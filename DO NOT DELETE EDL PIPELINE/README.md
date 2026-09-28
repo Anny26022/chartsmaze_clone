@@ -183,14 +183,20 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 | **URL 1** | `https://ow-static-scanx.dhan.co/staticscanx/company_filings` |
 | **URL 2** | `https://ow-static-scanx.dhan.co/staticscanx/lodr` |
 | **Method** | `POST` |
-| **Page Size** | `count: 100, pg_no: 1` |
-| **Threads** | 20 |
+| **Page Size** | `count: 100`; page 1 every refresh, remaining LODR pages once per symbol |
+| **Threads** | 8 (bounded historical backfill) |
 | **Dedup** | By `news_id` + `news_date` + `caption` |
 | **Output** | `company_filings/{SYMBOL}_filings.json` |
 
 ```json
 {"data": {"isin": "<ISIN>", "pg_no": 1, "count": 100}}
 ```
+
+LODR returns `total_pages`. The first successful history fetch follows every
+page and saves the merged metadata in `filing_history_data/`; subsequent daily
+runs fetch only page 1 and merge new disclosures. `filing_history.json.gz` is
+the published, durable ledger. It contains timestamps and filing metadata, not
+invented financial values from attachment PDFs.
 
 ### 4. Live Announcements — `fetch_new_announcements.py`
 | Key | Value |

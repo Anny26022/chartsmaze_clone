@@ -36,6 +36,7 @@ jobs:
             DO NOT DELETE EDL PIPELINE/indices_ohlcv_data
             DO NOT DELETE EDL PIPELINE/delivery_history_data
             DO NOT DELETE EDL PIPELINE/scanner_history_data
+            DO NOT DELETE EDL PIPELINE/filing_history_data
           key: scanner-history-v1-${{ runner.os }}-${{ github.run_id }}
           restore-keys: |
             scanner-history-v1-${{ runner.os }}-
@@ -99,6 +100,7 @@ jobs:
           git add "DO NOT DELETE EDL PIPELINE/rs_rating_daily.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/ipo_screener.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/shareholding_history.json.gz"
+          git add "DO NOT DELETE EDL PIPELINE/filing_history.json.gz"
           git commit -m "Automated weekly adjusted OHLCV refresh [skip ci]" || echo "No changes to commit"
           git pull --rebase --autostash origin main
           git push

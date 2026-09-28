@@ -28,6 +28,7 @@ INTERMEDIATE_FILES = [
     "etf_data_response.json",
     "corporate_action_ledger.json",
     "shareholding_history.json",
+    "filing_history.json",
     "nse_delivery_data.json",
     "eod2_ohlcv_import_report.json",
     "nse_daily_ohlcv_report.json",
@@ -53,6 +54,7 @@ FILES_TO_COMPRESS = {
     "rs_rating_daily.json": "rs_rating_daily.json.gz",
     "ipo_screener.json": "ipo_screener.json.gz",
     "shareholding_history.json": "shareholding_history.json.gz",
+    "filing_history.json": "filing_history.json.gz",
     # Raw NSE SME coverage is retained separately; it is never part of the
     # canonical scanner universe.
     "sme_market_data.json": "sme_market_data.json.gz",
@@ -109,7 +111,10 @@ PHASE4_SCRIPTS = [
 
 # These consumers read the canonical artifact and must run after its final
 # standardisation, without making another mutation to it.
-POST_STANDARDIZATION_SCRIPTS = ["build_ipo_screener_artifact.py"]
+POST_STANDARDIZATION_SCRIPTS = [
+    "build_filing_history_artifact.py",
+    "build_ipo_screener_artifact.py",
+]
 
 # This runs after the canonical artifact is compressed, so standardisation
 # remains the final mutation of the public stock snapshot.
@@ -135,6 +140,9 @@ SCRIPT_OUTPUT_SPECS = {
     ],
     "fetch_company_filings.py": [
         ArtifactSpec("company_filings", "dir", min_count=1),
+    ],
+    "build_filing_history_artifact.py": [
+        ArtifactSpec("filing_history.json", "json", min_count=1, required_fields=("source", "coverage", "records")),
     ],
     "fetch_new_announcements.py": [
         ArtifactSpec("all_company_announcements.json", "json", min_count=0),
@@ -283,6 +291,7 @@ FINAL_ARTIFACT_SPECS = [
     ArtifactSpec("rs_rating_daily.json.gz", "gzip_json", required_fields=("source", "as_of_date", "ratings")),
     ArtifactSpec("ipo_screener.json.gz", "gzip_json", required_fields=("schema_version", "source", "as_of_date", "records", "pending_canonical_enrichment", "capabilities")),
     ArtifactSpec("shareholding_history.json.gz", "gzip_json", min_count=1, required_fields=("source", "as_of_date", "records")),
+    ArtifactSpec("filing_history.json.gz", "gzip_json", min_count=1, required_fields=("source", "coverage", "records")),
     ArtifactSpec(
         "nse_universe_reconciliation.json", "json",
         required_fields=("available", "source", "as_of_date", "pending_scanx_enrichment", "alert_count"),
