@@ -54,6 +54,13 @@ it can publish. The GitHub daily workflow caches this directory between runs,
 so after the initial backfill it fetches only a newly published session instead
 of rebuilding historical delivery data every day.
 
+The weekly EOD2 adjusted-history bootstrap also extracts `DLV_QTY` from the
+daily CSV it is already reading for OHLCV. It writes a separate local
+`eod2_delivery_history_data/<SYMBOL>.csv` cache. The screener uses those rows
+only to fill older missing dates; an official NSE row always wins for the same
+symbol and date. This extends eligible historical delivery screens without
+adding per-symbol network calls to the daily pipeline.
+
 ## Staging schema
 
 ```json

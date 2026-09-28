@@ -17,6 +17,7 @@ from pipeline_utils import BASE_DIR, load_json, save_json
 
 MASTER_FILE = "master_isin_map.json"
 REPORT_FILE = "eod2_ohlcv_import_report.json"
+DELIVERY_FIELDS = ["Date", "Series", "traded_quantity", "deliverable_quantity", "delivery_percent"]
 
 
 def resolve_eod2_data_dir(value):
@@ -39,7 +40,7 @@ def finite_number(value):
 
 
 def source_rows(path, start_date, end_date):
-    """Read only valid OHLCV rows inside an ISIN's recorded symbol interval."""
+    """Read valid OHLCV rows (and, when present, their EOD2 delivery fields)."""
     rows = []
     try:
         with path.open(newline="", encoding="utf-8") as handle:
@@ -57,7 +58,15 @@ def source_rows(path, start_date, end_date):
                     or not low <= min(opening, close) <= max(opening, close) <= high
                 ):
                     continue
-                rows.append({"Date": session.isoformat(), **values})
+                delivery_quantity = finite_number(item.get("DLV_QTY"))
+                row = {"Date": session.isoformat(), **values}
+                # EOD2 publishes delivery quantity in the daily CSV.  Keep it
+                # out of the OHLCV cache, but retain it while this source file
+                # is already open so the weekly bootstrap incurs no extra I/O.
+                if delivery_quantity is not None and 0 <= delivery_quantity <= volume and volume > 0:
+                    row["DLV_QTY"] = delivery_quantity
+                    row["Series"] = str(item.get("Series") or "EQ").upper()
+                rows.append(row)
     except OSError:
         return []
     return rows
@@ -79,7 +88,31 @@ def eod2_rows_for_isin(data_dir, history, isin):
     return merge_rows_by_date(rows)
 
 
-def import_eod2_ohlcv(data_dir, master, output_dir):
+def write_delivery_csv(path, rows):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=DELIVERY_FIELDS)
+        writer.writeheader()
+        writer.writerows(rows)
+
+
+def delivery_rows(imported):
+    rows = []
+    for row in imported:
+        volume, quantity = row.get("Volume"), row.get("DLV_QTY")
+        if quantity is None or not volume:
+            continue
+        rows.append({
+            "Date": row["Date"],
+            "Series": row.get("Series", "EQ"),
+            "traded_quantity": int(volume) if float(volume).is_integer() else volume,
+            "deliverable_quantity": int(quantity) if float(quantity).is_integer() else quantity,
+            "delivery_percent": round((quantity / volume) * 100, 4),
+        })
+    return rows
+
+
+def import_eod2_ohlcv(data_dir, master, output_dir, delivery_output_dir=None):
     """Overlay adjusted EOD2 history and retain any newer local provider rows."""
     mapping = json.loads((data_dir / "isin_symbol_map.json").read_text(encoding="utf-8"))
     history = mapping.get("isin2hist", {}) if isinstance(mapping, dict) else {}
@@ -87,6 +120,7 @@ def import_eod2_ohlcv(data_dir, master, output_dir):
         raise ValueError("EOD2 ISIN history map is malformed")
 
     output_dir.mkdir(parents=True, exist_ok=True)
+    delivery_output_dir = delivery_output_dir or output_dir.parent / "eod2_delivery_history_data"
     report = {
         "enabled": True,
         "source": "EOD2 adjusted daily CSV bootstrap",
@@ -96,6 +130,8 @@ def import_eod2_ohlcv(data_dir, master, output_dir):
         "imported_rows": 0,
         "unmapped_isins": 0,
         "empty_or_invalid_sources": 0,
+        "delivery_symbols": 0,
+        "delivery_rows": 0,
     }
     try:
         report["source_last_update"] = json.loads((data_dir / "meta.json").read_text(encoding="utf-8")).get("lastUpdate")
@@ -117,8 +153,16 @@ def import_eod2_ohlcv(data_dir, master, output_dir):
         # Imported rows intentionally come last: when EOD2 republishes a split
         # adjustment it replaces the overlapping historical rows.  Any local
         # sessions newer than EOD2's weekly snapshot remain in place.
-        merged = merge_rows_by_date([*read_ohlcv_csv(destination), *imported])
+        merged = merge_rows_by_date([
+            *read_ohlcv_csv(destination),
+            *({field: row[field] for field in ("Date", "Open", "High", "Low", "Close", "Volume")} for row in imported),
+        ])
         write_ohlcv_csv(destination, merged)
+        delivery = delivery_rows(imported)
+        if delivery:
+            write_delivery_csv(delivery_output_dir / f"{symbol}.csv", delivery)
+            report["delivery_symbols"] += 1
+            report["delivery_rows"] += len(delivery)
         report["imported_symbols"] += 1
         report["imported_rows"] += len(imported)
     return report
@@ -135,12 +179,16 @@ def main():
             })
             print("EOD2 OHLCV bootstrap skipped (EDL_EOD2_DATA_DIR is not set).")
             return True
-        report = import_eod2_ohlcv(data_dir, load_json(MASTER_FILE), Path(BASE_DIR) / "ohlcv_data")
+        report = import_eod2_ohlcv(
+            data_dir, load_json(MASTER_FILE), Path(BASE_DIR) / "ohlcv_data",
+            Path(BASE_DIR) / "eod2_delivery_history_data",
+        )
         save_json(REPORT_FILE, report)
         print(
             "EOD2 OHLCV bootstrap: "
             f"{report['imported_symbols']}/{report['master_symbols']} symbols, "
-            f"{report['imported_rows']} rows; source through {report['source_last_update'] or 'unknown'}."
+            f"{report['imported_rows']} OHLCV rows and {report['delivery_rows']} delivery rows; "
+            f"source through {report['source_last_update'] or 'unknown'}."
         )
         return True
     except (OSError, ValueError, TypeError, json.JSONDecodeError) as error:
