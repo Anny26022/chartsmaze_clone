@@ -113,12 +113,6 @@ def main():
         
         # 1. Get Earnings Info
         earnings_news_date, _ = get_earnings_info(filing_file)
-        # The StockScans fallback is selected only when a Result PDF matches
-        # its own public announcement.  It is therefore a safe fallback for
-        # the announcement date when that consolidated statement supplied the
-        # stock's quarterly values.
-        if stock.get("Earnings Data Source") == "STOCKSCANS_PUBLIC":
-            earnings_news_date = stock.get("StockScans Result Date") or earnings_news_date
         stock["Quarterly Results Date"] = earnings_news_date.split(" ")[0] if earnings_news_date else "N/A"
         
         # 2. Calculate Metrics

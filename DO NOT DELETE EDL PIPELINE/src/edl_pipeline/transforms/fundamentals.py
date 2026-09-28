@@ -9,7 +9,6 @@ from pipeline_utils import BASE_DIR, load_json, save_json
 
 
 FUNDAMENTAL_FILE = os.path.join(BASE_DIR, "fundamental_data.json")
-STOCKSCANS_FINANCIAL_FILE = os.path.join(BASE_DIR, "stockscans_financial_data.json")
 ADVANCED_FILE = os.path.join(BASE_DIR, "advanced_indicator_data.json")
 DHAN_DATA_FILE = os.path.join(BASE_DIR, "dhan_data_response.json")
 SME_DATA_FILE = os.path.join(BASE_DIR, "sme_market_data.json")
@@ -118,57 +117,20 @@ def quarterly_metric_fields(prefix, source, pipe_name):
     }
 
 
-def _quarterly_period(source):
-    """Return the newest provider period represented by a quarterly series."""
-    value = str((source or {}).get("YEAR") or "").split("|")[0]
-    if len(value) == 6 and value.isdigit():
-        return int(value)
-    return None
-
-
 def _has_complete_quarterly_series(source):
     """Require one coherent latest quarter before selecting a statement type."""
     return all(get_value_from_pipe_string((source or {}).get(metric), 0) is not None
                for metric in ("NET_PROFIT", "SALES", "EPS"))
 
 
-def stockscans_statement_to_series(record):
-    """Convert a verified StockScans consolidated record to pipeline series."""
-    if not isinstance(record, dict) or record.get("statement_type") != "CONSOLIDATED":
-        return {}
-    rows = record.get("quarterly")
-    if not isinstance(rows, list):
-        return {}
-    rows = sorted((row for row in rows if isinstance(row, dict)), key=lambda row: str(row.get("period") or ""), reverse=True)
-    if not rows:
-        return {}
-    metrics = {
-        "SALES": "sales", "NET_PROFIT": "net_profit", "EPS": "eps",
-        "PBT": "pbt", "OPM": "opm",
-    }
-    result = {"YEAR": "|".join(str(row.get("period")) for row in rows)}
-    for target, source in metrics.items():
-        values = [row.get(source) for row in rows]
-        result[target] = "|".join("" if value is None else str(value) for value in values)
-    return result
-
-
-def select_quarterly_statement(consolidated, standalone=None, stockscans_record=None):
-    """Use complete consolidated data only, preferring a verified newer fallback.
+def select_quarterly_statement(consolidated):
+    """Use complete ScanX consolidated data only.
 
     Standalone reports remain visible in raw source data but cannot satisfy a
     consolidated earnings condition.  This avoids a silent change in the
     meaning of scanner results when a company has no group statement.
     """
-    consolidated_period = _quarterly_period(consolidated)
-    consolidated_ok = _has_complete_quarterly_series(consolidated)
-    stockscans = stockscans_statement_to_series(stockscans_record)
-    stockscans_period = _quarterly_period(stockscans)
-    stockscans_ok = _has_complete_quarterly_series(stockscans)
-
-    if stockscans_ok and (not consolidated_ok or consolidated_period is None or stockscans_period > consolidated_period):
-        return stockscans, "CONSOLIDATED", "STOCKSCANS_PUBLIC"
-    if consolidated_ok:
+    if _has_complete_quarterly_series(consolidated):
         return consolidated, "CONSOLIDATED", "SCANX"
     return {}, "UNAVAILABLE", "UNAVAILABLE"
 
@@ -269,11 +231,9 @@ def classic_pivot(advanced_tech):
     return "N/A"
 
 
-def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None, stockscans_record=None):
+def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
     symbol = item.get("Symbol", "UNKNOWN")
-    cq, earnings_report_type, earnings_source = select_quarterly_statement(
-        item.get("incomeStat_cq", {}), item.get("incomeStat_sq", {}), stockscans_record,
-    )
+    cq, earnings_report_type, earnings_source = select_quarterly_statement(item.get("incomeStat_cq", {}))
     cy = item.get("incomeStat_cy", {})
     ttm_cy = item.get("TTM_cy", {})
     cv = item.get("CV", {})
@@ -321,8 +281,6 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None, sto
         "Latest Quarter": cq.get("YEAR", "").split("|")[0] if cq.get("YEAR") else "N/A",
         "Earnings Report Type": earnings_report_type,
         "Earnings Data Source": earnings_source,
-        "StockScans Result Date": (stockscans_record or {}).get("latest_result_date")
-        if earnings_source == "STOCKSCANS_PUBLIC" else None,
         **net_profit,
         **eps,
         "EPS Last Year": get_value_from_pipe_string(cy.get("EPS"), 0),
@@ -411,13 +369,6 @@ def analyze_all_stocks():
         "advanced indicators",
         f"Warning: {ADVANCED_FILE} not found. Running without advanced indicators.",
     )
-    try:
-        stockscans_map = load_json(STOCKSCANS_FINANCIAL_FILE, default={}).get("records", {})
-        print(f"Loaded verified StockScans consolidated fallbacks for {len(stockscans_map)} symbols.")
-    except AttributeError:
-        stockscans_map = {}
-        print(f"Warning: {STOCKSCANS_FINANCIAL_FILE} is invalid. Running without StockScans fallbacks.")
-
     # Missing fundamental responses must not silently remove a security.
     fundamental_map = {item['Symbol']: item for item in data if item.get('Symbol')}
     master = load_json(os.path.join(BASE_DIR, 'master_isin_map.json'))
@@ -430,7 +381,6 @@ def analyze_all_stocks():
             advanced_tech_map.get(item.get("Symbol", "UNKNOWN"), {}),
             listing_date_map,
             sme_map,
-            stockscans_map.get(item.get("Symbol", "UNKNOWN")),
         )
         for item in data
     ]

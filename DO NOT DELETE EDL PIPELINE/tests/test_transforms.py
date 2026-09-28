@@ -220,29 +220,6 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["Earnings Data Source"], "UNAVAILABLE")
         self.assertEqual(result["Latest Quarter"], "N/A")
 
-    def test_analyze_stock_uses_verified_newer_stockscans_consolidated_statement(self):
-        item = {
-            "Symbol": "ABC",
-            "incomeStat_cq": {"YEAR": "202503", "NET_PROFIT": "1", "SALES": "1", "EPS": "1"},
-        }
-        stockscans = {
-            "statement_type": "CONSOLIDATED",
-            "latest_result_date": "2026-08-11",
-            "quarterly": [
-                {"period": "202606", "sales": 100, "net_profit": 20, "eps": 2, "pbt": 25, "opm": 20},
-                {"period": "202603", "sales": 90, "net_profit": 18, "eps": 1.8, "pbt": 22, "opm": 20},
-                {"period": "202512", "sales": 80, "net_profit": 16, "eps": 1.6, "pbt": 20, "opm": 20},
-                {"period": "202509", "sales": 75, "net_profit": 14, "eps": 1.4, "pbt": 18, "opm": 19},
-                {"period": "202506", "sales": 70, "net_profit": 10, "eps": 1, "pbt": 12, "opm": 18},
-            ],
-        }
-        result = analyze_stock(item, {}, {}, {}, stockscans_record=stockscans)
-        self.assertEqual(result["Earnings Report Type"], "CONSOLIDATED")
-        self.assertEqual(result["Earnings Data Source"], "STOCKSCANS_PUBLIC")
-        self.assertEqual(result["Latest Quarter"], "202606")
-        self.assertEqual(result["StockScans Result Date"], "2026-08-11")
-        self.assertEqual(result["YoY % Net Profit Latest"], 100.0)
-
     def test_fno_expiry_lookup_prefers_security_id_then_normalized_symbol(self):
         self.assertEqual(normalized_symbol('M&M-EQ'), 'MM')
         self.assertEqual(lookup_expiry({'MM':'2026-10-01'}, {'123':'2026-09-29'}, 'M&M-EQ', 123), '2026-09-29')
