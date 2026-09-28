@@ -164,6 +164,13 @@ This section is a compact overview. The detailed, repo-grounded source reference
 | **Timeout** | 30s |
 | **Output** | `fundamental_data.json` (35 MB) |
 
+The raw ScanX payload also contains dated `sHp` ownership rows.  The pipeline
+publishes these separately as `shareholding_history.json.gz`: promoter, FII,
+DII, public holding and shareholder count by provider reporting period.  It
+records when the pipeline observed each row and does **not** infer a filing
+date, so historical scanner snapshots cannot be rewritten with data first
+seen later.
+
 ```json
 {"data": {"isin": "<ISIN>"}}
 ```

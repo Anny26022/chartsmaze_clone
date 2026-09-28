@@ -9,6 +9,7 @@ from pathlib import Path
 from tempfile import NamedTemporaryFile
 
 from .earnings import EARNINGS_FIELDS, select_observation
+from .shareholding import SHAREHOLDING_FIELDS, select_observation as select_shareholding_observation
 
 
 SCANNER_SNAPSHOT_FIELDS = (
@@ -20,7 +21,7 @@ SCANNER_SNAPSHOT_FIELDS = (
     "qoq_percent_sales_latest", "yoy_percent_sales_latest",
     "qoq_percent_pbt_latest", "yoy_percent_pbt_latest",
     "qoq_percent_eps_latest", "yoy_percent_eps_latest",
-    "debt_to_equity", "eps_ttm", "promoter_holding_percent", "public_holding_percent",
+    "debt_to_equity", "eps_ttm", "promoter_holding_percent", "fii_holding_percent", "dii_holding_percent", "public_holding_percent",
     "number_of_shareholders", "dividend_yield_percent", "face_value",
     "total_income_in_lakhs", "total_expense_in_lakhs", "profit_before_tax_in_lakhs",
     "total_tax_expenses_in_lakhs", "net_profit_in_lakhs", "total_equity_in_lakhs",
@@ -42,7 +43,8 @@ def _write_gzip_json(path: Path, payload: dict) -> None:
         temporary.unlink(missing_ok=True)
 
 
-def build_snapshot(cache_dir: Path, stocks: list[dict], breadth: dict, fno_ban: dict, as_of_date: str, earnings_observations=None) -> Path:
+def build_snapshot(cache_dir: Path, stocks: list[dict], breadth: dict, fno_ban: dict, as_of_date: str,
+                   earnings_observations=None, shareholding_observations=None) -> Path:
     """Persist only fields that influence scanner conditions for one session."""
     session = date.fromisoformat(as_of_date).isoformat()
     record = next((item for item in breadth.get("records", []) if item.get("date") == session), None)
@@ -58,9 +60,17 @@ def build_snapshot(cache_dir: Path, stocks: list[dict], breadth: dict, fno_ban: 
             item.update({field: observation.get(field) for field in EARNINGS_FIELDS})
             item["latest_earnings_date"] = observation["announcement_date"]
             item["earnings_observed_on"] = observation.get("observed_on")
+        holding = select_shareholding_observation(shareholding_observations or [], stock["symbol"], session)
+        if holding:
+            item.update({field: holding.get(field) for field in SHAREHOLDING_FIELDS.values()})
+            promoter = holding.get("promoter_holding_percent")
+            if isinstance(promoter, (int, float)) and 0 <= promoter <= 100:
+                item["free_float_percent"] = 100.0 - promoter
+            item["shareholding_period_end"] = holding["period_end"]
+            item["shareholding_observed_on"] = holding["observed_on"]
         snapshot_stocks.append(item)
     payload = {
-        "schema_version": 2,
+        "schema_version": 3,
         "as_of_date": session,
         "stocks": snapshot_stocks,
         "breadth": record,

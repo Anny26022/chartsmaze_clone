@@ -11,6 +11,7 @@ if str(SRC) not in sys.path:
 
 from edl_pipeline.scanner.history import build_snapshot, load_snapshot
 from edl_pipeline.scanner.earnings import merge_observations, select_observation
+from edl_pipeline.scanner.shareholding import observations_from_fundamentals, select_observation as select_shareholding_observation
 
 
 class ScannerHistoryTests(unittest.TestCase):
@@ -60,3 +61,41 @@ class ScannerHistoryTests(unittest.TestCase):
             select_observation(observations, "RELIANCE", "2026-09-25")["latest_quarter"],
             "202606",
         )
+
+    def test_shareholding_history_is_dated_and_rejects_placeholder_periods(self):
+        observations = observations_from_fundamentals([{
+            "Symbol": "RELIANCE", "isin": "INE002A01018",
+            "sHp": {
+                "YEAR": "202606|202603|189912",
+                "PROMOTER": "50.48|50.00|49.00",
+                "FII": "17.20|18.67|19.00",
+                "DII": "21.19|20.55|20.00",
+                "PUBLIC": "8.58|8.36|9.00",
+                "NO_OF_SHARE_HOLDERS": "4651860|4421290|1",
+            },
+        }], "2026-09-25")
+        self.assertEqual(len(observations), 2)
+        self.assertEqual(observations[-1]["period_end"], "2026-06-30")
+        self.assertEqual(observations[-1]["number_of_shareholders"], 4651860)
+        self.assertIsNone(select_shareholding_observation(observations, "RELIANCE", "2026-09-24"))
+        self.assertEqual(
+            select_shareholding_observation(observations, "RELIANCE", "2026-09-25")["promoter_holding_percent"],
+            50.48,
+        )
+
+    def test_snapshot_uses_ownership_seen_by_its_session(self):
+        stocks = [{"symbol": "RELIANCE", "promoter_holding_percent": 99}]
+        observations = [{
+            "symbol": "RELIANCE", "period_end": "2026-06-30", "observed_on": "2026-09-25",
+            "promoter_holding_percent": 50.48, "fii_holding_percent": 17.2,
+        }]
+        with tempfile.TemporaryDirectory() as directory:
+            build_snapshot(
+                Path(directory), stocks, {"records": [{"date": "2026-09-25"}]}, {}, "2026-09-25",
+                shareholding_observations=observations,
+            )
+            saved = load_snapshot(Path(directory), "2026-09-25")
+        item = saved["stocks"][0]
+        self.assertEqual(item["promoter_holding_percent"], 50.48)
+        self.assertEqual(item["free_float_percent"], 49.52)
+        self.assertEqual(item["shareholding_period_end"], "2026-06-30")

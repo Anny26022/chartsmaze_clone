@@ -12,6 +12,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from edl_pipeline.scanner.earnings import merge_observations
+from edl_pipeline.scanner.shareholding import observations_from_fundamentals
 from edl_pipeline.scanner.history import build_snapshot
 from pipeline_utils import BASE_DIR, load_json, save_json
 
@@ -33,6 +34,7 @@ def main():
     stocks = _read_artifact(root, "all_stocks_fundamental_analysis", default=[])
     breadth = _read_artifact(root, "market_breadth_v2", default={})
     fno = _read_artifact(root, "nse_fno_ban", default={})
+    shareholding = _read_artifact(root, "shareholding_history", default={})
     records = breadth.get("records", [])
     if not stocks or not records:
         print("Cannot snapshot scanner context without canonical stocks and breadth.")
@@ -52,7 +54,18 @@ def main():
         "source": "Dhan fundamental snapshot joined to exchange Financial Results filing date",
         "observations": observations,
     }, ensure_ascii=False)
-    path = build_snapshot(root / "scanner_history_data", stocks, breadth, fno, session, observations)
+    shareholding_observations = shareholding.get("records", [])
+    # The normal pipeline builds this artifact before its first snapshot.  The
+    # fallback keeps manual/older runs usable without treating current
+    # ownership as historic data: it is observed on this snapshot's session.
+    if not shareholding_observations:
+        shareholding_observations = observations_from_fundamentals(
+            _read_artifact(root, "fundamental_data", default=[]), session
+        )
+    path = build_snapshot(
+        root / "scanner_history_data", stocks, breadth, fno, session, observations,
+        shareholding_observations,
+    )
     print(f"Saved scanner context snapshot: {path.name}")
     return 0
 

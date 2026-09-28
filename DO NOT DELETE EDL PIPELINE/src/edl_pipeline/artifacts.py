@@ -27,6 +27,7 @@ INTERMEDIATE_FILES = [
     "market_breadth.csv",
     "etf_data_response.json",
     "corporate_action_ledger.json",
+    "shareholding_history.json",
     "nse_delivery_data.json",
     "eod2_ohlcv_import_report.json",
     "nse_daily_ohlcv_report.json",
@@ -51,6 +52,7 @@ FILES_TO_COMPRESS = {
     "nse_fno_ban.json": "nse_fno_ban.json.gz",
     "rs_rating_daily.json": "rs_rating_daily.json.gz",
     "ipo_screener.json": "ipo_screener.json.gz",
+    "shareholding_history.json": "shareholding_history.json.gz",
     # Raw NSE SME coverage is retained separately; it is never part of the
     # canonical scanner universe.
     "sme_market_data.json": "sme_market_data.json.gz",
@@ -99,6 +101,7 @@ PHASE4_SCRIPTS = [
     # universe required to rank relative strength.
     OHLCV_DERIVED_SCRIPT,
     "build_rs_ratings.py",
+    "build_shareholding_history.py",
     "add_corporate_events.py",
     "build_corporate_action_ledger.py",
     "standardize_stock_artifact.py",
@@ -241,6 +244,9 @@ SCRIPT_OUTPUT_SPECS = {
     "build_corporate_action_ledger.py": [
         ArtifactSpec("corporate_action_ledger.json", "json", required_fields=("source", "price_adjusted", "records")),
     ],
+    "build_shareholding_history.py": [
+        ArtifactSpec("shareholding_history.json", "json", min_count=1, required_fields=("source", "as_of_date", "records")),
+    ],
     "standardize_stock_artifact.py": [
         ArtifactSpec(
             "all_stocks_fundamental_analysis.json",
@@ -276,6 +282,7 @@ FINAL_ARTIFACT_SPECS = [
     ArtifactSpec("nse_fno_ban.json.gz", "gzip_json", required_fields=("source", "available", "trade_date", "symbols")),
     ArtifactSpec("rs_rating_daily.json.gz", "gzip_json", required_fields=("source", "as_of_date", "ratings")),
     ArtifactSpec("ipo_screener.json.gz", "gzip_json", required_fields=("schema_version", "source", "as_of_date", "records", "pending_canonical_enrichment", "capabilities")),
+    ArtifactSpec("shareholding_history.json.gz", "gzip_json", min_count=1, required_fields=("source", "as_of_date", "records")),
     ArtifactSpec(
         "nse_universe_reconciliation.json", "json",
         required_fields=("available", "source", "as_of_date", "pending_scanx_enrichment", "alert_count"),

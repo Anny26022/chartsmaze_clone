@@ -333,8 +333,13 @@ class IntegrityTests(unittest.TestCase):
             last=bars[-1]
             master=[{'Symbol':'ABC','Name':'ABC Ltd','ISIN':'INE000000001','Sid':1}]
             self.write(root,'master_isin_map.json',master)
-            # Empty fundamental body still retains the stock from the master.
-            self.write(root,'fundamental_data.json',[])
+            self.write(root,'fundamental_data.json',[{
+                'Symbol':'ABC','isin':'INE000000001',
+                'sHp':{
+                    'YEAR':'202606', 'PROMOTER':'50', 'FII':'20', 'DII':'10',
+                    'PUBLIC':'20', 'NO_OF_SHARE_HOLDERS':'1000',
+                },
+            }])
             self.write(root,'dhan_data_response.json',[{
                 'Sym':'ABC','DispSym':'ABC Ltd','Isin':'INE000000001','Sid':1,
                 'Mcap':1000,'Ltp':last['Close'],'Open':last['Open'],
@@ -373,7 +378,8 @@ class IntegrityTests(unittest.TestCase):
             for name in ('bulk_market_analyzer.py','advanced_metrics_processor.py',
                          'process_earnings_performance.py','process_market_breadth.py',
                          'process_historical_market_breadth.py','add_corporate_events.py',
-                         'process_mbi_market_breadth.py','build_rs_ratings.py','build_corporate_action_ledger.py','standardize_stock_artifact.py',
+                         'process_mbi_market_breadth.py','build_rs_ratings.py','build_shareholding_history.py',
+                         'build_corporate_action_ledger.py','standardize_stock_artifact.py',
                          'build_ipo_screener_artifact.py'):
                 result=subprocess.run([sys.executable,str(ROOT/name)],cwd=root,env=env,capture_output=True,text=True,timeout=30)
                 self.assertEqual(result.returncode,0,name+'\n'+result.stdout+'\n'+result.stderr)

@@ -20,6 +20,7 @@ class RunnerTests(unittest.TestCase):
     def test_standardizer_is_last_enrichment_stage_with_matching_contracts(self):
         self.assertEqual(PHASE4_SCRIPTS[-1], "standardize_stock_artifact.py")
         self.assertLess(PHASE4_SCRIPTS.index(OHLCV_DERIVED_SCRIPT), PHASE4_SCRIPTS.index("build_rs_ratings.py"))
+        self.assertLess(PHASE4_SCRIPTS.index("build_shareholding_history.py"), PHASE4_SCRIPTS.index("standardize_stock_artifact.py"))
         self.assertEqual(
             SCRIPT_OUTPUT_SPECS["add_corporate_events.py"][0].required_fields,
             ("Event Markers", "Recent Announcements", "News Feed"),
