@@ -5,7 +5,9 @@ from pipeline_utils import fetch_scanx_data, save_json
 
 
 ACTION_FIELDS = ["CorpAct.ActType", "Sym", "DispSym", "CorpAct.ExDate", "CorpAct.RecDate", "CorpAct.Note"]
-ACTION_TYPES = "BONUS,DIVIDEND,QUARTERLY RESULT ANNOUNCEMENT,SPLIT,RIGHTS,BUYBACK"
+# NSE is the primary corporate-action source.  ScanX remains only as an
+# earnings-event fallback until a point-in-time official results feed replaces it.
+ACTION_TYPES = "QUARTERLY RESULT ANNOUNCEMENT"
 
 
 def build_payload(start_date, end_date):
@@ -58,16 +60,16 @@ def fetch_corporate_actions_scenarios():
     two_years_ago = (ist_now - timedelta(days=365 * 2)).strftime("%Y-%m-%d")
     two_months_forward = (ist_now + timedelta(days=60)).strftime("%Y-%m-%d")
 
-    print(f"Scenario 1: Fetching Historical Data ({two_years_ago} to Yesterday)...")
+    print(f"Fetching historical earnings-event fallback ({two_years_ago} to yesterday)...")
     yesterday = (ist_now - timedelta(days=1)).strftime("%Y-%m-%d")
     history = fetch_actions(two_years_ago, yesterday)
-    save_json("history_corporate_actions.json", history)
-    print(f"Saved {len(history)} historical actions to history_corporate_actions.json")
+    save_json("history_earnings_events.json", history)
+    print(f"Saved {len(history)} historical earnings events to history_earnings_events.json")
 
-    print(f"Scenario 2: Fetching Upcoming Data (Today onwards for 2 months)...")
+    print("Fetching upcoming earnings-event fallback (today onwards for two months)...")
     upcoming = fetch_actions(today_str, two_months_forward)
-    save_json("upcoming_corporate_actions.json", upcoming)
-    print(f"Saved {len(upcoming)} upcoming actions to upcoming_corporate_actions.json")
+    save_json("upcoming_earnings_events.json", upcoming)
+    print(f"Saved {len(upcoming)} upcoming earnings events to upcoming_earnings_events.json")
     return True
 
 if __name__ == "__main__":

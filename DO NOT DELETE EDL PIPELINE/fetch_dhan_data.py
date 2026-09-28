@@ -1,3 +1,4 @@
+import math
 import sys
 
 from pipeline_utils import SCANX_FETCH_URL, fetch_scanx_data, resolve_path, save_json
@@ -23,7 +24,12 @@ def build_master_map(stocks):
     for item in stocks:
         symbol = item.get("Sym")
         isin = item.get("Isin")
-        if symbol and isin:
+        security_id = item.get("Sid")
+        try:
+            price = float(item.get("Ltp"))
+        except (TypeError, ValueError):
+            price = 0
+        if symbol and isin and security_id is not None and math.isfinite(price) and price > 0:
             master_map.append({
                 "Symbol": symbol,
                 "ISIN": isin,
@@ -31,7 +37,7 @@ def build_master_map(stocks):
                 "Exchange": item.get("Exch", "NSE"),
                 "Instrument": item.get("Inst", "EQUITY"),
                 "Segment": item.get("Seg", "E"),
-                "Sid": item.get("Sid"),
+                "Sid": security_id,
                 "FnoFlag": item.get("FnoFlag", 0),
             })
     return sorted(master_map, key=lambda x: x["Symbol"])
@@ -69,7 +75,7 @@ def fetch_all_dhan_data():
             print("Creating Master ISIN Map...")
             master_map = build_master_map(cleaned_data)
             save_json(master_map_file, master_map)
-            print(f"Successfully saved {len(master_map)} symbols (with Sid) to {master_map_file}")
+            print(f"Successfully saved {len(master_map)} symbols (with security ID and price) to {master_map_file}")
             return True
         else:
             print("Response structure might be different than expected.")

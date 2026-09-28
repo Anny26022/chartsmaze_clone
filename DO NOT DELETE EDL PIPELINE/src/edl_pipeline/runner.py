@@ -6,11 +6,14 @@ without shelling out to the full live pipeline.
 
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
+import csv
 import os
 import shutil
 import subprocess
 import sys
 import time
+from pathlib import Path
+from tempfile import NamedTemporaryFile
 
 from pipeline_utils import BASE_DIR, compress_file, save_json
 import pipeline_utils
@@ -26,6 +29,8 @@ from .artifacts import (
     OPTIONAL_SCRIPTS,
     PHASE2_SCRIPTS,
     PHASE4_SCRIPTS,
+    POST_STANDARDIZATION_SCRIPTS,
+    SCANNER_HISTORY_SCRIPT,
     SCRIPT_OUTPUT_SPECS,
 )
 from .config import PipelineConfig
@@ -128,29 +133,31 @@ def compress_output(include_ohlcv_derived=True):
 def download_nse_listing_dates():
     """Download NSE listing dates used by the base analyzer."""
     print("  Downloading NSE Listing Dates...")
-    csv_path = os.path.join(BASE_DIR, "nse_equity_list.csv")
+    csv_path = Path(BASE_DIR) / "nse_equity_list.csv"
+    temporary_path = None
     try:
-        result = subprocess.run(
-            [
-                "curl",
-                "-s",
-                "-o",
-                csv_path,
-                "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
-                "--http1.1",
-                "--header",
-                "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-            ],
-            capture_output=True,
-            text=True,
-            timeout=30,
-        )
-        if result.returncode == 0 and os.path.getsize(csv_path) > 0:
+        with NamedTemporaryFile("wb", delete=False, dir=csv_path.parent, prefix=".nse_equity_list.") as handle:
+            temporary_path = Path(handle.name)
+        result = subprocess.run([
+            "curl", "--fail", "--silent", "--show-error", "--http1.1",
+            "-o", str(temporary_path),
+            "https://nsearchives.nseindia.com/content/equities/EQUITY_L.csv",
+            "--header", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        ], capture_output=True, text=True, timeout=30)
+        with temporary_path.open(encoding="utf-8-sig", newline="") as handle:
+            reader = csv.DictReader(handle)
+            headers = {header.strip() for header in reader.fieldnames or []}
+            valid_rows = sum(1 for _ in reader)
+        if result.returncode == 0 and {"SYMBOL", "NAME OF COMPANY"} <= headers and valid_rows >= 1000:
+            temporary_path.replace(csv_path)
             print("  OK NSE Listing Dates downloaded.")
             return True
-        print(f"  WARNING: NSE CSV download failed (exit {result.returncode}, non-critical).")
+        print(f"  WARNING: NSE CSV download failed validation (exit {result.returncode}, non-critical).")
     except Exception as e:
         print(f"  WARNING: NSE CSV download failed: {e} (non-critical).")
+    finally:
+        if temporary_path is not None and temporary_path.exists():
+            temporary_path.unlink()
     return False
 
 
@@ -288,6 +295,26 @@ def main(config=None):
         )
         return 1
 
+    # The raw ScanX response includes current SME listings.  Fetch the
+    # authoritative NSE SME universe before any stage reads the canonical map.
+    results["fetch_sme_data.py"] = run_script("fetch_sme_data.py", "Phase 1", required=True)
+    if not results["fetch_sme_data.py"].ok:
+        print("\nCRITICAL: fetch_sme_data.py failed. Cannot safely publish a mainboard-only universe.")
+        write_pipeline_report(
+            build_pipeline_report(results, time.time() - overall_start, raw_size, gz_size, final_checks, config, 1)
+        )
+        return 1
+
+    results["filter_mainboard_universe.py"] = run_script(
+        "filter_mainboard_universe.py", "Phase 1", required=True
+    )
+    if not results["filter_mainboard_universe.py"].ok:
+        print("\nCRITICAL: mainboard universe filter failed. Cannot continue.")
+        write_pipeline_report(
+            build_pipeline_report(results, time.time() - overall_start, raw_size, gz_size, final_checks, config, 1)
+        )
+        return 1
+
     results["fetch_fundamental_data.py"] = run_script("fetch_fundamental_data.py", "Phase 1", required=True)
     if not results["fetch_fundamental_data.py"].ok:
         print("\nCRITICAL: fetch_fundamental_data.py failed. Cannot continue.")
@@ -298,15 +325,28 @@ def main(config=None):
         return 1
 
     download_nse_listing_dates()
+    results["reconcile_nse_equity_universe.py"] = run_script(
+        "reconcile_nse_equity_universe.py", "Phase 1", required=False
+    )
 
     print("\nPHASE 2: Data Enrichment (Fetching)")
     print("-" * 40)
     for script in PHASE2_SCRIPTS:
-        results[script] = run_script(script, "Phase 2", required=script == "fetch_all_indices.py")
+        results[script] = run_script(
+            script, "Phase 2", required=script in {
+                "fetch_all_indices.py", "fetch_nse_delivery_history.py", "fetch_nse_corporate_actions.py",
+            },
+        )
 
     if config.fetch_ohlcv:
         print("\nPHASE 2.5: OHLCV History (Smart Incremental)")
         print("-" * 40)
+        results["import_eod2_ohlcv.py"] = run_script(
+            "import_eod2_ohlcv.py", "Phase 2.5", required=True
+        )
+        results["apply_nse_daily_ohlcv.py"] = run_script(
+            "apply_nse_daily_ohlcv.py", "Phase 2.5", required=True
+        )
         results["fetch_all_ohlcv.py"] = run_script(
             "fetch_all_ohlcv.py", "Phase 2.5", required=True
         )
@@ -328,14 +368,16 @@ def main(config=None):
     print("\nPHASE 4: Enrichment (Injecting into Master JSON)")
     print("-" * 40)
     for script in PHASE4_SCRIPTS:
-        if script == OHLCV_DERIVED_SCRIPT and not config.fetch_ohlcv:
-            print(f"  SKIP: {script} (EDL_FETCH_OHLCV=0)")
-            continue
         results[script] = run_script(
             script,
             "Phase 4",
             required=True,
         )
+
+    print("\nPHASE 4.5: Canonical consumers")
+    print("-" * 40)
+    for script in POST_STANDARDIZATION_SCRIPTS:
+        results[script] = run_script(script, "Phase 4.5", required=True)
 
     if any(result.required and not result.ok for result in results.values()):
         write_pipeline_report(build_pipeline_report(results, time.time() - overall_start, 0, 0, [], config, 1))
@@ -344,6 +386,10 @@ def main(config=None):
     print("\nPHASE 5: Compression (.json -> .json.gz)")
     print("-" * 40)
     raw_size, gz_size = compress_output(include_ohlcv_derived=config.fetch_ohlcv)
+
+    print("\nPHASE 5.5: Scanner point-in-time context")
+    print("-" * 40)
+    results[SCANNER_HISTORY_SCRIPT] = run_script(SCANNER_HISTORY_SCRIPT, "Phase 5.5", required=True)
 
     if config.fetch_optional:
         print("\nPHASE 6: Optional Standalone Data")

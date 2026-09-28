@@ -32,7 +32,7 @@ Runs the fetch, analysis, enrichment, breadth, and compression stages in depende
 The runner also writes `pipeline_report.json` with script status, artifact validation results, byte sizes, configuration flags, and the final exit code.
 
 **Configuration flags:**
-- `FETCH_OHLCV = True/False` — Include stock/index OHLCV sync. Stock OHLCV is incremental and currently defaults to roughly two years of history when no local CSV exists.
+- `FETCH_OHLCV = True/False` — Include stock/index OHLCV sync. Stock OHLCV is incremental and currently defaults to roughly four years of history when no local CSV exists.
 - `FETCH_OPTIONAL = True/False` — Include optional standalone ETF data.
 - `CLEANUP_INTERMEDIATE = True/False` — Delete intermediate JSON/CSV files after successful compression.
 
@@ -41,11 +41,53 @@ The same flags can be overridden without editing source:
 EDL_FETCH_OHLCV=0 EDL_CLEANUP_INTERMEDIATE=0 python3 run_full_pipeline.py
 ```
 
+### Optional EOD2 historical bootstrap
+
+The normal daily refresh uses the official NSE full bhavcopy for the latest
+closed session and Dhan only for an in-market provisional candle or a missing
+history fallback. To seed longer **adjusted**
+daily OHLCV history from a local checkout of EOD2's data repository, set its
+path for one full refresh:
+
+```bash
+git clone --depth 1 https://github.com/BennyThadikaran/eod2_data.git ~/data/eod2_data
+EDL_EOD2_DATA_DIR=~/data/eod2_data python3 run_full_pipeline.py
+```
+
+The importer joins by ISIN, not ticker filename. It overlays EOD2's adjusted
+history, retains local candles newer than EOD2's snapshot, and writes the
+existing `ohlcv_data/*.csv` cache format. No Parquet layer is added because the
+scanner already consumes this CSV cache. Official NSE delivery-history files
+remain the source for delivery-percent screens.
+
+The repository's **Weekly Adjusted OHLCV Refresh** GitHub Action runs each
+Sunday at 09:00 IST. It restores a cached EOD2 data checkout, fast-forwards it
+from upstream, and invokes this same pipeline with `EDL_EOD2_DATA_DIR` set.
+The weekday **Daily Data Refresh** intentionally does not use EOD2: it relies
+on the official NSE close for the latest completed session, so it remains
+independent if the optional upstream repository is unavailable.
+
+### Mainboard universe and NSE reconciliation
+
+Every refresh downloads and validates NSE's current `EQUITY_L.csv`. ScanX
+is first captured as a raw source snapshot, then the current official NSE SME
+market-watch feed is removed before the canonical universe is used by
+fundamentals, OHLCV, breadth, rankings, or scanner artifacts. The retained
+`sme_market_data.json.gz` is source coverage only; no SME symbol appears in
+the scanner universe. `mainboard_universe_report.json` records the raw,
+excluded, and final counts for each refresh.
+
+`nse_universe_reconciliation.json` reports NSE
+`EQ` listings that are absent from ScanX; they remain pending until ScanX
+supplies an ISIN, security ID, and positive price. A row still absent after
+two observed weekday sessions is marked as an alert. Rights and non-`EQ`
+series are reported separately and never treated as IPO candidates.
+
 ### Pipeline Phases
 ```
-PHASE 1 (Core):       fetch_dhan_data.py → fetch_fundamental_data.py
+PHASE 1 (Core):       fetch_dhan_data.py → fetch_sme_data.py → filter_mainboard_universe.py → fetch_fundamental_data.py
 PHASE 2 (Enrichment): fetch_company_filings.py, fetch_market_news.py, fetch_all_indices.py, etc.
-PHASE 2.5 (OHLCV):    fetch_all_ohlcv.py → fetch_indices_ohlcv.py
+PHASE 2.5 (OHLCV):    optional EOD2 bootstrap → official NSE close → ScanX fallback/live → index sync
 PHASE 3 (Analysis):   bulk_market_analyzer.py (creates base JSON)
 PHASE 4 (Injection):  advanced_metrics_processor.py → process_market_breadth.py → add_corporate_events.py (LAST!)
 PHASE 5 (Output):     gzip compression of final artifacts
@@ -78,6 +120,16 @@ python3 -m pip install -e . --dry-run
 ```
 
 The unit tests cover deterministic transform helpers without calling live Dhan/NSE endpoints. Run `python3 run_full_pipeline.py` only when you want a full live data refresh.
+
+### Daily trend screens
+
+The local condition engine evaluates the eight daily trend conditions over the
+published OHLCV cache without making a provider request. See
+[`docs/TREND_CONDITION_ENGINE.md`](docs/TREND_CONDITION_ENGINE.md) and run:
+
+```bash
+python3 screen_trend_conditions.py --request examples/trend-screen-request.json
+```
 
 ---
 
@@ -112,6 +164,13 @@ This section is a compact overview. The detailed, repo-grounded source reference
 | **Timeout** | 30s |
 | **Output** | `fundamental_data.json` (35 MB) |
 
+The raw ScanX payload also contains dated `sHp` ownership rows.  The pipeline
+publishes these separately as `shareholding_history.json.gz`: promoter, FII,
+DII, public holding and shareholder count by provider reporting period.  It
+records when the pipeline observed each row and does **not** infer a filing
+date, so historical scanner snapshots cannot be rewritten with data first
+seen later.
+
 ```json
 {"data": {"isin": "<ISIN>"}}
 ```
@@ -124,14 +183,27 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 | **URL 1** | `https://ow-static-scanx.dhan.co/staticscanx/company_filings` |
 | **URL 2** | `https://ow-static-scanx.dhan.co/staticscanx/lodr` |
 | **Method** | `POST` |
-| **Page Size** | `count: 100, pg_no: 1` |
-| **Threads** | 20 |
+| **Page Size** | `count: 100`; page 1 every refresh, remaining LODR pages once per symbol |
+| **Threads** | 8 (bounded historical backfill) |
 | **Dedup** | By `news_id` + `news_date` + `caption` |
 | **Output** | `company_filings/{SYMBOL}_filings.json` |
 
 ```json
 {"data": {"isin": "<ISIN>", "pg_no": 1, "count": 100}}
 ```
+
+LODR returns `total_pages`. The first successful history fetch follows every
+page and saves the merged metadata in `filing_history_data/`; subsequent daily
+runs fetch only page 1 and merge new disclosures. `filing_history.json.gz` is
+the published, durable ledger. It contains timestamps and filing metadata, not
+invented financial values from attachment PDFs.
+
+`quarterly_financial_history.json.gz` joins those real disclosure timestamps
+to the provider's quarter-indexed numerical statements. Rows retain their
+`CONSOLIDATED` or `STANDALONE` provenance; standalone results never fill a
+missing consolidated result. The statement values are a current provider
+observation, so strict point-in-time screens continue to require a snapshot
+observed on or before the requested date.
 
 ### 4. Live Announcements — `fetch_new_announcements.py`
 | Key | Value |
@@ -181,24 +253,19 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 }
 ```
 
-### 7. Corporate Actions — `fetch_corporate_actions.py`
+### 7. Corporate Actions — official NSE, with ScanX earnings fallback
 | Key | Value |
 |---|---|
-| **URL** | `https://ow-scanx-analytics.dhan.co/customscan/fetchdt` |
-| **Method** | `POST` |
-| **Page Size** | `count: 5000` |
-| **Modes** | History (2 years back) + Upcoming (2 months ahead) |
-| **Output** | `history_corporate_actions.json`, `upcoming_corporate_actions.json` |
+| **Primary URL** | `https://www.nseindia.com/api/corporates-corporateActions` |
+| **Primary range** | 2018 onward, with one-year forward event context |
+| **Primary outputs** | `nse_corporate_actions.json`, `nse_corporate_action_adjustments.json` |
+| **Fallback** | ScanX quarterly-result announcements only |
+| **Fallback outputs** | `history_earnings_events.json`, `upcoming_earnings_events.json` |
 
-```json
-{
-  "data": {
-    "type": "full", "whichpage": "corporate_action",
-    "filters": [{"field": "CorpAct.ActDate", "op": "GT", "val": "<DATE>"}],
-    "count": 5000, "page": 1
-  }
-}
-```
+The official ledger retains the NSE action subject, ISIN, ex-date, record-date,
+and an explicit adjustment mode. A factor is published only for a parsed,
+deterministic split, bonus, or consolidation; schemes and demergers stay marked
+for manual review.
 
 ### 8. Surveillance Lists (ASM/GSM) — `fetch_surveillance_lists.py`
 | Key | Value |
@@ -281,7 +348,8 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 | `fetch_new_announcements.py` | Live corporate announcements → `all_company_announcements.json` |
 | `fetch_advanced_indicators.py` | Pivot Points, EMA/SMA signals → `advanced_indicator_data.json` |
 | `fetch_market_news.py` | AI-sentiment news (50/stock) → `market_news/` |
-| `fetch_corporate_actions.py` | Dividends, Bonus, Splits → `upcoming/history_corporate_actions.json` |
+| `fetch_nse_corporate_actions.py` | Official NSE actions + deterministic adjustment factors |
+| `fetch_corporate_actions.py` | ScanX quarterly-result-event fallback only |
 | `fetch_surveillance_lists.py` | ASM/GSM lists → `nse_asm_list.json`, `nse_gsm_list.json` |
 | `fetch_circuit_stocks.py` | Upper/Lower circuit → `upper/lower_circuit_stocks.json` |
 | `fetch_bulk_block_deals.py` | Bulk/Block deals (30 days) → `bulk_block_deals.json` |

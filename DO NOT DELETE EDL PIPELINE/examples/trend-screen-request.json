@@ -1,0 +1,22 @@
+{
+  "as_of_date": "2026-09-25",
+  "conditions": [
+    {
+      "condition": "persistent_momentum",
+      "periods": [10, 20, 50],
+      "persist_days": {"10": 10, "20": 15, "50": 20}
+    },
+    {
+      "condition": "adx",
+      "period": 14,
+      "comparison": "greater_or_equal",
+      "value": 25
+    },
+    {
+      "condition": "ma_stack",
+      "ma_type": "sma",
+      "periods": [50, 150, 200],
+      "price_above_fastest": true
+    }
+  ]
+}

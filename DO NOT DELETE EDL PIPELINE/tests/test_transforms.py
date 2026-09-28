@@ -6,8 +6,10 @@ import json
 import sys
 import tempfile
 import unittest
+from datetime import datetime, timezone
 from unittest import mock
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
@@ -23,16 +25,19 @@ from enrich_fno_data import fetch_next_expiry, lookup_expiry, normalized_symbol
 from fetch_fno_lot_sizes import clean_lot_size_item
 from advanced_metrics_processor import merge_historical_metrics, process_symbol_csv
 from standardize_stock_artifact import canonicalize_stock
+from nse_delivery import normalize_ohlcv_row, normalize_row
+from enrich_delivery_data import apply_delivery_data
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from process_market_breadth import generate_analytics
 from nse_archive_utils import clean_records
-from ohlcv_utils import merge_rows_by_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
+from ohlcv_utils import discard_weekend_rows, is_nse_cash_session, merge_rows_by_date, nse_calendar_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
 from pipeline_utils import apply_sma_fields, chunked, load_json, save_json
 from run_full_pipeline import env_bool
 from edl_pipeline.transforms.events import (
     apply_events_to_master,
     collect_circuit_revision_events,
     collect_deal_events,
+    collect_upcoming_nse_action_events,
     collect_surveillance_events,
     collect_upcoming_action_events,
 )
@@ -41,11 +46,56 @@ from edl_pipeline.schemas import REQUIRED_FINAL_FIELDS
 
 
 class TransformTests(unittest.TestCase):
+    def test_nse_full_bhavcopy_normalizes_closed_session_ohlcv(self):
+        self.assertEqual(normalize_ohlcv_row({
+            "SYMBOL": "RELIANCE", " SERIES": " EQ", " DATE1": " 25-Sep-2026",
+            " OPEN_PRICE": " 1210.5", " HIGH_PRICE": " 1227.4", " LOW_PRICE": " 1210.5",
+            " CLOSE_PRICE": " 1226", " TTL_TRD_QNTY": " 13138735",
+        }), {
+            "symbol": "RELIANCE", "series": "EQ", "date": "2026-09-25", "open": 1210.5,
+            "high": 1227.4, "low": 1210.5, "close": 1226.0, "volume": 13138735.0,
+        })
+
+    def test_nse_delivery_adapter_normalizes_full_bhavcopy_row(self):
+        row = normalize_row({
+            "SYMBOL": "RELIANCE", " SERIES": "EQ", " DATE1": "25-Sep-2026",
+            " TTL_TRD_QNTY": 13138735, " DELIV_QTY": 8311348, " DELIV_PER": 63.26,
+        })
+        self.assertEqual(row, {
+            "symbol": "RELIANCE", "series": "EQ", "date": "2026-09-25",
+            "traded_quantity": 13138735, "deliverable_quantity": 8311348,
+            "delivery_percent": 63.26,
+            "source": "NSE daily full bhavcopy and security deliverable data",
+        })
+
+    def test_delivery_enrichment_uses_only_the_latest_record_per_symbol(self):
+        stocks = [{"Symbol": "RELIANCE"}, {"Symbol": "NO_RECORD"}]
+        applied = apply_delivery_data(stocks, [
+            {"symbol": "RELIANCE", "date": "2026-09-24", "delivery_percent": 61.28,
+             "deliverable_quantity": 8, "traded_quantity": 10, "series": "EQ"},
+            {"symbol": "RELIANCE", "date": "2026-09-25", "delivery_percent": 63.26,
+             "deliverable_quantity": 9, "traded_quantity": 11, "series": "EQ"},
+        ])
+        self.assertEqual(applied, 1)
+        self.assertEqual(stocks[0]["Delivery %"], 63.26)
+        self.assertEqual(stocks[0]["Delivery As Of Date"], "2026-09-25")
+        self.assertNotIn("Delivery %", stocks[1])
+
+    def test_standardization_keeps_delivery_fields_and_nulls(self):
+        result = canonicalize_stock({"Symbol": "RELIANCE", "Delivery %": 63.26,
+                                     "Deliverable Quantity": 8, "Delivery Traded Quantity": 10,
+                                     "Delivery As Of Date": "2026-09-25", "Delivery Series": "EQ"})
+        self.assertEqual(result["delivery_percent"], 63.26)
+        self.assertEqual(result["delivery_as_of_date"], "2026-09-25")
+        self.assertEqual(result["delivery_series"], "EQ")
+
     def test_build_master_map_filters_missing_ids_and_sorts_symbols(self):
         stocks = [
-            {"Sym": "BETA", "Isin": "INB", "DispSym": "Beta Ltd", "Sid": 2, "FnoFlag": 1},
-            {"Sym": "ALPHA", "Isin": "INA", "DispSym": "Alpha Ltd", "Sid": 1},
+            {"Sym": "BETA", "Isin": "INB", "DispSym": "Beta Ltd", "Sid": 2, "Ltp": 20, "FnoFlag": 1},
+            {"Sym": "ALPHA", "Isin": "INA", "DispSym": "Alpha Ltd", "Sid": 1, "Ltp": 10},
             {"Sym": "NOISIN", "DispSym": "No ISIN"},
+            {"Sym": "NOSID", "Isin": "INC", "Ltp": 10},
+            {"Sym": "NOPRICE", "Isin": "IND", "Sid": 3, "Ltp": 0},
         ]
 
         self.assertEqual(
@@ -78,6 +128,7 @@ class TransformTests(unittest.TestCase):
                 "NET_PROFIT": "10|5|4|3|2",
                 "EPS": "2|1|0.5|0.25|1",
                 "SALES": "100|80|70|60|50",
+                "PROFIT_BEFORE_TAX": "40|20|15|10|8",
                 "OPM": "20|15|10|5|10",
             },
             "incomeStat_cy": {"EPS": "8|6", "SALES": "200|180|160|140|120|100"},
@@ -125,6 +176,7 @@ class TransformTests(unittest.TestCase):
 
         self.assertEqual(result["QoQ % Net Profit Latest"], 100.0)
         self.assertEqual(result["YoY % Net Profit Latest"], 400.0)
+        self.assertEqual(result["QoQ % PBT Latest"], 100.0)
         self.assertAlmostEqual(result["Sales Growth 5 Years(%)"], 14.87, places=2)
         self.assertEqual(result["D/E"], 0.5)
         self.assertEqual(result["PEG"], 0.2)
@@ -158,6 +210,18 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["perf_6m"], 4.5)
         self.assertEqual(result["ISIN"], "INE000000001")
         self.assertEqual(result["Security ID"], 123)
+
+    def test_analyze_stock_does_not_use_standalone_statement(self):
+        item = {
+            "Symbol": "ABC", "incomeStat_cq": {"YEAR": "201609", "NET_PROFIT": "", "SALES": "", "EPS": ""},
+            "incomeStat_sq": {
+                "YEAR": "202606|202506", "NET_PROFIT": "12|10|8|7|6", "SALES": "120|100|80|70|60", "EPS": "2|1.8|1.6|1.4|1",
+            },
+        }
+        result = analyze_stock(item, {}, {}, {})
+        self.assertEqual(result["Earnings Report Type"], "UNAVAILABLE")
+        self.assertEqual(result["Earnings Data Source"], "UNAVAILABLE")
+        self.assertEqual(result["Latest Quarter"], "N/A")
 
     def test_fno_expiry_lookup_prefers_security_id_then_normalized_symbol(self):
         self.assertEqual(normalized_symbol('M&M-EQ'), 'MM')
@@ -375,6 +439,21 @@ class TransformTests(unittest.TestCase):
             write_ohlcv_csv(csv_path, rows)
             self.assertEqual(read_ohlcv_csv(csv_path)[0]["Date"], "2026-01-01")
 
+    def test_live_snapshot_is_only_used_during_nse_cash_hours(self):
+        kolkata = ZoneInfo("Asia/Kolkata")
+        self.assertTrue(is_nse_cash_session(datetime(2026, 9, 25, 10, 0, tzinfo=kolkata)))
+        self.assertFalse(is_nse_cash_session(datetime(2026, 9, 25, 16, 0, tzinfo=kolkata)))
+        self.assertFalse(is_nse_cash_session(datetime(2026, 9, 26, 10, 0, tzinfo=kolkata)))
+        self.assertEqual(nse_calendar_date(datetime(2026, 9, 25, 20, 0, tzinfo=timezone.utc)), "2026-09-26")
+
+    def test_ohlcv_repair_removes_only_weekend_rows(self):
+        rows = [
+            {"Date": "2026-09-25", "Close": 100},
+            {"Date": "2026-09-26", "Close": 100},
+            {"Date": "2026-09-27", "Close": 100},
+        ]
+        self.assertEqual([row["Date"] for row in discard_weekend_rows(rows)], ["2026-09-25"])
+
     def test_shared_json_and_chunk_helpers(self):
         self.assertEqual(list(chunked([1, 2, 3], 2)), [(0, [1, 2]), (2, [3])])
 
@@ -416,6 +495,9 @@ class TransformTests(unittest.TestCase):
                 [{"Symbol": "ABC", "Type": "DIVIDEND", "ExDate": "2026-01-20"}],
                 today=today,
             ),
+            collect_upcoming_nse_action_events({"actions": [{
+                "symbol": "ABC", "categories": ["bonus"], "exDate": "2026-01-21",
+            }]}, today=today),
             collect_circuit_revision_events([{"Symbol": "ABC", "From": "10", "To": "20"}]),
             collect_deal_events([{"sym": "ABC", "deal": "BULK", "date": "2026-01-08 00:00:00"}], today=today),
         ]:
@@ -427,6 +509,7 @@ class TransformTests(unittest.TestCase):
 
         self.assertIn("★: LTASM", result[0]["Event Markers"])
         self.assertIn("💸: Dividend (20-Jan)", result[0]["Event Markers"])
+        self.assertIn("🎁: Bonus (21-Jan)", result[0]["Event Markers"])
         self.assertEqual(result[0]["Recent Announcements"], [{"Headline": "Result"}])
         self.assertEqual(result[0]["News Feed"], [{"Title": "News"}])
         self.assertEqual(result[1]["Event Markers"], "N/A")

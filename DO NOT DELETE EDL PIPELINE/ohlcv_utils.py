@@ -1,9 +1,32 @@
 import csv
-from datetime import datetime
+from datetime import datetime, time
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 OHLCV_FIELDS = ["Date", "Open", "High", "Low", "Close", "Volume"]
+NSE_TIMEZONE = ZoneInfo("Asia/Kolkata")
+
+
+def nse_now(now=None):
+    """Return ``now`` interpreted in the NSE's calendar timezone."""
+    instant = now or datetime.now(NSE_TIMEZONE)
+    return instant.replace(tzinfo=NSE_TIMEZONE) if instant.tzinfo is None else instant.astimezone(NSE_TIMEZONE)
+
+
+def nse_calendar_date(now=None):
+    return nse_now(now).date().isoformat()
+
+
+def is_nse_cash_session(now=None):
+    """Whether a ScanX snapshot can represent an in-progress NSE daily bar.
+
+    The snapshot payload has no trade-date field.  Outside normal cash-market
+    hours it can still contain the prior close, so labelling it with the local
+    calendar date would create a false weekend/holiday candle.
+    """
+    instant = nse_now(now)
+    return instant.weekday() < 5 and time(9, 15) <= instant.time() < time(15, 30)
 
 
 def symbol_csv_path(directory, symbol):
@@ -56,6 +79,18 @@ def read_ohlcv_csv(path):
 
 def merge_rows_by_date(rows):
     return sorted({row["Date"]: row for row in rows}.values(), key=lambda row: row["Date"])
+
+
+def discard_weekend_rows(rows):
+    """Remove impossible NSE daily bars left by an older live-snapshot run."""
+    valid = []
+    for row in rows:
+        try:
+            if datetime.strptime(row["Date"], "%Y-%m-%d").weekday() < 5:
+                valid.append(row)
+        except (KeyError, TypeError, ValueError):
+            valid.append(row)
+    return valid
 
 
 def plan_history_ranges(existing_rows, desired_start_ts, desired_end_ts):

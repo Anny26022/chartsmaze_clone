@@ -16,8 +16,12 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'src'))
 from advanced_metrics_processor import process_symbol_csv
-from process_earnings_performance import calculate_earnings_metrics
+from process_earnings_performance import calculate_earnings_metrics, get_earnings_info, is_financial_results_filing
+from edl_pipeline.quality import inspect_delivery_history
 import fetch_fundamental_data
+import import_eod2_ohlcv
+import apply_nse_daily_ohlcv
+import fetch_nse_corporate_actions
 from pipeline_utils import save_json
 from edl_pipeline.artifacts import FILES_TO_COMPRESS, FINAL_ARTIFACT_SPECS, PHASE4_SCRIPTS, OHLCV_DERIVED_SCRIPT
 from edl_pipeline.publication import promote, main as publish
@@ -28,6 +32,78 @@ from build_corporate_action_ledger import build_ledger
 
 
 class IntegrityTests(unittest.TestCase):
+    def test_eod2_bootstrap_joins_by_isin_overlays_history_and_keeps_newer_rows(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "eod2_data"
+            daily = source / "daily"
+            daily.mkdir(parents=True)
+            (source / "isin_symbol_map.json").write_text(json.dumps({
+                "isin2hist": {"INE000": [{"symbol": "OLDNAME", "from_date": "2020-01-01", "to_date": "2026-12-31"}]},
+            }))
+            (source / "meta.json").write_text(json.dumps({"lastUpdate": "2026-09-18T00:00:00+05:30"}))
+            (daily / "oldname.csv").write_text(
+                "Date,Open,High,Low,Close,Volume,DLV_QTY\n"
+                "2025-01-01,10,12,9,11,100,70\n"
+                "2025-01-02,11,13,10,12,200,140\n"
+            )
+            output = root / "ohlcv_data"
+            output.mkdir()
+            (output / "NEWNAME.csv").write_text(
+                "Date,Open,High,Low,Close,Volume\n"
+                "2025-01-01,100,120,90,110,1\n"
+                "2026-09-25,200,210,190,205,5\n"
+            )
+            report = import_eod2_ohlcv.import_eod2_ohlcv(
+                source, [{"Symbol": "NEWNAME", "ISIN": "INE000"}], output,
+            )
+            rows = import_eod2_ohlcv.read_ohlcv_csv(output / "NEWNAME.csv")
+            self.assertEqual(report["imported_symbols"], 1)
+            self.assertEqual(report["source_last_update"], "2026-09-18T00:00:00+05:30")
+            self.assertEqual([row["Date"] for row in rows], ["2025-01-01", "2025-01-02", "2026-09-25"])
+            self.assertEqual(rows[0]["Close"], "11.0")
+            self.assertEqual(rows[-1]["Close"], "205")
+            self.assertNotIn("DLV_QTY", rows[0])
+
+    def test_official_nse_close_overrides_only_its_session(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            output = root / "ohlcv_data"
+            output.mkdir()
+            (output / "ABC.csv").write_text(
+                "Date,Open,High,Low,Close,Volume\n"
+                "2026-09-25,1,2,1,2,10\n"
+                "2026-09-26,3,4,3,4,20\n"
+            )
+            applied = apply_nse_daily_ohlcv.apply_official_ohlcv(
+                [{"Symbol": "ABC"}], [{
+                    "symbol": "ABC", "date": "2026-09-25", "open": 10, "high": 12,
+                    "low": 9, "close": 11, "volume": 100,
+                }], output,
+            )
+            rows = import_eod2_ohlcv.read_ohlcv_csv(output / "ABC.csv")
+            self.assertEqual(applied, 1)
+            self.assertEqual(rows[0]["Close"], "11")
+            self.assertEqual(rows[1]["Close"], "4")
+
+    def test_earnings_date_accepts_approved_lodr_outcome_not_intimation(self):
+        approved = {
+            "descriptor": "Outcome of Board Meeting",
+            "news_date": "2026-07-27 18:07:24",
+            "news_body": "The Board approved the unaudited financial results for the quarter ended June 30 2026.",
+        }
+        intimation = {
+            "descriptor": "Board Meeting",
+            "news_date": "2026-07-20 16:46:00",
+            "news_body": "Meeting scheduled to consider unaudited financial results for the quarter ended June 30 2026.",
+        }
+        self.assertTrue(is_financial_results_filing(approved))
+        self.assertFalse(is_financial_results_filing(intimation))
+        with tempfile.NamedTemporaryFile(mode="w", suffix=".json") as handle:
+            json.dump({"data": [intimation, approved]}, handle)
+            handle.flush()
+            self.assertEqual(get_earnings_info(handle.name)[0], "2026-07-27 18:07:24")
+
     def history(self, root, count, flat=False):
         rows = []
         for i, day in enumerate(pd.bdate_range('2025-01-01', periods=count)):
@@ -125,9 +201,18 @@ class IntegrityTests(unittest.TestCase):
             'market_breadth_v2.json.gz':{'generated_at':stamp,'records':[{'date':'2026-09-24'}]},
             'breadth_universe_snapshot.json.gz':{'generated_at':stamp},
             'corporate_action_ledger.json.gz':{'source':'test','price_adjusted':False,'records':[]},
+            'nse_fno_ban.json.gz':{'source':'test','available':False,'trade_date':None,'symbols':[]},
+            'rs_rating_daily.json.gz':{'source':'test','as_of_date':'2026-09-24','ratings':{}},
         }
         for name, data in files.items():
             self.write(root, name, data)
+        delivery_dir = root / 'delivery_history_data'; delivery_dir.mkdir(exist_ok=True)
+        for offset in range(252):
+            day = (date(2026, 9, 24) - timedelta(days=offset)).isoformat()
+            (delivery_dir / f'{day}.json').write_text(json.dumps({
+                'date': day,
+                'records': [{'symbol': 'ABC', 'series': 'EQ', 'date': day, 'delivery_percent': 50}],
+            }))
         (root/'market_breadth.json.gz').write_bytes(gzip.compress(b'Type of Info,2026-09-24\nAdvances,1\n'))
         return files
 
@@ -204,6 +289,16 @@ class IntegrityTests(unittest.TestCase):
                 self.assertEqual(publish(),1)
             self.assertEqual((root/'all_indices_list.json').read_text(),'old')
 
+    def test_publication_rejects_sme_record_in_canonical_artifact(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.fixture(root)
+            stocks = json.loads(gzip.decompress((root / 'all_stocks_fundamental_analysis.json.gz').read_bytes()))
+            stocks[0]['is_sme'] = True
+            self.write(root, 'all_stocks_fundamental_analysis.json.gz', stocks)
+            report = inspect_publication(root, today=date(2026, 9, 24))
+            self.assertIn('canonical stock universe contains SME securities: 1', report['errors'])
+
     def test_success_promotes_artifacts_and_quality_together(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp)
@@ -238,21 +333,60 @@ class IntegrityTests(unittest.TestCase):
             last=bars[-1]
             master=[{'Symbol':'ABC','Name':'ABC Ltd','ISIN':'INE000000001','Sid':1}]
             self.write(root,'master_isin_map.json',master)
-            # Empty fundamental body still retains the stock from the master.
-            self.write(root,'fundamental_data.json',[])
+            self.write(root,'fundamental_data.json',[{
+                'Symbol':'ABC','isin':'INE000000001',
+                'sHp':{
+                    'YEAR':'202606', 'PROMOTER':'50', 'FII':'20', 'DII':'10',
+                    'PUBLIC':'20', 'NO_OF_SHARE_HOLDERS':'1000',
+                },
+            }])
             self.write(root,'dhan_data_response.json',[{
                 'Sym':'ABC','DispSym':'ABC Ltd','Isin':'INE000000001','Sid':1,
                 'Mcap':1000,'Ltp':last['Close'],'Open':last['Open'],
                 'High':last['High'],'Low':last['Low'],'Volume':last['Volume'],
             }])
-            self.write(root,'history_corporate_actions.json',[])
+            self.write(root,'mainboard_scanx_data.json',[{
+                'Sym':'ABC','DispSym':'ABC Ltd','Isin':'INE000000001','Sid':1,
+                'Mcap':1000,'Ltp':last['Close'],'Open':last['Open'],
+                'High':last['High'],'Low':last['Low'],'Volume':last['Volume'],
+            }])
+            self.write(root,'sme_market_data.json',[])
+            self.write(root,'mainboard_universe_report.json',{
+                'raw_scanx_count':1,'excluded_sme_count':0,
+                'mainboard_count':1,'mainboard_scanx_count':1,
+            })
+            (root/'nse_equity_list.csv').write_text(
+                'SYMBOL,NAME OF COMPANY,SERIES,DATE OF LISTING\n'
+                'ABC,ABC Ltd,EQ,01-JAN-2026\n'
+            )
+            self.write(root,'nse_corporate_actions.json',{
+                'source':'https://www.nseindia.com/api/corporates-corporateActions',
+                'range':{'from':'2018-01-01','to':str(today)},'actions':[],
+            })
+            self.write(root,'nse_corporate_action_adjustments.json',{
+                'source':'https://www.nseindia.com/api/corporates-corporateActions',
+                'range':{'from':'2018-01-01','to':str(today)},'revision':'test','actions':[],
+            })
             self.write(root,'all_indices_list.json',[{'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'}])
+            self.write(root,'nse_fno_ban.json',{'source':'test','available':False,'trade_date':None,'symbols':[]})
+            (root/'filing_history_data').mkdir()
+            self.write(root/'filing_history_data','filing_history.json',{
+                'symbols':{'ABC':{'isin':'INE000000001','lodr_backfill_complete':True,'filings':[{'news_id':'one'}]}},
+            })
             shutil.copy2(ROOT/'breadth_methodology.json',root/'breadth_methodology.json')
+            delivery_dir=root/'delivery_history_data'; delivery_dir.mkdir()
+            for offset in range(252):
+                day=(today-timedelta(days=offset)).isoformat()
+                (delivery_dir/f'{day}.json').write_text(json.dumps({'date':day,'records':[{'symbol':'ABC','series':'EQ','date':day,'delivery_percent':50}]}))
             env=dict(os.environ,EDL_BASE_DIR=str(root))
             for name in ('bulk_market_analyzer.py','advanced_metrics_processor.py',
                          'process_earnings_performance.py','process_market_breadth.py',
                          'process_historical_market_breadth.py','add_corporate_events.py',
-                         'process_mbi_market_breadth.py','build_corporate_action_ledger.py','standardize_stock_artifact.py'):
+                         'process_mbi_market_breadth.py','build_rs_ratings.py','build_shareholding_history.py',
+                         'build_corporate_action_ledger.py','standardize_stock_artifact.py',
+                         'build_filing_history_artifact.py',
+                         'build_quarterly_financial_ledger.py',
+                         'build_ipo_screener_artifact.py'):
                 result=subprocess.run([sys.executable,str(ROOT/name)],cwd=root,env=env,capture_output=True,text=True,timeout=30)
                 self.assertEqual(result.returncode,0,name+'\n'+result.stdout+'\n'+result.stderr)
             for raw,compressed in FILES_TO_COMPRESS.items():
@@ -262,14 +396,30 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(report['stock_count'],1)
             self.assertIn('net_profit_latest_quarter',report['symbols'][0]['missing_fields'])
 
-    def test_action_ledger_preserves_unverified_price_actions(self):
+    def test_official_action_ledger_preserves_deterministic_and_review_status(self):
         ledger = build_ledger([
-            {'Symbol':'ABC','Type':'SPLIT','ExDate':'2026-01-01','RecordDate':'2025-12-30','Details':'Face value changed'},
-            {'Symbol':'ABC','Type':'DIVIDEND','ExDate':'2026-01-02','Details':'Rs 1'},
+            {'symbol':'ABC','categories':['split'],'exDate':'2026-01-01','recordDate':'2025-12-30','subject':'Face value 10 to 5',
+             'adjustment':{'mode':'deterministic','priceFactor':0.5,'shareFactor':2}},
+            {'symbol':'ABC','categories':['scheme'],'exDate':'2026-01-02','subject':'Scheme of arrangement',
+             'adjustment':{'mode':'manual-review'}},
         ])
-        self.assertEqual(ledger[0]['adjustment_status'], 'requires_verified_ratio')
-        self.assertIsNone(ledger[0]['adjustment_factor'])
-        self.assertFalse(ledger[1]['affects_price'])
+        self.assertEqual(ledger[0]['adjustment_status'], 'verified')
+        self.assertEqual(ledger[0]['adjustment_factor'], 0.5)
+        self.assertEqual(ledger[0]['share_factor'], 2)
+        self.assertEqual(ledger[1]['adjustment_status'], 'manual-review')
+
+    def test_official_nse_actions_create_verified_runtime_adjustments(self):
+        full, runtime = fetch_nse_corporate_actions.build_outputs([
+            {'series':'EQ','symbol':'ABC','isin':'INE000000001','comp':'ABC Ltd','subject':'Bonus 1:1',
+             'exDate':'01-Jan-2026','recDate':'02-Jan-2026','faceVal':'5'},
+            {'series':'EQ','symbol':'ABC','isin':'INE000000001','comp':'ABC Ltd','subject':'Scheme of Arrangement',
+             'exDate':'03-Jan-2026','recDate':'04-Jan-2026','faceVal':'5'},
+            {'series':'BE','symbol':'IGNORED','subject':'Bonus 1:1','exDate':'01-Jan-2026'},
+        ], '2018-01-01', '2026-12-31', generated_at='2026-01-01T00:00:00Z')
+        self.assertEqual(len(full['actions']), 2)
+        self.assertEqual(full['actions'][0]['adjustment']['priceFactor'], 0.5)
+        self.assertEqual(len(runtime['actions']), 2)
+        self.assertTrue(runtime['revision'])
 
 
 if __name__=='__main__':unittest.main()
