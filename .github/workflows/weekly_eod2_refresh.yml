@@ -35,6 +35,7 @@ jobs:
             DO NOT DELETE EDL PIPELINE/ohlcv_data
             DO NOT DELETE EDL PIPELINE/indices_ohlcv_data
             DO NOT DELETE EDL PIPELINE/delivery_history_data
+            DO NOT DELETE EDL PIPELINE/eod2_delivery_history_data
             DO NOT DELETE EDL PIPELINE/scanner_history_data
             DO NOT DELETE EDL PIPELINE/filing_history_data
           key: scanner-history-v1-${{ runner.os }}-${{ github.run_id }}

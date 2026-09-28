@@ -92,10 +92,11 @@ controls. Supported daily-OHLCV conditions are:
 - Relative volume compares a day's volume with the *preceding* `average_window`
   sessions, avoiding look-ahead bias. Volume trend compares the most recent
   window with the immediately preceding base window.
-- `delivery_percent_spike` reads the cached `delivery_history_data/` directory.
-  The full pipeline maintains the newest 260 published NSE sessions there;
-  its first run downloads the one official full-universe bhavcopy for each
-  missing calendar date, and later runs fetch only missing/new files.
+- `delivery_percent_spike` reads the official `delivery_history_data/` cache
+  first. The full pipeline maintains the newest 260 published NSE sessions
+  there; the weekly EOD2 bootstrap fills older missing dates from its existing
+  `DLV_QTY` fields in `eod2_delivery_history_data/`. Official NSE records take
+  precedence and neither source is read unless a delivery rule is present.
 - `new_high` and `new_low` compare a session's high/low with its completed
   rolling lookback. Their `fired_within` behaves identically to other recent
   signal controls: one means the latest session only.

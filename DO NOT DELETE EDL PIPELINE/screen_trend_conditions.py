@@ -1,6 +1,7 @@
 """Run a daily trend screen against the locally cached OHLCV universe."""
 
 import argparse
+import csv
 import gzip
 import json
 from pathlib import Path
@@ -14,6 +15,7 @@ if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
 from edl_pipeline.scanner.history import load_snapshot
+from edl_pipeline.scanner.context import normalize_condition_spec
 from edl_pipeline.scanner.presets import get_preset, list_presets, validate_preset_library
 from edl_pipeline.scanner.query import compile_query
 from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_universe, evaluate_universe_range
@@ -110,6 +112,63 @@ def _range_sessions(root, start, end):
     return [value for value in dates if start <= value <= end]
 
 
+def _requires_delivery(expression):
+    """Avoid opening delivery caches unless a delivery rule is actually used."""
+    if isinstance(expression, list):
+        return any(_requires_delivery(item) for item in expression)
+    if not isinstance(expression, dict):
+        return False
+    try:
+        if normalize_condition_spec(expression).get("condition") == "delivery_percent_spike":
+            return True
+    except (TypeError, ValueError):
+        pass
+    return any(_requires_delivery(value) for key, value in expression.items() if key in {"conditions", "children", "expression"})
+
+
+def _load_delivery_history(path, symbols=None, eod2_path=None):
+    """Load official delivery first; EOD2 fills only historical gaps by date."""
+    allowed = set(symbols) if symbols else None
+    history = {}
+    paths = sorted(path.glob("????-??-??.json")) if path.is_dir() else [path]
+    for item_path in paths:
+        if not item_path.exists():
+            continue
+        try:
+            records = json.loads(item_path.read_text()).get("records", [])
+        except (OSError, ValueError, AttributeError):
+            continue
+        for item in records:
+            symbol = str(item.get("symbol") or "").upper() if isinstance(item, dict) else ""
+            day = str(item.get("date") or "") if isinstance(item, dict) else ""
+            if symbol and day and (allowed is None or symbol in allowed):
+                history.setdefault(symbol, {})[day] = item
+    # The EOD2 bootstrap is weekly and historical.  It never replaces a date
+    # for which the direct official NSE cache has a record.
+    if eod2_path and eod2_path.is_dir():
+        files = ([eod2_path / f"{symbol}.csv" for symbol in allowed] if allowed else eod2_path.glob("*.csv"))
+        for item_path in files:
+            if not item_path.exists():
+                continue
+            try:
+                with item_path.open(newline="", encoding="utf-8") as handle:
+                    for row in csv.DictReader(handle):
+                        symbol = item_path.stem.upper()
+                        day = str(row.get("Date") or "")
+                        value = row.get("delivery_percent")
+                        if not day or value in {None, ""}:
+                            continue
+                        history.setdefault(symbol, {}).setdefault(day, {
+                            "symbol": symbol, "date": day, "series": row.get("Series") or "EQ",
+                            "traded_quantity": row.get("traded_quantity"),
+                            "deliverable_quantity": row.get("deliverable_quantity"),
+                            "delivery_percent": value, "source": "eod2",
+                        })
+            except OSError:
+                continue
+    return {symbol: list(by_date.values()) for symbol, by_date in history.items()}
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--request", type=Path, help="JSON request with a non-empty conditions array or preset ID")
@@ -150,16 +209,6 @@ def main(argv=None):
     if not conditions:
         parser.error("request.expression or request.conditions must be non-empty")
     validate_preset_library(CONDITION_REGISTRY)
-    delivery_history = {}
-    delivery_path = args.delivery_history or (ROOT / "delivery_history_data")
-    paths = sorted(delivery_path.glob("*.json")) if delivery_path.is_dir() else [delivery_path]
-    for path in paths:
-        if not path.exists():
-            continue
-        records = json.loads(path.read_text()).get("records", [])
-        for item in records:
-            if isinstance(item, dict) and item.get("symbol"):
-                delivery_history.setdefault(item["symbol"], []).append(item)
     as_of_date = args.as_of_date or request.get("as_of_date")
     context = _load_context(ROOT, as_of_date, args.stock_snapshot, args.index_history, args.breadth)
     if args.fno_ban:
@@ -174,6 +223,13 @@ def main(argv=None):
     explicit_symbols = _symbols_from_text(args.symbols or request.get("symbols"))
     universe = args.universe or request.get("scan_universe") or request.get("scanUniverse") or "UNIVERSE"
     selected_symbols = _resolve_universe(context, universe, explicit_symbols)
+    delivery_history = {}
+    if _requires_delivery(conditions):
+        delivery_path = args.delivery_history or (ROOT / "delivery_history_data")
+        delivery_history = _load_delivery_history(
+            delivery_path, selected_symbols,
+            None if args.delivery_history else ROOT / "eod2_delivery_history_data",
+        )
     include_non_matches = args.include_non_matches or bool(request.get("include_non_matches"))
     from_date = args.as_of_from or request.get("as_of_from") or request.get("asOfFrom")
     to_date = args.as_of_to or request.get("as_of_to") or request.get("asOfTo")
