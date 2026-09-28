@@ -229,6 +229,16 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(report['coverage']['listing_date']['missing'], 1)
             self.assertFalse(report['corporate_action_ledger']['price_adjusted'])
 
+    def test_delivery_history_allows_only_the_immediately_prior_session(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); self.fixture(root)
+            (root / 'delivery_history_data' / '2026-09-24.json').unlink()
+            report = inspect_delivery_history(root, '2026-09-24', '2026-09-23')
+            self.assertFalse(report['reference_session_present'])
+            self.assertTrue(report['previous_session_present'])
+            self.assertTrue(report['aligned_session_present'])
+            self.assertEqual(report['aligned_session'], '2026-09-23')
+
     def test_stale_mixed_invalid_and_incomplete_publications_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp)
