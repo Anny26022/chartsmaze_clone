@@ -339,6 +339,10 @@ class IntegrityTests(unittest.TestCase):
                 'raw_scanx_count':1,'excluded_sme_count':0,
                 'mainboard_count':1,'mainboard_scanx_count':1,
             })
+            (root/'nse_equity_list.csv').write_text(
+                'SYMBOL,NAME OF COMPANY,SERIES,DATE OF LISTING\n'
+                'ABC,ABC Ltd,EQ,01-JAN-2026\n'
+            )
             self.write(root,'history_corporate_actions.json',[])
             self.write(root,'all_indices_list.json',[{'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'}])
             self.write(root,'nse_fno_ban.json',{'source':'test','available':False,'trade_date':None,'symbols':[]})
@@ -351,7 +355,8 @@ class IntegrityTests(unittest.TestCase):
             for name in ('bulk_market_analyzer.py','advanced_metrics_processor.py',
                          'process_earnings_performance.py','process_market_breadth.py',
                          'process_historical_market_breadth.py','add_corporate_events.py',
-                         'process_mbi_market_breadth.py','build_rs_ratings.py','build_corporate_action_ledger.py','standardize_stock_artifact.py'):
+                         'process_mbi_market_breadth.py','build_rs_ratings.py','build_corporate_action_ledger.py','standardize_stock_artifact.py',
+                         'build_ipo_screener_artifact.py'):
                 result=subprocess.run([sys.executable,str(ROOT/name)],cwd=root,env=env,capture_output=True,text=True,timeout=30)
                 self.assertEqual(result.returncode,0,name+'\n'+result.stdout+'\n'+result.stderr)
             for raw,compressed in FILES_TO_COMPRESS.items():

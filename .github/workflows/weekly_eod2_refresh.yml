@@ -95,6 +95,7 @@ jobs:
           git add "DO NOT DELETE EDL PIPELINE/sme_market_data.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/nse_fno_ban.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/rs_rating_daily.json.gz"
+          git add "DO NOT DELETE EDL PIPELINE/ipo_screener.json.gz"
           git commit -m "Automated weekly adjusted OHLCV refresh [skip ci]" || echo "No changes to commit"
           git pull --rebase --autostash origin main
           git push

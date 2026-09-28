@@ -29,6 +29,7 @@ from .artifacts import (
     OPTIONAL_SCRIPTS,
     PHASE2_SCRIPTS,
     PHASE4_SCRIPTS,
+    POST_STANDARDIZATION_SCRIPTS,
     SCANNER_HISTORY_SCRIPT,
     SCRIPT_OUTPUT_SPECS,
 )
@@ -370,6 +371,11 @@ def main(config=None):
             "Phase 4",
             required=True,
         )
+
+    print("\nPHASE 4.5: Canonical consumers")
+    print("-" * 40)
+    for script in POST_STANDARDIZATION_SCRIPTS:
+        results[script] = run_script(script, "Phase 4.5", required=True)
 
     if any(result.required and not result.ok for result in results.values()):
         write_pipeline_report(build_pipeline_report(results, time.time() - overall_start, 0, 0, [], config, 1))
