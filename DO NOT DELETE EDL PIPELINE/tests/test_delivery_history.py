@@ -53,3 +53,19 @@ class DeliveryHistoryBackfillTests(unittest.TestCase):
             manifest = json.loads((root / "_availability.json").read_text())
             self.assertIn("2026-09-15", manifest["not_published"])
 
+    def test_rechecks_recent_publication_window_after_cache_reaches_target(self):
+        calls = []
+
+        def fetcher(day, _session):
+            calls.append(day)
+            return rows_for(day) if day == date(2026, 9, 28) else None
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for day in (date(2026, 9, 25), date(2026, 9, 24)):
+                (root / f"{day.isoformat()}.json").write_text(json.dumps({"date": day.isoformat(), "records": rows_for(day)}))
+            downloaded, available, failures = backfill_delivery_history(
+                root, sessions=2, max_calendar_days=4, today=date(2026, 9, 28), fetcher=fetcher,
+            )
+            self.assertEqual((downloaded, available, failures), (1, 3, []))
+            self.assertIn(date(2026, 9, 28), calls)

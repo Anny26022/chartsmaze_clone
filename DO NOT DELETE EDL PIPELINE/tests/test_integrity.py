@@ -1,3 +1,4 @@
+import csv
 from datetime import date
 import gzip
 import json
@@ -56,6 +57,7 @@ class IntegrityTests(unittest.TestCase):
             )
             report = import_eod2_ohlcv.import_eod2_ohlcv(
                 source, [{"Symbol": "NEWNAME", "ISIN": "INE000"}], output,
+                root / "eod2_delivery_history_data",
             )
             rows = import_eod2_ohlcv.read_ohlcv_csv(output / "NEWNAME.csv")
             self.assertEqual(report["imported_symbols"], 1)
@@ -64,6 +66,10 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(rows[0]["Close"], "11.0")
             self.assertEqual(rows[-1]["Close"], "205")
             self.assertNotIn("DLV_QTY", rows[0])
+            with (root / "eod2_delivery_history_data" / "NEWNAME.csv").open() as handle:
+                delivery = list(csv.DictReader(handle))
+            self.assertEqual(report["delivery_rows"], 2)
+            self.assertEqual(delivery[0]["delivery_percent"], "70.0")
 
     def test_official_nse_close_overrides_only_its_session(self):
         with tempfile.TemporaryDirectory() as tmp:

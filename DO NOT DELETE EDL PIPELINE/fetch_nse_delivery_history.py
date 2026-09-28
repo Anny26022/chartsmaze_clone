@@ -80,8 +80,13 @@ def backfill_delivery_history(
     session.headers.update(NSE_HEADERS)
     downloaded, failures = 0, []
 
-    for offset in range(max_calendar_days):
-        if len(available_dates) >= sessions:
+    # Always probe the recent publication window first.  Without this, a cache
+    # that had reached its target size would freeze and never collect a newly
+    # published official NSE delivery file.
+    offsets = list(range(min(RECENT_RECHECK_DAYS, max_calendar_days)))
+    offsets.extend(range(RECENT_RECHECK_DAYS, max_calendar_days))
+    for offset in offsets:
+        if offset >= RECENT_RECHECK_DAYS and len(available_dates) >= sessions:
             break
         day = today - timedelta(days=offset)
         day_key = day.isoformat()
