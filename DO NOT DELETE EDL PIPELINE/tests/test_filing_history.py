@@ -60,3 +60,15 @@ class FilingHistoryTests(unittest.TestCase):
             payload = load_json(root / "filing_history.json")
         self.assertEqual(payload["coverage"]["lodr_backfill_complete"], 1)
         self.assertEqual(payload["records"][0]["symbol"], "ABC")
+
+    def test_checkpoint_records_completed_and_pending_symbols(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "filing_history_data" / "filing_history.json"
+            path.parent.mkdir()
+            with mock.patch.object(fetch_company_filings, "HISTORY_FILE", str(path)):
+                fetch_company_filings._save_history({
+                    "DONE": {"lodr_backfill_complete": True},
+                    "PENDING": {"lodr_backfill_complete": False},
+                })
+            payload = load_json(path)
+        self.assertEqual(payload["coverage"], {"symbols": 2, "lodr_backfill_complete": 1, "lodr_backfill_pending": 1})

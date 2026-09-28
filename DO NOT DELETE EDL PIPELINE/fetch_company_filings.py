@@ -136,6 +136,17 @@ def _load_history():
     return symbols if isinstance(symbols, dict) else {}
 
 
+def _save_history(history):
+    completed = sum(bool(record.get("lodr_backfill_complete")) for record in history.values())
+    save_json(HISTORY_FILE, {
+        "schema_version": 1,
+        "source": "ScanX static company_filings and LODR endpoints",
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "symbols": history,
+        "coverage": {"symbols": len(history), "lodr_backfill_complete": completed, "lodr_backfill_pending": len(history) - completed},
+    }, ensure_ascii=False)
+
+
 def main():
     ensure_dir(OUTPUT_DIR)
     ensure_dir(HISTORY_DIR)
@@ -167,20 +178,17 @@ def main():
             if result.get("history"):
                 history[result["symbol"]] = result["history"]
             if count % 100 == 0 or count == len(futures):
+                # A first historical sweep can outlast the enclosing stage's
+                # timeout. Persist completed symbols so the next run resumes.
+                _save_history(history)
                 print(f"[{count}/{len(futures)}] elapsed {time.time() - started:.1f}s")
 
     for result in results:
         if result.get("current"):
             save_json(resolve_path(OUTPUT_DIR) / f"{result['symbol']}_filings.json", {"code": 0, "data": result["current"]})
 
+    _save_history(history)
     completed = sum(bool(record.get("lodr_backfill_complete")) for record in history.values())
-    save_json(HISTORY_FILE, {
-        "schema_version": 1,
-        "source": "ScanX static company_filings and LODR endpoints",
-        "updated_at": datetime.now(timezone.utc).isoformat(),
-        "symbols": history,
-        "coverage": {"symbols": len(history), "lodr_backfill_complete": completed, "lodr_backfill_pending": len(history) - completed},
-    }, ensure_ascii=False)
     succeeded = sum(result.get("status") == "success" for result in results)
     print(f"Filings refreshed: {succeeded}/{len(results)}; LODR histories complete: {completed}/{len(history)}.")
     return succeeded > 0
