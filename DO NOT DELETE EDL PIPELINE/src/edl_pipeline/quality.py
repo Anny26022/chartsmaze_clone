@@ -120,6 +120,9 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
         expected = set(source_by_symbol)
         if set(symbols) != expected or len(symbols) != len(set(symbols)):
             errors.append("stock universe differs from fetched master or has duplicates")
+        sme_symbols = [stock["symbol"] for stock in stocks if stock.get("is_sme") is True]
+        if sme_symbols:
+            errors.append(f"canonical stock universe contains SME securities: {len(sme_symbols)}")
         availability = []
         for stock in stocks:
             symbol = stock["symbol"]

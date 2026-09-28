@@ -288,6 +288,16 @@ class IntegrityTests(unittest.TestCase):
                 self.assertEqual(publish(),1)
             self.assertEqual((root/'all_indices_list.json').read_text(),'old')
 
+    def test_publication_rejects_sme_record_in_canonical_artifact(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.fixture(root)
+            stocks = json.loads(gzip.decompress((root / 'all_stocks_fundamental_analysis.json.gz').read_bytes()))
+            stocks[0]['is_sme'] = True
+            self.write(root, 'all_stocks_fundamental_analysis.json.gz', stocks)
+            report = inspect_publication(root, today=date(2026, 9, 24))
+            self.assertIn('canonical stock universe contains SME securities: 1', report['errors'])
+
     def test_success_promotes_artifacts_and_quality_together(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp)
