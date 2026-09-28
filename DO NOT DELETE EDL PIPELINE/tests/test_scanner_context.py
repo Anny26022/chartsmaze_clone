@@ -33,10 +33,15 @@ class ScannerContextTests(unittest.TestCase):
 
     def test_journaltoday_payload_is_normalized_for_existing_and_new_rules(self):
         momentum = normalize_condition_spec({"kind": "PRICE_CHANGE_PCT", "params": {"overDays": 5, "comparison": "ABOVE", "pct": 4}})
+        decline = normalize_condition_spec({"kind": "PRICE_CHANGE_PCT", "params": {"overDays": 5, "comparison": "BELOW", "pct": 20}})
+        native_less = normalize_condition_spec({"condition": "price_change_percent", "window": 5, "comparison": "less_or_equal", "value": 20})
         trend = normalize_condition_spec({"kind": "PERSISTENT_MOMENTUM", "params": {"ema10Days": 20, "ema20Days": 30, "ema50Days": 50}})
         pattern = normalize_condition_spec({"kind": "RANGE_CONTRACTION", "params": {"recentDays": 10, "priorDays": 60, "maxRatio": .5, "priorMode": "PRIOR"}})
         volume_ratio = normalize_condition_spec({"kind": "AVG_VOLUME_RATIO", "params": {"recentDays": 5, "baseDays": 50, "comparison": "BELOW", "ratio": .8}})
         self.assertEqual(momentum, {"condition": "price_change_percent", "overDays": 5, "comparison": "greater_or_equal", "pct": 4, "window": 5, "value": 4})
+        self.assertEqual(decline["comparison"], "less_or_equal")
+        self.assertEqual(decline["value"], -20)
+        self.assertEqual(native_less["value"], 20)
         self.assertEqual(trend["persist_days"], {10: 20, 20: 30, 50: 50})
         self.assertEqual(pattern["prior_mode"], "prior")
         self.assertEqual((volume_ratio["recent_window"], volume_ratio["base_window"], volume_ratio["value"]), (5, 50, .8))
@@ -46,6 +51,15 @@ class ScannerContextTests(unittest.TestCase):
         rs_high = normalize_condition_spec({"kind": "RS_NEW_HIGH", "params": {"benchmark": "NIFTY_50", "lookbackDays": 60, "minPriceBelowHighPct": 2}})
         self.assertEqual(shakeout["dip_within"], 10)
         self.assertEqual(rs_high["minimum_price_below_high_percent"], 2)
+
+    def test_journaltoday_price_change_below_requires_a_decline(self):
+        falling = history(10)
+        falling.loc[falling.index[-1], ["Open", "High", "Low", "Close"]] = [80, 82, 78, 80]
+        rising = history(10)
+        rising.loc[rising.index[-1], ["Open", "High", "Low", "Close"]] = [115, 117, 113, 115]
+        request = {"kind": "PRICE_CHANGE_PCT", "params": {"overDays": 1, "comparison": "BELOW", "pct": 20}}
+        self.assertEqual(evaluate_history(falling, [request])["status"], "match")
+        self.assertEqual(evaluate_history(rising, [request])["status"], "no_match")
 
     def test_snapshot_liquidity_and_cross_series_rules(self):
         frame = history()
