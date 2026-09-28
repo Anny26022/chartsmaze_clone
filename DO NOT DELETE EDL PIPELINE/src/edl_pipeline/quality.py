@@ -11,16 +11,18 @@ from .validators import strict_json_load
 MIN_DELIVERY_HISTORY_SESSIONS = 252
 
 
-def inspect_delivery_history(root, reference_session):
+def inspect_delivery_history(root, reference_session, previous_session=None):
     """Audit the cached official NSE daily-delivery files used by the scanner.
 
     A latest delivery snapshot alone is insufficient for a ``fired_within``
-    delivery rule.  Treat missing sessions as missing data, never as zero
-    delivery, and require an actual file for the benchmark screen date.
+    delivery rule. Treat missing sessions as missing data, never as zero
+    delivery. NSE can publish delivery after the cash-market close, so a
+    closed-market publication may use the immediately preceding trading
+    session while the current session's delivery file is pending.
     """
     cache = root / "delivery_history_data"
     sessions = []
-    latest_records = []
+    records_by_session = {}
     for path in sorted(cache.glob("????-??-??.json")):
         try:
             payload = read_json(path)
@@ -31,8 +33,12 @@ def inspect_delivery_history(root, reference_session):
             continue
         if any(item.get("date") == path.stem for item in records if isinstance(item, dict)):
             sessions.append(path.stem)
-            if path.stem == reference_session:
-                latest_records = records
+            records_by_session[path.stem] = records
+    allowed_sessions = [reference_session]
+    if previous_session and previous_session != reference_session:
+        allowed_sessions.append(previous_session)
+    aligned_session = next((value for value in allowed_sessions if value in records_by_session), None)
+    latest_records = records_by_session.get(aligned_session, [])
     current_equities = sum(
         str(item.get("series") or "").upper() == "EQ"
         for item in latest_records if isinstance(item, dict)
@@ -42,7 +48,12 @@ def inspect_delivery_history(root, reference_session):
         "cached_sessions": len(sessions),
         "oldest_session": sessions[0] if sessions else None,
         "latest_session": sessions[-1] if sessions else None,
-        "reference_session_present": bool(latest_records),
+        "reference_session_present": reference_session in records_by_session,
+        "benchmark_session_present": reference_session in records_by_session,
+        "previous_session": previous_session,
+        "previous_session_present": bool(previous_session and previous_session in records_by_session),
+        "aligned_session": aligned_session,
+        "aligned_session_present": bool(latest_records),
         "reference_session_records": len(latest_records),
         "reference_session_equity_records": current_equities,
     }
@@ -98,14 +109,20 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
             errors.append("breadth and benchmark sessions differ")
         if rs_ratings.get("as_of_date") != session.isoformat():
             errors.append("RS ratings and benchmark sessions differ")
-        delivery_history = inspect_delivery_history(root, session.isoformat())
+        previous_session = (
+            date.fromisoformat(benchmark["records"][-2]["date"])
+            if len(benchmark["records"]) > 1 else None
+        )
+        delivery_history = inspect_delivery_history(
+            root, session.isoformat(), previous_session.isoformat() if previous_session else None,
+        )
         if delivery_history["cached_sessions"] < MIN_DELIVERY_HISTORY_SESSIONS:
             errors.append(
                 "delivery-history coverage below "
                 f"{MIN_DELIVERY_HISTORY_SESSIONS} sessions: {delivery_history['cached_sessions']}"
             )
-        if not delivery_history["reference_session_present"]:
-            errors.append("delivery-history has no date-aligned file for benchmark session")
+        if not delivery_history["aligned_session_present"]:
+            errors.append("delivery-history has no file for benchmark or immediately prior trading session")
         if fno_ban.get("available") and not fno_ban.get("trade_date"):
             errors.append("available F&O-ban report has no trade date")
         with gzip.open(root / "market_breadth.json.gz", "rt", encoding="utf-8") as handle:

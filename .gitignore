@@ -9,6 +9,13 @@ DO NOT DELETE EDL PIPELINE/ohlcv_data/
 DO NOT DELETE EDL PIPELINE/indices_ohlcv_data/
 DO NOT DELETE EDL PIPELINE/delivery_history_data/
 DO NOT DELETE EDL PIPELINE/scanner_history_data/
+DO NOT DELETE EDL PIPELINE/filing_history_data/
+
+# The full disclosure archive is regenerated from the cached ScanX filing
+# history. At over GitHub's 100 MB blob limit, it cannot be committed by the
+# daily workflow; publish it through an object store when repository delivery
+# is needed.
+DO NOT DELETE EDL PIPELINE/filing_history.json.gz
 
 # Tracked generated outputs
 !DO NOT DELETE EDL PIPELINE/all_stocks_fundamental_analysis.json.gz
@@ -20,6 +27,8 @@ DO NOT DELETE EDL PIPELINE/scanner_history_data/
 !DO NOT DELETE EDL PIPELINE/rs_rating_daily.json.gz
 !DO NOT DELETE EDL PIPELINE/data_quality.json
 !DO NOT DELETE EDL PIPELINE/pipeline_report.json
+!DO NOT DELETE EDL PIPELINE/nse_universe_reconciliation.json
+!DO NOT DELETE EDL PIPELINE/mainboard_universe_report.json
 
 # Local environment
 .env

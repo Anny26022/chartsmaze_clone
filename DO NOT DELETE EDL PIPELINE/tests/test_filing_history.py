@@ -72,3 +72,12 @@ class FilingHistoryTests(unittest.TestCase):
                 })
             payload = load_json(path)
         self.assertEqual(payload["coverage"], {"symbols": 2, "lodr_backfill_complete": 1, "lodr_backfill_pending": 1})
+
+    def test_completed_cache_skips_batch_checkpoints_but_pending_cache_does_not(self):
+        self.assertFalse(fetch_company_filings.has_pending_backfill(
+            {"ABC": {"lodr_backfill_complete": True}}, {"ABC"}
+        ))
+        self.assertTrue(fetch_company_filings.has_pending_backfill(
+            {"ABC": {"lodr_backfill_complete": False}}, {"ABC"}
+        ))
+        self.assertTrue(fetch_company_filings.has_pending_backfill({}, {"ABC"}))

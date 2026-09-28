@@ -147,6 +147,14 @@ def _save_history(history):
     }, ensure_ascii=False)
 
 
+def has_pending_backfill(existing, canonical_symbols):
+    """Checkpoint batches only while a historical LODR sweep is incomplete."""
+    return any(
+        not bool(existing.get(symbol, {}).get("lodr_backfill_complete"))
+        for symbol in canonical_symbols
+    )
+
+
 def main():
     ensure_dir(OUTPUT_DIR)
     ensure_dir(HISTORY_DIR)
@@ -164,6 +172,7 @@ def main():
     # an older cache. The published ledger follows the canonical universe.
     existing = {symbol: record for symbol, record in _load_history().items() if symbol in canonical_symbols}
     history = dict(existing)
+    checkpoint_batches = has_pending_backfill(existing, canonical_symbols)
     results = []
     started = time.time()
     print(f"Refreshing page one for {len(stock_list)} mainboard symbols; threads: {MAX_THREADS}.")
@@ -177,9 +186,10 @@ def main():
             results.append(result)
             if result.get("history"):
                 history[result["symbol"]] = result["history"]
-            if count % 100 == 0 or count == len(futures):
+            if checkpoint_batches and (count % 100 == 0 or count == len(futures)):
                 # A first historical sweep can outlast the enclosing stage's
-                # timeout. Persist completed symbols so the next run resumes.
+                # timeout. Once complete, a daily refresh writes once at the
+                # end instead of repeatedly rewriting the full cache.
                 _save_history(history)
                 print(f"[{count}/{len(futures)}] elapsed {time.time() - started:.1f}s")
 

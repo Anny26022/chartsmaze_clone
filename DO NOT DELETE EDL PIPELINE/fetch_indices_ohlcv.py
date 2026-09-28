@@ -9,17 +9,20 @@ import time
 from collections import Counter
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from pathlib import Path
 
 from ohlcv_utils import discard_weekend_rows, is_nse_cash_session, merge_rows_by_date, nse_calendar_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
 from pipeline_utils import ensure_dir, get_headers, load_json, resolve_path
 
 # --- Configuration ---
 INPUT_FILE = "all_indices_list.json"
+MASTER_FILE = "master_isin_map.json"
 OUTPUT_DIR = "indices_ohlcv_data"
 TICK_API_URL = "https://openweb-ticks.dhan.co/getDataH"
 CHUNK_DAYS = 120
 MAX_THREADS = 60
 FETCH_ATTEMPTS = 3
+MIN_CURRENT_EQUITY_COVERAGE = 0.90
 
 def get_safe_sym(sym, index_id=None, disambiguate=False):
     safe_symbol = "".join(c if c.isalnum() else "_" for c in str(sym))
@@ -50,6 +53,28 @@ def fetch_chunk(payload):
                 time.sleep(0.25 * (2 ** attempt))
     raise RuntimeError("Index OHLCV chunk failed after retries") from last_error
 
+
+def has_current_equity_session(directory, session, symbols=None):
+    """Whether the stock feed has a trustworthy current NSE session.
+
+    The index tick-history endpoint can lag its cash-market snapshot after
+    close.  We only label that snapshot as today's index candle when the same
+    provider has already produced today's daily candle for almost the complete
+    equity universe.  This prevents a prior close becoming a holiday candle.
+    """
+    paths = (
+        [Path(directory) / f"{symbol}.csv" for symbol in symbols]
+        if symbols is not None else list(Path(directory).glob("*.csv"))
+    )
+    if not paths:
+        return False
+    current = 0
+    for path in paths:
+        rows = read_ohlcv_csv(path)
+        if rows and rows[-1].get("Date") == session:
+            current += 1
+    return current / len(paths) >= MIN_CURRENT_EQUITY_COVERAGE
+
 def main():
     ensure_dir(OUTPUT_DIR)
 
@@ -63,7 +88,16 @@ def main():
     global_start_ts = 215634600 # 1976
     global_end_ts = int(time.time())
     today_str = nse_calendar_date()
-    append_live_snapshot = is_nse_cash_session()
+    try:
+        current_symbols = {
+            str(item.get("Symbol") or "") for item in load_json(MASTER_FILE)
+            if item.get("Symbol")
+        }
+    except (OSError, ValueError, TypeError):
+        current_symbols = None
+    append_live_snapshot = is_nse_cash_session() or has_current_equity_session(
+        resolve_path("ohlcv_data"), today_str, current_symbols
+    )
     
     existing_data_cache = {}
     safe_symbol_counts = Counter(
