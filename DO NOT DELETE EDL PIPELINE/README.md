@@ -60,6 +60,13 @@ existing `ohlcv_data/*.csv` cache format. No Parquet layer is added because the
 scanner already consumes this CSV cache. Official NSE delivery-history files
 remain the source for delivery-percent screens.
 
+The repository's **Weekly Adjusted OHLCV Refresh** GitHub Action runs each
+Sunday at 09:00 IST. It restores a cached EOD2 data checkout, fast-forwards it
+from upstream, and invokes this same pipeline with `EDL_EOD2_DATA_DIR` set.
+The weekday **Daily Data Refresh** intentionally does not use EOD2: it relies
+on the official NSE close for the latest completed session, so it remains
+independent if the optional upstream repository is unavailable.
+
 ### Pipeline Phases
 ```
 PHASE 1 (Core):       fetch_dhan_data.py → fetch_fundamental_data.py
