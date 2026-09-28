@@ -198,6 +198,13 @@ runs fetch only page 1 and merge new disclosures. `filing_history.json.gz` is
 the published, durable ledger. It contains timestamps and filing metadata, not
 invented financial values from attachment PDFs.
 
+`quarterly_financial_history.json.gz` joins those real disclosure timestamps
+to the provider's quarter-indexed numerical statements. Rows retain their
+`CONSOLIDATED` or `STANDALONE` provenance; standalone results never fill a
+missing consolidated result. The statement values are a current provider
+observation, so strict point-in-time screens continue to require a snapshot
+observed on or before the requested date.
+
 ### 4. Live Announcements — `fetch_new_announcements.py`
 | Key | Value |
 |---|---|

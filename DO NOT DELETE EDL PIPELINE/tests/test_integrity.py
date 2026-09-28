@@ -385,6 +385,7 @@ class IntegrityTests(unittest.TestCase):
                          'process_mbi_market_breadth.py','build_rs_ratings.py','build_shareholding_history.py',
                          'build_corporate_action_ledger.py','standardize_stock_artifact.py',
                          'build_filing_history_artifact.py',
+                         'build_quarterly_financial_ledger.py',
                          'build_ipo_screener_artifact.py'):
                 result=subprocess.run([sys.executable,str(ROOT/name)],cwd=root,env=env,capture_output=True,text=True,timeout=30)
                 self.assertEqual(result.returncode,0,name+'\n'+result.stdout+'\n'+result.stderr)
