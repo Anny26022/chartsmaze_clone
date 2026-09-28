@@ -90,9 +90,11 @@ class TransformTests(unittest.TestCase):
 
     def test_build_master_map_filters_missing_ids_and_sorts_symbols(self):
         stocks = [
-            {"Sym": "BETA", "Isin": "INB", "DispSym": "Beta Ltd", "Sid": 2, "FnoFlag": 1},
-            {"Sym": "ALPHA", "Isin": "INA", "DispSym": "Alpha Ltd", "Sid": 1},
+            {"Sym": "BETA", "Isin": "INB", "DispSym": "Beta Ltd", "Sid": 2, "Ltp": 20, "FnoFlag": 1},
+            {"Sym": "ALPHA", "Isin": "INA", "DispSym": "Alpha Ltd", "Sid": 1, "Ltp": 10},
             {"Sym": "NOISIN", "DispSym": "No ISIN"},
+            {"Sym": "NOSID", "Isin": "INC", "Ltp": 10},
+            {"Sym": "NOPRICE", "Isin": "IND", "Sid": 3, "Ltp": 0},
         ]
 
         self.assertEqual(

@@ -67,6 +67,16 @@ The weekday **Daily Data Refresh** intentionally does not use EOD2: it relies
 on the official NSE close for the latest completed session, so it remains
 independent if the optional upstream repository is unavailable.
 
+### NSE universe reconciliation
+
+Every refresh downloads and validates NSE's current `EQUITY_L.csv`. ScanX
+remains the canonical tradable universe because it also covers the SME names
+absent from that NSE list. `nse_universe_reconciliation.json` reports NSE
+`EQ` listings that are absent from ScanX; they remain pending until ScanX
+supplies an ISIN, security ID, and positive price. A row still absent after
+two observed weekday sessions is marked as an alert. Rights and non-`EQ`
+series are reported separately and never treated as IPO candidates.
+
 ### Pipeline Phases
 ```
 PHASE 1 (Core):       fetch_dhan_data.py → fetch_fundamental_data.py

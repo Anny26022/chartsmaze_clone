@@ -111,6 +111,12 @@ SCRIPT_OUTPUT_SPECS = {
     "fetch_fundamental_data.py": [
         ArtifactSpec("fundamental_data.json", "json", min_count=1),
     ],
+    "reconcile_nse_equity_universe.py": [
+        ArtifactSpec(
+            "nse_universe_reconciliation.json", "json",
+            required_fields=("available", "source", "as_of_date", "pending_scanx_enrichment", "alert_count"),
+        ),
+    ],
     "fetch_company_filings.py": [
         ArtifactSpec("company_filings", "dir", min_count=1),
     ],
@@ -241,6 +247,10 @@ FINAL_ARTIFACT_SPECS = [
     ArtifactSpec("corporate_action_ledger.json.gz", "gzip_json", required_fields=("source", "price_adjusted", "records")),
     ArtifactSpec("nse_fno_ban.json.gz", "gzip_json", required_fields=("source", "available", "trade_date", "symbols")),
     ArtifactSpec("rs_rating_daily.json.gz", "gzip_json", required_fields=("source", "as_of_date", "ratings")),
+    ArtifactSpec(
+        "nse_universe_reconciliation.json", "json",
+        required_fields=("available", "source", "as_of_date", "pending_scanx_enrichment", "alert_count"),
+    ),
 ]
 
 SCRIPT_OUTPUT_SPECS[OHLCV_DERIVED_SCRIPT] = [

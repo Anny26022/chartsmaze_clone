@@ -90,6 +90,7 @@ jobs:
           git add "DO NOT DELETE EDL PIPELINE/corporate_action_ledger.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/data_quality.json"
           git add "DO NOT DELETE EDL PIPELINE/pipeline_report.json"
+          git add "DO NOT DELETE EDL PIPELINE/nse_universe_reconciliation.json"
           git commit -m "Automated weekly adjusted OHLCV refresh [skip ci]" || echo "No changes to commit"
           git pull --rebase --autostash origin main
           git push
