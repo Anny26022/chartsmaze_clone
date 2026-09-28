@@ -133,14 +133,83 @@ def _stock_snapshot_is_aligned(stock, as_of_date):
     return as_of_date is not None and not pd.isna(snapshot_date) and snapshot_date.date() == as_of_date
 
 
+def _published_field_value(frame, stock, field, as_of_date):
+    """Read a query field without silently using a future financial snapshot."""
+    field = str(field).lower()
+    latest = {
+        "close": "Close", "open": "Open", "high": "High", "low": "Low",
+    }
+    if field in latest:
+        return float(frame[latest[field]].iloc[-1]), None
+    if field == "volume_lakh":
+        return float(frame["Volume"].iloc[-1] / 100_000), None
+    if field in {"sma_20", "sma_50", "sma_200"}:
+        period = int(field.rsplit("_", 1)[1])
+        if len(frame) < period:
+            return None, "insufficient_history"
+        return float(frame["Close"].tail(period).mean()), None
+    if field in {"high_52w", "low_52w"}:
+        if len(frame) < 252:
+            return None, "insufficient_history"
+        column = "High" if field == "high_52w" else "Low"
+        return float(frame[column].tail(252).max() if field == "high_52w" else frame[column].tail(252).min()), None
+    periods = {"return_1m": 21, "return_1y": 252, "return_3y": 756, "return_5y": 1260}
+    if field in periods:
+        period = periods[field]
+        if len(frame) <= period:
+            return None, "insufficient_history"
+        return float((frame["Close"].iloc[-1] / frame["Close"].iloc[-1 - period] - 1) * 100), None
+    if field == "return_ytd":
+        year_start = pd.Timestamp(as_of_date.year, 1, 1)
+        prior = frame.loc[frame["Date"] < year_start, "Close"]
+        if prior.empty:
+            return None, "insufficient_history"
+        return float((frame["Close"].iloc[-1] / prior.iloc[-1] - 1) * 100), None
+    if field in {"daily_volatility", "annualized_volatility"}:
+        if len(frame) < 14:
+            return None, "insufficient_history"
+        adr = float(((frame["High"] - frame["Low"]) / frame["Close"] * 100).tail(14).mean())
+        # This deliberately matches the public query screen's documented
+        # ADR approximation, not a claim of exchange-calculated volatility.
+        return (adr * np.sqrt(250) if field == "annualized_volatility" else adr), None
+    if field == "market_cap_crore":
+        cap, close = _float(stock, "market_cap_crore"), _float(stock, "close")
+        if cap is None or close in (None, 0):
+            return None, "snapshot_value_unavailable"
+        return float(cap * frame["Close"].iloc[-1] / close), None
+    if not _stock_snapshot_is_aligned(stock, as_of_date):
+        return None, "snapshot_not_aligned_to_screen_date"
+    value = _float(stock, field)
+    return (value, None) if value is not None else (None, "snapshot_value_unavailable")
+
+
 def evaluate_context_condition(frame, spec, context, result: Callable[..., Any], unavailable: Callable[..., Any], comparison: Callable[[float, str, float], bool]):
     """Evaluate non-OHLCV-only rules; return ``None`` when not applicable."""
     condition = spec["condition"]
-    if condition not in CONTEXT_CONDITION_REGISTRY:
+    # ``field_comparison`` belongs to the local text-query compiler, not the
+    # public JournalToday condition registry.  Keeping it out of that registry
+    # lets the checked-in public-contract fixture remain exact.
+    if condition not in CONTEXT_CONDITION_REGISTRY and condition != "field_comparison":
         return None
     context = context or {}
     stock = context.get("stock") or {}
     as_of_date = frame["Date"].iloc[-1].date() if not frame.empty else None
+
+    if condition == "field_comparison":
+        left, reason = _published_field_value(frame, stock, spec.get("field"), as_of_date)
+        if reason:
+            return unavailable(condition, reason)
+        raw_right = spec.get("value")
+        if isinstance(raw_right, dict) and raw_right.get("field"):
+            right, reason = _published_field_value(frame, stock, raw_right["field"], as_of_date)
+            if reason:
+                return unavailable(condition, reason)
+        else:
+            try:
+                right = float(raw_right)
+            except (TypeError, ValueError):
+                return unavailable(condition, "invalid_comparison_value")
+        return result(condition, comparison(left, spec["comparison"], right), round(left, 6), field=spec.get("field"), comparison=spec["comparison"], target=round(right, 6))
 
     if condition in {"relative_strength", "rs_new_high"}:
         benchmark = (context.get("benchmarks") or {}).get(str(spec.get("benchmark", "NIFTY_50")).upper())

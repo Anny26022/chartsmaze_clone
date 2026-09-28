@@ -127,7 +127,7 @@ class TransformTests(unittest.TestCase):
                 "NET_PROFIT": "10|5|4|3|2",
                 "EPS": "2|1|0.5|0.25|1",
                 "SALES": "100|80|70|60|50",
-                "PBT": "40|20|15|10|8",
+                "PROFIT_BEFORE_TAX": "40|20|15|10|8",
                 "OPM": "20|15|10|5|10",
             },
             "incomeStat_cy": {"EPS": "8|6", "SALES": "200|180|160|140|120|100"},

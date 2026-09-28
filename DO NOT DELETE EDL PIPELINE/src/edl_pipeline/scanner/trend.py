@@ -215,7 +215,7 @@ def _persisted(frame, average, comparison, days, mode):
 def _evaluate(frame, spec, delivery_history=None, context=None):
     spec = normalize_condition_spec(spec)
     condition = spec.get("condition") or spec.get("id")
-    if condition not in CONDITION_REGISTRY:
+    if condition not in CONDITION_REGISTRY and condition != "field_comparison":
         raise ValueError(f"Unsupported trend condition: {condition!r}")
     if frame.empty:
         return _unavailable(condition, "no_ohlcv_history")

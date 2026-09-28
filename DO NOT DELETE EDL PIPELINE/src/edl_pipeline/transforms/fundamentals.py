@@ -185,6 +185,9 @@ def ownership_fields(shp, market_cap_cr, ltp, total_shares):
         "DII % change QoQ": rounded(dii_latest - dii_prev) if None not in (dii_latest, dii_prev) else None,
         "Free Float(%)": round(free_float_pct, 2) if free_float_pct is not None else None,
         "Float Shares(Cr.)": round(float_shares_cr, 2) if float_shares_cr is not None else None,
+        "Promoter Holding(%)": rounded(promoter_latest),
+        "Public Holding(%)": rounded(get_value_from_pipe_string(shp.get("PUBLIC"), 0)),
+        "Number of Shareholders": get_value_from_pipe_string(shp.get("NO_OF_SHARE_HOLDERS"), 0),
     }
 
 
@@ -240,6 +243,7 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
     roce_roe = item.get("roce_roe", {})
     shp = item.get("sHp", {})
     bs_c = item.get("bs_c", {})
+    cf_c = item.get("cF_c", {})
 
     industry = cv.get("INDUSTRY_NAME", "N/A")
     sector = cv.get("SECTOR", "N/A")
@@ -286,11 +290,30 @@ def analyze_stock(item, tech, advanced_tech, listing_date_map, sme_map=None):
         "EPS Last Year": get_value_from_pipe_string(cy.get("EPS"), 0),
         "EPS 2 Years Back": get_value_from_pipe_string(cy.get("EPS"), 1),
         **sales,
-        **quarterly_metric_fields("PBT", cq, "PBT"),
+        **quarterly_metric_fields("PBT", cq, "PROFIT_BEFORE_TAX"),
         "Sales Growth 5 Years(%)": rounded(calculate_cagr(sales_current_annual, sales_5_years_ago, 5)),
         **opm,
         **valuation_fields(cv, ttm_cy, roce_roe, bs_c, eps["EPS Latest Quarter"], eps["YoY % EPS Latest"]),
         **ownership,
+        # These values exist in the raw ScanX cache.  Publish their source
+        # units (₹ lakh, except EPS/percentage) rather than fabricating a
+        # missing financial ratio from an unrelated field.
+        "EPS TTM": get_float(ttm_cy.get("EPS")),
+        "Dividend Yield(%)": get_float(cv.get("DIVIDEND_YEILD")),
+        "Face Value": get_float(cv.get("FACE_VALUE")),
+        "Total Income(in Lakhs)": get_value_from_pipe_string(cq.get("REVENUE"), 0),
+        "Total Expense(in Lakhs)": get_value_from_pipe_string(cq.get("EXPENSES"), 0),
+        "Profit Before Tax(in Lakhs)": get_value_from_pipe_string(cq.get("PROFIT_BEFORE_TAX"), 0),
+        "Total Tax Expenses(in Lakhs)": get_value_from_pipe_string(cq.get("TAX"), 0),
+        "Net Profit(in Lakhs)": get_value_from_pipe_string(cq.get("NET_PROFIT"), 0),
+        "Total Equity(in Lakhs)": get_value_from_pipe_string(bs_c.get("TOTAL_EQUITY"), 0),
+        "Total Assets(in Lakhs)": get_value_from_pipe_string(bs_c.get("TOTAL_ASSETS"), 0),
+        "Current Assets(in Lakhs)": get_value_from_pipe_string(bs_c.get("CURRENT_ASSETS"), 0),
+        "Current Liabilities(in Lakhs)": get_value_from_pipe_string(bs_c.get("CURRENT_LIABILITIES"), 0),
+        "Non-Current Liabilities(in Lakhs)": get_value_from_pipe_string(bs_c.get("NON_CURRENT_LIABILITIES"), 0),
+        "Operating Cash Flow(in Lakhs)": get_value_from_pipe_string(cf_c.get("OPERATING_ACTIVITIES"), 0),
+        "Investing Cash Flow(in Lakhs)": get_value_from_pipe_string(cf_c.get("INVESTING_ACTIVITIES"), 0),
+        "Net Cash Flow(in Lakhs)": get_value_from_pipe_string(cf_c.get("NET_CASH_FLOW"), 0),
         "% from 52W High": rounded(pct_from_52w_high),
     }
 

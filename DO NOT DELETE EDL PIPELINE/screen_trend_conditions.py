@@ -15,6 +15,7 @@ if str(SRC) not in sys.path:
 
 from edl_pipeline.scanner.history import load_snapshot
 from edl_pipeline.scanner.presets import get_preset, list_presets, validate_preset_library
+from edl_pipeline.scanner.query import compile_query
 from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_universe, evaluate_universe_range
 
 
@@ -113,6 +114,7 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--request", type=Path, help="JSON request with a non-empty conditions array or preset ID")
     parser.add_argument("--preset", help="Run a vendored preset by lib-* ID or exact name")
+    parser.add_argument("--query", help="Compile and run a Market-Lens-style text query")
     parser.add_argument("--output", type=Path, help="Write JSON result here; otherwise print it")
     parser.add_argument("--as-of-date", help="Use the latest session on or before YYYY-MM-DD")
     parser.add_argument("--as-of-from", help="Run independently for each NIFTY session from YYYY-MM-DD")
@@ -135,16 +137,16 @@ def main(argv=None):
     if args.list_presets:
         print(json.dumps(list_presets(), indent=2, ensure_ascii=False))
         return 0
-    if args.request and args.preset:
-        parser.error("Use either --request or --preset, not both")
-    if not args.request and not args.preset:
-        parser.error("--request or --preset is required unless listing definitions")
+    if sum(bool(value) for value in (args.request, args.preset, args.query)) > 1:
+        parser.error("Use exactly one of --request, --preset, or --query")
+    if not args.request and not args.preset and not args.query:
+        parser.error("--request, --preset, or --query is required unless listing definitions")
     request = json.loads(args.request.read_text()) if args.request else {}
     preset_id = args.preset or request.get("preset") or request.get("preset_id")
     preset = get_preset(preset_id) if preset_id else None
     if preset and (request.get("expression") or request.get("conditions")):
         parser.error("A preset request must not also supply expression or conditions")
-    conditions = (preset or {}).get("expression") or request.get("expression", request.get("conditions"))
+    conditions = compile_query(args.query) if args.query else (preset or {}).get("expression") or request.get("expression", request.get("conditions"))
     if not conditions:
         parser.error("request.expression or request.conditions must be non-empty")
     validate_preset_library(CONDITION_REGISTRY)
