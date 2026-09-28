@@ -21,7 +21,7 @@ from ohlcv_utils import (
 from pipeline_utils import ensure_dir, fetch_scanx_data, get_headers, load_json, resolve_path
 
 # --- Configuration ---
-INPUT_FILE = "dhan_data_response.json"
+MASTER_FILE = "master_isin_map.json"
 OUTPUT_DIR = "ohlcv_data"
 CHUNK_DAYS = 180  # Fetch in chunks to avoid API limits
 MAX_THREADS = 15
@@ -143,13 +143,24 @@ def main():
     ensure_dir(OUTPUT_DIR)
 
     try:
-        dhan_data = load_json(INPUT_FILE)
+        master_rows = load_json(MASTER_FILE)
     except FileNotFoundError:
-        print(f"Error: {INPUT_FILE} not found.")
+        print(f"Error: {MASTER_FILE} not found.")
         return False
 
-    stocks = {item["Sym"]: {"Sid": item["Sid"], "Exch": item.get("Exch", "NSE"), "Inst": "EQUITY", "Seg": "E"} 
-              for item in dhan_data if item.get("Sym") and item.get("Sid")}
+    # The canonical map is filtered against current NSE SME market-watch data
+    # before this stage.  Do not enumerate raw ScanX rows here: that would
+    # silently rebuild SME history after they were excluded from the scanner.
+    stocks = {
+        item["Symbol"]: {
+            "Sid": item["Sid"],
+            "Exch": item.get("Exchange", "NSE"),
+            "Inst": item.get("Instrument", "EQUITY"),
+            "Seg": item.get("Segment", "E"),
+        }
+        for item in master_rows
+        if item.get("Symbol") and item.get("Sid") is not None
+    }
 
     # One bulk ScanX snapshot is used only while a daily candle is forming.
     live_snapshots = get_live_snapshots() if is_nse_cash_session() else {}

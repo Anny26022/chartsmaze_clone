@@ -6,6 +6,7 @@ from .validators import ArtifactSpec
 INTERMEDIATE_FILES = [
     "master_isin_map.json",
     "dhan_data_response.json",
+    "mainboard_scanx_data.json",
     "fundamental_data.json",
     "advanced_indicator_data.json",
     "all_company_announcements.json",
@@ -18,7 +19,6 @@ INTERMEDIATE_FILES = [
     "lower_circuit_stocks.json",
     "incremental_price_bands.json",
     "complete_price_bands.json",
-    "sme_market_data.json",
     "nse_equity_list.csv",
     "all_stocks_fundamental_analysis.json",
     "sector_analytics.json",
@@ -45,6 +45,9 @@ FILES_TO_COMPRESS = {
     "corporate_action_ledger.json": "corporate_action_ledger.json.gz",
     "nse_fno_ban.json": "nse_fno_ban.json.gz",
     "rs_rating_daily.json": "rs_rating_daily.json.gz",
+    # Raw NSE SME coverage is retained separately; it is never part of the
+    # canonical scanner universe.
+    "sme_market_data.json": "sme_market_data.json.gz",
 }
 
 # The full refresh generates and validates these alongside the stock snapshot.
@@ -76,7 +79,6 @@ PHASE2_SCRIPTS = [
     "fetch_nse_delivery_history.py",
     "fetch_nse_fno_ban.py",
     "fetch_all_indices.py",
-    "fetch_sme_data.py",
 ]
 
 PHASE4_SCRIPTS = [
@@ -168,6 +170,12 @@ SCRIPT_OUTPUT_SPECS = {
     "fetch_sme_data.py": [
         ArtifactSpec("sme_market_data.json", "json", min_count=1, required_fields=("Symbol", "Series")),
     ],
+    "filter_mainboard_universe.py": [
+        ArtifactSpec(
+            "mainboard_universe_report.json", "json",
+            required_fields=("raw_scanx_count", "excluded_sme_count", "mainboard_count", "mainboard_scanx_count"),
+        ),
+    ],
     "fetch_all_ohlcv.py": [
         ArtifactSpec("ohlcv_data", "dir", min_count=1),
     ],
@@ -251,6 +259,11 @@ FINAL_ARTIFACT_SPECS = [
         "nse_universe_reconciliation.json", "json",
         required_fields=("available", "source", "as_of_date", "pending_scanx_enrichment", "alert_count"),
     ),
+    ArtifactSpec(
+        "mainboard_universe_report.json", "json",
+        required_fields=("raw_scanx_count", "excluded_sme_count", "mainboard_count", "mainboard_scanx_count"),
+    ),
+    ArtifactSpec("sme_market_data.json.gz", "gzip_json", min_count=1, required_fields=("Symbol", "Series")),
 ]
 
 SCRIPT_OUTPUT_SPECS[OHLCV_DERIVED_SCRIPT] = [

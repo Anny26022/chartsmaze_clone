@@ -329,6 +329,16 @@ class IntegrityTests(unittest.TestCase):
                 'Mcap':1000,'Ltp':last['Close'],'Open':last['Open'],
                 'High':last['High'],'Low':last['Low'],'Volume':last['Volume'],
             }])
+            self.write(root,'mainboard_scanx_data.json',[{
+                'Sym':'ABC','DispSym':'ABC Ltd','Isin':'INE000000001','Sid':1,
+                'Mcap':1000,'Ltp':last['Close'],'Open':last['Open'],
+                'High':last['High'],'Low':last['Low'],'Volume':last['Volume'],
+            }])
+            self.write(root,'sme_market_data.json',[])
+            self.write(root,'mainboard_universe_report.json',{
+                'raw_scanx_count':1,'excluded_sme_count':0,
+                'mainboard_count':1,'mainboard_scanx_count':1,
+            })
             self.write(root,'history_corporate_actions.json',[])
             self.write(root,'all_indices_list.json',[{'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'}])
             self.write(root,'nse_fno_ban.json',{'source':'test','available':False,'trade_date':None,'symbols':[]})

@@ -294,6 +294,26 @@ def main(config=None):
         )
         return 1
 
+    # The raw ScanX response includes current SME listings.  Fetch the
+    # authoritative NSE SME universe before any stage reads the canonical map.
+    results["fetch_sme_data.py"] = run_script("fetch_sme_data.py", "Phase 1", required=True)
+    if not results["fetch_sme_data.py"].ok:
+        print("\nCRITICAL: fetch_sme_data.py failed. Cannot safely publish a mainboard-only universe.")
+        write_pipeline_report(
+            build_pipeline_report(results, time.time() - overall_start, raw_size, gz_size, final_checks, config, 1)
+        )
+        return 1
+
+    results["filter_mainboard_universe.py"] = run_script(
+        "filter_mainboard_universe.py", "Phase 1", required=True
+    )
+    if not results["filter_mainboard_universe.py"].ok:
+        print("\nCRITICAL: mainboard universe filter failed. Cannot continue.")
+        write_pipeline_report(
+            build_pipeline_report(results, time.time() - overall_start, raw_size, gz_size, final_checks, config, 1)
+        )
+        return 1
+
     results["fetch_fundamental_data.py"] = run_script("fetch_fundamental_data.py", "Phase 1", required=True)
     if not results["fetch_fundamental_data.py"].ok:
         print("\nCRITICAL: fetch_fundamental_data.py failed. Cannot continue.")

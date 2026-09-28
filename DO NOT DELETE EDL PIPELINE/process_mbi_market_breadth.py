@@ -16,7 +16,7 @@ from pipeline_utils import BASE_PATH, load_json
 BASE_DIR = BASE_PATH
 
 
-UNIVERSE_FILE = BASE_DIR / "dhan_data_response.json"
+UNIVERSE_FILE = BASE_DIR / "mainboard_scanx_data.json"
 OHLCV_DIR = BASE_DIR / "ohlcv_data"
 INDEX_FILE = BASE_DIR / "indices_ohlcv_data" / "NIFTY.csv"
 INDEX_LIST_FILE = BASE_DIR / "all_indices_list.json"
@@ -34,7 +34,7 @@ def history_coverage(processed, available):
 
 def main():
     if not UNIVERSE_FILE.exists():
-        print("Error: dhan_data_response.json is missing. Run fetch_dhan_data.py first.")
+        print("Error: mainboard_scanx_data.json is missing. Run the mainboard universe setup first.")
         return 1
     if not OHLCV_DIR.exists():
         print("Error: ohlcv_data is missing. Run fetch_all_ohlcv.py first.")

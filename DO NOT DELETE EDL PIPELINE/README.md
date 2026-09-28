@@ -67,11 +67,17 @@ The weekday **Daily Data Refresh** intentionally does not use EOD2: it relies
 on the official NSE close for the latest completed session, so it remains
 independent if the optional upstream repository is unavailable.
 
-### NSE universe reconciliation
+### Mainboard universe and NSE reconciliation
 
 Every refresh downloads and validates NSE's current `EQUITY_L.csv`. ScanX
-remains the canonical tradable universe because it also covers the SME names
-absent from that NSE list. `nse_universe_reconciliation.json` reports NSE
+is first captured as a raw source snapshot, then the current official NSE SME
+market-watch feed is removed before the canonical universe is used by
+fundamentals, OHLCV, breadth, rankings, or scanner artifacts. The retained
+`sme_market_data.json.gz` is source coverage only; no SME symbol appears in
+the scanner universe. `mainboard_universe_report.json` records the raw,
+excluded, and final counts for each refresh.
+
+`nse_universe_reconciliation.json` reports NSE
 `EQ` listings that are absent from ScanX; they remain pending until ScanX
 supplies an ISIN, security ID, and positive price. A row still absent after
 two observed weekday sessions is marked as an alert. Rights and non-`EQ`
@@ -79,7 +85,7 @@ series are reported separately and never treated as IPO candidates.
 
 ### Pipeline Phases
 ```
-PHASE 1 (Core):       fetch_dhan_data.py → fetch_fundamental_data.py
+PHASE 1 (Core):       fetch_dhan_data.py → fetch_sme_data.py → filter_mainboard_universe.py → fetch_fundamental_data.py
 PHASE 2 (Enrichment): fetch_company_filings.py, fetch_market_news.py, fetch_all_indices.py, etc.
 PHASE 2.5 (OHLCV):    optional EOD2 bootstrap → official NSE close → ScanX fallback/live → index sync
 PHASE 3 (Analysis):   bulk_market_analyzer.py (creates base JSON)
