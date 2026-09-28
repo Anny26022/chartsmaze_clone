@@ -32,7 +32,7 @@ Runs the fetch, analysis, enrichment, breadth, and compression stages in depende
 The runner also writes `pipeline_report.json` with script status, artifact validation results, byte sizes, configuration flags, and the final exit code.
 
 **Configuration flags:**
-- `FETCH_OHLCV = True/False` — Include stock/index OHLCV sync. Stock OHLCV is incremental and currently defaults to roughly two years of history when no local CSV exists.
+- `FETCH_OHLCV = True/False` — Include stock/index OHLCV sync. Stock OHLCV is incremental and currently defaults to roughly four years of history when no local CSV exists.
 - `FETCH_OPTIONAL = True/False` — Include optional standalone ETF data.
 - `CLEANUP_INTERMEDIATE = True/False` — Delete intermediate JSON/CSV files after successful compression.
 
@@ -41,11 +41,28 @@ The same flags can be overridden without editing source:
 EDL_FETCH_OHLCV=0 EDL_CLEANUP_INTERMEDIATE=0 python3 run_full_pipeline.py
 ```
 
+### Optional EOD2 historical bootstrap
+
+The normal daily refresh remains ScanX/NSE-driven. To seed longer **adjusted**
+daily OHLCV history from a local checkout of EOD2's data repository, set its
+path for one full refresh:
+
+```bash
+git clone --depth 1 https://github.com/BennyThadikaran/eod2_data.git ~/data/eod2_data
+EDL_EOD2_DATA_DIR=~/data/eod2_data python3 run_full_pipeline.py
+```
+
+The importer joins by ISIN, not ticker filename. It overlays EOD2's adjusted
+history, retains local candles newer than EOD2's snapshot, and writes the
+existing `ohlcv_data/*.csv` cache format. No Parquet layer is added because the
+scanner already consumes this CSV cache. Official NSE delivery-history files
+remain the source for delivery-percent screens.
+
 ### Pipeline Phases
 ```
 PHASE 1 (Core):       fetch_dhan_data.py → fetch_fundamental_data.py
 PHASE 2 (Enrichment): fetch_company_filings.py, fetch_market_news.py, fetch_all_indices.py, etc.
-PHASE 2.5 (OHLCV):    fetch_all_ohlcv.py → fetch_indices_ohlcv.py
+PHASE 2.5 (OHLCV):    optional EOD2 bootstrap → fetch_all_ohlcv.py → fetch_indices_ohlcv.py
 PHASE 3 (Analysis):   bulk_market_analyzer.py (creates base JSON)
 PHASE 4 (Injection):  advanced_metrics_processor.py → process_market_breadth.py → add_corporate_events.py (LAST!)
 PHASE 5 (Output):     gzip compression of final artifacts

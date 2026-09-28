@@ -310,6 +310,9 @@ def main(config=None):
     if config.fetch_ohlcv:
         print("\nPHASE 2.5: OHLCV History (Smart Incremental)")
         print("-" * 40)
+        results["import_eod2_ohlcv.py"] = run_script(
+            "import_eod2_ohlcv.py", "Phase 2.5", required=True
+        )
         results["fetch_all_ohlcv.py"] = run_script(
             "fetch_all_ohlcv.py", "Phase 2.5", required=True
         )

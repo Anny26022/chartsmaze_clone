@@ -20,6 +20,7 @@ from process_earnings_performance import calculate_earnings_metrics, get_earning
 from edl_pipeline.quality import inspect_delivery_history
 import fetch_fundamental_data
 import fetch_stockscans_financials
+import import_eod2_ohlcv
 from pipeline_utils import save_json
 from edl_pipeline.artifacts import FILES_TO_COMPRESS, FINAL_ARTIFACT_SPECS, PHASE4_SCRIPTS, OHLCV_DERIVED_SCRIPT
 from edl_pipeline.publication import promote, main as publish
@@ -30,6 +31,39 @@ from build_corporate_action_ledger import build_ledger
 
 
 class IntegrityTests(unittest.TestCase):
+    def test_eod2_bootstrap_joins_by_isin_overlays_history_and_keeps_newer_rows(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "eod2_data"
+            daily = source / "daily"
+            daily.mkdir(parents=True)
+            (source / "isin_symbol_map.json").write_text(json.dumps({
+                "isin2hist": {"INE000": [{"symbol": "OLDNAME", "from_date": "2020-01-01", "to_date": "2026-12-31"}]},
+            }))
+            (source / "meta.json").write_text(json.dumps({"lastUpdate": "2026-09-18T00:00:00+05:30"}))
+            (daily / "oldname.csv").write_text(
+                "Date,Open,High,Low,Close,Volume,DLV_QTY\n"
+                "2025-01-01,10,12,9,11,100,70\n"
+                "2025-01-02,11,13,10,12,200,140\n"
+            )
+            output = root / "ohlcv_data"
+            output.mkdir()
+            (output / "NEWNAME.csv").write_text(
+                "Date,Open,High,Low,Close,Volume\n"
+                "2025-01-01,100,120,90,110,1\n"
+                "2026-09-25,200,210,190,205,5\n"
+            )
+            report = import_eod2_ohlcv.import_eod2_ohlcv(
+                source, [{"Symbol": "NEWNAME", "ISIN": "INE000"}], output,
+            )
+            rows = import_eod2_ohlcv.read_ohlcv_csv(output / "NEWNAME.csv")
+            self.assertEqual(report["imported_symbols"], 1)
+            self.assertEqual(report["source_last_update"], "2026-09-18T00:00:00+05:30")
+            self.assertEqual([row["Date"] for row in rows], ["2025-01-01", "2025-01-02", "2026-09-25"])
+            self.assertEqual(rows[0]["Close"], "11.0")
+            self.assertEqual(rows[-1]["Close"], "205")
+            self.assertNotIn("DLV_QTY", rows[0])
+
     def test_stockscans_normalizes_consolidated_quarters_and_requires_result_document_date(self):
         statement = {
             "quarterly": [

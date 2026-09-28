@@ -27,6 +27,7 @@ INTERMEDIATE_FILES = [
     "etf_data_response.json",
     "corporate_action_ledger.json",
     "nse_delivery_data.json",
+    "eod2_ohlcv_import_report.json",
 ]
 
 INTERMEDIATE_DIRS = [
@@ -167,6 +168,9 @@ SCRIPT_OUTPUT_SPECS = {
     ],
     "fetch_all_ohlcv.py": [
         ArtifactSpec("ohlcv_data", "dir", min_count=1),
+    ],
+    "import_eod2_ohlcv.py": [
+        ArtifactSpec("eod2_ohlcv_import_report.json", "json", required_fields=("enabled", "source")),
     ],
     "fetch_indices_ohlcv.py": [
         ArtifactSpec("indices_ohlcv_data", "dir", min_count=1),
