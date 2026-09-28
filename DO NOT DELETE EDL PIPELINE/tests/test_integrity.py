@@ -21,6 +21,7 @@ from edl_pipeline.quality import inspect_delivery_history
 import fetch_fundamental_data
 import import_eod2_ohlcv
 import apply_nse_daily_ohlcv
+import fetch_nse_corporate_actions
 from pipeline_utils import save_json
 from edl_pipeline.artifacts import FILES_TO_COMPRESS, FINAL_ARTIFACT_SPECS, PHASE4_SCRIPTS, OHLCV_DERIVED_SCRIPT
 from edl_pipeline.publication import promote, main as publish
@@ -353,7 +354,14 @@ class IntegrityTests(unittest.TestCase):
                 'SYMBOL,NAME OF COMPANY,SERIES,DATE OF LISTING\n'
                 'ABC,ABC Ltd,EQ,01-JAN-2026\n'
             )
-            self.write(root,'history_corporate_actions.json',[])
+            self.write(root,'nse_corporate_actions.json',{
+                'source':'https://www.nseindia.com/api/corporates-corporateActions',
+                'range':{'from':'2018-01-01','to':str(today)},'actions':[],
+            })
+            self.write(root,'nse_corporate_action_adjustments.json',{
+                'source':'https://www.nseindia.com/api/corporates-corporateActions',
+                'range':{'from':'2018-01-01','to':str(today)},'revision':'test','actions':[],
+            })
             self.write(root,'all_indices_list.json',[{'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'}])
             self.write(root,'nse_fno_ban.json',{'source':'test','available':False,'trade_date':None,'symbols':[]})
             shutil.copy2(ROOT/'breadth_methodology.json',root/'breadth_methodology.json')
@@ -376,14 +384,30 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(report['stock_count'],1)
             self.assertIn('net_profit_latest_quarter',report['symbols'][0]['missing_fields'])
 
-    def test_action_ledger_preserves_unverified_price_actions(self):
+    def test_official_action_ledger_preserves_deterministic_and_review_status(self):
         ledger = build_ledger([
-            {'Symbol':'ABC','Type':'SPLIT','ExDate':'2026-01-01','RecordDate':'2025-12-30','Details':'Face value changed'},
-            {'Symbol':'ABC','Type':'DIVIDEND','ExDate':'2026-01-02','Details':'Rs 1'},
+            {'symbol':'ABC','categories':['split'],'exDate':'2026-01-01','recordDate':'2025-12-30','subject':'Face value 10 to 5',
+             'adjustment':{'mode':'deterministic','priceFactor':0.5,'shareFactor':2}},
+            {'symbol':'ABC','categories':['scheme'],'exDate':'2026-01-02','subject':'Scheme of arrangement',
+             'adjustment':{'mode':'manual-review'}},
         ])
-        self.assertEqual(ledger[0]['adjustment_status'], 'requires_verified_ratio')
-        self.assertIsNone(ledger[0]['adjustment_factor'])
-        self.assertFalse(ledger[1]['affects_price'])
+        self.assertEqual(ledger[0]['adjustment_status'], 'verified')
+        self.assertEqual(ledger[0]['adjustment_factor'], 0.5)
+        self.assertEqual(ledger[0]['share_factor'], 2)
+        self.assertEqual(ledger[1]['adjustment_status'], 'manual-review')
+
+    def test_official_nse_actions_create_verified_runtime_adjustments(self):
+        full, runtime = fetch_nse_corporate_actions.build_outputs([
+            {'series':'EQ','symbol':'ABC','isin':'INE000000001','comp':'ABC Ltd','subject':'Bonus 1:1',
+             'exDate':'01-Jan-2026','recDate':'02-Jan-2026','faceVal':'5'},
+            {'series':'EQ','symbol':'ABC','isin':'INE000000001','comp':'ABC Ltd','subject':'Scheme of Arrangement',
+             'exDate':'03-Jan-2026','recDate':'04-Jan-2026','faceVal':'5'},
+            {'series':'BE','symbol':'IGNORED','subject':'Bonus 1:1','exDate':'01-Jan-2026'},
+        ], '2018-01-01', '2026-12-31', generated_at='2026-01-01T00:00:00Z')
+        self.assertEqual(len(full['actions']), 2)
+        self.assertEqual(full['actions'][0]['adjustment']['priceFactor'], 0.5)
+        self.assertEqual(len(runtime['actions']), 2)
+        self.assertTrue(runtime['revision'])
 
 
 if __name__=='__main__':unittest.main()

@@ -118,7 +118,7 @@ Payload requests `Sym`, `Open`, `High`, `Low`, `Ltp`, and `Volume`, sorted by `V
 | Item | Value |
 |---|---|
 | Caller | `fetch_corporate_actions.py::fetch_actions()` |
-| Output | `history_corporate_actions.json`, `upcoming_corporate_actions.json` |
+| Output | `history_earnings_events.json`, `upcoming_earnings_events.json` (quarterly-result fallback only) |
 | Count | `5000` |
 | Filters | Segment, equity universe, date window, market-cap classes, action types |
 

@@ -63,6 +63,30 @@ def collect_upcoming_action_events(upcoming_items, today=None):
     return event_map
 
 
+def collect_upcoming_nse_action_events(ledger, today=None):
+    """Render the official NSE ledger into the legacy event-marker vocabulary."""
+    actions = ledger.get("actions", []) if isinstance(ledger, dict) else []
+    translated = []
+    for action in actions:
+        categories = {str(category).lower() for category in action.get("categories", [])}
+        if "dividend" in categories:
+            action_type = "DIVIDEND"
+        elif "bonus" in categories:
+            action_type = "BONUS"
+        elif "split" in categories or "consolidation" in categories:
+            action_type = "SPLIT"
+        elif "rights" in categories:
+            action_type = "RIGHTS"
+        else:
+            continue
+        translated.append({
+            "Symbol": action.get("symbol"),
+            "Type": action_type,
+            "ExDate": action.get("exDate"),
+        })
+    return collect_upcoming_action_events(translated, today=today)
+
+
 def collect_circuit_revision_events(items):
     event_map = {}
     for item in items:
@@ -248,7 +272,8 @@ def optional_json(path, default):
 
 def map_refined_events(base_dir=BASE_DIR):
     master_file = os.path.join(base_dir, "all_stocks_fundamental_analysis.json")
-    upcoming_file = os.path.join(base_dir, "upcoming_corporate_actions.json")
+    nse_actions_file = os.path.join(base_dir, "nse_corporate_actions.json")
+    earnings_events_file = os.path.join(base_dir, "upcoming_earnings_events.json")
     filings_dir = os.path.join(base_dir, "company_filings")
     asm_file = os.path.join(base_dir, "nse_asm_list.json")
     deals_file = os.path.join(base_dir, "bulk_block_deals.json")
@@ -266,8 +291,10 @@ def map_refined_events(base_dir=BASE_DIR):
     print("Processing Surveillance (★: LTASM, ★: STASM)...")
     surveillance_events = collect_surveillance_events(optional_json(asm_file, []))
 
-    print("Processing Corporate Actions (⏰, 💸, ✂️, 🎁, 📈)...")
-    action_events = collect_upcoming_action_events(optional_json(upcoming_file, []))
+    print("Processing official NSE corporate actions (💸, ✂️, 🎁, 📈)...")
+    action_events = collect_upcoming_nse_action_events(optional_json(nse_actions_file, {}))
+    print("Processing ScanX earnings-event fallback (⏰)...")
+    earnings_events = collect_upcoming_action_events(optional_json(earnings_events_file, []))
 
     print("Processing Circuit Revisions (#: -ve/ +ve Circuit Limit Revision)...")
     circuit_events = collect_circuit_revision_events(optional_json(circuit_revision_file, []))
@@ -279,7 +306,7 @@ def map_refined_events(base_dir=BASE_DIR):
     filing_files = glob.glob(os.path.join(filings_dir, "*_filings.json")) if os.path.exists(filings_dir) else []
     filing_events, news_map = collect_filing_events_and_headlines(filing_files)
 
-    event_map = merge_event_maps(surveillance_events, action_events, circuit_events, deal_events, filing_events)
+    event_map = merge_event_maps(surveillance_events, action_events, earnings_events, circuit_events, deal_events, filing_events)
 
     print("Processing Recent Results & Live Headlines (📊)...")
     if os.path.exists(announcement_file):

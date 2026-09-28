@@ -333,7 +333,9 @@ def main(config=None):
     print("-" * 40)
     for script in PHASE2_SCRIPTS:
         results[script] = run_script(
-            script, "Phase 2", required=script in {"fetch_all_indices.py", "fetch_nse_delivery_history.py"},
+            script, "Phase 2", required=script in {
+                "fetch_all_indices.py", "fetch_nse_delivery_history.py", "fetch_nse_corporate_actions.py",
+            },
         )
 
     if config.fetch_ohlcv:

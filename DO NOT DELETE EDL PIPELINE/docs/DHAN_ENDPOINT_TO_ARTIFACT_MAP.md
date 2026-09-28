@@ -13,7 +13,7 @@ This map shows how each public/unofficial upstream source flows through the EDL 
 | Dhan announcements | `fetch_new_announcements.py` | `all_company_announcements.json` | `add_corporate_events.py` | Event markers and stock news/event context |
 | Dhan advanced indicators | `fetch_advanced_indicators.py` | `advanced_indicator_data.json` | `bulk_market_analyzer.py` | `SMA Status`, `EMA Status`, `Technical Sentiment`, `Pivot Point` |
 | Dhan live news | `fetch_market_news.py` | `market_news/{SYMBOL}_news.json` | `add_corporate_events.py` | `News Feed` |
-| Dhan corporate actions scan | `fetch_corporate_actions.py` | `history_corporate_actions.json`, `upcoming_corporate_actions.json` | `add_corporate_events.py` | Dividend, split, bonus, rights, buyback, result-date markers |
+| Dhan corporate actions scan | `fetch_corporate_actions.py` | `history_earnings_events.json`, `upcoming_earnings_events.json` | `add_corporate_events.py` | Quarterly-result event fallback only |
 | Dhan deals endpoint | `fetch_bulk_block_deals.py` | `bulk_block_deals.json` | `add_corporate_events.py` | Block/bulk deal event markers |
 | Dhan ScanX circuit scan | `fetch_circuit_stocks.py` | `upper_circuit_stocks.json`, `lower_circuit_stocks.json` | `add_corporate_events.py` | Circuit revision/break markers |
 | NSE complete price bands | `fetch_complete_price_bands.py` | `complete_price_bands.json` | `advanced_metrics_processor.py`, `add_corporate_events.py` | `Circuit Limit`, price-band event context |

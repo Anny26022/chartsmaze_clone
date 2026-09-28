@@ -233,24 +233,19 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 }
 ```
 
-### 7. Corporate Actions — `fetch_corporate_actions.py`
+### 7. Corporate Actions — official NSE, with ScanX earnings fallback
 | Key | Value |
 |---|---|
-| **URL** | `https://ow-scanx-analytics.dhan.co/customscan/fetchdt` |
-| **Method** | `POST` |
-| **Page Size** | `count: 5000` |
-| **Modes** | History (2 years back) + Upcoming (2 months ahead) |
-| **Output** | `history_corporate_actions.json`, `upcoming_corporate_actions.json` |
+| **Primary URL** | `https://www.nseindia.com/api/corporates-corporateActions` |
+| **Primary range** | 2018 onward, with one-year forward event context |
+| **Primary outputs** | `nse_corporate_actions.json`, `nse_corporate_action_adjustments.json` |
+| **Fallback** | ScanX quarterly-result announcements only |
+| **Fallback outputs** | `history_earnings_events.json`, `upcoming_earnings_events.json` |
 
-```json
-{
-  "data": {
-    "type": "full", "whichpage": "corporate_action",
-    "filters": [{"field": "CorpAct.ActDate", "op": "GT", "val": "<DATE>"}],
-    "count": 5000, "page": 1
-  }
-}
-```
+The official ledger retains the NSE action subject, ISIN, ex-date, record-date,
+and an explicit adjustment mode. A factor is published only for a parsed,
+deterministic split, bonus, or consolidation; schemes and demergers stay marked
+for manual review.
 
 ### 8. Surveillance Lists (ASM/GSM) — `fetch_surveillance_lists.py`
 | Key | Value |
@@ -333,7 +328,8 @@ Fetches from **TWO** endpoints and merges results for maximum coverage.
 | `fetch_new_announcements.py` | Live corporate announcements → `all_company_announcements.json` |
 | `fetch_advanced_indicators.py` | Pivot Points, EMA/SMA signals → `advanced_indicator_data.json` |
 | `fetch_market_news.py` | AI-sentiment news (50/stock) → `market_news/` |
-| `fetch_corporate_actions.py` | Dividends, Bonus, Splits → `upcoming/history_corporate_actions.json` |
+| `fetch_nse_corporate_actions.py` | Official NSE actions + deterministic adjustment factors |
+| `fetch_corporate_actions.py` | ScanX quarterly-result-event fallback only |
 | `fetch_surveillance_lists.py` | ASM/GSM lists → `nse_asm_list.json`, `nse_gsm_list.json` |
 | `fetch_circuit_stocks.py` | Upper/Lower circuit → `upper/lower_circuit_stocks.json` |
 | `fetch_bulk_block_deals.py` | Bulk/Block deals (30 days) → `bulk_block_deals.json` |

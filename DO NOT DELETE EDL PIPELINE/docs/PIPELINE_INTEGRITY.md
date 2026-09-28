@@ -23,7 +23,7 @@ Existing field names and artifact names are preserved, including the legacy CSV 
 
 The canonical stock artifact retains its source `isin` and `security_id`, so consumers can join it safely to reference data. It preserves every current provider index membership and marks it `current_snapshot`; this does not create historical constituent membership.
 
-`data_quality.json` contains coverage for listing date, sector, industry, circuit limit, F&O eligibility, F&O lot size and next expiry. It also contains an explicit per-symbol missing-field list. The pipeline publishes `corporate_action_ledger.json.gz`, a source-preserving ledger of fetched actions. `SPLIT`, `BONUS`, and `RIGHTS` rows are marked `requires_verified_ratio`; `price_adjusted` remains false. Raw OHLCV is deliberately untouched until a reliable factor source and reconciliation policy exist.
+`data_quality.json` contains coverage for listing date, sector, industry, circuit limit, F&O eligibility, F&O lot size and next expiry. It also contains an explicit per-symbol missing-field list. The pipeline publishes the official NSE action ledger plus a runtime adjustment ledger. Only NSE split/bonus/consolidation records with a parsed ratio are marked `verified`; schemes, mergers and demergers remain `manual-review`. `price_adjusted` remains false because the event ledger never mutates raw OHLCV.
 
 F&O expiry matches by Dhan underlying security ID first and normalized symbol second, avoiding punctuation/suffix mismatches. A refresh with eligible F&O securities but zero matched expiries fails rather than publishing an all-empty expiry column.
 

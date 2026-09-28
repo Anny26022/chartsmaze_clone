@@ -37,6 +37,7 @@ from edl_pipeline.transforms.events import (
     apply_events_to_master,
     collect_circuit_revision_events,
     collect_deal_events,
+    collect_upcoming_nse_action_events,
     collect_surveillance_events,
     collect_upcoming_action_events,
 )
@@ -494,6 +495,9 @@ class TransformTests(unittest.TestCase):
                 [{"Symbol": "ABC", "Type": "DIVIDEND", "ExDate": "2026-01-20"}],
                 today=today,
             ),
+            collect_upcoming_nse_action_events({"actions": [{
+                "symbol": "ABC", "categories": ["bonus"], "exDate": "2026-01-21",
+            }]}, today=today),
             collect_circuit_revision_events([{"Symbol": "ABC", "From": "10", "To": "20"}]),
             collect_deal_events([{"sym": "ABC", "deal": "BULK", "date": "2026-01-08 00:00:00"}], today=today),
         ]:
@@ -505,6 +509,7 @@ class TransformTests(unittest.TestCase):
 
         self.assertIn("★: LTASM", result[0]["Event Markers"])
         self.assertIn("💸: Dividend (20-Jan)", result[0]["Event Markers"])
+        self.assertIn("🎁: Bonus (21-Jan)", result[0]["Event Markers"])
         self.assertEqual(result[0]["Recent Announcements"], [{"Headline": "Result"}])
         self.assertEqual(result[0]["News Feed"], [{"Title": "News"}])
         self.assertEqual(result[1]["Event Markers"], "N/A")
