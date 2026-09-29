@@ -170,8 +170,8 @@
         "yoy_percent_pbt_latest": 575,
         "yoy_percent_sales_latest": 580,
         "latest_earnings_date": 170,
-        "max_returns_since_earnings_percent": 170,
-        "returns_since_earnings_percent": 170,
+        "max_returns_since_earnings_percent": 172,
+        "returns_since_earnings_percent": 172,
         "daily_rupee_turnover_100_cr": 222,
         "industry": 79,
         "sector": 79,
@@ -4225,8 +4225,10 @@
                 "fno_lot_size",
                 "fno_next_expiry",
                 "forward_pe_ratio",
+                "max_returns_since_earnings_percent",
                 "peg_ratio",
-                "pivot_point"
+                "pivot_point",
+                "returns_since_earnings_percent"
             ]
         },
         {
@@ -66991,8 +66993,10 @@
                 "fno_lot_size",
                 "fno_next_expiry",
                 "forward_pe_ratio",
+                "max_returns_since_earnings_percent",
                 "peg_ratio",
-                "pivot_point"
+                "pivot_point",
+                "returns_since_earnings_percent"
             ]
         },
         {
