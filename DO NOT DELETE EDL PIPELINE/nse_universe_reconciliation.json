@@ -3,7 +3,7 @@
     "source": "NSE EQUITY_L reconciliation",
     "as_of_date": "2026-09-29",
     "alert_after_observed_sessions": 2,
-    "scanx_master_count": 2612,
+    "scanx_master_count": 2600,
     "nse_equity_list_count": 2587,
     "pending_scanx_enrichment": [],
     "pending_count": 0,
