@@ -18,6 +18,11 @@ from pipeline_utils import BASE_DIR, load_json, save_json
 MASTER_FILE = "master_isin_map.json"
 REPORT_FILE = "eod2_ohlcv_import_report.json"
 DELIVERY_FIELDS = ["Date", "Series", "traded_quantity", "deliverable_quantity", "delivery_percent"]
+FIELD_POLICIES = {
+    "price_policy": "split_and_bonus_adjusted",
+    "volume_policy": "exchange_traded_quantity_unadjusted",
+    "delivery_policy": "exchange_reported_unadjusted",
+}
 
 
 def resolve_eod2_data_dir(value):
@@ -124,6 +129,7 @@ def import_eod2_ohlcv(data_dir, master, output_dir, delivery_output_dir=None):
     report = {
         "enabled": True,
         "source": "EOD2 adjusted daily CSV bootstrap",
+        **FIELD_POLICIES,
         "source_last_update": None,
         "master_symbols": len(master),
         "imported_symbols": 0,
@@ -175,6 +181,7 @@ def main():
             save_json(REPORT_FILE, {
                 "enabled": False,
                 "source": "EOD2 adjusted daily CSV bootstrap",
+                **FIELD_POLICIES,
                 "reason": "EDL_EOD2_DATA_DIR is not set",
             })
             print("EOD2 OHLCV bootstrap skipped (EDL_EOD2_DATA_DIR is not set).")

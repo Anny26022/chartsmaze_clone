@@ -234,7 +234,10 @@ SCRIPT_OUTPUT_SPECS = {
         ArtifactSpec("nse_daily_ohlcv_report.json", "json", required_fields=("available",)),
     ],
     "import_eod2_ohlcv.py": [
-        ArtifactSpec("eod2_ohlcv_import_report.json", "json", required_fields=("enabled", "source")),
+        ArtifactSpec(
+            "eod2_ohlcv_import_report.json", "json",
+            required_fields=("enabled", "source", "price_policy", "volume_policy", "delivery_policy"),
+        ),
     ],
     "fetch_indices_ohlcv.py": [
         ArtifactSpec("indices_ohlcv_data", "dir", min_count=1),

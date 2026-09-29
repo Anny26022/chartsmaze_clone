@@ -60,6 +60,15 @@ existing `ohlcv_data/*.csv` cache format. No Parquet layer is added because the
 scanner already consumes this CSV cache. Official NSE delivery-history files
 remain the source for delivery-percent screens.
 
+The canonical field contract intentionally follows the underlying exchange
+data: EOD2 supplies split/bonus-adjusted OHLC while `Volume` remains the actual
+historical traded quantity. Delivery quantities and percentages also remain
+unadjusted. Dhan history is a missing-history fallback, not the authority for
+retroactively rewriting volume; observed Dhan volume adjustment varies across
+corporate actions. The EOD2 import report publishes these policies explicitly
+so downstream scanners do not mistake raw traded quantity for synthetic
+split-adjusted chart volume.
+
 The repository's **Weekly Adjusted OHLCV Refresh** GitHub Action runs each
 Sunday at 09:00 IST. It restores a cached EOD2 data checkout, fast-forwards it
 from upstream, and invokes this same pipeline with `EDL_EOD2_DATA_DIR` set.
