@@ -1,33 +1,33 @@
 {
-    "generated_at": "2026-09-29T07:30:43.330726+00:00",
-    "base_dir": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i",
+    "generated_at": "2026-09-29T08:22:13.853257+00:00",
+    "base_dir": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami",
     "config": {
         "fetch_ohlcv": true,
         "fetch_optional": false,
         "cleanup_intermediate": false
     },
-    "total_time_seconds": 1758.663,
-    "raw_size_bytes": 1128877991,
-    "gzip_size_bytes": 111208667,
+    "total_time_seconds": 1128.1,
+    "raw_size_bytes": 1128928093,
+    "gzip_size_bytes": 111214080,
     "exit_code": 0,
     "scripts": {
         "fetch_dhan_data.py": {
             "ok": true,
             "required": true,
-            "elapsed": 3.4721038341522217,
+            "elapsed": 4.025306940078735,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/dhan_data_response.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/dhan_data_response.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 7723952,
+                    "size_bytes": 7726576,
                     "count": 3162
                 },
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/master_isin_map.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/master_isin_map.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -39,12 +39,12 @@
         "fetch_sme_data.py": {
             "ok": true,
             "required": true,
-            "elapsed": 1.066521167755127,
+            "elapsed": 1.4177594184875488,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/sme_market_data.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/sme_market_data.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -56,12 +56,12 @@
         "filter_mainboard_universe.py": {
             "ok": true,
             "required": true,
-            "elapsed": 0.5152196884155273,
+            "elapsed": 0.5653557777404785,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/mainboard_universe_report.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/mainboard_universe_report.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -73,16 +73,16 @@
         "fetch_fundamental_data.py": {
             "ok": true,
             "required": true,
-            "elapsed": 27.43205499649048,
+            "elapsed": 28.643661737442017,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/fundamental_data.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/fundamental_data.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 39794965,
+                    "size_bytes": 39794963,
                     "count": 2612
                 }
             ]
@@ -90,12 +90,12 @@
         "reconcile_nse_equity_universe.py": {
             "ok": true,
             "required": false,
-            "elapsed": 0.16411113739013672,
+            "elapsed": 0.1641526222229004,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_universe_reconciliation.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_universe_reconciliation.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -107,12 +107,12 @@
         "fetch_company_filings.py": {
             "ok": true,
             "required": false,
-            "elapsed": 691.1015300750732,
+            "elapsed": 200.69185733795166,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/company_filings",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/company_filings",
                     "kind": "dir",
                     "ok": true,
                     "message": "ok",
@@ -124,12 +124,12 @@
         "fetch_new_announcements.py": {
             "ok": true,
             "required": false,
-            "elapsed": 33.297131061553955,
+            "elapsed": 30.69981598854065,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_company_announcements.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_company_announcements.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -141,12 +141,12 @@
         "fetch_advanced_indicators.py": {
             "ok": true,
             "required": false,
-            "elapsed": 33.35782980918884,
+            "elapsed": 30.934349060058594,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/advanced_indicator_data.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/advanced_indicator_data.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -158,29 +158,29 @@
         "fetch_market_news.py": {
             "ok": true,
             "required": false,
-            "elapsed": 46.10171842575073,
+            "elapsed": 45.41385793685913,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/market_news",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/market_news",
                     "kind": "dir",
                     "ok": true,
                     "message": "ok",
                     "size_bytes": 0,
-                    "count": 2597
+                    "count": 2598
                 }
             ]
         },
         "fetch_nse_corporate_actions.py": {
             "ok": true,
             "required": true,
-            "elapsed": 4.173824071884155,
+            "elapsed": 3.3220958709716797,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_corporate_actions.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_corporate_actions.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -188,7 +188,7 @@
                     "count": 6
                 },
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_corporate_action_adjustments.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_corporate_action_adjustments.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -200,12 +200,12 @@
         "fetch_corporate_actions.py": {
             "ok": true,
             "required": false,
-            "elapsed": 8.033750057220459,
+            "elapsed": 8.485927104949951,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/upcoming_earnings_events.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/upcoming_earnings_events.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -213,7 +213,7 @@
                     "count": 67
                 },
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/history_earnings_events.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/history_earnings_events.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -225,12 +225,12 @@
         "fetch_surveillance_lists.py": {
             "ok": true,
             "required": false,
-            "elapsed": 1.968421459197998,
+            "elapsed": 1.7186799049377441,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_asm_list.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_asm_list.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -238,7 +238,7 @@
                     "count": 197
                 },
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_gsm_list.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_gsm_list.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -250,37 +250,37 @@
         "fetch_circuit_stocks.py": {
             "ok": true,
             "required": false,
-            "elapsed": 1.8683760166168213,
+            "elapsed": 3.2237708568573,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/upper_circuit_stocks.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/upper_circuit_stocks.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 27686,
-                    "count": 80
+                    "size_bytes": 31132,
+                    "count": 90
                 },
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/lower_circuit_stocks.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/lower_circuit_stocks.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 42147,
-                    "count": 122
+                    "size_bytes": 44157,
+                    "count": 128
                 }
             ]
         },
         "fetch_bulk_block_deals.py": {
             "ok": true,
             "required": false,
-            "elapsed": 32.3402886390686,
+            "elapsed": 32.30482745170593,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/bulk_block_deals.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/bulk_block_deals.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -292,12 +292,12 @@
         "fetch_incremental_price_bands.py": {
             "ok": true,
             "required": false,
-            "elapsed": 0.7155811786651611,
+            "elapsed": 0.7665350437164307,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/incremental_price_bands.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/incremental_price_bands.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -309,12 +309,12 @@
         "fetch_complete_price_bands.py": {
             "ok": true,
             "required": false,
-            "elapsed": 1.2171845436096191,
+            "elapsed": 1.1675913333892822,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/complete_price_bands.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/complete_price_bands.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -326,12 +326,12 @@
         "fetch_nse_delivery_data.py": {
             "ok": true,
             "required": false,
-            "elapsed": 0.9663755893707275,
+            "elapsed": 1.1666474342346191,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_delivery_data.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_delivery_data.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -343,7 +343,7 @@
         "fetch_nse_delivery_history.py": {
             "ok": true,
             "required": true,
-            "elapsed": 2.6200902462005615,
+            "elapsed": 2.0691351890563965,
             "returncode": 0,
             "error": "",
             "validations": []
@@ -351,33 +351,33 @@
         "fetch_nse_fno_ban.py": {
             "ok": true,
             "required": false,
-            "elapsed": 1.0664842128753662,
+            "elapsed": 0.41486454010009766,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_fno_ban.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_fno_ban.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 350,
-                    "count": 7
+                    "size_bytes": 199,
+                    "count": 5
                 }
             ]
         },
         "fetch_all_indices.py": {
             "ok": true,
             "required": true,
-            "elapsed": 0.414935827255249,
+            "elapsed": 0.41478991508483887,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_indices_list.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_indices_list.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 85169,
+                    "size_bytes": 85196,
                     "count": 192
                 }
             ]
@@ -385,29 +385,29 @@
         "import_eod2_ohlcv.py": {
             "ok": true,
             "required": true,
-            "elapsed": 86.51537609100342,
+            "elapsed": 0.1641860008239746,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/eod2_ohlcv_import_report.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/eod2_ohlcv_import_report.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 338,
-                    "count": 10
+                    "size_bytes": 121,
+                    "count": 3
                 }
             ]
         },
         "apply_nse_daily_ohlcv.py": {
             "ok": true,
             "required": true,
-            "elapsed": 21.156729221343994,
+            "elapsed": 21.112130880355835,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_daily_ohlcv_report.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_daily_ohlcv_report.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -419,12 +419,12 @@
         "fetch_all_ohlcv.py": {
             "ok": true,
             "required": true,
-            "elapsed": 307.61205649375916,
+            "elapsed": 274.1875150203705,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/ohlcv_data",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/ohlcv_data",
                     "kind": "dir",
                     "ok": true,
                     "message": "ok",
@@ -436,12 +436,12 @@
         "fetch_indices_ohlcv.py": {
             "ok": true,
             "required": true,
-            "elapsed": 4.022702693939209,
+            "elapsed": 4.073423385620117,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/indices_ohlcv_data",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/indices_ohlcv_data",
                     "kind": "dir",
                     "ok": true,
                     "message": "ok",
@@ -453,16 +453,16 @@
         "bulk_market_analyzer.py": {
             "ok": true,
             "required": true,
-            "elapsed": 1.266984462738037,
+            "elapsed": 1.3173081874847412,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_stocks_fundamental_analysis.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_stocks_fundamental_analysis.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 12610262,
+                    "size_bytes": 12610905,
                     "count": 2612
                 }
             ]
@@ -470,16 +470,16 @@
         "advanced_metrics_processor.py": {
             "ok": true,
             "required": true,
-            "elapsed": 33.336101055145264,
+            "elapsed": 30.130733966827393,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_stocks_fundamental_analysis.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_stocks_fundamental_analysis.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 17280630,
+                    "size_bytes": 17281333,
                     "count": 2612
                 }
             ]
@@ -487,16 +487,16 @@
         "process_earnings_performance.py": {
             "ok": true,
             "required": true,
-            "elapsed": 13.04651141166687,
+            "elapsed": 12.548200845718384,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_stocks_fundamental_analysis.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_stocks_fundamental_analysis.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 17643609,
+                    "size_bytes": 17644303,
                     "count": 2612
                 }
             ]
@@ -504,16 +504,16 @@
         "enrich_fno_data.py": {
             "ok": true,
             "required": true,
-            "elapsed": 4.62523889541626,
+            "elapsed": 4.476010799407959,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_stocks_fundamental_analysis.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_stocks_fundamental_analysis.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 17840842,
+                    "size_bytes": 17841536,
                     "count": 2612
                 }
             ]
@@ -521,16 +521,16 @@
         "enrich_delivery_data.py": {
             "ok": true,
             "required": true,
-            "elapsed": 1.0162513256072998,
+            "elapsed": 1.016526699066162,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_stocks_fundamental_analysis.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_stocks_fundamental_analysis.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 18284158,
+                    "size_bytes": 18284852,
                     "count": 2612
                 }
             ]
@@ -538,24 +538,24 @@
         "process_market_breadth.py": {
             "ok": true,
             "required": true,
-            "elapsed": 0.8157565593719482,
+            "elapsed": 0.7663531303405762,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_stocks_fundamental_analysis.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_stocks_fundamental_analysis.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 18284158,
+                    "size_bytes": 18284852,
                     "count": 2612
                 },
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/sector_analytics.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/sector_analytics.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 96940,
+                    "size_bytes": 96937,
                     "count": 2
                 }
             ]
@@ -563,12 +563,12 @@
         "process_historical_market_breadth.py": {
             "ok": true,
             "required": true,
-            "elapsed": 68.37020087242126,
+            "elapsed": 57.90782451629639,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/market_breadth.csv",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/market_breadth.csv",
                     "kind": "csv",
                     "ok": true,
                     "message": "ok",
@@ -580,32 +580,32 @@
         "process_mbi_market_breadth.py": {
             "ok": true,
             "required": true,
-            "elapsed": 157.19719314575195,
+            "elapsed": 152.16045093536377,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_indices_history_v2.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_indices_history_v2.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 10948034,
+                    "size_bytes": 10948040,
                     "count": 5
                 },
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/breadth_universe_snapshot.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/breadth_universe_snapshot.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 889624,
+                    "size_bytes": 889653,
                     "count": 10
                 },
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/market_breadth_v2.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/market_breadth_v2.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 853124,
+                    "size_bytes": 853479,
                     "count": 7
                 }
             ]
@@ -613,16 +613,16 @@
         "build_rs_ratings.py": {
             "ok": true,
             "required": true,
-            "elapsed": 25.374407291412354,
+            "elapsed": 23.725743055343628,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/rs_rating_daily.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/rs_rating_daily.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 297621,
+                    "size_bytes": 297485,
                     "count": 6
                 }
             ]
@@ -630,12 +630,12 @@
         "build_shareholding_history.py": {
             "ok": true,
             "required": true,
-            "elapsed": 1.9689395427703857,
+            "elapsed": 2.0704143047332764,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/shareholding_history.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/shareholding_history.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -647,16 +647,16 @@
         "add_corporate_events.py": {
             "ok": true,
             "required": true,
-            "elapsed": 4.775714635848999,
+            "elapsed": 4.827793121337891,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_stocks_fundamental_analysis.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_stocks_fundamental_analysis.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 24542251,
+                    "size_bytes": 24542810,
                     "count": 2612
                 }
             ]
@@ -664,12 +664,12 @@
         "build_corporate_action_ledger.py": {
             "ok": true,
             "required": true,
-            "elapsed": 0.46498990058898926,
+            "elapsed": 0.4650852680206299,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/corporate_action_ledger.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/corporate_action_ledger.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -681,16 +681,16 @@
         "standardize_stock_artifact.py": {
             "ok": true,
             "required": true,
-            "elapsed": 7.231355905532837,
+            "elapsed": 7.184247016906738,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_stocks_fundamental_analysis.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_stocks_fundamental_analysis.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 22704315,
+                    "size_bytes": 22704773,
                     "count": 2612
                 }
             ]
@@ -698,16 +698,16 @@
         "build_filing_history_artifact.py": {
             "ok": true,
             "required": true,
-            "elapsed": 26.88224172592163,
+            "elapsed": 29.146714210510254,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/filing_history.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/filing_history.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 1002627233,
+                    "size_bytes": 1002676579,
                     "count": 5
                 }
             ]
@@ -715,12 +715,12 @@
         "build_quarterly_financial_ledger.py": {
             "ok": true,
             "required": true,
-            "elapsed": 18.05955481529236,
+            "elapsed": 18.11059880256653,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/quarterly_financial_history.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/quarterly_financial_history.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
@@ -732,16 +732,16 @@
         "build_ipo_screener_artifact.py": {
             "ok": true,
             "required": true,
-            "elapsed": 0.4649066925048828,
+            "elapsed": 0.4651470184326172,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/ipo_screener.json",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/ipo_screener.json",
                     "kind": "json",
                     "ok": true,
                     "message": "ok",
-                    "size_bytes": 1647669,
+                    "size_bytes": 1647867,
                     "count": 6
                 }
             ]
@@ -749,12 +749,12 @@
         "snapshot_screener_context.py": {
             "ok": true,
             "required": true,
-            "elapsed": 41.780362606048584,
+            "elapsed": 40.81549692153931,
             "returncode": 0,
             "error": "",
             "validations": [
                 {
-                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/scanner_history_data",
+                    "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/scanner_history_data",
                     "kind": "dir",
                     "ok": true,
                     "message": "ok",
@@ -766,63 +766,63 @@
     },
     "final_artifacts": [
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_stocks_fundamental_analysis.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_stocks_fundamental_analysis.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 3045172,
+            "size_bytes": 3046227,
             "count": 2612
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/sector_analytics.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/sector_analytics.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 5904,
+            "size_bytes": 5898,
             "count": 2
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/market_breadth.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/market_breadth.json.gz",
             "kind": "gzip_csv",
             "ok": true,
             "message": "ok",
-            "size_bytes": 11670,
+            "size_bytes": 11671,
             "count": 29
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_indices_list.json",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_indices_list.json",
             "kind": "json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 85169,
+            "size_bytes": 85196,
             "count": 192
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/market_breadth_v2.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/market_breadth_v2.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 107464,
+            "size_bytes": 107676,
             "count": 7
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/breadth_universe_snapshot.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/breadth_universe_snapshot.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 106525,
+            "size_bytes": 106468,
             "count": 10
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/all_indices_history_v2.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/all_indices_history_v2.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 1500282,
+            "size_bytes": 1500312,
             "count": 5
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/corporate_action_ledger.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/corporate_action_ledger.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
@@ -830,7 +830,7 @@
             "count": 4
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_corporate_actions.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_corporate_actions.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
@@ -838,7 +838,7 @@
             "count": 6
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_corporate_action_adjustments.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_corporate_action_adjustments.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
@@ -846,31 +846,31 @@
             "count": 6
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_fno_ban.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_fno_ban.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 273,
-            "count": 7
+            "size_bytes": 192,
+            "count": 5
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/rs_rating_daily.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/rs_rating_daily.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 44715,
+            "size_bytes": 44822,
             "count": 6
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/ipo_screener.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/ipo_screener.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 166914,
+            "size_bytes": 167033,
             "count": 6
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/shareholding_history.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/shareholding_history.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
@@ -878,15 +878,15 @@
             "count": 6
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/filing_history.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/filing_history.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 100758969,
+            "size_bytes": 100762996,
             "count": 5
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/quarterly_financial_history.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/quarterly_financial_history.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
@@ -894,7 +894,7 @@
             "count": 5
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/nse_universe_reconciliation.json",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/nse_universe_reconciliation.json",
             "kind": "json",
             "ok": true,
             "message": "ok",
@@ -902,7 +902,7 @@
             "count": 11
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/mainboard_universe_report.json",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/mainboard_universe_report.json",
             "kind": "json",
             "ok": true,
             "message": "ok",
@@ -910,11 +910,11 @@
             "count": 8
         },
         {
-            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-0m6ye08i/sme_market_data.json.gz",
+            "path": "/home/runner/work/chartsmaze_clone/chartsmaze_clone/DO NOT DELETE EDL PIPELINE/.edl-refresh-65tdxami/sme_market_data.json.gz",
             "kind": "gzip_json",
             "ok": true,
             "message": "ok",
-            "size_bytes": 10632,
+            "size_bytes": 10638,
             "count": 551
         }
     ],
