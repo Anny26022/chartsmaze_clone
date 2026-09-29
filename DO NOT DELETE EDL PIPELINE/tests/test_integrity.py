@@ -62,8 +62,12 @@ class IntegrityTests(unittest.TestCase):
             rows = import_eod2_ohlcv.read_ohlcv_csv(output / "NEWNAME.csv")
             self.assertEqual(report["imported_symbols"], 1)
             self.assertEqual(report["source_last_update"], "2026-09-18T00:00:00+05:30")
+            self.assertEqual(report["price_policy"], "split_and_bonus_adjusted")
+            self.assertEqual(report["volume_policy"], "exchange_traded_quantity_unadjusted")
+            self.assertEqual(report["delivery_policy"], "exchange_reported_unadjusted")
             self.assertEqual([row["Date"] for row in rows], ["2025-01-01", "2025-01-02", "2026-09-25"])
             self.assertEqual(rows[0]["Close"], "11.0")
+            self.assertEqual(rows[0]["Volume"], "100.0")
             self.assertEqual(rows[-1]["Close"], "205")
             self.assertNotIn("DLV_QTY", rows[0])
             with (root / "eod2_delivery_history_data" / "NEWNAME.csv").open() as handle:
