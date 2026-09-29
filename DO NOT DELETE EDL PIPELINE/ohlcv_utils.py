@@ -1,5 +1,6 @@
 import csv
 from datetime import datetime, time
+from math import isfinite
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -91,6 +92,25 @@ def discard_weekend_rows(rows):
         except (KeyError, TypeError, ValueError):
             valid.append(row)
     return valid
+
+
+def has_valid_ohlcv(row):
+    """Accept only finite daily bars whose OHLC values agree with each other."""
+    try:
+        opening, high, low, close = (float(row[key]) for key in ("Open", "High", "Low", "Close"))
+        volume = float(row["Volume"])
+    except (KeyError, TypeError, ValueError):
+        return False
+    return (
+        all(isfinite(value) and value > 0 for value in (opening, high, low, close))
+        and isfinite(volume) and volume >= 0
+        and low <= min(opening, close) <= max(opening, close) <= high
+    )
+
+
+def discard_invalid_ohlcv_rows(rows):
+    """Remove malformed provider bars instead of carrying them into publication."""
+    return [row for row in rows if has_valid_ohlcv(row)]
 
 
 def plan_history_ranges(existing_rows, desired_start_ts, desired_end_ts):

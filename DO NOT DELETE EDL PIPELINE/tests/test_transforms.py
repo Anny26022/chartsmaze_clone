@@ -30,7 +30,7 @@ from enrich_delivery_data import apply_delivery_data
 from bulk_market_analyzer import analyze_stock, calculate_cagr
 from process_market_breadth import generate_analytics
 from nse_archive_utils import clean_records
-from ohlcv_utils import discard_weekend_rows, is_nse_cash_session, merge_rows_by_date, nse_calendar_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
+from ohlcv_utils import discard_invalid_ohlcv_rows, discard_weekend_rows, is_nse_cash_session, merge_rows_by_date, nse_calendar_date, read_ohlcv_csv, rows_from_tick_data, write_ohlcv_csv
 from pipeline_utils import apply_sma_fields, chunked, load_json, save_json
 from run_full_pipeline import env_bool
 from edl_pipeline.transforms.events import (
@@ -453,6 +453,14 @@ class TransformTests(unittest.TestCase):
             {"Date": "2026-09-27", "Close": 100},
         ]
         self.assertEqual([row["Date"] for row in discard_weekend_rows(rows)], ["2026-09-25"])
+
+    def test_ohlcv_repair_discards_malformed_provider_bars(self):
+        rows = [
+            {"Date": "2026-09-25", "Open": 100, "High": 105, "Low": 99, "Close": 103, "Volume": 10},
+            {"Date": "2026-09-26", "Open": 100, "High": 95, "Low": 99, "Close": 98, "Volume": 10},
+            {"Date": "2026-09-27", "Open": "NaN", "High": 105, "Low": 99, "Close": 103, "Volume": 10},
+        ]
+        self.assertEqual([row["Date"] for row in discard_invalid_ohlcv_rows(rows)], ["2026-09-25"])
 
     def test_shared_json_and_chunk_helpers(self):
         self.assertEqual(list(chunked([1, 2, 3], 2)), [(0, [1, 2]), (2, [3])])
