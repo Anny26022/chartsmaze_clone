@@ -4,9 +4,10 @@ The public script entrypoint delegates here so the orchestration can be tested
 without shelling out to the full live pipeline.
 """
 
+from concurrent.futures import ThreadPoolExecutor
+import csv
 from dataclasses import asdict, dataclass, field
 from datetime import datetime, timezone
-import csv
 import os
 import shutil
 import subprocess
@@ -26,10 +27,12 @@ from .artifacts import (
     OHLCV_DERIVED_FILES,
     OHLCV_DERIVED_FINAL_PATHS,
     OHLCV_DERIVED_SCRIPT,
+    OHLCV_FETCH_LANE,
     OPTIONAL_SCRIPTS,
     PHASE2_SCRIPTS,
     PHASE4_SCRIPTS,
     POST_STANDARDIZATION_SCRIPTS,
+    REQUIRED_PHASE2_SCRIPTS,
     SCANNER_HISTORY_SCRIPT,
     SCRIPT_OUTPUT_SPECS,
 )
@@ -105,6 +108,32 @@ def run_script(script_name, phase_label="", required=False):
     except Exception as e:
         print(f"  EXCEPTION {script_name}: {e}")
         return ScriptResult(False, required, error=str(e))
+
+
+def run_script_sequence(scripts):
+    """Run one ordered lane and return its results keyed by script name."""
+    return {
+        script_name: run_script(script_name, phase_label, required)
+        for script_name, phase_label, required in scripts
+    }
+
+
+def run_script_lanes(lanes):
+    """Run independent ordered lanes with bounded top-level concurrency."""
+    if not lanes:
+        return {}
+    if len(lanes) == 1:
+        name, scripts = next(iter(lanes.items()))
+        return {name: run_script_sequence(scripts)}
+
+    with ThreadPoolExecutor(max_workers=len(lanes), thread_name_prefix="edl-fetch") as executor:
+        futures = {
+            name: executor.submit(run_script_sequence, scripts)
+            for name, scripts in lanes.items()
+        }
+        # Preserve lane declaration order in reports even if completion order
+        # differs. Script output itself remains visible live in Actions logs.
+        return {name: futures[name].result() for name in lanes}
 
 
 def compress_output(include_ohlcv_derived=True):
@@ -329,30 +358,45 @@ def main(config=None):
         "reconcile_nse_equity_universe.py", "Phase 1", required=False
     )
 
-    print("\nPHASE 2: Data Enrichment (Fetching)")
-    print("-" * 40)
-    for script in PHASE2_SCRIPTS:
-        results[script] = run_script(
-            script, "Phase 2", required=script in {
-                "fetch_all_indices.py", "fetch_nse_delivery_history.py", "fetch_nse_corporate_actions.py",
-            },
-        )
-
     if config.fetch_ohlcv:
-        print("\nPHASE 2.5: OHLCV History (Smart Incremental)")
+        print("\nPHASE 2: Independent fetch lanes (Enrichment + OHLCV)")
         print("-" * 40)
-        results["import_eod2_ohlcv.py"] = run_script(
-            "import_eod2_ohlcv.py", "Phase 2.5", required=True
+        enrichment_scripts = [
+            (script, "Phase 2 / enrichment lane", script in REQUIRED_PHASE2_SCRIPTS)
+            for script in PHASE2_SCRIPTS
+            if script != "fetch_nse_delivery_data.py"
+        ]
+        ohlcv_scripts = [
+            (
+                script,
+                "Phase 2 / OHLCV lane",
+                script != "fetch_nse_delivery_data.py",
+            )
+            for script in OHLCV_FETCH_LANE
+        ]
+        lane_results = run_script_lanes(
+            {
+                "enrichment": enrichment_scripts,
+                "ohlcv": ohlcv_scripts,
+            }
         )
-        results["apply_nse_daily_ohlcv.py"] = run_script(
-            "apply_nse_daily_ohlcv.py", "Phase 2.5", required=True
-        )
-        results["fetch_all_ohlcv.py"] = run_script(
-            "fetch_all_ohlcv.py", "Phase 2.5", required=True
-        )
+        results.update(lane_results["enrichment"])
+        results.update(lane_results["ohlcv"])
+
+        print("\nPHASE 2.5: Index OHLCV (after index-list fetch)")
+        print("-" * 40)
         results["fetch_indices_ohlcv.py"] = run_script(
             "fetch_indices_ohlcv.py", "Phase 2.5", required=True
         )
+    else:
+        print("\nPHASE 2: Data Enrichment (Fetching)")
+        print("-" * 40)
+        for script in PHASE2_SCRIPTS:
+            results[script] = run_script(
+                script,
+                "Phase 2",
+                required=script in REQUIRED_PHASE2_SCRIPTS,
+            )
 
     print("\nPHASE 3: Base Analysis (Building Master JSON)")
     print("-" * 40)

@@ -94,6 +94,25 @@ PHASE2_SCRIPTS = [
     "fetch_all_indices.py",
 ]
 
+REQUIRED_PHASE2_SCRIPTS = frozenset(
+    {
+        "fetch_all_indices.py",
+        "fetch_nse_delivery_history.py",
+        "fetch_nse_corporate_actions.py",
+    }
+)
+
+# The latest official NSE session must be applied before the incremental Dhan
+# backfill.  Keeping this chain in one lane prevents concurrent writers from
+# touching the OHLCV cache while independent enrichment fetches run alongside
+# it.
+OHLCV_FETCH_LANE = (
+    "import_eod2_ohlcv.py",
+    "fetch_nse_delivery_data.py",
+    "apply_nse_daily_ohlcv.py",
+    "fetch_all_ohlcv.py",
+)
+
 PHASE4_SCRIPTS = [
     "advanced_metrics_processor.py",
     "process_earnings_performance.py",
