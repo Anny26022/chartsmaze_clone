@@ -8,6 +8,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from ohlcv_utils import (
     chunk_history_range,
+    discard_invalid_ohlcv_rows,
     discard_weekend_rows,
     merge_rows_by_date,
     is_nse_cash_session,
@@ -98,7 +99,11 @@ def fetch_single_stock(sym, details, live_snapshot=None, official_nse_session=No
     # and a stable EMA-200 warm-up.
     current_end = int(time.time())
     desired_start = current_end - (HISTORY_CALENDAR_DAYS * 86400)
-    existing_rows = read_ohlcv_csv(output_path)
+    original_rows = read_ohlcv_csv(output_path)
+    # Dhan occasionally returns a malformed historical candle.  Remove it
+    # before deciding whether the cache is ready, then persist the repaired
+    # cache even if no new provider row is needed today.
+    existing_rows = discard_invalid_ohlcv_rows(discard_weekend_rows(original_rows))
 
     # 1. The official full bhavcopy supplies the closed session for every
     # matching stock.  Dhan is therefore only a fallback for a missing/stale
@@ -131,9 +136,9 @@ def fetch_single_stock(sym, details, live_snapshot=None, official_nse_session=No
 
     # 3. Merge, deduplicate and repair old weekend snapshot rows even when
     # the history provider has no new trading-day candle to contribute.
-    final_rows = merge_rows_by_date(discard_weekend_rows(existing_rows + new_rows))
+    final_rows = merge_rows_by_date(discard_invalid_ohlcv_rows(existing_rows + new_rows))
 
-    if not final_rows or final_rows == existing_rows:
+    if not final_rows or final_rows == original_rows:
         return "uptodate"
 
     write_ohlcv_csv(output_path, final_rows)
