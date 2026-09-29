@@ -54,11 +54,14 @@ git clone --depth 1 https://github.com/BennyThadikaran/eod2_data.git ~/data/eod2
 EDL_EOD2_DATA_DIR=~/data/eod2_data python3 run_full_pipeline.py
 ```
 
-The importer joins by ISIN, not ticker filename. It overlays EOD2's adjusted
-history, retains local candles newer than EOD2's snapshot, and writes the
-existing `ohlcv_data/*.csv` cache format. No Parquet layer is added because the
-scanner already consumes this CSV cache. Official NSE delivery-history files
-remain the source for delivery-percent screens.
+The importer joins renamed segments by ISIN, not ticker filename. When EOD2's
+current symbol-to-ISIN map also verifies the security, it imports that complete
+symbol file instead of clipping it at the current ISIN's start date; renamed
+ISIN segments then take precedence on overlapping dates. It overlays EOD2's
+adjusted history, retains local candles newer than EOD2's snapshot, and writes
+the existing `ohlcv_data/*.csv` cache format. No Parquet layer is added because
+the scanner already consumes this CSV cache. Official NSE delivery-history
+files remain the source for delivery-percent screens.
 
 The canonical field contract intentionally follows the underlying exchange
 data: EOD2 supplies split/bonus-adjusted OHLC while `Volume` remains the actual

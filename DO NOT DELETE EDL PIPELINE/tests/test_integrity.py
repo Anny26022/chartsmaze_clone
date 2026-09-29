@@ -75,6 +75,64 @@ class IntegrityTests(unittest.TestCase):
             self.assertEqual(report["delivery_rows"], 2)
             self.assertEqual(delivery[0]["delivery_percent"], "70.0")
 
+    def test_eod2_bootstrap_imports_verified_history_before_current_isin(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "eod2_data"
+            daily = source / "daily"
+            daily.mkdir(parents=True)
+            (source / "isin_symbol_map.json").write_text(json.dumps({
+                "sym2isin": {"NEWNAME": "INE000"},
+                "isin2hist": {"INE000": [
+                    {"symbol": "OLDNAME", "from_date": "2020-01-01", "to_date": "2024-12-31"},
+                    {"symbol": "NEWNAME", "from_date": "2025-01-01", "to_date": "2026-12-31"},
+                ]},
+            }))
+            (daily / "oldname.csv").write_text(
+                "Date,Open,High,Low,Close,Volume\n"
+                "2020-01-02,20,22,19,21,200\n"
+            )
+            (daily / "newname.csv").write_text(
+                "Date,Open,High,Low,Close,Volume\n"
+                "2010-01-04,10,12,9,11,100\n"
+                "2020-01-02,90,92,89,91,900\n"
+                "2025-01-02,30,32,29,31,300\n"
+            )
+            output = root / "ohlcv_data"
+            report = import_eod2_ohlcv.import_eod2_ohlcv(
+                source, [{"Symbol": "NEWNAME", "ISIN": "INE000"}], output,
+            )
+            rows = import_eod2_ohlcv.read_ohlcv_csv(output / "NEWNAME.csv")
+            self.assertEqual([row["Date"] for row in rows], ["2010-01-04", "2020-01-02", "2025-01-02"])
+            self.assertEqual(rows[1]["Close"], "21.0")
+            self.assertEqual(report["verified_symbol_history_symbols"], 1)
+            self.assertEqual(report["verified_symbol_history_additional_rows"], 1)
+
+    def test_eod2_bootstrap_does_not_trust_unverified_symbol_prefix(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "eod2_data"
+            daily = source / "daily"
+            daily.mkdir(parents=True)
+            (source / "isin_symbol_map.json").write_text(json.dumps({
+                "sym2isin": {"CURRENT": "DIFFERENT_ISIN"},
+                "isin2hist": {"INE000": [
+                    {"symbol": "CURRENT", "from_date": "2025-01-01", "to_date": "2026-12-31"},
+                ]},
+            }))
+            (daily / "current.csv").write_text(
+                "Date,Open,High,Low,Close,Volume\n"
+                "2010-01-04,10,12,9,11,100\n"
+                "2025-01-02,30,32,29,31,300\n"
+            )
+            output = root / "ohlcv_data"
+            report = import_eod2_ohlcv.import_eod2_ohlcv(
+                source, [{"Symbol": "CURRENT", "ISIN": "INE000"}], output,
+            )
+            rows = import_eod2_ohlcv.read_ohlcv_csv(output / "CURRENT.csv")
+            self.assertEqual([row["Date"] for row in rows], ["2025-01-02"])
+            self.assertEqual(report["verified_symbol_history_additional_rows"], 0)
+
     def test_official_nse_close_overrides_only_its_session(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

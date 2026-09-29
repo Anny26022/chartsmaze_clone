@@ -93,6 +93,20 @@ def eod2_rows_for_isin(data_dir, history, isin):
     return merge_rows_by_date(rows)
 
 
+def eod2_rows_for_security(data_dir, mapping, symbol, isin):
+    """Return verified current-symbol history plus any renamed ISIN segments."""
+    history = mapping.get("isin2hist", {})
+    mapped = eod2_rows_for_isin(data_dir, history, isin)
+    if mapping.get("sym2isin", {}).get(symbol) != isin:
+        return mapped, 0
+
+    current_file = data_dir / "daily" / f"{symbol.lower()}.csv"
+    current = source_rows(current_file, date.min, date.max)
+    mapped_dates = {row["Date"] for row in mapped}
+    additional_rows = sum(row["Date"] not in mapped_dates for row in current)
+    return merge_rows_by_date([*current, *mapped]), additional_rows
+
+
 def write_delivery_csv(path, rows):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
@@ -121,7 +135,8 @@ def import_eod2_ohlcv(data_dir, master, output_dir, delivery_output_dir=None):
     """Overlay adjusted EOD2 history and retain any newer local provider rows."""
     mapping = json.loads((data_dir / "isin_symbol_map.json").read_text(encoding="utf-8"))
     history = mapping.get("isin2hist", {}) if isinstance(mapping, dict) else {}
-    if not isinstance(history, dict):
+    symbols = mapping.get("sym2isin", {}) if isinstance(mapping, dict) else {}
+    if not isinstance(history, dict) or not isinstance(symbols, dict):
         raise ValueError("EOD2 ISIN history map is malformed")
 
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -134,6 +149,8 @@ def import_eod2_ohlcv(data_dir, master, output_dir, delivery_output_dir=None):
         "master_symbols": len(master),
         "imported_symbols": 0,
         "imported_rows": 0,
+        "verified_symbol_history_symbols": 0,
+        "verified_symbol_history_additional_rows": 0,
         "unmapped_isins": 0,
         "empty_or_invalid_sources": 0,
         "delivery_symbols": 0,
@@ -148,10 +165,10 @@ def import_eod2_ohlcv(data_dir, master, output_dir, delivery_output_dir=None):
         symbol, isin = item.get("Symbol"), item.get("ISIN")
         if not symbol or not isin:
             continue
-        if isin not in history:
+        if isin not in history and symbols.get(symbol) != isin:
             report["unmapped_isins"] += 1
             continue
-        imported = eod2_rows_for_isin(data_dir, history, isin)
+        imported, additional_rows = eod2_rows_for_security(data_dir, mapping, symbol, isin)
         if not imported:
             report["empty_or_invalid_sources"] += 1
             continue
@@ -171,6 +188,9 @@ def import_eod2_ohlcv(data_dir, master, output_dir, delivery_output_dir=None):
             report["delivery_rows"] += len(delivery)
         report["imported_symbols"] += 1
         report["imported_rows"] += len(imported)
+        if additional_rows:
+            report["verified_symbol_history_symbols"] += 1
+            report["verified_symbol_history_additional_rows"] += additional_rows
     return report
 
 
