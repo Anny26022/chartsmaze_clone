@@ -263,14 +263,21 @@ class IntegrityTests(unittest.TestCase):
         files={
             'all_stocks_fundamental_analysis.json.gz':[dict(bar, symbol='ABC', as_of_date='2026-09-24', atr14=None)],
             'master_isin_map.json':[{'Symbol':'ABC'}],
-            'all_indices_list.json':[{'Symbol':'NIFTY'}],
+            'all_indices_list.json':[{'Symbol':'NIFTY'}, {'Symbol':'NIFTY 500'}],
             'sector_analytics.json.gz':{'sectors':[], 'industries':[]},
-            'all_indices_history_v2.json.gz':{'generated_at':stamp,'indices':[{'symbol':'NIFTY','records':[bar]}]},
+            'all_indices_history_v2.json.gz':{'generated_at':stamp,'indices':[
+                {'symbol':'NIFTY','records':[bar]},
+                {'symbol':'NIFTY 500','records':[bar]},
+            ]},
             'market_breadth_v2.json.gz':{'generated_at':stamp,'records':[{'date':'2026-09-24'}]},
             'breadth_universe_snapshot.json.gz':{'generated_at':stamp},
             'corporate_action_ledger.json.gz':{'source':'test','price_adjusted':False,'records':[]},
             'nse_fno_ban.json.gz':{'source':'test','available':False,'trade_date':None,'symbols':[]},
-            'rs_rating_daily.json.gz':{'source':'test','as_of_date':'2026-09-24','ratings':{}},
+            'rs_rating_daily.json.gz':{
+                'source':'test','as_of_date':'2026-09-24',
+                'methodology':{'benchmark':'NIFTY 500'},
+                'ratings':{'ABC':{'one_month':1,'three_month':1,'six_month':1,'twelve_month':1,'front_weighted':1}},
+            },
         }
         for name, data in files.items():
             self.write(root, name, data)
@@ -326,6 +333,27 @@ class IntegrityTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);self.fixture(root)
             self.assertTrue(inspect_publication(root,today=date(2026,9,24),expected_session='2026-09-23')['errors'])
+
+    def test_rs_ratings_require_current_nifty500_metadata_and_values(self):
+        cases = {
+            'stale_nifty_500': 'RS ratings and NIFTY 500 sessions differ from the publication session',
+            'invalid_methodology': 'RS ratings methodology is missing or invalid',
+            'empty_ratings': 'RS ratings are empty or invalid',
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for scenario, expected_error in cases.items():
+                with self.subTest(scenario=scenario):
+                    data = self.fixture(root)
+                    if scenario == 'stale_nifty_500':
+                        data['all_indices_history_v2.json.gz']['indices'][1]['records'][0]['date'] = '2026-09-23'
+                    elif scenario == 'invalid_methodology':
+                        data['rs_rating_daily.json.gz']['methodology'] = []
+                    else:
+                        data['rs_rating_daily.json.gz']['ratings'] = {}
+                    for name, value in data.items():
+                        self.write(root, name, value)
+                    self.assertIn(expected_error, inspect_publication(root, today=date(2026, 9, 24))['errors'])
 
     def test_failed_promotion_restores_all_previous_files(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -408,6 +436,7 @@ class IntegrityTests(unittest.TestCase):
             frame=pd.DataFrame(bars)
             frame.to_csv(stocks_dir/'ABC.csv',index=False)
             frame.to_csv(indices_dir/'NIFTY.csv',index=False)
+            frame.to_csv(indices_dir/'NIFTY_500.csv',index=False)
             last=bars[-1]
             master=[{'Symbol':'ABC','Name':'ABC Ltd','ISIN':'INE000000001','Sid':1}]
             self.write(root,'master_isin_map.json',master)
@@ -445,7 +474,10 @@ class IntegrityTests(unittest.TestCase):
                 'source':'https://www.nseindia.com/api/corporates-corporateActions',
                 'range':{'from':'2018-01-01','to':str(today)},'revision':'test','actions':[],
             })
-            self.write(root,'all_indices_list.json',[{'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'}])
+            self.write(root,'all_indices_list.json',[
+                {'Symbol':'NIFTY','IndexID':13,'IndexName':'Nifty 50'},
+                {'Symbol':'NIFTY 500','IndexID':19,'IndexName':'NIFTY 500'},
+            ])
             self.write(root,'nse_fno_ban.json',{'source':'test','available':False,'trade_date':None,'symbols':[]})
             (root/'filing_history_data').mkdir()
             self.write(root/'filing_history_data','filing_history.json',{
@@ -467,6 +499,12 @@ class IntegrityTests(unittest.TestCase):
                          'build_ipo_screener_artifact.py'):
                 result=subprocess.run([sys.executable,str(ROOT/name)],cwd=root,env=env,capture_output=True,text=True,timeout=30)
                 self.assertEqual(result.returncode,0,name+'\n'+result.stdout+'\n'+result.stderr)
+            rs_output = json.loads((root / 'rs_rating_daily.json').read_text())
+            self.assertIn('ABC', rs_output['ratings'])
+            self.assertEqual(
+                set(rs_output['ratings']['ABC']),
+                {'one_month', 'three_month', 'six_month', 'twelve_month', 'front_weighted'},
+            )
             for raw,compressed in FILES_TO_COMPRESS.items():
                 (root/compressed).write_bytes(gzip.compress((root/raw).read_bytes()))
             report=inspect_publication(root,today=today,expected_session=str(today))

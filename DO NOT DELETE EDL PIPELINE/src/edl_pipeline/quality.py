@@ -107,8 +107,26 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
             errors.append("v2 outputs were not generated together today")
         if breadth["records"][-1]["date"] != session.isoformat():
             errors.append("breadth and benchmark sessions differ")
-        if rs_ratings.get("as_of_date") != session.isoformat():
-            errors.append("RS ratings and benchmark sessions differ")
+        rs_methodology = rs_ratings.get("methodology")
+        rs_benchmark_name = "NIFTY 500"
+        if not isinstance(rs_methodology, dict):
+            errors.append("RS ratings methodology is missing or invalid")
+        elif rs_methodology.get("benchmark") != rs_benchmark_name:
+            errors.append(f"RS ratings benchmark must be {rs_benchmark_name}")
+        ratings = rs_ratings.get("ratings")
+        if not isinstance(ratings, dict) or not ratings:
+            errors.append("RS ratings are empty or invalid")
+        rs_benchmark = next(
+            (item for item in indices["indices"] if str(item.get("symbol")) == rs_benchmark_name),
+            None,
+        )
+        if not rs_benchmark or not rs_benchmark.get("records"):
+            errors.append(f"RS benchmark history unavailable: {rs_benchmark_name}")
+        elif (
+            rs_benchmark["records"][-1]["date"] != session.isoformat()
+            or rs_ratings.get("as_of_date") != session.isoformat()
+        ):
+            errors.append("RS ratings and NIFTY 500 sessions differ from the publication session")
         previous_session = (
             date.fromisoformat(benchmark["records"][-2]["date"])
             if len(benchmark["records"]) > 1 else None
@@ -206,7 +224,8 @@ def inspect_publication(root, today=None, expected_session=None, max_age_days=No
                             "symbols": len(fno_ban.get("symbols", []))},
                 "rs_ratings": {"as_of_date": rs_ratings.get("as_of_date"),
                                "universe_count": rs_ratings.get("liquid_universe_count"),
-                               "ratings": len(rs_ratings.get("ratings", {}))},
+                               "ratings": len(ratings) if isinstance(ratings, dict) else 0,
+                               "methodology": rs_ratings.get("methodology")},
                 "delivery_history": delivery_history,
                 "missing_field_counts": dict(Counter(k for row in availability for k in row["missing_fields"])),
                 "symbols": availability, "indices": index_availability, "errors": errors}
