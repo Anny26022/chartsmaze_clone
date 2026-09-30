@@ -147,10 +147,15 @@ snapshot, rather than optional files left in a local worktree.
 - `relative_strength` and `rs_new_high` align stock and benchmark sessions
   before calculating their relative-strength line. They never compare unequal
   calendar windows.
-- `rs_rating` ranks one-, three-, and twelve-month excess returns versus
-  NIFTY across the breadth-eligible universe. Its artifact must have the exact
-  same `as_of_date` as the screen, otherwise it is `unavailable`; a current
-  rank is never reused for an historical screen.
+- `rs_rating` is a 1–99 cross-sectional percentile across the breadth-eligible
+  universe. It publishes Nifty 500-relative `one_month`, `three_month`,
+  `six_month`, and `twelve_month` ratings for 21, 63, 126, and 252 sessions,
+  respectively. It also publishes `front_weighted`, combining those same
+  relative price ratios with weights of 40%, 20%, 20%, and 20%. Only symbols
+  with at least 260 sessions aligned to the current Nifty 500 session enter
+  the ranking; missing a rating means unavailable history, never a low score.
+  Its artifact must have the exact same `as_of_date` as the screen, otherwise
+  it is `unavailable`; a current rank is never reused for an historical screen.
 - Snapshot fundamentals use the canonical stock artifact. PBT is retained
   alongside revenue, net profit and EPS when the upstream quarterly response
   supplies it. The selected report type cannot be inferred from the current

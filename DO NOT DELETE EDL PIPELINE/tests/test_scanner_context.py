@@ -114,9 +114,9 @@ class ScannerContextTests(unittest.TestCase):
 
     def test_stale_rs_rating_and_unavailable_ban_fail_closed(self):
         frame = history()
-        base = {"stock": {"symbol": "TEST"}, "rs_ratings": {"TEST": {"three_month": 95}}, "rs_ratings_as_of": "2026-01-01", "fno_ban_available": False}
+        base = {"stock": {"symbol": "TEST"}, "rs_ratings": {"TEST": {"front_weighted": 95}}, "rs_ratings_as_of": "2026-01-01", "fno_ban_available": False}
         result = evaluate_history(frame, [
-            {"kind": "RS_RATING", "params": {"window": "three_month", "comparison": "ABOVE", "value": 80}},
+            {"kind": "RS_RATING", "params": {"window": "front_weighted", "comparison": "ABOVE", "value": 80}},
             {"kind": "FNO_BAN", "params": {"mode": "EXCLUDE"}},
         ], context=base)
         self.assertEqual(result["status"], "unavailable")
@@ -124,3 +124,44 @@ class ScannerContextTests(unittest.TestCase):
             {item["details"]["reason"] for item in result["conditions"]},
             {"rs_rating_not_aligned_to_screen_date", "fno_ban_snapshot_unavailable"},
         )
+
+    def test_front_weighted_rs_rating_is_the_default_rating_window(self):
+        frame = history()
+        result = evaluate_history(frame, [{
+            "kind": "RS_RATING",
+            "params": {"comparison": "ABOVE", "value": 90},
+        }], as_of_date=frame["Date"].iloc[-1].date(), context={
+            "stock": {"symbol": "TEST"},
+            "rs_ratings": {"TEST": {"front_weighted": 91, "one_month": 10}},
+            "rs_ratings_as_of": frame["Date"].iloc[-1].date().isoformat(),
+        })
+        self.assertEqual(result["status"], "match")
+        self.assertEqual(result["conditions"][0]["details"]["window"], "front_weighted")
+
+    def test_one_month_rs_rating_is_available_explicitly(self):
+        frame = history()
+        result = evaluate_history(frame, [{
+            "kind": "RS_RATING",
+            "params": {"window": "one_month", "comparison": "ABOVE", "value": 90},
+        }], as_of_date=frame["Date"].iloc[-1].date(), context={
+            "stock": {"symbol": "TEST"},
+            "rs_ratings": {"TEST": {"front_weighted": 10, "one_month": 91}},
+            "rs_ratings_as_of": frame["Date"].iloc[-1].date().isoformat(),
+        })
+        self.assertEqual(result["status"], "match")
+        self.assertEqual(result["conditions"][0]["details"]["window"], "one_month")
+
+    def test_each_relative_strength_horizon_is_available_explicitly(self):
+        frame = history()
+        for window in ("three_month", "six_month", "twelve_month"):
+            with self.subTest(window=window):
+                result = evaluate_history(frame, [{
+                    "kind": "RS_RATING",
+                    "params": {"window": window, "comparison": "ABOVE", "value": 90},
+                }], as_of_date=frame["Date"].iloc[-1].date(), context={
+                    "stock": {"symbol": "TEST"},
+                    "rs_ratings": {"TEST": {window: 91}},
+                    "rs_ratings_as_of": frame["Date"].iloc[-1].date().isoformat(),
+                })
+                self.assertEqual(result["status"], "match")
+                self.assertEqual(result["conditions"][0]["details"]["window"], window)

@@ -12,7 +12,7 @@ import pandas as pd
 CONTEXT_CONDITION_REGISTRY = {
     "relative_strength": {"inputs": {"benchmark": "string", "window": "integer", "comparison": "comparison", "value": "number"}, "definition": "Stock return less benchmark return over the same sessions, in percentage points."},
     "rs_new_high": {"inputs": {"benchmark": "string", "lookback_days": "integer", "minimum_price_below_high_percent": "number"}, "definition": "Relative-strength line is at its lookback high while price remains below its own high."},
-    "rs_rating": {"inputs": {"window": "one_month|three_month|twelve_month", "comparison": "comparison", "value": "number"}, "definition": "Percentile rank of relative strength across the configured liquid universe."},
+    "rs_rating": {"inputs": {"window": "one_month | three_month | six_month | twelve_month | front_weighted", "comparison": "comparison", "value": "number"}, "definition": "Cross-sectional 1–99 Nifty 500 relative-strength percentile for a 21/63/126/252-session horizon, or its 40/20/20/20 front-weighted composite."},
     "market_cap": {"inputs": {"comparison": "comparison", "value_crore": "number"}, "definition": "Current full market capitalisation in crore."},
     "free_float_market_cap": {"inputs": {"comparison": "comparison", "value_crore": "number"}, "definition": "Current market capitalisation multiplied by free-float percentage."},
     "pe_ratio": {"inputs": {"comparison": "comparison", "value": "number"}, "definition": "Current positive trailing P/E."},
@@ -236,11 +236,12 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         rating_as_of = pd.to_datetime(context.get("rs_ratings_as_of"), errors="coerce")
         if as_of_date is None or pd.isna(rating_as_of) or rating_as_of.date() != as_of_date:
             return unavailable(condition, "rs_rating_not_aligned_to_screen_date")
-        rating = _value((context.get("rs_ratings") or {}).get(stock.get("symbol"), {}), str(spec.get("window", "twelve_month")).lower())
+        window = str(spec.get("window") or "front_weighted").lower()
+        rating = _value((context.get("rs_ratings") or {}).get(stock.get("symbol"), {}), window)
         if rating is None:
             return unavailable(condition, "rs_rating_history_unavailable")
         value = float(rating); target = float(spec["value"])
-        return result(condition, comparison(value, spec["comparison"], target), value, window=spec.get("window"), comparison=spec["comparison"], target=target)
+        return result(condition, comparison(value, spec["comparison"], target), value, window=window, comparison=spec["comparison"], target=target)
 
     if condition in {"market_cap", "free_float_market_cap", "pe_ratio"}:
         if condition in {"market_cap", "free_float_market_cap"}:
