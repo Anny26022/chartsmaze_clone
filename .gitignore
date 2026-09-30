@@ -36,6 +36,10 @@ DO NOT DELETE EDL PIPELINE/filing_history.json.gz
 .venv/
 venv/
 
+# Frontend dependencies and build output
+frontend/node_modules/
+frontend/dist/
+
 # macOS / Python
 .DS_Store
 __pycache__/
