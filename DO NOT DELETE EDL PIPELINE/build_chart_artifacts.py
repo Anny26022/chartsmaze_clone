@@ -104,6 +104,11 @@ def _highest(rows):
     return max(rows, key=lambda row: (row["volume"], row["date"])) if rows else None
 
 
+def _lowest(rows):
+    # Equal volume selects the latest session.
+    return min(rows, key=lambda row: (row["volume"], -int(row["date"].replace("-", "")))) if rows else None
+
+
 def _volume_events(candles):
     monthly, quarterly, yearly = defaultdict(list), defaultdict(list), defaultdict(list)
     for candle in candles:
@@ -115,10 +120,12 @@ def _volume_events(candles):
     event = lambda candle: {"date": candle["date"], "volume": candle["volume"]} if candle else None
     return {
         "highestEver": event(_highest(candles)),
+        "lowestEver": event(_lowest(candles)),
+        "lowestQuarterly": [event(_lowest(quarterly[key])) for key in sorted(quarterly)[-QUARTERLY_EVENT_LIMIT:]],
         "monthly": [event(_highest(monthly[key])) for key in sorted(monthly)[-MONTHLY_EVENT_LIMIT:]],
         "quarterly": [event(_highest(quarterly[key])) for key in sorted(quarterly)[-QUARTERLY_EVENT_LIMIT:]],
         "yearly": [event(_highest(yearly[key])) for key in sorted(yearly)[-YEARLY_EVENT_LIMIT:]],
-        "retention": {"highestEver": "all available history", "monthlyMonths": MONTHLY_EVENT_LIMIT,
+        "retention": {"highestEver": "all available history", "lowestEver": "all available history", "monthlyMonths": MONTHLY_EVENT_LIMIT,
                       "quarterlyQuarters": QUARTERLY_EVENT_LIMIT, "yearlyYears": YEARLY_EVENT_LIMIT},
     }
 
@@ -198,7 +205,7 @@ def main() -> int:
         revision.update(path.read_bytes())
     save_json(temporary / "index.json", {
         "schemaVersion": 1, "revision": revision.hexdigest(), "asOfDate": as_of, "symbols": count,
-        "retention": {"highestEver": "all available history", "quarterlyQuarters": QUARTERLY_EVENT_LIMIT},
+        "retention": {"highestEver": "all available history", "lowestEver": "all available history", "quarterlyQuarters": QUARTERLY_EVENT_LIMIT},
     })
     shutil.rmtree(output, ignore_errors=True)
     temporary.replace(output)

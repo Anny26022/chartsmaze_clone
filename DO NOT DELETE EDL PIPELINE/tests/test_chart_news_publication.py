@@ -109,3 +109,23 @@ class PromotionRecoveryTests(unittest.TestCase):
             with mock.patch.object(publication.shutil,'copytree',side_effect=OSError('disk full')):
                 with self.assertRaises(OSError): publication.promote_directory(stage,destination,'chart_artifacts')
             self.assertEqual((destination/'chart_artifacts/index.json').read_text(),'old')
+
+
+class LowestVolumeTests(unittest.TestCase):
+    def test_quarters_ties_zero_and_empty_history(self):
+        rows=[{'date':'2026-03-30','volume':10},{'date':'2026-03-31','volume':10},
+              {'date':'2026-04-01','volume':0}]
+        result=build_chart_artifacts._volume_events(rows)
+        self.assertEqual(result['lowestEver'],rows[-1])
+        self.assertEqual(result['lowestQuarterly'],rows[1:])
+        empty=build_chart_artifacts._volume_events([])
+        self.assertIsNone(empty['lowestEver'])
+        self.assertEqual(empty['lowestQuarterly'],[])
+
+    def test_retention_preserves_all_history_lowest(self):
+        rows=[{'date':f'{year}-{month:02d}-01','volume':year-2000}
+              for year in range(2000,2007) for month in (1,4,7,10)]
+        result=build_chart_artifacts._volume_events(rows)
+        self.assertEqual(len(result['lowestQuarterly']),20)
+        self.assertEqual(result['lowestQuarterly'][0]['date'],'2002-01-01')
+        self.assertEqual(result['lowestEver'],{'date':'2000-10-01','volume':0})

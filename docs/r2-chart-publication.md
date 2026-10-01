@@ -61,3 +61,11 @@ the rule does not protect the last current release through an indefinite outage.
 
 At 47 MB per full revision, the rolling daily storage is approximately 4.2 GB,
 plus approximately 0.56 GB for each year of month-end releases (before corrections).
+
+## Lowest-volume records
+
+Charts store `volumeEvents.lowestEver` (LVE, all available candles) and
+`volumeEvents.lowestQuarterly` (LVQ, latest 20 calendar quarters, including the
+current partial quarter). Records contain date and volume. Ties select the
+latest session; zero-volume candles count when present. These fields update
+through the existing daily chart generation process.
