@@ -12,10 +12,13 @@ Every result is tied to one published trading session and one immutable revision
 - [Technical architecture](#technical-architecture)
 - [How people use this repository](#how-people-use-this-repository)
 - [Every scanner form and filter family](#every-scanner-form-and-filter-family)
+- [Calculation conventions and formulas](#calculation-conventions-and-formulas)
 - [What happens at runtime](#what-happens-at-runtime)
 - [How every published file is generated](#how-every-published-file-is-generated)
 - [Storage, caching, and R2](#storage-caching-and-r2)
 - [Local development](#local-development)
+- [Configuration and production deployment](#configuration-and-production-deployment)
+- [Recovery and troubleshooting](#recovery-and-troubleshooting)
 - [Automated refreshes](#automated-refreshes)
 - [Testing, data quality, and limits](#testing-data-quality-and-limits)
 
@@ -36,13 +39,13 @@ Nexus is deliberately split into a data plane and an interaction plane.
 
 | Layer | Technology | Responsibility |
 | --- | --- | --- |
-| Browser UI | React 19, TypeScript, Vite, Tailwind, TanStack Query | Renders the screener, tables, forms, saved screens, and charts. |
+| Browser UI | React 19, TypeScript, Vite, Tailwind, TanStack Query | Renders the screener, IPO catalogue, tables, and forms; restores workspace preferences. |
 | Browser screen engine | Module Web Worker, TypeScript | Decompresses immutable snapshots, evaluates supported rules, sorts, and paginates without blocking the UI. |
 | Condition contract | Typed TypeScript catalogue and Python registries | Keeps field names, inputs, presets, labels, and availability rules aligned across the UI and evaluator. |
 | Python evaluator | Python, pandas, NumPy | Evaluates historical OHLCV, multi-session, delivery, pattern, earnings, and cross-series rules. |
 | Data pipeline | Python, requests, BeautifulSoup, CSV/JSON/Gzip | Fetches, standardizes, validates, and promotes market artifacts. |
 | Release store | Git-hosted immutable JSON and gzip files | Publishes compact scanner releases and a small active-release pointer. |
-| Chart store | Cloudflare R2 | Delivers one compressed chart payload only when a user opens that symbol. |
+| Chart store | Cloudflare R2 | Supplies per-symbol compressed payloads through the chart client; an integrated chart viewer is not yet wired into the UI. |
 | Automation | GitHub Actions | Runs daily and weekly refreshes, tests, publication, and generated-data commits. |
 
 ### Frontend modules
@@ -60,8 +63,8 @@ Nexus is deliberately split into a data plane and an interaction plane.
 | `frontend/src/api/snapshotEngine.ts` | Loads, validates, caches, filters, sorts, and pages a snapshot. |
 | `frontend/src/api/snapshot.worker.ts` | Keeps snapshot computation off the UI thread. |
 | `frontend/src/api/snapshotScreen.ts` | Compiles browser-supported conditions and caches result sets across pages. |
-| `frontend/src/api/screenerApi.ts` | Typed HTTP client for catalogue, screen, IPO, and symbol endpoints. |
-| `frontend/src/data/` | Published condition and preset catalogues used to render forms. |
+| `frontend/src/api/screenerApi.ts` | Typed facade selecting the real or mock adapter; methods do not all correspond to HTTP endpoints. |
+| `frontend/src/data/` | Condition and preset catalogues compiled into the frontend build. |
 
 ### Pipeline modules
 
@@ -84,11 +87,11 @@ Nexus is deliberately split into a data plane and an interaction plane.
 
 Use the running frontend at `localhost:8080` or a deployed build.
 
-1. Select Mainboard, Nifty 500, or a custom symbol list.
+1. Select Mainboard or another available indexed universe such as Nifty 500.
 2. Start from a preset such as Persistent Momentum, then tune its parameters; or build a rule from scratch.
 3. Choose `Match all` when every rule must pass, or `Match any` for an OR screen.
-4. Run the screen, inspect unavailable diagnostics, sort the table, and open only the charts that matter.
-5. Save the screen locally for the next session.
+4. Run the screen, sort the table, and copy symbols from the displayed result page.
+5. Reopen the browser to restore the current workspace preferences.
 
 This workflow is for idea generation and repeatable research. It does not execute trades or provide a portfolio recommendation.
 
@@ -130,24 +133,24 @@ After the run, inspect `data_quality.json`, `pipeline_report.json`, and the gene
 
 ### 6. Data platform operator: run charts at scale
 
-Set the R2 environment variables, enable `EDL_CHART_STORAGE=r2`, and run the normal pipeline. The publisher uploads immutable per-symbol files, verifies them, and updates the release only after all required publication work completes. The browser then fetches a single chart at a time from the release URL template.
+Set the R2 environment variables, enable `EDL_CHART_STORAGE=r2`, and run the normal pipeline. The publisher uploads immutable per-symbol files, verifies them, and updates the release only after all required publication work completes. An application consuming `screenerApi.getChart` can fetch a single chart at a time from the release URL template. The current table UI does not call this method.
 
 ## What users can do
 
 ### Mainboard screener
 
-The mainboard workspace has four ways to begin a screen:
+The mainboard workspace exposes a visual condition builder and built-in scans. The repository also contains symbol-list and NQL engine capabilities; their presence in code does not imply a separate navigation tab or query editor in the current app.
 
 1. Choose a built-in scan.
 2. Add custom conditions through the visual filter builder.
-3. Write an NQL query, which is compiled into the same expression tree.
-4. Apply conditions to a pasted custom symbol list.
+3. Developers can compile an NQL query into the same expression tree through the Python query module.
+4. Developers can use the symbol-list component and adapter to apply conditions to a custom symbol list.
 
-Users choose a universe, build nested `AND` or `OR` rules, run the screen, sort the common results table, paginate, copy symbols, save a screen locally, and open a chart. The standard universes are Mainboard, Nifty 50, Nifty 500, MidSmall 400, and a validated custom symbol list.
+Users choose a universe, combine conditions with `AND` or `OR`, run the screen, sort the common results table, paginate, and copy symbols. The evaluator supports nested expression trees. Universe definitions include Mainboard, Nifty 50, Nifty 500, MidSmall 400, and custom symbols; availability depends on the released membership data.
 
 ### IPO catalogue
 
-The IPO view uses the same compact table system: search, filters, sorting, page controls, and a listing window. It is an IPO catalogue first; filters are applied to the released IPO dataset and current snapshot fields. Listing date, issue/listing prices, current price, return since listing, turnover, market cap, delivery, sector, and industry appear only when the published source supplies them.
+The IPO view uses compact search, filters, sorting, page controls, and a listing window. Filters use the released IPO dataset and current snapshot fields. Its table displays symbol/company, listing date, current price, daily turnover, market cap, delivery percentage, sector, and industry. Issue price, listing price, and return since listing are not currently mapped into this table.
 
 ### Symbol screener
 
@@ -155,7 +158,19 @@ The symbol form accepts pasted tickers, normalizes them, reports invalid symbols
 
 ### Saved preferences
 
-Saved screens and UI preferences are browser-local state. They are not uploaded to the market-data pipeline and do not change the public scanner release.
+The active tab, screener universe, conditions, match mode, and sort order are stored in browser `localStorage`. The IPO period, search, conditions, match mode, and sort order have separate keys under `nexus-scanner.*.v1`. This restores the current workspace; it is not a library of named saved screens. Clearing site storage removes these preferences. There is no account sync.
+
+### Implemented features and integration boundaries
+
+| Capability | Current implementation |
+| --- | --- |
+| Screening and IPO tables | Implemented in the two app tabs. |
+| Copy TradingView symbols | Copies `NSE:<symbol>` values from the displayed page, not the entire matching universe. |
+| Watchlist button | Displays a confirmation toast; no watchlist persistence or external integration exists. |
+| Chart data | Generated payloads and a revision-validated `getChart` client exist; no integrated chart viewer exists. |
+| Named saved screens | Not implemented; current workspace preferences persist automatically. |
+| Explain API | The real adapter currently returns a placeholder valid response; it is not authoritative server validation. |
+| Symbol-list component | Exists in source; top-level app navigation currently contains only screener and IPO. |
 
 ## Every scanner form and filter family
 
@@ -232,6 +247,51 @@ The versioned local preset library contains 45 scans, including Persistent Momen
 
 Preset defaults deliberately include market cap above ₹1,000 Cr, price above ₹10, and 50-day average turnover above ₹5 Cr. They have no upper market-cap or price ceiling and no blanket 2% or 5% circuit exclusion.
 
+## Calculation conventions and formulas
+
+All technical windows below use trading sessions, not calendar days. Data is cut off at the published session. A 20-session return requires 21 closes. Missing required history produces `unavailable`; a shortened window is not silently substituted unless that condition explicitly allows it.
+
+| Calculation | Rule |
+| --- | --- |
+| SMA(N) | Mean of the latest N closes; a full N-session window is required. |
+| EMA(N) | Recursive exponential average with `adjust=False`; required warmup still applies. |
+| Return(N) | `100 × (latest close / close N sessions earlier − 1)`. |
+| Daily return | Same formula with N=1. |
+| Gap % | `100 × (current open / prior close − 1)`. |
+| RVOL(N) | Current volume divided by the mean of the preceding N volumes, excluding the current session. |
+| Average turnover(N) | Mean of `close × volume` over N sessions, divided by 10,000,000 for ₹Cr. |
+| ADR(N) % | Mean of `100 × (high − low) / close` over N sessions. |
+| True range | Maximum of `high − low`, `abs(high − prior close)`, and `abs(low − prior close)`. |
+| ATR % | Wilder-smoothed true range divided by current close, multiplied by 100. |
+| Consolidation range % | `100 × (window maximum high − window minimum low) / final close`. |
+| RS over N sessions | Stock percentage return minus the aligned benchmark percentage return. |
+| Quarterly growth % | `100 × (latest value − comparison value) / abs(comparison value)`; QoQ uses the prior quarter, YoY the same quarter a year earlier. Zero/missing base is unavailable. |
+| Historical P/E | Selected report type's four consecutive announced quarters of net profit; market cap divided by positive total profit. Missing quarters or nonpositive profit are unavailable. |
+
+The browser release precomputes selected SMA, return, RVOL, gap, and turnover values plus preset outcomes. The Python registry supports wider parameter choices. A different lookback, metric, or report type may need backend evaluation.
+
+### Persistent Momentum and persistence defaults
+
+Persistent Momentum combines the configured EMA persistence branches with OR: the default periods/durations are 10 EMA for 20 sessions, 20 EMA for 30 sessions, and 50 EMA for 50 sessions. Its preset then combines the selected turnover condition and shared eligibility restrictions with AND. Refer to the declarative preset for all actual defaults; editing a custom condition does not remove a preset's other restrictions.
+
+The default EMA persistence mode is `extreme_reset`. A contrary close arms its low for an above run, or high for a below run. A later trade beyond that extreme resets the run; equality does not. The armed extreme can survive beyond the requested trailing window. This differs from requiring every close to stay above the EMA. SMA persistence uses `strict_close`; explicit alternate EMA modes remain supported by the engine.
+
+### Daily and weekly inside bars
+
+A daily inside bar has `high ≤ preceding high` and `low ≥ preceding low`. For a consecutive run, each bar is compared with the immediately preceding bar; N inside bars require N+1 bars.
+
+Weekly bars group daily sessions by ISO year/week: first open, maximum high, minimum low, last close, summed volume, and last session date. The same containment comparison runs on those aggregates. The current partial week participates; a midweek result may change before that week finishes. Weekly means aggregated daily input, not a separately fetched weekly candle feed.
+
+### Signal timing, rankings, and unavailable inputs
+
+- `fired_within=1` means the latest session; 2 also allows the preceding session.
+- RS ratings use aligned stock/benchmark history and a cross-sectional eligible universe. The composite weights 21/63/126/252-session relative returns by 40/20/20/20; sufficient aligned history is required. A rating is not simply a stock's raw one-year return.
+- Official delivery observations override overlapping fallback history. A current delivery percentage alone does not establish a historical spike.
+- `match OR unavailable` is a match; `no_match OR unavailable` remains unavailable. `no_match AND unavailable` is no match; `match AND unavailable` remains unavailable.
+- Historical classification, capitalisation, financial availability, and membership must satisfy their own date contracts. A future snapshot is not a valid substitute for an absent dated record.
+
+Exact condition inputs, pattern definitions, and availability rules are documented in the [trend engine guide](DO%20NOT%20DELETE%20EDL%20PIPELINE/docs/TREND_CONDITION_ENGINE.md) and implemented under `src/edl_pipeline/scanner/`. These definitions establish local behavior; they do not guarantee identical results to another provider using different data or universe membership.
+
 ## What happens at runtime
 
 ```mermaid
@@ -251,9 +311,7 @@ sequenceDiagram
   W-->>UI: Result page and diagnostics
   UI->>API: Use only if history-dependent expression is unsupported in worker
   API-->>UI: Authoritative evaluated result
-  U->>UI: Open a chart
-  UI->>R2: Fetch one compressed symbol chart file
-  R2-->>UI: Candles and chart events
+  Note over UI,R2: Chart client exists; viewer integration is pending
 ```
 
 ### Browser release loading
@@ -269,7 +327,22 @@ The main UI never claims a browser-only approximation is a result for a rule tha
 
 ### Browser charts
 
-Opening a symbol chart does not load chart data for every stock. The chart client requests one immutable compressed payload using the chart URL template in the release. It verifies the symbol and session before displaying it.
+The chart client requests one immutable compressed payload using the chart URL template in the release. It verifies the symbol and session before returning it to the caller. A future chart viewer can consume this method without loading every stock's chart. It must provide its own loading, error, drawing, and event-marker UI.
+
+### Precomputed work versus runtime work
+
+| Operation | When it happens |
+| --- | --- |
+| Source retrieval, history overlays, fundamental normalization | Pipeline refresh. |
+| RS ratings, breadth, events, and canonical market fields | Pipeline refresh. |
+| Supported numeric snapshot metrics and 45 preset results | Snapshot publication, once per immutable release. |
+| Chart candles and volume/event groups | Chart generation before cleanup. |
+| Snapshot decompression, parsing, and validation | First use of a revision in the worker. |
+| Supported custom comparisons, Boolean groups, universe selection | Browser screen execution against published metrics. |
+| Historical/pattern expressions absent from the browser contract | Python fallback at request time. |
+| Sorting and pagination | Worker; later pages reuse the cached matching set. |
+
+Not every possible custom calculation is precomputed. Preset membership and selected metrics are; arbitrary historical conditions can still require the Python engine. The worker retains at most two loaded revisions and up to four compiled result sets per snapshot. The app checks the current release every 60 seconds and when focus returns. No WebAssembly runtime is required. If workers are unavailable, the same snapshot engine runs on the main thread.
 
 ### Runtime files
 
@@ -318,7 +391,7 @@ The pipeline standardizes securities and calculates:
 
 ### 4. Artifact validation and promotion
 
-The full refresh runs in an isolated temporary stage. It validates schema, required fields, counts, freshness, and cross-artifact dates before promotion. A failed stage or quality check leaves the previously published public files unchanged.
+The full refresh runs in an isolated temporary stage. It validates schema, required fields, counts, freshness, and cross-artifact dates before promotion. A failed stage or quality check leaves the previously published public files unchanged. Promotion rolls back files on ordinary exceptions, including frontend-publication errors; this is not a filesystem transaction across every file or protection against every process crash. Shared history caches may have been updated even when public promotion fails.
 
 ### 5. Browser snapshot publication
 
@@ -326,9 +399,28 @@ The full refresh runs in an isolated temporary stage. It validates schema, requi
 
 It writes immutable revision files first, verifies the release, and writes `current.json` last. A same-session correction therefore gets a new immutable revision rather than overwriting an earlier result.
 
+Each browser revision contains `stocks.json`, `stocks.json.gz`, `ipos.json`, and `release.json`. Condition and preset catalogues live in `frontend/src/data/` and ship with the application build. Frozen Python evaluation inputs live under `DO NOT DELETE EDL PIPELINE/.scanner_cache/revisions/<revision>/`; serving a frontend revision does not automatically make those private backend files available on another server.
+
 ### 6. Chart generation and R2 upload
 
 The chart builder runs before temporary news and filings directories are removed. It creates one compressed JSON payload per symbol, validates the chart index, payload symbol, session, and content revision, then uploads immutable objects to R2 when configuration is complete.
+
+### Chart payload and event retention
+
+| Field/group | Content and window |
+| --- | --- |
+| Identity | Schema version, symbol, session (`asOfDate`), and first available candle (`historyStartDate`). |
+| `candles` | Date, open, high, low, close, volume; all available cached sessions through the published session. |
+| `volumeEvents.highestEver` / `lowestEver` | Highest/lowest daily volume across available history, not an independently guaranteed inception archive. |
+| Monthly volume records | Highest-volume day in each of the latest 60 represented months. |
+| Quarterly volume records | Highest- and lowest-volume day in each of the latest 20 represented quarters. |
+| Yearly volume records | Highest-volume day in each of the latest 10 represented years. |
+| `corporateActions` | Available actions whose ex-date is no later than the published session. |
+| `earnings` | Available earnings records filed by the published session. |
+| `regulatoryAnnouncements` | Available official announcements; no fixed item-count cap in the builder. |
+| `marketNews` | Latest 50 available items. Optional source failure can leave this empty. |
+
+The builder does not truncate candles to four years. A four-year chart means its input cache supplied roughly four years. Weekly execution alone is not proof that every symbol has inception history. Missing candles or event arrays must not be described as complete history. Zero-volume sessions remain valid inputs to low-volume records.
 
 ### Generated public artifacts
 
@@ -355,7 +447,7 @@ The chart builder runs before temporary news and filings directories are removed
 | Per-symbol chart payloads | Cloudflare R2 | On-demand delivery without growing Git history by every chart revision. |
 | Raw OHLCV, delivery, and filing caches | Local workspace and GitHub Actions cache | Fast incremental pipeline runs. |
 | Long-term raw-history backup | Private R2 backup, planned | Recovery when an Actions cache is evicted. |
-| Saved screens and preferences | Browser local storage | User-local state without a server account. |
+| Current workspace preferences | Browser local storage | User-local state without a server account or named-screen library. |
 
 GitHub Actions cache is an accelerator, not durable data storage. It may be evicted. Raw-history recovery should come from the planned private backup, not from an assumed cache hit.
 
@@ -379,6 +471,8 @@ R2 retention is:
 - Daily chart revisions: 90 calendar days.
 - Month-end chart revisions: retained indefinitely.
 - The first successful release of a new month archives the prior month’s latest successful session.
+
+The 90-day lifecycle age is based on object upload time and deletion is asynchronous. If publication remains down for more than 90 days, an active daily revision can expire before rollover archival. Month-end retention therefore requires successful publication and monitoring; it is not a guarantee during an indefinite outage. Private raw-history backup and automatic restoration are planned, not implemented by chart publication.
 
 See [`docs/r2-chart-publication.md`](docs/r2-chart-publication.md) for the object layout and lifecycle details.
 
@@ -436,10 +530,95 @@ For local custom history conditions, Vite uses the Python bridge. A static produ
 
 ```env
 VITE_USE_MOCK=false
-VITE_API_BASE_URL=https://screener-api.nexusjournal.co.in/v1
+VITE_API_BASE_URL=/api
 ```
 
 `VITE_USE_MOCK=true` is only for UI development. It is not live market data.
+
+## Configuration and production deployment
+
+### Configuration reference
+
+| Setting | Default / purpose |
+| --- | --- |
+| `EDL_BASE_DIR` | Override pipeline data root; otherwise the pipeline's configured local directory. |
+| `EDL_FETCH_OHLCV` | True; false selects diagnostic behavior rather than normal public promotion. |
+| `EDL_FETCH_OPTIONAL` | False; enables optional acquisition stages when selected. |
+| `EDL_CLEANUP_INTERMEDIATE` | True; temporary fetch directories are removed after their consumers run. |
+| `EDL_EOD2_DATA_DIR` | Existing EOD2 history checkout used for the adjusted-history overlay. |
+| `EDL_CHART_STORAGE` | `local` by default; `r2` selects remote chart publication. Other values are rejected. |
+| `R2_ACCOUNT_ID` | Required for configured R2 publication; account containing the bucket. |
+| `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` | Required server-side S3-compatible credentials. Never place them in frontend variables or public artifacts. |
+| `R2_PUBLIC_BASE_URL` | Required public chart origin; browser access and CORS must work from the frontend origin. |
+| `R2_BUCKET` | `nexus-screener-chart-data` unless overridden. |
+| `VITE_USE_MOCK` | False unless exactly `true`; selects fabricated UI-development data when enabled. |
+| `VITE_API_BASE_URL` | `/api` when absent; adapter appends `/screens/run`. Build-time frontend setting. |
+
+Pipeline Boolean settings accept familiar true/false forms (`1/0`, `yes/no`, `on/off`); invalid values warn and use the default. Consult the workflow and source for additional source-specific settings rather than assuming this table enumerates every fetcher's tuning option.
+
+### What a production installation needs
+
+1. **Static application:** serve `frontend/dist` from a host supporting the app's assets and public data files. Deploy the application/catalogue version compatible with the published snapshot.
+2. **Release authority:** deploy immutable revision directories before updating `data/current.json`. Revalidate the pointer; cache immutable revision URLs for reuse. Keep the JSON fallback available alongside gzip.
+3. **Historical screen service:** provide `POST <VITE_API_BASE_URL>/screens/run` for unsupported worker expressions. The response must use the requested immutable revision. Preserve the corresponding frozen evaluation inputs and history on the server.
+4. **Chart origin:** when charts are enabled, expose the R2 URL template with suitable browser CORS and gzip delivery. A scanner-only release legitimately has no chart URLs.
+5. **Operator monitoring:** watch failed workflows, stale session pointers, missing history, archive failures, and object expiry. Scheduled time is not a completion guarantee.
+
+Vite's local middleware handles `POST /api/screens/run` by managing a persistent Python worker. `npm run build` produces static files and does **not** package that middleware as a production Python service. A production process manager, reverse proxy, request limits, and server deployment must be supplied separately. Static hosting alone supports worker-evaluable scans, not every historical custom condition.
+
+The adapter's catalogue comes from compiled frontend data; IPO rows come from the immutable static release. The explain method is currently a placeholder. Do not create an assumed server route for every method in `screenerApi`.
+
+### Release identity and retry boundaries
+
+Scanner revisions are content-addressed from their inputs and generated content. Chart revisions validate compressed symbol payloads and their content digest. R2 uploads use immutable revision paths and publish the scanner pointer only after required upload/verification succeeds. An existing immutable object must agree with the intended release; it must not be overwritten with different data.
+
+Missing R2 configuration skips charts and permits fresh scanner publication. Once configuration is complete, upload failures stop publication. Recover and rerun the normal publisher; do not patch `current.json` to point at a partly uploaded chart set.
+
+## Recovery and troubleshooting
+
+### Refresh fails before publication
+
+Inspect the workflow's failed stage and local `pipeline_failure_report.json` or `data_quality_failure.json` where generated. Fix the failed source, schema, freshness, or quality gate, then rerun the normal pipeline. Public promotion is gated; do not bypass validation just to advance the session date. Retain the prior valid release until recovery succeeds.
+
+### History is missing or shorter than expected
+
+First inspect a symbol's actual earliest/latest cache dates and its chart `historyStartDate`. A successful Actions cache restore or weekly run does not prove complete inception coverage. Check symbol identity/ISIN mappings before merging another cache.
+
+To synchronize a bounded date range from an existing compatible EDL history directory, run from the pipeline directory:
+
+```bash
+python3 sync_local_scanner_history.py \
+  --source-root /path/to/existing/EDL \
+  --from-date 2026-09-29 \
+  --as-of-date 2026-10-01
+```
+
+The dates above are examples; choose the missing range. The source directory needs its identity map and history files. The synchronizer validates identities and merges history with official overlays. Without `--source-root`, it can fetch the requested missing daily data. A bounded daily recovery is not an inception backfill.
+
+After successful history recovery, regenerate the charts and scanner release from matching artifacts:
+
+```bash
+# From the pipeline directory, after data/session validation
+python3 build_chart_artifacts.py
+cd ..
+python3 frontend/publish_snapshot.py
+```
+
+The complete pipeline normally handles this ordering. Do not regenerate a newer pointer from mismatched financial, OHLCV, delivery, and chart sessions. Private R2 raw-history backups and automatic restore are still planned; the existing R2 chart files are derived outputs, not a replacement for all source caches.
+
+### Browser requests fail or results are unavailable
+
+| Symptom | Check |
+| --- | --- |
+| Snapshot cannot load | Pointer and immutable URLs exist; JSON/gzip content, revision, session, and row count agree. |
+| Presets work but custom history rules fail | Python fallback is running and has the requested frozen revision/history. |
+| Insufficient history | Required full lookback and warmup exist for that symbol. Newly listed securities may legitimately lack them. |
+| History not aligned | Latest cached trading session agrees with the released screen date. |
+| Chart unavailable | Release includes chart URLs; object exists; browser CORS/decompression works; symbol/session validation passes. |
+| Missing earnings/news markers | Source data was acquired before cleanup and the records satisfy the release cutoff. Empty optional event arrays can be valid. |
+| Old preferences reappear | Current workspace state is restored from this browser origin's local storage. |
+
+For a rollback, redeploy a known valid immutable release and its compatible application/backend inputs through the normal deployment process. Ensure retained R2 objects still exist before restoring a pointer. Reverting a Git commit alone does not recreate expired R2 objects or evicted private history.
 
 ## Automated refreshes
 
