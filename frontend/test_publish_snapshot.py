@@ -67,3 +67,6 @@ class SnapshotPublicationTests(unittest.TestCase):
             self.assertEqual(scanner['schemaVersion'],4)
             self.assertEqual(charts['schemaVersion'],6)
             self.assertNotEqual(scanner['revision'],charts['revision'])
+            for key in ('chartUrlTemplate', 'chartRevision', 'chartObjectPrefix'):
+                self.assertNotIn(key, scanner)
+            self.assertEqual(json.loads((output/'current.json').read_text()), charts)

@@ -29,7 +29,10 @@ def missing_r2_settings():
 
 
 def charts_enabled():
-    return os.environ.get('EDL_CHART_STORAGE', 'local') != 'r2' or not missing_r2_settings()
+    mode = os.environ.get('EDL_CHART_STORAGE', 'local')
+    if mode not in ('local', 'r2'):
+        raise RuntimeError('EDL_CHART_STORAGE must be "local" or "r2", got: ' + mode)
+    return mode == 'local' or not missing_r2_settings()
 
 
 def chart_preflight(root, session):

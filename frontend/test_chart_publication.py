@@ -127,6 +127,17 @@ class PublicationTests(unittest.TestCase):
             with self.assertRaisesRegex(RuntimeError,'run build_chart_artifacts.py'):
                 complete_release(root/'missing',root,dict(revision='a'*64,sessionDate='2026-09-30'))
 
+    def test_invalid_storage_mode_preserves_pointer(self):
+        for mode in ('R2', 'r2 ', 'off', 'false', ''):
+            with self.subTest(mode=mode), tempfile.TemporaryDirectory() as folder:
+                charts, output, manifest = self.fixture(Path(folder))
+                complete_release(charts, output, manifest, Store())
+                previous = (output/'current.json').read_bytes()
+                with patch.dict(os.environ, {'EDL_CHART_STORAGE': mode}, clear=True):
+                    with self.assertRaisesRegex(RuntimeError, 'EDL_CHART_STORAGE must be'):
+                        complete_release(charts, output, manifest)
+                self.assertEqual((output/'current.json').read_bytes(), previous)
+
     def test_missing_and_partial_configuration_skip_r2_and_charts(self):
         for partial in ({}, {'R2_ACCOUNT_ID':'a'}, {'R2_ACCOUNT_ID':'a','R2_ACCESS_KEY_ID':'k','R2_SECRET_ACCESS_KEY':'s'}):
             with tempfile.TemporaryDirectory() as folder:

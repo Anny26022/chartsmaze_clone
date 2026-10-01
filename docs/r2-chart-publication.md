@@ -9,6 +9,10 @@ updated, and is not read by the application.
 
 ## Configuration
 
+Production publication requires environment variable `EDL_CHART_STORAGE: r2`
+(already set in both GitHub Actions workflows). Only `local` and `r2` are valid;
+unknown values fail publication instead of selecting local storage.
+
 GitHub Actions requires secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, and
 `R2_SECRET_ACCESS_KEY`, plus repository variable `R2_PUBLIC_BASE_URL` (the HTTPS
 public/custom-domain delivery URL for `nexus-screener-chart-data`). Configure
