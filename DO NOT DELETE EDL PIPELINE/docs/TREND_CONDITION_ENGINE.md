@@ -76,15 +76,13 @@ controls. Supported daily-OHLCV conditions are:
 - A missing required moving-average or ADX warm-up returns `unavailable`, not
   `match` or `no_match`.
 - EMA uses `adjust=False`; ADX uses Wilder smoothing (`alpha = 1 / period`).
-- `persistent_momentum` uses `reclaim_by_extreme` by default: this matches the
-  observed behavior of the public JournalToday preset more closely than an
-  uninterrupted-close rule. Set `persistence_mode: "strict_close"` to require
-  every close to remain on the selected side. `reclaim_by_extreme` permits
-  exactly one contrary close when a later
-  bar crosses that breach bar's high for an above-run (or low for a below-run)
-  and closes back on the desired side. This makes the previously ambiguous
-  reclaim behavior explicit and testable; it is not claimed to be exact
-  proprietary JournalToday parity.
+- `price_vs_ema` and `persistent_momentum` default to `extreme_reset`, following
+  the public JournalToday reset description. A contrary close arms its low
+  for an above-run or high for a below-run. Only a later session trading beyond
+  that extreme resets the run; equality does not reset it. The armed extreme
+  survives beyond the requested trailing window. SMA retains `strict_close`.
+  Explicit `strict_close` and the older `reclaim_by_extreme` mode remain available.
+  Private calculations and exact remote match lists are not verified.
 - `ema_shakeout_reclaim` requires a current close above the EMA plus a low-side
   or close-side dip in the requested recent window.
 - `fired_within` is counted in trading sessions, including the latest session:

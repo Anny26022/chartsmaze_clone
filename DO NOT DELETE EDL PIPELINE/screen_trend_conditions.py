@@ -75,7 +75,13 @@ def _load_context(root, as_of_date=None, stock_path=None, index_path=None, bread
     ban = (saved or {}).get("fno_ban") or _read_json(root / "nse_fno_ban.json") or _read_json(root / "nse_fno_ban.json.gz") or {}
     fno_ban_symbols = {str(symbol).upper(): True for symbol in ban.get("symbols", [])}
     rs_artifact = _read_json(root / "rs_rating_daily.json") or _read_json(root / "rs_rating_daily.json.gz") or {}
-    return {"stocks": {item.get("symbol"): item for item in stocks if item.get("symbol")}, "benchmarks": benchmarks, "breadth": breadth, "breadth_as_of": latest[0].get("date") if latest else None, "fno_ban_symbols": fno_ban_symbols, "fno_ban_available": ban.get("available", False), "fno_ban_trade_date": ban.get("trade_date"), "rs_ratings": rs_artifact.get("ratings", rs_artifact), "rs_ratings_as_of": rs_artifact.get("as_of_date"), "membership_snapshot_available": bool(saved) or not as_of_date or as_of_date == current_session}
+    financials = _read_json(root / "quarterly_financial_history.json.gz") or _read_json(root / "quarterly_financial_history.json")
+    financial_history = {}
+    if financials is not None:
+        for row in financials.get("records", []):
+            financial_history.setdefault(row.get("symbol"), []).append(row)
+    context_financials = {"financial_history": financial_history, "financial_history_as_of": current_session} if financials is not None else {}
+    return {**context_financials, "stocks": {item.get("symbol"): item for item in stocks if item.get("symbol")}, "benchmarks": benchmarks, "breadth": breadth, "breadth_as_of": latest[0].get("date") if latest else None, "fno_ban_symbols": fno_ban_symbols, "fno_ban_available": ban.get("available", False), "fno_ban_trade_date": ban.get("trade_date"), "rs_ratings": rs_artifact.get("ratings", rs_artifact), "rs_ratings_as_of": rs_artifact.get("as_of_date"), "membership_snapshot_available": bool(saved) or not as_of_date or as_of_date == current_session}
 
 
 def _symbols_from_text(value):
@@ -130,12 +136,17 @@ def _load_delivery_history(path, symbols=None, eod2_path=None):
     """Load official delivery first; EOD2 fills only historical gaps by date."""
     allowed = set(symbols) if symbols else None
     history = {}
-    paths = sorted(path.glob("????-??-??.json")) if path.is_dir() else [path]
+    paths = (
+        sorted([*path.glob("????-??-??.json"), *path.glob("????-??-??.json.gz")])
+        if path.is_dir() else [path]
+    )
     for item_path in paths:
         if not item_path.exists():
             continue
         try:
-            records = json.loads(item_path.read_text()).get("records", [])
+            opener = gzip.open if item_path.suffix == ".gz" else open
+            with opener(item_path, "rt", encoding="utf-8") as handle:
+                records = json.load(handle).get("records", [])
         except (OSError, ValueError, AttributeError):
             continue
         for item in records:

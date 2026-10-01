@@ -56,6 +56,7 @@ export interface ExpressionConditionNode {
 export type ExpressionNode = ExpressionGroupNode | ExpressionConditionNode;
 
 export interface ScreenerRunRequest {
+  datasetRevision?: string;
   expressionTree: ExpressionNode;
   textQuery?: string;
   universe: UniverseType;
@@ -81,7 +82,7 @@ export interface StockRow {
   low: number;
   volume: number;
   rupeeVolumeCrore: number;
-  rvol: number;
+  rvol: number | null;
   marketCapCrore: number;
   peRatio: number | null;
   rsi14: number | null;
@@ -102,6 +103,21 @@ export interface StockRow {
   isFno: boolean;
   circuitLimit: string;
   deliveryPct: number | null;
+  roePct?: number | null;
+  rocePct?: number | null;
+  opmTtmPct?: number | null;
+  debtToEquity?: number | null;
+  pegRatio?: number | null;
+  salesGrowth5yPct?: number | null;
+  epsLastYear?: number | null;
+  epsTwoYearsBack?: number | null;
+  surveillanceAvailable?: boolean | null;
+  surveillanceAsOfDate?: string | null;
+  surveillanceFetchedAt?: string | null;
+  isAsm?: boolean | null;
+  asmStage?: string | null;
+  isGsm?: boolean | null;
+  gsmStage?: string | null;
   rsRating: number | null;
   dataCompleteness: number; // 0 to 100
 }
@@ -140,16 +156,18 @@ export interface IPORow {
   symbol: string;
   name: string;
   listingDate: string;
-  issuePrice: number | null;
-  listingPrice: number | null;
   currentPrice: number;
-  returnSinceListingPct: number | null;
   turnoverCrore: number;
+  deliveryPct?: number | null;
   sector: string;
   industry: string;
   marketCapCrore: number;
-  circuitBand: string;
-  dataCompleteness: number;
+  // Retained for the mock fixture; the live catalogue does not publish IPO terms.
+  issuePrice?: number | null;
+  listingPrice?: number | null;
+  returnSinceListingPct?: number | null;
+  circuitBand?: string;
+  dataCompleteness?: number;
 }
 
 export interface ExplainRequest {

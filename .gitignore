@@ -53,3 +53,7 @@ dist/
 
 # Isolated full-refresh staging directories
 DO NOT DELETE EDL PIPELINE/.edl-refresh-*/
+
+# Local scanner runtime and developer state
+DO NOT DELETE EDL PIPELINE/.scanner_cache/
+.wrangler/

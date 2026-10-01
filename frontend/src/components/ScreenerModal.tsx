@@ -16,12 +16,22 @@ interface ScreenerModalProps {
 const CATEGORY_TABS: Array<{ id: ConditionCategory | 'all'; label: string }> = [
   { id: 'all', label: 'All' },
   { id: 'trend', label: 'Technicals' },
-  { id: 'momentum', label: 'Momentum' },
-  { id: 'range', label: 'Range' },
-  { id: 'relative_strength', label: 'Rel. Strength' },
+  { id: 'momentum', label: 'Momentum & Volume' },
+  { id: 'range', label: 'Range & Patterns' },
+  { id: 'relative_strength', label: 'Relative Strength' },
   { id: 'fundamentals', label: 'Fundamentals' },
-  { id: 'liquidity', label: 'Liquidity' },
+  { id: 'liquidity', label: 'Market & Liquidity' },
 ];
+
+const readableUnit = (unit?: string) => {
+  const labels: Record<string, string> = {
+    p: 'periods',
+    d: 'days',
+    pp: 'pts',
+    x: '×',
+  };
+  return unit ? (labels[unit] ?? unit) : '';
+};
 
 const MultiSelectDropdown = ({ options, value, onChange }: any) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -86,7 +96,7 @@ export const ScreenerModal: React.FC<ScreenerModalProps> = ({
   const catalogToUse = activeTab === 'custom' ? NEXUS_CONDITION_CATALOG : PRESET_CATALOG;
 
   const filtered = catalogToUse.filter((c) => {
-    return category === 'all' || c.category === category;
+    return activeTab === 'presets' || category === 'all' || c.category === category;
   });
 
   const toggle = (def: ConditionDef) => {
@@ -133,25 +143,23 @@ export const ScreenerModal: React.FC<ScreenerModalProps> = ({
     onClose();
   };
 
-  // Helper to render an input inline
+  // The row title and each control's accessible label provide the context;
+  // keeping the inputs compact makes dense filter groups easier to scan.
   const renderInput = (defId: string, p: ParameterSpec, checked: boolean) => {
     const val = checked && localMap[defId] ? localMap[defId].parameters[p.id] : p.defaultValue;
-    
-    if (p.type === 'multiselect') {
-      return (
-        <MultiSelectDropdown
-          key={p.id}
-          options={p.options || []}
-          value={val}
-          onChange={(newVal: string[]) => updateParam(defId, p.id, newVal)}
-        />
-      );
-    }
-
-    if (p.type === 'select') {
-      return (
-        <select
-          key={p.id}
+    let control: React.ReactNode;
+    if (p.type === 'boolean') {
+      control = <input aria-label={p.label} type="checkbox" checked={!!val}
+        onChange={e => updateParam(defId, p.id, e.target.checked)} />;
+    } else if (p.type === 'string') {
+      control = <input aria-label={p.label} value={val ?? ''}
+        onChange={e => updateParam(defId, p.id, e.target.value)}
+        className="w-24 bg-white border border-gray-200 rounded-md px-1.5 py-0.5 text-[11px]" />;
+    } else if (p.type === 'multiselect') {
+      control = <MultiSelectDropdown options={p.options || []} value={val}
+        onChange={(newVal: string[]) => updateParam(defId, p.id, newVal)} />;
+    } else if (p.type === 'select') {
+      control = <select
           value={val}
           onChange={(e) => updateParam(defId, p.id, e.target.value)}
           className="bg-white border border-gray-200 hover:border-teal-400 rounded-md px-1.5 py-0.5 text-[11px] text-gray-700 focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500 max-w-[110px] shrink-0 truncate transition-colors cursor-pointer"
@@ -161,23 +169,24 @@ export const ScreenerModal: React.FC<ScreenerModalProps> = ({
               {opt.label}
             </option>
           ))}
-        </select>
-      );
+        </select>;
+    } else {
+      control = <input
+        type="number"
+        value={val}
+        onChange={(e) => updateParam(defId, p.id, parseFloat(e.target.value) || 0)}
+        min={p.min}
+        max={p.max}
+        step={p.step ?? 0.1}
+        aria-label={p.label}
+        className="w-14 bg-white border border-gray-200 hover:border-teal-400 rounded-md px-1.5 py-0.5 text-[11px] text-gray-700 text-center focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500 transition-colors"
+      />;
     }
-    
+
     return (
-      <div key={p.id} className="relative flex items-center shrink-0">
-        <input
-          type="number"
-          value={val}
-          onChange={(e) => updateParam(defId, p.id, parseFloat(e.target.value) || 0)}
-          min={p.min}
-          max={p.max}
-          step={p.step ?? 0.1}
-          placeholder={p.label}
-          className="w-14 bg-white border border-gray-200 hover:border-teal-400 rounded-md px-1.5 py-0.5 text-[11px] text-gray-700 text-center focus:outline-none focus:border-teal-500 focus:ring-1 focus:ring-teal-500 transition-colors"
-        />
-        {p.unit && <span className="ml-1 text-[10px] text-gray-400">{p.unit}</span>}
+      <div key={p.id} title={p.description ?? p.label} className="flex items-center shrink-0">
+        {control}
+        {p.unit && <span className="ml-1 text-[10px] text-gray-400 whitespace-nowrap">{readableUnit(p.unit)}</span>}
       </div>
     );
   };
@@ -192,7 +201,7 @@ export const ScreenerModal: React.FC<ScreenerModalProps> = ({
       {/* Modal Panel Container */}
       <div className="fixed inset-0 z-[101] flex items-center justify-center p-4 sm:p-6" onClick={onClose}>
         <div
-          className="bg-white rounded-xl shadow-2xl flex flex-col w-full max-w-5xl overflow-hidden border border-gray-200"
+          className="bg-white rounded-xl shadow-2xl flex flex-col w-full max-w-7xl overflow-hidden border border-gray-200"
           style={{ maxHeight: '90vh' }}
           onClick={(e) => e.stopPropagation()}
         >
@@ -231,7 +240,7 @@ export const ScreenerModal: React.FC<ScreenerModalProps> = ({
           {/* ── Categories & Match Mode ── */}
           {activeTab === 'custom' && (
             <div className="px-5 py-2.5 flex items-center justify-between border-b border-gray-100 bg-[#f8fcfb]">
-              {/* Categories (Chartmaze style dense tabs) */}
+              {/* Compact condition categories */}
               <div className="flex flex-wrap items-center rounded-md border border-teal-600 overflow-hidden bg-white shadow-sm">
                 {CATEGORY_TABS.map((tab) => (
                   <button
@@ -270,28 +279,28 @@ export const ScreenerModal: React.FC<ScreenerModalProps> = ({
           )}
 
           <div className="flex-1 overflow-y-auto p-5 bg-white overflow-x-hidden">
-            <div className={`grid gap-x-8 gap-y-1 ${activeTab === 'presets' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1 lg:grid-cols-2'}`}>
+            <div className={`grid gap-x-8 gap-y-1 ${activeTab === 'presets' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1 xl:grid-cols-2'}`}>
               {filtered.map((def) => {
                 const active = localMap[def.id];
                 const checked = !!active;
 
                 return (
-                  <div key={def.id} className="flex items-center justify-between py-1.5 border-b border-gray-50 last:border-0 hover:bg-gray-50/50 px-2 -mx-2 rounded transition-colors group">
-                    <label className="flex items-center gap-2.5 cursor-pointer flex-1 min-w-0 pr-2">
+                  <div key={def.id} className="grid grid-cols-[minmax(10rem,1fr)_minmax(0,auto)] items-start gap-x-3 py-2 border-b border-gray-50 last:border-0 hover:bg-gray-50/50 px-2 -mx-2 rounded transition-colors group">
+                    <label className="flex items-center gap-2.5 cursor-pointer min-w-0 pt-1">
                       <input
                         type="checkbox"
                         checked={checked}
                         onChange={() => toggle(def)}
                         className="w-3.5 h-3.5 rounded border-gray-300 text-teal-600 focus:ring-teal-500 transition-all cursor-pointer flex-shrink-0"
                       />
-                      <span className={`text-[12px] font-semibold truncate ${checked ? 'text-gray-900' : 'text-gray-600 group-hover:text-gray-800'}`}>
+                      <span title={def.description} className={`text-[12px] font-semibold truncate ${checked ? 'text-gray-900' : 'text-gray-600 group-hover:text-gray-800'}`}>
                         {def.label}:
                       </span>
                     </label>
 
-                    {/* Inline Parameters aligned to the right, strictly single line (no wrap) */}
+                    {/* Inputs keep their own compact groups and wrap inside this row when needed. */}
                     {activeTab === 'custom' && def.parameters && def.parameters.length > 0 && (
-                      <div className="flex items-center gap-1.5 flex-shrink-0 justify-end max-w-[60%]">
+                      <div className="flex min-w-0 flex-wrap items-center justify-end gap-x-2 gap-y-1">
                         {def.parameters.map((p) => renderInput(def.id, p, checked))}
                       </div>
                     )}

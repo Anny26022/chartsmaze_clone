@@ -89,6 +89,15 @@ class TransformTests(unittest.TestCase):
         self.assertEqual(result["delivery_as_of_date"], "2026-09-25")
         self.assertEqual(result["delivery_series"], "EQ")
 
+    def test_standardization_preserves_a_canonical_surveillance_snapshot(self):
+        stock = {
+            "schema_version": "3.0", "symbol": "RELIANCE", "name": "Reliance Industries",
+            "as_of_date": "2026-09-30", "surveillance_available": True,
+            "surveillance_as_of_date": "2026-09-30", "surveillance_fetched_at": "2026-10-01T00:00:00+00:00",
+            "is_asm": True, "asm_stage": "LTASM - I", "is_gsm": False, "gsm_stage": None,
+        }
+        self.assertEqual(canonicalize_stock(stock), stock)
+
     def test_build_master_map_filters_missing_ids_and_sorts_symbols(self):
         stocks = [
             {"Sym": "BETA", "Isin": "INB", "DispSym": "Beta Ltd", "Sid": 2, "Ltp": 20, "FnoFlag": 1},

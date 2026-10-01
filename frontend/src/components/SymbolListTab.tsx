@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useMutation } from '@tanstack/react-query';
 import { screenerApi } from '../api/screenerApi';
 import { Layers, CheckCircle2, XCircle, Play, PlusCircle, RefreshCw } from 'lucide-react';
+import { SymbolWithLogo } from './SymbolWithLogo';
 
 interface SymbolListTabProps {
   onRunOnCustomSymbols: (symbols: string[]) => void;
@@ -108,7 +109,7 @@ export const SymbolListTab: React.FC<SymbolListTabProps> = ({
                         key={s.symbol}
                         className="px-1.5 py-0.5 rounded bg-white text-emerald-800 font-mono text-[10px] border border-emerald-200"
                       >
-                        {s.symbol}
+                        <SymbolWithLogo symbol={s.symbol} showText />
                       </span>
                     ))}
                   </div>

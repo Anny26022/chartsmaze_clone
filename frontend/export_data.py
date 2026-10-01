@@ -65,7 +65,7 @@ def main():
         if not as_of_date:
             as_of_date = s.get('as_of_date', '2026-09-29')
 
-        rs = rs_ratings.get(sym, {})
+        rs = rs_ratings.get(sym, {}) if rs_data.get('as_of_date') == s.get('as_of_date') else {}
 
         stock = {
             'symbol': sym,
@@ -88,7 +88,7 @@ def main():
             # Market
             'marketCapCrore': safe_round(s.get('market_cap_crore'), 1),
             'rupeeVolumeCrore': safe_round((s.get('rupee_volume') or 0) / 1e7, 2),
-            'avgRupeeVolume20Cr': safe_round(s.get('avg_rupee_volume_20'), 2),
+            'avgRupeeVolume20Cr': safe_round(s.get('daily_rupee_turnover_20_cr'), 2),
             'avgRupeeVolume50Cr': safe_round(s.get('daily_rupee_turnover_50_cr'), 2),
             'sharesOutstanding': s.get('shares_outstanding'),
             'freeFloatPct': safe_round(s.get('free_float_percent')),
@@ -144,7 +144,7 @@ def main():
 
             # F&O
             'isFno': s.get('fno_eligible', False),
-            'fnoBan': sym in fno_ban_symbols,
+            'fnoBan': sym in fno_ban_symbols if fno_ban_data.get('trade_date') == s.get('as_of_date') and fno_ban_data.get('available') else None,
             'fnoLotSize': s.get('fno_lot_size'),
             'circuitLimit': s.get('circuit_limit', ''),
 
@@ -169,7 +169,7 @@ def main():
             'returnsSinceEarningsPct': safe_round(s.get('returns_since_earnings_percent')),
 
             # RS Ratings (from separate file)
-            'rsRating': safe_round(rs.get('twelve_month'), 1),
+            'rsRating': safe_round(rs.get('front_weighted'), 1),
             'rsRating1m': safe_round(rs.get('one_month'), 1),
             'rsRating3m': safe_round(rs.get('three_month'), 1),
         }
@@ -210,3 +210,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+    from publish_snapshot import publish
+    publish()

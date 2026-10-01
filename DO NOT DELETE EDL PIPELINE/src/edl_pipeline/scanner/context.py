@@ -8,6 +8,8 @@ from typing import Any, Callable
 import numpy as np
 import pandas as pd
 
+from .financials import financial_value
+
 
 CONTEXT_CONDITION_REGISTRY = {
     "relative_strength": {"inputs": {"benchmark": "string", "window": "integer", "comparison": "comparison", "value": "number"}, "definition": "Stock return less benchmark return over the same sessions, in percentage points."},
@@ -16,12 +18,15 @@ CONTEXT_CONDITION_REGISTRY = {
     "market_cap": {"inputs": {"comparison": "comparison", "value_crore": "number"}, "definition": "Current full market capitalisation in crore."},
     "free_float_market_cap": {"inputs": {"comparison": "comparison", "value_crore": "number"}, "definition": "Current market capitalisation multiplied by free-float percentage."},
     "pe_ratio": {"inputs": {"comparison": "comparison", "value": "number"}, "definition": "Current positive trailing P/E."},
-    "earnings_growth": {"inputs": {"metric": "net_profit|revenue|pbt|eps", "basis": "qoq|yoy", "comparison": "comparison", "value": "number", "maximum_filing_age_days": "integer"}, "definition": "Reported quarterly line-item growth, subject to filing age."},
+    "earnings_growth": {"inputs": {"metric": "net_profit|revenue|pbt|eps|opm", "basis": "qoq|yoy", "comparison": "comparison", "value": "number", "maximum_filing_age_days": "integer"}, "definition": "Reported quarterly line-item growth, subject to filing age. OPM compares reported operating-margin percentages."},
+    "fundamental_metric": {"inputs": {"metric": "roe|roce|opm_ttm|debt_to_equity|peg_ratio|sales_growth_5y", "comparison": "comparison", "value": "number"}, "definition": "Current published fundamental metric aligned to the screen session."},
+    "eps_last_year_higher": {"inputs": {}, "definition": "Latest annual EPS is greater than the preceding annual EPS in the current published fundamentals."},
     "days_since_earnings": {"inputs": {"comparison": "comparison", "days": "integer"}, "definition": "Trading sessions since the latest reported earnings date."},
     "sector": {"inputs": {"values": "string[]"}, "definition": "NSE sector membership."},
     "industry": {"inputs": {"values": "string[]"}, "definition": "NSE industry membership."},
     "average_turnover": {"inputs": {"comparison": "comparison", "lookback_days": "integer", "value_crore": "number", "window_minutes": "daily|1|3|5"}, "definition": "Average daily traded value; intraday modes require intraday turnover history."},
     "adr_percent": {"inputs": {"comparison": "comparison", "lookback_days": "integer", "value": "number"}, "definition": "Mean daily high-low percentage range."},
+    "percent_from_ath": {"inputs": {"comparison": "comparison", "value": "number"}, "definition": "Percentage distance below the split- and bonus-adjusted all-time high from the EOD2 daily history."},
     "price_range": {"inputs": {"minimum_price": "number", "maximum_price": "number"}, "definition": "Latest close lies within an inclusive price band."},
     "price_band": {"inputs": {"values": "string[]"}, "definition": "Current NSE regulatory price-band value."},
     "circuit_band_minimum": {"inputs": {"minimum_band_percent": "number"}, "definition": "Current circuit/price band is at least the specified percentage."},
@@ -30,10 +35,11 @@ CONTEXT_CONDITION_REGISTRY = {
     "index_membership": {"inputs": {"index_name": "string"}, "definition": "Current canonical index membership."},
     "market_breadth": {"inputs": {"universe": "all_active|nifty50|niftymidsmall400", "metric": "pct_above_sma10|pct_above_sma20|pct_above_sma50|pct_above_sma200|ad_ratio_sma10|volume_ratio20", "comparison": "comparison", "value": "number"}, "definition": "Date-aligned market breadth for a named universe."},
     "fno_ban": {"inputs": {"mode": "exclude|only"}, "definition": "Current official NSE F&O security-ban report."},
+    "exclude_surveillance": {"inputs": {}, "definition": "Excludes stocks in the latest ASM or GSM surveillance lists. Both lists must be available for the screen session."},
 }
 
 KIND_ALIASES = {
-    "PERSISTENT_MOMENTUM": "persistent_momentum", "PRICE_VS_EMA": "price_vs_ema", "EMA_SHAKEOUT": "ema_shakeout_reclaim", "ADX": "adx", "PRICE_VS_SMA": "price_vs_sma", "PCT_DAYS_ABOVE_MA": "percent_days_above_ma", "MA_STACK": "ma_stack", "MA_SLOPE": "ma_slope", "PRICE_CHANGE_PCT": "price_change_percent", "CONSECUTIVE_UP_DAYS": "consecutive_up_days", "GAP_UP": "gap_up", "GAP_DOWN": "gap_down", "VOLUME_VS_AVG": "relative_volume", "AVG_VOLUME_RATIO": "volume_trend", "HIGHEST_VOLUME_IN_N_DAYS": "highest_volume", "DELIVERY_PCT_SPIKE": "delivery_percent_spike", "NEW_HIGH": "new_high", "NEW_LOW": "new_low", "PCT_FROM_52W_HIGH": "percent_from_52w_high", "PCT_FROM_52W_LOW": "percent_from_52w_low", "CONSOLIDATION_RANGE": "consolidation_range", "ATR_PCT": "atr_percent", "RANGE_CONTRACTION": "range_contraction", "INSIDE_BAR": "inside_bar", "UNFILLED_GAP": "unfilled_gap", "VCP_LEGS": "vcp_contraction_legs", "HORIZONTAL_RESISTANCE_LINE": "horizontal_resistance_line", "RELATIVE_STRENGTH": "relative_strength", "RS_NEW_HIGH": "rs_new_high", "RS_RATING": "rs_rating", "MARKETCAP": "market_cap", "FF_MARKETCAP": "free_float_market_cap", "PE_RATIO": "pe_ratio", "EARNINGS_GROWTH": "earnings_growth", "DAYS_SINCE_EARNINGS": "days_since_earnings", "SECTOR": "sector", "INDUSTRY": "industry", "AVG_TURNOVER": "average_turnover", "ADR_PCT": "adr_percent", "PRICE_RANGE": "price_range", "PRICE_BAND": "price_band", "CIRCUIT_BAND_MIN": "circuit_band_minimum", "SERIES": "series", "LISTING_AGE_DAYS": "listing_age_days", "INDEX_MEMBERSHIP": "index_membership", "MARKET_BREADTH": "market_breadth", "FNO_BAN": "fno_ban",
+    "PERSISTENT_MOMENTUM": "persistent_momentum", "PRICE_VS_EMA": "price_vs_ema", "EMA_SHAKEOUT": "ema_shakeout_reclaim", "ADX": "adx", "PRICE_VS_SMA": "price_vs_sma", "PCT_DAYS_ABOVE_MA": "percent_days_above_ma", "MA_STACK": "ma_stack", "MA_SLOPE": "ma_slope", "PRICE_CHANGE_PCT": "price_change_percent", "CONSECUTIVE_UP_DAYS": "consecutive_up_days", "GAP_UP": "gap_up", "GAP_DOWN": "gap_down", "VOLUME_VS_AVG": "relative_volume", "AVG_VOLUME_RATIO": "volume_trend", "HIGHEST_VOLUME_IN_N_DAYS": "highest_volume", "DELIVERY_PCT_SPIKE": "delivery_percent_spike", "NEW_HIGH": "new_high", "NEW_LOW": "new_low", "PCT_FROM_52W_HIGH": "percent_from_52w_high", "PCT_FROM_52W_LOW": "percent_from_52w_low", "PCT_FROM_ATH": "percent_from_ath", "CONSOLIDATION_RANGE": "consolidation_range", "ATR_PCT": "atr_percent", "RANGE_CONTRACTION": "range_contraction", "INSIDE_BAR": "inside_bar", "UNFILLED_GAP": "unfilled_gap", "VCP_LEGS": "vcp_contraction_legs", "HORIZONTAL_RESISTANCE_LINE": "horizontal_resistance_line", "RELATIVE_STRENGTH": "relative_strength", "RS_NEW_HIGH": "rs_new_high", "RS_RATING": "rs_rating", "MARKETCAP": "market_cap", "FF_MARKETCAP": "free_float_market_cap", "PE_RATIO": "pe_ratio", "EARNINGS_GROWTH": "earnings_growth", "FUNDAMENTAL_METRIC": "fundamental_metric", "EPS_LAST_YEAR_HIGHER": "eps_last_year_higher", "DAYS_SINCE_EARNINGS": "days_since_earnings", "SECTOR": "sector", "INDUSTRY": "industry", "AVG_TURNOVER": "average_turnover", "ADR_PCT": "adr_percent", "PRICE_RANGE": "price_range", "PRICE_BAND": "price_band", "CIRCUIT_BAND_MIN": "circuit_band_minimum", "SERIES": "series", "LISTING_AGE_DAYS": "listing_age_days", "INDEX_MEMBERSHIP": "index_membership", "MARKET_BREADTH": "market_breadth", "FNO_BAN": "fno_ban", "EXCLUDE_SURVEILLANCE": "exclude_surveillance",
 }
 
 COMPARISON_ALIASES = {"ABOVE": "greater_or_equal", "BELOW": "less_or_equal", "GREATER": "greater", "LESS": "less", "EQUAL": "equal"}
@@ -257,6 +263,13 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
             free_float = _float(stock, "free_float_percent")
             value = cap * free_float / 100 if cap is not None and free_float is not None else None
         else:
+            if "financial_history" in context:
+                current_cap, current_close = _float(stock, "market_cap_crore"), _float(stock, "close")
+                historical_cap = current_cap * float(frame["Close"].iloc[-1]) / current_close if current_cap is not None and current_close not in (None, 0) else None
+                value, details, reason = financial_value(context, stock, spec, as_of_date, historical_cap)
+                if reason:
+                    return unavailable(condition, reason)
+                return result(condition, comparison(value, spec["comparison"], float(spec["value"])), value, **details)
             if not _stock_snapshot_is_aligned(stock, as_of_date):
                 return unavailable(condition, "pe_snapshot_not_aligned_to_screen_date")
             value = _float(stock, "pe_ratio")
@@ -267,6 +280,11 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         return result(condition, comparison(value, spec["comparison"], target), round(value, 6), comparison=spec["comparison"], target=target)
 
     if condition == "earnings_growth":
+        if "financial_history" in context:
+            value, details, reason = financial_value(context, stock, spec, as_of_date, _float(stock, "market_cap_crore"))
+            if reason:
+                return unavailable(condition, reason)
+            return result(condition, comparison(value, spec["comparison"], float(spec["value"])), value, **details)
         if not _stock_snapshot_is_aligned(stock, as_of_date):
             return unavailable(condition, "earnings_snapshot_not_aligned_to_screen_date")
         metric = str(spec.get("metric", "net_profit")).lower()
@@ -286,6 +304,50 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         if age is None or age > max_age: return unavailable(condition, "earnings_filing_too_old")
         target = float(spec["value"])
         return result(condition, comparison(value, spec["comparison"], target), value, metric=metric, basis=basis, report_type=actual_report_type, filing_age_days=age, maximum_filing_age_days=max_age)
+
+    if condition == "percent_from_ath":
+        if not _stock_snapshot_is_aligned(stock, as_of_date):
+            return unavailable(condition, "snapshot_not_aligned_to_screen_date")
+        value = _float(stock, "percent_from_ath")
+        if value is None:
+            return unavailable(condition, "ath_history_unavailable")
+        target = float(spec["value"])
+        return result(condition, comparison(value, spec["comparison"], target), round(value, 6), comparison=spec["comparison"], target=target)
+
+    if condition == "fundamental_metric":
+        if not _stock_snapshot_is_aligned(stock, as_of_date):
+            return unavailable(condition, "snapshot_not_aligned_to_screen_date")
+        field = {
+            "roe": "roe_percent", "roce": "roce_percent", "opm_ttm": "operating_margin_ttm_percent",
+            "debt_to_equity": "debt_to_equity", "peg_ratio": "peg_ratio", "sales_growth_5y": "sales_growth_5_years_percent",
+        }.get(str(spec.get("metric", "")).lower())
+        if field is None:
+            return unavailable(condition, "unsupported_fundamental_metric")
+        value = _float(stock, field)
+        if value is None:
+            return unavailable(condition, "fundamental_metric_unavailable")
+        target = float(spec["value"])
+        return result(condition, comparison(value, spec["comparison"], target), round(value, 6), metric=spec["metric"], comparison=spec["comparison"], target=target)
+
+    if condition == "eps_last_year_higher":
+        if not _stock_snapshot_is_aligned(stock, as_of_date):
+            return unavailable(condition, "snapshot_not_aligned_to_screen_date")
+        latest, prior = _float(stock, "eps_last_year"), _float(stock, "eps_2_years_back")
+        if latest is None or prior is None:
+            return unavailable(condition, "annual_eps_history_unavailable")
+        return result(condition, latest > prior, latest, eps_last_year=latest, eps_2_years_back=prior)
+
+    if condition == "exclude_surveillance":
+        if not _stock_snapshot_is_aligned(stock, as_of_date):
+            return unavailable(condition, "snapshot_not_aligned_to_screen_date")
+        listed_as_of = pd.to_datetime(_value(stock, "surveillance_as_of_date"), errors="coerce")
+        if stock.get("surveillance_available") is not True:
+            return unavailable(condition, "surveillance_lists_unavailable")
+        if as_of_date is None or pd.isna(listed_as_of) or listed_as_of.date() != as_of_date:
+            return unavailable(condition, "surveillance_not_aligned_to_screen_date")
+        is_asm, is_gsm = bool(stock.get("is_asm")), bool(stock.get("is_gsm"))
+        restricted = is_asm or is_gsm
+        return result(condition, not restricted, restricted, is_asm=is_asm, asm_stage=_value(stock, "asm_stage"), is_gsm=is_gsm, gsm_stage=_value(stock, "gsm_stage"), surveillance_as_of_date=listed_as_of.date().isoformat(), surveillance_fetched_at=_value(stock, "surveillance_fetched_at"))
 
     if condition in {"days_since_earnings", "listing_age_days"}:
         if condition == "days_since_earnings" and not _stock_snapshot_is_aligned(stock, as_of_date):

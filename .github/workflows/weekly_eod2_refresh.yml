@@ -73,6 +73,9 @@ jobs:
           python -m unittest discover -s tests -v
           python -m compileall -q .
 
+      - name: Verify scanner publication
+        run: python -m unittest discover -s frontend -p 'test_*.py' -v
+
       - name: Run Pipeline with adjusted-history bootstrap
         env:
           EDL_EOD2_DATA_DIR: ${{ runner.temp }}/eod2_data
@@ -111,6 +114,7 @@ jobs:
           git add "DO NOT DELETE EDL PIPELINE/ipo_screener.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/shareholding_history.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/quarterly_financial_history.json.gz"
+          git add frontend/public/data/current.json frontend/public/data/revisions
           git commit -m "Automated weekly adjusted OHLCV refresh [skip ci]" || echo "No changes to commit"
           git push
 

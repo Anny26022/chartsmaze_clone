@@ -47,6 +47,13 @@ def normalize_object(value):
 
 
 def canonicalize_stock(stock):
+    # Local repair and republish operations may start from the already
+    # canonical gzip artifact. Keep that representation intact instead of
+    # treating its snake_case keys as absent legacy display fields.
+    if "symbol" in stock and "Symbol" not in stock:
+        result = normalize_object(dict(stock))
+        result["schema_version"] = "3.0"
+        return result
     result = {
         "schema_version": "3.0",
         "symbol": stock.get("Symbol"),
