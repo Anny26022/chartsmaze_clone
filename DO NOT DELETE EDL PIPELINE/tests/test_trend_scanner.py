@@ -71,7 +71,7 @@ class TrendScannerTests(unittest.TestCase):
         })
 
     def test_live_bundle_condition_contract_remains_mapped(self):
-        fixture = json.loads((ROOT / "tests" / "fixtures" / "journaltoday_screener_contract.json").read_text())
+        fixture = json.loads((ROOT / "tests" / "fixtures" / "reference_screener_contract.json").read_text())
         self.assertEqual(len(fixture["condition_kinds"]), 47)
         # The local screener may add documented conditions beyond the frozen
         # public bundle, but every bundle condition must remain supported.

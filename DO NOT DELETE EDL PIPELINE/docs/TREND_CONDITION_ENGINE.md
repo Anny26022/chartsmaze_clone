@@ -1,6 +1,6 @@
 # Daily trend-condition engine
 
-`screen_trend_conditions.py` evaluates a JournalToday-compatible expression tree against the local
+`screen_trend_conditions.py` evaluates the published expression tree against the local
 daily `ohlcv_data/*.csv` cache. It is deliberately local and reproducible: it
 does not make a network request while screening.
 
@@ -12,10 +12,9 @@ python3 screen_trend_conditions.py \
 
 ## Named preset library
 
-The scanner ships a versioned, offline copy of the 45 public JournalToday
-v1.0.39 preset definitions. Each has its stable `lib-*` ID, display metadata,
-human-readable rules, and original nested AND/OR expression. They are local
-data, not a runtime scrape.
+The scanner ships a versioned, offline copy of 45 preset definitions. Each has
+its stable `lib-*` ID, display metadata, human-readable rules, and nested
+AND/OR expression. They are local data, not a runtime scrape.
 
 ```bash
 python3 screen_trend_conditions.py --list-presets
@@ -26,9 +25,8 @@ python3 screen_trend_conditions.py --preset lib-horizontal-resistance \
 A saved request can also specify `{ "preset": "lib-vcp" }`. Output carries
 the selected preset's ID, rules, category, and horizon for auditability. The
 public bundle supplies composition and defaults, but not private server
-algorithms for complex primitives. Chartsmaze evaluates those deterministically
-under the contracts below; identical preset names do not imply identical
-third-party result lists.
+algorithms for complex primitives. Nexus evaluates those deterministically
+under the contracts below.
 
 Use `--list-conditions` to obtain the machine-readable registry of supported
 controls. Supported daily-OHLCV conditions are:
@@ -77,7 +75,7 @@ controls. Supported daily-OHLCV conditions are:
   `match` or `no_match`.
 - EMA uses `adjust=False`; ADX uses Wilder smoothing (`alpha = 1 / period`).
 - `price_vs_ema` and `persistent_momentum` default to `extreme_reset`, following
-  the public JournalToday reset description. A contrary close arms its low
+  the published reset description. A contrary close arms its low
   for an above-run or high for a below-run. Only a later session trading beyond
   that extreme resets the run; equality does not reset it. The armed extreme
   survives beyond the requested trailing window. SMA retains `strict_close`.
@@ -124,10 +122,10 @@ controls. Supported daily-OHLCV conditions are:
   highs within the ceiling tolerance are clustered into the same line. The
   base age/depth and price-to-line/20-EMA constraints are then applied.
 
-### JournalToday field-name compatibility
+### Legacy field-name compatibility
 
 The machine-readable registry uses the pipeline's snake_case names. The
-evaluator also accepts the corresponding visible JournalToday keys where they
+evaluator also accepts the corresponding visible legacy keys where they
 differ, such as `lookbackDays`, `withinDays`, `maxRangePct`, `recentDays`,
 `priorMode`, `minGapPct`, `minLegs`, and `clusterTolerancePct`. This permits a
 saved UI rule to be translated without silently changing its parameters.

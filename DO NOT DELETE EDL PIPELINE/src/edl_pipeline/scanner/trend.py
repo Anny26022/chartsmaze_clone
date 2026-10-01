@@ -454,7 +454,7 @@ def _leaf_results(node):
 
 
 def evaluate_history(rows, conditions, as_of_date: str | None = None, delivery_history=None, context=None):
-    """Evaluate a flat legacy list or JournalToday-compatible expression tree."""
+    """Evaluate a flat legacy list or compatible expression tree."""
     frame = normalize_history(pd.DataFrame(rows), as_of_date)
     context = dict(context or {})
     context["delivery_history"] = delivery_history or []

@@ -1,4 +1,4 @@
-"""Artifact-aware screener rules and JournalToday request normalization."""
+"""Artifact-aware screener rules and legacy request normalization."""
 
 from __future__ import annotations
 
@@ -46,10 +46,10 @@ COMPARISON_ALIASES = {"ABOVE": "greater_or_equal", "BELOW": "less_or_equal", "GR
 
 
 def normalize_condition_spec(raw: dict[str, Any]) -> dict[str, Any]:
-    """Translate JournalToday bundle request keys without changing native callers."""
+    """Translate legacy client request keys without changing native callers."""
     spec = dict(raw)
     kind = spec.get("condition") or spec.get("id") or spec.get("kind")
-    journal_kind = str(spec.get("kind") or spec.get("id") or "").upper()
+    legacy_kind = str(spec.get("kind") or spec.get("id") or "").upper()
     condition = KIND_ALIASES.get(str(kind), str(kind).lower())
     params = dict(spec.pop("params", {}) or {})
     spec.update(params)
@@ -71,8 +71,8 @@ def normalize_condition_spec(raw: dict[str, Any]) -> dict[str, Any]:
         spec["comparison"] = "above" if comparison in {"above", "greater", "greater_or_equal"} else "below"
     elif "comparison" in spec:
         spec["comparison"] = COMPARISON_ALIASES.get(str(spec["comparison"]).upper(), str(spec["comparison"]).lower())
-    if condition == "price_change_percent" and journal_kind == "PRICE_CHANGE_PCT" and str(params.get("comparison", "")).upper() == "BELOW":
-        # JournalToday's Price Change UI defines “Below 20%” as a fall of at
+    if condition == "price_change_percent" and legacy_kind == "PRICE_CHANGE_PCT" and str(params.get("comparison", "")).upper() == "BELOW":
+        # The legacy Price Change UI defines “Below 20%” as a fall of at
         # least 20%, not an ordinary return less than +20%.
         spec["value"] = -abs(float(spec["value"]))
     for key in ("direction", "state", "timeframe", "prior_mode", "ma_type", "basis", "metric", "mode", "universe"):
@@ -193,7 +193,7 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
     """Evaluate non-OHLCV-only rules; return ``None`` when not applicable."""
     condition = spec["condition"]
     # ``field_comparison`` belongs to the local text-query compiler, not the
-    # public JournalToday condition registry.  Keeping it out of that registry
+    # published condition registry. Keeping it out of that registry
     # lets the checked-in public-contract fixture remain exact.
     if condition not in CONTEXT_CONDITION_REGISTRY and condition != "field_comparison":
         return None

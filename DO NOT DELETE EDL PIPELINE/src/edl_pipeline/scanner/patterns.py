@@ -1,6 +1,6 @@
 """Range and chart-pattern conditions over normalized daily OHLCV history.
 
-The public condition contract mirrors the JournalToday screener controls.  The
+The published condition contract defines the supported screener controls. The
 calculations are intentionally deterministic and include diagnostics so a
 consumer can explain *which* session, gap, leg, or resistance line matched.
 """
@@ -62,7 +62,7 @@ PATTERN_CONDITION_REGISTRY = {
 
 
 def _pick(spec: dict[str, Any], snake: str, camel: str | None = None, default=None):
-    """Accept the pipeline's snake_case contract and JournalToday's field names."""
+    """Accept the pipeline's snake_case contract and legacy field names."""
     if snake in spec:
         return spec[snake]
     if camel and camel in spec:
