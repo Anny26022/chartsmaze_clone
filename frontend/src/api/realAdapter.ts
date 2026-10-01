@@ -1,12 +1,14 @@
 import type { ScreenerRunRequest, ScreenerRunResponse, IPORow, ExplainRequest, ExplainResponse,
   SymbolComparisonRequest, SymbolComparisonResponse, RevisionCurrentResponse } from '../types/screener';
 import { NEXUS_CONDITION_CATALOG } from '../data/conditionCatalog';
-import { screenSnapshot, type Snapshot } from './snapshotScreen';
+import { runSnapshotTask } from './snapshotClient';
+import type { SnapshotSource } from './snapshotEngine';
 
 interface Manifest {
   revision: string;
   sessionDate: string;
   datasetUrl: string;
+  datasetGzipUrl?: string;
   iposUrl: string;
   totalStocks: number;
   schemaVersion: number;
@@ -14,7 +16,6 @@ interface Manifest {
   chartRevision?: string;
 }
 let current: Manifest | undefined;
-const snapshots = new Map<string, Promise<Snapshot>>();
 const ipoSnapshots = new Map<string, Promise<IPORow[]>>();
 
 export interface ChartSnapshot {
@@ -68,6 +69,7 @@ function validateManifest(value: unknown): Manifest {
   const validDate = (date: unknown) => typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date)
     && !Number.isNaN(Date.parse(date)) && new Date(date).toISOString().slice(0, 10) === date;
   if (!manifest || !/^[a-f0-9]{64}$/.test(manifest.revision) || ![4, 5, 6].includes(manifest.schemaVersion)
+      || (manifest.datasetGzipUrl !== undefined && (!validUrl(manifest.datasetGzipUrl) || !manifest.datasetGzipUrl.endsWith('.json.gz')))
       || !validDate(manifest.sessionDate) || !validUrl(manifest.datasetUrl) || !validUrl(manifest.iposUrl)
       || !Number.isInteger(manifest.totalStocks) || manifest.totalStocks < 0
       || (manifest.chartRevision !== undefined && !/^[a-f0-9]{64}$/.test(manifest.chartRevision))
@@ -85,19 +87,15 @@ export async function refreshManifest(): Promise<Manifest> {
   return manifest;
 }
 
-async function loadSnapshot(revision?: string): Promise<Snapshot> {
+async function snapshotSource(revision?: string): Promise<SnapshotSource> {
   const manifest = current ?? await refreshManifest();
   const selected = revision ?? manifest.revision;
   if (!/^[a-f0-9]{64}$/.test(selected)) throw new Error('Invalid dataset revision');
-  if (!snapshots.has(selected)) {
-    const loading = getJson<Snapshot>(`/data/revisions/${selected}/stocks.json`).then(data => {
-      if (data.revision !== selected) throw new Error('Dataset revision mismatch');
-      return data;
-    }).catch(error => { snapshots.delete(selected); throw error; });
-    snapshots.set(selected, loading);
-    if (snapshots.size > 3) snapshots.delete(snapshots.keys().next().value!);
-  }
-  return snapshots.get(selected)!;
+  // Older revisions retain their original JSON URL; current releases advertise gzip.
+  return { revision:selected,
+    url:selected === manifest.revision ? (typeof DecompressionStream !== 'undefined' ? manifest.datasetGzipUrl : undefined) ?? manifest.datasetUrl
+      : `/data/revisions/${selected}/stocks.json`,
+    sessionDate:selected === manifest.revision ? manifest.sessionDate : undefined };
 }
 
 class RealDataAdapter {
@@ -108,12 +106,12 @@ class RealDataAdapter {
   }
 
   async runScreen(req: ScreenerRunRequest): Promise<ScreenerRunResponse> {
-    const snapshot = await loadSnapshot(req.datasetRevision);
-    const result = screenSnapshot(snapshot, req);
-    if (result) return result;
+    const snapshot = await runSnapshotTask({type:'screen',source:await snapshotSource(req.datasetRevision),request:req});
+    if (snapshot.type !== 'screen') throw new Error('Unexpected scanner response');
+    if (snapshot.result) return snapshot.result;
     const base = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/$/, '');
     const response = await fetch(`${base}/screens/run`, { method:'POST', headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({...req,asOfDate:snapshot.asOfDate,datasetRevision:snapshot.revision}) });
+      body:JSON.stringify({...req,asOfDate:snapshot.sessionDate,datasetRevision:snapshot.revision}) });
     const payload = await response.json().catch(() => null);
     if (!response.ok || payload?.error) throw new Error(payload?.error || `Scanner request failed (HTTP ${response.status})`);
     if (payload?.immutableRevision !== snapshot.revision || !Array.isArray(payload.rows)) throw new Error('Scanner returned a different dataset revision');
@@ -151,14 +149,9 @@ class RealDataAdapter {
   }
 
   async compareSymbols(req: SymbolComparisonRequest): Promise<SymbolComparisonResponse> {
-    const data = await loadSnapshot();
-    const validSymbols: SymbolComparisonResponse['validSymbols'] = [], invalidSymbols: string[] = [];
-    for (const input of req.symbols) {
-      const symbol = input.trim().toUpperCase(), stock = data.stocks.find(s => s.symbol === symbol);
-      if (!stock) { invalidSymbols.push(symbol); continue; }
-      validSymbols.push({...stock,rvol:stock.rvol ?? 0,isValid:true,sma50Status:stock.sma50 == null ? 'Unavailable' : stock.close > stock.sma50 ? 'Above SMA50' : 'Below SMA50'});
-    }
-    return {validSymbols,invalidSymbols,sessionDate:data.asOfDate,immutableRevision:data.revision};
+    const response = await runSnapshotTask({type:'compare',source:await snapshotSource(),symbols:req.symbols});
+    if (response.type !== 'compare') throw new Error('Unexpected comparison response');
+    return response.result;
   }
 
   async getCurrentRevision(): Promise<RevisionCurrentResponse> {

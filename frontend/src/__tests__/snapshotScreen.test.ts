@@ -52,11 +52,11 @@ describe('published snapshots', () => {
   it('refreshes a same-session correction and pins Python fallback to that revision', async () => {
     vi.resetModules();
     const revision = 'a'.repeat(64), next = 'b'.repeat(64);
-    const data = {...snapshot,revision,stocks:[{...snapshot.stocks[0],rvol:2,metrics:{sma50:0}}]};
+    const data = {...snapshot,totalStocks:1,revision,stocks:[{...snapshot.stocks[0],rvol:2,metrics:{sma50:0}}]};
     const corrected = {...data,revision:next,stocks:[{...data.stocks[0],rvol:1}]};
     let current = revision;
     const fetcher = vi.fn(async (url: string, options?: RequestInit) => {
-      if (url === '/data/current.json') return new Response(JSON.stringify({...manifest,revision:current}));
+      if (url === '/data/current.json') return new Response(JSON.stringify({...manifest,datasetGzipUrl:undefined,datasetUrl:`/data/revisions/${current}/stocks.json`,revision:current}));
       if (url.includes(`/revisions/${revision}/stocks.json`)) return new Response(JSON.stringify(data));
       if (url.includes(`/revisions/${next}/stocks.json`)) return new Response(JSON.stringify(corrected));
       const body = JSON.parse(options!.body as string);

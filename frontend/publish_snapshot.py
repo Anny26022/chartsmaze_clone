@@ -136,11 +136,15 @@ def publish(root=bridge.ROOT, output=OUTPUT):
     if not (backend/'scanner_revision.json').exists():
         write_json(backend/'scanner_revision.json',{'revision':revision,'historyRevision':history_revision})
     payload={'revision':revision,'asOfDate':session,'totalStocks':len(rows),'stocks':rows,'referenceCounts':{'rvol15Sma50':default_count}}
-    write_json(generation/'stocks.json',payload)
+    stock_bytes=write_json(generation/'stocks.json',payload)
+    compressed=gzip.compress(stock_bytes,compresslevel=6,mtime=0)
+    compressed_path=generation/'stocks.json.gz'
+    temporary=compressed_path.with_name(compressed_path.name+'.tmp')
+    temporary.write_bytes(compressed); temporary.replace(compressed_path)
     with gzip.open(root/'ipo_screener.json.gz','rt') as handle:
         ipos=json.load(handle)
     write_json(generation/'ipos.json',ipos.get('records',[]) if isinstance(ipos,dict) else ipos)
-    manifest={'revision':revision,'sessionDate':session,'publishedAt':datetime.now(timezone.utc).isoformat(),'schemaVersion':4,'totalStocks':len(rows),'datasetUrl':f'/data/revisions/{revision}/stocks.json','iposUrl':f'/data/revisions/{revision}/ipos.json'}
+    manifest={'revision':revision,'sessionDate':session,'publishedAt':datetime.now(timezone.utc).isoformat(),'schemaVersion':4,'totalStocks':len(rows),'datasetUrl':f'/data/revisions/{revision}/stocks.json','iposUrl':f'/data/revisions/{revision}/ipos.json','datasetGzipUrl':f'/data/revisions/{revision}/stocks.json.gz'}
     manifest = complete_release(chart_root, output, manifest)
     print(f'Published scanner revision {revision[:12]}: {len(rows)} stocks, {len(presets)} presets',flush=True)
     return manifest

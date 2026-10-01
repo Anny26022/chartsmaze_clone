@@ -123,25 +123,38 @@ function compile(node: ExpressionNode, session: string): Predicate | null {
   return s => combine(children.map(fn => fn!(s)), node.operator === 'all');
 }
 
+interface Matches { rows: SnapshotStock[]; universeCount: number }
+const matchCache = new WeakMap<Snapshot,Map<string,Matches>>();
+
 export function screenSnapshot(data: Snapshot, request: ScreenerRunRequest): ScreenerRunResponse | null {
-  const predicate = compile(request.expressionTree, data.asOfDate);
-  if (!predicate) return null;
-  const labels: Record<string, string[]> = {
-    nifty50:['NIFTY 50','NIFTY50'], nifty500:['NIFTY 500','NIFTY500'],
-    midsmall400:['NIFTY MIDSMALLCAP 400','NIFTY MIDSMALL 400','MIDSMALL400'],
-  };
-  const symbols = new Set(request.customSymbols?.map(s => s.toUpperCase()));
-  const universe = data.stocks.filter(s => request.universe === 'custom' ? symbols.has(s.symbol)
-    : request.universe === 'mainboard' || s.indexMemberships.some(label => labels[request.universe]?.includes(label.toUpperCase())));
-  const rows = universe.filter(s => predicate(s) === true && number(s.close) != null);
-  const field = (request.sort?.field ?? 'symbol') as keyof SnapshotStock;
-  rows.sort((a,b) => {
-    const x = a[field], y = b[field];
-    const order = x == null ? y == null ? 0 : -1 : y == null ? 1 : x < y ? -1 : x > y ? 1 : 0;
-    return request.sort?.direction === 'desc' ? -order : order;
-  });
+  const key = JSON.stringify([request.expressionTree,request.universe,request.customSymbols,request.sort]);
+  let cache = matchCache.get(data);
+  if (!cache) { cache = new Map(); matchCache.set(data,cache); }
+  let matches = cache.get(key);
+  if (!matches) {
+    const predicate = compile(request.expressionTree, data.asOfDate);
+    if (!predicate) return null;
+    const labels: Record<string, string[]> = {
+      nifty50:['NIFTY 50','NIFTY50'], nifty500:['NIFTY 500','NIFTY500'],
+      midsmall400:['NIFTY MIDSMALLCAP 400','NIFTY MIDSMALL 400','MIDSMALL400'],
+    };
+    const symbols = new Set(request.customSymbols?.map(s => s.toUpperCase()));
+    const universe = data.stocks.filter(s => request.universe === 'custom' ? symbols.has(s.symbol)
+      : request.universe === 'mainboard' || s.indexMemberships.some(label => labels[request.universe]?.includes(label.toUpperCase())));
+    const rows = universe.filter(s => predicate(s) === true && number(s.close) != null);
+    const field = (request.sort?.field ?? 'symbol') as keyof SnapshotStock;
+    rows.sort((a,b) => {
+      const x = a[field], y = b[field];
+      const order = x == null ? y == null ? 0 : -1 : y == null ? 1 : x < y ? -1 : x > y ? 1 : 0;
+      return request.sort?.direction === 'desc' ? -order : order;
+    });
+    matches = {rows,universeCount:universe.length};
+    cache.set(key,matches);
+    if (cache.size > 4) cache.delete(cache.keys().next().value!);
+  }
+  const rows = matches.rows;
   const page = Math.max(1,request.page), size = Math.max(1,Math.min(100,request.pageSize));
   return { resolvedSession:{date:data.asOfDate,sessionId:`NSE-${data.asOfDate.replaceAll('-','')}-FINAL`,status:'closed',isHistorical:false},
-    immutableRevision:data.revision,rows:rows.slice((page-1)*size,page*size),matchCount:rows.length,totalUniverseCount:universe.length,
+    immutableRevision:data.revision,rows:rows.slice((page-1)*size,page*size),matchCount:rows.length,totalUniverseCount:matches.universeCount,
     page,pageSize:size,perConditionCoverage:{},unavailableDiagnostics:[],warnings:[] };
 }

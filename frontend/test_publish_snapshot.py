@@ -36,6 +36,9 @@ class SnapshotPublicationTests(unittest.TestCase):
             first=publish(root,output)
             self.fixture(root,cap=6000)
             second=publish(root,output)
+            compressed=(output/'revisions'/second['revision']/'stocks.json.gz').read_bytes()
+            self.assertEqual(gzip.decompress(compressed),(output/'revisions'/second['revision']/'stocks.json').read_bytes())
+            self.assertEqual(second['datasetGzipUrl'],f"/data/revisions/{second['revision']}/stocks.json.gz")
             self.assertNotEqual(first['revision'],second['revision'])
             self.assertEqual(json.loads((output/'current.json').read_text())['revision'],second['revision'])
             request={'asOfDate':'2026-09-30','universe':'mainboard','expressionTree':{'type':'group','operator':'all','children':[]},'datasetRevision':first['revision']}
