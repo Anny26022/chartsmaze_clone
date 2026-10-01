@@ -80,6 +80,37 @@ jobs:
           cd "DO NOT DELETE EDL PIPELINE"
           python run_full_pipeline.py
 
+      - name: Build chart artifacts
+        run: python "DO NOT DELETE EDL PIPELINE/build_chart_artifacts.py"
+
+      - name: Sync chart artifacts to R2
+        if: ${{ secrets.R2_ACCESS_KEY_ID != '' && secrets.R2_SECRET_ACCESS_KEY != '' }}
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: nexus-screener-chart-data
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq rclone
+          cat > "$RUNNER_TEMP/rclone.conf" <<EOF
+          [r2]
+          type = s3
+          provider = Cloudflare
+          access_key_id = $R2_ACCESS_KEY_ID
+          secret_access_key = $R2_SECRET_ACCESS_KEY
+          endpoint = https://$R2_ACCOUNT_ID.r2.cloudflarestorage.com
+          region = auto
+          EOF
+          SESSION=$(python -c 'import json; print(json.load(open("DO NOT DELETE EDL PIPELINE/chart_artifacts/index.json"))["asOfDate"])')
+          REVISION=$(python -c 'import json; print(json.load(open("DO NOT DELETE EDL PIPELINE/chart_artifacts/index.json"))["revision"])')
+          DESTINATION="r2:$R2_BUCKET/revisions/$REVISION/charts"
+          rclone copy "DO NOT DELETE EDL PIPELINE/chart_artifacts" "$DESTINATION" --config "$RUNNER_TEMP/rclone.conf" --exclude index.json --transfers 32 --checkers 16 --s3-no-check-bucket
+          rclone copy "DO NOT DELETE EDL PIPELINE/chart_artifacts/index.json" "$DESTINATION" --config "$RUNNER_TEMP/rclone.conf" --transfers 1 --s3-no-check-bucket
+          mkdir -p "$RUNNER_TEMP/r2-manifest"
+          printf '{"revision":"%s","asOfDate":"%s","indexKey":"revisions/%s/charts/index.json"}\n' "$REVISION" "$SESSION" "$REVISION" > "$RUNNER_TEMP/r2-manifest/current.json"
+          rclone copy "$RUNNER_TEMP/r2-manifest/current.json" "r2:$R2_BUCKET/manifests" --config "$RUNNER_TEMP/rclone.conf" --transfers 1 --s3-no-check-bucket
+
       - name: Commit and Push Results
         run: |
           git config --global user.name "GitHub Actions"
