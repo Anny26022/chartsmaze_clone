@@ -52,3 +52,15 @@ class SnapshotPublicationTests(unittest.TestCase):
             (root/'ipo_screener.json.gz').write_bytes(b'not gzip')
             with self.assertRaises(OSError): publish(root,output)
             self.assertEqual((output/'current.json').read_bytes(),original)
+
+    def test_scanner_only_and_chart_release_have_distinct_revisions(self):
+        import os
+        with tempfile.TemporaryDirectory() as folder,patch('publish_snapshot.list_presets',return_value=[{'id':'lib-easy-money'}]):
+            root=Path(folder)/'edl';root.mkdir();output=Path(folder)/'public';self.fixture(root)
+            with patch.dict(os.environ,{'EDL_CHART_STORAGE':'r2'},clear=True):
+                scanner=publish(root,output)
+            with patch.dict(os.environ,{'EDL_CHART_STORAGE':'local'},clear=True):
+                charts=publish(root,output)
+            self.assertEqual(scanner['schemaVersion'],4)
+            self.assertEqual(charts['schemaVersion'],6)
+            self.assertNotEqual(scanner['revision'],charts['revision'])

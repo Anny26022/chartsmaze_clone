@@ -21,6 +21,17 @@ def write_json(path, payload):
     temporary.replace(path)
 
 
+R2_SETTINGS = ('R2_ACCOUNT_ID', 'R2_ACCESS_KEY_ID', 'R2_SECRET_ACCESS_KEY', 'R2_PUBLIC_BASE_URL')
+
+
+def missing_r2_settings():
+    return [key for key in R2_SETTINGS if not os.environ.get(key, '').strip()]
+
+
+def charts_enabled():
+    return os.environ.get('EDL_CHART_STORAGE', 'local') != 'r2' or not missing_r2_settings()
+
+
 def chart_revision(root, session):
     if not (root / 'index.json').is_file():
         raise RuntimeError('Chart artifacts are missing; run build_chart_artifacts.py before publishing the snapshot')
@@ -44,8 +55,7 @@ def chart_revision(root, session):
 
 class R2Store:
     def __init__(self):
-        required = ('R2_ACCOUNT_ID', 'R2_ACCESS_KEY_ID', 'R2_SECRET_ACCESS_KEY', 'R2_PUBLIC_BASE_URL')
-        missing = [key for key in required if not os.environ.get(key)]
+        missing = missing_r2_settings()
         if missing:
             raise RuntimeError('R2 publication requires: ' + ', '.join(missing))
         self.base_url = os.environ['R2_PUBLIC_BASE_URL'].rstrip('/')
@@ -93,6 +103,14 @@ class R2Store:
 
 def complete_release(chart_root, output, manifest, store=None):
     """Failed uploads/archival leave the previous browser pointer intact."""
+    if store is None and not charts_enabled():
+        print('WARNING: R2 configuration missing (' + ', '.join(missing_r2_settings()) + '); publishing scanner data without charts.', flush=True)
+        manifest = dict(manifest, schemaVersion=4)
+        for key in ('chartRevision', 'chartUrlTemplate', 'chartObjectPrefix'):
+            manifest.pop(key, None)
+        write_json(output / 'revisions' / manifest['revision'] / 'release.json', manifest)
+        write_json(output / 'current.json', manifest)
+        return manifest
     revision = chart_revision(chart_root, manifest['sessionDate'])
     manifest = dict(manifest, schemaVersion=6, chartRevision=revision)
     existing_release = output / 'revisions' / manifest['revision'] / 'release.json'

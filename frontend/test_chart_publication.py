@@ -1,4 +1,6 @@
 import gzip
+import os
+from unittest.mock import patch
 import json
 from pathlib import Path
 import subprocess
@@ -124,3 +126,27 @@ class PublicationTests(unittest.TestCase):
             root=Path(folder)
             with self.assertRaisesRegex(RuntimeError,'run build_chart_artifacts.py'):
                 complete_release(root/'missing',root,dict(revision='a'*64,sessionDate='2026-09-30'))
+
+    def test_missing_and_partial_configuration_skip_r2_and_charts(self):
+        for partial in ({}, {'R2_ACCOUNT_ID':'a'}, {'R2_ACCOUNT_ID':'a','R2_ACCESS_KEY_ID':'k','R2_SECRET_ACCESS_KEY':'s'}):
+            with tempfile.TemporaryDirectory() as folder:
+                charts,output,manifest=self.fixture(Path(folder))
+                with patch.dict(os.environ,dict(partial,EDL_CHART_STORAGE='r2'),clear=True),patch('chart_publication.R2Store') as store:
+                    release=complete_release(Path(folder)/'absent',output,manifest)
+                store.assert_not_called()
+                self.assertEqual(release['schemaVersion'],4)
+                self.assertNotIn('chartRevision',release)
+                self.assertNotIn('chartUrlTemplate',release)
+                self.assertFalse((output/'charts').exists())
+                self.assertEqual(json.loads((output/'current.json').read_text()),release)
+
+    def test_configured_upload_failure_preserves_pointer(self):
+        with tempfile.TemporaryDirectory() as folder:
+            charts,output,manifest=self.fixture(Path(folder))
+            complete_release(charts,output,manifest,Store())
+            previous=(output/'current.json').read_bytes()
+            settings=dict(EDL_CHART_STORAGE='r2',R2_ACCOUNT_ID='a',R2_ACCESS_KEY_ID='k',R2_SECRET_ACCESS_KEY='s',R2_PUBLIC_BASE_URL='https://charts.example.com')
+            with patch.dict(os.environ,settings,clear=True),patch('chart_publication.R2Store',return_value=Store('upload')):
+                with self.assertRaisesRegex(RuntimeError,'upload failed'):
+                    complete_release(charts,output,dict(manifest,revision='b'*64))
+            self.assertEqual((output/'current.json').read_bytes(),previous)

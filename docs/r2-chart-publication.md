@@ -14,7 +14,10 @@ GitHub Actions requires secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, and
 public/custom-domain delivery URL for `nexus-screener-chart-data`). Configure
 cross-origin GET access for the frontend origin. These credentials must have
 read/write access because publication verifies uploads and archives prior releases.
-Missing configuration or upload failure stops publication before the Git commit.
+Missing or partial configuration logs a warning and publishes fresh schema-4
+scanner data without chart URLs, R2 requests, or frontend chart-cache copying.
+With all four settings present, invalid settings or upload/verification/archive
+failures stop publication before the Git commit and preserve the active release.
 Local development defaults to an ignored `/data/charts/<chart-revision>/` cache.
 Chart bytes are `application/gzip`, without `Content-Encoding: gzip`; the browser
 explicitly decompresses them. Cache immutable chart URLs, but bypass CDN/browser
