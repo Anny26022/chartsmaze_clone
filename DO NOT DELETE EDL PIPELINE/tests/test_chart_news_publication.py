@@ -21,8 +21,8 @@ class ChartNewsPublicationTests(unittest.TestCase):
             destination=Path(folder)
             stages=[]
             def worker(command, cwd, env):
-                if command[1].endswith('publish_snapshot.py'):
-                    return mock.Mock(returncode=0)
+                self.assertEqual(command[1], '-c')
+                self.assertIn('edl_pipeline.runner', command[2])
                 stage=Path(cwd); stages.append(stage)
                 self.assertEqual(env['EDL_CLEANUP_INTERMEDIATE'],'0')
                 for spec in FINAL_ARTIFACT_SPECS:
@@ -45,6 +45,7 @@ class ChartNewsPublicationTests(unittest.TestCase):
                 return mock.Mock(returncode=0)
             with mock.patch.object(publication.pipeline_utils,'BASE_DIR',str(destination)), \
                  mock.patch.object(publication.subprocess,'run',side_effect=worker), \
+                 mock.patch.object(publication,'publish_frontend'), \
                  mock.patch.object(publication,'inspect_publication',return_value={'errors':[]}), \
                  mock.patch.dict('os.environ',{'EDL_FETCH_OHLCV':'1'}):
                 self.assertEqual(publication.main(),0)
@@ -72,3 +73,39 @@ class ChartNewsPublicationTests(unittest.TestCase):
         self.assertEqual(build_chart_artifacts._event_date('2026-09-30T12:00:00Z'),'2026-09-30')
         for value in (0, -1, float('nan'), float('inf'), 10**30, None, 'invalid'):
             self.assertIsNone(build_chart_artifacts._event_date(value))
+
+class PromotionRecoveryTests(unittest.TestCase):
+    def fixture(self, folder):
+        root=Path(folder); stage=root/'stage'; destination=root/'published'
+        stage.mkdir(); destination.mkdir()
+        (stage/'stock.json').write_text('new'); (destination/'stock.json').write_text('old')
+        for base,value in ((stage,'new'),(destination,'old')):
+            (base/'chart_artifacts').mkdir(); (base/'chart_artifacts/index.json').write_text(value)
+        return stage,destination
+
+    def test_partial_copy_is_removed_and_previous_release_preserved(self):
+        with tempfile.TemporaryDirectory() as folder:
+            stage,destination=self.fixture(folder)
+            def broken(source,target):
+                target.mkdir(); (target/'partial').write_text('partial'); raise OSError('disk full')
+            with mock.patch.object(publication.shutil,'copytree',side_effect=broken):
+                with self.assertRaises(OSError): publication.promote(stage,destination,['stock.json'],('chart_artifacts',))
+            self.assertFalse((destination/'.chart_artifacts.incoming').exists())
+            self.assertEqual((destination/'stock.json').read_text(),'old')
+            self.assertEqual((destination/'chart_artifacts/index.json').read_text(),'old')
+
+    def test_failed_frontend_publication_rolls_back_files_and_charts(self):
+        with tempfile.TemporaryDirectory() as folder:
+            stage,destination=self.fixture(folder)
+            def fail(): raise RuntimeError('upload failed')
+            with self.assertRaises(RuntimeError): publication.promote(stage,destination,['stock.json'],('chart_artifacts',),after=fail)
+            self.assertEqual((destination/'stock.json').read_text(),'old')
+            self.assertEqual((destination/'chart_artifacts/index.json').read_text(),'old')
+
+    def test_interrupted_swap_recovers_previous_before_failed_copy(self):
+        with tempfile.TemporaryDirectory() as folder:
+            stage,destination=self.fixture(folder)
+            (destination/'chart_artifacts').replace(destination/'.chart_artifacts.previous')
+            with mock.patch.object(publication.shutil,'copytree',side_effect=OSError('disk full')):
+                with self.assertRaises(OSError): publication.promote_directory(stage,destination,'chart_artifacts')
+            self.assertEqual((destination/'chart_artifacts/index.json').read_text(),'old')

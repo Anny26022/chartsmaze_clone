@@ -22,6 +22,8 @@ def write_json(path, payload):
 
 
 def chart_revision(root, session):
+    if not (root / 'index.json').is_file():
+        raise RuntimeError('Chart artifacts are missing; run build_chart_artifacts.py before publishing the snapshot')
     index = json.loads((root / 'index.json').read_text())
     files = sorted(root.glob('*.json.gz'))
     if index.get('asOfDate') != session or index.get('symbols') != len(files) or not files:
@@ -80,6 +82,7 @@ class R2Store:
         archived = dict(previous, chartObjectPrefix=target,
                         chartUrlTemplate=f'{self.base_url}/{target}/{{symbol}}.json.gz')
         self.write_release(archived, f'monthly/{month}/{previous["chartRevision"]}/releases/{previous["revision"]}.json')
+        return archived
 
     def write_release(self, manifest, key):
         with tempfile.TemporaryDirectory() as folder:
@@ -108,7 +111,10 @@ def complete_release(chart_root, output, manifest, store=None):
             raise RuntimeError('Refusing to publish an older session over the current release')
         if previous and previous['sessionDate'][:7] < manifest['sessionDate'][:7]:
             if previous.get('chartObjectPrefix'):
-                store.archive(previous, previous['sessionDate'][:7])
+                archived = store.archive(previous, previous['sessionDate'][:7])
+                write_json(output / 'revisions' / previous['revision'] / 'release.json', archived)
+        # Stable across fresh runners retrying after upload but before the Git commit.
+        manifest['publishedAt'] = manifest['sessionDate'] + 'T00:00:00Z'
         key = f'daily/{manifest["sessionDate"]}/{revision}/charts'
         manifest.update(chartObjectPrefix=key, chartUrlTemplate=f'{store.base_url}/{key}/{{symbol}}.json.gz')
         store.upload_charts(chart_root, key)

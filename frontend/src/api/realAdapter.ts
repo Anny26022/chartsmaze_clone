@@ -37,17 +37,50 @@ async function getJson<T>(url: string, fresh = false): Promise<T> {
 }
 
 async function getChartJson<T>(url: string): Promise<T> {
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`Chart request failed (HTTP ${response.status})`);
-  if (!('DecompressionStream' in window)) throw new Error('This browser cannot read compressed chart data');
-  const stream = response.body?.pipeThrough(new DecompressionStream('gzip'));
-  if (!stream) throw new Error('Chart response has no body');
-  return JSON.parse(await new Response(stream).text()) as T;
+  try {
+    const response = await fetch(url);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const bytes = new Uint8Array(await response.arrayBuffer());
+    if (!bytes.length) throw new Error('Empty chart');
+    let text: string;
+    if (bytes[0] === 0x1f && bytes[1] === 0x8b) {
+      if (typeof DecompressionStream === 'undefined') throw new Error('Gzip unsupported');
+      const stream = new Response(bytes).body!.pipeThrough(new DecompressionStream('gzip'));
+      text = await new Response(stream).text();
+    } else if (response.headers.get('Content-Encoding')?.toLowerCase() === 'gzip') {
+      // Fetch has already decoded a CDN response with Content-Encoding: gzip.
+      text = new TextDecoder().decode(bytes);
+    } else {
+      throw new Error('Expected a compressed chart');
+    }
+    const payload = JSON.parse(text);
+    if (!payload || typeof payload !== 'object') throw new Error('Invalid chart');
+    return payload as T;
+  } catch {
+    throw new Error('Chart data unavailable');
+  }
+}
+
+function validateManifest(value: unknown): Manifest {
+  const manifest = value as Manifest | null;
+  const validUrl = (url: unknown) => typeof url === 'string' && !/\s/.test(url)
+    && (/^\/(?!\/).+/.test(url) || /^https:\/\/[^/]+\/.+/.test(url));
+  const validDate = (date: unknown) => typeof date === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(date)
+    && !Number.isNaN(Date.parse(date)) && new Date(date).toISOString().slice(0, 10) === date;
+  if (!manifest || !/^[a-f0-9]{64}$/.test(manifest.revision) || ![4, 5, 6].includes(manifest.schemaVersion)
+      || !validDate(manifest.sessionDate) || !validUrl(manifest.datasetUrl) || !validUrl(manifest.iposUrl)
+      || !Number.isInteger(manifest.totalStocks) || manifest.totalStocks < 0
+      || (manifest.chartRevision !== undefined && !/^[a-f0-9]{64}$/.test(manifest.chartRevision))
+      || (manifest.schemaVersion === 6 && !manifest.chartUrlTemplate)
+      || (manifest.chartUrlTemplate !== undefined && (!validUrl(manifest.chartUrlTemplate)
+          || manifest.chartUrlTemplate.split('{symbol}').length !== 2))) {
+    throw new Error('Invalid scanner dataset manifest');
+  }
+  return manifest;
 }
 
 export async function refreshManifest(): Promise<Manifest> {
-  const manifest = await getJson<Manifest>('/data/current.json', true);
-  if (!/^[a-f0-9]{64}$/.test(manifest.revision) || ![4, 5, 6].includes(manifest.schemaVersion)) throw new Error('Invalid scanner dataset manifest');
+  const manifest = validateManifest(await getJson<unknown>('/data/current.json', true));
   current = manifest;
   return manifest;
 }
@@ -109,7 +142,7 @@ class RealDataAdapter {
     if (!/^[A-Z0-9&_-]+$/.test(symbol)) throw new Error('Invalid symbol');
     if (!/^[a-f0-9]{64}$/.test(selected)) throw new Error('Invalid dataset revision');
     const release = selected === manifest.revision ? manifest
-      : await getJson<Manifest>(`/data/revisions/${selected}/release.json`);
+      : validateManifest(await getJson<unknown>(`/data/revisions/${selected}/release.json`));
     if (release.revision !== selected || !release.chartUrlTemplate) throw new Error('Chart release unavailable');
     const url = release.chartUrlTemplate.replace('{symbol}', encodeURIComponent(symbol));
     const chart = await getChartJson<ChartSnapshot>(url);

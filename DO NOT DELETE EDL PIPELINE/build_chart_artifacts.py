@@ -190,7 +190,7 @@ def main() -> int:
             "regulatoryAnnouncements": sorted(filings[symbol], key=lambda row: row["date"], reverse=True),
             "marketNews": sorted(news[symbol], key=lambda row: row["date"], reverse=True)[:50],
         }
-        compressed = _write_gzip_json(temporary / f"{symbol}.json.gz", payload)
+        _write_gzip_json(temporary / f"{symbol}.json.gz", payload)
         count += 1
     revision = hashlib.sha256()
     for path in sorted(temporary.glob("*.json.gz")):

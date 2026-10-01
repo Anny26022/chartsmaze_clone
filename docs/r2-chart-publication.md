@@ -3,7 +3,9 @@
 The scanner and chart files share one release manifest: `frontend/public/data/current.json`.
 It contains the scanner revision, session date, immutable scanner/IPO URLs, chart revision,
 and chart URL template. Per-scanner `release.json` files let open screens keep their revision.
-There is no separate mutable R2 current pointer.
+New publications do not use a separate mutable R2 current pointer. The legacy
+`manifests/current.json` object may still exist in R2; it is obsolete, is not
+updated, and is not read by the application.
 
 ## Configuration
 
@@ -28,7 +30,9 @@ They verify chart count, payload symbol/session and content revision before uplo
 Uploads are checked against their source, and charts never enter frontend Git revisions.
 The shared manifest is written only after upload and any required month-end archive succeed.
 Git publishes the scanner snapshot and pointer together. R2 stores only immutable objects.
-Reruns use checksums and preserve the original release publication timestamp.
+Reruns use checksums. R2 release `publishedAt` is the session date at 00:00 UTC,
+a deterministic release timestamp rather than the actual upload time; this makes
+retries from a fresh runner produce identical immutable metadata.
 
 ## Retention
 
@@ -36,6 +40,8 @@ Reruns use checksums and preserve the original release publication timestamp.
 - `monthly/<YYYY-MM>/<chart-revision>/`: keep indefinitely.
 - The first successful publication in a new month archives the previous month's
   latest successful trading session, including its chart index and release metadata.
+  After archival succeeds, the previous Git `release.json` is updated to its
+  monthly chart URL so historical chart requests reach the retained objects.
   Weekends/holidays require no calendar-day guess. If a month has no successful
   publication, there is no fabricated month-end release.
 - Daily/weekly runs are serialized with the same workflow concurrency group.

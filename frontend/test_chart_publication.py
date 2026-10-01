@@ -16,6 +16,8 @@ class Store:
     def archive(self, previous, month):
         self.calls.append(('archive', month, previous['chartObjectPrefix']))
         if self.fail == 'archive': raise RuntimeError('archive failed')
+        target=f'monthly/{month}/{previous["chartRevision"]}/charts'
+        return dict(previous,chartObjectPrefix=target,chartUrlTemplate=f'{self.base_url}/{target}/{{symbol}}.json.gz')
     def upload_charts(self, root, key):
         self.calls.append(('upload', key))
         if self.fail == 'upload': raise RuntimeError('upload failed')
@@ -50,6 +52,8 @@ class PublicationTests(unittest.TestCase):
             store = Store(); complete_release(charts, output, dict(manifest, revision='b'*64), store)
             self.assertEqual(store.calls[0], ('archive', '2026-07', previous['chartObjectPrefix']))
             self.assertTrue(store.calls[1][1].startswith('daily/2026-08-03/'))
+            archived=json.loads((output/'revisions'/previous['revision']/'release.json').read_text())
+            self.assertIn('/monthly/2026-07/',archived['chartUrlTemplate'])
 
     def test_every_remote_failure_preserves_current_pointer(self):
         for failure in ('archive', 'upload', 'release'):
@@ -105,3 +109,18 @@ class PublicationTests(unittest.TestCase):
             first=complete_release(charts,output,dict(manifest,publishedAt='2026-10-01T01:00:00Z'),Store())
             second=complete_release(charts,output,dict(manifest,publishedAt='2026-10-01T02:00:00Z'),Store())
             self.assertEqual(first,second)
+
+    def test_retry_from_fresh_checkout_produces_identical_remote_metadata(self):
+        with tempfile.TemporaryDirectory() as folder:
+            charts,output,manifest=self.fixture(Path(folder))
+            first=complete_release(charts,output,dict(manifest,publishedAt='2026-10-01T01:00:00Z'),Store())
+            (output/'revisions'/manifest['revision']/'release.json').unlink()
+            (output/'current.json').unlink()
+            second=complete_release(charts,output,dict(manifest,publishedAt='2026-10-01T02:00:00Z'),Store())
+            self.assertEqual(first,second)
+
+    def test_missing_chart_inputs_report_required_build(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder)
+            with self.assertRaisesRegex(RuntimeError,'run build_chart_artifacts.py'):
+                complete_release(root/'missing',root,dict(revision='a'*64,sessionDate='2026-09-30'))
