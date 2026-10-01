@@ -54,3 +54,7 @@ dist/
 
 # Isolated full-refresh staging directories
 DO NOT DELETE EDL PIPELINE/.edl-refresh-*/
+
+# Chart payloads belong in R2; local chart caches are never Git artifacts.
+frontend/public/data/charts/
+frontend/public/data/revisions/*/charts/

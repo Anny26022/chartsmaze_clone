@@ -26,6 +26,7 @@ const NIFTY500_LABEL = 'NIFTY 500';
 const NIFTY_MIDSMALL400_LABEL = 'Nifty MidSmallCap 400';
 
 interface StocksPayload {
+  revision?: string;
   asOfDate: string;
   totalStocks: number;
   stocks: RawStock[];
@@ -157,17 +158,39 @@ function toStockRow(raw: RawStock): StockRow {
   };
 }
 
-type StockCache = { asOfDate: string; rawStocks: RawStock[]; stockRows: StockRow[] };
+type StockCache = { revision: string; asOfDate: string; rawStocks: RawStock[]; stockRows: StockRow[] };
 
 let _cache: StockCache | null = null;
 let _ipoCache: IPORow[] | null = null;
 
+interface ReleaseManifest {
+  revision: string;
+  sessionDate: string;
+  datasetUrl: string;
+  iposUrl: string;
+  chartUrlTemplate: string;
+}
+let release: Promise<ReleaseManifest | null> | undefined;
+function loadRelease(): Promise<ReleaseManifest | null> {
+  return release ??= fetch('/data/current.json', {cache: 'no-store'}).then(async response => {
+    // Compatibility with the existing deployment until its first release.
+    if (response.status === 404) return null;
+    if (!response.ok) throw new Error('Release manifest unavailable');
+    const manifest: ReleaseManifest = await response.json();
+    if (!/^[a-f0-9]{64}$/.test(manifest.revision)) throw new Error('Invalid release revision');
+    return manifest;
+  }).catch(error => { release = undefined; throw error; });
+}
+
 async function loadStocks(): Promise<StockCache> {
   if (_cache) return _cache;
-  const res = await fetch('/data/stocks.json');
+  const manifest = await loadRelease();
+  const res = await fetch(manifest?.datasetUrl ?? '/data/stocks.json');
   if (!res.ok) throw new Error(`Failed to load /data/stocks.json: ${res.status}`);
   const payload: StocksPayload = await res.json();
+  if (manifest && (payload.revision !== manifest.revision || payload.asOfDate !== manifest.sessionDate)) throw new Error('Scanner release mismatch');
   _cache = {
+    revision: manifest?.revision ?? `rev_${payload.asOfDate.replace(/-/g, '')}_real`,
     asOfDate: payload.asOfDate,
     rawStocks: payload.stocks,
     stockRows: payload.stocks.map(toStockRow),
@@ -177,7 +200,8 @@ async function loadStocks(): Promise<StockCache> {
 
 async function loadIpos(): Promise<IPORow[]> {
   if (_ipoCache) return _ipoCache;
-  const res = await fetch('/data/ipos.json');
+  const manifest = await loadRelease();
+  const res = await fetch(manifest?.iposUrl ?? '/data/ipos.json');
   if (!res.ok) throw new Error(`Failed to load /data/ipos.json: ${res.status}`);
   const raw: any[] = await res.json();
   _ipoCache = raw.map((r) => ({
@@ -492,7 +516,7 @@ class RealDataAdapter {
         status: 'closed',
         isHistorical: false,
       },
-      immutableRevision: `rev_${data.asOfDate.replace(/-/g, '')}_real`,
+      immutableRevision: data.revision,
       rows: paginatedRows,
       matchCount: totalCount,
       totalUniverseCount: data.rawStocks.length,
@@ -502,6 +526,27 @@ class RealDataAdapter {
       unavailableDiagnostics: [],
       warnings: [],
     };
+  }
+
+  async getChart(symbol: string, revision?: string): Promise<Record<string, unknown>> {
+    if (!/^[A-Z0-9&_-]+$/.test(symbol)) throw new Error('Invalid symbol');
+    const current = await loadRelease();
+    if (!current) throw new Error('Chart release unavailable');
+    const selected = revision ?? current.revision;
+    if (!/^[a-f0-9]{64}$/.test(selected)) throw new Error('Invalid release revision');
+    let manifest = current;
+    if (selected !== current.revision) {
+      const response = await fetch(`/data/revisions/${selected}/release.json`);
+      if (!response.ok) throw new Error('Chart release unavailable');
+      manifest = await response.json();
+    }
+    if (manifest.revision !== selected || !manifest.chartUrlTemplate) throw new Error('Chart release mismatch');
+    const response = await fetch(manifest.chartUrlTemplate.replace('{symbol}', encodeURIComponent(symbol)));
+    if (!response.ok || !response.body) throw new Error('Chart data unavailable');
+    const stream = response.body.pipeThrough(new DecompressionStream('gzip'));
+    const chart = JSON.parse(await new Response(stream).text());
+    if (chart.symbol !== symbol || chart.asOfDate !== manifest.sessionDate) throw new Error('Chart session mismatch');
+    return chart;
   }
 
   async getIpos(): Promise<IPORow[]> {
@@ -541,7 +586,7 @@ class RealDataAdapter {
       validSymbols,
       invalidSymbols,
       sessionDate: data.asOfDate,
-      immutableRevision: `rev_${data.asOfDate.replace(/-/g, '')}_real`,
+      immutableRevision: data.revision,
     };
   }
 
@@ -552,7 +597,7 @@ class RealDataAdapter {
       availableSessions: [
         { date: data.asOfDate, label: `${data.asOfDate} (Latest Closed)`, isHistorical: false },
       ],
-      immutableRevision: `rev_${data.asOfDate.replace(/-/g, '')}_real`,
+      immutableRevision: data.revision,
       mainboardUniverseCount: data.rawStocks.length,
       catalogVersion: 'v3.0-real',
     };

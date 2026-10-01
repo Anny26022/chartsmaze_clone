@@ -13,6 +13,11 @@ Writes:
   - frontend/public/data/ipos.json           (~150 KB, IPO catalogue)
 """
 
+from pathlib import Path
+import hashlib
+from datetime import datetime, timezone
+from chart_publication import complete_release, write_json
+
 import gzip
 import json
 import os
@@ -55,15 +60,14 @@ def main():
 
     # Build the frontend stocks array
     stocks_out = []
-    as_of_date = None
+    as_of_date = max((s.get('as_of_date') or '' for s in stocks_raw), default='')
+    if not as_of_date:
+        raise RuntimeError('Stock artifact has no scanner session date')
 
     for s in stocks_raw:
         sym = s.get('symbol', '')
         if not sym:
             continue
-
-        if not as_of_date:
-            as_of_date = s.get('as_of_date', '2026-09-29')
 
         rs = rs_ratings.get(sym, {})
 
@@ -205,7 +209,23 @@ def main():
     ipo_size_kb = os.path.getsize(ipo_path) / 1024
     print(f'✓ Wrote {ipo_path}  ({len(ipo_records)} records, {ipo_size_kb:.1f} KB)')
 
-    print('\nDone! Frontend can now fetch /data/stocks.json and /data/ipos.json')
+    chart_root = Path(PIPELINE_DIR) / 'chart_artifacts'
+    output_root = Path(OUTPUT_DIR)
+    digest = hashlib.sha256()
+    for file in (Path(stocks_path), Path(ipo_path), chart_root / 'index.json'):
+        digest.update(file.read_bytes())
+    revision = digest.hexdigest()
+    output['revision'] = revision
+    generation = output_root / 'revisions' / revision
+    write_json(generation / 'stocks.json', output)
+    write_json(generation / 'ipos.json', ipo_records)
+    complete_release(chart_root, output_root, {
+        'revision': revision, 'sessionDate': as_of_date, 'schemaVersion': 6,
+        'publishedAt': datetime.now(timezone.utc).isoformat(), 'totalStocks': len(stocks_out),
+        'datasetUrl': f'/data/revisions/{revision}/stocks.json',
+        'iposUrl': f'/data/revisions/{revision}/ipos.json',
+    })
+    print('Published scanner and chart release through /data/current.json')
 
 
 if __name__ == '__main__':

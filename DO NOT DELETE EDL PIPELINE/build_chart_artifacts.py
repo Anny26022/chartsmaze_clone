@@ -170,7 +170,6 @@ def main() -> int:
     shutil.rmtree(temporary, ignore_errors=True)
     temporary.mkdir(parents=True)
     count = 0
-    revision = hashlib.sha256()
     for stock in stocks:
         symbol = str(stock.get("Symbol") or stock.get("symbol") or "").upper()
         if not symbol:
@@ -186,9 +185,11 @@ def main() -> int:
             "marketNews": sorted(news[symbol], key=lambda row: row["date"], reverse=True)[:50],
         }
         compressed = _write_gzip_json(temporary / f"{symbol}.json.gz", payload)
-        revision.update(symbol.encode("utf-8"))
-        revision.update(compressed)
         count += 1
+    revision = hashlib.sha256()
+    for path in sorted(temporary.glob("*.json.gz")):
+        revision.update(path.name.encode())
+        revision.update(path.read_bytes())
     save_json(temporary / "index.json", {
         "schemaVersion": 1, "revision": revision.hexdigest(), "asOfDate": as_of, "symbols": count,
         "retention": {"highestEver": "all available history", "quarterlyQuarters": QUARTERLY_EVENT_LIMIT},
