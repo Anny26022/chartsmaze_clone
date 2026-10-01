@@ -60,7 +60,7 @@ python3 publish_snapshot.py
 
 Python retains a worker and numeric history cache for custom calculations.
 
-The catalog includes all 45 public JournalToday presets and the published condition catalog.
+The catalog includes all 45 offline presets and the published condition catalog.
 Presets require market cap above ₹1,000 Cr, price above ₹10 and 50-day average turnover above ₹5 Cr. They have no upper market-cap/price limits or blanket 2%/5% circuit exclusions.
 Missing data produces unavailable diagnostics instead of passing a condition.
 Current exported snapshot metrics and quarterly financial statements are available;
