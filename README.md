@@ -9,6 +9,8 @@ Every result is tied to one published trading session and one immutable revision
 ## Contents
 
 - [What users can do](#what-users-can-do)
+- [Technical architecture](#technical-architecture)
+- [How people use this repository](#how-people-use-this-repository)
 - [Every scanner form and filter family](#every-scanner-form-and-filter-family)
 - [What happens at runtime](#what-happens-at-runtime)
 - [How every published file is generated](#how-every-published-file-is-generated)
@@ -27,6 +29,108 @@ Every result is tied to one published trading session and one immutable revision
 | [`.github/workflows/weekly_eod2_refresh.yml`](.github/workflows/weekly_eod2_refresh.yml) | Weekly adjusted-history overlay followed by the same validated publication flow. |
 | [`docs/r2-chart-publication.md`](docs/r2-chart-publication.md) | R2 object layout, retry behavior, retention, and chart fields. |
 | [`frontend/README.md`](frontend/README.md) | Frontend API details and local UI development. |
+
+## Technical architecture
+
+Nexus is deliberately split into a data plane and an interaction plane.
+
+| Layer | Technology | Responsibility |
+| --- | --- | --- |
+| Browser UI | React 19, TypeScript, Vite, Tailwind, TanStack Query | Renders the screener, tables, forms, saved screens, and charts. |
+| Browser screen engine | Module Web Worker, TypeScript | Decompresses immutable snapshots, evaluates supported rules, sorts, and paginates without blocking the UI. |
+| Condition contract | Typed TypeScript catalogue and Python registries | Keeps field names, inputs, presets, labels, and availability rules aligned across the UI and evaluator. |
+| Python evaluator | Python, pandas, NumPy | Evaluates historical OHLCV, multi-session, delivery, pattern, earnings, and cross-series rules. |
+| Data pipeline | Python, requests, BeautifulSoup, CSV/JSON/Gzip | Fetches, standardizes, validates, and promotes market artifacts. |
+| Release store | Git-hosted immutable JSON and gzip files | Publishes compact scanner releases and a small active-release pointer. |
+| Chart store | Cloudflare R2 | Delivers one compressed chart payload only when a user opens that symbol. |
+| Automation | GitHub Actions | Runs daily and weekly refreshes, tests, publication, and generated-data commits. |
+
+### Frontend modules
+
+| Module | What it does |
+| --- | --- |
+| `frontend/src/App.tsx` | Owns top-level navigation and the active screener workspace. |
+| `frontend/src/components/ExploreTab.tsx` | Mainboard screen controls, active filters, and result workflow. |
+| `frontend/src/components/NewListingsTab.tsx` | IPO catalogue controls and table workflow. |
+| `frontend/src/components/SymbolListTab.tsx` | Pasted symbol validation and custom-universe workflow. |
+| `frontend/src/components/ScreenerModal.tsx` | Visual condition builder and preset editor. |
+| `frontend/src/components/ConditionCatalogModal.tsx` | Searchable condition selection. |
+| `frontend/src/components/ResultsTable.tsx` | Shared sortable and paginated equity table. |
+| `frontend/src/api/realAdapter.ts` | Chooses snapshot-worker or Python API evaluation and validates release identity. |
+| `frontend/src/api/snapshotEngine.ts` | Loads, validates, caches, filters, sorts, and pages a snapshot. |
+| `frontend/src/api/snapshot.worker.ts` | Keeps snapshot computation off the UI thread. |
+| `frontend/src/api/snapshotScreen.ts` | Compiles browser-supported conditions and caches result sets across pages. |
+| `frontend/src/api/screenerApi.ts` | Typed HTTP client for catalogue, screen, IPO, and symbol endpoints. |
+| `frontend/src/data/` | Published condition and preset catalogues used to render forms. |
+
+### Pipeline modules
+
+| Module area | What it does |
+| --- | --- |
+| `edl_pipeline.runner` | Orchestrates stages, script lanes, compression, validation, cleanup, and reports. |
+| `edl_pipeline.publication` | Promotes only validated staged artifacts and triggers the frontend publisher. |
+| `edl_pipeline.validators` | Checks schema, required fields, counts, and artifact readability. |
+| `edl_pipeline.scanner.trend` | Normalizes OHLCV and evaluates the condition-expression tree with match/no-match/unavailable results. |
+| `edl_pipeline.scanner.context` | Evaluates fundamentals, RS, earnings, surveillance, and snapshot-aligned conditions. |
+| `edl_pipeline.scanner.patterns` | Implements gaps, inside bars, range contraction, VCP, resistance, and related chart patterns. |
+| `edl_pipeline.scanner.presets` | Stores and validates the versioned 45-preset library. |
+| `edl_pipeline.breadth` | Builds eligible universes, benchmark alignment, breadth measures, and ratings inputs. |
+| `edl_pipeline.sources` | Encapsulates public Dhan, NSE archive, and news-source retrieval. |
+| `edl_pipeline.transforms` | Produces fundamental, event, and market-breadth derived artifacts. |
+
+## How people use this repository
+
+### 1. Researcher: find an actionable candidate list
+
+Use the running frontend at `localhost:8080` or a deployed build.
+
+1. Select Mainboard, Nifty 500, or a custom symbol list.
+2. Start from a preset such as Persistent Momentum, then tune its parameters; or build a rule from scratch.
+3. Choose `Match all` when every rule must pass, or `Match any` for an OR screen.
+4. Run the screen, inspect unavailable diagnostics, sort the table, and open only the charts that matter.
+5. Save the screen locally for the next session.
+
+This workflow is for idea generation and repeatable research. It does not execute trades or provide a portfolio recommendation.
+
+### 2. Analyst: reproduce a screen for a published session
+
+Use the revision/session visible in the screen result. The immutable release lets an analyst explain what data was used for the result and rerun the same expression against the matching backend inputs where history is available. Same-session data corrections create a new revision, preserving the older release rather than overwriting it.
+
+### 3. Product team: embed or deploy the screener
+
+Build the frontend as a static application:
+
+```bash
+cd frontend
+npm install
+npm run build
+```
+
+Host the resulting static files with immutable-cache rules for `data/revisions/*` and revalidation for `data/current.json`. Provide the Python `/screens/run` endpoint for expressions the browser worker cannot evaluate. Configure `VITE_API_BASE_URL` for the deployed API.
+
+### 4. Data engineer: refresh public market artifacts
+
+Run the EDL pipeline locally or let GitHub Actions run it on schedule. The pipeline stages files away from the current public release, validates them, then promotes the release only when the required checks pass.
+
+```bash
+cd "DO NOT DELETE EDL PIPELINE"
+python3 run_full_pipeline.py
+```
+
+After the run, inspect `data_quality.json`, `pipeline_report.json`, and the generated browser release before publishing external changes.
+
+### 5. Quant or developer: add a new condition or preset
+
+1. Add a typed input definition to the frontend condition catalogue.
+2. Add the condition's evaluation contract in the Python registry and implementation.
+3. Define missing-data and session-alignment behavior explicitly.
+4. Add unit tests for match, no-match, and unavailable outcomes.
+5. If the rule belongs in a built-in scan, add or update its declarative preset definition.
+6. Regenerate a snapshot and verify browser-worker support. Keep a Python fallback for rules that require unbundled historical data.
+
+### 6. Data platform operator: run charts at scale
+
+Set the R2 environment variables, enable `EDL_CHART_STORAGE=r2`, and run the normal pipeline. The publisher uploads immutable per-symbol files, verifies them, and updates the release only after all required publication work completes. The browser then fetches a single chart at a time from the release URL template.
 
 ## What users can do
 
