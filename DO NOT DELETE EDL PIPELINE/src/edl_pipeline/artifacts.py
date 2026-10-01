@@ -118,6 +118,7 @@ PHASE4_SCRIPTS = [
     "process_earnings_performance.py",
     "enrich_fno_data.py",
     "enrich_delivery_data.py",
+    "enrich_surveillance_status.py",
     "process_market_breadth.py",
     "process_historical_market_breadth.py",
     # This produces breadth_universe_snapshot.json, which is the fixed
@@ -265,6 +266,9 @@ SCRIPT_OUTPUT_SPECS = {
         ArtifactSpec("all_stocks_fundamental_analysis.json", "json", min_count=1),
     ],
     "enrich_delivery_data.py": [
+        ArtifactSpec("all_stocks_fundamental_analysis.json", "json", min_count=1),
+    ],
+    "enrich_surveillance_status.py": [
         ArtifactSpec("all_stocks_fundamental_analysis.json", "json", min_count=1),
     ],
     "process_market_breadth.py": [

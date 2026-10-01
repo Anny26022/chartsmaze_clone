@@ -57,6 +57,15 @@ def promote_directory(stage, destination, name):
     shutil.rmtree(previous, ignore_errors=True)
 
 
+def publish_frontend(destination):
+    publisher = Path(pipeline_utils.__file__).resolve().parent.parent / 'frontend' / 'publish_snapshot.py'
+    if publisher.exists():
+        result = subprocess.run([sys.executable, str(publisher)], cwd=publisher.parent,
+                                env=dict(os.environ, EDL_BASE_DIR=str(destination)))
+        if result.returncode:
+            raise RuntimeError('Scanner snapshot publication failed; the previous frontend revision remains active.')
+
+
 def main():
     config = PipelineConfig.from_env()
     destination = Path(pipeline_utils.BASE_DIR)
@@ -99,7 +108,8 @@ def main():
             return 1
         save_json(report_path, report)
         names = [spec.path for spec in FINAL_ARTIFACT_SPECS] + ["data_quality.json", "pipeline_report.json"]
-        promote_directory(stage, destination, "chart_artifacts")
         promote(stage, destination, names)
+        promote_directory(stage, destination, "chart_artifacts")
+        publish_frontend(destination)
         print("Published validated dataset and per-symbol data_quality.json.")
         return 0

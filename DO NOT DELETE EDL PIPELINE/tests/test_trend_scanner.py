@@ -11,7 +11,7 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_history, evaluate_universe
+from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_history, evaluate_universe, _persisted
 from edl_pipeline.scanner.context import KIND_ALIASES
 from edl_pipeline.scanner.presets import get_preset, list_presets, load_preset_library, validate_preset_library
 
@@ -30,6 +30,11 @@ def rising_history(length=300):
 
 
 class TrendScannerTests(unittest.TestCase):
+    def test_momentum_shorter_qualifying_ema_does_not_require_longer_warmup(self):
+        result = evaluate_history(rising_history(30), [{"condition":"persistent_momentum","periods":[10,50],"persist_days":5}])
+        self.assertEqual(result["status"], "match")
+        self.assertIsNone(result["conditions"][0]["details"]["runs"]["50"])
+
     def test_vendored_preset_library_is_complete_and_uses_supported_conditions(self):
         library = load_preset_library()
         self.assertEqual(library["schema_version"], 1)
@@ -58,6 +63,9 @@ class TrendScannerTests(unittest.TestCase):
             "relative_strength", "rs_new_high", "rs_rating", "market_cap",
             "free_float_market_cap", "pe_ratio", "earnings_growth", "days_since_earnings",
             "sector", "industry", "average_turnover", "adr_percent", "price_range",
+            "percent_from_ath",
+            "exclude_surveillance",
+            "fundamental_metric", "eps_last_year_higher",
             "price_band", "circuit_band_minimum", "series", "listing_age_days",
             "index_membership", "market_breadth", "fno_ban",
         })
@@ -65,7 +73,9 @@ class TrendScannerTests(unittest.TestCase):
     def test_live_bundle_condition_contract_remains_mapped(self):
         fixture = json.loads((ROOT / "tests" / "fixtures" / "journaltoday_screener_contract.json").read_text())
         self.assertEqual(len(fixture["condition_kinds"]), 47)
-        self.assertEqual({KIND_ALIASES[kind] for kind in fixture["condition_kinds"]}, set(CONDITION_REGISTRY))
+        # The local screener may add documented conditions beyond the frozen
+        # public bundle, but every bundle condition must remain supported.
+        self.assertTrue({KIND_ALIASES[kind] for kind in fixture["condition_kinds"]}.issubset(CONDITION_REGISTRY))
 
     def test_nested_expression_uses_three_valued_boolean_logic(self):
         frame = rising_history(80)
@@ -233,7 +243,7 @@ class TrendScannerTests(unittest.TestCase):
         self.assertEqual(strict["status"], "no_match")
         self.assertEqual(reclaim["status"], "match")
 
-    def test_persistent_momentum_defaults_to_one_reclaimed_breach(self):
+    def test_persistent_momentum_defaults_to_one_breach_reclaim(self):
         frame = rising_history(40)
         frame.loc[frame.index[-3], ["Open", "High", "Low", "Close"]] = [80, 150, 79, 80]
         frame.loc[frame.index[-2], ["Open", "High", "Low", "Close"]] = [140, 155, 139, 140]
@@ -248,6 +258,29 @@ class TrendScannerTests(unittest.TestCase):
         self.assertEqual(default["status"], "match")
         self.assertEqual(default["conditions"][0]["details"]["persistence_mode"], "reclaim_by_extreme")
         self.assertEqual(strict["status"], "no_match")
+
+    def test_extreme_reset_retains_run_until_a_later_low_break(self):
+        frame = pd.DataFrame({"Close":[11,9,11,11],"High":[12,10,12,12],"Low":[10,8,8.5,9]})
+        average = pd.Series([10.0]*4)
+        self.assertTrue(_persisted(frame, average, "above", 4, "extreme_reset"))
+        self.assertFalse(_persisted(frame, average, "above", 4, "strict_close"))
+        frame.loc[3,"Low"]=7
+        self.assertFalse(_persisted(frame, average, "above", 2, "extreme_reset"))
+        self.assertTrue(_persisted(frame, average, "above", 1, "extreme_reset"))
+
+    def test_extreme_reset_below_is_symmetric_and_reads_anchor_before_window(self):
+        frame = pd.DataFrame({"Close":[9,11,9,9],"High":[10,12,11.5,11],"Low":[8,10,8,8]})
+        average = pd.Series([10.0]*4)
+        self.assertTrue(_persisted(frame, average, "below", 4, "extreme_reset"))
+        frame.loc[3,"High"]=13
+        self.assertFalse(_persisted(frame, average, "below", 2, "extreme_reset"))
+
+    def test_price_vs_ema_and_persistent_momentum_keep_distinct_defaults(self):
+        frame = rising_history(40)
+        ema=evaluate_history(frame,[{"condition":"price_vs_ema","period":5,"comparison":"above","persist_days":3}])
+        momentum=evaluate_history(frame,[{"condition":"persistent_momentum","periods":[5],"persist_days":3}])
+        self.assertEqual(ema["conditions"][0]["details"]["persistence_mode"], "extreme_reset")
+        self.assertEqual(momentum["conditions"][0]["details"]["persistence_mode"], "reclaim_by_extreme")
 
     def test_insufficient_history_is_unavailable_not_a_false_match(self):
         result = evaluate_history(rising_history(20), [{

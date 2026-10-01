@@ -1,0 +1,2235 @@
+[
+  {
+    "id": "lib-persistent-momentum",
+    "name": "Persistent Momentum",
+    "category": "Momentum & Leadership",
+    "horizon": "Positional",
+    "description": "Held above the 10, 20 and 50 EMA for weeks on end.",
+    "aka": [
+      "Momentum Scanner",
+      "momentum"
+    ],
+    "rules": [
+      "Above the 10 EMA for 20 days, or the 20 EMA for 30, or the 50 EMA for 50",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "PERSISTENT_MOMENTUM",
+          "params": {
+            "ema10Days": 20,
+            "ema20Days": 30,
+            "ema50Days": 50
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-easy-money",
+    "name": "Easy Money",
+    "category": "Momentum & Leadership",
+    "horizon": "Swing",
+    "description": "Any one outlier reading: a timeframe return, a new high, range, volume or a gap.",
+    "aka": [
+      "easy money",
+      "multi timeframe momentum",
+      "ATH gapper",
+      "runaway"
+    ],
+    "rules": [
+      "Matches on ANY one of the nine \u2014 not all of them",
+      "Up 20%+ over a week, or 25%+ over a month, or 35%+ over a quarter, or 50%+ over six months",
+      "Or at a new 52-week high",
+      "Or ADR above 6%, or volume at 3\u00d7 the 20-day average",
+      "Or gapped up 5%+ today, or closed up 6%+"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "OR",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 5,
+            "comparison": "ABOVE",
+            "pct": 20
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 21,
+            "comparison": "ABOVE",
+            "pct": 25
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 63,
+            "comparison": "ABOVE",
+            "pct": 35
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 126,
+            "comparison": "ABOVE",
+            "pct": 50
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "NEW_HIGH",
+          "params": {
+            "lookbackDays": 252,
+            "withinDays": 1
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "ADR_PCT",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 14,
+            "pct": 6
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 3,
+            "withinDays": 1
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "GAP_UP",
+          "params": {
+            "minGapPct": 5,
+            "withinDays": 1
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 1,
+            "comparison": "ABOVE",
+            "pct": 6
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-rs-leaders",
+    "name": "Relative Strength Leaders",
+    "category": "Momentum & Leadership",
+    "horizon": "Positional",
+    "description": "Beat the Nifty by 15 points over a quarter and still near the high.",
+    "aka": [
+      "RS",
+      "outperformers",
+      "alpha"
+    ],
+    "rules": [
+      "Outperformed NIFTY 50 by 15 percentage points over 60 days",
+      "Within 15% of the 52-week high",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "RELATIVE_STRENGTH",
+          "params": {
+            "benchmark": "NIFTY_50",
+            "overDays": 60,
+            "comparison": "ABOVE",
+            "pct": 15
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 15
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-rs-new-high",
+    "name": "RS Line at New High",
+    "category": "Momentum & Leadership",
+    "horizon": "Positional",
+    "description": "Relative strength already at a new high while price still lags.",
+    "aka": [
+      "RS line",
+      "leadership",
+      "pre-breakout",
+      "RS High Before Price High"
+    ],
+    "rules": [
+      "RS line versus NIFTY 50 at its 60-day high",
+      "Price still at least 2% below its own 60-day high",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "RS_NEW_HIGH",
+          "params": {
+            "benchmark": "NIFTY_50",
+            "lookbackDays": 60,
+            "minPriceBelowHighPct": 2
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-stage-two",
+    "name": "Stage 2 Uptrend",
+    "category": "Momentum & Leadership",
+    "horizon": "Investing",
+    "description": "The classic trend template: well off the low, close to the high.",
+    "aka": [
+      "Minervini",
+      "trend template",
+      "stage analysis"
+    ],
+    "rules": [
+      "Above the 50 EMA for 40 days",
+      "Above the 200 EMA for 60 days",
+      "At least 30% above the 52-week low",
+      "Within 25% of the 52-week high"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 50,
+            "comparison": "ABOVE",
+            "persistDays": 40
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 200,
+            "comparison": "ABOVE",
+            "persistDays": 60
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_LOW",
+          "params": {
+            "comparison": "ABOVE",
+            "pct": 30
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-momentum-burst",
+    "name": "Momentum Burst",
+    "category": "Momentum & Leadership",
+    "horizon": "Swing",
+    "description": "An 8% three-day thrust on heavy volume, in a name that moves.",
+    "aka": [
+      "episodic pivot",
+      "Qullamaggie",
+      "Momentum Scanner"
+    ],
+    "rules": [
+      "Up more than 8% over 3 days",
+      "Volume at twice the 20-day average",
+      "Average daily range above 3%",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 3,
+            "comparison": "ABOVE",
+            "pct": 8
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 2
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "ADR_PCT",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 14,
+            "pct": 3
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-quiet-strength",
+    "name": "Quiet Strength",
+    "category": "Momentum & Leadership",
+    "horizon": "Positional",
+    "description": "Outperforming without the volatility \u2014 a low-noise uptrend.",
+    "rules": [
+      "Above the 20 EMA for 25 days",
+      "Average daily range under 2.5%",
+      "Beat NIFTY 50 by 5 points over 60 days",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 20,
+            "comparison": "ABOVE",
+            "persistDays": 25
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "ADR_PCT",
+          "params": {
+            "comparison": "BELOW",
+            "lookbackDays": 14,
+            "pct": 2.5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "RELATIVE_STRENGTH",
+          "params": {
+            "benchmark": "NIFTY_50",
+            "overDays": 60,
+            "comparison": "ABOVE",
+            "pct": 5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-52w-high-breakout",
+    "name": "52-Week High Breakout",
+    "category": "Breakouts",
+    "horizon": "Positional",
+    "description": "A yearly high printed today, confirmed by volume.",
+    "rules": [
+      "Highest high of the last 252 sessions",
+      "Volume at 1.5x the 20-day average",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "NEW_HIGH",
+          "params": {
+            "lookbackDays": 252
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 1.5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-20d-high-thrust",
+    "name": "20-Day High on Record Volume",
+    "category": "Breakouts",
+    "horizon": "Swing",
+    "description": "A one-month high on the heaviest volume of the month.",
+    "rules": [
+      "Highest high of the last 20 sessions",
+      "Highest volume of the last 20 sessions",
+      "Above the 50 EMA for 20 days"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "NEW_HIGH",
+          "params": {
+            "lookbackDays": 20
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "HIGHEST_VOLUME_IN_N_DAYS",
+          "params": {
+            "lookbackDays": 20
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 50,
+            "comparison": "ABOVE",
+            "persistDays": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-tight-base-breakout",
+    "name": "Breakout from Tight Base",
+    "category": "Breakouts",
+    "horizon": "Positional",
+    "description": "Three quiet weeks, then a high on double volume.",
+    "aka": [
+      "Tight Setup",
+      "tight"
+    ],
+    "rules": [
+      "The 20 days before today traded in under 7% of price",
+      "Highest high of the last 20 sessions",
+      "Volume at twice the 20-day average",
+      "Average turnover above \u20b93 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "CONSOLIDATION_RANGE",
+          "params": {
+            "lookbackDays": 20,
+            "maxRangePct": 7,
+            "excludeLatest": 1
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "NEW_HIGH",
+          "params": {
+            "lookbackDays": 20
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 2
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-pocket-pivot",
+    "name": "Pocket Pivot",
+    "category": "Breakouts",
+    "horizon": "Swing",
+    "description": "A modest up day on outsized volume, inside an existing uptrend.",
+    "aka": [
+      "O'Neil",
+      "institutional footprint"
+    ],
+    "rules": [
+      "Volume at 1.5x the 20-day average",
+      "Closed up more than 1% today",
+      "Above the 50 EMA for 10 days",
+      "Average turnover above \u20b93 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 1.5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 1,
+            "comparison": "ABOVE",
+            "pct": 1
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 50,
+            "comparison": "ABOVE",
+            "persistDays": 10
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-adx-trend-breakout",
+    "name": "ADX Trend Breakout",
+    "category": "Breakouts",
+    "horizon": "Positional",
+    "description": "A quarterly high with the trend strength to back it.",
+    "rules": [
+      "ADX(14) above 25",
+      "Highest high of the last 50 sessions",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "ADX",
+          "params": {
+            "period": 14,
+            "comparison": "ABOVE",
+            "value": 25
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "NEW_HIGH",
+          "params": {
+            "lookbackDays": 50
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-circuit-safe-breakout",
+    "name": "Circuit-Safe Breakout",
+    "category": "Breakouts",
+    "horizon": "Swing",
+    "description": "A breakout that will not lock at the upper limit before you can act.",
+    "rules": [
+      "Highest high of the last 60 sessions",
+      "Circuit band 20% or none",
+      "Average turnover above \u20b910 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "NEW_HIGH",
+          "params": {
+            "lookbackDays": 60
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "CIRCUIT_BAND_MIN",
+          "params": {
+            "minBandPct": 20
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-vcp",
+    "name": "VCP Contraction",
+    "category": "Bases & Contraction",
+    "horizon": "Positional",
+    "description": "The range halved against its own base while volume dried up.",
+    "aka": [
+      "VCP",
+      "volatility contraction",
+      "Minervini",
+      "Tight Setup"
+    ],
+    "rules": [
+      "Last 10 days traded in half the range of the 60 days before them",
+      "5-day average volume under 80% of the 50-day",
+      "Within 20% of the 52-week high",
+      "Average turnover above \u20b93 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "RANGE_CONTRACTION",
+          "params": {
+            "recentDays": 10,
+            "priorDays": 60,
+            "maxRatio": 0.5,
+            "priorMode": "PRIOR"
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_VOLUME_RATIO",
+          "params": {
+            "recentDays": 5,
+            "baseDays": 50,
+            "comparison": "BELOW",
+            "ratio": 0.8
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 20
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-inside-bar-coil",
+    "name": "Inside Bar Coil",
+    "category": "Bases & Contraction",
+    "horizon": "Swing",
+    "description": "Two straight inside days inside an uptrend.",
+    "aka": [
+      "NR7",
+      "coil",
+      "compression",
+      "Inside Bar"
+    ],
+    "rules": [
+      "Two consecutive inside days",
+      "Above the 20 EMA for 5 days",
+      "Average turnover above \u20b93 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "INSIDE_BAR",
+          "params": {
+            "timeframe": "DAILY",
+            "consecutive": 2
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 20,
+            "comparison": "ABOVE",
+            "persistDays": 5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-weekly-inside-bar",
+    "name": "Weekly Inside Bar",
+    "category": "Bases & Contraction",
+    "horizon": "Positional",
+    "description": "The current ISO week to date remains inside the prior completed week, while price stays near its 52-week high.",
+    "rules": [
+      "Current ISO week to date inside the prior completed week",
+      "Within 15% of the 52-week high",
+      "Market cap above \u20b91,000 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "INSIDE_BAR",
+          "params": {
+            "timeframe": "WEEKLY",
+            "consecutive": 1
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 15
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "MARKETCAP",
+          "params": {
+            "comparison": "ABOVE",
+            "valueCr": 1000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-volume-dryup-base",
+    "name": "Volume Dry-Up Base",
+    "category": "Bases & Contraction",
+    "horizon": "Positional",
+    "description": "Sellers finished: volume at 60% of normal in a narrow range.",
+    "aka": [
+      "dry up",
+      "no supply",
+      "quiet base"
+    ],
+    "rules": [
+      "5-day average volume under 60% of the 50-day",
+      "15-day range under 6% of price",
+      "Within 25% of the 52-week high"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "AVG_VOLUME_RATIO",
+          "params": {
+            "recentDays": 5,
+            "baseDays": 50,
+            "comparison": "BELOW",
+            "ratio": 0.6
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "CONSOLIDATION_RANGE",
+          "params": {
+            "lookbackDays": 15,
+            "maxRangePct": 6
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 25
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-flat-base",
+    "name": "Flat Base",
+    "category": "Bases & Contraction",
+    "horizon": "Positional",
+    "description": "Six weeks sideways within 10%, right under the high.",
+    "aka": [
+      "Darvas box",
+      "flat base"
+    ],
+    "rules": [
+      "30-day range under 10% of price",
+      "Within 12% of the 52-week high",
+      "Above the 50 EMA for 30 days"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "CONSOLIDATION_RANGE",
+          "params": {
+            "lookbackDays": 30,
+            "maxRangePct": 10
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 12
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 50,
+            "comparison": "ABOVE",
+            "persistDays": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-horizontal-resistance",
+    "name": "Horizontal Resistance",
+    "category": "Bases & Contraction",
+    "horizon": "Positional",
+    "description": "Pressing a ceiling it has been rejected from, not yet closed above.",
+    "aka": [
+      "resistance",
+      "ceiling",
+      "flat top",
+      "supply zone",
+      "breakout watch"
+    ],
+    "rules": [
+      "A confirmed swing-high pivot in the last 252 sessions",
+      "No close since has exceeded it \u2014 wicks through are fine, a close above is not",
+      "Base at least 15 days old \u2014 excludes freshly-formed, low-confidence pivots",
+      "Latest close within 5% of the line \u2014 still pressing it, not fallen away",
+      "Latest close within 2% of its own 20 EMA \u2014 not extended, not falling away from trend",
+      "10 EMA above 20 EMA above 50 EMA",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "HORIZONTAL_RESISTANCE_LINE",
+          "params": {
+            "lookbackDays": 252,
+            "minSwingPct": 1.5,
+            "clusterTolerancePct": 2.5,
+            "minBaseLengthDays": 15,
+            "maxPctBelowLine": 5,
+            "maxPctBelow20Ema": 2
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "MA_STACK",
+          "params": {
+            "periods": [
+              10,
+              20,
+              50
+            ],
+            "maType": "EMA"
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-flags-pennants",
+    "name": "Flags & Pennants",
+    "category": "Bases & Contraction",
+    "horizon": "Swing",
+    "description": "A sharp pole, then a tight drift that refuses to give it back.",
+    "aka": [
+      "bull flag",
+      "pennant",
+      "continuation",
+      "pole",
+      "Qullamaggie"
+    ],
+    "rules": [
+      "Up at least 20% over 30 days \u2014 the pole",
+      "Last 7 days under half the range of the 25 days before them \u2014 the flag",
+      "Volume in the last 5 days below 80% of the prior 25",
+      "Still above the 21 EMA",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 30,
+            "comparison": "ABOVE",
+            "pct": 20
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "RANGE_CONTRACTION",
+          "params": {
+            "recentDays": 7,
+            "priorDays": 25,
+            "maxRatio": 0.5,
+            "priorMode": "PRIOR"
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_VOLUME_RATIO",
+          "params": {
+            "recentDays": 5,
+            "baseDays": 25,
+            "comparison": "BELOW",
+            "ratio": 0.8
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 21,
+            "comparison": "ABOVE",
+            "persistDays": 1
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-low-atr-coil",
+    "name": "Low-ATR Coil",
+    "category": "Bases & Contraction",
+    "horizon": "Swing",
+    "description": "Volatility at a floor \u2014 a tight stop is actually possible here.",
+    "rules": [
+      "ATR(14) under 2% of price",
+      "10-day range under 4% of price",
+      "Average turnover above \u20b93 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "ATR_PCT",
+          "params": {
+            "period": 14,
+            "comparison": "BELOW",
+            "pct": 2
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "CONSOLIDATION_RANGE",
+          "params": {
+            "lookbackDays": 10,
+            "maxRangePct": 4
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-21ema-pullback",
+    "name": "21 EMA Pullback",
+    "category": "Pullbacks & Reclaims",
+    "horizon": "Swing",
+    "description": "Dipped under the 21 EMA and closed straight back above it.",
+    "aka": [
+      "Qullamaggie",
+      "shakeout",
+      "reclaim"
+    ],
+    "rules": [
+      "Lost the 21 EMA within the last 3 days and reclaimed it",
+      "Above the 50 EMA for 20 days",
+      "Beat NIFTY 50 by 5 points over 60 days"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "EMA_SHAKEOUT",
+          "params": {
+            "period": 21,
+            "withinDays": 3
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 50,
+            "comparison": "ABOVE",
+            "persistDays": 20
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "RELATIVE_STRENGTH",
+          "params": {
+            "benchmark": "NIFTY_50",
+            "overDays": 60,
+            "comparison": "ABOVE",
+            "pct": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-50ema-shakeout",
+    "name": "50 EMA Shakeout",
+    "category": "Pullbacks & Reclaims",
+    "horizon": "Positional",
+    "description": "A deeper flush through the 50 EMA that failed within the week.",
+    "rules": [
+      "Lost the 50 EMA within the last 5 days and reclaimed it",
+      "Within 25% of the 52-week high",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "EMA_SHAKEOUT",
+          "params": {
+            "period": 50,
+            "withinDays": 5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 25
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-higher-low-pullback",
+    "name": "Higher-Low Pullback",
+    "category": "Pullbacks & Reclaims",
+    "horizon": "Swing",
+    "description": "A 4%+ two-week dip inside a trend that never broke.",
+    "rules": [
+      "Down at least 4% over 10 days",
+      "Above the 50 EMA for 40 days",
+      "Within 20% of the 52-week high"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 10,
+            "comparison": "BELOW",
+            "pct": 4
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 50,
+            "comparison": "ABOVE",
+            "persistDays": 40
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-gap-support-retest",
+    "name": "Gap Support Retest",
+    "category": "Pullbacks & Reclaims",
+    "horizon": "Swing",
+    "description": "An open gap below acting as the floor for the current move.",
+    "rules": [
+      "An unfilled 3%+ gap up in the last 30 days",
+      "Above the 20 EMA for 3 days",
+      "Average turnover above \u20b93 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "UNFILLED_GAP",
+          "params": {
+            "direction": "UP",
+            "minGapPct": 3,
+            "withinDays": 30,
+            "state": "UNFILLED"
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 20,
+            "comparison": "ABOVE",
+            "persistDays": 3
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-volume-surge",
+    "name": "Volume Surge",
+    "category": "Volume & Delivery",
+    "horizon": "Swing",
+    "description": "Twice the average volume on a 2% up day.",
+    "aka": [
+      "Volume Screeners",
+      "RVOL"
+    ],
+    "rules": [
+      "Volume at twice the 20-day average",
+      "Closed up more than 2% today"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 2
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 1,
+            "comparison": "ABOVE",
+            "pct": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-highest-volume-quarter",
+    "name": "Highest Volume in 3 Months",
+    "category": "Volume & Delivery",
+    "horizon": "Swing",
+    "description": "The heaviest session of the quarter, and it closed green.",
+    "aka": [
+      "Volume Screeners"
+    ],
+    "rules": [
+      "Highest volume of the last 60 sessions",
+      "Closed up more than 3% today",
+      "Average turnover above \u20b93 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "HIGHEST_VOLUME_IN_N_DAYS",
+          "params": {
+            "lookbackDays": 60
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 1,
+            "comparison": "ABOVE",
+            "pct": 3
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-delivery-accumulation",
+    "name": "Delivery-Backed Accumulation",
+    "category": "Volume & Delivery",
+    "horizon": "Positional",
+    "description": "Heavy volume that actually settled as delivery, not day trades.",
+    "rules": [
+      "Delivery above 60% of volume",
+      "Volume at 1.5x the 20-day average",
+      "Above the 20 EMA for 5 days"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "DELIVERY_PCT_SPIKE",
+          "params": {
+            "minDeliverablePct": 60
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 1.5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 20,
+            "comparison": "ABOVE",
+            "persistDays": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-sustained-accumulation",
+    "name": "Sustained Accumulation",
+    "category": "Volume & Delivery",
+    "horizon": "Positional",
+    "description": "Two weeks of elevated volume, not one loud day.",
+    "rules": [
+      "10-day average volume above 1.5x the 60-day",
+      "Up more than 10% over 20 days",
+      "Average turnover above \u20b93 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "AVG_VOLUME_RATIO",
+          "params": {
+            "recentDays": 10,
+            "baseDays": 60,
+            "comparison": "ABOVE",
+            "ratio": 1.5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 20,
+            "comparison": "ABOVE",
+            "pct": 10
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 3
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-unfilled-gap-up",
+    "name": "Unfilled Gap Up",
+    "category": "Gaps",
+    "horizon": "Positional",
+    "description": "A 4%+ gap the market never came back to fill.",
+    "aka": [
+      "island gap",
+      "runaway gap",
+      "Gap Screeners"
+    ],
+    "rules": [
+      "An unfilled 4%+ gap up in the last 60 days",
+      "Above the 20 EMA for 3 days",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "UNFILLED_GAP",
+          "params": {
+            "direction": "UP",
+            "minGapPct": 4,
+            "withinDays": 60,
+            "state": "UNFILLED"
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 20,
+            "comparison": "ABOVE",
+            "persistDays": 3
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-gap-and-go",
+    "name": "Gap & Go",
+    "category": "Gaps",
+    "horizon": "Swing",
+    "description": "Today's 3% gap up came with the volume to hold it.",
+    "aka": [
+      "Gap Screeners"
+    ],
+    "rules": [
+      "Gapped up more than 3% today",
+      "Volume at twice the 20-day average",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "GAP_UP",
+          "params": {
+            "minGapPct": 3
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 2
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-gap-down-washout",
+    "name": "Gap Down Washout",
+    "category": "Gaps",
+    "horizon": "Swing",
+    "description": "A capitulation gap into the yearly low, in a liquid name.",
+    "rules": [
+      "Gapped down more than 4% today",
+      "Within 10% of the 52-week low",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "GAP_DOWN",
+          "params": {
+            "minGapPct": 4
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_LOW",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 10
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-52w-low-bounce",
+    "name": "52-Week Low Bounce",
+    "category": "Reversals",
+    "horizon": "Swing",
+    "description": "A volume-backed 5% pop straight off the yearly low.",
+    "rules": [
+      "Within 8% of the 52-week low",
+      "Up more than 5% over 5 days",
+      "Volume at 1.5x the 20-day average"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_LOW",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 8
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 5,
+            "comparison": "ABOVE",
+            "pct": 5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 1.5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-rs-divergence-turn",
+    "name": "RS Divergence Turn",
+    "category": "Reversals",
+    "horizon": "Positional",
+    "description": "Deep off the high, yet quietly beating the index again.",
+    "rules": [
+      "Beat NIFTY 50 over the last 60 days",
+      "Still more than 30% below the 52-week high",
+      "Above the 20 EMA for 5 days"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "RELATIVE_STRENGTH",
+          "params": {
+            "benchmark": "NIFTY_50",
+            "overDays": 60,
+            "comparison": "ABOVE",
+            "pct": 0
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "ABOVE",
+            "pct": 30
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 20,
+            "comparison": "ABOVE",
+            "persistDays": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-relative-weakness",
+    "name": "Relative Weakness",
+    "category": "Reversals",
+    "horizon": "Swing",
+    "description": "Lagging the index by 15 points and printing new lows.",
+    "aka": [
+      "short candidates",
+      "laggards",
+      "underperformers"
+    ],
+    "rules": [
+      "Underperformed NIFTY 50 by 15 points over 60 days",
+      "Lowest low of the last 60 sessions",
+      "Average turnover above \u20b910 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "RELATIVE_STRENGTH",
+          "params": {
+            "benchmark": "NIFTY_50",
+            "overDays": 60,
+            "comparison": "BELOW",
+            "pct": -15
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "NEW_LOW",
+          "params": {
+            "lookbackDays": 60
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 10
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-earnings-momentum",
+    "name": "Earnings Growth Momentum",
+    "category": "Earnings & Value",
+    "horizon": "Investing",
+    "description": "25% profit growth with the chart already agreeing.",
+    "aka": [
+      "CANSLIM",
+      "growth",
+      "Earnings Screeners"
+    ],
+    "rules": [
+      "Net profit up more than 25% year on year",
+      "Within 20% of the 52-week high",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "EARNINGS_GROWTH",
+          "params": {
+            "metric": "NET_PROFIT",
+            "basis": "YOY",
+            "comparison": "ABOVE",
+            "pct": 25,
+            "reportType": "PREFER_CONSOLIDATED",
+            "maxAgeDays": 200
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 20
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-post-earnings-drift",
+    "name": "Post-Earnings Drift",
+    "category": "Earnings & Value",
+    "horizon": "Swing",
+    "description": "Results landed this week and the market is still repricing.",
+    "aka": [
+      "PEAD",
+      "earnings surprise",
+      "Earnings Screeners"
+    ],
+    "rules": [
+      "Results announced within the last 5 sessions",
+      "Up more than 5% over 3 days",
+      "Volume at twice the 20-day average"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "DAYS_SINCE_EARNINGS",
+          "params": {
+            "comparison": "BELOW",
+            "days": 5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_CHANGE_PCT",
+          "params": {
+            "overDays": 3,
+            "comparison": "ABOVE",
+            "pct": 5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 2
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-garp",
+    "name": "Growth at a Fair Price",
+    "category": "Earnings & Value",
+    "horizon": "Investing",
+    "description": "20% growth still on a sub-30 trailing multiple.",
+    "aka": [
+      "GARP",
+      "value momentum"
+    ],
+    "rules": [
+      "Trailing PE under 30",
+      "Net profit up more than 20% year on year",
+      "Market cap above \u20b92,000 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "PE_RATIO",
+          "params": {
+            "comparison": "BELOW",
+            "value": 30,
+            "reportType": "PREFER_CONSOLIDATED"
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "EARNINGS_GROWTH",
+          "params": {
+            "metric": "NET_PROFIT",
+            "basis": "YOY",
+            "comparison": "ABOVE",
+            "pct": 20,
+            "reportType": "PREFER_CONSOLIDATED",
+            "maxAgeDays": 200
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "MARKETCAP",
+          "params": {
+            "comparison": "ABOVE",
+            "valueCr": 2000
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-revenue-acceleration",
+    "name": "Revenue & Profit Acceleration",
+    "category": "Earnings & Value",
+    "horizon": "Investing",
+    "description": "Both lines growing 20%+, in a name already trending.",
+    "rules": [
+      "Revenue up more than 20% year on year",
+      "Net profit up more than 20% year on year",
+      "Above the 50 EMA for 20 days"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "EARNINGS_GROWTH",
+          "params": {
+            "metric": "REVENUE",
+            "basis": "YOY",
+            "comparison": "ABOVE",
+            "pct": 20,
+            "reportType": "PREFER_CONSOLIDATED",
+            "maxAgeDays": 200
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "EARNINGS_GROWTH",
+          "params": {
+            "metric": "NET_PROFIT",
+            "basis": "YOY",
+            "comparison": "ABOVE",
+            "pct": 20,
+            "reportType": "PREFER_CONSOLIDATED",
+            "maxAgeDays": 200
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_VS_EMA",
+          "params": {
+            "period": 50,
+            "comparison": "ABOVE",
+            "persistDays": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-pre-earnings-coil",
+    "name": "Pre-Earnings Coil",
+    "category": "Earnings & Value",
+    "horizon": "Swing",
+    "description": "Tight and quiet with no result for two months \u2014 a catalyst is due.",
+    "rules": [
+      "No results for at least 60 sessions",
+      "15-day range under 6% of price",
+      "Within 20% of the 52-week high"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "DAYS_SINCE_EARNINGS",
+          "params": {
+            "comparison": "ABOVE",
+            "days": 60
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "CONSOLIDATION_RANGE",
+          "params": {
+            "lookbackDays": 15,
+            "maxRangePct": 6
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-breadth-gated-leaders",
+    "name": "Breadth-Gated Leaders",
+    "category": "Regime & Universe",
+    "horizon": "Positional",
+    "description": "Momentum names, but only on days the market is actually healthy.",
+    "rules": [
+      "More than half the market above its 50-day average",
+      "Held above the 10, 20 or 50 EMA for weeks",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "MARKET_BREADTH",
+          "params": {
+            "universe": "ALL_ACTIVE",
+            "metric": "pctAboveSma50",
+            "comparison": "ABOVE",
+            "value": 50
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PERSISTENT_MOMENTUM",
+          "params": {
+            "ema10Days": 20,
+            "ema20Days": 30,
+            "ema50Days": 50
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-liquid-universe",
+    "name": "Liquid Trading Universe",
+    "category": "Regime & Universe",
+    "horizon": "Positional",
+    "description": "A clean working universe: real turnover, no \u20b920 names, no T2T.",
+    "rules": [
+      "Average turnover above \u20b950 Cr",
+      "Price above \u20b9100",
+      "EQ series only",
+      "Circuit band 20% or none"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 50
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PRICE_RANGE",
+          "params": {
+            "minPrice": 100
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "SERIES",
+          "params": {
+            "values": [
+              "EQ"
+            ]
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "CIRCUIT_BAND_MIN",
+          "params": {
+            "minBandPct": 20
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-fresh-ipo-base",
+    "name": "Fresh IPO Base",
+    "category": "Regime & Universe",
+    "horizon": "Positional",
+    "description": "A recent listing building its first real base.",
+    "aka": [
+      "IPO base",
+      "new issue",
+      "IPO Scanner"
+    ],
+    "rules": [
+      "Listed within the last 400 days",
+      "20-day range under 10% of price",
+      "Average turnover above \u20b95 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "LISTING_AGE_DAYS",
+          "params": {
+            "comparison": "BELOW",
+            "days": 400
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "CONSOLIDATION_RANGE",
+          "params": {
+            "lookbackDays": 20,
+            "maxRangePct": 10
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 5
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-nifty500-momentum",
+    "name": "Nifty 500 Momentum",
+    "category": "Regime & Universe",
+    "horizon": "Positional",
+    "description": "Index-member leaders only \u2014 nothing off the beaten track.",
+    "rules": [
+      "A NIFTY 500 constituent",
+      "Beat NIFTY 50 by 10 points over 60 days",
+      "Within 15% of the 52-week high"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "INDEX_MEMBERSHIP",
+          "params": {
+            "indexName": "NIFTY 500"
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "RELATIVE_STRENGTH",
+          "params": {
+            "benchmark": "NIFTY_50",
+            "overDays": 60,
+            "comparison": "ABOVE",
+            "pct": 10
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "PCT_FROM_52W_HIGH",
+          "params": {
+            "comparison": "BELOW",
+            "pct": 15
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "lib-midcap-breakout",
+    "name": "Midcap Breakout",
+    "category": "Regime & Universe",
+    "horizon": "Positional",
+    "description": "The \u20b92,000\u201320,000 Cr band, breaking to a quarterly high.",
+    "rules": [
+      "Market cap above \u20b92,000 Cr",
+      "Highest high of the last 60 sessions",
+      "Volume at 1.5x the 20-day average",
+      "Average turnover above \u20b910 Cr"
+    ],
+    "expression": {
+      "type": "group",
+      "op": "AND",
+      "children": [
+        {
+          "type": "condition",
+          "kind": "MARKETCAP",
+          "params": {
+            "comparison": "ABOVE",
+            "valueCr": 2000
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "NEW_HIGH",
+          "params": {
+            "lookbackDays": 60
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "VOLUME_VS_AVG",
+          "params": {
+            "avgDays": 20,
+            "multiple": 1.5
+          }
+        },
+        {
+          "type": "condition",
+          "kind": "AVG_TURNOVER",
+          "params": {
+            "comparison": "ABOVE",
+            "lookbackDays": 20,
+            "valueCr": 10
+          }
+        }
+      ]
+    }
+  }
+]

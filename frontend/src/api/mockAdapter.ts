@@ -607,7 +607,7 @@ export class MockScreenerAdapter {
       const p = c.parameters;
       switch (c.conditionId) {
         case 'mom_rvol':
-          return stock.rvol >= (p.minRvol ?? 0) && stock.rvol <= (p.maxRvol ?? 100);
+          return stock.rvol != null && stock.rvol >= (p.minRvol ?? 0) && stock.rvol <= (p.maxRvol ?? 100);
         case 'trend_price_vs_ma':
           if (p.maPeriod === 50) return stock.close > (stock.sma50 ?? 0);
           if (p.maPeriod === 20) return stock.close > (stock.sma20 ?? 0);

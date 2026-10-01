@@ -418,8 +418,10 @@ class IntegrityTests(unittest.TestCase):
                 return mock.Mock(returncode=0)
             with mock.patch('edl_pipeline.publication.pipeline_utils.BASE_DIR',str(root)), \
                  mock.patch('edl_pipeline.publication.subprocess.run',side_effect=worker), \
+                 mock.patch('edl_pipeline.publication.publish_frontend') as frontend_publish, \
                  mock.patch('edl_pipeline.publication.inspect_publication',return_value={'errors':[]}):
                 self.assertEqual(publish(),0)
+            frontend_publish.assert_called_once_with(root)
             self.assertTrue(json.loads((root/'pipeline_report.json').read_text())['published'])
             self.assertTrue(all((root/spec.path).read_bytes()==b'new validated bytes' for spec in FINAL_ARTIFACT_SPECS))
             self.assertEqual(json.loads((root/'data_quality.json').read_text()),{'errors':[]})

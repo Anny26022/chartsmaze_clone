@@ -40,13 +40,13 @@ export function explainCondition(condition: ActiveCondition): {
       explanation = `Moving Average Stack alignment is set to: ${p.stackOrder === '20_above_50_above_200' ? 'EMA 20 > EMA 50 > EMA 200 (Bullish)' : p.stackOrder}`;
       break;
     case 'trend_ma_slope':
-      explanation = `20-Day slope of ${p.maPeriod} SMA is AT LEAST +${p.minSlopePct}%`;
+      explanation = `20-Day slope of ${p.targetMa} SMA is AT LEAST +${p.minSlopePct}%`;
       break;
     case 'trend_persistent_momentum':
-      explanation = `Price has maintained position ABOVE 20 EMA for AT LEAST ${p.minConsecutiveDays} consecutive sessions`;
+      explanation = `20 EMA above-run of at least ${p.minDaysAboveEMA} sessions; a contrary close resets only after a later trade breaks its low`;
       break;
     case 'trend_ema_reclaim':
-      explanation = `Price reclaimed EMA ${p.targetEma} within the last ${p.withinBars} sessions`;
+      explanation = `Price reclaimed ${p.reclaimedEma} within the last ${p.reclaimedWithin} sessions`;
       break;
     case 'trend_days_above_ma':
       explanation = `At least ${p.minDaysPct}% of sessions in the past 50 days traded ABOVE 50 SMA`;
@@ -97,7 +97,7 @@ export function explainCondition(condition: ActiveCondition): {
       explanation = `20-Day Average Daily Range (ADR %) is AT LEAST ${p.minAdrPct}%`;
       break;
     default:
-      if (condition.conditionId.startsWith('preset_')) {
+      if (condition.conditionId.startsWith('preset_') || condition.conditionId.startsWith('lib-')) {
         explanation = `Pre-built Scan: ${def.label} (${def.description})`;
       } else {
         explanation = `${def.label} evaluated with parameters: ${JSON.stringify(p)}`;

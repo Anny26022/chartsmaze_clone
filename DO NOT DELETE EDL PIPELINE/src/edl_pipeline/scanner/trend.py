@@ -33,11 +33,11 @@ COMPARISONS = {
 CONDITION_REGISTRY = {
     "persistent_momentum": {
         "inputs": {"periods": "integer[]", "persist_days": "integer | {period: integer}", "persistence_mode": "strict_close|reclaim_by_extreme"},
-        "definition": "Any requested EMA period has stayed below the close for its required run; the default tolerates one reclaimed breach.",
+        "definition": "Any requested EMA period has stayed below the close for its required run; the default permits one reclaimed breach.",
     },
     "price_vs_ema": {
-        "inputs": {"period": "integer", "comparison": "above|below", "persist_days": "integer", "persistence_mode": "strict_close|reclaim_by_extreme"},
-        "definition": "Close stays on the selected side of the EMA for a run; reclaim mode permits one reclaimed breach.",
+        "inputs": {"period": "integer", "comparison": "above|below", "persist_days": "integer", "persistence_mode": "extreme_reset|strict_close|reclaim_by_extreme"},
+        "definition": "EMA persistence defaults to extreme reset: a later bar must break the contrary close bar's low (above-run) or high (below-run).",
     },
     "ema_shakeout_reclaim": {
         "inputs": {"period": "integer", "dip_within": "integer", "dip_basis": "low|close"},
@@ -190,8 +190,31 @@ def _persisted(frame, average, comparison, days, mode):
         raise ValueError("comparison must be 'above' or 'below'.")
     if mode == "strict_close":
         return bool(desired.all())
+    if mode == "extreme_reset":
+        # A contrary close arms that candle's low (above run) or high
+        # (below run). Only a later trade through that extreme resets the run.
+        # Keep the anchor outside the requested tail: a reset in today's
+        # window may have been armed by a candle before that window.
+        run = 0
+        anchor = None
+        for close, low, high, value in zip(frame["Close"], frame["Low"], frame["High"], average):
+            if pd.isna(value):
+                run, anchor = 0, None
+                continue
+            on_side = close > value if comparison == "above" else close < value
+            crossed = anchor is not None and (low < anchor if comparison == "above" else high > anchor)
+            if crossed:
+                run, anchor = 0, None
+            if run == 0:
+                if on_side:
+                    run = 1
+            else:
+                run += 1
+                if not on_side and anchor is None:
+                    anchor = low if comparison == "above" else high
+        return run >= days
     if mode != "reclaim_by_extreme":
-        raise ValueError("persistence_mode must be 'strict_close' or 'reclaim_by_extreme'.")
+        raise ValueError("persistence_mode must be strict_close, extreme_reset or reclaim_by_extreme.")
 
     # A single contrary close does not reset the run when a later bar trades
     # through that breach bar's extreme and closes back on the desired side.
@@ -231,26 +254,25 @@ def _evaluate(frame, spec, delivery_history=None, context=None):
     if condition == "persistent_momentum":
         periods = [int(period) for period in spec.get("periods", (10, 20, 50))]
         required = spec.get("persist_days", 1)
-        # The public JournalToday request carries only the period/day inputs.
-        # Its observed matched set is materially closer to this mode than to
-        # strict closes. Keep it as the useful default while allowing callers
-        # to ask for the narrower strict-close definition explicitly.
+        # Persistent Momentum has its own one-breach reclaim rule. Price vs
+        # EMA uses the separately documented extreme-reset rule below.
         persistence_mode = spec.get("persistence_mode", "reclaim_by_extreme")
         outcomes = {}
         for period in periods:
             days = int(required.get(str(period), required.get(period, 1)) if isinstance(required, dict) else required)
             persisted = _persisted(frame, _ma(frame, "ema", period), "above", days, persistence_mode)
             outcomes[str(period)] = persisted
-        if any(value is None for value in outcomes.values()):
+        if not any(value is True for value in outcomes.values()) and any(value is None for value in outcomes.values()):
             return _unavailable(condition, "insufficient_history")
         return _result(condition, any(outcomes.values()), any(outcomes.values()), qualifying_periods=[key for key, value in outcomes.items() if value], runs=outcomes, persistence_mode=persistence_mode)
 
     if condition in {"price_vs_ema", "price_vs_sma"}:
         ma_type = "ema" if condition == "price_vs_ema" else "sma"
-        persisted = _persisted(frame, _ma(frame, ma_type, spec["period"]), spec["comparison"], spec["persist_days"], spec.get("persistence_mode", "strict_close"))
+        persistence_mode = spec.get("persistence_mode", "extreme_reset" if ma_type == "ema" else "strict_close")
+        persisted = _persisted(frame, _ma(frame, ma_type, spec["period"]), spec["comparison"], spec["persist_days"], persistence_mode)
         if persisted is None:
             return _unavailable(condition, "insufficient_history")
-        return _result(condition, persisted, persisted, period=int(spec["period"]), comparison=spec["comparison"], persist_days=int(spec["persist_days"]), persistence_mode=spec.get("persistence_mode", "strict_close"))
+        return _result(condition, persisted, persisted, period=int(spec["period"]), comparison=spec["comparison"], persist_days=int(spec["persist_days"]), persistence_mode=persistence_mode)
 
     if condition == "ema_shakeout_reclaim":
         average = _ma(frame, "ema", spec["period"])

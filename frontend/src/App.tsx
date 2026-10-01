@@ -5,6 +5,7 @@ import { Navbar } from './components/Navbar';
 import { ExploreTab } from './components/ExploreTab';
 import { NewListingsTab } from './components/NewListingsTab';
 import { BookmarkPlus } from 'lucide-react';
+import { useLocalStorageState } from './hooks/useLocalStorageState';
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -16,15 +17,18 @@ const queryClient = new QueryClient({
 });
 
 const ScreenerAppContent: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'screener' | 'ipo'>('screener');
+  const [activeTab, setActiveTab] = useLocalStorageState<'screener' | 'ipo'>('nexus-scanner.ui.active-tab.v1', 'screener');
   const [watchlistToast, setWatchlistToast] = useState<string | null>(null);
 
-  const { data: revisionData } = useQuery({
+  const { data: revisionData, refetch: refreshRevision } = useQuery({
     queryKey: ['revisionCurrent'],
     queryFn: () => screenerApi.getCurrentRevision(),
+    staleTime: 0,
+    refetchInterval: 60_000,
+    refetchOnWindowFocus: true,
   });
 
-  const selectedAsOfDate = revisionData?.latestSessionDate || '2026-09-28';
+  const selectedAsOfDate = revisionData?.latestSessionDate || '';
 
   const handleAddToWatchlist = (symbols: string[]) => {
     setWatchlistToast(
@@ -41,10 +45,12 @@ const ScreenerAppContent: React.FC = () => {
         {activeTab === 'screener' ? (
           <ExploreTab
             selectedAsOfDate={selectedAsOfDate}
+            datasetRevision={revisionData?.immutableRevision}
+            onRefreshRevision={async () => (await refreshRevision()).data?.immutableRevision}
             onAddToWatchlist={handleAddToWatchlist}
           />
         ) : (
-          <NewListingsTab />
+          <NewListingsTab key={revisionData?.immutableRevision} datasetRevision={revisionData?.immutableRevision} selectedAsOfDate={selectedAsOfDate} />
         )}
       </main>
 

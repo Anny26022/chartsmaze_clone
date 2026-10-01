@@ -73,18 +73,15 @@ jobs:
           python -m unittest discover -s tests -v
           python -m compileall -q .
 
-      - name: Verify release publication
-        run: python -m unittest discover -s frontend -p test_chart_publication.py -v
+      - name: Verify scanner publication
+        run: python -m unittest discover -s frontend -p 'test_*.py' -v
+
+      - name: Install R2 uploader
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq rclone
 
       - name: Run Pipeline with adjusted-history bootstrap
         env:
           EDL_EOD2_DATA_DIR: ${{ runner.temp }}/eod2_data
-        run: |
-          cd "DO NOT DELETE EDL PIPELINE"
-          python run_full_pipeline.py
-
-      - name: Publish scanner and chart release
-        env:
           EDL_CHART_STORAGE: r2
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -92,9 +89,8 @@ jobs:
           R2_PUBLIC_BASE_URL: ${{ vars.R2_PUBLIC_BASE_URL }}
           R2_BUCKET: nexus-screener-chart-data
         run: |
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq rclone
-          python frontend/export_data.py
+          cd "DO NOT DELETE EDL PIPELINE"
+          python run_full_pipeline.py
 
       - name: Commit and Push Results
         run: |
@@ -127,7 +123,6 @@ jobs:
           git add "DO NOT DELETE EDL PIPELINE/ipo_screener.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/shareholding_history.json.gz"
           git add "DO NOT DELETE EDL PIPELINE/quarterly_financial_history.json.gz"
-          # Never stage chart payloads, even if a local cache exists.
           git add frontend/public/data/current.json frontend/public/data/revisions
           git commit -m "Automated weekly adjusted OHLCV refresh [skip ci]" || echo "No changes to commit"
           git push

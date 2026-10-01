@@ -7,11 +7,10 @@ import {
   PlusCircle,
   AlertTriangle,
   FileQuestion,
-  ChevronLeft,
-  ChevronRight,
   TrendingUp,
   TrendingDown,
 } from 'lucide-react';
+import { SymbolWithLogo } from './SymbolWithLogo';
 
 interface ResultsTableProps {
   data?: ScreenerRunResponse;
@@ -84,13 +83,6 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
             <span className="text-slate-400 text-[11px] ml-1">/ {data.totalUniverseCount} Universe</span>
           </div>
 
-          {/* Diagnostics warning */}
-          {data.unavailableDiagnostics.length > 0 && (
-            <div className="flex items-center space-x-1.5 px-2 py-0.5 rounded-md bg-amber-50 border border-amber-200 text-amber-800 text-[11px]">
-              <AlertTriangle className="h-3 w-3 text-amber-600" />
-              <span>Partial metrics unavailable for date</span>
-            </div>
-          )}
         </div>
 
         {/* Toolbar Actions */}
@@ -118,10 +110,10 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
       </div>
 
       {/* Main Results Table */}
-      <div className="bg-white border border-slate-200/90 rounded-2xl overflow-hidden shadow-2xs">
-        <div className="overflow-x-auto">
+      <div className="flex max-h-[calc(100svh-9rem)] min-h-[24rem] flex-col overflow-hidden rounded-2xl border border-slate-200/90 bg-white shadow-2xs">
+        <div className="min-h-0 flex-1 overflow-auto">
           <table className="w-full text-left text-xs text-slate-800">
-            <thead className="bg-slate-50/80 text-slate-500 uppercase text-[10px] tracking-wider border-b border-slate-200/90">
+            <thead className="sticky top-0 z-10 bg-slate-50/95 text-slate-500 uppercase text-[10px] tracking-wider border-b border-slate-200/90 backdrop-blur-sm">
               <tr>
                 <th className="py-3 px-4 font-semibold">Symbol & Name</th>
                 <th className="py-3 px-4 font-semibold">Sector / Industry</th>
@@ -163,13 +155,12 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
                 </th>
                 <th className="py-3 px-4 font-semibold">RS & RSI</th>
                 <th className="py-3 px-4 font-semibold">Delivery %</th>
-                <th className="py-3 px-4 font-semibold">Status</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-100 font-mono">
               {data.rows.length === 0 ? (
                 <tr>
-                  <td colSpan={9} className="py-10 text-center text-slate-500 font-sans">
+                  <td colSpan={8} className="py-10 text-center text-slate-500 font-sans">
                     <FileQuestion className="h-7 w-7 text-slate-400 mx-auto mb-2" />
                     <p className="text-xs font-semibold text-slate-700">No Equities Matched Screener Criteria</p>
                     <p className="text-[11px] text-slate-400 mt-0.5">
@@ -182,15 +173,14 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
                   <tr key={row.symbol} className="hover:bg-slate-50/70 transition-colors">
                     {/* Symbol & Name */}
                     <td className="py-3.5 px-4 font-sans">
-                      <div className="font-bold text-xs text-slate-900 flex items-center space-x-1.5">
-                        <span>{row.symbol}</span>
+                      <div className="flex items-center gap-1.5">
+                        <SymbolWithLogo symbol={row.symbol} name={row.name} />
                         {row.isFno && (
                           <span className="text-[9px] font-semibold px-1 py-0.2 rounded bg-indigo-50 text-indigo-700 border border-indigo-200">
                             F&O
                           </span>
                         )}
                       </div>
-                      <div className="text-[11px] text-slate-500 truncate max-w-[170px]">{row.name}</div>
                     </td>
 
                     {/* Sector & Industry */}
@@ -224,7 +214,7 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
                         ) : (
                           <TrendingDown className="h-3.5 w-3.5" />
                         )}
-                        <span>{row.changePct >= 0 ? `+${row.changePct}%` : `${row.changePct}%`}</span>
+                        <span>{row.changePct == null ? 'N/A' : `${row.changePct >= 0 ? '+' : ''}${row.changePct.toFixed(2)}%`}</span>
                       </div>
                     </td>
 
@@ -232,30 +222,30 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
                     <td className="py-3.5 px-4">
                       <span
                         className={`px-2 py-0.5 rounded text-[11px] font-semibold ${
-                          row.rvol >= 2.0
+                          row.rvol != null && row.rvol >= 2.0
                             ? 'bg-emerald-50 text-emerald-700 border border-emerald-200'
-                            : row.rvol >= 1.2
+                            : row.rvol != null && row.rvol >= 1.2
                             ? 'bg-blue-50 text-blue-700 border border-blue-200'
                             : 'text-slate-600'
                         }`}
                       >
-                        {row.rvol}x
+                        {row.rvol == null ? 'N/A' : `${row.rvol.toFixed(2)}x`}
                       </span>
                     </td>
 
                     {/* Market Cap */}
                     <td className="py-3.5 px-4 text-slate-700">
-                      ₹{Math.round(row.marketCapCrore).toLocaleString('en-IN')} Cr
+                      {row.marketCapCrore == null ? 'N/A' : `₹${Math.round(row.marketCapCrore).toLocaleString('en-IN')} Cr`}
                     </td>
 
                     {/* Technicals */}
                     <td className="py-3.5 px-4 font-sans text-xs space-y-0.5">
                       <div className="flex items-center space-x-1.5">
                         <span className="text-slate-400 text-[10px]">RS:</span>
-                        <span className="font-mono font-bold text-slate-900 text-xs">{row.rsRating || 'N/A'}</span>
+                        <span className="font-mono font-bold text-slate-900 text-xs">{row.rsRating ?? 'N/A'}</span>
                       </div>
                       <div className="text-[10px] text-slate-400">
-                        RSI: <span className="text-slate-700 font-mono">{row.rsi14 || 'N/A'}</span>
+                        RSI: <span className="text-slate-700 font-mono">{row.rsi14 ?? 'N/A'}</span>
                       </div>
                     </td>
 
@@ -268,18 +258,6 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
                       )}
                     </td>
 
-                    {/* Status / Ban */}
-                    <td className="py-3.5 px-4 font-sans">
-                      {row.fnoBan ? (
-                        <span className="px-2 py-0.5 text-[10px] font-semibold rounded bg-rose-50 text-rose-700 border border-rose-200">
-                          F&O BAN
-                        </span>
-                      ) : (
-                        <span className="px-2 py-0.5 text-[10px] font-medium rounded bg-slate-100 text-slate-600 border border-slate-200">
-                          Normal
-                        </span>
-                      )}
-                    </td>
                   </tr>
                 ))
               )}
@@ -287,27 +265,26 @@ export const ResultsTable: React.FC<ResultsTableProps> = ({
           </table>
         </div>
 
-        {/* Pagination Controls */}
         {totalPages > 1 && (
-          <div className="flex items-center justify-between px-4 py-3 bg-slate-50/80 border-t border-slate-200/90 text-xs">
+          <div className="sticky bottom-0 z-20 flex shrink-0 items-center justify-between gap-3 border-t border-slate-200 bg-white/95 px-4 py-3 text-xs shadow-[0_-6px_16px_rgba(15,23,42,0.05)] backdrop-blur-sm">
             <span className="text-slate-500">
-              Page <strong className="text-slate-900 font-mono">{data.page}</strong> of{' '}
-              <strong className="text-slate-900 font-mono">{totalPages}</strong>
+              {((data.page - 1) * data.pageSize + 1).toLocaleString('en-IN')}–{Math.min(data.page * data.pageSize, data.matchCount).toLocaleString('en-IN')} of {data.matchCount.toLocaleString('en-IN')}
             </span>
-            <div className="flex items-center space-x-1.5">
+            <div className="flex gap-2">
               <button
                 onClick={() => onPageChange(data.page - 1)}
                 disabled={data.page === 1}
-                className="p-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 disabled:opacity-40 hover:bg-slate-50 transition-colors cursor-pointer"
+                className="rounded-md border border-slate-200 px-2.5 py-1.5 font-medium text-slate-600 transition-colors hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40"
               >
-                <ChevronLeft className="h-3.5 w-3.5" />
+                Previous
               </button>
+              <span className="px-1 py-1.5 text-slate-400">{data.page} / {totalPages}</span>
               <button
                 onClick={() => onPageChange(data.page + 1)}
                 disabled={data.page >= totalPages}
-                className="p-1.5 rounded-lg bg-white border border-slate-200 text-slate-700 disabled:opacity-40 hover:bg-slate-50 transition-colors cursor-pointer"
+                className="rounded-md border border-slate-200 px-2.5 py-1.5 font-medium text-slate-600 transition-colors hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-40"
               >
-                <ChevronRight className="h-3.5 w-3.5" />
+                Next
               </button>
             </div>
           </div>

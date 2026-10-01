@@ -1,6 +1,8 @@
 import { ConditionDef } from '../types/screener';
+import nativeConditions from './nativeConditions.json';
 
 export const NEXUS_CONDITION_CATALOG: ConditionDef[] = [
+  ...nativeConditions as ConditionDef[],
   // --- TREND ---
   {
     id: 'trend_price_vs_ma',
