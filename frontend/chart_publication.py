@@ -32,13 +32,19 @@ def charts_enabled():
     return os.environ.get('EDL_CHART_STORAGE', 'local') != 'r2' or not missing_r2_settings()
 
 
-def chart_revision(root, session):
+def chart_preflight(root, session):
     if not (root / 'index.json').is_file():
         raise RuntimeError('Chart artifacts are missing; run build_chart_artifacts.py before publishing the snapshot')
     index = json.loads((root / 'index.json').read_text())
     files = sorted(root.glob('*.json.gz'))
     if index.get('asOfDate') != session or index.get('symbols') != len(files) or not files:
         raise RuntimeError('Chart count/session does not match the scanner release')
+    return files
+
+
+def chart_revision(root, session):
+    files = chart_preflight(root, session)
+    index = json.loads((root / 'index.json').read_text())
     digest = hashlib.sha256()
     for file in files:
         data = file.read_bytes()

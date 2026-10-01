@@ -7,7 +7,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
-from chart_publication import complete_release
+from chart_publication import chart_preflight, complete_release
 
 
 class Store:
@@ -150,3 +150,12 @@ class PublicationTests(unittest.TestCase):
                 with self.assertRaisesRegex(RuntimeError,'upload failed'):
                     complete_release(charts,output,dict(manifest,revision='b'*64))
             self.assertEqual((output/'current.json').read_bytes(),previous)
+
+    def test_preflight_does_not_decode_chart_payloads(self):
+        with tempfile.TemporaryDirectory() as folder:
+            charts,output,manifest=self.fixture(Path(folder))
+            with patch('chart_publication.gzip.decompress',side_effect=AssertionError('expensive decode')):
+                self.assertEqual(len(chart_preflight(charts,manifest['sessionDate'])),1)
+            (charts/'index.json').write_text(json.dumps({'symbols':2,'asOfDate':manifest['sessionDate']}))
+            with self.assertRaisesRegex(RuntimeError,'count/session'):
+                chart_preflight(charts,manifest['sessionDate'])

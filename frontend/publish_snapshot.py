@@ -10,7 +10,7 @@ import numpy as np
 
 import scanner_bridge as bridge
 from scanner_cache import ScannerCache
-from chart_publication import chart_revision, charts_enabled, complete_release
+from chart_publication import chart_preflight, charts_enabled, complete_release
 from edl_pipeline.scanner.presets import list_presets
 from edl_pipeline.scanner.financials import financial_value, finite_number
 
@@ -44,7 +44,7 @@ def publish(root=bridge.ROOT, output=OUTPUT):
     chart_root = root / 'chart_artifacts'
     include_charts = charts_enabled()
     if include_charts:
-        chart_revision(chart_root, session)
+        chart_preflight(chart_root, session)
     presets={p['id']:bridge.translate(p['id'],{}) for p in list_presets()}
     default=bridge.group('AND',bridge.translate('mom_rvol',{'minRvol':1.5,'maxRvol':20}),bridge.translate('trend_price_vs_ma',{'maType':'SMA','maPeriod':50,'operator':'above','thresholdPct':0}))
     delivery=bridge._load_delivery_history(root/'delivery_history_data',None,root/'eod2_delivery_history_data')
