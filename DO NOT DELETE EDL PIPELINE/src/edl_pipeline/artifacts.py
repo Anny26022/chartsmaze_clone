@@ -136,6 +136,8 @@ POST_STANDARDIZATION_SCRIPTS = [
     "build_filing_history_artifact.py",
     "build_quarterly_financial_ledger.py",
     "build_ipo_screener_artifact.py",
+    # Capture temporary news/filings before compression and cleanup.
+    "build_chart_artifacts.py",
 ]
 
 # This runs after the canonical artifact is compressed, so standardisation
@@ -168,6 +170,9 @@ SCRIPT_OUTPUT_SPECS = {
     ],
     "build_quarterly_financial_ledger.py": [
         ArtifactSpec("quarterly_financial_history.json", "json", min_count=0, required_fields=("source", "coverage", "records")),
+    ],
+    "build_chart_artifacts.py": [
+        ArtifactSpec("chart_artifacts", "dir", min_count=1),
     ],
     "fetch_new_announcements.py": [
         ArtifactSpec("all_company_announcements.json", "json", min_count=0),

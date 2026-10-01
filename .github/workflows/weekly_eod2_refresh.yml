@@ -83,9 +83,6 @@ jobs:
           cd "DO NOT DELETE EDL PIPELINE"
           python run_full_pipeline.py
 
-      - name: Build chart artifacts
-        run: python "DO NOT DELETE EDL PIPELINE/build_chart_artifacts.py"
-
       - name: Publish scanner and chart release
         env:
           EDL_CHART_STORAGE: r2

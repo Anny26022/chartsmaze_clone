@@ -1,0 +1,74 @@
+"""News must survive temporary-input cleanup and staged publication."""
+import gzip
+import json
+from pathlib import Path
+import sys
+import tempfile
+import unittest
+from unittest import mock
+
+ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / 'src'))
+import build_chart_artifacts
+from edl_pipeline import publication, runner
+from edl_pipeline.artifacts import FINAL_ARTIFACT_SPECS, POST_STANDARDIZATION_SCRIPTS
+
+
+class ChartNewsPublicationTests(unittest.TestCase):
+    def test_news_reaches_published_charts_after_stage_is_discarded(self):
+        with tempfile.TemporaryDirectory() as folder:
+            destination=Path(folder)
+            stages=[]
+            def worker(command, cwd, env):
+                if command[1].endswith('publish_snapshot.py'):
+                    return mock.Mock(returncode=0)
+                stage=Path(cwd); stages.append(stage)
+                self.assertEqual(env['EDL_CLEANUP_INTERMEDIATE'],'0')
+                for spec in FINAL_ARTIFACT_SPECS:
+                    if spec.path.endswith('.gz'):
+                        (stage/spec.path).write_bytes(gzip.compress(b'{"records":[]}'))
+                    else:
+                        (stage/spec.path).write_text('{}')
+                (stage/'all_stocks_fundamental_analysis.json').write_text(json.dumps([
+                    {'symbol':'TEST','as_of_date':'2026-09-30'}]))
+                news=stage/'market_news';news.mkdir()
+                (news/'TEST_news.json').write_text(json.dumps({'Symbol':'TEST','News':[
+                    {'PublishDate':1790726400000,'Title':'Current announcement','Source':'Fixture'},
+                    {'PublishDate':1790985600000,'Title':'Future announcement','Source':'Fixture'}]}))
+                with mock.patch.object(build_chart_artifacts,'BASE_DIR',str(stage)):
+                    self.assertEqual(build_chart_artifacts.main(),0)
+                with mock.patch.object(runner,'BASE_DIR',str(stage)):
+                    runner.cleanup_intermediate()
+                self.assertFalse(news.exists())
+                (stage/'pipeline_report.json').write_text(json.dumps({'exit_code':0}))
+                return mock.Mock(returncode=0)
+            with mock.patch.object(publication.pipeline_utils,'BASE_DIR',str(destination)), \
+                 mock.patch.object(publication.subprocess,'run',side_effect=worker), \
+                 mock.patch.object(publication,'inspect_publication',return_value={'errors':[]}), \
+                 mock.patch.dict('os.environ',{'EDL_FETCH_OHLCV':'1'}):
+                self.assertEqual(publication.main(),0)
+            self.assertFalse(stages[0].exists())
+            with gzip.open(destination/'chart_artifacts/TEST.json.gz','rt') as handle:
+                chart=json.load(handle)
+            self.assertEqual([row['headline'] for row in chart['marketNews']],['Current announcement'])
+            self.assertIn('build_chart_artifacts.py',POST_STANDARDIZATION_SCRIPTS)
+            self.assertGreater(POST_STANDARDIZATION_SCRIPTS.index('build_chart_artifacts.py'),
+                               POST_STANDARDIZATION_SCRIPTS.index('build_quarterly_financial_ledger.py'))
+
+    def test_failed_pipeline_does_not_replace_previous_charts(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder); charts=root/'chart_artifacts';charts.mkdir()
+            (charts/'index.json').write_text('previous release')
+            with mock.patch.object(publication.pipeline_utils,'BASE_DIR',str(root)), \
+                 mock.patch.object(publication.subprocess,'run',return_value=mock.Mock(returncode=1)), \
+                 mock.patch.dict('os.environ',{'EDL_FETCH_OHLCV':'1'}):
+                self.assertEqual(publication.main(),1)
+            self.assertEqual((charts/'index.json').read_text(),'previous release')
+
+    def test_news_timestamp_formats_and_invalid_values(self):
+        self.assertEqual(build_chart_artifacts._event_date(1790726400),'2026-09-30')
+        self.assertEqual(build_chart_artifacts._event_date(1790726400000),'2026-09-30')
+        self.assertEqual(build_chart_artifacts._event_date('2026-09-30T12:00:00Z'),'2026-09-30')
+        for value in (0, -1, float('nan'), float('inf'), 10**30, None, 'invalid'):
+            self.assertIsNone(build_chart_artifacts._event_date(value))

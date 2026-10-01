@@ -20,7 +20,10 @@ caching for `/data/current.json`.
 
 ## Publication
 
-The workflows build charts and export scanner data from the same pipeline run.
+The pipeline builds charts after canonical financial/filing ledgers and before
+compression or intermediate cleanup. Staged chart files are preserved during
+publication; the workflows upload these files without rebuilding them after news
+inputs have been discarded. Scanner data is exported from the same pipeline run.
 They verify chart count, payload symbol/session and content revision before uploading.
 Uploads are checked against their source, and charts never enter frontend Git revisions.
 The shared manifest is written only after upload and any required month-end archive succeed.

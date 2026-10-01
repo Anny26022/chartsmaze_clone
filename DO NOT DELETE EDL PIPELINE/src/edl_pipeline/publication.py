@@ -36,6 +36,27 @@ def promote(stage, destination, names):
         raise
 
 
+def promote_directory(stage, destination, name):
+    """Replace an artifact directory only after its complete candidate exists."""
+    source = stage / name
+    target = destination / name
+    incoming = destination / f".{name}.incoming"
+    previous = destination / f".{name}.previous"
+    shutil.rmtree(incoming, ignore_errors=True)
+    shutil.rmtree(previous, ignore_errors=True)
+    shutil.copytree(source, incoming)
+    try:
+        if target.exists():
+            target.replace(previous)
+        incoming.replace(target)
+    except Exception:
+        shutil.rmtree(incoming, ignore_errors=True)
+        if previous.exists() and not target.exists():
+            previous.replace(target)
+        raise
+    shutil.rmtree(previous, ignore_errors=True)
+
+
 def main():
     config = PipelineConfig.from_env()
     destination = Path(pipeline_utils.BASE_DIR)
@@ -78,6 +99,7 @@ def main():
             return 1
         save_json(report_path, report)
         names = [spec.path for spec in FINAL_ARTIFACT_SPECS] + ["data_quality.json", "pipeline_report.json"]
+        promote_directory(stage, destination, "chart_artifacts")
         promote(stage, destination, names)
         print("Published validated dataset and per-symbol data_quality.json.")
         return 0

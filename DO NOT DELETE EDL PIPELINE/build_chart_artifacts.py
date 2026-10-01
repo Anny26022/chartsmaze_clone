@@ -69,7 +69,13 @@ def _date(value):
 
 def _event_date(value):
     if isinstance(value, (int, float)):
-        return datetime.fromtimestamp(value, tz=timezone.utc).date().isoformat()
+        if value <= 0:
+            return None
+        timestamp = value / 1000 if value >= 100_000_000_000 else value
+        try:
+            return datetime.fromtimestamp(timestamp, tz=timezone.utc).date().isoformat()
+        except (ValueError, OverflowError, OSError):
+            return None
     return _date(value)
 
 
