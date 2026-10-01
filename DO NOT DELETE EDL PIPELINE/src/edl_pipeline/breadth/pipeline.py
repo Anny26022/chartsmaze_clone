@@ -161,7 +161,7 @@ def generate_market_breadth(
             # Publication metadata must be portable across runners. The
             # artifact name identifies the selected index history without
             # persisting an absolute workspace path.
-            "index_history": index_csv.name,
+            "index_history": Path(index_csv).name,
         },
         "quality": {
             "eligible_symbols": snapshot["eligible_count"],

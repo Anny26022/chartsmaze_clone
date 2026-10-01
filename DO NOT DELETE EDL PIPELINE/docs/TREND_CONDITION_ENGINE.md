@@ -12,7 +12,7 @@ python3 screen_trend_conditions.py \
 
 ## Named preset library
 
-The scanner ships a versioned, offline copy of 45 preset definitions. Each has
+The scanner ships a versioned (`v1.0.39`), offline copy of 45 preset definitions. Each has
 its stable `lib-*` ID, display metadata, human-readable rules, and nested
 AND/OR expression. They are local data, not a runtime scrape.
 

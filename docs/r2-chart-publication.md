@@ -10,7 +10,7 @@ updated, and is not read by the application.
 ## Configuration
 
 Production publication requires environment variable `EDL_CHART_STORAGE: r2`
-(already set in both GitHub Actions workflows). Only `local` and `r2` are valid;
+(already set in both publication workflows: `daily_refresh.yml` and `weekly_eod2_refresh.yml`). Only `local` and `r2` are valid;
 unknown values fail publication instead of selecting local storage.
 
 GitHub Actions requires secrets `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, and
