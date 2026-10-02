@@ -37,8 +37,8 @@ CONDITION_REGISTRY = {
         "definition": "Compare an indicator with a number or another indicator, including crossover events and trading-session offsets.",
     },
     "ma_convergence": {
-        "inputs": {"periods": "integer[]", "ma_type": "sma|ema", "max_spread_percent": "number", "fired_within": "integer"},
-        "definition": "100 × (highest selected MA − lowest selected MA) / close is within the configured tolerance.",
+        "inputs": {"periods": "integer[]", "ma_type": "sma|ema", "comparison": "comparison", "max_spread_percent": "number", "fired_within": "integer"},
+        "definition": "Compare 100 × (highest selected MA − lowest selected MA) / close with the configured spread threshold; the default is at or below the tolerance.",
     },
     "divergence": {
         "inputs": {"oscillator": "oscillator", "oscillator_period": "integer", "direction": "bullish|bearish", "variant": "regular|hidden", "max_bar_difference": "integer", "pivot_left": "integer", "pivot_right": "integer", "lookback_days": "integer", "fired_within": "integer", "invalidate_on_break": "boolean"},

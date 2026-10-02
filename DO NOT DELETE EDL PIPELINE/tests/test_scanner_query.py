@@ -52,8 +52,8 @@ class ScannerQueryTests(unittest.TestCase):
     def test_ma_convergence_preserves_operator_and_requires_quoted_periods(self):
         tree = compile_query('MA Convergence("9,20,50", EMA) > 2')
         self.assertEqual(tree["params"]["comparison"], "greater")
-        self.assertEqual(evaluate_history(history(), compile_query('MA Convergence("9,20,50", EMA) > 5'))["status"], "match")
-        self.assertEqual(evaluate_history(history(), compile_query('MA Convergence("9,20,50", EMA) < 5'))["status"], "no_match")
+        self.assertEqual(evaluate_history(history(), compile_query('MA Convergence("9,20,50", EMA) > 4'))["status"], "match")
+        self.assertEqual(evaluate_history(history(), compile_query('MA Convergence("9,20,50", EMA) < 4'))["status"], "no_match")
         with self.assertRaisesRegex(ValueError, "quoted comma-delimited"):
             compile_query("MA Convergence(9,20,50) <= 2")
 

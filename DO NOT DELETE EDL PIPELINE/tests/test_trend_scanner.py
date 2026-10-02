@@ -40,7 +40,9 @@ class TrendScannerTests(unittest.TestCase):
 
     def test_confirmed_pivots_require_a_fully_warmed_window(self):
         values = pd.Series([float("nan"), 1.0, 3.0, 2.0, 4.0])
-        self.assertNotIn(1, [index for index, _value, _confirmed in _confirmed_pivots(values, "low", 1, 1)])
+        pivots = [index for index, _value, _confirmed in _confirmed_pivots(values, "low", 1, 1)]
+        self.assertNotIn(1, pivots)
+        self.assertIn(3, pivots)
 
     def test_momentum_shorter_qualifying_ema_does_not_require_longer_warmup(self):
         result = evaluate_history(rising_history(30), [{"condition":"persistent_momentum","periods":[10,50],"persist_days":5}])
