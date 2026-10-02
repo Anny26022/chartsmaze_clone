@@ -106,7 +106,10 @@ class RealDataAdapter {
   }
 
   async runScreen(req: ScreenerRunRequest): Promise<ScreenerRunResponse> {
-    const snapshot = await runSnapshotTask({type:'screen',source:await snapshotSource(req.datasetRevision),request:req});
+    const source = await snapshotSource(req.datasetRevision);
+    const snapshot = req.textQuery?.trim()
+      ? {type:'screen' as const, source, revision:source.revision, sessionDate:source.sessionDate ?? '', result:null}
+      : await runSnapshotTask({type:'screen',source,request:req});
     if (snapshot.type !== 'screen') throw new Error('Unexpected scanner response');
     if (snapshot.result) return snapshot.result;
     const base = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/$/, '');

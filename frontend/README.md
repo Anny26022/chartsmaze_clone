@@ -44,7 +44,7 @@ Nexus supports research and candidate discovery. It does not execute orders, man
 | Mainboard screener | Visual filters, presets, universe selection, active chips, sorting, and paginated results. |
 | IPO catalogue | Listing windows, symbol/company search, sorting, pagination, and screening of selected listings. |
 | Boolean expressions | Match All (`AND`) and Match Any (`OR`) in the UI; the underlying contract supports nested groups. |
-| NQL | Parser/compiler utilities exist; a dedicated editor is not exposed in the current top-level app. |
+| Query input | The main screener sends text to the Python compiler. The browser does not guess conditions or add fallback filters. |
 | Symbol lists | Comparison support and a symbol-list component exist; app navigation currently exposes screener and IPO tabs. |
 | Workspace persistence | Current preferences and conditions persist in browser local storage. |
 | Named saved screens | A named-screen library is not implemented. |
@@ -242,7 +242,7 @@ Responses can carry session metadata, match/universe counts, warnings, and unava
 | `getIpos()` | Fetches and maps the active immutable IPO URL. |
 | `compareSymbols(request)` | Runs a symbol comparison task against the browser snapshot. |
 | `getChart(symbol, revision?)` | Loads a chart using the release URL template. |
-| `explainScreen(request)` | Returns a placeholder valid response with empty explanations/warnings. |
+| `explainScreen(request)` | Builder-only labels are local; runtime availability comes from the executed screen's diagnostics. |
 
 Do not assume `/v1/catalog`, `/v1/ipos`, or `/v1/screens/explain` exist because related facade methods exist. UI explanation utilities are separate from the placeholder explain method.
 

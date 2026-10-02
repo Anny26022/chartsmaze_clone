@@ -93,11 +93,13 @@ class PublishedFieldsTests(unittest.TestCase):
             self.assertEqual(stock['history_metadata']['start_date'], '2026-09-29')
             self.assertEqual(stock['history_metadata']['end_date'], '2026-09-30')
             self.assertEqual(stock['history_metadata']['sessions'], 2)
+            self.assertFalse(stock['history_metadata']['covers_listing'])
             self.assertEqual(stock['available_history_high'], 13)
 
     def test_ambiguous_dividend_has_no_companion_metadata(self):
         with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp); stock = {'Symbol':'ABC'}
+            root = Path(tmp)
+            stock = {'Symbol':'ABC'}
             ledger = {'range':'2026', 'records':[
                 {'symbol':'ABC','action_type':'DIVIDEND','ex_date':'2026-09-01','dividend_per_share':2},
                 {'symbol':'ABC','action_type':'DIVIDEND','ex_date':'2026-09-01','dividend_per_share':3},

@@ -796,7 +796,7 @@
     "id": "INSIDE_BAR",
     "label": "Inside Bar",
     "category": "momentum",
-    "description": "The latest bar traded entirely within the prior bar's high and low. Daily uses trading sessions; weekly rolls daily data into ISO weeks, so the current week is measured to date until it closes. Two daily inside bars in a row form a coil.",
+    "description": "The latest bar traded entirely within the prior bar's high and low. Weekly defaults to completed buckets; including the developing week is explicitly provisional.",
     "parameters": [
       {
         "id": "timeframe",
@@ -820,6 +820,16 @@
         "type": "number",
         "defaultValue": 1,
         "unit": "bars"
+      },
+      {
+        "id": "weeklyMode",
+        "label": "Weekly mode",
+        "type": "select",
+        "defaultValue": "COMPLETED",
+        "options": [
+          { "value": "COMPLETED", "label": "Completed weeks" },
+          { "value": "CURRENT", "label": "Include current (provisional)" }
+        ]
       }
     ]
   },
@@ -1723,6 +1733,45 @@
         "type": "number",
         "defaultValue": 50
       }
+    ]
+  },
+  {
+    "id": "ABSOLUTE_VOLUME",
+    "label": "Volume (shares)",
+    "category": "liquidity",
+    "description": "Latest session traded volume in shares. This is an absolute value, not RVOL.",
+    "parameters": [
+      {"id":"comparison","label":"Comparison","type":"select","defaultValue":"GREATER","options":[
+        {"label":"> Greater","value":"GREATER"},{"label":"≥ At least","value":"ABOVE"},
+        {"label":"< Less","value":"LESS"},{"label":"≤ At most","value":"BELOW"},{"label":"= Equal","value":"EQUAL"}
+      ]},
+      {"id":"value","label":"Shares","type":"number","defaultValue":1000000,"min":0,"step":1}
+    ]
+  },
+  {
+    "id": "ABSOLUTE_EPS",
+    "label": "EPS (TTM)",
+    "category": "fundamentals",
+    "description": "Published trailing-twelve-month earnings per share, aligned to the screen session.",
+    "parameters": [
+      {"id":"comparison","label":"Comparison","type":"select","defaultValue":"GREATER","options":[
+        {"label":"> Greater","value":"GREATER"},{"label":"≥ At least","value":"ABOVE"},
+        {"label":"< Less","value":"LESS"},{"label":"≤ At most","value":"BELOW"},{"label":"= Equal","value":"EQUAL"}
+      ]},
+      {"id":"value","label":"EPS","type":"number","defaultValue":20,"step":0.01,"unit":"₹"}
+    ]
+  },
+  {
+    "id": "DIVIDEND_YIELD",
+    "label": "Dividend Yield",
+    "category": "fundamentals",
+    "description": "Published dividend yield percentage, aligned to the screen session.",
+    "parameters": [
+      {"id":"comparison","label":"Comparison","type":"select","defaultValue":"GREATER","options":[
+        {"label":"> Greater","value":"GREATER"},{"label":"≥ At least","value":"ABOVE"},
+        {"label":"< Less","value":"LESS"},{"label":"≤ At most","value":"BELOW"},{"label":"= Equal","value":"EQUAL"}
+      ]},
+      {"id":"value","label":"Yield","type":"number","defaultValue":2,"min":0,"step":0.01,"unit":"%"}
     ]
   },
   {

@@ -36,10 +36,13 @@ CONTEXT_CONDITION_REGISTRY = {
     "market_breadth": {"inputs": {"universe": "all_active|nifty50|niftymidsmall400", "metric": "pct_above_sma10|pct_above_sma20|pct_above_sma50|pct_above_sma200|ad_ratio_sma10|volume_ratio20", "comparison": "comparison", "value": "number"}, "definition": "Date-aligned market breadth for a named universe."},
     "fno_ban": {"inputs": {"mode": "exclude|only"}, "definition": "Current official NSE F&O security-ban report."},
     "exclude_surveillance": {"inputs": {}, "definition": "Excludes stocks in the latest ASM or GSM surveillance lists. Both lists must be available for the screen session."},
+    "absolute_volume": {"inputs": {"comparison": "comparison", "value": "number"}, "definition": "Latest session traded volume in shares."},
+    "absolute_eps": {"inputs": {"comparison": "comparison", "value": "number"}, "definition": "Published trailing EPS, aligned to the screen session."},
+    "dividend_yield": {"inputs": {"comparison": "comparison", "value": "number"}, "definition": "Published dividend yield percentage, aligned to the screen session."},
 }
 
 KIND_ALIASES = {
-    "PERSISTENT_MOMENTUM": "persistent_momentum", "PRICE_VS_EMA": "price_vs_ema", "EMA_SHAKEOUT": "ema_shakeout_reclaim", "ADX": "adx", "PRICE_VS_SMA": "price_vs_sma", "PCT_DAYS_ABOVE_MA": "percent_days_above_ma", "MA_STACK": "ma_stack", "MA_SLOPE": "ma_slope", "PRICE_CHANGE_PCT": "price_change_percent", "CONSECUTIVE_UP_DAYS": "consecutive_up_days", "GAP_UP": "gap_up", "GAP_DOWN": "gap_down", "VOLUME_VS_AVG": "relative_volume", "AVG_VOLUME_RATIO": "volume_trend", "HIGHEST_VOLUME_IN_N_DAYS": "highest_volume", "DELIVERY_PCT_SPIKE": "delivery_percent_spike", "NEW_HIGH": "new_high", "NEW_LOW": "new_low", "PCT_FROM_52W_HIGH": "percent_from_52w_high", "PCT_FROM_52W_LOW": "percent_from_52w_low", "PCT_FROM_ATH": "percent_from_ath", "CONSOLIDATION_RANGE": "consolidation_range", "ATR_PCT": "atr_percent", "RANGE_CONTRACTION": "range_contraction", "INSIDE_BAR": "inside_bar", "UNFILLED_GAP": "unfilled_gap", "VCP_LEGS": "vcp_contraction_legs", "HORIZONTAL_RESISTANCE_LINE": "horizontal_resistance_line", "RELATIVE_STRENGTH": "relative_strength", "RS_NEW_HIGH": "rs_new_high", "RS_RATING": "rs_rating", "MARKETCAP": "market_cap", "FF_MARKETCAP": "free_float_market_cap", "PE_RATIO": "pe_ratio", "EARNINGS_GROWTH": "earnings_growth", "FUNDAMENTAL_METRIC": "fundamental_metric", "EPS_LAST_YEAR_HIGHER": "eps_last_year_higher", "DAYS_SINCE_EARNINGS": "days_since_earnings", "SECTOR": "sector", "INDUSTRY": "industry", "AVG_TURNOVER": "average_turnover", "ADR_PCT": "adr_percent", "PRICE_RANGE": "price_range", "PRICE_BAND": "price_band", "CIRCUIT_BAND_MIN": "circuit_band_minimum", "SERIES": "series", "LISTING_AGE_DAYS": "listing_age_days", "INDEX_MEMBERSHIP": "index_membership", "MARKET_BREADTH": "market_breadth", "FNO_BAN": "fno_ban", "EXCLUDE_SURVEILLANCE": "exclude_surveillance",
+    "PERSISTENT_MOMENTUM": "persistent_momentum", "INDICATOR_COMPARE": "indicator_compare", "MA_CONVERGENCE": "ma_convergence", "DIVERGENCE": "divergence", "SUPERTREND": "supertrend", "PRICE_VS_EMA": "price_vs_ema", "EMA_SHAKEOUT": "ema_shakeout_reclaim", "ADX": "adx", "PRICE_VS_SMA": "price_vs_sma", "PCT_DAYS_ABOVE_MA": "percent_days_above_ma", "MA_STACK": "ma_stack", "MA_SLOPE": "ma_slope", "PRICE_CHANGE_PCT": "price_change_percent", "CONSECUTIVE_UP_DAYS": "consecutive_up_days", "GAP_UP": "gap_up", "GAP_DOWN": "gap_down", "VOLUME_VS_AVG": "relative_volume", "AVG_VOLUME_RATIO": "volume_trend", "HIGHEST_VOLUME_IN_N_DAYS": "highest_volume", "DELIVERY_PCT_SPIKE": "delivery_percent_spike", "DELIVERY_PERCENT": "delivery_percent", "ABSOLUTE_VOLUME": "absolute_volume", "ABSOLUTE_EPS": "absolute_eps", "DIVIDEND_YIELD": "dividend_yield", "NEW_HIGH": "new_high", "NEW_LOW": "new_low", "PCT_FROM_52W_HIGH": "percent_from_52w_high", "PCT_FROM_52W_LOW": "percent_from_52w_low", "PCT_FROM_ATH": "percent_from_ath", "CONSOLIDATION_RANGE": "consolidation_range", "ATR_PCT": "atr_percent", "RANGE_CONTRACTION": "range_contraction", "INSIDE_BAR": "inside_bar", "UNFILLED_GAP": "unfilled_gap", "VCP_LEGS": "vcp_contraction_legs", "HORIZONTAL_RESISTANCE_LINE": "horizontal_resistance_line", "RELATIVE_STRENGTH": "relative_strength", "RS_NEW_HIGH": "rs_new_high", "RS_RATING": "rs_rating", "MARKETCAP": "market_cap", "FF_MARKETCAP": "free_float_market_cap", "PE_RATIO": "pe_ratio", "EARNINGS_GROWTH": "earnings_growth", "FUNDAMENTAL_METRIC": "fundamental_metric", "EPS_LAST_YEAR_HIGHER": "eps_last_year_higher", "DAYS_SINCE_EARNINGS": "days_since_earnings", "SECTOR": "sector", "INDUSTRY": "industry", "AVG_TURNOVER": "average_turnover", "ADR_PCT": "adr_percent", "PRICE_RANGE": "price_range", "PRICE_BAND": "price_band", "CIRCUIT_BAND_MIN": "circuit_band_minimum", "SERIES": "series", "LISTING_AGE_DAYS": "listing_age_days", "INDEX_MEMBERSHIP": "index_membership", "MARKET_BREADTH": "market_breadth", "FNO_BAN": "fno_ban", "EXCLUDE_SURVEILLANCE": "exclude_surveillance",
 }
 
 COMPARISON_ALIASES = {"ABOVE": "greater_or_equal", "BELOW": "less_or_equal", "GREATER": "greater", "LESS": "less", "EQUAL": "equal"}
@@ -56,7 +59,7 @@ def normalize_condition_spec(raw: dict[str, Any]) -> dict[str, Any]:
     spec["condition"] = condition
     spec.pop("id", None); spec.pop("kind", None)
     aliases = {
-        "overDays": "window", "withinDays": "fired_within", "persistDays": "persist_days", "avgDays": "average_window", "minDays": "minimum_up_days", "positiveClose": "closed_up", "minDeliverablePct": "minimum_delivery_percent", "lookbackDays": "lookback_days", "maxRangePct": "max_range_percent", "excludeLatest": "exclude_latest", "recentDays": "recent_days", "priorDays": "prior_days", "maxRatio": "max_ratio", "priorMode": "prior_mode", "minGapPct": "minimum_gap_percent", "minLegs": "minimum_legs", "maxFinalLegPct": "max_final_leg_percent", "maxLegRatio": "max_leg_ratio", "minSwingPct": "minimum_swing_percent", "clusterTolerancePct": "cluster_tolerance_percent", "minBaseLengthDays": "minimum_base_length_days", "maxBaseLengthDays": "maximum_base_length_days", "minBaseDepthPct": "minimum_base_depth_percent", "maxBaseDepthPct": "maximum_base_depth_percent", "maxPctBelowLine": "maximum_percent_below_line", "maxPctBelow20Ema": "maximum_percent_below_20ema", "valueCr": "value_crore", "maxAgeDays": "maximum_filing_age_days", "windowMinutes": "window_minutes", "minPrice": "minimum_price", "maxPrice": "maximum_price", "minBandPct": "minimum_band_percent", "minPriceBelowHighPct": "minimum_price_below_high_percent", "indexName": "index_name", "ema10Days": "ema10_days", "ema20Days": "ema20_days", "ema50Days": "ema50_days", "maType": "ma_type", "priceAbove": "price_above_fastest", "minChangePct": "value", "pct": "value", "reportType": "report_type",
+        "overDays": "window", "withinDays": "fired_within", "persistDays": "persist_days", "avgDays": "average_window", "minDays": "minimum_up_days", "positiveClose": "closed_up", "minDeliverablePct": "minimum_delivery_percent", "lookbackDays": "lookback_days", "maxRangePct": "max_range_percent", "excludeLatest": "exclude_latest", "recentDays": "recent_days", "priorDays": "prior_days", "maxRatio": "max_ratio", "priorMode": "prior_mode", "minGapPct": "minimum_gap_percent", "minLegs": "minimum_legs", "maxFinalLegPct": "max_final_leg_percent", "maxLegRatio": "max_leg_ratio", "minSwingPct": "minimum_swing_percent", "clusterTolerancePct": "cluster_tolerance_percent", "minBaseLengthDays": "minimum_base_length_days", "maxBaseLengthDays": "maximum_base_length_days", "minBaseDepthPct": "minimum_base_depth_percent", "maxBaseDepthPct": "maximum_base_depth_percent", "maxPctBelowLine": "maximum_percent_below_line", "maxPctBelow20Ema": "maximum_percent_below_20ema", "valueCr": "value_crore", "maxAgeDays": "maximum_filing_age_days", "windowMinutes": "window_minutes", "minPrice": "minimum_price", "maxPrice": "maximum_price", "minBandPct": "minimum_band_percent", "minPriceBelowHighPct": "minimum_price_below_high_percent", "indexName": "index_name", "ema10Days": "ema10_days", "ema20Days": "ema20_days", "ema50Days": "ema50_days", "maType": "ma_type", "priceAbove": "price_above_fastest", "minChangePct": "value", "pct": "value", "reportType": "report_type", "leftIndicator": "left_indicator", "leftPeriod": "left_period", "leftOffset": "left_offset", "rightIndicator": "right_indicator", "rightValue": "right_value", "rightPeriod": "right_period", "rightOffset": "right_offset", "maxSpreadPct": "max_spread_percent", "oscPeriod": "oscillator_period", "maxBarDifference": "max_bar_difference", "pivotLeft": "pivot_left", "pivotRight": "pivot_right", "invalidateOnBreak": "invalidate_on_break", "weeklyMode": "weekly_mode",
     }
     for source, destination in aliases.items():
         if source in spec and destination not in spec:
@@ -149,6 +152,8 @@ def _published_field_value(frame, stock, field, as_of_date):
         return float(frame[latest[field]].iloc[-1]), None
     if field == "volume_lakh":
         return float(frame["Volume"].iloc[-1] / 100_000), None
+    if field == "volume":
+        return float(frame["Volume"].iloc[-1]), None
     if field in {"sma_20", "sma_50", "sma_200"}:
         period = int(field.rsplit("_", 1)[1])
         if len(frame) < period:
@@ -201,7 +206,8 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         return None
     context = context or {}
     stock = context.get("stock") or {}
-    as_of_date = frame["Date"].iloc[-1].date() if not frame.empty else None
+    requested_date = context.get("screen_date")
+    as_of_date = date.fromisoformat(requested_date) if isinstance(requested_date, str) else frame["Date"].iloc[-1].date() if not frame.empty else None
 
     if condition == "field_comparison":
         left, reason = _published_field_value(frame, stock, spec.get("field"), as_of_date)
@@ -218,6 +224,17 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
             except (TypeError, ValueError):
                 return unavailable(condition, "invalid_comparison_value")
         return result(condition, comparison(left, spec["comparison"], right), round(left, 6), field=spec.get("field"), comparison=spec["comparison"], target=round(right, 6))
+
+    if condition in {"absolute_volume", "absolute_eps", "dividend_yield"}:
+        field = {"absolute_volume": "volume", "absolute_eps": "eps_ttm",
+                 "dividend_yield": "dividend_yield_percent"}[condition]
+        value, reason = _published_field_value(frame, stock, field, as_of_date)
+        if reason:
+            return unavailable(condition, reason)
+        target = float(spec["value"])
+        return result(condition, comparison(value, spec["comparison"], target), round(value, 6),
+                      comparison=spec["comparison"], target=target,
+                      unit="shares" if condition == "absolute_volume" else "percent" if condition == "dividend_yield" else "rupees")
 
     if condition in {"relative_strength", "rs_new_high"}:
         benchmark = (context.get("benchmarks") or {}).get(str(spec.get("benchmark", "NIFTY_50")).upper())

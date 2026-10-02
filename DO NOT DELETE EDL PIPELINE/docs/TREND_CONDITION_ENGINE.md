@@ -73,6 +73,24 @@ controls. Supported daily-OHLCV conditions are:
   `no_match OR unavailable` remains unavailable.
 - A missing required moving-average or ADX warm-up returns `unavailable`, not
   `match` or `no_match`.
+- `indicator_compare` uses one shared indicator library for price transforms,
+  SMA/EMA/WMA, volume/OBV, RSI, MACD, stochastic, CCI, Williams %R, MFI, ROC,
+  ADX/DI, ATR, Supertrend, Bollinger Bands and Donchian Channels. `above` and
+  `below` include equality. A crossover requires strict separation on the
+  signal bar and accepts equality on the preceding bar. Offsets and
+  `fired_within` are trading-session counts.
+- `ma_convergence` is
+  `100 × (highest selected average − lowest selected average) / close`.
+  Exact equality is expressed with a zero tolerance; the UI default is 1.5%.
+- Supertrend uses Wilder ATR, the configured period and multiplier, carried
+  final bands, and switches direction only when close crosses the opposite
+  band. Both line value and direction are calculated; the condition filters
+  direction state or a recent direction turn.
+- Divergence pairs unique, confirmed price and oscillator fractal pivots.
+  Both pivots must have their configured right-side confirmation before the
+  event date, preventing future-bar leakage. Regular/hidden and
+  bullish/bearish variants remain separate inputs; optional invalidation
+  rejects a setup if price breaks the second pivot before confirmation.
 - EMA uses `adjust=False`; ADX uses Wilder smoothing (`alpha = 1 / period`).
 - `price_vs_ema` and `persistent_momentum` default to `extreme_reset`, following
   the published reset description. A contrary close arms its low
@@ -109,8 +127,9 @@ controls. Supported daily-OHLCV conditions are:
   base window. `prior_mode: "prior"` uses the immediately preceding, disjoint base;
   `nested` uses an enclosing base and is normally the weaker test.
 - `inside_bar` evaluates the latest requested run of daily bars, or ISO-week
-  OHLCV bars for `timeframe: "weekly"`. As on the referenced screener, the
-  current partial week participates while it is in progress.
+  OHLCV bars for `timeframe: "weekly"`. Weekly mode defaults to `completed`,
+  which excludes the current ISO week. `current` includes it and marks the
+  result provisional because it can change before the week closes.
 - `unfilled_gap` defines a gap relative to the prior close. An up-gap fills
   when a later low reaches that prior close; a down-gap fills when a later high
   reaches it. `state` selects `unfilled` or `filled` events.
@@ -133,6 +152,21 @@ saved UI rule to be translated without silently changing its parameters.
 The generated output includes each condition's result and details. By default
 only matches are emitted; use `include_non_matches` in the request or
 `--include-non-matches` for diagnostics.
+
+### Text query contract
+
+The frontend sends query text unchanged to `scanner.query.compile_query`. The
+compiler preserves parentheses, repeated clauses, and nested `AND`/`OR`
+groups. It maps `>`, `>=`, `<`, `<=`, and `=` to distinct comparisons; no
+opposite price bound is invented. An unsupported field or function rejects
+the complete query instead of running the supported subset.
+
+Labels containing parentheses, including P/E, EPS, dividend yield, and volume
+in lakhs, are recognized as fields before function-call parsing. Public
+functions include RS Rating, VCP Legs, Delivery Pct, Days Since Earnings,
+Supertrend, MA Convergence, Indicator Compare, and the supported oscillators.
+Availability is reported from the selected immutable snapshot and aligned
+history during evaluation; the client does not infer availability from a date.
 
 ## Snapshot and cross-symbol conditions
 

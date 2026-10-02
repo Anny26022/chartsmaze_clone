@@ -85,6 +85,8 @@ export interface StockRow {
   rvol: number | null;
   marketCapCrore: number;
   peRatio: number | null;
+  epsTtm?: number | null;
+  dividendYieldPct?: number | null;
   rsi14: number | null;
   adr20Pct: number | null;
   atr14: number | null;

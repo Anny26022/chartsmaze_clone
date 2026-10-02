@@ -139,11 +139,11 @@ Set the R2 environment variables, enable `EDL_CHART_STORAGE=r2`, and run the nor
 
 ### Mainboard screener
 
-The mainboard workspace exposes a visual condition builder and built-in scans. The repository also contains symbol-list and NQL engine capabilities; their presence in code does not imply a separate navigation tab or query editor in the current app.
+The mainboard workspace exposes a visual condition builder, built-in scans, and a compact query input. Query text is compiled by the Python scanner and never interpreted by a browser keyword heuristic.
 
 1. Choose a built-in scan.
 2. Add custom conditions through the visual filter builder.
-3. Developers can compile an NQL query into the same expression tree through the Python query module.
+3. Query text is compiled into the same expression tree by the Python query module. Unsupported clauses reject the whole request; repeated clauses and nested `AND`/`OR` groups are preserved.
 4. Developers can use the symbol-list component and adapter to apply conditions to a custom symbol list.
 
 Users choose a universe, combine conditions with `AND` or `OR`, run the screen, sort the common results table, paginate, and copy symbols. The evaluator supports nested expression trees. Universe definitions include Mainboard, Nifty 50, Nifty 500, MidSmall 400, and custom symbols; availability depends on the released membership data.
@@ -180,6 +180,10 @@ The filter catalog is a typed contract. A condition has a name, documented input
 
 | Condition | What it evaluates |
 | --- | --- |
+| Indicator Compare / Crossover | Numeric comparison or recent crossover between price transforms, indicators, or a fixed value, with independent periods and offsets. |
+| MA Convergence | Spread among selected SMA/EMA values divided by close, with an explicit tolerance. |
+| Price / Oscillator Divergence | Confirmed regular or hidden bullish/bearish divergence without future-bar leakage. |
+| Supertrend Direction | Wilder-ATR Supertrend line and bullish/bearish state, or a recent direction turn. |
 | Persistent Momentum | Price persistence above or below selected EMAs with the configured reset rule. |
 | Price vs EMA / Price vs SMA | Latest close relative to the selected EMA or SMA. |
 | EMA Shakeout & Reclaim | A recent dip through an EMA followed by a current reclaim. |
@@ -282,7 +286,7 @@ The default EMA persistence mode is `extreme_reset`. A contrary close arms its l
 
 A daily inside bar has `high ≤ preceding high` and `low ≥ preceding low`. For a consecutive run, each bar is compared with the immediately preceding bar; N inside bars require N+1 bars.
 
-Weekly bars group daily sessions by ISO year/week: first open, maximum high, minimum low, last close, summed volume, and last session date. The same containment comparison runs on those aggregates. The current partial week participates; a midweek result may change before that week finishes. Weekly means aggregated daily input, not a separately fetched weekly candle feed.
+Weekly bars group daily sessions by ISO year/week: first open, maximum high, minimum low, last close, summed volume, and last session date. The same containment comparison runs on those aggregates. The default `completed` mode excludes the current ISO week. The explicit `current` mode includes it and marks the result provisional because it can change before that week finishes. Weekly means aggregated daily input, not a separately fetched weekly candle feed.
 
 ### Signal timing, rankings, and unavailable inputs
 

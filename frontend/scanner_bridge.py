@@ -16,6 +16,7 @@ from screen_trend_conditions import _load_context, _load_delivery_history, _reso
 from edl_pipeline.scanner.context import normalize_condition_spec
 from edl_pipeline.scanner.context import CONTEXT_CONDITION_REGISTRY
 from edl_pipeline.scanner.presets import get_preset
+from edl_pipeline.scanner.query import compile_query
 from edl_pipeline.scanner.trend import evaluate_history, normalize_history, _comparison, _evaluate_expression, _leaf_results
 from edl_pipeline.scanner.financials import finite_number, financial_value
 
@@ -223,7 +224,18 @@ def evaluate(node, s, frame, context, as_of, diagnostics, delivery):
                     value > node["strict_min"] if node.get("strict_min") is not None else True,
                     abs(value) <= node["abs_max"] if node.get("abs_max") is not None else True))
     spec = normalize_condition_spec(node)
-    if frame is not None and spec["condition"] not in CONTEXT_CONDITION_REGISTRY and (frame.empty or frame["Date"].iloc[-1].strftime("%Y-%m-%d") != as_of):
+    history_context_conditions = {"relative_strength", "rs_new_high", "average_turnover", "adr_percent",
+                                  "price_range", "listing_age_days", "days_since_earnings", "absolute_volume"}
+    requires_aligned_history = spec["condition"] not in CONTEXT_CONDITION_REGISTRY or spec["condition"] in history_context_conditions
+    if spec["condition"] == "field_comparison":
+        history_fields = {"close", "open", "high", "low", "volume_lakh", "sma_20", "sma_50", "sma_200",
+                          "high_52w", "low_52w", "return_1m", "return_1y", "return_3y", "return_5y",
+                          "return_ytd", "daily_volatility", "annualized_volatility", "market_cap_crore"}
+        operands = {str(spec.get("field", "")).lower()}
+        if isinstance(spec.get("value"), dict):
+            operands.add(str(spec["value"].get("field", "")).lower())
+        requires_aligned_history = bool(operands & history_fields)
+    if frame is not None and requires_aligned_history and (frame.empty or frame["Date"].iloc[-1].strftime("%Y-%m-%d") != as_of):
         diagnostics.add((node["kind"], "stock_history_not_aligned_to_screen_date"))
         return None
     if frame is None:
@@ -249,10 +261,10 @@ def evaluate(node, s, frame, context, as_of, diagnostics, delivery):
     else:
         rows = frame
     if frame is not None:
-        expression = _evaluate_expression(frame, node, delivery, {**context,"stock":s,"delivery_history":delivery})
+        expression = _evaluate_expression(frame, node, delivery, {**context,"stock":s,"delivery_history":delivery,"screen_date":as_of})
         outcome = {"status":expression["status"],"conditions":_leaf_results(expression)}
     else:
-        outcome = evaluate_history(rows,node,as_of,delivery,{**context,"stock":s})
+        outcome = evaluate_history(rows,node,as_of,delivery,{**context,"stock":s,"screen_date":as_of})
     if outcome["status"] == "unavailable":
         reason = outcome["conditions"][0]["details"]["reason"]
         diagnostics.add((node["kind"], reason))
@@ -261,7 +273,7 @@ def evaluate(node, s, frame, context, as_of, diagnostics, delivery):
 
 
 def stock_row(s, ratings):
-    fields = {"listingDate":"listing_date", "series":"listing_series", "changePct":"change_percent", "rvol":"relative_volume_20", "marketCapCrore":"market_cap_crore", "peRatio":"pe_ratio", "rsi14":"rsi14", "adr20Pct":"adr_percent_20", "atr14":"atr14", "dist52wHighPct":"distance_from_52w_high_percent", "dist52wLowPct":"distance_from_52w_low_percent", "distAthPct":"percent_from_ath", "earningsDate":"latest_earnings_date", "deliveryPct":"delivery_percent", "isFno":"fno_eligible", "circuitLimit":"circuit_limit", "roePct":"roe_percent", "rocePct":"roce_percent", "opmTtmPct":"operating_margin_ttm_percent", "debtToEquity":"debt_to_equity", "pegRatio":"peg_ratio", "salesGrowth5yPct":"sales_growth_5_years_percent", "epsLastYear":"eps_last_year", "epsTwoYearsBack":"eps_2_years_back", "surveillanceAvailable":"surveillance_available", "surveillanceAsOfDate":"surveillance_as_of_date", "surveillanceFetchedAt":"surveillance_fetched_at", "isAsm":"is_asm", "asmStage":"asm_stage", "isGsm":"is_gsm", "gsmStage":"gsm_stage"}
+    fields = {"listingDate":"listing_date", "series":"listing_series", "changePct":"change_percent", "rvol":"relative_volume_20", "marketCapCrore":"market_cap_crore", "peRatio":"pe_ratio", "epsTtm":"eps_ttm", "dividendYieldPct":"dividend_yield_percent", "rsi14":"rsi14", "adr20Pct":"adr_percent_20", "atr14":"atr14", "dist52wHighPct":"distance_from_52w_high_percent", "dist52wLowPct":"distance_from_52w_low_percent", "distAthPct":"percent_from_ath", "earningsDate":"latest_earnings_date", "deliveryPct":"delivery_percent", "isFno":"fno_eligible", "circuitLimit":"circuit_limit", "roePct":"roe_percent", "rocePct":"roce_percent", "opmTtmPct":"operating_margin_ttm_percent", "debtToEquity":"debt_to_equity", "pegRatio":"peg_ratio", "salesGrowth5yPct":"sales_growth_5_years_percent", "epsLastYear":"eps_last_year", "epsTwoYearsBack":"eps_2_years_back", "surveillanceAvailable":"surveillance_available", "surveillanceAsOfDate":"surveillance_as_of_date", "surveillanceFetchedAt":"surveillance_fetched_at", "isAsm":"is_asm", "asmStage":"asm_stage", "isGsm":"is_gsm", "gsmStage":"gsm_stage"}
     fields["vwapAsOfDate"] = "vwap_as_of_date"
     fields.update({
         "totalRevenueLakh": "total_revenue_in_lakhs",
@@ -326,9 +338,11 @@ def run(request, root=ROOT, cache=None):
     selected = _resolve_universe(context, universe, explicit)
     wanted = set(selected) if selected is not None else None
     stocks = [s for symbol,s in context["stocks"].items() if (wanted is None or symbol in wanted) and s.get("default_screener_eligible",True)]
-    expression = frontend_expression(request["expressionTree"])
+    text_query = str(request.get("textQuery") or "").strip()
+    expression = compile_query(text_query) if text_query else frontend_expression(request["expressionTree"])
     # Only collect delivery if a translated condition asks for it.
-    delivery = _load_delivery_history(root/"delivery_history_data", selected, root/"eod2_delivery_history_data") if "DELIVERY_PCT_SPIKE" in json.dumps(expression) else {}
+    serialized_expression = json.dumps(expression).lower()
+    delivery = _load_delivery_history(root/"delivery_history_data", selected, root/"eod2_delivery_history_data") if "delivery_percent" in serialized_expression else {}
     matched, counts, unresolved = [], Counter(), 0
     for s in stocks:
         path = root/"ohlcv_data"/f"{s['symbol']}.csv"

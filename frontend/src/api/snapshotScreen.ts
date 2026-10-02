@@ -77,6 +77,9 @@ function leaf(c: ActiveCondition, session: string): Predicate | null {
     case 'PE_RATIO':
       if (p.reportType !== 'PREFER_CONSOLIDATED') return null;
       metadata = true; fn = s => compare(s.peRatio,p.comparison,p.value); break;
+    case 'ABSOLUTE_VOLUME': fn = s => compare(s.volume,p.comparison,p.value); break;
+    case 'ABSOLUTE_EPS': metadata = true; fn = s => compare(s.epsTtm,p.comparison,p.value); break;
+    case 'DIVIDEND_YIELD': metadata = true; fn = s => compare(s.dividendYieldPct,p.comparison,p.value); break;
     case 'fund_roe': metadata = true; fn = s => compare(s.roePct,'ABOVE',p.minRoe); break;
     case 'fund_free_float': metadata = true; fn = s => between(s.freeFloatPct,p.minFloat,p.maxFloat); break;
     case 'fund_stock_price': fn = s => compare(s.close,'GREATER',p.minPrice); break;
@@ -129,6 +132,7 @@ interface Matches { rows: SnapshotStock[]; universeCount: number }
 const matchCache = new WeakMap<Snapshot,Map<string,Matches>>();
 
 export function screenSnapshot(data: Snapshot, request: ScreenerRunRequest): ScreenerRunResponse | null {
+  if (request.textQuery?.trim()) return null;
   const key = JSON.stringify([request.expressionTree,request.universe,request.customSymbols,request.sort]);
   let cache = matchCache.get(data);
   if (!cache) { cache = new Map(); matchCache.set(data,cache); }

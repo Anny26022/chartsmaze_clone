@@ -107,9 +107,16 @@ class BridgeTests(unittest.TestCase):
         self.assertTrue(bridge.evaluate(bridge.translate("EPS_LAST_YEAR_HIGHER",{}),stock,None,{},"2026-09-30",set(),[]))
         self.assertFalse(bridge.evaluate(bridge.translate("EPS_LAST_YEAR_HIGHER",{}),{**stock,"eps_last_year":8},None,{},"2026-09-30",set(),[]))
 
+    def test_absolute_volume_eps_and_dividend_yield_use_their_native_units(self):
+        stock={**self.stock(),"eps_ttm":25,"dividend_yield_percent":2.5}
+        frame=self.history(); frame.loc[frame.index[-1],"Volume"]=1_000_000
+        self.assertTrue(bridge.evaluate(bridge.translate("ABSOLUTE_VOLUME",{"comparison":"ABOVE","value":1_000_000}),stock,frame,{},"2026-09-30",set(),[]))
+        self.assertTrue(bridge.evaluate(bridge.translate("ABSOLUTE_EPS",{"comparison":"GREATER","value":20}),stock,frame,{},"2026-09-30",set(),[]))
+        self.assertTrue(bridge.evaluate(bridge.translate("DIVIDEND_YIELD",{"comparison":"GREATER","value":2}),stock,frame,{},"2026-09-30",set(),[]))
+
     def test_all_native_condition_defaults_execute(self):
         catalog=json.loads((Path(__file__).parent/"src/data/nativeConditions.json").read_text())
-        self.assertEqual(len(catalog),51)
+        self.assertEqual(len(catalog),54)
         for item in catalog:
             with self.subTest(condition=item["id"]):
                 params={p["id"]:p["defaultValue"] for p in item["parameters"]}
@@ -139,6 +146,18 @@ class BridgeTests(unittest.TestCase):
             response=bridge.run(request,Path(folder))
             self.assertEqual(response["matchCount"],1)
             with self.assertRaises(ValueError): bridge.run({**request,"asOfDate":"2026-09-29"},Path(folder))
+
+    def test_text_query_is_compiled_by_python_and_rejects_unsupported_clauses(self):
+        context={"stocks":{"TEST":self.stock()},"financial_history_as_of":"2026-09-30","rs_ratings":{},"fno_ban_symbols":{}}
+        request={"asOfDate":"2026-09-30","universe":"mainboard",
+                 "expressionTree":{"type":"group","operator":"all","children":[]},
+                 "textQuery":"(Close Price > 50 AND Close Price < 150) AND Volume (in Lakhs) >= 0.001"}
+        with tempfile.TemporaryDirectory() as folder, patch.object(bridge,"_load_context",return_value=context):
+            root=Path(folder); (root/'ohlcv_data').mkdir(); self.history().to_csv(root/'ohlcv_data/TEST.csv',index=False)
+            response=bridge.run(request,root)
+            self.assertEqual(response["matchCount"],1)
+            with self.assertRaisesRegex(ValueError,"Unsupported query field"):
+                bridge.run({**request,"textQuery":"Unknown Metric > 5"},root)
 
     def test_historical_rows_do_not_reuse_current_snapshot_enrichments(self):
         stock={**self.stock(),"as_of_date":"2026-09-30","total_revenue_in_lakhs":1000,
