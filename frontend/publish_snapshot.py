@@ -77,6 +77,10 @@ def publish(root=bridge.ROOT, output=OUTPUT):
             for period in (20,50,100):
                 metrics[f'turnover{period}']=float((frame['Close']*frame['Volume']).tail(period).mean()/1e7) if len(frame)>=period else None
         row['metrics']=metrics
+        row['historyMetadata']=stock.get('history_metadata')
+        row['financialMetadata']=stock.get('financial_metadata')
+        row['dividendExDate']=stock.get('dividend_ex_date')
+        row['vwapAsOfDate']=stock.get('vwap_as_of_date')
         row['peRatio']=financial_value(context,stock,{'condition':'pe_ratio'},bridge.date.fromisoformat(session),finite_number(stock.get('market_cap_crore')))[0]
         row['fnoBan']=bool(context['fno_ban_symbols'].get(symbol)) if context.get('fno_ban_available') and context.get('fno_ban_trade_date')==session else None
         row['roePct']=finite_number(stock.get('roe_percent'))
