@@ -41,6 +41,24 @@ jobs:
           restore-keys: |
             scanner-history-v1-${{ runner.os }}-
 
+      - name: Restore EOD2 data checkout
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/eod2_data
+          key: eod2-data-v1-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            eod2-data-v1-${{ runner.os }}-
+
+      - name: Update EOD2 adjusted-history data
+        env:
+          EOD2_DATA_DIR: ${{ runner.temp }}/eod2_data
+        run: |
+          if [ -d "$EOD2_DATA_DIR/.git" ]; then
+            git -C "$EOD2_DATA_DIR" pull --ff-only origin main
+          else
+            git clone --depth 1 https://github.com/BennyThadikaran/eod2_data.git "$EOD2_DATA_DIR"
+          fi
+
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
@@ -60,6 +78,7 @@ jobs:
 
       - name: Run Pipeline
         env:
+          EDL_EOD2_DATA_DIR: ${{ runner.temp }}/eod2_data
           EDL_CHART_STORAGE: r2
           R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}

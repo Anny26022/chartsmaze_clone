@@ -262,6 +262,18 @@ def evaluate(node, s, frame, context, as_of, diagnostics, delivery):
 
 def stock_row(s, ratings):
     fields = {"listingDate":"listing_date", "series":"listing_series", "changePct":"change_percent", "rvol":"relative_volume_20", "marketCapCrore":"market_cap_crore", "peRatio":"pe_ratio", "rsi14":"rsi14", "adr20Pct":"adr_percent_20", "atr14":"atr14", "dist52wHighPct":"distance_from_52w_high_percent", "dist52wLowPct":"distance_from_52w_low_percent", "distAthPct":"percent_from_ath", "earningsDate":"latest_earnings_date", "deliveryPct":"delivery_percent", "isFno":"fno_eligible", "circuitLimit":"circuit_limit", "roePct":"roe_percent", "rocePct":"roce_percent", "opmTtmPct":"operating_margin_ttm_percent", "debtToEquity":"debt_to_equity", "pegRatio":"peg_ratio", "salesGrowth5yPct":"sales_growth_5_years_percent", "epsLastYear":"eps_last_year", "epsTwoYearsBack":"eps_2_years_back", "surveillanceAvailable":"surveillance_available", "surveillanceAsOfDate":"surveillance_as_of_date", "surveillanceFetchedAt":"surveillance_fetched_at", "isAsm":"is_asm", "asmStage":"asm_stage", "isGsm":"is_gsm", "gsmStage":"gsm_stage"}
+    fields["vwapAsOfDate"] = "vwap_as_of_date"
+    fields.update({
+        "totalRevenueLakh": "total_revenue_in_lakhs",
+        "nonCurrentAssetsLakh": "non_current_assets_in_lakhs",
+        "totalLiabilitiesLakh": "total_liabilities_in_lakhs",
+        "interestCoverage": "interest_coverage",
+        "dividendPerShare": "dividend_per_share_latest",
+        "vwap": "vwap",
+        "allTimeHigh": "all_time_high",
+        "allTimeLow": "all_time_low",
+        "return5yPct": "return_5y",
+    })
     row = {k:s.get(v) for k,v in fields.items()}
     row.update({k:s.get(k) for k in ("symbol","name","open","high","low","close","volume")})
     row.update(sector=s.get("sector") or "Unclassified", industry=s.get("industry") or "Unclassified", rupeeVolumeCrore=(s.get("rupee_volume") or 0)/1e7, rsRating=ratings.get(s["symbol"],{}).get("front_weighted"), daysSinceEarnings=None, fnoBan=False)

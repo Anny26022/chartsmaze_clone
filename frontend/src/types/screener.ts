@@ -107,6 +107,17 @@ export interface StockRow {
   rocePct?: number | null;
   opmTtmPct?: number | null;
   debtToEquity?: number | null;
+  totalRevenueLakh?: number | null;
+  nonCurrentAssetsLakh?: number | null;
+  totalLiabilitiesLakh?: number | null;
+  interestCoverage?: number | null;
+  dividendPerShare?: number | null;
+  vwap?: number | null;
+  vwapAsOfDate?: string | null;
+  allTimeHigh?: number | null;
+  allTimeLow?: number | null;
+  return5yPct?: number | null;
+
   pegRatio?: number | null;
   salesGrowth5yPct?: number | null;
   epsLastYear?: number | null;

@@ -86,10 +86,11 @@ function leaf(c: ActiveCondition, session: string): Predicate | null {
       const field: Record<string, keyof SnapshotStock> = {
         ROE:'roePct', ROCE:'rocePct', OPM_TTM:'opmTtmPct', DEBT_TO_EQUITY:'debtToEquity',
         PEG_RATIO:'pegRatio', SALES_GROWTH_5Y:'salesGrowth5yPct',
+        TOTAL_REVENUE_IN_LAKHS:'totalRevenueLakh', NON_CURRENT_ASSETS_IN_LAKHS:'nonCurrentAssetsLakh', TOTAL_LIABILITIES_IN_LAKHS:'totalLiabilitiesLakh', INTEREST_COVERAGE:'interestCoverage', DIVIDEND_PER_SHARE_LATEST:'dividendPerShare', VWAP:'vwap', ALL_TIME_HIGH:'allTimeHigh', ALL_TIME_LOW:'allTimeLow', RETURN_5Y:'return5yPct',
       };
       const key = field[String(p.metric).toUpperCase()];
       if (!key) return null;
-      metadata = true; fn = s => compare(s[key],p.comparison,p.value); break;
+      metadata = true; fn = s => key === "vwap" && s.vwapAsOfDate !== session ? null : compare(s[key],p.comparison,p.value); break;
     }
     case 'EPS_LAST_YEAR_HIGHER':
       metadata = true; fn = s => {

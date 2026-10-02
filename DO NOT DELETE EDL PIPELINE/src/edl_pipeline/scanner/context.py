@@ -19,7 +19,7 @@ CONTEXT_CONDITION_REGISTRY = {
     "free_float_market_cap": {"inputs": {"comparison": "comparison", "value_crore": "number"}, "definition": "Current market capitalisation multiplied by free-float percentage."},
     "pe_ratio": {"inputs": {"comparison": "comparison", "value": "number"}, "definition": "Current positive trailing P/E."},
     "earnings_growth": {"inputs": {"metric": "net_profit|revenue|pbt|eps|opm", "basis": "qoq|yoy", "comparison": "comparison", "value": "number", "maximum_filing_age_days": "integer"}, "definition": "Reported quarterly line-item growth, subject to filing age. OPM compares reported operating-margin percentages."},
-    "fundamental_metric": {"inputs": {"metric": "roe|roce|opm_ttm|debt_to_equity|peg_ratio|sales_growth_5y", "comparison": "comparison", "value": "number"}, "definition": "Current published fundamental metric aligned to the screen session."},
+    "fundamental_metric": {"inputs": {"metric": "roe|roce|opm_ttm|debt_to_equity|peg_ratio|sales_growth_5y|total_revenue_in_lakhs|non_current_assets_in_lakhs|total_liabilities_in_lakhs|interest_coverage|dividend_per_share_latest|vwap|all_time_high|all_time_low|return_5y", "comparison": "comparison", "value": "number"}, "definition": "Current published fundamental metric aligned to the screen session."},
     "eps_last_year_higher": {"inputs": {}, "definition": "Latest annual EPS is greater than the preceding annual EPS in the current published fundamentals."},
     "days_since_earnings": {"inputs": {"comparison": "comparison", "days": "integer"}, "definition": "Trading sessions since the latest reported earnings date."},
     "sector": {"inputs": {"values": "string[]"}, "definition": "NSE sector membership."},
@@ -185,6 +185,8 @@ def _published_field_value(frame, stock, field, as_of_date):
         return float(cap * frame["Close"].iloc[-1] / close), None
     if not _stock_snapshot_is_aligned(stock, as_of_date):
         return None, "snapshot_not_aligned_to_screen_date"
+    if field == "vwap" and stock.get("vwap_as_of_date") != as_of_date.isoformat():
+        return None, "vwap_not_aligned_to_screen_date"
     value = _float(stock, field)
     return (value, None) if value is not None else (None, "snapshot_value_unavailable")
 
@@ -320,9 +322,12 @@ def evaluate_context_condition(frame, spec, context, result: Callable[..., Any],
         field = {
             "roe": "roe_percent", "roce": "roce_percent", "opm_ttm": "operating_margin_ttm_percent",
             "debt_to_equity": "debt_to_equity", "peg_ratio": "peg_ratio", "sales_growth_5y": "sales_growth_5_years_percent",
+            "total_revenue_in_lakhs": "total_revenue_in_lakhs", "non_current_assets_in_lakhs": "non_current_assets_in_lakhs", "total_liabilities_in_lakhs": "total_liabilities_in_lakhs", "interest_coverage": "interest_coverage", "dividend_per_share_latest": "dividend_per_share_latest", "vwap": "vwap", "all_time_high": "all_time_high", "all_time_low": "all_time_low", "return_5y": "return_5y",
         }.get(str(spec.get("metric", "")).lower())
         if field is None:
             return unavailable(condition, "unsupported_fundamental_metric")
+        if field == "vwap" and stock.get("vwap_as_of_date") != as_of_date.isoformat():
+            return unavailable(condition, "vwap_not_aligned_to_screen_date")
         value = _float(stock, field)
         if value is None:
             return unavailable(condition, "fundamental_metric_unavailable")

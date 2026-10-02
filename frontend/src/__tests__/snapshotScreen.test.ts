@@ -49,6 +49,19 @@ describe('published snapshots', () => {
     expect(screenSnapshot({...snapshot,stocks:[stock]},{...request,expressionTree:condition('FUNDAMENTAL_METRIC',{metric:'ROE',comparison:'ABOVE',value:15})})?.matchCount).toBe(1);
     expect(screenSnapshot({...snapshot,stocks:[stock]},{...request,expressionTree:condition('EPS_LAST_YEAR_HIGHER')})?.matchCount).toBe(1);
   });
+  it('connects newly published values and leaves missing or stale data unknown', () => {
+    const stock = {...snapshot.stocks[0],metadataAsOfDate:snapshot.asOfDate,
+      interestCoverage:5,totalRevenueLakh:1200,dividendPerShare:2,
+      vwap:100,vwapAsOfDate:snapshot.asOfDate,allTimeHigh:null,return5yPct:null};
+    for (const metric of ['INTEREST_COVERAGE','TOTAL_REVENUE_IN_LAKHS','DIVIDEND_PER_SHARE_LATEST','VWAP']) {
+      expect(screenSnapshot({...snapshot,stocks:[stock]},{...request,expressionTree:condition('FUNDAMENTAL_METRIC',{metric,comparison:'ABOVE',value:1})})?.matchCount).toBe(1);
+    }
+    for (const metric of ['ALL_TIME_HIGH','RETURN_5Y']) {
+      expect(screenSnapshot({...snapshot,stocks:[stock]},{...request,expressionTree:condition('FUNDAMENTAL_METRIC',{metric,comparison:'ABOVE',value:1})})?.matchCount).toBe(0);
+    }
+    expect(screenSnapshot({...snapshot,stocks:[{...stock,vwapAsOfDate:'2000-01-01'}]},{...request,
+      expressionTree:condition('FUNDAMENTAL_METRIC',{metric:'VWAP',comparison:'ABOVE',value:1})})?.matchCount).toBe(0);
+  });
   it('refreshes a same-session correction and pins Python fallback to that revision', async () => {
     vi.resetModules();
     const revision = 'a'.repeat(64), next = 'b'.repeat(64);

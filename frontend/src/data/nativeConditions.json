@@ -1343,7 +1343,16 @@
           { "value": "OPM_TTM", "label": "OPM (TTM, %)" },
           { "value": "DEBT_TO_EQUITY", "label": "Debt / equity" },
           { "value": "PEG_RATIO", "label": "PEG ratio" },
-          { "value": "SALES_GROWTH_5Y", "label": "Sales growth (5Y, %)" }
+          { "value": "SALES_GROWTH_5Y", "label": "Sales growth (5Y, %)" },
+          {"value": "TOTAL_REVENUE_IN_LAKHS", "label": "Revenue (quarter, ₹ lakh)"},
+          {"value": "NON_CURRENT_ASSETS_IN_LAKHS", "label": "Non-current assets (annual, ₹ lakh)"},
+          {"value": "TOTAL_LIABILITIES_IN_LAKHS", "label": "Liabilities (annual, ₹ lakh)"},
+          {"value": "INTEREST_COVERAGE", "label": "Interest coverage (annual)"},
+          {"value": "DIVIDEND_PER_SHARE_LATEST", "label": "DPS (latest declaration, ₹)"},
+          {"value": "VWAP", "label": "VWAP (latest session, ₹)"},
+          {"value": "ALL_TIME_HIGH", "label": "All-time high (verified coverage, ₹)"},
+          {"value": "ALL_TIME_LOW", "label": "All-time low (verified coverage, ₹)"},
+          {"value": "RETURN_5Y", "label": "Return (5 years, %)"}
         ]
       },
       {

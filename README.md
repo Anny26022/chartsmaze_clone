@@ -237,9 +237,11 @@ The filter catalog is a typed contract. A condition has a name, documented input
 | --- | --- |
 | P/E | Positive trailing P/E from the released fundamental snapshot. |
 | Quarterly growth | QoQ or YoY revenue, net profit, PBT, EPS, or operating-margin growth. |
-| Fundamental metric | ROE, ROCE, operating margin, debt to equity, PEG, or five-year sales growth when supplied. |
+| Fundamental metric | ROE, ROCE, operating margin, verified debt/equity, PEG, sales growth, revenue, non-current assets, total liabilities and annual interest coverage. Published price/history choices also include session VWAP, latest declared DPS, listing-covered ATH/ATL and five-year return. |
 | EPS Last Year Higher | Latest annual EPS compared with the preceding annual EPS. |
 | Days Since Earnings | Trading sessions since the latest reported earnings event. |
+
+Financial amounts labelled in lakhs are converted from ScanX crore values. Statement periods and derived formulas are retained in metadata. D/E remains unavailable without actual borrowings; latest declared DPS is not annual DPS. See [published financial and price fields](docs/published-financial-and-price-fields.md) for source contracts, query examples and history coverage rules.
 
 ### Built-in scans
 

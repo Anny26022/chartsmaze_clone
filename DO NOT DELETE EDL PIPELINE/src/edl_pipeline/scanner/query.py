@@ -36,6 +36,12 @@ FIELD_ALIASES = {
     "current liabilities (in lakhs)": "current_liabilities_in_lakhs", "non-current liabilities (in lakhs)": "non_current_liabilities_in_lakhs",
     "operating cash flow (in lakhs)": "operating_cash_flow_in_lakhs", "investing cash flow (in lakhs)": "investing_cash_flow_in_lakhs",
     "net cash flow (in lakhs)": "net_cash_flow_in_lakhs",
+    "total revenue (in lakhs)": "total_revenue_in_lakhs",
+    "non-current assets (in lakhs)": "non_current_assets_in_lakhs",
+    "total liabilities (in lakhs)": "total_liabilities_in_lakhs",
+    "interest coverage": "interest_coverage", "vwap": "vwap",
+    "dividend per share (dps)": "dividend_per_share_latest",
+    "all time high": "all_time_high", "all time low": "all_time_low",
 }
 
 
@@ -113,7 +119,9 @@ def _function_condition(name: str, arguments: list[str], operator: str | None = 
 
 def _leaf(text: str) -> dict:
     function = re.match(r"^(.+?)\((.*)\)\s*(>=|<=|>|<|=)\s*(.+)$", text.strip())
-    if function and function.group(1).strip().casefold() not in FIELD_ALIASES:
+    field_match = re.match(r"^(.+?)\s*(>=|<=|>|<|=)\s*(.+)$", text.strip())
+    known_field = field_match and field_match.group(1).strip().casefold() in FIELD_ALIASES
+    if function and not known_field:
         name, arguments, operator, value = function.groups()
         return _function_condition(name, _arguments(arguments), operator, value)
     bare_function = re.match(r"^(.+?)\((.*)\)$", text.strip())
