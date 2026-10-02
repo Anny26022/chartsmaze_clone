@@ -1,0 +1,974 @@
+{
+    "generated_at": "2026-10-02T16:46:26.701523+00:00",
+    "base_dir": ".",
+    "config": {
+        "fetch_ohlcv": true,
+        "fetch_optional": false,
+        "cleanup_intermediate": false
+    },
+    "total_time_seconds": 1622.228,
+    "raw_size_bytes": 1137941538,
+    "gzip_size_bytes": 111764729,
+    "exit_code": 0,
+    "scripts": {
+        "fetch_dhan_data.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 4.173356056213379,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "dhan_data_response.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 7746917,
+                    "count": 3170
+                },
+                {
+                    "path": "master_isin_map.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 752791,
+                    "count": 3170
+                }
+            ]
+        },
+        "fetch_sme_data.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 1.7180423736572266,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "sme_market_data.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 88102,
+                    "count": 568
+                }
+            ]
+        },
+        "filter_mainboard_universe.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 0.515169620513916,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "mainboard_universe_report.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 10909,
+                    "count": 8
+                }
+            ]
+        },
+        "fetch_fundamental_data.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 30.537814378738403,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "fundamental_data.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 39717947,
+                    "count": 2603
+                }
+            ]
+        },
+        "reconcile_nse_equity_universe.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 0.16401433944702148,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "nse_universe_reconciliation.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 608,
+                    "count": 11
+                }
+            ]
+        },
+        "fetch_company_filings.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 228.557363986969,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "company_filings",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 2593
+                }
+            ]
+        },
+        "fetch_new_announcements.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 35.64787220954895,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_company_announcements.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 118628,
+                    "count": 544
+                }
+            ]
+        },
+        "fetch_advanced_indicators.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 36.404324531555176,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "advanced_indicator_data.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 8069499,
+                    "count": 2578
+                }
+            ]
+        },
+        "fetch_market_news.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 55.981420278549194,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "market_news",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 2590
+                }
+            ]
+        },
+        "fetch_nse_corporate_actions.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 5.125716209411621,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "nse_corporate_actions.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 7138511,
+                    "count": 6
+                },
+                {
+                    "path": "nse_corporate_action_adjustments.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 501164,
+                    "count": 6
+                }
+            ]
+        },
+        "fetch_corporate_actions.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 8.832778930664062,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "upcoming_earnings_events.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 18816,
+                    "count": 86
+                },
+                {
+                    "path": "history_earnings_events.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 7413633,
+                    "count": 33606
+                }
+            ]
+        },
+        "fetch_surveillance_lists.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 2.771794080734253,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "nse_asm_list.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 30535,
+                    "count": 197
+                },
+                {
+                    "path": "nse_gsm_list.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 12173,
+                    "count": 77
+                }
+            ]
+        },
+        "fetch_circuit_stocks.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 2.2187716960906982,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "upper_circuit_stocks.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 32666,
+                    "count": 94
+                },
+                {
+                    "path": "lower_circuit_stocks.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 71010,
+                    "count": 205
+                }
+            ]
+        },
+        "fetch_bulk_block_deals.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 37.91002082824707,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "bulk_block_deals.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 2890139,
+                    "count": 5639
+                }
+            ]
+        },
+        "fetch_incremental_price_bands.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 1.5713651180267334,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "incremental_price_bands.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 2641,
+                    "count": 15
+                }
+            ]
+        },
+        "fetch_complete_price_bands.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 1.6223323345184326,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "complete_price_bands.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 607020,
+                    "count": 3574
+                }
+            ]
+        },
+        "fetch_nse_delivery_history.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 3.674595594406128,
+            "returncode": 0,
+            "error": "",
+            "validations": []
+        },
+        "fetch_nse_fno_ban.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 0.9169611930847168,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "nse_fno_ban.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 372,
+                    "count": 7
+                }
+            ]
+        },
+        "fetch_all_indices.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 0.7165541648864746,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_indices_list.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 85010,
+                    "count": 192
+                }
+            ]
+        },
+        "import_eod2_ohlcv.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 207.64290595054626,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "eod2_ohlcv_import_report.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 452315,
+                    "count": 16
+                }
+            ]
+        },
+        "fetch_nse_delivery_data.py": {
+            "ok": true,
+            "required": false,
+            "elapsed": 1.4665701389312744,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "nse_delivery_data.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 2027612,
+                    "count": 7
+                }
+            ]
+        },
+        "apply_nse_daily_ohlcv.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 93.6729793548584,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "nse_daily_ohlcv_report.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 282,
+                    "count": 6
+                }
+            ]
+        },
+        "fetch_all_ohlcv.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 489.1610584259033,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "ohlcv_data",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 2633
+                }
+            ]
+        },
+        "fetch_indices_ohlcv.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 18.9154269695282,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "indices_ohlcv_data",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 192
+                }
+            ]
+        },
+        "bulk_market_analyzer.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 1.3677382469177246,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 14829617,
+                    "count": 2603
+                }
+            ]
+        },
+        "advanced_metrics_processor.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 35.89333915710449,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 19487072,
+                    "count": 2603
+                }
+            ]
+        },
+        "process_earnings_performance.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 15.157348871231079,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 19848985,
+                    "count": 2603
+                }
+            ]
+        },
+        "enrich_fno_data.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 4.576193332672119,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 20045562,
+                    "count": 2603
+                }
+            ]
+        },
+        "enrich_delivery_data.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 1.0665857791900635,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 20485960,
+                    "count": 2603
+                }
+            ]
+        },
+        "enrich_surveillance_status.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 1.0164170265197754,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 21165226,
+                    "count": 2603
+                }
+            ]
+        },
+        "process_market_breadth.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 0.8158779144287109,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 21165226,
+                    "count": 2603
+                },
+                {
+                    "path": "sector_analytics.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 96859,
+                    "count": 2
+                }
+            ]
+        },
+        "process_historical_market_breadth.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 74.9204912185669,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "market_breadth.csv",
+                    "kind": "csv",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 31406,
+                    "count": 29
+                }
+            ]
+        },
+        "process_mbi_market_breadth.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 222.71112608909607,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_indices_history_v2.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 10957477,
+                    "count": 5
+                },
+                {
+                    "path": "breadth_universe_snapshot.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 887077,
+                    "count": 10
+                },
+                {
+                    "path": "market_breadth_v2.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 853267,
+                    "count": 7
+                }
+            ]
+        },
+        "build_rs_ratings.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 19.922858238220215,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "rs_rating_daily.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 361278,
+                    "count": 7
+                }
+            ]
+        },
+        "build_shareholding_history.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 2.019756555557251,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "shareholding_history.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 25290069,
+                    "count": 6
+                }
+            ]
+        },
+        "add_corporate_events.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 4.928585767745972,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 27462840,
+                    "count": 2603
+                }
+            ]
+        },
+        "build_corporate_action_ledger.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 0.5653812885284424,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "corporate_action_ledger.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 8318523,
+                    "count": 4
+                }
+            ]
+        },
+        "enrich_published_fields.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 52.55851483345032,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 30073198,
+                    "count": 2603
+                }
+            ]
+        },
+        "standardize_stock_artifact.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 8.690008640289307,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "all_stocks_fundamental_analysis.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 28245553,
+                    "count": 2603
+                }
+            ]
+        },
+        "build_filing_history_artifact.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 27.04630756378174,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "filing_history.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 1004861869,
+                    "count": 5
+                }
+            ]
+        },
+        "build_quarterly_financial_ledger.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 18.019142150878906,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "quarterly_financial_history.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 48666391,
+                    "count": 5
+                }
+            ]
+        },
+        "build_ipo_screener_artifact.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 0.5152208805084229,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "ipo_screener.json",
+                    "kind": "json",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 1643620,
+                    "count": 6
+                }
+            ]
+        },
+        "build_chart_artifacts.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 198.06613516807556,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "chart_artifacts",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 2604
+                }
+            ]
+        },
+        "snapshot_screener_context.py": {
+            "ok": true,
+            "required": true,
+            "elapsed": 42.86548209190369,
+            "returncode": 0,
+            "error": "",
+            "validations": [
+                {
+                    "path": "scanner_history_data",
+                    "kind": "dir",
+                    "ok": true,
+                    "message": "ok",
+                    "size_bytes": 0,
+                    "count": 5
+                }
+            ]
+        }
+    },
+    "final_artifacts": [
+        {
+            "path": "all_stocks_fundamental_analysis.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 3355552,
+            "count": 2603
+        },
+        {
+            "path": "sector_analytics.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 5805,
+            "count": 2
+        },
+        {
+            "path": "market_breadth.json.gz",
+            "kind": "gzip_csv",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 11673,
+            "count": 29
+        },
+        {
+            "path": "all_indices_list.json",
+            "kind": "json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 85010,
+            "count": 192
+        },
+        {
+            "path": "market_breadth_v2.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 107556,
+            "count": 7
+        },
+        {
+            "path": "breadth_universe_snapshot.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 106815,
+            "count": 10
+        },
+        {
+            "path": "all_indices_history_v2.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 1501040,
+            "count": 5
+        },
+        {
+            "path": "corporate_action_ledger.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 452841,
+            "count": 4
+        },
+        {
+            "path": "nse_corporate_actions.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 639869,
+            "count": 6
+        },
+        {
+            "path": "nse_corporate_action_adjustments.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 42287,
+            "count": 6
+        },
+        {
+            "path": "nse_fno_ban.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 285,
+            "count": 7
+        },
+        {
+            "path": "rs_rating_daily.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 31059,
+            "count": 7
+        },
+        {
+            "path": "ipo_screener.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 167636,
+            "count": 6
+        },
+        {
+            "path": "shareholding_history.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 902119,
+            "count": 6
+        },
+        {
+            "path": "filing_history.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 100986672,
+            "count": 5
+        },
+        {
+            "path": "quarterly_financial_history.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 3442573,
+            "count": 5
+        },
+        {
+            "path": "nse_universe_reconciliation.json",
+            "kind": "json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 608,
+            "count": 11
+        },
+        {
+            "path": "mainboard_universe_report.json",
+            "kind": "json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 10909,
+            "count": 8
+        },
+        {
+            "path": "sme_market_data.json.gz",
+            "kind": "gzip_json",
+            "ok": true,
+            "message": "ok",
+            "size_bytes": 10947,
+            "count": 568
+        }
+    ],
+    "quality_errors": [],
+    "published": true
+}
