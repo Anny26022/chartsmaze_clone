@@ -117,6 +117,9 @@ export interface StockRow {
   allTimeHigh?: number | null;
   allTimeLow?: number | null;
   return5yPct?: number | null;
+  historyMetadata?: Record<string, unknown> | null;
+  financialMetadata?: Record<string, unknown> | null;
+  dividendExDate?: string | null;
 
   pegRatio?: number | null;
   salesGrowth5yPct?: number | null;

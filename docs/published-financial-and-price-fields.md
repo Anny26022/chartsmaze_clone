@@ -1,6 +1,6 @@
 # Published financial and price fields
 
-The daily and weekly publication workflows use the same main pipeline. This change implements the source/publication recommendations numbered 1, 2, 3, 4 and 6. Recommendation 5 (a new financial-statement XBRL parser for tax components and borrowings) is deliberately excluded.
+The daily and weekly publication workflows use the same main pipeline. This change implements the published-field, dividend-ledger, VWAP, and history-coverage changes described below. A new financial-statement XBRL parser for tax components and borrowings is deliberately excluded.
 
 ## Sources and calculations
 
@@ -12,7 +12,7 @@ The daily and weekly publication workflows use the same main pipeline. This chan
 | Interest coverage | `(incomeStat_cy.PROFIT_BEFORE_TAX + INTEREST) / INTEREST` | Latest annual consolidated statement; ratio; requires positive interest |
 | Debt / equity | Explicit `bs_c.TOTAL_BORROWINGS / TOTAL_EQUITY` | Same annual balance-sheet observation; positive equity required |
 | DPS | Explicit rupee amount per share in the latest NSE dividend declaration whose ex-date is no later than the publication session | ₹ per share on that ex-date, not annual or TTM DPS |
-| VWAP | NSE full bhavcopy `AVG_PRICE`, otherwise `TURNOVER_LACS × 100,000 / TTL_TRD_QNTY` | Session-specific ₹; fallback inherits exchange turnover rounding |
+| VWAP | NSE full bhavcopy `AVG_PRICE`; when it is blank or zero, `TURNOVER_LACS × 100,000 / TTL_TRD_QNTY` | Session-specific ₹; fallback inherits exchange turnover rounding |
 | Five-year return | `(latest close / close 1,260 sessions ago - 1) × 100` | Requires 1,261 aligned closes; fixed trading-session window |
 | All-time high/low | Maximum adjusted high / minimum adjusted low, published only for listing-covered history | ₹; see coverage policy below |
 

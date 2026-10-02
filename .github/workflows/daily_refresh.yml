@@ -54,6 +54,7 @@ jobs:
             eod2-data-v1-${{ runner.os }}-
 
       - name: Update EOD2 adjusted-history data
+        continue-on-error: true
         env:
           EOD2_DATA_DIR: ${{ runner.temp }}/eod2_data
         run: |

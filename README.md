@@ -237,7 +237,7 @@ The filter catalog is a typed contract. A condition has a name, documented input
 | --- | --- |
 | P/E | Positive trailing P/E from the released fundamental snapshot. |
 | Quarterly growth | QoQ or YoY revenue, net profit, PBT, EPS, or operating-margin growth. |
-| Fundamental metric | ROE, ROCE, operating margin, verified debt/equity, PEG, sales growth, revenue, non-current assets, total liabilities and annual interest coverage. Published price/history choices also include session VWAP, latest declared DPS, listing-covered ATH/ATL and five-year return. |
+| Fundamental metric | ROE, ROCE, operating margin, verified debt/equity, PEG, five-year sales growth, latest-quarter revenue, non-current assets, total liabilities and annual interest coverage. Published price/history choices also include session VWAP, latest declared DPS, listing-covered ATH/ATL and five-year return. |
 | EPS Last Year Higher | Latest annual EPS compared with the preceding annual EPS. |
 | Days Since Earnings | Trading sessions since the latest reported earnings event. |
 
