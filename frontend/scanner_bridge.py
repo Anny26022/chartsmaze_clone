@@ -384,6 +384,11 @@ def run(request, root=ROOT, cache=None):
                         "vwap","vwapAsOfDate","allTimeHigh","allTimeLow","return5yPct",
                     ):
                         row[field]=None
+            # stock_row starts from the current snapshot. Recalculate after
+            # history substitution and current-only field sanitization so the
+            # percentage describes the row that is actually returned.
+            row.pop("dataCompleteness", None)
+            row["dataCompleteness"] = round(100 * sum(value is not None for value in row.values()) / len(row))
             matched.append(row)
     sort=request.get("sort") or {}
     field=sort.get("field","symbol")

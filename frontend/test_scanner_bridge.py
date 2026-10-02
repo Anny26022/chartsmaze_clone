@@ -177,3 +177,5 @@ class BridgeTests(unittest.TestCase):
                           "interestCoverage","dividendPerShare","vwap","vwapAsOfDate",
                           "allTimeHigh","allTimeLow","return5yPct","roePct","epsLastYear"):
                 self.assertIsNone(row[field], field)
+            values = [value for field, value in row.items() if field != "dataCompleteness"]
+            self.assertEqual(row["dataCompleteness"], round(100 * sum(value is not None for value in values) / len(values)))

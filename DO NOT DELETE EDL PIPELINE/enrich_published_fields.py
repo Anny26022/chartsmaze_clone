@@ -49,7 +49,14 @@ def enrich(stocks, bhavcopy, ledger, history_report, history_dir):
                 continue
             normalized_rows.append({**row, "Date": row_date.isoformat(),
                                     **{key: float(row[key]) for key in ("Open", "High", "Low", "Close", "Volume")}})
-        rows = [row for row in normalized_rows if not session or row["Date"] <= session]
+        # Canonicalization can collapse differently formatted source dates onto
+        # one exchange session. Keep the last source row for that session so a
+        # duplicate cannot inflate lookbacks or history coverage counts.
+        rows = list({
+            row["Date"]: row
+            for row in normalized_rows
+            if not session or row["Date"] <= session
+        }.values())
         rows.sort(key=lambda row: row["Date"])
         listing = listing_day(stock.get("Listing Date") or stock.get("listing_date"))
         source = history_report.get("symbol_history", {}).get(symbol, {})
