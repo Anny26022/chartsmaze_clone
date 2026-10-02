@@ -87,7 +87,7 @@ controls. Supported daily-OHLCV conditions are:
   band. Both line value and direction are calculated; the condition filters
   direction state or a recent direction turn.
 - Divergence pairs unique, confirmed price and oscillator fractal pivots.
-  Both pivots must have their configured right-side confirmation before the
+  Both pivots must have their configured right-side confirmation by the
   event date, preventing future-bar leakage. Regular/hidden and
   bullish/bearish variants remain separate inputs; optional invalidation
   rejects a setup if price breaks the second pivot before confirmation.

@@ -152,9 +152,15 @@ def _function_condition(name: str, arguments: list[str], operator: str | None = 
     if key == "ma convergence":
         if target is None:
             raise ValueError("MA Convergence requires a maximum spread comparison.")
+        if not arguments or "," not in arguments[0]:
+            raise ValueError('MA Convergence periods must be a quoted comma-delimited list, for example "9,20,50,200".')
+        periods = [part.strip() for part in arguments[0].split(",") if part.strip()]
+        if len(periods) < 2 or not all(part.isdigit() for part in periods):
+            raise ValueError("MA Convergence requires at least two positive integer periods.")
         return {"type": "condition", "kind": "MA_CONVERGENCE", "params": {
-            "periods": [int(part.strip()) for part in arguments[0].split(",")],
+            "periods": [int(part) for part in periods],
             "maType": arguments[1] if len(arguments) > 1 else "EMA",
+            "comparison": comparison,
             "maxSpreadPct": target,
             "withinDays": int(arguments[2]) if len(arguments) > 2 else 1,
         }}

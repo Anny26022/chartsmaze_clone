@@ -224,6 +224,8 @@ def _confirmed_pivots(values, pivot_type, left, right):
         if pd.isna(value):
             continue
         window = values.iloc[index - left:index + right + 1]
+        if window.isna().any():
+            continue
         is_pivot = value <= window.min() if pivot_type == "low" else value >= window.max()
         if is_pivot and (window == value).sum() == 1:
             output.append((index, float(value), index + right))
@@ -392,10 +394,18 @@ def _evaluate(frame, spec, delivery_history=None, context=None):
         values = pd.concat([_ma(frame, ma_type, period) for period in periods], axis=1)
         spread = (values.max(axis=1) - values.min(axis=1)) / frame["Close"].replace(0, np.nan) * 100
         complete = values.notna().all(axis=1) & frame["Close"].gt(0)
-        flags = spread.le(float(spec.get("max_spread_percent", 1.5))).where(complete)
+        threshold = float(spec.get("max_spread_percent", 1.5))
+        comparison = str(spec.get("comparison", "less_or_equal")).lower()
+        spread_comparisons = {
+            "greater": spread.gt, "greater_or_equal": spread.ge,
+            "less": spread.lt, "less_or_equal": spread.le, "equal": spread.eq,
+        }
+        if comparison not in spread_comparisons:
+            raise ValueError("Unsupported MA convergence comparison.")
+        flags = spread_comparisons[comparison](threshold).where(complete)
         return _event_result(condition, flags, spec.get("fired_within", 1), spread, frame=frame,
                              periods=periods, ma_type=ma_type,
-                             max_spread_percent=float(spec.get("max_spread_percent", 1.5)),
+                             comparison=comparison, max_spread_percent=threshold,
                              latest_averages=[round(float(value), 6) if not pd.isna(value) else None for value in values.iloc[-1]])
 
     if condition == "supertrend":

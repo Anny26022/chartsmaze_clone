@@ -114,6 +114,28 @@ class BridgeTests(unittest.TestCase):
         self.assertTrue(bridge.evaluate(bridge.translate("ABSOLUTE_EPS",{"comparison":"GREATER","value":20}),stock,frame,{},"2026-09-30",set(),[]))
         self.assertTrue(bridge.evaluate(bridge.translate("DIVIDEND_YIELD",{"comparison":"GREATER","value":2}),stock,frame,{},"2026-09-30",set(),[]))
 
+    def test_snapshot_field_query_without_history_has_stable_diagnostics(self):
+        node=bridge.compile_query("Earning Per Share (EPS) > 20")
+        stock={**self.stock(),"eps_ttm":25}
+        self.assertTrue(bridge.evaluate(node,stock,None,{},"2026-09-30",set(),[]))
+
+        diagnostics=set()
+        self.assertIsNone(bridge.evaluate(node,{**stock,"eps_ttm":None},None,{},"2026-09-30",diagnostics,[]))
+        self.assertIn(("field_comparison","snapshot_value_unavailable"),diagnostics)
+
+    def test_current_valuation_conditions_reject_stale_history_frames(self):
+        stale=self.history(latest="2026-09-29")
+        for kind,params in [
+            ("MARKETCAP",{"comparison":"ABOVE","valueCr":1_000}),
+            ("FF_MARKETCAP",{"comparison":"ABOVE","valueCr":1_000}),
+            ("PE_RATIO",{"comparison":"BELOW","value":25}),
+        ]:
+            with self.subTest(kind=kind):
+                diagnostics=set()
+                value=bridge.evaluate(bridge.translate(kind,params),self.stock(),stale,{},"2026-09-30",diagnostics,[])
+                self.assertIsNone(value)
+                self.assertIn((kind,"stock_history_not_aligned_to_screen_date"),diagnostics)
+
     def test_all_native_condition_defaults_execute(self):
         catalog=json.loads((Path(__file__).parent/"src/data/nativeConditions.json").read_text())
         self.assertEqual(len(catalog),54)

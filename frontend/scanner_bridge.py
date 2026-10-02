@@ -224,8 +224,10 @@ def evaluate(node, s, frame, context, as_of, diagnostics, delivery):
                     value > node["strict_min"] if node.get("strict_min") is not None else True,
                     abs(value) <= node["abs_max"] if node.get("abs_max") is not None else True))
     spec = normalize_condition_spec(node)
+    diagnostic_kind = str(node.get("kind") or spec["condition"])
     history_context_conditions = {"relative_strength", "rs_new_high", "average_turnover", "adr_percent",
-                                  "price_range", "listing_age_days", "days_since_earnings", "absolute_volume"}
+                                  "price_range", "listing_age_days", "days_since_earnings", "absolute_volume",
+                                  "market_cap", "free_float_market_cap", "pe_ratio"}
     requires_aligned_history = spec["condition"] not in CONTEXT_CONDITION_REGISTRY or spec["condition"] in history_context_conditions
     if spec["condition"] == "field_comparison":
         history_fields = {"close", "open", "high", "low", "volume_lakh", "sma_20", "sma_50", "sma_200",
@@ -236,7 +238,7 @@ def evaluate(node, s, frame, context, as_of, diagnostics, delivery):
             operands.add(str(spec["value"].get("field", "")).lower())
         requires_aligned_history = bool(operands & history_fields)
     if frame is not None and requires_aligned_history and (frame.empty or frame["Date"].iloc[-1].strftime("%Y-%m-%d") != as_of):
-        diagnostics.add((node["kind"], "stock_history_not_aligned_to_screen_date"))
+        diagnostics.add((diagnostic_kind, "stock_history_not_aligned_to_screen_date"))
         return None
     if frame is None:
         value = snapshot_rule(s, spec, as_of)
@@ -248,15 +250,20 @@ def evaluate(node, s, frame, context, as_of, diagnostics, delivery):
             if s.get("as_of_date") == as_of and not pd.isna(marker) and benchmark is not None and not benchmark.empty and marker >= benchmark["Date"].min():
                 sessions = int(((benchmark["Date"] > marker) & (benchmark["Date"] <= pd.Timestamp(as_of))).sum())
                 return _comparison(sessions, spec["comparison"], spec["days"])
-            diagnostics.add((node["kind"], "session_calendar_or_dated_marker_unavailable"))
+            diagnostics.add((diagnostic_kind, "session_calendar_or_dated_marker_unavailable"))
             return None
-        if spec["condition"] not in CONTEXT_CONDITION_REGISTRY:
-            diagnostics.add((node["kind"], "stock_ohlcv_history_unavailable"))
+        if spec["condition"] not in CONTEXT_CONDITION_REGISTRY and spec["condition"] != "field_comparison":
+            diagnostics.add((diagnostic_kind, "stock_ohlcv_history_unavailable"))
             return None
         close = finite_number(s.get("close"))
-        if close is None or s.get("as_of_date") != as_of:
-            diagnostics.add((node["kind"], "stock_history_unavailable_for_date"))
+        if s.get("as_of_date") != as_of or (requires_aligned_history and close is None):
+            diagnostics.add((diagnostic_kind, "stock_history_unavailable_for_date"))
             return None
+        # Snapshot-only context fields (for example EPS or dividend yield) do
+        # not need a stock history file.  A valid one-row carrier lets the
+        # shared evaluator read the dated stock snapshot without inventing a
+        # market value; history-dependent operands are rejected above.
+        close = close if close is not None else 1.0
         rows = [{"Date":as_of,"Open":s.get("open") or close,"High":s.get("high") or close,"Low":s.get("low") or close,"Close":close,"Volume":s.get("volume") or 0}]
     else:
         rows = frame
@@ -267,7 +274,7 @@ def evaluate(node, s, frame, context, as_of, diagnostics, delivery):
         outcome = evaluate_history(rows,node,as_of,delivery,{**context,"stock":s,"screen_date":as_of})
     if outcome["status"] == "unavailable":
         reason = outcome["conditions"][0]["details"]["reason"]
-        diagnostics.add((node["kind"], reason))
+        diagnostics.add((diagnostic_kind, reason))
         return None
     return outcome["status"] == "match"
 

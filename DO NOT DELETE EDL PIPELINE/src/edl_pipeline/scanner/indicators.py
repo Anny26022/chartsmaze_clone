@@ -126,10 +126,17 @@ def indicator_series(frame: pd.DataFrame, name: str, period: int = 14, multiplie
         result = result.where(average_loss != 0, 100.0)
         return result.where(~((average_gain == 0) & (average_loss == 0)), 50.0)
     if name in {"MACD", "MACD_SIGNAL", "MACD_HIST"}:
-        fast = close.ewm(span=12, adjust=False, min_periods=12).mean()
-        slow = close.ewm(span=26, adjust=False, min_periods=26).mean()
+        # ``period`` is the slow span.  Scale the conventional 12/26/9
+        # relationship so the generic indicator builder's period control is
+        # real; period=26 remains the standard MACD exactly.
+        slow_period = max(3, period)
+        fast_period = max(2, round(slow_period * 12 / 26))
+        signal_period = max(2, round(slow_period * 9 / 26))
+        fast_period = min(fast_period, slow_period - 1)
+        fast = close.ewm(span=fast_period, adjust=False, min_periods=fast_period).mean()
+        slow = close.ewm(span=slow_period, adjust=False, min_periods=slow_period).mean()
         macd = fast - slow
-        signal = macd.ewm(span=9, adjust=False, min_periods=9).mean()
+        signal = macd.ewm(span=signal_period, adjust=False, min_periods=signal_period).mean()
         return macd if name == "MACD" else signal if name == "MACD_SIGNAL" else macd - signal
     if name in {"STOCH_K", "STOCH_D", "WILLIAMS_R"}:
         rolling_low, rolling_high = low.rolling(period, min_periods=period).min(), high.rolling(period, min_periods=period).max()

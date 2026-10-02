@@ -242,7 +242,7 @@ Responses can carry session metadata, match/universe counts, warnings, and unava
 | `getIpos()` | Fetches and maps the active immutable IPO URL. |
 | `compareSymbols(request)` | Runs a symbol comparison task against the browser snapshot. |
 | `getChart(symbol, revision?)` | Loads a chart using the release URL template. |
-| `explainScreen(request)` | Builder-only labels are local; runtime availability comes from the executed screen's diagnostics. |
+| `explainScreen(request)` | Builder labels are local; Python fallback responses may include runtime availability diagnostics. |
 
 Do not assume `/v1/catalog`, `/v1/ipos`, or `/v1/screens/explain` exist because related facade methods exist. UI explanation utilities are separate from the placeholder explain method.
 

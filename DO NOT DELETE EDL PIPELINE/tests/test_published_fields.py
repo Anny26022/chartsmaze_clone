@@ -86,7 +86,7 @@ class PublishedFieldsTests(unittest.TestCase):
             root = Path(tmp)
             write_ohlcv_csv(root/'ABC.csv', [
                 {'Date':'29-Sep-2026','Open':10,'High':12,'Low':9,'Close':11,'Volume':100},
-                {'Date':'2026-09-29','Open':10,'High':12.5,'Low':9,'Close':11.5,'Volume':125},
+                {'Date':'2026-09-29','Open':10,'High':14,'Low':9,'Close':11.5,'Volume':125},
                 {'Date':'30/09/2026','Open':11,'High':13,'Low':10,'Close':12,'Volume':150},
             ])
             stock = {'Symbol':'ABC','Listing Date':'29-Sep-2026'}
@@ -95,7 +95,7 @@ class PublishedFieldsTests(unittest.TestCase):
             self.assertEqual(stock['history_metadata']['end_date'], '2026-09-30')
             self.assertEqual(stock['history_metadata']['sessions'], 2)
             self.assertFalse(stock['history_metadata']['covers_listing'])
-            self.assertEqual(stock['available_history_high'], 13)
+            self.assertEqual(stock['available_history_high'], 14)
 
     def test_ambiguous_dividend_has_no_companion_metadata(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -11,7 +11,7 @@ SRC = ROOT / "src"
 if str(SRC) not in sys.path:
     sys.path.insert(0, str(SRC))
 
-from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_history, evaluate_universe, _divergence_events, _persisted
+from edl_pipeline.scanner.trend import CONDITION_REGISTRY, evaluate_history, evaluate_universe, _confirmed_pivots, _divergence_events, _persisted
 from edl_pipeline.scanner.context import KIND_ALIASES
 from edl_pipeline.scanner.indicators import SUPPORTED_INDICATORS, indicator_series
 from edl_pipeline.scanner.presets import get_preset, list_presets, load_preset_library, validate_preset_library
@@ -31,6 +31,17 @@ def rising_history(length=300):
 
 
 class TrendScannerTests(unittest.TestCase):
+    def test_macd_period_changes_the_series_and_standard_period_is_stable(self):
+        frame = rising_history(120)
+        standard = indicator_series(frame, "MACD", 26)
+        shorter = indicator_series(frame, "MACD", 20)
+        self.assertNotEqual(float(standard.dropna().iloc[-1]), float(shorter.dropna().iloc[-1]))
+        self.assertEqual(standard.first_valid_index(), 25)
+
+    def test_confirmed_pivots_require_a_fully_warmed_window(self):
+        values = pd.Series([float("nan"), 1.0, 3.0, 2.0, 4.0])
+        self.assertNotIn(1, [index for index, _value, _confirmed in _confirmed_pivots(values, "low", 1, 1)])
+
     def test_momentum_shorter_qualifying_ema_does_not_require_longer_warmup(self):
         result = evaluate_history(rising_history(30), [{"condition":"persistent_momentum","periods":[10,50],"persist_days":5}])
         self.assertEqual(result["status"], "match")
