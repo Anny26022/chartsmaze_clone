@@ -248,7 +248,7 @@ Do not assume `/v1/catalog`, `/v1/ipos`, or `/v1/screens/explain` exist because 
 
 ### Local Python bridge
 
-Vite handles `POST /api/screens/run`, starts a persistent `python3` worker, and exchanges request/response messages through standard streams. Python retains numeric history caches for reuse. Python-source changes restart the worker. Local server requests have a 120-second timeout.
+Vite handles `POST /api/screens/run`, starts a persistent `python3` worker, and exchanges request/response messages through standard streams. Python retains numeric history caches for reuse. The development server restarts the worker when watched Python sources change; preview does not watch those sources. Local server requests have a 120-second timeout.
 
 This development/preview middleware is not a separately packaged production backend. External deployment must supply a service process and the matching evaluation inputs.
 
