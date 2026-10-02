@@ -90,7 +90,8 @@ function leaf(c: ActiveCondition, session: string): Predicate | null {
       };
       const key = field[String(p.metric).toUpperCase()];
       if (!key) return null;
-      metadata = true; fn = s => key === "vwap" && s.vwapAsOfDate !== session ? null : compare(s[key],p.comparison,p.value); break;
+      metadata = !['dividendPerShare','vwap','allTimeHigh','allTimeLow','return5yPct'].includes(key);
+      fn = s => key === "vwap" && s.vwapAsOfDate !== session ? null : compare(s[key],p.comparison,p.value); break;
     }
     case 'EPS_LAST_YEAR_HIGHER':
       metadata = true; fn = s => {

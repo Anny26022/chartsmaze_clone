@@ -61,6 +61,12 @@ describe('published snapshots', () => {
     }
     expect(screenSnapshot({...snapshot,stocks:[{...stock,vwapAsOfDate:'2000-01-01'}]},{...request,
       expressionTree:condition('FUNDAMENTAL_METRIC',{metric:'VWAP',comparison:'ABOVE',value:1})})?.matchCount).toBe(0);
+    const stale = condition('FUNDAMENTAL_METRIC',{metric:'VWAP',comparison:'ABOVE',value:1});
+    expect(screenSnapshot({...snapshot,stocks:[{...stock,vwapAsOfDate:'2000-01-01'}]},{...request,
+      expressionTree:{...stale,condition:{...stale.condition,isNegated:true}}})?.matchCount).toBe(0);
+    const staleMetadata = {...stock,metadataAsOfDate:'2000-01-01'};
+    expect(screenSnapshot({...snapshot,stocks:[staleMetadata]},{...request,
+      expressionTree:condition('FUNDAMENTAL_METRIC',{metric:'DIVIDEND_PER_SHARE_LATEST',comparison:'ABOVE',value:1})})?.matchCount).toBe(1);
   });
   it('refreshes a same-session correction and pins Python fallback to that revision', async () => {
     vi.resetModules();

@@ -360,7 +360,15 @@ def run(request, root=ROOT, cache=None):
                 row["changePct"] = finite_number((last["Close"] / history["Close"].iloc[-2] - 1) * 100) if len(history) >= 2 else None
                 if s.get("as_of_date") != as_of:
                     # A current row must not be displayed as historical metrics.
-                    for field in ("marketCapCrore","peRatio","rvol","rsi14","adr20Pct","atr14","dist52wHighPct","dist52wLowPct","distAthPct","deliveryPct","sma20","sma50","sma200"):
+                    for field in (
+                        "marketCapCrore","peRatio","rvol","rsi14","adr20Pct","atr14",
+                        "dist52wHighPct","dist52wLowPct","distAthPct","deliveryPct",
+                        "sma20","sma50","sma200","roePct","rocePct","opmTtmPct",
+                        "debtToEquity","pegRatio","salesGrowth5yPct","epsLastYear",
+                        "epsTwoYearsBack","totalRevenueLakh","nonCurrentAssetsLakh",
+                        "totalLiabilitiesLakh","interestCoverage","dividendPerShare",
+                        "vwap","vwapAsOfDate","allTimeHigh","allTimeLow","return5yPct",
+                    ):
                         row[field]=None
             matched.append(row)
     sort=request.get("sort") or {}

@@ -41,6 +41,12 @@ class ScannerQueryTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Unsupported query field"):
             compile_query("Dividend Cover ratio > 4")
 
+    def test_field_comparison_accepts_parenthesized_alias_on_the_right(self):
+        tree = compile_query("Close Price > Non-current assets (in lakhs)")
+        self.assertEqual(tree["condition"], "field_comparison")
+        self.assertEqual(tree["field"], "close")
+        self.assertEqual(tree["value"], {"field": "non_current_assets_in_lakhs"})
+
 
 if __name__ == "__main__":
     unittest.main()

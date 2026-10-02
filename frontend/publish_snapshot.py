@@ -71,7 +71,7 @@ def publish(root=bridge.ROOT, output=OUTPUT):
             row['changePct']=float((last['Close']/frame['Close'].iloc[-2]-1)*100) if len(frame)>=2 else None
             for field in ('sma20','sma50','sma200'):
                 row[field]=metrics[field]
-            for period in (5,21,63,126,252,756,1260):
+            for period in (5,21,63,126,252):
                 metrics[f'return{period}']=float((last['Close']/frame['Close'].iloc[-1-period]-1)*100) if len(frame)>period else None
             metrics['gapPct']=float((last['Open']/frame['Close'].iloc[-2]-1)*100) if len(frame)>1 else None
             for period in (20,50,100):

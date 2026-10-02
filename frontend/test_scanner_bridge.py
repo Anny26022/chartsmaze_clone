@@ -139,3 +139,22 @@ class BridgeTests(unittest.TestCase):
             response=bridge.run(request,Path(folder))
             self.assertEqual(response["matchCount"],1)
             with self.assertRaises(ValueError): bridge.run({**request,"asOfDate":"2026-09-29"},Path(folder))
+
+    def test_historical_rows_do_not_reuse_current_snapshot_enrichments(self):
+        stock={**self.stock(),"as_of_date":"2026-09-30","total_revenue_in_lakhs":1000,
+               "non_current_assets_in_lakhs":2000,"total_liabilities_in_lakhs":800,
+               "interest_coverage":5,"dividend_per_share_latest":2,"vwap":100,
+               "vwap_as_of_date":"2026-09-30","all_time_high":150,"all_time_low":20,
+               "return_5y":80,"roe_percent":18,"eps_last_year":12}
+        context={"stocks":{"TEST":stock},"financial_history_as_of":"2026-09-30",
+                 "rs_ratings":{},"fno_ban_symbols":{}}
+        request={"asOfDate":"2026-09-29","universe":"mainboard",
+                 "expressionTree":{"type":"group","operator":"all","children":[]}}
+        with tempfile.TemporaryDirectory() as folder, patch.object(bridge,"_load_context",return_value=context):
+            root=Path(folder); (root/'ohlcv_data').mkdir()
+            self.history(latest="2026-09-29").to_csv(root/'ohlcv_data/TEST.csv',index=False)
+            row=bridge.run(request,root)["rows"][0]
+            for field in ("totalRevenueLakh","nonCurrentAssetsLakh","totalLiabilitiesLakh",
+                          "interestCoverage","dividendPerShare","vwap","vwapAsOfDate",
+                          "allTimeHigh","allTimeLow","return5yPct","roePct","epsLastYear"):
+                self.assertIsNone(row[field], field)

@@ -125,9 +125,9 @@ def _leaf(text: str) -> dict:
         name, arguments, operator, value = function.groups()
         return _function_condition(name, _arguments(arguments), operator, value)
     bare_function = re.match(r"^(.+?)\((.*)\)$", text.strip())
-    if bare_function:
+    if bare_function and not field_match:
         return _function_condition(bare_function.group(1), _arguments(bare_function.group(2)))
-    match = re.match(r"^(.+?)\s*(>=|<=|>|<|=)\s*(.+)$", text.strip())
+    match = field_match
     if not match: raise ValueError(f"Expected a comparison in query clause: {text!r}")
     left, operator, right = match.groups()
     left_value = _operand(left)

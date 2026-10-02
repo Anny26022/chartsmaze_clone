@@ -71,6 +71,8 @@ class PublishedFieldsTests(unittest.TestCase):
 
     def test_dividend_source_details_and_ambiguity(self):
         self.assertEqual(dividend_amount('Dividend - Rs. 5/- per share'), 5)
+        self.assertEqual(dividend_amount('Interim Dividend Re 0.50 Per Share'), .5)
+        self.assertEqual(dividend_amount('Final Dividend Rs - 2.25 Per Share'), 2.25)
         self.assertIsNone(dividend_amount('Dividend 200%'))
         self.assertIsNone(dividend_amount('Rs 5 per share and Rs 2 per share'))
         action = {'symbol':'ABC','categories':['dividend'],'exDate':'2026-09-01',
@@ -78,6 +80,31 @@ class PublishedFieldsTests(unittest.TestCase):
         ledger = build_ledger([action, action])
         self.assertEqual(len(ledger), 1)
         self.assertEqual(ledger[0]['dividend_per_share'], 5)
+
+    def test_history_dates_are_normalized_and_missing_bhavcopy_does_not_erase_history(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            write_ohlcv_csv(root/'ABC.csv', [
+                {'Date':'29-Sep-2026','Open':10,'High':12,'Low':9,'Close':11,'Volume':100},
+                {'Date':'30/09/2026','Open':11,'High':13,'Low':10,'Close':12,'Volume':150},
+            ])
+            stock = {'Symbol':'ABC','Listing Date':'29-Sep-2026'}
+            enrich([stock], {}, {}, {}, root)
+            self.assertEqual(stock['history_metadata']['start_date'], '2026-09-29')
+            self.assertEqual(stock['history_metadata']['end_date'], '2026-09-30')
+            self.assertEqual(stock['history_metadata']['sessions'], 2)
+            self.assertEqual(stock['available_history_high'], 13)
+
+    def test_ambiguous_dividend_has_no_companion_metadata(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp); stock = {'Symbol':'ABC'}
+            ledger = {'range':'2026', 'records':[
+                {'symbol':'ABC','action_type':'DIVIDEND','ex_date':'2026-09-01','dividend_per_share':2},
+                {'symbol':'ABC','action_type':'DIVIDEND','ex_date':'2026-09-01','dividend_per_share':3},
+            ]}
+            enrich([stock], {'as_of_date':'2026-09-30'}, ledger, {}, root)
+            for field in ('dividend_per_share_latest','dividend_ex_date','dividend_basis','dividend_source_range'):
+                self.assertIsNone(stock[field])
 
     def test_pipeline_enrichment_queries_and_history_coverage(self):
         with tempfile.TemporaryDirectory() as tmp:

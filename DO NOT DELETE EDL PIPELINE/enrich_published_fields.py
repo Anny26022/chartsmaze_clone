@@ -36,13 +36,20 @@ def enrich(stocks, bhavcopy, ledger, history_report, history_dir):
         events = sorted(dividends.get(symbol, []), key=lambda row: row["ex_date"])
         latest = events[-1] if events else {}
         same_day = [event for event in events if event["ex_date"] == latest.get("ex_date")]
-        stock["dividend_per_share_latest"] = latest.get("dividend_per_share") if len(same_day) == 1 else None
-        stock["dividend_ex_date"] = latest.get("ex_date")
-        stock["dividend_basis"] = "latest ex-date declaration; rupees per share on that date"
-        stock["dividend_source_range"] = ledger.get("range")
+        unambiguous_dividend = len(same_day) == 1 and latest.get("dividend_per_share") is not None
+        stock["dividend_per_share_latest"] = latest.get("dividend_per_share") if unambiguous_dividend else None
+        stock["dividend_ex_date"] = latest.get("ex_date") if unambiguous_dividend else None
+        stock["dividend_basis"] = "latest ex-date declaration; rupees per share on that date" if unambiguous_dividend else None
+        stock["dividend_source_range"] = ledger.get("range") if unambiguous_dividend else None
         rows = discard_invalid_ohlcv_rows(read_ohlcv_csv(symbol_csv_path(Path(history_dir), symbol)))
-        rows = [{**row, **{key: float(row[key]) for key in ("Open", "High", "Low", "Close", "Volume")}} for row in rows]
-        rows = [row for row in rows if session and listing_day(row["Date"]) and row["Date"] <= session]
+        normalized_rows = []
+        for row in rows:
+            row_date = listing_day(row.get("Date"))
+            if row_date is None:
+                continue
+            normalized_rows.append({**row, "Date": row_date.isoformat(),
+                                    **{key: float(row[key]) for key in ("Open", "High", "Low", "Close", "Volume")}})
+        rows = [row for row in normalized_rows if not session or row["Date"] <= session]
         rows.sort(key=lambda row: row["Date"])
         listing = listing_day(stock.get("Listing Date") or stock.get("listing_date"))
         source = history_report.get("symbol_history", {}).get(symbol, {})
