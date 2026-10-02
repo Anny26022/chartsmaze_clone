@@ -311,7 +311,7 @@ sequenceDiagram
   W-->>UI: Result page and diagnostics
   UI->>API: Use only if history-dependent expression is unsupported in worker
   API-->>UI: Authoritative evaluated result
-  Note over UI,R2: Chart client exists; viewer integration is pending
+  Note over UI,R2: Chart client exists, viewer integration is pending
 ```
 
 ### Browser release loading
