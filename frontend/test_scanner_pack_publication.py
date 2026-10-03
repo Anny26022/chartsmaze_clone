@@ -2,13 +2,15 @@ import gzip
 import json
 from pathlib import Path
 import struct
+import sys
 import tempfile
 import unittest
 
 import pandas as pd
 
-from scanner_pack_publication import MAGIC,SHARD_COUNT,build_private_scanner_pack
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from scanner_identity import checked_identity
+from scanner_pack_publication import MAGIC,SHARD_COUNT,build_private_scanner_pack
 
 
 class Cache:

@@ -109,12 +109,13 @@ async function snapshotSource(revision?: string): Promise<SnapshotSource> {
   const manifest = current ?? await refreshManifest();
   const selected = revision ?? manifest.revision;
   if (!/^[a-f0-9]{64}$/.test(selected)) throw new Error('Invalid dataset revision');
-  // Older revisions retain their original JSON URL; current releases advertise gzip.
+  const release = selected === manifest.revision ? manifest
+    : validateManifest(await getJson<unknown>(`/data/revisions/${selected}/release.json`));
+  if (release.revision !== selected) throw new Error('Scanner release revision mismatch');
   return { revision:selected,
-    url:selected === manifest.revision ? (typeof DecompressionStream !== 'undefined' ? manifest.datasetGzipUrl : undefined) ?? manifest.datasetUrl
-      : `/data/revisions/${selected}/stocks.json`,
-    sessionDate:selected === manifest.revision ? manifest.sessionDate : undefined,
-    packs:selected === manifest.revision && manifest.schemaVersion === 7 && typeof DecompressionStream !== 'undefined' ? manifest.packs : undefined };
+    url:(typeof DecompressionStream !== 'undefined' ? release.datasetGzipUrl : undefined) ?? release.datasetUrl,
+    sessionDate:release.sessionDate,
+    packs:release.schemaVersion === 7 && typeof DecompressionStream !== 'undefined' ? release.packs : undefined };
 }
 
 class RealDataAdapter {

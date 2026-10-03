@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "pretest": "python3 ../scripts/scanner_identity.py --check",
+    "pretest:watch": "python3 ../scripts/scanner_identity.py --check",
     "prebuild": "python3 ../scripts/scanner_identity.py --check"
   },
   "dependencies": {

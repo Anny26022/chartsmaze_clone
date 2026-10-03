@@ -1,15 +1,18 @@
 import gzip
 import json
 from pathlib import Path
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
 import hashlib
 
 import pandas as pd
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
+from scanner_identity import checked_identity
 import scanner_bridge as bridge
 from publish_snapshot import publish
-from scanner_identity import checked_identity
 from scanner_cache import ScannerCache
 
 
@@ -66,10 +69,17 @@ class SnapshotPublicationTests(unittest.TestCase):
             self.assertEqual(new['rows'][0]['marketCapCrore'],6000)
             self.assertTrue((root/'.scanner_cache/revisions'/second['revision']/'delivery_history_data/2026-09-30.json.gz').exists())
 
-    def test_local_bridge_rejects_incompatible_request_before_loading_data(self):
+    def test_local_bridge_validates_identity_before_loading_data(self):
+        request = {'asOfDate':'2026-09-30','universe':'mainboard','expressionTree':{'type':'group','operator':'all','children':[]},
+                   'page':1,'pageSize':50}
         for key in ('engineVersion', 'conditionContractHash'):
-            with self.assertRaisesRegex(ValueError, 'incompatible'):
-                bridge.run({**checked_identity(), key: 'old'})
+            with patch('scanner_bridge._load_context') as load:
+                with self.assertRaisesRegex(ValueError, 'incompatible'):
+                    bridge.run({**request, **checked_identity(), key: 'old'})
+                load.assert_not_called()
+        with patch('scanner_bridge._load_context', side_effect=RuntimeError('data loaded')):
+            with self.assertRaisesRegex(RuntimeError, 'data loaded'):
+                bridge.run({**request, **checked_identity()})
 
     def test_failure_does_not_replace_current_manifest(self):
         with tempfile.TemporaryDirectory() as folder,patch('publish_snapshot.list_presets',return_value=[{'id':'lib-easy-money'}]):

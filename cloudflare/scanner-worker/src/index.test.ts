@@ -34,6 +34,26 @@ describe('scanner worker boundary',()=>{
     expect(response.status).toBe(503);
     expect(await response.json()).toMatchObject({ok:false});
   });
+  it('rejects an incompatible active schema-7 release before an advanced scan',async()=>{
+    vi.stubGlobal('fetch',vi.fn(async()=>new Response(JSON.stringify({revision:'a'.repeat(64),sessionDate:'2026-10-01',schemaVersion:7,...SCANNER_IDENTITY,engineVersion:'old'}))));
+    const response=await worker.fetch(new Request('https://worker.example/v1/screens/run',{method:'POST',body:JSON.stringify({...SCANNER_IDENTITY,datasetRevision:'a'.repeat(64),asOfDate:'2026-10-01'})}),environment(),execution);
+    expect(response.status).toBe(400);
+    expect(await response.json()).toMatchObject({error:expect.stringContaining('incompatible')});
+  });
+  it('does not report ready for an incompatible active schema-7 release',async()=>{
+    vi.stubGlobal('fetch',vi.fn(async()=>new Response(JSON.stringify({revision:'a'.repeat(64),sessionDate:'2026-10-01',schemaVersion:7,...SCANNER_IDENTITY,engineVersion:'old'}))));
+    const response=await worker.fetch(new Request('https://worker.example/v1/health'),environment(),execution);
+    expect(response.status).toBe(503);
+  });
+  it('rejects an incompatible private manifest before reading any shard',async()=>{
+    vi.stubGlobal('fetch',vi.fn(async()=>new Response(JSON.stringify({revision:'a'.repeat(64),sessionDate:'2026-10-01',schemaVersion:7,...SCANNER_IDENTITY}))));
+    const env=environment() as any;
+    env.SCANNER_DATA.get=vi.fn(async()=>({json:async()=>({...SCANNER_IDENTITY,engineVersion:'old',schemaVersion:7,revision:'a'.repeat(64),session:'2026-10-01'})}));
+    vi.stubGlobal('caches',{default:{match:vi.fn(async()=>undefined)}});
+    const response=await worker.fetch(new Request('https://worker.example/v1/screens/run',{method:'POST',body:JSON.stringify({...SCANNER_IDENTITY,datasetRevision:'a'.repeat(64),asOfDate:'2026-10-01'})}),env,execution);
+    expect(response.status).toBe(400);
+    expect(env.SCANNER_DATA.get).toHaveBeenCalledTimes(1);
+  });
   it.each(['engineVersion','conditionContractHash'])('rejects mismatched %s before consulting the response cache',async(field)=>{
     vi.stubGlobal('fetch',vi.fn(async()=>new Response(JSON.stringify({revision:'a'.repeat(64),sessionDate:'2026-10-01',schemaVersion:7,...SCANNER_IDENTITY}))));
     const match=vi.fn();vi.stubGlobal('caches',{default:{match}});

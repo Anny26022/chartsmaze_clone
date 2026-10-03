@@ -9,7 +9,7 @@
     "build": "wrangler deploy --dry-run --outdir dist",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "deploy": "wrangler deploy",
+    "deploy": "python3 ../../scripts/scanner_identity.py --check && wrangler deploy",
     "pretest": "python3 ../../scripts/scanner_identity.py --check",
     "prebuild": "python3 ../../scripts/scanner_identity.py --check"
   },

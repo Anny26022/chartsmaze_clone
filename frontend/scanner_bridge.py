@@ -21,6 +21,7 @@ from edl_pipeline.scanner.query import compile_query
 from edl_pipeline.scanner.trend import evaluate_history, normalize_history, _comparison, _evaluate_expression, _leaf_results
 from edl_pipeline.scanner.financials import finite_number, financial_value
 
+LOCAL_SCANNER_IDENTITY = checked_identity()
 
 LEGACY_PRESETS = {
     "preset_persistent_momentum": "lib-persistent-momentum", "preset_easy_money": "lib-easy-money",
@@ -342,7 +343,7 @@ def page_response(response, request):
 
 def run(request, root=ROOT, cache=None):
     if 'engineVersion' in request or 'conditionContractHash' in request:
-        if any(request.get(key) != value for key, value in checked_identity().items()):
+        if any(request.get(key) != value for key, value in LOCAL_SCANNER_IDENTITY.items()):
             raise ValueError('Scanner engine or condition contract is incompatible. Refresh after the matching release is deployed.')
     dataset_revision = request.get('datasetRevision')
     if dataset_revision:

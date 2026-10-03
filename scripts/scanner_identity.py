@@ -5,18 +5,20 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 CONTRACT_FILES = ['frontend/src/data/conditionCatalog.ts', 'frontend/src/types/screener.ts',
+                  'frontend/src/data/nativeConditions.json',
                   'DO NOT DELETE EDL PIPELINE/tests/fixtures/reference_screener_contract.json']
 ENGINE_FILES = ['frontend/src/engine/expression.ts', 'frontend/src/engine/historyEngine.ts',
                 'frontend/src/engine/queryCompiler.ts', 'frontend/src/api/snapshotScreen.ts',
-                'frontend/src/api/capabilityRegistry.ts', 'frontend/scanner_bridge.py']
-ENGINE_FILES += [str(path.relative_to(ROOT)) for path in
+                'frontend/src/api/capabilityRegistry.ts', 'frontend/scanner_bridge.py',
+                'DO NOT DELETE EDL PIPELINE/screen_trend_conditions.py']
+ENGINE_FILES += [path.relative_to(ROOT).as_posix() for path in
                  (ROOT / 'DO NOT DELETE EDL PIPELINE/src/edl_pipeline/scanner').glob('*.py')]
 
 
 def fingerprint(files):
     digest = hashlib.sha256()
     for name in sorted(files):
-        data = (ROOT / name).read_bytes()
+        data = (ROOT / name).read_bytes().replace(b'\r\n', b'\n').replace(b'\r', b'\n')
         digest.update(name.encode() + b'\0' + len(data).to_bytes(8, 'big') + data)
     return digest.hexdigest()
 
