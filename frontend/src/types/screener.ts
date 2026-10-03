@@ -56,6 +56,8 @@ export interface ExpressionConditionNode {
 export type ExpressionNode = ExpressionGroupNode | ExpressionConditionNode;
 
 export interface ScreenerRunRequest {
+  engineVersion?: string;
+  conditionContractHash?: string;
   datasetRevision?: string;
   expressionTree: ExpressionNode;
   textQuery?: string;

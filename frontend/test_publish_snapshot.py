@@ -9,6 +9,7 @@ import hashlib
 import pandas as pd
 import scanner_bridge as bridge
 from publish_snapshot import publish
+from scanner_identity import checked_identity
 from scanner_cache import ScannerCache
 
 
@@ -48,6 +49,7 @@ class SnapshotPublicationTests(unittest.TestCase):
             self.assertEqual(gzip.decompress(compressed),(output/'revisions'/second['revision']/'stocks.json').read_bytes())
             self.assertEqual(second['datasetGzipUrl'],f"/data/revisions/{second['revision']}/stocks.json.gz")
             self.assertEqual(set(second['packs']),{'core','technical','fundamentals'})
+            for key,value in checked_identity().items(): self.assertEqual(second[key],value)
             for name,descriptor in second['packs'].items():
                 packed=(output/descriptor['url'].removeprefix('/data/')).read_bytes()
                 self.assertEqual(descriptor['bytes'],len(packed),name)
@@ -63,6 +65,11 @@ class SnapshotPublicationTests(unittest.TestCase):
             self.assertEqual(old['rows'][0]['marketCapCrore'],5000)
             self.assertEqual(new['rows'][0]['marketCapCrore'],6000)
             self.assertTrue((root/'.scanner_cache/revisions'/second['revision']/'delivery_history_data/2026-09-30.json.gz').exists())
+
+    def test_local_bridge_rejects_incompatible_request_before_loading_data(self):
+        for key in ('engineVersion', 'conditionContractHash'):
+            with self.assertRaisesRegex(ValueError, 'incompatible'):
+                bridge.run({**checked_identity(), key: 'old'})
 
     def test_failure_does_not_replace_current_manifest(self):
         with tempfile.TemporaryDirectory() as folder,patch('publish_snapshot.list_presets',return_value=[{'id':'lib-easy-money'}]):

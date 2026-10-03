@@ -8,6 +8,7 @@ import unittest
 import pandas as pd
 
 from scanner_pack_publication import MAGIC,SHARD_COUNT,build_private_scanner_pack
+from scanner_identity import checked_identity
 
 
 class Cache:
@@ -22,6 +23,7 @@ class ScannerPackTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);target,manifest=build_private_scanner_pack(root,root/'packs','a'*64,'2026-10-01',Cache(frame),context,{},[])
             self.assertEqual(manifest['shards'],SHARD_COUNT)
+            for key,value in checked_identity().items(): self.assertEqual(manifest[key],value)
             self.assertEqual(manifest['symbols'],1)
             files=list((target/'shards').glob('*.bin.gz'))
             self.assertEqual(len(files),SHARD_COUNT)

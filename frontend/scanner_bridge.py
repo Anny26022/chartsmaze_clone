@@ -11,7 +11,8 @@ import re
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1] / "DO NOT DELETE EDL PIPELINE"
-sys.path[:0] = [str(ROOT), str(ROOT / "src")]
+sys.path[:0] = [str(ROOT), str(ROOT / "src"), str(ROOT.parent / "scripts")]
+from scanner_identity import checked_identity
 from screen_trend_conditions import _load_context, _load_delivery_history, _resolve_universe
 from edl_pipeline.scanner.context import normalize_condition_spec
 from edl_pipeline.scanner.context import CONTEXT_CONDITION_REGISTRY
@@ -340,6 +341,9 @@ def page_response(response, request):
 
 
 def run(request, root=ROOT, cache=None):
+    if 'engineVersion' in request or 'conditionContractHash' in request:
+        if any(request.get(key) != value for key, value in checked_identity().items()):
+            raise ValueError('Scanner engine or condition contract is incompatible. Refresh after the matching release is deployed.')
     dataset_revision = request.get('datasetRevision')
     if dataset_revision:
         if not isinstance(dataset_revision,str) or not re.fullmatch(r'[a-f0-9]{64}',dataset_revision):

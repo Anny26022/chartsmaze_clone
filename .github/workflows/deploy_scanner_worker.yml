@@ -9,6 +9,11 @@ on:
       - 'frontend/src/api/snapshotScreen.ts'
       - 'frontend/src/data/**'
       - 'frontend/src/types/**'
+      - 'frontend/src/api/capabilityRegistry.ts'
+      - 'frontend/scanner_bridge.py'
+      - 'DO NOT DELETE EDL PIPELINE/src/edl_pipeline/scanner/**'
+      - 'DO NOT DELETE EDL PIPELINE/tests/fixtures/reference_screener_contract.json'
+      - 'scripts/scanner_identity.py'
       - '.github/workflows/deploy_scanner_worker.yml'
   workflow_dispatch:
 

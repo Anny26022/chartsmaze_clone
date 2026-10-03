@@ -23,3 +23,11 @@ it('reports corrupt chart data consistently',async()=>{
   const { realAdapter }=await import('../api/realAdapter');
   await expect(realAdapter.getChart('TEST')).rejects.toThrow('Chart data unavailable');
 });
+it('rejects incompatible schema-7 releases before using their packs',async()=>{
+  const descriptor={url:'/data/core.json.gz',bytes:1,sha256:'a'.repeat(64),schemaVersion:7,encoding:'gzip'};
+  vi.stubGlobal('fetch',vi.fn().mockResolvedValue({ok:true,json:async()=>({...manifest,schemaVersion:7,
+    engineVersion:'old',conditionContractHash:'b'.repeat(64),
+    packs:{core:descriptor,technical:descriptor,fundamentals:descriptor}})}));
+  const { refreshManifest }=await import('../api/realAdapter');
+  await expect(refreshManifest()).rejects.toThrow('incompatible');
+});

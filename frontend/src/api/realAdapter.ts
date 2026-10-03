@@ -1,3 +1,4 @@
+import { SCANNER_IDENTITY, assertScannerIdentity } from '../engine/compatibility';
 import type { ScreenerRunRequest, ScreenerRunResponse, IPORow, ExplainRequest, ExplainResponse,
   SymbolComparisonRequest, SymbolComparisonResponse, RevisionCurrentResponse } from '../types/screener';
 import { NEXUS_CONDITION_CATALOG } from '../data/conditionCatalog';
@@ -17,6 +18,7 @@ interface Manifest {
   chartUrlTemplate?: string;
   chartRevision?: string;
   engineVersion?: string;
+  conditionContractHash?: string;
   packs?: PublicPacks;
   advanced?: { revision:string; session:string; shards:number; maxSessions:number };
 }
@@ -93,6 +95,7 @@ function validateManifest(value: unknown): Manifest {
           || manifest.chartUrlTemplate.split('{symbol}').length !== 2))) {
     throw new Error('Invalid scanner dataset manifest');
   }
+  if (manifest.schemaVersion === 7) assertScannerIdentity(manifest);
   return manifest;
 }
 
@@ -125,7 +128,7 @@ class RealDataAdapter {
     const source = await snapshotSource(req.datasetRevision);
     const plan = expressionPlan(req.expressionTree,Boolean(req.textQuery?.trim()));
     if (plan.browser) {
-      const snapshot = await runSnapshotTask({type:'screen',source,request:req});
+      const snapshot = await runSnapshotTask({type:'screen',source,request:{...req,...SCANNER_IDENTITY}});
       if (snapshot.type !== 'screen') throw new Error('Unexpected scanner response');
       if (snapshot.result) return snapshot.result;
     }
@@ -133,7 +136,7 @@ class RealDataAdapter {
     const manifest = current ?? await refreshManifest();
     if (!manifest.advanced && base !== '/api') throw new Error('This screen needs the advanced scanner data service.');
     const response = await fetch(`${base}/screens/run`, { method:'POST', headers:{'Content-Type':'application/json'},
-      body:JSON.stringify({...req,asOfDate:source.sessionDate ?? req.asOfDate,datasetRevision:source.revision}) });
+      body:JSON.stringify({...req,...SCANNER_IDENTITY,asOfDate:source.sessionDate ?? req.asOfDate,datasetRevision:source.revision}) });
     const payload = await response.json().catch(() => null);
     if (!response.ok || payload?.error) throw new Error(payload?.error || `Scanner request failed (HTTP ${response.status})`);
     if (payload?.immutableRevision !== source.revision || !Array.isArray(payload.rows)) throw new Error('Scanner returned a different dataset revision');
